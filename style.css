@@ -1,0 +1,187 @@
+/* Brett Reynolds - Personal Website
+   Typography: EB Garamond (body), system sans-serif (UI fallback)
+   Colors: #800020 (maroon links), #222 (text), #fafafa (background)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+body {
+  font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+  color: #222;
+  background-color: #fafafa;
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Headings - small caps style */
+h1 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-variant: small-caps;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.25rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.25rem;
+}
+
+/* Links - maroon */
+a {
+  color: #800020;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header section with photo */
+.header {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  align-items: flex-start;
+}
+
+.photo {
+  flex-shrink: 0;
+}
+
+.photo img {
+  width: 180px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.header-text {
+  flex: 1;
+}
+
+.tagline {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.bio {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* Divider */
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 1.5rem 0;
+}
+
+/* Links list on homepage */
+.links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  font-size: 1rem;
+}
+
+.links li {
+  white-space: nowrap;
+}
+
+/* Contact */
+.contact {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.contact a {
+  color: #800020;
+}
+
+/* Footer */
+footer {
+  margin-top: 3rem;
+  font-size: 0.85rem;
+  color: #888;
+  text-align: center;
+}
+
+/* Publications page */
+.pub-section {
+  margin-bottom: 2.5rem;
+}
+
+.pub-list {
+  list-style: none;
+}
+
+.pub-list li {
+  margin-bottom: 1rem;
+  padding-left: 0;
+  text-indent: -1.5rem;
+  margin-left: 1.5rem;
+}
+
+.pub-year {
+  font-weight: 500;
+}
+
+.pub-links {
+  font-size: 0.9rem;
+}
+
+.pub-links a {
+  margin-right: 0.5rem;
+}
+
+/* Back link */
+.back-link {
+  margin-top: 2rem;
+  font-size: 0.95rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  html {
+    font-size: 16px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .photo img {
+    width: 150px;
+  }
+
+  .links {
+    justify-content: center;
+  }
+
+  .pub-list li {
+    text-indent: 0;
+    margin-left: 0;
+  }
+}

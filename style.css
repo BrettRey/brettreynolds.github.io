@@ -80,6 +80,8 @@ a:hover {
 .tagline {
   font-size: 1rem;
   color: #555;
+  letter-spacing: 0.02em;
+  word-spacing: 0.12em;
   margin-bottom: 1rem;
 }
 

@@ -1,40 +1,120 @@
 % !TEX TS-program = xelatex
-\documentclass[12pt,letterpaper]{article}
+\documentclass[12pt,oneside]{article}
 
-% ~-- ~-- ~-- - Encoding, fonts (XeLaTeX/LuaLaTeX) ~-- ~-- ~-- -
+% ===========================
+% FONTS (house style: EB Garamond)
+% ===========================
 \usepackage{fontspec}
-\defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
-\setmainfont{Times New Roman}
-\setsansfont{Helvetica}
-\setmonofont{Menlo}
 
-% ~-- ~-- ~-- - Page layout ~-- ~-- ~-- -
-\usepackage[margin=1in]{geometry}
-\usepackage[protrusion=true,expansion=false]{microtype}
-\usepackage{booktabs}
-\usepackage{longtable}
+\setmainfont{EB Garamond}[
+  Numbers=OldStyle,
+  Ligatures=TeX,
+]
 
-% ~-- ~-- ~-- - Quotes, URLs, colors, links ~-- ~-- ~-- -
-\usepackage{csquotes}
-\usepackage[dvipsnames]{xcolor}
+
+% Monospace
+\setmonofont{Inconsolata}[Scale=MatchLowercase]
+
+% ===========================
+% PAGE LAYOUT
+% ===========================
+\usepackage[
+  letterpaper,
+  inner=1.25in,
+  outer=1in,
+  top=1in,
+  bottom=1.25in,
+  marginparwidth=0.6in,
+]{geometry}
+
+\usepackage[british]{babel}
+\usepackage[final]{microtype}
+
+% ===========================
+% HEADINGS
+% ===========================
+\usepackage{titlesec}
+
+% Section: small caps, number in margin
+\titleformat{\section}
+  {\normalfont\scshape}
+  {\llap{\thesection\quad}}
+  {0pt}
+  {}
+
+% Subsection: italic
+\titleformat{\subsection}
+  {\normalfont\itshape}
+  {\thesubsection\quad}
+  {0pt}
+  {}
+
+% Subsubsection: italic, smaller
+\titleformat{\subsubsection}
+  {\normalfont\itshape}
+  {\thesubsubsection\quad}
+  {0pt}
+  {}
+
+% Spacing
+\titlespacing*{\section}{0pt}{2ex plus 1ex minus .2ex}{1ex plus .2ex}
+\titlespacing*{\subsection}{0pt}{1.5ex plus 1ex minus .2ex}{0.5ex plus .2ex}
+\titlespacing*{\subsubsection}{0pt}{1ex plus 0.5ex minus .1ex}{0.3ex plus .1ex}
+
+% ===========================
+% RUNNING HEADS
+% ===========================
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\scshape\leftmark}
+\fancyhead[R]{\small\thepage}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+
+% ===========================
+% COLORS & HYPERLINKS
+% ===========================
+\usepackage{xcolor}
+\definecolor{linkmaroon}{RGB}{128, 0, 32}
+
 \usepackage{hyperref}
 \hypersetup{
   colorlinks=true,
-  linkcolor=MidnightBlue,
-  citecolor=MidnightBlue,
-  urlcolor=PineGreen,
+  linkcolor=linkmaroon,
+  citecolor=linkmaroon,
+  urlcolor=linkmaroon,
   pdfauthor={Brett Reynolds},
-  pdftitle={Exploring AI Applications at Humber Polytechnic: A Strategic Assessment and Pilot Proposal}
+  pdftitle={Exploring AI Applications at Humber Polytechnic},
 }
-\urlstyle{same}
 
-% ~-- ~-- ~-- - Lists ~-- ~-- ~-- -
+% ===========================
+% QUOTATIONS
+% ===========================
+\usepackage[style=american]{csquotes}
+\MakeOuterQuote{"}
+
+% ===========================
+% LISTS
+% ===========================
 \usepackage{enumitem}
-\setlist{noitemsep, topsep=2pt}
+\setlist{nosep, leftmargin=*}
+\setlist[enumerate]{label=\arabic*.}
+\setlist[itemize]{label=--}
 
-% ~-- ~-- ~-- - Title ~-- ~-- ~-- -
+% ===========================
+% TABLES & FIGURES
+% ===========================
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{graphicx}
+
+% ===========================
+% TITLE
+% ===========================
 \title{Exploring AI Applications at Humber Polytechnic:\\A Strategic Assessment and Pilot Proposal}
-\author{Brett Reynolds\\Faculty of Liberal Arts \& Sciences\thanks{I used ChatGPT o3 and Claude Opus 4 in drafting. I take responsibility for all content. \\This work is licensed under CC-BY 4.0}}
+\author{Brett Reynolds\\[4pt]Faculty of Liberal Arts \& Sciences\thanks{I used ChatGPT o3 and Claude Opus 4 in drafting. I take responsibility for all content. This work is licensed under CC-BY 4.0}}
 \date{\today}
 
 \begin{document}
@@ -149,7 +229,7 @@ Moreover, data quality varies significantly across systems. Some contain incompl
 \textbf{Potential benefits:} Potentially improved placement satisfaction, reduced coordinator workload for matching processes, enhanced employer relationships.
 
 \noindent
-\textbf{Implementation challenges:} Limited historical data for many programs, subjective nature of \enquote{success} in placements, need for enhanced employer feedback systems.
+\textbf{Implementation challenges:} Limited historical data for many programs, subjective nature of "success" in placements, need for enhanced employer feedback systems.
 
 \noindent
 \textbf{Realistic expectations:} Modest improvements possible, but success would depend on data availability and willingness of coordinators to modify existing placement processes.
@@ -194,11 +274,11 @@ Rather than attempting comprehensive AI deployment, we recommend beginning with 
 
 \noindent\textbf{Secondary exploration:} Basic student engagement pattern analysis
 
-\noindent\textbf{Timeline:} 12--18 months from initiation to evaluation
+\noindent\textbf{Timeline:} \liningnums{12}--\liningnums{18} months from initiation to evaluation
 
 \noindent\textbf{Success metrics:} To be established based on baseline measurements of current processes
 
-\subsection{Phase 1: Foundation (Months 1--6)}
+\subsection{Phase \liningnums{1}: Foundation (Months \liningnums{1}--\liningnums{6})}
 
 \begin{enumerate}
 \item Conduct comprehensive baseline measurement of current information-seeking behaviors and response times
@@ -208,7 +288,7 @@ Rather than attempting comprehensive AI deployment, we recommend beginning with 
 \item Begin staff training on AI concepts and institutional applications
 \end{enumerate}
 
-\subsection{Phase 2: Pilot Implementation (Months 7--12)}
+\subsection{Phase \liningnums{2}: Pilot Implementation (Months \liningnums{7}--\liningnums{12})}
 
 \begin{enumerate}
 \item Deploy limited intelligent information system covering core policies and procedures
@@ -218,7 +298,7 @@ Rather than attempting comprehensive AI deployment, we recommend beginning with 
 \item Refine processes based on initial experience
 \end{enumerate}
 
-\subsection{Phase 3: Evaluation and Decision (Months 13--18)}
+\subsection{Phase \liningnums{3}: Evaluation and Decision (Months \liningnums{13}--\liningnums{18})}
 
 \begin{enumerate}
 \item Conduct comprehensive evaluation comparing outcomes to baseline measurements
@@ -235,13 +315,13 @@ Rather than attempting comprehensive AI deployment, we recommend beginning with 
 Initial pilot implementation costs are difficult to estimate precisely given uncertainty about technical requirements and vendor pricing. Conservative estimates suggest:
 
 \begin{itemize}
-\item Technical infrastructure and software licensing: \$40,000--\$80,000
-\item Consulting and development support: \$50,000--\$150,000
-\item Staff training and project management: \$10,000--\$30,000
-\item Ongoing maintenance and evaluation: \$20,000--\$40,000 annually
+\item Technical infrastructure and software licensing: \$\liningnums{40,000}--\$\liningnums{80,000}
+\item Consulting and development support: \$\liningnums{50,000}--\$\liningnums{150,000}
+\item Staff training and project management: \$\liningnums{10,000}--\$\liningnums{30,000}
+\item Ongoing maintenance and evaluation: \$\liningnums{20,000}--\$\liningnums{40,000} annually
 \end{itemize}
 
-\textbf{Total pilot investment range:} \$120,000--\$300,000 over 18 months
+\textbf{Total pilot investment range:} \$\liningnums{120,000}--\$\liningnums{300,000} over \liningnums{18} months
 
 The wide range reflects genuine uncertainty about implementation complexity and vendor costs. More precise estimates would require detailed technical specifications and market research.
 

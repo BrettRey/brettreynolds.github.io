@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hume's Enquiry: Argument Graph</title>
+<script src="https://unpkg.com/cytoscape@3/dist/cytoscape.min.js"></script>
+<style>
+  :root {
+    --bg: #faf9f6;
+    --fg: #222;
+    --panel-bg: #fff;
+    --border: #ccc;
+    --accent: #6a5;
+    --muted: #888;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Georgia", serif;
+    background: var(--bg);
+    color: var(--fg);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  header {
+    padding: 0.8rem 1.2rem;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: baseline;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+  }
+  header h1 {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  header .stats {
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  .controls {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    font-size: 0.85rem;
+  }
+  .controls label { color: var(--muted); }
+  .controls select, .controls input {
+    font-size: 0.85rem;
+    padding: 0.2rem 0.4rem;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    background: var(--panel-bg);
+  }
+  .main {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+  }
+  #cy {
+    flex: 1;
+    min-height: 0;
+  }
+  #detail {
+    width: 340px;
+    border-left: 1px solid var(--border);
+    padding: 1rem;
+    overflow-y: auto;
+    background: var(--panel-bg);
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  #detail.empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--muted);
+    font-style: italic;
+  }
+  #detail h2 { font-size: 1rem; margin-bottom: 0.5rem; }
+  #detail .meta { color: var(--muted); font-size: 0.8rem; margin-bottom: 0.6rem; }
+  #detail .field { margin-bottom: 0.5rem; }
+  #detail .field-label { font-weight: 600; font-size: 0.8rem; text-transform: uppercase; color: var(--muted); }
+  #detail blockquote {
+    border-left: 3px solid var(--border);
+    padding-left: 0.8rem;
+    margin: 0.4rem 0;
+    font-style: italic;
+    color: #444;
+  }
+  .legend {
+    display: flex;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    font-size: 0.75rem;
+    padding: 0.4rem 1.2rem;
+    border-top: 1px solid var(--border);
+    background: var(--panel-bg);
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+  .legend-swatch {
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+    display: inline-block;
+  }
+  .empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: var(--muted);
+    gap: 0.8rem;
+    text-align: center;
+    padding: 2rem;
+  }
+  .empty-state code {
+    background: #eee;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Hume's <em>Enquiry</em>: Argument Graph</h1>
+  <span class="stats" id="stats"></span>
+  <div class="controls">
+    <label for="section-filter">Section:</label>
+    <select id="section-filter"><option value="all">All</option></select>
+    <label for="type-filter">Type:</label>
+    <select id="type-filter"><option value="all">All</option></select>
+    <label for="search">Search:</label>
+    <input type="text" id="search" placeholder="paraphrase text...">
+  </div>
+</header>
+
+<div class="main">
+  <div id="cy"></div>
+  <div id="detail" class="empty">Click a node to see details</div>
+</div>
+
+<div class="legend" id="legend"></div>
+
+<script>
+const NODE_COLOURS = {
+  Proposition:   '#4a90d9',
+  EvidenceItem:  '#6ab04c',
+  Warrant:       '#f0932b',
+  Objection:     '#eb4d4b',
+  Reply:         '#7ed6df',
+  Definition:    '#be2edd',
+  ArgumentStep:  '#95afc0'
+};
+
+const NODE_SHAPES = {
+  Proposition:   'round-rectangle',
+  EvidenceItem:  'ellipse',
+  Warrant:       'diamond',
+  Objection:     'triangle',
+  Reply:         'pentagon',
+  Definition:    'hexagon',
+  ArgumentStep:  'octagon'
+};
+
+const EDGE_COLOURS = {
+  supports:     '#4a90d9',
+  attacks:      '#eb4d4b',
+  undercuts:    '#e17055',
+  exemplifies:  '#6ab04c',
+  defines:      '#be2edd',
+  distinguishes:'#a29bfe',
+  explains:     '#636e72',
+  rebuts:       '#00b894',
+  depends_on:   '#fdcb6e',
+  restates:     '#95afc0'
+};
+
+let cy = null;
+let graphData = null;
+
+async function loadData() {
+  // Try relative path first (works when served from viewer/ or repo root)
+  for (const path of ['../data/ehu.json', 'data/ehu.json', '../data/ehu.json']) {
+    try {
+      const r = await fetch(path);
+      if (r.ok) return await r.json();
+    } catch (e) { /* try next */ }
+  }
+  return null;
+}
+
+function buildElements(data) {
+  const elements = [];
+
+  // Nodes
+  for (const node of data.nodes) {
+    elements.push({
+      data: {
+        id: node.id,
+        label: node.id,
+        type: node.type,
+        paraphrase: node.paraphrase || node.text || '',
+        raw: node,
+        section: getSectionForNode(node, data)
+      }
+    });
+  }
+
+  // Edges
+  for (const edge of data.edges) {
+    elements.push({
+      data: {
+        id: edge.id,
+        source: edge.source,
+        target: edge.target,
+        type: edge.type,
+        label: edge.type,
+        confidence: edge.confidence,
+        raw: edge
+      }
+    });
+  }
+
+  // ArgumentStep internal edges (premises -> step -> conclusion)
+  for (const node of data.nodes) {
+    if (node.type === 'ArgumentStep') {
+      for (const pid of (node.premises || [])) {
+        elements.push({
+          data: {
+            id: `${node.id}_from_${pid}`,
+            source: pid,
+            target: node.id,
+            type: 'supports',
+            label: 'premise'
+          }
+        });
+      }
+      if (node.conclusion) {
+        elements.push({
+          data: {
+            id: `${node.id}_to_${node.conclusion}`,
+            source: node.id,
+            target: node.conclusion,
+            type: 'supports',
+            label: 'concludes'
+          }
+        });
+      }
+      if (node.warrant) {
+        elements.push({
+          data: {
+            id: `${node.id}_warrant_${node.warrant}`,
+            source: node.warrant,
+            target: node.id,
+            type: 'supports',
+            label: 'warrants'
+          }
+        });
+      }
+    }
+  }
+
+  return elements;
+}
+
+function getSectionForNode(node, data) {
+  if (!node.attested_by || node.attested_by.length === 0) return null;
+  const spanId = node.attested_by[0];
+  const span = data.spans.find(s => s.id === spanId);
+  return span ? span.loc.section : null;
+}
+
+function initGraph(elements) {
+  cy = cytoscape({
+    container: document.getElementById('cy'),
+    elements: elements,
+    style: [
+      {
+        selector: 'node',
+        style: {
+          'label': 'data(label)',
+          'font-size': '10px',
+          'text-valign': 'center',
+          'text-halign': 'center',
+          'width': 40,
+          'height': 40,
+          'border-width': 2,
+          'border-color': '#fff'
+        }
+      },
+      ...Object.entries(NODE_COLOURS).map(([type, colour]) => ({
+        selector: `node[type="${type}"]`,
+        style: {
+          'background-color': colour,
+          'shape': NODE_SHAPES[type] || 'ellipse',
+          'color': '#333'
+        }
+      })),
+      {
+        selector: 'edge',
+        style: {
+          'width': 2,
+          'target-arrow-shape': 'triangle',
+          'curve-style': 'bezier',
+          'label': 'data(label)',
+          'font-size': '8px',
+          'text-rotation': 'autorotate',
+          'color': '#666',
+          'text-background-color': '#faf9f6',
+          'text-background-opacity': 0.8,
+          'text-background-padding': '2px'
+        }
+      },
+      ...Object.entries(EDGE_COLOURS).map(([type, colour]) => ({
+        selector: `edge[type="${type}"]`,
+        style: {
+          'line-color': colour,
+          'target-arrow-color': colour
+        }
+      })),
+      {
+        selector: 'edge[type="attacks"], edge[type="undercuts"]',
+        style: {
+          'line-style': 'dashed'
+        }
+      },
+      {
+        selector: ':selected',
+        style: {
+          'border-width': 4,
+          'border-color': '#333',
+          'line-width': 4
+        }
+      },
+      {
+        selector: '.faded',
+        style: { 'opacity': 0.15 }
+      },
+      {
+        selector: '.highlighted',
+        style: { 'opacity': 1 }
+      }
+    ],
+    layout: {
+      name: 'cose',
+      animate: false,
+      nodeRepulsion: 8000,
+      idealEdgeLength: 120,
+      gravity: 0.3,
+      padding: 40
+    }
+  });
+
+  cy.on('tap', 'node', function(evt) {
+    showDetail(evt.target.data());
+    highlightNeighbourhood(evt.target);
+  });
+
+  cy.on('tap', 'edge', function(evt) {
+    showEdgeDetail(evt.target.data());
+  });
+
+  cy.on('tap', function(evt) {
+    if (evt.target === cy) {
+      clearDetail();
+      cy.elements().removeClass('faded highlighted');
+    }
+  });
+}
+
+function highlightNeighbourhood(node) {
+  cy.elements().addClass('faded');
+  const neighbourhood = node.neighborhood().add(node);
+  neighbourhood.removeClass('faded').addClass('highlighted');
+}
+
+function showDetail(d) {
+  const panel = document.getElementById('detail');
+  panel.classList.remove('empty');
+  const node = d.raw;
+  const spans = graphData.spans.filter(s => (node.attested_by || []).includes(s.id));
+
+  let html = `<h2>${node.id}</h2>`;
+  html += `<div class="meta">${node.type}`;
+  if (node.status) html += ` (${node.status})`;
+  if (node.confidence != null) html += ` · confidence: ${(node.confidence * 100).toFixed(0)}%`;
+  html += `</div>`;
+
+  if (node.paraphrase) {
+    html += `<div class="field"><div class="field-label">Paraphrase</div>${node.paraphrase}</div>`;
+  }
+  if (node.text && node.text !== node.paraphrase) {
+    html += `<div class="field"><div class="field-label">Text</div>${node.text}</div>`;
+  }
+  if (node.modality) {
+    html += `<div class="field"><div class="field-label">Modality</div>${node.modality.force || ''} ${node.modality.qualifier || ''}</div>`;
+  }
+  if (node.subtype) {
+    html += `<div class="field"><div class="field-label">Subtype</div>${node.subtype}</div>`;
+  }
+  if (node.type === 'ArgumentStep') {
+    html += `<div class="field"><div class="field-label">Premises</div>${(node.premises || []).join(', ')}</div>`;
+    if (node.conclusion) html += `<div class="field"><div class="field-label">Conclusion</div>${node.conclusion}</div>`;
+    if (node.warrant) html += `<div class="field"><div class="field-label">Warrant</div>${node.warrant}</div>`;
+  }
+
+  if (spans.length > 0) {
+    html += `<div class="field"><div class="field-label">Source spans</div>`;
+    for (const span of spans) {
+      html += `<blockquote>${span.text}</blockquote>`;
+      html += `<div class="meta">Section ${span.loc.section}`;
+      if (span.loc.paragraph) html += `, para ${span.loc.paragraph}`;
+      if (span.loc.sentence) html += `, sent ${span.loc.sentence}`;
+      html += `</div>`;
+    }
+    html += `</div>`;
+  }
+
+  panel.innerHTML = html;
+}
+
+function showEdgeDetail(d) {
+  const panel = document.getElementById('detail');
+  panel.classList.remove('empty');
+  const edge = d.raw;
+  if (!edge) {
+    panel.innerHTML = `<h2>${d.label}</h2><div class="meta">${d.source} → ${d.target}</div>`;
+    return;
+  }
+  let html = `<h2>${edge.id}</h2>`;
+  html += `<div class="meta">${edge.type}</div>`;
+  html += `<div class="field"><div class="field-label">From</div>${edge.source}</div>`;
+  html += `<div class="field"><div class="field-label">To</div>${edge.target}</div>`;
+  if (edge.confidence != null) {
+    html += `<div class="field"><div class="field-label">Confidence</div>${(edge.confidence * 100).toFixed(0)}%</div>`;
+  }
+  panel.innerHTML = html;
+}
+
+function clearDetail() {
+  const panel = document.getElementById('detail');
+  panel.classList.add('empty');
+  panel.textContent = 'Click a node to see details';
+}
+
+function populateFilters(data) {
+  const sections = new Set();
+  const types = new Set();
+  for (const span of data.spans) {
+    sections.add(span.loc.section);
+  }
+  for (const node of data.nodes) {
+    types.add(node.type);
+  }
+
+  const sf = document.getElementById('section-filter');
+  for (const s of [...sections].sort((a, b) => a - b)) {
+    const opt = document.createElement('option');
+    opt.value = s;
+    opt.textContent = `Section ${s}`;
+    sf.appendChild(opt);
+  }
+
+  const tf = document.getElementById('type-filter');
+  for (const t of [...types].sort()) {
+    const opt = document.createElement('option');
+    opt.value = t;
+    opt.textContent = t;
+    tf.appendChild(opt);
+  }
+
+  sf.addEventListener('change', applyFilters);
+  tf.addEventListener('change', applyFilters);
+  document.getElementById('search').addEventListener('input', applyFilters);
+}
+
+function applyFilters() {
+  const section = document.getElementById('section-filter').value;
+  const type = document.getElementById('type-filter').value;
+  const search = document.getElementById('search').value.toLowerCase();
+
+  cy.nodes().forEach(node => {
+    const d = node.data();
+    let visible = true;
+    if (section !== 'all' && d.section !== parseInt(section)) visible = false;
+    if (type !== 'all' && d.type !== type) visible = false;
+    if (search && !(d.paraphrase || '').toLowerCase().includes(search)) visible = false;
+    node.style('display', visible ? 'element' : 'none');
+  });
+
+  cy.edges().forEach(edge => {
+    const src = edge.source();
+    const tgt = edge.target();
+    const visible = src.style('display') !== 'none' && tgt.style('display') !== 'none';
+    edge.style('display', visible ? 'element' : 'none');
+  });
+}
+
+function buildLegend() {
+  const el = document.getElementById('legend');
+  let html = '';
+  for (const [type, colour] of Object.entries(NODE_COLOURS)) {
+    html += `<span class="legend-item"><span class="legend-swatch" style="background:${colour}"></span>${type}</span>`;
+  }
+  html += ' | ';
+  for (const [type, colour] of Object.entries(EDGE_COLOURS)) {
+    html += `<span class="legend-item"><span class="legend-swatch" style="background:${colour}"></span>${type}</span>`;
+  }
+  el.innerHTML = html;
+}
+
+function updateStats(data) {
+  const el = document.getElementById('stats');
+  const warrants = data.nodes.filter(n => n.type === 'Warrant');
+  const inferred = warrants.filter(w => w.status === 'inferred').length;
+  el.textContent = `${data.nodes.length} nodes · ${data.edges.length} edges · ${data.spans.length} spans · ${warrants.length} warrants (${inferred} inferred)`;
+}
+
+async function init() {
+  graphData = await loadData();
+  if (!graphData || graphData.nodes.length === 0) {
+    document.getElementById('cy').innerHTML = `
+      <div class="empty-state">
+        <p>No argument data yet.</p>
+        <p>Add spans, nodes, and edges to <code>data/ehu.json</code> to see the graph.</p>
+      </div>`;
+    buildLegend();
+    return;
+  }
+
+  const elements = buildElements(graphData);
+  initGraph(elements);
+  populateFilters(graphData);
+  updateStats(graphData);
+  buildLegend();
+}
+
+init();
+</script>
+</body>
+</html>

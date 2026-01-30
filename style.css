@@ -175,17 +175,29 @@ footer {
 }
 
 .essay-content p {
-  margin-bottom: 1rem;
+  margin-bottom: 0;
+  text-indent: 1.5em;
   text-align: justify;
   hyphens: auto;
 }
 
+/* No indent on first paragraph or after breaks */
+.essay-content p:first-of-type,
+.essay-content hr + p,
+.essay-content ul + p,
+.essay-content section + p {
+  text-indent: 0;
+}
+
 .essay-content ul {
-  margin: 1rem 0 1rem 1.5rem;
+  margin: 1rem 0;
+  padding-left: 1.5em;
+  list-style-position: outside;
 }
 
 .essay-content li {
   margin-bottom: 0.5rem;
+  padding-left: 0;
 }
 
 .smallcaps {
@@ -215,8 +227,8 @@ footer {
   font-size: 0.95rem;
   color: #555;
   margin-bottom: 0.75rem;
-  padding-left: 1.5rem;
-  text-indent: -1.5rem;
+  margin-left: 2em;
+  text-indent: -2em;
 }
 
 /* Responsive adjustments */

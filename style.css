@@ -45,6 +45,39 @@ h2 {
   padding-bottom: 0.25rem;
 }
 
+h3 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+blockquote {
+  margin: 1.5rem 0;
+  padding: 1rem 1.5rem;
+  border-left: 3px solid #ddd;
+  background: #fafafa;
+  font-size: 0.95rem;
+}
+
+blockquote p {
+  margin-bottom: 0.75rem;
+  text-indent: 0 !important;
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+code {
+  font-family: 'Inconsolata', 'Consolas', monospace;
+  font-size: 0.9em;
+  background: #f0f0f0;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
 /* Links - maroon */
 a {
   color: #800020;

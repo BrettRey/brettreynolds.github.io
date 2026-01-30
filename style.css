@@ -163,6 +163,62 @@ footer {
   font-size: 0.95rem;
 }
 
+/* Essay pages */
+.essay-meta {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.essay-content {
+  margin-top: 1.5rem;
+}
+
+.essay-content p {
+  margin-bottom: 1rem;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.essay-content ul {
+  margin: 1rem 0 1rem 1.5rem;
+}
+
+.essay-content li {
+  margin-bottom: 0.5rem;
+}
+
+.smallcaps {
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+}
+
+.citation {
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* References section */
+.references {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ddd;
+}
+
+.ref-heading {
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+}
+
+.ref-entry {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  text-indent: -1.5rem;
+}
+
 /* Responsive adjustments */
 @media (max-width: 600px) {
   html {

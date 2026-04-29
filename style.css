@@ -218,6 +218,8 @@ footer {
 
 /* No indent on first paragraph or after breaks */
 .essay-content p:first-of-type,
+.essay-content h2 + p,
+.essay-content h3 + p,
 .essay-content hr + p,
 .essay-content ul + p,
 .essay-content section + p {

@@ -1,0 +1,401 @@
+---
+title: "Not every stable cluster is homeostatic: Stability, network order, and control in projectible kinds"
+author: "Brett Reynolds"
+year: "2026"
+status: "Preprint"
+canonical_url: "https://philarchive.org/rec/REYNES"
+website_url: "https://brettreynolds.ca/papers/not-every-stable-cluster-is-homeostatic/"
+markdown_url: "https://brettreynolds.ca/papers/not-every-stable-cluster-is-homeostatic/paper.md"
+version: "author-manuscript mirror"
+version_date: "2026-06-04"
+keywords: ["homeostatic property clusters", "projectibility", "natural kinds", "causal control"]
+---
+# Not every stable cluster is homeostatic: Stability, network order, and control in projectible kinds
+
+**Author-manuscript mirror.** This Markdown file is provided for accessibility, search, and machine readability. The canonical public record is linked in the metadata above.
+
+## Abstract
+Homeostatic property cluster theory gave natural-kinds realism a powerful anti-essentialist form, on which a kind can be real because its properties cluster through mechanisms rather than because it has an essence. In the HPC-descended debate, the homeostatic component can be made to carry too much weight when asked to cover several achievements that aren’t the same: reliable co-occurrence, network order, maintenance, and feedback-sensitive control. This paper treats projectibility as the target of kind claims and offers a diagnostic ladder: identify the projection target, then ask whether a stable profile supports it, whether network order makes the profile non-accidental, what if anything maintains the profile, and whether that maintenance is corrective control. On the disciplined use proposed here, homeostasis belongs at the last step, where perturbation-sensitive organization preserves a higher-scale relation through lower-scale variation. The Watt governor calibrates control, glycemic regulation tests the strict biological version of the control diagnostic, interjection tokens supply a contrast linguistic case, and monitored agreement production supplies a candidate positive one. The result is a disciplined way of using the framework’s insight without turning into a loose synonym for stable or projectible.
+
+
+# Introduction
+
+The target of this paper is a quiet ambiguity in recent anti-essentialist kind theory. Boyd’s homeostatic property cluster framework, Slater’s stable property cluster proposal, and Khalidi’s causal-network account all reject essences, and they all aim to explain why some categories support projection while others do not. Each, though, locates the basis for projection somewhere slightly different.
+
+Boyd ties it to homeostatic mechanisms that maintain the cluster (Boyd 1991); Slater deliberately sets the stability of a cluster apart from how it’s maintained (Slater 2015); and Khalidi locates it in the causal-network relations among core and derivative properties (Khalidi 2013, 2018). The ambiguity lies less in these accounts than in the HPC-descended problem-space in which stability, network order, maintenance, and homeostasis remain neighbouring explanations of projectibility. The securing structure for a given projection can remain underdetermined.
+
+The looseness is clearest in the homeostatic-mechanism component of the framework. Boyd gives that component considerable flexibility, treating the clustering as “metaphorically (sometimes literally)” homeostatic and allowing it to be sustained by mutual property support, underlying mechanisms, or both (Boyd 1999). Onishi and Serpico are right that the notion of a homeostatic mechanism in HPC theory has never been fully explicated (Onishi and Serpico 2022).
+
+The claim is that not every stable cluster is homeostatic. The literature needn’t explicitly identify every stable cluster with a homeostatic one for this to matter. The surrounding debate can still make it too easy to slide from stable profile to stabilizer, from stabilizer to homeostasis, and from homeostasis to projectible kind, as though these were one achievement.
+
+The order should run the other way. Start from a projection target, ask what empirical profile supports it, ask what network order makes the profile non-accidental, ask what maintains it, and only then ask whether the maintenance is corrective control. This order keeps Boyd’s projectibility frame in place while asking that <span class="smallcaps">homeostasis</span> be used more literally, in a way that makes a genuine demand. Weinberger’s recent account of homeostasis as a form of causal control is what supplies that demand (Weinberger 2026).
+
+The contribution is a diagnostic one. It leaves HPC theory in place and separates five questions that discussions in this tradition can compress: the projection target, the stable profile that supports it, the network order that explains why the profile isn’t an accidental list, the maintainer that keeps the profile stable across the relevant range of cases, and the possible corrective process that preserves a higher-scale relation. Only this last question gives the word <span class="smallcaps">homeostatic</span> anything to mean beyond stability.
+
+Control theory supplies the final rung; HPC-style analyses still need a diagnostic for when that rung has actually been reached.
+
+The scope is Boyd-style projectible realist kind claims. Many classifications earn their keep by mapping variation, stabilizing measurement, organizing historical comparison, or coordinating inquiry before they support strong projection. Those uses are legitimate, but the diagnostic here concerns categories offered as real kinds because they support prediction, explanation, induction, or controlled intervention.
+
+The cases that follow run across a machine, an organism, and two linguistic phenomena. Their role is diagnostic: they stress different rungs of the ladder and test whether a single, domain-neutral diagnostic can keep projection, stable profile, network order, maintenance, and corrective control apart. A distinction in the theory of kinds ought to travel in this way, and if it held only in biology that would be a limitation rather than a sign of rigour. The cases earn their place by what they reveal about the diagnostic, not by representing their fields.
+
+The order of what follows is straightforward. The next five sections develop projectibility and the successive evidential demands, ending with corrective control. A short section then states the diagnostic ladder before a case section works through the examples and a final discussion asks what the distinction changes for HPC theory more broadly.
+
+# Projectibility first
+
+Boyd’s framework works because projectibility doesn’t require necessary and sufficient conditions. A category can support induction when its associated properties are connected non-accidentally, even where no single property is shared by every member. On Boyd’s accommodation thesis, successful classification is a matter of fitting our inferential practices to causal structure, so that induction and explanation “always require that we accommodate our categories to the causal structure of the world” (Boyd 1991, 224). We construct the categories, but whether they succeed depends on a structure we don’t control. That structure does the explanatory work.
+
+The problem of <span class="smallcaps">projectibility</span> comes from Goodman’s new riddle of induction, where a predicate can fit all observed cases and still fail to license projection to unobserved ones (Goodman \[1955\] 1983). Boyd’s contribution was to ground projectibility in causal structure without grounding it in essences, which is also what gave HPC theory its purchase against the worry, which Boyd associated with Hacking, that where a kind’s boundaries are fuzzy its membership is fixed by “people in concert” rather than by nature (Boyd 1991).
+
+One reason, then, is that it helps to begin from the projection target before mechanism. Mechanisms matter to the theory because they explain why projection is reliable, so a category that supports no projection isn’t redeemed by having a tidy causal story behind it, and a category that does support projection is already doing much of the work a realist about kinds cares about. The task of the rest of the paper is to ask, for categories that support projection, which further evidential demands they meet.
+
+The risk is that this question can be made too easy. If the only thing asked is whether a cluster recurs, a great many categories will qualify, because recurrence on its own is cheap. Stable co-occurrence may license some inference, but an analysis still has to specify which projection is being made before the category becomes theoretically interesting, and that happens only when its profile supports prediction, explanation, or controlled intervention.
+
+Projection is therefore field-relative without being arbitrary. A category is projectible for some family of questions, contrasts, and evidential practices: metabolic physiology, interactional linguistics, and grammar license different expectations from different profiles. But the field doesn’t make the projection successful. Once the target is declared, the profile still has to support reliable expectations under the relevant contexts and interventions.
+
+# Observed stability and invariance
+
+Slater’s stable property cluster account presses the useful point that natural kindness needn’t be assessed by first identifying a homeostatic mechanism. What matters on this view is the stability of a property cluster, considered apart from the various ways that stability might be maintained, since a cluster can, in Boyd’s phrase, hold itself together (Slater 2015). This yields the first distinction the paper needs, because a stable and projectible cluster may be perfectly real without being homeostatic in any stronger sense.
+
+Once the target is fixed, the next question is whether a stable profile supports it. Unexplained stability is still too thin to do all the work, and Onishi and Serpico turn this into a dilemma.
+
+If the explanatory role of underlying processes is made optional or postponed, as stable-cluster views invite us to do, the account risks leaving underexplained why some inductions are rational rather than lucky. If causal structure is retained through causal-network order, as Khalidi proposes, the analysis still faces interest-relativity, because which structure counts as the relevant one depends on the explanatory purpose at hand (Onishi and Serpico 2022). Their broader observation is that the notion of a homeostatic mechanism has never been fully explicated, and that interest-relativity is unlikely to be eliminable.
+
+The diagnostic offered here doesn’t try to remove that interest-relativity so much as to make it explicit. Asking first what a category lets us project, and against which declared expectation, fixes the explanatory target, and the question of securing structure is then asked relative to that target rather than in the abstract. Interest-relativity becomes a parameter the analysis declares rather than a cost it pays without noticing.
+
+Woodward’s account of invariance helps locate what mere stability leaves out. The kind of stability that matters for explanation is invariance under intervention, not simply persistence across space and time, so that a generalization earns its explanatory keep when it continues to hold across a relevant range of changes, including changes that could be imposed (Woodward 2001). The first diagnostic step after the projection target is correspondingly modest: a stable property cluster should support some projection across a specified range of contexts and interventions, with evidence that goes beyond recurrence and shows that observing part of the profile licenses a useful expectation about another part, or about how the system behaves under a relevant change.
+
+# Network order without control
+
+Khalidi’s network account addresses a different shortcoming. A cluster is more than a list of associated properties, because its properties can be ordered, with some causally prior and others derivative. That advances on a bare cluster picture, since it explains why some properties are diagnostic and others merely derivative (Khalidi 2013, 2018). Khalidi’s account grounds projectibility in causal-network order while leaving homeostatic mechanisms out as a general requirement. Identifying that order as one securing structure among several is continuous with his aim.
+
+That order is the strength of the account. The present point is narrower: ordered dependence, even when objective and explanatory, doesn’t by itself amount to feedback-sensitive correction.
+
+Ordered dependence is still some distance from corrective control. A node in a causal network can support projection because the properties around it stand in systematic causal relations, and this remains compatible with the system never tracking a departure, never allowing lower-scale variables to adjust, and never preserving a higher-scale relation through any such adjustment. Network order can explain projectibility without amounting to homeostasis.
+
+The network-order step asks whether the profile has internal structure, and the relevant evidence consists of asymmetries among the properties: which are upstream, which derivative, which central, and which only peripheral cues. The characteristic failure is the use of causal vocabulary for a merely unordered list, since redescribing co-occurrence in causal terms doesn’t by itself establish that any ordering obtains.
+
+I use <span class="smallcaps">network order</span> broadly across the diagnostic. In strictly biological or mechanical cases the ordering will usually be causal, whereas in linguistic and social cases the relevant dependencies may instead be functional, conventional, sequential, normative, or evidential. What matters in each case is that the profile has a structure that explains projection, because a merely associated bundle of features falls short.
+
+The broad use still needs a constraint. A non-causal ordering relation should be asymmetric: one feature conditions, licenses, constrains, or structures another. Network order requires more than evidential usefulness. A cue is evidentially privileged only when it tracks an ordering relation in the profile rather than merely co-occurring with the rest of the bundle.
+
+# From stabilizers to controllers
+
+Maintenance introduces two questions that are easy to run together. Whatever keeps a cluster clustered can be called its <span class="smallcaps">stabilizer</span>, in the sense that removal would let the category fragment, drift, or dissolve. The stabilizer is a functional role, and the causal structure that fills the role is the mechanism. This functional-role description is what Boyd called a homeostatic mechanism (Boyd 1991), and it remains a familiar way of talking about how linguistic and social categories are held together. Maintenance, in this sense, is the umbrella term.
+
+The question the paper presses is which stabilizers are also controllers. A <span class="smallcaps">controller</span> is the narrower case: a stabilizer with feedback-sensitive corrective organization that preserves a higher-scale relation through lower-scale variation. Not every stabilizer meets this condition. Reliable co-occurrence can be maintained by entrenchment, by transmission, or by a frozen accident that nothing actively corrects, and ordered dependence can be maintained by causal wiring that carries no error signal and returns the system to no target.
+
+The two ideas answer different counterfactuals, which is why they come apart. The stabilizer question is about the maintainer, and it asks what would happen to the cluster if the maintaining process were removed. The controller question is about the profile under threat, and it asks whether some maintaining process registers and answers a perturbation that threatens the profile in a way that brings the profile back toward a relation worth projecting from.
+
+A case can satisfy the first condition and fail the second, since entrenchment and transmission may hold a profile together without detecting or correcting a departure. The space between a merely held profile and an actively corrected one is where <span class="smallcaps">homeostatic</span> tends to be overclaimed.
+
+Read this way, maintenance sits at the fourth question in the ladder. A stable profile can support projection before its maintainer is known, and a network-ordered profile can explain why projection is reliable without yet showing what keeps the network in place. Once a maintainer is identified, the final question is whether that maintainer is a controller. Only the controller variety earns <span class="smallcaps">homeostatic</span> in anything like a literal sense, and the next section says what control adds, using the account that states the standard most carefully.
+
+# Corrective control
+
+Control-secured kind claims are more demanding, and the first thing to get right is the level at which the control is located. A controller can of course be a kind of system, but the kind label leaves open what senses, compares, or corrects. A candidate kind earns the <span class="smallcaps">homeostatic</span> label only when its projectible profile is maintained by a system or practice with feedback-sensitive corrective organization, so that the bearer of control is specified rather than smuggled in by the category named.
+
+Weinberger’s central lesson is that homeostasis requires more than constancy, because a controlled system can preserve a higher-scale relation precisely by letting its lower-scale variables move. His dynamic causal models show that feedback systems, and the Watt governor in particular, produce control relations that static causal models and a simple vocabulary of intervention tend to obscure (Weinberger 2026).
+
+Two consequences are worth drawing out. The first is that holding a variable rigidly fixed can be a sign of less control rather than more, since appropriate variation in the lower-scale variables is often the means by which the higher-scale relation is kept in place. The second is that not every intervention is equally probative. Perturbations to workload or demand can reveal the controller’s response, while clamping the regulated variable itself can sever the very feedback that constitutes the control. Stillness under a clamp doesn’t show that nothing was being controlled.
+
+For the purposes of this paper, corrective control has four evidential marks. The evidence should include a perturbation that threatens the projectible profile, a variable or relation that the system tracks and that matters to the profile, a response pathway that changes lower-scale conditions, and a result in which that response preserves a higher-scale relation supporting projection. Feedback on its own doesn’t satisfy these conditions, because the evidence has to show that the feedback explains why the profile remains projectible under perturbation.
+
+The biological control literature makes the same warning concrete. Control mechanisms sense conditions, transmit signals, and alter constraints within the mechanisms they control (Bich and Bechtel 2022a), and in organisms these controls are integrated across the system rather than issued from a single command point (Bich et al. 2016; Bich and Bechtel 2022b). That evidence is a good deal more specific than the claim that a property cluster is stable, or that its properties stand in some causal order, and it marks the final and most demanding step in the diagnostic ladder.
+
+# The diagnostic ladder
+
+The diagnostic ladder is a sequence of evidential questions rather than an exhaustive taxonomy. Control-secured cases will usually display stability, network order, and maintenance as well, but the inference doesn’t run in reverse. A stable cluster needn’t have an internally ordered profile, a network-ordered kind needn’t have a specified maintainer, and a maintained kind needn’t be maintained by corrective control.
+
+The ladder isolates five questions that are recurrently compressed in HPC discussions: what gets projected, what profile supports the projection, what order makes the profile non-accidental, what maintains the profile, and whether that maintenance is corrective control. Selection, drift, institutional scaffolding, exemplar effects, and path dependence may each stabilize projectible profiles in ways that deserve separate treatment. These cases matter because they may secure projectibility without fitting neatly into the strict control role; the ladder is meant to prevent conflation, not to classify every stabilizing process.
+
+<div id="tab:diagnostics">
+
+| Diagnostic step | Evidence needed | Failure mode |
+|:---|:---|:---|
+| Projection target | A specified field-relative inference, prediction, explanation, or intervention the category is supposed to support | Kind talk without saying what the category lets us project |
+| Stable profile | Reliable co-occurrence across relevant contexts, with a projection from observed to unobserved features | Mere recurrence without projectible payoff |
+| Network order | Asymmetries among properties, with some upstream, central, derivative, or evidentially privileged because they track such relations | Causal vocabulary used for an unordered list |
+| Maintenance | A stabilizer whose removal would make the profile fragment, drift, or dissolve | Treating persistence as if a maintainer had been specified |
+| Corrective control | Perturbation-sensitive correction that preserves a higher-scale relation through lower-scale variation | Treating stability, maintenance, or feedback as control |
+
+A diagnostic ladder for projectible profiles and homeostatic control.
+
+</div>
+
+The ladder is meant to turn the question around. For any proposed HPC kind, it asks five things before the word <span class="smallcaps">homeostatic</span> is used. The first is what the category lets us project. The second is what stable profile supports that projection. The third is whether the profile has ordering relations that explain why the projection isn’t accidental. The fourth is what maintains the profile. The fifth is whether the maintainer corrects perturbations. The aim is to make the evidential demand behind <span class="smallcaps">homeostatic</span> explicit.
+
+Nothing in the argument requires every historical use of <span class="smallcaps">homeostatic</span> in HPC theory to have meant feedback control. The claim is normative and diagnostic: corrective control is the structure that gives the term distinctive content once stability, maintenance, and order have been separated.
+
+# The cases
+
+The cases are arranged by evidential role. Their taxonomic standing differs: the Watt governor calibrates the control architecture; glycemic regulation supplies a biological profile plausibly secured by such architecture; interjection tokens show projectibility and maintenance without a specified controller; and monitored agreement production shows how a linguistic dependency can become control-secured when embedded in an online repair loop. Together, the cases test whether a profile supports projection, what order explains that projection, what maintains the profile, and whether the maintainer is corrective control.
+
+Running these cases across a machine, an organism, and two linguistic phenomena is deliberate. The diagnostic concerns how projectibility is secured, a question not internal to any one science. If the same ladder discriminates among a governor, a regulatory profile, and two kinds of linguistic patterning, then the distinction is doing work in the theory of kinds rather than reporting the folklore of a particular field.
+
+## Calibration case: Watt governor
+
+The Watt governor is a useful calibration case because its control structure is explicit. The governor-engine assembly is the system; flyballs, linkage, and valve relations are controller components; shaft speed is the controlled variable; and workload, steam admission, and shaft speed are coupled in a functional relation. A change in engine speed moves the governor’s flyballs; their position changes the valve aperture; the aperture changes the flow of steam; and the steam flow changes the speed of the shaft. A clamp placed directly on shaft speed would sever the incoming causal relations and destroy the control relation altogether (Weinberger 2026).
+
+Direct clamping still leaves ordinary perturbation tests available. A change in workload or demand is the right kind of perturbation, because it lets the feedback relation operate and reveals whether component-level adjustment preserves the functional coupling.
+
+The governor shows why <span class="smallcaps">homeostatic</span> shouldn’t mean constant. Its component-level variables are allowed to vary precisely so that workload, steam admission, and shaft speed remain coupled. That pattern calibrates the final rung of the diagnostic: a perturbation is met by responsive adjustment, and a functional relation is preserved through that adjustment.
+
+The governor’s role is calibrational. As an artifact with a target fixed by its designer, it displays control-system predictability for comparison with Boyd-style kind projectibility. Candidate kind claims can then be tested by asking whether an analogous perturbation-sensitive architecture secures their projectible profiles.
+
+## Biological extension: glycemic regulation
+
+Glycemic regulation is included because it shows why the control diagnostic should be relation-preserving rather than set-point-preserving. The relevant candidate is the normoglycemic regulatory profile of an organism, not glucose as a substance or a single blood value. The regulated variable is blood glucose concentration; the maintaining architecture is the organism’s endocrine and metabolic organization; and the projectible profile consists in coordinated responses across feeding, fasting, activity, and other perturbations. The standard endocrine picture already supplies a control architecture, with a device that sets a normal range, a sensor that measures the regulated variable, a detector that compares the measured value against the range and emits an error signal, a controller, and an effector that moves the variable back toward the range (Bich et al. 2020). Taken at face value, this looks control-secured.
+
+The projectible payoff is the organism’s metabolic response across changing conditions. Given the normoglycemic regulatory profile, one expects coordinated changes in insulin, glucagon, hepatic output, and glucose uptake across feeding, fasting, and activity, rather than an isolated reading that happens to fall within a range.
+
+The standard model already reserves the word <span class="smallcaps">controller</span> for the component that reads the error signal and drives the effector. The vocabulary of the calibration case and of the biological case coincides, and not by accident, since both are feedback architectures in which a sensed departure drives a correcting response. The diagram doesn’t vindicate the word; the architecture has to earn it.
+
+Two complications make that question sharper. The first concerns the set point, since population correlations for glucose and calcium may fit an equilibrium model better than they fit a defended set point (Fitzgerald and Bean 2018). The second is that Bich et al. (2020) argue the feedback-loop diagram flattens a hierarchical organism into a chain of components, encourages a search for neatly localized parts, and assumes a normal range without explaining what establishes it. They move instead to organizational closure, on which glucose regulation is part of the organism’s self-maintenance rather than the tracking of an externally given number. Read this way, the corrective structure is real, but the set point is the element the cybernetic analogy gets wrong.
+
+That move marks the real contrast with the governor. The governor’s target is set from outside by a designer, whereas the organism’s range is constituted by what supports metabolic self-maintenance. The higher-scale relation that glycemic control preserves is a relation between glucose availability and the organism’s continued integrated functioning, held in place through wide variation in component-level variables across feeding, fasting, and activity. A fixed reading would misdescribe that relation. A biological case counts as control-secured only when the evidence displays this organized correction; mere range maintenance is insufficient.
+
+Glycemic regulation is the biological stress test for the strict control diagnostic: the stable profile is maintained by organized responses to perturbation, and what’s preserved is best understood as the relation rather than the reading.
+
+## Contrast case: interjection tokens
+
+English interjection tokens are the contrast linguistic case. By an interjection token, I mean a token that is an interjection in that occurrence: a form occurring with the interjection profile of prosodic detachability, weak syntactic integration, interactional force, and uptake-relevance.[^2] The category assignment is token-level. A form can be an interjection in one occurrence and belong to another category in another occurrence: *shit* as a detached response cry is an interjection token, while *shit* in an ordinary nominal environment is a noun token. At the broad category level, an interjection token licenses weak expectations about prosodic detachability, low syntactic integration, non-inflection in the relevant occurrence, interactional force, and uptake-relevance (Ameka 1992; Norrick 2009). Observing some of these properties licenses expectations about the others, which makes the profile projectible rather than a mere list.[^3]
+
+Stronger projections arise at the lower constructional level. Forms such as *huh?*, *mmhm*, and *oh* support expectations about sequential position and interactional uptake, including repair initiation, continuation, and a change in epistemic state (Dingemanse 2024), while forms such as *wow*, *oops*, *ouch*, *yuck*, *shit*, *hey*, *well*, and *uh* invite expectations about stance, event management, attention, transition, or delay. Norrick (2009) is helpful here because he treats interjections as an open-ended category with recurrent pragmatic-marker functions.
+
+The contrast between *oh* and *uh* shows the kind of projection at issue. In an appropriate sequential position, *oh* leads us to expect a change-of-state uptake: the speaker has just registered, noticed, or reclassified something. *uh*, by contrast, leads us to expect delay or floor-holding rather than a completed uptake. These are genuine projections from form and placement to interactional role, but they don’t yet show a controller preserving the use profile.
+
+The list is deliberately heterogeneous, since several of these forms are analysed as discourse markers, fillers, summonses, or response tokens rather than as central interjections. This heterogeneity is part of the test, because the contrast case is a projectible profile of interjection tokens with kindhood partly at issue, rather than a classical kind with settled lexical boundaries.
+
+The likely stabilizers include conventionalization, turn-taking routines, prosodic recognizability, acquisition, register, recurrent response patterns, and metapragmatic learning, and together these make the profile stable and useful. They also give parts of the profile some network order. The relevant order has to be asymmetric rather than mere non-independence: interactional autonomy conditions prosodic detachability and syntactic non-integration, sequential position conditions available uptake, and prosodic contour helps disambiguate the uptake at stake. That gets interjection tokens several rungs up the ladder. It doesn’t yet put them at the top.
+
+In this case, maintenance is best sought in recurrent interactional practices that keep form, prosody, sequential position, and expected uptake aligned across speakers. These practices operate at several levels. Conventionalization and community transmission entrench form-function pairings over time; acquisition, modelling, and metapragmatic teaching stabilize use across speakers; local repair handles occasional trouble in a conversation. Removing the recurrent practices wouldn’t produce a single momentary error so much as drift in the projectible profile itself.
+
+The homeostasis question is more demanding. For interjection tokens, the higher-scale relation would be a use-constructional relation linking turn position, prosodic packaging, syntactic detachment, and expected uptake. The lower-scale variables would include token form, intonation, duration, sequential placement, phonological reduction, and degree of syntactic detachment. The relevant perturbations have to stay within an otherwise interjection token. Ordinary category shifts, such as *wow* becoming an attributive modifier or *shit* appearing as an ordinary noun, move to a different construction. Better candidates are anomalous prosody, misplaced sequential deployment, over-integration in an otherwise interjection token, or an ambiguous token that receives repairable uptake. Failure of uptake is an outcome or a trigger for repair, rather than the perturbation itself.
+
+A claim that interjection tokens are control-secured would require evidence that perturbations of this sort reliably trigger coordinated correction that preserves the higher-scale interactional relation. Candidate loops should be separated. In an online interactional loop, failed or ambiguous uptake could lead to clarification or repair that restores sequential intelligibility. In a developmental loop, learner misuse could lead to correction or modelling and convergence on adult use. In a community-transmission loop, repeated uptake patterns could entrench a form-function pairing. The first loop is closest to monitored agreement production; the second and third are stabilizers, and perhaps control-like in some cases, but they don’t by themselves specify the same controller. Until the relevant loop is specified, interjection tokens belong on the stable-profile, network-order, or maintenance rungs.
+
+The case is useful because it shows how far stable pragmatic projectibility can go before a control claim has been earned.
+
+## Candidate positive case: monitored agreement production
+
+Monitored agreement production is the linguistic case where the homeostatic label comes closest to being earned. The candidate for control-secured status is the monitored production process; agreement morphology supplies the dependency relation that monitoring may preserve. In agreement systems, one expression fixes features that other expressions must express: *I go* is the canonical English pairing, while \**I goes* mismatches the first-person controller with a third-person verb form. In Corbett’s terms, the source is the controller, the agreeing expressions are targets, and canonical agreement is the case in which the features take matching rather than mismatching values (Corbett 2006). The features may be number, person, gender, class membership, or case. The case concerns monitoring across agreement features, with gender as one possible feature.
+
+That terminology is useful but not decisive. Corbett’s controller-target relation identifies a dependency structure in agreement. By itself, that relation doesn’t amount to a feedback-control architecture. The controller doesn’t sense a mismatch, compare target forms with a standard, or issue a corrective signal. Agreement morphology establishes the relation whose preservation matters; production monitoring and self-repair are where a control-theoretic claim has to look for feedback.
+
+Agreement has a straightforward projectible payoff. Once the controller’s features and the agreement domain are known, target forms can be projected across the domain. Number agreement lets us project verb form from subject number. Noun-class agreement lets us project class-marking across verbs, adjectives, and demonstratives (Ashton 1947; Corbett 2006). The dependency is also ordered rather than merely stable, because the controller-target relation is asymmetric: the controller supplies the feature values that agreement targets must match, even when the controller also bears or expresses those values.
+
+The first three rungs are straightforward: agreement has a projection target, a stable profile, and an ordered dependency relation. The harder question is whether any maintenance process for that relation is also corrective control.
+
+The control question arises only when that dependency is embedded in a corrective process. Agreement attraction helps isolate the perturbation: a nearby mismatching noun can activate a competing feature source and make an agreement error likely (Bock and Miller 1991). The attractor perturbs production; the agreement error is the failure state. In online production monitoring, a speaker produces target forms, monitors the developing utterance, detects trouble, and repairs or recasts when the form fails to preserve the intended agreement relation (Levelt 1983). On that loop, the tracked relation is agreement within the utterance, the production-level variables are particular target forms, and the response pathway is repair or recasting.
+
+The agreement-specific character of the repair comes from the projected dependency itself. Once the controller’s features and the domain are fixed, target forms are expected to express those values, so repair restores the higher-scale relation that made the profile projectible rather than only smoothing local fluency. The repair counts as agreement-specific only when the corrected form is selected because it restores the controller-target relation.
+
+A simple attraction case makes the loop concrete:
+
+<span id="ex:agreement-repair" label="ex:agreement-repair"></span> *The key to the cabinets are – sorry, is – on the table.*
+
+The perturbing cue is the plural attractor *cabinets*; the threatened relation is agreement with *key*; the production-level variable is the verb form; and the response pathway is repair from *are* to *is*. The repair restores the dependency relation that licensed the projection from controller to target in the first place.
+
+This keeps constraint and correction apart. A grammatical description may mark a mismatch as ill-formed without thereby supplying a corrective pathway. Corrective control requires the additional process by which a departure is detected and answered. The four marks may be met in the online repair loop: the mismatch threatens the projectible profile, agreement is the tracked relation, repair changes the target forms, and the higher-scale relation is preserved through that change.
+
+Acquisition and normative correction are different candidate loops; coordination would be needed to make them parts of a single system. In acquisition, learners converge on agreement patterns over developmental time; in normative contexts, teachers, editors, or interlocutors may reject or correct mismatches. These processes help stabilize agreement and may provide further control-like evidence, but they operate at different scales from online monitoring. The honest conclusion is conditional: monitored agreement production supplies a specified linguistic loop, which avoids a loose analogy from grammatical dependency to feedback control, and the homeostatic label depends on that loop doing the relevant corrective work.
+
+Grammaticality at large is a harder and more contested candidate.[^4] If correction, repair, acquisition, transmission, and uptake together formed an architecture that returned usage to a community-sensitive profile, grammaticality could turn out to be control-secured, but whether grammaticality is a single kind, and which loops would be doing the controlling, remains in dispute. The diagnostic leaves the possibility open without granting it, and monitored agreement production shows how a positive case would have to specify its loop.
+
+# What the diagnostic changes for HPC theory
+
+The ladder matters for HPC-style applications in linguistics and social ontology. Linguistic categories can have projection targets, stable profiles, network order, and maintainers without all of them being homeostatic in the strict control-theoretic sense, and social practices can be stabilized by records, offices, sanctions, training, and uptake without thereby constituting single homeostatic control systems. Social-status assignments are a clear case in point: they may support projection through causal-normative networks of uptake, recognition, transition, and constitutive ties without thereby carrying moral warrant (Reynolds 2026a). The diagnostic asks each case to display how far up the ladder it goes before control is inferred from the mere fact of persistence.
+
+A natural objection is that social correction and metalinguistic policing are themselves forms of feedback, and sometimes they do function that way. The concession strengthens the diagnostic because it means that some linguistic and social categories may indeed be control-secured, but only where correction, repair, acquisition, transmission, and uptake combine into a coordinated architecture of the kind that monitored agreement production may exhibit. The evidence has to earn the upgrade case by case; the label can’t be granted on the strength of stability alone.
+
+SPACER gives a useful proof of concept for this discipline. The dataset pairs naturalistic single-word substitution errors from Switchboard with speaker self-repairs and with comprehenders’ offline text-editing corrections (Upadhye et al. 2025). The perturbation is a lexical substitution; the candidate tracked relations include lexical fit, semantic distance, phonemic distance, and contextual predictability; and the response pathways are speaker repair and comprehender replacement. That structure lets the diagnostic become an empirical comparison without assuming that all correction belongs to one loop.
+
+In the companion computational analysis, the outcome is whether a correction occurred, and the key terms are interactions between process and perturbation predictors. The preliminary joint model suggests different profiles: phonemic distance and surprisal, a contextual-predictability measure, behave differently for speaker-side and comprehender-side correction, while semantic distance and frequency don’t carry the same contrast. The result remains below the final rung, since the comprehender task is offline text editing rather than online interaction. It shows why apparent recovery of intelligibility may reflect neighbouring stabilizers unless the same tracked relation and response pathway can be specified.
+
+The same distinction bears on the more formal side of HPC work. One temptation is to operationalize homeostasis as a return-to-basin claim, asking whether a variable comes back to a set point after perturbation. The governor and glycemic regulation both show why that test is too narrow, since what each system preserves is a relation, between workload and steam flow in the one case and between glucose availability and self-maintenance in the other, held in place through variation in the lower-scale variables.
+
+A test that measures only the return of a variable to a fixed value can miss control that works precisely by allowing the variable to move. The basin is better defined over the relation the system preserves than over any set of fixed values.
+
+For HPC-style work in linguistics this implies a division of labour. Many categories that an HPC analysis might be tempted to call homeostatic are, on inspection, stable projectible profiles, maintained profiles, or network-ordered kinds, which are real and worth a realist’s defence without being control-secured. Reserving <span class="smallcaps">homeostatic</span> for the cases that display corrective control leaves the others untouched, since they remain real and projectible, while showing the analyst what to look for, and what would count as having found it, before the strongest description is reached for. What philosophers of science gain is a domain-neutral test that distinguishes projection target, stable profile, network order, maintenance, and corrective control, and that says what evidence would move a case from one rung to another.
+
+The diagnostic should also obey its own discipline. Its projection target is specific: given a category already offered as a Boyd-style projectible kind, it specifies what further evidence would be needed to move the case from stable profile, to network order, to maintenance, and finally to corrective control. It’s narrower than a general test for natural kindness, and it doesn’t claim that all projectible categories share one stabilizing structure. This reflexive check is Boydian in spirit: Boyd treats the category <span class="smallcaps">natural kind</span> itself as a natural kind in metaphysics and epistemology (Boyd 1999, 168). Its usefulness depends on whether it blocks overextension in cases like interjections while still recognizing control-secured cases, such as glycemic regulation or monitored agreement production, when the relevant loop is specified.
+
+# Conclusion
+
+Projectibility remains the point throughout. A stable cluster can underwrite projection without being homeostatic: what makes it projectible is the reliability of the profile for a specified inferential purpose, whereas what makes it homeostatic is a further corrective organization that preserves the relevant profile under perturbation. Drawn this way, the diagnostic protects Boyd’s anti-essentialist insight while keeping <span class="smallcaps">homeostatic</span> from becoming a loose synonym for stable, useful, maintained, or causally organized.
+
+# Data and code availability
+
+The [companion SPACER analysis](https://brettrey.github.io/not-every-stable-cluster-is-homeostatic/) is available online, and the source code is available in the [project repository](https://github.com/BrettRey/not-every-stable-cluster-is-homeostatic/tree/main/analysis/spacer-diagnostic). The workflow downloads the public SPACER data from the project repository associated with Upadhye et al. (2025); the raw SPACER data are not redistributed here.
+
+# Acknowledgements
+
+Drafting and revision benefited from OpenAI Codex (GPT-5), GPT-5.5 Pro, and Claude Opus 4.8. All content has been reviewed and revised by the author, who takes full responsibility for the final text.
+
+<div id="refs" class="references csl-bib-body hanging-indent">
+
+<div id="ref-ameka1992" class="csl-entry">
+
+Ameka, Felix. 1992. “Interjections: The Universal yet Neglected Part of Speech.” *Journal of Pragmatics* 18 (2–3): 101–18. <https://doi.org/10.1016/0378-2166(92)90048-G>.
+
+</div>
+
+<div id="ref-ashton1947" class="csl-entry">
+
+Ashton, E. O. 1947. *Swahili Grammar (Including Intonation)*. Longmans, Green & Co.
+
+</div>
+
+<div id="ref-bichBechtel2022control" class="csl-entry">
+
+Bich, Leonardo, and William Bechtel. 2022a. “Control Mechanisms: Explaining the Integration and Versatility of Biological Organisms.” *Adaptive Behavior* 30 (5): 389–407. <https://doi.org/10.1177/10597123221074429>.
+
+</div>
+
+<div id="ref-bichBechtel2022organization" class="csl-entry">
+
+Bich, Leonardo, and William Bechtel. 2022b. “Organization Needs Organization: Understanding Integrated Control in Living Organisms.” *Studies in History and Philosophy of Science* 93: 96–106. <https://doi.org/10.1016/j.shpsa.2022.03.005>.
+
+</div>
+
+<div id="ref-bichMossioEtAl2016" class="csl-entry">
+
+Bich, Leonardo, Matteo Mossio, Kepa Ruiz-Mirazo, and Alvaro Moreno. 2016. “Biological Regulation: Controlling the System from Within.” *Biology & Philosophy* 31 (2): 237–65. <https://doi.org/10.1007/s10539-015-9497-8>.
+
+</div>
+
+<div id="ref-bichMossioSoto2020" class="csl-entry">
+
+Bich, Leonardo, Matteo Mossio, and Ana M. Soto. 2020. “Glycemia Regulation: From Feedback Loops to Organizational Closure.” *Frontiers in Physiology* 11. <https://doi.org/10.3389/fphys.2020.00069>.
+
+</div>
+
+<div id="ref-bockMiller1991" class="csl-entry">
+
+Bock, Kathryn, and Carol A. Miller. 1991. “Broken Agreement.” *Cognitive Psychology* 23 (1): 45–93. <https://doi.org/10.1016/0010-0285(91)90003-7>.
+
+</div>
+
+<div id="ref-boyd1991" class="csl-entry">
+
+Boyd, Richard. 1991. “Realism, Anti-Foundationalism and the Enthusiasm for Natural Kinds.” *Philosophical Studies* 61 (1–2): 127–48. <https://doi.org/10.1007/BF00385837>.
+
+</div>
+
+<div id="ref-boyd1999" class="csl-entry">
+
+Boyd, Richard. 1999. “Homeostasis, Species, and Higher Taxa.” In *Species: New Interdisciplinary Essays*, edited by Robert A. Wilson. MIT Press. <https://doi.org/10.7551/mitpress/6396.003.0012>.
+
+</div>
+
+<div id="ref-corbett2006" class="csl-entry">
+
+Corbett, Greville G. 2006. *Agreement*. Cambridge University Press.
+
+</div>
+
+<div id="ref-dingemanse2024" class="csl-entry">
+
+Dingemanse, Mark. 2024. “Interjections at the Heart of Language.” *Annual Review of Linguistics* 10 (1): 257–77. <https://doi.org/10.1146/annurev-linguistics-031422-124743>.
+
+</div>
+
+<div id="ref-fitzgeraldBean2018" class="csl-entry">
+
+Fitzgerald, Stephen P., and Nigel G. Bean. 2018. “Population Correlations Do Not Support the Existence of Set Points for Blood Levels of Calcium or Glucose: A New Model for Homeostasis.” *Physiological Reports* 6 (1). <https://doi.org/10.14814/phy2.13551>.
+
+</div>
+
+<div id="ref-goodman1983" class="csl-entry">
+
+Goodman, Nelson. (1955) 1983. *Fact, Fiction, and Forecast*. 4th ed. Harvard University Press.
+
+</div>
+
+<div id="ref-khalidi2013" class="csl-entry">
+
+Khalidi, Muhammad Ali. 2013. *Natural Categories and Human Kinds: Classification in the Natural and Social Sciences*. Cambridge University Press. <https://doi.org/10.1017/CBO9780511998553>.
+
+</div>
+
+<div id="ref-khalidi2018nodes" class="csl-entry">
+
+Khalidi, Muhammad Ali. 2018. “Natural Kinds as Nodes in Causal Networks.” *Synthese* 195 (4): 1379–96. <https://doi.org/10.1007/s11229-015-0841-y>.
+
+</div>
+
+<div id="ref-levelt1983" class="csl-entry">
+
+Levelt, Willem J. M. 1983. “Monitoring and Self-Repair in Speech.” *Cognition* 14 (1): 41–104. <https://doi.org/10.1016/0010-0277(83)90026-4>.
+
+</div>
+
+<div id="ref-miller2021" class="csl-entry">
+
+Miller, J. T. M. 2021. “Words, Species, and Kinds.” *Metaphysics* 4 (1): 18–31. <https://doi.org/10.5334/met.70>.
+
+</div>
+
+<div id="ref-norrick2009" class="csl-entry">
+
+Norrick, Neal R. 2009. “Interjections as Pragmatic Markers.” *Journal of Pragmatics* 41 (5): 866–91. <https://doi.org/10.1016/j.pragma.2008.08.005>.
+
+</div>
+
+<div id="ref-onishi2022" class="csl-entry">
+
+Onishi, Yukinori, and Davide Serpico. 2022. “Homeostatic Property Cluster Theory Without Homeostatic Mechanisms: Two Recent Attempts and Their Costs.” *Journal for General Philosophy of Science* 53: 61–82. <https://doi.org/10.1007/s10838-020-09527-1>.
+
+</div>
+
+<div id="ref-reynolds2026effective" class="csl-entry">
+
+Reynolds, Brett. 2026a. “Effective Without Warrant: Causal-Normative Networks and the Social Life of Status.” <https://philarchive.org/rec/REYEWW>.
+
+</div>
+
+<div id="ref-reynolds2026interjections" class="csl-entry">
+
+Reynolds, Brett. 2026b. “English Interjections as a Causal-Pragmatic Kind: Projectibility, Path Dependence, and Use-Specific Category Structure.” Unpublished manuscript.
+
+</div>
+
+<div id="ref-reynoldsmiller2026grammaticality" class="csl-entry">
+
+Reynolds, Brett, and J. T. M. Miller. 2026. “Grammaticality as Kind: Ontology, Epistemology, and Empirical Pay-Off.” <https://philarchive.org/rec/REYGAK-4>.
+
+</div>
+
+<div id="ref-slater2015" class="csl-entry">
+
+Slater, Matthew H. 2015. “Natural Kindness.” *The British Journal for the Philosophy of Science* 66 (2): 375–411. <https://doi.org/10.1093/bjps/axt033>.
+
+</div>
+
+<div id="ref-upadhyeEtAl2025spacer" class="csl-entry">
+
+Upadhye, Samhita, Li-Yuan Sun, and Roger Levy. 2025. “SPACER: A Parallel Dataset of Speech Production and Comprehension of Error Repairs.” *Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics*. <https://doi.org/10.18653/v1/2025.cmcl-1.19>.
+
+</div>
+
+<div id="ref-weinberger2026HomeostasisCausalControl" class="csl-entry">
+
+Weinberger, Naftali. 2026. “Homeostasis and Causal Control.” *Biology & Philosophy* 41 (2). <https://doi.org/10.1007/s10539-026-10018-8>.
+
+</div>
+
+<div id="ref-woodward2001" class="csl-entry">
+
+Woodward, James. 2001. “Law and Explanation in Biology: Invariance Is the Kind of Stability That Matters.” *Philosophy of Science* 68 (1): 1–20. <https://doi.org/10.1086/392863>.
+
+</div>
+
+</div>
+
+[^1]: Contact: <brett.reynolds@humber.ca>
+
+[^2]: For the broader claim that word-kinds can be understood as homeostatic property clusters, see Miller (2021). The present case is narrower: it asks how far interjection tokens and form-sequence constructions satisfy the diagnostic ladder.
+
+[^3]: For the fuller treatment of English interjections as a causal-pragmatic kind, see Reynolds (2026b). The present argument uses the case as a contrast diagnostic test.
+
+[^4]: For the broader grammaticality-as-kind project, see Reynolds and Miller (2026). The present paper only uses monitored agreement production to show what a specified linguistic control loop would have to look like.

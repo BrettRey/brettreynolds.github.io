@@ -1,0 +1,653 @@
+---
+title: "Language as a stack of homeostatic property-cluster kinds: From phonemes to constructions"
+author: "Brett Reynolds"
+year: "2025"
+status: "Preprint"
+canonical_url: "https://doi.org/10.5281/zenodo.17354363"
+website_url: "https://brettreynolds.ca/papers/language-as-hpc-stack/"
+markdown_url: "https://brettreynolds.ca/papers/language-as-hpc-stack/paper.md"
+version: "author-manuscript mirror"
+version_date: "2026-06-06"
+keywords: ["homeostatic property clusters", "phonemes", "words", "constructions", "language ontology"]
+---
+# Language as a stack of homeostatic property-cluster kinds: From phonemes to constructions
+
+**Author-manuscript mirror.** This Markdown file is provided for accessibility, search, and machine readability. The canonical public record is linked in the metadata above.
+
+## Abstract
+This paper develops two complementary criteria – projectibility and homeostasis – for deciding when linguistic categories warrant treatment as homeostatic property-cluster (HPC) kinds. <span class="smallcaps">Projectibility</span> is tested directly: does a category support reliable out-of-sample inference? <span class="smallcaps">Homeostasis</span> is inferred: are identifiable mechanisms plausibly responsible for maintaining the cluster, and do the data show signatures consistent with those mechanisms? I apply these criteria to three structural levels. At the phoneme level I use PHOIBLE inventories ($`n \approx 2{,}700`$ languages) to show family-wise concentration of inventory sizes and a scaling relation for the front-rounded vowel //. At the lexical level I evaluate 16 high-drift adjectives plus 16 matched controls, testing whether distributional neighbourhoods persist through semantic change; only a subset pass per-lexeme thresholds. At the constructional level I test a battery of 10 constructions (including designed failure cases) across UD English corpora; *or even* serves as a worked example, while the battery carries the evidential burden. The contribution is methodological: concrete, reproducible tests that keep kind-claims local and evidence-driven. Phoneme-level evidence is strongest; word-level evidence is selective; construction-level evidence is provisional pending larger samples. Where both criteria are satisfied, treating a category as an HPC is empirically warranted; where they aren’t, a more local or descriptive account is preferable.
+
+**Keywords**: homeostatic property clusters (HPC); linguistic kinds; projectibility; homeostasis; phoneme inventories; PHOIBLE; semantic drift; *or even* construction; Universal Dependencies; cross-corpus transfer.
+
+
+# Introduction
+
+Language presents a familiar problem for cognitive science: the categories we rely on to speak and understand are stable enough to underwrite reliable inference but flexible enough to drift and diversify. Consider how the phoneme /r/ varies across English dialects but remains recognizable, or how the word *awful* drifted from ‘awe-inspiring’ to ‘terrible’ while keeping its identity. An attractive middle ground for understanding such categories – originating in Boyd’s account of homeostatic property-cluster (HPC) kinds – offers a way to reconcile stability with change (Boyd 1991, 1999)[^1].
+
+<span class="smallcaps">homeostatic property-cluster</span> kinds emerge when identifiable forces keep characteristic features bundled – not through essence, but through contingent regularities. The category holds together as a family of properties maintained by mechanisms (biophysical, developmental, social) strongly enough to support induction. Think of biological species: robins share characteristic features – size, coloration, song patterns, nesting behaviour – not because of an essential “robin-ness” but because developmental programs, ecological pressures, and reproductive isolation keep these traits correlated generation after generation. Boyd’s insight is that many scientific and social categories work similarly: they’re probabilistic clusters stabilized by mechanisms that keep enough of the cluster together for inductive use.
+
+This article proposes a general, testable program: many linguistic categories – phonemes, lexemes, and language-internal constructions – are HPC kinds. The claim is operational, not merely analogical. I test the claim with two simple diagnostics that any proposed linguistic category has to pass.
+
+By <span class="smallcaps">linguistic category</span> I mean a <span class="smallcaps">type</span> maintained by identifiable mechanisms within a population and supporting inductive projection (e.g., the phoneme /r/ in English, a lexeme such as *dog*, or a named construction such as *or even*). For present purposes I treat superordinate labels (<span class="smallcaps">phoneme</span>, <span class="smallcaps">word</span>) as taxonomic umbrellas; whether they themselves qualify as HPC kinds is an open question requiring different evidence and diagnostics. Here I target language-internal types, where the tests bite. Each case specifies its projection unit (token$`\to`$token; language$`\to`$language) and its stabilizers. How long a kind persists, and how widely it extends, are empirical questions about whether stabilizing mechanisms maintain covariance.
+
+First, <span class="smallcaps">projectibility</span> means that tokens have to support reliable out-of-sample inference about form, meaning, or distribution. Second, <span class="smallcaps">homeostasis</span> means that the property cluster can be tied to candidate stabilizers whose predicted signatures are consistent with the observed patterns.
+
+For words, Miller (2021) develops this stance at the level of particular lexemes – *dog*, *run*, *egregious* – rejecting essence-based individuation in favour of mechanism-indexed clusters that are historically delimited and population-relative. On this view, such lexemes earn kind status because mechanisms sustain covarying properties: pronunciation, orthography, meaning, distribution. Miller identifies both cognitive mechanisms (consistent retrieval from mental lexicons) and social mechanisms (community enforcement of usage norms), though he acknowledges the partition depends on theoretical commitments. The lexeme *dog*, for instance, maintains its identity not through a platonic essence but because spelling conventions, pronunciation norms, semantic associations, and syntactic patterns travel together, stabilized by frequency of use, register and genre licensing, literacy education, and community norms.
+
+At the phonological level, recent work by Ekström et al. (2025) argues that phonemes are culturally maintained cognitive tools (Heyes 2018) anchored in articulatory and auditory constraints. Two quantitative signatures exemplify the sort of measurable “homeostasis” HPC requires: family-wise ridgelines of inventory sizes (showing most languages cluster roughly between 20 and 50 segments across unrelated language families; see Figure <a href="#fig:ridgelines" data-reference-type="ref" data-reference="fig:ridgelines">2</a>), and a scaling curve in which the probability that a language includes /y/ rises with vowel-inventory size, while /i/ remains common even in small systems.
+
+Both patterns are presented with explicit methodological detail and tied to biophysical and efficiency pressures, drawing on data from PHOIBLE, an openly available database of segmental phoneme inventories for roughly 2,700 languages worldwide (Moran et al. 2019), and a compact checklist of tool criteria summarizes the stabilizers involved (Ekström et al. 2025, figs. 1 p. 4; Fig. 2 p. 7; Table 1 p. 14). These are precisely the ingredients HPC seeks: projectible distributions and identifiable stabilizing mechanisms.
+
+The first case study revisits the phoneme level using the PHOIBLE database introduced above, but focuses on observable patterns rather than re-deriving articulatory physiology. I examine two signatures: how inventory sizes cluster by language family (visualized as ridgelines), and how the probability of finding /y/ in a language increases with the size of its vowel inventory. These patterns survive robustness checks like sampling one language per subfamily. The HPC reading is straightforward: the tight clustering within families demonstrates projectibility (new languages behave like their relatives), while the known mechanisms – quantal stability, dispersion, developmental tuning, and community norms – provide the homeostatic foundation.
+
+The second case study turns to words. Building on Miller (2021), I evaluate 16 high-drift adjectives (e.g., *nice*, *sick*, *gay*, *awful*) plus 16 POS- and frequency-matched controls from the HistWords COHA embeddings. The question is whether contextual patterns – what words appear near them – remain coherent enough that a model trained on earlier decades can still identify the word in later ones. This demonstrates projectibility empirically for a subset; the rest fail per-lexeme thresholds, as the framework predicts. The homeostasis comes from multiple forces: entrenchment through repeated use and norm-guided conventions ensure that even as meanings shift, spelling, pronunciation, and core distributional patterns stay bundled together at usable levels.
+
+The third case study treats English constructions as language-internal HPC kinds. The flagship *or even* construction – a scalar-additive cousin of the better-studied *let alone* (Fillmore et al. 1988) – serves as a worked example: its cue bundle (anchor string, syntactic parallelism, scalar/contrast cues) transfers across corpora and degrades predictably under ablation. But a single construction is too easy to tailor the analysis to. Accordingly, I test a battery of 10 constructions spanning four cue regimes, including two designed *brakes* cases (pooled resultative, register-local *X much?*) to force the framework to say *no* when it should. The stabilizers that maintain these patterns include frequency of use, cue redundancy, and normative enforcement through editorial practices.
+
+Equally important are the failure cases – categories that don’t qualify as HPC kinds. Some proposals are too thin: one-off items (like nonce coinages such as *bromance* before it caught on), speech errors that blend words together, and children’s overregularizations (*goed* for ‘went’) lack the stabilizers that would make them predictable beyond their immediate context. Others are too fat: when typologists group together all “resultative” constructions across languages, or all “ditransitive” patterns, they’re pooling structures maintained by largely distinct mechanisms in each language – different morphosyntactic resources, cue reliabilities, and normative regimes (Haspelmath 2010). With many mechanisms local to each language, the cross-linguistic umbrella groups multiple language-internal kinds rather than forming a single HPC kind. Finally, negative or complement classes (e.g., “all ungrammatical strings”) are defined by what they’re not, rather than by shared properties held together by identifiable mechanisms. The discipline here is mechanism-first, in line with the word-kinds program (Miller 2021).
+
+The framework yields predictions and disconfirmers. A perturbation prediction: weakening a stabilizer (e.g., lowering frequency or impoverishing input) will reduce cluster covariance before norms re-stabilize – a pattern testable under register shifts or in learner corpora. A scaling prediction: rarer, articulatorily marked segments that lack quantal robustness (e.g., /y/ in the vowel space, which requires precise front-rounding coordination) become more probable as system size grows; analogously, low-frequency constructional variants should be more prevalent in larger constructicons. Both predictions borrow directly from the phoneme results (Ekström et al. 2025, figs. 2 p. 7) and extend them to higher levels.
+
+In sum, properly operationalized HPC naturalizes linguistic ontology for cognitive science. It tells us when a category is the right sort of thing to underwrite inference, what keeps it stable enough, and how it can change. Each tier has its stabilizers; each stabilizer leaves signatures; each signature supports prediction. The result isn’t that everything is an HPC, but that many linguistic categories pass a disciplined test – and some don’t.
+
+# Framework and diagnostics
+
+The introduction outlined how linguistic categories might qualify as homeostatic property-cluster kinds. This section operationalizes that claim into executable diagnostics with specific thresholds and falsifiable predictions.
+
+Claims about kindhood depend on identifiable mechanisms within populations: English /r/ is stabilized by English articulatory norms and community transmission, not by universal phonetic laws. How long a kind persists, and how widely it extends, are empirical questions about whether stabilizing mechanisms maintain covariance. Cross-linguistic categories like “resultative” often pool constructions maintained by completely different mechanisms in each language – these are useful classifications but not single kinds. The framework discovers kinds empirically rather than declaring them universally.
+
+Before detailing the criteria, a note on units of analysis. Each tier targets a different object:
+
+- **Phonemes:** system-level regimes (inventory bands, markedness scaling) across the world’s languages.
+
+- **Words:** lexeme-level kinds within a single population–time slice (20th-century written American English).
+
+- **Constructions:** construction-level kinds within English UD corpora (2010s–2020s web and news registers).
+
+The claims that follow are scoped to these units; generalization beyond them requires separate evidence.
+
+The two criteria – projectibility and homeostasis – require different evidence at each linguistic level:
+
+Boyd treats projectibility as following from homeostatic maintenance: if mechanisms hold a cluster together, the cluster will support induction. I revise this relationship, treating them as independent criteria for operational clarity and falsifiability. This isn’t mere operationalization – it’s a methodological commitment. Crucially, the two criteria are not operationalized symmetrically. <span class="smallcaps">Projectibility</span> is *tested* directly via out-of-sample prediction (cross-validated AUC, held-out F1, cross-corpus transfer). <span class="smallcaps">Homeostasis</span> is *inferred*: I name candidate stabilizers (articulatory constraints, frequency entrenchment, normative enforcement), derive their predicted signatures (scaling curves, perturbation sensitivity, cue covariance), and check whether the data are consistent with those predictions. The inference is defeasible – the signatures could arise from other sources – but it’s grounded in mechanism–signature pairings rather than asserted by narrative alone.
+
+The relationship between mechanism and projection is asymmetric in a specific way. Figure <a href="#fig:arrows" data-reference-type="ref" data-reference="fig:arrows">1</a> shows the structure.
+
+<figure id="fig:arrows" data-latex-placement="h">
+
+<figcaption>The causal arrow runs from mechanisms to projection; the warrant arrow runs the reverse. Both diagnostics have to succeed independently.</figcaption>
+</figure>
+
+1.  Projectibility: Can we predict new data from old? If phonemes form genuine kinds, then knowing a language’s family should constrain expectations about its inventory size. If words are kinds despite semantic drift, then patterns learned from earlier decades should help identify the same word later. If constructions are kinds, then cue patterns from one corpus should work in another. By contrast, nonce words or one-off blends would fail this test – they lack the regularities that enable prediction. This isn’t philosophical hand-waving – it means concrete metrics like cross-validated prediction accuracy and held-out F1 scores.
+
+2.  Homeostasis: What keeps the patterns stable? The term “homeostasis” captures how mechanisms actively maintain property clusters despite perturbations, analogous to biological self-regulation. Projectibility is an *epistemic* success criterion (out-of-sample prediction); homeostasis is the *ontological* claim that mechanisms maintain the relevant property cluster. For each category, I name specific mechanisms and look for their signatures. Phonemes are stabilized by quantal regions that create articulatory “sweet spots” (Stevens 1989), dispersion that maintains distinctiveness (Liljencrants and Lindblom 1972), perceptual magnets that pull varied pronunciations toward prototypes (Kuhl et al. 1991), and community norms that transmit systems across generations. These mechanisms predict specific patterns: languages should converge on similar inventory sizes (not scatter randomly), and marked vowels like /y/ should appear mainly in larger systems (not randomly).
+
+A category might project without identifiable mechanisms (overfitting to spurious patterns) or exhibit putative mechanisms without projecting (broken homeostasis). Both diagnostics have to succeed independently for kindhood to be warranted.
+
+The protocol is straightforward: identify clustered properties, name stabilizers, test prediction, verify signatures. Boyd’s HPC framework treats projectibility as supporting inductive inference: from known properties to novel properties, from observed instances to unobserved cases. The cross-validated prediction tests I employ – held-out accuracy, F1 scores, cross-corpus transfer – operationalize this criterion: if a category supports reliable out-of-sample prediction, it licenses the kind of inductive generalization Boyd has in mind. Where both tests succeed, the category qualifies as an HPC kind over whatever period and extent mechanisms maintain covariance. Where they fail – no predictive power or no credible mechanisms – the category might be useful for description but doesn’t constitute a kind in this technical sense. The failure modes are detailed in §<a href="#sec:failures" data-reference-type="ref" data-reference="sec:failures">6</a>: categories that are too thin, too fat, or merely negative complement classes.
+
+Recent work provides models for what success looks like. Phonemes show remarkably consistent inventory sizes across language families and systematic scaling patterns for marked segments – exactly what we’d expect from the mechanisms described above (Ekström et al. 2025). Words maintain enough coherence through meaning change that their identifying features – spelling, pronunciation, distribution – stay bundled at usable levels (Miller 2021).
+
+Negative categories don’t qualify: “all ungrammatical strings” or “exceptions to rule R” are defined by what they lack, not by properties held together by mechanisms. The approach remains neutral about grammatical frameworks – it asks what patterns travel and why, not how to represent them theoretically.
+
+# Methods: tests, scope, and robustness
+
+The ontological commitment is robust – these categories are natural kinds maintained by mechanisms – but the epistemology is disciplined: the tests have to be executable and falsifiable. This section outlines the conceptual approach and primary success criteria; complete statistical specifications appear in Appendix A.
+
+## Scope and populations
+
+Kindhood claims depend on identifiable mechanisms within populations, with temporal and spatial extent determined empirically by covariance. Phoneme results apply to the PHOIBLE 2.0 snapshot as integrated with Glottolog/WALS for genealogy and area. Word results apply to contemporary written English in large, time-stamped corpora spanning the 20th–21st centuries. Construction results apply to Universal Dependencies (UD)-annotated English (news/web genres) in the 2010s–2020s. The program isn’t a universal ontology of linguistic kinds; it’s a method for deciding when a proposed category earns kindhood by passing predictive and mechanism-indexed tests.
+
+## Executable diagnostics
+
+The two core diagnostics – projectibility and homeostasis – require different evidence at each linguistic level, but the logic remains constant: can patterns learned from one dataset predict another, and do identifiable mechanisms maintain those patterns?
+
+Primary evaluation metrics include area under the receiver operating characteristic curve (ROC–AUC), area under the precision-recall curve (PR–AUC), F1 score (harmonic mean of precision and recall), and cross-validation (CV) performance. Uncertainty is quantified via bootstrap confidence intervals (CIs).
+
+<span class="smallcaps">Projectibility</span> tests whether categories support out-of-sample prediction. For phonemes, I ask whether vowel inventory size (computed *excluding* the target segment to avoid circularity) predicts the presence of marked segments like // – a front rounded vowel requiring precise articulatory coordination. Success requires a positive relationship (odds-ratio $`>1`$ with 95% confidence), reasonable discrimination (10-fold cross-validated AUC $`\geq 0.70`$), and monotonicity (verified by trend test at $`\alpha = 0.01`$). The common vowel // serves as a control.
+
+For words, I test whether distributional patterns persist through semantic drift. Using high-drift adjectives from HistWords COHA (Hamilton et al. 2016) (top decile of average cosine displacement among non-stop, non-proper adjectives, with documented drift terms forced in when available), I train a prototype classifier on early decades and test recognition in later ones. Success requires macro-F1 $`\geq 0.35`$, substantial neighbour overlap ($`\geq 0.30`$), and temporally local errors (nearest-decade MAE $`\leq`$ one decade). Matched controls with minimal drift and similar POS/frequency establish baselines.
+
+For constructions, I test cross-corpus transfer using *or even*. A model trained on cues from one corpus (UD English GUM: Genre and Use of Meaning) must identify the construction in another (UD English EWT: English Web Treebank) with precision-recall area under curve (PR–AUC) $`\geq 0.70`$.[^2] The cue bundle – the anchor string, syntactic parallelism, and scalar/contrast cues – should degrade when components are removed, with the largest drops expected when parallelism is ablated.
+
+These thresholds follow conventions in machine learning and corpus linguistics but remain somewhat arbitrary. What matters is declaring them in advance, calibrating them to distinguish structure from noise, and checking robustness (Appendix A). The discipline is prospective, not post-hoc.
+
+<span class="smallcaps">Homeostasis</span> requires identifying mechanisms and their signatures. Phonological systems are stabilized by articulatory attractors (quantal regions), dispersion pressure, and community transmission. These predict inventory sizes clustering between 20–50 segments across families (band test and bootstrap CIs defined in Appendix A; outputs in `out/ridgeline_band_metrics.csv`) and marked segments scaling with system size. Words are stabilized by orthographic conventions, frequency-based entrenchment, and editorial norms, predicting the cohesion patterns above. Constructions rely on cue redundancy and normative enforcement, predicting cross-corpus stability and ablation sensitivity.
+
+## Managing non-independence
+
+Languages inherit features from ancestors and borrow from neighbours. I address this through three approaches: modelling family relationships via fixed effects (dummy codes), adding geographical (macro-area) effects, and testing robustness through lineage pruning (one language per lower-level lineage when available, else one per Glottocode within family). Cross-validated AUC uses GroupKFold by family to prevent leakage. Key patterns have to persist across all three specifications to count as genuine rather than genealogical artifacts.
+
+## Data and reproducibility
+
+PHOIBLE provides cross-linguistic phoneme inventories; large timestamped corpora supply word distributions; UD treebanks offer syntactically parsed constructions. Preprocessing follows documented standards (detailed in Appendix A). All analyses are reproducible through archived code at <https://github.com/BrettRey/Constructions-as-HPCs>, with each figure mapped to its generating script. Primary outcomes are declared in advance: the // scaling effect and its discrimination accuracy for phonemes; cohesion and classification performance for words; cross-corpus transfer and ablation effects for constructions.
+
+# Case A – Phonemes: a positive HPC
+
+The phoneme tier is the cleanest place to test the claim that linguistic categories are HPC kinds. Inventories are comparable across languages, there’s independent theory about plausible stabilizers, and open resources allow a fully reproducible analysis. I use PHOIBLE 2.0 (Moran et al. 2019) – introduced above as a cross-linguistic inventory database – to derive two complementary signatures: a family-wise concentration of total inventory sizes and a scaling relation linking the probability of /y/ to vowel-inventory size. On the projectibility side, the question is whether unseen languages behave like held-out members of their families or like random draws from a diffuse space. On the homeostasis side, the question is whether known mechanisms – articulatory–auditory attractors, dispersion, learning dynamics, and sociocultural norms – are a credible basis for the observed covariance (Stevens 1989; Liljencrants and Lindblom 1972; Lindblom 1990; Ekström et al. 2025).
+
+For each language I count distinct consonant and vowel segments, excluding tones and prosodic units; when PHOIBLE lists multiple inventories for the same language (different sources may disagree on details), I keep the largest and document the choice. Families follow Glottolog. Figure <a href="#fig:ridgelines" data-reference-type="ref" data-reference="fig:ridgelines">2</a> plots kernel density ridgelines of total inventory sizes by family (families with fewer than ten languages are omitted; ordering is by family median). The picture is strikingly regular: medians cluster in a narrow band roughly between 20 and 50 segments, with thin tails beyond that range. Because densities are estimated independently by family, the shared band isn’t an artifact of pooling; it’s a cross-family regularity that enables inventory-level projection (from sampled languages in a family to unseen relatives within that family). The pattern matches typological summaries and aligns with the cognitive-tool review (Ekström et al. 2025, fig. 1). (Band metrics in `out/ridgeline_band_metrics.csv`; Appendix A.)
+
+<figure id="fig:ridgelines" data-latex-placement="t">
+<img src="images/inventory_ridgelines.png" />
+<figcaption>Phoneme inventory sizes by language family (PHOIBLE 2.0). Densities are shown for families with <span class="math inline"><em>n</em> ≥ 10</span> languages, ordered by family median. Most families cluster in the 20–50 range (shaded), consistent with a homeostatic regime under articulatory–perceptual and dispersion constraints. Data: PHOIBLE 2.0; analysis code and exact processing steps are provided in the companion repository.</figcaption>
+</figure>
+
+The vowel /y/ – a front rounded vowel as in French *tu* – requires precise coordination of lip rounding with forward tongue position, making it articulatorily “marked” relative to cardinal vowels like /i/ that sit in quantal regions. Where the ridgelines demonstrated inventory-level projection, Figure <a href="#fig:y-scaling" data-reference-type="ref" data-reference="fig:y-scaling">3</a> demonstrates segment-level projection: it fits a logistic model predicting /y/-presence from vowel-inventory size *excluding /y/* (and excluding /i/ for the control curve), with fixed effects for language family and macro-area, and 10-fold cross-validation grouped by family; a dashed comparison curve for /i/ serves as a control.
+
+The /y/ curve rises monotonically with system size, whereas /i/ is common across the range and essentially flat. The slope for /y/ survives grouped CV by family; exclusion of small families ($`n < 10`$); and a permissive front-rounded coding (‘y’/‘’) – see `out/y_model_metrics.csv` and `out/y_model_sensitivity.csv`. Discrimination is above chance (ROC–AUC $`\approx`$ 0.70; meaning the model correctly differentiates inventories with /y/ from those without in $`\sim`$<!-- -->70% of cases), so the relation has predictive force rather than being a descriptive accident.
+
+<figure id="fig:y-scaling" data-latex-placement="t">
+<img src="images/y_vs_vowel_inventory.png" />
+<figcaption>Presence of // as a function of vowel-inventory size. Solid line: logistic fit with 95% confidence interval (CI) ribbons; dashed line: comparison curve for //. Points are languages jittered vertically at 0/1 for presence/absence. Model includes fixed effects for language family and macro-area; 10-fold cross-validated ROC–AUC <span class="math inline"> ≈ 0.70</span>. The increasing probability for // with larger systems matches the scaling prediction; // shows a high baseline with a weak slope.</figcaption>
+</figure>
+
+These two results satisfy the projectibility diagnostic in different ways: the ridgelines constrain where inventories fall by family, and the /y/ model supports a scaling inference about specific segments as systems expand. They also have a plausible <span class="smallcaps">homeostatic</span> basis. Quantal regions make some vowels (notably /i a u/) robust to articulatory imprecision (Stevens 1989), dispersion spreads categories for distinctiveness (Liljencrants and Lindblom 1972; Lindblom 1990), and learning and control bind cues within categories (prototype attraction, audio–motor calibration), while local performance standards and literacy practices stabilize inventories across generations. The cognitive-tool synthesis documents these mechanisms and their empirical signatures (Ekström et al. 2025, figs. 1; Fig. 2; Table 1). Read together, they explain why families share a stability band and why /y/ appears mainly in larger vowel systems.
+
+Obvious worries are addressable. Counting conventions can inflate tails; excluding tones and prosodic units eliminates that source. Genealogical non-independence can spuriously sharpen slopes; modelling family and area effects with grouped cross-validation leaves the inference intact. Orthographic noise can misclassify vowels; the repository records Unicode normalization and diacritic handling. None of these considerations undermines the main point: phoneme inventories exhibit projectible structure underwritten by concrete stabilizers, and so qualify as <span class="smallcaps">HPC</span> kinds at the population–time scales analyzed here.
+
+# Case B – Words: mixed evidence under drift
+
+If homeostatic property–cluster kinds are to do real work beyond phonology, they ought to earn their keep where categories are visibly historical. Words are the hard case and the natural next step. The aim here isn’t to freeze a lexeme at a moment in time, but to show that a word can drift semantically while preserving enough covariation among its properties for inductive use. On the projectibility side, the question is whether held-out decades are predictable from earlier usage; on the homeostasis side, the question is whether there are plausible stabilizers that would make such predictability non-accidental. Miller’s mechanism-first treatment of word-kinds sets the bar: kindhood, if it applies, has to be earned a posteriori by sustained covariation among orthography, phonology, meaning, and distribution in a particular population and time slice (Miller 2021).
+
+I illustrate with drift-prone adjectives from the HistWords COHA lemma embeddings (Hamilton et al. 2016) and report a multi-lexeme evaluation in Appendix A. Targets are the top decile of average cosine displacement among non-stop, non-proper adjectives (with documented drift terms like *nice*, *sick*, *gay*, *awful* forced in when available) plus 16 POS- and frequency-matched controls. The operationalization is deliberately spartan. By “distributional neighbourhood” I mean the set of words that typically appear within a fixed window (here, five tokens) of the target word in large corpora. These neighbourhoods are represented as vectors in semantic space, where proximity captures co-occurrence patterns. Representations are decade-binned skip-gram negative sampling (SGNS) embeddings (window $`= 5`$, dim $`= 300`$) already aligned across decades; tokens are lemmatized and lower-cased. To check that results are not an alignment artifact, I also run an alignment-free variant that uses decade-internal neighbour sets and Jaccard similarity for prototype matching (Appendix A). No sense inventory is imposed; the question isn’t which senses exist, but whether the family of properties that travel with the word remains coherent enough to support inference.
+
+Two simple checks supply the answer. First, a cohesion check: some drift adjectives retain organized neighbourhoods even as their centres move. For *nice*, nearest neighbours shift from {*pretty*, *lovely*, *pleasant*} in the 1900s to {*cute*, *wonderful*, *really*} by the 2000s; for *sick*, from {*ill*, *tired*, *hungry*} to {*hurt*, *drunk*, *upset*}. These trajectories meet the overlap threshold (top-50 overlap $`\geq 0.30`$), but the broader high-drift set averages lower cohesion (mean overlap 0.20 vs. controls 0.64; Appendix A), consistent with the framework’s expectation that not all drifted words remain kind-like. Distributional neighbourhoods serve as proxies for patterns of use. When sense distinctions matter, these distributional patterns can be cross-checked against explicit semantic criteria (e.g., dictionary senses, human sense annotation).
+
+Second, a held-out prediction: a prototype classifier trained on early decades (1900–1940) and tested on later decades (1950–2000) recovers word identity well above a shuffled-label baseline (macro-F1 $`= 0.84`$ vs. 0.03; indicating that the model recovers word identity with high reliability, far exceeding random guessing). An alignment-free neighbour-set classifier still performs well (macro-F1 $`= 0.74`$ vs. 0.02) and yields mean target accuracy 0.58 (Appendix A). Mean per-lexeme accuracy is 0.71 for targets (95% CI \[0.58, 0.83\]) and 1.00 for controls. Temporal locality, measured by the nearest-decade mean absolute error, averages 1.71 decades for targets and 1.03 for controls; only *nice* and *sick* fall at or below the one-decade threshold (Appendix A). Combined with the cohesion cutoff, these are the only targets that satisfy both per-lexeme criteria in this run.
+
+For the subset that passes, these signatures meet the projectibility diagnostic in the only sense that matters for an historical object: past usage fixes expectations that carry forward. The relevant test is whether the distributional neighbourhood resists dissolution when the mean location of a word’s use shifts; that resistance is precisely what the HPC picture predicts when stabilizers preserve enough shared properties as a word moves. Where the diagnostics fail, the framework tells us to withhold kindhood for that lexeme–time slice rather than forcing a positive verdict. Those stabilizers are not mysterious.
+
+Orthographic standardization constrains spelling through educational institutions and publishing practices, implemented cognitively via explicit instruction and error correction that builds orthographic representations resistant to variation. Frequency-based entrenchment makes high-frequency items resistant to perturbation through sheer repetition in memory: each token strengthens the form-meaning link and automates retrieval (Bybee and Hopper 2001). Editorial norms are enforced through copy-editing workflows that flag nonstandard usage, implemented via conformity bias (speakers align with prestigious variants) and reputation monitoring (fear of correction motivates norm-following). Register licensing operates through genre conventions that sanction certain words in certain contexts, implemented via associative learning linking words to situational contexts. These are not mere labels for correlation – they are social practices with cognitive effects, operating through domain-general mechanisms like associative memory, conformity, and error-driven learning.
+
+## Objections and responses
+
+There are obvious objections, and they can be separated from one another.
+
+One is methodological: distributional neighbourhoods are proxies, not senses. That’s correct, but it isn’t a defect here. The claim under test is that the relevant family of properties stays bundled tightly enough for prediction; distributional stability is an appropriate read-out of that bundling, and the failure mode – a collapse in cohesion and in held-out performance – is clear.
+
+A second objection distinguishes homeostasis from inertia: maybe distributional stability reflects momentum (frequency begets frequency) rather than active maintenance. This is testable. Homeostasis predicts that weakening a stabilizer (e.g., reducing editorial oversight in informal registers, removing spelling instruction) should degrade coherence before re-stabilizing at a new equilibrium, whereas inertia predicts monotonic decay. The contrast can be probed by comparing registers or by tracking divergence between prescriptive and colloquial usage, but the present data do not adjudicate it.
+
+A third objection is genealogical: some drifts are punctuated, driven by contact or fashion, and so prediction should break. This is a fair disconfirmatory case; it’s also consistent with the framework. If a lexeme’s covariance collapses or becomes unmoored from any credible stabilizer, we should withhold kindhood for that population–time slice rather than force an HPC verdict.
+
+A fourth objection appeals to polysemy: if a family of uses fractionates, does the umbrella still count as one kind? Here again the framework is conservative. Population-relative equilibria are what matter. If distinct usage communities stabilize distinct covariances – two clusters with their own stabilizers – the correct description is two local kinds, not an analyst’s disjunctive lump.
+
+The positive case, then, is modest but informative. Some words can change and still remain <span class="smallcaps">HPC</span> kinds because the mechanisms that matter for use – orthography and phonology, frequency and register, collocational habits and editorial standards – are strong enough to bind their properties across time. In this evaluation the overall classifier clears the macro-F1 threshold, but only a subset of targets (notably *nice* and *sick*) meet the per-lexeme cohesion and temporal-locality cutoffs; many high-drift adjectives fail at least one criterion. What the figures show isn’t that a word keeps its older meaning, but that for some lexemes the distributional profile remains predictively structured as it moves. That’s exactly the sense in which a linguistic category earns kindhood by HPC lights: it projects because it’s homeostatically maintained. The contrast class is equally clear. One-off coinages that fail to diffuse, campaign-season blends, or transient vogue terms often show neither cohesion nor predictive grip when tracked across time; nothing stabilizes them. They are legitimate objects of study, but they aren’t kinds in the relevant sense.
+
+This tier, then, completes the bridge from phonemes to higher structure. In phonology, the stabilizers are largely biophysical and perceptual and yield stability bands and scaling relations. In the lexicon, the stabilizers are mainly sociocultural and distributional and yield cohesion under drift and recoverable neighbourhoods. The ontology is the same: a posteriori kinds stabilized by mechanisms we can name, whose signatures we can see.
+
+# Case C – Constructions: *or even* as a positive HPC
+
+Constructions – conventionalized pairings of form and meaning that go beyond compositional rules – offer a different challenge for the HPC framework than single segments or words. Where phonemes cluster in articulatory space and words maintain distributional neighbourhoods, constructions rely on multiple converging cues that speakers recognize as a gestalt. The English *or even* construction provides a practical test case: it is a scalar-additive pattern closely related to *let alone*, but it is substantially more frequent in the UD corpora, enabling cross-corpus evaluation.
+
+Consider the contrast in <a href="#ex:oreven" data-reference-type="ref" data-reference="ex:oreven">[ex:oreven]</a>: .<span id="ex:oreven" label="ex:oreven"></span> . *I can’t afford coffee, or even dinner.*
+
+Here the second item is presented as a stronger, more extreme, or less likely alternative on a contextually relevant scale. This scalar-additive relationship – where $`Y`$ ranks higher than $`X`$ on some contextually relevant scale – defines the construction’s core meaning. But how do speakers recognize this pattern reliably? And what keeps its formal and semantic properties bundled together across different texts and registers?
+
+I profile three observable cues that work together:
+
+- **String anchor**: The phrase *or even* itself
+
+- **Syntactic parallelism**: The contrasted elements ($`X`$ and $`Y`$) typically match in grammatical category (both nouns, both verb phrases, etc.)
+
+- **Scalar/contrast cues**: markers like negation or degree terms (*not*, *no*, *only*, *just*, *more*, *less*) and list punctuation (comma/semicolon) that frame $`Y`$ as a stronger alternative
+
+What is this construction cognitively? I treat *or even* as a stored form-meaning pairing: a schema specifying (a) the anchor string, (b) a syntactic template \[X, *or even* Y\] with parallelism expectations, and (c) scalar semantics (Y more extreme than X). The schema abstracts over exemplar instances. This is compatible with usage-based Construction Grammar (Goldberg 1995, 2006), Sign-Based Construction Grammar (Boas and Sag 2012), HPSG (Pollard and Sag 1994), or any framework treating constructions as stored units rather than purely derived structures. The commitment is to storage + form-meaning pairing; the specific theory of how acquisition and processing implement this is an open question. For concreteness, I assume cue weights emerge from frequency and reliability (usage-based mechanisms), but constraint-based or parametric implementations could maintain the cluster via different stabilizers.
+
+To test whether this cue bundle qualifies as homeostatic, I use two independently annotated corpora from the Universal Dependencies (UD) project: English GUM (Zeldes 2017) – containing diverse genres from academic writing to online reviews – and English EWT (Silveira et al. 2014) – built from web text and email. These corpora provide syntactic parses that identify grammatical categories and dependencies, enabling automatic extraction of the parallelism and licensing features beyond simple string matching.
+
+The projectibility test asks: can patterns learned in one corpus predict instances in another? I train a minimal classifier on the three-cue bundle using data from GUM, then evaluate its ability to identify true *or even* constructions in the held-out EWT corpus (and vice versa). This cross-corpus design is crucial – if the construction were merely a frozen idiom or a corpus-specific quirk, the patterns wouldn’t transfer. Table <a href="#tab:oreven-eval" data-reference-type="ref" data-reference="tab:oreven-eval">1</a> reports the discrimination performance using PR–AUC. Because evaluation is restricted to anchor-present candidates, the anchor-only baseline is uninformative (PR–AUC equals prevalence), so gains reflect genuine cue structure.
+
+<div id="tab:oreven-eval">
+
+| Direction     | Model            | PR–AUC | $`\Delta`$ |
+|:--------------|:-----------------|:------:|:----------:|
+| GUM$`\to`$EWT | Full bundle      | 0.886  |      –     |
+|               | Drop parallelism | 0.612  |   –0.274   |
+|               | Drop licensing   | 0.822  |   –0.063   |
+| EWT$`\to`$GUM | Full bundle      | 0.829  |      –     |
+|               | Drop parallelism | 0.527  |   –0.302   |
+|               | Drop licensing   | 0.650  |   –0.179   |
+
+Cross-corpus evaluation for *or even*. Full model uses anchor+parallelism+scalar cues; ablations drop one cue. Anchor-present candidates; class prevalence shown in the note.
+
+</div>
+
+Note: Metrics are computed on anchor-present candidate sets; full precision/recall/F1 values are available in supplementary materials.
+Anchor-present counts: GUM $`n=12`$ (pos=5), EWT $`n=18`$ (pos=10). These results are illustrative; the confirmatory analysis expands to additional UD English corpora and a larger anchor sweep.
+
+The full three-cue model achieves PR–AUC in the 0.83–0.89 range in both transfer directions (indicating robust precision and recall; GUM$`\to`$EWT means training on GUM, testing on EWT). This exceeds the prevalence baseline and indicates robust cross-corpus generalization. Removing parallelism produces the largest drops ($`\Delta\approx`$<!-- -->0.27–0.30; a substantial loss of predictive power), while removing licensing yields smaller but consistent losses ($`\Delta\approx`$<!-- -->0.06–0.18). The string anchor alone isn’t sufficient; the construction needs its supporting cast of cues.
+
+Figure <a href="#fig:or-even-profile" data-reference-type="ref" data-reference="fig:or-even-profile">4</a> decomposes the cue distributions in each corpus. Despite different genres and collection methods, both corpora show similar profiles: verbs and nouns dominate the $`Y`$ position, and scalar/contrast cues appear at comparable rates. This cross-corpus stability – maintained without explicit coordination between the corpus creators – suggests genuine linguistic regularities rather than annotation artifacts.
+
+<figure id="fig:or-even-profile" data-latex-placement="t">
+<embed src="images/or_even_profile.pdf" />
+<figcaption>Cue profile for the <em>or even</em> construction in UD English GUM and EWT. Left to right: proportion of tokens with syntactic <em>parallelism</em> (matching Universal Part-of-Speech (UPOS) match between contrasted heads for the heads of <span class="math inline"><em>X</em></span> and <span class="math inline"><em>Y</em></span>), distribution of <span class="math inline"><em>Y</em></span>–head UPOS, and prevalence of scalar/contrast cues within five tokens to the left. Error bars are bootstrap 95% intervals (2<span>,</span>000 resamples). Token counts and exact estimates are reported in the repository tables.</figcaption>
+</figure>
+
+<figure id="fig:or-even-pr" data-latex-placement="t">
+<embed src="images/or_even_prcurve.pdf" />
+<figcaption>Projectibility and ablation for <em>or even</em>. Precision–recall curves for a regularized logistic model using the full cue bundle (anchor + parallelism + scalar/contrast cues; solid) versus ablations (drop parallelism; dashed; drop scalar/contrast cues; dotted). Model is trained on GUM and evaluated on EWT; class prevalence in the target set and train/test construction are held constant across conditions. The full bundle achieves high PR–AUC (<span class="math inline">≥ 0.70</span>); ablating parallelism produces the largest drop, with licensing cues providing smaller but reliable support.</figcaption>
+</figure>
+
+What mechanisms maintain this stability? Three are plausible and testable:
+
+1.  **Frequency and entrenchment**: The construction appears often enough in the available corpora that speakers internalize its pattern through repeated exposure
+
+2.  **Cue redundancy**: Multiple signals converge – even if parallelism fails in a rushed email, the anchor and licensing context still signal the construction
+
+3.  **Normative pressure**: Editorial practices and style guides reinforce the canonical pattern, especially in formal registers; odd, unlicensed uses like *I bought coffee or even dinner* in neutral contexts would likely be corrected in editing
+
+These mechanisms operate at different timescales but interact to co-stabilize the construction. Frequency and entrenchment work rapidly (milliseconds to weeks): each token use strengthens memory traces, increasing production probability, which generates more tokens in a self-reinforcing loop (Bybee and Hopper 2001). Editorial norms and genre licensing operate slowly (years to decades): copy-editing workflows and style guide updates formalize emergent patterns, creating explicit standards that then constrain future production. The fast loop generates the pattern; the slow loop crystallizes and transmits it. Perturbation experiments can distinguish their contributions: reducing frequency while maintaining editorial standards should weaken the cluster gradually, whereas removing editorial oversight while maintaining frequency should increase drift without collapse. Both stabilizers are necessary: frequency alone produces transient patterns (internet slang that fades quickly), normative pressure alone produces rigid prescriptions that speakers ignore (failed language reforms). The interaction explains the observed robustness.
+
+These mechanisms – frequency, redundancy, and normativity – are precisely the homeostatic forces that Boyd’s framework predicts for socially maintained kinds. Unlike the biophysical constraints that stabilize phonemes, constructions rely more heavily on usage-based learning and community standards. But the empirical signatures are parallel: predictable patterns that degrade systematically when stabilizers are removed.
+
+How do speakers acquire this cue bundle? Children learning *or even* face a distributional learning problem: from scattered instances in input, extract the recurring pattern that the anchor co-occurs with parallelism, scalar/contrast cues, and scalar meaning. Domain-general statistical learning mechanisms – tracking form-meaning co-occurrences, registering cue reliability, chunking frequent sequences – are sufficient (Tomasello 2003; Goldberg 2006). As the construction becomes entrenched through repeated activation, it gains processing advantages (faster recognition, automatic retrieval) that further stabilize it against perturbation. This is the cognitive implementation of “frequency and entrenchment”: repeated exposure $`\rightarrow`$ strengthened memory trace $`\rightarrow`$ resistance to change.
+
+Frequency drives entrenchment through repeated activation of form-meaning mappings in memory (Bybee and Hopper 2001); cue redundancy provides fallback signals when individual cues are noisy or degraded; normative pressure operates through explicit correction (editorial changes, teaching) and implicit modelling (exposure to edited text). The ablation results in Table <a href="#tab:oreven-eval" data-reference-type="ref" data-reference="tab:oreven-eval">1</a> provide evidence that these mechanisms matter: removing parallelism or scalar/contrast cues degrades performance because the construction depends on their combined contribution.
+
+The modest sample sizes mean these results are illustrative rather than definitive; general claims about constructions-as-kinds will require broader sampling across construction types and corpora. What *or even* demonstrates is proof-of-concept: the diagnostics can be applied to constructions, and they yield interpretable signatures when they succeed.
+
+A further question concerns constructional inheritance. *Or even* isn’t isolated – it shares properties with a family of scalar additive constructions: *let alone*, *much less*, *not to mention*, *never mind*, *to say nothing of*. These patterns signal scalar extremity, but differ in register (formal vs. colloquial), cue reliability (e.g., *much less* shows weaker parallelism), and productivity. An HPC treatment of this family would ask: is the scalar-additive schema itself an HPC kind at a higher level of abstraction, with *or even* as an instantiation? Or are these distinct kinds that happen to share features? The diagnostics extend naturally: if the abstract schema projects across new instances and is maintained by identifiable mechanisms (analogical extension, paradigmatic pressure), it qualifies. Full analysis requires broader constructicon sampling and is left to future work.
+
+The *or even* case completes the demonstration across linguistic levels. Where phonemes showed scaling laws and stability bands, and words showed cohesion under drift, constructions show cross-corpus cue bundles with measurable degradation under ablation. Each level exhibits projectibility maintained by identifiable mechanisms – the hallmark of HPC kinds in Boyd’s naturalistic framework.
+
+## From a flagship to a stratified constructional battery
+
+The *or even* case is deliberately clean: it’s frequent enough to analyse in modest corpora, it has a clear scalar-additive semantics, and it supplies an interpretable cue bundle (anchor string, syntactic parallelism, and scalar/contrast cues). But a single construction is too easy to tailor the analysis to. If the construction tier is to do more than demonstrate feasibility, the diagnostics have to survive contact with heterogeneous constructions: different cue geometries, different decoy spaces, and different plausible stabilizers. The aim isn’t to argue that *all* constructions are <span class="smallcaps">HPC</span> kinds, but to show that the same two tests can be run repeatedly at this tier without smuggling in a bespoke definition of success.
+
+Accordingly, the confirmatory construction-level analysis expands from one flagship to a small, stratified battery of ten targets. Eight are treated as positive candidates; two are included as designed *brakes* cases to force the framework to say *no* (or at least *not at this grain*) when it should. The battery is chosen by three operational criteria. First, each target has to admit a non-trivial near-miss space: there have to be abundant anchor- or frame-matched strings that aren’t instances, so that projectibility isn’t reducible to string spotting. Second, each target has to be representable by at least three partially independent cues (so ablation is informative). Third, extraction has to be feasible in UD-style dependency parses plus shallow context windows, without hand-built sense inventories or construction-specific annotation.
+
+To avoid corpus-by-construction confounds, a fixed *corpus palette* is pre-declared and applied uniformly across all targets. The core palette spans three UD English treebanks that jointly cover the relevant register range: GUM (multi-genre, including academic, fiction, and spoken/social), EWT (web genres including blogs, newsgroups, emails, and reviews), and GUMReddit (informal social-media dialogue). To increase sample sizes and reduce saturation, the battery is expanded to additional UD English treebanks (ESL, ESLSpok, GENTLE, CHILDES, LinES, PUD, ParTUT, UniDive, ATIS, LittlePrince, Pronouns, CTeTex, PCEDT). Register becomes an explicit experimental factor rather than a per-construction contingency: every construction in the battery is evaluated over the same grid, and sparsity in particular slices is treated as distributional scope (the extent of the kind’s population) rather than as a test failure. For register contrasts I use a two-bin split (edited/formal vs informal/spoken) and exclude mixed or ambiguous corpora; assignments are listed in Appendix A.
+
+The selected constructions span four cue regimes (Table <a href="#tab:cx-battery" data-reference-type="ref" data-reference="tab:cx-battery">2</a>). Semi-schematic argument-structure patterns with lexical hooks (e.g., *way*- and *time-away*) test whether moderately schematic templates can be treated as local kinds without collapsing into verb-class semantics (Goldberg 1995, 2006). Paired-marker templates (comparative correlatives) shift the burden from lexical anchors to parallelism and clause pairing. Clausal operators with a lexical spine (*just because* $`\dots`$ *doesn’t mean* $`\dots`$; all-clefts) foreground discourse function and polarity, where licensing cues should matter more than argument structure. Finally, pragmatic “format” constructions (here, *X much?*) are treated as population-relative: their stabilizers are plausibly register-specific, and projection is expected to be strong only within the genres where they circulate.
+
+Two additional targets are included explicitly to discipline the ontology. The first is *resultative* as a pooled analyst’s umbrella. Run naively as a single category, it’s predicted to behave as “too fat”: heterogeneous subtypes should erode cross-corpus projection and wash out ablation signatures. The second is a register-local format construction (*X much?*), included to make locality concrete: the framework predicts that projectibility can succeed in the appropriate population–genre slice while failing (trivially, by sparsity) outside it. In both cases the point isn’t to “rescue” a kind claim, but to show that the same diagnostics (and the same thresholds) yield informative failure modes rather than producing an “HPC” verdict by default.
+
+<div id="tab:cx-battery">
+
+<table>
+<caption>Constructional battery for the confirmatory extension of Case C. Each target is specified by a candidate-generation heuristic (to define the evaluation universe), a minimally sufficient cue bundle (for ablation), and a predicted stabilizer profile. Eight are treated as positive candidates; two are designed <em>brakes</em> cases (“too fat”; register-local).</caption>
+<thead>
+<tr>
+<th style="text-align: left;">Target</th>
+<th style="text-align: left;">Candidate set (heuristic)</th>
+<th style="text-align: left;">Cue bundle (illustrative) and predicted stabilizers</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Target</td>
+<td style="text-align: left;">Candidate set (heuristic)</td>
+<td style="text-align: left;">Cue bundle (illustrative) and predicted stabilizers</td>
+</tr>
+<tr>
+<td colspan="3" style="text-align: right;"><em>Continued on next page</em></td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>or even</em></td>
+<td style="text-align: left;">Anchor-present strings containing <em>or even</em></td>
+<td style="text-align: left;">Anchor string; syntactic parallelism of contrasted heads; scalar/contrast cues in left context. Redundancy and norming predict cross-corpus stability and ablation sensitivity.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>way</em>-construction</td>
+<td style="text-align: left;">Tokens of <em>way</em> with a possessive dependent (<em>my/your/his …way</em>)</td>
+<td style="text-align: left;">Possessor+<em>way</em> frame; PP path; eventive verb profile (often effortful traversal). Stabilizers: entrenchment of a schematic template, plus cue redundancy between the nominal frame and path syntax <span class="citation" data-cites="Goldberg1995 Goldberg2006">(Goldberg 1995, 2006)</span>.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>time-away</em></td>
+<td style="text-align: left;">Verb + object time-NP + particle <em>away</em></td>
+<td style="text-align: left;">Particle <em>away</em>; object is a time-denoting NP; activity predicate tendency and durative packaging. Stabilizers: conventional aspectual packaging reinforced by editorial norms and high token frequency.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Comparative correlative</td>
+<td style="text-align: left;">Two-clause strings with repeated <em>the</em> preceding comparative morphology</td>
+<td style="text-align: left;">Paired <em>the</em> markers; comparative morphology in both clauses; clause adjacency/parallelism (often punctuation-delimited). Stabilizers: processing and parallelism pressures on a rigid template (cue dependence predicted to be high).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>Just because</em> <span class="math inline">…</span> <em>doesn’t mean</em> <span class="math inline">…</span></td>
+<td style="text-align: left;">Strings containing <em>just because</em> or <em>doesn’t mean</em> with clausal complements</td>
+<td style="text-align: left;">Two-part operator packaging; polarity/negation; discourse contrast markers. Stabilizers: discourse function plus redundant lexical packaging (two-part spine predicts robust ablation deltas).</td>
+</tr>
+<tr>
+<td style="text-align: left;">All-cleft (<em>All S is NP</em>)</td>
+<td style="text-align: left;"><em>all</em> + clausal dependent + copula (<em>is/was</em>)</td>
+<td style="text-align: left;">Cleft-like packaging; copular spine; exhaustivity cues (often reinforced by punctuation and discourse framing). Stabilizers: focus packaging and editorial regularisation of canonical phrasing.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Binominal <em>N of a N</em> (<em>that idiot of a doctor</em>)</td>
+<td style="text-align: left;"><em>N<span class="math inline"><sub>1</sub></span> of a N<span class="math inline"><sub>2</sub></span></em> nominal frame</td>
+<td style="text-align: left;">Fixed <em>of a</em> frame; evaluative N<span class="math inline"><sub>1</sub></span> tendency; agreement/selectional asymmetries (N<span class="math inline"><sub>2</sub></span> as semantic head). Stabilizers: frame entrenchment plus conventional evaluative usage patterns.</td>
+</tr>
+<tr>
+<td style="text-align: left;">N–P–N (<em>day by day</em>)</td>
+<td style="text-align: left;">Identical noun lemma repeated with a preposition between</td>
+<td style="text-align: left;">Lexical identity; restricted P inventory; distributive/reciprocal semantics proxied by local syntactic environment. Stabilizers: strong formal rigidity with modest lexical productivity (predicted to split into subfamilies under “too fat” pressure if pooled indiscriminately).</td>
+</tr>
+<tr>
+<td style="text-align: left;">Resultative (pooled) <em>brakes</em></td>
+<td style="text-align: left;">Broad [V Obj XP] frames with XP as AP/PP</td>
+<td style="text-align: left;">Predicted “too fat”: pooling distinct subtypes (AP-resultatives; PP/path-like; verb-class specific patterns) should weaken projection and blur ablation signatures. Stratified subkinds are predicted to restore projectibility if (and only if) mechanisms are genuinely local.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>X much?</em> <em>brakes</em></td>
+<td style="text-align: left;">Utterances ending in <em>much</em> with fragment-like syntax</td>
+<td style="text-align: left;">Sentence-final <em>much</em>; predicate fragment; stance punctuation. Predicted register-local homeostasis: strong within informal dialogue/web-like text, weak or absent elsewhere (locality as a positive prediction, not a nuisance).</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+## Construction battery results
+
+To reduce tautological saturation, instance labels are defined by a stricter heuristic than the three cue proxies, so cues predict rather than define labels. The heuristics were also broadened to target structural signatures (copular all-clefts, possessive+*way* with path framing), while comparative correlatives were tightened to require genuine comparatives rather than generic *the* sequences. Under this regime, five constructions meet the minimum thresholds (Table <a href="#tab:cx-battery-prevalence" data-reference-type="ref" data-reference="tab:cx-battery-prevalence">[tab:cx-battery-prevalence]</a>): N–P–N, resultative_adj, resultative_pooled, all-clefts, and the *way* construction. The expanded corpus palette yields 34 estimable train–test pairs for these constructions (notably across CHILDES and LinES in addition to GUM/EWT). Table <a href="#tab:cx-battery-results" data-reference-type="ref" data-reference="tab:cx-battery-results">[tab:cx-battery-results]</a> summarizes the full-model PR–AUC and ablation deltas for those pairs. Full PR–AUC now ranges from 0.58 to 1.00; Cue 3 ablations still produce the largest drops overall, but all-clefts show moderate sensitivity to Cue 1 and the *way* construction shows strong sensitivity to Cue 1/Cue 2.
+
+By the preregistered decision rule, N–P–N and the *way* construction count as *provisional positives at this grain*. All-clefts are borderline (two train–test directions exceed the 0.70 target; others do not), and the resultative outcomes remain *brakes*: both the pooled set and the AP subtype depend almost entirely on Cue 3, consistent with the “too fat” prediction, while the PP/path subtype is too sparse to evaluate. Comparative correlatives no longer meet the evaluability thresholds under the tightened heuristic, and binominal *N of a N* plus the remaining targets (*or even*, *time-away*, *just because* …*doesn’t mean* …, *X much?*) still fall below prevalence thresholds, so no kind claim is made for them in this run. Following the Gelman-style checks, the heuristic is frozen at this level; further changes would count as a new task design rather than an incremental tweak.
+
+The implication is deliberately narrow: the construction tier does not license a blanket <span class="smallcaps">HPC</span> claim. Kindhood is earned case-by-case, and at this grain it attaches to N–P–N (and provisionally to *way*), while the resultatives behave as a failure mode that supports the “too fat” diagnosis. Cue dominance varies across targets (Cue 3 for resultatives; Cue 1/Cue 2 for *way*), suggesting that multi-cue redundancy is not yet robustly established in these slices; stronger evidence for redundancy will require larger samples and the planned downsampling and covariance checks.
+
+The homeostasis diagnostics temper the story further. Cue covariance (Table <a href="#tab:cx-battery-cov" data-reference-type="ref" data-reference="tab:cx-battery-cov">[tab:cx-battery-cov]</a>) is often undefined because one cue is invariant across positives, and where it is defined the remaining cue pair tends to show modest or negative association (e.g., *or even*). This points to cue specialization or trade-offs rather than robust redundancy in the current slices.
+
+Downsampling the training data to 25% produces only small changes in PR–AUC (max $`|\Delta| \approx 0.08`$; a negligible change) across the 34 estimable pairs (Table <a href="#tab:cx-battery-downsample" data-reference-type="ref" data-reference="tab:cx-battery-downsample">[tab:cx-battery-downsample]</a>), suggesting that even after loosening the heuristics the cue bundle still yields stable separability on these candidate sets. As a result, the perturbation test remains weakly informative at this grain and likely requires broader samples or less restrictive label heuristics to become diagnostic. Bootstrap CIs (Table <a href="#tab:cx-battery-bootstrap" data-reference-type="ref" data-reference="tab:cx-battery-bootstrap">[tab:cx-battery-bootstrap]</a>) reinforce the pattern: N–P–N and *way* remain entirely above the 0.70 target, all-clefts straddle the threshold, and comparative correlatives fall below evaluability under the tightened heuristic. Shuffled-label baselines (Table <a href="#tab:cx-battery-shuffle" data-reference-type="ref" data-reference="tab:cx-battery-shuffle">[tab:cx-battery-shuffle]</a>) track prevalence – especially for the high-prevalence N–P–N pairs – highlighting that some high PR–AUC values are prevalence-driven rather than cue-driven.
+
+## Candidate sets, decoys, and cue ablations
+
+Across targets, the projectibility test is kept methodologically uniform. Each construction is evaluated on an *anchor- or frame-restricted* universe of candidates generated by an explicit heuristic (Table <a href="#tab:cx-battery" data-reference-type="ref" data-reference="tab:cx-battery">2</a>), and within that universe the task is to distinguish true instances from near misses. This restriction serves two purposes. It prevents trivial wins in which a unique lexical anchor would solve the problem, and it makes the negative class interpretable: decoys aren’t arbitrary non-instances, but strings that are close enough that the constructional cue bundle has to do real work. Within that candidate set, class prevalence is reported explicitly and PR–AUC is used because it remains informative under imbalance.
+
+With the fixed corpus palette in place, every construction undergoes the same three-step reporting protocol:
+
+1.  **Prevalence map.** For each corpus (and, where metadata permit, each genre slice), count anchor- or frame-matched candidates and validated instances. Zeros are informative: they delimit the construction’s *distributional scope* rather than registering as test failures.
+
+2.  **In-register projectibility.** Where prevalence thresholds are met (Appendix A), test transfer between corpora or slices in the same register class (e.g., informal$`\leftrightarrow`$informal; edited$`\leftrightarrow`$edited). This uses the standard PR–AUC$`\geq 0.70`$ target.
+
+3.  **Cross-register stress test.** Train in one register class and test in another (e.g., GUMReddit$`\to`$academic GUM). For register-neutral constructions like *or even*, cross-register transfer should remain robust; for register-local constructions like *X much?*, it’s predicted to degrade sharply – a falsifiable signature of locality.
+
+Cue bundles are specified to be both linguistically interpretable and mechanically ablatable. For lexically hooked templates (*or even*, *way*, *time-away*, binominal *of*), ablations separate (i) anchor/frame material from (ii) structural packaging (e.g., possessive+*way*, PP path; time-NP objecthood; *of a* frame) and (iii) scalar/contrast cues (polarity, contrast markers, stance punctuation). For paired-marker templates (comparative correlatives), ablations remove parallelism cues (comparative morphology; repeated *the*; clause pairing) in isolation. For pragmatic formats (*X much?*), ablations separate the overt marker (*much*) from fragment syntax and stance punctuation, with the expectation that no single cue is sufficient in naturally noisy data. The success criterion follows the flagship analysis: cross-corpus PR–AUC around or above 0.70 for the full bundle, with clear ablation sensitivity (especially to parallelism) and prevalence thresholds enforced (§<a href="#sec:methods" data-reference-type="ref" data-reference="sec:methods">2</a>).
+
+The homeostasis diagnostic is likewise kept parallel to the flagship. For each construction the analysis reports (i) cue covariance (e.g., pairwise $`\phi`$ coefficients and their bootstrap intervals) as a direct signature of clustering, (ii) downsampling sensitivity as a perturbation proxy (frequency as a stabilizer), and (iii) register stratification when appropriate (genre licensing as a stabilizer). The two *brakes* cases are expected to behave differently. The pooled resultative is predicted to show weak cue covariance and unstable cross-corpus transfer unless it’s stratified into more local equilibria, in line with the “too fat” failure mode (§<a href="#sec:failures" data-reference-type="ref" data-reference="sec:failures">6</a>). The *X much?* format is predicted to show the opposite pattern: strong internal covariance and projection within the relevant population slice, paired with sharp attenuation outside it. In both cases, the outcome is informative either way. A pooled umbrella that projects robustly without stratification would be evidence *for* a higher-level kind; a register-local format that projects widely across corpora would undermine the locality claim and force a different mechanism story.
+
+The upshot is that the construction tier can be treated with the same epistemic discipline as the phoneme and word tiers. A construction counts as an <span class="smallcaps">HPC</span> kind only if (i) its cue bundle supports out-of-sample inference in a way that survives explicit decoy baselines, and (ii) that bundle is plausibly maintained by stabilizers whose signatures are visible as cue covariance and predictable perturbation sensitivity. The battery isn’t an attempt to catalogue English constructions; it’s a stress test of whether the diagnostics behave coherently across heterogeneous targets, and whether the failure modes are empirically tractable rather than merely philosophical.
+
+# Where HPC fails: thin, fat, and negative classes
+
+The diagnostics in §<a href="#sec:framework" data-reference-type="ref" data-reference="sec:framework">1</a> and §<a href="#sec:methods" data-reference-type="ref" data-reference="sec:methods">2</a> are symmetric: they license kindhood when a category projects and when stabilizers with the right signatures can be named; they also tell us when to say *no*. Because kinds are discovered empirically rather than stipulated – with their boundaries determined by where mechanisms maintain covariance – failure isn’t a metaphysical verdict about the string or pattern in the abstract. It’s a claim that here and now, we lack the predictive grip and identifiable mechanisms that HPC requires under Boyd’s view.
+
+Some categories are too thin. Nonce coinages and campaign-season blends that never diffuse, idiolectal “style phonemes,” and child-only overregularizations within adult Standard English don’t pass the projectibility test in the relevant population–time slice: held-out prediction collapses, and the stabilizers one would expect to bind properties (frequency, entrenchment, community norms) are either absent or act in the opposite direction. In our terms, the decision rule fails in both halves: PR–AUC sits at baseline and no credible mechanism–signature pairing survives sensitivity checks. These cases are explananda for learning or diffusion, but not kinds.
+
+Some categories are too fat. Cross-linguistic umbrellas such as “resultative” or “ditransitive” pool patterns maintained by different morphosyntactic resources, cue reliabilities, and norming regimes. The pooled set can look impressive descriptively, but the mechanism story is disjunctive: dispersion in one language, selectional licensing in another, constructional analogy in a third (Croft 2001; Haspelmath 2010). When the projectibility assay is run at this granularity, cross-corpus prediction drifts toward family- or area-specific quirks, ablations fail to show stable redundancy, and effects wash out under lineage-pruning. The right move, on a Boyd-style account, is to localize the ontology: retain language-internal equilibria as kinds and treat the global umbrella as an interest-relative taxonomy rather than a single <span class="smallcaps">HPC</span> kind. In some cases, stratification restores projection: if the pooled resultative is split into AP-resultative subtypes vs. PP-path subtypes, each subtype may show the cue covariance and cross-corpus transfer that the pooled category lacks. That stratified outcome would confirm the “too fat” diagnosis while identifying the local kinds it concealed.
+
+Some categories are merely negative. Complement classes – “ungrammatical strings”, “all exceptions to rule $`R`$” – are defined by what they’re not rather than what they are. Such sets are defined by failure to meet norms, not by a family of co-instantiated, causally sustained properties. They don’t project – there’s no stable covariance to learn – and they don’t admit a non-accidental mechanism story. By the criteria in §<a href="#sec:methods" data-reference-type="ref" data-reference="sec:methods">2</a>, they fail the homeostasis test by construction. Miller’s mechanism-first treatment of word-kinds is instructive here: the relevant covariation is sustained by internal and external stabilizers; a complement class has no such base. A caveat: *structured subsets* within a complement class can be HPC candidates in their own right. L2 transfer clusters (e.g., persistent article-drop errors among speakers of articleless L1s) may show stable covariance, predictable error profiles, and mechanism–signature pairings that the grab-bag “all L2 errors” lacks. The framework doesn’t rule out kindhood for negative-seeming sets; it demands the same evidence of projectibility and stabilizer-consistent signatures that any candidate must meet.
+
+There are borderline zones. “Cranberry” elements – bound morphemes that appear in just one or two words, like *cran-* in *cranberry* – can form local kinds if a distributional and prosodic profile stabilizes across a small family of items (e.g., the Latinate bound root *-ceive*/*-cept* in *receive*, *perceive*, *conception* shows recurrent selectional frames and stress behaviour, whereas *cran-* in *cranberry* does not and so degenerates into an analyst’s one-off grouping). Base-identical exponents in morphology can be treated as kinds when the distributional covariance and paradigm pressure produce reliable out-of-sample inferences (e.g., base plurals in *sheep*, *deer* and base-identical preterite in *hit*, *set* may predict paradigm-internal contrasts and error patterns; absent that, a “zero form” is often a bookkeeping device). In phonology, allophonic habits become kinds when they’re normed and extend across the speech community (e.g., North American English intervocalic /t, d/ \[\] (*water*) or contextually dark \[\]) whereas fleeting stylistic effects (an emphatic release on a single token, a momentary creak on one syllable) do not. The diagnostics are agnostic about representation: what matters is whether predictive signatures persist under the robustness checks we have fixed in advance (§<a href="#sec:methods" data-reference-type="ref" data-reference="sec:methods">2</a>).
+
+The practical value of the failures is twofold. First, they prevent over-generalization: we avoid declaring “everything is an <span class="smallcaps">HPC</span>” by tying kindhood to recomputable tests and to stabilizer–signature pairs. Second, they guide analysis: when a proposal fails, the failure mode – thin, fat, or negative – indicates which lever to pull next (look for diffusion and norms; localize the ontology; abandon complement classes). That division of labour is the point of bringing an <span class="smallcaps">HPC</span> realism to language: the categories that travel well do so because mechanisms keep enough of their properties together, and the ones that don’t travel are precisely those where such homeostasis is missing.
+
+The failure taxonomy also blocks the pathologies Rubin (2008) raises for moral HPCs: isolated goods, structural mismatches, and weak induction. Only clusters with causally important stabilizers and demonstrated projectibility earn kindhood here.
+
+# Predictions and disconfirmers
+
+The diagnostics and thresholds specified in §<a href="#sec:methods" data-reference-type="ref" data-reference="sec:methods">2</a> generate falsifiable predictions. This section makes explicit what would disconfirm the HPC account and presents two cross-cutting perturbation tests.
+
+The HPC claim generates clear disconfirmers. If the // effect collapses under lineage-pruning – it fails. If semantic drift produces no cohesion loss – it fails. If ablations don’t degrade construction recognition – it fails. The full specification in §<a href="#sec:methods" data-reference-type="ref" data-reference="sec:methods">2</a> lists additional conditions: inventory scatter when controlled, random temporal errors, single-cue sufficiency. But the principle is the same. Each test has declared thresholds; each failure forces retreat to thinner accounts.
+
+Two experiments test homeostatic maintenance directly. First, frequency downsampling should weaken stabilization: reducing construction tokens to 25% should degrade PR–AUC by $`\ge`$ 0.10 or reduce cue rates by $`\ge`$ 20%. Second, scaling should generalize: just as // appears preferentially in larger vowel inventories, rare constructional variants should concentrate in corpora with larger constructicon repertoires (monotonic increase across quartiles with non-overlapping CIs at extremes).
+
+These tests operationalize the core claim: linguistic categories qualify as HPCs when they project via identifiable mechanisms. Where thresholds are met, kindhood is warranted; where not, we should prefer thinner or more local accounts.
+
+# General discussion
+
+The claim advanced here is deliberately modest. It isn’t a new architecture of grammar, nor an insistence that every analyst’s category is a kind. It’s a method for deciding when a linguistic category *earns* kindhood by homeostatic property-cluster lights: it has to project to held-out data, and the projection has to be underwritten by stabilizers whose signatures we can name and check.
+
+Across tiers the story is the same. Phoneme inventories show a stability band and a scaling relation for // that survive genealogical and areal controls. Some words drift while retaining enough covariance for out-of-sample recovery, while others do not. The *or even* construction travels across corpora and loses predictive grip when a stabilizing cue is removed. Those are the observable faces of homeostasis at the population–time scales analysed here (§<a href="#sec:case-phoneme" data-reference-type="ref" data-reference="sec:case-phoneme">3</a>–<a href="#sec:case-construction" data-reference-type="ref" data-reference="sec:case-construction">5</a>).
+
+The pay-off is twofold. First, predictive grip: the diagnostics in §<a href="#sec:framework" data-reference-type="ref" data-reference="sec:framework">1</a> and decision rules in §<a href="#sec:methods" data-reference-type="ref" data-reference="sec:methods">2</a> force us to say in advance what counts as success and what would change our minds. Success isn’t a rhetorical gloss (“striking regularity”) but concrete measures – slopes with uncertainty intervals, mass within bands, cross-corpus areas under curve, ablation deltas, and calibration metrics that readers can recompute.
+
+Second, an ontology with brakes: kinds are discovered through evidence rather than declared by fiat, and they are local equilibria (maintained by specific mechanisms in specific populations) rather than universal essences (Boyd 1991, 1999). That stance blocks overreach. Cross-linguistic umbrellas like “resultative” fail as single kinds because they pool heterogeneous mechanisms. Thin proposals (nonce items, one-off blends) and complement classes lack the stabilizer base that projectibility requires (§<a href="#sec:failures" data-reference-type="ref" data-reference="sec:failures">6</a>). In between lie the categories that travel: their properties cohere because mechanisms keep them together.
+
+The stabilizers form a stack, not a single cause. At the phoneme tier, biophysical constraints carve the design space, developmental learning binds cues, sociocultural norms transmit inventories (Stevens 1989; Liljencrants and Lindblom 1972; Lindblom 1990; Ekström et al. 2025). At the lexical tier, frequency entrenches forms, editorial standards enforce conventions, usage communities police extensions. At the constructional tier, cue redundancy protects against noise, normative pressure corrects deviations, genre licensing regulates distribution. The mechanisms shift in their balance: articulatory constraints weigh heavily for phonemes, frequency and norms for words, cue redundancy and editorial pressure for constructions. But at every tier, multiple forces interact: body, cognition, and society always co-stabilize. The logic remains: covariance maintained by identifiable forces at the relevant timescale. This stack is exactly what a Boyd-style naturalism predicts for socially scaffolded kinds (Boyd 2000; Khalidi 2013).
+
+The HPC framework carries theoretical commitments. Treating constructions as kinds commits to storage and form-meaning pairing (compatible with Construction Grammar, HPSG, Sign-Based CxG, or lexicalist frameworks); treating words as kinds commits to lexical entries with associated property clusters (contra extreme proceduralism). The diagnostics themselves – projectibility and homeostasis tests – could in principle be applied within other frameworks, but the substantive claim that linguistic categories *are* HPC kinds entails specific ontological commitments. The value isn’t framework-neutrality but disciplined realism: kinds are discovered through evidence, not stipulated by theory.
+
+There are limits. PHOIBLE counts depend on coding choices and coverage; UD parses vary by genre and version; corpus composition affects both the drift and construction results. The paper addresses these in the small – alternative inventory codings, lineage pruning and macro-area controls, string-only baselines, ablation and calibration checks – but they remain sources of uncertainty. The scope is also intentionally narrow: English for the construction case; contemporary written registers for the word case; a PHOIBLE snapshot for phonology. The point isn’t universality but a disciplined procedure that can be extended and falsified elsewhere.
+
+Three extensions seem especially promising. One is developmental and modelling work that turns stabilizers into mechanisms with dynamics. Iterated-learning models can test which combinations of cue redundancy, frequency, and norm enforcement are sufficient for the observed signatures, and child-directed or learner corpora can implement the frequency perturbations preregistered in §<a href="#sec:methods" data-reference-type="ref" data-reference="sec:methods">2</a>. Another is cross-linguistic generalization at the right grain: language-internal construction families with comparable cue bundles, analysed with the same projectibility and homeostasis tests. Both directions preserve the epistemic discipline that makes <span class="smallcaps">HPC</span> realism useful in cognitive science: kinds aren’t declared by fiat but by patterns that survive baselines, controls, and perturbations.
+
+A third is “general social agents”. The approach offers a low-cost testbed for HPC-style predictions without opening a new empirical front. Recent work from Manning and Horton (2025) builds theory-grounded LLM agents from small human datasets and validates them across distinct settings; in preregistered studies these agents transfer out of domain and beat both off-the-shelf baselines and equilibrium benchmarks across large families of novel games. Used cautiously, such agents could pre-screen the frequency-downsampling and repertoire-size predictions here and surface disconfirmers before running new human studies.
+
+Finally, a word on alternatives. Purely distributional views get part of the way – clusters can be found at every tier – but they lack a story about *why* some clusters are projectible while others evaporate. The mechanism-first stance advanced here supplies that story and demands discriminating checks. Essentialist views capture projectibility by stipulation but have little to say about drift, diversity, and social maintenance. The present approach keeps the realism while naturalizing it: kinds are whatever supports reliable inference because stabilizers – biophysical, developmental, social – keep enough of the relevant properties together (Miller 2021; Boyd 1991, 1999). The figures and tables in this paper are small demonstrations of that general point. Where the signed effects and thresholds are met, a kind claim is warranted; where they aren’t, the label should be withheld. That discipline, and not any particular representation, is the contribution.
+
+# Statistical specifications and robustness checks
+
+This appendix provides complete technical specifications for the analyses in the main text. All thresholds and decision rules used here are listed explicitly.
+
+## Phoneme-level specifications
+
+**Model specification.** The // presence model uses logistic regression with fixed effects for language family and macro-area (dummy codes) plus centred vowel inventory size.
+
+**Cross-validation.** 10-fold CV using GroupKFold by language family to prevent leakage across related languages. Evaluation metric: ROC–AUC (area under receiver operating characteristic curve).
+
+**Inventory selection sensitivity.** For languages with multiple inventories, we compute the statistics under three selection rules (largest, smallest, and 10 fixed-seed random draws). Primary figures use the largest-inventory rule; sensitivity outputs are recorded in `out/summary_tables_selection.csv` and `out/y_model_sensitivity.csv`. Under the grouped CV protocol, /y/ AUC ranges roughly 0.65–0.72 across these selection rules, so the result is near-threshold but robustly above chance.
+
+**Success criteria.** All have to be met: (1) positive inventory effect with 95% CI excluding zero; (2) 10-fold CV AUC $`\geq 0.70`$; (3) Mann–Kendall trend test $`p < 0.01`$. Trend significance is computed with a Mann–Kendall-style statistic (normal approximation) and a permutation null (1000 permutations); (4) effect persists across three specifications: family-effects-only, family+area effects, and lineage-pruned samples (all including the inventory predictor).
+
+## Word-level specifications
+
+**Target selection.** Targets are high-drift adjectives from HistWords COHA lemma SGNS (Hamilton et al. 2016): the top decile of average cosine displacement among non-stop, non-proper adjectives (volstats list), with documented drift terms (*nice*, *sick*, *gay*, *awful*) forced in when available. Minimum average frequency is $`1\times10^{-6}`$ (about 1 per million). Controls are drawn from the bottom decile of displacement and matched on POS and log-frequency ($`\pm`$<!-- -->0.5, relaxed to POS-only when necessary). Some canonical drift items (e.g., *egregious*, *broadcast*) are excluded because the SGNS release supplies zero vectors.
+
+**Register metadata.** The HistWords COHA lemma release provides year but no genre or register metadata in the distributed stats (freqs/volstats/pos), so register contrasts are not available for this run.
+
+**Cohesion and temporal locality.** Cohesion is the mean top-50 neighbour overlap between adjacent decades. Temporal locality is the mean absolute error (in decades) between each decade and its nearest-neighbour decade in embedding space.
+
+**Projectibility.** Two classifiers: (1) aligned prototype classifier trained on 1900–1940 and tested on 1950–2000; (2) alignment-free neighbour-set classifier using Jaccard similarity to training-decade neighbour unions. Metrics: macro-F1 across all lexemes and per-lexeme accuracy (targets vs controls). Shuffled-label baselines use 200 permutations for each classifier. Outputs: `out/word_drift_summary.csv`, `out/word_drift_lexemes.csv`, `out/word_drift_shuffle.csv`, `out/word_drift_jaccard_shuffle.csv`.
+
+## Construction-level specifications
+
+**Corpus palette.** Construction-battery analyses use the UD English palette (GUM, EWT, GUMReddit, ESL, ESLSpok, GENTLE, CHILDES, LinES, PUD, ParTUT, UniDive, ATIS, LittlePrince, Pronouns, CTeTex, PCEDT). Register is treated as an explicit experimental factor via the three-step protocol in §<a href="#sec:cx-candidates" data-reference-type="ref" data-reference="sec:cx-candidates">5.3</a>. We use a two-bin register split for contrast tests: **edited/formal** (PUD, PCEDT, CTeTex, LittlePrince) and **informal/spoken** (EWT, GUMReddit, CHILDES, ESLSpok). Mixed or ambiguous corpora (GUM, GENTLE, LinES, ParTUT, ESL, UniDive, ATIS, Pronouns) remain in the overall battery but are excluded from register-contrast comparisons.
+
+**Minimum evaluability thresholds.** For the construction battery, PR–AUC and ablation metrics are computed only when both train and test sets contain $`\geq`$<!-- -->20 anchor-present candidates and $`\geq`$<!-- -->10 validated positive instances. When thresholds aren’t met, prevalence is reported and the construction–corpus pair is marked “not estimable” rather than “projection failed”. The flagship *or even* analysis falls below this bar, so its metrics are reported as illustrative and accompanied by explicit prevalence counts.
+
+**Features.** (1) Anchor: binary presence; (2) Parallelism: UPOS match between contrasted heads; (3) Licensing: presence of *not*, *-n’t*, *no*, *never*, *hardly*, *without*, *even* within 5 tokens left.
+
+**Model and evaluation.** L2-regularized logistic regression ($`C`$=1.0). Evaluation restricted to anchor-present candidates (true *or even* vs. strings containing “or even” but lacking parallelism or explicit scalar cues; punctuation-only contexts count as positive only when the left head is adjacent to the anchor). Sample sizes in Table <a href="#tab:oreven-eval" data-reference-type="ref" data-reference="tab:oreven-eval">1</a> reflect the anchor-present evaluation set.
+
+**Success criteria.** (1) Cross-corpus PR–AUC around or above 0.70; (2) Ablations reduce PR–AUC, with the largest drops expected when parallelism is removed; (3) Anchor-only baseline on the anchor-present evaluation set equals prevalence. Calibration and shuffled-label baselines are reserved for the larger construction battery.
+
+**Battery robustness checks.** For the construction battery we compute bootstrap CIs for full PR–AUC and ablation deltas (200 resamples of train and test with replacement) and shuffled-label baselines (200 permutations of train labels) to assess overfitting and prevalence effects. Outputs: `out/cx_battery_bootstrap.csv` and `out/cx_battery_shuffle.csv`.
+
+**Manual spot-checks.** We manually inspect a stratified sample (10 positives and 10 negatives per newly estimable construction) and record judgments in `out/cx_battery_spotcheck_annotated.csv`; summary notes in `notes/cx_battery_spotcheck.md`.
+
+## Multiple testing and inference
+
+**Primary outcomes (no correction).** // slope and AUC (Case A); average cohesion and F1 across target/control pairs (Case B); cross-corpus PR–AUC and mean ablation delta (Case C).
+
+**Secondary outcomes.** Benjamini–Hochberg correction at $`q = 0.10`$ for: (1) individual family medians; (2) multiple vowel comparisons; (3) individual lexeme metrics.
+
+**Uncertainty.** Bootstrap CIs (2000 resamples) for: family medians, AUC metrics, classification metrics. Permutation tests (1000 permutations) specifically for Mann–Kendall trend statistics.
+
+## Perturbation experiments
+
+**Frequency downsampling.** Reduce construction tokens by 75%, 50%, 25% via stratified sampling. Recompute cue covariance (phi coefficients) and PR–AUC. Success: $`\geq`$<!-- -->0.10 drop in PR–AUC or $`\geq`$<!-- -->20% reduction in parallelism/licensing rates at 25% sample.
+
+**Constructicon scaling.** Bin corpora by construction type count (quartiles). Estimate P(rare variant) per bin with Wilson CIs. Success: monotonic increase with non-overlapping CIs for extreme quartiles.
+
+## Software and versions
+
+R 4.3.1 (phoneme analyses): lme4 1.1-34, ggplot2 3.4.2, boot 1.3-28. Python 3.10.12 (word/construction): scikit-learn 1.3.0, pandas 2.0.3, numpy 1.24.3, gensim 4.3.1, stanza 1.5.0. Random seeds are fixed per script (42 unless otherwise noted; construction battery bootstrap/shuffle checks use 17). Complete session info in repository `SESSION.txt`.
+
+# Acknowledgements
+
+I got the idea for this paper after reading Ekström et al. (2025), having already read Miller (2021) and chatted with him about his paper and HPCs. I proposed my idea to ChatGPT-5 and had it produce an outline and then a first draft. I used the ChatGPT-5 agent to download the datasets and write and run the Python code.
+
+Geoff Pullum urged me to “leaven” the text, which was extremely dense. I worked with Claude Opus 4.1 to make the text more accessible to a range of readers. Almost every sentence in this paper was drafted and edited by both of those models. I reviewed, edited, and approved all the material and take full responsibility for the final text and conclusions.
+
+Muhammad Ali Khalidi provided very useful comments on an earlier draft.
+
+<div id="refs" class="references csl-bib-body hanging-indent">
+
+<div id="ref-SagEtAl2012" class="csl-entry">
+
+Boas, Hans C., and Ivan A. Sag, eds. 2012. *Sign-Based Construction Grammar*. CSLI Lecture Notes 193. CSLI Publications.
+
+</div>
+
+<div id="ref-Boyd1988MoralRealist" class="csl-entry">
+
+Boyd, Richard N. 1988. “How to Be a Moral Realist.” In *Essays on Moral Realism*, edited by Geoffrey Sayre-McCord. Cornell University Press.
+
+</div>
+
+<div id="ref-Boyd1991Enthusiasm" class="csl-entry">
+
+Boyd, Richard N. 1991. “Realism, Anti-Foundationalism and the Enthusiasm for Natural Kinds.” *Philosophical Studies* 61 (1): 127–48. <https://doi.org/10.1007/BF00385837>.
+
+</div>
+
+<div id="ref-Boyd1999Homeostasis" class="csl-entry">
+
+Boyd, Richard N. 1999. “Homeostasis, Species, and Higher Taxa.” In *Species: New Interdisciplinary Essays*, edited by Robert A. Wilson. MIT Press.
+
+</div>
+
+<div id="ref-Boyd2000Workmanship" class="csl-entry">
+
+Boyd, Richard N. 2000. “Kinds as the ‘Workmanship of Men’: Realism, Constructivism, and Natural Kinds.” In *Rationalität, Realismus, Revision / Rationality, Realism, Revision: Proceedings of the 3rd International Congress of the Gesellschaft für Analytische Philosophie*, edited by Julian Nida-Rümelin. De Gruyter. <https://doi.org/10.1515/9783110805703.52>.
+
+</div>
+
+<div id="ref-BybeeHopper2001" class="csl-entry">
+
+Bybee, Joan L., and Paul J. Hopper. 2001. “Introduction to Frequency and the Emergence of Linguistic Structure.” In *Frequency and the Emergence of Linguistic Structure*, edited by Joan L. Bybee and Paul J. Hopper. Typological Studies in Language 45. John Benjamins. <https://doi.org/10.1075/tsl.45.01byb>.
+
+</div>
+
+<div id="ref-Croft2001" class="csl-entry">
+
+Croft, William. 2001. *Radical Construction Grammar: Syntactic Theory in Typological Perspective*. Oxford University Press.
+
+</div>
+
+<div id="ref-Ekstrom2025PhonemeTool" class="csl-entry">
+
+Ekström, Axel G., Claudio Tennie, Steven Moran, and Caleb Everett. 2025. “The Phoneme as a Cognitive Tool.” *Topics in Cognitive Science*, ahead of print. <https://doi.org/10.1111/tops.70021>.
+
+</div>
+
+<div id="ref-FillmoreKayOConnor1988" class="csl-entry">
+
+Fillmore, Charles J., Paul Kay, and Mary Catherine O’Connor. 1988. “Regularity and Idiomaticity in Grammatical Constructions: The Case of *Let Alone*.” *Language* 64 (3): 501–38.
+
+</div>
+
+<div id="ref-Goldberg1995" class="csl-entry">
+
+Goldberg, Adele E. 1995. *Constructions: A Construction Grammar Approach to Argument Structure*. Cognitive Theory of Language and Culture. University of Chicago Press.
+
+</div>
+
+<div id="ref-Goldberg2006" class="csl-entry">
+
+Goldberg, Adele E. 2006. *Constructions at Work: The Nature of Generalization in Language*. Oxford University Press. <https://doi.org/10.1093/acprof:oso/9780199268511.001.0001>.
+
+</div>
+
+<div id="ref-HamiltonEtAl2016" class="csl-entry">
+
+Hamilton, William L., Jure Leskovec, and Dan Jurafsky. 2016. “Diachronic Word Embeddings Reveal Statistical Laws of Semantic Change.” *Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics* (Berlin), 1489–501. <https://doi.org/10.18653/v1/P16-1141>.
+
+</div>
+
+<div id="ref-Haspelmath2010" class="csl-entry">
+
+Haspelmath, Martin. 2010. “Comparative Concepts and Descriptive Categories in Crosslinguistic Studies.” *Language* 86 (3): 663–87. <https://doi.org/10.1353/lan.2010.0021>.
+
+</div>
+
+<div id="ref-Heyes2018a" class="csl-entry">
+
+Heyes, Cecilia. 2018. “<span class="nocase">Pr<span class="nocase">é</span>cis of Cognitive Gadgets: The Cultural Evolution of Thinking</span>.” *Behavioral and Brain Sciences* 42. <https://doi.org/10.1017/S0140525X18002145>.
+
+</div>
+
+<div id="ref-Khalidi2013" class="csl-entry">
+
+Khalidi, Muhammad Ali. 2013. *Natural Categories and Human Kinds: Classification in the Natural and Social Sciences*. Cambridge University Press. <https://doi.org/10.1017/CBO9781139207071>.
+
+</div>
+
+<div id="ref-KuhlEtAl1991" class="csl-entry">
+
+Kuhl, Patricia K., Karen A. Williams, Francisco Lacerda, Kenneth N. Stevens, and Björn Lindblom. 1991. “Human Adults and Human Infants Show a ‘Perceptual Magnet Effect’ for the Prototypes of Speech Categories, Monkeys Do Not.” *Perception & Psychophysics* 50 (2): 93–107. <https://doi.org/10.3758/BF03212211>.
+
+</div>
+
+<div id="ref-LiljencrantsLindblom1972" class="csl-entry">
+
+Liljencrants, Johan, and Björn Lindblom. 1972. “Numerical Simulation of Vowel Quality Systems: The Role of Perceptual Contrast.” *Language* 48 (4): 839–62. <https://doi.org/10.2307/411991>.
+
+</div>
+
+<div id="ref-Lindblom1990HH" class="csl-entry">
+
+Lindblom, Björn. 1990. “Explaining Phonetic Variation: A Sketch of the H&H Theory.” In *Speech Production and Speech Modelling*, edited by William J. Hardcastle and Alain Marchal. Kluwer Academic Publishers. <https://doi.org/10.1007/978-94-009-2037-8_16>.
+
+</div>
+
+<div id="ref-ManningHorton2025GSA" class="csl-entry">
+
+Manning, Benjamin S., and John J. Horton. 2025. “General Social Agents.” Unpublished manuscript.
+
+</div>
+
+<div id="ref-Miller2021WordsSpeciesKinds" class="csl-entry">
+
+Miller, J. T. M. 2021. “Words, Species, and Kinds.” *Metaphysics* 4 (1): 18–31. <https://doi.org/10.5334/met.70>.
+
+</div>
+
+<div id="ref-MoranEtAl2019PHOIBLE" class="csl-entry">
+
+Moran, Steven, Daniel McCloy, and Richard Wright, eds. 2019. *PHOIBLE 2.0*. <a href="https://phoible.org" class="uri">Https://phoible.org</a>; Max Planck Institute for the Science of Human History.
+
+</div>
+
+<div id="ref-PollardSag1994" class="csl-entry">
+
+Pollard, Carl, and Ivan A. Sag. 1994. *Head-Driven Phrase Structure Grammar*. CSLI Publications.
+
+</div>
+
+<div id="ref-Rubin2008" class="csl-entry">
+
+Rubin, Michael. 2008. “Is Goodness a Homeostatic Property Cluster?” *Ethics* 118 (3): 496–528.
+
+</div>
+
+<div id="ref-Silveira2014EWT" class="csl-entry">
+
+Silveira, Natalia, Timothy Dozat, Marie-Catherine de Marneffe, et al. 2014. “A Gold Standard Dependency Corpus for English.” *Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC’14)* (Reykjavik).
+
+</div>
+
+<div id="ref-Stevens1989Quantal" class="csl-entry">
+
+Stevens, Kenneth N. 1989. “On the Quantal Nature of Speech.” *Journal of Phonetics* 17: 3–45.
+
+</div>
+
+<div id="ref-Tomasello2003" class="csl-entry">
+
+Tomasello, Michael. 2003. *Constructing a Language: A Usage-Based Theory of Language Acquisition*. Harvard University Press.
+
+</div>
+
+<div id="ref-Zeldes2017GUM" class="csl-entry">
+
+Zeldes, Amir. 2017. “The GUM Corpus: Creating Multilayer Resources in the Classroom.” *Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing: System Demonstrations* (Copenhagen).
+
+</div>
+
+</div>
+
+[^1]: For the first explicit HPC formulation (applied to moral terms), see Boyd (1988, sec. 3.8). For an explicit allowance that social mechanisms can underwrite homeostasis, see Boyd (2000).
+
+[^2]: PR–AUC captures how well the model separates true instances from false positives across different decision thresholds.

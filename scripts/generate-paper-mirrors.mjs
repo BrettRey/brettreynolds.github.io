@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 const siteRoot = path.resolve(__dirname, "..");
 const workspaceRoot = path.resolve(siteRoot, "../..");
 const baseUrl = "https://brettreynolds.ca";
-const versionDate = "2026-06-04";
+const versionDate = "2026-06-06";
 const citationAliases = new Map([
   ["HuddlestonPullum2002", "huddleston2002"],
   ["PickeringGarrod2004", "pickering2004"],
@@ -187,6 +187,146 @@ const papers = [
 }
 `,
   },
+  {
+    slug: "varieties-as-conditioning-structure",
+    title: "Varieties as conditioning structure: A homeostatic account of register, dialect, and discourse community",
+    shortTitle: "Varieties as conditioning structure",
+    status: "Preprint",
+    year: "2026",
+    sourceTex: "papers/Varieties_as_Conditioning_Structure/main.tex",
+    bibliography: ["papers/Varieties_as_Conditioning_Structure/references.bib", "papers/Varieties_as_Conditioning_Structure/references-local.bib"],
+    canonicalUrl: "https://lingbuzz.net/lingbuzz/009872",
+    externalLinks: [{ label: "LingBuzz", url: "https://lingbuzz.net/lingbuzz/009872" }],
+    keywords: ["sociolinguistic variation", "register", "dialect", "discourse community", "homeostatic property clusters"],
+    description: "A homeostatic account of register, dialect, and discourse community as conditioning structures for participant expectation.",
+    bibtex: `@unpublished{reynolds2026varietiesConditioning,
+  author = {Reynolds, Brett},
+  title = {Varieties as Conditioning Structure: A Homeostatic Account of Register, Dialect, and Discourse Community},
+  year = {2026},
+  note = {Preprint, LingBuzz/009872},
+  url = {https://lingbuzz.net/lingbuzz/009872}
+}
+`,
+  },
+  {
+    slug: "naturalizing-typological-kinds",
+    title: "Naturalizing typological kinds: Comparanda, mechanisms, and measurement",
+    shortTitle: "Naturalizing typological kinds",
+    status: "Preprint",
+    year: "2025",
+    sourceTex: "papers/Functions_as_Comparanda__Categories_as_Kinds__A_Homeostatic_Approach_to_Typology/main.tex",
+    bibliography: ["papers/Functions_as_Comparanda__Categories_as_Kinds__A_Homeostatic_Approach_to_Typology/references.bib"],
+    canonicalUrl: "https://ling.auf.net/lingbuzz/009461",
+    externalLinks: [{ label: "LingBuzz", url: "https://ling.auf.net/lingbuzz/009461" }],
+    keywords: ["typology", "comparative concepts", "homeostatic property clusters", "measurement", "naturalized kinds"],
+    description: "A framework for testing when comparative concepts identify projectible typological kinds rather than analyst labels.",
+    bibtex: `@unpublished{reynolds2025naturalizingTypologicalKinds,
+  author = {Reynolds, Brett},
+  title = {Naturalizing Typological Kinds: Comparanda, Mechanisms, and Measurement},
+  year = {2025},
+  note = {Preprint, LingBuzz/009461},
+  url = {https://ling.auf.net/lingbuzz/009461}
+}
+`,
+  },
+  {
+    slug: "english-countability",
+    title: "The homeostatic maintenance of English countability: Bidirectional inference and the stability of grammatical clusters",
+    shortTitle: "The homeostatic maintenance of English countability",
+    status: "Under review at Linguistics",
+    year: "2025",
+    sourceTex: "papers/countability/main.tex",
+    bibliography: ["papers/countability/references.bib", "papers/countability/references-local.bib"],
+    canonicalUrl: "https://ling.auf.net/lingbuzz/009537",
+    externalLinks: [{ label: "LingBuzz", url: "https://ling.auf.net/lingbuzz/009537" }],
+    keywords: ["countability", "English grammar", "homeostatic property clusters", "grammatical categories"],
+    description: "A bidirectional-inference account of why English countability forms a stable but non-essentialist grammatical cluster.",
+    bibtex: `@unpublished{reynolds2025countability,
+  author = {Reynolds, Brett},
+  title = {The Homeostatic Maintenance of English Countability: Bidirectional Inference and the Stability of Grammatical Clusters},
+  year = {2025},
+  note = {Preprint, LingBuzz/009537; under review at Linguistics},
+  url = {https://ling.auf.net/lingbuzz/009537}
+}
+`,
+  },
+  {
+    slug: "definiteness-and-deitality",
+    title: "Definiteness and deitality in English: A homeostatic property cluster account",
+    shortTitle: "Definiteness and deitality in English",
+    status: "Preprint",
+    year: "2025",
+    sourceTex: "papers/Definiteness_and_deitality/Claude.tex",
+    bibliography: [
+      "papers/Definiteness_and_deitality/refs.bib",
+      "papers/Definiteness_and_deitality/refs.bib.bak",
+      "papers/Definiteness_and_deitality/references-local.bib",
+    ],
+    canonicalUrl: "https://ling.auf.net/lingbuzz/009369",
+    externalLinks: [{ label: "LingBuzz", url: "https://ling.auf.net/lingbuzz/009369" }],
+    keywords: ["definiteness", "deitality", "English determiners", "homeostatic property clusters"],
+    description: "A homeostatic property-cluster account separating semantic definiteness from morphosyntactic deitality in English.",
+    bibtex: `@unpublished{reynolds2025definitenessDeitality,
+  author = {Reynolds, Brett},
+  title = {Definiteness and Deitality in English: A Homeostatic Property Cluster Account},
+  year = {2025},
+  note = {Preprint, LingBuzz/009369},
+  url = {https://ling.auf.net/lingbuzz/009369}
+}
+`,
+  },
+  {
+    slug: "language-as-hpc-stack",
+    title: "Language as a stack of homeostatic property-cluster kinds: From phonemes to constructions",
+    shortTitle: "Language as a stack of HPC kinds",
+    status: "Preprint",
+    year: "2025",
+    sourceTex: "papers/Language_as_a_Stack_of_Homeostatic_Property_Cluster_HPC_Kinds/main.tex",
+    bibliography: [
+      "papers/Language_as_a_Stack_of_Homeostatic_Property_Cluster_HPC_Kinds/refs.bib",
+      "papers/Language_as_a_Stack_of_Homeostatic_Property_Cluster_HPC_Kinds/refs.bib.bak",
+    ],
+    canonicalUrl: "https://doi.org/10.5281/zenodo.17354363",
+    externalLinks: [
+      { label: "Zenodo", url: "https://doi.org/10.5281/zenodo.17354363" },
+      { label: "LingBuzz", url: "https://ling.auf.net/lingbuzz/009400" },
+    ],
+    keywords: ["homeostatic property clusters", "phonemes", "words", "constructions", "language ontology"],
+    description: "A stack model of linguistic kinds from phonemes to constructions, with empirical case studies across levels.",
+    bibtex: `@unpublished{reynolds2025languageStack,
+  author = {Reynolds, Brett},
+  title = {Language as a Stack of Homeostatic Property-Cluster Kinds: From Phonemes to Constructions},
+  year = {2025},
+  note = {Preprint, Zenodo and LingBuzz/009400},
+  doi = {10.5281/zenodo.17354363},
+  url = {https://doi.org/10.5281/zenodo.17354363}
+}
+`,
+  },
+  {
+    slug: "how-to-study-boundary-phenomena",
+    title: "How to study boundary phenomena: English reciprocals and the limits of categorization",
+    shortTitle: "How to study boundary phenomena",
+    status: "Under review at Canadian Journal of Linguistics/Revue canadienne de linguistique",
+    year: "2025",
+    sourceTex: "papers/How_to_Study_Boundary_Phenomena_English_Reciprocals_and_the_Limits_of_Categorization/main.tex",
+    bibliography: [
+      "papers/How_to_Study_Boundary_Phenomena_English_Reciprocals_and_the_Limits_of_Categorization/refs.bib",
+      "papers/How_to_Study_Boundary_Phenomena_English_Reciprocals_and_the_Limits_of_Categorization/refs.bib.bak",
+    ],
+    canonicalUrl: "https://ling.auf.net/lingbuzz/009294",
+    externalLinks: [{ label: "LingBuzz", url: "https://ling.auf.net/lingbuzz/009294" }],
+    keywords: ["boundary phenomena", "reciprocals", "categorization", "English grammar", "homeostatic property clusters"],
+    description: "A method paper on measuring grammatical boundary phenomena through English reciprocals and controlled comparison sets.",
+    bibtex: `@unpublished{reynolds2025boundaryPhenomena,
+  author = {Reynolds, Brett},
+  title = {How to Study Boundary Phenomena: English Reciprocals and the Limits of Categorization},
+  year = {2025},
+  note = {Preprint, LingBuzz/009294; under review at Canadian Journal of Linguistics/Revue canadienne de linguistique},
+  url = {https://ling.auf.net/lingbuzz/009294}
+}
+`,
+  },
 ];
 
 function ensureDir(dir) {
@@ -210,37 +350,60 @@ function shellPandoc(input, args) {
   return result.stdout;
 }
 
-function convertLatexFragment(latex) {
-  return shellPandoc(latex, ["-f", "latex", "-t", "gfm", "--wrap=none"]).trim();
+function convertLatexFragment(latex, bibliographyArgs = []) {
+  return shellPandoc(latex, ["-f", "latex", "-t", "gfm", "--wrap=none", "--citeproc", ...bibliographyArgs])
+    .replace(/\n*<div id="refs"[\s\S]*$/m, "")
+    .trim();
+}
+
+function bibliographyArgs(paper, tempBibPaths) {
+  const args = [];
+  for (const bibliography of paper.bibliography) {
+    const bibliographyPath = path.join(workspaceRoot, bibliography);
+    if (fs.existsSync(bibliographyPath)) {
+      let bibliographyArg = bibliography;
+      if (!bibliography.endsWith(".bib")) {
+        const tempBibPath = path.join(path.dirname(bibliographyPath), `.website-mirror.${path.basename(bibliography)}.bib`);
+        fs.writeFileSync(tempBibPath, fs.readFileSync(bibliographyPath, "utf8"));
+        tempBibPaths.push(tempBibPath);
+        bibliographyArg = path.relative(workspaceRoot, tempBibPath);
+      }
+      args.push(`--bibliography=${bibliographyArg}`);
+    }
+  }
+  return args;
 }
 
 function convertPaper(paper) {
   const texPath = path.join(workspaceRoot, paper.sourceTex);
   const latex = publicLatex(fs.readFileSync(texPath, "utf8"));
   const tempTexPath = path.join(path.dirname(texPath), ".website-mirror.tmp.tex");
+  const tempBibPaths = [];
   fs.writeFileSync(tempTexPath, latex);
   const tempTexRelative = path.relative(workspaceRoot, tempTexPath);
-  const args = [tempTexRelative, "-f", "latex", "-t", "gfm", "--wrap=none", "--citeproc"];
-  for (const bibliography of paper.bibliography) {
-    if (fs.existsSync(path.join(workspaceRoot, bibliography))) {
-      args.push(`--bibliography=${bibliography}`);
-    }
-  }
+  const bibliography = bibliographyArgs(paper, tempBibPaths);
+  const args = [tempTexRelative, "-f", "latex", "-t", "gfm", "--wrap=none", "--citeproc", ...bibliography];
   let result;
+  let abstractMarkdown = "";
   try {
     result = spawnSync("pandoc", args, {
       cwd: workspaceRoot,
       encoding: "utf8",
       maxBuffer: 80 * 1024 * 1024,
     });
+    if (result.status === 0) {
+      const abstractMatch = latex.match(/\\begin\{abstract\}([\s\S]*?)\\end\{abstract\}/);
+      abstractMarkdown = abstractMatch ? convertLatexFragment(abstractMatch[1], bibliography) : "";
+    }
   } finally {
     fs.rmSync(tempTexPath, { force: true });
+    for (const tempBibPath of tempBibPaths) {
+      fs.rmSync(tempBibPath, { force: true });
+    }
   }
   if (result.status !== 0) {
     throw new Error(`${paper.slug}: ${result.stderr || `pandoc exited ${result.status}`}`);
   }
-  const abstractMatch = latex.match(/\\begin\{abstract\}([\s\S]*?)\\end\{abstract\}/);
-  const abstractMarkdown = abstractMatch ? convertLatexFragment(abstractMatch[1]) : "";
 
   let body = result.stdout.trim();
   body = body.replace(/^Keywords:.*(?:\n(?:[^\n#].*)?)*\n+/i, "");
@@ -277,7 +440,7 @@ function convertPaper(paper) {
 }
 
 function publicLatex(latex) {
-  let next = normalizeCitationAliases(latex)
+  let next = expandCustomMacros(normalizeCitationAliases(latex))
     .replace(/^\\newif\\ifblind\s*$/gm, "")
     .replace(/^\\blind(?:true|false).*$/gm, "");
   let previous;
@@ -286,6 +449,22 @@ function publicLatex(latex) {
     next = next.replace(/\\ifblind([\s\S]*?)\\else([\s\S]*?)\\fi/g, "$2");
   } while (next !== previous);
   return next.replace(/^\\newif\s*$/gm, "");
+}
+
+function expandCustomMacros(latex) {
+  let next = latex
+    .replace(/\\textsubscript\{\\Cross\}/g, "\\textsubscript{Cross}")
+    .replace(/\\Cross\b/g, "Cross")
+    .replace(/\\posscite\{([^{}]+)\}/g, "\\textcite{$1}'s")
+    .replace(/\\citealt\{([^{}]+)\}/g, "\\citep{$1}");
+  let previous;
+  do {
+    previous = next;
+    next = next
+      .replace(/\\(?:term|abbr|levelA|levelB|levelC)\{([^{}]*)\}/g, "$1")
+      .replace(/\\(?:mention|mentionhead|olang)\{([^{}]*)\}/g, "\\textit{$1}");
+  } while (next !== previous);
+  return next;
 }
 
 function normalizeCitationAliases(latex) {

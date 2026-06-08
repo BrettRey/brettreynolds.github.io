@@ -22,6 +22,7 @@
 ## Human-Facing Pages
 
 - [Publications](https://brettreynolds.ca/publications.html): Full publication list.
+- [CGEL correctives and extensions](https://brettreynolds.ca/cgel-correctives.html): Thematic cluster of CGEL corrections, extensions, and related category/function work.
 - [Machine-readable papers](https://brettreynolds.ca/papers/): Index of Markdown mirrors and BibTeX records.
 - [CV](https://brettreynolds.ca/cv.pdf): Current CV as PDF.
 

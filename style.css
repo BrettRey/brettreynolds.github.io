@@ -192,6 +192,54 @@ footer {
   margin-right: 0.5rem;
 }
 
+/* Thematic publication clusters */
+.page-intro {
+  margin: 1.25rem 0 2rem;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.cluster-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cluster-list li {
+  margin-bottom: 1.25rem;
+  padding-left: 1rem;
+  border-left: 2px solid #ddd;
+}
+
+.cluster-list li.core {
+  border-left-color: #800020;
+}
+
+.cluster-title {
+  display: block;
+  font-weight: 500;
+}
+
+.cluster-meta {
+  display: block;
+  color: #555;
+  font-size: 0.95rem;
+  margin: 0.1rem 0 0.2rem;
+}
+
+.cluster-note {
+  margin: 1.5rem 0;
+  color: #555;
+}
+
+.cluster-links {
+  font-size: 0.9rem;
+}
+
+.cluster-links a {
+  margin-right: 0.5rem;
+}
+
 /* Back link */
 .back-link {
   margin-top: 2rem;

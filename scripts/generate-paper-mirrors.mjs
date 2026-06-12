@@ -9,13 +9,34 @@ const __dirname = path.dirname(__filename);
 const siteRoot = path.resolve(__dirname, "..");
 const workspaceRoot = path.resolve(siteRoot, "../..");
 const baseUrl = "https://brettreynolds.ca";
-const versionDate = "2026-06-06";
+const versionDate = "2026-06-12";
 const citationAliases = new Map([
   ["HuddlestonPullum2002", "huddleston2002"],
   ["PickeringGarrod2004", "pickering2004"],
 ]);
 
 const papers = [
+  {
+    slug: "truth-tracking-profiles",
+    title: "Truth-Tracking Profiles: What Large Language Models Participate In",
+    shortTitle: "Truth-Tracking Profiles",
+    status: "Preprint",
+    year: "2026",
+    sourceTex: "papers/Truth-Tracking_as_a_Homeostatic_Property_Cluster/main.tex",
+    bibliography: ["papers/Truth-Tracking_as_a_Homeostatic_Property_Cluster/references.bib"],
+    canonicalUrl: "https://philarchive.org/rec/REYTPW",
+    externalLinks: [{ label: "PhilArchive", url: "https://philarchive.org/rec/REYTPW" }],
+    keywords: ["large language models", "truth-tracking", "grounding", "answerability", "testimony", "hallucination"],
+    description: "A profile account of how large language models participate in stabilizing routes to truth-tracking success.",
+    bibtex: `@unpublished{reynolds2026truthTrackingProfiles,
+  author = {Reynolds, Brett},
+  title = {Truth-Tracking Profiles: What Large Language Models Participate In},
+  year = {2026},
+  note = {Preprint, PhilArchive},
+  url = {https://philarchive.org/rec/REYTPW}
+}
+`,
+  },
   {
     slug: "not-every-stable-cluster-is-homeostatic",
     title: "Not every stable cluster is homeostatic: Stability, network order, and control in projectible kinds",
@@ -252,25 +273,26 @@ const papers = [
   },
   {
     slug: "definiteness-and-deitality",
-    title: "Definiteness and deitality in English: A homeostatic property cluster account",
+    title: "Definiteness and Deitality in English: A Projectibility-First Account",
     shortTitle: "Definiteness and deitality in English",
-    status: "Preprint",
+    status: "Under review at Journal of Linguistics",
     year: "2025",
     sourceTex: "papers/Definiteness_and_deitality/Claude.tex",
     bibliography: [
+      "papers/Definiteness_and_deitality/references.bib",
       "papers/Definiteness_and_deitality/refs.bib",
       "papers/Definiteness_and_deitality/refs.bib.bak",
       "papers/Definiteness_and_deitality/references-local.bib",
     ],
     canonicalUrl: "https://ling.auf.net/lingbuzz/009369",
     externalLinks: [{ label: "LingBuzz", url: "https://ling.auf.net/lingbuzz/009369" }],
-    keywords: ["definiteness", "deitality", "English determiners", "homeostatic property clusters"],
-    description: "A homeostatic property-cluster account separating semantic definiteness from morphosyntactic deitality in English.",
+    keywords: ["definiteness", "deitality", "English determiners", "projectibility", "grammatical categories"],
+    description: "A projectibility-first account distinguishing semantic definiteness from structural deitality in English.",
     bibtex: `@unpublished{reynolds2025definitenessDeitality,
   author = {Reynolds, Brett},
-  title = {Definiteness and Deitality in English: A Homeostatic Property Cluster Account},
+  title = {Definiteness and Deitality in English: A Projectibility-First Account},
   year = {2025},
-  note = {Preprint, LingBuzz/009369},
+  note = {Preprint, LingBuzz/009369; under review at Journal of Linguistics},
   url = {https://ling.auf.net/lingbuzz/009369}
 }
 `,
@@ -305,9 +327,9 @@ const papers = [
   },
   {
     slug: "how-to-study-boundary-phenomena",
-    title: "How to study boundary phenomena: English reciprocals and the limits of categorization",
-    shortTitle: "How to study boundary phenomena",
-    status: "Under review at Canadian Journal of Linguistics/Revue canadienne de linguistique",
+    title: "Measuring Stable Diagnostic Ambiguity: A Quantitative Workflow for Small-n Grammatical Boundary Phenomena",
+    shortTitle: "Measuring stable diagnostic ambiguity",
+    status: "Under review at Journal of Quantitative Linguistics",
     year: "2025",
     sourceTex: "papers/How_to_Study_Boundary_Phenomena_English_Reciprocals_and_the_Limits_of_Categorization/main.tex",
     bibliography: [
@@ -317,12 +339,12 @@ const papers = [
     canonicalUrl: "https://ling.auf.net/lingbuzz/009294",
     externalLinks: [{ label: "LingBuzz", url: "https://ling.auf.net/lingbuzz/009294" }],
     keywords: ["boundary phenomena", "reciprocals", "categorization", "English grammar", "homeostatic property clusters"],
-    description: "A method paper on measuring grammatical boundary phenomena through English reciprocals and controlled comparison sets.",
+    description: "A quantitative workflow for measuring stable diagnostic ambiguity in small-n grammatical boundary phenomena.",
     bibtex: `@unpublished{reynolds2025boundaryPhenomena,
   author = {Reynolds, Brett},
-  title = {How to Study Boundary Phenomena: English Reciprocals and the Limits of Categorization},
+  title = {Measuring Stable Diagnostic Ambiguity: A Quantitative Workflow for Small-n Grammatical Boundary Phenomena},
   year = {2025},
-  note = {Preprint, LingBuzz/009294; under review at Canadian Journal of Linguistics/Revue canadienne de linguistique},
+  note = {Preprint, LingBuzz/009294; under review at Journal of Quantitative Linguistics},
   url = {https://ling.auf.net/lingbuzz/009294}
 }
 `,
@@ -447,12 +469,17 @@ function publicLatex(latex) {
   do {
     previous = next;
     next = next.replace(/\\ifblind([\s\S]*?)\\else([\s\S]*?)\\fi/g, "$2");
+    next = next.replace(/\\ifdefined\\blindsubmission([\s\S]*?)\\else([\s\S]*?)\\fi/g, "$2");
   } while (next !== previous);
   return next.replace(/^\\newif\s*$/gm, "");
 }
 
 function expandCustomMacros(latex) {
   let next = latex
+    .replace(/\\Deitality\{\}/g, "\\textsc{deitality}")
+    .replace(/\\Definiteness\{\}/g, "\\textsc{definiteness}")
+    .replace(/\\Nondeital\{\}/g, "\\textsc{non-deital}")
+    .replace(/\\Deital\{\}/g, "\\textsc{deital}")
     .replace(/\\textsubscript\{\\Cross\}/g, "\\textsubscript{Cross}")
     .replace(/\\Cross\b/g, "Cross")
     .replace(/\\posscite\{([^{}]+)\}/g, "\\textcite{$1}'s")
@@ -597,6 +624,7 @@ ${entries}
 ## Human-Facing Pages
 
 - [Publications](${baseUrl}/publications.html): Full publication list.
+- [CGEL correctives and extensions](${baseUrl}/cgel-correctives.html): Thematic cluster of CGEL corrections, extensions, and related category/function work.
 - [Machine-readable papers](${baseUrl}/papers/): Index of Markdown mirrors and BibTeX records.
 - [CV](${baseUrl}/cv.pdf): Current CV as PDF.
 

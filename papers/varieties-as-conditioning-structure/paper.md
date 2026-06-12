@@ -7,7 +7,7 @@ canonical_url: "https://lingbuzz.net/lingbuzz/009872"
 website_url: "https://brettreynolds.ca/papers/varieties-as-conditioning-structure/"
 markdown_url: "https://brettreynolds.ca/papers/varieties-as-conditioning-structure/paper.md"
 version: "author-manuscript mirror"
-version_date: "2026-06-06"
+version_date: "2026-06-12"
 keywords: ["sociolinguistic variation", "register", "dialect", "discourse community", "homeostatic property clusters"]
 ---
 # Varieties as conditioning structure: A homeostatic account of register, dialect, and discourse community

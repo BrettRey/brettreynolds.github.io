@@ -7,7 +7,7 @@ canonical_url: "https://lingbuzz.net/lingbuzz/009852"
 website_url: "https://brettreynolds.ca/papers/english-interjections/"
 markdown_url: "https://brettreynolds.ca/papers/english-interjections/paper.md"
 version: "author-manuscript mirror"
-version_date: "2026-06-06"
+version_date: "2026-06-12"
 keywords: ["interjections", "theoretical pragmatics", "projectibility", "path dependence"]
 ---
 # What English interjections let us predict: Stable causal-pragmatic clustering and path dependence

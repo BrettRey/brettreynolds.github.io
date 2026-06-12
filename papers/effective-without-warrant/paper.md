@@ -7,7 +7,7 @@ canonical_url: "https://philarchive.org/rec/REYEWW"
 website_url: "https://brettreynolds.ca/papers/effective-without-warrant/"
 markdown_url: "https://brettreynolds.ca/papers/effective-without-warrant/paper.md"
 version: "author-manuscript mirror"
-version_date: "2026-06-06"
+version_date: "2026-06-12"
 keywords: ["social ontology", "social status", "causal-normative networks", "projectibility"]
 ---
 # Effective without warrant: Causal-normative networks and the social life of status

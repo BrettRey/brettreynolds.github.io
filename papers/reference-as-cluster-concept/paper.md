@@ -7,7 +7,7 @@ canonical_url: "https://philarchive.org/rec/REYRAA-2"
 website_url: "https://brettreynolds.ca/papers/reference-as-cluster-concept/"
 markdown_url: "https://brettreynolds.ca/papers/reference-as-cluster-concept/paper.md"
 version: "author-manuscript mirror"
-version_date: "2026-06-06"
+version_date: "2026-06-12"
 keywords: ["reference", "large language models", "vector grounding problem", "teleosemantics"]
 ---
 # Reference as a cluster concept: A reply to Coelho Mollo and Milliere

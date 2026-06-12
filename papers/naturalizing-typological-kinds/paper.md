@@ -7,7 +7,7 @@ canonical_url: "https://ling.auf.net/lingbuzz/009461"
 website_url: "https://brettreynolds.ca/papers/naturalizing-typological-kinds/"
 markdown_url: "https://brettreynolds.ca/papers/naturalizing-typological-kinds/paper.md"
 version: "author-manuscript mirror"
-version_date: "2026-06-06"
+version_date: "2026-06-12"
 keywords: ["typology", "comparative concepts", "homeostatic property clusters", "measurement", "naturalized kinds"]
 ---
 # Naturalizing typological kinds: Comparanda, mechanisms, and measurement

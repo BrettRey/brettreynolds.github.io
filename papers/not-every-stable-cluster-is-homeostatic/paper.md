@@ -7,7 +7,7 @@ canonical_url: "https://philarchive.org/rec/REYNES"
 website_url: "https://brettreynolds.ca/papers/not-every-stable-cluster-is-homeostatic/"
 markdown_url: "https://brettreynolds.ca/papers/not-every-stable-cluster-is-homeostatic/paper.md"
 version: "author-manuscript mirror"
-version_date: "2026-06-06"
+version_date: "2026-06-12"
 keywords: ["homeostatic property clusters", "projectibility", "natural kinds", "causal control"]
 ---
 # Not every stable cluster is homeostatic: Stability, network order, and control in projectible kinds

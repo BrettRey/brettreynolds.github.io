@@ -7,7 +7,7 @@ canonical_url: "https://ling.auf.net/lingbuzz/009537"
 website_url: "https://brettreynolds.ca/papers/english-countability/"
 markdown_url: "https://brettreynolds.ca/papers/english-countability/paper.md"
 version: "author-manuscript mirror"
-version_date: "2026-06-06"
+version_date: "2026-06-12"
 keywords: ["countability", "English grammar", "homeostatic property clusters", "grammatical categories"]
 ---
 # The homeostatic maintenance of English countability: Bidirectional inference and the stability of grammatical clusters

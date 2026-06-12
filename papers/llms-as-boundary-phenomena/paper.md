@@ -7,7 +7,7 @@ canonical_url: "https://philarchive.org/rec/REYLAB"
 website_url: "https://brettreynolds.ca/papers/llms-as-boundary-phenomena/"
 markdown_url: "https://brettreynolds.ca/papers/llms-as-boundary-phenomena/paper.md"
 version: "author-manuscript mirror"
-version_date: "2026-06-06"
+version_date: "2026-06-12"
 keywords: ["large language models", "boundary phenomena", "homeostatic property clusters", "cognition"]
 ---
 # LLMs as boundary phenomena: A comment on Nefdt (2026)

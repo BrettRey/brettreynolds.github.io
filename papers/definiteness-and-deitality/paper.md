@@ -1,480 +1,432 @@
 ---
-title: "Definiteness and deitality in English: A homeostatic property cluster account"
+title: "Definiteness and Deitality in English: A Projectibility-First Account"
 author: "Brett Reynolds"
 year: "2025"
-status: "Preprint"
+status: "Under review at Journal of Linguistics"
 canonical_url: "https://ling.auf.net/lingbuzz/009369"
 website_url: "https://brettreynolds.ca/papers/definiteness-and-deitality/"
 markdown_url: "https://brettreynolds.ca/papers/definiteness-and-deitality/paper.md"
 version: "author-manuscript mirror"
-version_date: "2026-06-06"
-keywords: ["definiteness", "deitality", "English determiners", "homeostatic property clusters"]
+version_date: "2026-06-12"
+keywords: ["definiteness", "deitality", "English determiners", "projectibility", "grammatical categories"]
 ---
-# Definiteness and deitality in English: A homeostatic property cluster account
+# Definiteness and Deitality in English: A Projectibility-First Account
 
 **Author-manuscript mirror.** This Markdown file is provided for accessibility, search, and machine readability. The canonical public record is linked in the metadata above.
 
 ## Abstract
-I separate the semantic category of <span class="smallcaps">definiteness</span> from the structural category I call <span class="smallcaps">deitality</span> and treat each as a homeostatic property cluster. The aim is to recover projectable categories that support more than descriptive cleanup. On the structural side, deitality comprises co-tending properties: distributional restrictions (dispreference as the pivot of existential *there* under neutral prosody, eligibility as the complement of partitive *of*, suitability as hosts for nonrestrictive modification and identificational constructions) and a strong tendency to mark semantically definite referents. On the semantic side, definiteness comprises interpretive properties (identifiability, uniqueness, anaphoric recoverability) and a strong tendency to be marked deitally. The deital cluster is maintained by grammaticalization, acquisition, interactive alignment, prestige selection, and iterated transmission. The definiteness cluster is maintained by discourse-pragmatic mechanisms: common ground management and information structure. Their imperfect alignment yields classic form-meaning mismatches: weak definites, generic definites, and cases where proper names or bare nominals are semantically definite yet morphosyntactically non-deital. The framework explains graded membership and supports predictions about untested constructions, mismatch cases, dialectal patterning, and developmental order.
+In English grammar, definiteness has been used for two profiles that are better kept apart. One is semantic: identifiability, uniqueness, anaphoric recoverability, and related discourse conditions. The other is structural, and English grammar has no agreed name for it. I call it <span class="smallcaps">deitality</span>: its prototype is the demonstratives (deictic, and the historical source of *the*), and its core diagnostics involve domain establishment in true partitives, resistance to neutral existential *there* pivots, and ready hosting of identificational material. A narrow bare-*one* pattern supplies corroborating residue rather than a core diagnostic. Definiteness and deitality usually coincide, which is why they get run together, though the alignment is imperfect: weak definites, generic definites, narrative *this*, and proper names each mark a point where they separate.
+
+The account justifies grammatical categories by the inferences they support. Deitality is a stable, historically sourced, learnable grammatical profile. Once a form or construction is located in the profile, the analysis predicts which residues should survive semantic mismatch, which diagnostics should split under prosodic or specificity manipulation, and which variation should appear across dialects and acquisition. The result is a more predictive account of English definiteness. Semantic definiteness and structural deitality are strongly correlated, partly independent, and leaky in principled ways.
 
 
-**Keywords:** definiteness, article, demonstratives, homeostatic property cluster
+**Keywords:** definiteness; article; demonstratives; determinatives; grammatical categories
 
 # Introduction
 
-English grammars routinely conflate morphosyntactic form with semantic function. When it comes to definiteness, this conflation creates persistent empirical problems. Tests that target morphosyntax – like the definiteness effect in existential *there* – are treated as direct probes of uniqueness or familiarity. Meanwhile, semantic heuristics – like asking whether it makes sense to say *which one?* – are used to define grammatical categories. The result is a theoretical tangle where neither form nor meaning gets a clean characterization.
+One inherited label has been covering two profiles. In English grammar, definiteness names both a semantic pattern of referent identifiability and a structural pattern of distributional behaviour that has no agreed name of its own. The slippage shows up whenever tests for one are read as probes of the other.
 
-I propose a radical decoupling. The structural category – which I call <span class="smallcaps">deitality</span> – is defined by a cluster of distributional properties that co-occur in English determiners. The semantic category <span class="smallcaps">definiteness</span> is defined by a distinct cluster of interpretive properties related to referent identifiability. Deitality is morphosyntactic but often semantically definite; definiteness is semantic but often morphosyntactically deital. The correlation is strong. The identity is absent.
+The definiteness effect in existential *there* (Milsark 1977; McNally 2011) is a morphosyntactic test, but it’s often used as evidence about uniqueness or familiarity. Semantic tests for identifiability, like the *which?*-question heuristic in *The Cambridge Grammar of the English Language*, ask whether a description identifies the intended referent so that an addressee doesn’t have to ask *Which one?* (Huddleston and Pullum 2002); they don’t by themselves sort structural profiles.
 
-This misalignment produces well-known puzzles. So-called “weak definites” like *go to the hospital* – I retain the label though the analysis here treats them as deital but indefinite – combine deital morphology with semantically indefinite reference. “Generic definites” like *The tiger is endangered* are deital but involve kind reference rather than individual-level definiteness. And proper names are semantically definite yet morphosyntactically non-deital. These are classic cases of form-function mismatch (Francis and Michaelis 2003): the morphosyntactic and semantic categories systematically come apart.
+I call the structural profile <span class="smallcaps">deitality</span>. The new term names an old pattern: *the*, demonstratives, genitive NPs in determiner function, and related constructions pattern together distributionally even when ordinary definiteness semantics loosens. Deitality is characterized by distributional properties that co-occur in English determinatives and in the NP constructions in which they serve as determiners.[^2]
 
-The theoretical apparatus comes from the philosophy of science. I model both deitality and definiteness as <span class="smallcaps">homeostatic property clusters</span> or HPCs (Boyd 1991, 1999). An HPC kind combines a contingent property cluster, mechanisms that stabilize it, and projectibility for some analytical purpose. No single property is required, membership is graded, and boundary placement can shift as the clustering mechanisms operate over time. What makes the category coherent is that partial evidence about one part of the profile licenses inferences about the rest.
+The semantic counterpart, <span class="smallcaps">definiteness</span>, is characterized by interpretive properties related to referent identifiability. Deital marking usually tracks semantic definiteness, but the match breaks in both directions: names can be definite without ordinary deital marking, and weak definites can be deital without ordinary token-level definiteness. The correlation is strong, but the two aren’t identical. Nor is deitality just the old strong/weak contrast, specificity, familiarity, or uniqueness under a new name; those notions target semantic, discourse, or construction-specific regions of the pattern.
 
-Each cluster comprises properties from both morphosyntactic and semantic domains, but the mechanisms maintaining them differ. For deitality, five mechanisms operate at distinct timescales: grammaticalization creates the cluster phylogenetically when demonstratives become articles; acquisition filters it ontogenetically as each generation learns it; interactive alignment stabilizes it microgenetically in real-time conversation; prestige selection shapes it sociogenetically across communities; iterated transmission filters it phylogenetically across generations. For definiteness, the mechanisms are discourse-pragmatic: common ground management, bridging, and topic continuity create correlations among identifiability, uniqueness, and anaphoric tracking. The clusters overlap substantially – most deital marking appears on definite referents – and the distinct mechanisms let us predict where the overlap will hold and where it will loosen.
+Lyons (1999) is the closest predecessor. He treats definiteness as a grammatical category tied to the grammaticalization of identifiability, with its own syntax, distribution, diachrony, and cross-linguistic profile. I accept that separation between grammatical marking and the pragmatic concept it grammaticalizes. The claim here is narrower, but it adds a different kind of test: English contains a deital profile within the determination system, anchored in demonstrative-derived and determiner-function forms, whose ranked diagnostics support predictions about partitives, existential pivots, hosting, mismatch residue, dialect variation, and acquisition.
 
-The payoff is empirical before it is philosophical. The HPC framework explains why deitality and definiteness align without being identical, why weak and generic definites exist, and why proper names pattern as they do. It also tells us what to expect once we identify a determiner or construction as more or less deital: which untested diagnostics it should satisfy, which pieces of the profile should survive semantic mismatch, and which parts of the system should vary across prosodic, dialectal, and developmental conditions. Theoretically, it offers a principled way to embrace graded category membership: categories can have prototypical members and gradient edges while remaining real and explanatorily useful.
+Proper names show the split in a concrete way. Bare singular names such as *John* are semantically definite but lack ordinary deital marking, while plural family names such as *the Smiths* require it. So-called “weak definites” like *go to the hospital*[^3] combine definite morphology with semantically indefinite reference. “Generic definites” like *The tiger is endangered* use definite singular form for kind reference rather than individual-level definiteness. These form–function mismatches are calibration points (Francis and Michaelis 2003): places where the semantic and structural profiles detach just enough to expose the structural pattern beneath the inherited label.
 
-The paper proceeds as follows. Section <a href="#sec:hpc" data-reference-type="ref" data-reference="sec:hpc">2</a> introduces the HPC framework and justifies its application to grammatical categories. Section <a href="#sec:semantic" data-reference-type="ref" data-reference="sec:semantic">3</a> characterizes definiteness as a semantic cluster. Section <a href="#sec:diagnostics" data-reference-type="ref" data-reference="sec:diagnostics">4</a> develops the diagnostics for deitality as morphosyntactic tests. Section <a href="#sec:mechanisms" data-reference-type="ref" data-reference="sec:mechanisms">5</a> identifies the homeostatic mechanisms maintaining the deital cluster and derives empirical predictions. Section <a href="#sec:cases" data-reference-type="ref" data-reference="sec:cases">6</a> applies the framework to weak and generic definites. Section <a href="#sec:objections" data-reference-type="ref" data-reference="sec:objections">7</a> addresses edge cases and objections. Section <a href="#sec:conclusion" data-reference-type="ref" data-reference="sec:conclusion">8</a> concludes.
+The analysis uses one idea from natural-kind theory: a category is projectible when observed cases license expectations about unobserved ones (Goodman \[1955\] 1983). Section <a href="#sec:hpc" data-reference-type="ref" data-reference="sec:hpc">2</a> develops the Boydian and post-HPC discipline behind that claim; the point here is that deitality has to support predictions across constructions, semantic mismatches, manipulations, and borderline cases (Boyd 1991, 1999).
 
-# Homeostatic property clusters: A framework for messy categories
+The sources and stabilizers that matter here operate at distinct timescales, from demonstrative grammaticalization to acquisition and usage. Because deitality and definiteness are supported by partly different pressures, the overlap between them should hold in some regions and loosen in others.
 
-The proposal to treat grammatical categories as homeostatic property clusters requires justification. The HPC framework originated in philosophy of biology to solve the species problem (Boyd 1991, 1999). I’ll sketch the biological motivation, extract the core theoretical machinery, and then show why it applies to linguistic categories.
+The payoff is empirical first. The projectibility-first framework explains why deitality and definiteness align without being identical, why weak and generic definites exist, and why proper names pattern as they do. It also tells us what to expect once we locate a determinative, noun phrase, or construction in the deital profile: which residues should survive semantic mismatch, which diagnostics should split under manipulation, and which parts of the system should vary across prosodic, dialectal, and developmental conditions. Theoretically, it offers a principled way to handle internal gradedness without making the category unreal: how central an item is, how strong the evidence is, and where the boundary falls are distinct questions.
 
-## The species problem and its solution
+The paper proceeds as follows. Section <a href="#sec:hpc" data-reference-type="ref" data-reference="sec:hpc">2</a> introduces the projectibility-first framework and justifies its application to grammatical categories. Section <a href="#sec:semantic" data-reference-type="ref" data-reference="sec:semantic">3</a> characterizes definiteness as a semantic profile. Section <a href="#sec:diagnostics" data-reference-type="ref" data-reference="sec:diagnostics">4</a> develops the diagnostics for deitality as morphosyntactic tests. Section <a href="#sec:mechanisms" data-reference-type="ref" data-reference="sec:mechanisms">5</a> identifies sources and stabilizers of the deital profile and derives empirical predictions. Section <a href="#sec:cases" data-reference-type="ref" data-reference="sec:cases">6</a> applies the framework to weak and generic definites and narrative *this*. Section <a href="#sec:objections" data-reference-type="ref" data-reference="sec:objections">7</a> addresses edge cases and objections. Section <a href="#sec:conclusion" data-reference-type="ref" data-reference="sec:conclusion">8</a> concludes.
 
-For centuries, biologists sought an essentialist definition of species: a set of necessary and sufficient conditions for membership. Traditional candidates included morphological similarity, ability to interbreed, and shared ancestry. Each definition failed. Ring species can interbreed with adjacent populations but not with distant ones. Asexually reproducing organisms don’t interbreed at all. Morphologically similar organisms can be reproductively isolated. The natural world resisted any single timeless cutoff (Mayr 1942).
+# Projectible profiles and grammatical categories
 
-Boyd’s solution was to reject essentialism entirely. A species isn’t defined by a single property or fixed set of properties. Instead, it’s characterized by a *cluster* of properties – morphological, genetic, behavioural – that co-occur more often than chance would predict. What makes this clustering stable is a set of causal mechanisms: gene flow within the population, developmental constraints, shared ecological niche, natural selection. These mechanisms are *homeostatic* because they maintain the integrity of the cluster even when individual members lack some properties.
+The proposal to treat deitality as a projectible grammatical profile requires justification. The framework is Boydian in motivation: it rejects necessary-and-sufficient definitions and asks what categories let us infer. But it also incorporates a later discipline from natural-kind theory: stability, network order, maintenance, and strict homeostasis aren’t the same achievement.
 
-Three features define an HPC kind. First, there’s a *contingent property cluster*: a family of properties that statistically co-occur. No single property is necessary; no set is sufficient. Second, the clustering is causally sustained by *homeostatic mechanisms*: underlying processes that ensure the presence of some properties tends to favor others. Third, the profile is projectable: observing some of its properties supports inferences about others, which is what lets the category support explanation and prediction. Because the mechanisms aren’t perfect, the resulting profile shows graded membership, prototype effects, and historically mobile boundaries.
+## From essence to projectibility
 
-The epistemic justification comes from Boyd’s accommodation thesis (Boyd 1991, 1999). A category is a natural kind if treating it as such allows scientists to formulate reliable generalizations and explanations. The category is “natural” not because it mirrors a pre-existing Platonic structure but because it’s projectable: it supports successful induction and prediction.
+The motivating contrast comes from the species problem. Essentialist definitions of species sought a set of necessary and sufficient conditions for membership: morphological similarity, ability to interbreed, shared ancestry, or some other privileged property. Each candidate failed. Ring species can interbreed with adjacent populations but not with distant ones. Asexually reproducing organisms don’t interbreed at all. Morphologically similar organisms can be reproductively isolated. The natural world resisted any single fixed cutoff (Mayr 1942).
+
+Boyd (1991, 1999) rejects essentialism. A species is characterized by a cluster of properties (morphological, genetic, behavioural) that co-occur more often than chance would predict, with no single property or fixed list required for membership. What matters for scientific practice is projectibility: for Goodman (\[1955\] 1983), a category supports projections from observed cases to unobserved ones. In Boyd’s HPC framework, that means observing some parts of the profile licenses expectations about others. The projectibility is also field-relative: a category earns its place by supporting the inferences a practice needs. The category is useful because it fits inferential practice to real causal structure, not because it mirrors an essence.
+
+This gives three commitments that are useful for grammar. First, the category has a contingent property profile: a family of properties that statistically co-occur. Second, the profile has enough order or maintenance to keep the co-occurrence from being accidental. Third, the profile is projectible for some analytical purpose. Because these conditions aren’t essentialist, the resulting category can have internally graded structure and prototype effects without collapsing into arbitrariness. That doesn’t have to make the boundary itself fuzzy. It means that our evidence for locating the boundary can be uneven, and that category members can be more or less central once they’re inside it.
+
+## Separating stability, maintenance, and control
+
+The word homeostatic shouldn’t do more work than the evidence warrants. In the HPC-derived debate, a profile can be stable without a known maintainer; it can be network-ordered without feedback; and it can be maintained without being a corrective-control system (Slater 2015; Khalidi 2013, 2018; Onishi and Serpico 2022). A stricter diagnostic asks five questions in order
+
+(Reynolds 2026) :
+
+1.  What’s the projection target?
+
+2.  What stable profile supports that projection?
+
+3.  What ordering relations explain why the projection isn’t accidental?
+
+4.  What maintains the profile across relevant timescales?
+
+5.  Is the maintainer a corrective-control process that preserves a higher-scale relation through lower-scale variation?
+
+This paper doesn’t need the fifth step. The central linguistic claim is that deitality is a projectible grammatical profile, not that English determinatives form a homeostatic control system. Its projection targets include more than the diagnostics that first identify it. They include external and manipulable outcomes: which residues survive when semantic definiteness is relaxed, which contrasts are rescued by prosody, which frames vary across dialects, and which restrictions should be acquired earlier than others. A category is useful only if it licenses those further inferences.
 
 ## Why grammatical categories need this framework
 
-The parallel to linguistics is direct. Just as biologists sought an essence for species, linguists have sought one for definiteness. Decades of research have tried to define “definite noun phrase” by semantic essence – uniqueness (Russell 1905; Hawkins 1978) or familiarity (Christophersen 1939; Heim 1982). But counterexamples proliferate. Weak definites like *listen to the radio* use *the* without uniqueness (Carlson and Sussman 2005; Aguilar-Guevara and Zwarts 2010). Generic definites like *The lion is noble* refer to kinds, not individuals (Carlson 1977; Krifka 2004). Cross-linguistically, definite articles appear in contexts where their semantic contribution seems redundant or absent (Lyons 1999).
+The parallel to linguistics is direct. Just as biologists sought an essence for species, linguists have sought one for definiteness. Decades of research have tried to define “definite noun phrase” by semantic essence, usually uniqueness (Russell 1905; Hawkins 1978) or familiarity (Christophersen 1939; Heim 1982). But counterexamples proliferate. Weak definites like *listen to the radio* use *the* without uniqueness (Carlson and Sussman 2005; Aguilar-Guevara and Zwarts 2010). Generic definites like *The lion is noble* refer to kinds, not individuals (Carlson 1977; Krifka 2004). Cross-linguistically, definite markers appear in contexts where their semantic contribution seems redundant or absent (Lyons 1999).
 
-These aren’t peripheral exceptions. They’re systematic patterns that suggest the category lacks a simple essence. The attempt to define a morphosyntactic object – the class of noun phrases marked with definite morphology – using purely semantic criteria has produced a category that doesn’t align with the empirical facts.
+Far from being peripheral exceptions, these systematic patterns suggest the category lacks a simple essence. The attempt to define a morphosyntactic object, the category of noun phrases marked with definite morphology, using purely semantic criteria has produced a category that doesn’t align with the empirical facts.
 
-The HPC framework offers a way forward. We can characterize both deitality and definiteness as property clusters maintained by distinct causal mechanisms and ask what those clusters let us infer. The strong correlation between them is real and causally grounded, but the clusters can and do come apart in systematic ways (Francis and Michaelis 2003). The subsequent sections develop this account: §<a href="#sec:semantic" data-reference-type="ref" data-reference="sec:semantic">3</a> characterizes the definiteness cluster, §<a href="#sec:diagnostics" data-reference-type="ref" data-reference="sec:diagnostics">4</a> establishes the deitality cluster through convergent diagnostics, and §<a href="#sec:mechanisms" data-reference-type="ref" data-reference="sec:mechanisms">5</a> shows how the cluster supports predictions across constructions, dialects, and developmental stages.
+The projectibility-first framework offers a way forward. We can characterize deitality and definiteness as distinct profiles and ask what each lets us infer. The strong correlation between them is real and grounded in grammar, discourse, history, and acquisition, but the profiles can come apart in systematic ways (Francis and Michaelis 2003).
 
-This move has precedent. Prototype theory in cognitive linguistics has long recognized that categories have graded structure (Rosch 1978; Lakoff 1987). But prototype theory often stops at similarity structure. The HPC framework adds a causal account of why certain properties cluster and why that clustering supports reliable inferences beyond the data that first identified it.
+Cross-linguistic work on two kinds of definites gives an important comparison point. Schwarz (2009, 2013) argues that German weak and strong article forms track different semantic relations, roughly uniqueness and anaphoric familiarity; related work extends the comparison to languages without ordinary articles and to languages where the analysis is contested (Jenks 2018; Arkoh and Matthewson 2013; Bombi 2018). This literature is an ally because it shows that the definiteness domain can split grammatically. The account here asks a different question. It doesn’t replace the uniqueness–familiarity contrast; it asks whether English forms and constructions participate in a ranked distributional profile whose diagnostics split under prosody, specificity, semantic mismatch, dialectal variation, and acquisition. On this account, the Schwarz-style weak/strong contrast falls within deital territory rather than exhausting it: the question is how semantically different definite markers pattern on structural diagnostics.
 
-The HPC framework has already been applied to linguistic phenomena. Miller (2021) argues that word-kinds like *table* and *Paris* are HPCs, defined by clusters of phonological, orthographic, and semantic properties maintained by cognitive and social mechanisms. The present proposal extends this approach from lexical ontology to grammatical categories. Where Miller asks what makes tokens instances of the same word-kind, I ask what distinguishes deital from non-deital determiners – why *the*, *this*, and genitives pattern together distributionally while *a*, *some*, and *many* form a contrasting cluster.
+This move has precedent. Prototype theory in cognitive linguistics has long recognized that categories have graded structure (Rosch 1978; Lakoff 1987). But prototype theory often stops at similarity structure. Boyd’s HPC framework adds a causal account of why certain properties cluster and why that clustering supports reliable inferences beyond the data that first identified it.
 
-# Definiteness as a semantic property cluster
+The framework has already been applied to linguistic phenomena. Miller (2021) argues that word-kinds like *table* and *Paris* are HPCs, defined by clusters of phonological, orthographic, and semantic properties maintained by cognitive and social mechanisms. This paper extends that style of analysis from lexical ontology to grammatical categories, but with a stricter vocabulary. Where Miller asks what makes tokens instances of the same word-kind, I ask what distinguishes deital from non-deital determinatives: why *the*, *this*, and genitive NPs in determiner function pattern together distributionally while *a*, *some*, and *many* form a contrasting profile.
 
-Before characterizing deitality, I need to clarify what definiteness IS – semantically and pragmatically – so it’s clear what deitality ISN’T. The literature presents two major traditions: uniqueness theories and familiarity theories. Rather than adjudicating between them, I’ll argue that both capture important properties in the definiteness cluster.
+# Definiteness as a semantic profile
 
-Uniqueness theories originate with Russell (Russell 1905). A definite description *the F* presupposes that exactly one entity satisfies *F* in the contextually relevant domain. Later work refined this to allow pragmatic restriction: uniqueness holds relative to a “P-set” or shared frame of reference (Hawkins 1978). This approach handles “larger situation” uses like *the sun* and anaphoric uses where prior discourse has narrowed the context to a single salient entity.
+Before characterizing deitality, I need to clarify what definiteness is, semantically and pragmatically, so the contrast with deitality is clear. The literature presents two major traditions: uniqueness theories and familiarity theories. Nearby work also separates semantic properties often grouped under definiteness, including definiteness and determinacy (Coppock and Beaver 2015). Rather than adjudicating between these approaches, I argue that they capture important properties in the definiteness profile.
 
-Familiarity theories stem from Christophersen and were formalized by Heim (Christophersen 1939; Heim 1982). Definite noun phrases are subject to a familiarity condition: they must refer to an entity already established in the discourse model. Indefinites, by contrast, introduce new referents. This framework excels at explaining discourse anaphora, where a definite’s felicity depends directly on having a linguistic antecedent.
+Uniqueness theories originate with Russell (1905). A definite description *the F* presupposes that exactly one entity satisfies *F* in the contextually relevant domain. Later work refined this to allow pragmatic restriction: uniqueness holds relative to a “P-set” or shared frame of reference (Hawkins 1978). This approach handles “larger situation” uses like *the sun* and anaphoric uses where prior discourse has narrowed the context to a single salient entity.
 
-Both theories have problems. Familiarity isn’t necessary – *the first person on Mars* can be used felicitously even when the referent is discourse-new. Uniqueness isn’t sufficient – in contexts with two familiar but non-unique entities, neither *the N* works smoothly. And weak definites challenge both: *go to the hospital* uses *the* when the hospital is neither uniquely specified nor discourse-familiar (Abbott 2004; Birner 2013).
+Familiarity theories stem from Christophersen (1939) and were formalized by Heim (1982). Definite noun phrases are subject to a familiarity condition: they have to refer to an entity already established in the discourse model. Indefinites introduce new referents. This framework excels at explaining discourse anaphora, where a definite’s felicity depends directly on having a linguistic antecedent.
 
-I propose that uniqueness and familiarity are both properties in the definiteness cluster, along with anaphoric recoverability and, more broadly, identifiability. These properties co-tend because of discourse-pragmatic mechanisms: common ground management makes unique entities easier to track; anaphoric devices rely on familiarity; topics bias toward identifiable referents. But the co-occurrence is statistical, not absolute.
+Both theories have problems. Familiarity isn’t necessary: *the first person on Mars* can be used felicitously even when the referent is discourse-new. Uniqueness isn’t sufficient: in contexts with two familiar but non-unique entities, neither *the N* works smoothly. And weak definites challenge both: *go to the hospital* uses *the* when the hospital is neither uniquely specified nor discourse-familiar (Abbott 2004; Birner 2013).
 
-This explains the theoretical debate. Uniqueness and familiarity theorists aren’t discovering competing essences. They’re mapping different regions of the same property cluster. The clusters overlap heavily – a discourse-old, unique referent satisfies both – but they dissociate in predictable ways. Weak definites have identifiability without token-level uniqueness. Cataphoric definites have uniqueness without prior familiarity. The semantic notion of definiteness is itself an HPC.
+I propose that uniqueness and familiarity are both properties in the definiteness profile, along with anaphoric recoverability and, more broadly, identifiability. These properties co-tend because of discourse-pragmatic pressures: common ground management makes unique entities easier to track; anaphoric devices rely on familiarity; topics bias toward identifiable referents. That’s why uniqueness and familiarity theories map different regions of one semantic profile rather than competing essences. The properties overlap heavily (a discourse-old, unique referent satisfies both), but they dissociate in predictable ways. Weak definites have identifiability without token-level uniqueness. Cataphoric definites have uniqueness without prior familiarity. The semantic notion of definiteness is profile-like rather than essence-like.
 
-What matters for present purposes is this: definiteness is a property cluster centred on interpretation – how referents are mentally represented and tracked in discourse. The core properties are identifiability, uniqueness, and anaphoric recoverability. But the cluster also includes a morphological tendency: definite referents are strongly associated with deital marking. This association is maintained by discourse efficiency and grammaticalization history, creating substantial overlap with the deitality cluster. The next sections establish the deitality cluster through convergent diagnostics (§<a href="#sec:diagnostics" data-reference-type="ref" data-reference="sec:diagnostics">4</a>) and identify the distinct mechanisms maintaining it (§<a href="#sec:mechanisms" data-reference-type="ref" data-reference="sec:mechanisms">5</a>). The imperfect alignment between clusters – cases where definiteness and deitality dissociate – is the focus of §<a href="#sec:cases" data-reference-type="ref" data-reference="sec:cases">6</a>.
+Definiteness is a profile centred on interpretation: how referents are mentally represented and tracked in discourse. The core properties are identifiability, uniqueness, and anaphoric recoverability. Definite referents are often marked deitally, but that association is an empirical correlation to be explained, not a defining property of the semantic profile. The next sections establish the deital profile through convergent diagnostics (§<a href="#sec:diagnostics" data-reference-type="ref" data-reference="sec:diagnostics">4</a>) and identify the distinct processes maintaining it (§<a href="#sec:mechanisms" data-reference-type="ref" data-reference="sec:mechanisms">5</a>). The imperfect alignment between profiles, cases where definiteness and deitality dissociate, is the focus of §<a href="#sec:cases" data-reference-type="ref" data-reference="sec:cases">6</a>.
 
 # Diagnostics for deitality
 
-I characterize deitality as a structural property cluster whose core comprises distributional restrictions but also includes a strong tendency to mark semantically definite referents. This section develops four core diagnostics that target the distributional restrictions: existential *there*, partitive *of*, identificational hosting, and *one*-substitution. These diagnostics establish the morphosyntactic spine of the cluster; §<a href="#sec:mechanisms" data-reference-type="ref" data-reference="sec:mechanisms">5</a> explains how grammaticalization and other mechanisms link this spine to definiteness-marking. Each diagnostic is construction-general, targets the determiner itself, and admits controllable neutralizations.
+I characterize deitality as a structural profile whose core comprises distributional restrictions. It also shows a strong empirical tendency to mark semantically definite referents, but that tendency belongs to the correlation between profiles rather than to the definition of deitality itself. The profile is level-sensitive. Sometimes the relevant object is a determinative lexeme (*the*, *this*); sometimes it’s a genitive NP in determiner function; sometimes it’s an NP in a particular construction; sometimes it’s a diachronic lineage whose forms preserve inherited distributional residue. Deitality is a category distributed across levels rather than a single feature borne by one grammatical object in all contexts. It’s the category that answers a syntactician’s question: which forms and constructions support the same projectible distributional inferences?
+
+This section develops three uneven diagnostics plus one residue pattern: existential *there*, domain-establishing *Y* complements in true partitives, and identificational hosting. The partitive diagnostic is the strongest syntactic test. Existential *there* depends on construction and information structure. Hosting is mixed: it reflects morphosyntax, specificity, and discourse anchoring. Bare-*one* behaviour is fragile corroborating residue, not a core diagnostic. The tests are useful precisely because they don’t reduce to one another.
 
 ## Existential *there*
 
-The definiteness effect in existential *there* constructions is well-documented (Milsark 1977; McNally 2011). Under neutral prosody, deital determiners resist the pivot position:
+The definiteness effect in existential *there* constructions is well documented (Milsark 1977; McNally 2011). Under neutral prosody, deital determinatives resist the pivot position:
 
-<span id="ex:there-neutral" label="ex:there-neutral"></span> *<sup>\*</sup>There is the key on the table.* *<sup>\*</sup>There are those books I mentioned.* *There is a key on the table.* (non-deital, acceptable)
+<span id="ex:there-neutral" label="ex:there-neutral"></span> *<sup>\*</sup>There’s the key on the table.* (neutral existential reading) *<sup>\*</sup>There are those books I mentioned.* *There’s a key on the table.* (non-deital, acceptable)
 
 The effect is sensitive to prosody: list/presentational intonation can license otherwise dispreferred pivots (Birner and Ward 1998):
 
-<span id="ex:there-list" label="ex:there-list"></span> *There’s THAT book again.* *Well, there’s the KEYS, the wallet...*
+<span id="ex:there-list" label="ex:there-list"></span> *There’s THAT book again.* *Well, there’s THE KEYS, the wallet...*
 
-A potential complication, noted by Cris Chatterjee, is that the initial *there* in such cases can be heard as locative rather than expletive, which makes the intended presentational reading harder to obtain.
+The initial *there* in such cases can be heard as locative rather than expletive, which makes the intended presentational reading harder to obtain.
 
-I treat this as a controllable neutralization: under neutral prosody, deital determiners resist the pivot position; marked prosody can ameliorate the effect. The diagnostic is therefore calibrated to neutral prosody.
+[^4]
 
-**Important calibration**: This diagnostic – and indeed each diagnostic in this section – is calibrated to *neutral prosody and non-narrative frames*. Specialized constructions like narrative-presentational *There was this guy...* have their own licensing conditions (see §<a href="#sec:cases" data-reference-type="ref" data-reference="sec:cases">6</a>) and don’t constitute counterevidence to the basic distributional pattern.
+I treat this as a controllable neutralization: under neutral prosody, deital determinatives resist the pivot position; marked prosody can ameliorate the effect. I calibrate the diagnostic to neutral prosody.
 
-## Partitive *of*
+This calibration matters. Existential *there* has semantic and information-structure inputs, so list readings, recurrence readings, locative/expletive ambiguity, and narrative frames can affect judgments. I use it as a ranked cue under neutral prosody and non-narrative frames, not as sufficient evidence for deitality.
 
-In true partitive constructions – *X of Y* with subset semantics – the *Y* complement must be definite-like (Barker 1998; Hoeksema 1996):
+McNally (2011) is especially important because the definiteness restriction is treated there as more than a simple surface-form ban. McNally reviews semantic accounts on which the pivot has to be property-like and pragmatic accounts on which the pivot is constrained by discourse status or information structure; her own earlier analysis is explicitly mixed. I accept that lesson. The *there* diagnostic doesn’t by itself show a morphosyntactic category distinct from definiteness. Its value here is comparative: it patterns with the profile under neutral conditions, but it dissociates from the harder partitive diagnostic under prosodic manipulation. That contrast makes the cue useful, but it isn’t decisive on its own; §<a href="#sec:objections" data-reference-type="ref" data-reference="sec:objections">7</a> returns to the semantic-bundle worry and adds acquisition and weak-definite tests.
+
+## Partitive complements
+
+In true partitive constructions (*X of Y* with subset semantics), the relevant diagnostic belongs to the Partitive Constraint tradition (Ladusaw 1982; Abbott 1996; Barker 1998; Hoeksema 1996). The issue is the availability of a delimited domain rather than *the*-marked definiteness as such. I state the diagnostic conservatively: the *Y* complement has to be definite-like or independently domain-establishing.
 
 <span id="ex:part-good" label="ex:part-good"></span> *Two<span class="upright"> / </span>several<span class="upright"> / </span>many of the students left.* *Two<span class="upright"> / </span>several<span class="upright"> / </span>many of these<span class="upright"> / </span>my students left.*
 
-<span id="ex:part-bad" label="ex:part-bad"></span> \**Two<span class="upright"> / </span>several<span class="upright"> / </span>many of some students left.*
+<span id="ex:part-bad" label="ex:part-bad"></span> \**Several of some students left.*
 
-This selectional restriction is robust and not ameliorated by prosody. Attempts to use weak *Y* are either rejected outright or reanalyzed as measure/fraction constructions (*half of a cake*), which have different semantics.
+This selectional restriction is stable and isn’t ameliorated by prosody. The partitive literature contains complications, including examples such as *one of several options*, *one of many problems*, and *two of a number of applicants* (Ladusaw 1982; Abbott 1996). Those cases show that the domain-establishing condition can be satisfied without *the*. They also show why the diagnostic shouldn’t be stated as a simple article-definiteness test. The narrower contrast is still useful: ordinary weak indefinites like *some students* don’t behave like *the students*, *these students*, or genitive NPs as partitive complements. Attempts to use weak *Y* are either rejected outright, receive a specialized set-denoting interpretation, or are reanalyzed as measure/fraction constructions (*half of a cake*), which have different semantics.
 
-It’s the *Y* slot that matters. Elements in *X* – including quantifiers like *all* or *both* when they appear as modifiers – are irrelevant to this diagnostic.
+The *Y* slot is what matters. Elements in *X*, including quantifiers like *all* or *both* when they appear as modifiers, are irrelevant to this diagnostic.
 
 ## Identificational hosting
 
-Deital determiners are preferred hosts for nonrestrictive modification, topics, and specificational subjects. Weak determiners are degraded unless coerced to specific readings (Lambrecht 1994):
+I use identificational hosting as a cover term for environments that need a discourse-salient, identifiable NP as host: nonrestrictive modification, *as for* topics, and specificational subjects (the copular type of *The culprit is John*, distinct from the identificational *That is John*). The requirement on the host NP is semantic and information-structural; the deital diagnostic is distributional. NPs with deital determiners satisfy these environments most readily, while NPs with weak determiners need independent anchoring, especially in topic and specificational frames. Nonrestrictive relatives are more permissive when the indefinite is independently anchored (Lambrecht 1994):
 
-<span id="ex:host-good" label="ex:host-good"></span> *The<span class="upright"> / </span>this<span class="upright"> / </span>John’s book, which I bought yesterday, is excellent.* *As for the<span class="upright"> / </span>this<span class="upright"> / </span>John’s report, I’ve filed it.* *The culprit is John.*
+<span id="ex:host-good" label="ex:host-good"></span> *The<span class="upright"> / </span>this<span class="upright"> / </span>John’s book, which I bought yesterday, is excellent.* *As for the<span class="upright"> / </span>this<span class="upright"> / </span>John’s report, I filed it.* *The culprit is John.*
 
-<span id="ex:host-bad" label="ex:host-bad"></span> <sup>??</sup>*A book, which I bought yesterday, is excellent.* <sup>??</sup>*As for a report, I’ve filed it.* <sup>??</sup>*A culprit is John.*
+<span id="ex:host-mixed" label="ex:host-mixed"></span> *A student of mine, who you met, just won a prize.* (anchored indefinite) <sup>??</sup>*As for a report, I filed it.* <sup>??</sup>*A culprit is John.*
 
-The degradation correlates with information structure. Identificational constructions presuppose that the referent is already salient or identifiable to the hearer. Weak indefinites introduce new referents and clash with this presupposition.
+The degradation correlates with information structure. These host constructions presuppose that the referent is already salient or identifiable to the hearer. Weak indefinites introduce new referents and clash with this presupposition unless other material supplies anchoring. This makes the diagnostic mixed rather than purely structural: examples such as *A colleague of mine, who you may remember from York, emailed me* improve because specificity and discourse anchoring supply part of what the construction requires. The prediction is graded, not categorical.
 
-## *One*-substitution
+## Narrow *one*-substitution residue
 
-Non-deital determiners freely allow bare anaphoric *one* across clauses:
+Non-deital determinatives freely allow bare anaphoric *one* across clauses:
 
 <span id="ex:one-weak" label="ex:one-weak"></span> *I bought a red pen and you bought one too.*
 
-Deital packages resist bare *one* in the same configuration:
+Deital antecedents resist bare *one* on readings where the continuation would have to preserve the already-determined token rather than introduce another instance of the nominal property:
 
-<span id="ex:one-strong" label="ex:one-strong"></span> \**I bought the<span class="upright"> / </span>this<span class="upright"> / </span>my red pen and you bought one too.*
+<span id="ex:one-strong" label="ex:one-strong"></span> <sup>\*</sup>*I bought the<span class="upright"> / </span>this<span class="upright"> / </span>my red pen and you bought one too.* (intended: the same contextually determined pen)
 
-Determiner + *one* (*this one*, *the one*) is grammatical but represents a different construction: *one* is a noun with its own determiner, not a determinative phrase in fused-determiner–head function (Huddleston and Pullum 2002, 332–33). I exclude this construction from the diagnostic.
+Determiner function + *one* (*this one*, *the one*) is grammatical but represents a different construction: *one* is a noun with its own determiner, not a determinative phrase in fused-determiner–head function (one word filling the determiner and head positions together, as in *I’ll take these*) (Huddleston and Pullum 2002, 332–33). I exclude this construction from the residue pattern.
 
-This test is narrower than the others and more subject to dialectal variation. I treat it as a corroborating cue rather than a primary diagnostic.
+The limitation is built into the analysis. In terms, bare *one* is a nominal anaphor; it isn’t a device for recovering a whole determiner–head package. Many speakers accept examples like *I found the perfect apartment and she found one too*, where *one* recovers the nominal property rather than the determined phrase. The test is useful only when the context makes the determined-token reading salient and the property-anaphoric reading pragmatically unavailable. I treat it as a residue to discuss rather than as an inventory column.
 
-## Summary: Converging evidence for a property cluster
+## Summary: Converging evidence for a grammatical profile
 
-These four diagnostics converge on a morphosyntactic profile. Prototypical deital determiners resist existential pivots, license partitive *Y*, host identificational constructions naturally, and disprefer bare *one*-substitution. Prototypical non-deital determiners show the opposite pattern. No single diagnostic defines the cluster. No diagnostic has metaphysical privilege; no property is necessary, no set sufficient. What matters is convergence across multiple independent tests – the homeostatic pattern that essentialist accounts cannot capture.
+These diagnostics converge on a morphosyntactic profile, but they aren’t equally stable. Prototypical deital determinatives resist existential pivots, satisfy the domain-establishing *Y* condition in partitives, and host identificational constructions naturally. They also show the narrow *one*-substitution residue just described. Prototypical non-deital determinatives show the opposite pattern on the stronger diagnostics. No single diagnostic defines the profile. Partitive *Y*-licensing has the greatest syntactic weight; existential *there* and hosting show how the profile interacts with information structure; *one*-substitution is too fragile for category placement on its own. What matters is ranked convergence across tests, with residue patterns used only as corroboration.
 
-In applying the tests (see Appendix <a href="#sec:inventory" data-reference-type="ref" data-reference="sec:inventory">9</a>), many determinatives show partial cluster membership. Items like *each*, *every*, *all*, and *both* resist existential pivots (patterning deitally) but fail other diagnostics (patterning non-deitally). This is exactly what the HPC framework predicts: graded membership reflecting different degrees of property clustering. The diagnostic convergence defines a space where *the* and demonstratives occupy the prototypical center while other items show gradient participation.
+In applying the tests (see Appendix <a href="#sec:inventory" data-reference-type="ref" data-reference="sec:inventory">9</a>), many determinatives show partial profile convergence. Items like *each*, *every*, *all*, and *both* resist existential pivots (patterning deitally) but fail other diagnostics (patterning non-deitally). The projectibility-first account predicts this internal gradedness: different degrees of property convergence. The diagnostic convergence maps a space where *the* and demonstratives occupy the prototypical centre while other items supply less decisive evidence about where the boundary falls. I use Mixed in the inventory as an evidential status: it marks partial convergence and uncertainty about placement, not literal half-membership.
 
-This property pluralism is central to the HPC framework: just as biological species are characterized by multiple co-tending traits (morphology, genetics, behaviour) with none metaphysically prior, deitality is characterized by multiple co-tending distributional properties with none foundational. The diagnostics are equally valid cues to cluster membership.
+This property pluralism is central to the framework: just as biological species are characterized by multiple co-tending traits (morphology, genetics, behaviour) with none metaphysically prior, deitality is characterized by multiple co-tending distributional properties with none foundational. The diagnostics differ, and their dissociations are informative rather than embarrassing.
 
-That said, not all diagnostics are equally reliable in practice. Some show more cross-linguistic stability; some resist dialectal variation better; some apply more broadly. The *one*-substitution test, for instance, is more subject to dialectal variation than partitive *Y*-selectivity, making it a less robust probe in fieldwork. But both target equally real properties of the deital cluster. These are empirical differences in diagnostic utility, not metaphysical differences in the properties themselves.
+These diagnostics target distribution, not semantic contribution. Deital forms often mark identifiable referents, but that correlation is an empirical fact to explain rather than a defining condition. A determinative can be deital while contributing non-prototypical semantics: weak definites lack token-level uniqueness; generic definites refer to kinds. The morphosyntactic profile is what remains stable across this semantic variation.
 
-Importantly, these diagnostics target distributional behaviour rather than semantic contribution. This doesn’t mean the deital cluster lacks semantic properties – it correlates strongly with identifiability, wide scope, and anaphoric tracking. But these semantic tendencies are properties *within* the cluster, not necessary conditions for membership. A determiner can be deital while contributing non-prototypical semantics: weak definites lack token-level uniqueness; generic definites refer to kinds. The morphosyntactic profile is what remains stable across this semantic variation.
+Section <a href="#sec:mechanisms" data-reference-type="ref" data-reference="sec:mechanisms">5</a> identifies the processes that source and stabilize this diagnostic profile.
 
-Section <a href="#sec:mechanisms" data-reference-type="ref" data-reference="sec:mechanisms">5</a> identifies the homeostatic mechanisms that create and maintain this diagnostic clustering.
+# Sources, stabilizers, and predictions of the deital profile
 
-# Homeostatic mechanisms maintaining the deital cluster
+The central claim of the projectibility-first account is that property convergence isn’t accidental. For deitality, the evidence is strongest for a diachronic source and a learning filter: grammaticalization creates much of the profile, and acquisition plausibly helps reproduce it in each generation. Other processes (interactive alignment, prestige selection, and iterated transmission) are plausible stabilizers of particular parts of the profile, especially at gradient margins. I treat them as ranked contributors rather than as proof of a single rich homeostatic mechanism. For definiteness, the relevant pressures are discourse-pragmatic: information structure and common ground management create correlations among identifiability, uniqueness, and anaphoric recoverability.
 
-The central claim of the HPC framework is that property clustering isn’t accidental. It’s causally sustained by homeostatic mechanisms. For deitality, five mechanisms operate at distinct timescales to maintain both the distributional restrictions (partitive licensing, *there*-resistance, hosting, *one*-blocking) and the strong correlation with definiteness-marking: grammaticalization creates the cluster; acquisition, interactive alignment, prestige selection, and iterated transmission maintain it across individuals, conversations, communities, and generations. For definiteness, the mechanisms are discourse-pragmatic: information structure and common ground management create correlations among identifiability, uniqueness, and anaphoric recoverability, while also reinforcing the tendency for definite referents to be marked deitally.
+The previous section established diagnostic properties that converge in the deital profile. This section identifies sources and stabilizers operating at distinct timescales and derives falsifiable predictions about synchronic grammar.
 
-The previous section established four diagnostic properties that converge to define the deital cluster. This section identifies five homeostatic mechanisms operating at distinct timescales, shows how they interact to maintain that cluster, and derives falsifiable predictions about synchronic grammar.
+## Sources and stabilizers across timescales
 
-## Five mechanisms across timescales
+Grammaticalization creates much of the profile over phylogenetic time. Cross-linguistically, definite markers arise primarily from demonstratives (Greenberg 1978; Diessel 1999). As a demonstrative grammaticalizes (weakening phonologically and broadening functionally), some distributional properties can persist while the speaker-anchored deictic meaning bleaches. The conjecture is selective, not automatic: properties anchored in constructional selection or entrenched morphosyntactic frames should be better candidates for persistence than properties that depend on live speaker-centred deixis. Reanalysis happens utterance by utterance in contexts where the old demonstrative still satisfies the local frame. As the semantic function generalizes from pure deixis to broader identifiability marking, the frame can remain. I call this property dragging: grammaticalization can preserve formal behaviour while semantic function shifts.
 
-### Grammaticalization: Creating the cluster (phylogenetic, centuries)
+English *the* shows this pattern. Historically derived from a demonstrative, it resists existential pivots, appears as a domain-establishing *Y* in partitives, and hosts identificational constructions, all properties compatible with its deictic source. Weak definites, where *the* appears without uniqueness, represent cases where the morphosyntactic frame has outlived the original semantic restriction. The grammaticalization account predicts that items sharing a deictic source should share distributional properties most reliably where those properties are tied to constructional frames. English offers a modest lineage trace of this kind: the /ð/-initial determinatives (*the*, *this*, *that*, *these*, *those*) are all deital and all belong to the inherited Germanic demonstrative family. I return to the limited evidential role of this trace in §<a href="#sec:objections" data-reference-type="ref" data-reference="sec:objections">7</a>.
 
-Cross-linguistically, definite articles arise primarily from demonstratives (Greenberg 1978; Diessel 1999). As a demonstrative grammaticalizes – weakening phonologically and broadening functionally – it doesn’t shed its distributional properties. It drags them along.
+First language acquisition filters the hypothesis space in childhood. Each new generation has to acquire the grammatical system, and cultural transmission favours patterns that are stable and learnable (Kirby et al. 2014). Children acquire deital determinatives early, often overgeneralizing *the* to contexts where adults use *a* (Maratsos 1976; Rozendaal and Baker 2008). This doesn’t have to be pure semantic confusion. It’s compatible with a structural-learning story: children identify a high-frequency form (*the*) plus parts of its distributional frame and apply it broadly before refining the semantic conditions.
 
-Demonstratives inherently show many properties of the deital cluster. They’re deictic, which makes them poor candidates for introducing discourse-new referents (hence resistance to existential *there*). They’re referential and often presuppositional, which makes them natural hosts for identificational constructions. They pattern with definites in partitive constructions cross-linguistically.
+The stronger developmental claim remains conditional. Children may master some positions for *the* before the full pragmatic conditions on adult use. The overgeneralization asymmetry is still positive evidence for a structural-learning story: children seem to latch onto *the* and parts of its frame before the adult semantic conditions are fully in place. But the relative timing of specific restrictions, including partitive *Y*-licensing, still needs direct evidence. If borne out, this would support a bootstrapping path in which distributional frames help learners infer semantic function, and vice versa. Until that evidence exists, bootstrapping is a forecast, not a result. Each generation re-creates the deitality category from distributional and interpretive evidence, so children shouldn’t learn pivot resistance, partitive *Y*-licensing, and identificational hosting as wholly unrelated facts.
 
-When a demonstrative becomes an article, these distributional tendencies persist. The resulting article inherits the morphosyntactic frame even as its semantic function generalizes from pure deixis to broader identifiability marking. This is property dragging: grammaticalization preserves formal behaviour while semantic function shifts.
+Other familiar stabilizers are more programmatic here. Interactive alignment, prestige-weighted selection, and iterated cultural transmission are real mechanisms in language use and change (Pickering and Garrod 2004; Labov 2001; Eckert 2000; Kirby et al. 2014), but they’re too general to explain deitality by themselves. To make them deitality-specific, we’d need signatures such as repair sequences targeting deital misuse, socially stratified article or demonstrative variants tied to the diagnostics, or transmission effects that preserve selectional restrictions more strongly than local weak-definite frames. The evidence reviewed below uses these processes mainly to locate where variation should appear. Grammaticalization and acquisition carry the core maintenance claim.
 
-English *the* shows exactly this pattern. Historically derived from a demonstrative, it resists existential pivots, licenses partitive *Y*, and hosts identificational constructions – all properties traceable to its deictic source. Weak definites, where *the* appears without uniqueness, represent cases where the morphosyntactic frame has outlived the original semantic restriction.
+## Causal architecture: How the sources and stabilizers interact
 
-The grammaticalization account predicts that items sharing a deictic source should share distributional properties. English offers phonological evidence for this prediction. All /ð/-initial determinatives are deital: *the*, *this*, *that*, *these*, *those*. This clustering isn’t universal – other function words like *then*, *than*, *though* begin with /ð/ without being determinatives, and many deital items like genitives lack it entirely. But within the determinative class, /ð/ marks a family of historically related forms, all derived from Germanic demonstratives. The phonological property clusters with the distributional ones because both reflect common ancestry. Property dragging operates on bundles: when demonstratives grammaticalize, they carry along not just distributional behaviour but phonological shape.
+Figure <a href="#fig:deital-maintainers" data-reference-type="ref" data-reference="fig:deital-maintainers">1</a> schematizes where stabilization could enter the deital profile. Grammaticalization creates much of the initial bundle; the other processes are candidate sites where the profile can be reproduced, filtered, or reshaped at different timescales.
 
-### First language acquisition: Filtering the hypothesis space (ontogenetic, childhood)
+<figure id="fig:deital-maintainers" data-latex-placement="htbp">
 
-The grammatical system must be acquired by each new generation. The acquisition process acts as a filter: only stable, learnable patterns survive transmission.
-
-Children acquire deital determiners early, often overgeneralizing *the* to contexts where adults use *a* (Maratsos 1976; Rozendaal and Baker 2008). This isn’t semantic confusion. It’s structural success. Children identify a high-frequency form (*the*) plus its distributional frame – appears with familiar referents, resists existential contexts, patterns with genitives – and apply it broadly before refining the semantic conditions.
-
-Critically, they acquire the morphosyntactic cluster before mastering the full semantic range. They know *the* appears in certain structural positions (determiner slot, partitive complement) before they know exactly when referents count as unique or familiar. This creates a bootstrapping dynamic: the distributional frame helps learners infer semantic function, and vice versa.
-
-This acquisitional filtering maintains the cluster’s stability. Each generation re-creates the deitality category based on distributional evidence. The property cluster – pivot resistance, partitive licensing, identificational hosting – is learned as a package, not as independent facts. When children overgeneralize, they extend the entire package. When they refine, they adjust semantic conditions while preserving the morphosyntactic frame.
-
-### Interactive alignment and repair: Real-time stabilization (microgenetic, seconds to minutes)
-
-In conversation, speakers converge automatically on syntactic frames and prune misalignments through immediate repair (Pickering and Garrod 2004). When a speaker produces a deital determiner in a dispreferred context – say, *There’s the problem* under neutral prosody – hearers flag the anomaly either through explicit correction or through subtle cues (hesitation, clarification requests). This real-time feedback loop stabilizes the distributional patterns within individual interactions.
-
-The mechanism operates largely below conscious awareness. Speakers don’t explicitly reason about partitive selectional restrictions; they simply experience discomfort when hearing *\*two of some students* and either repair the utterance or signal non-comprehension. Over thousands of conversational exchanges, this microgenetic pruning reinforces the property cluster by penalizing violations and rewarding canonical patterns.
-
-### Prestige-weighted selection: Social stratification (sociogenetic, decades)
-
-Variants associated with high-status speakers spread faster through communities (Labov 2001; Eckert 2000), pushing some constructions toward categorical bans while allowing sociolinguistic stratification to persist at gradient margins.
-
-For deitality, this mechanism explains why some weak definite frames (British *in hospital*) become dialectally entrenched while others never stabilize. Prestige dynamics can override frequency: highly frequent non-standard patterns (*them books* in some dialects) remain marked because standard *those books* carries social prestige. Conversely, low-frequency prestige forms can resist elimination.
-
-The mechanism doesn’t create the deital cluster – grammaticalization and acquisition do that – but it shapes which variants survive community transmission and which get filtered out. This explains why structural bans often correlate with social evaluation even when the underlying constraint is cognitive or morphosyntactic.
-
-### Iterated cultural transmission: Multi-generational filtering (phylogenetic, generations)
-
-The transmission bottleneck amplifies learnability biases and filters out mappings that exceed processing or memory constraints (Kirby et al. 2014). Each generation learns the language from finite input, necessarily discarding patterns that are too complex, too rare, or too inconsistent to acquire reliably.
-
-This multi-generational ratchet explains why structural bans converge across dialects even as surface patterns diverge. Determiner extraction (*\*Which did you buy car?*) is categorically rejected in all English dialects because the underlying constraint – no stranding of determiners – is simple, learnable, and stable under transmission. Weak definite frames, by contrast, show dialectal variation because they’re conventionalized idioms: learnable but not structurally forced.
-
-Iterated transmission also explains the phonological clustering noted in §<a href="#subsec:gram" data-reference-type="ref" data-reference="subsec:gram">5.1.1</a>. The /ð/-initial family persists not because of any functional advantage but because the phonological pattern is stable under transmission. Children acquiring English identify the cluster and reproduce it, generation after generation.
-
-## Causal architecture: How mechanisms interact
-
-Figure <a href="#fig:deital-homeostasis" data-reference-type="ref" data-reference="fig:deital-homeostasis">1</a> schematizes how the five mechanisms stabilize the deital property cluster. Grammaticalization creates the initial bundle; four mechanisms maintain it simultaneously at different timescales.
-
-<figure id="fig:deital-homeostasis" data-latex-placement="htbp">
-
-<figcaption>Homeostatic mechanisms stabilizing the deital property cluster. Grammaticalization (top) created the initial property bundle through demonstrative-to-article pathways. Four mechanisms maintain the cluster simultaneously at different timescales: iterated transmission filters for learnability across generations; prestige-weighted selection shapes social distribution over decades; interactive alignment maintains patterns in real-time conversation; first language acquisition reproduces the cluster in each generation. The cluster’s stability feeds back to enable successful acquisition (bottom), creating a self-reinforcing cycle. Solid arrows show primary causation; dashed arrow shows feedback.</figcaption>
+<figcaption>Candidate sources and stabilizers of the deital profile. Grammaticalization (top) created much of the initial property bundle through demonstrative-to-definite-marker pathways. The other processes identify possible sites of reproduction, filtering, or reshaping: iterated transmission across generations; prestige-weighted selection over decades; interactive alignment in real-time conversation; first language acquisition in childhood. The dashed arrow marks feedback between learnability and stability.</figcaption>
 </figure>
 
-The architecture reveals why deitality is stable yet variable. Grammaticalization creates the initial property bundle through demonstrative-to-article pathways. Acquisition filters this input, preserving only learnable patterns. Interactive alignment maintains the cluster in real-time conversational practice. Prestige selection shapes which variants survive socially. Iterated transmission eliminates patterns that can’t survive the multi-generational bottleneck.
-
-The feedback loop at the bottom of Figure <a href="#fig:deital-homeostasis" data-reference-type="ref" data-reference="fig:deital-homeostasis">1</a> is critical. Once the cluster stabilizes, it becomes the target of acquisition: children learn the stable pattern, which reinforces its stability in the next generation. This positive feedback explains why the deital cluster persists despite constant pressure from analogy, frequency effects, and contact-induced change.
+The feedback arrow isn’t an explanation by itself. Stable things get learned, and learned things can stay stable. The deital profile needs a more specific persistence story: high token frequency in the article/demonstrative family plus hard selectional anchors such as partitive *Y*-licensing make it a better candidate for reproduction than lower-frequency or socially fragile patterns.
 
 ## Why deitality and definiteness correlate imperfectly
 
-Grammaticalization and acquisition explain why deitality exists as a stable morphosyntactic cluster. But why does it correlate with definiteness? And why isn’t the correlation perfect?
+Grammaticalization and acquisition explain why deitality exists as a stable morphosyntactic profile. But why does it correlate with definiteness, and why isn’t the correlation perfect? The correlation arises because the deictic sources of definite markers were themselves sensitive to information structure. Demonstratives mark salient, often identifiable referents. As they grammaticalize, this functional tendency becomes conventionalized. Speakers and hearers coordinate on using *the* for identifiable referents because that’s what the form conventionally signals.
 
-The correlation arises because the deictic sources of articles were themselves sensitive to information structure. Demonstratives mark salient, often identifiable referents. As they grammaticalize, this functional tendency becomes conventionalized. Speakers and hearers coordinate on using the article for identifiable referents because that’s what the form conventionally signals.
+This coordination is maintained by communicative efficiency. Speakers remember frequent pairings, *the* plus unique/familiar referents, and hearers expect them. When speakers violate expectations, hearers accommodate by adjusting their domain of evaluation, coercing to specific readings, or reanalyzing the structure. This creates a stable equilibrium where form and function align statistically.
 
-This coordination is maintained by communicative efficiency. Speakers remember high-frequency pairings – *the* plus unique/familiar referents – and hearers expect them. When speakers violate expectations, hearers accommodate by adjusting their domain of evaluation, coercing to specific readings, or reanalyzing the structure. This creates a stable equilibrium where form and function align statistically.
+But the correlation remains imperfect because grammaticalization preserves formal residue. Weak definites like *take the bus* show the pattern especially clearly: a conventionalized *the*-frame can persist while ordinary token-level definiteness weakens. Section <a href="#sec:cases" data-reference-type="ref" data-reference="sec:cases">6</a> develops the case in detail.
 
-But the correlation isn’t perfect because grammaticalization preserves formal residue. Weak definites like *take the bus* reflect conventionalized frames where *the* appeared because of institutional or habitual association, and that morphosyntactic pattern persisted even as the semantic contribution remained indefinite. The distributional residue – appears with *the*, resists modification, allows only certain verb-noun pairs – is the grammaticalized fossil of a construction, not of a semantic feature.
+The mismatch also reflects constructional autonomy. Once a morphosyntactic pattern is established, it can be recruited for new functions (Francis and Michaelis 2003). *The poor* and *the unknown* as fused modifier–head NPs use *the* to signal definiteness at the constructional level, not the lexical level. The frame itself becomes meaningful, semi-independent of the core function of *the*.
 
-The mismatch also reflects constructional autonomy. Once a morphosyntactic pattern is established, it can be recruited for new functions. *The poor*, *the unknown* as fused modifier–head NPs use *the* to signal definiteness at the constructional level, not the lexical level. The frame itself becomes meaningful, semi-independent of the article’s core function.
+## Predictions from the profile
 
-## Projectability tests: Evidence that deitality is a natural kind
+A category earns its place by supporting inductive and explanatory practice. Deitality earns that place when partial evidence about its profile lets us predict untested behaviour. The predictions below make that payoff explicit: they target prosody, specificity, dialectal interpretation, and acquisition.
 
-A natural kind earns its place by supporting inductive and explanatory practice. Deitality earns that place when partial evidence about its profile lets us predict untested behaviour. Recognizing a deital profile should tell us something new about constructions, dialects, and learning paths.
+The predictions have different roles. Prosody and specificity are manipulation tests: they ask which diagnostics split when information structure or discourse anchoring is changed. The dialectal prediction asks where pathway-conditioned variation should appear. The acquisition prediction asks whether children learn hard selectional restrictions earlier than softer discourse-pragmatic ones. The force is cumulative. The prosody split is a within-account falsifier, but it doesn’t by itself defeat every semantic-bundle rival; §<a href="#sec:objections" data-reference-type="ref" data-reference="sec:objections">7</a> returns to that point and adds acquisition and weak-definite existential tests.
 
-### Test 1: Residual behaviour under semantic mismatch
+## Prosodic manipulation dissociation
 
-Constructional mismatches provide the sharpest test. Once a construction recruits deital morphology while relaxing canonical definiteness, the HPC account predicts selective residue rather than global weakening. Narrative *this* is the clearest case. If *There was this guy at the door* reflects constructional recruitment of deital form, we should expect the construction to license the presentational frame while preserving other deital restrictions:
+Prosody should rescue existential pivots, but not partitive *Y* complements. That contrast isn’t inferred from prosody alone. Partitive *Y*-licensing is an internal complement relation in an *X of Y* construction; it appears in written examples and embedded clauses, where intonation supplies no rescue path. Existential *there*, by contrast, is separately sensitive to presentation, list readings, recurrence readings, and locative/expletive ambiguity. Prosody can rescue what discourse mediates; prosody can’t rescue what selection demands.
 
-- *There was this guy at the door...* remains acceptable because the construction packages narrative presentation with deital morphology.
+The relevant test cases are: *<sup>\*</sup>There’s the key on the table.* (neutral existential reading: unacceptable) *Well, there’s THE KEY, the wallet...* (list prosody: acceptable) *<sup>\*</sup>Several of some students passed.* (neutral prosody: unacceptable) *<sup>\*</sup>SEVERAL of SOME students passed.* (contrastive prosody: still unacceptable)
 
-- <sup>\*</sup>*two of this guy* and <sup>\*</sup>*two of these guys* remain bad on the narrative reading because partitive *Y*-selection is still deital.
+If contrastive prosody rescues partitive *Y* complements to the same degree it rescues existential pivots, the projectibility-first account fails at this point. If the split holds, it supports the proposed causal contrast between discourse-pragmatic and syntactic constraints. It doesn’t by itself settle the broader rivalry with semantic-bundle accounts; that stronger discriminating work comes from the cumulative pattern.
 
-- <sup>\*</sup>*I met this guy and you met one too* remains bad because bare *one*-substitution still tracks the deital profile.
+## Specificity forcing partial amelioration
 
-That is genuine projectibility. A semantics-first analysis identifies discourse-new reference. The HPC analysis goes further and predicts which parts of the morphosyntactic profile should survive that semantic mismatch.
+Forcing specificity should improve indefinites in identificational environments without fully licensing them. A semantically specific indefinite keeps its non-deital morphosyntactic profile. The improvement should be measurable but fall short of canonical deital hosts because the morphosyntactic mismatch persists.
 
-The same logic applies to weak definites and generic definites. Once they are identified as semantically unusual but morphosyntactically deital, we should expect residual deital behaviour in diagnostics tied to constructional or selectional structure, not a free-for-all of indefinite behaviour. The category pays off because it supports those selective expectations.
+The relevant test cases are: *<sup>??</sup>As for a report, I filed it.* *<sup>?</sup>As for a certain report, I filed it.* (improved but still marked) *As for the<span class="upright"> / </span>this report, I filed it.* (fully acceptable baseline)
 
-### Test 2: Pathway-conditioned distribution
+Acceptability ratings should show this ordering: baseline indefinite \< specific indefinite \< deital baseline. If specific indefinites reach deital baseline acceptability, the morphosyntactic/semantic distinction collapses. If they show no improvement, semantic contribution is irrelevant to hosting. Partial improvement confirms that both morphosyntactic form and semantic contribution matter.
 
-If deitality is maintained by the mechanisms in §<a href="#subsec:five-mechanisms" data-reference-type="ref" data-reference="subsec:five-mechanisms">5.1</a>, then grammaticalization pathway and maintenance regime should shape where the profile holds together and where it loosens. The prediction is conditional.
+## Dialectal frame interpretation
 
-**Convergence prediction**: properties filtered by acquisition and iterated transmission should travel together more reliably than idiomatic frames tied to prestige and local conventionalization.
+The broad dialectal prediction is layered. The clean discriminator is specified in advance: a variety that allowed weak indefinites as ordinary partitive *Y* complements would show a deeper grammar difference than a variety that differs only in institutional frames such as *in hospital*. Other variation may affect article realization or presence, reinforced demonstratives, and demonstrative paradigms (Jones 2002; Rupp and Tagliamonte 2019a, 2019b; Hazen et al. 2011). These are hypotheses about where to look, not an inference from stability to depth and back again.
 
-**Divergence prediction**: institutional frames, register-sensitive uses, and socially marked constructions should vary more than core selectional restrictions.
+The narrower standard-variety test concerns institutional frames. Dialectal variation in those frames should preserve the institutional/activity reading in the licensed frame, while demonstratives and genitive NPs should tend to force ordinary referential readings. The relevant test isn’t whether demonstratives are accepted. Demonstratives are accepted: *this hospital* and *that hospital* are ordinary referential NPs. The question is whether the weak-definite or institutional reading survives. If the standard-variety difference is tied to conventionalized frames rather than free alternation in determinative syntax, replacing the frame’s licensed form with a demonstrative should usually shift the interpretation from ‘receiving institutional care’ to ‘located in a particular hospital’.
 
-English already points in this direction. Dialects differ over weak definite frames such as *in hospital* versus *in the hospital*, but they do not vary freely over core determiner syntax. The HPC account predicts exactly that shape of variation because socially maintained frames are looser than selectional constraints reproduced in acquisition.
+The relevant test cases are: British English: *She’s in hospital.* (institutional/activity reading) American English: *She’s in the hospital.* (institutional/activity reading available) Both dialects: *She’s in this hospital.* (acceptable, but preferentially ordinary locative/referential)
 
-Cross-linguistically, the stronger claim is also conditional: when article systems arise from demonstratives, they should be better candidates for deital-style clustering than systems with a different diachronic source or no article system at all. It predicts family resemblances in which some properties co-travel and others separate under pressure.
+If demonstratives preserve the institutional/activity reading just as well as the dialectally licensed weak-definite frame, then the account has overstated the special status of the frame. If they instead force a referential-location reading while the licensed frame preserves the institutional reading, the profile supports the intended inference: dialects vary over frames, not freely over deital syntax.
 
-### Test 3: Acquisitional trajectory prediction
+## Acquisitional asymmetries
 
-If the mechanisms in §<a href="#subsec:five-mechanisms" data-reference-type="ref" data-reference="subsec:five-mechanisms">5.1</a> are correct, child language acquisition should show specific developmental asymmetries. This is another projectibility test: the category should let us infer a learning path from the internal organization of the cluster.
+Children should show developmental asymmetries reflecting the sources and stabilizers at work. If the profile is maintained by acquisition, its internal structure should be visible in the learning path. Children should master hard syntactic constraints early because these lack prosodic repair paths. Softer discourse-pragmatic constraints should be mastered later.
 
-**Prediction 3a**: Children should master distributional restrictions (where *the* can appear syntactically) before semantic restrictions (when to use it pragmatically).
+The relevant test cases are: Children should correctly reject ungrammatical partitives like *\*several of some students* earlier than they master adult-like neutral-prosody restrictions on existential pivots. Children may over-accept deitals in existential *there* contexts, especially with list or recurrence intonation, before mastering the adult-like neutral-prosody constraint (a softer, discourse-pragmatic rule).
 
-**Prediction 3b**: Children should overgeneralize *the* to semantically inappropriate contexts while respecting morphosyntactic constraints.
+No particular age estimate is offered. The prediction is an ordering: partitive *Y* violations should be rejected before existential violations under neutral prosody are handled in fully adult-like ways. The gap reflects the availability of prosodic rescue for existentials but not partitives. The experiment is demanding because partitive syntax is late enough to require targeted testing, and partitive uses are sparse in spontaneous child and child-directed corpora (Stickney 2007; Bloom and Wynn 1997). The claim needs targeted comprehension work rather than casual production counts.
 
-**Prediction 3c**: Children should show earlier mastery of syntactic constraints (partitive *Y*-selectivity) than discourse-pragmatic ones (existential pivot resistance under neutral prosody).
+## Distinguishing the projectibility-first account from alternatives
 
-Existing acquisition data support 3a and 3b (Maratsos 1976; Rozendaal and Baker 2008). Prediction 3c remains to be tested systematically, but the logic is straightforward: syntactic selectional restrictions don’t yield to prosodic manipulation (see §<a href="#sec:prosody" data-reference-type="ref" data-reference="sec:prosody">5.5.1</a>), so children can’t use prosody as a repair strategy. Discourse-pragmatic constraints do yield to prosody, giving children a fallback. The predicted asymmetry follows from the different causal bases of the constraints.
+These targeted predictions also separate the account from nearby alternatives. Milsark’s strong/weak account captures the existential contrast, but doesn’t predict the split among partitive *Y*-licensing, hosting, and narrative *this*. A uniqueness/familiarity account expects prosodic rescue to track referent identifiability more evenly across constructions, which leaves it with trouble explaining why list prosody improves *there* pivots but not non-domain-establishing partitive *Y* complements. A specificity or D-linking account predicts improvement under specificity forcing, but doesn’t predict the persistent gap between specific indefinites and deital baselines in identificational hosting.
 
-## Falsifiable predictions about synchronic grammar
+The more local alternatives miss different projections. A frame-by-frame account can describe each local frame, but it doesn’t by itself predict projection across diagnostics: knowing that an item is deital should support expectations about partitives, hosting, prosody, and mismatch residue. A purely diachronic account explains why the family exists historically, but doesn’t explain why the diagnostics are synchronically ranked or why partitive *Y*-licensing resists prosodic rescue more strongly than existential pivots. A simple feature account predicts all-or-nothing specificity effects rather than partial amelioration. An arbitrary dialect account predicts local frame differences without systematic preservation or loss of institutional readings.
 
-The homeostatic mechanisms generate specific predictions about how the synchronic grammar behaves under manipulation. These predictions are the analytical payoff of the category. They distinguish the HPC account from alternatives by targeting the interaction between morphosyntax, prosody, semantics, and development. Each prediction is falsifiable and testable.
+The projectibility-first account does more than accommodate existing data; it generates empirical commitments about where diagnostics should split and where they should continue to travel together.
 
-### Prediction 1: Prosodic manipulation dissociation
+# Case studies: Weak definites, generic definites, and narrative *this*
 
-**Claim**: Prosody should selectively rescue existential pivots but not partitive complements.
-
-**Logic**: Prosody can rescue what discourse creates; prosody cannot rescue what syntax demands. Existential pivots yield to marked intonation because their constraint is discourse-pragmatic – neutral prosody enforces information-structural requirements, but contrastive or list prosody can override those requirements. Partitive complements resist all prosodic manipulation because their constraint is grammatical – the construction selects for deital complements as a syntactic requirement, and prosody doesn’t alter syntactic categories.
-
-**Test cases**: *<sup>\*</sup>There is the key on the table.* (neutral prosody: unacceptable) *Well, there’s THE KEY, the wallet...* (list prosody: acceptable) *<sup>\*</sup>Two of some students passed.* (neutral prosody: unacceptable) *<sup>\*</sup>TWO of SOME students passed.* (contrastive prosody: still unacceptable)
-
-**Falsification condition**: If contrastive prosody rescues partitive complements to the same degree it rescues existential pivots, the mechanism-based explanation fails. The dissociation is predicted by the different causal bases (discourse-pragmatic vs. syntactic) of the two constraints.
-
-### Prediction 2: Specificity forcing partial amelioration
-
-**Claim**: Forcing specificity should improve indefinites in identificational environments without fully licensing them.
-
-**Logic**: Making an indefinite semantically specific does not change its non-deital morphosyntactic profile. The improvement should be measurable but fall short of canonical deital hosts because the morphosyntactic mismatch persists.
-
-**Test cases**: *<sup>??</sup>A book, which I bought yesterday, is excellent.* *<sup>?</sup>A certain book, which I bought yesterday, is excellent.* (improved but still marked) *The<span class="upright"> / </span>this book, which I bought yesterday, is excellent.* (fully acceptable baseline)
-
-**Measurement**: Acceptability ratings should show: baseline indefinite \< specific indefinite \< deital determiner. If specific indefinites reach deital baseline acceptability, the morphosyntactic/semantic distinction collapses. If they show no improvement, semantic contribution is irrelevant to hosting. Partial improvement confirms that both morphosyntactic form and semantic contribution matter.
-
-### Prediction 3: Dialectal frame preservation
-
-**Claim**: Dialectal variation that drops *the* in institutional frames should preserve deital patterning when definiteness is supplied by other means.
-
-**Logic**: This tests whether the constructional frame itself is a grammaticalized fossil that selects for deitality, regardless of how deitality is realized. If the frame itself encodes a deital requirement, then supplying deitality through demonstratives or genitives should satisfy that requirement even in dialects where the article is optional.
-
-**Test cases**: British English: *She is in hospital.* (frame allows bare noun) American English: *She is in the hospital.* (frame requires deital article) Prediction: Both dialects accept *She is in this hospital*, patterning with the deital version because the frame’s underlying requirement is met.
-
-**Falsification condition**: If British speakers reject *this hospital* in the institutional frame, the frame doesn’t select for deitality – it simply permits bare nouns. If both dialects accept *this hospital*, the frame’s deital requirement is confirmed.
-
-### Prediction 4: Acquisitional asymmetries
-
-**Claim**: Children should show developmental asymmetries reflecting the mechanisms at work.
-
-**Logic**: If the cluster is maintained by acquisition, its internal structure should be visible in the learning path. Children should master the harder, syntactic constraints earlier than the softer, discourse-pragmatic ones because syntactic constraints lack prosodic repair paths.
-
-**Test cases**: Children should correctly reject ungrammatical partitives like *\*two of some students* early (a hard syntactic rule). Children may over-accept deitals in existential *there* contexts, especially with list or recurrence intonation, before mastering the adult-like neutral-prosody constraint (a softer, discourse-pragmatic rule).
-
-**Measurement**: Longitudinal acquisition studies should show partitive violations rejected earlier (by age X) than existential violations under neutral prosody (by age Y \> X). The gap reflects the availability of prosodic rescue for existentials but not partitives.
-
-## Distinguishing the HPC account from alternatives
-
-These four predictions also separate the HPC account from nearby alternatives.
-
-**A semantic account** expects prosodic rescue to track referent identifiability more evenly across constructions.
-
-**A purely distributional account** predicts flatter acquisition profiles because all restrictions are learned in the same format.
-
-**A simple feature account** predicts all-or-nothing specificity effects rather than partial amelioration.
-
-**An arbitrary dialect account** predicts local frame differences without deeper preservation of the cluster.
-
-The predictions target the interaction between morphosyntax, prosody, semantics, and development – exactly what the diachronic mechanisms predict. They’re testable through experimental work (acceptability ratings, prosodic manipulation), corpus studies (dialectal patterns), and acquisition research (developmental timelines). The HPC framework doesn’t just accommodate existing data; it generates novel empirical commitments.
-
-# Case studies: Weak and generic definites
-
-The explanatory power of the HPC framework is best demonstrated by resolving long-standing puzzles. This section uses weak definites, generic definites, and narrative *this* as stress tests for projectibility. Once a construction is identified as deital, the analysis should let us predict which morphosyntactic residue survives when canonical definiteness drops out (Francis and Michaelis 2003). These constructions show the distributional core of the deital cluster (the four diagnostic properties from §<a href="#sec:diagnostics" data-reference-type="ref" data-reference="sec:diagnostics">4</a>) but lack the typical definiteness-marking function. They’re predictable outcomes when overlapping clusters are maintained by independent mechanisms.
+The explanatory power of the account is best demonstrated by long-standing puzzles. This section uses weak definites, generic definites, and narrative *this* as stress tests for projectibility. Once a construction is identified as deital, the analysis should let us predict which morphosyntactic residue survives when canonical definiteness drops out (Francis and Michaelis 2003). These constructions don’t show a perfectly clean syntax/semantics split. They show something more useful: the structural and semantic profiles are statistically coupled, partly independent, and leaky in predictable places.
 
 ## Weak definites
 
-So-called weak definite constructions like *take the bus*, *listen to the radio*, and *go to the hospital* have troubled semantic theories for decades (Carlson and Sussman 2005; Aguilar-Guevara and Zwarts 2010). The puzzle is how *the* appears without unique or familiar referents. Semantic theories invoke incorporation, kind reference, or minimal situations to preserve the uniqueness analysis. But these mechanisms struggle to explain the full pattern: extreme sensitivity to modification, strict lexical restrictions, and enriched meanings (*go to the hospital* = ‘seek medical treatment’).
+So-called weak definite constructions like *take the bus*, *listen to the radio*, and *go to the hospital* have troubled semantic theories for decades (Carlson and Sussman 2005; Aguilar-Guevara and Zwarts 2010). The puzzle is how *the* appears without unique or familiar referents. Some semantic analyses invoke incorporation, kind reference, or minimal situations to preserve or refine a uniqueness-based account. Those mechanisms are important, but on their own they don’t explain the full pattern: extreme sensitivity to modification, strict lexical restrictions, and enriched meanings (*go to the hospital* = ‘seek medical treatment’).
 
-The HPC framework dissolves the puzzle. Weak definites show the distributional restrictions that form the core of the deital cluster – they pattern with the and demonstratives on the four diagnostics. But they lack the definiteness-marking function that typically accompanies those restrictions. They’re pragmatically conventional. The dissociation is possible because distributional restrictions and definiteness-marking are maintained by partially independent mechanisms.
+The projectibility-first account reframes the puzzle. Weak definites use deital morphology and inherit some distributional residue from ordinary *the*-marked NPs, but they don’t uniformly satisfy every diagnostic. That mixed behaviour is central. They lack the definiteness-marking function that typically accompanies *the*, but they behave unlike ordinary indefinites: they’re pragmatically conventionalized frames in which deital form and token-level definiteness semantics have partly separated.
 
-But they don’t contribute token-level uniqueness or familiarity. They’re simply deital but indefinite. *Take the bus* doesn’t presuppose a unique, identifiable bus; it evokes a conventional activity type. The morphosyntactic frame – verb + *the* + noun in this construction – is stable and deital, but the semantic contribution is non-unique reference. This is the form-meaning split made maximally explicit.
+They don’t contribute token-level uniqueness or familiarity. *Take the bus* doesn’t presuppose a unique, identifiable bus; it calls up a conventional activity type. The morphosyntactic frame (verb + *the* + noun in this construction) is stable and deital in form, but the semantic contribution is non-unique reference. This form–meaning split has a permeable boundary between grammar and interpretation.
 
-The frame does encode stereotypicality and conventionalization, which creates a weak form of identifiability: hearers recognize the activity type even when the token referent is unspecified. But this falls short of the definiteness cluster’s core properties – token uniqueness and anaphoric recoverability. Weak definites occupy the gap: morphosyntactically deital, semantically indefinite, pragmatically conventional.
+The frame does encode stereotypicality and conventionalization, which creates a weak form of identifiability: hearers recognize the activity type even when the token referent is unspecified. But this falls short of the definiteness profile’s core properties (token uniqueness and anaphoric recoverability). Weak definites occupy the gap: morphosyntactically deital, semantically indefinite, pragmatically conventional.
 
-From the HPC perspective, this is expected. Grammaticalization preserves morphosyntactic frames while semantic function shifts. Weak definites represent conventionalized constructions where *the* appeared because of institutional or habitual association, and that morphosyntactic pattern persisted even as the semantic contribution remained indefinite. The distributional residue – appears with *the*, resists modification, allows only certain verb-noun pairs – is the grammaticalized fossil of a construction, not of a semantic feature.
+The pattern can be described in terms of grammaticalization and constructional entrenchment, but that description has limits. Weak definites can be analysed as entrenched constructional frames in which *the* persists because of institutional or habitual association while token-level definiteness is weakened or absent. Here the distributional residue (appears with *the*, resists modification, allows only certain verb–noun pairs) is what remains of a construction after its ordinary token-level definiteness has weakened. This doesn’t explain the full lexical inventory: why *take the bus* and *listen to the radio*, but not every institutionally associated noun. The account predicts selective residue once a weak-definite frame is identified; it doesn’t derive every frame that English happens to contain.
 
-Weak definites don’t pattern uniformly across all diagnostics. In partitive constructions, *two of the bus* is odd on the weak reading. This follows from the mechanism ranking: partitive *Y*-selectivity is syntactic and doesn’t yield to constructional pressure. The weak reading is available only when the frame itself licenses it. Partitives select for referential definiteness; weak definites provide institutional definiteness. The mismatch blocks the construction.
+Weak definites don’t pattern uniformly across all diagnostics. In partitive constructions, *two of the buses* is available only on an ordinary referential reading; *two of the bus* is odd on the weak institutional reading. This follows from the diagnostic ranking: partitive *Y*-licensing is the hardest syntactic test and doesn’t simply yield to constructional pressure. The weak reading is available only when the frame itself licenses it. Partitives require a referentially established domain; weak definites provide institutional or activity-type identifiability. The mismatch blocks the weak reading.
 
 ## Generic definites
 
 So-called generic definites like *The lion is noble* or *The computer changed the world* pose a similar challenge. The definite singular is used for kind reference, not individual reference (Carlson 1977; Krifka 2004). Uniqueness holds at the kind level, but the standard application of definiteness theory targets individuals.
 
-Again, the HPC framework provides clarity. Generic definites are deital: they use *the*, resist neutral existential contexts, and pattern with other deital forms distributionally. But their semantics is kind-denoting, not individual-referring. They’re orthogonal to the definiteness cluster rather than straightforwardly definite or indefinite. The morphosyntactic category (deitality) and the semantic category (definiteness) come apart.
+Again, the projectibility-first account provides clarity, though generic definites are a compatibility case rather than the strongest independent argument. A semantic account can treat *the lion* as unique or maximal at the kind level. The deitality claim is different: whatever the correct kind semantics, the NP still uses the deital morphosyntactic profile. Its behaviour belongs with the residue question: which distributional properties remain when individual-level definiteness isn’t at issue?
 
 English allows multiple strategies for genericity: bare plurals (*Lions are noble*), indefinite singulars (*A lion is noble*), and definite singulars (*The lion is noble*). The choice between them is conditioned by subtle semantic and pragmatic factors. Definite singulars are preferred for well-established kinds, particularly species or inventions conceived as singular abstract individuals.
 
-What the definite singular provides is the morphosyntactic profile of deitality. The semantics is kind reference, which operates at a different level from the definiteness cluster entirely. Individual-level uniqueness and identifiability don’t apply; kind-level properties do. The syntax generates a deital phrase; semantics assigns it a generic interpretation that sidesteps the definiteness question.
+What the definite singular provides is the morphosyntactic profile of deitality. The semantics is kind reference, which operates at a different level from individual reference. Individual-level uniqueness and identifiability don’t apply in the usual way; kind-level properties do. The syntax generates a deital phrase; semantics assigns it a generic interpretation. This supports the distinction, but it doesn’t by itself force the distinction against every kind-based semantic account.
 
-This explains the distributional profile. Generic definites resist existential *there* because the construction is geared to episodic, stage-level predication. Kind-level subjects are semantically incompatible. The resistance isn’t about definiteness per se; it’s about the interaction between deital morphosyntax, generic semantics, and presentational information structure.
+This point shouldn’t be treated as independent deital residue. Generic definites resist existential *there* because the construction is geared to episodic, stage-level predication, and kind-level subjects are semantically incompatible. Bare-plural generics show the same pressure. The deitality claim is narrower: a definite singular generic retains deital morphosyntax while its semantic interpretation operates at the kind level.
 
 ## Indefinite *this* as constructional recruitment
 
-Colloquial English productively uses *this* with discourse-new referents in presentational and narrative contexts: *There was this guy at the door...* *So I’m walking home when this dog starts following me...* This pattern is high-frequency in spoken registers and systematic across speakers, making it impossible to dismiss as performance error or dialectal idiosyncrasy. Yet it appears to violate the deitality-definiteness correlation: demonstrative morphology appears without discourse-old or unique referents.
+Colloquial English productively uses *this* with discourse-new referents in presentational and narrative contexts (Prince 1981; Gernsbacher and Shroyer 1989): *There was this guy at the door...* *So I’m walking home when this dog starts following me...* This pattern is frequent in speech and systematic across speakers, so it isn’t performance error or dialectal idiosyncrasy. But it strains the alignment between deitality and definiteness: demonstrative morphology appears without discourse-old or unique referents.
 
-The HPC framework explains this as *constructional recruitment*. Certain narrative-presentational constructions have grammaticalized to require deital morphology not for definiteness but for *specificity marking* and *subjective immediacy*. The construction selects deital form while supplying indefinite semantics – exactly the kind of form-meaning mismatch the framework predicts when morphosyntactic frames achieve constructional autonomy (§<a href="#subsec:autonomy" data-reference-type="ref" data-reference="subsec:autonomy">5.3</a>).
-
-### Diagnostic predictions
+The account explains this as constructional recruitment. Certain narrative-presentation constructions recruit deital morphology for specificity, subjective immediacy, and cataphoric accessibility rather than ordinary definiteness. Demonstrative morphology is a motivated recruit here, not an arbitrary one: demonstratives already direct attention and encode speaker-anchored salience, which is just the material narrative presentation needs for vividness and expected continuation. The construction selects a demonstrative-derived form while introducing a discourse-new referent, exactly the kind of form–meaning mismatch the framework predicts when morphosyntactic frames achieve constructional autonomy (§<a href="#subsec:autonomy" data-reference-type="ref" data-reference="subsec:autonomy">5.3</a>).
 
 If narrative *this* reflects constructional recruitment rather than a separate lexical item, we predict asymmetric diagnostic behaviour:
 
-- **Existential *there***: The narrative-presentational construction *licenses* the combination directly. *There was this guy* is acceptable not because *this* has lost its deital profile but because the construction itself packages definiteness-neutral material with narrative prosody. Under neutral prosody without the constructional frame, deital *this* should still resist: <sup>?</sup>*There is this book on the table* (neutral assertion) versus *There was THIS book I found...* (narrative frame).
+- Existential *there*. The narrative construction licenses the combination directly. *There was this guy* is acceptable because the construction packages discourse-new reference with narrative prosody and cataphoric accessibility. The contrast with *There was a guy at the door* isn’t basic grammaticality; the latter is an ordinary narrative opening. The predicted contrast is discourse effect: *this* should make the referent more vivid, noteworthy, and likely to be continued.
 
-- **Partitive *Y***: The construction doesn’t alter *this*’s syntactic selectional properties. Partitive *of* selects deital complements; narrative framing is irrelevant. Prediction: <sup>\*</sup>*two of this guy* (sg.) and <sup>\*</sup>*two of these guys* (pl., narrative sense) both fail, showing the morphosyntactic restriction persists.
+- Partitive *Y*. The construction doesn’t alter partitive *Y*-licensing. A singular narrative *this guy* can’t supply a plural domain for *two of*; plural demonstrative forms such as *these guys* can serve as partitive complements only when they establish a referential group. Narrative framing doesn’t by itself create that domain.
 
-- **Identificational hosting**: Narrative *this* should show intermediate acceptability – better than bare *a* (because demonstrative morphology provides the salience hosting requires) but worse than canonical deital uses (because the referent lacks discourse history). This matches the specificity-forcing prediction in §<a href="#subsubsec:specific" data-reference-type="ref" data-reference="subsubsec:specific">5.5.2</a>.
+- Identificational hosting. Narrative *this* should show intermediate acceptability, better than bare *a* (because demonstrative morphology provides the salience hosting requires) but worse than canonical deital uses (because the referent lacks discourse history). This matches the specificity-forcing prediction in §<a href="#sec:specific" data-reference-type="ref" data-reference="sec:specific">5.6</a>.
 
-### Why the HPC framework predicts this
+Constructional autonomy (§<a href="#subsec:autonomy" data-reference-type="ref" data-reference="subsec:autonomy">5.3</a>) explains how established morphosyntactic frames can be recruited for new functions, but it doesn’t license every mismatch equally. English narrative presentation recruits demonstrative morphology for specificity, immediacy, and expected continuation while introducing a discourse-new referent. That recruitment is plausible because demonstratives already package attention direction.
 
-Constructional autonomy (§<a href="#subsec:autonomy" data-reference-type="ref" data-reference="subsec:autonomy">5.3</a>) explains how morphosyntactic frames, once established, can be recruited for new functions. The narrative-presentational construction in English has grammaticalized to *select* demonstrative morphology for marking specificity and immediacy while *supplying* indefinite semantics. This is not polysemy of the demonstrative; it’s a construction that requires deital form while providing non-deital interpretation.
+The diagnostics needn’t move together: the construction licenses the *there* + demonstrative combination and improves discourse accessibility, but it doesn’t automatically alter partitive domain requirements or the narrow *one*-substitution residue. This selective pattern confirms that deitality is a profile of partly independent distributional requirements, which is why the diagnostics can move separately.
 
-Critically, two diagnostics remain unaffected: *this* in narrative contexts still resists partitive violations (<sup>\*</sup>*two of these guys* on the narrative reading) and still blocks bare *one*-substitution (<sup>\*</sup>*I met this guy and you met one too*). The construction licenses the *there* + demonstrative combination and improves identificational hosting, but it doesn’t alter the demonstrative’s core morphosyntactic selectional properties. This selective pattern confirms that deitality is a cluster of independently maintained distributional requirements, not a unitary feature that flips wholesale.
+The sources of stability for narrative *this* remain open. Three hypotheses would make the constructional account more specific:
 
-This stability arises from three mechanisms:
+- Acquisition packages the narrative frame with demonstrative morphology, so children don’t have to decompose it into “indefinite this.”
 
-- **Acquisition**: Children learn the construction as a package – narrative frame plus demonstrative morphology. They don’t decompose it into “indefinite this.”
+- Register and genre conventionalize the pattern in oral narrative, maintaining it across generations despite prescriptive pressure.
 
-- **Prestige**: Oral narrative genres conventionalize the pattern, maintaining it across generations despite prescriptive pressure.
+- Processing supports the construction because its prosodic packaging (narrative contour) signals the non-canonical semantics.
 
-- **Processing**: The construction’s prosodic packaging (narrative contour) signals the non-canonical semantics, preventing garden-pathing.
+The constructional account makes testable predictions that distinguish it from a polysemy analysis. Remove the narrative frame, and the discourse effect should weaken: *This guy walked in* can be acceptable as a colloquial specific indefinite, but it should be less strongly cataphoric than *There was this guy who walked in* in a story-opening frame. The construction should also differentiate determinatives by discourse effect rather than by simple grammaticality. *There was a guy at the door...* should be acceptable, but *There was this guy at the door...* should increase vividness, noteworthiness, and expected continuation of the referent. Finally, acquisition should show frame-dependence: children should initially restrict narrative *this* to learned story-opening and presentational constructions before generalizing. They shouldn’t show across-the-board “indefinite this” independent of constructional context.
 
-### Falsification
-
-The constructional account makes testable predictions that distinguish it from a polysemy analysis:
-
-**Prediction 1**: Remove the narrative frame, and deital restrictions return. *This guy walked in* (neutral description) should be degraded compared to *There was this guy who walked in* (narrative frame).
-
-**Prediction 2**: The construction should block other determiners. <sup>\*</sup>*There was a guy at the door...* (with narrative prosody but indefinite article) should be worse than *There was this guy...*, showing the construction selects demonstrative morphology specifically.
-
-**Prediction 3**: Acquisition should show frame-dependence. Children should initially restrict narrative *this* to the learned constructions (story-openings, presentationals) before generalizing. They shouldn’t show across-the-board “indefinite this” independent of constructional context.
-
-If these predictions fail – if *this* behaves non-deitally outside specific constructions, if other determiners work equally well in narrative frames, or if children use indefinite *this* freely without constructional anchoring – the constructional account is falsified and a polysemy analysis becomes necessary.
+If these predictions fail (if *this* behaves exactly like *a* in narrative frames, if it shows no special cataphoric effect, or if children use indefinite *this* freely without constructional anchoring), the constructional account is falsified and a polysemy analysis becomes necessary.
 
 # Edge cases and objections
 
 ## Proper names
 
-Proper names are semantically definite – they refer to unique, identifiable individuals – yet they typically lack deital morphology in English. This seems to challenge the correlation between deitality and definiteness.
+Proper names are semantically definite (they refer to unique, identifiable individuals), but they typically lack deital morphology in English (Lyons 1999). The reason isn’t that singular names are exempt from deital marking. It’s that bare singular names sit outside the relevant part of the determiner system. In terms, *John* is a proper noun functioning as a full NP. It secures reference lexically, so the NP doesn’t need a determiner slot whose filling could carry a deital signal.
 
-But the HPC framework predicts exactly this pattern. Names show properties from the definiteness cluster (identifiability, uniqueness, anaphoric recoverability) without the typical morphological marking. They lack the distributional restrictions that form the core of the deital cluster – they don’t resist existential pivots, don’t license partitive complements in the same way, and pattern differently across the diagnostics. This dissociation is possible because the two clusters, while overlapping substantially, are maintained by distinct mechanisms.
+The demonstrative-to-article path supplies the background for this prediction (Greenberg 1978; Diessel 1999). Demonstrative-derived markers should spread most naturally where reference has to be secured compositionally: ordinary definite descriptions, anaphoric NPs, and related determiner-function constructions. Bare singular names are where overt identifiability marking does the least work. Modern Greek commonly uses an overt definite marker with personal names in ordinary argument positions, for example *o Stavros* ‘the Stavros’, though its use is conditioned by case, construction, and register (Holton et al. 2012). English bare *John* and Greek *o Stavros* are positions in a diachronic and constructional space, not counterexamples to the deitality–definiteness correlation.
 
-Languages differ in whether they require overt deital marking on inherently definite referents. English omits articles on singular names, providing a non-deital marker only on exceptional indefinite uses: *a Susan arrived* = ‘some person named Susan’. Greek requires deital marking on all definite NPs, names included: *o Stavros* ‘the Stavros’. Both treat names as semantically definite; they differ in morphosyntactic realization.
+Within English, deital marking reasserts itself exactly where names enter ordinary NP determination. Pluralization forces property denotation: *Smiths* denotes something like “members of the Smith family”, not a single rigid individual. Once the name has been coerced into a plural nominal, the productive bare-plural pattern would suggest an indefinite or generic reading. The deital determiner marks the intended identifiable plural domain: *the Smiths*, *the Johnsons*. This isn’t an ad hoc override. It’s ordinary deital determination after coercion into a construction where determination has work to do.
 
-English reveals the underlying logic when names enter constructions with indefinite defaults. Bare plurals are indefinite: *dogs*, *books*, *students*. When a family name needs plural form, the constructional signal (bare plural = indefinite) clashes with the semantic requirement (family name = definite). English resolves this by adding deital marking: *the Smiths*, *the Johnsons*. The article isn’t redundant here; it overrides the constructional default to preserve definiteness.
+The same mechanism covers nearby cases. *A Susan arrived* coerces the name into a common-noun-like description, roughly ‘some person named Susan’. *The young Einstein* uses a name with descriptive content and deital marking. Lexicalized *the*-names such as *The Boring Company* package the article into the name’s conventional form. A bad string such as *\*two of John* doesn’t show non-deitality by itself; it’s bad because a singular name denotes an individual rather than a plural domain. More revealing are cases where the name is coerced, pluralized, coordinated, or lexicalized, since those cases show when names do and don’t enter the deital profile.
 
-Cross-linguistic variation in article use with names confirms that the clusters are maintained by different mechanisms. The deital cluster’s distributional restrictions and the definiteness cluster’s interpretive properties overlap substantially but aren’t identical. They correlate strongly because grammaticalization and acquisition create conventional pairings. But they’re not identical. Names can be definite without being deital (English singular names), require deital marking when constructions signal otherwise (English plural names), or be marked deital regardless of pragmatic context (Greek singular names).
+This gives a projection target. Deital behaviour should strengthen as names move from bare lexical reference into ordinary NP determination: bare singular names should show the least deital behaviour; modified names, plural family names, lexicalized *the*-names, and name-derived common nouns should show more of it when the intended reading is identifiable. The account doesn’t predict where a given language sits on the cline. That’s contingent history. It predicts the shape of the variation: names can be definite without deital marking, require deital marking when constructional cues would otherwise mislead, or commonly appear with deital marking in ordinary argument positions.
 
 ## Interrogatives and relatives
 
-Interrogative and relative determiners require special treatment. Most deitality diagnostics presuppose declarative structure. Interrogatives have obligatorily fronted phrases; relatives have distinct clause-internal syntax.
+Interrogative and relative determinatives require special treatment. Most deitality diagnostics presuppose declarative structure. Interrogatives have obligatorily fronted phrases; relatives have distinct clause-internal syntax.
 
-In partitive constructions under standard interrogative force, interrogatives cannot serve as Y: \**How many of which students passed?* is degraded compared to *How many of the students passed?* Echo questions allow it (*Two of WHICH students?*), but this is a marked construction with distinct prosody and pragmatics. When interrogatives appear in X position (*which of the students*, *how many of these books*), they enforce definite-like Y just as other quantifiers in X do – but this reflects the partitive construction’s selectional requirements, not the interrogative’s own deital status. Interrogatives also license bare *one* (*Which one?*), unlike deital determiners. The profile is non-deital under neutral conditions.
+In partitive constructions under standard interrogative force, interrogatives can’t serve as *Y*: *\*How many of which students passed?* is degraded compared to *How many of the students passed?* Echo questions allow it (*Two of WHICH students?*), but the construction is marked, with distinct prosody and pragmatics. When interrogatives appear in *X* position (*which of the students*, *how many of these books*), they enforce definite-like *Y* just as other quantifiers in *X* do, but the contrast reflects the partitive construction’s selectional requirements rather than the interrogative’s own deital status. Interrogatives also license bare *one* (*Which one?*), unlike deital determinatives. Under neutral conditions, then, the visible diagnostics don’t establish a deital profile; I mark the rows Provisional in the inventory.
 
-For relatives, I follow the *Cambridge Grammar of the English Language* in treating *that* as a subordinator, not a determinative (Huddleston and Pullum 2002). It marks subordination and doesn’t realize an argument position. *Which*, by contrast, is a determinative when it appears with an overt head (*in which chapter*). In fused-head constructions (*I read which(ever) you recommended*), it patterns like other fused forms – sometimes deital, sometimes not, depending on the broader structure.
+For relatives, I follow *The Cambridge Grammar of the English Language* in treating *that* as a subordinator, not a determinative (Huddleston and Pullum 2002). It marks subordination and doesn’t realize an argument position. *Which* is a determinative when it appears with an overt head (*in which chapter*). Relative *which* also shows definiteness without ordinary deital marking: *It may rain, in which case we’ll leave early* is anaphoric and definite in interpretation, while the independent-clause paraphrase recruits a deital demonstrative, *It may rain. In that case, we’ll leave early*. In fused-head constructions (*I read which(ever) you recommended*), *which* patterns like other fused forms, sometimes deital, sometimes not, depending on the broader structure.
 
 ## Exclamatives
 
-Exclamative phrases like *What a mess!* or *So many people!* have clause-type-specific syntax. Most diagnostics don’t apply cleanly. Where exclamative phrases surface in declarative contexts, they pattern non-deitally: *There was such a mess* is fine; <sup>??</sup>*Such a book, which I bought, is rare* is degraded.
+Exclamative phrases like *What a mess!* or *So many people!* have clause-type-specific syntax. Most diagnostics don’t apply cleanly. Where exclamative phrases surface in declarative contexts, they pattern non-deitally: *There was such a mess* is fine; *??Such a book, which I bought, is rare* is degraded.
 
-The key observation is that exclamative force – expressing extreme degree – is orthogonal to the deitality profile. When exclamative determiners appear outside their clause type, they behave like other degree-modified quantifiers: acceptable after *there*, poor hosts for identificational constructions.
+Exclamative force (expressing extreme degree) is orthogonal to the deitality profile. When exclamative determinatives appear outside their clause type, they behave like other degree-modified quantifiers: acceptable after *there*, poor hosts for identificational constructions.
 
-## Circularity objection
+## Circularity and collapse objections
 
-The most serious objection is circularity: the diagnostics define the class they purport to identify. If deitality is characterized by resistance to existential *there*, partitive licensing, etc., and those same properties are used to identify deital determiners, haven’t we just described the same facts twice?
+The most serious objection is circularity: the diagnostics define the category they purport to identify. If deitality is characterized by resistance to existential *there*, partitive *Y*-licensing, etc., and those same properties are used to identify deital determinatives, haven’t we just described the same facts twice?
 
-The reply has two parts. First, the diagnostics are independently motivated. Existential *there*, partitives, and identificational constructions are well-studied phenomena with their own syntactic and semantic analyses (Milsark 1977; Barker 1998; Lambrecht 1994). I’m not inventing tests to fit a theory; I’m using established diagnostics to reveal a property cluster.
+The reply begins by separating three moments in the argument. Diagnostics identify a synchronic profile. Diachrony and acquisition explain why that profile isn’t accidental. Projection tests ask whether locating an item or construction in the profile licenses further inferences. Identification doesn’t have to be independent of every diagnostic property; anti-essentialist categories are often identified by clustered symptoms. The requirement is that the profile support inferences beyond mere relabelling.
 
-Second, the mechanisms are independently attested. Grammaticalization pathways from demonstratives to articles are documented cross-linguistically (Diessel 1999). Acquisitional overgeneralization of *the* is an empirical finding (Maratsos 1976). The HPC account doesn’t infer mechanisms from the data they’re meant to explain. It derives predictions from independently motivated diachronic and acquisitional processes.
+Two safeguards keep the argument from merely naming its own evidence. First, the diagnostics are independently motivated: existential *there*, partitives, and identificational constructions are well-studied phenomena with their own syntactic and semantic analyses (Milsark 1977; Barker 1998; Lambrecht 1994). I draw on these established tests to reveal a profile. Second, the strongest sources and stabilizers are independently attested. The cross-linguistic record documents grammaticalization pathways from demonstratives to definite markers (Diessel 1999). Acquisitional overgeneralization of *the* is an empirical finding (Maratsos 1976). The account doesn’t infer every stabilizer from the data it’s meant to explain. It derives predictions from independently motivated diachronic and acquisitional processes.
 
-The test is empirical. If the diagnostics were mere redescriptions, they’d all behave identically under manipulation. But the predictions in §<a href="#sec:mechanisms" data-reference-type="ref" data-reference="sec:mechanisms">5</a> specify divergent patterns: prosody rescues existentials but not partitives; specificity improves hosting but falls short of deital baselines. These contrasts distinguish causal mechanisms from descriptive labels.
+The deeper worry is collapse: perhaps the diagnostics aren’t a profile at all but one semantic property (presuppositionality, referentiality, specificity, or familiarity) measured four ways. The answer is dissociation under manipulation. Prosody can rescue existential pivots but not partitive *Y* complements. Specificity can improve identificational hosting without changing partitive *Y*-licensing. Weak definites preserve deital *the*-morphology but lose the weak reading under partitive *Y*-licensing pressure. Quantifiers such as *each* and *every* resist existential pivots while failing other diagnostics. These splits would be surprising if the diagnostics were just one hidden semantic feature. They’re expected if deitality is a ranked profile whose components are related but not identical.
+
+A more sophisticated collapse objection replaces one semantic feature with several: existential *there* tracks information-structural newness, partitives track domain establishment, hosting tracks specificity, and the observed clustering is just the ordinary correlation among those semantic and pragmatic properties. This version is harder to dismiss, and one part is right. The diagnostics are semantically leaky. A semantic-bundle account can also mimic some of the manipulation results: it can say that domain establishment is prosody-insensitive while presentational newness is prosody-sensitive. The prosody split alone doesn’t settle the issue.
+
+The projectibility-first account earns its keep only where it predicts effects that a semantic bundle doesn’t get without extra assumptions. Two tests matter most. The first is acquisitional. If partitive *Y*-licensing, existential pivot resistance, and hosting are learned as unrelated semantic filters, there’s no clear reason to expect the ordering predicted above: earlier control of the hard partitive restriction and later adult-like control of neutral-prosody existential pivots. If children instead learn all three according to independent semantic complexity, the projectibility-first account loses support.
+
+The second test concerns weak definites in existential contexts. On the projectibility-first account, an institutional weak definite shouldn’t freely behave like an ordinary indefinite pivot just because its token-level semantics is non-unique. A sentence such as *There’s the bus* is acceptable on deictic, arrival, or list readings; the discriminating question is whether the weak institutional reading survives a neutral expletive-*there* frame as readily as ordinary indefinite pivots do. If it does, the semantic-bundle account gains ground. If the institutional reading resists neutral pivothood while deictic or presentational readings are available, that’s deital residue not explained by indefinite semantics alone.
+
+The same historical forms also recur across the distributional profile: demonstrative-derived determinatives, including English *the*, *this*, *that*, *these*, and *those*, carry a shared formal lineage described above. The /ð/ pattern isn’t a diagnostic, but it’s a trace of form history that a semantic-only account treats as accidental. The positive case is cumulative: lineage, acquisition, weak-definite residue, and cross-level manipulation have to pattern together. Any one of them can be explained away locally; the profile claim says they should travel together often enough to support further inference.
 
 # Conclusion
 
-I’ve argued for a clean separation between deitality – a structural property cluster – and definiteness – a semantic one. The separation is motivated empirically by systematic form-meaning mismatches (Francis and Michaelis 2003): weak definites, generic definites, and proper names show that morphological marking and referent identifiability don’t align perfectly.
+The definiteness problem becomes clearer once we stop asking one profile to do the work of two. Deitality and definiteness are strongly correlated, but they support different inferences. Deitality projects from form to distribution: from *the*, demonstratives, and related determiner-function constructions to expectations about partitives, existential pivots, identificational hosting, and the narrow *one*-substitution residue. Definiteness projects from interpretation to discourse management: from identifiability, uniqueness, and recoverability to expectations about anaphora, common ground, and topic continuity.
 
-The theoretical apparatus comes from the philosophy of science. Treating both categories as homeostatic property clusters explains their graded structure, historically mobile boundaries, and robust yet imperfect correlation. Each cluster comprises properties from both morphosyntactic and semantic domains. The deital cluster includes distributional restrictions (existential *there* resistance, partitive licensing, identificational hosting, *one*-substitution blocking) plus a strong tendency to mark semantically definite referents. The definiteness cluster includes interpretive properties (identifiability, uniqueness, anaphoric recoverability) plus a strong tendency to be marked by deital morphology.
+The mismatch cases show why the separation matters. Weak definites, generic definites, narrative *this*, and proper names show that morphological marking and referent identifiability don’t align perfectly (Francis and Michaelis 2003). Two illustrate the point most sharply: weak definites show deital morphology without ordinary token-level definiteness semantics, while proper names show definiteness semantics without ordinary deital marking. Generic definites and narrative *this* extend the same logic to kind reference and constructional recruitment. Together, the mismatch cases let us see which parts of the two profiles remain coupled and which parts can move independently.
 
-What distinguishes the clusters is their combination of mechanism and projectibility. For deitality, five homeostatic mechanisms operate at distinct timescales: grammaticalization creates the cluster phylogenetically through property dragging; acquisition, interactive alignment, prestige selection, and iterated transmission maintain it across individuals, conversations, communities, and generations. For definiteness, the mechanisms are discourse-pragmatic: common ground management, bridging, and topic continuity create correlations among identifiability, uniqueness, and anaphoric tracking.
+The natural-kind apparatus adds one constraint: a category earns its place by supporting further inference, not by supplying an essence or a strict corrective-control system. The analysis is limited in the same way. A semantic-bundle account can mimic some of the dissociations, so the strongest tests are the ones that separate the accounts, especially acquisition order and weak-definite behaviour in neutral existential frames.
 
-The clusters overlap substantially – most semantically definite referents are marked deitally, and most deital marking appears on definite referents – because grammaticalization conventionalized this pairing and discourse efficiency maintains it. The mechanisms are distinct, which allows systematic dissociations: weak definites show deital morphology without definiteness semantics; proper names show definiteness semantics without deital morphology. Those mismatches show what the category lets us infer about residual morphosyntax once semantics shifts.
+The predictions run from utterance-level manipulation to community-level variation and developmental change. Prosody should affect existential pivots but not partitive *Y*-licensing. Specificity should improve indefinites in identificational environments without producing deital baselines. Licensed institutional frames should preserve institutional readings where demonstratives and genitive NPs tend to force referential ones. Broader dialect data should show a layered pattern: article realization, article presence, reinforced demonstratives, and demonstrative paradigms may vary across dialect grammars, while a variety that allows weak indefinites as ordinary partitive *Y* complements would mark a deeper grammar difference. Children should show earlier control of partitive *Y*-licensing than adult-like neutral-prosody *there*-resistance. These are empirical commitments, not just redescriptions.
 
-The framework generates falsifiable predictions. Prosodic manipulation should affect existential pivots but not partitive *Y*-selectivity. Specificity forcing should improve indefinites in identificational environments without reaching deital baselines. Dialectal variation in definiteness-selecting frames should preserve deital patterning when definiteness is supplied by demonstratives or genitives. Acquisition should show developmental asymmetries reflecting the mechanisms at work. These predictions distinguish the HPC account from semantic or purely distributional alternatives and are testable through corpus studies, experimental psycholinguistics, and acquisition research.
+Two broader lessons follow. Grammatical categories can be profile-like rather than essence-like. Sometimes the right move isn’t a better definition of the inherited label but a split into profiles with different diagnostics, stabilizers, and projection targets. Aspect, mood, transitivity, verb, and adjective are possible candidates for the same treatment. The maintenance story beyond grammaticalization and acquisition is deliberately scoped as a research programme: the result here is the projectible profile and its predictions, not a complete causal theory of every stabilizer.
 
-The HPC approach clarifies the methodological stance required for studying grammatical categories. Identifying grammatical natural kinds requires empirical investigation – corpus studies, acquisition research, cross-linguistic comparison – not a priori stipulation. The property clusters and their homeostatic mechanisms are discovered through scientific practice because they support generalizations that work. This aligns linguistic ontology with empirical linguistics rather than treating grammatical categories as objects of pure philosophical analysis.
+Deitality and definiteness remain strongly correlated because grammaticalization, acquisition, and discourse pressure keep drawing them together, but the categories are distinct. Kept distinct, they explain why diagnostics travel together, why mismatches preserve deital residue, and why prosody, construction, dialect, and acquisition perturb different parts of the system. The point is to let each category do its own work.
 
-Two broader implications deserve mention. First, the approach offers a model for other recalcitrant grammatical categories. Aspect, mood, transitivity, and even major lexical categories like verb and adjective might be fruitfully reanalyzed as HPC kinds. The move away from essentialism toward causally grounded property clusters could reshape how we think about grammatical ontology.
+# Provisional Inventory of English Determinatives and Related Forms
 
-Second, the HPC framework bridges theoretical divides. By grounding abstract formal categories in diachronic processes and acquisitional dynamics, it connects synchronic structure to historical change and cognitive development. The result is a richer, more empirically adequate picture of how grammatical categories work.
+The table below is a compact orientation device; it isn’t a defended taxonomy of every English determinative. The cells are author judgments intended to make the profile auditable; only the core contrasts developed in the main text are used as evidence in the argument. Rows marked Provisional, especially fused relatives, exclamatives, compound forms, and personal determinatives, mark empirical terrain for later judgment and corpus work.
 
-The definiteness problem is solved by recognizing that we’ve been conflating two distinct natural kinds: one primarily morphosyntactic, one primarily semantic, each comprising properties from both domains but maintained by different causal mechanisms. Their correlation is real and causally grounded, and the categories remain distinct. Once the categories are separated, they do explanatory work: they let us predict which diagnostics will travel together, which mismatches will preserve deital residue, and which dimensions of the system will vary across dialects, constructions, and learning stages.
-
-# Inventory of English Determinatives
+<div id="tab:inventory">
 
 <table>
+<caption>Provisional inventory of English determinatives and related forms (continued).</caption>
 <thead>
 <tr>
-<th style="text-align: left;"><strong>Determinative</strong></th>
-<th style="text-align: center;"><strong><em>there</em></strong></th>
-<th style="text-align: center;"><strong>Y</strong></th>
-<th style="text-align: center;"><strong>Host</strong></th>
-<th style="text-align: center;"><strong><em>one</em></strong></th>
-<th style="text-align: left;"><strong>Classification</strong></th>
+<th style="text-align: left;"><strong>Item or construction</strong></th>
+<th style="text-align: center;"><strong><em>there</em>-resist.</strong></th>
+<th style="text-align: center;"><strong>Domain-<em>Y</em></strong></th>
+<th style="text-align: center;"><strong>Hosting</strong></th>
+<th style="text-align: left;"><strong>Status</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td colspan="6" style="text-align: left;"><em>Core deital items</em></td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Item or construction</strong></td>
+<td style="text-align: center;"><strong><em>there</em>-resist.</strong></td>
+<td style="text-align: center;"><strong>Domain-<em>Y</em></strong></td>
+<td style="text-align: center;"><strong>Hosting</strong></td>
+<td style="text-align: left;"><strong>Status</strong></td>
+</tr>
+<tr>
+<td colspan="5" style="text-align: right;"><em>Continued on next page</em></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>the</em></td>
-<td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
@@ -485,12 +437,10 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
 <td style="text-align: left;"><span class="smallcaps">deital</span></td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>that</em></td>
-<td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
@@ -501,7 +451,6 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
 <td style="text-align: left;"><span class="smallcaps">deital</span></td>
 </tr>
 <tr>
@@ -509,12 +458,24 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
+<td style="text-align: left;"><span class="smallcaps">deital</span></td>
+</tr>
+<tr>
+<td style="text-align: left;">personal genitives (<em>my</em>, <em>your</em>, etc.)</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"><span class="smallcaps">deital</span></td>
+</tr>
+<tr>
+<td style="text-align: left;">genitive NPs in determiner function (<em>John’s</em>)</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: left;"><span class="smallcaps">deital</span></td>
 </tr>
 <tr>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
@@ -525,7 +486,6 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;"></td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;"></td>
 <td style="text-align: left;">Mixed</td>
 </tr>
 <tr>
@@ -533,52 +493,45 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;"></td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;"></td>
 <td style="text-align: left;">Mixed</td>
 </tr>
 <tr>
-<td style="text-align: left;"><em>everybody/everyone</em></td>
+<td style="text-align: left;"><em>everybody/everyone</em><span class="math inline"><sup><em>a</em></sup></span></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: left;">Mixed</td>
+<td style="text-align: center;">?</td>
+<td style="text-align: left;">Provisional</td>
 </tr>
 <tr>
-<td style="text-align: left;"><em>everything</em></td>
+<td style="text-align: left;"><em>everything</em><span class="math inline"><sup><em>a</em></sup></span></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: left;">Mixed</td>
+<td style="text-align: center;">?</td>
+<td style="text-align: left;">Provisional</td>
 </tr>
 <tr>
-<td style="text-align: left;"><em>everywhere</em></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">–</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: left;">Mixed</td>
+<td style="text-align: left;"><em>everywhere</em><span class="math inline"><sup><em>a</em></sup></span></td>
+<td style="text-align: center;">n/a</td>
+<td style="text-align: center;">n/a</td>
+<td style="text-align: center;">?</td>
+<td style="text-align: left;">Provisional</td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>all</em></td>
-<td style="text-align: center;">–<span class="math inline"><sup><em>a</em></sup></span></td>
+<td style="text-align: center;">–<span class="math inline"><sup><em>b</em></sup></span></td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;"></td>
 <td style="text-align: left;">Mixed</td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>both</em></td>
-<td style="text-align: center;">–<span class="math inline"><sup><em>a</em></sup></span></td>
+<td style="text-align: center;">–<span class="math inline"><sup><em>b</em></sup></span></td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;"></td>
 <td style="text-align: left;">Mixed</td>
 </tr>
 <tr>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
@@ -589,13 +542,11 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;"></td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
 <td style="text-align: left;">Mixed</td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>neither</em></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: left;">Mixed</td>
@@ -605,36 +556,31 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;"></td>
-<td style="text-align: left;">Mixed</td>
+<td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
 </tr>
 <tr>
-<td style="text-align: left;"><em>nobody/no one</em></td>
-<td style="text-align: center;">–</td>
+<td style="text-align: left;"><em>nobody/no one</em><span class="math inline"><sup><em>a</em></sup></span></td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
 </tr>
 <tr>
-<td style="text-align: left;"><em>nothing</em></td>
-<td style="text-align: center;">–</td>
+<td style="text-align: left;"><em>nothing</em><span class="math inline"><sup><em>a</em></sup></span></td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
 </tr>
 <tr>
-<td style="text-align: left;"><em>nowhere</em></td>
+<td style="text-align: left;"><em>nowhere</em><span class="math inline"><sup><em>a</em></sup></span></td>
+<td style="text-align: center;">n/a</td>
+<td style="text-align: center;">n/a</td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
-<td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
+<td style="text-align: left;">Provisional</td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>none</em></td>
-<td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
@@ -642,7 +588,6 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 </tr>
 <tr>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
@@ -653,12 +598,10 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
 <td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>a certain</em></td>
-<td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
@@ -669,12 +612,10 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
 <td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>a little</em></td>
-<td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
@@ -685,7 +626,6 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
 <td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
 </tr>
 <tr>
@@ -693,86 +633,66 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
 <td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
 </tr>
 <tr>
-<td style="text-align: left;"><em>somebody/someone</em></td>
-<td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
-<td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
-</tr>
-<tr>
-<td style="text-align: left;"><em>something</em></td>
-<td style="text-align: center;">–</td>
+<td style="text-align: left;"><em>somebody/someone</em><span class="math inline"><sup><em>a</em></sup></span></td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
 </tr>
 <tr>
-<td style="text-align: left;"><em>somewhere</em></td>
-<td style="text-align: center;">–</td>
+<td style="text-align: left;"><em>something</em><span class="math inline"><sup><em>a</em></sup></span></td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>somewhere</em><span class="math inline"><sup><em>a</em></sup></span></td>
+<td style="text-align: center;">n/a</td>
+<td style="text-align: center;">n/a</td>
+<td style="text-align: center;">–</td>
+<td style="text-align: left;">Provisional</td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>any</em></td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
 <td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
 </tr>
 <tr>
-<td style="text-align: left;"><em>anybody/anyone</em></td>
-<td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
-<td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
-</tr>
-<tr>
-<td style="text-align: left;"><em>anything</em></td>
-<td style="text-align: center;">–</td>
+<td style="text-align: left;"><em>anybody/anyone</em><span class="math inline"><sup><em>a</em></sup></span></td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
 </tr>
 <tr>
-<td style="text-align: left;"><em>anywhere</em></td>
-<td style="text-align: center;">–</td>
+<td style="text-align: left;"><em>anything</em><span class="math inline"><sup><em>a</em></sup></span></td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
 </tr>
-</tbody>
-</table>
-
-<table>
-<thead>
 <tr>
-<th style="text-align: left;"><strong>Determinative</strong></th>
-<th style="text-align: center;"><strong><em>there</em></strong></th>
-<th style="text-align: center;"><strong>Y</strong></th>
-<th style="text-align: center;"><strong>Host</strong></th>
-<th style="text-align: center;"><strong><em>one</em></strong></th>
-<th style="text-align: left;"><strong>Classification</strong></th>
+<td style="text-align: left;"><em>anywhere</em><span class="math inline"><sup><em>a</em></sup></span></td>
+<td style="text-align: center;">n/a</td>
+<td style="text-align: center;">n/a</td>
+<td style="text-align: center;">–</td>
+<td style="text-align: left;">Provisional</td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td colspan="6" style="text-align: left;"><em>Degree/quantity expressions</em></td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>many</em></td>
-<td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
@@ -783,12 +703,10 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
 <td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>few</em></td>
-<td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
@@ -799,12 +717,10 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
 <td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>little</em></td>
-<td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
@@ -815,12 +731,10 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
 <td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>more</em></td>
-<td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
@@ -831,12 +745,10 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
 <td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>several</em></td>
-<td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
@@ -847,12 +759,10 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
 <td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>various</em></td>
-<td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
@@ -863,12 +773,10 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
 <td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>enough</em></td>
-<td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
@@ -879,7 +787,6 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
 <td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
 </tr>
 <tr>
@@ -887,7 +794,6 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
 <td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
 </tr>
 <tr>
@@ -895,30 +801,26 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr>
-<td style="text-align: left;">(<em>the</em>) <em>most<span class="upright"> / </span>fewest<span class="upright"> / </span>least</em><span class="math inline"><sup><em>b</em></sup></span></td>
+<td style="text-align: left;">(<em>the</em>) <em>most<span class="upright"> / </span>fewest<span class="upright"> / </span>least</em><span class="math inline"><sup><em>c</em></sup></span></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: left;"><span class="smallcaps">deital</span></td>
 </tr>
 <tr>
-<td style="text-align: left;"><em>last</em></td>
+<td style="text-align: left;"><em>last</em><span class="math inline"><sup><em>c</em></sup></span></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;">–</td>
-<td style="text-align: center;"></td>
+<td style="text-align: center;">n/a</td>
 <td style="text-align: center;"></td>
 <td style="text-align: left;"><span class="smallcaps">deital</span></td>
 </tr>
 <tr>
-<td style="text-align: left;"><em>next</em></td>
+<td style="text-align: left;"><em>next</em><span class="math inline"><sup><em>c</em></sup></span></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;">–</td>
-<td style="text-align: center;"></td>
+<td style="text-align: center;">n/a</td>
 <td style="text-align: center;"></td>
 <td style="text-align: left;"><span class="smallcaps">deital</span></td>
 </tr>
@@ -927,12 +829,10 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
 <td style="text-align: left;"><span class="smallcaps">deital</span></td>
 </tr>
 <tr>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
@@ -943,12 +843,10 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
 <td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>one</em> (numeral)</td>
-<td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
@@ -959,12 +857,10 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
 <td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>ten, twenty...ninety</em></td>
-<td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
@@ -975,12 +871,10 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
 <td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
 </tr>
 <tr>
-<td style="text-align: left;"><em>once, twice, thrice</em></td>
-<td style="text-align: center;">–</td>
+<td style="text-align: left;"><em>once, twice, thrice</em><span class="math inline"><sup><em>d</em></sup></span></td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
@@ -988,7 +882,6 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 </tr>
 <tr>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
@@ -999,44 +892,38 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;">n/a</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">n/a</td>
-<td style="text-align: center;">–</td>
-<td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
+<td style="text-align: left;">Provisional</td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>which</em></td>
 <td style="text-align: center;">n/a</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">n/a</td>
-<td style="text-align: center;">–</td>
-<td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
+<td style="text-align: left;">Provisional</td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>whose</em></td>
 <td style="text-align: center;">n/a</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">n/a</td>
-<td style="text-align: center;">–</td>
-<td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
+<td style="text-align: left;">Provisional</td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>how many/much</em></td>
 <td style="text-align: center;">n/a</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">n/a</td>
-<td style="text-align: center;">–</td>
-<td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
+<td style="text-align: left;">Provisional</td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>what/which kind of</em></td>
 <td style="text-align: center;">n/a</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">n/a</td>
-<td style="text-align: center;">–</td>
-<td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
+<td style="text-align: left;">Provisional</td>
 </tr>
 <tr>
 <td style="text-align: left;"></td>
-<td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
@@ -1047,29 +934,25 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;">n/a</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">n/a</td>
-<td style="text-align: center;">–</td>
-<td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
+<td style="text-align: left;">Provisional</td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>what</em> (fused relative)</td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"><span class="smallcaps">deital</span></td>
+<td style="text-align: left;">Provisional</td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>whatever</em> (ignorance)</td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"><span class="smallcaps">deital</span></td>
+<td style="text-align: left;">Provisional</td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>whatever</em> (free-choice)</td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: left;">Mixed</td>
@@ -1079,31 +962,24 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"><span class="smallcaps">deital</span></td>
+<td style="text-align: left;">Provisional</td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>whichever</em> (free-choice)</td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
 <td style="text-align: left;">Mixed</td>
 </tr>
-</tbody>
-</table>
-
-<div id="tab:inventory">
-
-<table>
-<caption>Complete inventory of English determinatives. = shows the <span class="smallcaps">deital</span> pattern for the given diagnostic; – = fails the pattern; n/a = diagnostic undefined for the construction type. <em>Interpretation for the <em>there</em> column:</em> means <em>resists</em> post-<em>there</em> pivothood under neutral prosody (i.e., exhibits the definiteness effect), not that the item occurs after <em>there</em> <span class="citation" data-cites="milsark1977 McNally2011">(Milsark 1977; McNally 2011)</span>. <em>Classification:</em> <span class="smallcaps">deital</span> = shows convergence across all applicable diagnostics (prototypical cluster members); <span class="smallcaps">non-deital</span> = fails all diagnostics; Mixed = shows partial cluster membership (expected for HPC kinds). <span class="math inline"><sup><em>a</em></sup></span>Coordination rescues <em>there</em>-pivot. <span class="math inline"><sup><em>b</em></sup></span>Determinative superlative use only (not proportional quantifier). <span class="math inline"><sup><em>c</em></sup></span>See <span class="citation" data-cites="Reynolds2025">(Reynolds 2025)</span> for why only these. <span class="math inline"><sup><em>d</em></sup></span>Interrogatives fronted in questions; diagnostics largely undefined. <span class="math inline"><sup><em>e</em></sup></span>Fused relatives pattern varies by reading (ignorance-definite vs. free-choice). <span class="math inline"><sup><em>f</em></sup></span>Exclamatives in declarative contexts pattern non-deitally; frame-initial uses undefined. <span class="math inline"><sup><em>g</em></sup></span>As in <em>us linguists</em>.</caption>
-<tbody>
 <tr>
-<td colspan="6" style="text-align: left;"><em>Exclamatives (clause-type dependent)</em><span class="math inline"><sup><em>f</em></sup></span></td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>what</em> (exclamative)</td>
-<td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
@@ -1114,12 +990,10 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
 <td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>such</em></td>
-<td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
@@ -1130,12 +1004,10 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
 <td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>so many/much</em></td>
-<td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
@@ -1146,7 +1018,6 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
 <td style="text-align: center;">–</td>
-<td style="text-align: center;">–</td>
 <td style="text-align: left;"><span class="smallcaps">non-deital</span></td>
 </tr>
 <tr>
@@ -1154,39 +1025,61 @@ The definiteness problem is solved by recognizing that we’ve been conflating t
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>us</em></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"><span class="smallcaps">deital</span></td>
+<td style="text-align: center;">n/a</td>
+<td style="text-align: center;">?</td>
+<td style="text-align: center;">n/a</td>
+<td style="text-align: left;">Provisional</td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>we</em></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"><span class="smallcaps">deital</span></td>
+<td style="text-align: center;">n/a</td>
+<td style="text-align: center;">?</td>
+<td style="text-align: center;">n/a</td>
+<td style="text-align: left;">Provisional</td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>you</em></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"><span class="smallcaps">deital</span></td>
+<td style="text-align: center;">n/a</td>
+<td style="text-align: center;">?</td>
+<td style="text-align: center;">n/a</td>
+<td style="text-align: left;">Provisional</td>
 </tr>
 </tbody>
 </table>
 
 </div>
 
+= shows the <span class="smallcaps">deital</span> pattern named by the column; – = fails the pattern; n/a = diagnostic undefined for the construction type; ? = untested or confounded in the relevant construction. *There*-resist. means *resists* post-*there* pivothood under neutral prosody (i.e., exhibits the definiteness effect), not that the item occurs after *there* (Milsark 1977; McNally 2011). Domain-*Y* means that the item can supply the domain-establishing *Y* complement in a true partitive. The narrow *one*-substitution residue is discussed in §<a href="#sec:diagnostics" data-reference-type="ref" data-reference="sec:diagnostics">4</a> but isn’t used as an inventory column. For status, <span class="smallcaps">deital</span> = shows convergence across the ranked diagnostics (prototypical profile members); <span class="smallcaps">non-deital</span> = fails the ranked diagnostics; Mixed = shows partial profile convergence rather than a settled boundary verdict; Provisional = included as a target for later validation rather than used as evidence in the paper.
+
+$`^a`$The compound rows follow a -style category/function lens; readers who treat these as pronouns or adverbs should read them as fused or extended determinative-related expressions rather than core determinative lexemes (Huddleston and Pullum 2002). $`^b`$Coordination rescues *there*-pivot. $`^c`$These rows concern referential determiner-function uses, not proportional quantifier use; bare *last* and *next* don’t independently supply a full Domain-*Y* complement, so the diagnostic is undefined rather than failed. $`^d`$See
+
+(Reynolds 2025) for the inclusion of numeral-derived forms such as *once*, *twice*, and *thrice*. $`^e`$Interrogatives are fronted in questions; diagnostics are largely undefined. $`^f`$Fused relatives pattern varies by reading (ignorance-definite vs. free-choice). $`^g`$Exclamatives in declarative contexts pattern non-deitally; frame-initial uses are undefined. $`^h`$Personal determinatives are limited to constructions such as *us linguists* and require separate treatment; the partitive contrast *two of us/you* vs. *\*two of we* is confounded by case selection by *of*.
+
+# Declarations
+
+#### Funding.
+
+No external funding was received for this work.
+
+#### Competing interests.
+
+The author declares no competing interests.
+
+#### AI assistance.
+
+During manuscript preparation and revision, primarily in June 2026, the author used Claude Sonnet 4.5 extensively for drafting and editing support, with some input from ChatGPT 5 and Gemini 2.5 Pro. The author also used Claude Opus 4.8, Claude Fable 5, and GPT-5.5 Pro for review feedback, and OpenAI Codex (GPT-5), accessed through the Codex CLI, for revision support. These tools were used through their standard Anthropic, OpenAI, and Google interfaces. The author reviewed and edited all text, verified sources and references, and takes full responsibility for all claims and conclusions.
+
 <div id="refs" class="references csl-bib-body hanging-indent">
+
+<div id="ref-abbott1996" class="csl-entry">
+
+Abbott, Barbara. 1996. “Doing Without a Partitive Constraint.” In *Partitives: Studies on the Syntax and Semantics of Partitive and Related Constructions*, edited by Jack Hoeksema. Mouton de Gruyter. <https://doi.org/10.1515/9783110908985.25>.
+
+</div>
 
 <div id="ref-Abbott2004" class="csl-entry">
 
@@ -1200,21 +1093,39 @@ Aguilar-Guevara, Ana, and Joost Zwarts. 2010. “Weak Definites and Reference to
 
 </div>
 
+<div id="ref-arkohMatthewson2013" class="csl-entry">
+
+Arkoh, Ruby, and Lisa Matthewson. 2013. “A Familiar Definite Article in Akan.” *Lingua* 123: 1–30. <https://doi.org/10.1016/j.lingua.2012.09.012>.
+
+</div>
+
 <div id="ref-Barker1998" class="csl-entry">
 
-Barker, Chris. 1998. “Partitives, Double Genitives and Anti-Uniqueness.” *Natural Language and Linguistic Theory* 16: 679–717.
+Barker, Chris. 1998. “Partitives.” *Natural Language & Linguistic Theory* 16 (4): 679–717. <https://doi.org/10.1023/A:1005917421076>.
 
 </div>
 
 <div id="ref-Birner2013" class="csl-entry">
 
-Birner, Betty J. 2013. *Introduction to Pragmatics*. Wiley-Blackwell.
+Birner, Betty J. 2013. *Introduction to Pragmatics*. Wiley–Blackwell.
 
 </div>
 
 <div id="ref-BirnerWard1998" class="csl-entry">
 
-Birner, Betty J., and Gregory Ward. 1998. *Information Status and Noncanonical Word Order in English*. John Benjamins. <https://doi.org/10.1075/slcs.40>.
+Birner, Betty J., and Gregory Ward. 1998. *Information Status and Noncanonical Word Order in English*. Pragmatics & Beyond New Series 40. John Benjamins.
+
+</div>
+
+<div id="ref-BloomWynn1997" class="csl-entry">
+
+Bloom, Paul, and Karen Wynn. 1997. “Linguistic Cues in the Acquisition of Number Words.” *Journal of Child Language* 24 (3): 511–33. <https://doi.org/10.1017/S0305000997003188>.
+
+</div>
+
+<div id="ref-bombi2018" class="csl-entry">
+
+Bombi, Carla. 2018. “Definiteness in Akan: Familiarity and Uniqueness Revisited.” *Proceedings of SALT 28*, 141–60. <https://doi.org/10.3765/salt.v28i0.4406>.
 
 </div>
 
@@ -1248,6 +1159,12 @@ Christophersen, Paul. 1939. *The Articles: A Study of Their Theory and Use in En
 
 </div>
 
+<div id="ref-coppockBeaver2015" class="csl-entry">
+
+Coppock, Elizabeth, and David Beaver. 2015. “Definiteness and Determinacy.” *Linguistics and Philosophy* 38 (5): 377–435. <https://doi.org/10.1007/s10988-015-9178-8>.
+
+</div>
+
 <div id="ref-diessel1999" class="csl-entry">
 
 Diessel, Holger. 1999. *Demonstratives: Form, Function, and Grammaticalization*. John Benjamins. <https://doi.org/10.1075/tsl.42>.
@@ -1262,7 +1179,19 @@ Eckert, Penelope. 2000. *Linguistic Variation as Social Practice*. Blackwell.
 
 <div id="ref-FrancisMichaelis2003" class="csl-entry">
 
-Francis, Elaine J., and Laura A. Michaelis, eds. 2003. *Mismatch: Form-Function Incongruity and the Architecture of Grammar*. CSLI Publications.
+Francis, Elaine J., and Laura A. Michaelis, eds. 2003. *Mismatch: Form–Function Incongruity and the Architecture of Grammar*. CSLI Lecture Notes 163. CSLI Publications. <https://press.uchicago.edu/ucp/books/book/distributed/M/bo3639870.html>.
+
+</div>
+
+<div id="ref-GernsbacherShroyer1989" class="csl-entry">
+
+Gernsbacher, Morton Ann, and Suzanne Shroyer. 1989. “The Cataphoric Use of the Indefinite *This* in Spoken Narratives.” *Memory & Cognition* 17 (5): 536–40. <https://doi.org/10.3758/BF03197076>.
+
+</div>
+
+<div id="ref-goodman1983" class="csl-entry">
+
+Goodman, Nelson. (1955) 1983. *Fact, Fiction, and Forecast*. 4th ed. Harvard University Press.
 
 </div>
 
@@ -1278,6 +1207,12 @@ Hawkins, John A. 1978. *Definiteness and Indefiniteness: A Study in Reference an
 
 </div>
 
+<div id="ref-HazenHamiltonVacovsky2011" class="csl-entry">
+
+Hazen, Kirk, Sarah Hamilton, and Sarah Vacovsky. 2011. “The Fall of Demonstrative *Them*: Evidence from Appalachia.” *English World-Wide* 32 (1): 74–103. <https://doi.org/10.1075/eww.32.1.04haz>.
+
+</div>
+
 <div id="ref-heim1982" class="csl-entry">
 
 Heim, Irene. 1982. “The Semantics of Definite and Indefinite Noun Phrases.” PhD thesis, University of Massachusetts, Amherst.
@@ -1286,7 +1221,13 @@ Heim, Irene. 1982. “The Semantics of Definite and Indefinite Noun Phrases.” 
 
 <div id="ref-Hoeksema1996" class="csl-entry">
 
-Hoeksema, Jack, ed. 1996. *Partitives*. De Gruyter Mouton. <https://doi.org/10.1515/9783110908985>.
+Hoeksema, Jack, ed. 1996. *Partitives: Studies on the Syntax and Semantics of Partitive and Related Constructions*. Groningen-Amsterdam Studies in Semantics 22. Mouton de Gruyter. <https://doi.org/10.1515/9783110908985>.
+
+</div>
+
+<div id="ref-HoltonEtAl2012" class="csl-entry">
+
+Holton, David, Peter Mackridge, Irene Philippaki-Warburton, and Vassilios Spyropoulos. 2012. *Greek: A Comprehensive Grammar of the Modern Language*. 2nd ed. Routledge. <https://doi.org/10.4324/9780203802380>.
 
 </div>
 
@@ -1296,7 +1237,31 @@ Huddleston, Rodney, and Geoffrey K. Pullum. 2002. *The Cambridge Grammar of the 
 
 </div>
 
-<div id="ref-Kirby2014" class="csl-entry">
+<div id="ref-jenks2018" class="csl-entry">
+
+Jenks, Peter. 2018. “Articulated Definiteness Without Articles.” *Linguistic Inquiry* 49 (3): 501–36. <https://doi.org/10.1162/ling_a_00280>.
+
+</div>
+
+<div id="ref-Jones2002" class="csl-entry">
+
+Jones, Mark J. 2002. “The Origin of Definite Article Reduction in Northern English Dialects: Evidence from Dialect Allomorphy.” *English Language and Linguistics* 6 (2): 325–45. <https://doi.org/10.1017/S1360674302000266>.
+
+</div>
+
+<div id="ref-khalidi2013" class="csl-entry">
+
+Khalidi, Muhammad Ali. 2013. *Natural Categories and Human Kinds: Classification in the Natural and Social Sciences*. Cambridge University Press. <https://doi.org/10.1017/CBO9780511998553>.
+
+</div>
+
+<div id="ref-khalidi2018nodes" class="csl-entry">
+
+Khalidi, Muhammad Ali. 2018. “Natural Kinds as Nodes in Causal Networks.” *Synthese* 195 (4): 1379–96. <https://doi.org/10.1007/s11229-015-0841-y>.
+
+</div>
+
+<div id="ref-kirby2014" class="csl-entry">
 
 Kirby, Simon, Tom Griffiths, and Kenny Smith. 2014. “Iterated Learning and the Evolution of Language.” *Current Opinion in Neurobiology* 28: 108–14. <https://doi.org/10.1016/j.conb.2014.07.014>.
 
@@ -1314,7 +1279,13 @@ Labov, William. 2001. *Principles of Linguistic Change, Volume 2: Social Factors
 
 </div>
 
-<div id="ref-Lakoff1987" class="csl-entry">
+<div id="ref-ladusaw1982" class="csl-entry">
+
+Ladusaw, William A. 1982. “Semantic Constraints on the English Partitive Construction.” In *Proceedings of WCCFL 1*, edited by Daniel P. Flickinger, Marlys Macken, and Nancy Wiegand. Stanford Linguistics Association.
+
+</div>
+
+<div id="ref-lakoff1987" class="csl-entry">
 
 Lakoff, George. 1987. *Women, Fire, and Dangerous Things: What Categories Reveal about the Mind*. University of Chicago Press.
 
@@ -1322,7 +1293,7 @@ Lakoff, George. 1987. *Women, Fire, and Dangerous Things: What Categories Reveal
 
 <div id="ref-Lambrecht1994" class="csl-entry">
 
-Lambrecht, Knud. 1994. *Information Structure and Sentence Form: Topic, Focus, and the Mental Representations of Discourse Referents*. Cambridge University Press. <https://doi.org/10.1017/CBO9780511620607>.
+Lambrecht, Knud. 1994. *Information Structure and Sentence Form: Topic, Focus, and the Mental Representations of Discourse Referents*. Cambridge University Press.
 
 </div>
 
@@ -1346,13 +1317,13 @@ Mayr, Ernst. 1942. *Systematics and the Origin of Species*. Columbia University 
 
 <div id="ref-McNally2011" class="csl-entry">
 
-McNally, Louise. 2011. “Existential Sentences.” In *Semantics: An International Handbook of Natural Language Meaning*, edited by Klaus von Heusinger, Claudia Maienborn, and Paul Portner, vol. 2. De Gruyter Mouton. <https://doi.org/10.1515/9783110255072.1829>.
+McNally, Louise. 2011. “Existential Sentences.” In *Semantics: An International Handbook of Natural Language Meaning*, edited by Claudia Maienborn, Klaus von Heusinger, and Paul Portner, vol. 1. De Gruyter Mouton. <https://doi.org/10.1515/9783110255072.1829>.
 
 </div>
 
-<div id="ref-Miller2021" class="csl-entry">
+<div id="ref-miller2021" class="csl-entry">
 
-Miller, James T. M. 2021. “Words, Species, and Kinds.” *Metaphysics* 4 (1): 18–31. <https://doi.org/10.5334/met.70>.
+Miller, J. T. M. 2021. “Words, Species, and Kinds.” *Metaphysics* 4 (1): 18–31. <https://doi.org/10.5334/met.70>.
 
 </div>
 
@@ -1362,15 +1333,33 @@ Milsark, Gary L. 1977. “Toward an Explanation of Certain Peculiarities of the 
 
 </div>
 
+<div id="ref-onishi2022" class="csl-entry">
+
+Onishi, Yukinori, and Davide Serpico. 2022. “Homeostatic Property Cluster Theory Without Homeostatic Mechanisms: Two Recent Attempts and Their Costs.” *Journal for General Philosophy of Science* 53: 61–82. <https://doi.org/10.1007/s10838-020-09527-1>.
+
+</div>
+
 <div id="ref-pickering2004" class="csl-entry">
 
 Pickering, Martin J., and Simon Garrod. 2004. “Toward a Mechanistic Psychology of Dialogue.” *Behavioral and Brain Sciences* 27 (2): 169–90. <https://doi.org/10.1017/S0140525X04000056>.
 
 </div>
 
+<div id="ref-prince1981" class="csl-entry">
+
+Prince, Ellen F. 1981. “On the Inferencing of Indefinite-This NPs.” In *Elements of Discourse Understanding*, edited by Aravind K. Joshi, Bonnie L. Webber, and Ivan A. Sag. Cambridge University Press.
+
+</div>
+
 <div id="ref-Reynolds2025" class="csl-entry">
 
 Reynolds, Brett. 2025. “Prepositions in (English) Dictionaries.” *Dictionaries: Journal of the Dictionary Society of North America* 46 (1): 31–60. <https://doi.org/10.1353/dic.2025.a963324>.
+
+</div>
+
+<div id="ref-reynolds2026notEveryStableCluster" class="csl-entry">
+
+Reynolds, Brett. 2026. “Not Every Stable Cluster Is Homeostatic: Stability, Network Order, and Control in Projectible Kinds.” <https://philarchive.org/rec/REYNES>.
 
 </div>
 
@@ -1386,12 +1375,54 @@ Rozendaal, Margot I., and Anne E. Baker. 2008. “A Cross-Linguistic Investigati
 
 </div>
 
+<div id="ref-RuppTagliamonte2019ZeroArticle" class="csl-entry">
+
+Rupp, Laura M., and Sali A. Tagliamonte. 2019a. “‘They Used to Follow Ø River’: The Zero Article in York English.” *Journal of English Linguistics* 47 (4): 279–300. <https://doi.org/10.1177/0075424219865933>.
+
+</div>
+
+<div id="ref-RuppTagliamonte2019ThisHere" class="csl-entry">
+
+Rupp, Laura M., and Sali A. Tagliamonte. 2019b. “This Here Town: Evidence for the Development of the English Determiner System from a Vernacular Demonstrative Construction in York English.” *English Language and Linguistics* 23 (1): 81–103. <https://doi.org/10.1017/S1360674317000326>.
+
+</div>
+
 <div id="ref-russell1905" class="csl-entry">
 
 Russell, Bertrand. 1905. “On Denoting.” *Mind* 14 (56): 479–93. <https://doi.org/10.1093/mind/xiv.4.479>.
 
 </div>
 
+<div id="ref-schwarz2009" class="csl-entry">
+
+Schwarz, Florian. 2009. “Two Types of Definites in Natural Language.” PhD thesis, University of Massachusetts Amherst.
+
 </div>
 
-[^1]: I would like to thank Cris Chatterjee for helpful feedback. I used Claude Sonnet 4.5 extensively in drafting and editing this paper with some input from ChatGPT 5 and Gemini 2.5 Pro. I have reviewed and edited all text, and I take full responsibility for all claims and conclusions.
+<div id="ref-schwarz2013" class="csl-entry">
+
+Schwarz, Florian. 2013. “Two Kinds of Definites Cross-Linguistically.” *Language and Linguistics Compass* 7 (10): 534–59. <https://doi.org/10.1111/lnc3.12048>.
+
+</div>
+
+<div id="ref-slater2015" class="csl-entry">
+
+Slater, Matthew H. 2015. “Natural Kindness.” *The British Journal for the Philosophy of Science* 66 (2): 375–411. <https://doi.org/10.1093/bjps/axt033>.
+
+</div>
+
+<div id="ref-Stickney2007" class="csl-entry">
+
+Stickney, Helen. 2007. “Investigations into Children’s Acquisition of the Partitive Structure.” *Nordlyd* 34 (3): 172–86. <https://doi.org/10.7557/12.128>.
+
+</div>
+
+</div>
+
+[^1]: I thank Cris Chatterjee for helpful feedback.
+
+[^2]: I follow the category–function distinction of Huddleston and Pullum (2002): determinative names a lexical category (*the*, *this*, *some*), while determiner names the function it most often realizes in NP structure. Nothing in the account assumes a determiner-headed nominal.
+
+[^3]: I retain the standard label; §<a href="#sec:cases" data-reference-type="ref" data-reference="sec:cases">6</a> argues that these constructions use deital form while lacking ordinary token-level definiteness.
+
+[^4]: Thanks to Cris Chatterjee for pressing this point.

@@ -7,7 +7,7 @@ canonical_url: "https://philarchive.org/rec/REYWDW"
 website_url: "https://brettreynolds.ca/papers/what-do-we-mean-by-language/"
 markdown_url: "https://brettreynolds.ca/papers/what-do-we-mean-by-language/paper.md"
 version: "author-manuscript mirror"
-version_date: "2026-06-06"
+version_date: "2026-06-12"
 keywords: ["language ontology", "pluralism", "homeostatic property clusters", "language sciences"]
 ---
 # What do we mean by language? A pluralist map for the language sciences

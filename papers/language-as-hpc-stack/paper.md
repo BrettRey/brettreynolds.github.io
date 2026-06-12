@@ -7,7 +7,7 @@ canonical_url: "https://doi.org/10.5281/zenodo.17354363"
 website_url: "https://brettreynolds.ca/papers/language-as-hpc-stack/"
 markdown_url: "https://brettreynolds.ca/papers/language-as-hpc-stack/paper.md"
 version: "author-manuscript mirror"
-version_date: "2026-06-06"
+version_date: "2026-06-12"
 keywords: ["homeostatic property clusters", "phonemes", "words", "constructions", "language ontology"]
 ---
 # Language as a stack of homeostatic property-cluster kinds: From phonemes to constructions

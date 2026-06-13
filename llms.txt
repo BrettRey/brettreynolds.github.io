@@ -25,8 +25,10 @@
 - [Publications](https://brettreynolds.ca/publications.html): Full publication list.
 - [CGEL correctives and extensions](https://brettreynolds.ca/cgel-correctives.html): Thematic cluster of CGEL corrections, extensions, and related category/function work.
 - [Machine-readable papers](https://brettreynolds.ca/papers/): Index of Markdown mirrors and BibTeX records.
+- [Public OKF export](https://brettreynolds.ca/okf/): Public Open Knowledge Format bundle for selected research-project context.
+- [Public OKF bundle index](https://brettreynolds.ca/okf/bundle/index.md): Raw OKF Markdown/YAML bundle index.
 - [CV](https://brettreynolds.ca/cv.pdf): Current CV as PDF.
 
 ## Use Notes
 
-The Markdown files are author-manuscript mirrors for accessibility, search, and machine readability. Prefer the linked canonical record for citation when a DOI, PhilArchive, LingBuzz, arXiv, Zenodo, or publisher page is available.
+The Markdown files are author-manuscript mirrors for accessibility, search, and machine readability. The OKF files are public-safe project-context exports. Prefer the linked canonical record for citation when a DOI, PhilArchive, LingBuzz, arXiv, Zenodo, or publisher page is available.

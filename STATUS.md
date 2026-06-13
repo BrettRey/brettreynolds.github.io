@@ -3,7 +3,7 @@
 ## Current State
 
 **Status:** Static site maintained for brettreynolds.ca
-**Last updated:** 2026-06-04
+**Last updated:** 2026-06-13
 
 ## Completed
 
@@ -15,6 +15,7 @@
 - [x] CNAME file for custom domain
 - [x] Machine-readable paper mirrors added for eight core papers
 - [x] `llms.txt` added as an LLM-oriented site map
+- [x] Public OKF export added under `/okf/` with raw bundle at `/okf/bundle/`
 
 ## TODO
 
@@ -27,6 +28,7 @@
 index.html           # Landing page
 publications.html    # Publication list
 papers/              # Machine-readable paper mirror index and per-paper mirrors
+okf/                 # Public OKF landing page and generated public bundle
 llms.txt             # LLM-oriented site map
 scripts/             # Local generation scripts
 style.css            # Stylesheet
@@ -40,3 +42,4 @@ CNAME                # Custom domain
 - **2025-12-09:** Project folder created, initial plan (Hugo-based)
 - **2026-01-02:** Redesigned as plain HTML/CSS. Built landing page, publications page, stylesheet. Ready for deployment.
 - **2026-06-04:** Added Markdown/BibTeX mirrors for eight core papers, with per-paper landing pages and `llms.txt`.
+- **2026-06-13:** Added public OKF export surface under `/okf/`, with generated public-safe bundle files under `/okf/bundle/` and discovery links from the homepage, papers index, and `llms.txt`.

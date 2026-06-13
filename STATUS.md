@@ -16,6 +16,7 @@
 - [x] Machine-readable paper mirrors added for eight core papers
 - [x] `llms.txt` added as an LLM-oriented site map
 - [x] Public OKF export added under `/okf/` with raw bundle at `/okf/bundle/`
+- [x] `robots.txt` and `sitemap.xml` added for crawler discovery
 
 ## TODO
 
@@ -30,6 +31,8 @@ publications.html    # Publication list
 papers/              # Machine-readable paper mirror index and per-paper mirrors
 okf/                 # Public OKF landing page and generated public bundle
 llms.txt             # LLM-oriented site map
+robots.txt           # Crawler policy with sitemap pointer
+sitemap.xml          # Minimal sitemap for key public surfaces
 scripts/             # Local generation scripts
 style.css            # Stylesheet
 cv.pdf               # CV download
@@ -43,3 +46,4 @@ CNAME                # Custom domain
 - **2026-01-02:** Redesigned as plain HTML/CSS. Built landing page, publications page, stylesheet. Ready for deployment.
 - **2026-06-04:** Added Markdown/BibTeX mirrors for eight core papers, with per-paper landing pages and `llms.txt`.
 - **2026-06-13:** Added public OKF export surface under `/okf/`, with generated public-safe bundle files under `/okf/bundle/` and discovery links from the homepage, papers index, and `llms.txt`.
+- **2026-06-13:** Added `robots.txt` and `sitemap.xml` so the OKF page and bundle index are explicitly discoverable by crawlers.

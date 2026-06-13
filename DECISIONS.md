@@ -10,3 +10,8 @@ Format: `## YYYY-MM-DD` then bullet points with **bold topic** and brief rationa
 
 - **Machine-readable paper mirrors:** Add Markdown/BibTeX mirrors for a first set of eight core research-program papers. Treat these as author-manuscript mirrors for accessibility, search, and LLM retrieval; canonical citation targets remain the linked DOI, publisher, LingBuzz, PhilArchive, arXiv, or Zenodo records.
 - **Regeneration workflow:** Generate mirrors from local LaTeX sources with `scripts/generate-paper-mirrors.mjs` rather than editing generated Markdown by hand. The generator publicifies blind-review conditionals and normalizes known local citation aliases for citeproc.
+
+## 2026-06-13
+
+- **Public OKF export:** Publish a curated public Open Knowledge Format surface at `/okf/`, with raw bundle files under `/okf/bundle/`. Treat these as public-safe project-context exports, not canonical citation records.
+- **Crawler and agent discovery:** Link the OKF export from the homepage, machine-readable papers page, `llms.txt`, `robots.txt`, and `sitemap.xml` so both humans and agents can discover it.

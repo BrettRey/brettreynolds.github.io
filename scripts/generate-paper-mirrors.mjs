@@ -128,7 +128,7 @@ const papers = [
     slug: "english-interjections",
     title: "What English interjections let us predict: Stable causal-pragmatic clustering and path dependence",
     shortTitle: "What English interjections let us predict",
-    status: "Submitted to Journal of Pragmatics",
+    status: "Under review at Journal of Pragmatics",
     year: "2026",
     sourceTex: "papers/English_Interjections_as_HPC/main.tex",
     bibliography: ["papers/English_Interjections_as_HPC/references.bib", "papers/English_Interjections_as_HPC/references-local.bib"],
@@ -140,7 +140,7 @@ const papers = [
   author = {Reynolds, Brett},
   title = {What English Interjections Let Us Predict: Stable Causal-Pragmatic Clustering and Path Dependence},
   year = {2026},
-  note = {Preprint, LingBuzz/009852; submitted to Journal of Pragmatics},
+  note = {Preprint, LingBuzz/009852; under review at Journal of Pragmatics},
   url = {https://lingbuzz.net/lingbuzz/009852}
 }
 `,

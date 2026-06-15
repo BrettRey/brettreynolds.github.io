@@ -2,7 +2,7 @@
 title: "What English interjections let us predict: Stable causal-pragmatic clustering and path dependence"
 author: "Brett Reynolds"
 year: "2026"
-status: "Submitted to Journal of Pragmatics"
+status: "Under review at Journal of Pragmatics"
 canonical_url: "https://lingbuzz.net/lingbuzz/009852"
 website_url: "https://brettreynolds.ca/papers/english-interjections/"
 markdown_url: "https://brettreynolds.ca/papers/english-interjections/paper.md"

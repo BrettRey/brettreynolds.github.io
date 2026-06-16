@@ -133,14 +133,19 @@ const papers = [
     sourceTex: "papers/English_Interjections_as_HPC/main.tex",
     bibliography: ["papers/English_Interjections_as_HPC/references.bib", "papers/English_Interjections_as_HPC/references-local.bib"],
     canonicalUrl: "https://lingbuzz.net/lingbuzz/009852",
-    externalLinks: [{ label: "LingBuzz", url: "https://lingbuzz.net/lingbuzz/009852" }],
+    externalLinks: [
+      { label: "LingBuzz", url: "https://lingbuzz.net/lingbuzz/009852" },
+      { label: "SSRN", url: "https://ssrn.com/abstract=6954254" },
+    ],
     keywords: ["interjections", "theoretical pragmatics", "projectibility", "path dependence"],
     description: "A theoretical-pragmatics account of what categorizing an English form as an interjection lets speakers, hearers, and analysts predict.",
     bibtex: `@unpublished{reynolds2026interjections,
   author = {Reynolds, Brett},
   title = {What English Interjections Let Us Predict: Stable Causal-Pragmatic Clustering and Path Dependence},
   year = {2026},
-  note = {Preprint, LingBuzz/009852; under review at Journal of Pragmatics},
+  note = {Preprint, LingBuzz/009852 and SSRN/6954254; under review at Journal of Pragmatics},
+  eprinttype = {SSRN},
+  eprint = {6954254},
   url = {https://lingbuzz.net/lingbuzz/009852}
 }
 `,

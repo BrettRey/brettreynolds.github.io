@@ -187,16 +187,19 @@ const papers = [
       "papers/Expert_Grammaticality_Judges_Are_Evaluators_Not_Participants/references.bib",
       "papers/Expert_Grammaticality_Judges_Are_Evaluators_Not_Participants/references-local.bib",
     ],
-    canonicalUrl: "https://lingbuzz.net/lingbuzz/010081",
-    externalLinks: [{ label: "LingBuzz", url: "https://lingbuzz.net/lingbuzz/010081" }],
+    canonicalUrl: "https://philarchive.org/rec/REYEGJ",
+    externalLinks: [
+      { label: "LingBuzz", url: "https://lingbuzz.net/lingbuzz/010081" },
+      { label: "PhilArchive", url: "https://philarchive.org/rec/REYEGJ" },
+    ],
     keywords: ["grammaticality judgments", "acceptability judgments", "research ethics review", "rater reliability", "TCPS 2", "morphology", "syntax", "phonology"],
     description: "A role-classification argument that expert grammaticality judges are participants when studied as people but evaluators when their expertise assesses linguistic materials.",
     bibtex: `@unpublished{reynolds2026expertJudges,
   author = {Reynolds, Brett},
   title = {Expert Grammaticality Judges as Evaluators, Not Participants: Grammaticality Judgments, Rater Roles, and Research Ethics Review},
   year = {2026},
-  note = {Preprint, LingBuzz/010081; under review at Canadian Journal of Linguistics / Revue canadienne de linguistique},
-  url = {https://lingbuzz.net/lingbuzz/010081}
+  note = {Preprint, LingBuzz/010081 and PhilArchive REYEGJ; under review at Canadian Journal of Linguistics / Revue canadienne de linguistique},
+  url = {https://philarchive.org/rec/REYEGJ}
 }
 `,
   },

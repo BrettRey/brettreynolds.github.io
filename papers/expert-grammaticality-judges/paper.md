@@ -3,7 +3,7 @@ title: "Expert Grammaticality Judges as Evaluators, Not Participants: Grammatica
 author: "Brett Reynolds"
 year: "2026"
 status: "Under review at Canadian Journal of Linguistics / Revue canadienne de linguistique"
-canonical_url: "https://lingbuzz.net/lingbuzz/010081"
+canonical_url: "https://philarchive.org/rec/REYEGJ"
 website_url: "https://brettreynolds.ca/papers/expert-grammaticality-judges/"
 markdown_url: "https://brettreynolds.ca/papers/expert-grammaticality-judges/paper.md"
 version: "author-manuscript mirror"

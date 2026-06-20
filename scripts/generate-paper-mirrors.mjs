@@ -587,6 +587,14 @@ function linkList(links) {
   return links.map((link) => `<a href="${escapeHtml(link.url)}">${escapeHtml(link.label)}</a>`).join(" ");
 }
 
+function renderStatus(status) {
+  const underReviewMatch = status.match(/^(Under review at )(.+)$/);
+  if (underReviewMatch) {
+    return `${escapeHtml(underReviewMatch[1])}<em>${escapeHtml(underReviewMatch[2])}</em>`;
+  }
+  return escapeHtml(status);
+}
+
 function renderPaperIndex(paper) {
   const jsonLd = {
     "@context": "https://schema.org",
@@ -637,7 +645,7 @@ ${JSON.stringify(jsonLd, null, 2)}
 
   <section class="pub-section">
     <p>${escapeHtml(paper.description)}</p>
-    <p><strong>Status:</strong> ${escapeHtml(paper.status)}.</p>
+    <p><strong>Status:</strong> ${renderStatus(paper.status)}.</p>
     <p class="pub-links">
       <a href="paper.md">Markdown</a>
       <a href="cite.bib">BibTeX</a>

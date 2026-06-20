@@ -151,6 +151,56 @@ const papers = [
 `,
   },
   {
+    slug: "difference-in-differences-for-corpus-linguistics",
+    title: "Difference-in-differences for corpus linguistics: Causal inference, corpus composition, and linguistic change after shocks",
+    shortTitle: "Difference-in-differences for corpus linguistics",
+    status: "Under review at Corpus Linguistics and Linguistic Theory",
+    year: "2026",
+    versionDate: "2026-06-20",
+    sourceTex: "papers/Difference-in-Differences_for_Corpus_Linguistics/main.tex",
+    bibliography: [
+      "papers/Difference-in-Differences_for_Corpus_Linguistics/references.bib",
+      "papers/Difference-in-Differences_for_Corpus_Linguistics/references-local.bib",
+    ],
+    canonicalUrl: "https://lingbuzz.net/lingbuzz/010080",
+    externalLinks: [{ label: "LingBuzz", url: "https://lingbuzz.net/lingbuzz/010080" }],
+    keywords: ["difference-in-differences", "corpus linguistics", "causal inference", "corpus composition", "linguistic change", "morphology"],
+    description: "A corpus-methods account of when before/after corpus data can support causal claims about linguistic change after shocks.",
+    bibtex: `@unpublished{reynolds2026didcorpus,
+  author = {Reynolds, Brett},
+  title = {Difference-in-Differences for Corpus Linguistics: Causal Inference, Corpus Composition, and Linguistic Change after Shocks},
+  year = {2026},
+  note = {Preprint, LingBuzz/010080; under review at Corpus Linguistics and Linguistic Theory},
+  url = {https://lingbuzz.net/lingbuzz/010080}
+}
+`,
+  },
+  {
+    slug: "expert-grammaticality-judges",
+    title: "Expert Grammaticality Judges as Evaluators, Not Participants: Grammaticality Judgments, Rater Roles, and Research Ethics Review",
+    shortTitle: "Expert Grammaticality Judges as Evaluators, Not Participants",
+    status: "Under review at Canadian Journal of Linguistics / Revue canadienne de linguistique",
+    year: "2026",
+    versionDate: "2026-06-20",
+    sourceTex: "papers/Expert_Grammaticality_Judges_Are_Evaluators_Not_Participants/main.tex",
+    bibliography: [
+      "papers/Expert_Grammaticality_Judges_Are_Evaluators_Not_Participants/references.bib",
+      "papers/Expert_Grammaticality_Judges_Are_Evaluators_Not_Participants/references-local.bib",
+    ],
+    canonicalUrl: "https://lingbuzz.net/lingbuzz/010081",
+    externalLinks: [{ label: "LingBuzz", url: "https://lingbuzz.net/lingbuzz/010081" }],
+    keywords: ["grammaticality judgments", "acceptability judgments", "research ethics review", "rater reliability", "TCPS 2", "morphology", "syntax", "phonology"],
+    description: "A role-classification argument that expert grammaticality judges are participants when studied as people but evaluators when their expertise assesses linguistic materials.",
+    bibtex: `@unpublished{reynolds2026expertJudges,
+  author = {Reynolds, Brett},
+  title = {Expert Grammaticality Judges as Evaluators, Not Participants: Grammaticality Judgments, Rater Roles, and Research Ethics Review},
+  year = {2026},
+  note = {Preprint, LingBuzz/010081; under review at Canadian Journal of Linguistics / Revue canadienne de linguistique},
+  url = {https://lingbuzz.net/lingbuzz/010081}
+}
+`,
+  },
+  {
     slug: "public-update-operators",
     title: "Why clause structure is judged like tense and agreement: Public-update operators and grammaticality",
     shortTitle: "Why clause structure is judged like tense and agreement",
@@ -403,7 +453,7 @@ function bibliographyArgs(paper, tempBibPaths) {
 
 function convertPaper(paper) {
   const texPath = path.join(workspaceRoot, paper.sourceTex);
-  const latex = publicLatex(fs.readFileSync(texPath, "utf8"));
+  const latex = publicLatex(expandSectionInputs(fs.readFileSync(texPath, "utf8"), path.dirname(texPath)));
   const tempTexPath = path.join(path.dirname(texPath), ".website-mirror.tmp.tex");
   const tempBibPaths = [];
   fs.writeFileSync(tempTexPath, latex);
@@ -445,7 +495,7 @@ function convertPaper(paper) {
     `website_url: ${JSON.stringify(siteUrl(paper.slug))}`,
     `markdown_url: ${JSON.stringify(siteUrl(paper.slug, "paper.md"))}`,
     'version: "author-manuscript mirror"',
-    `version_date: ${JSON.stringify(versionDate)}`,
+    `version_date: ${JSON.stringify(paper.versionDate ?? versionDate)}`,
     `keywords: [${paper.keywords.map((keyword) => JSON.stringify(keyword)).join(", ")}]`,
     "---",
     "",
@@ -469,14 +519,32 @@ function convertPaper(paper) {
 function publicLatex(latex) {
   let next = expandCustomMacros(normalizeCitationAliases(latex))
     .replace(/^\\newif\\ifblind\s*$/gm, "")
+    .replace(/^\\ifdefined\\blindbuild\s+\\blindtrue\s+\\else\s+\\blindfalse\s+\\fi\s*$/gm, "")
     .replace(/^\\blind(?:true|false).*$/gm, "");
   let previous;
   do {
     previous = next;
     next = next.replace(/\\ifblind([\s\S]*?)\\else([\s\S]*?)\\fi/g, "$2");
+    next = next.replace(/\\ifdefined\\blind(?![A-Za-z])([\s\S]*?)\\else([\s\S]*?)\\fi/g, "$2");
     next = next.replace(/\\ifdefined\\blindsubmission([\s\S]*?)\\else([\s\S]*?)\\fi/g, "$2");
   } while (next !== previous);
   return next.replace(/^\\newif\s*$/gm, "");
+}
+
+function expandSectionInputs(latex, baseDir, seen = new Set()) {
+  return latex.replace(/\\input\{([^{}]+)\}/g, (match, inputPath) => {
+    if (!inputPath.startsWith("sections/")) {
+      return match;
+    }
+    const texInputPath = inputPath.endsWith(".tex") ? inputPath : `${inputPath}.tex`;
+    const absoluteInputPath = path.resolve(baseDir, texInputPath);
+    if (seen.has(absoluteInputPath) || !fs.existsSync(absoluteInputPath)) {
+      return match;
+    }
+    seen.add(absoluteInputPath);
+    const inputLatex = fs.readFileSync(absoluteInputPath, "utf8");
+    return expandSectionInputs(inputLatex, path.dirname(absoluteInputPath), seen);
+  });
 }
 
 function expandCustomMacros(latex) {
@@ -604,6 +672,7 @@ function renderPapersIndex() {
   <h1>Machine-Readable Papers</h1>
   <p><a href="../publications.html">&larr; Back to publications</a></p>
   <p>These author-manuscript Markdown mirrors are provided for accessibility, search, and machine readability. Canonical public records remain the linked preprint, archive, DOI, or publisher pages.</p>
+  <p>For a small project-level context bundle, see the <a href="../okf/">public OKF export</a>.</p>
   <ul class="pub-list">
 ${items}
   </ul>
@@ -631,11 +700,13 @@ ${entries}
 - [Publications](${baseUrl}/publications.html): Full publication list.
 - [CGEL correctives and extensions](${baseUrl}/cgel-correctives.html): Thematic cluster of CGEL corrections, extensions, and related category/function work.
 - [Machine-readable papers](${baseUrl}/papers/): Index of Markdown mirrors and BibTeX records.
+- [Public OKF export](${baseUrl}/okf/): Public Open Knowledge Format bundle for selected research-project context.
+- [Public OKF bundle index](${baseUrl}/okf/bundle/index.md): Raw OKF Markdown/YAML bundle index.
 - [CV](${baseUrl}/cv.pdf): Current CV as PDF.
 
 ## Use Notes
 
-The Markdown files are author-manuscript mirrors for accessibility, search, and machine readability. Prefer the linked canonical record for citation when a DOI, PhilArchive, LingBuzz, arXiv, Zenodo, or publisher page is available.
+The Markdown files are author-manuscript mirrors for accessibility, search, and machine readability. The OKF files are public-safe project-context exports. Prefer the linked canonical record for citation when a DOI, PhilArchive, LingBuzz, arXiv, Zenodo, or publisher page is available.
 `;
 }
 

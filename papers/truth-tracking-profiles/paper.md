@@ -142,7 +142,7 @@ A source’s evidential force can change when the rest of the correction network
 
 LLMs sharpen this point for reliabilism in particular. The relevant process is rarely just “the model generated this text”. It may include pretraining data, filtering, instruction tuning, retrieval, tool calls, prompting, deployment constraints, post-hoc checking, and institutional uptake. It may also include reinforcement learning from human feedback (RLHF). Reliability often attaches to that system-profile. A cleanly bounded internal generator may be too narrow. Reliabilism can preserve its central insight by individuating the process at the same level at which the stabilizers actually operate.
 
-Reliability and answerability cross-cut. A route can be reliable while weakly answerable, and answerable before it is reliable. It may be reliable in a familiar environment but weakly answerable under perturbation if the target has no route for correcting it when conditions change. Conversely, a newly calibrated instrument can be answerable before it has much of a track record: standards, logs, and downstream checks already specify how discrepancies would show up. Reliability is a statistical property of a process; answerability is a counterfactual property of a network.
+Reliability and answerability cross-cut. A route can be reliable while weakly answerable, and answerable before it’s reliable. It may be reliable in a familiar environment but weakly answerable under perturbation if the target has no route for correcting it when conditions change. Conversely, a newly calibrated instrument can be answerable before it has much of a track record: standards, logs, and downstream checks already specify how discrepancies would show up. Reliability is a statistical property of a process; answerability is a counterfactual property of a network.
 
 A concrete transfer case shows the pressure. Suppose a retrieval-augmented system, which retrieves external records and places them in the model’s context, scores well on source-backed factual questions about clinical guidelines. A coarse process description such as “this system answers medical questions reliably” invites transfer to neighbouring medical tasks. The profile view withholds that transfer. The success was supported by record access, text extraction, and institutional testimony. It should transfer to nearby record-backed questions and degrade on tasks whose missing stabilizer is live measurement, patient-specific observation, calculation, or intervention.
 
@@ -331,7 +331,7 @@ Beyond artificial systems, LLMs serve as useful pressure cases because they sepa
 
 # Acknowledgements
 
-I thank Geoff for comments on coherence theory and the history of *true*. Anthropic Claude Opus 4.8, Anthropic Claude Fable 5, and OpenAI Codex (GPT-5.5) assisted with drafting and revision. The author reviewed and revised all content and takes full responsibility for the final text.
+I thank Geoff for comments on coherence theory and the history of *true*. The large language models Anthropic Claude Opus 4.8; Anthropic Claude Fable 5; and OpenAI Codex using GPT-5.5 served as drafting and editing aids throughout the preparation of this paper. I am responsible for all theoretical claims, arguments, errors, and interpretive choices.
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 
@@ -589,7 +589,7 @@ Russell, Bertrand. 1907. “On the Nature of Truth.” *Proceedings of the Arist
 
 <div id="ref-shapira2026rlhf" class="csl-entry">
 
-Shapira, Itai, Gerdus Benade, and Ariel D. Procaccia. 2026. “How RLHF Amplifies Sycophancy.” *arXiv Preprint arXiv:2602.01002*, ahead of print. <https://doi.org/10.48550/arXiv.2602.01002>.
+Shapira, Itai, Gerdus Benade, and Ariel D. Procaccia. 2026. “How RLHF Amplifies Sycophancy.” *<span class="nocase">arXiv</span> Preprint <span class="nocase">arXiv</span>:2602.01002*, ahead of print. <https://doi.org/10.48550/arXiv.2602.01002>.
 
 </div>
 
@@ -603,7 +603,7 @@ Shuster, Kurt, Spencer Poff, Moya Chen, Douwe Kiela, and Jason Weston. 2021. “
 
 [^1]: Contact: <brett.reynolds@humber.ca>
 
-[^2]: The lexical history of *true* is suggestive evidence only. The OED records Old English senses of loyalty, trustworthiness, and veracity, early senses of accordance with fact, and later medieval senses of accurate fit, proper purpose, and mechanical alignment (Oxford English Dictionary 2026). A ruler, balance, wheel, or surface can be true when it meets the standards of the practice in which it is checked. That history doesn’t settle the analysis, but it fits the constraint relation used here.
+[^2]: The lexical history of *true* is suggestive evidence only. The OED records Old English senses of loyalty, trustworthiness, and veracity, early senses of accordance with fact, and later medieval senses of accurate fit, proper purpose, and mechanical alignment (Oxford English Dictionary 2026). A ruler, balance, wheel, or surface can be true when it meets the standards of the practice in which it’s checked. That history doesn’t settle the analysis, but it fits the constraint relation used here.
 
 [^3]: Preference signals have factual targets. Rater approval of affirmation, deference, or confident presentation is a fact about a population and interaction setting, and RLHF can make the model’s behaviour strongly answerable to that fact. The failure mode is target mismatch: the policy can track the rater distribution accurately while its assertions are assessed against a different, object-level target. Sycophancy is the clean case, where a system accurately tracks the wrong target.
 

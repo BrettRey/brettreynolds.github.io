@@ -1,9 +1,63 @@
 /* Brett Reynolds - Personal Website
    Typography: EB Garamond (body), system sans-serif (UI fallback)
-   Colors: #800020 (maroon links), #222 (text), #fafafa (background)
+   Colors: maroon links, warm neutral text/background
 */
 
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+:root {
+  color-scheme: light;
+  --bg: #fafafa;
+  --text: #222;
+  --muted: #555;
+  --subtle: #888;
+  --rule: #ddd;
+  --link: #800020;
+  --code-bg: #f0f0f0;
+  --quote-bg: #fafafa;
+  --control-bg: #fff;
+  --control-hover: #f4f4f4;
+  --focus: #9f2b46;
+  --shadow: rgba(0, 0, 0, 0.12);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #111;
+    --text: #f0eee8;
+    --muted: #c8c2b9;
+    --subtle: #9e978f;
+    --rule: #383838;
+    --link: #ff9fb8;
+    --code-bg: #222;
+    --quote-bg: #181818;
+    --control-bg: #1c1c1c;
+    --control-hover: #242424;
+    --focus: #ffb6c8;
+    --shadow: rgba(0, 0, 0, 0.42);
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #111;
+  --text: #f0eee8;
+  --muted: #c8c2b9;
+  --subtle: #9e978f;
+  --rule: #383838;
+  --link: #ff9fb8;
+  --code-bg: #222;
+  --quote-bg: #181818;
+  --control-bg: #1c1c1c;
+  --control-hover: #242424;
+  --focus: #ffb6c8;
+  --shadow: rgba(0, 0, 0, 0.42);
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+}
 
 * {
   box-sizing: border-box;
@@ -18,11 +72,50 @@ html {
 
 body {
   font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
-  color: #222;
-  background-color: #fafafa;
+  color: var(--text);
+  background-color: var(--bg);
   padding: 2rem 1rem;
   max-width: 800px;
   margin: 0 auto;
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 0.75rem;
+  right: max(0.75rem, calc((100vw - 800px) / 2 + 0.75rem));
+  z-index: 20;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  min-width: 4.5rem;
+  min-height: 2.25rem;
+  padding: 0.35rem 0.65rem;
+  border: 1px solid var(--link);
+  border-radius: 999px;
+  color: var(--text);
+  background: var(--control-bg);
+  box-shadow: 0 1px 8px var(--shadow);
+  cursor: pointer;
+  font: 1.05rem/1 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.theme-toggle:hover {
+  background: var(--control-hover);
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 3px;
+}
+
+.theme-toggle-icon {
+  display: block;
+  transform: translateY(-0.02rem);
+}
+
+.theme-toggle-label {
+  font-size: 0.8rem;
 }
 
 /* Headings - small caps style */
@@ -41,7 +134,7 @@ h2 {
   letter-spacing: 0.05em;
   margin-top: 2rem;
   margin-bottom: 1rem;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--rule);
   padding-bottom: 0.25rem;
 }
 
@@ -58,8 +151,8 @@ h3 {
 blockquote {
   margin: 1.5rem 0;
   padding: 1rem 1.5rem;
-  border-left: 3px solid #ddd;
-  background: #fafafa;
+  border-left: 3px solid var(--rule);
+  background: var(--quote-bg);
   font-size: 0.95rem;
 }
 
@@ -75,14 +168,14 @@ blockquote p:last-child {
 code {
   font-family: 'Inconsolata', 'Consolas', monospace;
   font-size: 0.9em;
-  background: #f0f0f0;
+  background: var(--code-bg);
   padding: 0.1em 0.3em;
   border-radius: 3px;
 }
 
 /* Links - maroon */
 a {
-  color: #800020;
+  color: var(--link);
   text-decoration: none;
 }
 
@@ -114,7 +207,7 @@ a:hover {
 
 .tagline {
   font-size: 1rem;
-  color: #555;
+  color: var(--muted);
   letter-spacing: 0.02em;
   word-spacing: 0.12em;
   margin-bottom: 1rem;
@@ -128,7 +221,7 @@ a:hover {
 /* Divider */
 hr {
   border: none;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid var(--rule);
   margin: 1.5rem 0;
 }
 
@@ -149,18 +242,18 @@ hr {
 /* Contact */
 .contact {
   font-size: 0.95rem;
-  color: #555;
+  color: var(--muted);
 }
 
 .contact a {
-  color: #800020;
+  color: var(--link);
 }
 
 /* Footer */
 footer {
   margin-top: 3rem;
   font-size: 0.85rem;
-  color: #888;
+  color: var(--subtle);
   text-align: center;
 }
 
@@ -208,11 +301,11 @@ footer {
 .cluster-list li {
   margin-bottom: 1.25rem;
   padding-left: 1rem;
-  border-left: 2px solid #ddd;
+  border-left: 2px solid var(--rule);
 }
 
 .cluster-list li.core {
-  border-left-color: #800020;
+  border-left-color: var(--link);
 }
 
 .cluster-title {
@@ -222,14 +315,14 @@ footer {
 
 .cluster-meta {
   display: block;
-  color: #555;
+  color: var(--muted);
   font-size: 0.95rem;
   margin: 0.1rem 0 0.2rem;
 }
 
 .cluster-note {
   margin: 1.5rem 0;
-  color: #555;
+  color: var(--muted);
 }
 
 .cluster-links {
@@ -248,9 +341,13 @@ footer {
 
 /* Essay pages */
 .essay-meta {
-  color: #555;
+  color: var(--muted);
   font-size: 1rem;
   margin-bottom: 0.5rem;
+}
+
+.essay-summary {
+  color: var(--muted);
 }
 
 .essay-content {
@@ -290,7 +387,7 @@ footer {
   content: "–";
   display: inline-block;
   width: 1em;
-  color: #888;
+  color: var(--subtle);
 }
 
 .smallcaps {
@@ -300,14 +397,14 @@ footer {
 
 .citation {
   font-size: 0.9em;
-  color: #555;
+  color: var(--muted);
 }
 
 /* References section */
 .references {
   margin-top: 2rem;
   padding-top: 1rem;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid var(--rule);
 }
 
 .ref-heading {
@@ -318,7 +415,7 @@ footer {
 
 .ref-entry {
   font-size: 0.95rem;
-  color: #555;
+  color: var(--muted);
   margin-bottom: 0.75rem;
   padding-left: 2em;
   text-indent: -2em !important;
@@ -348,5 +445,13 @@ footer {
   .pub-list li {
     text-indent: 0;
     margin-left: 0;
+  }
+
+  .theme-toggle {
+    top: 0.5rem;
+    right: 0.5rem;
+    min-width: 4.25rem;
+    min-height: 2rem;
+    padding: 0.3rem 0.55rem;
   }
 }

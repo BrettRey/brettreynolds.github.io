@@ -634,6 +634,7 @@ function renderPaperIndex(paper) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="${escapeHtml(paper.description)}">
   <title>${escapeHtml(paper.shortTitle)} - Brett Reynolds</title>
+  <script src="../../theme.js"></script>
   <link rel="stylesheet" href="../../style.css">
   <link rel="canonical" href="${escapeHtml(siteUrl(paper.slug))}">
   <link rel="alternate" type="text/markdown" href="paper.md">
@@ -677,6 +678,7 @@ function renderPapersIndex() {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Machine-readable paper mirrors by Brett Reynolds.">
   <title>Machine-Readable Papers - Brett Reynolds</title>
+  <script src="../theme.js"></script>
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>

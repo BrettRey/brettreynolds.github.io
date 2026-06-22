@@ -15,3 +15,7 @@ Format: `## YYYY-MM-DD` then bullet points with **bold topic** and brief rationa
 
 - **Public OKF export:** Publish a curated public Open Knowledge Format surface at `/okf/`, with raw bundle files under `/okf/bundle/`. Treat these as public-safe project-context exports, not canonical citation records.
 - **Crawler and agent discovery:** Link the OKF export from the homepage, machine-readable papers page, `llms.txt`, `robots.txt`, and `sitemap.xml` so both humans and agents can discover it.
+
+## 2026-06-22
+
+- **Site-wide dark mode:** Add a shared `theme.js` toggle and CSS variables so common-shell pages support system dark mode plus a persistent explicit light/dark choice. Leave slide decks, standalone experiments, and copied reference pages outside the shared toggle.

@@ -1,21 +1,21 @@
 ---
 type: "paper"
 id: "not-every-stable-cluster-is-homeostatic"
-title: "Not every stable cluster is homeostatic: Stability, network order, and control in projectible kinds"
+title: "Not every stable cluster is homeostatic: Stability, network order, maintenance, and control in projectible kinds"
 description: "A diagnostic account separating stable co-occurrence, network order, maintenance, and corrective control in projectible kinds."
 resource: "https://philarchive.org/rec/REYNES"
 tags: ["paper", "hpc", "homeostasis", "projectibility", "philosophy-of-science"]
-timestamp: "2026-06-13T08:45:22-04:00"
-status: "preprint"
+timestamp: "2026-06-24T15:49:33-04:00"
+status: "under-review"
 public_visibility: "public"
-submission_state: "not-submitted"
+submission_state: "submitted"
 preprint: "https://philarchive.org/rec/REYNES"
 supplement: "https://brettrey.github.io/not-every-stable-cluster-is-homeostatic/"
-canonical_source: "papers/Not_Every_Stable_Cluster_Is_Homeostatic/STATUS.md"
-generated_at: "2026-06-13T08:45:22-04:00"
+canonical_source: "papers/submitted/not-every-stable-cluster-is-homeostatic/STATUS.md"
+generated_at: "2026-06-24T15:49:33-04:00"
 ---
 
-# Not every stable cluster is homeostatic: Stability, network order, and control in projectible kinds
+# Not every stable cluster is homeostatic: Stability, network order, maintenance, and control in projectible kinds
 
 A diagnostic account separating stable co-occurrence, network order, maintenance, and corrective control in projectible kinds.
 

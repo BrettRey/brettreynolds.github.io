@@ -5,13 +5,13 @@ title: "Truth-Tracking Profiles: What Large Language Models Participate In"
 description: "A profile account of how large language models participate in stabilizing routes to truth, including testimony, coherence, measurement, intervention, and correction."
 resource: "https://philarchive.org/rec/REYTPW"
 tags: ["paper", "hpc", "llm", "truth-tracking", "projectibility"]
-timestamp: "2026-06-13T08:45:22-04:00"
+timestamp: "2026-06-24T15:49:33-04:00"
 status: "preprint"
 public_visibility: "public"
 submission_state: "not-submitted"
 preprint: "https://philarchive.org/rec/REYTPW"
-canonical_source: "papers/Truth-Tracking_as_a_Homeostatic_Property_Cluster/STATUS.md"
-generated_at: "2026-06-13T08:45:22-04:00"
+canonical_source: "papers/preprints/truth-tracking-profiles/STATUS.md"
+generated_at: "2026-06-24T15:49:33-04:00"
 ---
 
 # Truth-Tracking Profiles: What Large Language Models Participate In

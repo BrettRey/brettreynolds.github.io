@@ -2,7 +2,7 @@
 title: "Why clause structure is judged like tense and agreement: Public-update operators and grammaticality"
 author: "Brett Reynolds"
 year: "2026"
-status: "Under review at Functions of Language"
+status: "Preprint"
 canonical_url: "https://ling.auf.net/lingbuzz/009706"
 website_url: "https://brettreynolds.ca/papers/public-update-operators/"
 markdown_url: "https://brettreynolds.ca/papers/public-update-operators/paper.md"

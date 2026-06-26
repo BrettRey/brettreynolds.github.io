@@ -4,20 +4,19 @@ author: "Brett Reynolds"
 year: "2026"
 status: "Preprint"
 canonical_url: "https://lingbuzz.net/lingbuzz/010091"
-citation_handle: "lingbuzz/010091"
 website_url: "https://brettreynolds.ca/papers/bridge-principles-without-ug/"
 markdown_url: "https://brettreynolds.ca/papers/bridge-principles-without-ug/paper.md"
-source_url: "https://github.com/BrettRey/bridge-principles-no-ug"
 version: "author-manuscript mirror"
 version_date: "2026-06-25"
 keywords: ["Universal Grammar", "projectibility", "linguistic ontology", "crosslinguistic evidence", "bridge principles", "comparative method"]
 ---
 # Bridge Principles without UG: Projectibility, Crosslinguistic Evidence, and Linguistic Ontology
 
-**Author-manuscript mirror.** This Markdown file is provided for accessibility, search, and machine readability. The canonical public record is `lingbuzz/010091`, linked in the metadata above.
+**Author-manuscript mirror.** This Markdown file is provided for accessibility, search, and machine readability. The canonical public record is linked in the metadata above.
 
 ## Abstract
-Crosslinguistic argument needs a warrant. If evidence from one language is made to bear on another, something has to explain why the evidence travels, and Reiss is right to press this against anyone who treats comparison as automatic. His answer is Chomskyan Universal Grammar, together with a stronger claim: deny UG and you forfeit any grounds for importing analytic categories across languages. This paper grants the methodological burden and rejects the monopoly claim. UG is one proposed licence for evidential travel, not the condition of possibility for linguistic comparison. The alternative is projectibility (what observing some features licenses us to expect about others), used as a second-order audit: name the target of an inference, the property-and-relation profile that supports it, and the conditions under which it should be localized, demoted, or rejected. On that audit, Reiss's French-English *any* example reaches only cue level, while historical-comparative reconstruction supplies a genuine non-UG warrant with vertical, causal-historical scope: common descent and regular correspondence license transfer within a family. The same discipline extends to public and distributed objects. The upshot is a pluralist realism about linguistic targets: mental grammars, public standards, usage profiles, typological comparanda, and norm-governed varieties are all real enough for inquiry once their projections and failure conditions are declared.
+Crosslinguistic argument needs a warrant. If evidence from one language is made to bear on another, something has to explain why the evidence travels, and Reiss is right to press this against anyone who treats comparison as automatic. His answer is Chomskyan Universal Grammar, together with a stronger claim: deny UG and you forfeit any grounds for importing analytic categories across languages. This paper grants the methodological burden and rejects the monopoly claim. UG is one proposed licence for evidential travel, not the condition of possibility for linguistic comparison. The alternative is projectibility (what observing some features licenses us to expect about others), used as a second-order audit: name the target of an inference, the property-and-relation profile that supports it, and the conditions under which it should be localized, demoted, or rejected. On that audit, Reiss’s French-English *any* example reaches only cue level, while historical-comparative reconstruction supplies a genuine non-UG warrant with vertical, causal-historical scope: common descent and regular correspondence license transfer within a family. The same discipline extends to public and distributed objects. The upshot is a pluralist realism about linguistic targets: mental grammars, public standards, usage profiles, typological comparanda, and norm-governed varieties are all real enough for inquiry once their projections and failure conditions are declared.
+
 
 **Keywords:** Universal Grammar; projectibility; linguistic ontology; crosslinguistic evidence; bridge principles; comparative method
 
@@ -29,7 +28,7 @@ At the centre of the chapter is a Newtonian analogy. Reiss’s thought is that a
 
 Reiss also narrows the people whose views are under discussion. His stipulation itself marks the word typographically: “the views of ‘linguists’ in this chapter” are the views of “Chomsky and those who broadly adopt his philosophical stances” (Reiss 2026, sec. 2). I accept that local stipulation.
 
-I too will employ typography. In this paper, ‘linguists’, with quotation marks, refers to Reiss’s stipulated Chomskyan group. But <span class="smallcaps">linguists</span> will refer to researchers whose work is organized around systematic inquiry into human language phenomena, including historical linguists, typologists, sociolinguists, corpus linguists, descriptive fieldworkers, language philosophers, and Chomskyan syntacticians.
+I too will employ typography. In this paper, ‘linguists’, with quotation marks, refers to Reiss’s stipulated Chomskyan group. But linguists will refer to researchers whose work is organized around systematic inquiry into human language phenomena, including historical linguists, typologists, sociolinguists, corpus linguists, descriptive fieldworkers, language philosophers, and Chomskyan syntacticians.
 
 My disagreement begins when the stipulation and the UG postulate are made to do global work. Reiss’s conclusion isn’t only that UG can license some crosslinguistic inferences within a Chomskyan programme. It says that denying UG leaves one without grounds for importing analytic categories from one language into another. That’s the monopoly claim at issue here.
 
@@ -37,7 +36,7 @@ Reiss’s monopoly claim has two faces. One is evidential: why should French evi
 
 Projectibility supplies the alternative: what observing some features licenses us to expect about others (Goodman 1955; Reynolds 2026a). Some features support predictions; others don’t. A projectibility-first linguistics asks what a proposed linguistic kind lets us infer, which profile supports that inference, and where the projection fails. Universal Grammar can be part of a proposed support story. It isn’t the condition of possibility for linguistic comparison.
 
-The argument proceeds as follows. Section 2 grants Reiss’s central methodological point: crosslinguistic evidence needs a warrant. Section 3 separates domain formation, evidential transfer, and monopoly. Section 4 introduces projectibility as the audit framework for bridge principles. Section 5 explains why Reiss’s restricted use of ‘linguists’ can’t support conclusions about <span class="smallcaps">linguists</span> as such. Sections 6 and 7 apply the framework, first by demoting Reiss’s French-English *any* example to cue status and then by giving historical comparison as a successful non-UG warrant. Section 8 extends the same discipline to public and distributed linguistic objects.
+The argument proceeds as follows. Section 2 grants Reiss’s central methodological point: crosslinguistic evidence needs a warrant. Section 3 separates domain formation, evidential transfer, and monopoly. Section 4 introduces projectibility as the audit framework for bridge principles. Section 5 explains why Reiss’s restricted use of ‘linguists’ can’t support conclusions about linguists as such. Sections 6 and 7 apply the framework, first by demoting Reiss’s French-English *any* example to cue status and then by giving historical comparison as a successful non-UG warrant. Section 8 extends the same discipline to public and distributed linguistic objects.
 
 # What Reiss Gets Right
 
@@ -69,13 +68,13 @@ A substantive UG theory may do some of that work for a particular comparison. It
 
 The empirical argumentation devices don’t need to be rejected. Homophony, hidden structure, distributional contrast, and crosslinguistic prompts are ordinary forms of linguistic reasoning. Their legitimacy depends on the target and on the warrant that connects the prompt to the proposed analysis. A Chomskyan theory may provide such a warrant, but the device itself doesn’t carry a UG credential. If the support comes from functional recurrence, diachrony, contact history, or language-internal distribution, the argument remains empirical without becoming Reiss-style UG.
 
-Nor does the domain question force the monopoly conclusion. Human languages can be grouped by a recurring profile that supports projections without treating UG as the essence of the group. Section <a href="#sec:projectibility" data-reference-type="ref" data-reference="sec:projectibility">4</a> makes <span class="smallcaps">profile</span> precise; here the word marks the recurring pattern that supports projection. The pattern includes productive form-interpretation pairings acquired as primary communicative systems, externalized in speech, sign, writing, or other modalities, socially transmitted and norm-governed, historically variable, and available for translation, paraphrase, repair, error, correction, and grammatical judgement. The cluster is stabilized by biological endowment, acquisition and uptake, communicative function, social transmission, norm-governed reproduction, and repair under error.
+Nor does the domain question force the monopoly conclusion. Human languages can be grouped by a recurring profile that supports projections without treating UG as the essence of the group. Section <a href="#sec:projectibility" data-reference-type="ref" data-reference="sec:projectibility">4</a> makes profile precise; here the word marks the recurring pattern that supports projection. The pattern includes productive form-interpretation pairings acquired as primary communicative systems, externalized in speech, sign, writing, or other modalities, socially transmitted and norm-governed, historically variable, and available for translation, paraphrase, repair, error, correction, and grammatical judgement. The cluster is stabilized by biological endowment, acquisition and uptake, communicative function, social transmission, norm-governed reproduction, and repair under error.
 
 Nothing in that profile smuggles in the Chomskyan conclusion. Form-interpretation pairings and grammatical judgements presuppose grammaticality as a projectible property, not UG as its explanation. Even if a UG theory best explained part of the cluster’s cohesion, that would help individuate the domain; it wouldn’t license transfer from one language to another without a first-order transfer warrant.
 
 Chess, Python, and tango share some traits with human languages. They have conventions, learnability, sequencing, and in some cases formal syntax. But they don’t support the same projection package: native-language acquisition, ordinary open-ended communicative uptake, historical sound and morphosyntactic change, indexical register effects, crosslinguistic translation, and grammar-internal acceptability contrasts don’t travel to them as a set. They may be valuable comparanda. They aren’t thereby co-domain targets for the same linguistic projections.
 
-Projectibility-first linguistics can ask the missing questions directly. It can distinguish a claim about mental grammars from a claim about a public standard, a corpus profile, a typological comparandum, a diachronic pathway, or an institutional norm. Reiss’s ‘linguists’ can handle the first target on their own terms. They can’t infer from that success that the other targets are illegitimate, or that <span class="smallcaps">linguists</span> working on them lack grounds for comparison.
+Projectibility-first linguistics can ask the missing questions directly. It can distinguish a claim about mental grammars from a claim about a public standard, a corpus profile, a typological comparandum, a diachronic pathway, or an institutional norm. Reiss’s ‘linguists’ can handle the first target on their own terms. They can’t infer from that success that the other targets are illegitimate, or that linguists working on them lack grounds for comparison.
 
 # The Projectibility Framework
 
@@ -83,9 +82,9 @@ An evidential warrant has to say why this evidence matters for that claim. A bri
 
 First fix the target. A projection is an inference from observed features to expected features: from a diagnostic pattern in the source material to a claim about some target. The target may be an individual mental grammar, a public standard, a corpus profile, a typological comparandum, a diachronic pathway, an institutional norm, or a social practice. The target matters because the same observation can licence one projection and fail to licence another.
 
-Call the corresponding worldly pattern a <span class="smallcaps">profile</span>. It makes a projection worth trying because it includes properties and relations, not just shared labels. The relevant question is why observing one feature gives reason to expect another.
+Call the corresponding worldly pattern a profile. It makes a projection worth trying because it includes properties and relations, not just shared labels. The relevant question is why observing one feature gives reason to expect another.
 
-At minimum, the audit needs three pieces. The <span class="smallcaps">target</span> says what the inference is about. A <span class="smallcaps">diagnostic</span> is evidence that the profile is present. Scope conditions and defeaters say where the projection applies and what would block, localize, or demote it (Reynolds 2026a). Later examples add a further question: what keeps the source and target properties connected rather than accidentally associated?
+At minimum, the audit needs three pieces. The target says what the inference is about. A diagnostic is evidence that the profile is present. Scope conditions and defeaters say where the projection applies and what would block, localize, or demote it (Reynolds 2026a). Later examples add a further question: what keeps the source and target properties connected rather than accidentally associated?
 
 Those pieces support different grades of inference. A diagnostic cue identifies a candidate contrast but doesn’t by itself license transfer. A scoped bridge identifies the target and support profile clearly enough to license a local projection. A robust bridge earns broader use only when it survives independent cases, held-out contrasts, and known defeaters. These grades keep cue, warrant, and scope from collapsing into one another.
 
@@ -99,7 +98,7 @@ The same discipline separates three operations. Comparison places phenomena unde
 
 # Boundary Stipulation
 
-Here the notation is a concession, not a complaint. Reiss is free to stipulate that ‘linguists’, in his chapter, means Chomskyan-internal theorists. Claims about ‘linguists’ may show what follows for that subkind. They don’t automatically show what follows for <span class="smallcaps">linguists</span>.
+Here the notation is a concession, not a complaint. Reiss is free to stipulate that ‘linguists’, in his chapter, means Chomskyan-internal theorists. Claims about ‘linguists’ may show what follows for that subkind. They don’t automatically show what follows for linguists.
 
 Presentation order matters. Before UG is credited with licensing field-wide evidential rights, the chapter has already marked some opponents as scholars who “self-identify as linguists” (Reiss 2026, sec. 2). The phrase risks turning colleagues into claimants and disagreement into a question of standing. That phrasing isn’t the argument, but it marks the work the argument still owes. A boundary first drawn rhetorically still needs a warrant if it’s to support a field-wide conclusion.
 
@@ -109,7 +108,7 @@ Reiss may stipulate locally. Trouble starts when the paper lets a local stipulat
 
 Reiss’s own French-English example is the best test case because it turns the abstract monopoly claim into an actual inference. He presents it as one of his empirical argumentation devices, under the heading “French data is English data is Japanese data”. The question is whether evidence from French translations can help decide the analysis of English *any* (Reiss 2026, sec. 5.3.3).
 
-English *any* occurs in negative-polarity environments[^1] and in free-choice uses. Roughly, *I didn’t eat any cookies* illustrates the polarity-dependent use: *any* depends on a licensing environment such as negation. *Choose any card* illustrates the free-choice use: any member of the relevant set is permitted. French, in the relevant standard examples, uses forms such as *rien* in negative contexts and *n’importe quoi* in free-choice contexts. Reiss uses the French contrast to argue that English has two forms pronounced *any*, and then asks what licenses French evidence for English. His answer is UG.
+English *any* occurs in negative-polarity environments[^2] and in free-choice uses. Roughly, *I didn’t eat any cookies* illustrates the polarity-dependent use: *any* depends on a licensing environment such as negation. *Choose any card* illustrates the free-choice use: any member of the relevant set is permitted. French, in the relevant standard examples, uses forms such as *rien* in negative contexts and *n’importe quoi* in free-choice contexts. Reiss uses the French contrast to argue that English has two forms pronounced *any*, and then asks what licenses French evidence for English. His answer is UG.
 
 Projectibility-first reconstruction keeps the useful inference while denying the monopoly. The target isn’t “English as such”; it’s the analysis of English *any*: whether a single surface form realizes one lexical-semantic item or two. The comparandum is the functional contrast between polarity-dependent uses and free-choice uses. The language-internal realizations include English *any*, French *rien*, and French *n’importe quoi*. Classification of English *any* as one item or two is exactly what has to be argued for; it can’t be read off the French split.
 
@@ -185,15 +184,13 @@ Crosslinguistic inference requires bridge principles; it does *not* require Chom
 
 Historical reconstruction also shows why the projectibility claim is realist rather than merely instrumental. Reconstructed proto-forms aren’t convenience labels. They’re posits constrained by converging correspondences, causal order, independent chronology, and defeaters. The successful projection is concrete: inherited correspondences are expected under causal-genealogical scope, while French evidence about *any* remains cue-level without independent English-internal support. Public standards and typological comparanda are less compact objects, but they answer to the same demand: declare the projections they support and the failures they accept.
 
-Projectibility-first work accepts the burden and raises it. Every proposed evidential transfer has to declare the target, the support profile, and the failure conditions. Chomskyan I-language inquiry can meet that demand for its own targets. So can non-UG inquiries, when their warrants specify what carries the inference and where it stops. Reiss hasn’t shown that <span class="smallcaps">linguists</span> need UG to do linguistics.
+Projectibility-first work accepts the burden and raises it. Every proposed evidential transfer has to declare the target, the support profile, and the failure conditions. Chomskyan I-language inquiry can meet that demand for its own targets. So can non-UG inquiries, when their warrants specify what carries the inference and where it stops. Reiss hasn’t shown that linguists need UG to do linguistics.
 
 Projectibility is defeasible too. The account would fail if non-UG warrants kept collapsing into cue-level prompts, if proposed profiles failed on held-out cases, if ordering relations merely renamed the data, or if social and typological targets yielded no projections beyond their diagnostics. Those are the right risks. They make evidential travel inspectable: what carries the inference, where it stops, and what would break it. UG may answer that demand for some Chomskyan targets. It doesn’t own the demand, and it isn’t the condition of possibility for linguistic evidence.
 
 # Acknowledgements
 
 OpenAI Codex 5.5 and Anthropic Claude Opus 4.8 served as drafting, review, and editing aids during the preparation of this paper. I am responsible for all theoretical claims, arguments, errors, and interpretive choices.
-
-# References
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 
@@ -319,4 +316,6 @@ Stainton, Robert J. 2011. “In Defense of Public Languages.” *Linguistics and
 
 </div>
 
-[^1]: I use “negative-polarity” here for the licensing environments, not as a commitment to “NPI” as a settled lexical kind. The *Cambridge Grammar of the English Language* expands “NPI” as “negatively oriented polarity-sensitive item” and treats the relevant environments as including non-affirmative contexts rather than simply negative ones (Huddleston and Pullum 2002, 822–38).
+[^1]: Contact: <brett.reynolds@humber.ca>
+
+[^2]: I use “negative-polarity” here for the licensing environments, not as a commitment to “NPI” as a settled lexical kind. The *Cambridge Grammar of the English Language* expands “NPI” as “negatively oriented polarity-sensitive item” and treats the relevant environments as including non-affirmative contexts rather than simply negative ones (Huddleston and Pullum 2002, 822–38).

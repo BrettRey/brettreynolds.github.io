@@ -201,7 +201,7 @@ const papers = [
     slug: "difference-in-differences-for-corpus-linguistics",
     title: "Difference-in-differences for corpus linguistics: Causal inference, corpus composition, and linguistic change after shocks",
     shortTitle: "Difference-in-differences for corpus linguistics",
-    status: "Under review at Corpus Linguistics and Linguistic Theory",
+    status: "Preprint",
     year: "2026",
     versionDate: "2026-06-20",
     sourceTex: "papers/submitted/difference-in-differences-for-corpus-linguistics/main.tex",
@@ -217,7 +217,7 @@ const papers = [
   author = {Reynolds, Brett},
   title = {Difference-in-Differences for Corpus Linguistics: Causal Inference, Corpus Composition, and Linguistic Change after Shocks},
   year = {2026},
-  note = {Preprint, LingBuzz/010080; under review at Corpus Linguistics and Linguistic Theory},
+  note = {Preprint, LingBuzz/010080},
   url = {https://lingbuzz.net/lingbuzz/010080}
 }
 `,

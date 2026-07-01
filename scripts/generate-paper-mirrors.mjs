@@ -17,6 +17,31 @@ const citationAliases = new Map([
 
 const papers = [
   {
+    slug: "adversarial-pragmatics-for-ai-safety-evaluation",
+    title: "Adversarial Pragmatics for AI Safety Evaluation: A Benchmark for Instruction Conflict, Embedded Commands, and Policy Ambiguity",
+    shortTitle: "Adversarial Pragmatics for AI Safety Evaluation",
+    status: "Submitted to arXiv",
+    year: "2026",
+    versionDate: "2026-07-01",
+    sourceTex: "papers/active/adversarial-pragmatics-for-ai-safety-evaluation/main.tex",
+    bibliography: [
+      "papers/active/adversarial-pragmatics-for-ai-safety-evaluation/references.bib",
+      "papers/active/adversarial-pragmatics-for-ai-safety-evaluation/references-local.bib",
+    ],
+    canonicalUrl: "https://github.com/BrettRey/adversarial-pragmatics-for-ai-safety-evaluation",
+    externalLinks: [{ label: "Source", url: "https://github.com/BrettRey/adversarial-pragmatics-for-ai-safety-evaluation" }],
+    keywords: ["AI safety evaluation", "adversarial pragmatics", "instruction hierarchy", "prompt injection", "annotation protocols", "benchmark validity", "LLM judges"],
+    description: "A linguistically controlled benchmark and annotation protocol for evaluating language-model behaviour under instruction conflict, embedded commands, quotation, scope ambiguity, deixis, indirect speech acts, and multi-turn agent transcripts.",
+    bibtex: `@unpublished{reynolds2026adversarialPragmatics,
+  author = {Reynolds, Brett},
+  title = {Adversarial Pragmatics for AI Safety Evaluation: A Benchmark for Instruction Conflict, Embedded Commands, and Policy Ambiguity},
+  year = {2026},
+  note = {Submitted to arXiv; source repository},
+  url = {https://github.com/BrettRey/adversarial-pragmatics-for-ai-safety-evaluation}
+}
+`,
+  },
+  {
     slug: "bridge-principles-without-ug",
     title: "Bridge Principles without UG: Projectibility, Crosslinguistic Evidence, and Linguistic Ontology",
     shortTitle: "Bridge Principles without UG",

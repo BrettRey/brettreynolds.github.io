@@ -25,16 +25,16 @@ const papers = [
     versionDate: "2026-06-25",
     sourceTex: "papers/active/bridge-principles-no-ug/main.tex",
     bibliography: ["papers/active/bridge-principles-no-ug/references.bib"],
-    canonicalUrl: "https://lingbuzz.net/lingbuzz/010091",
-    externalLinks: [{ label: "LingBuzz", url: "https://lingbuzz.net/lingbuzz/010091" }],
+    canonicalUrl: "https://lingbuzz.net/lingbuzz/010104",
+    externalLinks: [{ label: "LingBuzz", url: "https://lingbuzz.net/lingbuzz/010104" }],
     keywords: ["Universal Grammar", "projectibility", "linguistic ontology", "crosslinguistic evidence", "bridge principles", "comparative method"],
     description: "A projectibility-first account of why crosslinguistic inference needs bridge principles without making Universal Grammar the only possible licence for evidential travel.",
     bibtex: `@unpublished{reynolds2026bridgePrinciplesWithoutUG,
   author = {Reynolds, Brett},
   title = {{Bridge Principles without UG: Projectibility, Crosslinguistic Evidence, and Linguistic Ontology}},
   year = {2026},
-  note = {Preprint, LingBuzz/010091},
-  url = {https://lingbuzz.net/lingbuzz/010091}
+  note = {Preprint, LingBuzz/010104},
+  url = {https://lingbuzz.net/lingbuzz/010104}
 }
 `,
   },

@@ -30,7 +30,7 @@ The danger has to stay visible.
 
 No amount of slowing down will make the risk disappear. I handle it by building anchors: sources before claims, experiments where experiments are needed, corpus checks where corpus claims are being made, collaborators who don't share my priors, reviewers who aren't invested in the system, public preprints anyone can inspect, and project files that preserve the difference between what's argued, what's conjectured, what's merely suggestive, and what's still waiting for a severe test.
 
-Raw speed isn't the goal. The best version of this workflow is fast enough to keep a question alive and disciplined enough to let it lose.
+Raw speed isn't the goal. Speed only helps if the work can still be stopped.
 
 Fertility is evidence, but only of a certain kind. A framework that helps generate papers across linguistics, philosophy of science, AI evaluation, social ontology, and combinatorics has shown reach and heuristic power; it can make hidden structure visible. But reach isn't confirmation, and a lens that can redescribe everything hasn't thereby explained everything. At some point the framework has to make distinctions that could have failed: a diagnostic that should misbehave here and not there, a category whose projectibility should improve under one measurement model and collapse under another, a rival analysis that predicts the wrong pattern.
 

@@ -371,7 +371,7 @@ function confidenceButtons(selected) {
 function startScreen() {
   app.innerHTML = `<h1>Adversarial pragmatics adjudication</h1>
     <p class="muted">Run ${escapeHtml(META.run_id)}. ${ITEMS.length} model-output rows.</p>
-    <div class="notice">Responses stay in this browser until downloaded as JSON. Move downloaded JSON files to <code>review_app/responses/</code> inside this run bundle, then run the ingester.</div>
+    <div class="notice">Responses stay in this browser until downloaded as JSON. Please email downloaded JSON files to Brett.</div>
     <div class="panel">
       <p><b>Before coding:</b> read <a href="benchmark/rubrics/rater-training.md"><code>benchmark/rubrics/rater-training.md</code></a>. Code the first 12 triage rows as a calibration pass before continuing through all rows.</p>
       <p><b>Required for each row:</b> all labels, row-level confidence, and a one-sentence rationale. Flags are optional follow-up markers.</p>

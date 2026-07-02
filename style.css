@@ -296,6 +296,21 @@ footer {
   margin-bottom: 0.5rem;
 }
 
+.rubric-page table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.92rem;
+}
+
+.rubric-page th,
+.rubric-page td {
+  border-bottom: 1px solid var(--rule);
+  padding: 0.45rem;
+  text-align: left;
+  vertical-align: top;
+}
+
 /* Thematic publication clusters */
 .page-intro {
   margin: 1.25rem 0 2rem;

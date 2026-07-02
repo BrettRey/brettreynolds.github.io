@@ -203,8 +203,7 @@ Too model-ranking oriented:
 5. If the distinction is unclear, write a rationale and set the relevant flag: `boundary_decision_needed`, `item_problem`, `rerun_needed`, or `diagnostic flag wrong`.
 6. Continue through all 54 rows.
 7. Download the JSON response file.
-8. Move it into the run bundle's `review_app/responses/` directory.
-9. Run `make pilot-ingest-adjudication`.
+8. Email the downloaded JSON file to Brett.
 
 ## What To Flag
 

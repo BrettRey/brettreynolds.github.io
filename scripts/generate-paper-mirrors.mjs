@@ -20,7 +20,7 @@ const papers = [
     slug: "adversarial-pragmatics-for-ai-safety-evaluation",
     title: "Adversarial Pragmatics for AI Safety Evaluation: A Benchmark for Instruction Conflict, Embedded Commands, and Policy Ambiguity",
     shortTitle: "Adversarial Pragmatics for AI Safety Evaluation",
-    status: "Submitted to arXiv",
+    status: "arXiv preprint",
     year: "2026",
     versionDate: "2026-07-01",
     sourceTex: "papers/active/adversarial-pragmatics-for-ai-safety-evaluation/main.tex",
@@ -28,8 +28,11 @@ const papers = [
       "papers/active/adversarial-pragmatics-for-ai-safety-evaluation/references.bib",
       "papers/active/adversarial-pragmatics-for-ai-safety-evaluation/references-local.bib",
     ],
-    canonicalUrl: "https://github.com/BrettRey/adversarial-pragmatics-for-ai-safety-evaluation",
-    externalLinks: [{ label: "Source", url: "https://github.com/BrettRey/adversarial-pragmatics-for-ai-safety-evaluation" }],
+    canonicalUrl: "https://arxiv.org/abs/2607.01153",
+    externalLinks: [
+      { label: "arXiv", url: "https://arxiv.org/abs/2607.01153" },
+      { label: "Source", url: "https://github.com/BrettRey/adversarial-pragmatics-for-ai-safety-evaluation" },
+    ],
     companionLinks: [
       {
         label: "Adjudication app",
@@ -43,8 +46,8 @@ const papers = [
   author = {Reynolds, Brett},
   title = {Adversarial Pragmatics for AI Safety Evaluation: A Benchmark for Instruction Conflict, Embedded Commands, and Policy Ambiguity},
   year = {2026},
-  note = {Submitted to arXiv; source repository},
-  url = {https://github.com/BrettRey/adversarial-pragmatics-for-ai-safety-evaluation}
+  note = {arXiv:2607.01153; source repository},
+  url = {https://arxiv.org/abs/2607.01153}
 }
 `,
   },

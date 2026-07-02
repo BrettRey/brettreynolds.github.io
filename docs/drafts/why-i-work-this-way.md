@@ -26,7 +26,7 @@ Models still matter. I use them as drafting aids, critics, indexers, sparring pa
 
 I don't want to overstate the comparison. These systems are trained on the very literatures whose assumptions I'm often trying to unsettle. They can make a weak synthesis feel smoother than it deserves, and they can reward the internal coherence of a program before any external evidence has arrived. A fast system with fluent assistants can become a machine for making redescription feel like discovery, which isn't a machine academia needed more of.
 
-That's the central methodological risk of working this way, not a side issue.
+The danger has to stay visible.
 
 No amount of slowing down will make the risk disappear. I handle it by building anchors: sources before claims, experiments where experiments are needed, corpus checks where corpus claims are being made, collaborators who don't share my priors, reviewers who aren't invested in the system, public preprints anyone can inspect, and project files that preserve the difference between what's argued, what's conjectured, what's merely suggestive, and what's still waiting for a severe test.
 
@@ -44,7 +44,7 @@ Tooling doesn't guarantee better work; it changes what can be kept active and re
 
 In December 2025, the parts were finally in place: the intellectual program, the writing system, the model workflow, the project-management layer, the agentic tools, and the available time. The result wasn't simply more writing. A paper became less like a monument and more like an experimental probe: a way of asking whether a distinction travels, whether a diagnostic holds, whether a category supports the inferences people have been loading onto it.
 
-There's a tradeoff here, and I don't want to hide it. A probe is lighter than a monument. Some of these papers will be provisional, some too early, some extraction points from a book-length argument rather than stand-alone contributions, and some just wrong. But that's what the method is for: getting enough structured attempts into the world that the live failures become visible.
+The cost is that a probe is lighter than a monument. Some of these papers will be provisional, some too early, some extraction points from a book-length argument rather than stand-alone contributions, and some just wrong. But that's what the method is for: getting enough structured attempts into the world that the live failures become visible.
 
 I work this way because I don't think philosophy or science advances only by waiting for the single perfect formulation. Sometimes it advances by building an engine that generates enough disciplined contact with the world for the right objections to appear.
 

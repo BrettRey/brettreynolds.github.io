@@ -24,6 +24,11 @@
 - [Language as a stack of homeostatic property-cluster kinds: From phonemes to constructions](https://brettreynolds.ca/papers/language-as-hpc-stack/paper.md): A stack model of linguistic kinds from phonemes to constructions, with empirical case studies across levels. Status: Preprint. Canonical record: https://doi.org/10.5281/zenodo.17354363
 - [Measuring Stable Diagnostic Ambiguity: A Quantitative Workflow for Small-n Grammatical Boundary Phenomena](https://brettreynolds.ca/papers/how-to-study-boundary-phenomena/paper.md): A quantitative workflow for measuring stable diagnostic ambiguity in small-n grammatical boundary phenomena. Status: Under review at Journal of Quantitative Linguistics. Canonical record: https://ling.auf.net/lingbuzz/009294
 
+## Project Pages
+
+- [Adversarial Pragmatics for AI Safety Evaluation: Judgment protocol](https://brettreynolds.ca/papers/adversarial-pragmatics-for-ai-safety-evaluation/judgment-protocol.html): Public-facing notes on the adjudication protocol, judge-validation guardrails, and candidate item sketches for the next development pass.
+
+
 ## Human-Facing Pages
 
 - [Publications](https://brettreynolds.ca/publications.html): Full publication list.

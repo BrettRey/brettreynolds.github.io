@@ -30,6 +30,13 @@ const papers = [
     ],
     canonicalUrl: "https://github.com/BrettRey/adversarial-pragmatics-for-ai-safety-evaluation",
     externalLinks: [{ label: "Source", url: "https://github.com/BrettRey/adversarial-pragmatics-for-ai-safety-evaluation" }],
+    companionLinks: [
+      {
+        label: "Judgment protocol",
+        file: "judgment-protocol.html",
+        description: "Public-facing notes on the adjudication protocol, judge-validation guardrails, and candidate item sketches for the next development pass.",
+      },
+    ],
     keywords: ["AI safety evaluation", "adversarial pragmatics", "instruction hierarchy", "prompt injection", "annotation protocols", "benchmark validity", "LLM judges"],
     description: "A linguistically controlled benchmark and annotation protocol for evaluating language-model behaviour under instruction conflict, embedded commands, quotation, scope ambiguity, deixis, indirect speech acts, and multi-turn agent transcripts.",
     bibtex: `@unpublished{reynolds2026adversarialPragmatics,
@@ -637,6 +644,36 @@ function linkList(links) {
   return links.map((link) => `<a href="${escapeHtml(link.url)}">${escapeHtml(link.label)}</a>`).join(" ");
 }
 
+function companionLinkObjects(paper) {
+  return (paper.companionLinks ?? []).map((link) => ({
+    label: link.label,
+    url: link.file,
+    description: link.description,
+  }));
+}
+
+function renderCompanionSection(paper) {
+  const links = companionLinkObjects(paper);
+  if (!links.length) {
+    return "";
+  }
+  const items = links
+    .map(
+      (link) => `      <li>
+        <a href="${escapeHtml(link.url)}">${escapeHtml(link.label)}</a>${link.description ? `: ${escapeHtml(link.description)}` : ""}
+      </li>`
+    )
+    .join("\n");
+  return `
+  <section class="pub-section">
+    <h2>Project Pages</h2>
+    <ul class="pub-list">
+${items}
+    </ul>
+  </section>
+`;
+}
+
 function renderStatus(status) {
   const underReviewMatch = status.match(/^(Under review at )(.+)$/);
   if (underReviewMatch) {
@@ -700,11 +737,11 @@ ${JSON.stringify(jsonLd, null, 2)}
     <p class="pub-links">
       <a href="paper.md">Markdown</a>
       <a href="cite.bib">BibTeX</a>
-      ${linkList(paper.externalLinks)}
+      ${linkList([...paper.externalLinks, ...companionLinkObjects(paper)])}
     </p>
     <p class="note">The Markdown file is an author-manuscript mirror provided for accessibility, search, and machine readability. Use the linked public record as the canonical citation target unless a later publisher version supersedes it.</p>
   </section>
-</body>
+${renderCompanionSection(paper)}</body>
 </html>
 `;
 }
@@ -714,7 +751,7 @@ function renderPapersIndex() {
     .map(
       (paper) => `      <li>
         <a href="${paper.slug}/">${escapeHtml(paper.title)}</a>
-        <span class="pub-links"><a href="${paper.slug}/paper.md">Markdown</a> <a href="${paper.slug}/cite.bib">BibTeX</a></span>
+        <span class="pub-links"><a href="${paper.slug}/paper.md">Markdown</a> <a href="${paper.slug}/cite.bib">BibTeX</a>${companionLinkObjects(paper).map((link) => ` <a href="${paper.slug}/${escapeHtml(link.url)}">${escapeHtml(link.label)}</a>`).join("")}</span>
       </li>`
     )
     .join("\n");
@@ -747,6 +784,13 @@ function renderLlmsTxt() {
       (paper) => `- [${paper.title}](${siteUrl(paper.slug, "paper.md")}): ${paper.description} Status: ${paper.status}. Canonical record: ${paper.canonicalUrl}`
     )
     .join("\n");
+  const companionEntries = papers
+    .flatMap((paper) =>
+      companionLinkObjects(paper).map(
+        (link) => `- [${paper.shortTitle}: ${link.label}](${siteUrl(paper.slug, link.url)}): ${link.description || "Companion project page."}`
+      )
+    )
+    .join("\n");
   return `# Brett Reynolds
 
 > Academic website for Brett Reynolds, with work on English grammar, linguistic categories, homeostatic property clusters, pragmatics, grammaticality, and LLMs as boundary phenomena.
@@ -754,6 +798,8 @@ function renderLlmsTxt() {
 ## Core Machine-Readable Papers
 
 ${entries}
+
+${companionEntries ? `## Project Pages\n\n${companionEntries}\n` : ""}
 
 ## Human-Facing Pages
 

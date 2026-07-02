@@ -285,6 +285,17 @@ footer {
   margin-right: 0.5rem;
 }
 
+.pub-section > ul:not(.pub-list),
+.pub-section > ol {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.pub-section > ul:not(.pub-list) li,
+.pub-section > ol li {
+  margin-bottom: 0.5rem;
+}
+
 /* Thematic publication clusters */
 .page-intro {
   margin: 1.25rem 0 2rem;

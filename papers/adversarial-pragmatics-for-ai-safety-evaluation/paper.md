@@ -34,7 +34,7 @@ The practical bottleneck is visible in prompt injection, model-policy evaluation
 
 In each setting, a surface string may be an instruction, a quotation, a cited passage, a tool output, a policy example, a user request, or an adversarial attempt to change authority. A pass/fail label loses information when it doesn’t say which role the string had and why.
 
-Evaluation labels function here as inference licenses. A label attached to an item states what nearby judgments it supports: how the case should behave under paraphrase, wrapper change, model change, or judge-prompt change. Projectibility (what observing some features licenses us to predict about others; (Goodman 1955; Reynolds 2026)) is built into the measurement target.
+Evaluation labels function here as inference licenses. A label attached to an item states what nearby judgments it supports: how the case should behave under paraphrase, wrapper change, model change, or judge-prompt change. Projectibility, what observing some features licenses us to predict about others (Goodman 1955; Reynolds 2026), is built into the measurement target.
 
 This paper treats those distinctions as evaluation targets. It starts from a small but auditable benchmark in which the relevant contrasts are controlled. The benchmark isn’t intended to crown a winning model. Its design shows which linguistic contrasts make safety claims stable, which ones expose over-refusal or under-refusal, and which ones reveal instability in the evaluation itself.
 
@@ -143,7 +143,7 @@ The decision rule is conservative. If expert evaluators converge after context i
 
 The empirical program has two stages: a completed local seed pilot and a larger development pass. The seed pilot is a measurement-calibration pass, not a leaderboard. Its purpose is to test whether the item schema, adjudication protocol, and summary metrics can turn raw model outputs into auditable distinctions.
 
-The local seed pilot ran the 18-item seed benchmark against three accessible Ollama models: `qwen3:8b`, `gemma3:12b`, and `glm-4.7-flash:q4_K_M`. This produced 54 item–model outputs. The run used local Ollama 0.15.2 on June 30, 2026. Generation settings were temperature 0, seed 1, 256 predicted tokens, no thinking trace, and model unloading between runs. A single expert adjudicator labelled every row for task success, policy compliance, safety risk, risk type, refusal outcome, failure attribution, confidence, and rationale. All 54 rows received complete labels.
+The local seed pilot ran the 18-item seed benchmark against three accessible Ollama models: `qwen3:8b`, `gemma3:12b`, and `glm-4.7-flash:q4_K_M`. This produced 54 item–model outputs. The run used local Ollama 0.15.2 on June 30, 2026. Generation settings were temperature 0, seed 1, 256 predicted tokens, no thinking trace, and model unloading between runs. A single expert adjudicator (the author, who also wrote the items and their expected-behaviour labels) labelled every row for task success, policy compliance, safety risk, risk type, refusal outcome, failure attribution, confidence, and rationale. All 54 rows received complete labels.
 
 <div id="tab:local-seed-pilot">
 
@@ -176,20 +176,26 @@ The automatic diagnostic pass was useful as triage but not as a substitute for a
 
 <div id="tab:llm-judge-validation">
 
-| Label family        | Matched | Total | Accuracy |
-|:--------------------|--------:|------:|---------:|
-| Task success        |      36 |    54 |    66.7% |
-| Policy compliance   |      48 |    54 |    88.9% |
-| Safety risk         |      39 |    54 |    72.2% |
-| Risk type           |      45 |    54 |    83.3% |
-| Refusal outcome     |      53 |    54 |    98.1% |
-| Failure attribution |      42 |    54 |    77.8% |
+| Label family        | Agreement | Base rate | $`\kappa`$ | Minority recall    |
+|:--------------------|----------:|----------:|-----------:|:-------------------|
+| Task success        |     66.7% |     66.7% |       0.26 | 0/11 partial       |
+| Policy compliance   |     88.9% |     85.2% |       0.45 | 3/7 noncompliant   |
+| Safety risk         |     72.2% |     79.6% |       0.14 | 0/11 risk-labelled |
+| Risk type           |     83.3% |     81.5% |       0.27 | 1/10 non-`none`    |
+| Refusal outcome     |     98.1% |     96.3% |       0.79 | 2/2 refusals       |
+| Failure attribution |     77.8% |     66.7% |       0.40 | 6/18 non-`none`    |
 
-LLM-judge validation against expert labels in the local seed pilot. The judge was `glm-4.7-flash:q4_K_M` with the compact judge prompt; accuracy is exact agreement with the expert adjudication after label normalization.
+LLM-judge validation against expert labels in the local seed pilot. Agreement is exact match after label normalization. Base rate is the majority-class share of the expert labels, the score of a constant judge. $`\kappa`$ is Cohen’s kappa. Minority recall is the judge’s recall on non-majority expert labels. The judge was `glm-4.7-flash:q4_K_M` with the compact judge prompt; two design caveats apply (see text): the judge is one of the three evaluated models, and its prompt included each item’s expected-behaviour field.
 
 </div>
 
-A first LLM-judge validation pass reinforces the need to treat model judges as measurement objects. The judge produced valid structured labels for all 54 rows, but agreement varied sharply by label family. It was strongest for refusal outcome and policy compliance, weaker for task success and failure attribution, and weakest in policy-boundary ambiguity and transcript-interpretation cells. The confusion pattern is substantively diagnostic: the judge often upgraded partial task successes to success and often failed to recover expert-attributed capability failures. The judge can support triage and error discovery, but can’t replace expert adjudication.
+A first LLM-judge validation pass reinforces the need to treat model judges as measurement objects, though not in the way raw agreement suggests. The judge produced valid structured labels for all 54 rows, but the expert label distributions are heavily skewed, so exact agreement mostly tracks base rates (Table <a href="#tab:llm-judge-validation" data-reference-type="ref" data-reference="tab:llm-judge-validation">2</a>): task-success agreement equals the majority-class baseline, safety-risk agreement falls below it, and the refusal-outcome figure sits 1.8 points above a constant judge. Chance-corrected agreement runs from $`\kappa = 0.14`$ (safety risk) to $`\kappa = 0.79`$ (refusal outcome).
+
+The informative statistic is minority-class recall, and it’s low exactly where safety evaluation needs it. The judge recovered none of the 11 partial task successes (upgrading 10 to full success), 3 of 7 noncompliant rows, none of the 11 risk-labelled rows, and 6 of 17 capability-failure attributions. It did recover both true refusals and the direct policy-boundary failures.
+
+Three design features cap what this pass can show. The judge is one of the three evaluated models, so it graded its own 18 outputs. The judge prompt included each item’s expected-behaviour field, so these figures are an upper bound on rubric-aided judging, not judging as deployed. And the reference labels come from a single adjudicator who also wrote the items (see Limitations and Next Steps).
+
+On this pilot, triage belongs to the rule-aided diagnostic pass, which flagged all 7 noncompliant rows; the unvalidated judge missed most of the labels that matter. The pass is best read as a negative result that motivates the judge-validation protocol, not as support for judge-based grading. The confusion pattern is still diagnostic: the judge upgrades partials and misses capability attributions, exactly the failure profile a validation pass must screen for.
 
 <figure id="fig:pilot-diagnostic-triage" data-latex-placement="!htbp">
 <img src="pilot_diagnostic_triage" />
@@ -238,7 +244,7 @@ Together, these measures test label projectibility. A category that is stable ac
 
 # Limitations and Next Steps
 
-The local seed pilot validates the measurement pipeline rather than the benchmark’s final psychometric properties. It uses 18 hand-authored seed items, three local models, harmless toy payloads, and one expert adjudicator. The results support claims about pipeline feasibility, contrastive measurement, and judge-validation needs. They don’t establish frontier-model safety differences or final gold labels.
+The local seed pilot validates the measurement pipeline rather than the benchmark’s final psychometric properties. It uses 18 hand-authored seed items, three local models, harmless toy payloads, and one expert adjudicator, the author, labelling items he wrote. The judge pass shares this circularity: the judge model was drawn from the evaluated set and saw each item’s expected-behaviour field. The results support claims about pipeline feasibility, contrastive measurement, and judge-validation needs. They don’t establish frontier-model safety differences or final gold labels.
 
 The next empirical pass should run a 50–100 item development set against several public or accessible models. Compare three grading routes: expert human evaluation, LLM-as-judge annotation, and rule-aided scoring from item metadata. The design should cross item, phenomenon family, model, application surface, rubric criterion, and judge prompt.
 
@@ -246,7 +252,7 @@ The development pass should include independent policy and linguistic evaluation
 
 Each planned label should name its expected projection. For a source-authority item, the projection may be stability across harmless paraphrase and source-order perturbation, but sensitivity to application surface. A failed projection is evidence about the item or category before it counts as a model error.
 
-LLM-judge validation is an experiment, not a shortcut. The next pass should use at least two judge prompts, perturb source-order presentation, include fluent but instruction-violating outputs, and compare judge labels with adjudicated expert labels. Report judge-prompt sensitivity and the failure types that fool the judge, especially quotation/use errors, source-authority errors, and over-refusal of safe analysis requests.
+LLM-judge validation is an experiment, not a shortcut. The next pass should use at least two judge prompts, a judge model disjoint from the evaluated set, and a no-rubric condition in which the judge doesn’t see the expected-behaviour field. It should perturb source-order presentation, include fluent but instruction-violating outputs, and compare judge labels with adjudicated expert labels. Report judge-prompt sensitivity and the failure types that fool the judge, especially quotation/use errors, source-authority errors, and over-refusal of safe analysis requests.
 
 The minimum development table should report performance by phenomenon family, not only aggregate score. A second table should report adjudication instability by item family and criterion conflict. A third should identify cases where the gold label shifted after adjudication, because those are likely taxonomy-instability cases rather than mere model failures.
 

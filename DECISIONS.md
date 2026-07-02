@@ -19,3 +19,7 @@ Format: `## YYYY-MM-DD` then bullet points with **bold topic** and brief rationa
 ## 2026-06-22
 
 - **Site-wide dark mode:** Add a shared `theme.js` toggle and CSS variables so common-shell pages support system dark mode plus a persistent explicit light/dark choice. Leave slide decks, standalone experiments, and copied reference pages outside the shared toggle.
+
+## 2026-07-02
+
+- **Workflow essay:** Add `why-i-work-this-way.html` as a public essay explaining the late-2025/2026 research sprint as a method: speed plus infrastructure for keeping projectibility questions live, naming agentic Codex/Claude Code-style tools as part of the method while preserving guardrails against redescription outrunning confirmation.

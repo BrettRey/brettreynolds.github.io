@@ -47,3 +47,4 @@ CNAME                # Custom domain
 - **2026-06-04:** Added Markdown/BibTeX mirrors for eight core papers, with per-paper landing pages and `llms.txt`.
 - **2026-06-13:** Added public OKF export surface under `/okf/`, with generated public-safe bundle files under `/okf/bundle/` and discovery links from the homepage, papers index, and `llms.txt`.
 - **2026-06-13:** Added `robots.txt` and `sitemap.xml` so the OKF page and bundle index are explicitly discoverable by crawlers.
+- **2026-07-02:** Added `why-i-work-this-way.html` and linked it from `essays.html`, `sitemap.xml`, and `llms.txt`; kept the Markdown draft in `docs/drafts/why-i-work-this-way.md`.

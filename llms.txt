@@ -32,6 +32,8 @@
 ## Human-Facing Pages
 
 - [Publications](https://brettreynolds.ca/publications.html): Full publication list.
+- [Essays](https://brettreynolds.ca/essays.html): Human-facing essays and talks.
+- [Why I Work This Way](https://brettreynolds.ca/why-i-work-this-way.html): An essay on speed, projectibility-first research, and agentic Codex/Claude Code-style systems as workspace infrastructure for science and philosophy.
 - [CGEL correctives and extensions](https://brettreynolds.ca/cgel-correctives.html): Thematic cluster of CGEL corrections, extensions, and related category/function work.
 - [Machine-readable papers](https://brettreynolds.ca/papers/): Index of Markdown mirrors and BibTeX records.
 - [Public OKF export](https://brettreynolds.ca/okf/): Public Open Knowledge Format bundle for selected research-project context.

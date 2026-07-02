@@ -32,9 +32,9 @@ const papers = [
     externalLinks: [{ label: "Source", url: "https://github.com/BrettRey/adversarial-pragmatics-for-ai-safety-evaluation" }],
     companionLinks: [
       {
-        label: "Judgment protocol",
+        label: "Adjudication app",
         file: "judgment-protocol.html",
-        description: "Browser adjudication runner for loading model-output queues, saving local drafts, and exporting judgment files.",
+        description: "The same browser review app used for the 54-row local seed-pilot adjudication.",
       },
     ],
     keywords: ["AI safety evaluation", "adversarial pragmatics", "instruction hierarchy", "prompt injection", "annotation protocols", "benchmark validity", "LLM judges"],

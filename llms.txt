@@ -26,7 +26,7 @@
 
 ## Project Pages
 
-- [Adversarial Pragmatics for AI Safety Evaluation: Judgment protocol](https://brettreynolds.ca/papers/adversarial-pragmatics-for-ai-safety-evaluation/judgment-protocol.html): Browser adjudication runner for loading model-output queues, saving local drafts, and exporting judgment files.
+- [Adversarial Pragmatics for AI Safety Evaluation: Adjudication app](https://brettreynolds.ca/papers/adversarial-pragmatics-for-ai-safety-evaluation/judgment-protocol.html): The same browser review app used for the 54-row local seed-pilot adjudication.
 
 
 ## Human-Facing Pages

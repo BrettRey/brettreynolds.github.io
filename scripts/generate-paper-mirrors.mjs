@@ -34,7 +34,7 @@ const papers = [
       {
         label: "Judgment protocol",
         file: "judgment-protocol.html",
-        description: "Public-facing notes on the adjudication protocol, judge-validation guardrails, and candidate item sketches for the next development pass.",
+        description: "Browser adjudication runner for loading model-output queues, saving local drafts, and exporting judgment files.",
       },
     ],
     keywords: ["AI safety evaluation", "adversarial pragmatics", "instruction hierarchy", "prompt injection", "annotation protocols", "benchmark validity", "LLM judges"],

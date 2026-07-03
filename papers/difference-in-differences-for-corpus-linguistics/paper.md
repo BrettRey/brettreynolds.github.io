@@ -2,7 +2,7 @@
 title: "Difference-in-differences for corpus linguistics: Causal inference, corpus composition, and linguistic change after shocks"
 author: "Brett Reynolds"
 year: "2026"
-status: "Preprint"
+status: "Under review at International Journal of Corpus Linguistics"
 canonical_url: "https://lingbuzz.net/lingbuzz/010080"
 website_url: "https://brettreynolds.ca/papers/difference-in-differences-for-corpus-linguistics/"
 markdown_url: "https://brettreynolds.ca/papers/difference-in-differences-for-corpus-linguistics/paper.md"
@@ -31,6 +31,8 @@ The frequency is a constructed aggregate, built from many texts by choices about
 A corpus is not simply a sample of a population’s usage; it’s a sample of texts, assembled by editors and archivists with their own shifting priorities (Biber 1993), and its balance and representativeness are matters of degree that builders approximate rather than attain (McEnery and Hardie 2012). Tracking change compounds this: the matched diachronic corpora built for it, like the Brown family, must keep a sampling frame comparable while the genres inside it drift (Leech et al. 2009). So a corpus frequency carries two things at once, what the population did and who happened to be in the corpus, and a shock can move either. The DiD machinery is sound; what it needs is to be told which of the two it’s identifying.
 
 The contribution is therefore not a tutorial on running DiD but a discipline for claiming with it. A before-and-after corpus contrast supports a causal reading only after several things are pulled apart: the target population, the corpus composition, the measurement procedure, the unit at which the treatment varies, and the unit at which uncertainty is counted. Conflate any two and the apparent effect can be an artifact of the corpus, not a fact about the language.
+
+This discipline joins corpus linguistics’s recent turn toward reproducibility, replicability, and robustness (Schweinberger and Haugh 2025; Flanagan 2025), and extends it. That programme asks whether a descriptive estimate holds up under reanalysis, resampling, and analytic choice (Egbert et al. 2025; Sönning 2024); the question here sits one layer earlier and is causal, whether a before-and-after contrast licenses a causal reading at all. A result can be perfectly reproducible and still identify nothing. The failure map treats a collapse of identification with the seriousness those programmes reserve for a non-replication, and counts a false negative from thin data as a real cost, not a clean null.
 
 Six questions organize the discipline, taken up across the sections that follow: what’s the shock, and which act counts as the treatment (Section <a href="#sec:treatments" data-reference-type="ref" data-reference="sec:treatments">3</a>); at what unit does the treatment actually vary (Section <a href="#sec:estimand" data-reference-type="ref" data-reference="sec:estimand">2</a>); what population’s rate is the target, and what outcome measures it (Sections <a href="#sec:estimand" data-reference-type="ref" data-reference="sec:estimand">2</a> and <a href="#sec:outcomes" data-reference-type="ref" data-reference="sec:outcomes">4</a>); what comparison makes the counterfactual plausible, and what corpus-specific threat could counterfeit the effect (Section <a href="#sec:threats" data-reference-type="ref" data-reference="sec:threats">5</a>); and what diagnostic would expose it (Section <a href="#sec:diagnostics" data-reference-type="ref" data-reference="sec:diagnostics">6</a>). Section <a href="#sec:modern" data-reference-type="ref" data-reference="sec:modern">7</a> takes up the estimation and inference choices the answers force.
 
@@ -97,6 +99,8 @@ And because the outcome is a proportion, the bias is level-dependent even at fix
 A second choice hides inside the first. Most variables of interest are realized in more than one way, and a single count silently treats those ways as exchangeable signs of one change. Feminine marking of a profession noun for a woman, this paper’s running example, surfaces as a distinct noun form (*autrice*), as a feminine article or agreement on an otherwise invariant noun (*la ministre*), or as both. Pooling them assumes the realizations rise together; breaking the outcome out by strategy tests that assumption instead of burying it, and the test matters because varieties favour different strategies (Dawes 2003).
 
 Two refinements follow. Agreement that’s already obligatory sits at a ceiling: agreement on an already-feminine title (*une infirmière compétente*) varies with nothing the shock touches, so it’s noise, not outcome, and the informative agreement is the contested kind, the feminine article on a default-masculine title, which for epicene nouns (one form for either gender, like *ministre*) is the only available signal. And a marker means nothing until its conditioning is fixed: a feminine article counts as feminization only when the referent is independently known to be a woman, so the outcome definition carries that conditioning rather than assuming it.
+
+Breaking the outcome out by strategy diagnoses the pooling assumption without fully replacing it. Separate analyses, one per strategy, show which realization moved, but they treat mutually exclusive choices as independent outcomes and so discard the covariance among them: a rise in *la ministre* can suppress the default masculine without lifting *autrice*, and reading each strategy alone misses that substitution. The fuller treatment models the realization as a single categorical outcome, letting the strategies compete within one estimator, as Xu (2017) develops for categorical outcomes in the regression-discontinuity design. This paper stops at decomposition, using it to expose the assumption rather than carrying a multinomial estimator into the core method; a joint categorical DiD is a natural next step, not a claim made here.
 
 The outcome is a proportion, and a proportion needs a denominator named as carefully as the numerator. Feminine-marked tokens out of what: every profession-noun token, only those with a female referent, only title-address contexts? Weighted how: by token, so a few prolific titles dominate, or by title-variety cell, so each counts once? Over which referent distribution, when the share of female referents is itself moving? The numerator is the visible choice; the denominator is where a composition shift quietly re-enters, which is why it belongs in the estimand of Section <a href="#sec:estimand" data-reference-type="ref" data-reference="sec:estimand">2</a>, not in the counting code.
 
@@ -362,6 +366,18 @@ Egami, Naoki, Christian J. Fong, Justin Grimmer, Margaret E. Roberts, and Brando
 
 </div>
 
+<div id="ref-EgbertBiberGrayLarsson2025" class="csl-entry">
+
+Egbert, Jesse, Douglas Biber, Bethany Gray, and Tove Larsson. 2025. “Achieving Stability in Corpus-Based Analysis of Word Types.” *International Journal of Corpus Linguistics* 30 (2): 150–70. <https://doi.org/10.1075/ijcl.24109.egb>.
+
+</div>
+
+<div id="ref-Flanagan2025" class="csl-entry">
+
+Flanagan, Joseph. 2025. “Reproducibility, Replicability, Robustness, and Generalizability in Corpus Linguistics.” *International Journal of Corpus Linguistics* 30 (2): 130–49. <https://doi.org/10.1075/ijcl.24113.fla>.
+
+</div>
+
 <div id="ref-Fujimura2005" class="csl-entry">
 
 Fujimura, Itsuko. 2005. “La féminisation Des Noms de métiers Et Des Titres Dans La Presse Française (1988–2001).” *Mots. Les Langages Du Politique*, no. 78: 37–52.
@@ -458,6 +474,18 @@ Roth, Jonathan, Pedro H. C. Sant’Anna, Alyssa Bilinski, and John Poe. 2023. �
 
 </div>
 
+<div id="ref-SchweinbergerHaugh2025" class="csl-entry">
+
+Schweinberger, Martin, and Michael Haugh. 2025. “Reproducibility, Replicability, and Robustness in Corpus Linguistics.” *International Journal of Corpus Linguistics* 30 (2): 119–29. <https://doi.org/10.1075/ijcl.25081.sch>.
+
+</div>
+
+<div id="ref-Sonning2024" class="csl-entry">
+
+Sönning, Lukas. 2024. “Down-Sampling from Hierarchically Structured Corpus Data.” *International Journal of Corpus Linguistics* 29 (4): 507–33. <https://doi.org/10.1075/ijcl.23079.son>.
+
+</div>
+
 <div id="ref-SunAbraham2021" class="csl-entry">
 
 Sun, Liyang, and Sarah Abraham. 2021. “Estimating Dynamic Treatment Effects in Event Studies with Heterogeneous Treatment Effects.” *Journal of Econometrics* 225 (2): 175–99.
@@ -473,6 +501,12 @@ Tagliamonte, Sali A., and Alexandra D’Arcy. 2007. “Frequency and Variation i
 <div id="ref-weinreich1968" class="csl-entry">
 
 Weinreich, Uriel, William Labov, and Marvin I. Herzog. 1968. “Empirical Foundations for a Theory of Language Change.” In *Directions for Historical Linguistics*, edited by Winfred P. Lehmann and Yakov Malkiel. University of Texas Press.
+
+</div>
+
+<div id="ref-Xu2017" class="csl-entry">
+
+Xu, Ke-Li. 2017. “Regression Discontinuity with Categorical Outcomes.” *Journal of Econometrics* 201 (1): 1–18. <https://doi.org/10.1016/j.jeconom.2017.07.004>.
 
 </div>
 

@@ -3,7 +3,12 @@
 ## Current State
 
 **Status:** Static site maintained for brettreynolds.ca
-**Last updated:** 2026-06-13
+**Last updated:** 2026-07-04
+
+### 2026-07-04 Session Notes
+- Added `dashboard-2b91a1.html`: unlisted interactive PM dashboard (76 portfolio items; group/sort/filter/search; data hardcoded from PORTFOLIO.md as of 4 Jul). Unlisted posture: no inbound links, out of sitemap.xml and llms.txt, `noindex, nofollow` meta, tokened filename; repo is public, so the file is browsable on GitHub.
+- Deploy hit a transient GitHub Pages "Deployment failed, try again later"; unstuck via forced Pages build + empty trigger commit (`74c581f`); page verified live.
+- Dashboard is now a maintained surface in the `status-surface-update` skill (refreshes on every PORTFOLIO.md status change). Maintenance pointer added to this project's CLAUDE.md; decisions logged in DECISIONS.md.
 
 ## Completed
 

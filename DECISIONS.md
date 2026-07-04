@@ -23,3 +23,7 @@ Format: `## YYYY-MM-DD` then bullet points with **bold topic** and brief rationa
 ## 2026-07-02
 
 - **Workflow essay:** Add `why-i-work-this-way.html` as a public essay explaining the late-2025/2026 research sprint as a method: speed plus infrastructure for keeping projectibility questions live, naming agentic Codex/Claude Code-style tools as part of the method while preserving guardrails against redescription outrunning confirmation.
+
+## 2026-07-04
+
+- **Unlisted PM dashboard:** Add `dashboard-2b91a1.html`, an interactive portfolio dashboard (review pipeline, preprint bench, active work, blocks; group/sort/filter/search built from PORTFOLIO.md as of 4 Jul). Deliberately unlisted: no links from any page, kept out of `sitemap.xml` and `llms.txt`, `noindex, nofollow` meta, tokened filename against URL guessing. Caveat: the repo is public, so the file is visible to anyone browsing GitHub.

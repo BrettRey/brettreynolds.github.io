@@ -209,8 +209,8 @@
   <div class="masthead">
     <h1>Research portfolio</h1>
     <div class="asof">
-      As of <span class="mono">Sat 4 Jul 2026</span><br>
-      PORTFOLIO.md reviewed <span class="mono">1 Jul</span> · day counts run to <span class="mono">4 Jul</span>
+      As of <span class="mono">Sun 5 Jul 2026</span><br>
+      PORTFOLIO.md reviewed <span class="mono">5 Jul</span> · day counts run to <span class="mono">5 Jul</span>
     </div>
   </div>
   <div class="rule"></div>
@@ -269,10 +269,10 @@
   </div>
 
   <footer>
-    Built 4 Jul 2026 from PORTFOLIO.md (last reviewed 1 Jul), Project-Management/session-log.jsonl, daily-priorities.md, and MCP shared memory; a snapshot, not a live feed.
+    Built 5 Jul 2026 from PORTFOLIO.md, local project STATUS/CLAUDE files, Project-Management/session-log.jsonl, daily-priorities.md, and MCP shared memory; a snapshot, not a live feed.
     <b>Event</b> is the lifecycle date (<span class="mono">SUB</span> submitted, <span class="mono">PRE</span> preprint posted, <span class="mono">REJ</span> latest rejection, <span class="mono">SENT</span> pitch sent); its day count and bar show time in review.
     <b>Last touched</b> is the most recent recorded work; a dash means no touch date is recorded in PORTFOLIO.md or the session log, not that the item is untouched. Idle counts turn amber from 60 days for items that are Brett&rsquo;s to move.
-    Thread tags are PM classifications, not from PORTFOLIO.md. Personal projects are tracked in PORTFOLIO.md but omitted from this surface.
+    Thread tags are PM classifications, not from PORTFOLIO.md. Personal/private projects are tracked elsewhere but omitted from this online surface.
     Media bias shows no event date because the R2 submission date isn&rsquo;t recorded; E-JC asks for no status enquiries for six months (window ends late October).
   </footer>
 </div>
@@ -280,16 +280,16 @@
 <script>
 (function () {
   'use strict';
-  var ASOF = new Date('2026-07-04T12:00:00');
+  var ASOF = new Date('2026-07-05T12:00:00');
 
-  /* stage: review | out | venue | active | waiting | gated | seed
+  /* stage: review | out | venue | active | waiting | gated | seed | closed
      kind:  article | book | grant | experiment | collaboration | service | tool
      who:   press | Brett | collab | funder | REB | clear | done
      ev/evk: lifecycle date + kind (SUB | PRE | REJ | SENT); tch: last recorded work  */
   var ITEMS = [
     /* ---- in review ---- */
-    {t:'Focus modifiers (squib)', kind:'article', stage:'review', thread:'CGEL syntax', where:'Glossa', id:'27281', ev:'2025-12-23', evk:'SUB', tch:null, who:'press', pill:['wait','Under review'], flag:'Decision was expected ~20 Jun; two weeks past. Next: short status enquiry to Renans.', note:'Editor Renans expected a decision by ~20 Jun; consider a nudge.'},
-    {t:'Personhood and pro-forms', kind:'article', stage:'review', thread:'Syntax–semantics', where:'Folia Linguistica', id:'', ev:'2025-12-24', evk:'SUB', tch:null, who:'press', pill:['wait','Under review'], note:'Double-blind submission.'},
+    {t:'Focus modifiers (squib)', kind:'article', stage:'review', thread:'CGEL syntax', where:'Glossa', id:'27281', ev:'2025-12-23', evk:'SUB', tch:'2026-07-04', who:'press', pill:['wait','Under review'], note:'Editor Renans expected a decision by ~20 Jun; Brett sent follow-up nudge 4 Jul.'},
+    {t:'Personhood and pro-forms', kind:'article', stage:'review', thread:'Syntax–semantics', where:'Folia Linguistica', id:'', ev:'2025-12-24', evk:'SUB', tch:'2026-07-04', who:'press', pill:['wait','Under review'], note:'Double-blind submission; Brett sent follow-up nudge 4 Jul.'},
     {t:'English kinship terms', kind:'article', stage:'review', thread:'Syntax–semantics', where:'Journal of English Linguistics', id:'JEngL-26-0039', ev:'2026-02-12', evk:'SUB', tch:'2026-02-12', who:'press', pill:['wait','Under review'], note:'Preprint LingBuzz 009751.'},
     {t:'Vector grounding response', kind:'article', stage:'review', thread:'LLMs & AI', where:'PhiMiSci', id:'12816', ev:'2026-03-30', evk:'SUB', tch:'2026-03-30', who:'press', pill:['wait','Under review'], note:'Response to Coelho Mollo & Milliere.'},
     {t:'Countability', kind:'article', stage:'review', thread:'HPC & kinds', where:'Linguistics', id:'LING.2026.0069', ev:'2026-03-31', evk:'SUB', tch:'2026-03-31', who:'press', pill:['wait','Under review'], note:'Companion acceptability probe is REB-gated (see experiments).'},
@@ -307,7 +307,7 @@
     {t:'Difference-in-differences for corpus linguistics', kind:'article', stage:'review', thread:'Methods & stats', where:'Int. J. of Corpus Linguistics', id:'ref. at assignment', ev:'2026-07-03', evk:'SUB', tch:'2026-07-03', who:'press', pill:['pre','Awaiting editor'], note:'Cut to 7,487 words for the 9,000 cap; fallback: Corpora.'},
     {t:'Media bias', co:'w/ Pullum', kind:'article', stage:'review', thread:'Other', where:'Discourse & Communication', id:'DCM-25-0596.R2', ev:null, evk:null, tch:null, who:'press', pill:['wait','R2 awaiting decision'], note:'R2 followed the 14 May invitation; exact R2 date not recorded.'},
     {t:'Words That Won&rsquo;t Hold Still (HPC book)', kind:'book', stage:'review', thread:'HPC & kinds', where:'Cambridge University Press', id:'standalone title', ev:'2026-06-12', evk:'SUB', tch:'2026-07-03', who:'press', pill:['wait','Peer review'], note:'494 pp, ~136k words. 3 Jul: unearned-therefore device landed; two commits deferred.'},
-    {t:'SSHRC Insight Development Grant', kind:'grant', stage:'review', thread:'Grammaticality', where:'SSHRC', id:'', ev:'2026-02-02', evk:'SUB', tch:null, who:'funder', pill:['wait','Adjudication'], note:'LLMs as virtual informants; results expected fall 2026.'},
+    {t:'SSHRC Insight Development Grant', kind:'grant', stage:'closed', thread:'Grammaticality', where:'SSHRC', id:'', ev:'2026-07-04', evk:'REJ', tch:'2026-07-04', who:'done', pill:['crit','Denied / closed'], note:'Denied 4 Jul; grant track closed. Related research survives through the grammar/LLM-evaluation projects.'},
 
     /* ---- accepted / out in 2026 ---- */
     {t:'Numerals (lexicon–syntax boundary)', kind:'article', stage:'out', thread:'CGEL syntax', where:'English Language & Linguistics', id:'doi:10.1017/S1360674325100518', ev:null, evk:null, tch:null, who:'done', pill:['good','Published, OA'], note:'Out in 2026.'},
@@ -316,6 +316,8 @@
 
     /* ---- preprints needing a venue ---- */
     {t:'Thomasson kinds & projectibility', kind:'article', stage:'venue', thread:'Philosophy', where:'PhilArchive REYFWF', id:'', ev:'2026-07-01', evk:'PRE', tch:null, who:'Brett', pill:['warn','Needs venue'], note:'Philosophy position piece; companion to the SFL review.'},
+    {t:'Grammaticality de-idealized', kind:'article', stage:'venue', thread:'Grammaticality', where:'LingBuzz 010118', id:'', ev:'2026-07-05', evk:'PRE', tch:'2026-07-05', who:'Brett', pill:['warn','Needs venue'], note:'Main OVMG paper posted to LingBuzz; metadata keyword cleanup remains if not already fixed.'},
+    {t:'Adversarial pragmatics for AI safety evaluation', kind:'article', stage:'venue', thread:'LLMs & AI', where:'arXiv 2607.01153', id:'', ev:'2026-07-01', evk:'PRE', tch:'2026-07-01', who:'Brett', pill:['warn','Needs venue'], note:'Benchmark paper now has permanent arXiv identifier; choose downstream venue or keep as arXiv-first.'},
     {t:'Bridge principles without UG', kind:'article', stage:'venue', thread:'Philosophy', where:'LingBuzz 010104', id:'', ev:'2026-07-01', evk:'PRE', tch:null, who:'Brett', pill:['warn','Needs venue'], note:'Projectibility, crosslinguistic evidence, linguistic ontology.'},
     {t:'Thomasson SFL review', kind:'article', stage:'venue', thread:'Philosophy', where:'LingBuzz 010101', id:'', ev:'2026-06-30', evk:'PRE', tch:null, who:'Brett', pill:['warn','Needs venue'], note:'Linguistics review essay on Rethinking Metaphysics.'},
     {t:'Kinds as projectibility profiles', kind:'article', stage:'venue', thread:'HPC & kinds', where:'PhilArchive REYKAP-2', id:'', ev:'2026-06-14', evk:'PRE', tch:null, who:'Brett', pill:['warn','Needs venue'], note:'Support grades and demotion rules; synthetic position paper.'},
@@ -333,11 +335,22 @@
 
     /* ---- active drafting ---- */
     {t:'Projectibility-First Linguistics (textbook)', kind:'book', stage:'active', thread:'HPC & kinds', where:'papers/books', id:'', ev:null, evk:null, tch:'2026-07-04', who:'clear', pill:['act','Active'], flag:'Choose first deliverable: Chapter 1 or the reusable worksheet.', note:'Methods companion to WTWHS; architecture session 4 Jul; infrastructure wired.'},
-    {t:'Adversarial pragmatics for AI safety evaluation', kind:'article', stage:'active', thread:'LLMs & AI', where:'papers/active', id:'', ev:null, evk:null, tch:'2026-06-26', who:'clear', pill:['act','Active'], note:'Taxonomy + minimal-pair benchmark + annotation protocol.'},
+    {t:'Countability article for SEGU', kind:'article', stage:'active', thread:'HPC & kinds', where:'papers/seeds/countability-japanese', id:'deadline 10 Jul', ev:null, evk:null, tch:'2026-06-20', who:'Brett', pill:['act','Active'], flag:'SEGU submission deadline is 10 Jul and membership must be checked first.', note:'Japanese-practice-facing article applying countability work to English Grammar and Usage.'},
+    {t:'Announcement drop', kind:'article', stage:'active', thread:'Methods & stats', where:'papers/active', id:'', ev:null, evk:null, tch:'2026-06-24', who:'clear', pill:['act','Active'], note:'Rewritten around positive-stance packaging, event-conditioned denominators, and left-edge ellipsis.'},
+    {t:'Bresnan dative alternation reanalysis', kind:'article', stage:'active', thread:'Methods & stats', where:'papers/active', id:'target: Linguistics Vanguard', ev:null, evk:null, tch:'2026-06-26', who:'clear', pill:['act','Active'], note:'External-validation reframe complete; next: DAIS memo and LV cover letter.'},
+    {t:'Bard magnitude-estimation reassessment', kind:'article', stage:'active', thread:'Methods & stats', where:'papers/active', id:'', ev:null, evk:null, tch:'2026-06-23', who:'clear', pill:['act','Active'], note:'No-new-data reassessment of Bard, Robertson, and Sorace against later acceptability datasets.'},
     {t:'Updating CGEL', kind:'article', stage:'active', thread:'CGEL syntax', where:'papers/collaborations', id:'target: ELL', ev:null, evk:null, tch:'2026-06-20', who:'clear', pill:['act','Active'], note:'Synthesis of corrections + extensions, not an errata list; scaffolded 20 Jun.'},
     {t:'Form-meaning transparency', kind:'article', stage:'active', thread:'Syntax–semantics', where:'papers/active', id:'', ev:null, evk:null, tch:'2026-06-16', who:'clear', pill:['act','Active'], note:'Three within-domain windows + cross-modal probe; may want a psycholinguist collaborator.'},
     {t:'Diagnostic validity', kind:'article', stage:'active', thread:'Methods & stats', where:'papers/active', id:'target: Language', ev:null, evk:null, tch:'2026-06-10', who:'clear', pill:['act','Active'], note:'Phase 1 next: fetch MegaAcceptability v2, run pipeline, emit pilot findings.'},
-    {t:'Grammaticality de-idealized', kind:'article', stage:'active', thread:'Grammaticality', where:'papers/active', id:'', ev:null, evk:null, tch:'2026-06-07', who:'clear', pill:['act','Active'], note:'OVMG model; 5 subprojects incl. evolutionary-dag-workbench; unblocked by LBC paper.'},
+    {t:'Semantic maps as bridge principles', kind:'article', stage:'active', thread:'Philosophy', where:'papers/active', id:'sequel to bridge-principles', ev:null, evk:null, tch:'2026-07-01', who:'clear', pill:['act','Active'], note:'Horizontal non-UG bridge paper using indefinite-reference semantic maps as scoped warrants.'},
+    {t:'Isocolon and comparative construal', kind:'article', stage:'active', thread:'Methods & stats', where:'papers/active', id:'w/ Rency', ev:null, evk:null, tch:'2026-05-29', who:'clear', pill:['act','Active'], note:'Corpus test of whether formal balance tracks comparable-set construal in production.'},
+    {t:'Reply to Oliver on logical English', kind:'article', stage:'waiting', thread:'Philosophy', where:'Works in Progress', id:'letter slot', ev:'2026-05-27', evk:'SENT', tch:'2026-05-27', who:'press', pill:['gate','Awaiting editor'], note:'Feature-length response self-hosted; short letter offered/submitted to WiP.'},
+    {t:'CGEL fragments', kind:'article', stage:'active', thread:'CGEL syntax', where:'GitHub Pages', id:'public repo', ev:null, evk:null, tch:'2026-05-07', who:'clear', pill:['act','Active'], note:'Three pilot Pullum-handout-style fragments; next: Brett decides deepen, send to Victor, or shelve.'},
+    {t:'Linguistic transparency', kind:'article', stage:'active', thread:'Syntax–semantics', where:'papers/active', id:'markdown-first', ev:null, evk:null, tch:'2026-04-30', who:'clear', pill:['act','Active'], note:'Mediated-accessibility umbrella; sources/examples still need verification.'},
+    {t:'Field-relative HPC categories', kind:'article', stage:'active', thread:'HPC & kinds', where:'papers/active', id:'markdown-first', ev:null, evk:null, tch:'2026-04-29', who:'clear', pill:['act','Active'], note:'Brief scaffolded; first deliverable is a 1,500-word expanded proposal and annotated bibliography.'},
+    {t:'Grammaticality judgments as detectors', kind:'article', stage:'active', thread:'Grammaticality', where:'papers/active', id:'', ev:null, evk:null, tch:'2026-04-01', who:'clear', pill:['act','Active'], note:'Paper on grammaticality judgments as detector outputs rather than direct objects.'},
+    {t:'Operating Manual of Modern English', kind:'book', stage:'active', thread:'CGEL syntax', where:'papers/books', id:'Stripe Press idea', ev:null, evk:null, tch:'2026-04-05', who:'clear', pill:['act','Active'], note:'Working English grammar concept; Pullum not yet approached, sample/proposal not yet written.'},
+    {t:'<i>(Un)grammatical</i> trade book', kind:'book', stage:'active', thread:'Grammaticality', where:'papers/books', id:'self-published / CC BY', ev:null, evk:null, tch:'2026-05-21', who:'clear', pill:['act','Active'], note:'Mid-restructure; 15-chapter canonical fork, Phase 4 writing in progress.'},
     {t:'AI evaluation kinds', kind:'article', stage:'active', thread:'LLMs & AI', where:'papers/active', id:'', ev:null, evk:null, tch:'2026-05-15', who:'clear', pill:['act','Active'], note:'HPC + causal-network structure in ML governance vocabulary.'},
     {t:'HPC to vector', kind:'article', stage:'active', thread:'LLMs & AI', where:'papers/active', id:'', ev:null, evk:null, tch:'2026-03-06', who:'clear', pill:['act','Active'], note:'Early; formal mapping not yet working out; prose too dense.'},
     {t:'Alternations-Bayesian', kind:'article', stage:'active', thread:'Methods & stats', where:'papers/active', id:'', ev:null, evk:null, tch:'2026-01-15', who:'clear', pill:['act','Active'], note:'Proof of concept for alternations as constrained choice; gates the cross-comparison paper.'},
@@ -365,6 +378,7 @@
     {t:'English Constructionary', kind:'tool', stage:'active', thread:'CGEL syntax', where:'tools/', id:'', ev:null, evk:null, tch:'2025-12-21', who:'clear', pill:['act','Active'], note:'CxG dictionary, 41 constructions; review for CGEL alignment.'},
     {t:'Book indexer', kind:'tool', stage:'active', thread:'Other', where:'tools/', id:'', ev:null, evk:null, tch:'2026-01-08', who:'clear', pill:['act','Active'], note:'LaTeX indexing; primary client is the HPC book; share with LangSci.'},
     {t:'Glottocode registry prototype', kind:'tool', stage:'active', thread:'Other', where:'tools/', id:'', ev:null, evk:null, tch:'2026-01-01', who:'clear', pill:['act','Active'], note:'Glottocode-first resource registry: JSON Schema + JSONL + static UI.'},
+    {t:'Lingputation codebook registry', kind:'tool', stage:'active', thread:'CGEL syntax', where:'tools/ · MIT/CC BY on GitHub', id:'', ev:null, evk:null, tch:'2026-07-04', who:'clear', pill:['act','Active'], note:'Executable linguistic codebook registry; first real package is CGELBank core category/function with validation record.'},
     {t:'Shilluk analysis concordance', kind:'tool', stage:'active', thread:'Other', where:'tools/', id:'', ev:null, evk:null, tch:'2026-01-02', who:'clear', pill:['act','Active'], note:'Crosswalk of suprasegmental analyses across JIPA 2011, Phonology 2014, SP14, TextGrids.'},
     {t:'LLM language coach', kind:'tool', stage:'active', thread:'Other', where:'tools/', id:'', ev:null, evk:null, tch:'2025-11-07', who:'clear', pill:['act','Active'], note:'KG+SRS+LLM for the EAPC 10x lab; tested in Spanish.'},
 
@@ -377,7 +391,9 @@
     {t:'Unsolved problems in linguistics', kind:'article', stage:'seed', thread:'Other', where:'papers/seeds', id:'living document', ev:null, evk:null, tch:'2026-01-14', who:'clear', pill:['gate','Seed'], note:'12 open problems with a solubility ranking.'},
     {t:'CxG chunking & feature selection', kind:'article', stage:'seed', thread:'Emergence', where:'papers/seeds', id:'', ev:null, evk:null, tch:'2026-01-11', who:'clear', pill:['gate','Seed'], note:'Three filters: compression, predictive utility, monitorability.'},
     {t:'Market failures with nature', kind:'article', stage:'seed', thread:'Other', where:'papers/seeds', id:'', ev:null, evk:null, tch:'2026-01-11', who:'clear', pill:['gate','Seed'], note:'Two-tier constitutional framework for inter-species competition.'},
-    {t:'Accountable hope', kind:'article', stage:'seed', thread:'Other', where:'papers/seeds', id:'', ev:null, evk:null, tch:'2026-01-08', who:'clear', pill:['gate','Seed'], note:'Sourced resources against doomerist politics; MVP = 5 modules + guide.'}
+    {t:'Accountable hope', kind:'article', stage:'seed', thread:'Other', where:'papers/seeds', id:'', ev:null, evk:null, tch:'2026-01-08', who:'clear', pill:['gate','Seed'], note:'Sourced resources against doomerist politics; MVP = 5 modules + guide.'},
+    {t:'Constructions as causal mesoscales', kind:'article', stage:'seed', thread:'Emergence', where:'papers/seeds', id:'draft complete', ev:null, evk:null, tch:'2026-01-01', who:'clear', pill:['gate','Seed'], note:'Grammatical-emergence paper using causal-emergence CP values for constructions.'},
+    {t:'SBCG Lean formalization', kind:'article', stage:'seed', thread:'CGEL syntax', where:'papers/seeds', id:'', ev:null, evk:null, tch:'2026-03-20', who:'clear', pill:['gate','Seed'], note:'Formalization seed; next: read Sag 2012, draft formalize.md for Aristotle.'}
   ];
 
   var STAGES = [
@@ -387,7 +403,8 @@
     {k:'active',  lbl:'Active work'},
     {k:'waiting', lbl:'Waiting on others'},
     {k:'gated',   lbl:'REB-gated'},
-    {k:'seed',    lbl:'Seeds'}
+    {k:'seed',    lbl:'Seeds'},
+    {k:'closed',  lbl:'Closed / dropped'}
   ];
   var KINDS = ['article','book','grant','experiment','collaboration','service','tool'];
   var THREADS = ['CGEL syntax','Grammaticality','HPC & kinds','LLMs & AI','Methods & stats','Philosophy','Syntax–semantics','Emergence','Other'];

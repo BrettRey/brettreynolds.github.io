@@ -3,7 +3,12 @@
 ## Current State
 
 **Status:** Static site maintained for brettreynolds.ca
-**Last updated:** 2026-07-04
+**Last updated:** 2026-07-05
+
+### 2026-07-05 Session Notes
+- Refreshed `dashboard-2b91a1.html` after Brett noticed missing projects. Item count expanded from 76 to 92 by adding public/research projects grounded in local `STATUS.md`/`CLAUDE.md` files, including announcement-drop, Bard magnitude-estimation reassessment, Bresnan dative validation, CGEL fragments, field-relative HPC categories, grammaticality judgments as detectors, semantic maps as bridge principles, countability for SEGU, and the Lingputation codebook registry.
+- Corrected stale dashboard statuses: SSHRC IDG is denied/closed; `Grammaticality de-idealized` is now LingBuzz 010118 and needs a journal venue; adversarial pragmatics is now arXiv 2607.01153 and needs a downstream venue choice; Glossa/Folia rows record the 2026-07-04 nudges.
+- The dashboard remains unlisted/noindex and still omits personal/private projects from the online surface.
 
 ### 2026-07-04 Session Notes
 - Added `dashboard-2b91a1.html`: unlisted interactive PM dashboard (76 portfolio items; group/sort/filter/search; data hardcoded from PORTFOLIO.md as of 4 Jul). Unlisted posture: no inbound links, out of sitemap.xml and llms.txt, `noindex, nofollow` meta, tokened filename; repo is public, so the file is browsable on GitHub.

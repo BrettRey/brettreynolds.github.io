@@ -3,14 +3,17 @@
 ## Current State
 
 **Status:** Static site maintained for brettreynolds.ca
-**Last updated:** 2026-07-05
+**Last updated:** 2026-07-07
+
+### 2026-07-07 Session Notes
+- Removed stale public "under review at Glossa" status for the focus-modifiers squib after the 2026-07-07 Glossa rejection. Public pages now show the LingBuzz preprint only; the private dashboard marks the item rejected/parked and notes that Glossa is free for stronger future submissions.
 
 ### 2026-07-05 Session Notes
 - Refreshed `dashboard-2b91a1.html` after Brett noticed missing projects. Item count expanded from 76 to 92 by adding public/research projects grounded in local `STATUS.md`/`CLAUDE.md` files, including announcement-drop, Bard magnitude-estimation reassessment, Bresnan dative validation, CGEL fragments, field-relative HPC categories, grammaticality judgments as detectors, semantic maps as bridge principles, countability for SEGU, and the Lingputation codebook registry.
 - Second audit pass after Brett noted that 92 still was not complete: dashboard expanded from 92 to 110 by adding public-safe first-level omissions and real nested research subprojects, including CGELBank Lean formalization, the asterisk-de-idealized paper, etiological grammaticality, observer-interface, tree-independence polynomials, ABM exploration, autoresearch, English-Corpora.org wrapper, kindred/hpctools, pdf-to-md, UD English retagging, the JWLLP keynote, LLMs-and-truth-theories, and HPC Lean formalization.
 - Added `Claim DAG Audit` as item 111 after creating the new standalone tool under `tools/claim-dag-audit/`.
 - Kept private/admin/sensitive or non-dashboard material off the online surface: the private metaphysics/statistics WIP, evolutionary DAG workbench, SWF anonymizer, snapshots, generated worktrees, demos, and personal/Humber/admin folders. Local inventory notes are in `Project-Management/notes/dashboard-inventory-audit-2026-07-05.md` and `Project-Management/notes/full-project-inventory-2026-07-05.md`.
-- Corrected stale dashboard statuses: SSHRC IDG is denied/closed; `Grammaticality de-idealized` is now LingBuzz 010118 and needs a journal venue; adversarial pragmatics is now arXiv 2607.01153 and needs a downstream venue choice; Glossa/Folia rows record the 2026-07-04 nudges.
+- Corrected stale dashboard statuses: SSHRC IDG is denied/closed; `Grammaticality de-idealized` is now LingBuzz 010118 and needs a journal venue; adversarial pragmatics is now arXiv 2607.01153 and needs a downstream venue choice; Glossa/Folia rows record the 2026-07-04 nudges. Superseded for Glossa focus-modifiers by the 2026-07-07 rejection/parked update above.
 - The dashboard remains unlisted/noindex and still omits personal/private projects from the online surface.
 
 ### 2026-07-04 Session Notes

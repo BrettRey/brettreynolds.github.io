@@ -209,8 +209,8 @@
   <div class="masthead">
     <h1>Research portfolio</h1>
     <div class="asof">
-      As of <span class="mono">Sun 5 Jul 2026</span><br>
-      PORTFOLIO.md reviewed <span class="mono">5 Jul</span> · day counts run to <span class="mono">5 Jul</span>
+      As of <span class="mono">Tue 7 Jul 2026</span><br>
+      PORTFOLIO.md reviewed <span class="mono">7 Jul</span> · day counts run to <span class="mono">7 Jul</span>
     </div>
   </div>
   <div class="rule"></div>
@@ -269,7 +269,7 @@
   </div>
 
   <footer>
-    Built 5 Jul 2026 from PORTFOLIO.md, local project STATUS/CLAUDE files, Project-Management/session-log.jsonl, daily-priorities.md, and MCP shared memory; a snapshot, not a live feed.
+    Built 5 Jul 2026 and updated 7 Jul 2026 from PORTFOLIO.md, local project STATUS/CLAUDE files, Project-Management/session-log.jsonl, daily-priorities.md, and MCP shared memory; a snapshot, not a live feed.
     <b>Event</b> is the lifecycle date (<span class="mono">SUB</span> submitted, <span class="mono">PRE</span> preprint posted, <span class="mono">REJ</span> latest rejection, <span class="mono">SENT</span> pitch sent); its day count and bar show time in review.
     <b>Last touched</b> is the most recent recorded work; a dash means no touch date is recorded in PORTFOLIO.md or the session log, not that the item is untouched. Idle counts turn amber from 60 days for items that are Brett&rsquo;s to move.
     Thread tags are PM classifications, not from PORTFOLIO.md. Personal/private projects are tracked elsewhere but omitted from this online surface.
@@ -280,7 +280,7 @@
 <script>
 (function () {
   'use strict';
-  var ASOF = new Date('2026-07-05T12:00:00');
+  var ASOF = new Date('2026-07-07T12:00:00');
 
   /* stage: review | out | venue | active | waiting | gated | seed | closed
      kind:  article | book | grant | experiment | collaboration | service | tool
@@ -288,7 +288,7 @@
      ev/evk: lifecycle date + kind (SUB | PRE | REJ | SENT); tch: last recorded work  */
   var ITEMS = [
     /* ---- in review ---- */
-    {t:'Focus modifiers (squib)', kind:'article', stage:'review', thread:'CGEL syntax', where:'Glossa', id:'27281', ev:'2025-12-23', evk:'SUB', tch:'2026-07-04', who:'press', pill:['wait','Under review'], note:'Editor Renans expected a decision by ~20 Jun; Brett sent follow-up nudge 4 Jul.'},
+    {t:'Focus modifiers (squib)', kind:'article', stage:'closed', thread:'CGEL syntax', where:'Glossa', id:'27281', ev:'2026-07-07', evk:'REJ', tch:'2026-07-07', who:'done', pill:['crit','Rejected / parked'], note:'Rejected after review at Glossa; Brett is parking it rather than rebuilding now. Glossa is available for stronger future submissions.'},
     {t:'Personhood and pro-forms', kind:'article', stage:'review', thread:'Syntax–semantics', where:'Folia Linguistica', id:'', ev:'2025-12-24', evk:'SUB', tch:'2026-07-04', who:'press', pill:['wait','Under review'], note:'Double-blind submission; Brett sent follow-up nudge 4 Jul.'},
     {t:'English kinship terms', kind:'article', stage:'review', thread:'Syntax–semantics', where:'Journal of English Linguistics', id:'JEngL-26-0039', ev:'2026-02-12', evk:'SUB', tch:'2026-02-12', who:'press', pill:['wait','Under review'], note:'Preprint LingBuzz 009751.'},
     {t:'Vector grounding response', kind:'article', stage:'review', thread:'LLMs & AI', where:'PhiMiSci', id:'12816', ev:'2026-03-30', evk:'SUB', tch:'2026-03-30', who:'press', pill:['wait','Under review'], note:'Response to Coelho Mollo & Milliere.'},
@@ -363,7 +363,7 @@
     {t:'Linguistics metrology', kind:'article', stage:'active', thread:'HPC & kinds', where:'papers/active', id:'', ev:null, evk:null, tch:'2025-12-08', who:'clear', pill:['act','Active'], note:'Next: fill in uncertainty-budget examples.'},
     {t:'Linguistics mereology', kind:'article', stage:'active', thread:'HPC & kinds', where:'papers/active', id:'', ev:null, evk:null, tch:'2025-12-08', who:'clear', pill:['act','Active'], note:'Next: worked examples beyond semantics.'},
     {t:'Object-level mereology of language', kind:'article', stage:'active', thread:'HPC & kinds', where:'papers/active', id:'thin status', ev:null, evk:null, tch:null, who:'clear', pill:['act','Active'], note:'Paper project exists with build guidance but little status metadata; needs a real STATUS.md pass.'},
-    {t:'Focus modifiers empirical follow-up', co:'w/ Goldberg', kind:'collaboration', stage:'active', thread:'CGEL syntax', where:'extends Glossa squib', id:'', ev:null, evk:null, tch:'2026-04-01', who:'clear', pill:['act','Active'], note:'Cleft prediction needs narrowing; stimuli not yet designed; Brett is stimuli creator.'},
+    {t:'Focus modifiers empirical follow-up', co:'w/ Goldberg', kind:'collaboration', stage:'active', thread:'CGEL syntax', where:'extends parked squib', id:'', ev:null, evk:null, tch:'2026-04-01', who:'clear', pill:['act','Active'], note:'Cleft prediction needs narrowing; stimuli not yet designed; Brett is stimuli creator.'},
 
     /* ---- waiting on others ---- */
     {t:'Labels to Stabilisers', kind:'article', stage:'waiting', thread:'HPC & kinds', where:'papers/active', id:'', ev:null, evk:null, tch:'2025-12-31', who:'collab', pill:['gate','Feedback out'], note:'Out to Levine and Pullum since 29 Dec.'},

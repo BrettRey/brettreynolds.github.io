@@ -236,13 +236,13 @@ const papers = [
     slug: "expert-grammaticality-judges",
     title: "Expert Grammaticality Judges as Evaluators, Not Participants: Grammaticality Judgments, Rater Roles, and Research Ethics Review",
     shortTitle: "Expert Grammaticality Judges as Evaluators, Not Participants",
-    status: "Under review at Canadian Journal of Linguistics / Revue canadienne de linguistique",
+    status: "Preprint",
     year: "2026",
     versionDate: "2026-06-20",
-    sourceTex: "papers/submitted/expert-grammaticality-judges-evaluators/main.tex",
+    sourceTex: "papers/retarget/expert-grammaticality-judges-evaluators/main.tex",
     bibliography: [
-      "papers/submitted/expert-grammaticality-judges-evaluators/references.bib",
-      "papers/submitted/expert-grammaticality-judges-evaluators/references-local.bib",
+      "papers/retarget/expert-grammaticality-judges-evaluators/references.bib",
+      "papers/retarget/expert-grammaticality-judges-evaluators/references-local.bib",
     ],
     canonicalUrl: "https://philarchive.org/rec/REYEGJ",
     externalLinks: [
@@ -255,7 +255,7 @@ const papers = [
   author = {Reynolds, Brett},
   title = {Expert Grammaticality Judges as Evaluators, Not Participants: Grammaticality Judgments, Rater Roles, and Research Ethics Review},
   year = {2026},
-  note = {Preprint, LingBuzz/010081 and PhilArchive REYEGJ; under review at Canadian Journal of Linguistics / Revue canadienne de linguistique},
+  note = {Preprint, LingBuzz/010081 and PhilArchive REYEGJ},
   url = {https://philarchive.org/rec/REYEGJ}
 }
 `,

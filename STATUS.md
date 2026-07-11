@@ -3,7 +3,11 @@
 ## Current State
 
 **Status:** Static site maintained for brettreynolds.ca
-**Last updated:** 2026-07-07
+**Last updated:** 2026-07-09
+
+### 2026-07-09 Session Notes
+- Removed stale public "under review at Canadian Journal of Linguistics / Revue canadienne de linguistique" wording for the expert-grammaticality-judges paper after the 2026-07-09 CJL/RCL rejection. Public pages now show the paper as a preprint; the unlisted PM dashboard records the retarget/rebuild status.
+- Rebuilt `personal/CV/main.pdf` and copied it to `cv.pdf` so the public CV no longer lists that paper as under review.
 
 ### 2026-07-07 Session Notes
 - Removed stale public "under review at Glossa" status for the focus-modifiers squib after the 2026-07-07 Glossa rejection. Public pages now show the LingBuzz preprint only; the private dashboard marks the item rejected/parked and notes that Glossa is free for stronger future submissions.

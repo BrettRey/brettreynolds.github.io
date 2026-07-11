@@ -2,7 +2,7 @@
 title: "Expert Grammaticality Judges as Evaluators, Not Participants: Grammaticality Judgments, Rater Roles, and Research Ethics Review"
 author: "Brett Reynolds"
 year: "2026"
-status: "Under review at Canadian Journal of Linguistics / Revue canadienne de linguistique"
+status: "Preprint"
 canonical_url: "https://philarchive.org/rec/REYEGJ"
 website_url: "https://brettreynolds.ca/papers/expert-grammaticality-judges/"
 markdown_url: "https://brettreynolds.ca/papers/expert-grammaticality-judges/paper.md"

@@ -2,7 +2,7 @@
 title: "Beyond concordance: External validation of probabilistic grammar in the English dative alternation"
 author: "Brett Reynolds"
 year: "2026"
-status: "Under review at Corpora"
+status: "Preprint"
 canonical_url: "https://lingbuzz.net/lingbuzz/010132"
 citation_handle: "lingbuzz/010132"
 website_url: "https://brettreynolds.ca/papers/beyond-concordance-dative/"

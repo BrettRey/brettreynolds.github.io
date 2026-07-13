@@ -2,7 +2,7 @@
 title: "Effective without warrant: Causal-normative networks and the social life of status"
 author: "Brett Reynolds"
 year: "2026"
-status: "Under review at Journal of Social Ontology"
+status: "Preprint"
 canonical_url: "https://philarchive.org/rec/REYEWW"
 website_url: "https://brettreynolds.ca/papers/effective-without-warrant/"
 markdown_url: "https://brettreynolds.ca/papers/effective-without-warrant/paper.md"

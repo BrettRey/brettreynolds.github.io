@@ -2,7 +2,7 @@
 title: "Difference-in-differences for corpus linguistics: Causal inference, corpus composition, and linguistic change after shocks"
 author: "Brett Reynolds"
 year: "2026"
-status: "Under review at International Journal of Corpus Linguistics"
+status: "Preprint"
 canonical_url: "https://lingbuzz.net/lingbuzz/010080"
 website_url: "https://brettreynolds.ca/papers/difference-in-differences-for-corpus-linguistics/"
 markdown_url: "https://brettreynolds.ca/papers/difference-in-differences-for-corpus-linguistics/paper.md"

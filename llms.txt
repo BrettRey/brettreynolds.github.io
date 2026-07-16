@@ -28,6 +28,7 @@
 ## Project Pages
 
 - [Adversarial Pragmatics for AI Safety Evaluation: Adjudication app](https://brettreynolds.ca/papers/adversarial-pragmatics-for-ai-safety-evaluation/judgment-protocol.html): The same browser review app used for the 54-row local seed-pilot adjudication.
+- [English Constructionary](https://brettrey.github.io/English-Constructionary/): A dictionary of English constructions in a projectibility-first Construction Grammar framework, with a curated lexicon layer of closed-class lexemes. Browsable site with per-entry formal patterns, meanings, constraints, and examples; YAML source data at https://github.com/BrettRey/English-Constructionary (MIT licence).
 
 
 ## Human-Facing Pages

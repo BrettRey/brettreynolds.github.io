@@ -26,6 +26,7 @@
 
 ## Project Pages
 
+- [The First Descent](https://brettreynolds.ca/first-descent.html): A playable companion to the 2026 manuscript "A variance-scaled Turán inequality at the first descent of a Poisson–binomial mass function": tune unfair coins, watch variance times the Turán deficit at the first descent, and probe the open constant c★ ∈ [1/4, 1/3]. Manuscript PDF: https://brettreynolds.ca/variance-scaled-turan.pdf; code and exact certificates: https://github.com/BrettRey/erdos-problem-993
 - [Adversarial Pragmatics for AI Safety Evaluation: Adjudication app](https://brettreynolds.ca/papers/adversarial-pragmatics-for-ai-safety-evaluation/judgment-protocol.html): The same browser review app used for the 54-row local seed-pilot adjudication.
 - [English Constructionary](https://brettrey.github.io/English-Constructionary/): A dictionary of English constructions in a projectibility-first Construction Grammar framework, with a curated lexicon layer of closed-class lexemes. Browsable site with per-entry formal patterns, meanings, constraints, and examples; YAML source data at https://github.com/BrettRey/English-Constructionary (MIT licence).
 

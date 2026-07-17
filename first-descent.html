@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A playable companion to a 2026 theorem: at the first descent of any Poisson–binomial distribution with variance at least 1, variance times the normalized Turán deficit is at least 1/4. Tune unfair coins and try to break the bound.">
+<link rel="canonical" href="https://brettreynolds.ca/first-descent.html">
+<title>The First Descent – a playable tour of a 2026 probability theorem</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Spline+Sans:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --felt:#16342a;        /* card-table green */
+  --felt2:#1d4234;       /* raised table panel */
+  --felt3:#0d221b;       /* table shadow */
+  --chalk:#f4efe1;       /* paper / chalk */
+  --chalk-dim:#cfc9b4;
+  --brass:#d9a441;       /* coin brass */
+  --brass2:#f2c56b;
+  --ink:#20291f;
+  --red:#c8524a;
+  --line:rgba(244,239,225,.16);
+  --line-ink:rgba(32,41,31,.16);
+  --disp:"Fraunces",Georgia,"Times New Roman",serif;
+  --body:"Spline Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"Spline Sans Mono",ui-monospace,"SF Mono",Menlo,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--felt);color:var(--chalk);font-family:var(--body);line-height:1.55;
+  background-image:radial-gradient(1200px 600px at 50% -100px, rgba(242,197,107,.06), transparent 60%);}
+img,svg{display:block;max-width:100%}
+a{color:var(--brass2)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.eyebrow{font-family:var(--mono);font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--brass);margin-bottom:14px}
+h1,h2,h3{font-family:var(--disp);font-weight:600;line-height:1.08}
+h2{font-size:clamp(1.7rem,3.4vw,2.4rem);margin-bottom:14px}
+h3{font-size:1.15rem;margin-bottom:8px}
+p{margin-bottom:12px}
+section{padding:72px 0}
+.sect-head{max-width:640px;margin-bottom:34px}
+.sect-head p{color:var(--chalk-dim)}
+
+/* hero */
+.hero{padding:96px 0 72px;border-bottom:1px solid var(--line)}
+.hero h1{font-size:clamp(2.9rem,7.5vw,5.2rem);font-weight:700;letter-spacing:-.01em;margin-bottom:18px}
+.hero h1 .thin{font-weight:400;font-style:italic;color:var(--brass2)}
+.hero .lede{max-width:640px;font-size:1.08rem;color:var(--chalk);opacity:.94;margin-bottom:26px}
+.hero .fine{font-family:var(--mono);font-size:.78rem;color:var(--chalk-dim);margin-top:16px}
+.btnrow{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;font-family:var(--body);font-weight:600;font-size:.95rem;text-decoration:none;
+  padding:12px 22px;border-radius:999px;border:1px solid var(--brass);transition:transform .15s ease, background .15s ease}
+.btn.primary{background:var(--brass);color:var(--felt3)}
+.btn.primary:hover{background:var(--brass2);transform:translateY(-1px)}
+.btn.ghost{color:var(--brass2)}
+.btn.ghost:hover{background:rgba(217,164,65,.12)}
+/* cards */
+.paper{background:var(--chalk);color:var(--ink);border-radius:14px;padding:26px 26px 20px;box-shadow:0 10px 24px rgba(0,0,0,.28)}
+.paper h3{color:var(--ink)}
+.paper .eyebrow{color:#9a6d1e}
+.table-card{background:var(--felt2);border:1px solid var(--line);border-radius:14px;padding:22px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+@media(max-width:840px){.grid3{grid-template-columns:1fr}}
+
+.frm{font-family:var(--mono);font-weight:600;white-space:nowrap}
+.bigfrm{font-family:var(--mono);font-size:clamp(1.3rem,3.4vw,2rem);font-weight:600;color:var(--brass2);
+  background:var(--felt3);border:1px solid var(--line);border-radius:12px;padding:16px 22px;display:inline-block;margin:8px 0 14px}
+.paper .bigfrm{color:#8a5f14;background:#ece5d1;border-color:var(--line-ink)}
+sub,sup{font-size:.68em}
+
+/* primer strip */
+.primer .step{position:relative}
+.primer .step .eyebrow{margin-bottom:8px}
+.primer svg{margin:10px 0 12px}
+.primer p{font-size:.94rem;margin-bottom:6px}
+.primer .paper{height:100%}
+
+/* game */
+#game{border-top:1px solid var(--line)}
+.game-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:20px;align-items:start}
+@media(max-width:920px){.game-grid{grid-template-columns:1fr}}
+.panel{background:var(--felt2);border:1px solid var(--line);border-radius:14px;padding:18px}
+.panel h3{display:flex;align-items:center;gap:8px}
+.panel .hint{font-size:.85rem;color:var(--chalk-dim)}
+
+.cointray{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.coin{width:46px;height:46px;border-radius:50%;border:2px solid rgba(242,197,107,.35);cursor:pointer;position:relative;
+  font-family:var(--mono);font-size:.6rem;color:var(--felt3);display:flex;align-items:center;justify-content:center;
+  transition:transform .12s ease, border-color .12s ease;background:#6b4f1d}
+.coin:hover{transform:translateY(-2px)}
+.coin.sel{border-color:var(--chalk);box-shadow:0 0 0 3px rgba(244,239,225,.25)}
+.coin span{background:rgba(244,239,225,.85);border-radius:6px;padding:0 3px;pointer-events:none}
+.ctl{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0}
+.ctl label{font-size:.85rem;color:var(--chalk-dim)}
+input[type=range]{width:100%;accent-color:var(--brass)}
+.smallbtn{font-family:var(--body);font-size:.82rem;font-weight:600;color:var(--chalk);background:var(--felt3);
+  border:1px solid var(--line);border-radius:8px;padding:7px 12px;cursor:pointer;transition:background .12s}
+.smallbtn:hover{background:#132e25;border-color:var(--brass)}
+.smallbtn.gold{background:var(--brass);color:var(--felt3);border-color:var(--brass)}
+.smallbtn.gold:hover{background:var(--brass2)}
+.smallbtn:disabled{opacity:.4;cursor:default}
+.presetrow{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+
+.statrow{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0 6px}
+.stat{background:var(--felt3);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.stat .lab{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--chalk-dim)}
+.stat .val{font-family:var(--mono);font-size:1.25rem;font-weight:600;color:var(--brass2)}
+#histwrap{background:var(--felt3);border:1px solid var(--line);border-radius:10px;padding:8px}
+#hist{width:100%;height:auto}
+.bar{fill:var(--brass);opacity:.92}
+.bar.peak{fill:var(--brass2)}
+.bar.emp{fill:none;stroke:var(--chalk);stroke-dasharray:3 3;opacity:.85}
+.axis{stroke:var(--line)}
+.klab{fill:var(--chalk-dim);font-family:var(--mono);font-size:10px;text-anchor:middle}
+.dflag{stroke:var(--red);stroke-width:2}
+.dflagtxt{fill:#e8887f;font-family:var(--mono);font-size:11px;font-weight:600}
+.crown{fill:var(--brass2)}
+
+/* meter */
+.meterbox{text-align:center;padding-top:6px}
+#needle{transform-origin:160px 160px;transition:transform .7s cubic-bezier(.2,.9,.3,1.1)}
+#needle.locked{opacity:.3}
+.score-big{font-family:var(--mono);font-size:2.1rem;font-weight:600;color:var(--brass2);margin-top:4px}
+.score-big.locked{color:var(--chalk-dim);font-size:1rem;font-weight:400}
+.score-cap{font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--chalk-dim);margin-bottom:14px}
+.zonered{stroke:var(--red)}
+.zoneamber{stroke:#b07a2a;stroke-dasharray:5 4}
+.zoneok{stroke:#3f6b58}
+.mtick{stroke:var(--chalk);opacity:.7}
+.mlab{fill:var(--chalk);font-family:var(--mono);font-size:12px;text-anchor:middle}
+.mlab.small{font-size:9.5px;fill:var(--chalk-dim)}
+
+.medals{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;justify-content:center}
+.medal{font-family:var(--mono);font-size:.72rem;border:1px solid var(--line);border-radius:999px;padding:5px 11px;color:var(--chalk-dim)}
+.medal.won{border-color:var(--brass);color:var(--brass2);background:rgba(217,164,65,.12)}
+.bestline{font-family:var(--mono);font-size:.8rem;color:var(--chalk-dim);text-align:center;margin-top:10px}
+.bestline b{color:var(--brass2)}
+
+/* challenges */
+.chal{border-top:1px solid var(--line);padding:12px 2px}
+.chal:first-of-type{border-top:none}
+.chal .nm{font-weight:600;display:flex;gap:8px;align-items:center}
+.chal .ds{font-size:.88rem;color:var(--chalk-dim);margin:2px 0 4px}
+.badge{font-family:var(--mono);font-size:.64rem;letter-spacing:.1em;border-radius:5px;padding:2px 7px;border:1px solid var(--line);color:var(--chalk-dim)}
+.badge.done{border-color:var(--brass);color:var(--felt3);background:var(--brass);animation:stamp .35s ease}
+@keyframes stamp{0%{transform:scale(1.7);opacity:0}100%{transform:scale(1);opacity:1}}
+.reveal{font-size:.85rem;background:var(--felt3);border-left:3px solid var(--brass);border-radius:6px;padding:8px 12px;margin-top:6px}
+
+/* tabs */
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.tab{font-family:var(--body);font-weight:600;font-size:.9rem;padding:9px 16px;border-radius:999px;cursor:pointer;
+  border:1px solid var(--line);background:transparent;color:var(--chalk-dim)}
+.tab.active{background:var(--chalk);color:var(--ink);border-color:var(--chalk)}
+.depth{display:none}
+.depth.active{display:block}
+.depth .paper p{margin-bottom:12px}
+.depth ul{margin:0 0 12px 20px}
+.depth li{margin-bottom:6px}
+.note{font-size:.88rem;background:#ece5d1;border-left:3px solid var(--brass);border-radius:6px;padding:10px 14px;margin:10px 0;color:#4b4433}
+
+/* proof stations */
+.stations{counter-reset:st;display:grid;gap:14px}
+.station{display:grid;grid-template-columns:52px 1fr;gap:16px;background:var(--felt2);border:1px solid var(--line);border-radius:12px;padding:18px}
+.station .num{counter-increment:st;font-family:var(--disp);font-weight:700;font-size:1.6rem;color:var(--brass2);
+  width:52px;height:52px;border:1px solid var(--brass);border-radius:50%;display:flex;align-items:center;justify-content:center}
+.station .num::before{content:counter(st)}
+.station p{color:var(--chalk-dim);font-size:.95rem;margin-bottom:6px}
+.station .frm{color:var(--brass2)}
+
+/* open problem band */
+.openband{background:var(--felt3);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.numline{margin:26px 0 8px}
+.openband .caption{font-family:var(--mono);font-size:.78rem;color:var(--chalk-dim);text-align:center}
+
+/* glossary */
+.gloss dt{font-family:var(--disp);font-weight:600;font-size:1.02rem;color:var(--brass2);margin-top:14px}
+.gloss dd{color:var(--chalk-dim);font-size:.94rem;margin-left:0}
+
+footer{border-top:1px solid var(--line);padding:40px 0 60px;font-size:.85rem;color:var(--chalk-dim)}
+footer p{max-width:720px}
+
+:focus-visible{outline:2px solid var(--brass2);outline-offset:2px}
+@media (prefers-reduced-motion: reduce){
+  *{animation:none!important;transition:none!important}
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">A playable companion to a 2026 theorem in probability</div>
+    <h1>The First <span class="thin">Descent</span></h1>
+    <p class="lede">Flip a pile of unfair coins and count the heads. Do it over and over, and the counts stack into a hill.
+    A new theorem says something strict about the top of that hill: <strong>the wider the hill, the gentler its fall is allowed to begin – but never gentler than a hard limit of one quarter.</strong></p>
+    <div class="btnrow">
+      <a class="btn primary" href="#game">Play “Break the Bound”</a>
+      <a class="btn ghost" href="#primer">Start with the idea</a>
+    </div>
+    <p class="fine">No math background needed. Deeper layers open up when you want them.</p>
+  </div>
+</header>
+
+<!-- ============ PRIMER ============ -->
+<section id="primer" class="primer">
+  <div class="wrap">
+    <div class="sect-head">
+      <div class="eyebrow">Three pictures</div>
+      <h2>How to read the hill</h2>
+      <p>Everything on this page comes down to one histogram and two numbers you can read off it.</p>
+    </div>
+    <div class="grid3">
+      <div class="paper step">
+        <div class="eyebrow">Picture 1</div>
+        <h3>Coins in, counts out</h3>
+        <svg viewBox="0 0 260 96" aria-label="A row of coins with different biases">
+          <g font-family="monospace" font-size="9" text-anchor="middle">
+            <circle cx="34" cy="34" r="22" fill="#d9a441"/><path d="M34 12 A22 22 0 0 1 34 56 Z" fill="#6b4f1d"/><text x="34" y="72" fill="#4b4433">50%</text>
+            <circle cx="94" cy="34" r="22" fill="#6b4f1d"/><path d="M94 12 A22 22 0 0 1 111 47 L94 34 Z" fill="#d9a441"/><text x="94" y="72" fill="#4b4433">20%</text>
+            <circle cx="154" cy="34" r="22" fill="#d9a441"/><path d="M154 12 A22 22 0 0 0 137 47 L154 34 Z" fill="#6b4f1d"/><text x="154" y="72" fill="#4b4433">80%</text>
+            <text x="212" y="38" font-size="20" fill="#9a6d1e">…</text>
+          </g>
+        </svg>
+        <p>Each coin has its own chance of landing heads – 50%, 20%, 80%, anything. Flip them all at once and count the heads. That count is random: sometimes 2, sometimes 5.</p>
+        <p>Repeat forever and tally the counts. The tallies form a histogram: <em>the hill</em>.</p>
+      </div>
+      <div class="paper step">
+        <div class="eyebrow">Picture 2</div>
+        <h3>The hill and its cliff</h3>
+        <svg viewBox="0 0 260 96" aria-label="A histogram that climbs to a peak, then descends; the first falling bar is flagged">
+          <g>
+            <rect x="14" y="76" width="18" height="10" fill="#d9a441"/>
+            <rect x="36" y="62" width="18" height="24" fill="#d9a441"/>
+            <rect x="58" y="42" width="18" height="44" fill="#d9a441"/>
+            <rect x="80" y="26" width="18" height="60" fill="#f2c56b"/>
+            <rect x="102" y="34" width="18" height="52" fill="#d9a441"/>
+            <rect x="124" y="50" width="18" height="36" fill="#d9a441"/>
+            <rect x="146" y="66" width="18" height="20" fill="#d9a441"/>
+            <rect x="168" y="78" width="18" height="8" fill="#d9a441"/>
+            <line x1="111" y1="10" x2="111" y2="32" stroke="#c8524a" stroke-width="2"/>
+            <text x="118" y="16" font-family="monospace" font-size="10" fill="#a33d35">first descent</text>
+            <text x="89" y="20" font-family="monospace" font-size="10" fill="#9a6d1e" text-anchor="middle">peak</text>
+          </g>
+        </svg>
+        <p>The hill only ever climbs, tops out, and falls – no dents, no double peaks. The <strong>first descent</strong> is the first bar that is shorter than the one before it: the step off the peak.</p>
+        <p>Two numbers describe the situation: the <strong>spread</strong> <span class="frm">V</span> (how wide the hill is) and the <strong>sharpness</strong> <span class="frm">δ</span> (how decisively the fall steepens right at that first step – 0 means coasting, 1 means dropping off a cliff to nothing).</p>
+      </div>
+      <div class="paper step">
+        <div class="eyebrow">Picture 3</div>
+        <h3>The rule</h3>
+        <div class="bigfrm">spread × sharpness ≥ ¼</div>
+        <p>Whenever the spread is at least 1, the theorem guarantees <span class="frm">V · δ ≥ ¼</span>. A wide hill may begin its fall gently; a narrow hill must fall hard. There is a fixed exchange rate between the two, and it is one quarter.</p>
+        <p>One consequence: past the peak, the bars must die off at least geometrically fast – each step multiplies the height by roughly <span class="frm">1 − 1/(4V)</span> at most.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GAME ============ -->
+<section id="game">
+  <div class="wrap">
+    <div class="sect-head">
+      <div class="eyebrow">The game</div>
+      <h2>Break the Bound</h2>
+      <p>Your score is <span class="frm">V · δ</span> – spread times sharpness. Push it as low as you can while keeping the spread <span class="frm">V ≥ 1</span>. The theorem proves you can never get below <strong>0.25</strong>. The best score anyone knows how to approach is <strong>⅓ ≈ 0.333</strong>. Between the two lies open mathematics: a score under ⅓ would be a genuine discovery.</p>
+    </div>
+    <div class="game-grid">
+      <div class="panel">
+        <h3>Coin tray</h3>
+        <p class="hint">Tap a coin to select it, then drag the slider to change its heads chance. The gold slice shows the bias.</p>
+        <div class="cointray" id="tray"></div>
+        <div class="ctl">
+          <label for="bias" style="min-width:100%">Selected coin – heads chance: <b id="biasval" style="color:var(--brass2);font-family:var(--mono)">50%</b></label>
+          <input type="range" id="bias" min="0.5" max="99.5" step="0.1" value="50" aria-label="Heads chance of selected coin">
+        </div>
+        <div class="ctl">
+          <button class="smallbtn" id="addcoin">+ Add coin</button>
+          <button class="smallbtn" id="rmcoin">− Remove coin</button>
+          <button class="smallbtn" id="matchall">Match all to selected</button>
+          <span class="hint" id="coincount"></span>
+        </div>
+        <div class="presetrow">
+          <button class="smallbtn" id="p-fair">10 fair coins</button>
+          <button class="smallbtn" id="p-shuffle">Shuffle biases</button>
+          <button class="smallbtn" id="p-lop">Lopsided mix</button>
+          <button class="smallbtn gold" id="p-record">Record attempt (40 tuned coins)</button>
+        </div>
+        <div class="ctl" style="margin-top:14px">
+          <button class="smallbtn" id="flip">Flip for real ×3000</button>
+          <button class="smallbtn" id="clearflip" disabled>Clear flips</button>
+          <span class="hint">Dashed outlines show what actually happened – chance is noisy, the hill is what it averages into.</span>
+        </div>
+        <div style="margin-top:14px">
+          <h3>Challenges</h3>
+          <div id="chals"></div>
+        </div>
+      </div>
+      <div>
+        <div class="panel">
+          <h3>The hill, live</h3>
+          <div id="histwrap"><svg id="hist" viewBox="0 0 640 300" role="img" aria-label="Live histogram of the number of heads"></svg></div>
+          <div class="statrow">
+            <div class="stat"><div class="lab">Spread V</div><div class="val" id="s-v">–</div></div>
+            <div class="stat"><div class="lab">First descent D</div><div class="val" id="s-d">–</div></div>
+            <div class="stat"><div class="lab">Sharpness δ</div><div class="val" id="s-delta">–</div></div>
+          </div>
+        </div>
+        <div class="panel meterbox" style="margin-top:20px">
+          <h3 style="justify-content:center">Scoreboard</h3>
+          <svg id="meter" viewBox="0 0 320 190" role="img" aria-label="Score gauge for V times delta"></svg>
+          <div class="score-big" id="scorebig">–</div>
+          <div class="score-cap" id="scorecap">score = V × δ</div>
+          <div class="medals" id="medals"></div>
+          <div class="bestline" id="bestline">Personal best: <b>none yet</b></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DEPTHS ============ -->
+<section id="depths">
+  <div class="wrap">
+    <div class="sect-head">
+      <div class="eyebrow">The claim, at your depth</div>
+      <h2>Choose how much math you want</h2>
+      <p>Same theorem, three altitudes. Switch whenever you like – nothing below depends on reading the harder ones.</p>
+    </div>
+    <div class="tabs" role="tablist">
+      <button class="tab active" data-depth="d1" role="tab">Plain words</button>
+      <button class="tab" data-depth="d2" role="tab">Some algebra</button>
+      <button class="tab" data-depth="d3" role="tab">The whole story</button>
+    </div>
+
+    <div class="depth active" id="d1">
+      <div class="paper">
+        <h3>The theorem, no symbols</h3>
+        <p>Take any collection of coins, each with its own heads chance, flip them all, and count heads. The histogram of that count is a hill: it climbs, tops out, and falls, with no dips or double peaks. That much has long been known.</p>
+        <p>Now measure two things. First, the <strong>spread</strong>: how much the head-count wobbles from trial to trial. Each coin contributes its own wobble – a fair coin contributes the most (¼), and a coin that is nearly always heads or nearly always tails contributes almost nothing. Add the contributions up and you get the spread, V.</p>
+        <p>Second, the <strong>sharpness of the first descent</strong>. Just past the peak, each bar is some fraction of the bar before it – the bars shrink. The sharpness δ measures how much that shrinking <em>accelerates</em> right at the top: δ near 0 means the fall begins as a gentle coast; δ near 1 means the hill drops off a cliff.</p>
+        <p>The theorem: <strong>as long as the spread is at least 1, spread times sharpness is at least one quarter.</strong> You can trade one for the other – a very wide hill is allowed a very gentle start to its fall – but the product never dips below ¼. Ever. For any coins, any biases, any number of them.</p>
+        <p>Why demand spread ≥ 1? Because a single heavily biased coin makes a two-bar “hill” that is both narrow and cliff-like in a degenerate way, and the product can be tiny. Some minimum amount of genuine randomness is needed before the rule kicks in.</p>
+        <p>And here is the part nobody knows: the true unbreakable floor is <em>somewhere between ¼ and ⅓</em>. The theorem proves ¼ always works. Ordinary fair-ish binomial hills get scores as close to ⅓ as you like. Where the exact boundary sits is an open question – the one the game upstairs lets you poke at.</p>
+      </div>
+    </div>
+
+    <div class="depth" id="d2">
+      <div class="paper">
+        <h3>The theorem, with a little algebra</h3>
+        <p>Let <span class="frm">W = B₁ + … + Bₙ</span> be a sum of independent coin flips, <span class="frm">Bᵢ ∼ Bernoulli(pᵢ)</span>, with probabilities <span class="frm">f_k = P(W = k)</span> and variance <span class="frm">V = Σ pᵢ(1−pᵢ)</span>. This is called a <em>Poisson–binomial</em> distribution.</p>
+        <p>A classical fact: the sequence <span class="frm">(f_k)</span> is <strong>log-concave</strong> – <span class="frm">f_k² ≥ f_{k−1} f_{k+1}</span> for every k. Equivalently, the consecutive ratios <span class="frm">q_k = f_k / f_{k−1}</span> only ever decrease. That is exactly why the histogram is a single hill.</p>
+        <p>The <strong>first descent</strong> is <span class="frm">D = min{k : f_k &lt; f_{k−1}}</span>, the first index where the bars turn downward (the peak sits at D − 1). The <strong>normalized Turán deficit</strong> there is</p>
+        <div class="bigfrm">δ_D = 1 − f_{D−1} f_{D+1} / f_D²</div>
+        <p>Log-concavity says δ_D ≥ 0 – the classic Turán-type inequality, named for the same pattern Pál Turán found in Legendre polynomials. The new theorem upgrades “≥ 0” to a quantitative statement scaled by the variance:</p>
+        <div class="bigfrm">V ( 1 − f_{D−1} f_{D+1} / f_D² ) ≥ ¼ &nbsp;&nbsp;whenever V ≥ 1</div>
+        <p>Two immediate consequences. First, the same bound holds for the plain ratio drop: <span class="frm">V(1 − f_{D+1}/f_D) ≥ ¼</span>. Second, since ratios only decrease, the bars past the peak decay at least geometrically:</p>
+        <div class="bigfrm">f_{D+r} / f_D ≤ e^{−r/(4V)}</div>
+        <p>That is a tail bound you can read off three bars and the variance – no knowledge of the individual pᵢ required.</p>
+        <div class="note"><strong>How tight is ¼?</strong> Take a binomial with n coins, all with the same p chosen so the variance is exactly 1. For n ≥ 5 its first descent is at D = 2 and <span class="frm">V·δ_D = (n+1) / (3(n−1))</span>, which slides down to ⅓ as n grows. So the best universal constant lies in the interval <span class="frm">[¼, ⅓]</span> – and the paper deliberately makes no conjecture about where.</div>
+        <div class="note"><strong>Why isn’t this classical?</strong> The standard strengthened log-concavity bound for these distributions, ULC(n), scales with the <em>number of coins</em>, not the variance. Split the coins into many nearly-deterministic ones and that bound goes to zero even while V stays fixed at 1. Earlier quantitative results controlled where the peak is (Darroch), how big one bar can be (Baillon–Cominetti–Vaisman; Bobkov–Marsiglietti–Melbourne), or ratio decay (Pitman; Dümbgen–Wellner) – none of them pins the deficit at the first descent to the variance.</div>
+      </div>
+    </div>
+
+    <div class="depth" id="d3">
+      <div class="paper">
+        <h3>The whole story, compressed</h3>
+        <p>The proof is a squeeze between two forces, finished off by exact computer algebra. Suppose, for contradiction, that the deficit δ at the first descent is small – smaller than 1/(4V). The strategy is to show the hill would then have to be simultaneously <em>too heavy</em> and <em>not heavy enough</em>.</p>
+        <p><strong>Smallness spreads.</strong> Cubic inequalities of Hillion and Johnson yield a recurrence between neighbouring deficits, <span class="frm">δ_{k±1}(1 − δ_k) ≤ δ_k</span>. Iterating it: if δ is small at the descent, the deficits stay small for about 1/δ steps in both directions. Small deficits mean the bar ratios barely change – so the bars near the peak are all forced to be a sizeable fraction of the peak mass p. The proof extracts explicit lower bounds L_r and R_r on <span class="frm">f_{c∓r}/p</span> around the peak c = D − 1.</p>
+        <p><strong>Heavy and wide means high variance.</strong> The pairwise identity <span class="frm">V = ½ Σᵢⱼ fᵢ fⱼ (i−j)²</span> converts those mass bounds into <span class="frm">V ≥ p² A(δ)</span>, where A(δ) collects the bounded terms. Meanwhile a lattice maximal-mass bound of Bobkov, Marsiglietti, and Melbourne runs the other way: <span class="frm">V ≥ (p⁻² − 1)/12</span>. A low peak already forces a large variance, so at any given variance the peak has a floor: <span class="frm">p ≥ (1 + 12V)^{−1/2}</span>.</p>
+        <p><strong>The squeeze.</strong> Feeding the peak-mass lower bound into the variance lower bound eliminates p entirely and reduces the whole theorem to a single inequality about one number:</p>
+        <div class="bigfrm">A(δ) ≥ (3 + δ) / (4δ²) &nbsp;for 0 &lt; δ &lt; ¼</div>
+        <p><strong>Certificates, not simulations.</strong> Substituting H = 1/δ − 1 splits the problem in two. For H ≥ 16 a uniform symbolic argument works: after clean substitutions, every relevant polynomial has visibly positive coefficients. For the compact window 3 &lt; H ≤ 16, the inequality is proved cell by cell – thirteen cells, each reduced to an exact integer polynomial whose <em>Bernstein expansion</em> has strictly positive rational coefficients: 275 positive numbers in total. Because Bernstein basis functions are nonnegative, positive coefficients certify positivity of the polynomial. Everything is exact rational arithmetic – no floating point anywhere in the proof – and the certificates are replayed by an independently written checker program. Parts of the argument are additionally formalized in the Lean proof assistant, conditionally on the Hillion–Johnson recurrence.</p>
+        <div class="note"><strong>Full disclosure, from the paper itself:</strong> AI systems assisted substantially with proof search, verification code, critique, and drafting; the author takes responsibility for the mathematics. The certificate files ship with SHA-256 digests and replay commands so anyone can re-verify the computer-checked parts from scratch.</div>
+        <p style="margin-bottom:0"><em>Reference:</em> Brett Reynolds, “A variance-scaled Turán inequality at the first descent of a Poisson–binomial mass function” (2026).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROOF STATIONS ============ -->
+<section id="proof">
+  <div class="wrap">
+    <div class="sect-head">
+      <div class="eyebrow">Why it’s true</div>
+      <h2>The route, in five stations</h2>
+      <p>A map of the argument – each station is one move, in order. (Detail lives in the “whole story” tab above.)</p>
+    </div>
+    <div class="stations">
+      <div class="station"><div class="num" aria-hidden="true"></div><div>
+        <h3>Assume the cliff is gentle</h3>
+        <p>Suppose the sharpness δ at the first descent were smaller than 1/(4V). The plan: show this forces a contradiction.</p>
+      </div></div>
+      <div class="station"><div class="num" aria-hidden="true"></div><div>
+        <h3>Gentleness is contagious</h3>
+        <p>A recurrence between neighbouring deficits, <span class="frm">δ_{k±1}(1 − δ_k) ≤ δ_k</span>, means a gentle cliff forces gentle slopes for about 1/δ bars on either side. All those bars must stay close to peak height.</p>
+      </div></div>
+      <div class="station"><div class="num" aria-hidden="true"></div><div>
+        <h3>A broad heavy top inflates the spread</h3>
+        <p>Total probability is fixed at 1, so many near-peak-height bars force the peak itself to be low, and the identity <span class="frm">V = ½ ΣΣ fᵢfⱼ(i−j)²</span> turns “low, broad, heavy” into a lower bound on the variance in terms of the peak mass.</p>
+      </div></div>
+      <div class="station"><div class="num" aria-hidden="true"></div><div>
+        <h3>But the peak can’t be too low</h3>
+        <p>A known maximal-mass bound pushes the other way: on the integers, variance V forces peak mass at least <span class="frm">(1 + 12V)^{−1/2}</span>. The two forces squeeze everything down to one inequality in δ alone.</p>
+      </div></div>
+      <div class="station"><div class="num" aria-hidden="true"></div><div>
+        <h3>Certify the last inequality exactly</h3>
+        <p>The remaining one-variable inequality is proved symbolically for most of the range, and on a compact window by thirteen exact polynomial certificates – 275 strictly positive rational Bernstein coefficients, computed and independently re-checked in exact arithmetic. Contradiction reached; theorem proved.</p>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OPEN PROBLEM ============ -->
+<section class="openband">
+  <div class="wrap">
+    <div class="sect-head" style="margin-bottom:6px">
+      <div class="eyebrow">The frontier</div>
+      <h2>Somewhere between ¼ and ⅓</h2>
+      <p>Call the true unbreakable floor c★ – the lowest that spread × sharpness can ever be driven (with spread ≥ 1). The theorem proves c★ ≥ ¼. The tuned binomial family proves c★ ≤ ⅓. That is everything currently known.</p>
+    </div>
+    <svg class="numline" viewBox="0 0 800 110" role="img" aria-label="Number line from 0.25 to 0.333 with the unknown constant somewhere between">
+      <line x1="60" y1="60" x2="740" y2="60" stroke="#f4efe1" stroke-opacity=".25" stroke-width="2"/>
+      <rect x="60" y="52" width="680" height="16" fill="#b07a2a" opacity=".18"/>
+      <line x1="60" y1="40" x2="60" y2="80" stroke="#c8524a" stroke-width="3"/>
+      <text x="60" y="32" text-anchor="middle" fill="#e8887f" font-family="monospace" font-size="15">¼ = 0.25</text>
+      <text x="60" y="98" text-anchor="middle" fill="#cfc9b4" font-family="monospace" font-size="11">proved floor</text>
+      <line x1="740" y1="40" x2="740" y2="80" stroke="#f2c56b" stroke-width="3"/>
+      <text x="740" y="32" text-anchor="middle" fill="#f2c56b" font-family="monospace" font-size="15">⅓ ≈ 0.333</text>
+      <text x="740" y="98" text-anchor="middle" fill="#cfc9b4" font-family="monospace" font-size="11">best known scores</text>
+      <text x="400" y="45" text-anchor="middle" fill="#f4efe1" font-family="monospace" font-size="13">c★ lives somewhere in here – nobody knows where</text>
+      <text x="400" y="80" text-anchor="middle" fill="#cfc9b4" font-family="monospace" font-size="11">every game score is an experiment on this exact question</text>
+    </svg>
+    <p class="caption">A verified configuration scoring below ⅓ would improve the known upper bound – new mathematics. (The game runs on floating point, so treat any surprise as a lead to check exactly, not a proof.)</p>
+  </div>
+</section>
+
+<!-- ============ WHAT IT BUYS YOU ============ -->
+<section>
+  <div class="wrap">
+    <div class="grid3">
+      <div class="paper">
+        <div class="eyebrow">What it buys you</div>
+        <h3>Local reading, global guarantee</h3>
+        <p>Measure just three bars at the top of the hill plus the overall spread, and the theorem hands you a certified tail bound: every later bar shrinks at least like <span class="frm">e^{−r/(4V)}</span>. Local data licenses a global inference – with the exact exchange rate stated.</p>
+      </div>
+      <div class="paper">
+        <div class="eyebrow">Where these hills live</div>
+        <h3>Sums of yes/no events</h3>
+        <p>Independent yes/no events with unequal chances are everywhere: which of n components fail, which of n voters turn out, which of n packets drop. Whenever you count successes across unequal, independent chances, this hill – and this rule about its top – is the shape you’re looking at.</p>
+      </div>
+      <div class="paper">
+        <div class="eyebrow">Why “Turán”</div>
+        <h3>An old pattern, a new scale</h3>
+        <p>Inequalities of the shape <span class="frm">x_k² ≥ x_{k−1}x_{k+1}</span> are named for Pál Turán, who found them in Legendre polynomials in the 1940s. The novelty here is not the pattern but the calibration: the gap in the inequality, at the one index where the hill turns, measured against the variance – with a universal constant.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GLOSSARY ============ -->
+<section id="glossary">
+  <div class="wrap">
+    <div class="sect-head">
+      <div class="eyebrow">Small dictionary</div>
+      <h2>Glossary</h2>
+    </div>
+    <div class="table-card">
+      <dl class="gloss">
+        <dt>Poisson–binomial distribution</dt>
+        <dd>The distribution of the number of heads when independent coins with possibly different biases are all flipped. If all biases are equal it is the ordinary binomial.</dd>
+        <dt>Probability mass function (pmf)</dt>
+        <dd>The list of probabilities f₀, f₁, f₂, … : the chance of exactly 0 heads, exactly 1, and so on. The heights of the bars.</dd>
+        <dt>Variance (the “spread”, V)</dt>
+        <dd>The standard measure of wobble around the average. For coin sums it is simply Σ pᵢ(1−pᵢ): each coin adds its own uncertainty, maxed out at ¼ by a fair coin.</dd>
+        <dt>Mode / peak</dt>
+        <dd>The most likely head count – the tallest bar. A classical result (Darroch, 1964) says it sits within one unit of the average.</dd>
+        <dt>First descent (D)</dt>
+        <dd>The first bar shorter than its predecessor. Because the hill has one peak, D − 1 is the (rightmost) tallest bar.</dd>
+        <dt>Log-concave</dt>
+        <dd>f_k² ≥ f_{k−1}f_{k+1} for all k: each bar is at least the geometric mean of its neighbours. Guarantees the single-hill shape.</dd>
+        <dt>Normalized Turán deficit (the “sharpness”, δ)</dt>
+        <dd>δ_k = 1 − f_{k−1}f_{k+1}/f_k², the fractional slack in the log-concavity inequality. At the first descent it measures how much the bar-to-bar shrinking accelerates: 0 = not at all, 1 = next bar is the last.</dd>
+        <dt>Bernstein certificate</dt>
+        <dd>A way to prove a polynomial stays positive on an interval: rewrite it in the Bernstein basis, whose building blocks are never negative; if all coefficients are positive, so is the polynomial. Positivity becomes a finite list of exact numbers a computer can check.</dd>
+        <dt>c★</dt>
+        <dd>The true optimal constant: the infimum of V·δ_D over all coin collections with V ≥ 1. Known to lie in [¼, ⅓]; exact value open.</dd>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><strong>The First Descent</strong> is an interactive companion to: Brett Reynolds, <em>“A variance-scaled Turán inequality at the first descent of a Poisson–binomial mass function”</em> (2026, manuscript). Read the <a href="variance-scaled-turan.pdf">paper (PDF)</a>. The exact Bernstein certificates, the independent checker, and the conditional Lean formalization live in the <a href="https://github.com/BrettRey/erdos-problem-993/tree/master/paper/poisson_binomial" target="_blank" rel="noopener noreferrer">project repository</a>, which also holds the tree-unimodality search the theorem grew out of.</p>
+    <p style="margin-top:10px">This page computes probabilities exactly (by convolution) but in floating-point arithmetic; scores are accurate to roughly a part in a trillion, which is plenty for play and not enough for proofs. The impossible zone below 0.25, however, is proved – no arithmetic of any precision will get you in.</p>
+    <p style="margin-top:10px"><a href="index.html">brettreynolds.ca</a> · <a href="publications.html">Publications</a></p>
+  </div>
+</footer>
+
+<script>
+(function(){
+"use strict";
+
+/* ---------- state ---------- */
+let coins = Array(10).fill(0.5);
+let sel = 0;
+let best = null;
+let emp = null, empT = 0, flipRunning = false;
+const cleared = {};
+
+/* ---------- math ---------- */
+function pmf(ps){
+  let f = [1];
+  for(const p of ps){
+    const g = new Array(f.length+1).fill(0);
+    for(let k=0;k<f.length;k++){ g[k]+=f[k]*(1-p); g[k+1]+=f[k]*p; }
+    f = g;
+  }
+  return f;
+}
+function analyze(ps){
+  const f = pmf(ps);
+  const n = ps.length;
+  const V = ps.reduce((s,p)=>s+p*(1-p),0);
+  let D = null;
+  for(let k=1;k<=n;k++){ if(f[k] < f[k-1]){ D=k; break; } }
+  let delta = null, score = null, c;
+  if(D!==null){
+    const fR = (D+1<=n)? f[D+1] : 0;
+    delta = 1 - (f[D-1]*fR)/(f[D]*f[D]);
+    score = V*delta;
+    c = D-1;
+  } else {
+    c = n; /* still rising through the whole support (only possible when V<1) */
+  }
+  const valid = (V >= 1-1e-9) && D!==null;
+  return {f,n,V,D,delta,score,c,valid};
+}
+
+/* ---------- formatting ---------- */
+const fmt = (x,d)=> (x===null||x===undefined)? "–" : x.toFixed(d===undefined?4:d);
+
+/* ---------- coin tray ---------- */
+const trayEl = document.getElementById('tray');
+const biasEl = document.getElementById('bias');
+const biasVal = document.getElementById('biasval');
+function renderTray(){
+  trayEl.innerHTML = "";
+  coins.forEach((p,i)=>{
+    const b = document.createElement('button');
+    b.className = 'coin' + (i===sel? ' sel':'');
+    b.style.background = `conic-gradient(var(--brass) 0 ${Math.round(p*100)}%, #6b4f1d ${Math.round(p*100)}% 100%)`;
+    b.setAttribute('aria-label', `Coin ${i+1}, heads chance ${(p*100).toFixed(1)} percent`);
+    b.innerHTML = `<span>${Math.round(p*100)}</span>`;
+    b.addEventListener('click', ()=>{ sel=i; biasEl.value = (coins[i]*100).toFixed(1); syncBiasLabel(); renderTray(); });
+    trayEl.appendChild(b);
+  });
+  document.getElementById('coincount').textContent = `${coins.length} coins (2–40)`;
+}
+function syncBiasLabel(){ biasVal.textContent = (+biasEl.value).toFixed(1) + "%"; }
+biasEl.addEventListener('input', ()=>{
+  coins[sel] = parseFloat(biasEl.value)/100;
+  syncBiasLabel(); clearEmp(); renderTray(); update();
+});
+document.getElementById('addcoin').addEventListener('click', ()=>{
+  if(coins.length>=40) return;
+  coins.push(coins[sel]); sel = coins.length-1;
+  biasEl.value = (coins[sel]*100).toFixed(1); syncBiasLabel(); clearEmp(); renderTray(); update();
+});
+document.getElementById('rmcoin').addEventListener('click', ()=>{
+  if(coins.length<=2) return;
+  coins.splice(sel,1); sel = Math.min(sel, coins.length-1);
+  biasEl.value = (coins[sel]*100).toFixed(1); syncBiasLabel(); clearEmp(); renderTray(); update();
+});
+
+document.getElementById('matchall').addEventListener('click', ()=>{
+  coins = coins.map(()=>coins[sel]); clearEmp(); renderTray(); update();
+});
+
+/* presets */
+function setCoins(arr){ coins = arr.slice(0,40).map(p=>Math.min(.995,Math.max(.005,p))); sel=0;
+  biasEl.value = (coins[0]*100).toFixed(1); syncBiasLabel(); clearEmp(); renderTray(); update(); }
+document.getElementById('p-fair').addEventListener('click', ()=> setCoins(Array(10).fill(0.5)));
+document.getElementById('p-shuffle').addEventListener('click', ()=> setCoins(coins.map(()=> 0.05+Math.random()*0.9)));
+document.getElementById('p-lop').addEventListener('click', ()=> setCoins([.92,.92,.88,.12,.08,.5,.5,.35,.65,.22,.78]));
+document.getElementById('p-record').addEventListener('click', ()=>{
+  const n=40, p=(1-Math.sqrt(1-4/n))/2;
+  setCoins(Array(n).fill(p));
+});
+
+/* ---------- histogram ---------- */
+const histEl = document.getElementById('hist');
+function renderHist(r){
+  const W=640,H=300,padL=36,padR=12,padT=34,padB=34;
+  const n=r.n, f=r.f;
+  const maxTheo = Math.max(...f);
+  const maxEmp = emp? Math.max(...emp)/Math.max(empT,1) : 0;
+  const maxf = Math.max(maxTheo, maxEmp) || 1;
+  const bw=(W-padL-padR)/(n+1);
+  const y0=H-padB, plotH=H-padT-padB;
+  let s = `<line class="axis" x1="${padL-4}" y1="${y0}" x2="${W-padR}" y2="${y0}"/>`;
+  for(let k=0;k<=n;k++){
+    const h = plotH*f[k]/maxf, x = padL+k*bw+1, y = y0-h;
+    const cls = (k===r.c)? "bar peak":"bar";
+    s += `<rect class="${cls}" x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${Math.max(bw-2,1).toFixed(1)}" height="${Math.max(h,0.5).toFixed(1)}" rx="1.5"></rect>`;
+  }
+  if(emp){
+    for(let k=0;k<=n;k++){
+      const h = plotH*(emp[k]||0)/(empT*maxf); if(h<=0.4) continue;
+      const x = padL+k*bw+1, y = y0-h;
+      s += `<rect class="bar emp" x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${Math.max(bw-2,1).toFixed(1)}" height="${h.toFixed(1)}"></rect>`;
+    }
+  }
+  /* peak marker */
+  if(r.c<=n){
+    const cx = padL + r.c*bw + bw/2;
+    const cy = y0 - plotH*f[r.c]/maxf - 8;
+    s += `<circle class="crown" cx="${cx.toFixed(1)}" cy="${Math.max(cy,10).toFixed(1)}" r="3.2"></circle>`;
+  }
+  /* first-descent flag */
+  if(r.D!==null){
+    const x = padL + r.D*bw + bw/2;
+    const topY = y0 - plotH*f[r.D]/maxf;
+    const flagTop = Math.max(topY-30, 12);
+    s += `<line class="dflag" x1="${x.toFixed(1)}" y1="${flagTop}" x2="${x.toFixed(1)}" y2="${(topY-4).toFixed(1)}"></line>`;
+    const anchor = (r.D > n*0.72) ? `x="${(x-6).toFixed(1)}" text-anchor="end"` : `x="${(x+6).toFixed(1)}"`;
+    s += `<text class="dflagtxt" ${anchor} y="${flagTop+9}">D = ${r.D}</text>`;
+  } else {
+    s += `<text class="dflagtxt" x="${padL+4}" y="20">still climbing – no descent inside the range</text>`;
+  }
+  /* x labels */
+  const step = Math.max(1, Math.ceil((n+1)/13));
+  for(let k=0;k<=n;k+=step){
+    s += `<text class="klab" x="${(padL+k*bw+bw/2).toFixed(1)}" y="${H-14}">${k}</text>`;
+  }
+  s += `<text class="klab" x="${W-padR-20}" y="${H-2}">heads</text>`;
+  histEl.innerHTML = s;
+}
+
+/* ---------- meter ---------- */
+const M = {lo:0.20, hi:0.80, cx:160, cy:158, r:118};
+function ang(v){ const t=(Math.min(Math.max(v,M.lo),M.hi)-M.lo)/(M.hi-M.lo); return -90+180*t; }
+function pol(r,a){ const rad=a*Math.PI/180; return [M.cx+r*Math.sin(rad), M.cy-r*Math.cos(rad)]; }
+function arc(r,a0,a1){ const [x0,y0]=pol(r,a0),[x1,y1]=pol(r,a1);
+  return `M ${x0.toFixed(1)} ${y0.toFixed(1)} A ${r} ${r} 0 0 1 ${x1.toFixed(1)} ${y1.toFixed(1)}`; }
+function buildMeter(){
+  const T=1/3;
+  let s = "";
+  s += `<path class="zonered"   d="${arc(M.r, ang(M.lo), ang(0.25))}" fill="none" stroke-width="16" stroke-linecap="butt"/>`;
+  s += `<path class="zoneamber" d="${arc(M.r, ang(0.25), ang(T))}"    fill="none" stroke-width="16"/>`;
+  s += `<path class="zoneok"    d="${arc(M.r, ang(T),   ang(M.hi))}" fill="none" stroke-width="16"/>`;
+  [[0.25,"¼"],[T,"⅓"],[0.5,"½"],[0.75,"¾"]].forEach(([v,lab])=>{
+    const a=ang(v), [x0,y0]=pol(M.r-12,a), [x1,y1]=pol(M.r+12,a), [tx,ty]=pol(M.r+26,a);
+    s += `<line class="mtick" x1="${x0.toFixed(1)}" y1="${y0.toFixed(1)}" x2="${x1.toFixed(1)}" y2="${y1.toFixed(1)}"/>`;
+    s += `<text class="mlab" x="${tx.toFixed(1)}" y="${(ty+4).toFixed(1)}">${lab}</text>`;
+  });
+  const [ix,iy]=pol(M.r-30, ang(0.222));
+  s += `<text class="mlab small" x="${ix.toFixed(1)}" y="${iy.toFixed(1)}" transform="rotate(${ang(0.222)} ${ix.toFixed(1)} ${iy.toFixed(1)})">impossible</text>`;
+  const [ux,uy]=pol(M.r-30, ang(0.29));
+  s += `<text class="mlab small" x="${ux.toFixed(1)}" y="${uy.toFixed(1)}" transform="rotate(${ang(0.29)} ${ux.toFixed(1)} ${uy.toFixed(1)})">unknown</text>`;
+  s += `<g id="needle"><line x1="${M.cx}" y1="${M.cy}" x2="${M.cx}" y2="${M.cy-M.r+22}" stroke="#f4efe1" stroke-width="3" stroke-linecap="round"/></g>`;
+  s += `<circle cx="${M.cx}" cy="${M.cy}" r="7" fill="#f2c56b"/>`;
+  document.getElementById('meter').innerHTML = s;
+}
+function renderMeter(r){
+  const nd = document.getElementById('needle');
+  const big = document.getElementById('scorebig');
+  const cap = document.getElementById('scorecap');
+  if(r.valid){
+    nd.classList.remove('locked');
+    nd.style.transform = `rotate(${ang(r.score)}deg)`;
+    big.classList.remove('locked');
+    big.textContent = (r.score>M.hi? "> " : "") + fmt(Math.min(r.score, 9.9999));
+    cap.textContent = "score = V × δ";
+  } else {
+    nd.classList.add('locked');
+    nd.style.transform = `rotate(-90deg)`;
+    big.classList.add('locked');
+    big.textContent = "locked";
+    cap.textContent = (r.D===null)
+      ? "no descent yet – spread must reach 1 first"
+      : "spread V is below 1 – add coins or move biases toward 50%";
+  }
+}
+
+/* ---------- medals & best ---------- */
+const MEDALS = [
+  [0.45,  "Bronze &lt; 0.45"],
+  [0.40,  "Silver &lt; 0.40"],
+  [0.37,  "Gold &lt; 0.37"],
+  [0.352, "Platinum &lt; 0.352"],
+  [1/3, "New mathematics &lt; ⅓"]
+];
+function renderMedals(){
+  const el = document.getElementById('medals');
+  el.innerHTML = MEDALS.map(([thr,lab])=>
+    `<span class="medal${(best!==null && best<thr)?' won':''}">${lab}</span>`).join("");
+  document.getElementById('bestline').innerHTML =
+    best===null ? "Personal best: <b>none yet</b>" : `Personal best: <b>${fmt(best)}</b>`;
+}
+function loadBest(){
+  try{
+    const v = parseFloat(localStorage.getItem('first-descent-best'));
+    if(isFinite(v)) best = v;
+  }catch(e){ /* storage unavailable: play without persistence */ }
+  renderMedals();
+}
+function saveBest(){
+  try{ localStorage.setItem('first-descent-best', String(best)); }catch(e){}
+}
+
+/* ---------- challenges ---------- */
+const CH = [
+  {id:'c1', nm:'Crown the fifth bar', ds:'Arrange the coins so the most likely head-count is exactly 5.',
+    test:r=> r.c===5},
+  {id:'c2', nm:'Stretch the hill', ds:'Push the spread to V ≥ 2.',
+    test:r=> r.V>=2},
+  {id:'c3', nm:'Cliff at two', ds:'Bars rise exactly once, then fall: first descent at D = 2, with V ≥ 1.',
+    test:r=> r.valid && r.D===2},
+  {id:'c4', nm:'The bait', ds:'Make the very first bar (0 heads) the tallest, while keeping V ≥ 1. Or… call our bluff.',
+    impossible:true,
+    reveal:'Correct – it can’t be done. With every coin strictly between 0 and 1, the ratio of bar 1 to bar 0 equals Σ pᵢ/(1−pᵢ), which is strictly larger than Σ pᵢ(1−pᵢ) = V ≥ 1. So bar 1 always beats bar 0: once the spread reaches 1, the hill must climb before it falls. You just proved a lemma.'},
+  {id:'c5', nm:'Under 0.45', ds:'Get a legal score (V ≥ 1) below 0.45. Hint: many coins, all mildly biased the same way.',
+    test:r=> r.valid && r.score<0.45}
+];
+function buildChals(){
+  const box = document.getElementById('chals');
+  box.innerHTML = "";
+  CH.forEach(ch=>{
+    const d = document.createElement('div');
+    d.className='chal';
+    d.innerHTML = `<div class="nm">${ch.nm} <span class="badge" id="b-${ch.id}">open</span></div>
+      <div class="ds">${ch.ds}</div>` +
+      (ch.impossible? `<button class="smallbtn" id="claim-${ch.id}">I claim it’s impossible</button><div class="reveal" id="rv-${ch.id}" hidden></div>`:"");
+    box.appendChild(d);
+    if(ch.impossible){
+      document.getElementById(`claim-${ch.id}`).addEventListener('click', ()=>{
+        cleared[ch.id]=true;
+        const rv=document.getElementById(`rv-${ch.id}`);
+        rv.hidden=false; rv.textContent=ch.reveal;
+        document.getElementById(`claim-${ch.id}`).disabled=true;
+        renderChals();
+      });
+    }
+  });
+}
+function renderChals(r){
+  CH.forEach(ch=>{
+    if(r && ch.test && ch.test(r)) cleared[ch.id]=true;
+    const b=document.getElementById(`b-${ch.id}`);
+    if(cleared[ch.id] && !b.classList.contains('done')){ b.classList.add('done'); b.textContent='cleared'; }
+  });
+}
+
+/* ---------- flip simulator ---------- */
+const flipBtn = document.getElementById('flip');
+const clearBtn = document.getElementById('clearflip');
+function clearEmp(){ emp=null; empT=0; flipRunning=false; clearBtn.disabled=true; flipBtn.disabled=false; }
+clearBtn.addEventListener('click', ()=>{ clearEmp(); update(); });
+flipBtn.addEventListener('click', ()=>{
+  if(flipRunning) return;
+  emp = new Array(coins.length+1).fill(0); empT=0; flipRunning=true;
+  flipBtn.disabled=true; clearBtn.disabled=false;
+  const target=3000, chunk=120;
+  function stepFn(){
+    if(!flipRunning || !emp) return;
+    for(let t=0;t<chunk && empT<target;t++){
+      let h=0; for(const p of coins){ if(Math.random()<p) h++; }
+      emp[h]++; empT++;
+    }
+    renderHist(lastRes);
+    if(empT<target){ requestAnimationFrame(stepFn); }
+    else { flipRunning=false; flipBtn.disabled=false; }
+  }
+  requestAnimationFrame(stepFn);
+});
+
+/* ---------- tabs ---------- */
+document.querySelectorAll('.tab').forEach(t=>{
+  t.addEventListener('click', ()=>{
+    document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+    document.querySelectorAll('.depth').forEach(x=>x.classList.remove('active'));
+    t.classList.add('active');
+    document.getElementById(t.dataset.depth).classList.add('active');
+  });
+});
+
+/* ---------- main update ---------- */
+let lastRes = null;
+function update(){
+  const r = analyze(coins);
+  lastRes = r;
+  document.getElementById('s-v').textContent = fmt(r.V,3);
+  document.getElementById('s-d').textContent = (r.D===null)? "–" : String(r.D);
+  document.getElementById('s-delta').textContent = fmt(r.delta,4);
+  renderHist(r);
+  renderMeter(r);
+  renderChals(r);
+  if(r.valid && (best===null || r.score<best-1e-12)){
+    best = r.score; renderMedals(); saveBest();
+  }
+}
+
+/* ---------- init ---------- */
+buildMeter();
+buildChals();
+renderTray();
+syncBiasLabel();
+update();
+renderMedals();
+loadBest();
+})();
+</script>
+</body>
+</html>

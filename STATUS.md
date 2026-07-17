@@ -1,9 +1,13 @@
 # STATUS.md
+<!-- SUMMARY: Static site state for brettreynolds.ca · status: live, maintained · updated: 2026-07-17 -->
 
 ## Current State
 
 **Status:** Static site maintained for brettreynolds.ca
-**Last updated:** 2026-07-09
+**Last updated:** 2026-07-17
+
+### 2026-07-17 Session Notes
+- Deployed `first-descent.html`, the interactive companion to the Poisson–binomial manuscript (audited against `paper/poisson_binomial/main.tex` in erdos-problem-993; one math gloss corrected before deploy). Hosted the manuscript build as `variance-scaled-turan.pdf` (source repo gitignores PDFs; refresh the site copy when the manuscript changes). Added the manuscript to `publications.html` (status "Manuscript", no venue claim) with PDF / interactive companion / code links, and indexed both new URLs in `sitemap.xml` and `llms.txt`.
 
 ### 2026-07-09 Session Notes
 - Removed stale public "under review at Canadian Journal of Linguistics / Revue canadienne de linguistique" wording for the expert-grammaticality-judges paper after the 2026-07-09 CJL/RCL rejection. Public pages now show the paper as a preprint; the unlisted PM dashboard records the retarget/rebuild status.

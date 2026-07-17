@@ -22,11 +22,11 @@ const papers = [
     shortTitle: "Adversarial Pragmatics for AI Safety Evaluation",
     status: "arXiv preprint",
     year: "2026",
-    versionDate: "2026-07-01",
-    sourceTex: "papers/active/adversarial-pragmatics-for-ai-safety-evaluation/main.tex",
+    versionDate: "2026-07-16",
+    sourceTex: "papers/development/adversarial-pragmatics-for-ai-safety-evaluation/main.tex",
     bibliography: [
-      "papers/active/adversarial-pragmatics-for-ai-safety-evaluation/references.bib",
-      "papers/active/adversarial-pragmatics-for-ai-safety-evaluation/references-local.bib",
+      "papers/development/adversarial-pragmatics-for-ai-safety-evaluation/references.bib",
+      "papers/development/adversarial-pragmatics-for-ai-safety-evaluation/references-local.bib",
     ],
     canonicalUrl: "https://arxiv.org/abs/2607.01153",
     externalLinks: [
@@ -802,11 +802,15 @@ function renderLlmsTxt() {
 
 ${entries}
 
-${companionEntries ? `## Project Pages\n\n${companionEntries}\n` : ""}
+## Project Pages
+
+${companionEntries ? `${companionEntries}\n` : ""}- [English Constructionary](https://brettrey.github.io/English-Constructionary/): A dictionary of English constructions in a projectibility-first Construction Grammar framework, with a curated lexicon layer of closed-class lexemes. Browsable site with per-entry formal patterns, meanings, constraints, and examples; YAML source data at https://github.com/BrettRey/English-Constructionary (MIT licence).
 
 ## Human-Facing Pages
 
 - [Publications](${baseUrl}/publications.html): Full publication list.
+- [Essays](${baseUrl}/essays.html): Human-facing essays and talks.
+- [Why I Work This Way](${baseUrl}/why-i-work-this-way.html): An essay on speed, projectibility-first research, and agentic Codex/Claude Code-style systems as workspace infrastructure for science and philosophy.
 - [CGEL correctives and extensions](${baseUrl}/cgel-correctives.html): Thematic cluster of CGEL corrections, extensions, and related category/function work.
 - [Machine-readable papers](${baseUrl}/papers/): Index of Markdown mirrors and BibTeX records.
 - [Public OKF export](${baseUrl}/okf/): Public Open Knowledge Format bundle for selected research-project context.
@@ -823,7 +827,14 @@ function main() {
   const papersDir = path.join(siteRoot, "papers");
   ensureDir(papersDir);
 
-  for (const paper of papers) {
+  const slugFilter = process.argv[2];
+  const selected = slugFilter ? papers.filter((paper) => paper.slug === slugFilter) : papers;
+  if (slugFilter && selected.length === 0) {
+    console.error(`No paper with slug ${slugFilter}`);
+    process.exit(1);
+  }
+
+  for (const paper of selected) {
     const outDir = path.join(papersDir, paper.slug);
     ensureDir(outDir);
     fs.writeFileSync(path.join(outDir, "paper.md"), convertPaper(paper));
@@ -831,9 +842,11 @@ function main() {
     fs.writeFileSync(path.join(outDir, "index.html"), renderPaperIndex(paper));
   }
 
-  fs.writeFileSync(path.join(papersDir, "index.html"), renderPapersIndex());
-  fs.writeFileSync(path.join(siteRoot, "llms.txt"), renderLlmsTxt());
-  console.log(`Generated ${papers.length} paper mirrors.`);
+  if (!slugFilter) {
+    fs.writeFileSync(path.join(papersDir, "index.html"), renderPapersIndex());
+    fs.writeFileSync(path.join(siteRoot, "llms.txt"), renderLlmsTxt());
+  }
+  console.log(`Generated ${selected.length} paper mirror(s).`);
 }
 
 main();

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Language Landscapes: The ESL teacher's guide to how English works, by Brett Reynolds. Open-access grammar textbook from Language Science Press. Free PDF, book companion, glossary trainer, and instructor resources.">
+  <title>Language Landscapes - Brett Reynolds</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+    /* Language Landscapes design tokens (supplements/design/tokens.css) */
+    :root {
+      color-scheme: light;
+      --ll-cream: #faf7f1;
+      --ll-ink: #1a1a1a;
+      --ll-muted: #6b6b6b;
+      --ll-hairline: #e0d9cc;
+      --ll-maroon: #800020;
+      --ll-card: #fffdf8;
+      --ll-serif: 'EB Garamond', Georgia, 'Times New Roman', serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    body {
+      font-family: var(--ll-serif);
+      color: var(--ll-ink);
+      background-color: var(--ll-cream);
+      padding: 2rem 1rem 1.5rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      font-weight: 400;
+      font-variant: small-caps;
+      letter-spacing: 0.1em;
+      margin-bottom: 0.25rem;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      font-weight: 400;
+      font-variant: small-caps;
+      letter-spacing: 0.05em;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid var(--ll-hairline);
+      padding-bottom: 0.25rem;
+    }
+
+    a {
+      color: var(--ll-maroon);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--ll-hairline);
+      margin: 1.5rem 0;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: var(--ll-muted);
+      margin-bottom: 0.75rem;
+    }
+
+    .byline {
+      font-size: 1rem;
+      margin-bottom: 0.15rem;
+    }
+
+    .series {
+      font-size: 0.95rem;
+      color: var(--ll-muted);
+    }
+
+    .back-nav {
+      font-size: 0.95rem;
+      margin-top: 1rem;
+    }
+
+    .cover {
+      float: right;
+      width: 220px;
+      max-width: 40%;
+      height: auto;
+      border: 1px solid var(--ll-hairline);
+      margin: 0.25rem 0 1rem 1.5rem;
+    }
+
+    .blurb p {
+      margin-bottom: 1rem;
+    }
+
+    .book::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+
+    .get-links {
+      margin-bottom: 0.75rem;
+    }
+
+    .isbn,
+    .print-note {
+      font-size: 0.95rem;
+      color: var(--ll-muted);
+      margin-bottom: 0.35rem;
+    }
+
+    .resources {
+      list-style: none;
+    }
+
+    .resources li {
+      border-top: 1px solid var(--ll-hairline);
+      padding: 0.75rem 0;
+    }
+
+    .resources li:last-child {
+      border-bottom: 1px solid var(--ll-hairline);
+    }
+
+    .resource-name {
+      font-weight: 500;
+    }
+
+    .status {
+      font-size: 0.85rem;
+      font-variant: small-caps;
+      letter-spacing: 0.05em;
+      color: var(--ll-muted);
+      margin-left: 0.35rem;
+    }
+
+    .adopt p {
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--ll-hairline);
+      font-size: 0.85rem;
+      color: var(--ll-muted);
+    }
+
+    @media (max-width: 600px) {
+      html {
+        font-size: 16px;
+      }
+
+      .cover {
+        float: none;
+        display: block;
+        max-width: 60%;
+        margin: 0 auto 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Language Landscapes</h1>
+    <p class="subtitle">The ESL teacher's guide to how English works</p>
+    <p class="byline">Brett Reynolds</p>
+    <p class="series">Textbooks in Language Sciences 19, Language Science Press, 2026. Open access, CC BY 4.0.</p>
+    <p class="back-nav"><a href="../index.html">← Back to home</a> &middot; <a href="../publications.html">Publications</a></p>
+  </header>
+
+  <hr>
+
+  <section class="book">
+    <img class="cover" src="cover.png" alt="Book cover: Language Landscapes, The ESL teacher's guide to how English works, by Brett Reynolds, in the Language Science Press yellow textbook design" width="486" height="684">
+    <div class="blurb">
+      <p>Language isn't a list to memorize; it's a landscape to explore.</p>
+      <p>A good field naturalist doesn't just name things but watches how they behave, where they cluster, why they vary. This book asks you to read English the same way: attending to what speakers actually do, not what rule books say they should. The framework is <em>The Cambridge Grammar of the English Language</em>, simplified for accessibility but never dumbed down.</p>
+      <p>The chapters move from sounds and words through phrases, clauses, and discourse, with clear examples from English set alongside snapshots from other languages. Each chapter models the same move: observe a pattern, test it against evidence, notice where it breaks down, and ask what the breakdown tells you. By the end, you'll have a working grammar that earns its claims, one you can use to evaluate textbooks, explain why a learner's sentence doesn't quite work, and defend your explanations when challenged.</p>
+      <p>Whether you're in pre-service training or already in the classroom, the payoff is the same: you stop relying on rules you can't justify and start seeing the system for yourself.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Get the book</h2>
+    <p class="get-links">
+      <a href="https://zenodo.org/records/20612113/files/555-Reynolds-2026.pdf?download=1">Download the PDF (free)</a> &middot;
+      <a href="https://langsci-press.org/catalog/book/555" target="_blank" rel="noopener noreferrer">Publisher page</a> &middot;
+      <a href="https://doi.org/10.5281/zenodo.20612113" target="_blank" rel="noopener noreferrer">DOI</a> &middot;
+      <a href="https://github.com/BrettRey/Language-landscapes" target="_blank" rel="noopener noreferrer">LaTeX source on GitHub</a>
+    </p>
+    <p class="isbn">ISBN (PDF) 978-3-96110-585-4 &middot; ISBN (softcover) 978-3-98554-202-4</p>
+    <p class="print-note">The softcover is print-on-demand and greyscale; the colour figures are in the free PDF.</p>
+  </section>
+
+  <section>
+    <h2>For readers and instructors</h2>
+    <ul class="resources">
+      <li>
+        <span class="resource-name"><a href="companion/">Book companion</a></span>
+        <span class="status">live</span><br>
+        Search the book, browse chapters, glossary, and index; answers cite chapter and section.
+      </li>
+      <li>
+        <span class="resource-name"><a href="glossary-trainer.html">Glossary trainer</a></span>
+        <span class="status">live</span><br>
+        Flashcards and self-quizzes over the book's glossary.
+      </li>
+      <li>
+        <span class="resource-name">Instructor slide decks</span>
+        <span class="status">in preparation</span><br>
+        Per chapter, in editable formats.
+      </li>
+      <li>
+        <span class="resource-name">Chapter audio overviews and audiobook</span>
+        <span class="status">in preparation</span>
+      </li>
+      <li>
+        <span class="resource-name">Interactive pieces</span>
+        <span class="status">in preparation</span>
+      </li>
+    </ul>
+  </section>
+
+  <section class="adopt">
+    <h2>Using it in a course</h2>
+    <p>The book is CC BY 4.0, so programs can assign it free, excerpt it, reorder it, and adapt it, including translations now underway. Using it in a course, or thinking about it? I'd like to hear: <a href="mailto:brettrey@gmail.com?subject=Language%20Landscapes%20in%20my%20course">brettrey@gmail.com</a>.</p>
+  </section>
+
+  <footer>
+    <p><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a> &middot; Reynolds, Brett. 2026. <i>Language Landscapes: The ESL teacher's guide to how English works</i>. Berlin: Language Science Press. <a href="https://doi.org/10.5281/zenodo.20612113" target="_blank" rel="noopener noreferrer">DOI 10.5281/zenodo.20612113</a></p>
+  </footer>
+
+</body>
+</html>

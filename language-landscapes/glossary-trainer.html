@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Glossary trainer · Language Landscapes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ll-cream: #faf7f1;
+  --ll-ink: #1a1a1a;
+  --ll-muted: #6b6b6b;
+  --ll-hairline: #e0d9cc;
+  --ll-maroon: #800020;
+  --ll-green: #1b9e77;
+  --ll-pink: #e7298a;
+  --ll-paper: #fffdf8;
+  --ll-serif: "EB Garamond", Georgia, "Times New Roman", serif;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--ll-cream);
+  color: var(--ll-ink);
+  font-family: var(--ll-serif);
+  line-height: 1.55;
+  margin: 0;
+}
+.wrap { max-width: 44rem; margin: 0 auto; padding: 2.5rem 1.25rem 2rem; }
+h1, h2, h3 { font-weight: 500; font-variant: small-caps; letter-spacing: 0.04em; }
+h1 { font-size: 2rem; margin: 0 0 0.35rem; }
+a { color: var(--ll-maroon); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+.kicker { font-variant: small-caps; letter-spacing: 0.08em; color: var(--ll-muted); margin: 0 0 0.2rem; }
+.lede { color: var(--ll-muted); margin: 0 0 1.75rem; }
+.up { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+
+nav.tabs { display: flex; gap: 1.5rem; border-bottom: 1px solid var(--ll-hairline); margin-bottom: 1.5rem; }
+.tab {
+  background: none; border: none; border-bottom: 1px solid transparent;
+  font-family: var(--ll-serif); font-variant: small-caps; letter-spacing: 0.06em;
+  font-size: 1.05rem; color: var(--ll-muted);
+  padding: 0.4rem 0.1rem; margin-bottom: -1px; cursor: pointer;
+}
+.tab:hover { color: var(--ll-maroon); }
+.tab.active { color: var(--ll-maroon); border-bottom-color: var(--ll-maroon); }
+
+button.btn {
+  font-family: var(--ll-serif); font-size: 1rem;
+  background: transparent; border: 1px solid var(--ll-maroon); color: var(--ll-maroon);
+  padding: 0.35rem 1rem; cursor: pointer;
+}
+button.btn:hover:not(:disabled) { background: var(--ll-maroon); color: var(--ll-cream); }
+button.btn:disabled { border-color: var(--ll-hairline); color: var(--ll-hairline); cursor: default; }
+button.btn-green { border-color: var(--ll-green); color: var(--ll-green); }
+button.btn-green:hover:not(:disabled) { background: var(--ll-green); color: var(--ll-cream); }
+button.btn-pink { border-color: var(--ll-pink); color: var(--ll-pink); }
+button.btn-pink:hover:not(:disabled) { background: var(--ll-pink); color: var(--ll-cream); }
+
+input.filter {
+  width: 100%; font-family: var(--ll-serif); font-size: 1rem;
+  background: var(--ll-paper); color: var(--ll-ink);
+  border: 1px solid var(--ll-hairline); padding: 0.45rem 0.6rem; margin-bottom: 1rem;
+}
+input.filter:focus { outline: none; border-color: var(--ll-maroon); }
+
+dl.gloss { margin: 0; }
+dl.gloss dt { font-weight: 600; border-top: 1px solid var(--ll-hairline); padding-top: 0.7rem; margin-top: 0.7rem; }
+dl.gloss dt:first-child { border-top: none; margin-top: 0; padding-top: 0; }
+dl.gloss dd { margin: 0.15rem 0 0.35rem 0; }
+.noresults { color: var(--ll-muted); }
+
+.card {
+  border: 1px solid var(--ll-hairline); background: var(--ll-paper);
+  padding: 2rem 1.5rem; min-height: 11rem;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  text-align: center; cursor: pointer;
+}
+.card .cardterm { font-size: 1.45rem; font-weight: 600; }
+.card .cardlabel { font-size: 0.85rem; color: var(--ll-muted); margin-bottom: 0.5rem; }
+.card .carddef { font-size: 1.05rem; text-align: left; cursor: default; }
+.controls { display: flex; gap: 0.6rem; flex-wrap: wrap; justify-content: center; margin-top: 1rem; }
+.meta { color: var(--ll-muted); text-align: center; margin-top: 0.75rem; font-size: 0.9rem; }
+.hint { color: var(--ll-muted); text-align: center; margin-top: 0.35rem; font-size: 0.85rem; }
+
+.qcard {
+  border: 1px solid var(--ll-hairline); background: var(--ll-paper);
+  padding: 1.25rem 1.5rem; margin-bottom: 1rem;
+}
+.opts { display: flex; flex-direction: column; gap: 0.5rem; }
+button.opt {
+  font-family: var(--ll-serif); font-size: 1rem; text-align: left;
+  background: var(--ll-paper); color: var(--ll-ink);
+  border: 1px solid var(--ll-hairline); padding: 0.5rem 0.75rem; cursor: pointer;
+}
+button.opt:hover:not(:disabled) { border-color: var(--ll-maroon); }
+button.opt:disabled { cursor: default; }
+button.opt.correct { border-color: var(--ll-green); color: var(--ll-green); }
+button.opt.wrong { border-color: var(--ll-pink); color: var(--ll-pink); }
+.scoreline { color: var(--ll-muted); margin: 0.75rem 0; }
+.missed { margin-top: 0.5rem; }
+.missed span { color: var(--ll-pink); }
+
+footer.ll-attrib {
+  margin-top: 3rem; padding-top: 1rem;
+  border-top: 1px solid var(--ll-hairline);
+  font-size: 0.85rem; color: var(--ll-muted);
+}
+.hidden { display: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p class="kicker">Language Landscapes</p>
+  <h1>Glossary trainer</h1>
+  <p class="lede"><span id="term-count"></span> terms from the book&rsquo;s glossary.</p>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab active" id="tab-browse" role="tab" aria-selected="true" data-panel="panel-browse">Browse</button>
+    <button class="tab" id="tab-cards" role="tab" aria-selected="false" data-panel="panel-cards">Flashcards</button>
+    <button class="tab" id="tab-quiz" role="tab" aria-selected="false" data-panel="panel-quiz">Quiz</button>
+  </nav>
+
+  <section id="panel-browse" role="tabpanel">
+    <input class="filter" id="filter" type="search" placeholder="Filter terms and definitions" aria-label="Filter terms and definitions">
+    <dl class="gloss" id="gloss-list"></dl>
+    <p class="noresults hidden" id="noresults">No matches.</p>
+  </section>
+
+  <section id="panel-cards" role="tabpanel" class="hidden">
+    <div class="card" id="flashcard" role="button" tabindex="0" aria-label="Flashcard; click or press space to flip"></div>
+    <div class="controls" id="card-controls">
+      <button class="btn" id="card-prev">Previous</button>
+      <button class="btn" id="card-flip">Show answer</button>
+      <button class="btn" id="card-next">Next</button>
+      <button class="btn btn-green" id="card-got">Got it</button>
+      <button class="btn btn-pink" id="card-again">Again</button>
+    </div>
+    <div class="controls hidden" id="card-done-controls">
+      <button class="btn" id="card-restart">Restart</button>
+    </div>
+    <p class="meta" id="card-meta"></p>
+    <p class="hint">Click or space to flip · arrow keys to move</p>
+  </section>
+
+  <section id="panel-quiz" role="tabpanel" class="hidden">
+    <div id="quiz-question">
+      <p class="scoreline" id="quiz-progress"></p>
+      <div class="qcard" id="quiz-def"></div>
+      <div class="opts" id="quiz-opts"></div>
+      <div class="controls">
+        <button class="btn hidden" id="quiz-next">Next</button>
+      </div>
+      <p class="scoreline" id="quiz-score"></p>
+    </div>
+    <div id="quiz-summary" class="hidden">
+      <h2>Round complete</h2>
+      <p id="quiz-result"></p>
+      <p class="missed hidden" id="quiz-missed"></p>
+      <div class="controls">
+        <button class="btn" id="quiz-again">New round</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="ll-attrib">CC BY 4.0 · Reynolds, Brett. 2026. <i>Language Landscapes: The ESL teacher's guide to how English works</i>. Berlin: Language Science Press. DOI <a href="https://doi.org/10.5281/zenodo.20612113">10.5281/zenodo.20612113</a> · <a href="./index.html">More book resources</a></footer>
+</div>
+
+<script id="glossary-data" type="application/json">
+[
+{"term": "adjective phrase (AdjP)", "def": "A phrase headed by an adjective that typically functions as a modifier within NPs or as a predicative complement in VPs."},
+{"term": "adverb phrase (AdvP)", "def": "A phrase headed by an adverb. Functions primarily as a modifier of verbs, adjectives, other adverbs, clauses, and PPs. Rarely functions as a complement. Accepts degree modifiers like <i>very</i>, <i>too</i>, <i>so</i> but not <i>right</i>, <i>straight</i>, <i>just</i> (in Standard English)."},
+{"term": "affixal negation", "def": "Negation expressed through prefixes (like <i>un-</i>, <i>dis-</i>, <i>non-</i>) or suffixes attached to words rather than through separate negative words."},
+{"term": "agreement", "def": "The matching of verb form to properties of the subject, particularly in present tense with third-person singular subjects."},
+{"term": "allophone", "def": "A variant of a phoneme that doesn’t change meaning in a given language. For example, the aspirated [tʰ] in <i>top</i> and unaspirated [t] in <i>stop</i> are allophones of /t/ in English."},
+{"term": "assimilation", "def": "A process in connected speech where a sound becomes more like a neighbouring sound. For instance, <i>ten books</i> may be pronounced as [tem bʊks]."},
+{"term": "attributive modifier", "def": "A modifier that appears within an NP, typically before the head N, and attributes some property to it."},
+{"term": "auxiliary verb", "def": "A verb that carries tense, aspect, or modality (e.g., <i>be</i>, <i>have</i>, <i>do</i>, <i>can</i>, <i>will</i>) and has the NICER properties: Negation, Inversion, Contraction, Ellipsis, and Rebuttal."},
+{"term": "clause", "def": "A grammatical structure headed by a verb phrase and usually containing a subject."},
+{"term": "clausal negation", "def": "Negation that applies to an entire clause, subdivided into verbal negation (using <i>not</i> with verbs) and non-verbal negation (using <i>not</i> with other constituents)."},
+{"term": "code-switching", "def": "Alternating between languages or language varieties within a single conversation, typically reflecting changes in context or social dynamics."},
+{"term": "coda", "def": "The consonant(s) following the (vowel) nucleus in a syllable. In <i>cat</i> /kæt/, /t/ is the coda."},
+{"term": "complement selection", "def": "The more-or-less arbitrary requirement that certain words license specific prepositions as complements (e.g., <i>depend on</i>, <i>interested in</i>, <i>proud of</i>). A major challenge for language learners."},
+{"term": "complementation", "def": "The systematic way individual words in head function control what can complete the phrase (e.g., an NP, a PP, a clause, etc.), with different words selecting different types of complements."},
+{"term": "connected speech", "def": "The continuous flow of sounds in natural speech, often involving processes that modify individual word pronunciations."},
+{"term": "construction", "def": "A conventional pairing of form and meaning that exists at various levels of linguistic structure, from specific phrases to general syntactic patterns."},
+{"term": "coordination test", "def": "Diagnostic based on the principle that constituents tend to coordinate with like constituents: PPs coordinate with PPs, AdvPs with AdvPs."},
+{"term": "counter-example", "def": "An example that disproves a proposed rule or definition, being a case where the rule fails. Good for testing linguistic definitions."},
+{"term": "defective verb", "def": "A verb lacking one or more of the typical verb forms (e.g., <i>must</i>, which has no past tense)."},
+{"term": "definiteness", "def": "A grammatical property that indicates whether a noun phrase refers to something specific and identifiable to both speaker and hearer, typically marked by a determiner."},
+{"term": "dependent", "def": "A phrase that depends on the head. For example, <i>the</i> is a dependent in <i>the cake</i>."},
+{"term": "determiner", "def": "A dependent in a noun phrase that marks it as definite or indefinite (e.g., <i><span class='up'>a</span> pen</i>, <i><span class='up'>the</span> pen</i>, <i><span class='up'>much more</span> air</i>, <i><span class='up'>almost ten</span> pens</i>, <i><span class='up'>my</span> pen</i>)."},
+{"term": "determinative", "def": "A word of the lexical category that typically specifies the reference and number of noun phrases, including articles (<i>the</i>, <i>a</i>), demonstratives (<i>this</i>, <i>that</i>), and quantifiers (<i>some</i>, <i>many</i>), distinguished from adjectives by their function and distribution."},
+{"term": "determinative phrase (DP)", "def": "A phrase headed by a determinative that mostly functions as the determiner in an NP, such as <i>most</i>, <i>not many</i>, <i>almost every</i>, and <i>just about all</i>."},
+{"term": "direct object", "def": "A constituent selected by a transitive verb, usually able to be identified through passivization tests (becomes the subject in passive constructions)."},
+{"term": "downward-entailing context", "def": "An environment where inferences flow from general to specific (if <i>not all students</i> is true, then <i>not some students</i> is also true), typically licensing negative polarity items."},
+{"term": "fallacy of monosemy", "def": "The mistaken belief that words have (or should have) only one “true” meaning."},
+{"term": "flexible-complement view", "def": "The view that prepositions can take various types of complements (NPs, clauses, PPs) or no complement at all, paralleling how verbs take different complements. Contrasts with traditional view requiring NP complements."},
+{"term": "form–meaning pairing", "def": "The connection between how something is said (its linguistic form) and what it means in a particular context. Grammaticality often depends on using established form–meaning pairs within a speech community."},
+{"term": "functional overlap", "def": "The phenomenon whereby words from different lexical categories can perform similar syntactic functions."},
+{"term": "gradability", "def": "The property of adjectives, adverbs, and some determinatives and prepositions that allows them to be modified by degree words like <i>very</i>, <i>quite</i>, or <i>extremely</i>, and to form comparative and superlative forms."},
+{"term": "grammaticality", "def": "The degree to which a construction conforms to the accepted form–meaning pairings of a specific language community, reflecting regularities in syntax, morphology, and socio-cognitive norms, and regardless of how unconventional the meaning is."},
+{"term": "head", "def": "The word in a phrase that determines the phrase’s grammatical type. <i>Cake</i> is the head of the NP <i>the chocolate cake</i>; <i>tall</i> is the head of the AdjP <i>very tall</i>."},
+{"term": "indirect object", "def": "A constituent that precedes the direct object and typically represents the recipient or beneficiary of an action, often paraphraseable with <i>to</i> or <i>for</i> phrases."},
+{"term": "intonation", "def": "The rise and fall of voice pitch over phrases and sentences, conveying various linguistic and paralinguistic meanings."},
+{"term": "Jespersen’s cycle", "def": "A historical process describing how negation markers evolve and change in languages, named after Otto Jespersen. English evolved from Old English <i>ne</i> through stages of reinforcement to modern contracted forms like <i>don’t</i>."},
+{"term": "lexical category", "def": "A category of words (noun, verb, adjective, etc.) having a coherent set of properties."},
+{"term": "lexical verb", "def": "All non-auxiliary verbs. Lexical verbs typically carry the primary semantic content, contrasting with auxiliary verbs that provide grammatical information."},
+{"term": "light verb construction", "def": "A multi-word predicate where a semantically light verb combines with a noun to express an action (e.g., <i>take a walk</i> vs. <i>walk</i>)."},
+{"term": "linking", "def": "The connection of sounds across word boundaries in connected speech, as in <i>an apple</i>."},
+{"term": "many-to-many relationship", "def": "The principle that a grammatical category can perform multiple functions and a single function can be performed by multiple categories."},
+{"term": "modal auxiliary", "def": "A type of auxiliary verb expressing meanings like possibility, necessity, or future time (e.g., <i>can</i>, <i>must</i>, <i>will</i>)."},
+{"term": "modality", "def": "The expression of meanings such as possibility, necessity, permission, and obligation."},
+{"term": "modification test", "def": "Diagnostic for distinguishing PPs from AdvPs: PPs generally accept <i>right</i>, <i>straight</i>, <i>just</i> as modifiers; AdvPs generally accept <i>very</i>, <i>too</i>, <i>so</i>."},
+{"term": "necessary condition", "def": "One that must be present for membership in a category. For example, having a head is a necessary condition for being a human, and having a head is a necessary condition for being a phrase."},
+{"term": "negative polarity item", "def": "A word or phrase (like <i>any</i>, <i>ever</i>, <i>yet</i>, <i>at all</i>) that typically appears only in negative contexts or other downward-entailing environments."},
+{"term": "NICER properties", "def": "The distinctive properties of auxiliary verbs: Negation, Inversion, Contraction, Ellipsis, and Rebuttal."},
+{"term": "non-affirmative item", "def": "Alternative term for negative polarity item, emphasizing that these items appear in various non-positive contexts, not just overtly negative ones."},
+{"term": "normativity", "def": "Claims about how language ought to be used, rather than descriptions of how it is used. Related to prescriptive grammar but broader in scope."},
+{"term": "noun", "def": "A word that can head a noun phrase. Nouns can typically be singular or plural, follow determiners like <i>the</i> and <i>a</i>, and take AdjP modifiers. They can denote almost anything (entities, actions, states, concepts), which is why denotation alone can’t define them."},
+{"term": "noun phrase (NP)", "def": "A phrase headed by a noun or pronoun, typically functioning as a subject, object, predicative complement, or complement of a preposition."},
+{"term": "noun, count / non-count", "def": "Often called countable / uncountable. A count noun allows counting and plural marking (<i>1 book</i>, <i>2 ideas</i>); a non-count noun doesn’t (*<i>1 furniture</i>, *<i>2 groceries</i>). The distinction involves both a semantic construal (whether the referent is seen as individuated) and a grammatical marking (whether the noun takes plural and numeral dependents)."},
+{"term": "NP-complement view", "def": "The traditional (but problematic) view that defines prepositions as words that must take NP complements. Creates unnecessary complexity by forcing words like <i>before</i> into three different categories."},
+{"term": "nucleus", "def": "The core of a syllable, typically a vowel. In <i>cat</i> /kæt/, /æ/ is the nucleus."},
+{"term": "onset", "def": "The consonant(s) preceding the nucleus in a syllable. In <i>cat</i> /kæt/, /k/ is the onset."},
+{"term": "aspect", "def": "A grammatical system that typically denotes how a situation extends over time, including simple, progressive, perfect, and perfect-progressive combinations."},
+{"term": "particle", "def": "A preposition functioning as part of a phrasal verb that can appear either before or after an NP object (<i>pick up the pen</i>/<i>pick the pen up</i>) but must follow pronoun objects (<i>pick it up</i>, not *<i>pick up it</i>)."},
+{"term": "participle", "def": "A non-tensed verb form, either present participle (<i>-ing</i> form) or past participle (typically <i>-ed</i> or irregular forms), used in various constructions including progressive and perfect aspects."},
+{"term": "perfect aspect", "def": "An aspectual form using <i>have</i> + past participle that relates a situation to a later reference point, often expressing some relevance to that reference point."},
+{"term": "phoneme", "def": "The smallest unit of sound that can distinguish meaning in a language. Changing /b/ to /p/ turns <i>bat</i> into <i>pat</i>."},
+{"term": "phonotactics", "def": "The rules governing possible sound combinations in a language. English allows /sl/ as an onset (e.g., <i>slide</i>) but not as a coda."},
+{"term": "phrase", "def": "A grammatical structure consisting of a head word and any optional dependents. The head determines the phrase’s type: an NP is headed by a noun, a VP by a verb. A phrase can be a single word (<i>Stop!</i> is a VP)."},
+{"term": "phrasal category", "def": "A syntactic unit, such as noun phrases (NPs), verb phrases (VPs), or adjective phrases (AdjPs), consisting of a head and any dependents."},
+{"term": "phrasal verb", "def": "A verb + preposition(s) combination that often expresses idiomatic meaning (e.g., <i>give up</i>, <i>look up</i>, <i>take off</i>). The preposition may function as a particle that can move around NP objects but not pronoun objects."},
+{"term": "plural", "def": "Denoting more than one, or a number that doesn’t fit singular (e.g., zero, fractions)."},
+{"term": "polarity sensitivity", "def": "The phenomenon whereby certain words and phrases are restricted to appearing in either positive or negative linguistic contexts."},
+{"term": "positive polarity item", "def": "A word or phrase (like <i>some</i>, <i>already</i>, <i>a fair chance</i>) that resists appearing in negative contexts and prefers positive or affirmative environments."},
+{"term": "pragmatic negation", "def": "Negation indicated by context, tone, or implicature rather than through explicit negative markers in the sentence structure."},
+{"term": "predicative complement", "def": "A phrase that follows verbs like <i>be</i>, <i>seem</i>, <i>become</i>, <i>remain</i>, <i>look</i>, and <i>feel</i> and that describes or identifies the subject (or, with some verbs, the object)."},
+{"term": "predicative complement test", "def": "Diagnostic showing that PPs (but not AdvPs) can function as complement after verbs that license predicative complements: <i>The meeting is at noon</i> but not *<i>The meeting is quickly</i>."},
+{"term": "preposition fronting", "def": "Fronting an entire PP in an interrogative or relative, typically in formal contexts: <i>About what did you disagree?</i> versus the more common stranded version <i>What did you disagree about?</i>"},
+{"term": "preposition phrase (PP)", "def": "A phrase headed by a preposition. Functions as both modifier and complement in various phrase types. Can modify nouns (unlike AdvPs) and frequently serves as predicative complement after <i>be</i>, <i>seem</i>, <i>remain</i>."},
+{"term": "preposition stranding", "def": "When a preposition appears without its complement because the complement has been fronted, as in questions (<i>What are you looking <span class='up'>at</span>?</i>) or relative clauses (<i>the person you spoke <span class='up'>to</span></i>)."},
+{"term": "progressive aspect", "def": "An aspectual form using <i>be</i> + <i>-ing</i> participle that expresses relevance not just to what continues but to its eventual conclusion."},
+{"term": "reduction", "def": "The weakening or omission of sounds in connected speech, often in unstressed syllables. For example, <i>going to</i> may be pronounced as <i>gonna</i>."},
+{"term": "resultative construction", "def": "A syntactic pattern where a verb is followed by a result phrase describing the outcome of the situation (e.g., <i>hammer the metal flat</i>)."},
+{"term": "rhythm", "def": "The timing pattern of stressed and unstressed syllables in speech."},
+{"term": "scope of negation", "def": "The portion of a sentence that falls under the semantic influence of a negative element, determining what is being negated and affecting the interpretation of modal verbs and other elements."},
+{"term": "semantic bleaching", "def": "The historical process by which words gradually lose their original concrete meaning and become more grammatical or functional, often occurring in grammaticalization."},
+{"term": "serial verb construction", "def": "A sequence of verbs that together express a single complex event, typically involving motion and purpose or manner."},
+{"term": "shibboleth", "def": "A linguistic feature that distinguishes members of one social group from another, often used (consciously or unconsciously) as a test of belonging. From Hebrew <i>šibbōleṭ</i>."},
+{"term": "sibilant", "def": "A type of fricative or affricate consonant characterized by a high-pitched hissing sound, produced when air is forced through a narrow channel between the tongue and the roof of the mouth or teeth."},
+{"term": "singular", "def": "Denoting exactly one."},
+{"term": "Standard English", "def": "The most widely accepted variety of a language, particularly in formal, educational, and professional contexts. Not inherently superior to other varieties, but backed by social and institutional power."},
+{"term": "Standard Englishes", "def": "The various regional and national varieties of Standard English (e.g., Standard Canadian English, Standard British English), acknowledging that what counts as standard varies across regions while maintaining mutual intelligibility."},
+{"term": "stress", "def": "The relative prominence given to certain syllables or words, through a combination of pitch, length, and loudness."},
+{"term": "sub-clausal negation", "def": "Negation that applies to constituents smaller than a full clause, such as negated noun phrases or prepositional phrases."},
+{"term": "subject", "def": "The grammatical function typically performed by the first major constituent in a sentence, controlling verb agreement and identified through tests like tag questions and passivization."},
+{"term": "sufficient condition", "def": "One that, if present, guarantees membership in a category. For example, being a square is a sufficient condition for being a rectangle, and being an NP is a sufficient condition for being a phrase."},
+{"term": "suprasegmental", "def": "Features of speech that extend over more than one sound segment, including stress, intonation, and rhythm."},
+{"term": "syllable", "def": "A unit of pronunciation typically consisting of a vowel (nucleus) with optional consonants before (onset) and after (coda)."},
+{"term": "syntactic function", "def": "The relational grammatical role that a word or phrase plays in sentence structure, including head, subject, object, modifier, complement, and determiner functions."},
+{"term": "tense", "def": "A grammatical system that typically denotes the time of the situation; English has two tenses (past and present)."},
+{"term": "verb", "def": "A word that can head a verb phrase. Most verbs have a past-tense form, an <i>-s</i> form, an <i>-ing</i> form, and a plain form. They typically denote actions or states, but this is a tendency, not a definition; <i>existence</i> is a noun and <i>resemble</i> is a verb."},
+{"term": "verb phrase (VP)", "def": "A phrase headed by a verb, potentially including modifiers and complements. Can be modified by adverb phrases but not adjective phrases."},
+{"term": "voicing", "def": "The vibration of the vocal cords during the production of a speech sound. Voiced sounds (like /b/, /d/, /g/) involve this vibration, while voiceless sounds (like /p/, /t/, /k/) do not."}
+]
+</script>
+
+<script>
+(function () {
+  "use strict";
+
+  var DATA = JSON.parse(document.getElementById("glossary-data").textContent);
+  document.getElementById("term-count").textContent = DATA.length;
+
+  var SORTED = DATA.slice().sort(function (a, b) {
+    return a.term.localeCompare(b.term, "en", { sensitivity: "base" });
+  });
+
+  function stripTags(html) {
+    var d = document.createElement("div");
+    d.innerHTML = html;
+    return d.textContent || "";
+  }
+
+  function shuffle(arr) {
+    for (var i = arr.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = arr[i]; arr[i] = arr[j]; arr[j] = t;
+    }
+    return arr;
+  }
+
+  /* Tabs */
+  var tabs = document.querySelectorAll(".tab");
+  var activePanel = "panel-browse";
+  tabs.forEach(function (tab) {
+    tab.addEventListener("click", function () {
+      tabs.forEach(function (t) {
+        t.classList.remove("active");
+        t.setAttribute("aria-selected", "false");
+      });
+      tab.classList.add("active");
+      tab.setAttribute("aria-selected", "true");
+      ["panel-browse", "panel-cards", "panel-quiz"].forEach(function (id) {
+        document.getElementById(id).classList.toggle("hidden", id !== tab.dataset.panel);
+      });
+      activePanel = tab.dataset.panel;
+    });
+  });
+
+  /* Browse */
+  var glossList = document.getElementById("gloss-list");
+  var noResults = document.getElementById("noresults");
+  var filterInput = document.getElementById("filter");
+
+  function renderBrowse(query) {
+    var q = (query || "").trim().toLowerCase();
+    glossList.innerHTML = "";
+    var shown = 0;
+    SORTED.forEach(function (entry) {
+      if (q && entry.term.toLowerCase().indexOf(q) === -1 &&
+          stripTags(entry.def).toLowerCase().indexOf(q) === -1) return;
+      var dt = document.createElement("dt");
+      dt.textContent = entry.term;
+      var dd = document.createElement("dd");
+      dd.innerHTML = entry.def;
+      glossList.appendChild(dt);
+      glossList.appendChild(dd);
+      shown++;
+    });
+    noResults.classList.toggle("hidden", shown > 0);
+  }
+  filterInput.addEventListener("input", function () { renderBrowse(filterInput.value); });
+  renderBrowse("");
+
+  /* Flashcards */
+  var deck = [], pos = 0, flipped = false, againSet;
+  var cardEl = document.getElementById("flashcard");
+  var cardMeta = document.getElementById("card-meta");
+  var cardControls = document.getElementById("card-controls");
+  var doneControls = document.getElementById("card-done-controls");
+  var flipBtn = document.getElementById("card-flip");
+
+  function resetDeck() {
+    deck = shuffle(DATA.map(function (_, i) { return i; }));
+    pos = 0;
+    flipped = false;
+    againSet = {};
+    renderCard();
+  }
+
+  function renderCard() {
+    if (deck.length === 0) {
+      var repeats = Object.keys(againSet).length;
+      cardEl.innerHTML = "<div class='cardterm'>Deck complete</div>" +
+        (repeats ? "<div class='cardlabel'>" + repeats + " card" + (repeats === 1 ? "" : "s") + " came back for another look</div>" : "");
+      cardControls.classList.add("hidden");
+      doneControls.classList.remove("hidden");
+      cardMeta.textContent = "";
+      return;
+    }
+    cardControls.classList.remove("hidden");
+    doneControls.classList.add("hidden");
+    var entry = DATA[deck[pos]];
+    if (flipped) {
+      cardEl.innerHTML = "<div class='cardlabel'>" + entry.term + "</div><div class='carddef'>" + entry.def + "</div>";
+      flipBtn.textContent = "Show term";
+    } else {
+      cardEl.innerHTML = "<div class='cardterm'>" + entry.term + "</div>";
+      flipBtn.textContent = "Show answer";
+    }
+    cardMeta.textContent = "Card " + (pos + 1) + " of " + deck.length;
+  }
+
+  function flipCard() { flipped = !flipped; renderCard(); }
+  function nextCard() { if (deck.length) { pos = (pos + 1) % deck.length; flipped = false; renderCard(); } }
+  function prevCard() { if (deck.length) { pos = (pos - 1 + deck.length) % deck.length; flipped = false; renderCard(); } }
+
+  cardEl.addEventListener("click", function (e) {
+    if (e.target.closest && e.target.closest(".carddef")) return;
+    flipCard();
+  });
+  flipBtn.addEventListener("click", flipCard);
+  document.getElementById("card-next").addEventListener("click", nextCard);
+  document.getElementById("card-prev").addEventListener("click", prevCard);
+  document.getElementById("card-got").addEventListener("click", function () {
+    deck.splice(pos, 1);
+    if (pos >= deck.length) pos = 0;
+    flipped = false;
+    renderCard();
+  });
+  document.getElementById("card-again").addEventListener("click", function () {
+    var c = deck.splice(pos, 1)[0];
+    deck.push(c);
+    againSet[c] = true;
+    if (pos >= deck.length) pos = 0;
+    flipped = false;
+    renderCard();
+  });
+  document.getElementById("card-restart").addEventListener("click", resetDeck);
+
+  document.addEventListener("keydown", function (e) {
+    if (activePanel !== "panel-cards") return;
+    if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") return;
+    if (e.key === " " || e.key === "Enter") { e.preventDefault(); if (deck.length) flipCard(); }
+    else if (e.key === "ArrowRight") { e.preventDefault(); nextCard(); }
+    else if (e.key === "ArrowLeft") { e.preventDefault(); prevCard(); }
+  });
+
+  resetDeck();
+
+  /* Quiz */
+  var ROUND = 10;
+  var qOrder = [], qi = 0, score = 0, missed = [];
+  var quizQuestion = document.getElementById("quiz-question");
+  var quizSummary = document.getElementById("quiz-summary");
+  var quizDef = document.getElementById("quiz-def");
+  var quizOpts = document.getElementById("quiz-opts");
+  var quizNext = document.getElementById("quiz-next");
+  var quizProgress = document.getElementById("quiz-progress");
+  var quizScore = document.getElementById("quiz-score");
+
+  function newRound() {
+    qOrder = shuffle(DATA.map(function (_, i) { return i; })).slice(0, Math.min(ROUND, DATA.length));
+    qi = 0;
+    score = 0;
+    missed = [];
+    quizSummary.classList.add("hidden");
+    quizQuestion.classList.remove("hidden");
+    renderQuestion();
+  }
+
+  function renderQuestion() {
+    var target = qOrder[qi];
+    var entry = DATA[target];
+    quizProgress.textContent = "Question " + (qi + 1) + " of " + qOrder.length;
+    quizDef.innerHTML = entry.def;
+    quizNext.classList.add("hidden");
+    quizScore.textContent = qi === 0 ? "" : "Score: " + score + "/" + qi;
+
+    var others = DATA.map(function (_, i) { return i; }).filter(function (i) { return i !== target; });
+    var options = shuffle(others).slice(0, 3).concat([target]);
+    shuffle(options);
+
+    quizOpts.innerHTML = "";
+    options.forEach(function (idx) {
+      var btn = document.createElement("button");
+      btn.className = "opt";
+      btn.textContent = DATA[idx].term;
+      btn.addEventListener("click", function () { answer(idx, target, btn); });
+      quizOpts.appendChild(btn);
+    });
+  }
+
+  function answer(picked, target, btn) {
+    var buttons = quizOpts.querySelectorAll("button");
+    buttons.forEach(function (b) {
+      b.disabled = true;
+      if (b.textContent === DATA[target].term) b.classList.add("correct");
+    });
+    if (picked === target) {
+      score++;
+    } else {
+      btn.classList.add("wrong");
+      missed.push(DATA[target].term);
+    }
+    quizScore.textContent = "Score: " + score + "/" + (qi + 1);
+    quizNext.textContent = qi + 1 < qOrder.length ? "Next" : "Finish";
+    quizNext.classList.remove("hidden");
+  }
+
+  quizNext.addEventListener("click", function () {
+    qi++;
+    if (qi < qOrder.length) {
+      renderQuestion();
+    } else {
+      quizQuestion.classList.add("hidden");
+      quizSummary.classList.remove("hidden");
+      document.getElementById("quiz-result").textContent =
+        "You got " + score + " of " + qOrder.length + ".";
+      var missedEl = document.getElementById("quiz-missed");
+      if (missed.length) {
+        missedEl.innerHTML = "Missed: <span>" + missed.join(", ") + "</span>";
+        missedEl.classList.remove("hidden");
+      } else {
+        missedEl.classList.add("hidden");
+      }
+    }
+  });
+  document.getElementById("quiz-again").addEventListener("click", newRound);
+
+  newRound();
+})();
+</script>
+</body>
+</html>

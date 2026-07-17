@@ -129,7 +129,8 @@ input[type=range]{width:100%;accent-color:var(--brass)}
 .zoneok{stroke:#3f6b58}
 .mtick{stroke:var(--chalk);opacity:.7}
 .mlab{fill:var(--chalk);font-family:var(--mono);font-size:12px;text-anchor:middle}
-.mlab.small{font-size:9.5px;fill:var(--chalk-dim)}
+.zonekey{display:flex;flex-wrap:wrap;gap:6px 14px;justify-content:center;font-family:var(--mono);font-size:.7rem;color:var(--chalk-dim);margin-bottom:12px}
+.zonekey .sw{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:5px;vertical-align:-1px}
 
 .medals{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;justify-content:center}
 .medal{font-family:var(--mono);font-size:.72rem;border:1px solid var(--line);border-radius:999px;padding:5px 11px;color:var(--chalk-dim)}
@@ -314,6 +315,11 @@ footer p{max-width:720px}
           <svg id="meter" viewBox="0 0 320 190" role="img" aria-label="Score gauge for V times delta"></svg>
           <div class="score-big" id="scorebig">–</div>
           <div class="score-cap" id="scorecap">score = V × δ</div>
+          <div class="zonekey">
+            <span><i class="sw" style="background:var(--red)"></i>&lt; ¼ impossible (proved)</span>
+            <span><i class="sw" style="background:#b07a2a"></i>¼–⅓ unknown (open problem)</span>
+            <span><i class="sw" style="background:#3f6b58"></i>&gt; ⅓ known scores</span>
+          </div>
           <div class="medals" id="medals"></div>
           <div class="bestline" id="bestline">Personal best: <b>none yet</b></div>
         </div>
@@ -658,10 +664,6 @@ function buildMeter(){
     s += `<line class="mtick" x1="${x0.toFixed(1)}" y1="${y0.toFixed(1)}" x2="${x1.toFixed(1)}" y2="${y1.toFixed(1)}"/>`;
     s += `<text class="mlab" x="${tx.toFixed(1)}" y="${(ty+4).toFixed(1)}">${lab}</text>`;
   });
-  const [ix,iy]=pol(M.r-30, ang(0.222));
-  s += `<text class="mlab small" x="${ix.toFixed(1)}" y="${iy.toFixed(1)}" transform="rotate(${ang(0.222)} ${ix.toFixed(1)} ${iy.toFixed(1)})">impossible</text>`;
-  const [ux,uy]=pol(M.r-30, ang(0.29));
-  s += `<text class="mlab small" x="${ux.toFixed(1)}" y="${uy.toFixed(1)}" transform="rotate(${ang(0.29)} ${ux.toFixed(1)} ${uy.toFixed(1)})">unknown</text>`;
   s += `<g id="needle"><line x1="${M.cx}" y1="${M.cy}" x2="${M.cx}" y2="${M.cy-M.r+22}" stroke="#f4efe1" stroke-width="3" stroke-linecap="round"/></g>`;
   s += `<circle cx="${M.cx}" cy="${M.cy}" r="7" fill="#f2c56b"/>`;
   document.getElementById('meter').innerHTML = s;

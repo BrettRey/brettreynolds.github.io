@@ -108,6 +108,8 @@ Section <a href="#sec:target" data-reference-type="ref" data-reference="sec:tar
 
 A guiding purpose individuates the profile: representing a target domain well enough for relevant inferential, practical, or corrective success under perturbation. Perturbation matters because it distinguishes lucky fit from robust answerability. A representation may succeed in the training cases, the familiar environment, or the current conversational context. It projects more strongly when it continues to guide action, inference, measurement, and correction after conditions change.
 
+The causal backbone stays deliberately light. In Pearl’s hierarchy, the profile begins as association among stabilizers, mechanism is identified by perturbation, and projectibility is the counterfactual question of what would hold nearby; Pearl’s intervention operator formalizes that perturbation test (Pearl 2009, 2010). Woodward supplies the manipulability reading: a stabilizer is explanatory when interventions on it change the cluster in stable, predictable ways (Woodward 2003, 2001). This argument does not assume a specifiable graph; it uses the ascent from association to intervention to counterfactual projection rather than a full structural causal model.
+
 A simple example helps. A weather claim repeated from an old webpage may be true when the weather is stable and the page is recent. It projects weakly once the date, location, or local conditions change. A claim constrained by live measurement, calibrated instruments, and error-reporting practices projects more strongly because nearby changes have routes through which they can affect the representation.
 
 Survival and reproduction mark limiting biological cases of this structure. Hoffman-style interface arguments warn that adaptive success and veridical representation can come apart (Hoffman et al. 2015). Martínez (2019) argues that usefulness can drive representations toward truth under specified conditions. The lesson for this paper is methodological: usefulness becomes truth-relevant when the task, environment, and correction channels make error costly in ways that expose the relevant mismatch.
@@ -264,8 +266,6 @@ As a pressure test, the text-only baseline gives the cleanest case. Such a model
 
 Table <a href="#tab:llm-profiles" data-reference-type="ref" data-reference="tab:llm-profiles">1</a> summarizes the architecture-sensitive predictions. The rows are profiles rather than a scale from bad to good.
 
-<div id="tab:llm-profiles">
-
 | System profile | Added or dominant stabilizer | Directional prediction |
 |:---|:---|:---|
 | Text-only pretrained model | Textual inheritance and local coherence | Strong where dense, stable text is a good proxy; fragile for recent, obscure, perceptual, or measurement-dependent facts. |
@@ -275,9 +275,7 @@ Table <a href="#tab:llm-profiles" data-reference-type="ref" data-reference="tab
 | Multimodal system | Perceptual input in image, audio, video, or sensor form | Better for some perceptually anchored tasks; calibrated measurement and practical correction remain separate stabilizers. |
 | Action-guided or expert-reviewed system | Practical feedback, review, and downstream failure pressure | Stronger correction profile where feedback is timely and domain-competent; weaker where review is sparse or proxy-based. |
 
-Architecture-sensitive profile predictions.
-
-</div>
+Architecture-sensitive profile predictions. {#tab:llm-profiles}
 
 Derivative inheritance cuts both ways. Human text is saturated with world-directed practice. It contains the residue of people looking, measuring, arguing, repairing, citing, and correcting one another. The model usually remains outside those practices when it produces a fresh answer. It draws on their products with attenuated access to their present checks.
 
@@ -575,6 +573,18 @@ Pavlick, Ellie. 2023. “Symbols and Grounding in Large Language Models.” *Phi
 
 </div>
 
+<div id="ref-pearl2009" class="csl-entry">
+
+Pearl, Judea. 2009. *Causality: Models, Reasoning, and Inference*. 2nd ed. Cambridge University Press. <https://doi.org/10.1017/CBO9780511803161>.
+
+</div>
+
+<div id="ref-pearl2010foundations" class="csl-entry">
+
+Pearl, Judea. 2010. “The Foundations of Causal Inference.” *Sociological Methodology* 40 (1): 75–149. <https://doi.org/10.1111/j.1467-9531.2010.01228.x>.
+
+</div>
+
 <div id="ref-reynolds2026notEveryStableCluster" class="csl-entry">
 
 Reynolds, Brett. 2026. “Not Every Stable Cluster Is Homeostatic: Stability, Network Order, and Control in Projectible Kinds.” <https://philarchive.org/rec/REYNES>.
@@ -596,6 +606,18 @@ Shapira, Itai, Gerdus Benade, and Ariel D. Procaccia. 2026. “How RLHF Amplifie
 <div id="ref-shuster2021retrieval" class="csl-entry">
 
 Shuster, Kurt, Spencer Poff, Moya Chen, Douwe Kiela, and Jason Weston. 2021. “Retrieval Augmentation Reduces Hallucination in Conversation.” *Findings of the Association for Computational Linguistics: EMNLP 2021* (Punta Cana, Dominican Republic), 3784–803. <https://doi.org/10.18653/v1/2021.findings-emnlp.320>.
+
+</div>
+
+<div id="ref-woodward2001" class="csl-entry">
+
+Woodward, James. 2001. “Law and Explanation in Biology: Invariance Is the Kind of Stability That Matters.” *Philosophy of Science* 68 (1): 1–20. <https://doi.org/10.1086/392863>.
+
+</div>
+
+<div id="ref-woodward2003MakingThingsHappen" class="csl-entry">
+
+Woodward, James. 2003. *Making Things Happen: A Theory of Causal Explanation*. Oxford University Press. <https://doi.org/10.1093/0195155270.001.0001>.
 
 </div>
 

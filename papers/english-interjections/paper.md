@@ -78,13 +78,13 @@ Interjections characteristically function as supplements, “parenthetical strin
 
 Supplement function isn’t unique to interjections. Relative clauses, noun phrases, adjective phrases, and adverb phrases can all function as supplements (Huddleston and Pullum 2002, 1356):
 
-<span id="ex:supplements" label="ex:supplements"></span> *Ah*, so you were there after all! (interjection) We called in to see Sue’s parents, *which made us rather late*. (relative clause) A university professor, *Dr. Brown*, was arrested. (noun phrase) What distinguishes interjection supplements is their combination with the other cluster properties: non-referentiality, non-inflection, prosodic isolation, and emotive force. The function is shared; the category differs.
+<span id="ex:supplements" data-label="ex:supplements"></span> *Ah*, so you were there after all! (interjection) We called in to see Sue’s parents, *which made us rather late*. (relative clause) A university professor, *Dr. Brown*, was arrested. (noun phrase) What distinguishes interjection supplements is their combination with the other cluster properties: non-referentiality, non-inflection, prosodic isolation, and emotive force. The function is shared; the category differs.
 
 A handful of interjections exceptionally take complements. Huddleston and Pullum (2002, 1361fn) analyse *damn* in *damn these mosquitoes!* as the head of an interjection phrase (IntjP) taking a noun phrase (NP) complement, one of the very few cases where an interjection projects beyond a single word. But even here the syntax is constrained: no subject is present or intended, and there’s no tense inflection. The construction is better treated as a residue of verb syntax than as full verbal behaviour, a point that matters for the recruitment pathways discussed in Section <a href="#sec:causal-structure" data-reference-type="ref" data-reference="sec:causal-structure">4</a>. (The internal structure of lexicalized pairs like *oh boy* and *holy cow* is less clear and won’t be resolved here.)
 
 Supplement function predicts prosodic isolation and resistance to syntactic integration:
 
-<span id="ex:syntactic-predictions" label="ex:syntactic-predictions"></span> *I think that, damn, we’re going to be late.* Supplement function also predicts a semantic consequence: if the form is syntactically non-integrated, its contribution is independent of the proposition expressed by the host clause. Remove the interjection and the truth conditions don’t change, the hallmark of non-truth-conditional meaning (cf. Potts 2007, 166).
+<span id="ex:syntactic-predictions" data-label="ex:syntactic-predictions"></span> *I think that, damn, we’re going to be late.* Supplement function also predicts a semantic consequence: if the form is syntactically non-integrated, its contribution is independent of the proposition expressed by the host clause. Remove the interjection and the truth conditions don’t change, the hallmark of non-truth-conditional meaning (cf. Potts 2007, 166).
 
 ## Semantics
 
@@ -118,8 +118,6 @@ The coupling is visible when it breaks. *Damn* as an interjection (*Damn!*) has 
 
 Table <a href="#tab:diagnostic-matrix" data-reference-type="ref" data-reference="tab:diagnostic-matrix">1</a> makes the cluster inspectable. Each row gives a lexical item in a grammatical environment rather than a word family as a whole (see Section <a href="#sec:intro" data-reference-type="ref" data-reference="sec:intro">1</a>), and the columns show its profile against the five cluster properties and the three field-relative nodes previewed in the introduction and defined in Section <a href="#sec:fieldrelative-nodes" data-reference-type="ref" data-reference="sec:fieldrelative-nodes">3.4</a>. The compact labels Intj<sub>syn</sub>, Intj<sub>sem</sub>, and Intj<sub>int</sub> refer to syntactic, semantic/use-conditional, and interactional-pragmatic interjection nodes, respectively. The table shows convergence and decoupling. Standalone *damn!* and *oh* show convergence. In *the damn car*, prenominal *damn* has the semantic node but lacks the syntactic one. *mm-hm* has the interactional node, while its syntactic status is debatable. Boundary items (*bye*, *um*) share some but not all cluster properties, the pattern that Section <a href="#sec:boundaries" data-reference-type="ref" data-reference="sec:boundaries">6.3</a> explains as causal-link overlap.
 
-<div id="tab:diagnostic-matrix">
-
 |  |  |  |  |  |  |  |  |  |  |
 |:---|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | *gee!* |  |  |  |  |  |  |  |  |  |
@@ -133,9 +131,7 @@ Table <a href="#tab:diagnostic-matrix" data-reference-type="ref" data-reference
 | *bye* |  |  |  | ($`\checkmark`$) |  |  |  |  | ($`\checkmark`$) |
 | *um* | ($`\checkmark`$) |  |  |  |  |  | ($`\checkmark`$) |  | ($`\checkmark`$) |
 
-Diagnostic matrix: constructions against cluster properties and field-relative nodes.  = property present; ($`\checkmark`$) = partial or debated; = absent. Intj<sub>syn</sub>, Intj<sub>sem</sub>, and Intj<sub>int</sub> abbreviate syntactic, semantic/use-conditional, and interactional-pragmatic nodes. Sources: properties from Ameka (1992), Quirk et al. (1985), Huddleston and Pullum (2002); <span class="smallcaps">interjection<sub>sem</sub></span> from Potts (2007); <span class="smallcaps">interjection<sub>int</sub></span> from Stivers (2019), Dingemanse (2020).
-
-</div>
+Diagnostic matrix: constructions against cluster properties and field-relative nodes.  = property present; ($`\checkmark`$) = partial or debated; = absent. Intj<sub>syn</sub>, Intj<sub>sem</sub>, and Intj<sub>int</sub> abbreviate syntactic, semantic/use-conditional, and interactional-pragmatic nodes. Sources: properties from Ameka (1992), Quirk et al. (1985), Huddleston and Pullum (2002); <span class="smallcaps">interjection<sub>sem</sub></span> from Potts (2007); <span class="smallcaps">interjection<sub>int</sub></span> from Stivers (2019), Dingemanse (2020). {#tab:diagnostic-matrix}
 
 The next two sections develop the theoretical framework (Section <a href="#sec:causal-framework" data-reference-type="ref" data-reference="sec:causal-framework">3</a>) and the causal structure itself (Section <a href="#sec:causal-structure" data-reference-type="ref" data-reference="sec:causal-structure">4</a>).
 
@@ -215,8 +211,6 @@ The subscript notation makes explicit that these are overlapping but non-identic
 
 The property cluster documented in Section <a href="#sec:cluster" data-reference-type="ref" data-reference="sec:cluster">2</a> raises two questions that co-occurrence alone can’t answer: how do items enter the interjectional region of the network, and which causal links make the properties travel together? In what follows, “the interjection cluster” refers to the broad property profile. I use “the intersection” only for cases that belong simultaneously to <span class="smallcaps">interjection<sub>syn</sub></span>, <span class="smallcaps">interjection<sub>sem</sub></span>, and <span class="smallcaps">interjection<sub>int</sub></span>. A causal-network account requires both a diachronic account of recruitment and a synchronic account of the network order among properties.
 
-<div id="tab:link-status">
-
 | Link | Status | Evidence type | Main vulnerability |
 |:---|:---|:---|:---|
 | Semantic bleaching from invocatives | Historically documented | Gehweiler-style corpus trajectory | Operationalizing invocation versus exclamation. |
@@ -227,9 +221,7 @@ The property cluster documented in Section <a href="#sec:cluster" data-referenc
 | Routine entrenchment | Stabilizer candidate for <span class="smallcaps">interjection<sub>int</sub></span> | Conversation-analytic and pragmatic literature | Needs more spoken-interaction data for the present cases. |
 | Regional/indexical conditioning | Maintenance hypothesis | Regional concentration and register sensitivity | Identity-work evidence remains outside the present data. |
 
-Status of the proposed ordering and stabilizing links
-
-</div>
+Status of the proposed ordering and stabilizing links {#tab:link-status}
 
 ## Recruitment pathways
 
@@ -241,7 +233,7 @@ The pragmatic issue is how changes in communicative use become categorially cons
 
 Gehweiler (2008) traces a four-stage trajectory from proper name to primary interjection, using the development of *gee* from *Jesus* as the central case:
 
-<span id="ex:bleaching" label="ex:bleaching"></span> Stage 1: Proper name used as invocation (*Jesus!* addressed to the deity) Stage 2: Exclamatory use, no longer addressing the deity (*Jesus!* as an expression of surprise) Stage 3: Phonological modification (*Jeez*, *Gee*) Stage 4: Primary interjection (*gee!*), fully detached from the source noun The stages layer cluster properties unevenly. Prosodic isolation is already present at stage 1, because a vocative like *Jesus!* occupies its own intonation unit (contrast the integrated argument in *Put your faith in Jesus*). What changes is the content: non-referentiality arrives at stage 2, when the speaker is no longer addressing the deity. Phonological divergence at stage 3 makes the etymological connection opaque. By stage 4, the form is a standalone interjection that many speakers don’t connect to its source. The vocative is the gateway: it provides the prosodic isolation that the bleaching pathway exploits. The prosodic slot was there first; the semantic content drained out of it (Gehweiler 2008, 85).
+<span id="ex:bleaching" data-label="ex:bleaching"></span> Stage 1: Proper name used as invocation (*Jesus!* addressed to the deity) Stage 2: Exclamatory use, no longer addressing the deity (*Jesus!* as an expression of surprise) Stage 3: Phonological modification (*Jeez*, *Gee*) Stage 4: Primary interjection (*gee!*), fully detached from the source noun The stages layer cluster properties unevenly. Prosodic isolation is already present at stage 1, because a vocative like *Jesus!* occupies its own intonation unit (contrast the integrated argument in *Put your faith in Jesus*). What changes is the content: non-referentiality arrives at stage 2, when the speaker is no longer addressing the deity. Phonological divergence at stage 3 makes the etymological connection opaque. By stage 4, the form is a standalone interjection that many speakers don’t connect to its source. The vocative is the gateway: it provides the prosodic isolation that the bleaching pathway exploits. The prosodic slot was there first; the semantic content drained out of it (Gehweiler 2008, 85).
 
 The trajectory is constrained, not a random walk. Each stage makes the next more probable: once the invocation loses its referential force (stage 2), the phonological connection to the source is the last link to the nominal category, and weakening that link (stage 3) enables full independence (stage 4). Gehweiler’s corpus data documents the constraint: the phonological modifications (*Jeez*, *Gee*, *Gosh*, *Golly*) cluster in the seventeenth and eighteenth centuries, with the transition from invocation to primary interjection happening relatively rapidly once the modifications appear (Gehweiler 2008, 80–85).
 
@@ -322,8 +314,6 @@ The interjection cluster is a convergence point, but convergence doesn’t erase
 
 This gives the category a second kind of inference. Section <a href="#sec:projectibility" data-reference-type="ref" data-reference="sec:projectibility">5</a> develops forward projectibility: observing some properties of a novel form licenses predictions about other properties. Historical pragmatics also needs a retrodictive counterpart to projectibility: observing a residual property can license an inference about the pathway that produced it. A causal-network account can make that inference because it links properties to recruitment pathways, ordering relations, and source constructions.
 
-<div id="tab:pathway-residues">
-
 | Pathway | Gateway | Residue | Retrodictive prediction |
 |:---|:---|:---|:---|
 | Religious noun or proper name | Vocative invocation | Taboo avoidance, euphemistic phonological divergence, loss of reference without complement residue (*Jesus!* $`>`$ *jeez*, *gee*; *God!* $`>`$ *gosh*, *golly*) | Euphemistic deformation plus no argument structure points to an invocative source. |
@@ -331,9 +321,7 @@ This gives the category a second kind of inference. Section <a href="#sec:proje
 | Onomatopoeic or interactional coinage | Iconic or interactional vocalization | Atypical phonology, reduplication, spelling variation, weak etymological transparency (*ugh*, *whew*, *tut-tut*, *uh-oh*, *shh*) | Noncanonical phonology without a plausible lexical source points to iconic coinage. |
 | Interactional recruitment or regional/indexical conditioning | Sequential slot or community marker | Regional skew, register sensitivity, indexical persistence (*lah*, *yaar*, *haba*, *bruh*, *mm-hm*) | Uneven distribution by community points to regional/indexical entrenchment or conditioning. |
 
-Pathway residues in the English interjection cluster
-
-</div>
+Pathway residues in the English interjection cluster {#tab:pathway-residues}
 
 The residue analysis turns apparent exceptions into evidence. *Damn these mosquitoes!* becomes a verbal-path residue rather than an anomalous interjection with a complement. *Gee* records taboo-managed invocative recruitment through euphemistic phonology. *Lah* looks like the kind of item expected if regional or indexical conditioning stabilizes some interjectional forms. Prototype theory predicts fuzzy boundaries. It doesn’t predict that different boundary failures should line up with different historical routes.
 
@@ -375,7 +363,7 @@ Projectibility becomes circular if it says only this: if X is an interjection, i
 
 Consider the standalone interjectional use of *bruh*, a recently conventionalized form. A learner or hearer encountering that use for the first time observes a partial package: standalone position, prosodic isolation, morphological bareness, and stance meaning. From those observations, the three field-relative nodes license a battery of further expectations:
 
-<span id="ex:bruh" label="ex:bruh"></span> <span class="smallcaps">interjection<sub>syn</sub></span>: the interjectional use won’t inflect within that use (\**bruhs*, \**bruhed*), will resist syntactic integration (\**I think that bruh, we’re late*), and won’t take a determiner or function as an argument (\**the bruh*, \**Bruh surprised me*). This leaves room for separate nominal or verbal lexemes in the same word family. <span class="smallcaps">interjection<sub>int</sub></span>: the form should be available for turn-initial or standalone interactional use. <span class="smallcaps">interjection<sub>sem</sub></span>: its expressive meaning is expected to be use-conditional and speaker-oriented. These expectations vary in strength, and the asymmetry matters:
+<span id="ex:bruh" data-label="ex:bruh"></span> <span class="smallcaps">interjection<sub>syn</sub></span>: the interjectional use won’t inflect within that use (\**bruhs*, \**bruhed*), will resist syntactic integration (\**I think that bruh, we’re late*), and won’t take a determiner or function as an argument (\**the bruh*, \**Bruh surprised me*). This leaves room for separate nominal or verbal lexemes in the same word family. <span class="smallcaps">interjection<sub>int</sub></span>: the form should be available for turn-initial or standalone interactional use. <span class="smallcaps">interjection<sub>sem</sub></span>: its expressive meaning is expected to be use-conditional and speaker-oriented. These expectations vary in strength, and the asymmetry matters:
 
 - Near-entailments (a): the <span class="smallcaps">interjection<sub>syn</sub></span> predictions mostly extrapolate within the same domain from observed distributional facts. Any framework recognizing the relevant morphosyntactic properties generates many of the same predictions. These are real but not specific to the causal-network account.
 
@@ -510,19 +498,19 @@ Figure <a href="#fig:country-variation" data-reference-type="ref" data-referenc
 
 Four Bayesian negative binomial models were fitted using `brms` 2.23 in R, with 4 chains of 2,000 iterations (1,000 warmup) each. The confirmatory models (m0–m2) use exact reloo for leave-one-out cross-validation; the exploratory model (m3) is assessed by Pareto-smoothed importance sampling (PSIS) diagnostics only.
 
-> `m0` (unconditional):
+> `m0` (unconditional):\
 > `count ~ 1 + offset(log(words_m)) + (1 | item)`
 >
-> `m1` (conditioned):
-> `count ~ 1 + offset(log(words_m)) +`
+> `m1` (conditioned):\
+> `count ~ 1 + offset(log(words_m)) +`\
 > `(1 | item) + (1 | country)`
 >
-> `m2` (item type):
-> `count ~ 1 + item_type + offset(log(words_m)) +`
+> `m2` (item type):\
+> `count ~ 1 + item_type + offset(log(words_m)) +`\
 > `(1 | item) + (1 | country)`
 >
-> `m3` (exploratory):
-> `count ~ 1 + item_type + offset(log(words_m)) +`
+> `m3` (exploratory):\
+> `count ~ 1 + item_type + offset(log(words_m)) +`\
 > `(1 | item) + (1 + item_type || country)`
 
 Model m3 estimates country-level varying slopes by item type. Because several item-type cells are sparse (semi-regional: 1 item, boundary: 2, filler: 2, regional: 3), these slopes are thinly supported and m3 is treated as exploratory.

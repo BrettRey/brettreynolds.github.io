@@ -146,8 +146,6 @@ These aren’t bureaucratic decoration. They’re what makes the evaluator class
 
 This routing doesn’t weaken ethics review; it aims it. A study that targets persons belongs in participant review with the usual protections; one that uses expert competence to assess linguistic materials belongs under the standards that govern measurement (American Educational Research Association et al. 2014). The routing for common designs is summarized in <a href="#tab:routing" data-reference-type="ref+label" data-reference="tab:routing">1</a>.
 
-<div id="tab:routing">
-
 | **What the design studies** | **Role** | **What to report** |
 |:---|:---|:---|
 | Whether speakers accept an item | Participant | recruitment, consent, demographics, sampling, compensation, exclusion, statistical treatment of responses |
@@ -155,9 +153,7 @@ This routing doesn’t weaken ethics review; it aims it. A study that targets pe
 | Whether experts and naive speakers diverge | Participant (for that comparison) | group definition, sampling, consent, the statistical contrast |
 | Whether materials pass expert screening before a participant study | Evaluator (for that step) | qualification, validation task, handling of disagreement |
 
-Routing judgment evidence by what the design studies. The role follows the focus of inquiry, so the same materials change rows as the research question changes, and a mixed design occupies more than one.
-
-</div>
+Routing judgment evidence by what the design studies. The role follows the focus of inquiry, so the same materials change rows as the research question changes, and a mixed design occupies more than one. {#tab:routing}
 
 One protection can’t fall through the gap. Classifying a judge as an evaluator settles their status as a source of human-subjects data; it doesn’t settle their standing as a contributor of labour. Even where a graduate student pressed to supply judgments is no one’s research subject, they’re still owed fair acknowledgement, a reasonable burden, and protection against coercion. Those attach to the person as a worker, a matter of labour ethics rather than human-subjects review, a line sharpened in the parallel debate over whether machine-learning crowdworkers are subjects or workers (Kaushik et al. 2023). The evaluator framing relocates one set of obligations and leaves the other untouched.
 

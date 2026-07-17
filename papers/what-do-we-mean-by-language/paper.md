@@ -56,7 +56,7 @@ The verdicts have to be earned, not asserted. Table <a href="#tab:verdicts" dat
 
 <div class="minipage">
 
-<span id="tab:verdicts" label="tab:verdicts"></span>
+<span id="tab:verdicts" data-label="tab:verdicts"></span>
 
 <table>
 <thead>
@@ -196,7 +196,7 @@ Perturbation sensitivity runs through both stabilizers. Weakening either predict
 
 The projection target is conditioned, not pooled: a maintenance claim about *there’s* licenses predictions about which registers will tolerate it and which won’t, and about which speakers will produce or accept it under which conditioning.
 
-The defeater would be cross-corpus failure of the conditioning-gain test: if rates of *there’s two men* versus *there are two men* proved unstructured-noise across registers under properly-controlled comparison, the two-register account would lose its grip. Krejci and Hilton (2017) document the structured pattern (with a third levelled *there is* variant alongside the two main ones); Coppock and Staum (2004) shows the parallel double-copula case (*the thing is is that…*) is similarly predictable under spontaneous-planning conditioning.
+The defeater would be cross-corpus failure of the conditioning-gain test: if rates of *there’s two men* versus *there are two men* proved unstructured-noise across registers under properly-controlled comparison, the two-register account would lose its grip. Krejci and Hilton (2017) document the structured pattern (with a third levelled *there is* variant alongside the two main ones); (**coppock2018double?**) shows the parallel double-copula case (*the thing is is that…*) is similarly predictable under spontaneous-planning conditioning.
 
 Santana’s three-criteria framework leaves the maintenance question open. HPC supplies the conditioning-gain test that disciplines what counts as a population-maintained pattern: conditioning on a putative variable should improve prediction over the pooled baseline, and no gain means no mechanism is sustaining the apparent pattern. What’s maintained here is two register-conditioned systems, not one pooled system. Naming what’s maintained is the section’s payoff, and the slippage diagnosed in §<a href="#sec:slippage" data-reference-type="ref" data-reference="sec:slippage">9</a> is what happens when pooled data is read as evidence about a single underlying grammar.
 
@@ -380,12 +380,6 @@ Collins, John. 2007. “Review: <span class="nocase">Ignorance of Language</span
 <div id="ref-collins2008" class="csl-entry">
 
 Collins, John. 2008. “Knowledge of Language Redux.” *Croatian Journal of Philosophy* 8 (22): 3–43.
-
-</div>
-
-<div id="ref-coppock2018double" class="csl-entry">
-
-Coppock, Elizabeth, and Laura Staum. 2004. “Origin of the English Double-Is Construction.” <https://staum.casasanto.com/documents/doubleis.pdf>.
 
 </div>
 

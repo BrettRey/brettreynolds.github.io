@@ -216,8 +216,6 @@ Lexicalized food terms like *mashed potatoes*, *scrambled eggs*, and *grits* sho
 
 COCA frequencies provide quantitative support for the hierarchy. Table <a href="#tab:coca" data-reference-type="ref" data-reference="tab:coca">1</a> reports counts for *three*, *many*, and the tight diagnostic *how many* with four nouns: *people* (fully count), *folks* (boundary case), *police* (quasi-count), and *cattle* (quasi-count). Because raw string searches conflate head uses with other functions, the counts require interpretation.
 
-<div id="tab:coca">
-
 | Noun | COCA freq. | *three* | *many* | *how many* | *three*:*many* | *three*/M | *how many*/M |
 |:---|---:|---:|---:|---:|---:|---:|---:|
 | *people* | 1,784,505 | 3,972 | 48,153 | 7,919 | 8.3% | 2,226 | 4,438 |
@@ -225,9 +223,7 @@ COCA frequencies provide quantitative support for the hierarchy. Table <a href=
 | *police* | 220,858 | 20 | 74 | 11 | 27.0% | 91 | 50 |
 | *cattle* | 14,376 | 7 | 43 | 8 | 16.3% | 487 | 557 |
 
-COCA frequencies for determinative + noun combinations
-
-</div>
+COCA frequencies for determinative + noun combinations {#tab:coca}
 
 Note: Counts for *police* and *cattle* exclude modifier uses (e.g., *three police officers*, *many cattle ranchers*); see text for details. *Many* counts exclude the subset *how many*. The rightmost columns give occurrences per million tokens of the noun in COCA for *three* N and *how many* N.
 
@@ -247,8 +243,6 @@ The corpus evidence thus converges with the matrix in Figure <a href="#fig:matr
 
 A natural alternative explanation is that the hierarchy reflects collocation frequency rather than semantic precision: rare combinations are more easily blocked, and tight determinatives happen to be less frequent with these nouns. Table <a href="#tab:precision" data-reference-type="ref" data-reference="tab:precision">2</a> tests this by comparing determinatives that dissociate frequency from precision.
 
-<div id="tab:precision">
-
 | Determinative | COCA freq. | Precision | PMI *cattle* | PMI *folks* | PMI *people* |
 |:--------------|-----------:|:----------|-------------:|------------:|-------------:|
 | *two*         |  1,141,704 | tight     |    $`-2.46`$ |   $`-0.51`$ |    $`+2.53`$ |
@@ -259,9 +253,7 @@ A natural alternative explanation is that the hierarchy reflects collocation fre
 | *many*        |    904,039 | loose     |    $`+1.72`$ |   $`+3.71`$ |    $`+4.89`$ |
 | *numerous*    |     35,176 | loose     |    $`+0.97`$ |   $`+1.59`$ |    $`+2.00`$ |
 
-Precision vs. frequency: PMI for determinatives varying in frequency and precision demand
-
-</div>
+Precision vs. frequency: PMI for determinatives varying in frequency and precision demand {#tab:precision}
 
 Note: PMI = pointwise mutual information; positive = attracted (more frequent than chance), negative = repelled (less frequent than chance). Dashes indicate cells where the “persons” sense cannot be isolated (all *each people* tokens are the ethnic-group sense). *Two cattle* filtered to $`\approx`$<!-- -->3 head uses from 10 raw (7 modifier uses). *Every* omitted (all quasi-count tokens are modifier uses or the ethnic-group sense).
 
@@ -285,8 +277,6 @@ The hierarchy predicts that constructions foregrounding exact cardinality should
 
 Table <a href="#tab:exist" data-reference-type="ref" data-reference="tab:exist">3</a> reports COCA counts for *there \[be\] \[det\] \[noun\]* (existential frame) and *\[det\] \[noun\] \[v\*\]* (verb-following frame) across three determinatives and three nouns.
 
-<div id="tab:exist">
-
 | Det       | Noun     | Existential | Verb-following |  Total | E share |
 |:----------|:---------|------------:|---------------:|-------:|--------:|
 | *three*   | *people* |         128 |          1,356 |  1,484 |    8.6% |
@@ -299,9 +289,7 @@ Table <a href="#tab:exist" data-reference-type="ref" data-reference="tab:exist"
 |           | *folks*  |          18 |            433 |    451 |    4.0% |
 |           | *cattle* |           0 |             11 |     11 |      0% |
 
-COCA frequencies: existential vs. verb-following frames
-
-</div>
+COCA frequencies: existential vs. verb-following frames {#tab:exist}
 
 Note: Dashes indicate cells too sparse ($`N < 10`$) for meaningful percentages. Verb-following counts for *cattle* are filtered for head uses (see §<a href="#sec:corpus" data-reference-type="ref" data-reference="sec:corpus">5.2</a>). *Cows* is included in the discussion for comparison: *there \[be\] three cows* = 1, *there \[be\] many cows* = 2.
 
@@ -329,8 +317,6 @@ Consider *cattle*. It takes plural agreement (*the cattle are grazing*), accepts
 
 Other quasi-count nouns show slight variations but respect the hierarchy. Table <a href="#tab:expansion" data-reference-type="ref" data-reference="tab:expansion">4</a> reports COCA frequencies for five additional quasi-count nouns. *Poultry* and *livestock* largely pattern like *cattle*: near-zero tokens with *three* and *several*, modest acceptance of *many*. *Vermin* is the most extreme case: zero tokens with *three* or *several*, and only 2 with *many*. *Clergy* is more permissive, accepting *many clergy* (26) and marginal *several clergy* (4), with *cleric* serving the singulative function. *Youth* patterns nearest to *folks*, accepting *many youth* (86), *several youth* (22), and even *three youth* (10), though some of the latter may reflect the fully count sense (*a youth* = a young person). None of these nouns reverses the implicational pattern: none accepts tight properties while rejecting loose ones.
 
-<div id="tab:expansion">
-
 | Noun        | COCA freq. | *three* | *several* | *many* | *how many* |
 |:------------|-----------:|--------:|----------:|-------:|-----------:|
 | *youth*     |     49,846 |      10 |        22 |     86 |          3 |
@@ -339,9 +325,7 @@ Other quasi-count nouns show slight variations but respect the hierarchy. Table�
 | *poultry*   |      4,544 |       0 |         1 |      3 |          0 |
 | *vermin*    |      1,041 |       0 |         0 |      2 |          0 |
 
-COCA frequencies for expanded quasi-count nouns
-
-</div>
+COCA frequencies for expanded quasi-count nouns {#tab:expansion}
 
 Note: Raw counts; no modifier filtering applied (*poultry* and *livestock* function freely as modifiers, so head-use counts may be lower). Nouns ordered by acceptance of tight properties. Compare Table <a href="#tab:coca" data-reference-type="ref" data-reference="tab:coca">1</a> for core nouns.
 
@@ -469,9 +453,7 @@ This predicts an asymmetry. Quasi-count nouns *with* available singulatives shou
 
 COCA frequencies confirm the offloading. For seven quasi-count/singulative pairs, the singulative absorbs the tight property at dramatically higher per-million rates:
 
-<div id="tab:anchoring">
-
-<table>
+<table id="tab:anchoring">
 <caption>Functional anchoring: <em>three</em> per million tokens of each noun</caption>
 <thead>
 <tr>
@@ -557,8 +539,6 @@ COCA frequencies confirm the offloading. For seven quasi-count/singulative pairs
 </tr>
 </tbody>
 </table>
-
-</div>
 
 Note: *Police* and *cattle* counts exclude modifier uses. *Poultry*: the one raw token of *three poultry* is a modifier use (*three poultry houses*). Per-million rates computed relative to total COCA frequency of each noun form. Pairs ordered by ratio; dashes indicate zero denominator. *Folks* (bottom row) is the unanchored control: no functional singulative is available, and the noun shows the predicted variability (§<a href="#sec:folks" data-reference-type="ref" data-reference="sec:folks">5.5</a>).
 
@@ -823,7 +803,7 @@ Boyd, Richard. 1991. “Realism, Anti-Foundationalism and the Enthusiasm for Nat
 
 <div id="ref-bybee2010" class="csl-entry">
 
-Bybee, Joan. 2010. *Language, Usage and Cognition*. Cambridge University Press. <https://doi.org/10.1017/CBO9780511750526>.
+Bybee, Joan L. 2010. *Language, Usage and Cognition*. Cambridge University Press. <https://doi.org/10.1017/CBO9780511750526>.
 
 </div>
 

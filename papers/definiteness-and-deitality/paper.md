@@ -112,11 +112,11 @@ This section develops three uneven diagnostics plus one residue pattern: existen
 
 The definiteness effect in existential *there* constructions is well documented (Milsark 1977; McNally 2011). Under neutral prosody, deital determinatives resist the pivot position:
 
-<span id="ex:there-neutral" label="ex:there-neutral"></span> *<sup>\*</sup>There’s the key on the table.* (neutral existential reading) *<sup>\*</sup>There are those books I mentioned.* *There’s a key on the table.* (non-deital, acceptable)
+<span id="ex:there-neutral" data-label="ex:there-neutral"></span> *<sup>\*</sup>There’s the key on the table.* (neutral existential reading) *<sup>\*</sup>There are those books I mentioned.* *There’s a key on the table.* (non-deital, acceptable)
 
 The effect is sensitive to prosody: list/presentational intonation can license otherwise dispreferred pivots (Birner and Ward 1998):
 
-<span id="ex:there-list" label="ex:there-list"></span> *There’s THAT book again.* *Well, there’s THE KEYS, the wallet...*
+<span id="ex:there-list" data-label="ex:there-list"></span> *There’s THAT book again.* *Well, there’s THE KEYS, the wallet...*
 
 The initial *there* in such cases can be heard as locative rather than expletive, which makes the intended presentational reading harder to obtain.
 
@@ -132,9 +132,9 @@ McNally (2011) is especially important because the definiteness restriction is t
 
 In true partitive constructions (*X of Y* with subset semantics), the relevant diagnostic belongs to the Partitive Constraint tradition (Ladusaw 1982; Abbott 1996; Barker 1998; Hoeksema 1996). The issue is the availability of a delimited domain rather than *the*-marked definiteness as such. I state the diagnostic conservatively: the *Y* complement has to be definite-like or independently domain-establishing.
 
-<span id="ex:part-good" label="ex:part-good"></span> *Two<span class="upright"> / </span>several<span class="upright"> / </span>many of the students left.* *Two<span class="upright"> / </span>several<span class="upright"> / </span>many of these<span class="upright"> / </span>my students left.*
+<span id="ex:part-good" data-label="ex:part-good"></span> *Two<span class="upright"> / </span>several<span class="upright"> / </span>many of the students left.* *Two<span class="upright"> / </span>several<span class="upright"> / </span>many of these<span class="upright"> / </span>my students left.*
 
-<span id="ex:part-bad" label="ex:part-bad"></span> \**Several of some students left.*
+<span id="ex:part-bad" data-label="ex:part-bad"></span> \**Several of some students left.*
 
 This selectional restriction is stable and isn’t ameliorated by prosody. The partitive literature contains complications, including examples such as *one of several options*, *one of many problems*, and *two of a number of applicants* (Ladusaw 1982; Abbott 1996). Those cases show that the domain-establishing condition can be satisfied without *the*. They also show why the diagnostic shouldn’t be stated as a simple article-definiteness test. The narrower contrast is still useful: ordinary weak indefinites like *some students* don’t behave like *the students*, *these students*, or genitive NPs as partitive complements. Attempts to use weak *Y* are either rejected outright, receive a specialized set-denoting interpretation, or are reanalyzed as measure/fraction constructions (*half of a cake*), which have different semantics.
 
@@ -144,9 +144,9 @@ The *Y* slot is what matters. Elements in *X*, including quantifiers like *all* 
 
 I use identificational hosting as a cover term for environments that need a discourse-salient, identifiable NP as host: nonrestrictive modification, *as for* topics, and specificational subjects (the copular type of *The culprit is John*, distinct from the identificational *That is John*). The requirement on the host NP is semantic and information-structural; the deital diagnostic is distributional. NPs with deital determiners satisfy these environments most readily, while NPs with weak determiners need independent anchoring, especially in topic and specificational frames. Nonrestrictive relatives are more permissive when the indefinite is independently anchored (Lambrecht 1994):
 
-<span id="ex:host-good" label="ex:host-good"></span> *The<span class="upright"> / </span>this<span class="upright"> / </span>John’s book, which I bought yesterday, is excellent.* *As for the<span class="upright"> / </span>this<span class="upright"> / </span>John’s report, I filed it.* *The culprit is John.*
+<span id="ex:host-good" data-label="ex:host-good"></span> *The<span class="upright"> / </span>this<span class="upright"> / </span>John’s book, which I bought yesterday, is excellent.* *As for the<span class="upright"> / </span>this<span class="upright"> / </span>John’s report, I filed it.* *The culprit is John.*
 
-<span id="ex:host-mixed" label="ex:host-mixed"></span> *A student of mine, who you met, just won a prize.* (anchored indefinite) <sup>??</sup>*As for a report, I filed it.* <sup>??</sup>*A culprit is John.*
+<span id="ex:host-mixed" data-label="ex:host-mixed"></span> *A student of mine, who you met, just won a prize.* (anchored indefinite) <sup>??</sup>*As for a report, I filed it.* <sup>??</sup>*A culprit is John.*
 
 The degradation correlates with information structure. These host constructions presuppose that the referent is already salient or identifiable to the hearer. Weak indefinites introduce new referents and clash with this presupposition unless other material supplies anchoring. This makes the diagnostic mixed rather than purely structural: examples such as *A colleague of mine, who you may remember from York, emailed me* improve because specificity and discourse anchoring supply part of what the construction requires. The prediction is graded, not categorical.
 
@@ -154,11 +154,11 @@ The degradation correlates with information structure. These host constructions 
 
 Non-deital determinatives freely allow bare anaphoric *one* across clauses:
 
-<span id="ex:one-weak" label="ex:one-weak"></span> *I bought a red pen and you bought one too.*
+<span id="ex:one-weak" data-label="ex:one-weak"></span> *I bought a red pen and you bought one too.*
 
 Deital antecedents resist bare *one* on readings where the continuation would have to preserve the already-determined token rather than introduce another instance of the nominal property:
 
-<span id="ex:one-strong" label="ex:one-strong"></span> <sup>\*</sup>*I bought the<span class="upright"> / </span>this<span class="upright"> / </span>my red pen and you bought one too.* (intended: the same contextually determined pen)
+<span id="ex:one-strong" data-label="ex:one-strong"></span> <sup>\*</sup>*I bought the<span class="upright"> / </span>this<span class="upright"> / </span>my red pen and you bought one too.* (intended: the same contextually determined pen)
 
 Determiner function + *one* (*this one*, *the one*) is grammatical but represents a different construction: *one* is a noun with its own determiner, not a determinative phrase in fused-determiner–head function (one word filling the determiner and head positions together, as in *I’ll take these*) (Huddleston and Pullum 2002, 332–33). I exclude this construction from the residue pattern.
 
@@ -387,9 +387,7 @@ Deitality and definiteness remain strongly correlated because grammaticalization
 
 The table below is a compact orientation device; it isn’t a defended taxonomy of every English determinative. The cells are author judgments intended to make the profile auditable; only the core contrasts developed in the main text are used as evidence in the argument. Rows marked Provisional, especially fused relatives, exclamatives, compound forms, and personal determinatives, mark empirical terrain for later judgment and corpus work.
 
-<div id="tab:inventory">
-
-<table>
+<table id="tab:inventory">
 <caption>Provisional inventory of English determinatives and related forms (continued).</caption>
 <thead>
 <tr>
@@ -1051,8 +1049,6 @@ The table below is a compact orientation device; it isn’t a defended taxonomy 
 </tbody>
 </table>
 
-</div>
-
 = shows the <span class="smallcaps">deital</span> pattern named by the column; – = fails the pattern; n/a = diagnostic undefined for the construction type; ? = untested or confounded in the relevant construction. *There*-resist. means *resists* post-*there* pivothood under neutral prosody (i.e., exhibits the definiteness effect), not that the item occurs after *there* (Milsark 1977; McNally 2011). Domain-*Y* means that the item can supply the domain-establishing *Y* complement in a true partitive. The narrow *one*-substitution residue is discussed in §<a href="#sec:diagnostics" data-reference-type="ref" data-reference="sec:diagnostics">4</a> but isn’t used as an inventory column. For status, <span class="smallcaps">deital</span> = shows convergence across the ranked diagnostics (prototypical profile members); <span class="smallcaps">non-deital</span> = fails the ranked diagnostics; Mixed = shows partial profile convergence rather than a settled boundary verdict; Provisional = included as a target for later validation rather than used as evidence in the paper.
 
 $`^a`$The compound rows follow a -style category/function lens; readers who treat these as pronouns or adverbs should read them as fused or extended determinative-related expressions rather than core determinative lexemes (Huddleston and Pullum 2002). $`^b`$Coordination rescues *there*-pivot. $`^c`$These rows concern referential determiner-function uses, not proportional quantifier use; bare *last* and *next* don’t independently supply a full Domain-*Y* complement, so the diagnostic is undefined rather than failed. $`^d`$See
@@ -1281,7 +1277,7 @@ Labov, William. 2001. *Principles of Linguistic Change, Volume 2: Social Factors
 
 <div id="ref-ladusaw1982" class="csl-entry">
 
-Ladusaw, William A. 1982. “Semantic Constraints on the English Partitive Construction.” In *Proceedings of WCCFL 1*, edited by Daniel P. Flickinger, Marlys Macken, and Nancy Wiegand. Stanford Linguistics Association.
+Ladusaw, William A. 1982. “Semantic Constraints on the English Partitive Construction.” In *Proceedings of the First West Coast Conference on Formal Linguistics*, edited by Daniel P. Flickinger, Marlys Macken, and Nancy Wiegand. Stanford Linguistics Association.
 
 </div>
 

@@ -179,7 +179,7 @@ This tier, then, completes the bridge from phonemes to higher structure. In phon
 
 Constructions – conventionalized pairings of form and meaning that go beyond compositional rules – offer a different challenge for the HPC framework than single segments or words. Where phonemes cluster in articulatory space and words maintain distributional neighbourhoods, constructions rely on multiple converging cues that speakers recognize as a gestalt. The English *or even* construction provides a practical test case: it is a scalar-additive pattern closely related to *let alone*, but it is substantially more frequent in the UD corpora, enabling cross-corpus evaluation.
 
-Consider the contrast in <a href="#ex:oreven" data-reference-type="ref" data-reference="ex:oreven">[ex:oreven]</a>: .<span id="ex:oreven" label="ex:oreven"></span> . *I can’t afford coffee, or even dinner.*
+Consider the contrast in <a href="#ex:oreven" data-reference-type="ref" data-reference="ex:oreven">[ex:oreven]</a>: .<span id="ex:oreven" data-label="ex:oreven"></span> . *I can’t afford coffee, or even dinner.*
 
 Here the second item is presented as a stronger, more extreme, or less likely alternative on a contextually relevant scale. This scalar-additive relationship – where $`Y`$ ranks higher than $`X`$ on some contextually relevant scale – defines the construction’s core meaning. But how do speakers recognize this pattern reliably? And what keeps its formal and semantic properties bundled together across different texts and registers?
 
@@ -197,8 +197,6 @@ To test whether this cue bundle qualifies as homeostatic, I use two independentl
 
 The projectibility test asks: can patterns learned in one corpus predict instances in another? I train a minimal classifier on the three-cue bundle using data from GUM, then evaluate its ability to identify true *or even* constructions in the held-out EWT corpus (and vice versa). This cross-corpus design is crucial – if the construction were merely a frozen idiom or a corpus-specific quirk, the patterns wouldn’t transfer. Table <a href="#tab:oreven-eval" data-reference-type="ref" data-reference="tab:oreven-eval">1</a> reports the discrimination performance using PR–AUC. Because evaluation is restricted to anchor-present candidates, the anchor-only baseline is uninformative (PR–AUC equals prevalence), so gains reflect genuine cue structure.
 
-<div id="tab:oreven-eval">
-
 | Direction     | Model            | PR–AUC | $`\Delta`$ |
 |:--------------|:-----------------|:------:|:----------:|
 | GUM$`\to`$EWT | Full bundle      | 0.886  |      –     |
@@ -208,11 +206,9 @@ The projectibility test asks: can patterns learned in one corpus predict instanc
 |               | Drop parallelism | 0.527  |   –0.302   |
 |               | Drop licensing   | 0.650  |   –0.179   |
 
-Cross-corpus evaluation for *or even*. Full model uses anchor+parallelism+scalar cues; ablations drop one cue. Anchor-present candidates; class prevalence shown in the note.
+Cross-corpus evaluation for *or even*. Full model uses anchor+parallelism+scalar cues; ablations drop one cue. Anchor-present candidates; class prevalence shown in the note. {#tab:oreven-eval}
 
-</div>
-
-Note: Metrics are computed on anchor-present candidate sets; full precision/recall/F1 values are available in supplementary materials.
+Note: Metrics are computed on anchor-present candidate sets; full precision/recall/F1 values are available in supplementary materials.\
 Anchor-present counts: GUM $`n=12`$ (pos=5), EWT $`n=18`$ (pos=10). These results are illustrative; the confirmatory analysis expands to additional UD English corpora and a larger anchor sweep.
 
 The full three-cue model achieves PR–AUC in the 0.83–0.89 range in both transfer directions (indicating robust precision and recall; GUM$`\to`$EWT means training on GUM, testing on EWT). This exceeds the prevalence baseline and indicates robust cross-corpus generalization. Removing parallelism produces the largest drops ($`\Delta\approx`$<!-- -->0.27–0.30; a substantial loss of predictive power), while removing licensing yields smaller but consistent losses ($`\Delta\approx`$<!-- -->0.06–0.18). The string anchor alone isn’t sufficient; the construction needs its supporting cast of cues.
@@ -263,9 +259,7 @@ The selected constructions span four cue regimes (Table <a href="#tab:cx-batter
 
 Two additional targets are included explicitly to discipline the ontology. The first is *resultative* as a pooled analyst’s umbrella. Run naively as a single category, it’s predicted to behave as “too fat”: heterogeneous subtypes should erode cross-corpus projection and wash out ablation signatures. The second is a register-local format construction (*X much?*), included to make locality concrete: the framework predicts that projectibility can succeed in the appropriate population–genre slice while failing (trivially, by sparsity) outside it. In both cases the point isn’t to “rescue” a kind claim, but to show that the same diagnostics (and the same thresholds) yield informative failure modes rather than producing an “HPC” verdict by default.
 
-<div id="tab:cx-battery">
-
-<table>
+<table id="tab:cx-battery">
 <caption>Constructional battery for the confirmatory extension of Case C. Each target is specified by a candidate-generation heuristic (to define the evaluation universe), a minimally sufficient cue bundle (for ablation), and a predicted stabilizer profile. Eight are treated as positive candidates; two are designed <em>brakes</em> cases (“too fat”; register-local).</caption>
 <thead>
 <tr>
@@ -335,8 +329,6 @@ Two additional targets are included explicitly to discipline the ontology. The f
 </tr>
 </tbody>
 </table>
-
-</div>
 
 ## Construction battery results
 

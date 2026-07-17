@@ -85,8 +85,6 @@ I use Jaccard because in sparse binary data, shared absences tell you almost not
 
 For comparison, I use two predeclared sets. First, canonical pronouns like *he*, *her*, and *herself*. Second, the compound determinatives from Huddleston and Pullum (2002, Ch. 5 §9.6), items like *anybody* and *everyone* that realize fused determiner–head functions (Payne et al. 2007). If morphologically complex reciprocals pattern with anything, the likely comparators are these hybrids rather than simple pronouns.
 
-<div id="tab:diagnostics">
-
 | Diagnostic | Illustration | Canonical pronouns | Compound determinatives | Reciprocals | Main pull |
 |:---|:---|:---|:---|:---|:---|
 | Distinct case paradigm | *he/him/his* | yes | no | no | determinative-ward |
@@ -98,9 +96,7 @@ For comparison, I use two predeclared sets. First, canonical pronouns like *he*,
 | Reciprocal semantics | mutual interpretation | no | no | yes | distinctive |
 | Distinct pronominal genitive paradigm vs. clitic genitive | *his*, *somebody’s*, *each other’s* | yes | no | mixed | mixed |
 
-Representative diagnostics encoded in the 155-property matrix. The full matrix contains many more items and finer distinctions; this subset shows the kinds of evidence that pull reciprocals toward pronouns, toward compound determinatives, or away from both.
-
-</div>
+Representative diagnostics encoded in the 155-property matrix. The full matrix contains many more items and finer distinctions; this subset shows the kinds of evidence that pull reciprocals toward pronouns, toward compound determinatives, or away from both. {#tab:diagnostics}
 
 Table <a href="#tab:diagnostics" data-reference-type="ref" data-reference="tab:diagnostics">1</a> gives a compact view of the kinds of evidence that feed the matrix. The quantitative sections do not replace these diagnostics; they aggregate them, check their joint stability, and show how much the overall boundary diagnosis depends on metric choice, feature family, and comparator choice.
 

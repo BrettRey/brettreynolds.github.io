@@ -78,25 +78,19 @@ Operators are intensely contrastive, but at a different functional level than ph
 
 Analogically, operators are header-like rather than payload-like. They specify how an utterance is to be taken up (what move it counts as, who’s committed to what, how subsequent contributions are constrained) rather than contributing the conceptual substance of what’s being communicated. This yields three strata of linguistic infrastructure: expression-shape constraints that make an utterance recognizable as a token of the system, operator paradigms that configure public update and maintain closed repertoires, and payload resources that contribute negotiable content or stance. Their mismatch profiles differ accordingly. Expression-shape mismatches block recognizability; operator-paradigm mismatches invite form-targeted correction; payload mismatches invite negotiation.
 
-<div id="tab:strata">
-
 | **Stratum** | **Contribution** | **Mismatch profile** | **Example** |
 |:---|:---|:---|:---|
 | Expression-shape | Recognizable token | “Not a word” | phonotactics |
 | Operator paradigm | Update instruction; paradigm integrity | form-targeted correction | tense/agreement |
 | Payload | Content/stance | Negotiation, not rejection | lexical mismatch |
 
-Three strata of linguistic infrastructure and their characteristic mismatch profiles.
-
-</div>
+Three strata of linguistic infrastructure and their characteristic mismatch profiles. {#tab:strata}
 
 The central puzzle concerns the middle stratum: why clausal architecture clusters with tense, number, and agreement as a target of grammaticality talk, rather than with accent or lexical choice. The answer developed below is that clausal architecture behaves “like grammar” when it packages operator values for update, role allocation, and uptake.
 
 ## Boundary cases
 
 Public consequence isn’t enough for operator-stratum membership. Many forms affect participant commitments, how they’re evaluated, or what repairs are available. The operator claim is narrower: a form–value relation is an operator contrast only when it both configures a public-update instruction and belongs to a restricted, accountable repertoire. Table <a href="#tab:boundary-cases" data-reference-type="ref" data-reference="tab:boundary-cases">2</a> makes the boundary explicit.
-
-<div id="tab:boundary-cases">
 
 | **Case** | **Public?** | **Restricted?** | **Update instruction?** | **Predicted mismatch profile** |
 |:---|:---|:---|:---|:---|
@@ -110,9 +104,7 @@ Public consequence isn’t enough for operator-stratum membership. Many forms af
 | Interjection token | yes | partly | sometimes | uptake configuration without operator-stratum membership |
 | French determiner allomorphy | yes | yes | recruited/edge | form-selection mismatch at a stratum boundary |
 
-Boundary cases for public-update operators. Public consequence alone doesn’t define operator-stratum membership.
-
-</div>
+Boundary cases for public-update operators. Public consequence alone doesn’t define operator-stratum membership. {#tab:boundary-cases}
 
 Four boundary cases show why both conditions are needed.
 

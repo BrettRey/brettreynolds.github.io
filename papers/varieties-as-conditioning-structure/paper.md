@@ -400,7 +400,7 @@ Boyd, Richard. 1999. “Homeostasis, Species, and Higher Taxa.” In *Species: N
 
 <div id="ref-bybee2010" class="csl-entry">
 
-Bybee, Joan. 2010. *Language, Usage and Cognition*. Cambridge University Press. <https://doi.org/10.1017/CBO9780511750526>.
+Bybee, Joan L. 2010. *Language, Usage and Cognition*. Cambridge University Press. <https://doi.org/10.1017/CBO9780511750526>.
 
 </div>
 

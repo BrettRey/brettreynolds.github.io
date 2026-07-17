@@ -146,8 +146,6 @@ The grid isolates five questions that are recurrently compressed in HPC discussi
 
 This is the constructive response to Onishi and Serpico’s dilemma. Slater-style cliquish stability, Khalidi-style causal-network order, Boyd-style maintenance, and control-theoretic homeostasis are separated because no one of them should be made to carry all the weight of natural-kind realism.
 
-<div id="tab:diagnostics">
-
 | Diagnostic demand | Evidence needed | Failure mode |
 |:---|:---|:---|
 | Projection target | A specified field-relative inference, prediction, explanation, or intervention the category is supposed to support | Kind talk without saying what the category lets us project |
@@ -156,9 +154,7 @@ This is the constructive response to Onishi and Serpico’s dilemma. Slater-styl
 | Maintenance | A stabilizer whose removal would make the profile fragment, drift, or dissolve | Treating persistence as if a maintainer had been specified |
 | Corrective control | Perturbation-sensitive correction that preserves a higher-scale relation through lower-scale variation | Treating stability, maintenance, or feedback as control |
 
-A diagnostic grid for projectible profiles and homeostatic control.
-
-</div>
+A diagnostic grid for projectible profiles and homeostatic control. {#tab:diagnostics}
 
 The grid is meant to turn the question around. It asks the analyst to name the intended projection first and then justify each stronger securing claim, ending only where a maintainer corrects perturbations. The aim is to make the evidential demand behind homeostatic explicit.
 
@@ -246,7 +242,7 @@ The agreement-specific character of the repair comes from the projected dependen
 
 A simple attraction case makes the loop concrete:
 
-<span id="ex:agreement-repair" label="ex:agreement-repair"></span> *The key to the cabinets are – sorry, is – on the table.*
+<span id="ex:agreement-repair" data-label="ex:agreement-repair"></span> *The key to the cabinets are – sorry, is – on the table.*
 
 The perturbing cue is the plural attractor *cabinets*; the threatened relation is agreement with *key*; the production-level variable is the verb form; and the response pathway is repair from *are* to *is*. The repair restores the dependency relation that licensed the projection from controller to target in the first place.
 

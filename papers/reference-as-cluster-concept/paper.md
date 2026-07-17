@@ -100,8 +100,6 @@ Inferential-role structure (grounding<sub>infer</sub>). High inferential-role st
 
 These strands generate testable predictions. Two comparisons isolate the relevant factors: one varying training regime (base model vs. reinforcement learning from human feedback (RLHF) model) with deployment held constant, and one varying deployment with training held constant.[^4]
 
-<div id="tab:profiles">
-
 |  |  |  |  |
 |:---|:--:|:--:|:--:|
 | **Dimension** | **Base model** | **RLHF model** | **RLHF system**[^5] |
@@ -127,9 +125,7 @@ These strands generate testable predictions. Two comparisons isolate the relevan
 |  |  |  |  |
 |  |  |  |  |
 
-Groundedness profiles across training and deployment. Comparing columns 1–2 isolates training effects: RLHF plausibly strengthens grounding<sub>tele</sub> while other strands remain constant. Comparing columns 2–3 isolates deployment effects: interactive feedback activates grounding<sub>comm</sub>. The profile predicts differential response to correction and prompt pressure, and distinct failure modes, rather than a simple ranking by overall performance.
-
-</div>
+Groundedness profiles across training and deployment. Comparing columns 1–2 isolates training effects: RLHF plausibly strengthens grounding<sub>tele</sub> while other strands remain constant. Comparing columns 2–3 isolates deployment effects: interactive feedback activates grounding<sub>comm</sub>. The profile predicts differential response to correction and prompt pressure, and distinct failure modes, rather than a simple ranking by overall performance. {#tab:profiles}
 
 For expository simplicity, Table <a href="#tab:profiles" data-reference-type="ref" data-reference="tab:profiles">1</a> models a text-only LLM. A multimodal model would plausibly score higher on grounding<sub>causal</sub> in perceptually anchored domains without any automatic shift in grounding<sub>comm</sub> or grounding<sub>tele</sub>.
 

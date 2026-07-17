@@ -32,16 +32,12 @@ This note argues that homeostatic property cluster (HPC) theory (Boyd 1991, 1999
 
 Nefdt’s Table 1 is a $`2\times 2`$ matrix crossing language with cognition:
 
-<div id="tab:nefdt">
-
 |           |    +Cognition     | –Cognition |
 |:----------|:-----------------:|:----------:|
 | +Language |      Humans       |    ???     |
 | –Language | Non-human animals |   Rocks    |
 
-Conceptual possibilities, adapted from Nefdt (2026), p. 4.
-
-</div>
+Conceptual possibilities, adapted from Nefdt (2026), p. 4. {#tab:nefdt}
 
 The open question is whether anything occupies the top-right cell: language without cognition. Nefdt’s answer is that LLMs fill it. They “occupy a hitherto vacant part of conceptual space” (p. 4). The table presupposes that language and cognition are necessary-and-sufficient-condition categories. Something either has language or it doesn’t, either has cognition or it doesn’t, and the philosophical work consists in deciding which cell a system occupies. One might object that the table is scaffolding, not a metaphysical commitment – a heuristic to organize the debate, not a claim that the categories are really binary. But even heuristic binaries constrain the conceptual space they organize: a table with two columns invites two-valued answers. The hedging that runs through Nefdt’s discussion is his own analysis pressing against that constraint.
 

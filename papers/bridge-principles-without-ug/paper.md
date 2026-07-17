@@ -140,6 +140,8 @@ Call the corresponding worldly pattern a profile. It makes a projection worth tr
 
 At minimum, the audit needs three pieces. The target says what the inference is about. A diagnostic is evidence that the profile is present. Scope conditions and defeaters say where the projection applies and what would block, localize, or demote it (Reynolds 2026a). Later examples add a further question: what ordering relation keeps the source and target properties connected rather than accidentally associated? An ordering relation is whatever explains their co-availability, causal, compositional, distributional, or developmental, depending on the case.
 
+Pearl’s ladder separates association, intervention, and counterfactual support (Pearl 2009, 2010). Woodward’s interventionism explains why a proposed stabilizer matters when changing it alters the cluster in a stable, invariant way (Woodward 2003, 2001). The causal-inference apparatus stays lighter than a structural causal model because linguistic categories rarely come with a specifiable graph; the argument needs the contrast, not the formalism.
+
 Those pieces support different grades of inference. A diagnostic cue identifies a candidate contrast but doesn’t by itself license transfer. A scoped bridge identifies the target and support profile clearly enough to license a local projection. A robust bridge earns broader use only when it survives independent cases, held-out contrasts, and known defeaters. These grades keep cue, warrant, and scope from collapsing into one another.
 
 A corpus frequency difference may cue a register contrast. It becomes a scoped bridge when the conditioning structure is identified and the projection survives held-out material: for instance, knowing the institutional setting predicts likely forms, and hearing the forms helps infer the setting. It becomes robust only if the same profile continues to support projections across genres, speakers, institutions, or periods while respecting declared defeaters. The point isn’t to inflate every coding decision into metaphysics but to keep evidential travel inspectable.
@@ -304,7 +306,7 @@ Beekes, Robert S. P. 2011. *Comparative Indo-European Linguistics: An Introducti
 
 <div id="ref-bybee2010" class="csl-entry">
 
-Bybee, Joan. 2010. *Language, Usage and Cognition*. Cambridge University Press. <https://doi.org/10.1017/CBO9780511750526>.
+Bybee, Joan L. 2010. *Language, Usage and Cognition*. Cambridge University Press. <https://doi.org/10.1017/CBO9780511750526>.
 
 </div>
 
@@ -422,6 +424,18 @@ Ohala, John J. 1990. “The Phonetics and Phonology of Aspects of Assimilation.�
 
 </div>
 
+<div id="ref-pearl2009" class="csl-entry">
+
+Pearl, Judea. 2009. *Causality: Models, Reasoning, and Inference*. 2nd ed. Cambridge University Press. <https://doi.org/10.1017/CBO9780511803161>.
+
+</div>
+
+<div id="ref-pearl2010foundations" class="csl-entry">
+
+Pearl, Judea. 2010. “The Foundations of Causal Inference.” *Sociological Methodology* 40 (1): 75–149. <https://doi.org/10.1111/j.1467-9531.2010.01228.x>.
+
+</div>
+
 <div id="ref-pullum2001" class="csl-entry">
 
 Pullum, Geoffrey K., and Barbara C. Scholz. 2001. “On the Distinction Between Model-Theoretic and Generative-Enumerative Syntactic Frameworks.” In *Logical Aspects of Computational Linguistics: 4th International Conference, LACL 2001*, edited by Philippe de Groote, Glyn Morrill, and Christian Retoré, vol. 2099. Lecture Notes in Computer Science. Springer. <https://doi.org/10.1007/3-540-48199-0_2>.
@@ -479,6 +493,18 @@ Sener, Nilufer. 2011. “Semantics and Pragmatics of Evidentials in Turkish.” 
 <div id="ref-stainton2011public" class="csl-entry">
 
 Stainton, Robert J. 2011. “In Defense of Public Languages.” *Linguistics and Philosophy* 34 (5): 479–88. <https://doi.org/10.1007/s10988-011-9104-7>.
+
+</div>
+
+<div id="ref-woodward2001" class="csl-entry">
+
+Woodward, James. 2001. “Law and Explanation in Biology: Invariance Is the Kind of Stability That Matters.” *Philosophy of Science* 68 (1): 1–20. <https://doi.org/10.1086/392863>.
+
+</div>
+
+<div id="ref-woodward2003MakingThingsHappen" class="csl-entry">
+
+Woodward, James. 2003. *Making Things Happen: A Theory of Causal Explanation*. Oxford University Press. <https://doi.org/10.1093/0195155270.001.0001>.
 
 </div>
 

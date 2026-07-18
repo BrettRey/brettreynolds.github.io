@@ -6,6 +6,9 @@
 **Status:** Static site maintained for brettreynolds.ca
 **Last updated:** 2026-07-17
 
+### 2026-07-18 Session Notes
+- Deployed `valley-hunt.html`, the interactive companion to the Erdős-993 tree-unimodality paper (exact BigInt engine validated against the paper's champion values and the published Kadrawi n=26 polynomials; all claims audited against `paper/main_v2.tex`). Cross-linked both ways with `first-descent.html`; publications tree entry now has an "Interactive companion" link; both pages indexed in sitemap and llms.txt. Restored the First Descent llms.txt entry dropped by the 2026-07-17 walkthrough rewrite.
+
 ### 2026-07-17 Session Notes
 - Deployed `first-descent.html`, the interactive companion to the Poisson–binomial manuscript (audited against `paper/poisson_binomial/main.tex` in erdos-problem-993; one math gloss corrected before deploy). Hosted the manuscript build as `variance-scaled-turan.pdf` (source repo gitignores PDFs; refresh the site copy when the manuscript changes). Added the manuscript to `publications.html` (status "Manuscript", no venue claim) with PDF / interactive companion / code links, and indexed both new URLs in `sitemap.xml` and `llms.txt`.
 

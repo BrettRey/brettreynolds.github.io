@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A playable expedition into a 1987 Erdős problem: is the independence sequence of every tree unimodal? Build trees, watch the sequence live, and hunt for the valley nobody has ever found.">
+<link rel="canonical" href="https://brettreynolds.ca/valley-hunt.html">
+<title>The Valley Hunt – a playable tour of a 1987 Erdős problem</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Spline+Sans:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --felt:#16342a;
+  --felt2:#1d4234;
+  --felt3:#0d221b;
+  --chalk:#f4efe1;
+  --chalk-dim:#cfc9b4;
+  --brass:#d9a441;
+  --brass2:#f2c56b;
+  --ink:#20291f;
+  --red:#c8524a;
+  --line:rgba(244,239,225,.16);
+  --line-ink:rgba(32,41,31,.16);
+  --disp:"Fraunces",Georgia,"Times New Roman",serif;
+  --body:"Spline Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"Spline Sans Mono",ui-monospace,"SF Mono",Menlo,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--felt);color:var(--chalk);font-family:var(--body);line-height:1.55;
+  background-image:radial-gradient(1200px 600px at 50% -100px, rgba(242,197,107,.06), transparent 60%);}
+img,svg{display:block;max-width:100%}
+a{color:var(--brass2)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.eyebrow{font-family:var(--mono);font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--brass);margin-bottom:14px}
+h1,h2,h3{font-family:var(--disp);font-weight:600;line-height:1.08}
+h2{font-size:clamp(1.7rem,3.4vw,2.4rem);margin-bottom:14px}
+h3{font-size:1.15rem;margin-bottom:8px}
+p{margin-bottom:12px}
+section{padding:72px 0}
+.sect-head{max-width:640px;margin-bottom:34px}
+.sect-head p{color:var(--chalk-dim)}
+.hero{padding:96px 0 72px;border-bottom:1px solid var(--line)}
+.hero h1{font-size:clamp(2.9rem,7.5vw,5.2rem);font-weight:700;letter-spacing:-.01em;margin-bottom:18px}
+.hero h1 .thin{font-weight:400;font-style:italic;color:var(--brass2)}
+.hero .lede{max-width:640px;font-size:1.08rem;color:var(--chalk);opacity:.94;margin-bottom:26px}
+.hero .fine{font-family:var(--mono);font-size:.78rem;color:var(--chalk-dim);margin-top:16px}
+.btnrow{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;font-family:var(--body);font-weight:600;font-size:.95rem;text-decoration:none;
+  padding:12px 22px;border-radius:999px;border:1px solid var(--brass);transition:transform .15s ease, background .15s ease}
+.btn.primary{background:var(--brass);color:var(--felt3)}
+.btn.primary:hover{background:var(--brass2);transform:translateY(-1px)}
+.btn.ghost{color:var(--brass2)}
+.btn.ghost:hover{background:rgba(217,164,65,.12)}
+.paper{background:var(--chalk);color:var(--ink);border-radius:14px;padding:26px 26px 20px;box-shadow:0 10px 24px rgba(0,0,0,.28)}
+.paper h3{color:var(--ink)}
+.paper .eyebrow{color:#9a6d1e}
+.table-card{background:var(--felt2);border:1px solid var(--line);border-radius:14px;padding:22px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+@media(max-width:840px){.grid3{grid-template-columns:1fr}}
+.frm{font-family:var(--mono);font-weight:600;white-space:nowrap}
+.bigfrm{font-family:var(--mono);font-size:clamp(1.1rem,2.8vw,1.7rem);font-weight:600;color:var(--brass2);
+  background:var(--felt3);border:1px solid var(--line);border-radius:12px;padding:16px 22px;display:inline-block;margin:8px 0 14px}
+.paper .bigfrm{color:#8a5f14;background:#ece5d1;border-color:var(--line-ink)}
+sub,sup{font-size:.68em}
+.primer .step .eyebrow{margin-bottom:8px}
+.primer svg{margin:10px 0 12px}
+.primer p{font-size:.94rem;margin-bottom:6px}
+.primer .paper{height:100%}
+#game{border-top:1px solid var(--line)}
+.game-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:20px;align-items:start}
+@media(max-width:920px){.game-grid{grid-template-columns:1fr}}
+.panel{background:var(--felt2);border:1px solid var(--line);border-radius:14px;padding:18px}
+.panel h3{display:flex;align-items:center;gap:8px}
+.panel .hint{font-size:.85rem;color:var(--chalk-dim)}
+#treewrap{background:var(--felt3);border:1px solid var(--line);border-radius:10px;margin:12px 0;overflow:hidden}
+#treeview{width:100%;height:auto;cursor:pointer}
+.tv-edge{stroke:rgba(244,239,225,.35);stroke-width:1.4}
+.tv-node{fill:#6b4f1d;stroke:rgba(242,197,107,.5);stroke-width:1.2}
+.tv-node.sel{fill:var(--brass2);stroke:var(--chalk);stroke-width:2}
+.ctl{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0}
+.smallbtn{font-family:var(--body);font-size:.82rem;font-weight:600;color:var(--chalk);background:var(--felt3);
+  border:1px solid var(--line);border-radius:8px;padding:7px 12px;cursor:pointer;transition:background .12s}
+.smallbtn:hover{background:#132e25;border-color:var(--brass)}
+.smallbtn.gold{background:var(--brass);color:var(--felt3);border-color:var(--brass)}
+.smallbtn.gold:hover{background:var(--brass2)}
+.smallbtn:disabled{opacity:.4;cursor:default}
+.presetrow{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.statrow{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0 6px}
+.stat{background:var(--felt3);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.stat .lab{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--chalk-dim)}
+.nt{text-transform:none}
+.stat .val{font-family:var(--mono);font-size:1.25rem;font-weight:600;color:var(--brass2)}
+#histwrap{background:var(--felt3);border:1px solid var(--line);border-radius:10px;padding:8px}
+#hist{width:100%;height:auto}
+.bar{fill:var(--brass);opacity:.92}
+.bar.peak{fill:var(--brass2)}
+.axis{stroke:var(--line)}
+.klab{fill:var(--chalk-dim);font-family:var(--mono);font-size:10px;text-anchor:middle}
+.rdot{fill:var(--chalk)}
+.rdot.up{fill:#e8887f}
+.oneline{stroke:#c8524a;stroke-dasharray:4 3;stroke-width:1.4}
+.crown{fill:var(--brass2)}
+.meterbox{text-align:center;padding-top:6px}
+#needle{transform-origin:160px 160px;transition:transform .7s cubic-bezier(.2,.9,.3,1.1)}
+#needle.locked{opacity:0}
+.score-big{font-family:var(--mono);font-size:2.1rem;font-weight:600;color:var(--brass2);margin-top:4px}
+.score-big.locked{color:var(--chalk-dim);font-size:1rem;font-weight:400}
+.score-cap{font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--chalk-dim);margin-bottom:14px}
+.zonered{stroke:var(--red)}
+.zoneamber{stroke:#b07a2a;stroke-dasharray:5 4}
+.zoneok{stroke:#3f6b58}
+.mtick{stroke:var(--chalk);opacity:.7}
+.mlab{fill:var(--chalk);font-family:var(--mono);font-size:12px;text-anchor:middle}
+.zonekey{display:flex;flex-wrap:wrap;gap:6px 14px;justify-content:center;font-family:var(--mono);font-size:.7rem;color:var(--chalk-dim);margin-bottom:12px}
+.zonekey .sw{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+.medals{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;justify-content:center}
+.medal{font-family:var(--mono);font-size:.72rem;border:1px solid var(--line);border-radius:999px;padding:5px 11px;color:var(--chalk-dim)}
+.medal.won{border-color:var(--brass);color:var(--brass2);background:rgba(217,164,65,.12)}
+.bestline{font-family:var(--mono);font-size:.8rem;color:var(--chalk-dim);text-align:center;margin-top:10px}
+.bestline b{color:var(--brass2)}
+.chal{border-top:1px solid var(--line);padding:12px 2px}
+.chal:first-of-type{border-top:none}
+.chal .nm{font-weight:600;display:flex;gap:8px;align-items:center}
+.chal .ds{font-size:.88rem;color:var(--chalk-dim);margin:2px 0 4px}
+.badge{font-family:var(--mono);font-size:.64rem;letter-spacing:.1em;border-radius:5px;padding:2px 7px;border:1px solid var(--line);color:var(--chalk-dim)}
+.badge.done{border-color:var(--brass);color:var(--felt3);background:var(--brass);animation:stamp .35s ease}
+@keyframes stamp{0%{transform:scale(1.7);opacity:0}100%{transform:scale(1);opacity:1}}
+.reveal{font-size:.85rem;background:var(--felt3);border-left:3px solid var(--brass);border-radius:6px;padding:8px 12px;margin-top:6px}
+#valleybanner{display:none;background:var(--red);color:#fff;border-radius:12px;padding:16px 20px;margin:14px 0;font-weight:600}
+#valleybanner.show{display:block}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.tab{font-family:var(--body);font-weight:600;font-size:.9rem;padding:9px 16px;border-radius:999px;cursor:pointer;
+  border:1px solid var(--line);background:transparent;color:var(--chalk-dim)}
+.tab.active{background:var(--chalk);color:var(--ink);border-color:var(--chalk)}
+.depth{display:none}
+.depth.active{display:block}
+.depth .paper p{margin-bottom:12px}
+.depth ul{margin:0 0 12px 20px}
+.depth li{margin-bottom:6px}
+.note{font-size:.88rem;background:#ece5d1;border-left:3px solid var(--brass);border-radius:6px;padding:10px 14px;margin:10px 0;color:#4b4433}
+.stations{counter-reset:st;display:grid;gap:14px}
+.station{display:grid;grid-template-columns:52px 1fr;gap:16px;background:var(--felt2);border:1px solid var(--line);border-radius:12px;padding:18px}
+.station .num{counter-increment:st;font-family:var(--disp);font-weight:700;font-size:1.6rem;color:var(--brass2);
+  width:52px;height:52px;border:1px solid var(--brass);border-radius:50%;display:flex;align-items:center;justify-content:center}
+.station .num::before{content:counter(st)}
+.station p{color:var(--chalk-dim);font-size:.95rem;margin-bottom:6px}
+.station .frm{color:var(--brass2)}
+.openband{background:var(--felt3);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.numline{margin:26px 0 8px}
+.openband .caption{font-family:var(--mono);font-size:.78rem;color:var(--chalk-dim);text-align:center}
+.gloss dt{font-family:var(--disp);font-weight:600;font-size:1.02rem;color:var(--brass2);margin-top:14px}
+.gloss dd{color:var(--chalk-dim);font-size:.94rem;margin-left:0}
+footer{border-top:1px solid var(--line);padding:40px 0 60px;font-size:.85rem;color:var(--chalk-dim)}
+footer p{max-width:720px}
+:focus-visible{outline:2px solid var(--brass2);outline-offset:2px}
+@media (prefers-reduced-motion: reduce){
+  *{animation:none!important;transition:none!important}
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">A playable expedition into a 1987 Erdős problem</div>
+    <h1>The Valley <span class="thin">Hunt</span></h1>
+    <p class="lede">Take any tree – the graph kind, dots and lines with no cycles – and count its independent sets by size.
+    The counts always seem to climb to a peak and then fall: a single hill, never a valley. Erdős and his coauthors conjectured in 1987 that this holds for <strong>every</strong> tree.
+    Nobody has proved it. Nobody has found a valley. Every one of the 8,691,747,673 trees with up to 29 vertices has been checked.</p>
+    <div class="btnrow">
+      <a class="btn primary" href="#game">Play “Valley Hunt”</a>
+      <a class="btn ghost" href="#primer">Start with the idea</a>
+      <a class="btn ghost" href="https://doi.org/10.5281/zenodo.19100781" target="_blank" rel="noopener noreferrer">Read the paper</a>
+    </div>
+    <p class="fine">No math background needed. Deeper layers open up when you want them. Sibling page: <a href="first-descent.html">The First Descent</a>.</p>
+  </div>
+</header>
+
+<!-- ============ PRIMER ============ -->
+<section id="primer" class="primer">
+  <div class="wrap">
+    <div class="sect-head">
+      <div class="eyebrow">Three pictures</div>
+      <h2>How to read the hunt</h2>
+      <p>One kind of object, one sequence, and one thing that has never been seen.</p>
+    </div>
+    <div class="grid3">
+      <div class="paper step">
+        <div class="eyebrow">Picture 1</div>
+        <h3>Independent sets</h3>
+        <svg viewBox="0 0 260 110" aria-label="A small tree with an independent set of three vertices highlighted">
+          <g stroke="#9a6d1e" stroke-width="1.6">
+            <line x1="130" y1="30" x2="70" y2="60"/><line x1="130" y1="30" x2="130" y2="60"/><line x1="130" y1="30" x2="190" y2="60"/>
+            <line x1="70" y1="60" x2="45" y2="90"/><line x1="70" y1="60" x2="95" y2="90"/><line x1="190" y1="60" x2="190" y2="90"/>
+          </g>
+          <g>
+            <circle cx="130" cy="30" r="9" fill="#6b4f1d"/>
+            <circle cx="70" cy="60" r="9" fill="#d9a441" stroke="#20291f" stroke-width="2"/>
+            <circle cx="130" cy="60" r="9" fill="#d9a441" stroke="#20291f" stroke-width="2"/>
+            <circle cx="190" cy="60" r="9" fill="#6b4f1d"/>
+            <circle cx="45" cy="90" r="9" fill="#6b4f1d"/>
+            <circle cx="95" cy="90" r="9" fill="#6b4f1d"/>
+            <circle cx="190" cy="90" r="9" fill="#d9a441" stroke="#20291f" stroke-width="2"/>
+          </g>
+        </svg>
+        <p>An <strong>independent set</strong> is a collection of vertices with no two joined by an edge – a committee with no two members who are neighbours. The three gold vertices form one of size 3.</p>
+        <p>Count them by size: i<sub>0</sub> = 1 (the empty set), i<sub>1</sub> = the number of vertices, i<sub>2</sub>, i<sub>3</sub>, … up to the largest possible size α.</p>
+      </div>
+      <div class="paper step">
+        <div class="eyebrow">Picture 2</div>
+        <h3>The hill</h3>
+        <svg viewBox="0 0 260 96" aria-label="A histogram that climbs to a peak then descends smoothly">
+          <g>
+            <rect x="14" y="80" width="20" height="6" fill="#d9a441"/>
+            <rect x="38" y="64" width="20" height="22" fill="#d9a441"/>
+            <rect x="62" y="40" width="20" height="46" fill="#d9a441"/>
+            <rect x="86" y="24" width="20" height="62" fill="#f2c56b"/>
+            <rect x="110" y="34" width="20" height="52" fill="#d9a441"/>
+            <rect x="134" y="52" width="20" height="34" fill="#d9a441"/>
+            <rect x="158" y="68" width="20" height="18" fill="#d9a441"/>
+            <rect x="182" y="78" width="20" height="8" fill="#d9a441"/>
+            <text x="96" y="16" font-family="monospace" font-size="10" fill="#9a6d1e" text-anchor="middle">one peak</text>
+          </g>
+        </svg>
+        <p>List the counts in order: 1, n, i<sub>2</sub>, i<sub>3</sub>, … For every tree anyone has ever checked, this sequence is <strong>unimodal</strong>: it rises, tops out, and falls. No dip on the way down.</p>
+        <p>The 1987 conjecture of Alavi, Malde, Schwenk, and Erdős says it always is – Erdős problem #993.</p>
+      </div>
+      <div class="paper step">
+        <div class="eyebrow">Picture 3</div>
+        <h3>The valley</h3>
+        <svg viewBox="0 0 260 96" aria-label="A histogram that descends, dips, and rises again; the dip is flagged as a valley">
+          <g>
+            <rect x="14" y="76" width="20" height="10" fill="#d9a441"/>
+            <rect x="38" y="30" width="20" height="56" fill="#f2c56b"/>
+            <rect x="62" y="58" width="20" height="28" fill="#d9a441"/>
+            <rect x="86" y="44" width="20" height="42" fill="#c8524a"/>
+            <rect x="110" y="60" width="20" height="26" fill="#d9a441"/>
+            <rect x="134" y="72" width="20" height="14" fill="#d9a441"/>
+            <line x1="72" y1="20" x2="72" y2="54" stroke="#c8524a" stroke-width="2"/>
+            <text x="79" y="26" font-family="monospace" font-size="10" fill="#a33d35">valley</text>
+          </g>
+        </svg>
+        <p>A <strong>valley</strong> – a dip that rises again – would disprove the conjecture. Graphs in general do this freely: Alavi, Malde, Schwenk, and Erdős showed the sequence of a general graph can realize any prescribed shape. One 26-vertex graph has the sequence 1, 26, 15, 20, 15, 6, 1.</p>
+        <p>But that graph has cycles. No <em>tree</em> has ever produced a valley. Your job downstairs: try.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GAME ============ -->
+<section id="game">
+  <div class="wrap">
+    <div class="sect-head">
+      <div class="eyebrow">The game</div>
+      <h2>Valley Hunt</h2>
+      <p>Build a tree; the sequence updates live, in exact integer arithmetic. Your score is the <strong>near-miss ratio</strong> nm: after the sequence first turns downward, the largest later step-up ratio i<sub>k+1</sub>/i<sub>k</sub>. Push it toward 1. Crossing 1 is a valley – a counterexample to a 39-year-old conjecture.</p>
+    </div>
+    <div id="valleybanner" role="alert"></div>
+    <div class="game-grid">
+      <div class="panel">
+        <h3>Tree workshop</h3>
+        <p class="hint">Tap a vertex to select it (gold ring), then grow or prune. <span id="selinfo"></span></p>
+        <div id="treewrap"><svg id="treeview" viewBox="0 0 640 420" role="img" aria-label="The current tree"></svg></div>
+        <div class="ctl">
+          <button class="smallbtn" id="addleaf">+ Leaf</button>
+          <button class="smallbtn" id="addleaf5">+ 5 leaves</button>
+          <button class="smallbtn" id="addchain">+ Chain ×3</button>
+          <button class="smallbtn" id="delleaf">− Delete leaf</button>
+          <span class="hint" id="ncount"></span>
+        </div>
+        <div class="presetrow">
+          <button class="smallbtn" id="p-path">Path 60</button>
+          <button class="smallbtn" id="p-star">Star 60</button>
+          <button class="smallbtn" id="p-rand">Random 60</button>
+          <button class="smallbtn" id="p-kadrawi">Kadrawi 26</button>
+        </div>
+        <div class="presetrow">
+          <button class="smallbtn gold" id="p-ch75">Champion 75</button>
+          <button class="smallbtn gold" id="p-ch100">Champion 100</button>
+          <button class="smallbtn gold" id="p-ch200">Champion 200</button>
+          <button class="smallbtn" id="export">Copy edge list</button>
+        </div>
+        <div style="margin-top:14px">
+          <h3>Challenges</h3>
+          <div id="chals"></div>
+        </div>
+      </div>
+      <div>
+        <div class="panel">
+          <h3>The sequence, live</h3>
+          <div id="histwrap"><svg id="hist" viewBox="0 0 640 330" role="img" aria-label="Live independence sequence and its consecutive ratios"></svg></div>
+          <div class="statrow">
+            <div class="stat"><div class="lab">Vertices n</div><div class="val" id="s-n">–</div></div>
+            <div class="stat"><div class="lab">Peak size <span class="nt">α</span> / mode</div><div class="val" id="s-alpha">–</div></div>
+            <div class="stat"><div class="lab">Log-concave?</div><div class="val" id="s-lc">–</div></div>
+          </div>
+        </div>
+        <div class="panel meterbox" style="margin-top:20px">
+          <h3 style="justify-content:center">Scoreboard</h3>
+          <svg id="meter" viewBox="0 0 320 190" role="img" aria-label="Gauge showing the near-miss ratio approaching the wall at 1"></svg>
+          <div class="score-big" id="scorebig">–</div>
+          <div class="score-cap" id="scorecap">near-miss ratio <span class="nt">nm</span> · gap G = <span class="nt">n</span>(1−<span class="nt">nm</span>) = <b id="s-gap">–</b></div>
+          <div class="zonekey">
+            <span><i class="sw" style="background:#3f6b58"></i>&lt; 0.857 all-trees territory (n ≤ 28)</span>
+            <span><i class="sw" style="background:#b07a2a"></i>0.857–1 near-miss frontier</span>
+            <span><i class="sw" style="background:var(--red)"></i>1 the wall: a valley</span>
+          </div>
+          <div class="medals" id="medals"></div>
+          <div class="bestline" id="bestline">Personal best: <b>none yet</b></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DEPTHS ============ -->
+<section id="depths">
+  <div class="wrap">
+    <div class="sect-head">
+      <div class="eyebrow">The problem, at your depth</div>
+      <h2>Choose how much math you want</h2>
+      <p>Same open problem, three altitudes. Switch whenever you like – nothing below depends on reading the harder ones.</p>
+    </div>
+    <div class="tabs" role="tablist">
+      <button class="tab active" data-depth="d1" role="tab">Plain words</button>
+      <button class="tab" data-depth="d2" role="tab">Some algebra</button>
+      <button class="tab" data-depth="d3" role="tab">The whole story</button>
+    </div>
+
+    <div class="depth active" id="d1">
+      <div class="paper">
+        <h3>The problem, no symbols</h3>
+        <p>A tree is the simplest kind of network: everything connected, no loops. An independent set is a selection of its vertices with no two adjacent. Count the selections of each size and line the counts up. For every tree ever examined, the line-up climbs to a single peak and descends – like a hill seen side-on.</p>
+        <p>In 1987, Alavi, Malde, Schwenk, and Erdős proved that networks <em>in general</em> obey no such law: with cycles allowed, you can make the counts zigzag however you please. Trees looked different. They conjectured that a tree's counts always form a single hill. That conjecture is Erdős problem #993, and it is still open.</p>
+        <p>Here is what makes it tantalizing. A <em>stronger</em> regularity – log-concavity, which says the sequence has no abrupt flattening anywhere – was long believed plausible for trees too, and it is false: in 2025, Kadrawi and Levit found exactly two trees on 26 vertices that break it. Nineteen more break it at 28 vertices, and infinite families are now known. The fence between "perfectly regular" and "single hill" is real, and trees walk right up to it. They just never seem to cross.</p>
+        <p>Computers have checked every tree with up to 29 vertices – 8,691,747,673 of them. No valley. Special families (paths, centipedes, regular caterpillars, spiders, Fibonacci trees) are proved safe. And the best "near-miss" trees – bushy stars with a few long arms – get their post-peak rebound ratio up to 0.9959 without ever touching 1.</p>
+        <p>The game upstairs puts you in the hunt: build a tree, watch its hill, and try to dent it.</p>
+      </div>
+    </div>
+
+    <div class="depth" id="d2">
+      <div class="paper">
+        <h3>The problem, with a little algebra</h3>
+        <p>For a tree T, write i<sub>k</sub>(T) for the number of independent sets of size k, and α(T) for the largest size. The <em>independence polynomial</em> is <span class="frm">I(T; x) = Σ i<sub>k</sub> x<sup>k</sup></span>, with i<sub>0</sub> = 1.</p>
+        <div class="bigfrm">Conjecture (Alavi–Malde–Schwenk–Erdős 1987): (i<sub>0</sub>, i<sub>1</sub>, …, i<sub>α</sub>) is unimodal for every tree</div>
+        <p>Unimodal means: rises to a peak, then falls, ties allowed. The stronger property of <strong>log-concavity</strong> – <span class="frm">i<sub>k</sub>² ≥ i<sub>k−1</sub> i<sub>k+1</sub></span> at every interior k – implies unimodality, and for decades every tree tested had it. It fails: Kadrawi and Levit (2025) found exactly two trees on n = 26 (both failing at k = 13, worst ratio i<sub>12</sub>i<sub>14</sub>/i<sub>13</sub>² = 1.145), none exist at n = 27, and 19 exist at n = 28. Infinite non-log-concave families are now known (Galvin 2025; Bautista-Ramos et al.), including failures at several consecutive indices – yet none of these trees loses unimodality.</p>
+        <p>What is proved safe: paths and centipedes (AMSE 1987), regular caterpillars (Galvin–Hilyard 2018), Fibonacci trees (Bencs 2018), and all spiders, whose independence polynomials are log-concave (Li–Xie–Zhuang 2025), which covers brooms; further families containing the Kadrawi–Levit examples were proved unimodal in 2026. Levit and Mandrescu (2006) showed the tail is always strictly decreasing from k ≥ ⌈(2α−1)/3⌉ on, so any valley must sit in roughly the first two-thirds of the sequence. For a uniformly random labelled tree, Basit and Galvin (2020) proved the initial ≈49.5% of the sequence is increasing and the final ≈38.8% decreasing, asymptotically almost surely.</p>
+        <p>To measure how close a tree gets to a valley, the companion paper uses the <strong>near-miss ratio</strong>:</p>
+        <div class="bigfrm">nm(T) = max { i<sub>j+1</sub>/i<sub>j</sub> : j after the first strict descent }</div>
+        <p>Unimodality says nm ≤ 1; a valley is exactly nm &gt; 1. Exhaustive search puts the best near-miss among all trees through n = 28 at nm ≈ 0.8571 (reached at n = 27). Beyond the exhaustive range, the empirically extremal family is the <strong>multi-arm star</strong> M(s; a<sub>1</sub>, …, a<sub>k</sub>): a hub with s pendant leaves and k short paths. The best known configurations reach nm = 0.9437 at n = 75, 0.9575 at n = 100, 0.9792 at n = 200, and 0.9959 at n = 1000 – creeping toward the wall like 1 − C/s without crossing.</p>
+        <div class="note"><strong>Why the creep can't cross (in these families):</strong> a leaf-attachment theorem in the paper gives <span class="frm">nm(s) = 1 − C/s + O(1/s²)</span> when s leaves are attached to a fixed vertex, with the parity-dependent constant pinned to 4 ≤ C ≤ 8 (pure stars: C = 6 along even s, 8 along odd). So each such family is unimodal for all large s: the rebound approaches 1 but the gap shrinks like C/s, never reaching zero. This tames every family of this shape – and says nothing about trees outside it, which is why the problem is still open.</div>
+      </div>
+    </div>
+
+    <div class="depth" id="d3">
+      <div class="paper">
+        <h3>The whole story, compressed</h3>
+        <p>The companion paper attacks the conjecture on three fronts; none closes it, and the paper says so plainly.</p>
+        <p><strong>Front one: push the mean below the danger zone.</strong> For a class of reduced trees (those with at most one "private leaf" per support vertex), a decimation identity plus Steiner peeling on a compensation function proves the mean independent-set size satisfies <span class="frm">μ(T) &lt; n/3</span>. If tree independence sequences also satisfied the mode–mean localization <span class="frm">mode ≤ ⌈μ⌉</span>, this would control where the peak sits for that whole class. That localization is exactly what Darroch proved in 1964 for Poisson–binomial distributions – the bridge to this page's sibling, <a href="first-descent.html">The First Descent</a> – but for trees it remains a conjecture, verified for all 931,596 reduced trees on up to 23 vertices and for the log-concavity-breaking trees individually.</p>
+        <p><strong>Front two: squeeze the shape of a minimal counterexample.</strong> A subdivision–contraction identity shows – conditional on a conjectured Edge Contraction Mode Stability property and a tail condition verified through n ≤ 19 – that a minimal counterexample would have to be homeomorphically irreducible: no vertex of degree 2 anywhere. Conditional, and labelled as such in the paper's dependency map.</p>
+        <p><strong>Front three: brute force and extremal reconnaissance.</strong> Exhaustive verification of all 8,691,747,673 trees on n ≤ 29 (the larger orders sharded across 1024 cloud workers), with log-concavity and near-miss audits through n = 28. An evolutionary optimizer over tree space (leaf relocation, prune-and-regraft, pendant concentration) converged on multi-arm stars as the near-miss champions, and a leaf-attachment theorem explains their approach rate 1 − C/s, 4 ≤ C ≤ 8. The valley, if it exists, lives somewhere none of this reaches: bigger than 29 vertices, outside every proved-safe family, and past the frontier every tested family obeys.</p>
+        <div class="note"><strong>Disclosure, from the paper itself:</strong> AI systems (Claude, ChatGPT and Codex, Gemini) assisted with computational exploration, code, proof strategy, and drafting; the author reviewed all machine-generated material and takes responsibility for all claims. The exhaustive runs and audits ship with reproduction scripts in the public repository.</div>
+        <p style="margin-bottom:0"><em>Reference:</em> Brett Reynolds, “Mean bounds, structural reductions, and exhaustive verification for tree independence polynomial unimodality” (2026), <a href="https://doi.org/10.5281/zenodo.19100781" target="_blank" rel="noopener noreferrer">doi:10.5281/zenodo.19100781</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATE OF THE HUNT ============ -->
+<section id="state">
+  <div class="wrap">
+    <div class="sect-head">
+      <div class="eyebrow">Where things stand</div>
+      <h2>The hunt, in five facts</h2>
+    </div>
+    <div class="stations">
+      <div class="station"><div class="num" aria-hidden="true"></div><div>
+        <h3>Every small tree is clean</h3>
+        <p>All 8,691,747,673 trees on up to 29 vertices have been checked in exact arithmetic: not one valley.</p>
+      </div></div>
+      <div class="station"><div class="num" aria-hidden="true"></div><div>
+        <h3>The stronger law already broke</h3>
+        <p>Log-concavity fails for exactly two trees at n = 26, none at 27, nineteen at 28 – and for infinite families beyond. Unimodality survived every one of those breaks.</p>
+      </div></div>
+      <div class="station"><div class="num" aria-hidden="true"></div><div>
+        <h3>Whole families are proved safe</h3>
+        <p>Paths, centipedes, regular caterpillars, spiders (hence brooms), Fibonacci trees, and the families containing the known log-concavity breakers all have proofs. The tail of every tree's sequence is provably decreasing from about two-thirds of the way in.</p>
+      </div></div>
+      <div class="station"><div class="num" aria-hidden="true"></div><div>
+        <h3>The champions creep but never cross</h3>
+        <p>Bushy multi-arm stars push the rebound to <span class="frm">nm = 1 − C/s + O(1/s²)</span> with 4 ≤ C ≤ 8: as close to the wall as you like, never through it. Best known: 0.9959 at n = 1000.</p>
+      </div></div>
+      <div class="station"><div class="num" aria-hidden="true"></div><div>
+        <h3>The general case is wide open</h3>
+        <p>No proof handles all trees. A valley, if one exists, needs more than 29 vertices and a shape outside every family listed above. That is exactly the space the workshop upstairs lets you wander.</p>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OPEN PROBLEM BAND ============ -->
+<section class="openband">
+  <div class="wrap">
+    <div class="sect-head" style="margin-bottom:6px">
+      <div class="eyebrow">The frontier</div>
+      <h2>Creeping toward the wall at 1</h2>
+      <p>The near-miss ratio nm of the best known trees, by vertex count. A single tree with nm &gt; 1 ends the conjecture.</p>
+    </div>
+    <svg class="numline" viewBox="0 0 800 120" role="img" aria-label="Number line showing best known near-miss ratios approaching but never reaching 1">
+      <line x1="60" y1="60" x2="740" y2="60" stroke="#f4efe1" stroke-opacity=".25" stroke-width="2"/>
+      <line x1="740" y1="36" x2="740" y2="84" stroke="#c8524a" stroke-width="3"/>
+      <text x="740" y="26" text-anchor="middle" fill="#e8887f" font-family="monospace" font-size="14">1 = valley</text>
+      <text x="740" y="100" text-anchor="middle" fill="#cfc9b4" font-family="monospace" font-size="10">never reached</text>
+      <g font-family="monospace" font-size="11" fill="#f2c56b">
+        <circle cx="215" cy="60" r="4" fill="#d9a441"/><text x="215" y="44" text-anchor="middle">.857</text><text x="215" y="82" text-anchor="middle" fill="#cfc9b4" font-size="9">n≤28 (all trees)</text>
+        <circle cx="422" cy="60" r="4" fill="#d9a441"/><text x="422" y="44" text-anchor="middle">.944</text><text x="422" y="82" text-anchor="middle" fill="#cfc9b4" font-size="9">n=75</text>
+        <circle cx="520" cy="60" r="4" fill="#d9a441"/><text x="520" y="44" text-anchor="middle">.958</text><text x="520" y="82" text-anchor="middle" fill="#cfc9b4" font-size="9">n=100</text>
+        <circle cx="637" cy="60" r="4" fill="#d9a441"/><text x="637" y="44" text-anchor="middle">.979</text><text x="637" y="82" text-anchor="middle" fill="#cfc9b4" font-size="9">n=200</text>
+        <circle cx="718" cy="60" r="4" fill="#d9a441"/><text x="700" y="44" text-anchor="middle">.996</text><text x="700" y="96" text-anchor="middle" fill="#cfc9b4" font-size="9">n=1000</text>
+      </g>
+    </svg>
+    <p class="caption">Positions to scale on [0.8, 1]. Every dot is a multi-arm star; each family obeys nm = 1 − C/s with C ≥ 4, so the gap closes like C/s and never vanishes. (This page computes your trees in exact integer arithmetic – a valley shown here would be real. Verify independently anyway.)</p>
+  </div>
+</section>
+
+<!-- ============ WHAT IT CONNECTS TO ============ -->
+<section>
+  <div class="wrap">
+    <div class="grid3">
+      <div class="paper">
+        <div class="eyebrow">Unimodal vs log-concave</div>
+        <h3>A fence with a gate</h3>
+        <p>Log-concavity implies unimodality, so for decades the safe bet was that trees had both. The 2025 discovery that log-concavity fails – first at exactly n = 26 – while unimodality keeps holding is the sharpest hint that #993 sits in genuinely delicate territory. Load the Kadrawi 26 preset and watch the ratio dots stumble without ever climbing back over 1.</p>
+      </div>
+      <div class="paper">
+        <div class="eyebrow">The sibling theorem</div>
+        <h3>From this hunt, a theorem</h3>
+        <p>Chasing the mode–mean question for trees leads straight to Darroch's 1964 localization for coin-flip sums – and from there this project proved a new variance-scaled Turán inequality for Poisson–binomial distributions. That result has its own playable page: <a href="first-descent.html">The First Descent</a>.</p>
+      </div>
+      <div class="paper">
+        <div class="eyebrow">Where these counts live</div>
+        <h3>Constrained selection, everywhere</h3>
+        <p>Independent-set counts are the tree case of a lattice-gas partition function: selections of non-adjacent sites, weighted by size. The same sequences appear as Merrifield–Simmons indices in chemistry and Fibonacci-style counts in combinatorics – paths give exactly the Fibonacci numbers.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GLOSSARY ============ -->
+<section id="glossary">
+  <div class="wrap">
+    <div class="sect-head">
+      <div class="eyebrow">Small dictionary</div>
+      <h2>Glossary</h2>
+    </div>
+    <div class="table-card">
+      <dl class="gloss">
+        <dt>Tree</dt>
+        <dd>A connected graph with no cycles. n vertices, n − 1 edges, exactly one path between any two vertices.</dd>
+        <dt>Independent set</dt>
+        <dd>A set of vertices no two of which are adjacent. The empty set counts (size 0).</dd>
+        <dt>Independence sequence / polynomial</dt>
+        <dd>i<sub>k</sub> = the number of independent sets of size k; the polynomial is I(T; x) = Σ i<sub>k</sub>x<sup>k</sup>. For a path, the i<sub>k</sub> are binomial-like and their total is a Fibonacci number.</dd>
+        <dt>α (independence number)</dt>
+        <dd>The largest size of an independent set – the length of the sequence.</dd>
+        <dt>Unimodal</dt>
+        <dd>Rises then falls, ties allowed: no strict dip followed by a strict rise.</dd>
+        <dt>Log-concave</dt>
+        <dd>i<sub>k</sub>² ≥ i<sub>k−1</sub>i<sub>k+1</sub> at every interior index. Stronger than unimodal. False for trees since 2025 (n = 26); unimodality has never failed.</dd>
+        <dt>Mode</dt>
+        <dd>The smallest index where the sequence's maximum is reached – the peak position.</dd>
+        <dt>Near-miss ratio nm(T)</dt>
+        <dd>After the first strict descent, the largest later ratio i<sub>j+1</sub>/i<sub>j</sub>; 0 if there is nothing after the first descent. Unimodal means nm ≤ 1; a valley is nm &gt; 1.</dd>
+        <dt>Multi-arm star M(s; a<sub>1</sub>, …, a<sub>k</sub>)</dt>
+        <dd>A hub carrying s pendant leaves and k paths of the given lengths. The empirically extremal near-miss family; brooms and stars are special cases.</dd>
+        <dt>Erdős problem #993</dt>
+        <dd>The tree-unimodality conjecture, as catalogued at <a href="https://www.erdosproblems.com/993" target="_blank" rel="noopener noreferrer">erdosproblems.com/993</a>.</dd>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><strong>The Valley Hunt</strong> is an interactive companion to: Brett Reynolds, <em>“Mean bounds, structural reductions, and exhaustive verification for tree independence polynomial unimodality”</em> (2026). Read the <a href="https://doi.org/10.5281/zenodo.19100781" target="_blank" rel="noopener noreferrer">paper on Zenodo</a>; code, exhaustive-run scripts, and audit data live in the <a href="https://github.com/BrettRey/erdos-problem-993" target="_blank" rel="noopener noreferrer">project repository</a>. Sibling explainer: <a href="first-descent.html">The First Descent</a>, on the Poisson–binomial theorem this hunt produced.</p>
+    <p style="margin-top:10px">This page computes independence sequences in exact big-integer arithmetic, so a valley displayed here would not be a rounding artifact. If you ever see the red banner: copy the edge list, re-verify with independent code (the repository has exact checkers), and get in touch.</p>
+    <p style="margin-top:10px"><a href="index.html">brettreynolds.ca</a> · <a href="publications.html">Publications</a></p>
+  </div>
+</footer>
+
+<script>
+/* ===================== engine (pure, DOM-free) ===================== */
+"use strict";
+function vhBuildAdj(n, edges){
+  const adj = Array.from({length:n}, ()=>[]);
+  for(const [u,v] of edges){ adj[u].push(v); adj[v].push(u); }
+  return adj;
+}
+/* exact independence polynomial of a tree, BigInt coefficients */
+function vhIndPoly(n, edges){
+  const adj = vhBuildAdj(n, edges);
+  const parent = new Array(n).fill(-1), order = [], seen = new Array(n).fill(false);
+  const stack = [0]; seen[0] = true;
+  while(stack.length){
+    const u = stack.pop(); order.push(u);
+    for(const w of adj[u]) if(!seen[w]){ seen[w] = true; parent[w] = u; stack.push(w); }
+  }
+  if(order.length !== n) throw new Error("not a connected tree");
+  const mul = (a,b)=>{
+    const out = new Array(a.length + b.length - 1).fill(0n);
+    for(let i=0;i<a.length;i++){ if(a[i]===0n) continue;
+      for(let j=0;j<b.length;j++) out[i+j] += a[i]*b[j]; }
+    return out;
+  };
+  const add = (a,b)=>{
+    const out = new Array(Math.max(a.length,b.length)).fill(0n);
+    for(let i=0;i<a.length;i++) out[i] += a[i];
+    for(let i=0;i<b.length;i++) out[i] += b[i];
+    return out;
+  };
+  const ex = new Array(n), inc = new Array(n);
+  for(let t=order.length-1; t>=0; t--){
+    const u = order[t];
+    let e = [1n], i = [0n,1n];
+    for(const w of adj[u]) if(parent[w] === u){
+      e = mul(e, add(ex[w], inc[w]));
+      i = mul(i, ex[w]);
+    }
+    ex[u] = e; inc[u] = i;
+  }
+  return add(ex[0], inc[0]);
+}
+/* exact + float analysis of a sequence of BigInts */
+function vhAnalyze(poly){
+  const m = poly.length - 1;
+  let D = null;
+  for(let k=1;k<=m;k++) if(poly[k] < poly[k-1]){ D = k; break; }
+  let nm = 0, nmPos = null;
+  if(D !== null){
+    for(let j=D;j<m;j++){
+      const r = Number(poly[j+1]) / Number(poly[j]);
+      if(r > nm){ nm = r; nmPos = j; }
+    }
+  }
+  /* exact valley test: strict descent then strict rise, BigInt comparisons */
+  let valley = false, descended = false;
+  for(let k=1;k<=m;k++){
+    if(poly[k] < poly[k-1]) descended = true;
+    else if(descended && poly[k] > poly[k-1]){ valley = true; break; }
+  }
+  let lcFail = null;
+  for(let k=1;k<m;k++){
+    if(poly[k]*poly[k] < poly[k-1]*poly[k+1]){ lcFail = k; break; }
+  }
+  let mode = 0;
+  for(let k=1;k<=m;k++) if(poly[k] > poly[mode]) mode = k;
+  return {alpha:m, D, nm, nmPos, valley, lcFail, mode};
+}
+/* preset builders: edges arrays */
+function vhPath(n){ const e=[]; for(let i=0;i<n-1;i++) e.push([i,i+1]); return {n, edges:e}; }
+function vhStar(n){ const e=[]; for(let i=1;i<n;i++) e.push([0,i]); return {n, edges:e}; }
+function vhMultiArm(s, arms){
+  const e = []; let nid = 1;
+  for(let i=0;i<s;i++){ e.push([0,nid]); nid++; }
+  for(const a of arms){ let prev = 0; for(let j=0;j<a;j++){ e.push([prev,nid]); prev = nid; nid++; } }
+  return {n:nid, edges:e};
+}
+function vhRandom(n, rnd){
+  const e = []; for(let i=1;i<n;i++) e.push([Math.floor(rnd()*i), i]); return {n, edges:e};
+}
+const VH_KADRAWI = {n:26, edges:[[0,12],[1,13],[2,14],[3,15],[4,16],[5,17],[6,18],[7,19],[8,20],[9,21],[10,22],[0,23],[1,23],[2,23],[11,23],[3,24],[4,24],[5,24],[6,24],[11,24],[7,25],[8,25],[9,25],[10,25],[11,25]]};
+</script>
+<script>
+/* ===================== UI ===================== */
+(function(){
+"use strict";
+const NMAX = 220;
+let tree = vhMultiArm(40, [6,2]);   /* friendly starting point: n=49, nm≈0.91 */
+let sel = 0;
+let bestNm = null, bestG = null;
+const cleared = {};
+let lastRes = null, lastPoly = null;
+
+/* ---------- formatting ---------- */
+const fmt = (x,d)=> (x===null||x===undefined)? "–" : x.toFixed(d===undefined?4:d);
+
+/* ---------- tree view ---------- */
+const tv = document.getElementById('treeview');
+function layout(){
+  const {n, edges} = tree;
+  const adj = vhBuildAdj(n, edges);
+  let root = 0;
+  for(let v=0;v<n;v++) if(adj[v].length > adj[root].length) root = v;
+  const parent = new Array(n).fill(-1), depth = new Array(n).fill(0), order = [];
+  const seen = new Array(n).fill(false); const st=[root]; seen[root]=true;
+  while(st.length){ const u=st.pop(); order.push(u);
+    for(const w of adj[u]) if(!seen[w]){ seen[w]=true; parent[w]=u; depth[w]=depth[u]+1; st.push(w); } }
+  const leaves = new Array(n).fill(0);
+  for(let t=order.length-1;t>=0;t--){ const u=order[t];
+    let c=0; for(const w of adj[u]) if(parent[w]===u) c+=leaves[w];
+    leaves[u] = c || 1; }
+  const ang = new Array(n).fill(0);
+  (function assign(u, a0, a1){
+    ang[u] = (a0+a1)/2;
+    let a = a0;
+    for(const w of adj[u]) if(parent[w]===u){
+      const span = (a1-a0)*leaves[w]/leaves[u];
+      assign(w, a, a+span); a += span;
+    }
+  })(root, 0, Math.PI*2);
+  const maxd = Math.max(1, ...depth);
+  const cx=320, cy=210, R = 185;
+  const pos = new Array(n);
+  for(let v=0;v<n;v++){
+    const r = depth[v]/maxd*R;
+    pos[v] = [cx + r*Math.cos(ang[v]), cy + r*Math.sin(ang[v])];
+  }
+  return {pos, adj};
+}
+function renderTree(){
+  const {n, edges} = tree;
+  const {pos, adj} = layout();
+  const rad = n>120? 4 : n>60? 5.5 : 8;
+  let s = "";
+  for(const [u,v] of edges)
+    s += `<line class="tv-edge" x1="${pos[u][0].toFixed(1)}" y1="${pos[u][1].toFixed(1)}" x2="${pos[v][0].toFixed(1)}" y2="${pos[v][1].toFixed(1)}"/>`;
+  for(let v=0;v<n;v++)
+    s += `<circle class="tv-node${v===sel?' sel':''}" data-v="${v}" cx="${pos[v][0].toFixed(1)}" cy="${pos[v][1].toFixed(1)}" r="${v===sel?rad+2:rad}"><title>vertex ${v}, degree ${adj[v].length}</title></circle>`;
+  tv.innerHTML = s;
+  document.getElementById('ncount').textContent = `${n} vertices (max ${NMAX})`;
+  document.getElementById('selinfo').textContent = `Selected: vertex ${sel} (degree ${adj[sel].length}).`;
+}
+tv.addEventListener('click', (ev)=>{
+  const t = ev.target.closest('.tv-node');
+  if(t){ sel = +t.dataset.v; renderTree(); }
+});
+
+/* ---------- edit ops ---------- */
+function afterEdit(){ renderTree(); update(); }
+document.getElementById('addleaf').addEventListener('click', ()=>{
+  if(tree.n >= NMAX) return;
+  tree.edges.push([sel, tree.n]); tree.n++; afterEdit();
+});
+document.getElementById('addleaf5').addEventListener('click', ()=>{
+  for(let i=0;i<5;i++){ if(tree.n >= NMAX) break; tree.edges.push([sel, tree.n]); tree.n++; }
+  afterEdit();
+});
+document.getElementById('addchain').addEventListener('click', ()=>{
+  let prev = sel;
+  for(let i=0;i<3;i++){ if(tree.n >= NMAX) break; tree.edges.push([prev, tree.n]); prev = tree.n; tree.n++; }
+  afterEdit();
+});
+document.getElementById('delleaf').addEventListener('click', ()=>{
+  const adj = vhBuildAdj(tree.n, tree.edges);
+  if(adj[sel].length !== 1 || tree.n <= 2) return;
+  const removed = sel, last = tree.n - 1;
+  tree.edges = tree.edges.filter(([u,v])=> u!==removed && v!==removed);
+  /* relabel last vertex to fill the hole */
+  if(removed !== last)
+    tree.edges = tree.edges.map(([u,v])=> [u===last?removed:u, v===last?removed:v]);
+  tree.n--; sel = 0; afterEdit();
+});
+
+/* presets */
+function setTree(t){ tree = {n:t.n, edges:t.edges.map(e=>e.slice())}; sel = 0; afterEdit(); }
+let seed = 993;
+const rnd = ()=>{ seed = (seed*1103515245 + 12345) % 2147483648; return seed/2147483648; };
+document.getElementById('p-path').addEventListener('click', ()=> setTree(vhPath(60)));
+document.getElementById('p-star').addEventListener('click', ()=> setTree(vhStar(60)));
+document.getElementById('p-rand').addEventListener('click', ()=> setTree(vhRandom(60, rnd)));
+document.getElementById('p-kadrawi').addEventListener('click', ()=> setTree(VH_KADRAWI));
+document.getElementById('p-ch75').addEventListener('click', ()=> setTree(vhMultiArm(66, [6,2])));
+document.getElementById('p-ch100').addEventListener('click', ()=> setTree(vhMultiArm(88, [6,3,2])));
+document.getElementById('p-ch200').addEventListener('click', ()=> setTree(vhMultiArm(183, [5,5,4,2])));
+document.getElementById('export').addEventListener('click', ()=>{
+  const txt = JSON.stringify({n:tree.n, edges:tree.edges});
+  if(navigator.clipboard) navigator.clipboard.writeText(txt);
+  else prompt("Edge list:", txt);
+});
+
+/* ---------- sequence chart ---------- */
+const histEl = document.getElementById('hist');
+function renderHist(poly, r){
+  const W=640,H=330,padL=36,padR=12,padT=30,padB=96;
+  const m = r.alpha;
+  const vals = poly.map(Number);
+  const maxf = Math.max(...vals);
+  const bw=(W-padL-padR)/(m+1);
+  const y0=H-padB, plotH=H-padT-padB;
+  let s = `<line class="axis" x1="${padL-4}" y1="${y0}" x2="${W-padR}" y2="${y0}"/>`;
+  for(let k=0;k<=m;k++){
+    const h = plotH*vals[k]/maxf, x = padL+k*bw+1, y = y0-h;
+    const cls = (k===r.mode)? "bar peak":"bar";
+    s += `<rect class="${cls}" x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${Math.max(bw-2,1).toFixed(1)}" height="${Math.max(h,0.5).toFixed(1)}" rx="1.5"></rect>`;
+  }
+  const cxp = padL + r.mode*bw + bw/2;
+  s += `<circle class="crown" cx="${cxp.toFixed(1)}" cy="${Math.max(y0 - plotH - 8, 8).toFixed(1)}" r="0"></circle>`;
+  s += `<circle class="crown" cx="${cxp.toFixed(1)}" cy="${(y0 - plotH*vals[r.mode]/maxf - 8).toFixed(1)}" r="3.2"></circle>`;
+  /* ratio strip: r_k = i_{k+1}/i_k, clamped to [0, 1.25] */
+  const ry0 = H-14, stripH = 56, ry1 = ry0 - stripH;
+  const rmax = 1.25;
+  s += `<line class="axis" x1="${padL-4}" y1="${ry0}" x2="${W-padR}" y2="${ry0}"/>`;
+  const oneY = ry0 - stripH*(1/rmax);
+  s += `<line class="oneline" x1="${padL-4}" y1="${oneY.toFixed(1)}" x2="${W-padR}" y2="${oneY.toFixed(1)}"/>`;
+  s += `<text class="klab" x="${W-padR-6}" y="${(oneY-4).toFixed(1)}" text-anchor="end">ratio = 1</text>`;
+  for(let k=0;k<m;k++){
+    const rv = Math.min(vals[k+1]/vals[k], rmax);
+    const x = padL+(k+0.5)*bw+bw/2, y = ry0 - stripH*(rv/rmax);
+    const up = (r.D !== null && k >= r.D && vals[k+1] > vals[k]);
+    s += `<circle class="rdot${up?' up':''}" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="2.4"></circle>`;
+  }
+  s += `<text class="klab" x="${padL+2}" y="${(ry1-4).toFixed(1)}" text-anchor="start">step ratios i&#8342;&#8330;&#8321;/i&#8342;</text>`;
+  const step = Math.max(1, Math.ceil((m+1)/13));
+  for(let k=0;k<=m;k+=step)
+    s += `<text class="klab" x="${(padL+k*bw+bw/2).toFixed(1)}" y="${y0+14}">${k}</text>`;
+  s += `<text class="klab" x="${W-padR-16}" y="${y0+26}">size k</text>`;
+  histEl.innerHTML = s;
+}
+
+/* ---------- meter ---------- */
+const M = {lo:0.55, hi:1.05, cx:160, cy:158, r:118};
+function ang(v){ const t=(Math.min(Math.max(v,M.lo),M.hi)-M.lo)/(M.hi-M.lo); return -90+180*t; }
+function pol(r,a){ const rad=a*Math.PI/180; return [M.cx+r*Math.sin(rad), M.cy-r*Math.cos(rad)]; }
+function arc(r,a0,a1){ const [x0,y0]=pol(r,a0),[x1,y1]=pol(r,a1);
+  return `M ${x0.toFixed(1)} ${y0.toFixed(1)} A ${r} ${r} 0 0 1 ${x1.toFixed(1)} ${y1.toFixed(1)}`; }
+function buildMeter(){
+  const F=0.8571;
+  let s = "";
+  s += `<path class="zoneok"    d="${arc(M.r, ang(M.lo), ang(F))}" fill="none" stroke-width="16" stroke-linecap="butt"/>`;
+  s += `<path class="zoneamber" d="${arc(M.r, ang(F), ang(1))}" fill="none" stroke-width="16"/>`;
+  s += `<path class="zonered"   d="${arc(M.r, ang(1), ang(M.hi))}" fill="none" stroke-width="16"/>`;
+  [[0.6,"0.6"],[0.7,"0.7"],[0.8,"0.8"],[F,".857"],[0.95,".95"],[1,"1"]].forEach(([v,lab])=>{
+    const a=ang(v), [x0,y0]=pol(M.r-12,a), [x1,y1]=pol(M.r+12,a), [tx,ty]=pol(M.r+26,a);
+    s += `<line class="mtick" x1="${x0.toFixed(1)}" y1="${y0.toFixed(1)}" x2="${x1.toFixed(1)}" y2="${y1.toFixed(1)}"/>`;
+    s += `<text class="mlab" x="${tx.toFixed(1)}" y="${(ty+4).toFixed(1)}">${lab}</text>`;
+  });
+  s += `<g id="needle"><line x1="${M.cx}" y1="${M.cy}" x2="${M.cx}" y2="${M.cy-M.r+22}" stroke="#f4efe1" stroke-width="3" stroke-linecap="round"/></g>`;
+  s += `<circle cx="${M.cx}" cy="${M.cy}" r="7" fill="#f2c56b"/>`;
+  document.getElementById('meter').innerHTML = s;
+}
+function renderMeter(r){
+  const nd = document.getElementById('needle');
+  const big = document.getElementById('scorebig');
+  if(r.nm > 0){
+    nd.classList.remove('locked');
+    nd.style.transform = `rotate(${ang(r.nm)}deg)`;
+    big.classList.remove('locked');
+    big.textContent = (r.nm < M.lo ? "< " : "") + fmt(Math.max(r.nm, 0));
+  } else {
+    nd.classList.add('locked');
+    big.classList.add('locked');
+    big.textContent = "no ratio after the first descent yet";
+  }
+}
+
+/* ---------- medals & best ---------- */
+const MEDALS = [
+  [0.85, "Bronze ≥ 0.85"],
+  [0.93, "Silver ≥ 0.93"],
+  [0.96, "Gold ≥ 0.96"],
+  [1.0000001, "Valley = new mathematics"]
+];
+function renderMedals(){
+  const el = document.getElementById('medals');
+  el.innerHTML = MEDALS.map(([thr,lab])=>
+    `<span class="medal${(bestNm!==null && bestNm>=thr)?' won':''}">${lab}</span>`).join("");
+  document.getElementById('bestline').innerHTML =
+    (bestNm===null) ? "Personal best: <b>none yet</b>"
+    : `Personal best: nm <b>${fmt(bestNm)}</b>` + (bestG===null? "" : ` · gap G <b>${fmt(bestG,2)}</b>`);
+}
+function loadBest(){
+  try{
+    const v = parseFloat(localStorage.getItem('valley-hunt-best-nm'));
+    if(isFinite(v)) bestNm = v;
+    const g = parseFloat(localStorage.getItem('valley-hunt-best-g'));
+    if(isFinite(g)) bestG = g;
+  }catch(e){}
+  renderMedals();
+}
+function saveBest(){
+  try{
+    if(bestNm!==null) localStorage.setItem('valley-hunt-best-nm', String(bestNm));
+    if(bestG!==null) localStorage.setItem('valley-hunt-best-g', String(bestG));
+  }catch(e){}
+}
+
+/* ---------- challenges ---------- */
+const CH = [
+  {id:'c1', nm:'First dip', ds:'Build a tree whose sequence keeps going after its first descent (nm > 0).',
+    test:r=> r.nm > 0},
+  {id:'c2', nm:'Rolling hills', ds:'Push the near-miss ratio to nm ≥ 0.85. Random trees around 60 vertices get close.',
+    test:r=> r.nm >= 0.85},
+  {id:'c3', nm:'Foothills of the frontier', ds:'Reach nm ≥ 0.93. Hint: a bushy hub plus an arm or two – see the champion presets.',
+    test:r=> r.nm >= 0.93},
+  {id:'c4', nm:'Champion territory', ds:'Reach nm ≥ 0.96. The paper’s tuned configurations live here.',
+    test:r=> r.nm >= 0.96},
+  {id:'c5', nm:'Match the optimizer', ds:'Get the gap G = n(1 − nm) down to 4.25 or less. The paper’s champions sit at 4.16–4.25.',
+    test:r=> r.nm > 0 && lastN()*(1-r.nm) <= 4.25},
+  {id:'c6', nm:'The bluff', ds:'Find a valley using at most 29 vertices. Or… call our bluff.',
+    impossible:true,
+    reveal:'Correct – it can’t be done. All 8,691,747,673 trees on up to 29 vertices have been checked in exact arithmetic, and none has a valley. Any counterexample needs at least 30 vertices – and nobody knows how many more.'},
+  {id:'c7', nm:'The valley', ds:'Make the bars dip and rise again – anywhere, any size up to 220. This would disprove a 1987 Erdős conjecture.',
+    test:r=> r.valley}
+];
+function lastN(){ return tree.n; }
+function buildChals(){
+  const box = document.getElementById('chals');
+  box.innerHTML = "";
+  CH.forEach(ch=>{
+    const d = document.createElement('div');
+    d.className='chal';
+    d.innerHTML = `<div class="nm">${ch.nm} <span class="badge" id="b-${ch.id}">open</span></div>
+      <div class="ds">${ch.ds}</div>` +
+      (ch.impossible? `<button class="smallbtn" id="claim-${ch.id}">I claim it’s impossible</button><div class="reveal" id="rv-${ch.id}" hidden></div>`:"");
+    box.appendChild(d);
+    if(ch.impossible){
+      document.getElementById(`claim-${ch.id}`).addEventListener('click', ()=>{
+        cleared[ch.id]=true;
+        const rv=document.getElementById(`rv-${ch.id}`);
+        rv.hidden=false; rv.textContent=ch.reveal;
+        document.getElementById(`claim-${ch.id}`).disabled=true;
+        renderChals();
+      });
+    }
+  });
+}
+function renderChals(r){
+  CH.forEach(ch=>{
+    if(r && ch.test && ch.test(r)) cleared[ch.id]=true;
+    const b=document.getElementById(`b-${ch.id}`);
+    if(cleared[ch.id] && !b.classList.contains('done')){ b.classList.add('done'); b.textContent='cleared'; }
+  });
+}
+
+/* ---------- tabs ---------- */
+document.querySelectorAll('.tab').forEach(t=>{
+  t.addEventListener('click', ()=>{
+    document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+    document.querySelectorAll('.depth').forEach(x=>x.classList.remove('active'));
+    t.classList.add('active');
+    document.getElementById(t.dataset.depth).classList.add('active');
+  });
+});
+
+/* ---------- main update ---------- */
+function update(){
+  const poly = vhIndPoly(tree.n, tree.edges);
+  const r = vhAnalyze(poly);
+  lastRes = r; lastPoly = poly;
+  document.getElementById('s-n').textContent = String(tree.n);
+  document.getElementById('s-alpha').textContent = `${r.alpha} / ${r.mode}`;
+  document.getElementById('s-lc').textContent = r.lcFail===null? "yes" : `no (k=${r.lcFail})`;
+  const G = (r.nm>0)? tree.n*(1-r.nm) : null;
+  document.getElementById('s-gap').textContent = G===null? "–" : G.toFixed(2);
+  renderHist(poly, r);
+  renderMeter(r);
+  renderChals(r);
+  const banner = document.getElementById('valleybanner');
+  if(r.valley){
+    banner.classList.add('show');
+    banner.innerHTML = `A VALLEY. If this is a tree you built (not a display glitch), you may be holding a counterexample to Erdős problem #993. Click “Copy edge list”, re-verify with independent exact code, and contact the author via <a href="index.html" style="color:#fff">brettreynolds.ca</a>.`;
+  } else banner.classList.remove('show');
+  let changed = false;
+  if(r.nm > 0 && (bestNm===null || r.nm > bestNm + 1e-12)){ bestNm = r.nm; changed = true; }
+  if(G !== null && (bestG===null || G < bestG - 1e-12)){ bestG = G; changed = true; }
+  if(changed){ renderMedals(); saveBest(); }
+}
+
+/* ---------- init ---------- */
+buildMeter();
+buildChals();
+renderTree();
+update();
+renderMedals();
+loadBest();
+})();
+</script>
+</body>
+</html>

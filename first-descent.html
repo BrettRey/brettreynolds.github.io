@@ -105,6 +105,7 @@ input[type=range]{width:100%;accent-color:var(--brass)}
 .statrow{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0 6px}
 .stat{background:var(--felt3);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
 .stat .lab{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--chalk-dim)}
+.nt{text-transform:none}
 .stat .val{font-family:var(--mono);font-size:1.25rem;font-weight:600;color:var(--brass2)}
 #histwrap{background:var(--felt3);border:1px solid var(--line);border-radius:10px;padding:8px}
 #hist{width:100%;height:auto}
@@ -120,7 +121,7 @@ input[type=range]{width:100%;accent-color:var(--brass)}
 /* meter */
 .meterbox{text-align:center;padding-top:6px}
 #needle{transform-origin:160px 160px;transition:transform .7s cubic-bezier(.2,.9,.3,1.1)}
-#needle.locked{opacity:.3}
+#needle.locked{opacity:0}
 .score-big{font-family:var(--mono);font-size:2.1rem;font-weight:600;color:var(--brass2);margin-top:4px}
 .score-big.locked{color:var(--chalk-dim);font-size:1rem;font-weight:400}
 .score-cap{font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--chalk-dim);margin-bottom:14px}
@@ -307,14 +308,14 @@ footer p{max-width:720px}
           <div class="statrow">
             <div class="stat"><div class="lab">Spread V</div><div class="val" id="s-v">–</div></div>
             <div class="stat"><div class="lab">First descent D</div><div class="val" id="s-d">–</div></div>
-            <div class="stat"><div class="lab">Sharpness δ</div><div class="val" id="s-delta">–</div></div>
+            <div class="stat"><div class="lab">Sharpness <span class="nt">δ</span></div><div class="val" id="s-delta">–</div></div>
           </div>
         </div>
         <div class="panel meterbox" style="margin-top:20px">
           <h3 style="justify-content:center">Scoreboard</h3>
           <svg id="meter" viewBox="0 0 320 190" role="img" aria-label="Score gauge for V times delta"></svg>
           <div class="score-big" id="scorebig">–</div>
-          <div class="score-cap" id="scorecap">score = V × δ</div>
+          <div class="score-cap" id="scorecap">score = V × <span class="nt">δ</span></div>
           <div class="zonekey">
             <span><i class="sw" style="background:var(--red)"></i>&lt; ¼ impossible (proved)</span>
             <span><i class="sw" style="background:#b07a2a"></i>¼–⅓ unknown (open problem)</span>
@@ -677,7 +678,7 @@ function renderMeter(r){
     nd.style.transform = `rotate(${ang(r.score)}deg)`;
     big.classList.remove('locked');
     big.textContent = (r.score>M.hi? "> " : "") + fmt(Math.min(r.score, 9.9999));
-    cap.textContent = "score = V × δ";
+    cap.innerHTML = 'score = V × <span class="nt">δ</span>';
   } else {
     nd.classList.add('locked');
     nd.style.transform = `rotate(-90deg)`;

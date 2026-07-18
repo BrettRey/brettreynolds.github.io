@@ -35,6 +35,11 @@ const papers = [
     ],
     companionLinks: [
       {
+        label: "Interactive introduction",
+        file: "walkthrough.html",
+        description: "A ten-minute interactive tour of the paper's main ideas: try the paired contrasts, score a real pilot response, and test yourself against the LLM-judge results.",
+      },
+      {
         label: "Adjudication app",
         file: "judgment-protocol.html",
         description: "The same browser review app used for the 54-row local seed-pilot adjudication.",

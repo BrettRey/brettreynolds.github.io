@@ -220,6 +220,8 @@ The benchmark reports eight metrics. Each metric should be reported by phenomeno
 
 Any aggregate score encodes choices that the per-family cells keep visible. Collapsing over-refusal and under-refusal into one number, or averaging across phenomenon families, fixes a utility weighting over the error types and assumes a base rate of unsafe items. Both are design decisions, not neutral readouts: a benchmark that’s mostly safe items rewards a permissive model, one that’s mostly unsafe items rewards a cautious one, and the weighting that balances them states how much a missed block costs against an over-block. We report the cells first so a reader can supply the utility and base rate that match their deployment rather than inherit ours.
 
+Aggregation can also conceal instability before any deployment utility is chosen. In question-answering experiments, Zhang et al. (2026) find that task-content-irrelevant context produces item-level improvements and degradations that largely cancel in mean accuracy while leaving a substantially degraded worst-affected tail. Where repeated paired conditions are available, aggregate performance should be accompanied by item- or family-level transitions and harmful-tail summaries. Their contexts are irrelevant to answer evidence, not necessarily pragmatically inert: adding a message changes discourse state, source position, and contextual load. Generic contextual instability supplies a control condition rather than independent evidence of an authority-recognition failure.
+
 ## Pairwise contrast accuracy
 
 For a properly controlled pair, both variants have to receive the expected label for the pair to count as correct. It’s stricter than item accuracy: a model that always outputs *BLUE*, always refuses, or always ignores untrusted content will fail pairs where the expected behaviour changes across variants. The present seed-pilot statistic is reported more narrowly as a paired-contrast pass: it applies the joint success-and-compliance rule to broader development contrasts without claiming that they isolate one causal dimension.
@@ -256,7 +258,7 @@ Together, these measures test label projectibility. A category that’s stable a
 
 # Limitations and Next Steps
 
-The local seed pilot validates the measurement pipeline rather than the benchmark’s final psychometric properties. It uses 18 hand-authored seed items, three local models, harmless toy payloads, and one expert adjudicator, the author, labelling items he wrote from expected-behaviour fields he also wrote. The judge pass shares this circularity: the judge model was drawn from the evaluated set and saw each item’s expected-behaviour field. The results support claims about pipeline feasibility, contrastive measurement, and judge-validation needs. They don’t establish frontier-model safety differences or final benchmark labels.
+The local seed pilot validates the measurement pipeline rather than the benchmark’s final psychometric properties. It uses 18 hand-authored seed items, three local models, harmless toy payloads, and one expert adjudicator, the author, labelling items he wrote from expected-behaviour fields he also wrote. The judge pass shares this circularity: the judge model was drawn from the evaluated set and saw each item’s expected-behaviour field. Study A likewise evaluates one realized output for each fixed prompt–model cell; it doesn’t estimate generation-level instability across repeated samples or added non-evidential context. The results support claims about pipeline feasibility, contrastive measurement, and judge-validation needs. They don’t establish frontier-model safety differences, contextual robustness, or final benchmark labels.
 
 The next empirical pass should run a 50–100 item development set against several public or accessible models. Compare three grading routes: expert human evaluation, LLM-as-judge annotation, and rule-aided scoring from item metadata. The design should cross item, phenomenon family, model, application surface, rubric criterion, and judge prompt.
 
@@ -452,6 +454,12 @@ Zeng, Zhiyuan, Jiatong Yu, Tianyu Gao, Yu Meng, Tanya Goyal, and Danqi Chen. 202
 
 </div>
 
+<div id="ref-zhang2026illusionRobustness" class="csl-entry">
+
+Zhang, Yanzhe, Sanmi Koyejo, and Diyi Yang. 2026. “The Illusion of Robustness: Aggregate Accuracy Hides Prediction Flips Under Task-Irrelevant Context.” <https://arxiv.org/abs/2607.12963>.
+
+</div>
+
 <div id="ref-zheng2023judging" class="csl-entry">
 
 Zheng, Lianmin, Wei-Lin Chiang, Ying Sheng, et al. 2023. “Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena.” *Advances in Neural Information Processing Systems 36*. <https://doi.org/10.48550/arXiv.2306.05685>.
@@ -472,4 +480,4 @@ Zverev, Egor, Sahar Abdelnabi, Soroush Tabesh, Mario Fritz, and Christoph H. Lam
 
 </div>
 
-[^1]: Contact: <brett.reynolds@humber.ca>
+[^1]: I used OpenAI Codex and Anthropic Claude extensively in drafting and revising the paper. I reviewed, edited, and approved all the material and take full responsibility for the final text and conclusions. <brett.reynolds@humber.ca>

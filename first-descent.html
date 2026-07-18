@@ -358,16 +358,16 @@ footer p{max-width:720px}
     <div class="depth" id="d2">
       <div class="paper">
         <h3>The theorem, with a little algebra</h3>
-        <p>Let <span class="frm">W = B₁ + … + Bₙ</span> be a sum of independent coin flips, <span class="frm">Bᵢ ∼ Bernoulli(pᵢ)</span>, with probabilities <span class="frm">f_k = P(W = k)</span> and variance <span class="frm">V = Σ pᵢ(1−pᵢ)</span>. This is called a <em>Poisson–binomial</em> distribution.</p>
-        <p>A classical fact: the sequence <span class="frm">(f_k)</span> is <strong>log-concave</strong> – <span class="frm">f_k² ≥ f_{k−1} f_{k+1}</span> for every k. Equivalently, the consecutive ratios <span class="frm">q_k = f_k / f_{k−1}</span> only ever decrease. That is exactly why the histogram is a single hill.</p>
-        <p>The <strong>first descent</strong> is <span class="frm">D = min{k : f_k &lt; f_{k−1}}</span>, the first index where the bars turn downward (the peak sits at D − 1). The <strong>normalized Turán deficit</strong> there is</p>
-        <div class="bigfrm">δ_D = 1 − f_{D−1} f_{D+1} / f_D²</div>
-        <p>Log-concavity says δ_D ≥ 0 – the classic Turán-type inequality, named for the same pattern Pál Turán found in Legendre polynomials. The new theorem upgrades “≥ 0” to a quantitative statement scaled by the variance:</p>
-        <div class="bigfrm">V ( 1 − f_{D−1} f_{D+1} / f_D² ) ≥ ¼ &nbsp;&nbsp;whenever V ≥ 1</div>
-        <p>Two immediate consequences. First, the same bound holds for the plain ratio drop: <span class="frm">V(1 − f_{D+1}/f_D) ≥ ¼</span>. Second, since ratios only decrease, the bars past the peak decay at least geometrically:</p>
-        <div class="bigfrm">f_{D+r} / f_D ≤ e^{−r/(4V)}</div>
+        <p>Let <span class="frm">W = B₁ + … + Bₙ</span> be a sum of independent coin flips, <span class="frm">Bᵢ ∼ Bernoulli(pᵢ)</span>, with probabilities <span class="frm">f<sub>k</sub> = P(W = k)</span> and variance <span class="frm">V = Σ pᵢ(1−pᵢ)</span>. This is called a <em>Poisson–binomial</em> distribution.</p>
+        <p>A classical fact: the sequence <span class="frm">(f<sub>k</sub>)</span> is <strong>log-concave</strong> – <span class="frm">f<sub>k</sub>² ≥ f<sub>k−1</sub> f<sub>k+1</sub></span> for every k. Equivalently, the consecutive ratios <span class="frm">q<sub>k</sub> = f<sub>k</sub> / f<sub>k−1</sub></span> only ever decrease. That is exactly why the histogram is a single hill.</p>
+        <p>The <strong>first descent</strong> is <span class="frm">D = min{k : f<sub>k</sub> &lt; f<sub>k−1</sub>}</span>, the first index where the bars turn downward (the peak sits at D − 1). The <strong>normalized Turán deficit</strong> there is</p>
+        <div class="bigfrm">δ<sub>D</sub> = 1 − f<sub>D−1</sub> f<sub>D+1</sub> / f<sub>D</sub>²</div>
+        <p>Log-concavity says δ<sub>D</sub> ≥ 0 – the classic Turán-type inequality, named for the same pattern Pál Turán found in Legendre polynomials. The new theorem upgrades “≥ 0” to a quantitative statement scaled by the variance:</p>
+        <div class="bigfrm">V ( 1 − f<sub>D−1</sub> f<sub>D+1</sub> / f<sub>D</sub>² ) ≥ ¼ &nbsp;&nbsp;whenever V ≥ 1</div>
+        <p>Two immediate consequences. First, the same bound holds for the plain ratio drop: <span class="frm">V(1 − f<sub>D+1</sub>/f<sub>D</sub>) ≥ ¼</span>. Second, since ratios only decrease, the bars past the peak decay at least geometrically:</p>
+        <div class="bigfrm">f<sub>D+r</sub> / f<sub>D</sub> ≤ e<sup>−r/(4V)</sup></div>
         <p>That is a tail bound you can read off three bars and the variance – no knowledge of the individual pᵢ required.</p>
-        <div class="note"><strong>How tight is ¼?</strong> Take a binomial with n coins, all with the same p chosen so the variance is exactly 1. For n ≥ 5 its first descent is at D = 2 and <span class="frm">V·δ_D = (n+1) / (3(n−1))</span>, which slides down to ⅓ as n grows. So the best universal constant lies in the interval <span class="frm">[¼, ⅓]</span> – and the paper deliberately makes no conjecture about where.</div>
+        <div class="note"><strong>How tight is ¼?</strong> Take a binomial with n coins, all with the same p chosen so the variance is exactly 1. For n ≥ 5 its first descent is at D = 2 and <span class="frm">V·δ<sub>D</sub> = (n+1) / (3(n−1))</span>, which slides down to ⅓ as n grows. So the best universal constant lies in the interval <span class="frm">[¼, ⅓]</span> – and the paper deliberately makes no conjecture about where.</div>
         <div class="note"><strong>Why isn’t this classical?</strong> The standard strengthened log-concavity bound for these distributions, ULC(n), scales with the <em>number of coins</em>, not the variance. Split the coins into many nearly-deterministic ones and that bound goes to zero even while V stays fixed at 1. Earlier quantitative results controlled where the peak is (Darroch), how big one bar can be (Baillon–Cominetti–Vaisman; Bobkov–Marsiglietti–Melbourne), or ratio decay (Pitman; Dümbgen–Wellner) – none of them pins the deficit at the first descent to the variance.</div>
       </div>
     </div>
@@ -376,8 +376,8 @@ footer p{max-width:720px}
       <div class="paper">
         <h3>The whole story, compressed</h3>
         <p>The proof is a squeeze between two forces, finished off by exact computer algebra. Suppose, for contradiction, that the deficit δ at the first descent is small – smaller than 1/(4V). The strategy is to show the hill would then have to be simultaneously <em>too heavy</em> and <em>not heavy enough</em>.</p>
-        <p><strong>Smallness spreads.</strong> Cubic inequalities of Hillion and Johnson yield a recurrence between neighbouring deficits, <span class="frm">δ_{k±1}(1 − δ_k) ≤ δ_k</span>. Iterating it: if δ is small at the descent, the deficits stay small for about 1/δ steps in both directions. Small deficits mean the bar ratios barely change – so the bars near the peak are all forced to be a sizeable fraction of the peak mass p. The proof extracts explicit lower bounds L_r and R_r on <span class="frm">f_{c∓r}/p</span> around the peak c = D − 1.</p>
-        <p><strong>Heavy and wide means high variance.</strong> The pairwise identity <span class="frm">V = ½ Σᵢⱼ fᵢ fⱼ (i−j)²</span> converts those mass bounds into <span class="frm">V ≥ p² A(δ)</span>, where A(δ) collects the bounded terms. Meanwhile a lattice maximal-mass bound of Bobkov, Marsiglietti, and Melbourne runs the other way: <span class="frm">V ≥ (p⁻² − 1)/12</span>. A low peak already forces a large variance, so at any given variance the peak has a floor: <span class="frm">p ≥ (1 + 12V)^{−1/2}</span>.</p>
+        <p><strong>Smallness spreads.</strong> Cubic inequalities of Hillion and Johnson yield a recurrence between neighbouring deficits, <span class="frm">δ<sub>k±1</sub>(1 − δ<sub>k</sub>) ≤ δ<sub>k</sub></span>. Iterating it: if δ is small at the descent, the deficits stay small for about 1/δ steps in both directions. Small deficits mean the bar ratios barely change – so the bars near the peak are all forced to be a sizeable fraction of the peak mass p. The proof extracts explicit lower bounds L<sub>r</sub> and R<sub>r</sub> on <span class="frm">f<sub>c∓r</sub>/p</span> around the peak c = D − 1.</p>
+        <p><strong>Heavy and wide means high variance.</strong> The pairwise identity <span class="frm">V = ½ Σᵢⱼ fᵢ fⱼ (i−j)²</span> converts those mass bounds into <span class="frm">V ≥ p² A(δ)</span>, where A(δ) collects the bounded terms. Meanwhile a lattice maximal-mass bound of Bobkov, Marsiglietti, and Melbourne runs the other way: <span class="frm">V ≥ (p⁻² − 1)/12</span>. A low peak already forces a large variance, so at any given variance the peak has a floor: <span class="frm">p ≥ (1 + 12V)<sup>−1/2</sup></span>.</p>
         <p><strong>The squeeze.</strong> Feeding the peak-mass lower bound into the variance lower bound eliminates p entirely and reduces the whole theorem to a single inequality about one number:</p>
         <div class="bigfrm">A(δ) ≥ (3 + δ) / (4δ²) &nbsp;for 0 &lt; δ &lt; ¼</div>
         <p><strong>Certificates, not simulations.</strong> Substituting H = 1/δ − 1 splits the problem in two. For H ≥ 16 a uniform symbolic argument works: after clean substitutions, every relevant polynomial has visibly positive coefficients. For the compact window 3 &lt; H ≤ 16, the inequality is proved cell by cell – thirteen cells, each reduced to an exact integer polynomial whose <em>Bernstein expansion</em> has strictly positive rational coefficients: 275 positive numbers in total. Because Bernstein basis functions are nonnegative, positive coefficients certify positivity of the polynomial. Everything is exact rational arithmetic – no floating point anywhere in the proof – and the certificates are replayed by an independently written checker program. Parts of the argument are additionally formalized in the Lean proof assistant, conditionally on the Hillion–Johnson recurrence.</p>
@@ -403,7 +403,7 @@ footer p{max-width:720px}
       </div></div>
       <div class="station"><div class="num" aria-hidden="true"></div><div>
         <h3>Gentleness is contagious</h3>
-        <p>A recurrence between neighbouring deficits, <span class="frm">δ_{k±1}(1 − δ_k) ≤ δ_k</span>, means a gentle cliff forces gentle slopes for about 1/δ bars on either side. All those bars must stay close to peak height.</p>
+        <p>A recurrence between neighbouring deficits, <span class="frm">δ<sub>k±1</sub>(1 − δ<sub>k</sub>) ≤ δ<sub>k</sub></span>, means a gentle cliff forces gentle slopes for about 1/δ bars on either side. All those bars must stay close to peak height.</p>
       </div></div>
       <div class="station"><div class="num" aria-hidden="true"></div><div>
         <h3>A broad heavy top inflates the spread</h3>
@@ -411,7 +411,7 @@ footer p{max-width:720px}
       </div></div>
       <div class="station"><div class="num" aria-hidden="true"></div><div>
         <h3>But the peak can’t be too low</h3>
-        <p>A known maximal-mass bound pushes the other way: on the integers, variance V forces peak mass at least <span class="frm">(1 + 12V)^{−1/2}</span>. The two forces squeeze everything down to one inequality in δ alone.</p>
+        <p>A known maximal-mass bound pushes the other way: on the integers, variance V forces peak mass at least <span class="frm">(1 + 12V)<sup>−1/2</sup></span>. The two forces squeeze everything down to one inequality in δ alone.</p>
       </div></div>
       <div class="station"><div class="num" aria-hidden="true"></div><div>
         <h3>Certify the last inequality exactly</h3>
@@ -452,7 +452,7 @@ footer p{max-width:720px}
       <div class="paper">
         <div class="eyebrow">What it buys you</div>
         <h3>Local reading, global guarantee</h3>
-        <p>Measure just three bars at the top of the hill plus the overall spread, and the theorem hands you a certified tail bound: every later bar shrinks at least like <span class="frm">e^{−r/(4V)}</span>. Local data licenses a global inference – with the exact exchange rate stated.</p>
+        <p>Measure just three bars at the top of the hill plus the overall spread, and the theorem hands you a certified tail bound: every later bar shrinks at least like <span class="frm">e<sup>−r/(4V)</sup></span>. Local data licenses a global inference – with the exact exchange rate stated.</p>
       </div>
       <div class="paper">
         <div class="eyebrow">Where these hills live</div>
@@ -462,7 +462,7 @@ footer p{max-width:720px}
       <div class="paper">
         <div class="eyebrow">Why “Turán”</div>
         <h3>An old pattern, a new scale</h3>
-        <p>Inequalities of the shape <span class="frm">x_k² ≥ x_{k−1}x_{k+1}</span> are named for Pál Turán, who found them in Legendre polynomials in the 1940s. The novelty here is not the pattern but the calibration: the gap in the inequality, at the one index where the hill turns, measured against the variance – with a universal constant.</p>
+        <p>Inequalities of the shape <span class="frm">x<sub>k</sub>² ≥ x<sub>k−1</sub>x<sub>k+1</sub></span> are named for Pál Turán, who found them in Legendre polynomials in the 1940s. The novelty here is not the pattern but the calibration: the gap in the inequality, at the one index where the hill turns, measured against the variance – with a universal constant.</p>
       </div>
     </div>
   </div>
@@ -488,13 +488,13 @@ footer p{max-width:720px}
         <dt>First descent (D)</dt>
         <dd>The first bar shorter than its predecessor. Because the hill has one peak, D − 1 is the (rightmost) tallest bar.</dd>
         <dt>Log-concave</dt>
-        <dd>f_k² ≥ f_{k−1}f_{k+1} for all k: each bar is at least the geometric mean of its neighbours. Guarantees the single-hill shape.</dd>
+        <dd>f<sub>k</sub>² ≥ f<sub>k−1</sub>f<sub>k+1</sub> for all k: each bar is at least the geometric mean of its neighbours. Guarantees the single-hill shape.</dd>
         <dt>Normalized Turán deficit (the “sharpness”, δ)</dt>
-        <dd>δ_k = 1 − f_{k−1}f_{k+1}/f_k², the fractional slack in the log-concavity inequality. At the first descent it measures how much the bar-to-bar shrinking accelerates: 0 = not at all, 1 = next bar is the last.</dd>
+        <dd>δ<sub>k</sub> = 1 − f<sub>k−1</sub>f<sub>k+1</sub>/f<sub>k</sub>², the fractional slack in the log-concavity inequality. At the first descent it measures how much the bar-to-bar shrinking accelerates: 0 = not at all, 1 = next bar is the last.</dd>
         <dt>Bernstein certificate</dt>
         <dd>A way to prove a polynomial stays positive on an interval: rewrite it in the Bernstein basis, whose building blocks are never negative; if all coefficients are positive, so is the polynomial. Positivity becomes a finite list of exact numbers a computer can check.</dd>
         <dt>c★</dt>
-        <dd>The true optimal constant: the infimum of V·δ_D over all coin collections with V ≥ 1. Known to lie in [¼, ⅓]; exact value open.</dd>
+        <dd>The true optimal constant: the infimum of V·δ<sub>D</sub> over all coin collections with V ≥ 1. Known to lie in [¼, ⅓]; exact value open.</dd>
       </dl>
     </div>
   </div>

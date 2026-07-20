@@ -150,6 +150,9 @@ sub,sup{font-size:.68em}
 .openband{background:var(--felt3);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .numline{margin:26px 0 8px}
 .openband .caption{font-family:var(--mono);font-size:.78rem;color:var(--chalk-dim);text-align:center}
+.wsfig{margin:14px 0 16px}
+.wsfig svg{width:100%;height:auto;background:#ece5d1;border-radius:10px;padding:6px}
+.wsfig figcaption{font-size:.85rem;color:#4b4433;margin-top:8px}
 .ficonrow{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
 .ficon{background:var(--chalk);border-radius:10px;padding:6px 8px 2px;width:138px}
 .ficon svg{width:100%;height:auto}
@@ -263,6 +266,7 @@ footer p{max-width:720px}
           <button class="smallbtn" id="addleaf5">+ 5 leaves</button>
           <button class="smallbtn" id="addchain">+ Chain ×3</button>
           <button class="smallbtn" id="delleaf">− Delete leaf</button>
+          <button class="smallbtn" id="undo" disabled>↺ Undo</button>
           <span class="hint" id="ncount"></span>
         </div>
         <div class="presetrow">
@@ -355,6 +359,7 @@ footer p{max-width:720px}
         <p>The companion paper attacks the conjecture on three fronts; none closes it, and the paper says so plainly.</p>
         <p><strong>Front one: push the mean below the danger zone.</strong> For a class of reduced trees (those with at most one "private leaf" per support vertex), a decimation identity plus Steiner peeling on a compensation function proves the mean independent-set size satisfies <span class="frm">μ(T) &lt; n/3</span>. If tree independence sequences also satisfied the mode–mean localization <span class="frm">mode ≤ ⌈μ⌉</span>, this would control where the peak sits for that whole class. That localization is exactly what Darroch proved in 1964 for Poisson–binomial distributions – the bridge to this page's sibling, <a href="first-descent.html">The First Descent</a> – but for trees it remains a conjecture, verified for all 931,596 reduced trees on up to 23 vertices and for the log-concavity-breaking trees individually.</p>
         <p><strong>Front two: squeeze the shape of a minimal counterexample.</strong> A subdivision–contraction identity shows – conditional on a conjectured Edge Contraction Mode Stability property and a tail condition verified through n ≤ 19 – that a minimal counterexample would have to be homeomorphically irreducible: no vertex of degree 2 anywhere. Conditional, and labelled as such in the paper's dependency map.</p>
+        <figure class="wsfig"><svg viewBox="0 0 620 210" aria-label="Left: a tree with degree-two vertices marked in red. Right: the same tree after smoothing them away, leaving only branch vertices and leaves."><line x1="128.0" y1="105.0" x2="128.0" y2="75.0" stroke="#9a6d1e" stroke-width="1.4"/><line x1="128.0" y1="75.0" x2="128.0" y2="45.0" stroke="#9a6d1e" stroke-width="1.4"/><line x1="128.0" y1="45.0" x2="128.0" y2="15.0" stroke="#9a6d1e" stroke-width="1.4"/><line x1="128.0" y1="105.0" x2="154.0" y2="120.0" stroke="#9a6d1e" stroke-width="1.4"/><line x1="154.0" y1="120.0" x2="180.0" y2="135.0" stroke="#9a6d1e" stroke-width="1.4"/><line x1="180.0" y1="135.0" x2="205.9" y2="150.0" stroke="#9a6d1e" stroke-width="1.4"/><line x1="128.0" y1="105.0" x2="102.0" y2="120.0" stroke="#9a6d1e" stroke-width="1.4"/><line x1="102.0" y1="120.0" x2="76.0" y2="135.0" stroke="#9a6d1e" stroke-width="1.4"/><circle cx="128.0" cy="75.0" r="5" fill="#c8524a"/><circle cx="128.0" cy="45.0" r="5" fill="#c8524a"/><circle cx="154.0" cy="120.0" r="5" fill="#c8524a"/><circle cx="180.0" cy="135.0" r="5" fill="#c8524a"/><circle cx="102.0" cy="120.0" r="5" fill="#c8524a"/><circle cx="128.0" cy="15.0" r="5" fill="#6b4f1d"/><circle cx="205.9" cy="150.0" r="5" fill="#6b4f1d"/><circle cx="76.0" cy="135.0" r="5" fill="#6b4f1d"/><circle cx="128.0" cy="105.0" r="6" fill="#d9a441" stroke="#20291f" stroke-width="1.5"/><text x="128" y="196" font-family="monospace" font-size="10.5" fill="#4b4433" text-anchor="middle">has degree-2 vertices (red)</text><line x1="268" y1="105" x2="330" y2="105" stroke="#9a6d1e" stroke-width="1.6"/><path d="M330 105 l-9 -4.5 l0 9 z" fill="#9a6d1e"/><text x="299" y="94" font-family="monospace" font-size="10" fill="#4b4433" text-anchor="middle">smooth</text><line x1="470.0" y1="105.0" x2="470.0" y2="43.0" stroke="#9a6d1e" stroke-width="1.4"/><line x1="470.0" y1="105.0" x2="523.7" y2="136.0" stroke="#9a6d1e" stroke-width="1.4"/><line x1="470.0" y1="105.0" x2="416.3" y2="136.0" stroke="#9a6d1e" stroke-width="1.4"/><circle cx="470.0" cy="43.0" r="5" fill="#6b4f1d"/><circle cx="523.7" cy="136.0" r="5" fill="#6b4f1d"/><circle cx="416.3" cy="136.0" r="5" fill="#6b4f1d"/><circle cx="470.0" cy="105.0" r="6" fill="#d9a441" stroke="#20291f" stroke-width="1.5"/><text x="470" y="196" font-family="monospace" font-size="10.5" fill="#4b4433" text-anchor="middle">homeomorphically irreducible</text></svg><figcaption>Smoothing: erase a degree-2 vertex and splice its two edges into one. Both trees above are the same shape stretched differently (homeomorphic, in the topologist’s sense). The reduction says the <em>first</em> tree to break unimodality could not have any red vertices left: every subdivided limb could be shortened without destroying the counterexample, so the smallest counterexample has none. That excludes most of the shapes people naturally draw, including every path and every spider with long legs.</figcaption></figure>
         <p><strong>Front three: brute force and extremal reconnaissance.</strong> Exhaustive verification of all 8,691,747,673 trees on n ≤ 29 (the larger orders sharded across 1024 cloud workers), with log-concavity and near-miss audits through n = 28. An evolutionary optimizer over tree space (leaf relocation, prune-and-regraft, pendant concentration) converged on multi-arm stars as the near-miss champions, and a leaf-attachment theorem explains their approach rate 1 − C/s, 4 ≤ C ≤ 8. The valley, if it exists, lives somewhere none of this reaches: bigger than 29 vertices, outside every proved-safe family, and past the frontier every tested family obeys.</p>
         <div class="note"><strong>Disclosure, from the paper itself:</strong> AI systems (Claude, ChatGPT and Codex, Gemini) assisted with computational exploration, code, proof strategy, and drafting; the author reviewed all machine-generated material and takes responsibility for all claims. The exhaustive runs and audits ship with reproduction scripts in the public repository.</div>
         <p style="margin-bottom:0"><em>Reference:</em> Brett Reynolds, “Mean bounds, structural reductions, and exhaustive verification for tree independence polynomial unimodality” (2026), <a href="https://doi.org/10.5281/zenodo.19100781" target="_blank" rel="noopener noreferrer">doi:10.5281/zenodo.19100781</a>.</p>
@@ -679,15 +684,39 @@ tv.addEventListener('click', (ev)=>{
 
 /* ---------- edit ops ---------- */
 function afterEdit(){ renderTree(); update(); }
+const undoBtn = document.getElementById('undo');
+const history = [];
+function snapshot(){
+  history.push({n:tree.n, edges:tree.edges.map(e=>e.slice()), sel});
+  if(history.length > 200) history.shift();
+  undoBtn.disabled = false;
+}
+function undo(){
+  if(!history.length) return;
+  const h = history.pop();
+  tree = {n:h.n, edges:h.edges.map(e=>e.slice())};
+  sel = Math.min(h.sel, tree.n - 1);
+  undoBtn.disabled = history.length === 0;
+  afterEdit();
+}
+undoBtn.addEventListener('click', undo);
+document.addEventListener('keydown', e=>{
+  if((e.metaKey || e.ctrlKey) && !e.shiftKey && e.key === 'z'){ e.preventDefault(); undo(); }
+});
 document.getElementById('addleaf').addEventListener('click', ()=>{
   if(tree.n >= NMAX) return;
+  snapshot();
   tree.edges.push([sel, tree.n]); tree.n++; afterEdit();
 });
 document.getElementById('addleaf5').addEventListener('click', ()=>{
+  if(tree.n >= NMAX) return;
+  snapshot();
   for(let i=0;i<5;i++){ if(tree.n >= NMAX) break; tree.edges.push([sel, tree.n]); tree.n++; }
   afterEdit();
 });
 document.getElementById('addchain').addEventListener('click', ()=>{
+  if(tree.n >= NMAX) return;
+  snapshot();
   let prev = sel;
   for(let i=0;i<3;i++){ if(tree.n >= NMAX) break; tree.edges.push([prev, tree.n]); prev = tree.n; tree.n++; }
   afterEdit();
@@ -695,6 +724,7 @@ document.getElementById('addchain').addEventListener('click', ()=>{
 document.getElementById('delleaf').addEventListener('click', ()=>{
   const adj = vhBuildAdj(tree.n, tree.edges);
   if(adj[sel].length !== 1 || tree.n <= 2) return;
+  snapshot();
   const removed = sel, last = tree.n - 1;
   tree.edges = tree.edges.filter(([u,v])=> u!==removed && v!==removed);
   /* relabel last vertex to fill the hole */
@@ -704,7 +734,7 @@ document.getElementById('delleaf').addEventListener('click', ()=>{
 });
 
 /* presets */
-function setTree(t){ tree = {n:t.n, edges:t.edges.map(e=>e.slice())}; sel = 0; afterEdit(); }
+function setTree(t){ snapshot(); tree = {n:t.n, edges:t.edges.map(e=>e.slice())}; sel = 0; afterEdit(); }
 let seed = 993;
 const rnd = ()=>{ seed = (seed*1103515245 + 12345) % 2147483648; return seed/2147483648; };
 document.getElementById('p-path').addEventListener('click', ()=> setTree(vhPath(60)));
@@ -728,7 +758,7 @@ document.getElementById('export').addEventListener('click', ()=>{
 /* ---------- sequence chart ---------- */
 const histEl = document.getElementById('hist');
 function renderHist(poly, r){
-  const W=640,H=330,padL=36,padR=12,padT=30,padB=96;
+  const W=640,H=330,padL=36,padR=12,padT=30,padB=104;
   const m = r.alpha;
   const vals = poly.map(Number);
   const maxf = Math.max(...vals);
@@ -744,7 +774,7 @@ function renderHist(poly, r){
   s += `<circle class="crown" cx="${cxp.toFixed(1)}" cy="${Math.max(y0 - plotH - 8, 8).toFixed(1)}" r="0"></circle>`;
   s += `<circle class="crown" cx="${cxp.toFixed(1)}" cy="${(y0 - plotH*vals[r.mode]/maxf - 8).toFixed(1)}" r="3.2"></circle>`;
   /* ratio strip: r_k = i_{k+1}/i_k, clamped to [0, 1.25] */
-  const ry0 = H-14, stripH = 56, ry1 = ry0 - stripH;
+  const ry0 = H-14, stripH = 50, ry1 = ry0 - stripH;
   const rmax = 1.25;
   s += `<line class="axis" x1="${padL-4}" y1="${ry0}" x2="${W-padR}" y2="${ry0}"/>`;
   const oneY = ry0 - stripH*(1/rmax);
@@ -756,11 +786,11 @@ function renderHist(poly, r){
     const up = (r.D !== null && k >= r.D && vals[k+1] > vals[k]);
     s += `<circle class="rdot${up?' up':''}" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="2.4"></circle>`;
   }
-  s += `<text class="klab" x="${padL+2}" y="${(ry1-4).toFixed(1)}" text-anchor="start">step ratios i&#8342;&#8330;&#8321;/i&#8342;</text>`;
+  s += `<text class="klab" x="${padL+2}" y="${(ry0-5).toFixed(1)}" text-anchor="start">step ratios i<tspan dy="3" font-size="8">k+1</tspan><tspan dy="-3">/i</tspan><tspan dy="3" font-size="8">k</tspan></text>`;
   const step = Math.max(1, Math.ceil((m+1)/13));
   for(let k=0;k<=m;k+=step)
     s += `<text class="klab" x="${(padL+k*bw+bw/2).toFixed(1)}" y="${y0+14}">${k}</text>`;
-  s += `<text class="klab" x="${W-padR-16}" y="${y0+26}">size k</text>`;
+  s += `<text class="klab" x="${((padL+W-padR)/2).toFixed(1)}" y="${y0+27}">size k</text>`;
   histEl.innerHTML = s;
 }
 

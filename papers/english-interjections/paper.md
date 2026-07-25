@@ -124,6 +124,12 @@ The projective claim should be level-specific. A novel non-propositional stance 
 
 These properties co-occur statistically, not necessarily. The literature’s own definitions hedge, and the hedges are the point. Wilkins (1992, 124) defines an interjection as “a conventional lexical form which (commonly and) conventionally constitutes an utterance on its own, (typically) does not enter into construction with other word classes, is (usually) monomorphemic, and (generally) does not host inflectional or derivational morphemes”. Four criteria, a parenthetical hedge on each, and Gehweiler (2008, 73) adopts the definition while calling those criteria the class’s “obligatory properties”. No single property is necessary and sufficient.
 
+One dissent belongs here, because it’s the strongest case against that last sentence. Libert (2012, 282) proposes exactly one criterion: interjections have a conversational valence of 1, meaning they can be used felicitously with no addressee present, where *goodbye* requires one and so has a valence of 2. If you stub your toe you can say *ouch!* alone. On this account interjections are “a homogeneous word class, clearly delimited by a sole criterion” (Libert 2012, 294).
+
+The criterion does work, and it’s worth seeing what it costs. Libert reaches it by redefinition: interjections “as I have redefined them, have only one function (as ‘expressions of feeling’); the function of ‘marks of address’ is undertaken by another class” (Libert 2012, 294). The addressing uses are moved out of the category rather than shown to satisfy the criterion, and they take a good deal with them: *hey*, *shh*, and *psst*, and also the continuers, repair initiators, and response tokens of Section <a href="#sec:pragmatics" data-reference-type="ref" data-reference="sec:pragmatics">2.5</a>, all of which need someone to be there. A single property is necessary and sufficient for what’s left.
+
+I take that as support for the decomposition proposed below rather than as a counterexample to co-occurrence. Libert’s line between expressions of feeling and marks of address falls close to the line this paper draws between <span class="smallcaps">interjection<sub>sem</sub></span> and <span class="smallcaps">interjection<sub>int</sub></span>, and he credits Ameka (1992, 109) with the same intuition while objecting, fairly, that Ameka’s gloss of conative interjections as “directed at” but not “addressed to” people is obscure. So the disagreement isn’t about the facts. It’s about what to do with them: Libert narrows the category until one criterion suffices, and I keep the wider class and let the properties co-occur without any one of them being definitional.
+
 The pattern calls for explanation. Network order couples the properties: prosodic isolation reinforces syntactic non-integration, non-referentiality removes the need for argument structure, and pragmatic conventionalization entrenches the emotive function.
 
 The coupling is visible when it breaks. *Damn* as an interjection (*Damn!*) has the full cluster: prosodic isolation, syntactic non-integration, non-referentiality, and emotive force. Prenominal *damn* in *the damn car* retains emotive force but loses prosodic-syntactic independence because it’s embedded inside an noun phrase (cf. Potts 2007). When that link is neutralized, the properties erode together. A bare property list can’t explain this pattern; a process-linked cluster explains it.
@@ -832,6 +838,12 @@ Leech, Geoffrey. 2006. *Glossary of English Grammar*. Edinburgh University Press
 <div id="ref-libert2019" class="csl-entry">
 
 Libert, Alan. 2019. “Interjections.” In *Oxford Bibliographies in Linguistics*. Oxford University Press. <https://doi.org/10.1093/obo/9780199772810-0230>.
+
+</div>
+
+<div id="ref-libert2012" class="csl-entry">
+
+Libert, Alan Reed. 2012. “On Conversational Valence and the Definition of Interjections.” In *Proceedings of the 42nd Australian Linguistic Society Conference, 2011*, edited by M. Ponsonnet, L. Dao, and M. Bowler. Australian Linguistic Society. <http://hdl.handle.net/1885/9418>.
 
 </div>
 

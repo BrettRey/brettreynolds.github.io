@@ -1,5 +1,5 @@
 ---
-title: "What English interjections let us predict: Stable causal-pragmatic clustering and path dependence"
+title: "Interjection as a lexical category: What membership lets us predict"
 author: "Brett Reynolds"
 year: "2026"
 status: "Preprint"
@@ -10,7 +10,7 @@ version: "author-manuscript mirror"
 version_date: "2026-07-24"
 keywords: ["interjections", "theoretical pragmatics", "projectibility", "path dependence"]
 ---
-# What English interjections let us predict: Stable causal-pragmatic clustering and path dependence
+# Interjection as a lexical category: What membership lets us predict
 
 **Author-manuscript mirror.** This Markdown file is provided for accessibility, search, and machine readability. The canonical public record is linked in the metadata above.
 
@@ -104,7 +104,13 @@ Supplement function predicts prosodic isolation and resistance to syntactic inte
 
 English interjections characteristically don’t refer. Here, non-referentiality means absence of ordinary entity/event denotation and argumental construal while allowing semantic content. Nouns and verbs typically pick out entities or events in the world. Interjections express internal states of their users (Leech 2006): anger (*damn*), disgust (*eww*, *yuck*), surprise (*wow*), regret (*alas*), pain (*ouch*), realization (*eureka*). Some interjections are more propositional than emotive: *yes* and *no* affirm or deny propositions, and *oh* can signal recognition of new information rather than expressing feeling.
 
-Wierzbicka (1992) argues that interjections have genuine semantic content, decomposable via Natural Semantic Metalanguage into deictic primitives (*I*, *you*, *now*, *here*). That remains compatible with the definition above. The forms may have content, and *yes* and *no* may operate on propositions, while still lacking ordinary entity/event denotation. Wierzbicka’s explications characterize the use-conditional content that <span class="smallcaps">interjection<sub>sem</sub></span> (Section <a href="#sec:fieldrelative-nodes" data-reference-type="ref" data-reference="sec:fieldrelative-nodes">3.4</a>) tracks. Non-referentiality is a cluster property rather than a definition.
+Wierzbicka (1992) argues that interjections have genuine semantic content, decomposable via Natural Semantic Metalanguage. The forms may have content, and *yes* and *no* may operate on propositions, while still lacking ordinary entity/event denotation.
+
+Wilkins (1992, 119) presses harder, and his title states the objection: interjections are deictics. On his account they “convey complete propositions”, the “referential arguments in the propositions conveyed by interjections are provided by context”, and so interjections are “shifters (indexicals) by virtue of being built semantically out of basic deictic elements” such as *I*, *you*, *now*, and *here*. If that’s right, calling interjections non-referential looks like a straightforward mistake.
+
+The two claims turn out to be about different things, once the grain is fixed. Wilkins’s deictic elements aren’t entity or event denotations that a form contributes by itself; they’re slots that the context of utterance fills. Non-referentiality as I use it denies the first and says nothing about the second. *Ouch!* picks out no thing or event, and resists being made definite, quantified over, or used as an argument, whatever indexical structure its explication turns out to contain. Wilkins’s analysis is in fact the more demanding of the two, since it says what the semantics has to supply for contextual filling to work at all, and the distributional property I need survives it. What his account does show is that “non-referential” is a poor name for the property, kept here only because it’s the established one.
+
+Wierzbicka’s explications characterize the use-conditional content that <span class="smallcaps">interjection<sub>sem</sub></span> (Section <a href="#sec:fieldrelative-nodes" data-reference-type="ref" data-reference="sec:fieldrelative-nodes">3.4</a>) tracks. Non-referentiality is a cluster property rather than a definition.
 
 The contrast with nouns is sharpest where both share a lexical source. *Jesus* as a noun refers to a person; *Jesus!* as an interjection doesn’t. In the interjection use, as Gehweiler (2008, 88) puts it, *Jesus* “has lost its propositional content, i.e. it is no longer used to refer and hence no longer influences truth conditions”. This semantic shift is part of the recruitment pathway from noun to interjection (Section <a href="#sec:causal-structure" data-reference-type="ref" data-reference="sec:causal-structure">4</a>).
 

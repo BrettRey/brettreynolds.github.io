@@ -188,8 +188,8 @@ const papers = [
   },
   {
     slug: "english-interjections",
-    title: "What English interjections let us predict: Stable causal-pragmatic clustering and path dependence",
-    shortTitle: "What English interjections let us predict",
+    title: "Interjection as a lexical category: What membership lets us predict",
+    shortTitle: "Interjection as a lexical category",
     status: "Preprint",
     year: "2026",
     versionDate: "2026-07-24",

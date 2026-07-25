@@ -190,14 +190,14 @@ const papers = [
     slug: "english-interjections",
     title: "What English interjections let us predict: Stable causal-pragmatic clustering and path dependence",
     shortTitle: "What English interjections let us predict",
-    status: "Under review at Journal of Pragmatics",
+    status: "Preprint",
     year: "2026",
+    versionDate: "2026-07-24",
     sourceTex: "papers/queue/english-interjections/main.tex",
     bibliography: ["papers/queue/english-interjections/references.bib", "papers/queue/english-interjections/references-local.bib"],
     canonicalUrl: "https://lingbuzz.net/lingbuzz/009852",
     externalLinks: [
       { label: "LingBuzz", url: "https://lingbuzz.net/lingbuzz/009852" },
-      { label: "SSRN", url: "https://ssrn.com/abstract=6954254" },
     ],
     keywords: ["interjections", "theoretical pragmatics", "projectibility", "path dependence"],
     description: "A theoretical-pragmatics account of what categorizing an English form as an interjection lets speakers, hearers, and analysts predict.",
@@ -205,9 +205,7 @@ const papers = [
   author = {Reynolds, Brett},
   title = {What English Interjections Let Us Predict: Stable Causal-Pragmatic Clustering and Path Dependence},
   year = {2026},
-  note = {Preprint, LingBuzz/009852 and SSRN/6954254; under review at Journal of Pragmatics},
-  eprinttype = {SSRN},
-  eprint = {6954254},
+  note = {Preprint, LingBuzz/009852},
   url = {https://lingbuzz.net/lingbuzz/009852}
 }
 `,

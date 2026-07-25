@@ -2,12 +2,12 @@
 title: "What English interjections let us predict: Stable causal-pragmatic clustering and path dependence"
 author: "Brett Reynolds"
 year: "2026"
-status: "Under review at Journal of Pragmatics"
+status: "Preprint"
 canonical_url: "https://lingbuzz.net/lingbuzz/009852"
 website_url: "https://brettreynolds.ca/papers/english-interjections/"
 markdown_url: "https://brettreynolds.ca/papers/english-interjections/paper.md"
 version: "author-manuscript mirror"
-version_date: "2026-06-12"
+version_date: "2026-07-24"
 keywords: ["interjections", "theoretical pragmatics", "projectibility", "path dependence"]
 ---
 # What English interjections let us predict: Stable causal-pragmatic clustering and path dependence
@@ -74,7 +74,7 @@ Non-inflection predicts non-argumenthood. Forms that don’t inflect can’t agr
 
 ## Syntax
 
-Interjections characteristically function as supplements, “parenthetical strings that are not integrated in clause structure” (Huddleston and Pullum 2002, 1350). In *Damn, we’re going to be late!*, the interjection isn’t a complement or modifier of anything in the clause. It’s appended to the beginning as a parenthetical.
+Interjections characteristically function as supplements, “elements which occupy a position in linear sequence without being integrated into the syntactic structure of the sentence” (Huddleston and Pullum 2002, 1350). In *Damn, we’re going to be late!*, the interjection isn’t a complement or modifier of anything in the clause. It’s appended to the beginning as a parenthetical.
 
 Supplement function isn’t unique to interjections. Relative clauses, noun phrases, adjective phrases, and adverb phrases can all function as supplements (Huddleston and Pullum 2002, 1356):
 
@@ -92,7 +92,7 @@ English interjections characteristically don’t refer. Here, non-referentiality
 
 Wierzbicka (1992) argues that interjections have genuine semantic content, decomposable via Natural Semantic Metalanguage into deictic primitives (*I*, *you*, *now*, *here*). That remains compatible with the definition above. The forms may have content, and *yes* and *no* may operate on propositions, while still lacking ordinary entity/event denotation. Wierzbicka’s explications characterize the use-conditional content that <span class="smallcaps">interjection<sub>sem</sub></span> (Section <a href="#sec:fieldrelative-nodes" data-reference-type="ref" data-reference="sec:fieldrelative-nodes">3.4</a>) tracks. Non-referentiality is a cluster property rather than a definition.
 
-The contrast with nouns is sharpest where both share a lexical source. *Jesus* as a noun refers to a person; *Jesus!* as an interjection doesn’t. The interjection use has been “bleached of \[its\] original meaning”, and it no longer refers to the entity the noun originally picked out (Gehweiler 2008, 72). This semantic shift is part of the recruitment pathway from noun to interjection (Section <a href="#sec:causal-structure" data-reference-type="ref" data-reference="sec:causal-structure">4</a>).
+The contrast with nouns is sharpest where both share a lexical source. *Jesus* as a noun refers to a person; *Jesus!* as an interjection doesn’t. In the interjection use, as Gehweiler (2008, 88) puts it, *Jesus* “has lost its propositional content, i.e. it is no longer used to refer and hence no longer influences truth conditions”. This semantic shift is part of the recruitment pathway from noun to interjection (Section <a href="#sec:causal-structure" data-reference-type="ref" data-reference="sec:causal-structure">4</a>).
 
 The projectibility here is mostly negative. A form that doesn’t refer resists being made definite, quantified over, or used as an argument: \**the damn!*, \**every ouch*, \**Damn surprised me*, and \**There’s damn*. These restrictions are non-trivial because they distinguish interjections from nouns that have undergone only partial bleaching. Section <a href="#sec:synchronic-coupling" data-reference-type="ref" data-reference="sec:synchronic-coupling">4.5</a> treats the same relation from the causal side: non-referentiality helps keep the form out of argument structure, which in turn supports prosodic isolation.
 
@@ -110,7 +110,7 @@ The projective claim should be level-specific. A novel non-propositional stance 
 
 ## Co-occurrence, not necessity
 
-These properties co-occur statistically, not necessarily. The literature’s characteristic hedges are the point: interjections “commonly” occupy their own intonation unit, “typically” lack inflection, “usually” resist syntactic integration, and “generally” express emotive meaning (cf. Ameka 1992; Wilkins 1992). No single property is necessary and sufficient.
+These properties co-occur statistically, not necessarily. The literature’s own definitions hedge, and the hedges are the point. Wilkins (1992, 124) defines an interjection as “a conventional lexical form which (commonly and) conventionally constitutes an utterance on its own, (typically) does not enter into constructions with other word classes, is (usually) monomorphemic, and (generally) does not host inflectional or derivational morphemes”. Four criteria, a parenthetical hedge on each, and Gehweiler (2008, 73) adopts the definition while calling those criteria the class’s “obligatory properties”. No single property is necessary and sufficient.
 
 The pattern calls for explanation. Network order couples the properties: prosodic isolation reinforces syntactic non-integration, non-referentiality removes the need for argument structure, and pragmatic conventionalization entrenches the emotive function.
 
@@ -193,7 +193,7 @@ If a feature-based account can replicate co-movement, asymmetry, persistence, bo
 
 The causal-network account developed by Khalidi (2013, 2018) also explains why projectibility is field-relative. If kinds are nodes in causal structures, different fields may track different nodes because they ask different explanatory and predictive questions. The resulting categories remain realist: each inquiry tracks the causal relations that matter for its explanations and predictions.
 
-A parallel formulation in homeostatic-kind theory makes the point explicit: “A kind may be natural ‘from the point of view of’ some discipline or disciplinary matrix but not ‘from the point of view of’ another” (Boyd 1999, 150). The present paper treats that formulation as a useful gloss on the causal-network account.
+A parallel formulation in homeostatic-kind theory makes the point explicit: “A kind may be natural ‘from the point of view of’ some discipline or disciplinary matrix, but not ‘from the point of view of’ another” (Boyd 1999, 160). The present paper treats that formulation as a useful gloss on the causal-network account.
 
 The familiar linguistic parallel is the interrogative/question distinction. Syntacticians track interrogative: a clause type with properties such as subject–auxiliary inversion, fronting of interrogative words, and polar-question syntax. Pragmatists track question: a speech act that requests information, projects an answer, and organizes uptake. The two often coincide, and they also come apart: *Can you pass the salt?* is syntactically interrogative and pragmatically a request, while *I wonder where she went* can raise an information issue without having interrogative clause syntax.
 
@@ -343,7 +343,7 @@ The cluster is also continuously replenished via onomatopoeia. Nonce interjectio
 
 This generates a testable prediction: a newly conventionalized interjectional use should exhibit the full cluster profile without having traversed the documented noun-to-interjection or verb-to-interjection paths. Standalone interjectional uses of recent forms like *bruh*, *yeet*, and *oof* fit this expectation, since those uses are prosodically isolated, non-inflecting, non-referential, and syntactically non-integrated, even when the same word families include verbal or nominal lexemes. The category position remains available even as its members turn over.
 
-Dingemanse (2020) characterizes such items as liminal signs, signs at the boundary between sound and speech, whose liminality is functional, not defective. Cultural evolutionary processes “sample the space of possible resources”. The causal-network account describes that space as a property space structured by the recruitment pathways and synchronic links above.
+Dingemanse (2020) characterizes such items as liminal signs, signs at the boundary between sound and speech, whose liminality is functional, not defective. Cultural evolutionary processes “sample the landscape of possible resources” (Dingemanse 2020, 191). The causal-network account describes that landscape as a property space structured by the recruitment pathways and synchronic links above.
 
 The recruited, ordered, and replenished cluster is now ready for the paper’s central inferential question: what can partial evidence license?
 
@@ -476,10 +476,6 @@ The evidence establishes projection targets, a stable profile, network order, an
 I compiled empirical material for the Wikipedia article “English interjections”, of which I’m the primary author. This paper reanalyses that material through the lens of pragmatic projectibility.
 
 Supplementary materials (data and analysis code for the corpus tests) are available at <https://github.com/BrettRey/interjections-hpc>.
-
-# Declaration of generative AI and AI-assisted technologies in the manuscript preparation process
-
-During the preparation of this work the author used Claude (Anthropic) for drafting and revision support. After using this tool, the author reviewed and edited the content as needed and takes full responsibility for the content of the submitted article.
 
 # Supplementary materials: GloWbE conditioning analysis
 
@@ -909,7 +905,7 @@ Wilkins, David P. 1992. “Interjections as Deictics.” *Journal of Pragmatics*
 
 [^2]: The interrogative/question contrast uses different words for the syntactic and pragmatic nodes because both terms are established in their respective traditions. For interjections, every field uses the same word, so subscripts are the honest notation. An alternative would have been to adopt distinct terms from the relevant literatures: expressive from Potts (2007) for the semantic node, and response token from Stivers (2019) or liminal sign from Dingemanse (2020) for the interactional-pragmatic node.
 
-    The Latin ejaculatio (“a throwing out”, mirroring interjectio, “a throwing between”) would have been etymologically perfect for the interactional-pragmatic category, but modern English has rendered the term unavailable.
+    The Latin ejaculatio, a throwing out, mirroring interjectio, a throwing between, would have been etymologically perfect for the interactional-pragmatic category, but modern English has rendered the term unavailable.
 
 [^3]: The analysis plan was committed before extraction and coding (`f1a2193`, 27 May 2026). The full pre-registration, data, and code are archived at <https://github.com/BrettRey/interjections-hpc>.
 

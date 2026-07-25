@@ -15,22 +15,24 @@ keywords: ["interjections", "theoretical pragmatics", "projectibility", "path de
 **Author-manuscript mirror.** This Markdown file is provided for accessibility, search, and machine readability. The canonical public record is linked in the metadata above.
 
 ## Abstract
-This paper contributes to theoretical pragmatics by asking what English interjections let speakers, hearers, and analysts predict in use. Identifying a form as an interjection supports inferences about prosodic packaging, syntactic supplementarity, use-conditional stance, sequential position, response function, and interactional uptake. These inferences are pragmatic rather than truth-conditional: they concern how a form enters an utterance, what stance or response it displays, and what uptake it invites.
+Is interjection a genuine lexical category of English? Grammars have doubted it, and the doubt is about standing rather than about how much has been written. This paper argues that the category earns its place, and that what earns it isn’t a defining property but projectibility: identifying a form as an interjection supports inferences about prosodic packaging, syntactic supplementarity, use-conditional stance, sequential position, response function, and interactional uptake. Those inferences are pragmatic rather than truth-conditional, which is a result about the category and not a change of subject.
 
-The paper argues that these inferences are licensed by a stable causal-pragmatic cluster. Invocative, verbal, and onomatopoeic routes recruit forms into a similar pragmatic profile, while leaving different pathway residues. Regional/indexical conditioning supplies a further source of boundary structure. Supplementary Corpus of Global Web-Based English (GloWbE) and Corpus of Historical American English (COHA) probes illustrate boundary behaviour, exit residue, and attrition. The result is a path-dependent account of pragmatic category membership: English interjections are projectible because their prosodic, syntactic, semantic, and interactional diagnostics are linked, though the evidence doesn’t establish strict homeostatic control.
+The paper argues that they’re licensed by a stable causal-pragmatic cluster. Invocative, verbal, and onomatopoeic routes recruit forms into a similar profile, while leaving different pathway residues. Regional/indexical conditioning supplies a further source of boundary structure. Supplementary Corpus of Global Web-Based English (GloWbE) and Corpus of Historical American English (COHA) probes illustrate boundary behaviour, exit residue, and attrition. The result is a path-dependent account of category membership: English interjections are projectible because their prosodic, syntactic, semantic, and interactional diagnostics are linked, though the evidence doesn’t establish strict homeostatic control.
 
 
 # Introduction
 
-English interjections are small forms with large pragmatic consequences. A speaker’s *oh*, *wow*, *hey*, *damn*, or *mm-hm* can package a response, display stance, open or sustain a sequence, initiate repair, or invite uptake. They belong to the resources by which speakers produce and interpret language in context. This paper asks what follows from treating them as a pragmatic category: what does identifying a form as an interjection let speakers, hearers, and analysts predict?
+English interjections are small forms with large consequences. A speaker’s *oh*, *wow*, *hey*, *damn*, or *mm-hm* can package a response, display stance, open or sustain a sequence, initiate repair, or invite uptake. Grammars have never been settled about what to do with them. This paper asks whether interjection is a genuine lexical category of English, and what identifying a form as one lets speakers, hearers, and analysts predict.
 
-This question is difficult because interjections have often been treated as peripheral to grammar and theory. In 1586, William Bullokar wrote the earliest grammar of English. It included interjections, which Bullokar defined as words that betoken “a sudden passion of the mind” (Bullokar \[1586\] 1980, 373).
+In 1586, William Bullokar wrote the earliest grammar of English. It included interjections, which Bullokar defined as words that betoken “a sudden passion of the mind” (Bullokar \[1586\] 1980, 373).
 
-Four centuries later, the category’s status has declined. Jespersen (1924, 90) treated interjection as a manner in which words of other categories may be used. Quirk et al. (1985, 67) included the category but called it “marginal and anomalous.” Huddleston and Pullum (2002, 22) listed interjection as one of nine lexical categories in *The Cambridge Grammar of the English Language* (*CGEL*) (*ah*, *damn*, *gosh*, *hey*, *oh*, *ooh*, *ouch*, *whoa*, *wow*), but Huddleston and Pullum (2005, 16) dropped it from the textbook because “there really isn’t anything interesting for a grammar to say” about interjections. A category real enough for the definitive grammar but thin enough for the textbook to cut.
+Four centuries later the standing is less secure. Jespersen (1924, 90) treated interjection as a manner in which words of other categories may be used, which is to deny it categoryhood. Quirk et al. (1985, 67) kept the category but called it “marginal and anomalous”. Huddleston and Pullum (2002, 22) listed interjection as one of nine lexical categories in *The Cambridge Grammar of the English Language* (*CGEL*) (*ah*, *damn*, *gosh*, *hey*, *oh*, *ooh*, *ouch*, *whoa*, *wow*), while the companion textbook set it aside as “the minor category of interjections … about which there really isn’t anything interesting for a grammar to say” (Huddleston and Pullum 2005, 16). Its second edition returns interjection to the inventory, but concedes that “grammarians typically say very little about interjections, and we don’t plan to be an exception” (Huddleston et al. 2022, 24). Readmitted to the list, and still largely undescribed.
+
+Libert (2019) objects that calling interjections neglected “is an overstatement”, and that’s fair: work on their phonetics, syntax, semantics, and pragmatics goes back a long way. What’s stayed unsettled is standing rather than volume of attention, namely whether interjections constitute a category, and what membership would license.
 
 The empirical picture hasn’t simplified. English interjections span phonology, morphology, syntax, semantics, and pragmatics. The category resists clean definition, since no single property is necessary and sufficient, and its boundaries with nouns, verbs, adverbs, fillers, and routine formulae are graded rather than sharp. Cross-linguistically, “interjection” is at best a comparative concept (Haspelmath 2010).
 
-Those difficulties matter for pragmatics, not only for grammar. If interjections are a category, the relevant payoff isn’t an essence or a single defining feature. It’s projectibility: the inferential payoff by which observing some properties of a new case licenses predictions about others (Goodman 1955). For interjections, prosodic isolation, syntactic supplementarity, or stance display should license expectations about non-inflection, non-referential or use-conditional meaning, sequential position, response function, and interactional uptake.
+Those difficulties are what make the category question worth asking. If interjections are a category, the relevant payoff isn’t an essence or a single defining feature. It’s projectibility: the inferential payoff by which observing some properties of a new case licenses predictions about others (Goodman 1955). For interjections, prosodic isolation, syntactic supplementarity, or stance display should license expectations about non-inflection, non-referential or use-conditional meaning, sequential position, response function, and interactional uptake.
 
 The object of analysis is the category position, not the membership list alone. Individual items such as *wow*, *damn*, *bruh*, and *fie* matter because they show what the category lets speakers and hearers infer: likely prosody, syntactic independence, limits on argumenthood, stance or response function, and possible pathways into or out of the profile.
 
@@ -68,7 +70,7 @@ Prosodic isolation is a strong cue: if a novel form occupies its own intonation 
 
 English interjections characteristically don’t inflect or derive. They resist the morphological operations that characterize other open-class categories: no plural (\**ouches*), no tense (\**ouched*), no comparative (\**oucher*), no nominalization (\**ouchness*) (Ameka 1992, 106). Since Libert (2019) notes that “few, if any, papers focus on the morphology of interjections”, the apparent absence of morphological productivity may partly reflect a gap in the research rather than a firm empirical generalization.
 
-Some interjections retain remnant morphology from earlier categorial membership. *Heavens* and *bollocks* preserve the nominal plural suffix, and *goddammit* preserves a verb-object-pronoun structure, but none of these remnants are productive. The plural in *heavens* doesn’t contrast with a singular \**heaven!* (as an interjection), and speakers don’t extend the pattern to new forms.
+Some interjections retain remnants of earlier categorial membership. *Heavens* and *bollocks* preserve the nominal plural suffix. *Goddammit* preserves a verb-object-pronoun structure, which is fossilized syntax rather than morphology, and belongs with the syntactic residue discussed in Section <a href="#sec:cluster" data-reference-type="ref" data-reference="sec:cluster">2</a>. None of these remnants are productive. The plural in *heavens* doesn’t contrast with a singular \**heaven!* (as an interjection), and speakers don’t extend the pattern to new forms.
 
 Non-inflection predicts non-argumenthood. Forms that don’t inflect can’t agree with a verb or take a determiner, so they can’t fill the syntactic slots that require these operations. But non-inflection alone isn’t diagnostic: adverbs also don’t inflect (Ameka 1992, 106). The stronger diagnostic is syntactic: adverbs characteristically form constituents with other words, while canonical interjections occur as standalone supplements and resist integration with neighbouring material (Meinard 2015, 152).
 
@@ -102,7 +104,7 @@ Interjections typically carry exclamatory or imperative force: *ouch!* expresses
 
 The most common interjections tagged in the Corpus of Global Web-Based English (GloWbE; Davies and Fuchs 2015) illustrate this pragmatic breadth: *yes*, *no*, *oh*, *yeah*, *hi*, *hey*, *wow*, *hello*, *ah*, *ha*. The list is dominated by interactional items, forms whose primary function is to manage the conversation rather than to contribute propositional content. Dingemanse (2024) estimates that roughly one in seven conversational turns is an interjection, and interactional tools dominate the most frequent cases: continuers like *mm-hm* that scaffold extended turns, repair initiators like *huh?* that calibrate mutual understanding, and change-of-state tokens like *oh* that display evolving knowledge (cf. Norrick 2009).
 
-The boundary with routine formulae is instructive. Coulmas (1981, 2–3) defines routine formulae as “highly conventionalized prepatterned expressions whose occurrence is tied to more or less standard communication situations”: *bye*, *hello*, *sorry*, *thank you*. Ameka (1992, 109–10) argues these differ from interjections in three ways: they include addressees, they’re predictable responses to social conventions, and they’re always speech acts rather than mere reflections of the speaker’s mental state. Wilkins (1992, 142) counters that these differences make routine formulae “a distinct pragmatic and semantic subtype of interjections”, not a separate category.
+The boundary with routine formulae is instructive. Coulmas (1981, 2–3) defines routine formulae as “highly conventionalised prepatterned expressions whose occurrence is tied to more or less standard communication situations”: *bye*, *hello*, *sorry*, *thank you*. Ameka (1992, 109–10) argues these differ from interjections in three ways: they include addressees, they’re predictable responses to social conventions, and they’re always speech acts rather than mere reflections of the speaker’s mental state. Wilkins (1992, 142) counters that these differences make routine formulae “a distinct pragmatic and semantic subtype of interjections”, not a separate category.
 
 The disagreement is field-relative in a causal-network sense. For a grammar, routine formulae pattern near interjections because they share prosodic isolation and pragmatic function. For speech-act analysis or interactional pragmatics, they support different predictions: addressee orientation, occurrence in standard social sequences, and conventional felicity conditions. The same form can sit close to one node for one inquiry and farther away for another, depending on which causal relations and predictions the inquiry tracks.
 
@@ -110,7 +112,7 @@ The projective claim should be level-specific. A novel non-propositional stance 
 
 ## Co-occurrence, not necessity
 
-These properties co-occur statistically, not necessarily. The literature’s own definitions hedge, and the hedges are the point. Wilkins (1992, 124) defines an interjection as “a conventional lexical form which (commonly and) conventionally constitutes an utterance on its own, (typically) does not enter into constructions with other word classes, is (usually) monomorphemic, and (generally) does not host inflectional or derivational morphemes”. Four criteria, a parenthetical hedge on each, and Gehweiler (2008, 73) adopts the definition while calling those criteria the class’s “obligatory properties”. No single property is necessary and sufficient.
+These properties co-occur statistically, not necessarily. The literature’s own definitions hedge, and the hedges are the point. Wilkins (1992, 124) defines an interjection as “a conventional lexical form which (commonly and) conventionally constitutes an utterance on its own, (typically) does not enter into construction with other word classes, is (usually) monomorphemic, and (generally) does not host inflectional or derivational morphemes”. Four criteria, a parenthetical hedge on each, and Gehweiler (2008, 73) adopts the definition while calling those criteria the class’s “obligatory properties”. No single property is necessary and sufficient.
 
 The pattern calls for explanation. Network order couples the properties: prosodic isolation reinforces syntactic non-integration, non-referentiality removes the need for argument structure, and pragmatic conventionalization entrenches the emotive function.
 
@@ -155,7 +157,7 @@ Other processes are interactional or directional. Uptake affects future use; rep
 
 The historical evidence adds a further point. Semantic bleaching, syntactic deactivation, and onomatopoeic or interactional coinage can all recruit forms into a similar pragmatic profile, but they don’t do so by the same route or with the same residues. A bleached invocation, a deactivated imperative, and an onomatopoeic or interactional form may converge on prosodic independence, syntactic supplementarity, non-referential or use-conditional meaning, and interactional force while retaining different traces of their sources. The resulting category is organized by causal-pragmatic relations with different temporal and explanatory profiles.
 
-That structure is enough for pragmatic projectibility, but not enough for strict homeostasis. The evidence considered here doesn’t identify a tracked category-level variable, an error signal, or a response pathway that restores the interjectional profile when it is perturbed. Interjections are stable and projectible because their diagnostics are linked within a causal-pragmatic structure.
+That structure is enough for pragmatic projectibility, but not enough for strict homeostasis. The evidence considered here doesn’t identify a tracked category-level variable, an error signal, or a response pathway that restores the interjectional profile when it’s perturbed. Interjections are stable and projectible because their diagnostics are linked within a causal-pragmatic structure.
 
 ## Causal networks vs. prototype theory
 
@@ -193,7 +195,7 @@ If a feature-based account can replicate co-movement, asymmetry, persistence, bo
 
 The causal-network account developed by Khalidi (2013, 2018) also explains why projectibility is field-relative. If kinds are nodes in causal structures, different fields may track different nodes because they ask different explanatory and predictive questions. The resulting categories remain realist: each inquiry tracks the causal relations that matter for its explanations and predictions.
 
-A parallel formulation in homeostatic-kind theory makes the point explicit: “A kind may be natural ‘from the point of view of’ some discipline or disciplinary matrix, but not ‘from the point of view of’ another” (Boyd 1999, 160). The present paper treats that formulation as a useful gloss on the causal-network account.
+A parallel formulation in homeostatic-kind theory makes the point explicit: “A kind may be natural ‘from the point of view of’ some discipline or disciplinary matrix, but not ‘from the point of view of’ another” (Boyd 1999, 160). I take that formulation as a useful gloss on the causal-network account.
 
 The familiar linguistic parallel is the interrogative/question distinction. Syntacticians track interrogative: a clause type with properties such as subject–auxiliary inversion, fronting of interrogative words, and polar-question syntax. Pragmatists track question: a speech act that requests information, projects an answer, and organizes uptake. The two often coincide, and they also come apart: *Can you pass the salt?* is syntactically interrogative and pragmatically a request, while *I wonder where she went* can raise an information issue without having interrogative clause syntax.
 
@@ -210,6 +212,8 @@ The subscript notation makes explicit that these are overlapping but non-identic
 # Causal structure: recruitment and coupling
 
 The property cluster documented in Section <a href="#sec:cluster" data-reference-type="ref" data-reference="sec:cluster">2</a> raises two questions that co-occurrence alone can’t answer: how do items enter the interjectional region of the network, and which causal links make the properties travel together? In what follows, “the interjection cluster” refers to the broad property profile. I use “the intersection” only for cases that belong simultaneously to <span class="smallcaps">interjection<sub>syn</sub></span>, <span class="smallcaps">interjection<sub>sem</sub></span>, and <span class="smallcaps">interjection<sub>int</sub></span>. A causal-network account requires both a diachronic account of recruitment and a synchronic account of the network order among properties.
+
+Table <a href="#tab:link-status" data-reference-type="ref" data-reference="tab:link-status">2</a> sets out each proposed link with its current evidential status, the kind of evidence that would bear on it, and the main way it could fail.
 
 | Link | Status | Evidence type | Main vulnerability |
 |:---|:---|:---|:---|
@@ -313,6 +317,8 @@ Figure <a href="#fig:causal-network" data-reference-type="ref" data-reference="
 The interjection cluster is a convergence point, but convergence doesn’t erase history. Forms recruited through different pathways can share the same pragmatic profile while retaining traces of the source construction that brought them there. Those traces explain why the category is both recognizable and persistently irregular. The irregularities are pathway signatures rather than noise around a prototype.
 
 This gives the category a second kind of inference. Section <a href="#sec:projectibility" data-reference-type="ref" data-reference="sec:projectibility">5</a> develops forward projectibility: observing some properties of a novel form licenses predictions about other properties. Historical pragmatics also needs a retrodictive counterpart to projectibility: observing a residual property can license an inference about the pathway that produced it. A causal-network account can make that inference because it links properties to recruitment pathways, ordering relations, and source constructions.
+
+Table <a href="#tab:pathway-residues" data-reference-type="ref" data-reference="tab:pathway-residues">3</a> collects the residues each recruitment pathway leaves behind, and the retrodictive inference each one licenses.
 
 | Pathway | Gateway | Residue | Retrodictive prediction |
 |:---|:---|:---|:---|
@@ -767,6 +773,12 @@ Huddleston, Rodney, and Geoffrey K. Pullum. 2005. *A Student’s Introduction to
 
 </div>
 
+<div id="ref-HuddlestonPullumReynolds2022" class="csl-entry">
+
+Huddleston, Rodney, Geoffrey K. Pullum, and Brett Reynolds. 2022. *A Student’s Introduction to English Grammar*. 2nd ed. Cambridge University Press. <https://doi.org/10.1017/9781009085748>.
+
+</div>
+
 <div id="ref-jespersen1924" class="csl-entry">
 
 Jespersen, Otto. 1924. *The Philosophy of Grammar*. George Allen & Unwin.
@@ -905,7 +917,7 @@ Wilkins, David P. 1992. “Interjections as Deictics.” *Journal of Pragmatics*
 
 [^2]: The interrogative/question contrast uses different words for the syntactic and pragmatic nodes because both terms are established in their respective traditions. For interjections, every field uses the same word, so subscripts are the honest notation. An alternative would have been to adopt distinct terms from the relevant literatures: expressive from Potts (2007) for the semantic node, and response token from Stivers (2019) or liminal sign from Dingemanse (2020) for the interactional-pragmatic node.
 
-    The Latin ejaculatio, a throwing out, mirroring interjectio, a throwing between, would have been etymologically perfect for the interactional-pragmatic category, but modern English has rendered the term unavailable.
+    The Latin ejaculatio, a throwing out, mirroring interjicere, “to throw between” (Libert 2019), would have been etymologically perfect for the interactional-pragmatic category, but modern English has rendered the term unavailable.
 
 [^3]: The analysis plan was committed before extraction and coding (`f1a2193`, 27 May 2026). The full pre-registration, data, and code are archived at <https://github.com/BrettRey/interjections-hpc>.
 

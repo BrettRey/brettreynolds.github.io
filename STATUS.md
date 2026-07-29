@@ -75,8 +75,8 @@
 - [x] All seven long-form essay pages migrated to `style-v3.css` (2026-07-29), with the essay components ported: first-line indents, justified setting with hyphenation, small-caps heads, references, citations. Rendered and verified. `first-descent.html` and `valley-hunt.html` were never on `style.css` (own embedded styles); `style.css` is now used only by the two Reveal slide decks.
 - [x] **Undecided venue names stripped site-wide (Option B, 2026-07-29).** 30 instances across `publications.html`, `llms.txt`, seven `papers/*` mirrors, `cgel-correctives.html`, `about.html`. Accepted work keeps its venue; only undecided submissions were stripped.
 
-### Open design question (Brett's call)
-- [ ] Keep the crossing matrix on the homepage, or move it to a `/research-map/` page and replace it with "three representative crossings" (the option that drops the completeness claim entirely). External review also proposed an "inference cycle"; declined for now as trading one ill-fitting schema for another.
+### Design question (settled 2026-07-29)
+- [x] **Crossing matrix stays** (Brett, 2026-07-29). Research-map relocation, three-crossings substitution, and the inference-cycle replacement all declined.
 
 ### Open, needs Brett
 - [ ] `docs/plans/2026-07-12-public-philosophy-season-zero.md` is untracked. The other six plans are public; this one records a declined initiative. Publish or leave out.

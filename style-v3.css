@@ -576,3 +576,22 @@ table th { font-weight: 500; }
   text-indent: -2em !important;
   text-align: left;
 }
+
+/* ---------- Open questions ----------
+   The one section that states its own defeat conditions. Rot-checked by
+   scripts/check-openq-rot.py via the PostToolUse hook: see OPENQ-REVIEWED. */
+.openq { list-style: none; }
+.openq li { margin-bottom: 1.1rem; max-width: var(--measure); }
+.openq .q { display: block; line-height: 1.35; }
+.openq .note, .openq .defeat {
+  display: block;
+  font-size: var(--t-meta);
+  color: var(--meta);
+  margin-top: 0.18rem;
+}
+.openq .dk {
+  font-variant: small-caps;
+  letter-spacing: 0.07em;
+  color: var(--text);
+  margin-right: 0.35rem;
+}

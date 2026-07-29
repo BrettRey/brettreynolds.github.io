@@ -71,12 +71,26 @@
 - Underlines added to `.pub-links` / `.cluster-links` (colour-only link signal, WCAG 1.4.1).
 
 ### Still to do
-- [ ] Commit and push (nothing has been pushed; the live site is unchanged)
+- [x] Committed and pushed 2026-07-29 (`0610a0b`), then `f40fb79` / `865a6b0` to unpublish the review archives. Pages build errored twice on the removal and needed a forced rebuild via the API (same transient failure as 2026-07-04). Live site verified: review URLs 404, all content pages 200.
 - [x] All seven long-form essay pages migrated to `style-v3.css` (2026-07-29), with the essay components ported: first-line indents, justified setting with hyphenation, small-caps heads, references, citations. Rendered and verified. `first-descent.html` and `valley-hunt.html` were never on `style.css` (own embedded styles); `style.css` is now used only by the two Reveal slide decks.
-- [ ] **Undecided venue names, site-wide (~28 instances, Brett's decision pending).** `publications.html` (11), `llms.txt` (7), seven `papers/*/index.html` mirrors, `cgel-correctives.html` (3, incl. one "submitted to *Journal of Pragmatics*"). Only the homepage has been cleaned. STATUS records two occasions when stale wording had to be scrubbed after rejection (CJL 2026-07-09, Glossa 2026-07-07), so this is a maintenance defect as well as a presentation one. Options: (A) keep venues on detailed surfaces, strip from pitch surfaces; (B) strip everywhere, submission targets live only in the CV.
+- [x] **Undecided venue names stripped site-wide (Option B, 2026-07-29).** 30 instances across `publications.html`, `llms.txt`, seven `papers/*` mirrors, `cgel-correctives.html`, `about.html`. Accepted work keeps its venue; only undecided submissions were stripped.
 
 ### Open design question (Brett's call)
 - [ ] Keep the crossing matrix on the homepage, or move it to a `/research-map/` page and replace it with "three representative crossings" (the option that drops the completeness claim entirely). External review also proposed an "inference cycle"; declined for now as trading one ill-fitting schema for another.
+
+### Open, needs Brett
+- [ ] `docs/plans/2026-07-12-public-philosophy-season-zero.md` is untracked. The other six plans are public; this one records a declined initiative. Publish or leave out.
+- [ ] Review archives remain in git history at `0610a0b` (accepted 2026-07-29). Removing them entirely would need a history rewrite and force-push.
+
+### Pending on other work
+- [ ] **arXiv v3 retitle.** The homepage title matches arXiv v2 ("Adversarial Pragmatics for AI Safety Evaluation"), which is right for a visitor arriving from arXiv. The repo manuscript was retitled to "…A Diagnostic Framework and Seed Benchmark for Language-Mediated Control". When v3 posts, update the homepage featured title, `publications.html`, and `llms.txt` together.
+- [ ] **Delegation assurance / evidentiary assurance going public.** The homepage carries them as "In development" with no links, and two matrix cells depend on that. When they post: split the `.inprep` block into two linked entries, add them to `publications.html` and `llms.txt`, and give the matrix cells real destinations.
+
+### Deferred from external review (not rejected, just not done)
+- [ ] Inference-ledger project pages with YAML single-sourcing (claim / evidence / licensed inferences / non-claims / failure conditions), generating homepage, llms.txt, OKF export, and per-paper metadata from one file.
+- [ ] An "open questions" section with stated defeat conditions. Flagged as the strongest single addition proposed: your manuscript already does this and almost no academic homepage does.
+- [ ] A canonical "start here" essay carrying the full projectibility argument, so the homepage can stop compressing it.
+- [ ] Audience landing pages (`/ai-evaluation/`, `/categories/`, `/grammar/`) as task routes rather than disciplinary bins.
 
 ### Carried over
 - [ ] Regenerate paper mirrors after major manuscript updates

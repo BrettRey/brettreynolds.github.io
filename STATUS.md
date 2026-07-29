@@ -1,10 +1,16 @@
 # STATUS.md
-<!-- SUMMARY: Static site state for brettreynolds.ca · status: live, maintained · updated: 2026-07-17 -->
+<!-- SUMMARY: Static site state for brettreynolds.ca · status: live; homepage rebuild v7 approved, awaiting promotion to index.html · updated: 2026-07-29 -->
 
 ## Current State
 
 **Status:** Static site maintained for brettreynolds.ca
-**Last updated:** 2026-07-17
+**Last updated:** 2026-07-29
+
+### 2026-07-29 Session Notes
+- **Homepage rebuilt and approved, not yet deployed.** `index-v7.html` + standalone `style-v3.css` + `about.html` + `Brett_Reynolds-320.jpg`. Structure: identity/routing, featured current artifact with a grounded result capsule, thesis question, question-by-field crossing matrix, selected published work, resources. Brett approved this version 2026-07-29 and settled the umbrella term as "philosophy of science".
+- **Three review boards, 19 reviews, preserved under `reviews/`** with prompts, raw outputs, manifests (model/provider/dependence-cluster/SHA-256), and syntheses. Round 2 included a clean-room lane that independently reproduced round 1's findings, and two audience proxies (AI safety lead, journal editor/search chair) that found the then-current design misrepresented seniority in both directions.
+- **Corrections landed on the live site already:** SIEG 2nd ed. dated 2022 in `index.html` to match `.house-style/references.bib` and the CV.
+- **Remaining before promotion (see below).**
 
 ### 2026-07-18 Session Notes
 - Deployed `valley-hunt.html`, the interactive companion to the Erdős-993 tree-unimodality paper (exact BigInt engine validated against the paper's champion values and the published Kadrawi n=26 polynomials; all claims audited against `paper/main_v2.tex`). Cross-linked both ways with `first-descent.html`; publications tree entry now has an "Interactive companion" link; both pages indexed in sitemap and llms.txt. Restored the First Descent llms.txt entry dropped by the 2026-07-17 walkthrough rewrite.
@@ -47,6 +53,32 @@
 
 ## TODO
 
+### Homepage promotion (DONE 2026-07-29, local only, not pushed)
+- [x] `index-v7.html` promoted to `index.html`; v3/v4/v5/v6 removed
+- [x] v2 leftovers deleted: `index-new.html`, `style-v2.css`
+- [x] Dead v4/v5 CSS blocks removed; three duplicate `34rem` media blocks merged into one
+- [x] `about.html` added to `sitemap.xml` and `llms.txt`; `llms.txt` summary refreshed
+- [x] `about.html` bio synced to the new role line, Humber title, and "philosophy of science"
+- [x] `publications.html` / `essays.html` / `cgel-correctives.html` moved to `style-v3.css`, with the component rules they need ported over (`.pub-list`, `.cluster-list`, `.essay-summary`, etc.)
+- [x] `publications.html` metadata rewritten (was linguistics-only)
+- [x] Rendered and inspected in Chrome: light and dark, 360 / 420 / 760 / 1000 / 1200px, plus the three migrated pages. A layout probe confirmed no horizontal overflow (`docScrollWidth == viewport`).
+
+### Fixed only because the page was actually rendered
+- Matrix stacking moved from 34rem to its own 48rem breakpoint: three columns of academic titles were cramped well before the global mobile break.
+- `.state::after` generated separators removed entirely. An anchor paints its underline across `::after`, and `:last-child` cannot see trailing text nodes, so both attempts to guard it failed. Separators are now real `·` characters in the markup.
+- Missing state labels added to the two in-development matrix cells.
+- Duplicate-destination links removed from Selected publications.
+- Underlines added to `.pub-links` / `.cluster-links` (colour-only link signal, WCAG 1.4.1).
+
+### Still to do
+- [ ] Commit and push (nothing has been pushed; the live site is unchanged)
+- [x] All seven long-form essay pages migrated to `style-v3.css` (2026-07-29), with the essay components ported: first-line indents, justified setting with hyphenation, small-caps heads, references, citations. Rendered and verified. `first-descent.html` and `valley-hunt.html` were never on `style.css` (own embedded styles); `style.css` is now used only by the two Reveal slide decks.
+- [ ] **Undecided venue names, site-wide (~28 instances, Brett's decision pending).** `publications.html` (11), `llms.txt` (7), seven `papers/*/index.html` mirrors, `cgel-correctives.html` (3, incl. one "submitted to *Journal of Pragmatics*"). Only the homepage has been cleaned. STATUS records two occasions when stale wording had to be scrubbed after rejection (CJL 2026-07-09, Glossa 2026-07-07), so this is a maintenance defect as well as a presentation one. Options: (A) keep venues on detailed surfaces, strip from pitch surfaces; (B) strip everywhere, submission targets live only in the CV.
+
+### Open design question (Brett's call)
+- [ ] Keep the crossing matrix on the homepage, or move it to a `/research-map/` page and replace it with "three representative crossings" (the option that drops the completeness claim entirely). External review also proposed an "inference cycle"; declined for now as trading one ill-fitting schema for another.
+
+### Carried over
 - [ ] Regenerate paper mirrors after major manuscript updates
 - [ ] Add additional papers once the first mirror layer has been checked in use
 

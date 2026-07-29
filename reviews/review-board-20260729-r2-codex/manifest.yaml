@@ -1,0 +1,57 @@
+run_id: review-board-20260729-r2-codex
+relates_to: reviews/review-board-20260729-063516 (round 1)
+source_commit: 3f35621c8b790feb3ffb86f8df0df3df2b800d35
+all_reviewers_model: codex-default
+all_reviewers_provider: OpenAI Codex CLI
+note: clean-room and audience lanes were given NO round-1 findings and no stated diagnosis;
+      adversarial lane was given the full round-1 synthesis and told to attack it.
+reviewers:
+  - lane_persona: cleanroom-a
+    dependence_cluster: clean-room (independent)
+    prompt: prompt-cleanroom-a.md
+    prompt_sha256: c76e90321c4153acd7bc87d29c875b1966b2583a6b15a6c5b32ab77c167f088e
+    raw_output: codex-cleanroom-a.md
+    raw_output_sha256: 6a427d2a2307ad54c64271d6a60197843f24b80e8e3e6af04f7dc1c88504871b
+  - lane_persona: cleanroom-b
+    dependence_cluster: clean-room (independent)
+    prompt: prompt-cleanroom-b.md
+    prompt_sha256: a1d161c71f65354ec23aa27a4100afed1160c704c3cfab31bcf270a90177105d
+    raw_output: codex-cleanroom-b.md
+    raw_output_sha256: 14df13ce5a9c4f5a07a6f314bb79cad05daf070dd3e0a5fb8801aeef60486bb2
+  - lane_persona: rebuild
+    dependence_cluster: adversarial (READ round-1 synthesis: not independent)
+    prompt: prompt-rebuild.md
+    prompt_sha256: 4b9f1d8c6f0c0ac0c7cce344e45867b5498cca75fc80855fdfa65f5bd1ac0053
+    raw_output: codex-rebuild.md
+    raw_output_sha256: 789abf62b218e6886d8c68db384d469ac5f182e328defc8fe7242d60a4a5ef07
+  - lane_persona: restraint
+    dependence_cluster: adversarial (READ round-1 synthesis: not independent)
+    prompt: prompt-restraint.md
+    prompt_sha256: e9eefd85f48710af7f3bd139278a6b7839e9882f643e0077a25437a527c25676
+    raw_output: codex-restraint.md
+    raw_output_sha256: c74a12ef216ec90419672be6060ad72a9cd3d2e7d2bae76941bb26ce7881ca85
+  - lane_persona: audience-ai
+    dependence_cluster: audience-proxy (independent)
+    prompt: prompt-audience-ai.md
+    prompt_sha256: 28e93657bf788815f41f955cbcb25304d49c69ad58d98c7ae9e5c69e079f72b8
+    raw_output: codex-audience-ai.md
+    raw_output_sha256: 68aa4778d5a68dfae98ea1bf0b30aa25f115640ccb27788829a8e29e5d36eafd
+  - lane_persona: audience-academic
+    dependence_cluster: audience-proxy (independent)
+    prompt: prompt-audience-academic.md
+    prompt_sha256: a4c6a7a982a5bf103a804a63d36baf2dfa9a0db9ba83fa17558239d9d1eef288
+    raw_output: codex-audience-academic.md
+    raw_output_sha256: 02721912b9b9a13f7cfd10d7cb56405d6fbff5d2cd24fe5cf91a2a567fd0da8e
+inspected_sources:
+  - path: index-new.html
+    sha256: e8de454b7c22a2848c47780c3eddc025701d99acc559a8f419a8a0ef1439e4d7
+  - path: style-v2.css
+    sha256: f6300fd27ae4a6a9f116b63618fb466dd28bd1ee0afbc3a39407032b5641be13
+  - path: style.css
+    sha256: ce7fec8913b46cbfbbd61e0f5d83a5a98cf39991b8545b71df2e14a8afd92ecd
+  - path: about.html
+    sha256: ddff45acd7b89085a787c227c279494993346f9846d76c35e7920d017c71322b
+  - path: index.html
+    sha256: dd2465c735ecb46acf20acb9976a5b71a06bfefd2ba91400a2b7ea78f37b6c7d
+synthesis: synthesis.md
+synthesis_sha256: 2d6230d2f055e78bd690dc33272cac87046f0b1211efff220e879dc2778a2225

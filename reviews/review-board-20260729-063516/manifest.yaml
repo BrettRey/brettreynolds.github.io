@@ -1,0 +1,61 @@
+run_id: review-board-20260729-063516
+target: index-new.html (+ style-v2.css, about.html); compared against live index.html
+source_commit: 3f35621c8b790feb3ffb86f8df0df3df2b800d35
+shared_prompt: prompt-shared.md
+shared_prompt_sha256: a005182f171e931dd83187a7cefab1a8f7c13178b8c3d7905e19d5d672ae38a4
+note: all seven reviewers share one prompt author and one shared context block;
+      treat cross-model agreement as weaker than independent expert agreement.
+reviewers:
+  - persona: bringhurst
+    model: claude-fable-5
+    provider: Anthropic
+    dependence_cluster: fable+shared-prompt
+    raw_output: fable-bringhurst.md
+    raw_output_sha256: 2056aa744f81ef54a75a9cc3953b871e69b0eb15d687f2eb56cd9d7a75f7b86d
+  - persona: chimero
+    model: claude-fable-5
+    provider: Anthropic
+    dependence_cluster: fable+shared-prompt
+    raw_output: fable-chimero.md
+    raw_output_sha256: 9a534eb6150acb423ee3eb5991e06ede2016a54e871715d529e347c8c29d829a
+  - persona: lupton
+    model: claude-opus-5
+    provider: Anthropic
+    dependence_cluster: opus+shared-prompt
+    raw_output: opus-lupton.md
+    raw_output_sha256: 98961db138f5aaf95d49ac0e6cd2d6cf75ece8ca949bcfce5a1d52baf565ec9d
+  - persona: tufte
+    model: claude-opus-5
+    provider: Anthropic
+    dependence_cluster: opus+shared-prompt
+    raw_output: opus-tufte.md
+    raw_output_sha256: 6faf6f016857927ee7a333242f9cb6f29d8d061be1060560df4716157d89eebc
+  - persona: reichenstein
+    model: claude-opus-5
+    provider: Anthropic
+    dependence_cluster: opus+shared-prompt
+    raw_output: opus-reichenstein.md
+    raw_output_sha256: 755c62655bbab2c29c739180e93031da9d8935463399930853cb8474f9b2b346
+  - persona: butterick
+    model: codex-default
+    provider: OpenAI Codex CLI
+    dependence_cluster: codex+shared-prompt
+    raw_output: codex-butterick.md
+    raw_output_sha256: f644f340a7fc0cc44d38b90d27247a3caecda7195acfe0866b829717d81e1345
+  - persona: vignelli
+    model: codex-default
+    provider: OpenAI Codex CLI
+    dependence_cluster: codex+shared-prompt
+    raw_output: codex-vignelli.md
+    raw_output_sha256: e85a0e02dd58bbe7c4f52e2f3abafa2771708e5ab5bdc6b507fc9a60cf236bf0
+inspected_sources:
+  - path: index-new.html
+    sha256: e8de454b7c22a2848c47780c3eddc025701d99acc559a8f419a8a0ef1439e4d7
+  - path: style-v2.css
+    sha256: f6300fd27ae4a6a9f116b63618fb466dd28bd1ee0afbc3a39407032b5641be13
+  - path: style.css
+    sha256: ce7fec8913b46cbfbbd61e0f5d83a5a98cf39991b8545b71df2e14a8afd92ecd
+  - path: about.html
+    sha256: ddff45acd7b89085a787c227c279494993346f9846d76c35e7920d017c71322b
+  - path: index.html
+    sha256: dd2465c735ecb46acf20acb9976a5b71a06bfefd2ba91400a2b7ea78f37b6c7d

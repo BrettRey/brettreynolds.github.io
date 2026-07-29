@@ -64,4 +64,12 @@
     <loc>https://brettreynolds.ca/llms.txt</loc>
     <lastmod>2026-07-02</lastmod>
   </url>
+  <url>
+    <loc>https://brettreynolds.ca/about.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brettreynolds.ca/cgel-correctives.html</loc>
+    <priority>0.7</priority>
+  </url>
 </urlset>

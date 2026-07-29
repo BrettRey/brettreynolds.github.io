@@ -1,0 +1,578 @@
+/* Brett Reynolds - homepage v3
+   STANDALONE. Deliberately does not layer over style.css: the v2 homepage
+   broke because an override sheet collided with the base sheet on specificity.
+   This file owns everything the v3 homepage needs.
+
+   Type scale, four sizes only:  0.875 / 1 / 1.25 / 1.75 rem
+   Colour roles, five:           bg / text / meta / rule / link
+   Measure is in rem, not em, so every prose block shares one right edge.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+:root {
+  color-scheme: light;
+  --bg: #fafafa;
+  --text: #1c1c1c;
+  --meta: #5a5a5a;
+  --rule: #dcdcdc;
+  --link: #800020;
+
+  --t-meta: 0.875rem;
+  --t-body: 1rem;
+  --t-name: 1.25rem;
+  --t-display: 1.75rem;
+
+  --measure: 30rem;
+  --shell: 46rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #121212;
+    --text: #ece8e2;
+    --meta: #a9a29a;
+    --rule: #333;
+    --link: #e695a2;
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #121212;
+  --text: #ece8e2;
+  --meta: #a9a29a;
+  --rule: #333;
+  --link: #e695a2;
+}
+
+:root[data-theme="light"] { color-scheme: light; }
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  font-size: 19px;
+  line-height: 1.55;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+  font-size: var(--t-body);
+  color: var(--text);
+  background: var(--bg);
+  max-width: var(--shell);
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
+}
+
+/* Links: maroon means clickable, and prose links are underlined so colour
+   is not the only signal. */
+a { color: var(--link); text-decoration: none; }
+a:hover, a:focus-visible { text-decoration: underline; }
+p a, .role a { text-decoration: underline; text-underline-offset: 0.14em; }
+a:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+
+/* ---------- Identity ---------- */
+
+.id {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  margin-bottom: 0.9rem;
+}
+
+.id img {
+  width: 106px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+h1 {
+  font-size: var(--t-name);
+  font-weight: 500;
+  font-variant: small-caps;
+  letter-spacing: 0.06em;
+  line-height: 1.2;
+}
+
+.affil {
+  font-size: var(--t-meta);
+  color: var(--meta);
+  margin-top: 0.15rem;
+}
+
+.role {
+  margin-top: 0.5rem;
+  max-width: var(--measure);
+}
+
+.topnav {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1.4rem;
+  margin-top: 0.7rem;
+  font-size: var(--t-meta);
+}
+
+.topnav a { text-decoration: underline; text-underline-offset: 0.14em; }
+
+hr {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 2rem 0;
+}
+
+/* ---------- Sections ---------- */
+
+section { margin-bottom: 2.5rem; }
+
+h2 {
+  font-size: var(--t-body);
+  font-weight: 400;
+  font-variant: small-caps;
+  letter-spacing: 0.09em;
+  color: var(--meta);
+  margin-bottom: 1rem;
+}
+
+section > p { max-width: var(--measure); margin-bottom: 0.8rem; }
+
+/* ---------- Featured item (current priority) ---------- */
+
+.featured {
+  border-left: 3px solid var(--link);
+  padding-left: 1.1rem;
+}
+
+.featured .title {
+  font-size: var(--t-name);
+  line-height: 1.3;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+/* :not(.status) so the descendant rule cannot quietly outrank .status,
+   which is exactly how the v2 thesis line was lost. */
+.featured > p:not(.status) { max-width: var(--measure); margin-bottom: 0.6rem; }
+
+.status {
+  font-size: var(--t-meta);
+  color: var(--meta);
+  margin-bottom: 0.5rem;
+}
+
+.actions {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1.1rem;
+  font-size: var(--t-meta);
+}
+
+.actions a { text-decoration: underline; text-underline-offset: 0.14em; }
+
+.inprep {
+  margin-top: 1.4rem;
+  padding-left: 1.1rem;
+  border-left: 3px solid var(--rule);
+  max-width: var(--measure);
+}
+
+.inprep .status { margin-bottom: 0.15rem; }
+
+/* ---------- The thesis, earned by the artifact above it ---------- */
+
+.thesis-q {
+  font-size: var(--t-display);
+  font-weight: 400;
+  font-variant: normal;
+  letter-spacing: 0;
+  line-height: 1.25;
+  color: var(--text);
+  max-width: 18em;
+  margin-bottom: 0.9rem;
+  text-wrap: balance;
+}
+
+/* ---------- Work lists ---------- */
+
+.works { list-style: none; }
+
+.works li {
+  margin-bottom: 0.9rem;
+  max-width: var(--measure);
+}
+
+.works .title { display: block; line-height: 1.35; }
+
+.works .meta {
+  display: block;
+  font-size: var(--t-meta);
+  color: var(--meta);
+  margin-top: 0.1rem;
+}
+
+.works .meta a { color: var(--link); margin-right: 0.7rem; }
+
+/* ---------- Resources ---------- */
+
+.resources {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.6rem;
+  font-size: var(--t-body);
+}
+
+/* ---------- Prose pages (about) ---------- */
+
+.prose { max-width: var(--measure); }
+.prose p { margin-bottom: 0.9rem; }
+.prose h2 { margin-top: 1.8rem; }
+.back-link { margin-top: 2rem; font-size: var(--t-meta); }
+.back-link a { text-decoration: underline; text-underline-offset: 0.14em; }
+
+/* ---------- Footer ---------- */
+
+footer {
+  border-top: 1px solid var(--rule);
+  padding-top: 1.2rem;
+  font-size: var(--t-meta);
+  color: var(--meta);
+}
+
+.utility {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.utility a { text-decoration: underline; text-underline-offset: 0.14em; }
+
+/* ---------- Theme toggle (matches theme.js hooks) ---------- */
+
+.theme-toggle {
+  position: fixed;
+  top: 0.75rem;
+  right: max(0.75rem, calc((100vw - var(--shell)) / 2 + 0.75rem));
+  z-index: 20;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-height: 2.1rem;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  color: var(--text);
+  background: var(--bg);
+  cursor: pointer;
+  font: 0.8rem/1 system-ui, -apple-system, sans-serif;
+}
+
+.theme-toggle:hover { border-color: var(--link); }
+.theme-toggle:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+
+/* ---------- Narrow screens ----------
+   No font-size inversion here: the display line stays larger than the name
+   at every width, which the v2 sheet got wrong. */
+
+/* Support grade: a closed four-word vocabulary, reusing the meta size and the
+   small-caps treatment. Published / Under review / Preprint / In preparation. */
+
+/* ================= Crossing matrix (v6) =================
+   Rows are questions, columns are fields, a cell is a result rather than a
+   membership. Hairlines and whitespace only: boxes would reinstate CONTAINER
+   at higher resolution. No new colour token; the tint is mixed from --link. */
+
+.matrix { width: 100%; border-collapse: collapse; margin-top: 1.4rem; }
+
+.matrix thead th {
+  font-size: var(--t-meta);
+  font-variant: small-caps;
+  letter-spacing: 0.07em;
+  font-weight: 400;
+  color: var(--meta);
+  text-align: left;
+  padding: 0 0.9rem 0.5rem 0;
+  border-bottom: 1px solid var(--rule);
+  width: 33.33%;
+}
+
+.matrix .q th {
+  text-align: left;
+  font-weight: 400;
+  font-size: var(--t-body);
+  padding: 1.5rem 0 0.5rem;
+  position: sticky;          /* question stays visible while reading across */
+  top: 0;
+  background: var(--bg);
+  text-wrap: balance;
+}
+
+.matrix td {
+  vertical-align: top;
+  padding: 0.5rem 0.9rem 0.9rem 0;
+  border-top: 1px solid var(--rule);
+  font-size: var(--t-meta);
+  transition: opacity 0.15s, background-color 0.15s;
+}
+
+.matrix td .work { display: block; line-height: 1.3; font-size: var(--t-body); }
+.matrix td .note { display: block; color: var(--meta); margin-top: 0.15rem; }
+.colkey { display: none; }
+
+/* An empty cell is a visible gap, and that is honest. */
+.matrix td:empty::after { content: "\2014"; color: var(--rule); }
+
+/* Works that state the question sit in no column. */
+.matrix .whole td { border-top: 1px solid var(--rule); }
+
+/* --- Column tracing on hover, CSS only, via :has() --- */
+@supports selector(:has(*)) {
+  .matrix:has(td:nth-child(1):hover) tbody:not(.whole) td:nth-child(1),
+  .matrix:has(td:nth-child(2):hover) tbody:not(.whole) td:nth-child(2),
+  .matrix:has(td:nth-child(3):hover) tbody:not(.whole) td:nth-child(3) {
+    background: color-mix(in srgb, var(--link) 7%, transparent);
+  }
+}
+
+/* --- Column focus via :target, CSS only, no JavaScript --- */
+.fieldfocus { font-size: var(--t-meta); color: var(--meta); margin-top: 1.2rem; }
+.fieldfocus a { text-decoration: underline; text-underline-offset: 0.14em; }
+.anchor { display: block; height: 0; }
+
+#f-ai:target     ~ .matrix tbody:not(.whole) td:not(:nth-child(1)),
+#f-phil:target   ~ .matrix tbody:not(.whole) td:not(:nth-child(2)),
+#f-gram:target   ~ .matrix tbody:not(.whole) td:not(:nth-child(3)) { opacity: 0.25; }
+
+/* ---- Publication state: a workflow fact, not an epistemic grade (v7) ---- */
+.state {
+  font-variant: small-caps;
+  letter-spacing: 0.07em;
+  color: var(--text);
+}
+/* Separators are real characters in the markup (see .sep), never generated
+   content: an anchor paints its underline across ::after, and :last-child
+   cannot see trailing text nodes. */
+/* An anchor paints its underline across ::after, so linked states get their
+   separator from a real character in the markup instead. */
+
+/* ---- Result capsule on the featured item (v7) ---- */
+.capsule { list-style: none; margin: 0.6rem 0 0.8rem; max-width: var(--measure); }
+.capsule li { font-size: var(--t-meta); margin-bottom: 0.25rem; }
+.capsule .k {
+  font-variant: small-caps;
+  letter-spacing: 0.07em;
+  color: var(--meta);
+  margin-right: 0.4rem;
+}
+
+/* ---- Link discipline (v7b) ----
+   Titles are plain text; the short publication-state label carries the link.
+   Keeps the maroon to small, predictable targets instead of a wall of red. */
+.work, .works .title { color: var(--text); }
+
+a.state { color: var(--link); text-decoration: underline; text-underline-offset: 0.14em; }
+a.state:hover, a.state:focus-visible { text-decoration-thickness: 2px; }
+
+/* Visually hidden: gives each repeated "Public preprint" link a unique
+   accessible name, so a screen-reader links list is not 12 identical rows. */
+.vh {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.sep { color: var(--meta); }
+
+/* ================= Ported components =================
+   Rules the publications, essays, and CGEL-correctives pages need, moved off
+   style.css and re-expressed in the v3 tokens so those pages inherit the
+   corrected measure, root size, and colour roles. */
+
+.pub-section { margin-bottom: 2.5rem; }
+
+.pub-list { list-style: none; }
+
+.pub-list li {
+  margin-bottom: 0.9rem;
+  margin-left: 1.4rem;
+  text-indent: -1.4rem;
+  max-width: var(--measure);
+}
+
+.pub-links, .cluster-links { font-size: var(--t-meta); }
+.pub-links a, .cluster-links a { margin-right: 0.6rem; }
+
+.essay-summary { display: block; color: var(--meta); font-size: var(--t-meta); margin-top: 0.15rem; }
+
+.page-intro { max-width: var(--measure); margin: 1rem 0 2rem; }
+
+.cluster-list { list-style: none; }
+
+.cluster-list li {
+  margin-bottom: 1.1rem;
+  padding-left: 0.9rem;
+  border-left: 2px solid var(--rule);
+  max-width: var(--measure);
+}
+
+.cluster-list li.core { border-left-color: var(--link); }
+.cluster-title { display: block; font-weight: 500; }
+.cluster-meta { display: block; color: var(--meta); font-size: var(--t-meta); margin: 0.1rem 0 0.2rem; }
+.cluster-note { margin: 1.4rem 0; color: var(--meta); max-width: var(--measure); }
+
+.smallcaps { font-variant: small-caps; letter-spacing: 0.05em; }
+
+/* Long reference/citation pages need a wider shell than the homepage measure. */
+.wide { --shell: 52rem; }
+
+/* Matrix stacks earlier than the rest of the page: three columns of academic
+   titles are cramped below roughly 48rem, well before the global mobile break. */
+@media (max-width: 48rem) {
+  .matrix, .matrix tbody, .matrix tr, .matrix td { display: block; width: auto; }
+  .matrix thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+  .matrix .q th { display: block; position: static; }
+  .matrix td { border-top: none; padding: 0.35rem 0 0.35rem 0.9rem; border-left: 1px solid var(--rule); }
+  .matrix td:empty { display: none; }
+  .colkey {
+    display: block;
+    font-size: var(--t-meta);
+    font-variant: small-caps;
+    letter-spacing: 0.07em;
+    color: var(--meta);
+  }
+}
+
+/* ---------- Narrow screens ----------
+   The display line stays larger than the name at every width. */
+@media (max-width: 34rem) {
+  html { font-size: 17px; }
+  body { padding: 1.75rem 1rem 3rem; }
+  .id { gap: 1rem; }
+  .id img { width: 80px; height: 120px; }
+  :root { --t-display: 1.5rem; --t-name: 1.15rem; }
+  .id {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 1rem;
+    row-gap: 0.35rem;
+    align-items: start;
+  }
+  .id > div { display: contents; }
+  .id img { grid-column: 1; grid-row: 1 / span 2; }
+  .id h1 { grid-column: 2; grid-row: 1; }
+  .affil { grid-column: 2; grid-row: 2; margin-top: 0; }
+  .role { grid-column: 1 / -1; margin-top: 0.6rem; }
+  .topnav { grid-column: 1 / -1; }
+}
+
+/* Colour alone is not a sufficient link signal (WCAG 1.4.1). */
+.pub-links a, .cluster-links a, .essay-summary a, .pub-list a, .page-intro a {
+  text-decoration: underline;
+  text-underline-offset: 0.14em;
+}
+
+/* ================= Long-form essay pages =================
+   Ported from style.css so the essays inherit the corrected measure and root
+   size. Book-like setting is deliberate here: first-line indents and justified
+   text suit continuous reading, unlike the scannable homepage. */
+
+.essay-meta { color: var(--meta); font-size: var(--t-meta); margin-bottom: 0.4rem; }
+
+.essay-content { max-width: var(--measure); margin-top: 1.4rem; }
+
+.essay-content p {
+  margin-bottom: 0;
+  text-indent: 1.5em;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.essay-content p:first-of-type,
+.essay-content h2 + p,
+.essay-content h3 + p,
+.essay-content hr + p,
+.essay-content ul + p,
+.essay-content ol + p,
+.essay-content blockquote + p,
+.essay-content section + p { text-indent: 0; }
+
+.essay-content h2, .essay-content h3 { margin-top: 1.8rem; }
+
+.essay-content ul { margin: 1rem 0; padding-left: 1.5em; list-style: none; }
+.essay-content ol { margin: 1rem 0; padding-left: 1.8em; }
+.essay-content li { margin-bottom: 0.4rem; }
+.essay-content ul > li { padding-left: 1em; text-indent: -1em; }
+.essay-content ul > li::before {
+  content: "\2013";
+  display: inline-block;
+  width: 1em;
+  color: var(--meta);
+}
+
+h3 {
+  font-size: var(--t-body);
+  font-weight: 500;
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.6rem;
+}
+
+blockquote {
+  margin: 1.3rem 0;
+  padding: 0.2rem 0 0.2rem 1.1rem;
+  border-left: 2px solid var(--rule);
+  color: var(--meta);
+  max-width: var(--measure);
+}
+blockquote p { text-indent: 0 !important; text-align: left; margin-bottom: 0.5rem; }
+blockquote p:last-child { margin-bottom: 0; }
+
+code {
+  font-family: 'Inconsolata', ui-monospace, Menlo, Consolas, monospace;
+  font-size: 0.88em;
+}
+
+table { border-collapse: collapse; margin: 1.2rem 0; font-size: var(--t-meta); }
+table th, table td {
+  border-bottom: 1px solid var(--rule);
+  padding: 0.45rem 0.7rem 0.45rem 0;
+  text-align: left;
+  vertical-align: top;
+}
+table th { font-weight: 500; }
+
+.citation { font-size: var(--t-meta); color: var(--meta); }
+
+.references {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+  max-width: var(--measure);
+}
+.ref-heading {
+  font-variant: small-caps;
+  letter-spacing: 0.07em;
+  color: var(--meta);
+  margin-bottom: 0.9rem;
+}
+.ref-entry {
+  font-size: var(--t-meta);
+  color: var(--meta);
+  margin-bottom: 0.6rem;
+  padding-left: 2em;
+  text-indent: -2em !important;
+  text-align: left;
+}

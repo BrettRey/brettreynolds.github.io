@@ -18,12 +18,12 @@ const citationAliases = new Map([
 const papers = [
   {
     slug: "adversarial-pragmatics-for-ai-safety-evaluation",
-    title: "Adversarial Pragmatics for AI Safety Evaluation: A Benchmark for Instruction Conflict, Embedded Commands, and Policy Ambiguity",
+    title: "Adversarial Pragmatics for AI Safety Evaluation: A Diagnostic Framework and Seed Benchmark for Language-Mediated Control",
     shortTitle: "Adversarial Pragmatics for AI Safety Evaluation",
     status: "arXiv preprint",
     year: "2026",
-    versionDate: "2026-07-16",
-    sourceTex: "papers/development/adversarial-pragmatics-for-ai-safety-evaluation/main.tex",
+    versionDate: "2026-07-30",
+    sourceTex: "papers/development/adversarial-pragmatics-for-ai-safety-evaluation/adversarial-pragmatics-for-ai-safety-evaluation.tex",
     bibliography: [
       "papers/development/adversarial-pragmatics-for-ai-safety-evaluation/references.bib",
       "papers/development/adversarial-pragmatics-for-ai-safety-evaluation/references-local.bib",
@@ -46,10 +46,10 @@ const papers = [
       },
     ],
     keywords: ["AI safety evaluation", "adversarial pragmatics", "instruction hierarchy", "prompt injection", "annotation protocols", "benchmark validity", "LLM judges"],
-    description: "A linguistically controlled benchmark and annotation protocol for evaluating language-model behaviour under instruction conflict, embedded commands, quotation, scope ambiguity, deixis, indirect speech acts, and multi-turn agent transcripts.",
+    description: "A linguistically controlled benchmark and annotation protocol for evaluating language-model behaviour under instruction conflict, embedded commands, quotation, scope ambiguity, deixis, and indirect speech acts. Designed to extend to multi-turn agent transcripts, though the seed set represents that family with a single-turn tool-result contrast.",
     bibtex: `@unpublished{reynolds2026adversarialPragmatics,
   author = {Reynolds, Brett},
-  title = {Adversarial Pragmatics for AI Safety Evaluation: A Benchmark for Instruction Conflict, Embedded Commands, and Policy Ambiguity},
+  title = {Adversarial Pragmatics for AI Safety Evaluation: A Diagnostic Framework and Seed Benchmark for Language-Mediated Control},
   year = {2026},
   note = {arXiv:2607.01153; source repository},
   url = {https://arxiv.org/abs/2607.01153}

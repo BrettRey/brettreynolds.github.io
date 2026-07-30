@@ -1,10 +1,17 @@
 # STATUS.md
-<!-- SUMMARY: Static site state for brettreynolds.ca · status: live; homepage rebuild v7 approved, awaiting promotion to index.html · updated: 2026-07-29 -->
+<!-- SUMMARY: Static site state for brettreynolds.ca · status: live; homepage rebuild v7 approved, awaiting promotion to index.html · updated: 2026-07-30 -->
 
 ## Current State
 
 **Status:** Static site maintained for brettreynolds.ca
-**Last updated:** 2026-07-29
+**Last updated:** 2026-07-30
+
+### 2026-07-30 Session Notes
+- **Adversarial-pragmatics surfaces synced to arXiv v3 and pushed** (`66afba8`). v3 of arXiv:2607.01153 went public in the 2026-07-30 mailing with a retitle, which made the old subtitle stale in `publications.html`, `llms.txt`, `papers/index.html`, the paper mirror, `cite.bib`, and the paper page including both JSON-LD fields. All corrected.
+- **`llms.txt` had been asserting a claim the paper retracted.** The generator `description` listed "multi-turn agent transcripts" among covered phenomena; the v3 abstract pulls that back to a single-turn tool-result contrast. Reworded in the generator config so it stays fixed.
+- **`scripts/generate-paper-mirrors.mjs` was broken for that paper and would have failed on its next run.** `sourceTex` pointed at `main.tex`, deleted by the paper repo's 2026-07-22 entry-point rename. Latent for eight days because the last regeneration (2026-07-16) predates the rename. Repointed; mirror regenerated from the v3 manuscript (442 lines changed).
+- **Verified live rather than assumed.** Pages build reported `built` with `error: null` for `66afba8`, then each changed URL was curl'd, including downloading `cv.pdf` and running `pdftotext` on it.
+- Dashboard `ITEMS` entry refreshed for v3; `ASOF` and masthead were already at 30 Jul. `index.html` untouched, so the pending v7 homepage promotion is undisturbed.
 
 ### 2026-07-29 Session Notes
 - **Homepage rebuilt and approved, not yet deployed.** `index-v7.html` + standalone `style-v3.css` + `about.html` + `Brett_Reynolds-320.jpg`. Structure: identity/routing, featured current artifact with a grounded result capsule, thesis question, question-by-field crossing matrix, selected published work, resources. Brett approved this version 2026-07-29 and settled the umbrella term as "philosophy of science".

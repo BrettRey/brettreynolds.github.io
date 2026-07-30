@@ -47,7 +47,7 @@ Matches Brett's LaTeX house style:
 - **CV:** Replace `cv.pdf` with new version
 - **Publications:** Edit `publications.html` directly (add `<li>` entries)
 - **Bio:** Edit the `<p class="bio">` in `index.html`
-- **PM dashboard:** `dashboard-2b91a1.html` is an unlisted portfolio snapshot, refreshed by the `status-surface-update` skill whenever PORTFOLIO.md status changes. Keep it out of `sitemap.xml`, `llms.txt`, and all navigation; keep its `noindex` meta. Data lives in the page's `ITEMS` array; counts and day bars compute at runtime.
+- **PM dashboard:** no longer lives here. It moved to `Project-Management/dashboard.html` in the portfolio (2026-07-30), as a single self-contained file opened from disk. Do not re-add a portfolio dashboard to this repo: an unlisted filename was its only access control, and this repo's own STATUS.md and DECISIONS.md are served as text/markdown at brettreynolds.ca, so naming the file here published the token. Data lives in the page's `ITEMS` array; counts and day bars compute at runtime.
 
 ## Multi-Agent Dispatch (MANDATORY)
 

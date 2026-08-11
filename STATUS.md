@@ -1,10 +1,16 @@
 # STATUS.md
-<!-- SUMMARY: Static site state for brettreynolds.ca · status: live; homepage rebuild v7 approved, awaiting promotion to index.html · updated: 2026-07-30 -->
+<!-- SUMMARY: Static site state for brettreynolds.ca · status: live; homepage rebuild v7 approved, awaiting promotion to index.html · updated: 2026-08-11 -->
 
 ## Current State
 
 **Status:** Static site maintained for brettreynolds.ca
-**Last updated:** 2026-07-30
+**Last updated:** 2026-08-11
+
+### 2026-08-11 Session Notes
+- **SIEG2 errata page shipped** (`93066d0`): new `sieg2-errata.html`, linked from `publications.html` and `index.html`, indexed in `sitemap.xml` and `llms.txt`.
+- **The list was reconstructed from Gmail, not from any existing document.** Cambridge implemented two correction rounds (mid-2022, February 2023) and refused the third on 16 April 2024 under its two-year policy, so the 1 April 2024 batch and every report since had never been collected anywhere public. Source documents archived outside the repo at `~/Documents/CGEL/SIEG2-errata-sources/`; three of the four existed only as mail attachments.
+- **Provenance limits are stated on the page.** It is built from correspondence, not from collating printings, so an item may already be fixed in a given copy. Two answer-guide reports neither author adjudicated are held in a separate "reported, not yet settled" section rather than asserted.
+- Rationale and the naming-of-reporters call are in `DECISIONS.md` under the same date.
 
 ### 2026-07-30 Session Notes
 - **Adversarial-pragmatics surfaces synced to arXiv v3 and pushed** (`66afba8`). v3 of arXiv:2607.01153 went public in the 2026-07-30 mailing with a retitle, which made the old subtitle stale in `publications.html`, `llms.txt`, `papers/index.html`, the paper mirror, `cite.bib`, and the paper page including both JSON-LD fields. All corrected.

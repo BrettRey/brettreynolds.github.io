@@ -35,6 +35,7 @@
 ## Human-Facing Pages
 
 - [Publications](https://brettreynolds.ca/publications.html): Full publication list.
+- [Errata: A Student's Introduction to English Grammar, 2nd edition](https://brettreynolds.ca/sieg2-errata.html): Known errors in Huddleston, Pullum and Reynolds (2022), separated into the corrections Cambridge has declined to make, the answer-guide errors, and the corrections implemented in printings after the first.
 - [Essays](https://brettreynolds.ca/essays.html): Human-facing essays and talks.
 - [Why I Work This Way](https://brettreynolds.ca/why-i-work-this-way.html): An essay on speed, projectibility-first research, and agentic Codex/Claude Code-style systems as workspace infrastructure for science and philosophy.
 - [About](https://brettreynolds.ca/about.html): Full biography, affiliations, research focus, and profile links for Brett Reynolds.

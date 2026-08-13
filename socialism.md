@@ -56,10 +56,8 @@ The relevant powers include:
 
 - residual income;
 - appointment and governance rights;
-
 - operational authority;
 - investment authority;
-
 - transfer or liquidation rights;
 - residual authority where existing rules do not settle a dispute.
 
@@ -103,7 +101,6 @@ It is useful to distinguish:
 
 - institutions constitutive of a particular project of socialization;
 - complementary institutions affecting how socialized powers operate;
-
 - background conditions such as administrative capacity, knowledge, ecology, and inherited productive resources;
 - historically recruited institutions incorporated into specific formations.
 
@@ -131,7 +128,7 @@ Six questions order the analysis:
 
 The worked inferences in §§6.6–6.7 apply questions 3 through 6 as a five-step evidential test followed by a scope restriction, stated here so that the application uses a rule announced in advance: identify the mechanism; show that it operated; connect it to the institutional structure at the scope claimed; test whether it resisted correction; assess robustness across variants; then restrict the verdict accordingly.
 
-The pair’s definitions are stipulations, answerable to the explanatory work a category can do rather than to ordinary usage. Stipulation also makes room for field relativity: different explanatory projects may draw somewhat different boundaries around socialism and capitalism, so a Marxian socialism and an ecological socialism can overlap substantially in extension while remaining distinct [categories](https://plato.stanford.edu/entries/natural-kinds/), each answerable to what its field needs the category to explain. Nothing in what follows requires one of them to be the real one; it requires each claim to say which category, at what scope, it concerns.
+The pair’s definitions are stipulations, answerable to the explanatory work a category can do rather than to ordinary usage. Stipulation also makes room for field relativity: different explanatory projects may draw somewhat different boundaries around socialism and capitalism, so the labour historian’s socialism, a family of movements and projects, and the comparative economist’s socialism, a family of institutional formations, can overlap substantially in extension while remaining distinct [categories](https://plato.stanford.edu/entries/natural-kinds/), each answerable to what its field needs the category to explain. Nothing in what follows requires one of them to be the real one; it requires each claim to say which category, at what scope, it concerns.
 
 The definitions of socialism and capitalism are deliberately different in kind. Capitalism is identified structurally, through recurrent accumulation, and can arise with no one intending it; socialist projects are identified partly through programmatic genealogy, while socialist institutions and formations are categorized by the productive powers actually socialized and their extent (§1.4). The asymmetry is both a historical claim (the traditions did enter history differently) and a stipulative choice, made because unintended socialization rarely organizes a formation the way unintended accumulation can. Nothing evidential hangs on it. Evidence eligibility is governed by questions 3 through 6, which treat favourable and adverse records of both families identically: a socialist formation that fails by socialist standards is admitted as evidence by the same rule that admits a capitalist formation nobody designed.
 
@@ -308,7 +305,6 @@ This suggests dividing institutional tasks rather than asking worker cooperative
 
 - worker governance for workplace authority;
 - broad citizen ownership for capital-income distribution;
-
 - plural investment institutions for project selection;
 - public regulation and stakeholder institutions for effects on outsiders.
 
@@ -471,10 +467,8 @@ The relevant variables are separate:
 
 - breadth of beneficial ownership;
 - distribution of income;
-
 - governance rights;
 - investment authority;
-
 - residual political-economic power.
 
 Socialism’s democratic aspirations concern the latter dimensions at least as much as nominal breadth of ownership.
@@ -582,7 +576,6 @@ Capitalist, socialist, and hybrid systems should be evaluated along the same dim
 
 - productive capacity;
 - welfare;
-
 - security;
 - equality;
 - liberty and effective exit;

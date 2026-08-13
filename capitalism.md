@@ -86,7 +86,6 @@ At least four distributions must therefore remain distinct:
 
 - beneficial ownership;
 - residual income;
-
 - governance and voting authority (rights many ultimate beneficiaries never exercise);
 - economically consequential resources capable of coordinated deployment.
 
@@ -112,7 +111,6 @@ It is useful to distinguish:
 
 - constitutive institutions central to a particular capitalist structure;
 - complementary institutions that materially alter how central institutions work;
-
 - background conditions such as human reproduction, ecological systems, inherited knowledge, and public order;
 - historically recruited institutions that become causally integrated into particular formations without being necessary to capitalism generally.
 
@@ -210,10 +208,8 @@ The central design question is which institutions should combine or separate:
 
 - capital provision;
 - residual risk;
-
 - monitoring;
 - governance;
-
 - residual returns.
 
 ### 3.3 Labour, bargaining, and exploitation
@@ -495,7 +491,6 @@ Disagreement can concern:
 
 - empirical consequences;
 - institutional feasibility and dynamic stability;
-
 - normative weighting of outcomes.
 
 The useful question is not *capitalism or socialism?* but:

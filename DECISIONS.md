@@ -69,3 +69,5 @@ Format: `## YYYY-MM-DD` then bullet points with **bold topic** and brief rationa
 2026-08-13 — Added paired reference entries: capitalism.html, socialism.html, capitalism-socialism.html (landing with method and AI-involvement notes), markdown mirrors, essays.html listing, llms.txt Reference Entries section.
 
 2026-08-13 — Added capitalism-socialism-formal.html (Alloy machine-check of the entries' categorization rules) with model source; landing page wired to it; information-structure and title-italics fixes.
+
+2026-08-13 — Second SEP link round and flagged Wikipedia links added to both entries (superscript-W convention, explained in footers).

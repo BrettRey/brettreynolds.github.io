@@ -1,6 +1,6 @@
 # Socialism
 
-Socialism names both a family of political aspirations and a family of projects for transforming economic institutions. Socialist traditions have sought, in different combinations, greater welfare, equality, solidarity, freedom from exploitation and domination, meaningful work, workplace democracy, social control over productive wealth, and ecological sustainability. They have proposed worker ownership, cooperatives, public ownership, social wealth funds, planning, markets under social ownership, municipal institutions, councils, public banks, universal provision, and other arrangements as means to those ends.
+Socialism names both a family of political aspirations and a family of projects for transforming economic [institutions](https://plato.stanford.edu/entries/social-institutions/). Socialist traditions have sought, in different combinations, greater welfare, equality, solidarity, freedom from exploitation and domination, meaningful work, workplace democracy, social control over productive wealth, and ecological sustainability. They have proposed worker ownership, cooperatives, public ownership, social wealth funds, planning, markets under social ownership, municipal institutions, councils, public banks, universal provision, and other arrangements as means to those ends.
 
 The aspirations are not decoration; they are part of what identifies the tradition. Capitalist institutions can arise without participants intending to instantiate capitalism, although capitalism can later become a reflexive political project. Socialism has a more characteristically programmatic genealogy. Communal property, a public enterprise, worker participation, or redistribution does not become socialist merely because socialists might approve of it. Socialist institutions characteristically enter the relevant history through attempts to transform economic power in accordance with recognizably socialist aims. Global histories of socialism accordingly treat the tradition as a set of heterogeneous movements and projects rather than one institutional model diffusing unchanged from Europe (van der Linden 2022).
 
@@ -32,11 +32,11 @@ Fourth, institutional interaction and system effects: how do these arrangements 
 
 Common ownership, redistribution, mutual aid, and communal production long predate socialism. Their presence alone therefore does not identify a socialist formation.
 
-Modern socialism is distinguished partly by a reflexive project of transformation, but that project has taken different forms across Europe, Asia, Africa, Latin America, and the Middle East: early egalitarian traditions, state-centred and anti-statist socialisms, labour movements, anti-colonial projects, and distinct regional traditions across several continents (van der Linden 2022). Industrial class relations have been central in some of these contexts, while anti-colonial sovereignty, agrarian transformation, rapid development, national independence, or resistance to foreign economic domination have been central in others. Socialism should therefore not be identified with one European or Soviet institutional model.
+Modern socialism is distinguished partly by a reflexive project of transformation, but that project has taken different forms across Europe, Asia, Africa, Latin America, and the Middle East: early egalitarian traditions, state-centred and anti-statist socialisms, labour movements, [anti-colonial](https://plato.stanford.edu/entries/colonialism/) projects, and distinct regional traditions across several continents (van der Linden 2022). Industrial class relations have been central in some of these contexts, while anti-colonial sovereignty, agrarian transformation, rapid development, national independence, or resistance to foreign economic domination have been central in others. Socialism should therefore not be identified with one European or Soviet institutional model.
 
 ### 1.2 Why socialization of economic power?
 
-Socialism can be organized conceptually around social ownership, equality, cooperation, ethos, democratic social power, or other ideas; this entry organizes it around economic power.
+Socialism can be organized conceptually around social ownership, [equality](https://plato.stanford.edu/entries/equality/), cooperation, ethos, democratic social power, or other ideas; this entry organizes it around economic power.
 
 This entry gives special weight to **socialization of economic power**, not because power is the only socialist value, but because socialist projects characteristically seek to alter some bundle of the powers described below.
 
@@ -81,9 +81,9 @@ Social democracy illustrates why genealogy, institution, and formation must rema
 
 A socialist political movement can govern a predominantly capitalist economy and build social insurance, public services, collective bargaining, or redistribution without thereby socializing most productive ownership. Przeworski’s analysis of social democracy centres precisely on the strategic and institutional problems faced by socialist parties operating within capitalist democracy (Przeworski 1985).
 
-The Swedish Meidner wage-earner-fund proposal was more directly socialist in the institutional sense because it sought gradually to alter claims over corporate capital rather than merely redistribute current private income. The eventual funds were substantially diluted relative to the original proposal, and were later abolished; the episode is therefore especially informative about transition, coalition stability, and the political response of incumbent interests rather than the steady-state performance of a completed social-ownership system (Meidner 1978; Westerberg 2023).
+The Swedish [Meidner wage-earner-fund proposal](https://en.wikipedia.org/wiki/Meidner_plan) was more directly socialist in the institutional sense because it sought gradually to alter claims over corporate capital rather than merely redistribute current private income. The eventual funds were substantially diluted relative to the original proposal, and were later abolished; the episode is therefore especially informative about transition, coalition stability, and the political response of incumbent interests rather than the steady-state performance of a completed social-ownership system (Meidner 1978; Westerberg 2023).
 
-Similar distinctions apply to social wealth funds, public pension funds, worker cooperatives, and state-owned enterprises. Each can instantiate some socialist institutional element without making the surrounding formation socialist.
+Similar distinctions apply to social wealth funds, public pension funds, [worker cooperatives](https://en.wikipedia.org/wiki/Worker_cooperative), and state-owned enterprises. Each can instantiate some socialist institutional element without making the surrounding formation socialist.
 
 These cases motivate an explicit layered rule. A socialist project is identified by genealogy: an organized attempt to transfer productive powers toward collectively constituted bodies in the name of recognizably socialist aims. A socialist institution is identified by structure: it actually vests some bundle of the powers listed in §1.2 in such bodies, whatever its sponsors intended. A socialist formation is identified by extent: enough of those powers, over enough of productive life, are socialized that the configuration itself, not merely an element within it, is organized around social control.
 
@@ -104,13 +104,13 @@ It is useful to distinguish:
 - background conditions such as administrative capacity, knowledge, ecology, and inherited productive resources;
 - historically recruited institutions incorporated into specific formations.
 
-Recruited institutions can include capitalist ones. A socialist formation can deliberately incorporate markets, private enterprise, or foreign capitalist finance, as the New Economic Policy and reform-era China both did, without the recruitment by itself dissolving the project; the categorization question then falls to the layered rule of §1.4.
+Recruited institutions can include capitalist ones. A socialist formation can deliberately incorporate markets, private enterprise, or foreign capitalist finance, as the [New Economic Policy](https://en.wikipedia.org/wiki/New_Economic_Policy) and [reform-era China](https://en.wikipedia.org/wiki/Chinese_economic_reform) both did, without the recruitment by itself dissolving the project; the categorization question then falls to the layered rule of §1.4.
 
 This prevents both “everything a socialist state did was socialist” and “anything inconsistent with socialist ideals was external to socialism.”
 
 ### 1.6 Categorization and attribution are different tests
 
-Two distinct questions run through this entry and its companion, *Capitalism*. Categorization asks what a formation is: which institutions are present, and whether their configuration makes it socialist, capitalist, hybrid, or neither. Attribution asks what a formation’s record shows: which mechanism produced an outcome, and how far the inference travels. A formation can be straightforwardly socialist while its record supports no conclusion about socialism in general, and an outcome can be well identified while the formation that produced it resists categorization.
+Two distinct questions run through this entry and its companion, *Capitalism*. Categorization asks what a [formation](https://plato.stanford.edu/entries/social-ontology/) is: which institutions are present, and whether their configuration makes it socialist, capitalist, hybrid, or neither. Attribution asks what a formation’s record shows: which mechanism produced an outcome, and how far the inference travels. A formation can be straightforwardly socialist while its record supports no conclusion about socialism in general, and an outcome can be well identified while the formation that produced it resists categorization.
 
 Six questions order the analysis:
 
@@ -142,7 +142,7 @@ Aspirations are not what distinguishes socialists as people: many defenders of c
 
 ### 2.1 Welfare, production, and flourishing
 
-A welfare-based socialist argument must begin with productive capacity as well as distribution.
+A [welfare](https://plato.stanford.edu/entries/well-being/)-based socialist argument must begin with productive capacity as well as distribution.
 
 The relevant pipeline is:
 
@@ -169,7 +169,7 @@ Redistribution and social insurance also change behaviour. Optimal-tax theory tr
 
 ### 2.2 Equality, incentives, and dynamic divergence
 
-Equalizing assets or income is not the end of the causal story.
+[Equalizing](https://plato.stanford.edu/entries/egalitarianism/) assets or income is not the end of the causal story.
 
 People differ in skills, health, preferences over work and leisure, willingness to defer consumption, risk tolerance, saving, family obligations, and luck. Some consume more now; others save. Some undertake costly education or risky investments; others prefer leisure, care, or current consumption. An initially equal distribution of productive resources can therefore become unequal without any subsequent act of coercion or formally unequal rule.
 
@@ -189,7 +189,7 @@ Exploitation is a distinct socialist criticism rather than merely another word f
 
 [Marxian](https://plato.stanford.edu/entries/marx/) [exploitation](https://plato.stanford.edu/entries/exploitation/) concerns relations through which capital owners appropriate surplus from productive activity (Marx 1867/1990). Roemer reconstructs exploitation in terms of unequal productive endowments and the feasible alternatives available to differently situated agents, rather than relying on the labour theory of value in its classical form (Roemer 1982).
 
-Vrousalis instead understands capitalist exploitation as enrichment through domination: one party benefits through power over another’s productive activity (Vrousalis 2023).
+Vrousalis instead understands capitalist exploitation as enrichment through [domination](https://plato.stanford.edu/entries/domination/): one party benefits through power over another’s productive activity (Vrousalis 2023).
 
 These accounts point toward different remedies.
 
@@ -207,7 +207,7 @@ A serious exploitation argument must therefore identify the wrong-making relatio
 
 Worker governance has a stronger justification than the claim that every provider of an input should possess equal governance rights.
 
-Workers contribute their own time and activity, are directly subject to managerial authority, and ordinarily cannot diversify their labour across hundreds of firms as investors diversify financial holdings. Anderson’s (2017) account of workplace “private government” and Dahl’s (1985) case for economic democracy develop different versions of the concern that workplace authority itself requires normative justification.
+Workers contribute their own time and activity, are directly subject to managerial authority, and ordinarily cannot diversify their labour across hundreds of firms as investors diversify financial holdings. Anderson’s (2017) account of workplace “private government” and Dahl’s (1985) case for [economic democracy](https://plato.stanford.edu/entries/democracy/) develop different versions of the concern that workplace authority itself requires normative justification.
 
 These facts can justify special worker voice, but they do not establish worker ownership as the complete socialist solution. Codetermination may address authority without transferring residual income; social wealth funds may distribute capital income without democratizing workplaces; and worker cooperatives may democratize governance internally while remaining sectional organizations relative to consumers, creditors, communities, and future workers.
 
@@ -225,7 +225,7 @@ Alienation remains a legitimate outcome dimension, but ownership form is an empi
 
 ### 2.6 Solidarity
 
-Socialist institutions are often defended as promoting solidarity or community.
+Socialist institutions are often defended as promoting [solidarity](https://plato.stanford.edu/entries/solidarity/) or community.
 
 But institutions cannot assume the motivation they are supposed to generate.
 
@@ -235,7 +235,7 @@ Solidarity should therefore be treated as an outcome requiring explanation.
 
 ### 2.7 Ecological sustainability
 
-Ecosocialist arguments should distinguish welfare and consumption broadly understood from damaging material and energy throughput.
+[Ecosocialist arguments](https://plato.stanford.edu/entries/ethics-environmental/) should distinguish welfare and consumption broadly understood from damaging material and energy throughput.
 
 The relevant ecological quantities include extraction, emissions, waste, land transformation, and ecosystem disruption, not “consumption” without qualification, and insofar as energy supply decarbonizes and growth shifts toward less materially intensive goods and services, the coupling of welfare to throughput loosens. Hickel, for example, defines degrowth as planned reduction of energy and resource use rather than as a simple policy of lowering GDP or welfare (Hickel 2021). Saito advances an explicitly Marxian case for “degrowth communism” and criticizes productivist socialism as well as capitalism (Saito 2023).
 
@@ -249,9 +249,9 @@ These claims should be compared with alternative mechanisms such as environmenta
 
 ### 3.1 Markets and dispersed knowledge
 
-The modern debate opens with Mises’s calculation argument: without market prices for capital goods, a socialist administration cannot reduce heterogeneous production possibilities to a common cost measure, so rational allocation of producer goods becomes impossible (Mises 1920/1935). Lange’s reply conceded the need for prices while denying that they require private ownership: a planning board could post accounting prices and adjust them by trial and error against observed shortages and surpluses (Lange 1936–1937).
+The [modern debate](https://en.wikipedia.org/wiki/Socialist_calculation_debate) opens with Mises’s calculation argument: without market prices for capital goods, a socialist administration cannot reduce heterogeneous production possibilities to a common cost measure, so rational allocation of producer goods becomes impossible (Mises 1920/1935). Lange’s reply conceded the need for prices while denying that they require private ownership: a planning board could post accounting prices and adjust them by trial and error against observed shortages and surpluses (Lange 1936–1937).
 
-Hayek’s knowledge argument moved the debate from calculation to discovery, and it imposes a substantial burden on socialist systems that suppress price formation across wide domains. Prices can communicate scarcity and local information without requiring centralized collection (Hayek 1945).
+[Hayek’s](https://plato.stanford.edu/entries/friedrich-hayek/) knowledge argument moved the debate from calculation to discovery, and it imposes a substantial burden on socialist systems that suppress price formation across wide domains. Prices can communicate scarcity and local information without requiring centralized collection (Hayek 1945).
 
 The inference is nevertheless narrower than a defence of private ownership. Bardhan and Roemer make the distinction explicit in their proposal for competitive socialism: they seek to preserve competitive markets while altering ownership and monitoring institutions (Bardhan and Roemer 1992).
 
@@ -346,7 +346,7 @@ The key variable is the possibility of funded dissent.
 
 ### 4.5 Soft budgets
 
-A soft budget constraint arises when an organization expects support from another actor in financial trouble (subsidy, refinancing, tolerated arrears, guarantees, price support, or liabilities eroded by inflation) rather than facing contraction, restructuring, or exit, and the expectation shapes its behaviour before any losses become persistent. Kornai made the phenomenon central to socialist economic analysis; Kornai, Maskin, and Roland later generalized the concept explicitly across socialist, transitional, and market economies (Kornai, Maskin, and Roland 2003).
+A [soft budget constraint](https://en.wikipedia.org/wiki/Soft_budget_constraint) arises when an organization expects support from another actor in financial trouble (subsidy, refinancing, tolerated arrears, guarantees, price support, or liabilities eroded by inflation) rather than facing contraction, restructuring, or exit, and the expectation shapes its behaviour before any losses become persistent. Kornai made the phenomenon central to socialist economic analysis; Kornai, Maskin, and Roland later generalized the concept explicitly across socialist, transitional, and market economies (Kornai, Maskin, and Roland 2003).
 
 The problem can therefore survive market pricing and is not uniquely socialist.
 
@@ -384,7 +384,7 @@ If workers, consumers, communities, social funds, and national political institu
 
 If the answer is always a central owner, decentralization can become fragile; if lower units possess rights the social owner cannot override, society-wide ownership has less operational content.
 
-Hodgson’s criticism of guild socialism identifies one possible mechanism: insufficiently autonomous lower-level bodies can refer disputes upward, progressively increasing the information burden and authority of the centre (Hodgson 2023).
+Hodgson’s criticism of [guild socialism](https://en.wikipedia.org/wiki/Guild_socialism) identifies one possible mechanism: insufficiently autonomous lower-level bodies can refer disputes upward, progressively increasing the information burden and authority of the centre (Hodgson 2023).
 
 A democratic socialism therefore requires constitutional rules distributing authority over socially owned resources rather than the phrase *democratic control* alone.
 
@@ -538,7 +538,7 @@ The same discipline covers qualitative aspirations. Ownership form should not st
 
 The claim under test is that socialism causes soft budget constraints, cut down to a form evidence can reach: did Yugoslavia’s socialist architecture cause the softness observed in its enterprises, and how far does that finding travel? The example is adverse by design: a framework for a programmatic category must be able to treat an implementation as evidence even when the outcome violates the motivating ideal, or failure can always be defined away. The rule of §1.6 privileges neither valence: the companion entry’s §6.7 runs the same schema to a favourable verdict about a capitalist financial architecture, and §6.7 below runs it to a favourable verdict about a socialist institutional element.
 
-Yugoslavia is a demanding test because its market-socialist formation combined social ownership and worker self-management with substantial decentralization and reliance on markets, rather than simply reproducing Soviet central planning (Estrin 1991; Uvalić 1992). The market reliance varied by period: the 1974–1988 reforms were a deliberate move back from allocation by markets toward bureaucracy and bargaining, so the 1986 evidence below comes from a decentralized but only partly market-allocated phase (Estrin 1991).
+Yugoslavia is a demanding test because its market-socialist formation combined social ownership and [worker self-management](https://en.wikipedia.org/wiki/Workers%27_self-management) with substantial decentralization and reliance on markets, rather than simply reproducing Soviet central planning (Estrin 1991; Uvalić 1992). The market reliance varied by period: the 1974–1988 reforms were a deliberate move back from allocation by markets toward bureaucracy and bargaining, so the 1986 evidence below comes from a decentralized but only partly market-allocated phase (Estrin 1991).
 
 At least by the 1980s, the outcome is unusually well identified at the enterprise level. Using firm-level data for Yugoslavia's manufacturing sector in 1986, Kraft and Vodopivec find massive and pervasive redistribution through a soft budget constraint despite the virtual absence of direct government subsidies to firms and the existence of open unemployment. The important channels were financial rather than ordinary budgetary subsidies: assets and liabilities were generally not indexed in a highly inflationary environment, and some formally repayable investments were returned at face value or low nominal interest rates, implying substantially negative real rates. The resulting redistribution sharply compressed differences in income per worker across enterprises. Yugoslavia's channels differed significantly from those documented in other socialist economies, but Kraft and Vodopivec identify the same underlying objective: the pursuit of job and wage security (Kraft and Vodopivec 1992).
 
@@ -560,7 +560,7 @@ This is the kind of conclusion the attribution rule is intended to permit: stron
 
 The claim under test is the converse of §6.6’s: does worker self-management itself entail soft budgets and fragility, or can it operate under market discipline? The example is favourable by design, and it pairs with §6.6 deliberately: the same objective, employment security, appears in both, under different financing architectures. It also differs in categorization. Uruguay’s worker-managed firms are a socialist institutional element operating inside a predominantly capitalist formation (§1.4), so the evidence bears on socialist institutional design, worker self-management in particular, rather than on socialism as a formation (§1.6).
 
-The evidence is administrative rather than anecdotal. Monthly social-security records covering April 1996 to December 2005 allow worker-managed firms and conventional firms to be followed through entry, shocks, and dissolution within one legal and macroeconomic environment (Burdín and Dean 2009; Burdín 2014). Two findings matter here. Employment in worker-managed firms is inelastic to output-price shocks while pay adjusts, the mirror image of conventional firms; during the 2002 crisis, both types cut pay to a similar extent while worker-managed firms cut employment significantly less (Burdín and Dean 2009). And worker-managed firms were not more likely to fail: their hazard of dissolution is about 29 per cent lower than that of comparable conventional firms once microenterprises are excluded and each firm’s effective tax burden is controlled for, with about a third of the gap statistically mediated by employment stability (Burdín 2014). The tax control matters because the documented state support for cooperatives took the form of statutory tax exemptions; the survival difference survives netting it out. Neither study documents subsidy, rescue, or refinancing channels of the kind §6.6 turns on.
+The evidence is administrative rather than anecdotal. Monthly social-security records covering April 1996 to December 2005 allow worker-managed firms and conventional firms to be followed through entry, shocks, and dissolution within one legal and macroeconomic environment (Burdín and Dean 2009; Burdín 2014). Two findings matter here. Employment in worker-managed firms is inelastic to output-price shocks while pay adjusts, the mirror image of conventional firms; during the [2002 crisis](https://en.wikipedia.org/wiki/2002_Uruguay_banking_crisis), both types cut pay to a similar extent while worker-managed firms cut employment significantly less (Burdín and Dean 2009). And worker-managed firms were not more likely to fail: their hazard of dissolution is about 29 per cent lower than that of comparable conventional firms once microenterprises are excluded and each firm’s effective tax burden is controlled for, with about a third of the gap statistically mediated by employment stability (Burdín 2014). The tax control matters because the documented state support for cooperatives took the form of statutory tax exemptions; the survival difference survives netting it out. Neither study documents subsidy, rescue, or refinancing channels of the kind §6.6 turns on.
 
 The attribution test runs as before. First, the mechanism: worker-managed governance internalizes employment security as an objective and holds the authority to trade pay against jobs, so where no external actor accommodates losses, adjustment must come from inside the firm, on the pay margin. Second, it operated: the adjustment asymmetry is exactly what the panel shows, within firms over time. Third, the predicted difference appears within one national legal and macroeconomic environment and survives the studies’ reported controls, which makes governance a plausible explanation of the differing adjustment margins; but the firms are not randomly assigned to governance forms, and Burdín states self-selection of firms into industries and of workers into organizational forms as an identification threat, so the evidence establishes a robust organizational association, and compatibility with market discipline, more securely than an isolated causal effect. Fourth, the arrangement sustained itself under market discipline rather than requiring correction: dissolution was a live outcome, and worker-managed firms experienced less of it. Fifth, robustness is limited and stated: the panel spans a severe crisis, but the survival difference is concentrated in services and not statistically significant in manufacturing or transport, and everything rests on one country’s registry.
 

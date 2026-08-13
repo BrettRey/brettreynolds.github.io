@@ -26,7 +26,7 @@ Throughout this entry, the breadth of a causal claim should match the breadth of
 
 ### 1.1 The long-run global comparison
 
-A definition of capitalism will be misleading if its implicit comparison class consists mainly of Europe and its settler offshoots during the last few centuries. Markets, credit, commercial specialization, coerced labour, sophisticated contracting, technological innovation, private wealth, and long-distance commerce have much deeper and geographically broader histories. *The Cambridge History of Capitalism*, for example, begins with ancient cases; *Capitalisms: Towards a Global History* deliberately widens the geographical and temporal field and includes a disputed case for a “one-off” capitalism in Song China (Neal and Williamson 2014; Yazdani and Menon 2020).
+A definition of capitalism will be misleading if its implicit comparison class consists mainly of Europe and its settler offshoots during the last few centuries. Markets, credit, commercial specialization, coerced labour, sophisticated contracting, technological innovation, private wealth, and long-distance commerce have much deeper and geographically broader histories. *The Cambridge History of Capitalism*, for example, begins with ancient cases; *Capitalisms: Towards a Global History* deliberately widens the geographical and temporal field and includes a disputed case for a “one-off” capitalism in [Song China](https://en.wikipedia.org/wiki/Economy_of_the_Song_dynasty) (Neal and Williamson 2014; Yazdani and Menon 2020).
 
 The existence of such disputes is analytically valuable, because it shows why no single familiar institution can carry the categorization: markets, credit, profit-seeking, private property, and economic growth are each insufficient on their own. The relevant question is whether recurrent deployment and redeployment of capital becomes sufficiently central that productive organization, investment, access to labour, finance, and political-economic relations become organized partly around it.
 
@@ -54,7 +54,7 @@ Boundary cases test the rule rather than embarrass it. Merchant formations of th
 
 Schumpeter emphasizes credit, entrepreneurship, innovation, and processes through which new combinations displace established organizations and technologies (Schumpeter 1942).
 
-Liberal accounts emphasize private property, decentralized choice, prices, and the dispersion of decision-making authority; Hayek’s knowledge argument is an especially influential account of the informational role of prices (Hayek 1945).
+Liberal accounts emphasize private property, decentralized choice, prices, and the dispersion of decision-making authority; [Hayek’s](https://plato.stanford.edu/entries/friedrich-hayek/) knowledge argument is an especially influential account of the informational role of prices (Hayek 1945).
 
 Keynes places investment under uncertainty, money, liquidity, and aggregate demand closer to the centre (Keynes 1936).
 
@@ -120,7 +120,7 @@ Not everything capitalism uses was created by capitalism, and not everything one
 
 ### 1.8 Categorization and attribution are different tests
 
-Two distinct questions run through this entry and its companion, *Socialism*. Categorization asks what a formation is: which institutions are present, and whether their configuration makes it capitalist, socialist, hybrid, or neither. Attribution asks what a formation’s record shows: which mechanism produced an outcome, and how far the inference travels. A formation can be straightforwardly capitalist while its record supports no conclusion about capitalism in general, and an outcome can be well identified while the formation that produced it resists categorization.
+Two distinct questions run through this entry and its companion, *Socialism*. Categorization asks what a [formation](https://plato.stanford.edu/entries/social-ontology/) is: which [institutions](https://plato.stanford.edu/entries/social-institutions/) are present, and whether their configuration makes it capitalist, socialist, hybrid, or neither. Attribution asks what a formation’s record shows: which mechanism produced an outcome, and how far the inference travels. A formation can be straightforwardly capitalist while its record supports no conclusion about capitalism in general, and an outcome can be well identified while the formation that produced it resists categorization.
 
 Six questions order the analysis:
 
@@ -222,7 +222,7 @@ But an initially equal allocation of physical assets need not remain equal. Peop
 
 That creates a dynamic normative problem. If institutions repeatedly restore equal holdings, they alter people’s incentives and constrain the consequences of choices over consumption, saving, work, and risk. If they do not, inequalities that began partly as voluntary divergence can become inherited differences in opportunity and bargaining power for later people who made no corresponding choices.
 
-Vrousalis instead treats exploitation as enrichment through domination. On that account, the key question is whether control over productive resources gives one party objectionable power over another’s productive activity (Vrousalis 2023).
+Vrousalis instead treats exploitation as enrichment through [domination](https://plato.stanford.edu/entries/domination/). On that account, the key question is whether control over productive resources gives one party objectionable power over another’s productive activity (Vrousalis 2023).
 
 The two accounts imply different remedies. Asset dispersion, worker governance, social insurance, unions, labour-market competition, and changes in ownership target different mechanisms.
 
@@ -244,7 +244,7 @@ Any serious analysis must follow the dynamics rather than freeze the first alloc
 
 People respond to taxes, inheritance rules, social insurance, asset grants, and ownership reforms by changing work, saving, investment, avoidance, migration, risk-taking, and consumption. Conversely, a regime that permits accumulated differences to persist changes the opportunities and bargaining positions confronting later actors.
 
-The normative dispute connects with Dworkin’s attempt to distinguish resource inequalities that reflect choices from those reflecting circumstances and with Nozick’s objection that voluntary transactions can disrupt an initially patterned distribution (Dworkin 1981; Nozick 1974). The economic question remains distinct from either normative theory: what trajectory follows from the rule, and what costs arise from permitting or continually correcting the resulting divergence?
+The normative dispute connects with Dworkin’s attempt to distinguish resource inequalities that reflect choices from those reflecting circumstances and with Nozick’s objection that voluntary transactions can disrupt an initially [patterned distribution](https://plato.stanford.edu/entries/justice-distributive/) (Dworkin 1981; Nozick 1974). The economic question remains distinct from either normative theory: what trajectory follows from the rule, and what costs arise from permitting or continually correcting the resulting divergence?
 
 The relevant question is not merely what distribution institution A creates at the outset. It is what distributional trajectory A generates after agents respond, and what political and behavioural feedback follows.
 
@@ -268,7 +268,7 @@ That question applies to capitalist and socialist arrangements alike, though dif
 
 ### 3.7 Historical injustice and recruited institutions
 
-Capitalist formations have intersected with slavery, colonial rule, expropriation, racial hierarchy, and patriarchal legal arrangements, none of them unique to capitalism.
+Capitalist formations have intersected with slavery, [colonial rule](https://plato.stanford.edu/entries/colonialism/), expropriation, racial hierarchy, and patriarchal legal arrangements, none of them unique to capitalism.
 
 Three claims should be distinguished.
 
@@ -278,9 +278,9 @@ A mechanistic-integration claim identifies how those institutions altered labour
 
 A constitutive claim holds that capitalism generally requires such arrangements.
 
-The first two can be true without the third. The mechanistic questions also run in both directions: whether coercion fed particular accumulations, and whether accumulation generates or intensifies coercion. The second is a comparative-historical claim, and its proper test is whether coerced labour, dispossession, and hierarchical law intensify where the relevant accumulation mechanisms are introduced or strengthened and recede where they are removed, under matched conditions, the same breadth-matching rule as everywhere else.
+The first two can be true without the third. The mechanistic questions also run in both directions: whether [coercion](https://plato.stanford.edu/entries/coercion/) fed particular accumulations, and whether accumulation generates or intensifies coercion. The second is a comparative-historical claim, and its proper test is whether coerced labour, dispossession, and hierarchical law intensify where the relevant accumulation mechanisms are introduced or strengthened and recede where they are removed, under matched conditions, the same breadth-matching rule as everywhere else.
 
-The relationship between Atlantic slavery and capitalist development is itself a major historiographical dispute. Williams (1944) gave a classic account of the role of slavery and abolition in British capitalist development; Beckert (2014) places coerced labour centrally in a global history of cotton capitalism; economic historians such as Olmstead and Rhode (2018) dispute important causal and quantitative claims in the newer literature. This disagreement is a useful example of why system-level attribution should turn on mechanisms and magnitudes rather than category association.
+The relationship between [Atlantic slavery](https://en.wikipedia.org/wiki/Atlantic_slave_trade) and capitalist development is itself a major historiographical dispute. Williams (1944) gave a classic account of the role of slavery and abolition in British capitalist development; Beckert (2014) places coerced labour centrally in a global history of cotton capitalism; economic historians such as Olmstead and Rhode (2018) dispute important causal and quantitative claims in the newer literature. This disagreement is a useful example of why system-level attribution should turn on mechanisms and magnitudes rather than category association.
 
 The same standard applies to favourable historical inheritance. Capitalism did not create ex nihilo the science, mathematics, state capacities, law, infrastructure, agricultural knowledge, or commercial techniques it later employed.
 
@@ -288,13 +288,13 @@ The same standard applies to favourable historical inheritance. Capitalism did n
 
 Capitalist production depends on people being raised, educated, cared for, sustained, and reproduced through institutions not reducible to firms or markets.
 
-Fraser’s expanded conception of capitalism treats social reproduction, public power, and ecology as background conditions of capitalist production and argues that accumulation can destabilize those conditions (Fraser 2014). Her later “contradictions of capital and care” argument develops a specific hypothesis: accumulation can draw labour, time, or resources away from care and reproduction on which production itself depends (Fraser 2016).
+Fraser’s expanded conception of capitalism treats [social reproduction](https://plato.stanford.edu/entries/feminism-political/), public power, and ecology as background conditions of capitalist production and argues that accumulation can destabilize those conditions (Fraser 2014). Her later “contradictions of capital and care” argument develops a specific hypothesis: accumulation can draw labour, time, or resources away from care and reproduction on which production itself depends (Fraser 2016).
 
-The hypothesis runs both ways, since accumulation can also fund care, shorten working time, and expand what households spend on dependants, and it is a causal hypothesis rather than something established by defining care as “outside capitalism.” Its strength depends on whether the mechanism travels across capitalist configurations, whether alternatives solve it better, and which direction dominates where.
+The hypothesis runs both ways, since accumulation can also fund [care](https://plato.stanford.edu/entries/care-ethics/), shorten working time, and expand what households spend on dependants, and it is a causal hypothesis rather than something established by defining care as “outside capitalism.” Its strength depends on whether the mechanism travels across capitalist configurations, whether alternatives solve it better, and which direction dominates where.
 
 ### 3.9 Ecology: throughput rather than consumption
 
-Environmental criticism should distinguish welfare-enhancing consumption broadly understood from damaging material and energy throughput.
+[Environmental criticism](https://plato.stanford.edu/entries/ethics-environmental/) should distinguish welfare-enhancing consumption broadly understood from damaging material and energy throughput.
 
 More music, education, conversation, software, care, or leisure need not imply proportional increases in extraction, emissions, land use, or biodiversity destruction. Serious degrowth arguments therefore target reductions in energy and resource use or throughput rather than a simple reduction in welfare or every form of consumption (Hickel 2021). Saito develops an explicitly Marxian argument for “degrowth communism” and against productivist socialism as well as capitalism (Saito 2023).
 
@@ -310,7 +310,7 @@ But ecological degradation predates capitalism and occurred under state-socialis
 
 One institution can change the effect of another without generating a distinct capitalist system property.
 
-The varieties-of-capitalism literature provides familiar examples: finance, labour relations, vocational training, and corporate governance can operate differently in different institutional packages (Hall and Soskice 2001). Empirical work has tested the idea that institutional complementarities alter aggregate performance, while also leaving substantial debate about their scope and strength (Hall and Gingerich 2009).
+The [varieties-of-capitalism](https://en.wikipedia.org/wiki/Varieties_of_Capitalism) literature provides familiar examples: finance, labour relations, vocational training, and corporate governance can operate differently in different institutional packages (Hall and Soskice 2001). Empirical work has tested the idea that institutional complementarities alter aggregate performance, while also leaving substantial debate about their scope and strength (Hall and Gingerich 2009).
 
 Social insurance can likewise change the welfare consequences of labour-market mobility. Portable health care or pensions can make exit from an employer less costly.
 
@@ -330,7 +330,7 @@ private accumulation under a particular distribution
 
 Every arrow requires evidence.
 
-Similarly, Minsky’s financial-instability hypothesis proposes an endogenous sequence in sophisticated capitalist financial systems: periods of stability can change expectations and financing practices in ways that increase fragility, making subsequent reversal more damaging (Minsky 1992). This is a system-level hypothesis of a particular sequential kind, not the generic observation that markets sometimes crash.
+Similarly, [Minsky’s](https://en.wikipedia.org/wiki/Hyman_Minsky) financial-instability hypothesis proposes an endogenous sequence in sophisticated capitalist financial systems: periods of stability can change expectations and financing practices in ways that increase fragility, making subsequent reversal more damaging (Minsky 1992). This is a system-level hypothesis of a particular sequential kind, not the generic observation that markets sometimes crash.
 
 ### 4.3 Joint capacities: financing uncertain futures
 
@@ -378,7 +378,7 @@ Capitalist, socialist, and hybrid systems should be evaluated in the same outcom
 
 ### 5.1 Welfare and productive capacity
 
-A welfare analysis begins with the creation of valuable goods, services, leisure, capabilities, and environmental conditions, then follows their diffusion, distribution, and conversion into welfare.
+A [welfare](https://plato.stanford.edu/entries/well-being/) analysis begins with the creation of valuable goods, services, leisure, capabilities, and environmental conditions, then follows their diffusion, distribution, and conversion into welfare.
 
 The pipeline is:
 
@@ -469,7 +469,7 @@ A local success establishes possibility before it establishes scalability.
 
 The claim under test is the familiar one that capitalism is innovative, cut down to a form evidence can reach: did a specific capitalist financial architecture cause innovation, within a stated scope? The example is favourable by design: a demanding attribution rule would be uninformative if it could only dissolve claims of system credit. The rule of §1.8 privileges neither valence; the companion entry’s §§6.6–6.7 run the same schema to an adverse verdict about a socialist formation and a favourable one about worker-managed firms, and a Minsky-style instability argument could supply the adverse capitalist application. Venture capital is useful because the institution is sharply specified and its proposed advantage concerns a function already identified above: committing resources to highly uncertain projects before those projects can support ordinary repayment claims.
 
-The outcome evidence is stronger than simple association. Kortum and Lerner examine venture-capital activity and patented invention across twenty US industries over roughly three decades and address reverse causality in several ways, including exploiting the 1979 change in the pension-fund *prudent man* rule that increased the supply of venture capital. For the decade ending in 1992, their preferred estimates suggest that venture capital may have accounted for about 8 per cent of industrial innovations while venture-capital disbursements averaged 2.9 per cent of R&D spending (Kortum and Lerner 2000). They also examine a separate sample of 530 firms in Middlesex County, Massachusetts, including 122 venture-backed firms. Venture-backed firms had more patents and citations, and the differences survived regression specifications. The authors present this as evidence against the worry that their industry results merely reflect a greater propensity of venture-backed firms to patent, while stressing that the firm-level comparison does not itself solve the endogeneity problem. Patents remain an imperfect measure of innovation, so none of these estimates should be read directly as a welfare effect.
+The outcome evidence is stronger than simple association. Kortum and Lerner examine venture-capital activity and patented invention across twenty US industries over roughly three decades and address reverse causality in several ways, including exploiting the 1979 change in the pension-fund [*prudent man* rule](https://en.wikipedia.org/wiki/Prudent_man_rule) that increased the supply of venture capital. For the decade ending in 1992, their preferred estimates suggest that venture capital may have accounted for about 8 per cent of industrial innovations while venture-capital disbursements averaged 2.9 per cent of R&D spending (Kortum and Lerner 2000). They also examine a separate sample of 530 firms in Middlesex County, Massachusetts, including 122 venture-backed firms. Venture-backed firms had more patents and citations, and the differences survived regression specifications. The authors present this as evidence against the worry that their industry results merely reflect a greater propensity of venture-backed firms to patent, while stressing that the firm-level comparison does not itself solve the endogeneity problem. Patents remain an imperfect measure of innovation, so none of these estimates should be read directly as a welfare effect.
 
 The financing mechanism is also observed rather than merely stipulated. Venture-capital contracts do not simply transfer cash. Kaplan and Strömberg show that they allocate cash-flow rights, board rights, voting rights, liquidation rights, and other control rights separately, allowing financing, monitoring, and control to change with the venture relationship (Kaplan and Strömberg 2003). A simple debt contract would hold that allocation fixed. Lerner and Nanda's review emphasizes both the strengths of this model for high-growth innovative firms and its limitations: institutional venture capital finances a narrow band of technologies, capital allocation is itself concentrated among relatively few investors, and evidence about its overall social-welfare contribution remains incomplete (Lerner and Nanda 2020).
 

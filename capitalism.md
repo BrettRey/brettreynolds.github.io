@@ -525,7 +525,7 @@ Capitalism remains useful as a category insofar as recurrent accumulation-orient
 
 Capitalism is neither synonymous with markets nor reducible to a single property such as private ownership, wage labour, industrial production, or shareholder finance. It is a historically variable family of institutional structures in which recurrent accumulation plays an organizing role.
 
-This classification does not imply that accumulation caused modern prosperity or that everything occurring under capitalist formations should be attributed to capitalism. Markets, coercion, innovation, inequality, environmental transformation, state power, and commercial sophistication all have wider histories.
+This categorization does not imply that accumulation caused modern prosperity or that everything occurring under capitalist formations should be attributed to capitalism. Markets, coercion, innovation, inequality, environmental transformation, state power, and commercial sophistication all have wider histories.
 
 The stronger system-level arguments concern relationships among institutions.
 

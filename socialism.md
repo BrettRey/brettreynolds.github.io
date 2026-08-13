@@ -726,16 +726,3 @@ Vrousalis, Nicholas. 2023. *Exploitation as Domination: What Makes Capitalism Un
 Westerberg, Rikard. 2023. “From Marxist Venture to Venture Capitalists: The Swedish Wage-Earner Funds and the Market Turn, 1983–1994.” *Enterprise & Society* 24(4): 1014–1037.
 
 Wright, Erik Olin. 2010. *Envisioning Real Utopias*. London: Verso.
-
----
-comments:
-  c24:
-    body: >-
-      don't let my comment unbalance the article either conceptually or
-      structurally.
-
-      Do a levels/category error pass and a terminological hygiene pass.
-
-      Overall, follow SEP style over house style.
-    by: user
-    at: 2026-08-13T13:11:12.092Z

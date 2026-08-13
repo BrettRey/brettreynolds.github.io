@@ -628,10 +628,3 @@ Williams, Eric. 1944. *Capitalism and Slavery*. Chapel Hill: University of North
 Williamson, Oliver E. 1985. *The Economic Institutions of Capitalism: Firms, Markets, Relational Contracting*. New York: Free Press.
 
 Yazdani, Kaveh, and Dilip M. Menon, eds. 2020. *Capitalisms: Towards a Global History*. New Delhi: Oxford University Press.
-
----
-comments:
-  c38:
-    body: in places I'm being a gadfly. Don't overindex on every comment
-    by: user
-    at: 2026-08-13T18:28:29.794Z

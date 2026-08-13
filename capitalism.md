@@ -48,9 +48,9 @@ Boundary cases test the rule rather than embarrass it. Merchant formations of th
 
 ### 1.3 Competing causal topologies
 
-Marx gives special weight to ownership of productive resources, relations between capital and labour, commodity production, competition, and accumulation. The stronger Marxian claim is not merely that these occur together but that some reproduce the others (Marx 1867/1990).
+[Marx](https://plato.stanford.edu/entries/marx/) gives special weight to ownership of productive resources, relations between capital and labour, commodity production, competition, and accumulation. The stronger Marxian claim is not merely that these occur together but that some reproduce the others (Marx 1867/1990).
 
-Weber gives greater weight to calculability, accounting, law, organization, monetary calculation, and institutional conditions permitting sustained orientation toward expected returns (Weber 1904–05/2002).
+[Weber](https://plato.stanford.edu/entries/weber/) gives greater weight to calculability, accounting, law, organization, monetary calculation, and institutional conditions permitting sustained orientation toward expected returns (Weber 1904–05/2002).
 
 Schumpeter emphasizes credit, entrepreneurship, innovation, and processes through which new combinations displace established organizations and technologies (Schumpeter 1942).
 
@@ -106,7 +106,7 @@ These functions remain even if investor ownership is replaced; §6.2 states the 
 
 Capitalism is not the absence of government.
 
-Property, currency, contract, corporations, bankruptcy, infrastructure, labour law, financial regulation, competition, and international trade all depend in different ways on political authority. States can also own enterprises, direct investment, finance research, provide social insurance, or constrain accumulation.
+[Property](https://plato.stanford.edu/entries/property/), currency, contract, corporations, bankruptcy, infrastructure, labour law, financial regulation, competition, and international trade all depend in different ways on political authority. States can also own enterprises, direct investment, finance research, provide social insurance, or constrain accumulation.
 
 It is useful to distinguish:
 
@@ -140,7 +140,7 @@ Six questions order the analysis:
 
 The worked inference in §6.7 applies questions 3 through 6 as a five-step evidential test followed by a scope restriction, stated here so that the application uses a rule announced in advance: identify the mechanism; show that it operated; connect it to the institutional structure at the scope claimed; test whether it resisted correction; assess robustness across variants; then restrict the verdict accordingly.
 
-The pair’s definitions are stipulations, answerable to the explanatory work a category can do rather than to ordinary usage. Stipulation also makes room for field relativity: different explanatory projects may draw somewhat different boundaries around capitalism and socialism, so a Marxian capitalism and an ecological capitalism can overlap substantially in extension while remaining distinct categories, each answerable to what its field needs the category to explain. Nothing in what follows requires one of them to be the real one; it requires each claim to say which category, at what scope, it concerns.
+The pair’s definitions are stipulations, answerable to the explanatory work a category can do rather than to ordinary usage. Stipulation also makes room for field relativity: different explanatory projects may draw somewhat different boundaries around capitalism and socialism, so a Marxian capitalism and an ecological capitalism can overlap substantially in extension while remaining distinct [categories](https://plato.stanford.edu/entries/natural-kinds/), each answerable to what its field needs the category to explain. Nothing in what follows requires one of them to be the real one; it requires each claim to say which category, at what scope, it concerns.
 
 The definitions of socialism and capitalism are deliberately different in kind. Capitalism is identified structurally, through recurrent accumulation, and can arise with no one intending it; socialist projects are identified partly through programmatic genealogy, while socialist institutions and formations are categorized by the productive powers actually socialized and their extent (the companion entry’s §1.4). The asymmetry is both a historical claim (the traditions did enter history differently) and a stipulative choice, made because unintended socialization rarely organizes a formation the way unintended accumulation can. Nothing evidential hangs on it. Evidence eligibility is governed by questions 3 through 6, which treat favourable and adverse records of both families identically: a capitalist formation nobody designed is admitted as evidence by the same rule that admits a socialist formation that fails by socialist standards.
 
@@ -148,7 +148,7 @@ The distinctions of §1.7, the functional-conservation test (§6.2), the six que
 
 ## 2. Allocation mechanisms
 
-Capitalist systems typically use markets extensively. The virtues and failures of markets should initially be treated as arguments about markets rather than about capitalism.
+Capitalist systems typically use [markets](https://plato.stanford.edu/entries/markets/) extensively. The virtues and failures of markets should initially be treated as arguments about markets rather than about capitalism.
 
 ### 2.1 Prices, knowledge, and information
 
@@ -194,7 +194,7 @@ This section tracks two variables that should not be conflated: ownership form, 
 
 ### 3.1 Property and entitlement
 
-Rights-based defences of capitalism, associated especially with Locke and Nozick, differ fundamentally from welfare arguments. If holdings are justly acquired and transferred, private productive ownership can possess moral standing even where another distribution would produce greater equality or welfare (Locke 1689/1988; Nozick 1974).
+Rights-based defences of capitalism, associated especially with [Locke](https://plato.stanford.edu/entries/locke-political/) and [Nozick](https://plato.stanford.edu/entries/libertarianism/), differ fundamentally from welfare arguments. If holdings are justly acquired and transferred, private productive ownership can possess moral standing even where another distribution would produce greater equality or welfare (Locke 1689/1988; Nozick 1974).
 
 Such arguments make genealogy rather than current market exchange crucial. Holdings whose histories include coercion, dispossession, discriminatory law, slavery, or unjust acquisition cannot derive legitimacy simply from subsequent voluntary exchange.
 
@@ -218,7 +218,7 @@ The central design question is which institutions should combine or separate:
 
 ### 3.3 Labour, bargaining, and exploitation
 
-Capitalist labour relations have been criticized as exploitative, but the wrong-making mechanism is disputed.
+Capitalist labour relations have been criticized as [exploitative](https://plato.stanford.edu/entries/exploitation/), but the wrong-making mechanism is disputed.
 
 Roemer shifts much of the explanation from surplus extraction to unequal productive endowments and property relations. Unequal ownership of productive assets changes feasible alternatives and can permit some actors to benefit from the vulnerability of others (Roemer 1982).
 
@@ -234,7 +234,7 @@ A capitalism-level criticism requires showing that the objectionable relation re
 
 ### 3.4 Alienation and meaningful work
 
-Marx’s 1844 manuscripts provide the canonical socialist formulation of alienated labour as a problem involving workers’ relation to their activity, its products, and their own capacities (Marx 1844/1992). Alienation should not be inferred from ownership labels either. Ownership is the variable socialist accounts foreground, but accumulation could matter independently: the scale of capital behind a workplace shapes it whoever owns it. Both are hypotheses about alienation, not proxies for it.
+Marx’s 1844 manuscripts provide the canonical socialist formulation of [alienated labour](https://plato.stanford.edu/entries/alienation/) as a problem involving workers’ relation to their activity, its products, and their own capacities (Marx 1844/1992). Alienation should not be inferred from ownership labels either. Ownership is the variable socialist accounts foreground, but accumulation could matter independently: the scale of capital behind a workplace shapes it whoever owns it. Both are hypotheses about alienation, not proxies for it.
 
 Social or public ownership can coexist with hierarchy, monotony, low autonomy, and weak identification with productive activity. Private ownership can coexist with highly autonomous and meaningful work. Job satisfaction, engagement, autonomy, task significance, skill use, control, and identification with organizational purpose may all bear on aspects of alienation, but none is a simple proxy for a system label.
 
@@ -539,7 +539,7 @@ The method therefore does not make system-level inference impossible. It usually
 
 ## Bibliography
 
-Bardhan, Pranab, and John E. Roemer. 1992. “Market Socialism: A Case for Rejuvenation.” *Journal of Economic Perspectives* 6(3): 101–116.
+Bardhan, Pranab, and John E. Roemer. 1992. “Market Socialism: A Case for Rejuvenation.” *Journal of Economic Perspectives* 6(3): 101–116. <https://doi.org/10.1257/jep.6.3.101>.
 
 Beckert, Sven. 2014. *Empire of Cotton: A Global History*. New York: Alfred A. Knopf.
 
@@ -547,21 +547,21 @@ Berle, Adolf A., and Gardiner C. Means. 1932. *The Modern Corporation and Privat
 
 Braudel, Fernand. 1992. *Civilization and Capitalism, 15th–18th Century*. Translated by Siân Reynolds. 3 vols. Berkeley: University of California Press.
 
-Chetty, Raj. 2008. “Moral Hazard versus Liquidity and Optimal Unemployment Insurance.” *Journal of Political Economy* 116(2): 173–234.
+Chetty, Raj. 2008. “Moral Hazard versus Liquidity and Optimal Unemployment Insurance.” *Journal of Political Economy* 116(2): 173–234. <https://doi.org/10.1086/588585>.
 
 Coase, Ronald H. 1937. “The Nature of the Firm.” *Economica* 4: 386–405.
 
-Diamond, Peter, and Emmanuel Saez. 2011. “The Case for a Progressive Tax: From Basic Research to Policy Recommendations.” *Journal of Economic Perspectives* 25(4): 165–190.
+Diamond, Peter, and Emmanuel Saez. 2011. “The Case for a Progressive Tax: From Basic Research to Policy Recommendations.” *Journal of Economic Perspectives* 25(4): 165–190. <https://doi.org/10.1257/jep.25.4.165>.
 
 Dworkin, Ronald. 1981. “What Is Equality? Part 2: Equality of Resources.” *Philosophy & Public Affairs* 10(4): 283–345.
 
 Fraser, Nancy. 2014. “Behind Marx’s Hidden Abode: For an Expanded Conception of Capitalism.” *New Left Review* 86: 55–72.
 
-Fraser, Nancy. 2016. “Contradictions of Capital and Care.” *New Left Review* 100: 99–117.
+Fraser, Nancy. 2016. “Contradictions of Capital and Care.” *New Left Review* 100: 99–117. <https://doi.org/10.64590/nt2>.
 
-Greenwald, Bruce C., and Joseph E. Stiglitz. 1986. “Externalities in Economies with Imperfect Information and Incomplete Markets.” *Quarterly Journal of Economics* 101(2): 229–264.
+Greenwald, Bruce C., and Joseph E. Stiglitz. 1986. “Externalities in Economies with Imperfect Information and Incomplete Markets.” *Quarterly Journal of Economics* 101(2): 229–264. <https://doi.org/10.2307/1891114>.
 
-Hall, Peter A., and Daniel W. Gingerich. 2009. “Varieties of Capitalism and Institutional Complementarities in the Political Economy: An Empirical Analysis.” *British Journal of Political Science* 39(3): 449–482.
+Hall, Peter A., and Daniel W. Gingerich. 2009. “Varieties of Capitalism and Institutional Complementarities in the Political Economy: An Empirical Analysis.” *British Journal of Political Science* 39(3): 449–482. <https://doi.org/10.1017/s0007123409000672>.
 
 Hall, Peter A., and David Soskice, eds. 2001. *Varieties of Capitalism: The Institutional Foundations of Comparative Advantage*. Oxford: Oxford University Press.
 
@@ -569,19 +569,19 @@ Hansmann, Henry. 1996. *The Ownership of Enterprise*. Cambridge, MA: Belknap Pre
 
 Hayek, F. A. 1945. “The Use of Knowledge in Society.” *American Economic Review* 35(4): 519–530.
 
-Heath, Joseph. 2025. “Are Cooperatives More Virtuous than Corporations?” *Politics, Philosophy & Economics*. OnlineFirst. [https://doi.org/10.1177/1470594X251387579](https://doi.org/10.1177/1470594X251387579).
+Heath, Joseph. 2025. “Are Cooperatives More Virtuous than Corporations?” *Politics, Philosophy & Economics*. OnlineFirst. [https://doi.org/10.1177/1470594X251387579](https://doi.org/10.1177/1470594X251387579). <https://doi.org/10.1177/1470594x251387579>.
 
-Hickel, Jason. 2021. “What Does Degrowth Mean? A Few Points of Clarification.” *Globalizations* 18(7): 1105–1111.
+Hickel, Jason. 2021. “What Does Degrowth Mean? A Few Points of Clarification.” *Globalizations* 18(7): 1105–1111. <https://doi.org/10.1080/14747731.2020.1812222>.
 
 Hirschman, Albert O. 1970. *Exit, Voice, and Loyalty: Responses to Decline in Firms, Organizations, and States*. Cambridge, MA: Harvard University Press.
 
-Kaplan, Steven N., and Per Strömberg. 2003. “Financial Contracting Theory Meets the Real World: An Empirical Analysis of Venture Capital Contracts.” *Review of Economic Studies* 70(2): 281–315.
+Kaplan, Steven N., and Per Strömberg. 2003. “Financial Contracting Theory Meets the Real World: An Empirical Analysis of Venture Capital Contracts.” *Review of Economic Studies* 70(2): 281–315. <https://doi.org/10.1111/1467-937x.00245>.
 
-Kortum, Samuel, and Josh Lerner. 2000. “Assessing the Contribution of Venture Capital to Innovation.” *RAND Journal of Economics* 31(4): 674–692.
+Kortum, Samuel, and Josh Lerner. 2000. “Assessing the Contribution of Venture Capital to Innovation.” *RAND Journal of Economics* 31(4): 674–692. <https://doi.org/10.2307/2696354>.
 
 Keynes, John Maynard. 1936. *The General Theory of Employment, Interest and Money*. London: Macmillan.
 
-Lerner, Josh, and Ramana Nanda. 2020. “Venture Capital’s Role in Financing Innovation: What We Know and How Much We Still Need to Learn.” *Journal of Economic Perspectives* 34(3): 237–261.
+Lerner, Josh, and Ramana Nanda. 2020. “Venture Capital’s Role in Financing Innovation: What We Know and How Much We Still Need to Learn.” *Journal of Economic Perspectives* 34(3): 237–261. <https://doi.org/10.1257/jep.34.3.237>.
 
 Lindblom, Charles E. 1977. *Politics and Markets: The World’s Political-Economic Systems*. New York: Basic Books.
 
@@ -597,27 +597,27 @@ Minsky, Hyman P. 1992. “The Financial Instability Hypothesis.” Working Paper
 
 Mokyr, Joel. 2016. *A Culture of Growth: The Origins of the Modern Economy*. Princeton: Princeton University Press.
 
-Neal, Larry, and Jeffrey G. Williamson, eds. 2014. *The Cambridge History of Capitalism*. 2 vols. Cambridge: Cambridge University Press.
+Neal, Larry, and Jeffrey G. Williamson, eds. 2014. *The Cambridge History of Capitalism*. 2 vols. Cambridge: Cambridge University Press. <https://doi.org/10.1017/cho9781139095099>.
 
-North, Douglass C. 1990. *Institutions, Institutional Change and Economic Performance*. Cambridge: Cambridge University Press.
+North, Douglass C. 1990. *Institutions, Institutional Change and Economic Performance*. Cambridge: Cambridge University Press. <https://doi.org/10.1017/cbo9780511808678>.
 
 Nozick, Robert. 1974. *Anarchy, State, and Utopia*. New York: Basic Books.
 
-Olmstead, Alan L., and Paul W. Rhode. 2018. “Cotton, Slavery, and the New History of Capitalism.” *Explorations in Economic History* 67: 1–17.
+Olmstead, Alan L., and Paul W. Rhode. 2018. “Cotton, Slavery, and the New History of Capitalism.” *Explorations in Economic History* 67: 1–17. <https://doi.org/10.1016/j.eeh.2017.12.002>.
 
 Ostrom, Elinor. 1990. *Governing the Commons: The Evolution of Institutions for Collective Action*. Cambridge: Cambridge University Press.
 
-Piketty, Thomas. 2014. *Capital in the Twenty-First Century*. Translated by Arthur Goldhammer. Cambridge, MA: Belknap Press of Harvard University Press.
+Piketty, Thomas. 2014. *Capital in the Twenty-First Century*. Translated by Arthur Goldhammer. Cambridge, MA: Belknap Press of Harvard University Press. <https://doi.org/10.4159/9780674369542>.
 
 Polanyi, Karl. 1944/2001. *The Great Transformation: The Political and Economic Origins of Our Time*. Boston: Beacon Press.
 
-Roemer, John E. 1982. *A General Theory of Exploitation and Class*. Cambridge, MA: Harvard University Press.
+Roemer, John E. 1982. *A General Theory of Exploitation and Class*. Cambridge, MA: Harvard University Press. <https://doi.org/10.4159/harvard.9780674435865>.
 
 Saito, Kohei. 2023. *Marx in the Anthropocene: Towards the Idea of Degrowth Communism*. Cambridge: Cambridge University Press.
 
 Schumpeter, Joseph A. 1942. *Capitalism, Socialism and Democracy*. New York: Harper.
 
-Smith, Matthew, Owen Zidar, and Eric Zwick. 2023. “Top Wealth in America: New Estimates under Heterogeneous Returns.” *Quarterly Journal of Economics* 138(1): 515–573.
+Smith, Matthew, Owen Zidar, and Eric Zwick. 2023. “Top Wealth in America: New Estimates under Heterogeneous Returns.” *Quarterly Journal of Economics* 138(1): 515–573. <https://doi.org/10.1093/qje/qjac033>.
 
 Vrousalis, Nicholas. 2023. *Exploitation as Domination: What Makes Capitalism Unjust*. Oxford: Oxford University Press.
 

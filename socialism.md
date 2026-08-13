@@ -131,7 +131,7 @@ Six questions order the analysis:
 
 The worked inferences in §§6.6–6.7 apply questions 3 through 6 as a five-step evidential test followed by a scope restriction, stated here so that the application uses a rule announced in advance: identify the mechanism; show that it operated; connect it to the institutional structure at the scope claimed; test whether it resisted correction; assess robustness across variants; then restrict the verdict accordingly.
 
-The pair’s definitions are stipulations, answerable to the explanatory work a category can do rather than to ordinary usage. Stipulation also makes room for field relativity: different explanatory projects may draw somewhat different boundaries around capitalism and socialism, so a Marxian capitalism and an ecological capitalism can overlap substantially in extension while remaining distinct categories, each answerable to what its field needs the category to explain. Nothing in what follows requires one of them to be the real one; it requires each claim to say which category, at what scope, it concerns.
+The pair’s definitions are stipulations, answerable to the explanatory work a category can do rather than to ordinary usage. Stipulation also makes room for field relativity: different explanatory projects may draw somewhat different boundaries around socialism and capitalism, so a Marxian socialism and an ecological socialism can overlap substantially in extension while remaining distinct [categories](https://plato.stanford.edu/entries/natural-kinds/), each answerable to what its field needs the category to explain. Nothing in what follows requires one of them to be the real one; it requires each claim to say which category, at what scope, it concerns.
 
 The definitions of socialism and capitalism are deliberately different in kind. Capitalism is identified structurally, through recurrent accumulation, and can arise with no one intending it; socialist projects are identified partly through programmatic genealogy, while socialist institutions and formations are categorized by the productive powers actually socialized and their extent (§1.4). The asymmetry is both a historical claim (the traditions did enter history differently) and a stipulative choice, made because unintended socialization rarely organizes a formation the way unintended accumulation can. Nothing evidential hangs on it. Evidence eligibility is governed by questions 3 through 6, which treat favourable and adverse records of both families identically: a socialist formation that fails by socialist standards is admitted as evidence by the same rule that admits a capitalist formation nobody designed.
 
@@ -176,7 +176,7 @@ Equalizing assets or income is not the end of the causal story.
 
 People differ in skills, health, preferences over work and leisure, willingness to defer consumption, risk tolerance, saving, family obligations, and luck. Some consume more now; others save. Some undertake costly education or risky investments; others prefer leisure, care, or current consumption. An initially equal distribution of productive resources can therefore become unequal without any subsequent act of coercion or formally unequal rule.
 
-This problem sits near two familiar debates in distributive justice. Dworkin’s equality-of-resources framework seeks to distinguish inequalities connected to choices and gambles from those reflecting circumstances beyond agents’ control, while Nozick’s critique of patterned distribution emphasizes that voluntary transactions can disrupt an initially preferred pattern (Dworkin 1981; Nozick 1974).
+This problem sits near two familiar debates in [distributive justice](https://plato.stanford.edu/entries/justice-distributive/). Dworkin’s equality-of-resources framework seeks to distinguish inequalities connected to choices and gambles from those reflecting circumstances beyond agents’ control, while Nozick’s critique of patterned distribution emphasizes that voluntary transactions can disrupt an initially preferred pattern (Dworkin 1981; Nozick 1974).
 
 The present argument does not presuppose either normative theory. The institutional question is dynamic:
 
@@ -190,7 +190,7 @@ Socialism therefore does not escape incentive problems by moving redistribution 
 
 Exploitation is a distinct socialist criticism rather than merely another word for inequality.
 
-Marxian exploitation concerns relations through which capital owners appropriate surplus from productive activity (Marx 1867/1990). Roemer reconstructs exploitation in terms of unequal productive endowments and the feasible alternatives available to differently situated agents, rather than relying on the labour theory of value in its classical form (Roemer 1982).
+[Marxian](https://plato.stanford.edu/entries/marx/) [exploitation](https://plato.stanford.edu/entries/exploitation/) concerns relations through which capital owners appropriate surplus from productive activity (Marx 1867/1990). Roemer reconstructs exploitation in terms of unequal productive endowments and the feasible alternatives available to differently situated agents, rather than relying on the labour theory of value in its classical form (Roemer 1982).
 
 Vrousalis instead understands capitalist exploitation as enrichment through domination: one party benefits through power over another’s productive activity (Vrousalis 2023).
 
@@ -216,7 +216,7 @@ These facts can justify special worker voice, but they do not establish worker o
 
 ### 2.5 Alienation and meaningful work
 
-Marx’s 1844 manuscripts provide the canonical socialist formulation of alienated labour as a problem involving workers’ relation to their activity, its products, and their own capacities (Marx 1844/1992). Socialism has also sought forms of work permitting greater self-realization, autonomy, creativity, and identification with productive activity.
+Marx’s 1844 manuscripts provide the canonical socialist formulation of [alienated labour](https://plato.stanford.edu/entries/alienation/) as a problem involving workers’ relation to their activity, its products, and their own capacities (Marx 1844/1992). Socialism has also sought forms of work permitting greater self-realization, autonomy, creativity, and identification with productive activity.
 
 This aspiration should not be inferred directly from ownership. Public or socially owned enterprises can be hierarchical, monotonous, and alienating. Private organizations can sometimes provide autonomy, professional meaning, or creative work.
 
@@ -645,47 +645,47 @@ The method therefore does not make system-level inference impossible. It usually
 
 Anderson, Elizabeth. 2017. *Private Government: How Employers Rule Our Lives (and Why We Don’t Talk about It)*. Princeton: Princeton University Press.
 
-Bardhan, Pranab, and John E. Roemer. 1992. “Market Socialism: A Case for Rejuvenation.” *Journal of Economic Perspectives* 6(3): 101–116.
+Bardhan, Pranab, and John E. Roemer. 1992. “Market Socialism: A Case for Rejuvenation.” *Journal of Economic Perspectives* 6(3): 101–116. <https://doi.org/10.1257/jep.6.3.101>.
 
-Bardhan, Pranab, and John E. Roemer. 1994. “On the Workability of Market Socialism.” *Journal of Economic Perspectives* 8(2): 177–181.
+Bardhan, Pranab, and John E. Roemer. 1994. “On the Workability of Market Socialism.” *Journal of Economic Perspectives* 8(2): 177–181. <https://doi.org/10.1257/jep.8.2.177>.
 
-Burdín, Gabriel. 2014. “Are Worker-Managed Firms More Likely to Fail Than Conventional Enterprises? Evidence from Uruguay.” *ILR Review* 67(1): 202–238.
+Burdín, Gabriel. 2014. “Are Worker-Managed Firms More Likely to Fail Than Conventional Enterprises? Evidence from Uruguay.” *ILR Review* 67(1): 202–238. <https://doi.org/10.1177/001979391406700108>.
 
-Burdín, Gabriel, and Andrés Dean. 2009. “New Evidence on Wages and Employment in Worker Cooperatives Compared with Capitalist Firms.” *Journal of Comparative Economics* 37(4): 517–533.
+Burdín, Gabriel, and Andrés Dean. 2009. “New Evidence on Wages and Employment in Worker Cooperatives Compared with Capitalist Firms.” *Journal of Comparative Economics* 37(4): 517–533. <https://doi.org/10.1016/j.jce.2009.08.001>.
 
-Chetty, Raj. 2008. “Moral Hazard versus Liquidity and Optimal Unemployment Insurance.” *Journal of Political Economy* 116(2): 173–234.
+Chetty, Raj. 2008. “Moral Hazard versus Liquidity and Optimal Unemployment Insurance.” *Journal of Political Economy* 116(2): 173–234. <https://doi.org/10.1086/588585>.
 
 Coase, R. H. 1937. “The Nature of the Firm.” *Economica* 4(16): 386–405.
 
 Cockshott, W. Paul, and Allin F. Cottrell. 1993. *Towards a New Socialism*. Nottingham: Spokesman.
 
-Dahl, Robert A. 1985. *A Preface to Economic Democracy*. Berkeley: University of California Press.
+Dahl, Robert A. 1985. *A Preface to Economic Democracy*. Berkeley: University of California Press. <https://doi.org/10.1525/9780520341166>.
 
-Diamond, Peter, and Emmanuel Saez. 2011. “The Case for a Progressive Tax: From Basic Research to Policy Recommendations.” *Journal of Economic Perspectives* 25(4): 165–190.
+Diamond, Peter, and Emmanuel Saez. 2011. “The Case for a Progressive Tax: From Basic Research to Policy Recommendations.” *Journal of Economic Perspectives* 25(4): 165–190. <https://doi.org/10.1257/jep.25.4.165>.
 
 Dworkin, Ronald. 1981. “What Is Equality? Part 2: Equality of Resources.” *Philosophy & Public Affairs* 10(4): 283–345.
 
-Estrin, Saul. 1991. “Yugoslavia: The Case of Self-Managing Market Socialism.” *Journal of Economic Perspectives* 5(4): 187–194.
+Estrin, Saul. 1991. “Yugoslavia: The Case of Self-Managing Market Socialism.” *Journal of Economic Perspectives* 5(4): 187–194. <https://doi.org/10.1257/jep.5.4.187>.
 
 Hansmann, Henry. 1996. *The Ownership of Enterprise*. Cambridge, MA: Belknap Press of Harvard University Press.
 
 Hayek, F. A. 1945. “The Use of Knowledge in Society.” *American Economic Review* 35(4): 519–530.
 
-Heath, Joseph. 2025. “Are Cooperatives More Virtuous than Corporations?” *Politics, Philosophy & Economics*. OnlineFirst. [https://doi.org/10.1177/1470594X251387579](https://doi.org/10.1177/1470594X251387579).
+Heath, Joseph. 2025. “Are Cooperatives More Virtuous than Corporations?” *Politics, Philosophy & Economics*. OnlineFirst. [https://doi.org/10.1177/1470594X251387579](https://doi.org/10.1177/1470594X251387579). <https://doi.org/10.1177/1470594x251387579>.
 
-Hickel, Jason. 2021. “What Does Degrowth Mean? A Few Points of Clarification.” *Globalizations* 18(7): 1105–1111.
+Hickel, Jason. 2021. “What Does Degrowth Mean? A Few Points of Clarification.” *Globalizations* 18(7): 1105–1111. <https://doi.org/10.1080/14747731.2020.1812222>.
 
 Hirschman, Albert O. 1970. *Exit, Voice, and Loyalty: Responses to Decline in Firms, Organizations, and States*. Cambridge, MA: Harvard University Press.
 
-Hodgson, Geoffrey M. 2023. “The Institutional Impossibility of Guild Socialism.” *Cambridge Journal of Economics* 47(1): 21–43.
+Hodgson, Geoffrey M. 2023. “The Institutional Impossibility of Guild Socialism.” *Cambridge Journal of Economics* 47(1): 21–43. <https://doi.org/10.1093/cje/beac057>.
 
 Kornai, János. 1980. *Economics of Shortage*. 2 vols. Amsterdam: North-Holland.
 
-Kornai, János, Eric Maskin, and Gérard Roland. 2003. “Understanding the Soft Budget Constraint.” *Journal of Economic Literature* 41(4): 1095–1136.
+Kornai, János, Eric Maskin, and Gérard Roland. 2003. “Understanding the Soft Budget Constraint.” *Journal of Economic Literature* 41(4): 1095–1136. <https://doi.org/10.1257/jel.41.4.1095>.
 
-Kraft, Evan, and Milan Vodopivec. 1992. “How Soft Is the Budget Constraint for Yugoslav Firms?” *Journal of Comparative Economics* 16(3): 432–455.
+Kraft, Evan, and Milan Vodopivec. 1992. “How Soft Is the Budget Constraint for Yugoslav Firms?” *Journal of Comparative Economics* 16(3): 432–455. <https://doi.org/10.1016/0147-5967(92)90166-5>.
 
-Krueger, Anne O. 1990. “Government Failures in Development.” *Journal of Economic Perspectives* 4(3): 9–23.
+Krueger, Anne O. 1990. “Government Failures in Development.” *Journal of Economic Perspectives* 4(3): 9–23. <https://doi.org/10.1257/jep.4.3.9>.
 
 Lange, Oskar. 1936–1937. “On the Economic Theory of Socialism.” Parts 1 and 2. *Review of Economic Studies* 4(1): 53–71; 4(2): 123–142.
 
@@ -705,9 +705,9 @@ Nove, Alec. 1983. *The Economics of Feasible Socialism*. London: George Allen & 
 
 Nozick, Robert. 1974. *Anarchy, State, and Utopia*. New York: Basic Books.
 
-Przeworski, Adam. 1985. *Capitalism and Social Democracy*. Cambridge: Cambridge University Press.
+Przeworski, Adam. 1985. *Capitalism and Social Democracy*. Cambridge: Cambridge University Press. <https://doi.org/10.1017/cbo9781139171830>.
 
-Roemer, John E. 1982. *A General Theory of Exploitation and Class*. Cambridge, MA: Harvard University Press.
+Roemer, John E. 1982. *A General Theory of Exploitation and Class*. Cambridge, MA: Harvard University Press. <https://doi.org/10.4159/harvard.9780674435865>.
 
 Roemer, John E. 1994. *A Future for Socialism*. Cambridge, MA: Harvard University Press.
 
@@ -715,14 +715,14 @@ Saito, Kohei. 2023. *Marx in the Anthropocene: Towards the Idea of Degrowth Comm
 
 Stiglitz, Joseph E. 1994. *Whither Socialism?* Cambridge, MA: MIT Press.
 
-Stiglitz, Joseph E. 1998. “Distinguished Lecture on Economics in Government: The Private Uses of Public Interests: Incentives and Institutions.” *Journal of Economic Perspectives* 12(2): 3–22.
+Stiglitz, Joseph E. 1998. “Distinguished Lecture on Economics in Government: The Private Uses of Public Interests: Incentives and Institutions.” *Journal of Economic Perspectives* 12(2): 3–22. <https://doi.org/10.1257/jep.12.2.3>.
 
 Uvalić, Milica. 1992. *Investment and Property Rights in Yugoslavia: The Long Transition to a Market Economy*. Cambridge: Cambridge University Press.
 
-van der Linden, Marcel, ed. 2022. *The Cambridge History of Socialism*. 2 vols. Cambridge: Cambridge University Press.
+van der Linden, Marcel, ed. 2022. *The Cambridge History of Socialism*. 2 vols. Cambridge: Cambridge University Press. <https://doi.org/10.1017/9781108611022>.
 
 Vrousalis, Nicholas. 2023. *Exploitation as Domination: What Makes Capitalism Unjust*. Oxford: Oxford University Press.
 
-Westerberg, Rikard. 2023. “From Marxist Venture to Venture Capitalists: The Swedish Wage-Earner Funds and the Market Turn, 1983–1994.” *Enterprise & Society* 24(4): 1014–1037.
+Westerberg, Rikard. 2023. “From Marxist Venture to Venture Capitalists: The Swedish Wage-Earner Funds and the Market Turn, 1983–1994.” *Enterprise & Society* 24(4): 1014–1037. <https://doi.org/10.1017/eso.2022.23>.
 
 Wright, Erik Olin. 2010. *Envisioning Real Utopias*. London: Verso.

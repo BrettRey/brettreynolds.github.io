@@ -110,7 +110,7 @@ This prevents both “everything a socialist state did was socialist” and “a
 
 ### 1.6 Categorization and attribution are different tests
 
-Two distinct questions run through this entry and its companion, *Capitalism*. Categorization asks what a [formation](https://plato.stanford.edu/entries/social-ontology/) is: which institutions are present, and whether their configuration makes it socialist, capitalist, hybrid, or neither. Attribution asks what a formation’s record shows: which mechanism produced an outcome, and how far the inference travels. A formation can be straightforwardly socialist while its record supports no conclusion about socialism in general, and an outcome can be well identified while the formation that produced it resists categorization.
+Two distinct questions run through this entry and its companion, [*Capitalism*](capitalism.html). Categorization asks what a [formation](https://plato.stanford.edu/entries/social-ontology/) is: which institutions are present, and whether their configuration makes it socialist, capitalist, hybrid, or neither. Attribution asks what a formation’s record shows: which mechanism produced an outcome, and how far the inference travels. A formation can be straightforwardly socialist while its record supports no conclusion about socialism in general, and an outcome can be well identified while the formation that produced it resists categorization.
 
 Six questions order the analysis:
 

@@ -120,7 +120,7 @@ Not everything capitalism uses was created by capitalism, and not everything one
 
 ### 1.8 Categorization and attribution are different tests
 
-Two distinct questions run through this entry and its companion, *Socialism*. Categorization asks what a [formation](https://plato.stanford.edu/entries/social-ontology/) is: which [institutions](https://plato.stanford.edu/entries/social-institutions/) are present, and whether their configuration makes it capitalist, socialist, hybrid, or neither. Attribution asks what a formation’s record shows: which mechanism produced an outcome, and how far the inference travels. A formation can be straightforwardly capitalist while its record supports no conclusion about capitalism in general, and an outcome can be well identified while the formation that produced it resists categorization.
+Two distinct questions run through this entry and its companion, [*Socialism*](socialism.html). Categorization asks what a [formation](https://plato.stanford.edu/entries/social-ontology/) is: which [institutions](https://plato.stanford.edu/entries/social-institutions/) are present, and whether their configuration makes it capitalist, socialist, hybrid, or neither. Attribution asks what a formation’s record shows: which mechanism produced an outcome, and how far the inference travels. A formation can be straightforwardly capitalist while its record supports no conclusion about capitalism in general, and an outcome can be well identified while the formation that produced it resists categorization.
 
 Six questions order the analysis:
 

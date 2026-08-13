@@ -32,6 +32,12 @@
 - [Adversarial Pragmatics for AI Safety Evaluation: Adjudication app](https://brettreynolds.ca/papers/adversarial-pragmatics-for-ai-safety-evaluation/judgment-protocol.html): The same browser review app used for the 54-row local seed-pilot adjudication.
 - [English Constructionary](https://brettrey.github.io/English-Constructionary/): A dictionary of English constructions in a projectibility-first Construction Grammar framework, with a curated lexicon layer of closed-class lexemes. Browsable site with per-entry formal patterns, meanings, constraints, and examples; YAML source data at https://github.com/BrettRey/English-Constructionary (MIT licence).
 
+## Reference Entries
+
+- [Capitalism](https://brettreynolds.ca/capitalism.md): Reference entry treating capitalism as a structured institutional family organized around recurrent accumulation, with categorization tests, an attribution rule, and a worked inference on venture capital. HTML: https://brettreynolds.ca/capitalism.html
+- [Socialism](https://brettreynolds.ca/socialism.md): Reference entry treating socialism as aspirations, projects, and formations, with a layered boundary rule and worked inferences on Yugoslav soft budgets and Uruguayan worker-managed firms. HTML: https://brettreynolds.ca/socialism.html
+- [About the pair](https://brettreynolds.ca/capitalism-socialism.html): Origin, shared rules of inference, verification process, and AI involvement.
+
 ## Human-Facing Pages
 
 - [Publications](https://brettreynolds.ca/publications.html): Full publication list.

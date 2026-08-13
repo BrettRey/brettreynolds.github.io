@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="An Alloy formalization of the categorization rules in the paired capitalism and socialism entries: nine boundary claims with machine-verified witnesses, four valid definitional checks, and one deliberately failing exclusivity check.">
+  <meta name="author" content="Brett Reynolds">
+  <title>The Categorization Rules, Machine-Checked - Brett Reynolds</title>
+  <script src="theme.js"></script>
+  <link rel="stylesheet" href="style-v3.css">
+  <style>
+    .essay-content table { width: 100%; border-collapse: collapse; }
+    .essay-content th:nth-child(4), .essay-content td:nth-child(4) { width: 55%; }
+    .essay-content td:first-child code { overflow-wrap: anywhere; }
+    .essay-content td { vertical-align: top; }
+  </style>
+</head>
+<body>
+
+  <h1>The Categorization Rules, Machine-Checked</h1>
+  <p class="essay-meta">Brett Reynolds · August 13, 2026</p>
+  <p><a href="capitalism-socialism.html">← About the pair</a> · <a href="capitalism.html">Capitalism</a> · <a href="socialism.html">Socialism</a> · <a href="institutional_categorization.als">Model source (.als)</a></p>
+
+  <hr>
+
+  <article class="essay-content">
+
+<p>The paired entries on <a href="capitalism.html">capitalism</a> and <a href="socialism.html">socialism</a> rest on a small set of categorization rules: a three-condition test for when a formation counts as substantially organized around accumulation, a layered rule separating socialist projects (identified by genealogy) from socialist institutions and formations (identified by the productive powers actually socialized, and their extent), and the claim that the two categories genuinely overlap rather than partitioning the space. Rules of that shape can harbour quiet contradictions &ndash; two locally plausible boundary claims that no possible formation could satisfy together. That class of defect is mechanically detectable, so it has been mechanically checked.</p>
+
+<p>The rules are formalized in <a href="https://alloytools.org/">Alloy</a>, a relational modelling language whose analyzer searches exhaustively for models and counterexamples within a bounded scope. Each boundary claim the entries make became a named predicate; the analyzer then confirmed a witness for every claim and the validity of every definitional check. One check was written to fail: an earlier draft assumed that satisfying the capitalist test excludes being a socialist formation, an external review caught the contradiction with the entries&rsquo; own hybrid space, and the corrected position &ndash; the categories overlap &ndash; is now guarded by a counterexample the analyzer must find.</p>
+
+<h2>Results</h2>
+
+<p>Alloy 6.2.0, all commands, August 13, 2026. A <em>witness</em> row asks whether a described formation can exist under the rules (SAT means yes); a <em>check</em> row asks whether a universal claim holds in every model within scope (valid means no counterexample exists).</p>
+
+<table>
+  <thead>
+    <tr><th>Command</th><th>Kind</th><th>Result</th><th>Reading</th></tr>
+  </thead>
+  <tbody>
+      <tr><td><code>marketSocialismOverlap</code></td><td>witness</td><td>SAT</td><td>Market socialism can satisfy both the capitalist structural test and the socialist-formation threshold: the overlap between the categories is real.</td></tr>
+      <tr><td><code>merchantQualifying</code></td><td>witness</td><td>SAT</td><td>Merchant capital that reorganized production and finance around itself qualifies as capitalist.</td></tr>
+      <tr><td><code>merchantFailing</code></td><td>witness</td><td>SAT</td><td>Merchant commerce that skims an unchanged base does not.</td></tr>
+      <tr><td><code>householdBelowBoundary</code></td><td>witness</td><td>SAT</td><td>Household commercial production with markets but no structured domains is not capitalist: markets do not suffice, witnessed.</td></tr>
+      <tr><td><code>plantationCapitalism</code></td><td>witness</td><td>SAT</td><td>Coerced labour is compatible with the capitalist test; the labour-regime orthogonality claim has a model.</td></tr>
+      <tr><td><code>stateCapitalismStructural</code></td><td>witness</td><td>SAT</td><td>A formation can sit in the structural overlap with no socialist programme: formation-level categorization is structural, genealogy separate.</td></tr>
+      <tr><td><code>socialDemocracyProjectOnly</code></td><td>witness</td><td>SAT</td><td>A socialist project can govern a capitalist, non-socialist formation.</td></tr>
+      <tr><td><code>nepRecruitment</code></td><td>witness</td><td>SAT</td><td>A socialist project can deliberately recruit markets without dissolving.</td></tr>
+      <tr><td><code>plannedSocialismNoMarkets</code></td><td>witness</td><td>SAT</td><td>Comprehensive planning without markets remains categorizable as a socialist formation, and is not capitalist.</td></tr>
+      <tr><td><code>enclaveNeverFormation</code></td><td>check</td><td>valid</td><td>Enclave socialization never makes a socialist formation: the threshold does its job.</td></tr>
+      <tr><td><code>marketsDoNotSuffice</code></td><td>check</td><td>valid</td><td>No structured domains, no capitalism, however commercial the society.</td></tr>
+      <tr><td><code>formationRequiresPowers</code></td><td>check</td><td>valid</td><td>The socialist-formation label follows the powers.</td></tr>
+      <tr><td><code>twoDomainsInsufficient</code></td><td>check</td><td>valid</td><td>The three conditions are genuinely joint: two of three domains never suffice.</td></tr>
+      <tr><td><code>capitalistExcludesSocialistFormation</code></td><td>check</td><td>counterexample</td><td>The assumption that capitalist excludes socialist formation is refuted, as intended: an earlier draft made this assumption, an external review caught it, and the check now guards it mechanically.</td></tr>
+  </tbody>
+</table>
+
+<h2>What this does and does not show</h2>
+
+<p>A satisfiable witness certifies that a boundary claim is coherent under this formalization; a valid check certifies a definitional claim within the search scope. Neither certifies the prose itself: the mapping from prose to model is a judgment step, and threshold notions such as &ldquo;materially structures&rdquo; and &ldquo;a substantial part of productive life&rdquo; enter the model as primitives, which is faithful to the entries, where they are threshold judgments too. Nothing evidential is modelled: the entries&rsquo; five-step evidential test and bounded verdicts concern the force of evidence, which does not reduce to relational structure, and pretending otherwise would be the kind of false rigour the entries argue against.</p>
+
+<h2>Reproducing</h2>
+
+<p>Download the <a href="institutional_categorization.als">model source</a> and the Alloy 6.2.0 <a href="https://github.com/AlloyTools/org.alloytools.alloy/releases/tag/v6.2.0">dist jar</a>, then run <code>java -jar org.alloytools.alloy.dist.jar exec -c '*' -f institutional_categorization.als</code>. The fourteen results above should reproduce exactly.</p>
+
+  </article>
+
+</body>
+</html>

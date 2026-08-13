@@ -67,3 +67,5 @@ Format: `## YYYY-MM-DD` then bullet points with **bold topic** and brief rationa
 - **Source documents archived to `~/Documents/CGEL/SIEG2-errata-sources/`** (`Errata-2022-03.pdf`, `SecondErrata.pdf`, `corrections-2023-02.xlsx`, `SIEG-errata-Spring2024.pdf`). Three of the four existed only as Gmail attachments.
 
 2026-08-13 — Added paired reference entries: capitalism.html, socialism.html, capitalism-socialism.html (landing with method and AI-involvement notes), markdown mirrors, essays.html listing, llms.txt Reference Entries section.
+
+2026-08-13 — Added capitalism-socialism-formal.html (Alloy machine-check of the entries' categorization rules) with model source; landing page wired to it; information-structure and title-italics fixes.

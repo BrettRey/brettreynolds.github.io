@@ -2,7 +2,7 @@
 title: "Reference as a cluster concept: A reply to Coelho Mollo and Milliere"
 author: "Brett Reynolds"
 year: "2026"
-status: "Under review at Philosophy and the Mind Sciences"
+status: "Preprint"
 canonical_url: "https://philarchive.org/rec/REYRAA-2"
 website_url: "https://brettreynolds.ca/papers/reference-as-cluster-concept/"
 markdown_url: "https://brettreynolds.ca/papers/reference-as-cluster-concept/paper.md"

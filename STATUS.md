@@ -1,10 +1,14 @@
 # STATUS.md
-<!-- SUMMARY: Static site state for brettreynolds.ca · status: live; homepage rebuild v7 approved, awaiting promotion to index.html · updated: 2026-08-11 -->
+<!-- SUMMARY: Static site state for brettreynolds.ca · status: live; publication and CV surfaces current through the PhiMiSci decision · updated: 2026-08-14 -->
 
 ## Current State
 
 **Status:** Static site maintained for brettreynolds.ca
-**Last updated:** 2026-08-11
+**Last updated:** 2026-08-14
+
+### 2026-08-14 PhiMiSci status update
+- Removed stale under-review wording for *Reference as a cluster concept* after PhiMiSci rejected the paper following external review.
+- Public pages and the CV now present the PhilArchive record as a preprint; the mirror generator and BibTeX record carry the same status.
 
 ### 2026-08-11 Session Notes
 - **SIEG2 errata page shipped** (`93066d0`): new `sieg2-errata.html`, linked from `publications.html` and `index.html`, indexed in `sitemap.xml` and `llms.txt`.

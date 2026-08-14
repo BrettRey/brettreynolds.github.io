@@ -309,7 +309,7 @@ const papers = [
     slug: "reference-as-cluster-concept",
     title: "Reference as a cluster concept: A reply to Coelho Mollo and Milliere",
     shortTitle: "Reference as a cluster concept",
-    status: "Under review at Philosophy and the Mind Sciences",
+    status: "Preprint",
     year: "2026",
     sourceTex: "papers/queue/vector-grounding-problem-response/main.tex",
     bibliography: ["papers/queue/vector-grounding-problem-response/references.bib", "papers/queue/vector-grounding-problem-response/references-local.bib"],
@@ -321,7 +321,7 @@ const papers = [
   author = {Reynolds, Brett},
   title = {Reference as a Cluster Concept: A Reply to Coelho Mollo and Milliere},
   year = {2026},
-  note = {Preprint, PhilArchive; under review at Philosophy and the Mind Sciences},
+  note = {Preprint, PhilArchive},
   url = {https://philarchive.org/rec/REYRAA-2}
 }
 `,

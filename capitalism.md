@@ -46,7 +46,7 @@ Accumulation should therefore organize categorization without prejudging its cau
 
 Substantial organization around capital accumulation needs a test, or the criterion admits every commercial society. Three conditions apply jointly rather than singly: recurrent redeployment of value-bearing claims or control must materially structure productive organization (which firms exist and how production is arranged), access to labour and inputs (who works for whom, on what terms), and investment together with its political-economic protection (which projects proceed, and which institutions secure the returns). A state-directed programme does not meet the criterion merely by reinvesting public surpluses or expanding productive stock; it qualifies only where value-bearing public or political claims are recurrently expanded and redeployed, and anticipated returns on control over those claims materially shape productive organization, access to labour and inputs, which investments proceed, and which institutions protect their returns. Where commerce and credit merely coexist with production organized by household subsistence, tribute, or administrative command, the criterion is not met.
 
-Boundary cases test the rule rather than embarrass it. Merchant formations of the Braudelian kind qualify where trading capital reorganized production and finance around itself, and fail where it skimmed an unchanged agrarian base. Plantation slavery qualifies where slave-produced commodities, credit, and asset markets in persons were integrated into accumulation circuits; how far that integration structured the wider economy is exactly what the new histories of capitalism and their critics dispute (Williams 1944; Beckert 2014; Olmstead and Rhode 2018). State capitalism can qualify where publicly owned enterprises recurrently expand and redeploy value-bearing public or political claims and anticipated returns materially govern the relevant domains; otherwise a developmental state may be directing administrative reinvestment without thereby being capitalist on this definition. Household commercial production sits below the boundary until hired labour, credit, and reinvestment reorganize the household itself. And market socialism shares the allocation machinery while socializing ownership and investment authority; where recurrent accumulation nevertheless continues to organize production and investment materially, such a formation falls in the overlap between the families rather than cleanly outside capitalism. Markets do not mark the boundary: ownership, accumulation, and investment authority vary partly independently, and the hybrid space is where they cross.
+Boundary cases test the rule rather than embarrass it. Merchant formations of the [Braudelian](https://en.wikipedia.org/wiki/Fernand_Braudel) kind qualify where trading capital reorganized production and finance around itself, and fail where it skimmed an unchanged agrarian base. Plantation slavery qualifies where slave-produced commodities, credit, and asset markets in persons were integrated into accumulation circuits; how far that integration structured the wider economy is exactly what the new histories of capitalism and their critics dispute (Williams 1944; Beckert 2014; Olmstead and Rhode 2018). State capitalism can qualify where publicly owned enterprises recurrently expand and redeploy value-bearing public or political claims and anticipated returns materially govern the relevant domains; otherwise a developmental state may be directing administrative reinvestment without thereby being capitalist on this definition. Household commercial production sits below the boundary until hired labour, credit, and reinvestment reorganize the household itself. And market socialism shares the allocation machinery while socializing ownership and investment authority; where recurrent accumulation nevertheless continues to organize production and investment materially, such a formation falls in the overlap between the families rather than cleanly outside capitalism. Markets do not mark the boundary: ownership, accumulation, and investment authority vary partly independently, and the hybrid space is where they cross.
 
 ### 1.3 Competing causal topologies
 
@@ -54,17 +54,17 @@ Boundary cases test the rule rather than embarrass it. Merchant formations of th
 
 [Weber](https://plato.stanford.edu/entries/weber/) gives greater weight to calculability, accounting, law, organization, monetary calculation, and institutional conditions permitting sustained orientation toward expected returns (Weber 1904–05/2002).
 
-Schumpeter emphasizes credit, entrepreneurship, innovation, and processes through which new combinations displace established organizations and technologies (Schumpeter 1942).
+[Schumpeter](https://en.wikipedia.org/wiki/Joseph_Schumpeter) emphasizes credit, entrepreneurship, innovation, and processes through which new combinations displace established organizations and technologies (Schumpeter 1942).
 
 Liberal accounts emphasize private property, decentralized choice, prices, and the dispersion of decision-making authority; [Hayek’s](https://plato.stanford.edu/entries/friedrich-hayek/) knowledge argument is an especially influential account of the informational role of prices (Hayek 1945).
 
-Keynes places investment under uncertainty, money, liquidity, and aggregate demand closer to the centre (Keynes 1936).
+[Keynes](https://en.wikipedia.org/wiki/John_Maynard_Keynes) places investment under uncertainty, money, liquidity, and aggregate demand closer to the centre (Keynes 1936).
 
-Polanyi supplies a different topology again. His account emphasizes the political and legal construction of the self-regulating market, the attempted commodification of labour, land, and money, and social countermovements generated in response to marketization (Polanyi 1944/2001).
+[Polanyi](https://en.wikipedia.org/wiki/Karl_Polanyi) supplies a different topology again. His account emphasizes the political and legal construction of the self-regulating market, the attempted commodification of labour, land, and money, and social countermovements generated in response to marketization (Polanyi 1944/2001).
 
 Braudelian approaches weaken the identification of capitalism with competitive markets by emphasizing finance, large-scale commerce, monopoly, privileged access, and relationships between holders of capital and political authority (Braudel 1992).
 
-Institutionalist approaches emphasize that property, firms, finance, contracts, markets, and competition themselves depend on legal and political institutions; Coase, North, Williamson, and Ostrom identify different institutional mechanisms through which coordination and governance problems are handled (Coase 1937; Williamson 1985; North 1990; Ostrom 1990).
+Institutionalist approaches emphasize that property, firms, finance, contracts, markets, and competition themselves depend on legal and political institutions; [Coase](https://en.wikipedia.org/wiki/Ronald_Coase), [North](https://en.wikipedia.org/wiki/Douglass_North), [Williamson](https://en.wikipedia.org/wiki/Oliver_E._Williamson), and [Ostrom](https://en.wikipedia.org/wiki/Elinor_Ostrom) identify different institutional mechanisms through which coordination and governance problems are handled (Coase 1937; Williamson 1985; North 1990; Ostrom 1990).
 
 These accounts should be treated partly as competing hypotheses about dependency structure. Which institutions generate which pressures, and how far do those pressures travel across historical capitalisms? And partly they are not competitors at all: as §1.8 puts it, two fields can each be right about their own capitalism.
 
@@ -233,7 +233,7 @@ Roemer shifts much of the explanation from surplus extraction to unequal product
 
 But an initially equal allocation of physical assets need not remain equal. People differ in skills, preferences, saving, consumption, risk-taking, family circumstances, luck, willingness to work, and the desire to lead and make decisions. Some consume more now; others accumulate. Some investments succeed and others fail. Inequality of productive assets can therefore re-emerge from equal starting positions.
 
-That creates a dynamic normative problem. If institutions repeatedly restore equal holdings, they alter people’s incentives and constrain the consequences of choices over consumption, saving, work, and risk. If they do not, inequalities that began partly as voluntary divergence can become inherited differences in opportunity and bargaining power for later people who made no corresponding choices.
+That re-emergence creates a dynamic normative problem. If institutions repeatedly restore equal holdings, they alter people’s incentives and constrain the consequences of choices over consumption, saving, work, and risk. If they do not, inequalities that began partly as voluntary divergence can become inherited differences in opportunity and bargaining power for later people who made no corresponding choices.
 
 Vrousalis instead treats exploitation as enrichment through [domination](https://plato.stanford.edu/entries/domination/). On that account, the key question is whether control over productive resources gives one party objectionable power over another’s productive activity (Vrousalis 2023).
 
@@ -271,7 +271,7 @@ The same resources can create unequal political capacity.
 
 Lindblom’s analysis of the “privileged position” of business identifies a structural mechanism beyond lobbying. Governments can become sensitive to firms’ investment decisions because employment, production, tax revenue, and general economic performance depend partly on decisions made outside the state. Political influence can therefore operate through anticipated economic responses rather than explicit political expenditure (Lindblom 1977).
 
-This mechanism does not simply disappear when the identity of firm owners changes. Worker cooperatives remain productive organizations on which governments can depend for jobs, investment, innovation, and tax revenue. The relevant difference is the objectives and constituencies governing those organizations.
+This structural-dependence mechanism does not simply disappear when the identity of firm owners changes. Worker cooperatives remain productive organizations on which governments can depend for jobs, investment, innovation, and tax revenue. The relevant difference is the objectives and constituencies governing those organizations.
 
 The system-level question is therefore broader than whether capitalists possess structural power:
 
@@ -291,7 +291,7 @@ A mechanistic-integration claim identifies how those institutions altered labour
 
 A constitutive claim holds that capitalism generally requires such arrangements.
 
-The first two can be true without the third. The mechanistic questions also run in both directions: whether [coercion](https://plato.stanford.edu/entries/coercion/) fed particular accumulations, and whether accumulation generates or intensifies coercion. The second is a comparative-historical claim, and its proper test is whether coerced labour, dispossession, and hierarchical law intensify where the relevant accumulation mechanisms are introduced or strengthened and recede where they are removed, under matched conditions, the same breadth-matching rule as everywhere else.
+The first two can be true without the third. The mechanistic questions also run in both directions: whether [coercion](https://plato.stanford.edu/entries/coercion/) fed particular accumulations, and whether accumulation generates or intensifies coercion. The second direction is a comparative-historical claim, and its proper test is whether coerced labour, dispossession, and hierarchical law intensify where the relevant accumulation mechanisms are introduced or strengthened and recede where they are removed, under matched conditions, the same breadth-matching rule as everywhere else.
 
 The relationship between [Atlantic slavery](https://en.wikipedia.org/wiki/Atlantic_slave_trade) and capitalist development is itself a major historiographical dispute. Williams (1944) gave a classic account of the role of slavery and abolition in British capitalist development; Beckert (2014) places coerced labour centrally in a global history of cotton capitalism; economic historians such as Olmstead and Rhode (2018) dispute important causal and quantitative claims in the newer literature. This disagreement is a useful example of why system-level attribution should turn on mechanisms and magnitudes rather than category association.
 
@@ -353,9 +353,9 @@ Durable organizations permit projects to extend across time. Residual claims can
 
 Together, these can allow many actors to commit current resources to heterogeneous conjectures about uncertain future production without requiring one authority to choose them all. Venture capital illustrates one specialized version of this architecture, combining high-risk residual finance, monitoring, and staged commitment; §6.7 develops the case.
 
-This is among the strongest positive system-capacity arguments for some capitalist financial architectures.
+This joint-capacity argument is among the strongest positive system-capacity arguments for some capitalist financial architectures.
 
-It is historically specific rather than definitional. Other capitalist formations solve intertemporal investment differently, and social or public investment systems can reproduce parts of the architecture.
+The joint-capacity claim is historically specific rather than definitional. Other capitalist formations solve intertemporal investment differently, and social or public investment systems can reproduce parts of the architecture.
 
 ### 4.4 Experimentation and entry
 

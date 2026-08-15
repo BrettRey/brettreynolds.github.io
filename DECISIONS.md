@@ -87,3 +87,7 @@ Format: `## YYYY-MM-DD` then bullet points with **bold topic** and brief rationa
 2026-08-15 — Ship-gate scope for the paired reference entries: the website repository contains static HTML/Markdown pages plus unrelated TeX roots, but no site build target or local house-style tooling. Pandoc conversion of both Markdown mirrors, plain-text extraction of all three HTML pages, targeted stale-term checks, and `git diff --check` passed. The build-integrity and house-style gates were overridden for this publication because their generic manuscript checks do not apply to these pages.
 
 2026-08-15 — Paired reference entries bumped to Version 1.2, dated 15 August 2026, after the comparative-institutional revision was published. The landing page and both essay pages now carry the same version marker.
+
+2026-08-15 — Post-publication precision pass on the paired entries: distinguished a socialization project from effectively socialized power, clarified the state-capitalism boundary wording, separated the six-step local attribution test from §6.8’s system-level projection condition, and removed duplicate evaluative definitions from Socialism §6.8. These are local corrections within Version 1.2, not a new substantive revision.
+
+2026-08-15 — Paired-entry table column headers set in small caps across capitalism.html, socialism.html, and capitalism-socialism-formal.html; row headers left unchanged to preserve their semantic distinction.

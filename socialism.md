@@ -38,7 +38,7 @@ Modern socialism is distinguished partly by a reflexive project of transformatio
 
 Socialism can be organized conceptually around social ownership, [equality](https://plato.stanford.edu/entries/equality/), cooperation, ethos, democratic social power, or other ideas; this entry organizes it around economic power.
 
-This entry gives special weight to **socialization of economic power**, not because power is the only socialist value, but because socialist projects characteristically seek to alter some bundle of the powers described below.
+This entry gives special weight to <span class="smallcaps">socialization of economic power</span>, not because power is the only socialist value, but because socialist projects characteristically seek to alter some bundle of the powers described below.
 
 The conception is especially close to Erik Olin [Wright](https://en.wikipedia.org/wiki/Erik_Olin_Wright)’s (2010) account of socialism in terms of *social empowerment* over economic activity: increasing social power rooted in collective association over the allocation and use of economic resources. The present formulation differs mainly in decomposing economic power more explicitly and in remaining neutral about whether civil society should be the privileged institutional locus of that power.
 
@@ -351,7 +351,7 @@ The difficulty is structural, not merely attitudinal. Where a single social owne
 
 Market-socialist proposals contain partial attempts to preserve investment plurality. Roemer’s (1994) *A Future for Socialism* develops a market-socialist architecture in which public ownership is combined with market valuation rather than a single comprehensive investment bureaucracy; Bardhan and Roemer (1992) likewise propose competitive socialist arrangements intended to preserve monitoring and market discipline under altered ownership.
 
-A socialist investment architecture therefore needs not just plural funds but **contestable investment authority**.
+A socialist investment architecture therefore needs not just plural funds but <span class="smallcaps">contestable investment authority</span>.
 
 Who creates fund seven when funds one through six share the same mistaken view?
 

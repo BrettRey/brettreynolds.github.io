@@ -50,7 +50,7 @@ Worker control and citizen ownership can diverge.
 
 Public ownership can coexist with either centralized or highly delegated decision-making.
 
-Socialization is therefore understood as a project to transfer some bundle of productive powers away from a distinct class of private capital owners and toward workers, citizens, communities, public bodies, or other collectively constituted institutions.
+A socialist project of socialization seeks to transfer some bundle of productive powers away from a distinct class of private capital owners and toward workers, citizens, communities, public bodies, or other collectively constituted institutions.
 
 The relevant powers include:
 
@@ -60,6 +60,8 @@ The relevant powers include:
 - investment authority;
 - transfer or liquidation rights;
 - residual authority where existing rules do not settle a dispute.
+
+Economic power is socialized to the extent that those powers are effectively vested in and answerable to collective principals.
 
 Its advantage is not that it matches ordinary usage better, but that it better tracks the distinctions that matter for explanation and comparison.
 
@@ -143,13 +145,13 @@ Capitalist formations need not originate in capitalist projects. But where priva
 
 The definitions of socialism and capitalism are deliberately different in kind. Capitalism is identified structurally, through recurrent accumulation, and can arise with no one intending it; socialist projects are identified partly through programmatic genealogy, while socialist institutions and formations are categorized by the productive powers actually socialized and their extent (§1.4). The asymmetry is both a historical claim (the traditions did enter history differently) and an explicative choice, made because unintended socialization rarely organizes a formation the way unintended accumulation can. Nothing evidential hangs on it. Evidence eligibility is governed by questions 3 through 6, which treat favourable and adverse records of both families identically: a socialist formation that fails by socialist standards is admitted as evidence by the same rule that admits a capitalist formation nobody designed.
 
-The layered distinctions of §§1.3–1.5, the functional-conservation test (§6.5), the six questions above, and the attribution rule (§6.8) are this entry’s framework, shared with the companion entry, rather than a summary of settled positions. The survey sections report established literatures.
+The layered distinctions of §§1.3–1.5, the functional-conservation test (§6.5), the six-step attribution test above, and the system-level projection condition in §6.8 constitute this entry’s framework, shared with the companion entry, rather than a summary of settled positions. The survey sections report established literatures.
 
 ## 2. Socialist aspirations
 
 Capitalist, socialist, and hybrid systems should ultimately be evaluated in the same evaluative space: productive capacity; welfare; security; equality; liberty and effective exit; workplace voice; meaningful work; freedom from domination; political pluralism; innovation and discovery; ecological sustainability; resilience and corrigibility.
 
-These dimensions need not all be treated as outcomes. Depending on the theory, a dimension may be valued as an outcome, specified as a procedure, set as a threshold or side constraint, or given lexical priority over another dimension. Resilience is the capacity to preserve valued functions under shocks, adaptation, and local failure without imposing unacceptable losses elsewhere. Corrigibility is the capacity to detect institutional error, permit criticism and experimentation, and revise rules or allocations of authority before failures become entrenched. Persistence alone is not resilience, and correction only after catastrophe is not corrigibility.
+The evaluative dimensions and their possible roles were specified in §2.
 
 Aspirations are not what distinguishes socialists as people: many defenders of capitalism hold broadly similar hopes for welfare, security, and meaningful work. The difference is architectural. Socialism builds aspirations into its own identification, while capitalism is identified without reference to anyone’s hopes, which is partly why capitalism can be made to look as if it does not care: there is no aspirational clause in its identification to care with. Socialism’s distinctive burden is therefore to explain which institutional transformations are supposed to realize its characteristic aspirations, and why those transformations rather than others.
 
@@ -610,7 +612,7 @@ The useful question is:
 
 > Which feasible institutional packages lie on the relevant evaluative frontier once production, distribution, behavioural response, political feedback, external complements, and long-run stability are included?
 
-An outcome provides evidence about an economic system as such only to the extent that an identified mechanism is sufficiently central to the relevant institutional structure, depends on recurrent interactions among its institutions, is reproduced or rendered difficult to correct by endogenous feedback, or remains robust across the range of system variants to which the claim is intended to apply.
+Once a local causal contribution has been identified, the conclusion travels to an economic system as such only to the extent that an identified mechanism is sufficiently central to the relevant institutional structure, depends on recurrent interactions among its institutions, is reproduced or rendered difficult to correct by endogenous feedback, or remains robust across the range of system variants to which the claim is intended to apply.
 
 The families should be compared as design spaces rather than as bundles of traits; within each family the variants differ on every row. What carries across is the questions, not family-wise answers:
 

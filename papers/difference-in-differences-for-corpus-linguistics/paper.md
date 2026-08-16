@@ -1,8 +1,8 @@
 ---
-title: "Difference-in-differences for corpus linguistics: Causal inference, corpus composition, and linguistic change after shocks"
+title: "Did the intervention change usage? Validity threats and difference-in-differences in before-and-after corpus designs"
 author: "Brett Reynolds"
 year: "2026"
-status: "Preprint"
+status: "Under review at Research Methods in Applied Linguistics"
 canonical_url: "https://lingbuzz.net/lingbuzz/010080"
 website_url: "https://brettreynolds.ca/papers/difference-in-differences-for-corpus-linguistics/"
 markdown_url: "https://brettreynolds.ca/papers/difference-in-differences-for-corpus-linguistics/paper.md"
@@ -10,7 +10,7 @@ version: "author-manuscript mirror"
 version_date: "2026-06-20"
 keywords: ["difference-in-differences", "corpus linguistics", "causal inference", "corpus composition", "linguistic change", "morphology"]
 ---
-# Difference-in-differences for corpus linguistics: Causal inference, corpus composition, and linguistic change after shocks
+# Did the intervention change usage? Validity threats and difference-in-differences in before-and-after corpus designs
 
 **Author-manuscript mirror.** This Markdown file is provided for accessibility, search, and machine readability. The canonical public record is linked in the metadata above.
 

@@ -1,8 +1,8 @@
 ---
-title: "Truth-Tracking Profiles: What Large Language Models Participate In"
+title: "Grounding Without Corrective Control: Truth-Tracking Profiles for Large Language Models"
 author: "Brett Reynolds"
 year: "2026"
-status: "Preprint"
+status: "Under review at Synthese"
 canonical_url: "https://philarchive.org/rec/REYTPW"
 website_url: "https://brettreynolds.ca/papers/truth-tracking-profiles/"
 markdown_url: "https://brettreynolds.ca/papers/truth-tracking-profiles/paper.md"
@@ -10,7 +10,7 @@ version: "author-manuscript mirror"
 version_date: "2026-06-12"
 keywords: ["large language models", "truth-tracking", "grounding", "answerability", "testimony", "hallucination"]
 ---
-# Truth-Tracking Profiles: What Large Language Models Participate In
+# Grounding Without Corrective Control: Truth-Tracking Profiles for Large Language Models
 
 **Author-manuscript mirror.** This Markdown file is provided for accessibility, search, and machine readability. The canonical public record is linked in the metadata above.
 

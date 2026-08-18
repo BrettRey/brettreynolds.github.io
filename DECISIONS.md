@@ -91,3 +91,11 @@ Format: `## YYYY-MM-DD` then bullet points with **bold topic** and brief rationa
 2026-08-15 — Post-publication precision pass on the paired entries: distinguished a socialization project from effectively socialized power, clarified the state-capitalism boundary wording, separated the six-step local attribution test from §6.8’s system-level projection condition, and removed duplicate evaluative definitions from Socialism §6.8. These are local corrections within Version 1.2, not a new substantive revision.
 
 2026-08-15 — Paired-entry table column headers set in small caps across capitalism.html, socialism.html, and capitalism-socialism-formal.html; row headers left unchanged to preserve their semantic distinction.
+
+## 2026-08-18
+
+- **What We Notice uses a split-screen causal sandbox.** The interaction holds learner capacity and the deterministic communicative episode stream fixed while gain profiles vary. This makes the article's counterfactual—change what matters to learning, not the learning machinery—the page's operative mechanic rather than a caption.
+- **The outcome is multidimensional.** Show segmentation, form–scene mapping, novel transfer, imitation, and false-boundary costs rather than a single language score. Indiscriminate scalar gain can make performance worse, preserving the article's structured-precision claim and Appendix B warning.
+- **EchoLab is a prologue; Four Cradles is the coda.** Human echolocation supplies the complexity-without-direct-adaptation intuition, while the ostension × rhythm plate distinguishes binding bias from rhythm-first, social-pragmatic, arousal, null, and non-human-equivalence outcomes.
+- **Aesthetic: luminous developmental observatory.** Perfectly mirrored learners, midnight indigo, warm ivory, coral/gold/teal cue channels, editorial serif type, and slow evidence-binding motion. The page avoids baby imagery, stock brains, audio dependence, precise timing, and colour-only coding.
+- **Epistemic status stays visible.** The page calls itself a playable thought experiment and toy associative learner, states that it is not evidence, and links the claim to three proposed empirical tests.

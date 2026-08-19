@@ -6,10 +6,10 @@
 **Status:** Static site maintained for brettreynolds.ca
 **Last updated:** 2026-08-18
 
-### 2026-08-18 What We Notice interactive explainer
-- Added `what-we-notice.html`, a single-file causal sandbox for the newly published attentional-bias article.
-- The central mechanic holds learner capacity and a deterministic episode stream fixed while visitors vary structured precision profiles and compare segmentation, form–scene mapping, transfer, imitation, and false-boundary costs.
-- The page includes a silent echolocation prologue, rival gain-profile presets, four shared-world conditions, and a Four Cradles ostension × rhythm prediction lab.
+### 2026-08-18 What We Notice plain-language explainer
+- Added `what-we-notice.html`, an illustrated editorial companion to the newly published attentional-bias article.
+- The essay opens with human echolocation, explains precision as a structured trust policy rather than a general attention boost, compares other vocal learners, and ends with the Four Cradles falsification logic.
+- Replaced the initial causal-sandbox game after live review: its numerical toy outcomes made the explanatory conclusions feel stipulated rather than discovered.
 - Linked from the article's publication entry and indexed in `sitemap.xml` and `llms.txt`; deliberately not promoted on the homepage pending finished-artifact review.
 
 ### 2026-08-14 PhiMiSci status update

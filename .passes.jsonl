@@ -1,0 +1,2 @@
+{"event": "override", "pass": "build-integrity", "reason": "Static HTML/Markdown publication has no site build target; targeted Pandoc, HTML, stale-term, and git diff checks passed. Generic fingerprint sees unrelated TeX roots.", "gate": "ship", "ts": "2026-08-15T06:14:44-04:00"}
+{"event": "override", "pass": "house-style", "reason": "Static HTML/Markdown publication has no local .house-style tooling or applicable LaTeX style target; targeted page checks passed.", "gate": "ship", "ts": "2026-08-15T06:14:44-04:00"}

@@ -302,7 +302,7 @@ The more distinctively socialist questions therefore concern ownership, investme
 
 ### 4.1 The ownership-structure challenge
 
-Hansmann’s (1996) theory of enterprise ownership makes a basic structural point: investor-owned corporations, worker cooperatives, consumer cooperatives, and producer cooperatives assign residual claims and governance rights to different constituencies. Heath (2025) presses the point normatively in comparing cooperatives with corporations.
+Hansmann’s (1996) theory of enterprise ownership makes a basic structural point: investor-owned corporations, worker cooperatives, consumer cooperatives, and producer cooperatives assign residual claims and governance rights to different constituencies. Heath (2025a) presses the point normatively in comparing cooperatives with corporations.
 
 A worker cooperative therefore does not automatically convert a partial organization into one representing society. It changes which constituency occupies the residual position.
 
@@ -331,7 +331,7 @@ Resources must still be committed before returns exist. Risks must be borne. Man
 
 Worker cooperatives can use retained earnings or debt. Socialism can use public banks, social funds, cooperative finance, or other arrangements.
 
-Hansmann’s (1996) analysis matters here because investor ownership can be understood partly as an organizational response to the costs of contracting with different constituencies and to the problem of supplying residual risk capital, a reading Heath (2025) adopts.
+Hansmann’s (1996) analysis matters here because investor ownership can be understood partly as an organizational response to the costs of contracting with different constituencies and to the problem of supplying residual risk capital, a reading Heath (2025a) adopts.
 
 The functional-conservation question is:
 
@@ -606,6 +606,8 @@ These dimensions need not all be treated as outcomes. Depending on the theory, a
 
 Disagreement can concern empirical consequences, feasible and stable institutional packages, the meaning of the evaluative dimensions, or their normative ordering.
 
+A defect may be a pro tanto objection even if every feasible institutional package shares it. It supports a socialism-specific or all-things-considered verdict only when matched comparison shows that some feasible package avoids or attenuates it without unacceptable losses elsewhere (Heath 2025b; Vrousalis 2023).
+
 A socialist aspiration does not determine its institutional solution. A capitalist mechanism does not inherit a favourable normative weighting.
 
 The useful question is:
@@ -681,7 +683,9 @@ Hansmann, Henry. 1996. *The Ownership of Enterprise*. Cambridge, MA: Belknap Pre
 
 Hayek, F. A. 1945. “The Use of Knowledge in Society.” *American Economic Review* 35(4): 519–530.
 
-Heath, Joseph. 2025. “Are Cooperatives More Virtuous than Corporations?” *Politics, Philosophy & Economics*. OnlineFirst. <https://doi.org/10.1177/1470594X251387579>.
+Heath, Joseph. 2025a. “Are Cooperatives More Virtuous than Corporations?” *Politics, Philosophy & Economics*. OnlineFirst. <https://doi.org/10.1177/1470594X251387579>.
+
+Heath, Joseph. 2025b. “Hussain on the Market: Critique or Kvetch?” *Canadian Journal of Philosophy* 55(1): 36–52. <https://doi.org/10.1017/can.2025.10034>.
 
 Hickel, Jason. 2021. “What Does Degrowth Mean? A Few Points of Clarification.” *Globalizations* 18(7): 1105–1111. <https://doi.org/10.1080/14747731.2020.1812222>.
 

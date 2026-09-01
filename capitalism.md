@@ -175,7 +175,7 @@ The Hayekian argument is also narrower than a defence of capitalism. Market soci
 
 Decentralized actors can ignore effects borne by outsiders or underinvest in benefits they cannot appropriate.
 
-This is not inherently an investor-ownership problem. A worker cooperative can pollute; a public enterprise can pursue output targets while externalizing environmental damage; a private laboratory can underinvest in knowledge spillovers. Cooperatives, like investor-owned firms, are partial toward their own ownership constituencies rather than automatically representing all affected interests, a point that belongs to Hansmann’s (1996) economics of enterprise ownership and that Heath (2025) presses in comparing the ownership forms normatively.
+This is not inherently an investor-ownership problem. A worker cooperative can pollute; a public enterprise can pursue output targets while externalizing environmental damage; a private laboratory can underinvest in knowledge spillovers. Cooperatives, like investor-owned firms, are partial toward their own ownership constituencies rather than automatically representing all affected interests, a point that belongs to Hansmann’s (1996) economics of enterprise ownership and that Heath (2025a) presses in comparing the ownership forms normatively.
 
 The capitalism-level question begins when accumulation, competition, political influence, or ownership structure systematically intensifies the divergence between private and social returns or makes correction unstable.
 
@@ -213,7 +213,7 @@ They also require decisions about which incidents of ownership (income, control,
 
 ### 3.2 Capital provision and residual claims
 
-Hansmann’s (1996) theory of enterprise ownership clarifies the conventional corporation. Investor-owned firms assign residual claims and governance rights to providers of equity capital; worker, consumer, and producer cooperatives assign them to other constituencies. Heath (2025) builds on that theory in comparing the ownership forms normatively.
+Hansmann’s (1996) theory of enterprise ownership clarifies the conventional corporation. Investor-owned firms assign residual claims and governance rights to providers of equity capital; worker, consumer, and producer cooperatives assign them to other constituencies. Heath (2025a) builds on that theory in comparing the ownership forms normatively.
 
 The point is not that all these arrangements are morally equivalent. It is that replacing investor ownership changes which constituency occupies the residual position rather than abolishing capital provision or constituency partiality.
 
@@ -438,6 +438,8 @@ Actual capitalism should not be compared with ideal socialism, nor historical so
 
 Assumptions about motivation, information, political competence, administrative capacity, and compliance should be approximately matched.
 
+A defect may be a pro tanto objection even if every feasible institutional package shares it. It supports a capitalism-specific or all-things-considered verdict only when matched comparison shows that some feasible package avoids or attenuates it without unacceptable losses elsewhere (Heath 2025b; Vrousalis 2023).
+
 ### 6.2 Functional conservation
 
 Removing an institution does not remove the function it performs. Replacing private equity does not eliminate capital provision; replacing markets does not eliminate information and allocation problems; replacing social insurance does not eliminate risk; and replacing managerial hierarchy does not eliminate coordination. The proper question is always where the function goes.
@@ -580,7 +582,9 @@ Hansmann, Henry. 1996. *The Ownership of Enterprise*. Cambridge, MA: Belknap Pre
 
 Hayek, F. A. 1945. “The Use of Knowledge in Society.” *American Economic Review* 35(4): 519–530.
 
-Heath, Joseph. 2025. “Are Cooperatives More Virtuous than Corporations?” *Politics, Philosophy & Economics*. OnlineFirst. <https://doi.org/10.1177/1470594X251387579>.
+Heath, Joseph. 2025a. “Are Cooperatives More Virtuous than Corporations?” *Politics, Philosophy & Economics*. OnlineFirst. <https://doi.org/10.1177/1470594X251387579>.
+
+Heath, Joseph. 2025b. “Hussain on the Market: Critique or Kvetch?” *Canadian Journal of Philosophy* 55(1): 36–52. <https://doi.org/10.1017/can.2025.10034>.
 
 Hickel, Jason. 2021. “What Does Degrowth Mean? A Few Points of Clarification.” *Globalizations* 18(7): 1105–1111. <https://doi.org/10.1080/14747731.2020.1812222>.
 

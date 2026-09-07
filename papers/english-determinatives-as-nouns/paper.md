@@ -2,7 +2,7 @@
 title: "English determinatives as nouns"
 author: "Brett Reynolds"
 year: "2026"
-status: "Under review at English Language and Linguistics"
+status: "Preprint"
 canonical_url: "https://lingbuzz.net/lingbuzz/009939"
 website_url: "https://brettreynolds.ca/papers/english-determinatives-as-nouns/"
 markdown_url: "https://brettreynolds.ca/papers/english-determinatives-as-nouns/paper.md"

@@ -82,6 +82,12 @@ dl.gloss dd { margin: 0.15rem 0 0.35rem 0; }
 .controls { display: flex; gap: 0.6rem; flex-wrap: wrap; justify-content: center; margin-top: 1rem; }
 .meta { color: var(--ll-muted); text-align: center; margin-top: 0.75rem; font-size: 0.9rem; }
 .hint { color: var(--ll-muted); text-align: center; margin-top: 0.35rem; font-size: 0.85rem; }
+.deck-options { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 0.75rem; margin-bottom: 0.75rem; }
+.deck-options label { display: flex; flex-direction: column; gap: 0.2rem; }
+.deck-options select { width: 100%; min-width: 0; font: inherit; color: var(--ll-ink); background: var(--ll-paper); border: 1px solid var(--ll-hairline); padding: 0.4rem; }
+.deck-options select:focus-visible { outline: 2px solid var(--ll-maroon); outline-offset: 2px; }
+.deck-summary { color: var(--ll-muted); margin: 0 0 1rem; font-size: 0.9rem; }
+@media (max-width: 600px) { .deck-options { grid-template-columns: minmax(0, 1fr); } }
 
 .qcard {
   border: 1px solid var(--ll-hairline); background: var(--ll-paper);
@@ -128,6 +134,18 @@ footer.ll-attrib {
   </section>
 
   <section id="panel-cards" role="tabpanel" class="hidden">
+    <div class="deck-options">
+      <label for="card-chapter">Chapter
+        <select id="card-chapter"></select>
+      </label>
+      <label for="card-scope">Review
+        <select id="card-scope">
+          <option value="chapter">This chapter only</option>
+          <option value="cumulative">Up to this chapter</option>
+        </select>
+      </label>
+    </div>
+    <p class="deck-summary" id="deck-summary" aria-live="polite"></p>
     <div class="card" id="flashcard" role="button" tabindex="0" aria-label="Flashcard; click or press space to flip"></div>
     <div class="controls" id="card-controls">
       <button class="btn" id="card-prev">Previous</button>
@@ -168,102 +186,188 @@ footer.ll-attrib {
 
 <script id="glossary-data" type="application/json">
 [
-{"term": "adjective phrase (AdjP)", "def": "A phrase headed by an adjective that typically functions as a modifier within NPs or as a predicative complement in VPs."},
-{"term": "adverb phrase (AdvP)", "def": "A phrase headed by an adverb. Functions primarily as a modifier of verbs, adjectives, other adverbs, clauses, and PPs. Rarely functions as a complement. Accepts degree modifiers like <i>very</i>, <i>too</i>, <i>so</i> but not <i>right</i>, <i>straight</i>, <i>just</i> (in Standard English)."},
-{"term": "affixal negation", "def": "Negation expressed through prefixes (like <i>un-</i>, <i>dis-</i>, <i>non-</i>) or suffixes attached to words rather than through separate negative words."},
-{"term": "agreement", "def": "The matching of verb form to properties of the subject, particularly in present tense with third-person singular subjects."},
-{"term": "allophone", "def": "A variant of a phoneme that doesn’t change meaning in a given language. For example, the aspirated [tʰ] in <i>top</i> and unaspirated [t] in <i>stop</i> are allophones of /t/ in English."},
-{"term": "assimilation", "def": "A process in connected speech where a sound becomes more like a neighbouring sound. For instance, <i>ten books</i> may be pronounced as [tem bʊks]."},
-{"term": "attributive modifier", "def": "A modifier that appears within an NP, typically before the head N, and attributes some property to it."},
-{"term": "auxiliary verb", "def": "A verb that carries tense, aspect, or modality (e.g., <i>be</i>, <i>have</i>, <i>do</i>, <i>can</i>, <i>will</i>) and has the NICER properties: Negation, Inversion, Contraction, Ellipsis, and Rebuttal."},
-{"term": "clause", "def": "A grammatical structure headed by a verb phrase and usually containing a subject."},
-{"term": "clausal negation", "def": "Negation that applies to an entire clause, subdivided into verbal negation (using <i>not</i> with verbs) and non-verbal negation (using <i>not</i> with other constituents)."},
-{"term": "code-switching", "def": "Alternating between languages or language varieties within a single conversation, typically reflecting changes in context or social dynamics."},
-{"term": "coda", "def": "The consonant(s) following the (vowel) nucleus in a syllable. In <i>cat</i> /kæt/, /t/ is the coda."},
-{"term": "complement selection", "def": "The more-or-less arbitrary requirement that certain words license specific prepositions as complements (e.g., <i>depend on</i>, <i>interested in</i>, <i>proud of</i>). A major challenge for language learners."},
-{"term": "complementation", "def": "The systematic way individual words in head function control what can complete the phrase (e.g., an NP, a PP, a clause, etc.), with different words selecting different types of complements."},
-{"term": "connected speech", "def": "The continuous flow of sounds in natural speech, often involving processes that modify individual word pronunciations."},
-{"term": "construction", "def": "A conventional pairing of form and meaning that exists at various levels of linguistic structure, from specific phrases to general syntactic patterns."},
-{"term": "coordination test", "def": "Diagnostic based on the principle that constituents tend to coordinate with like constituents: PPs coordinate with PPs, AdvPs with AdvPs."},
-{"term": "counter-example", "def": "An example that disproves a proposed rule or definition, being a case where the rule fails. Good for testing linguistic definitions."},
-{"term": "defective verb", "def": "A verb lacking one or more of the typical verb forms (e.g., <i>must</i>, which has no past tense)."},
-{"term": "definiteness", "def": "A grammatical property that indicates whether a noun phrase refers to something specific and identifiable to both speaker and hearer, typically marked by a determiner."},
-{"term": "dependent", "def": "A phrase that depends on the head. For example, <i>the</i> is a dependent in <i>the cake</i>."},
-{"term": "determiner", "def": "A dependent in a noun phrase that marks it as definite or indefinite (e.g., <i><span class='up'>a</span> pen</i>, <i><span class='up'>the</span> pen</i>, <i><span class='up'>much more</span> air</i>, <i><span class='up'>almost ten</span> pens</i>, <i><span class='up'>my</span> pen</i>)."},
-{"term": "determinative", "def": "A word of the lexical category that typically specifies the reference and number of noun phrases, including articles (<i>the</i>, <i>a</i>), demonstratives (<i>this</i>, <i>that</i>), and quantifiers (<i>some</i>, <i>many</i>), distinguished from adjectives by their function and distribution."},
-{"term": "determinative phrase (DP)", "def": "A phrase headed by a determinative that mostly functions as the determiner in an NP, such as <i>most</i>, <i>not many</i>, <i>almost every</i>, and <i>just about all</i>."},
-{"term": "direct object", "def": "A constituent selected by a transitive verb, usually able to be identified through passivization tests (becomes the subject in passive constructions)."},
-{"term": "downward-entailing context", "def": "An environment where inferences flow from general to specific (if <i>not all students</i> is true, then <i>not some students</i> is also true), typically licensing negative polarity items."},
-{"term": "fallacy of monosemy", "def": "The mistaken belief that words have (or should have) only one “true” meaning."},
-{"term": "flexible-complement view", "def": "The view that prepositions can take various types of complements (NPs, clauses, PPs) or no complement at all, paralleling how verbs take different complements. Contrasts with traditional view requiring NP complements."},
-{"term": "form–meaning pairing", "def": "The connection between how something is said (its linguistic form) and what it means in a particular context. Grammaticality often depends on using established form–meaning pairs within a speech community."},
-{"term": "functional overlap", "def": "The phenomenon whereby words from different lexical categories can perform similar syntactic functions."},
-{"term": "gradability", "def": "The property of adjectives, adverbs, and some determinatives and prepositions that allows them to be modified by degree words like <i>very</i>, <i>quite</i>, or <i>extremely</i>, and to form comparative and superlative forms."},
-{"term": "grammaticality", "def": "The degree to which a construction conforms to the accepted form–meaning pairings of a specific language community, reflecting regularities in syntax, morphology, and socio-cognitive norms, and regardless of how unconventional the meaning is."},
-{"term": "head", "def": "The word in a phrase that determines the phrase’s grammatical type. <i>Cake</i> is the head of the NP <i>the chocolate cake</i>; <i>tall</i> is the head of the AdjP <i>very tall</i>."},
-{"term": "indirect object", "def": "A constituent that precedes the direct object and typically represents the recipient or beneficiary of an action, often paraphraseable with <i>to</i> or <i>for</i> phrases."},
-{"term": "intonation", "def": "The rise and fall of voice pitch over phrases and sentences, conveying various linguistic and paralinguistic meanings."},
-{"term": "Jespersen’s cycle", "def": "A historical process describing how negation markers evolve and change in languages, named after Otto Jespersen. English evolved from Old English <i>ne</i> through stages of reinforcement to modern contracted forms like <i>don’t</i>."},
-{"term": "lexical category", "def": "A category of words (noun, verb, adjective, etc.) having a coherent set of properties."},
-{"term": "lexical verb", "def": "All non-auxiliary verbs. Lexical verbs typically carry the primary semantic content, contrasting with auxiliary verbs that provide grammatical information."},
-{"term": "light verb construction", "def": "A multi-word predicate where a semantically light verb combines with a noun to express an action (e.g., <i>take a walk</i> vs. <i>walk</i>)."},
-{"term": "linking", "def": "The connection of sounds across word boundaries in connected speech, as in <i>an apple</i>."},
-{"term": "many-to-many relationship", "def": "The principle that a grammatical category can perform multiple functions and a single function can be performed by multiple categories."},
-{"term": "modal auxiliary", "def": "A type of auxiliary verb expressing meanings like possibility, necessity, or future time (e.g., <i>can</i>, <i>must</i>, <i>will</i>)."},
-{"term": "modality", "def": "The expression of meanings such as possibility, necessity, permission, and obligation."},
-{"term": "modification test", "def": "Diagnostic for distinguishing PPs from AdvPs: PPs generally accept <i>right</i>, <i>straight</i>, <i>just</i> as modifiers; AdvPs generally accept <i>very</i>, <i>too</i>, <i>so</i>."},
-{"term": "necessary condition", "def": "One that must be present for membership in a category. For example, having a head is a necessary condition for being a human, and having a head is a necessary condition for being a phrase."},
-{"term": "negative polarity item", "def": "A word or phrase (like <i>any</i>, <i>ever</i>, <i>yet</i>, <i>at all</i>) that typically appears only in negative contexts or other downward-entailing environments."},
-{"term": "NICER properties", "def": "The distinctive properties of auxiliary verbs: Negation, Inversion, Contraction, Ellipsis, and Rebuttal."},
-{"term": "non-affirmative item", "def": "Alternative term for negative polarity item, emphasizing that these items appear in various non-positive contexts, not just overtly negative ones."},
-{"term": "normativity", "def": "Claims about how language ought to be used, rather than descriptions of how it is used. Related to prescriptive grammar but broader in scope."},
-{"term": "noun", "def": "A word that can head a noun phrase. Nouns can typically be singular or plural, follow determiners like <i>the</i> and <i>a</i>, and take AdjP modifiers. They can denote almost anything (entities, actions, states, concepts), which is why denotation alone can’t define them."},
-{"term": "noun phrase (NP)", "def": "A phrase headed by a noun or pronoun, typically functioning as a subject, object, predicative complement, or complement of a preposition."},
-{"term": "noun, count / non-count", "def": "Often called countable / uncountable. A count noun allows counting and plural marking (<i>1 book</i>, <i>2 ideas</i>); a non-count noun doesn’t (*<i>1 furniture</i>, *<i>2 groceries</i>). The distinction involves both a semantic construal (whether the referent is seen as individuated) and a grammatical marking (whether the noun takes plural and numeral dependents)."},
-{"term": "NP-complement view", "def": "The traditional (but problematic) view that defines prepositions as words that must take NP complements. Creates unnecessary complexity by forcing words like <i>before</i> into three different categories."},
-{"term": "nucleus", "def": "The core of a syllable, typically a vowel. In <i>cat</i> /kæt/, /æ/ is the nucleus."},
-{"term": "onset", "def": "The consonant(s) preceding the nucleus in a syllable. In <i>cat</i> /kæt/, /k/ is the onset."},
-{"term": "aspect", "def": "A grammatical system that typically denotes how a situation extends over time, including simple, progressive, perfect, and perfect-progressive combinations."},
-{"term": "particle", "def": "A preposition functioning as part of a phrasal verb that can appear either before or after an NP object (<i>pick up the pen</i>/<i>pick the pen up</i>) but must follow pronoun objects (<i>pick it up</i>, not *<i>pick up it</i>)."},
-{"term": "participle", "def": "A non-tensed verb form, either present participle (<i>-ing</i> form) or past participle (typically <i>-ed</i> or irregular forms), used in various constructions including progressive and perfect aspects."},
-{"term": "perfect aspect", "def": "An aspectual form using <i>have</i> + past participle that relates a situation to a later reference point, often expressing some relevance to that reference point."},
-{"term": "phoneme", "def": "The smallest unit of sound that can distinguish meaning in a language. Changing /b/ to /p/ turns <i>bat</i> into <i>pat</i>."},
-{"term": "phonotactics", "def": "The rules governing possible sound combinations in a language. English allows /sl/ as an onset (e.g., <i>slide</i>) but not as a coda."},
-{"term": "phrase", "def": "A grammatical structure consisting of a head word and any optional dependents. The head determines the phrase’s type: an NP is headed by a noun, a VP by a verb. A phrase can be a single word (<i>Stop!</i> is a VP)."},
-{"term": "phrasal category", "def": "A syntactic unit, such as noun phrases (NPs), verb phrases (VPs), or adjective phrases (AdjPs), consisting of a head and any dependents."},
-{"term": "phrasal verb", "def": "A verb + preposition(s) combination that often expresses idiomatic meaning (e.g., <i>give up</i>, <i>look up</i>, <i>take off</i>). The preposition may function as a particle that can move around NP objects but not pronoun objects."},
-{"term": "plural", "def": "Denoting more than one, or a number that doesn’t fit singular (e.g., zero, fractions)."},
-{"term": "polarity sensitivity", "def": "The phenomenon whereby certain words and phrases are restricted to appearing in either positive or negative linguistic contexts."},
-{"term": "positive polarity item", "def": "A word or phrase (like <i>some</i>, <i>already</i>, <i>a fair chance</i>) that resists appearing in negative contexts and prefers positive or affirmative environments."},
-{"term": "pragmatic negation", "def": "Negation indicated by context, tone, or implicature rather than through explicit negative markers in the sentence structure."},
-{"term": "predicative complement", "def": "A phrase that follows verbs like <i>be</i>, <i>seem</i>, <i>become</i>, <i>remain</i>, <i>look</i>, and <i>feel</i> and that describes or identifies the subject (or, with some verbs, the object)."},
-{"term": "predicative complement test", "def": "Diagnostic showing that PPs (but not AdvPs) can function as complement after verbs that license predicative complements: <i>The meeting is at noon</i> but not *<i>The meeting is quickly</i>."},
-{"term": "preposition fronting", "def": "Fronting an entire PP in an interrogative or relative, typically in formal contexts: <i>About what did you disagree?</i> versus the more common stranded version <i>What did you disagree about?</i>"},
-{"term": "preposition phrase (PP)", "def": "A phrase headed by a preposition. Functions as both modifier and complement in various phrase types. Can modify nouns (unlike AdvPs) and frequently serves as predicative complement after <i>be</i>, <i>seem</i>, <i>remain</i>."},
-{"term": "preposition stranding", "def": "When a preposition appears without its complement because the complement has been fronted, as in questions (<i>What are you looking <span class='up'>at</span>?</i>) or relative clauses (<i>the person you spoke <span class='up'>to</span></i>)."},
-{"term": "progressive aspect", "def": "An aspectual form using <i>be</i> + <i>-ing</i> participle that expresses relevance not just to what continues but to its eventual conclusion."},
-{"term": "reduction", "def": "The weakening or omission of sounds in connected speech, often in unstressed syllables. For example, <i>going to</i> may be pronounced as <i>gonna</i>."},
-{"term": "resultative construction", "def": "A syntactic pattern where a verb is followed by a result phrase describing the outcome of the situation (e.g., <i>hammer the metal flat</i>)."},
-{"term": "rhythm", "def": "The timing pattern of stressed and unstressed syllables in speech."},
-{"term": "scope of negation", "def": "The portion of a sentence that falls under the semantic influence of a negative element, determining what is being negated and affecting the interpretation of modal verbs and other elements."},
-{"term": "semantic bleaching", "def": "The historical process by which words gradually lose their original concrete meaning and become more grammatical or functional, often occurring in grammaticalization."},
-{"term": "serial verb construction", "def": "A sequence of verbs that together express a single complex event, typically involving motion and purpose or manner."},
-{"term": "shibboleth", "def": "A linguistic feature that distinguishes members of one social group from another, often used (consciously or unconsciously) as a test of belonging. From Hebrew <i>šibbōleṭ</i>."},
-{"term": "sibilant", "def": "A type of fricative or affricate consonant characterized by a high-pitched hissing sound, produced when air is forced through a narrow channel between the tongue and the roof of the mouth or teeth."},
-{"term": "singular", "def": "Denoting exactly one."},
-{"term": "Standard English", "def": "The most widely accepted variety of a language, particularly in formal, educational, and professional contexts. Not inherently superior to other varieties, but backed by social and institutional power."},
-{"term": "Standard Englishes", "def": "The various regional and national varieties of Standard English (e.g., Standard Canadian English, Standard British English), acknowledging that what counts as standard varies across regions while maintaining mutual intelligibility."},
-{"term": "stress", "def": "The relative prominence given to certain syllables or words, through a combination of pitch, length, and loudness."},
-{"term": "sub-clausal negation", "def": "Negation that applies to constituents smaller than a full clause, such as negated noun phrases or prepositional phrases."},
-{"term": "subject", "def": "The grammatical function typically performed by the first major constituent in a sentence, controlling verb agreement and identified through tests like tag questions and passivization."},
-{"term": "sufficient condition", "def": "One that, if present, guarantees membership in a category. For example, being a square is a sufficient condition for being a rectangle, and being an NP is a sufficient condition for being a phrase."},
-{"term": "suprasegmental", "def": "Features of speech that extend over more than one sound segment, including stress, intonation, and rhythm."},
-{"term": "syllable", "def": "A unit of pronunciation typically consisting of a vowel (nucleus) with optional consonants before (onset) and after (coda)."},
-{"term": "syntactic function", "def": "The relational grammatical role that a word or phrase plays in sentence structure, including head, subject, object, modifier, complement, and determiner functions."},
-{"term": "tense", "def": "A grammatical system that typically denotes the time of the situation; English has two tenses (past and present)."},
-{"term": "verb", "def": "A word that can head a verb phrase. Most verbs have a past-tense form, an <i>-s</i> form, an <i>-ing</i> form, and a plain form. They typically denote actions or states, but this is a tendency, not a definition; <i>existence</i> is a noun and <i>resemble</i> is a verb."},
-{"term": "verb phrase (VP)", "def": "A phrase headed by a verb, potentially including modifiers and complements. Can be modified by adverb phrases but not adjective phrases."},
-{"term": "voicing", "def": "The vibration of the vocal cords during the production of a speech sound. Voiced sounds (like /b/, /d/, /g/) involve this vibration, while voiceless sounds (like /p/, /t/, /k/) do not."}
+{"term": "adjective phrase (AdjP)", "def": "A phrase headed by an adjective that typically functions as a modifier within NPs or as a predicative complement in VPs.", "chapters": [1, 3, 4, 6, 12]},
+{"term": "adverb phrase (AdvP)", "def": "A phrase headed by an adverb. Functions primarily as a modifier of verbs, adjectives, other adverbs, clauses, and PPs. Rarely functions as a complement. Accepts degree modifiers like <i>very</i>, <i>too</i>, <i>so</i> but not <i>right</i>, <i>straight</i>, <i>just</i> (in Standard English).", "chapters": [1, 3, 4, 5, 6, 12, 18]},
+{"term": "affixal negation", "def": "Negation expressed through prefixes (like <i>un-</i>, <i>dis-</i>, <i>non-</i>) or suffixes attached to words rather than through separate negative words.", "chapters": [11]},
+{"term": "agreement", "def": "The matching of verb form to properties of the subject, particularly in present tense with third-person singular subjects.", "chapters": [1, 3, 12]},
+{"term": "allophone", "def": "A variant of a phoneme that doesn’t change meaning in a given language. For example, the aspirated [tʰ] in <i>top</i> and unaspirated [t] in <i>stop</i> are allophones of /t/ in English.", "chapters": [7]},
+{"term": "assimilation", "def": "A process in connected speech where a sound becomes more like a neighbouring sound. For instance, <i>ten books</i> may be pronounced as [tem bʊks].", "chapters": [7]},
+{"term": "attributive modifier", "def": "A modifier that appears within an NP, typically before the head N, and attributes some property to it.", "chapters": [12]},
+{"term": "auxiliary verb", "def": "A verb that carries tense, aspect, or modality (e.g., <i>be</i>, <i>have</i>, <i>do</i>, <i>can</i>, <i>will</i>) and has the NICER properties: Negation, Inversion, Contraction, Ellipsis, and Rebuttal.", "chapters": [1, 5, 10, 11]},
+{"term": "clause", "def": "A grammatical structure headed by a verb phrase and usually containing a subject.", "chapters": [1, 3, 5, 10, 18, 19]},
+{"term": "clausal negation", "def": "Negation that applies to an entire clause, subdivided into verbal negation (using <i>not</i> with verbs) and non-verbal negation (using <i>not</i> with other constituents).", "chapters": [11]},
+{"term": "code-switching", "def": "Alternating between languages or language varieties within a single conversation, typically reflecting changes in context or social dynamics.", "chapters": [2, 20]},
+{"term": "coda", "def": "The consonant(s) following the (vowel) nucleus in a syllable. In <i>cat</i> /kæt/, /t/ is the coda.", "chapters": [7]},
+{"term": "complement selection", "def": "The more-or-less arbitrary requirement that certain words license specific prepositions as complements (e.g., <i>depend on</i>, <i>interested in</i>, <i>proud of</i>). A major challenge for language learners.", "chapters": [4]},
+{"term": "complementation", "def": "The systematic way individual words in head function control what can complete the phrase (e.g., an NP, a PP, a clause, etc.), with different words selecting different types of complements.", "chapters": [3, 4, 5, 6, 12, 18]},
+{"term": "connected speech", "def": "The continuous flow of sounds in natural speech, often involving processes that modify individual word pronunciations.", "chapters": [7]},
+{"term": "construction", "def": "A conventional pairing of form and meaning that exists at various levels of linguistic structure, from specific phrases to general syntactic patterns.", "chapters": [12, 20]},
+{"term": "coordination test", "def": "Diagnostic based on the principle that constituents tend to coordinate with like constituents: PPs coordinate with PPs, AdvPs with AdvPs.", "chapters": [4, 6, 18]},
+{"term": "counter-example", "def": "An example that disproves a proposed rule or definition, being a case where the rule fails. Good for testing linguistic definitions.", "chapters": [1]},
+{"term": "defective verb", "def": "A verb lacking one or more of the typical verb forms (e.g., <i>must</i>, which has no past tense).", "chapters": [1, 5]},
+{"term": "definiteness", "def": "A grammatical property that indicates whether a noun phrase refers to something specific and identifiable to both speaker and hearer, typically marked by a determiner.", "chapters": [3, 15]},
+{"term": "dependent", "def": "A phrase that depends on the head. For example, <i>the</i> is a dependent in <i>the cake</i>.", "chapters": [1, 3, 6]},
+{"term": "determiner", "def": "A dependent in a noun phrase that marks it as definite or indefinite (e.g., <i><span class='up'>a</span> pen</i>, <i><span class='up'>the</span> pen</i>, <i><span class='up'>much more</span> air</i>, <i><span class='up'>almost ten</span> pens</i>, <i><span class='up'>my</span> pen</i>).", "chapters": [1, 3, 12]},
+{"term": "determinative", "def": "A word of the lexical category that typically specifies the reference and number of noun phrases, including articles (<i>the</i>, <i>a</i>), demonstratives (<i>this</i>, <i>that</i>), and quantifiers (<i>some</i>, <i>many</i>), distinguished from adjectives by their function and distribution.", "chapters": [3, 12]},
+{"term": "determinative phrase (DP)", "def": "A phrase headed by a determinative that mostly functions as the determiner in an NP, such as <i>most</i>, <i>not many</i>, <i>almost every</i>, and <i>just about all</i>.", "chapters": [3, 12]},
+{"term": "direct object", "def": "A constituent selected by a transitive verb, usually able to be identified through passivization tests (becomes the subject in passive constructions).", "chapters": [5, 12]},
+{"term": "downward-entailing context", "def": "An environment where inferences flow from general to specific (if <i>not all students</i> is true, then <i>not some students</i> is also true), typically licensing negative polarity items.", "chapters": [11]},
+{"term": "fallacy of monosemy", "def": "The mistaken belief that words have (or should have) only one “true” meaning.", "chapters": [2, 3, 8, 12, 16, 20]},
+{"term": "flexible-complement view", "def": "The view that prepositions can take various types of complements (NPs, clauses, PPs) or no complement at all, paralleling how verbs take different complements. Contrasts with traditional view requiring NP complements.", "chapters": [4]},
+{"term": "form–meaning pairing", "def": "The connection between how something is said (its linguistic form) and what it means in a particular context. Grammaticality often depends on using established form–meaning pairs within a speech community.", "chapters": [2, 20]},
+{"term": "functional overlap", "def": "The phenomenon whereby words from different lexical categories can perform similar syntactic functions.", "chapters": [3]},
+{"term": "gradability", "def": "The property of adjectives, adverbs, and some determinatives and prepositions that allows them to be modified by degree words like <i>very</i>, <i>quite</i>, or <i>extremely</i>, and to form comparative and superlative forms.", "chapters": [3]},
+{"term": "grammaticality", "def": "The degree to which a construction conforms to the accepted form–meaning pairings of a specific language community, reflecting regularities in syntax, morphology, and socio-cognitive norms, and regardless of how unconventional the meaning is.", "chapters": [2, 20]},
+{"term": "head", "def": "The word in a phrase that determines the phrase’s grammatical type. <i>Cake</i> is the head of the NP <i>the chocolate cake</i>; <i>tall</i> is the head of the AdjP <i>very tall</i>.", "chapters": [1, 3, 5, 6]},
+{"term": "indirect object", "def": "A constituent that precedes the direct object and typically represents the recipient or beneficiary of an action, often paraphraseable with <i>to</i> or <i>for</i> phrases.", "chapters": [5, 12]},
+{"term": "intonation", "def": "The rise and fall of voice pitch over phrases and sentences, conveying various linguistic and paralinguistic meanings.", "chapters": [7, 10, 15, 19]},
+{"term": "Jespersen’s cycle", "def": "A historical process describing how negation markers evolve and change in languages, named after Otto Jespersen. English evolved from Old English <i>ne</i> through stages of reinforcement to modern contracted forms like <i>don’t</i>.", "chapters": [11, 20]},
+{"term": "lexical category", "def": "A category of words (noun, verb, adjective, etc.) having a coherent set of properties.", "chapters": [1, 3, 6]},
+{"term": "lexical verb", "def": "All non-auxiliary verbs. Lexical verbs typically carry the primary semantic content, contrasting with auxiliary verbs that provide grammatical information.", "chapters": [1, 5]},
+{"term": "light verb construction", "def": "A multi-word predicate where a semantically light verb combines with a noun to express an action (e.g., <i>take a walk</i> vs. <i>walk</i>).", "chapters": [12]},
+{"term": "linking", "def": "The connection of sounds across word boundaries in connected speech, as in <i>an apple</i>.", "chapters": [7]},
+{"term": "many-to-many relationship", "def": "The principle that a grammatical category can perform multiple functions and a single function can be performed by multiple categories.", "chapters": [3]},
+{"term": "modal auxiliary", "def": "A type of auxiliary verb expressing meanings like possibility, necessity, or future time (e.g., <i>can</i>, <i>must</i>, <i>will</i>).", "chapters": [1, 5, 11, 18]},
+{"term": "modality", "def": "The expression of meanings such as possibility, necessity, permission, and obligation.", "chapters": [5]},
+{"term": "modification test", "def": "Diagnostic for distinguishing PPs from AdvPs: PPs generally accept <i>right</i>, <i>straight</i>, <i>just</i> as modifiers; AdvPs generally accept <i>very</i>, <i>too</i>, <i>so</i>.", "chapters": [4]},
+{"term": "necessary condition", "def": "One that must be present for membership in a category. For example, having a head is a necessary condition for being a human, and having a head is a necessary condition for being a phrase.", "chapters": [1, 2]},
+{"term": "negative polarity item", "def": "A word or phrase (like <i>any</i>, <i>ever</i>, <i>yet</i>, <i>at all</i>) that typically appears only in negative contexts or other downward-entailing environments.", "chapters": [11]},
+{"term": "NICER properties", "def": "The distinctive properties of auxiliary verbs: Negation, Inversion, Contraction, Ellipsis, and Rebuttal.", "chapters": [1, 5, 10]},
+{"term": "non-affirmative item", "def": "Alternative term for negative polarity item, emphasizing that these items appear in various non-positive contexts, not just overtly negative ones.", "chapters": [11]},
+{"term": "normativity", "def": "Claims about how language ought to be used, rather than descriptions of how it is used. Related to prescriptive grammar but broader in scope.", "chapters": [2]},
+{"term": "noun", "def": "A word that can head a noun phrase. Nouns can typically be singular or plural, follow determiners like <i>the</i> and <i>a</i>, and take AdjP modifiers. They can denote almost anything (entities, actions, states, concepts), which is why denotation alone can’t define them.", "chapters": [1, 3, 6, 12]},
+{"term": "noun phrase (NP)", "def": "A phrase headed by a noun or pronoun, typically functioning as a subject, object, predicative complement, or complement of a preposition.", "chapters": [1, 3, 6, 12]},
+{"term": "noun, count / non-count", "def": "Often called countable / uncountable. A count noun allows counting and plural marking (<i>1 book</i>, <i>2 ideas</i>); a non-count noun doesn’t (*<i>1 furniture</i>, *<i>2 groceries</i>). The distinction involves both a semantic construal (whether the referent is seen as individuated) and a grammatical marking (whether the noun takes plural and numeral dependents).", "chapters": [1]},
+{"term": "NP-complement view", "def": "The traditional (but problematic) view that defines prepositions as words that must take NP complements. Creates unnecessary complexity by forcing words like <i>before</i> into three different categories.", "chapters": [4]},
+{"term": "nucleus", "def": "The core of a syllable, typically a vowel. In <i>cat</i> /kæt/, /æ/ is the nucleus.", "chapters": [7]},
+{"term": "onset", "def": "The consonant(s) preceding the nucleus in a syllable. In <i>cat</i> /kæt/, /k/ is the onset.", "chapters": [7]},
+{"term": "aspect", "def": "A grammatical system that typically denotes how a situation extends over time, including simple, progressive, perfect, and perfect-progressive combinations.", "chapters": [5, 20]},
+{"term": "particle", "def": "A preposition functioning as part of a phrasal verb that can appear either before or after an NP object (<i>pick up the pen</i>/<i>pick the pen up</i>) but must follow pronoun objects (<i>pick it up</i>, not *<i>pick up it</i>).", "chapters": [4]},
+{"term": "participle", "def": "A non-tensed verb form, either present participle (<i>-ing</i> form) or past participle (typically <i>-ed</i> or irregular forms), used in various constructions including progressive and perfect aspects.", "chapters": [5]},
+{"term": "perfect aspect", "def": "An aspectual form using <i>have</i> + past participle that relates a situation to a later reference point, often expressing some relevance to that reference point.", "chapters": [5]},
+{"term": "phoneme", "def": "The smallest unit of sound that can distinguish meaning in a language. Changing /b/ to /p/ turns <i>bat</i> into <i>pat</i>.", "chapters": [7, 9]},
+{"term": "phonotactics", "def": "The rules governing possible sound combinations in a language. English allows /sl/ as an onset (e.g., <i>slide</i>) but not as a coda.", "chapters": [7, 9]},
+{"term": "phrase", "def": "A grammatical structure consisting of a head word and any optional dependents. The head determines the phrase’s type: an NP is headed by a noun, a VP by a verb. A phrase can be a single word (<i>Stop!</i> is a VP).", "chapters": [1, 18]},
+{"term": "phrasal category", "def": "A syntactic unit, such as noun phrases (NPs), verb phrases (VPs), or adjective phrases (AdjPs), consisting of a head and any dependents.", "chapters": [1, 3, 6]},
+{"term": "phrasal verb", "def": "A verb + preposition(s) combination that often expresses idiomatic meaning (e.g., <i>give up</i>, <i>look up</i>, <i>take off</i>). The preposition may function as a particle that can move around NP objects but not pronoun objects.", "chapters": [4]},
+{"term": "plural", "def": "Denoting more than one, or a number that doesn’t fit singular (e.g., zero, fractions).", "chapters": [1, 20]},
+{"term": "polarity sensitivity", "def": "The phenomenon whereby certain words and phrases are restricted to appearing in either positive or negative linguistic contexts.", "chapters": [11]},
+{"term": "positive polarity item", "def": "A word or phrase (like <i>some</i>, <i>already</i>, <i>a fair chance</i>) that resists appearing in negative contexts and prefers positive or affirmative environments.", "chapters": [11]},
+{"term": "pragmatic negation", "def": "Negation indicated by context, tone, or implicature rather than through explicit negative markers in the sentence structure.", "chapters": [11]},
+{"term": "predicative complement", "def": "A phrase that follows verbs like <i>be</i>, <i>seem</i>, <i>become</i>, <i>remain</i>, <i>look</i>, and <i>feel</i> and that describes or identifies the subject (or, with some verbs, the object).", "chapters": [4, 5]},
+{"term": "predicative complement test", "def": "Diagnostic showing that PPs (but not AdvPs) can function as complement after verbs that license predicative complements: <i>The meeting is at noon</i> but not *<i>The meeting is quickly</i>.", "chapters": [4]},
+{"term": "preposition fronting", "def": "Fronting an entire PP in an interrogative or relative, typically in formal contexts: <i>About what did you disagree?</i> versus the more common stranded version <i>What did you disagree about?</i>", "chapters": [4, 10, 19]},
+{"term": "preposition phrase (PP)", "def": "A phrase headed by a preposition. Functions as both modifier and complement in various phrase types. Can modify nouns (unlike AdvPs) and frequently serves as predicative complement after <i>be</i>, <i>seem</i>, <i>remain</i>.", "chapters": [3, 4, 5, 6, 12, 15, 18, 19]},
+{"term": "preposition stranding", "def": "When a preposition appears without its complement because the complement has been fronted, as in questions (<i>What are you looking <span class='up'>at</span>?</i>) or relative clauses (<i>the person you spoke <span class='up'>to</span></i>).", "chapters": [4, 19]},
+{"term": "progressive aspect", "def": "An aspectual form using <i>be</i> + <i>-ing</i> participle that expresses relevance not just to what continues but to its eventual conclusion.", "chapters": [5, 20]},
+{"term": "reduction", "def": "The weakening or omission of sounds in connected speech, often in unstressed syllables. For example, <i>going to</i> may be pronounced as <i>gonna</i>.", "chapters": [7]},
+{"term": "resultative construction", "def": "A syntactic pattern where a verb is followed by a result phrase describing the outcome of the situation (e.g., <i>hammer the metal flat</i>).", "chapters": [12]},
+{"term": "rhythm", "def": "The timing pattern of stressed and unstressed syllables in speech.", "chapters": [7]},
+{"term": "scope of negation", "def": "The portion of a sentence that falls under the semantic influence of a negative element, determining what is being negated and affecting the interpretation of modal verbs and other elements.", "chapters": [11]},
+{"term": "semantic bleaching", "def": "The historical process by which words gradually lose their original concrete meaning and become more grammatical or functional, often occurring in grammaticalization.", "chapters": [11]},
+{"term": "serial verb construction", "def": "A sequence of verbs that together express a single complex event, typically involving motion and purpose or manner.", "chapters": [12]},
+{"term": "shibboleth", "def": "A linguistic feature that distinguishes members of one social group from another, often used (consciously or unconsciously) as a test of belonging. From Hebrew <i>šibbōleṭ</i>.", "chapters": [2]},
+{"term": "sibilant", "def": "A type of fricative or affricate consonant characterized by a high-pitched hissing sound, produced when air is forced through a narrow channel between the tongue and the roof of the mouth or teeth.", "chapters": [7]},
+{"term": "singular", "def": "Denoting exactly one.", "chapters": [1, 5]},
+{"term": "Standard English", "def": "The most widely accepted variety of a language, particularly in formal, educational, and professional contexts. Not inherently superior to other varieties, but backed by social and institutional power.", "chapters": [2, 3, 11, 20]},
+{"term": "Standard Englishes", "def": "The various regional and national varieties of Standard English (e.g., Standard Canadian English, Standard British English), acknowledging that what counts as standard varies across regions while maintaining mutual intelligibility.", "chapters": [2, 3, 11, 20]},
+{"term": "stress", "def": "The relative prominence given to certain syllables or words, through a combination of pitch, length, and loudness.", "chapters": [7, 9]},
+{"term": "sub-clausal negation", "def": "Negation that applies to constituents smaller than a full clause, such as negated noun phrases or prepositional phrases.", "chapters": [11]},
+{"term": "subject", "def": "The grammatical function typically performed by the first major constituent in a sentence, controlling verb agreement and identified through tests like tag questions and passivization.", "chapters": [1, 3, 5, 6, 10, 12, 14, 15, 18, 19]},
+{"term": "sufficient condition", "def": "One that, if present, guarantees membership in a category. For example, being a square is a sufficient condition for being a rectangle, and being an NP is a sufficient condition for being a phrase.", "chapters": [1, 2]},
+{"term": "suprasegmental", "def": "Features of speech that extend over more than one sound segment, including stress, intonation, and rhythm.", "chapters": [7]},
+{"term": "syllable", "def": "A unit of pronunciation typically consisting of a vowel (nucleus) with optional consonants before (onset) and after (coda).", "chapters": [7, 9]},
+{"term": "syntactic function", "def": "The relational grammatical role that a word or phrase plays in sentence structure, including head, subject, object, modifier, complement, and determiner functions.", "chapters": [3, 6, 19]},
+{"term": "tense", "def": "A grammatical system that typically denotes the time of the situation; English has two tenses (past and present).", "chapters": [5, 15, 20]},
+{"term": "verb", "def": "A word that can head a verb phrase. Most verbs have a past-tense form, an <i>-s</i> form, an <i>-ing</i> form, and a plain form. They typically denote actions or states, but this is a tendency, not a definition; <i>existence</i> is a noun and <i>resemble</i> is a verb.", "chapters": [1, 3, 4, 5, 12, 15]},
+{"term": "verb phrase (VP)", "def": "A phrase headed by a verb, potentially including modifiers and complements. Can be modified by adverb phrases but not adjective phrases.", "chapters": [1, 3, 4, 5, 12, 15]},
+{"term": "voicing", "def": "The vibration of the vocal cords during the production of a speech sound. Voiced sounds (like /b/, /d/, /g/) involve this vibration, while voiceless sounds (like /p/, /t/, /k/) do not.", "chapters": [7]}
+]
+</script>
+
+<!-- Chapter associations use the book’s subject index and explicit teaching passages. -->
+<script id="chapter-data" type="application/json">
+[
+  {
+    "number": 1,
+    "title": "Some key concepts, terms, and ways of thinking about English grammar"
+  },
+  {
+    "number": 2,
+    "title": "Standards, Standard Englishes, and what to teach"
+  },
+  {
+    "number": 3,
+    "title": "Categories and functions: An overview"
+  },
+  {
+    "number": 4,
+    "title": "Adverbs and prepositions"
+  },
+  {
+    "number": 5,
+    "title": "Verbs, Tense, and Aspect"
+  },
+  {
+    "number": 6,
+    "title": "Syntax trees"
+  },
+  {
+    "number": 7,
+    "title": "Speech and the sound system"
+  },
+  {
+    "number": 8,
+    "title": "Analyzing vocabulary"
+  },
+  {
+    "number": 9,
+    "title": "The writing system"
+  },
+  {
+    "number": 10,
+    "title": "Questions and interrogatives"
+  },
+  {
+    "number": 11,
+    "title": "Negation"
+  },
+  {
+    "number": 12,
+    "title": "Categories, functions, and constructions"
+  },
+  {
+    "number": 13,
+    "title": "Fluency and flow"
+  },
+  {
+    "number": 14,
+    "title": "Information packaging"
+  },
+  {
+    "number": 15,
+    "title": "Coherence and cohesion"
+  },
+  {
+    "number": 16,
+    "title": "Pragmatics"
+  },
+  {
+    "number": 17,
+    "title": "Conversations"
+  },
+  {
+    "number": 18,
+    "title": "Subordination and Coordination"
+  },
+  {
+    "number": 19,
+    "title": "Relative constructions"
+  },
+  {
+    "number": 20,
+    "title": "The Nature of Grammaticality"
+  }
 ]
 </script>
 
@@ -272,6 +376,7 @@ footer.ll-attrib {
   "use strict";
 
   var DATA = JSON.parse(document.getElementById("glossary-data").textContent);
+  var CHAPTERS = JSON.parse(document.getElementById("chapter-data").textContent);
   document.getElementById("term-count").textContent = DATA.length;
 
   var SORTED = DATA.slice().sort(function (a, b) {
@@ -336,15 +441,47 @@ footer.ll-attrib {
   renderBrowse("");
 
   /* Flashcards */
-  var deck = [], pos = 0, flipped = false, againSet;
+  var deck = [], pos = 0, flipped = false, againSet, deckTotal = 0;
   var cardEl = document.getElementById("flashcard");
   var cardMeta = document.getElementById("card-meta");
   var cardControls = document.getElementById("card-controls");
   var doneControls = document.getElementById("card-done-controls");
   var flipBtn = document.getElementById("card-flip");
+  var chapterSelect = document.getElementById("card-chapter");
+  var scopeSelect = document.getElementById("card-scope");
+  var deckSummary = document.getElementById("deck-summary");
+
+  CHAPTERS.forEach(function (chapter) {
+    var option = document.createElement("option");
+    option.value = chapter.number;
+    option.textContent = chapter.number + ". " + chapter.title;
+    chapterSelect.appendChild(option);
+  });
+  var allChapters = document.createElement("option");
+  allChapters.value = "all";
+  allChapters.textContent = "All chapters";
+  chapterSelect.appendChild(allChapters);
+  chapterSelect.value = "1";
+
+  function selectedCards() {
+    var chapter = Number(chapterSelect.value);
+    var cumulative = scopeSelect.value === "cumulative";
+    return DATA.map(function (_, i) { return i; }).filter(function (i) {
+      return chapterSelect.value === "all" || DATA[i].chapters.some(function (n) {
+        return cumulative ? n <= chapter : n === chapter;
+      });
+    });
+  }
 
   function resetDeck() {
-    deck = shuffle(DATA.map(function (_, i) { return i; }));
+    deck = shuffle(selectedCards());
+    deckTotal = deck.length;
+    var all = chapterSelect.value === "all";
+    scopeSelect.disabled = all;
+    var scope = all ? "All chapters" :
+      (scopeSelect.value === "cumulative" && chapterSelect.value !== "1" ?
+        "Chapters 1–" + chapterSelect.value : "Chapter " + chapterSelect.value);
+    deckSummary.textContent = scope + " · " + deckTotal + " card" + (deckTotal === 1 ? "" : "s");
     pos = 0;
     flipped = false;
     againSet = {};
@@ -354,10 +491,12 @@ footer.ll-attrib {
   function renderCard() {
     if (deck.length === 0) {
       var repeats = Object.keys(againSet).length;
-      cardEl.innerHTML = "<div class='cardterm'>Deck complete</div>" +
+      cardEl.innerHTML = deckTotal === 0 ?
+        "<div class='cardterm'>No separate cards for this chapter</div><div class='cardlabel'>Choose “Up to this chapter” to review earlier terms.</div>" :
+        "<div class='cardterm'>Deck complete</div>" +
         (repeats ? "<div class='cardlabel'>" + repeats + " card" + (repeats === 1 ? "" : "s") + " came back for another look</div>" : "");
       cardControls.classList.add("hidden");
-      doneControls.classList.remove("hidden");
+      doneControls.classList.toggle("hidden", deckTotal === 0);
       cardMeta.textContent = "";
       return;
     }
@@ -374,7 +513,7 @@ footer.ll-attrib {
     cardMeta.textContent = "Card " + (pos + 1) + " of " + deck.length;
   }
 
-  function flipCard() { flipped = !flipped; renderCard(); }
+  function flipCard() { if (deck.length) { flipped = !flipped; renderCard(); } }
   function nextCard() { if (deck.length) { pos = (pos + 1) % deck.length; flipped = false; renderCard(); } }
   function prevCard() { if (deck.length) { pos = (pos - 1 + deck.length) % deck.length; flipped = false; renderCard(); } }
 
@@ -400,10 +539,12 @@ footer.ll-attrib {
     renderCard();
   });
   document.getElementById("card-restart").addEventListener("click", resetDeck);
+  chapterSelect.addEventListener("change", resetDeck);
+  scopeSelect.addEventListener("change", resetDeck);
 
   document.addEventListener("keydown", function (e) {
     if (activePanel !== "panel-cards") return;
-    if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") return;
+    if (e.target.closest("input, textarea, select, button, a")) return;
     if (e.key === " " || e.key === "Enter") { e.preventDefault(); if (deck.length) flipCard(); }
     else if (e.key === "ArrowRight") { e.preventDefault(); nextCard(); }
     else if (e.key === "ArrowLeft") { e.preventDefault(); prevCard(); }

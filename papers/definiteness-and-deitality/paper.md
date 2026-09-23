@@ -2,7 +2,7 @@
 title: "Definiteness and Deitality in English: A Projectibility-First Account"
 author: "Brett Reynolds"
 year: "2025"
-status: "Under review at Journal of Linguistics"
+status: "Preprint"
 canonical_url: "https://ling.auf.net/lingbuzz/009369"
 website_url: "https://brettreynolds.ca/papers/definiteness-and-deitality/"
 markdown_url: "https://brettreynolds.ca/papers/definiteness-and-deitality/paper.md"

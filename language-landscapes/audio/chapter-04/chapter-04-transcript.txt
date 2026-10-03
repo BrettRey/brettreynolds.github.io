@@ -1,0 +1,748 @@
+Language Landscapes — Chapter 4: Adverbs and prepositions
+Adapted narrated companion. AI narration using the author’s approved voice.
+
+The complete examples, practice activities, and final exercises are narrated; answers are in separate sections. The written reference retains the epigraph, inventories, historical spellings, Italian examples, and sources.
+
+[00:00:00] 01. Title and learning objectives
+
+Chapter 4. Adverbs and prepositions.
+
+By the end of this chapter, you should be able to identify adverbs and adverb phrases and their characteristics. Identify the various semantic types of adverbs, such as manner, time, and degree. Recognize prepositions and preposition phrases, or PPs, and their functions. And apply diagnostic tests to distinguish between adverb phrases and PPs.
+
+You should also be able to explain the flexible-complement view of prepositions and how it differs from traditional analysis. Analyse how prepositions can take various types of complements: noun phrases, or NPs; clauses; other PPs; or none. Recognize phrasal verbs and particle movement. Appreciate the challenges that preposition selection poses for language learners. And apply fronting and stranding concepts in questions and relative clauses.
+
+[00:00:56] 02. Introduction
+
+While traditional grammars drew seemingly clear lines between prepositions and adverbs, this apparent simplicity masked significant complexity. The rigid classifications often led to contradictions and failed to capture important distinctions in how these elements actually function in English. This can be quite confusing.
+
+Many dictionaries and traditional grammars adhere to what we might call the NP-complement view of prepositions, defining them primarily as words that must precede and govern a noun phrase. This often leads to categorizing words like “before” or “down” as adverbs when they appear without a following noun phrase: “I've seen him before”; “He fell down”. Or as conjunctions when followed by a clause: “before you arrived”. But this approach just creates unnecessary complexity and often contradicts the dictionaries' own examples.
+
+This chapter aims to untangle this confusion, to present a clearer framework, and to establish a more consistent flexible-complement view. This view recognizes prepositions as heads of PPs that can take various types of complements, including NPs functioning as objects, other PPs, clauses, or even no complement at all.
+
+I argue that adopting this perspective aligns with evidence, simplifies grammar, enables robustness, and enhances pedagogy for teachers. We'll explore the characteristics and functions of adverbs and prepositions, examine the evidence for the flexible-complement view, address common misclassifications, and discuss specific challenges these categories present for language learners. My goal is to equip you with the tools to navigate this complex landscape with confidence.
+
+[00:02:48] 03. Tests used in this chapter
+
+This chapter introduces several diagnostic tests for distinguishing adverbs from prepositions.
+
+Test one: modification patterns. PPs accept modifiers like “right”, “just”, and “straight”. Adverb phrases accept “very”, “too”, and “so”.
+
+Test two: predicative complement function. PPs can follow “be”, “seem”, and “remain”. Adverb phrases typically can't.
+
+Test three: coordination patterns. PPs coordinate with PPs; adverb phrases coordinate with adverb phrases. Mixed coordination is sometimes possible but often ungrammatical.
+
+Test four: modification within NPs. PPs can modify nouns; adverb phrases generally can't, with rare exceptions.
+
+And the particle movement test: for phrasal verbs, particles can occur on either side of many NP objects, but normally follow pronoun objects.
+
+These tests provide systematic evidence for the flexible-complement view of prepositions.
+
+[00:03:49] 04. Adverbs and their meanings
+
+Adverbs and their phrases.
+
+The most typical adverbs are those like “happily”, where you begin with an adjective and end with the suffix -ly. But there are many others. These include “again”, “best”, “due”, “even”, “far”, “hard”, “just”, “long”, “maybe”, “never”, “often”, “pretty”, “quite”, “right”, “seldom”, “thus”, and “very”.
+
+The meanings of adverbs as a group are quite diverse. Here are some of their semantic types.
+
+Manner: “easily”, “quickly”, “silently”.
+
+Time and frequency: “already”, “always”, “often”, “rarely”, “temporarily”.
+
+Degree: “almost”, “thoroughly”, “very”.
+
+Order: “initially”, “last”, “next”.
+
+Certainty: “definitely”, “likely”, “probably”.
+
+Domain: “politically”, “scientifically”, “technically”.
+
+Evaluation: “fortunately”, “happily”, “well”.
+
+Speech act: “confidentially”, “frankly”, “honestly”.
+
+And connective: “furthermore”, “however”, “thus”. These are some of the possibilities, rather than an exhaustive list.
+
+[00:04:54] 05. Adverb morphology and phrase heads
+
+Many adverbs share morphological properties with adjectives.
+
+First, the pattern of an adjective plus -ly. Common examples are “exactly”, “recently”, “usually”, “quickly”, “clearly”, “particularly”, and “completely”.
+
+Second, grade. Like adjectives, adverbs are often gradable. Consider “well, better, best”; “fast, faster, fastest”; “more skillfully”; and “least helpfully”.
+
+Third, modification by “very”. Also like adjectives, adverbs can often be modified by “very”: “very well”, “very quickly”, “very often”, “very hard”, “very long”, and “very soon”.
+
+What about adverb phrases? They function as modifiers of almost any constituent, including an NP, but generally not a noun. They rarely function as complements and rarely take complements. And they're headed by an adverb.
+
+Consider four adverb phrases. In the one-word phrase “clearly”, the head is “clearly”. In the one-word phrase “very”, the head is “very”. In “very clearly”, the head is “clearly”. And in “not so well”, the head is “well”.
+
+[00:06:04] 06. Check your understanding
+
+Check your understanding. Before moving on to functions, make sure you can answer these questions.
+
+One. What are the main semantic types of adverbs? Give one example of each.
+
+Two. How can you identify the head of an adverb phrase?
+
+Three. What morphological features do many adverbs share with adjectives?
+
+Pause the recording while you work through the questions.
+
+[00:06:31] 07. Adverb phrases as modifiers
+
+Most typically, adverb phrases function as modifiers in a wide range of contexts. I'll give the examples and identify the relevant modifiers.
+
+In verb phrases, or VPs: “She sings beautifully.” The modifier is “beautifully”. “He ran quickly to the store.” The modifier is “quickly”.
+
+In adjective phrases: “The movie was incredibly boring.” The modifier is “incredibly”. “She is almost ready.” The modifier is “almost”.
+
+In other adverb phrases: “He runs very quickly.” Here, “very” modifies “quickly”. “She sings quite beautifully.” Here, “quite” modifies “beautifully”.
+
+In clauses: “Hopefully, she will arrive soon.” The clause modifier is “hopefully”. “Surprisingly, he didn't enjoy the concert.” The clause modifier is “surprisingly”.
+
+In PPs: “He lives right in the city centre.” The modifier is “right”. “She sat just behind the curtain.” The modifier is “just”.
+
+Before NPs: “Even the thought of it is frightening.” The modifier is “even”. “Everyone's presence was comforting, particularly yours.” The modifier is “particularly”.
+
+But generally not as modifiers of nouns within NPs. The next two examples are ungrammatical: “The quickly runner won.” And “She bought the beautifully dress.” The attempted noun modifiers are “quickly” and “beautifully”.
+
+There are rare exceptions. John Payne, Rodney Huddleston, and Geoffrey Pullum document examples such as “the demand internationally for lithium”, with “internationally” after “demand”.
+
+[00:08:16] 08. Adverb phrases and complements
+
+It's quite unusual for adverb phrases to function as complements, but they do occur. Consider “She treated it carefully”, with “carefully” as complement; and “He worded his response very precisely”, with “very precisely” as complement. Then “Wait until later”, where “later” is the complement of “until”; and “Before long, they were ready”, where “long” is the complement of “before”.
+
+Similarly, adverb phrases rarely allow complements of any kind, but some adverbs do. In “Happily for them, it had worked”, “happily” takes the complement “for them”. In “independently of his parents”, “independently” takes “of his parents”. And in “appropriately for the situation”, “appropriately” takes “for the situation”.
+
+In some cases, the complements are indirect. Consider “more important than that”: “more” licenses “than that”. In “as good as you”, the first “as” licenses “as you”. In “so bad that it's scary”, “so” licenses “that it's scary”. And in “too late to change”, “too” licenses “to change”.
+
+[00:09:27] 09. Words that are not actually adverbs
+
+Unfortunately, almost all published dictionaries and grammar books are quite confused about the distinction between adverbs and prepositions. They commonly categorize words like “after”, “away”, “before”, “here”, “home”, “now”, “then”, “there”, “when”, and “where” as adverbs when they're really prepositions.
+
+We'll return to this in the discussion of words like “before”. For now, consider that in Standard English, typical adverbs don't allow modification by “right”, though some other dialects do. So “she came right quickly” is easily identified as a non-Standard dialect, in the sense discussed in Chapter 2.
+
+In contrast, “right” commonly functions as a modifier in PPs, such as “right into the hole”. It also does so in phrases headed by the words I've just listed. That's one piece of evidence that these are prepositions, not adverbs.
+
+[00:10:24] 10. Progressive practice with right
+
+Try this progressive practice.
+
+Step one, easy. Try modifying typical -ly adverbs with “right”: “right quickly”; “right carefully”. Notice how these sound wrong in Standard English.
+
+Step two, medium. Now try modifying words like “before”, “here”, and “down” with “right”: “right before”; “right here”; “right down”. These sound natural.
+
+Step three, challenging. What does this difference suggest about the categories these words belong to?
+
+Pause the recording to think about the contrast.
+
+[00:11:04] 11. A sample of prepositions
+
+Prepositions and preposition phrases. So, what are prepositions then? Here's a sample.
+
+“About”, “before”, “concerning”, “during”, “except”, “for”, “given”, “home”, “in”, “like”, “minus”, “near”, “of”, “plus”, “qua”, “regarding”, “since”, “there”, “under”, “versus”, “with”, and “yonder”.
+
+Some of these have related words in other lexical categories. In this list, those are “concerning”, “except”, “for”, “home”, “in”, “like”, “minus”, “near”, “plus”, and “regarding”. The written companion marks them, and the book's appendix gives a more thorough list of prepositions.
+
+Prepositions are some of the most common words in English. Behind only “the” and “and”, “of” occurs roughly once every forty-two words in the Corpus of Contemporary American English. Other extremely common prepositions are “in”, “to”, “for”, “with”, “on”, “at”, “from”, and “by”, all of which are among the thirty most frequently used words in English.
+
+Part of the reason is that, along with their basic meanings, they tend to have grammatical functions. For example, “by” indicates the agent in passive constructions, like “The book was written by her”. Similarly, “of” can denote possession, origin, or indeed any relationship, as in “The sound of the waves”. If we can say “I gave her the note” or “I gave the note to her”, how much meaning can “to” really be adding?
+
+[00:12:45] 12. Characteristics of prepositions
+
+English prepositions have the following characteristics.
+
+They typically denote relations in space, relations in time, and relations in logic. They function as the head of a PP. Remember, our technical meaning of “phrase” allows for single-word phrases.
+
+PPs often function as modifiers in NPs and VPs, and as complements in a range of phrases.
+
+Prepositions usually have no suffixes or prefixes, and they usually have only one form.
+
+PPs may include an adverb phrase as modifier, especially “even”, “just”, and “almost”; and distinctively “right”, “straight”, “clear”, and “way”. They're almost never modified by degree modifiers like “very”, “too”, and “pretty”.
+
+Prepositions most typically take NP complements functioning as objects. But they also take a variety of other complements: a PP, as in “out of the box”; a clause, as in “before I arrived”; an adjective phrase, as in “for free”; or no complement at all.
+
+[00:13:50] 13. Relations and heads
+
+Prepositions primarily denote relations. These can be spatial, as with “in”, “on”, “under”, and “between”. Temporal, as with “before”, “after”, “during”, and “until”. Directional, as with “to”, “from”, “towards”, and “away”. Or causal, as with “because”, “due”, and “since”. There are other possibilities too.
+
+Often, a preposition can denote different types of relations. Compare “before six o'clock” with “before the mirror”.
+
+Every PP has a preposition at its head. In “in the park”, the head is “in”. In “during the movie”, the head is “during”. And in “under the table”, the head is “under”.
+
+[00:14:38] 14. PPs as modifiers and complements
+
+PPs function as modifiers in NPs and VPs.
+
+In “the book on the shelf”, the PP modifier is “on the shelf”. In “the man with the hat”, it's “with the hat”.
+
+For modification in VPs, consider “slept beside a tree”, with the PP “beside a tree”; and “studies during the day”, with “during the day”.
+
+PPs can also function as complements. In VPs: “She is in the garden”, with the complement “in the garden”. “He talked to us”, with “to us”. And “I received it from them”, with “from them”.
+
+In NPs: “knowledge of finance”, with the complement “of finance”. “Interest in movies”, with “in movies”. And “desire for love”, with “for love”.
+
+In adjective phrases: “eager for work”, with “for work”. “Happy about the change”, with “about the change”. And “proud of you”, with “of you”.
+
+And in PPs themselves: “down from the cottage”, with the complement “from the cottage”. “Due to the time”, with “to the time”. And “except for that”, with “for that”.
+
+[00:15:49] 15. Form and structure
+
+Most prepositions have only one form and lack prefixes or suffixes. Examples are “at”, “by”, “from”, “home”, “in”, “now”, “on”, “of”, “over”, “through”, “to”, “under”, “where”, and “with”. But there are exceptions.
+
+Some have internal structure: “apart”, “beside”, “ceilingward”, and “depending”. For example, “apart” is historically the prefix A plus “part”.
+
+Sometimes, single prepositions are written with a space, like “in front”, “on board”, and “so as”. Despite the space, there's good reason to think of these as single words. I won't go into that reasoning here; see page six hundred and twenty-two of The Cambridge Grammar of the English Language, which I'll refer to as CGEL.
+
+Finally, “close”, “far”, and “near” are a little like adjectives and adverbs in that they have -er and -est forms. Again, there are good reasons to think they're prepositions, but for those you should consult page six hundred and nine of CGEL.
+
+[00:16:55] 16. Modifiers in PPs
+
+PPs can include modifiers, especially the adverbs “even”, “just”, and “almost”; and distinctively “right”, “straight”, “clear”, and “way”. They also include measure phrases like “two meters” as modifiers, but rarely degree modifiers.
+
+Consider “almost to the door”, “even without it”, and “just before noon”. The modifiers are “almost”, “even”, and “just”.
+
+Then “right in front of the house”, “straight up the tree”, “clear to the horizon”, and “way out west”. The modifiers are “right”, “straight”, “clear”, and “way”.
+
+For measure phrases, consider “two hours before he arrived” and “a kilometer down the road”. The modifiers are “two hours” and “a kilometer”.
+
+By contrast, the following are ungrammatical: “very in the room”; “so down the well”; and “too on the table”. The attempted degree modifiers are “very”, “so”, and “too”.
+
+[00:17:55] 17. Types of complement
+
+While an NP functioning as object is the most common complement in a PP, prepositions can take various complements.
+
+An NP object: “on the table”, where the object is “the table”; and “with John”, where the object is “John”.
+
+A VP complement: “before going to bed”, where the complement is “going to bed”.
+
+A PP complement: “out of the box”, where the complement is “of the box”; and “from behind the clock”, where it's “behind the clock”.
+
+A clause complement: “before I arrive”, where the clause is “I arrive”; and “of whether it works or not”, where it's “whether it works or not”.
+
+An adjective phrase complement: “for free”, where the complement is “free”; and “as possible”, where it's “possible”.
+
+Or no complement at all, as with “above”, “home”, “here”, “now”, “then”, and “where”.
+
+[00:18:49] 18. Test one: modification patterns
+
+Distinguishing PPs from adverb phrases: key syntactic differences.
+
+The flexible-complement view analyses words traditionally called adverbs, like “before”, “down”, and “in” when used alone, or conjunctions, like “before”, “after”, and “since” when followed by a clause, as prepositions.
+
+A key justification comes from syntax. These words, and the phrases they head, consistently pattern with undisputed prepositions and PPs, and contrast sharply with undisputed adverbs and adverb phrases. Here are four diagnostic tests that illustrate this distinction.
+
+Test one: modification patterns.
+
+As noted above, PPs accept modification by a specific set of adverb phrases headed by words like “right”, “just”, “straight”, “clear”, and “way”. Typical adverbs and adverb phrases don't generally accept the same modifiers with the same meanings.
+
+The following PPs are acceptable: “right before lunch”; “just inside the house”; “straight down the road”; and “way up the tree”.
+
+Contrast these with “right quickly”, “straight locally”, and “way often”, which are unacceptable with the intended modifier meanings. The book also gives “just carefully”, but that phrase can be acceptable when “just” has a limiting or focusing meaning. The test needs to hold the modifier’s meaning constant.
+
+Conversely, typical adverbs and adverb phrases readily accept degree modifiers like “very”, “too”, and “so”, whereas PPs generally don't. The following are acceptable: “very quickly”; “too carefully”; and “so locally”.
+
+Contrast those with these unacceptable examples: “very before lunch”; “too inside the house”; and “so down the road”.
+
+Words like “before”, “inside”, and “down”, even when used without an overt complement, pattern with prepositions in accepting modifiers like “right” and rejecting modifiers like “very”.
+
+A learning strategy: build complexity gradually. Start by mastering this modification test before moving to the other tests. Each test provides a different kind of evidence, but modification is often the most accessible starting point for distinguishing adverb phrases from PPs.
+
+[00:21:22] 19. Test two: predicative complements
+
+Test two: function as predicative complement.
+
+PPs frequently function as predicative complements, especially after verbs like “be”, “seem”, and “remain”. Adverb phrases typically can't function this way. Crucially, PPs headed by words often misclassified as adverbs pattern with other PPs here.
+
+The first four examples are grammatical. “The meeting is at noon.” The PP is “at noon”. “Your keys are on the table.” The PP is “on the table”. “The power remained off.” The PP is the single word “off”. “Is he in?” The PP is the single word “in”.
+
+The next four examples are ungrammatical, with an adverb phrase in the corresponding position. “The meeting is easily.” “Your keys are quickly.” “The power remained locally.” And “Is he carefully?”
+
+[00:22:13] 20. Test three: coordination
+
+Test three: coordination patterns.
+
+Constituents of the same category often coordinate when they perform the same function. PPs coordinate readily with other PPs, and words like “up”, “before”, and “in” participate in that pattern. But constituents of different categories can also coordinate when their functions and meanings permit it. Coordination alone doesn’t establish that two constituents have the same category.
+
+First, three examples of a PP coordinated with another PP.
+
+“He looked down the street and all around.” The two PPs are “down the street” and “all around”.
+
+“Come before lunch or after dinner.” The two PPs are “before lunch” and “after dinner”.
+
+“Is she in or at lunch?” The two PPs are “in” and “at lunch”.
+
+Next, two examples of coordinated adverb phrases.
+
+“She works quickly and efficiently.” The adverb phrases are “quickly” and “efficiently”.
+
+“Speak too loudly or too softly.” The adverb phrases are “too loudly” and “too softly”.
+
+Now consider two examples that mix a PP and an adverb phrase. “He looked up and efficiently” is unacceptable on the ordinary reading. The PP is “up” and the adverb phrase is “efficiently”. In “Come before lunch or quickly”, the PP is “before lunch” and the adverb phrase is “quickly”. This second example isn’t reliably ungrammatical: its acceptability depends on context, so it isn’t a clear test of a category difference.
+
+[00:23:52] 21. Test four: modification within NPs
+
+Test four: modification within noun phrases.
+
+PPs commonly function as modifiers within NPs, appearing after the head noun, as postmodifiers, or occasionally before it, as premodifiers. Adverb phrases have a more restricted distribution as modifiers in NPs, but some are possible. An example discussed by Payne, Huddleston, and Pullum is “the changes globally”.
+
+Words like “in”, “down”, and “abroad” pattern with PPs in this regard. Consider four examples.
+
+“The door in the wall.” The PP “in the wall” is a postmodifier.
+
+“The down escalator.” The PP “down” is a premodifier.
+
+“His trip abroad.” The PP “abroad” is a postmodifier.
+
+“The people inside.” The PP “inside” is a postmodifier.
+
+Contrast these with the following ungrammatical examples: “the door quickly”; “the carefully escalator”; and “his trip beautifully”. The book also marks “the people locally” as ungrammatical, but it can be acceptable in context. Like “the changes globally”, it shows why this diagnostic needs qualification.
+
+[00:25:07] 22. Dictionaries and the NP-complement view
+
+Preposition phrases and their complements.
+
+A major confusion in almost all discussions of prepositions is the mistaken idea that they obligatorily take NP objects as complements. This oversimplified view, while pedagogically convenient, is at odds with the empirical data of the language.
+
+Consult any standard dictionary and you'll likely find inconsistency in this dogma. While their definitions of “preposition” might suggest that prepositions exclusively take noun phrases as their complements, the very same dictionaries often provide counterexamples that defy this convention.
+
+Even the venerable Oxford English Dictionary falls into this trap. It defines “preposition” as “an indeclinable word or particle governing (and usually preceding) a noun, pronoun, etc.” But under the entry for “for”, categorized as a preposition, you can find a sense described as follows: “With an adjective as complement. Now chiefly in set expressions, as in to give a person up for lost, to leave a person for dead, to take for granted, etc.”
+
+But the problem goes well beyond this edge case. Remember the counterexample habit from Chapter 1? When faced with a rule that seems suspiciously tidy, like “prepositions always take NP complements”, that's precisely when you should start hunting for exceptions.
+
+Try it yourself. Pick any common preposition like “after”, “since”, or “until”. Can you find authentic examples where they take something other than an NP? What about cases where they take nothing at all?
+
+The dictionaries themselves are littered with such counterexamples, often awkwardly explained away as the same word mysteriously belonging to three different categories. Once you start looking, the exceptions pile up so quickly that the original rule begins to look more like wishful thinking than linguistic reality.
+
+[00:27:19] 23. Apply your knowledge
+
+Apply your knowledge. Before continuing, test the rule.
+
+One. Find three examples of “since” with different complement patterns, including the possibility of no complement.
+
+Two. Find two examples where “before” appears with no complement.
+
+Three. How would traditional grammar classify these words?
+
+If you're having trouble, think about “since yesterday”, “since you left”, and “I haven't seen her since”.
+
+Pause the recording while you work through the examples.
+
+[00:27:57] 24. The problem of words like before
+
+The word “before” serves as a prime example of the challenges in categorizing prepositions.
+
+Traditional grammar sometimes labels “before” as an adverb in contexts like “I've seen it before”, with no complement. It labels it as a preposition in “before dinner”. And it labels it as a so-called subordinating conjunction in “before he arrives”, where there's a clausal complement.
+
+This three-way classification is cumbersome and conceptually problematic.
+
+[00:28:32] 25. Prepositions with clausal complements
+
+There aren't actually that many words like “before”, allowing all three possibilities: an NP object, a clause, or no complement. Apart from “before”, we have “after” and “since”.
+
+But the list of prepositions that take clausal complements is much larger. I'll read the list in groups. It's also available in the written companion.
+
+“After”, “although”, “as”, “assuming”, “because”, “before”, and “considering”.
+
+“Despite”, followed by “that”; “except”, followed by “that”; “for”; “given”; “if”; “in”, followed by “that”; “in case”; and “in order”, followed by “that”.
+
+“Lest”; “notwithstanding”, followed by “that”; “now”, followed by “that”; “on condition”; “once”; “provided”; and “seeing”.
+
+“Since”, “so”, “supposing”, “though”, “till”, “unless”, and “until”.
+
+And “when”, “whenever”, “where”, “whereas”, and “while”.
+
+[00:29:28] 26. Prepositions without complements
+
+The main prepositions that allow no complement, at least some of the time, include the following. Again, the list is in the written companion.
+
+“A priori”, “aboard”, “about”, “above”, “ago”, and “back”.
+
+“Below”, “beneath”, “down”, “downstairs”, “downtown”, and “east”.
+
+“Here”, “home”, “in”, “indoors”, “inside”, and “leftwards”.
+
+“Next”, “overseas”, “then”, “there”, “when”, “where”, and “within”.
+
+[00:29:59] 27. What the flexible-complement view simplifies
+
+If we accept that prepositions can take various complements, including clauses, then there's no need to posit a long list of subordinating conjunctions. We also keep the category of adverbs from becoming too unruly.
+
+Recall from the earlier discussion that adverb phrases rarely allow or function as complements. What then are we to make of “before now” if both “before” and “now” are adverbs?
+
+The core adverbs are the -ly words like “really”, “probably”, “actually”, and “simply”. Such words almost never function as complements in VPs headed by “be”. For example, you can't say “that was probably” or “the concert is really” as complete constructions in the intended sense. But there's no problem with “that was before” or “the concert is now”.
+
+This requires some kind of extraordinary explanation if you think that “before” and “now” are adverbs in these examples. In contrast, if you understand that they're prepositions, then everything simply follows from that and no exceptional explanation is needed.
+
+Most English teachers subscribe to the widespread view of prepositions being words that always take NP objects as complements. When they're exposed to the view of prepositions I'm explaining here, they typically reject it as difficult. If you already have one way of looking at things, it's clearly difficult to change your mind. There's no question about that.
+
+But for English-language learners, this is the simpler system. It dramatically reduces the number of exceptions. It's obviously easier for students to learn that “after” is always a preposition than it is to try and understand when it's an adverb, when it's a preposition, and when it's a subordinating conjunction.
+
+The choice then becomes: a system easier for teachers, or a system easier for students? The flexible-complement view is also hardly an innovation, being at least a quarter of a millennium old. Teachers, of course, already know the older system, which can make our convenience feel suspiciously like principle.
+
+[00:32:18] 28. Pause and reflect on teaching
+
+Pause and reflect on the pedagogical implications.
+
+Which approach would be easier for your students? Learning that “before” has three different categories depending on context? Or learning that “before” is always of the same category and, like verbs, can take different types of complements, or none?
+
+What are the pros and cons of each approach? Pause the recording to consider the teaching challenge.
+
+[00:32:49] 29. Selecting a preposition: graduate
+
+Why prepositions challenge learners.
+
+Even if grammarians seem to have had a lot of difficulty analysing prepositions, learning to use them might not seem so hard. Unfortunately, it turns out to be another aspect of English that's quite a minefield for learners.
+
+One problem is the selection of heads for PP complements. For example, it may seem obvious to you that one graduates from a university, but the meaning and structure associated with the verb “graduate” have evolved over time.
+
+Originally, “graduate” meant “admit to a university degree” and took an NP object denoting the students. For example: “The university graduated a large class this year.” The object is “a large class”.
+
+Later, “graduate” came to mean “complete a course of study at high school or college and obtain the qualification”. It licensed a PP complement headed by “from”, denoting the school. For example: “I graduated from high school.”
+
+In its most recent usage, “graduate” means “successfully exit an educational institution upon completion of the course of study” and takes an NP object denoting the school. For example: “I graduated high school.” The object is “high school”.
+
+For earlier speakers of English, the newer patterns would likely have sounded ungrammatical. Learners find them arbitrary; you just find them natural.
+
+[00:34:20] 30. Changing complements: listen
+
+The verb “listen” is another that has seen changes in its complementation patterns over time. In its earlier usage, “listen” could take either a direct object or a PP complement headed by “to”.
+
+Here are two historical examples from the Oxford English Dictionary entry for “listen”. I'm modernizing the spelling as I read; the original spellings are in the written companion.
+
+First, Milton, sixteen thirty-four: “At which I ceased, and listened them a while.” The direct object is “them”.
+
+Second, from around fourteen fifty: “The holy man listened well to all her confession.” The complement is “to all her confession”.
+
+In contemporary usage, a direct object is no longer possible, and a PP complement headed by “to” has become essentially obligatory. But how did it change from a direct object to a “to” PP? The metaphorical reasoning behind the choice of “to” can be seen in the phrase “give ear to”. It's obvious when you know it, but otherwise it'd be very hard to guess.
+
+And a “to” PP is only the most common complement. Some other combinations were previously possible; others still are.
+
+Historically, “listen of” meant “hear tell of”. Also historical is “listen on”, equivalent to “listen to”.
+
+“Listen for”, “listen out for”, and “listen after” can mean “be eager or make an effort to catch the sound of”, or “endeavor to hear or hear of”.
+
+“Listen in” means “listen to a broadcast program”. And “listen up” means “listen carefully”, or “pay attention”.
+
+[00:36:06] 31. Selection and motivation
+
+Even with very similar meanings, there's sometimes a choice between two or more valid options. While there may be very slight differences among them, each of the following is possible: “speak about prepositions”; “speak of prepositions”; “speak on prepositions”; and “speak to prepositions”.
+
+But other choices are more questionable or downright ungrammatical: “speak above prepositions”; “speak at prepositions”; “speak in prepositions”; “speak towards prepositions”; and “speak over prepositions”.
+
+I hope it's becoming clear that it's not a simple thing to guess whether a PP complement is possible or which preposition might head it. Keep this in mind when teaching complementation. We'll return to verb complementation in Chapter 5.
+
+Some folks will argue that the choice of preposition is motivated. They're not wrong, and understanding the motivation may or may not lead to better recall. But it's wrongheaded to expect students to be able to work out the motivations.
+
+At the same time, attempts like “I'm happy on my grades”, while at best non-Standard, are still likely to convey the intended sense.
+
+[00:37:16] 32. How meanings extend: up
+
+To understand how the choice of prepositions could be motivated, we need to understand how their meanings expand through analogy. The basic meanings are well covered by good learner dictionaries, like the Longman Dictionary of Contemporary English, and teachers should refer to these regularly.
+
+For extended meanings, consider the following chain of analogy for “up”.
+
+The basic meaning is “away from the ground”, as in “The balloon went up”.
+
+This is extended to “a higher or larger amount or value”, as in “The price has gone up”.
+
+From there, we get the idea of being conscious or functioning, presumably from amount of function, as in “The system's back up”.
+
+If something's functioning, then it's prepared or able, as in “Are you feeling up to it?”
+
+And from being able to complete something, we get the meaning of completion or totality, as in “They ate it up”.
+
+This chain of development may not be entirely historical. But when it's laid out that way, we can see how one might possibly get from “away from the ground” to completion or totality. The motivation isn't one that a typical learner or teacher of English could be expected to work out on their own. Prepositions can be complex and confusing.
+
+[00:38:32] 33. Meanings of to
+
+For “to”, Andrea Tyler and Vyvyan Evans give the following meanings and examples.
+
+Location: “In this picture, Diana is standing to my left.”
+
+Contact: “Apply the soap directly to the stain for best results.”
+
+Attachment: “He added a fence to the garden.”
+
+Event: “The captain went to the boaters' rescue.”
+
+And comparison: “The design of this sweater is inferior to that one.”
+
+[00:39:02] 34. Cross-linguistic awareness
+
+Think about another language. How does a non-English language you know handle spatial and temporal relationships? Does it use the same words or particles for both, or different ones?
+
+Understanding these differences can help explain why preposition learning is challenging: the conceptual mappings vary across languages. Pause the recording to consider a language you know.
+
+[00:39:28] 35. Conventional uses of at
+
+Even when the meaning of a preposition is the most basic one, the use of that meaning depends on culturally determined perspectives.
+
+Reginald Close writes: “In using the prepositions, we are concerned not so much with objective measurements, that is, with the actual dimensions of the things to which we are referring, as with how we imagine them to be at the time of speaking.”
+
+Consider “at” meaning “something or someone's exact point”. We use this “at” in the following contexts.
+
+Clock times: “at twelve oh one”, but not “at January eighth”.
+
+Weekends in the United Kingdom: “at the weekend”, with stress on the “end” syllable. In North America, we say “on the weekend”, with stress on “week”.
+
+Nights, usually without a determiner: “at night”, but not “at morning”.
+
+Meals, also without a determiner: “at dinner”, but not “at rice”.
+
+Ages: “at the age of twenty-seven”, but not “at twenty twenty-three”.
+
+While these patterns appear idiomatic in modern English, their historical development likely reflects cognitive metaphors of time as space. Preposition selection often depends on syntactic factors like the presence of a determiner, rather than a clear conceptual mapping.
+
+The original metaphorical extension of spatial “at” to temporal domains suggests that early English speakers conceptualized certain temporal references, such as clock times, nights, and meals, as points. This cognitive foundation helps explain why these particular temporal expressions crystallized with “at”, even though modern speakers may no longer feel this metaphorical mapping.
+
+[00:41:15] 36. Time as points, surfaces, and containers
+
+The weekend distinction between “at” in the United Kingdom and “on” in the United States illustrates this process. We might reconstruct the British usage as reflecting a conceptualization of the weekend as the endpoint of a linear week, and the American usage as treating the weekend as a platform for activities. But modern speakers likely use these prepositions conventionally rather than through active conceptual mapping.
+
+Other things that are, at least sometimes, based on the metaphor of surfaces include days: “on Monday”, “on the twelfth”, “on your birthday”. Specified weeks: “on the week of January fifth”. And mornings, afternoons, and evenings of specified days: “on Monday morning”, “on the evening of January fifth”.
+
+In contrast, we conceptualize the following things as containers and use “in” for them. Mornings, afternoons, and evenings generally: “in the morning”. Months and seasons: “in January”, “in summer”, or “in the summer”. And years: “in twenty twenty-three”.
+
+There's little rhyme or reason to these choices. They're just what we, the community of English speakers or some part of it, have chosen.
+
+[00:42:34] 37. Places, media, and further uses
+
+The same confusion applies to physical places. We can arrive “at” destination cities for airline flights, transit stations and stops, places where we engage in regular activities such as school or work, street addresses, beginnings and ends, tops and bottoms, and levels and stages.
+
+In contrast, “on” gets used for streets and transit lines, sides and borders, tops without a determiner, trips, journeys, and vacations. Contrast “on top” with “at the top”. Where's the logic?
+
+We think of provinces, states, and countries as containers, and so we use “in”. The same holds for destination cities for airline flights, even though we sometimes think of them as points; for individual buildings and rooms; and for doors, windows, and mirrors.
+
+Media also gets pulled into this unsystematic system. Shows are “on” TV, “on” the radio, and “on” the internet. We hear interesting ideas “on” podcasts. Text appears “on” pages and screens, and your photos are saved “on” your computer or your phone.
+
+But we see moving performances “in” movies, programs, and series. We learn about the world “in” books, magazines, newspapers, and emails, and our images appear “in” photographs and paintings.
+
+We contact people “at” their phone number or email address, follow them “at” a distance, and look at them “at” an angle. And we do things “at” certain rates, frequencies, and prices. Are these all clearly points?
+
+When we're under medical care, we may need to be “on” medication. When we drive, our cars run “on” gasoline, diesel, or electricity. When we're relevant, we're “on” topic, and when we're organized, we're “on” schedule. Are these all clearly surfaces?
+
+Anyone learning English would struggle to find systematicity in this hodgepodge. And the list goes on and on.
+
+[00:44:36] 38. Teaching conventional choices
+
+A teaching tip: manage student expectations.
+
+When students ask “Why do we say on YouTube but in a movie?”, it's important to acknowledge that many preposition choices are simply conventional. Rather than seeking logical explanations for every usage, focus on helping students notice patterns and develop strategies for remembering common collocations.
+
+[00:45:01] 39. In in English and Italian
+
+“In” in English and Italian.
+
+Even the core meanings of a central preposition may differ across languages. The preposition “in” in English and its Italian counterpart, also “in”, are used extensively in each language. They share a core container meaning: “enclosed or surrounded by something”.
+
+For physical location, compare English “in the house” with Italian “in casa”.
+
+For temporal context, English “in the morning” with Italian “in mattinata”.
+
+And for abstract space, English “in linguistics” with Italian “in linguistica”.
+
+But English “in” has senses that aren't shared with Italian. For instance, larger locations like cities usually take “in” in English but “a”, meaning “at”, in Italian.
+
+English and Italian also differ in their conventional expressions for transport. Italian “in macchina” and “in treno” correspond to English “by car” and “by train”. For being on a particular train, Italian can use “sul treno” or “nel treno”. The choice depends on the construction and whether a particular vehicle is specified.
+
+A more fundamental difference is the Italian use of “in” for movement over a path to a point. Compare English “I'm going to the bank” with Italian “Vado in banca”.
+
+[00:46:33] 40. Salience and omitted prepositions
+
+To make matters worse, prepositions aren't very salient. They tend to be small words, often pronounced without stress. As a result, in both print and speech, they get overlooked.
+
+Consider “Even if I spend ten hours, I can't fix it.” A learner may omit “if”, producing “Even I spend ten hours, I can't fix it”.
+
+Or “That depends on your ability.” Omit “on” and you get “That depends your ability”.
+
+Although the conditional “if” in the first example is a preposition, there's also a subordinator “if”, used in certain interrogative clauses, such as “I wonder if she lives here”. We'll return to that in Chapter 18, on subordination and coordination.
+
+[00:47:22] 41. Phrasal verbs
+
+One area that illustrates the difficulties of preposition choice and meaning is so-called phrasal verbs.
+
+These include “break up”, “run into”, “give away”, “take off”, “put on”, “look up”, “come across”, and “turn down”. They consist of a verb combined with one or more prepositions, and together they often express a distinct meaning. CGEL uses the term “prepositional verbs”.
+
+To be clear, they're often not phrases in our technical sense. Still, they're vocabulary items, the kinds of things you can look up in a dictionary. And the term “phrasal verb” is so widely used in language teaching that I'll use it here too.
+
+They have several characteristics. Their meaning often can't be deduced from the meanings of the individual parts. The preposition can often be separated from the verb, especially when the object is a pronoun. Compare “take them off” with “take off your shoes”. And phrasal verbs can be transitive, requiring an object, or intransitive, not requiring an object.
+
+[00:48:31] 42. Idiomatic meanings
+
+Some phrasal verbs have meanings that are generally clear to anyone who knows the basic meanings of the verb and the associated preposition. Consider “look at something”. There's a thing, it's at some point, and you have your gaze trained on that point. There's no clear reason why you shouldn't just say “look it”, but if someone says “look at it”, the meaning isn't hard to perceive.
+
+On the other hand, if a plane takes off, it leaves the ground, which has very little to do with taking. If you come across something, you find it by chance, and you probably didn't move towards or across it.
+
+Carrying out a plan typically involves no carrying. And while looking up a word often involves looking, it's hard to see how “look” plus “up” becomes “check in a reference source”.
+
+That said, many of these phrasal verbs needn't take up much of your attention, because most aren't actually all that frequent. They may feel quite common, but if you check how often they appear in a relevant collection of text, you'll see that very few individual phrasal verbs are particularly common. For more on word frequency generally, see Chapter 8.
+
+[00:49:42] 43. Objects and intervening modifiers
+
+Movable particles.
+
+One aspect of objects in VPs is that nothing can typically come between the head verb and the object. Consider the positions of “quickly” in four examples.
+
+First: “Quickly, they ate the cookies.” That's grammatical.
+
+Second: “They quickly ate the cookies.” That's also grammatical.
+
+Third: “They ate quickly the cookies.” That's ungrammatical. “Quickly” intervenes between “ate” and its object, “the cookies”.
+
+Fourth: “They ate the cookies quickly.” That's grammatical again.
+
+This is also true when the intervening constituent is a PP. “In the morning, they ate the cookies” is grammatical. “They ate in the morning the cookies” is ungrammatical; if anything, it's worse than the example with “quickly” between the verb and its object. “They ate the cookies in the morning” is grammatical.
+
+But quite a few phrasal verbs either allow or require a PP to occur after the head but before the object. These PPs usually involve common prepositions like “in”, “on”, and “up”, and usually appear without any complement. They function as particles in the VP.
+
+[00:50:58] 44. Particle movement and pronoun objects
+
+Compare these four pairs. In each pair, the first example has the particle after the object, and the second has it before the object. Both orders are grammatical.
+
+“Pick the pen up.” “Pick up the pen.”
+
+“Put the pen down.” “Put down the pen.”
+
+“Get the pen out.” “Get out the pen.”
+
+“Push the pen in.” “Push in the pen.”
+
+Interestingly, when the object is a pronoun, it can't typically undergo this alternation. This is another categorial test for pronouns.
+
+The following are grammatical: “Pick it up.” “Put it down.” “Get it out.” “Push it in.”
+
+But the following are ungrammatical: “Pick up it.” “Put down it.” “Get out it.” “Push in it.”
+
+[00:51:47] 45. A particle or a preposition with an object?
+
+Now compare “Take off your jacket” with “Fall off your chair”. They're superficially similar, but the structures differ.
+
+In “Take off your jacket”, “off” is a particle, and “your jacket” is the object of “take”. You can reverse their order: “Take your jacket off.” Both versions are grammatical.
+
+In “Fall off your chair”, “off” heads the whole PP “off your chair”, functioning as a modifier. It isn't a particle. That's why the preposition and the NP can't be reversed. “Fall your chair off” is ungrammatical.
+
+Notice that you can only fall off your chair because you're on it. But you're not on your jacket, so “off your jacket” isn't a phrase in “Take off your jacket”.
+
+[00:52:37] 46. Practice with the particle test
+
+Practise using the particle test.
+
+Compare “turn off the light” with “turn off the highway”.
+
+Then compare “pick up the phone” with “walk up the stairs”.
+
+Can you reverse the order in each case? What does this tell you about the structure?
+
+Pause the recording while you analyse the examples.
+
+[00:52:58] 47. Fronting and stranding
+
+Fronting and stranding.
+
+In Chapter 10, we'll consider interrogative clauses, and relative clauses are covered in Chapter 19. It's hard to address preposition fronting and stranding clearly until you have at least some idea about these two structures. But fronting and stranding are too important to be left out of this chapter entirely.
+
+Fronting refers to the process by which elements, often PPs or their objects, are moved to the beginning of a clause. Stranding is where part of the phrase is left behind. This is commonly seen in questions and relative clauses.
+
+Consider three ways of asking a question.
+
+First: “You disagree about what?” The whole PP, “about what”, appears after the verb “disagree”. This is the in-situ version. It's how you'd ask if you hadn't heard clearly, were asking a clarifying question, or were expressing surprise.
+
+Second: “What do you disagree about?” This is the normal way to ask the question. The NP “what” has been fronted, and the preposition “about” is stranded at the end. In the written analysis, a gap after “about” shows the position associated with the fronted NP.
+
+Third: “About what do you disagree?” This is an awkwardly formal way of asking the question. The whole PP “about what” is fronted, and the gap is after “disagree”.
+
+The structure of these phrases can be difficult to grasp when just written out in text. That's why it's often useful to show them in a graphic format that linguists call syntax trees, or just trees. Such trees are the focus of Chapter 6.
+
+[00:54:48] 48. Summary
+
+The challenges described in this chapter, including arbitrary collocations, metaphorical extensions, and culturally determined usage, are genuine. No analytical framework makes “depend on” predictable or explains why we say “at night” but “in the morning”. When students ask why, the honest answer is usually convention.
+
+But the flexible-complement view keeps your analytical framework from adding unnecessary confusion on top of genuine difficulty. Under the traditional analysis, a student looking up “before” in a learner dictionary encounters separate entries for preposition, conjunction, and adverb, with overlapping definitions and examples.
+
+Under the flexible-complement view, there's one entry, “before”, and it's always a preposition that takes different complements, just like a verb. The same simplification applies to “after”, “until”, “since”, and dozens of other words. When you're choosing a dictionary or evaluating how a textbook handles prepositions, this is the kind of thing you can now see.
+
+[00:55:56] 49. Exercise A: recognition
+
+Exercises. Part A: recognition.
+
+Identify all adverbs and prepositions in each example, and label each one as an adverb or a preposition. Pause after any example if you need more time. The answer key follows all three parts of the exercise.
+
+One. “She spoke frankly to the committee.”
+
+Two. “The train arrived right before noon.”
+
+Three. “They stayed abroad for three weeks.”
+
+Four. “I left the key on the desk just inside the door.”
+
+Five. “Is he in yet, or still out?”
+
+Pause the recording to finish Part A.
+
+[00:56:39] 50. Exercise B: diagnostics
+
+Part B: diagnostics. For each word, apply the named test and decide whether it's an adverb or a preposition.
+
+One. “Since”. Apply the test of modification by “very”.
+
+Two. “Outside”. Apply the predicative-complement test.
+
+Three. “Downstairs”. Apply the coordination test.
+
+Four. Consider “likely” in the certainty use listed earlier in this chapter. Apply the test of modification by “right”.
+
+Pause the recording to work through Part B.
+
+[00:57:12] 51. Exercise C: production
+
+Part C: production.
+
+One. Write a clause with a PP modified by “just”.
+
+Two. Write a sentence where “before” has a clausal complement.
+
+Three. List three adverbs that can't be modified by “very”.
+
+Four. Explain the source of the error in the following ungrammatical example: “She arrived for the station late.”
+
+Pause the recording before continuing to the answers.
+
+[00:57:42] 52. Answer key: Part A
+
+Answer key. Part A.
+
+One. “She spoke frankly to the committee.” “Frankly” is an adverb; “to” is a preposition.
+
+Two. “The train arrived right before noon.” “Right” is an adverb; “before” is a preposition.
+
+Three. “They stayed abroad for three weeks.” “Abroad” and “for” are prepositions.
+
+Four. “I left the key on the desk just inside the door.” “On” is a preposition; “just” is an adverb; “inside” is a preposition.
+
+Five. “Is he in yet, or still out?” “In” and “out” are prepositions; “yet” and “still” are adverbs.
+
+[00:58:27] 53. Answer key: Part B
+
+Part B.
+
+One. “Since” is a preposition. “Very since” is ungrammatical.
+
+Two. “Outside” is a preposition. It can function as a predicative complement: “It's outside.”
+
+Three. “Downstairs” is a preposition. It coordinates with another PP: “downstairs and along the hall”.
+
+Four. In the certainty use intended here, “likely” is an adverb. The phrase “right likely” is unacceptable with the modifier meaning used in this test. The word also has adjective uses, so this test alone doesn’t distinguish an adverb from an adjective.
+
+[00:59:13] 54. Sample answers: Part C
+
+Sample answers for Part C.
+
+One. For a clause with a PP modified by “just”: “We waited just until the bell.”
+
+Two. For a sentence where “before” has a clausal complement: “Finish your work before you leave.”
+
+Three. For three adverbs that can't be modified by “very”: “again”, “never”, and “thus”.
+
+Four. The sentence should be “She arrived at the station late”. The PP functions as a complement in the VP. The verb “arrive” selects a PP headed by “at”, not by “for”.

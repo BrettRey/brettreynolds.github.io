@@ -87,27 +87,27 @@ We have two fundamental types of categories: lexical categories and phrasal cate
 
 Functions, on the other hand, are relational. We can't ever look up a word in a dictionary and find out whether it's a modifier, a subject, a head, or a dependent. These functions can only be determined in a context by seeing how the phrases relate to those around them. A dictionary can tell you what a word is, but not what it is up to.
 
-[00:12:07] 10. Quick self-check
+[00:12:06] 10. Quick self-check
 
 Quick self-check. Can you give an example of one word that belongs to the same category but serves different functions? And can you give an example of two different categories that can serve the same function?
 
 Think about the different jobs NPs can do, and about the categories that can fill the determiner slot. Pause here to consider your answers.
 
-[00:12:33] 11. Lexical categories
+[00:12:32] 11. Lexical categories
 
 Lexical categories contain individual words. Usually, in English, these are set off by spaces in writing, although there are some words that contain an internal space (for example, “each other”). So far, we have considered nouns and verbs. The other lexical categories we will look at in this book are adjectives, pronouns (a kind of noun), determinatives, prepositions, adverbs, coordinators, and subordinators. The only lexical category we won't eventually look at is interjections. If you'd like to learn about them, I suggest starting with the Wikipedia entry for English interjections. The written reference includes the link and the book's authorship note.
 
-[00:13:23] 12. Phrasal categories and the category diagram
+[00:13:21] 12. Phrasal categories and the category diagram
 
 Phrasal categories. Most of the lexical categories mentioned so far have a related phrasal category. The diagram in the book shows six pairs. Nouns head NPs. Verbs head VPs. Adjectives head adjective phrases. Determinatives head DPs. Adverbs head adverb phrases. And prepositions head preposition phrases, or PPs.
 
 There's one additional phrasal category, clause, which is headed by a VP, as we saw earlier. The diagram therefore links verb to VP, and VP to clause.
 
-[00:14:04] 13. One-word phrases
+[00:14:01] 13. One-word phrases
 
 As we saw in Chapter 1, the everyday meaning of “phrase” happens to be “a group of words that have a particular meaning when used together,” but for our purposes, all we need is a head word. Often, this comes with dependents, but one-word phrases are also possible. This is another example of the difference between the everyday meaning and the technical definition. So, here, “go to school” is a VP, but so is “go” in “please, go”. We can have a long NP such as “all the very interesting people who I met yesterday”, but we can also have single-word NPs such as “they” or “water”.
 
-[00:14:49] 14. Heads and dependents
+[00:14:46] 14. Heads and dependents
 
 Syntactic functions, or just functions, are broadly split into head and dependent. There is only one kind of head, but we'll divide dependents into subject, modifier, determiner, and complement. We'll also include a special kind of complement called an object. There are some other functions that I'll introduce later, but we'll stick with these for now.
 
@@ -117,7 +117,7 @@ The head is the function of the most important element in a phrase. The phrase i
 
 A dependent is any element in the structure of a phrase or clause other than the head. In “the best kind”, the NP is headed by “kind”, with two dependents: “the” and “best”. In “won an award”, the VP is headed by “won”, with one dependent: “an award”. In “more important”, the adjective phrase is headed by “important”, with one dependent: “more”. Subjects, complements, modifiers, and determiners are all kinds of dependents. In the book, dependent is often abbreviated Dep.
 
-[00:16:45] 15. Subject
+[00:16:42] 15. Subject
 
 Subject, a type of dependent. The subject typically functions as the topic of the clause and is syntactically a dependent of the VP in a clause.
 
@@ -131,7 +131,7 @@ Agreement with the verb in person and number is a key characteristic of the subj
 
 While typically an NP, subjects can also be clauses, VPs, or even PPs. This shows the flexibility of this grammatical function. In the book, subject is often abbreviated Subj.
 
-[00:18:09] 16. Determiner
+[00:18:06] 16. Determiner
 
 Determiner, a type of dependent. Determiners are found only in NPs. A head noun will never have more than one determiner. The book marks “my the class” as ungrammatical.
 
@@ -143,7 +143,7 @@ Determiners come before modifiers in the NP. In “the Trudeau government”, �
 
 In the book, determiner is often abbreviated Det. Determiner and modifier are syntactic functions. The -er ending tells you it's a function. In contrast, determinative and adjective are lexical categories.
 
-[00:19:17] 17. Modifier
+[00:19:14] 17. Modifier
 
 Modifier, a type of dependent. Most heads allow one or more modifiers. Typical modifiers are adjective phrases and adverb phrases, but almost any phrase can be a modifier.
 
@@ -153,7 +153,7 @@ Modifiers can often be removed without drastic or unexpected changes of meaning.
 
 In theory, the number of modifiers is unlimited. Unfortunately, the boundary between complements and modifiers can be very fuzzy. In the book, modifier is often abbreviated Mod.
 
-[00:20:19] 18. Complement
+[00:20:16] 18. Complement
 
 Complement, a type of dependent. Complements “complete” a phrase. The spelling has an E after the L, like “complete”. Compliments with an I, in contrast, are nice things you say about somebody.
 
@@ -165,7 +165,7 @@ If a phrase is indifferent about a head, it's not a complement. For example, “
 
 There are zero, one, two, or sometimes three complements, but never four. If you think of subjects as a kind of complement, then four is possible. Unfortunately, the boundary between complements and modifiers can be very fuzzy. In the book, complement is often abbreviated Comp.
 
-[00:21:51] 19. Object
+[00:21:48] 19. Object
 
 Objects are a kind of complement. Objects are always dependents in VPs or in PPs. For example, “the bag” is the object in both “grab the bag” and “in the bag”. Objects are almost always NPs.
 
@@ -173,7 +173,7 @@ If there's an action, the object is usually what is acted upon. In “I threw th
 
 Verbs like “be”, “become”, “seem”, “appear”, “feel”, and “look” take complements, but not the special kind called objects. Two examples are “I feel good” and “it looks easy”. In the book, object is often abbreviated Obj.
 
-[00:22:54] 20. Subjects: exercise
+[00:22:50] 20. Subjects: exercise
 
 Subject exercise. Identify the whole subject in each quotation. If there is more than one subject, identify the first two. Ignore any further subjects. Pause after each quotation if you need more time. The answer key is in the next section.
 
@@ -197,7 +197,7 @@ Nine. From Richard Beard: “Lizards skit like quick beige sticks.”
 
 Pause here before continuing to the answers.
 
-[00:25:33] 21. Subjects: answer key
+[00:25:30] 21. Subjects: answer key
 
 Subject exercise: answer key.
 
@@ -219,7 +219,7 @@ Eight. “He”, then “he”.
 
 Nine. “Lizards”.
 
-[00:26:02] 22. Properties of adjectives
+[00:25:59] 22. Properties of adjectives
 
 Now that you have a better understanding of categories and functions, it's time to look at the characteristics of adjectives and adjective phrases.
 
@@ -243,7 +243,7 @@ Many adjectives can take an -ly ending and become adverbs.
 
 Here are some examples.
 
-[00:27:45] 23. What adjectives denote
+[00:27:42] 23. What adjectives denote
 
 Denotation. As in the earlier discussion of nouns, the terms used here are just everyday descriptions. They're not technical terms, nor are they meant to be exhaustive.
 
@@ -257,7 +257,7 @@ Material properties: “ceramic”, “metallic”, “plastic”, “wooden”,
 
 State properties: “amorphous”, “aqueous”, “crystalline”, “gaseous”, “viscous”.
 
-[00:28:27] 24. Heads and modifiers
+[00:28:24] 24. Heads and modifiers
 
 Here are examples of adjectives heading adjective phrases. Listen for the head as the phrase grows.
 
@@ -273,13 +273,13 @@ Now, adjective phrases as modifiers in NPs. I'll read each NP and identify its m
 
 “Civil rights”. The modifier is “civil”. “Some quite good news”. The modifier is “quite good”. “National security”. The modifier is “national”. “The whole thing”. The modifier is “whole”. “Recent years”. The modifier is “recent”. “Our mental health”. The modifier is “mental”. “Her very best friend”. The modifier is “very best”. “A really big deal”. The modifier is “really big”. “A supremely important responsibility”. The modifier is “supremely important”.
 
-[00:29:45] 25. Adjective complements and degree modifiers
+[00:29:42] 25. Adjective complements and degree modifiers
 
 Adjective phrases as complements to “be”, “become”, and “seem”. Try each of the following phrases after each of the forms “is”, “became”, and “seems”. The phrases are “clear”, “aware”, “available”, “pregnant”, “familiar to me”, “popular with the ladies”, and “very interested in the difference”. The diagnostic requires all three verbs.
 
 Now, adjective phrases with “very”, “too”, and “so” as modifiers. Try each of those three modifiers before each of the following adjectives: “good”, “important”, “late”, “different”, “difficult”, and “nice”. Many adverbs work here too, including “well”, “importantly”, “differently”, and “nicely”.
 
-[00:30:36] 26. Comparatives, superlatives, and adverbs in -ly
+[00:30:33] 26. Comparatives, superlatives, and adverbs in -ly
 
 Here are adjectives taking -er and -est suffixes: “bigger”, “biggest”; “greater”, “greatest”; “older”, “oldest”; “lower”, “lowest”; “younger”, “youngest”. A number of commonly used adverbs work here too: “stay longer”, “leave earlier”, “run faster”, “work harder”, “jump higher”.
 
@@ -287,7 +287,7 @@ Many adjectives can be graded with “more” and “less”, and “most” and
 
 Finally, adjectives taking -ly to form adverbs: “quick” becomes “quickly”; “real” becomes “really”; “actual” becomes “actually”; “probable” becomes “probably”; “final” becomes “finally”; “simple” becomes “simply”; “exact” becomes “exactly”; “certain” becomes “certainly”.
 
-[00:31:46] 27. Finding adjectives in García Márquez
+[00:31:43] 27. Finding adjectives in García Márquez
 
 Apply the properties to identify the adjectives in this excerpt from “A very old man with enormous wings” by Gabriel García Márquez, translated by Gregory Rabassa. If you're not sure how to do this, listen to the worked examples that follow. First, here's the passage.
 
@@ -295,7 +295,7 @@ On the following day, everyone knew that a flesh-and-blood angel was held captiv
 
 Pause here to identify the adjectives. The next sections work through five words from the passage.
 
-[00:33:26] 28. Worked example: following
+[00:33:22] 28. Worked example: following
 
 The word is “following”. Here is its sentence.
 
@@ -313,7 +313,7 @@ It can't function as the complement of “become” or “seem” (for example, 
 
 Therefore, “following” is probably not an adjective, or at best it is a very bad example of an adjective. Since it ends in -ing, consider whether it might be a verb.
 
-[00:34:23] 29. Worked example: those
+[00:34:19] 29. Worked example: those
 
 The word is “those”. Here is its sentence.
 
@@ -331,11 +331,11 @@ There is no word “thosely”.
 
 So, “those” is probably not an adjective either.
 
-[00:35:05] 30. Pause and reflect
+[00:35:02] 30. Pause and reflect
 
 Pause and reflect. Notice how we've now seen two words, “following” and “those”, that seem like they might be adjectives but fail the diagnostic tests. What does this tell us about the importance of using multiple tests rather than relying on just one criterion? Pause here to think about that.
 
-[00:35:29] 31. Worked example: wire
+[00:35:26] 31. Worked example: wire
 
 The word is “wire”. Here is its sentence.
 
@@ -351,7 +351,7 @@ It can modify a verb. In “a wire wrapped guitar string”, “wire” modifies
 
 Again, “wire” is probably not an adjective. Given that it denotes a physical object, consider whether it might be a noun.
 
-[00:36:24] 32. Worked example: magnanimous
+[00:36:21] 32. Worked example: magnanimous
 
 The word is “magnanimous”. Here is its sentence.
 
@@ -371,7 +371,7 @@ There's nothing wrong with “it seems magnanimous”.
 
 So, “magnanimous” seems to be an adjective.
 
-[00:37:11] 33. Worked example: fresh
+[00:37:08] 33. Worked example: fresh
 
 The word is “fresh”. Here is its sentence.
 
@@ -393,7 +393,7 @@ Clearly, “fresh” is an adjective.
 
 Now, return to the passage with these examples in mind. Pause here to work on it again.
 
-[00:38:13] 34. Summary and review: fill the gaps
+[00:38:09] 34. Summary and review: fill the gaps
 
 Summary and review. Fill each blank with “noun”, “verb”, or “adjective”, using the plural where appropriate. I'll number the statements so you can pause and keep track of your answers.
 
@@ -451,7 +451,7 @@ Twenty-six. A blank phrase must be headed by a verb.
 
 Pause here to complete the exercise. Keep working on recalling the properties of nouns and verbs, and add adjectives to your practice. The book doesn't supply an answer key for this review.
 
-[00:41:10] 35. Pronouns and personal gender
+[00:41:07] 35. Pronouns and personal gender
 
 Did you ever notice that we sometimes say things like “Look at the baby. It's so cute”, but we'd never say the following, marked as ungrammatical in the book: “Look at her boyfriend. It's so cute”?
 
@@ -465,7 +465,7 @@ Of course, everyone's aware of the masculine and feminine gender pronouns, but d
 
 Pronouns are a special kind of noun. They typically refer to another NP that has come before or that comes later. For example: “Xi saw the egg fall but caught it before it smashed”. The pronoun “it” refers to the egg in both places. There are only a small number of pronouns. The next two sections read the main ones from the pronoun table.
 
-[00:42:42] 36. Pronoun table: personal pronouns
+[00:42:39] 36. Pronoun table: personal pronouns
 
 The pronoun table brings together three kinds of information: person, number, and gender. It then shows the forms that each pronoun can take. The complete table is in the written reference. Here, let's use a few rows to see how it works.
 
@@ -475,7 +475,7 @@ Now compare singular and plural “you”. Most of the forms are the same, but t
 
 The table also gives separate rows for singular and plural “they”, although both rows have the same five forms: “they”, “them”, “themselves”, “theirs”, and “their”. The singular row is personal; the plural row covers reference to persons and non-persons, as we discussed earlier.
 
-[00:43:59] 37. Pronoun table: further types
+[00:43:55] 37. Pronoun table: further types
 
 The remaining rows show some other kinds of pronoun. Generic “one” has the reflexive “oneself” and the dependent genitive “one's”. Interrogative and relative pronouns include the forms “who”, “whom”, and “whose”. We'll return to their uses later in the book.
 
@@ -483,13 +483,13 @@ The reciprocals are “each other” and “one another”, with genitives “ea
 
 Use the written table when you need to check a particular form. For now, notice that pronouns have grammatical properties and contrasts of their own. They are a special kind of noun.
 
-[00:44:51] 38. Dummy pronouns
+[00:44:48] 38. Dummy pronouns
 
 A dummy pronoun is one which does not refer. In “There are two dummy pronouns”, the dummy is “there”. In “It's windy today”, the dummy is “it”. There is no semantic reason for “there” and “it” to appear in those sentences. Their role is purely grammatical, because English demands a subject in this context.
 
 Interrogative and relative pronouns are discussed further in later sections of the book.
 
-[00:45:21] 39. Possessive agreement and tag questions
+[00:45:18] 39. Possessive agreement and tag questions
 
 When it comes to the possessive pronouns, gender agreement can be an issue. In some languages, they agree in gender with the head noun, while in English, “his”, “her”, “hers”, and “its” agree with the possessor. So, for the grandmother of a man, English would use the masculine “his” because he is a man, while French would use the feminine “sa” because the grandmother is a woman.
 
@@ -507,7 +507,7 @@ This can be a challenging concept to adjust to if the language you grew up speak
 
 One interesting property of pronouns is that only a pronoun, but not all pronouns, can appear in a tag question. For example: “that's very interesting, isn't it?” The pronoun in the tag is “it”. Or: “there's more, isn't there?” The pronoun in the tag is “there”.
 
-[00:47:11] 40. Determiner and determinative
+[00:47:08] 40. Determiner and determinative
 
 There is a good deal of confusion about the terms “determiner” and “determinative”. The former is a function and the latter a category. Unfortunately, some books use them the other way around. Those using them flipped around include “A comprehensive grammar of English”, English and Simple English Wiktionary, and Wikipedia. I will use determiner as a function (like modifier) and determinative as a category (like adjective). In general, a reliable dictionary for checking whether a word is a determinative is the Simple English Wiktionary, although, confusingly, it calls them “determiners”. It will help if you can keep the following terminological reminder in mind.
 
@@ -519,7 +519,7 @@ For the most part, DPs tend to be single-word phrases. Occasionally, though, a D
 
 A note about terminology. The abbreviation DP here refers simply to phrases headed by determinatives, such as “some”, “many more”, and “less than five”. This differs from how some linguists use DP to refer to what we call NPs. In the next examples, I'll identify the DP and its modifier.
 
-[00:48:43] 41. Determinative phrases and their functions
+[00:48:40] 41. Determinative phrases and their functions
 
 “Many more people”. The DP is “many more”, and its modifier is “many”. “That many days”. The DP is “that many”, and its modifier is “that”. “All these sandwiches”. The DP is “all these”, and its modifier is “all”. “Almost every time”. The DP is “almost every”, and its modifier is “almost”. “At least two times”. The DP is “at least two”, and its modifier is “at least”.
 
@@ -529,7 +529,7 @@ A singular countable noun typically requires a determiner to be a full NP, and w
 
 Determinatives also commonly function as modifiers. In “I feel much better”, “much” modifies “better”. In “good enough”, the modifier is “enough”. In “this good”, the modifier is “this”.
 
-[00:50:08] 42. Distinguishing determinatives from adjectives
+[00:50:05] 42. Distinguishing determinatives from adjectives
 
 In traditional English grammar, there is no concept of determiner or determinative. There was a special category for “the” and “a” called articles, but all the other determinatives were just called “adjectives” when they preceded a noun. For instance, the word “some” in “some people” is categorized as an adjective in the Merriam-Webster dictionary, even though it has none of the other characteristics of adjectives. There are two reasonably good ways to distinguish whether a word is a determinative or an adjective.
 
@@ -539,7 +539,7 @@ Most determinatives can function in the frame “blank, of the, noun” as in �
 
 And, of course, you can simply consult the list of determinatives in the Simple English Wiktionary or the appendix because there aren't very many. The next two sections read a sample from the table.
 
-[00:51:19] 43. A sample of determinatives: articles and demonstratives
+[00:51:16] 43. A sample of determinatives: articles and demonstratives
 
 The determinative table also brings several distinctions together. Start with the articles. “A”, with its alternative form “an”, is singular and indefinite. “The” is definite and flexible in number.
 
@@ -547,7 +547,7 @@ Next, compare the four demonstratives. “This” and “that” are singular; �
 
 The complete table is in the written reference. It records the type, number, gender where relevant, and definiteness of each entry. We'll come to the qualification about gender after looking at the other groups.
 
-[00:52:10] 44. A sample of determinatives: remaining rows
+[00:52:07] 44. A sample of determinatives: remaining rows
 
 The other entries include “each” and “every”; “any” and “some”; “either” and “neither”; and “no”, with “none” in parentheses. There are also “few”, “fewer”, “fewest”, and “a little”. Numerals such as “one” and “two” belong here too, as do interrogative and relative uses of “what” and “which”.
 
@@ -555,11 +555,11 @@ Notice some number contrasts. “Each”, “every”, “either”, and “neit
 
 The gender labels have a qualification: they apply only when the determinative is used without a head noun. The book allows “What person is this?” but not “What is this?” as a question about a person. Demonstratives aren't always impersonal. For example: “This is my friend.” And: “Those who try win.”
 
-[00:53:19] 45. Distinguishing determinatives from pronouns
+[00:53:16] 45. Distinguishing determinatives from pronouns
 
 Like pronouns, determinatives can often refer to NPs that appear elsewhere in the discourse. For example: “I bought a bag of chocolate chip cookies, and I ate some on the way home”. Here, “some” refers back to the cookies. For this reason, they are often categorized as pronouns. For example, this use of the word “some” is categorized as a pronoun in the Merriam-Webster dictionary, even though it has none of the other characteristics of pronouns. For one thing, determinatives don't have the various forms that most pronouns have and, like adjectives, pronouns can't appear in the frame “blank, of the, noun”, just discussed. The following two examples are ungrammatical: “she of the students”; “us of the teachers”.
 
-[00:54:14] 46. Definiteness: grammar and meaning
+[00:54:11] 46. Definiteness: grammar and meaning
 
 A given NP is either definite or indefinite. In English, this is usually marked by the choice of determiner (the function). Certain determinatives, such as “the” and “this” along with possessive (genitive) NPs, such as “my” and “Brett's”, mark the NP as definite. Other determinatives such as “a”, “any”, and “some” mark the NP as indefinite, and most NPs without a determiner are also indefinite. The main exceptions here are proper names and most pronouns, which are definite.
 
@@ -567,7 +567,7 @@ But there's a subtlety here. Determiner choice is a grammatical fact about the N
 
 Definiteness is one of those concepts that seems obvious at first blush but which, on second thought, turns out to be less clear. A useful if somewhat simplified way to think about it is found in The Cambridge Grammar of the English Language, or “CGEL”, which says definiteness can be understood as pre-empting a question with “which”?
 
-[00:55:46] 47. Definiteness and the question “which?”
+[00:55:43] 47. Definiteness and the question “which?”
 
 Here's the passage from “CGEL”, page 368. Compare, for example:
 
@@ -585,13 +585,13 @@ If you did respond to my question about the car by asking “Which one?”, it w
 
 Definiteness can be a trouble point for learners of English because definiteness in English is always marked (by a definite determiner or by virtue of being a pronoun or a proper name), but only optionally marked in many languages. Determiner choice is also only partially conditioned by definiteness. Countability, quantity, number, proximity, and possession all factor in.
 
-[00:57:18] 48. The determinative tree: definite forms
+[00:57:15] 48. The determinative tree: definite forms
 
 The book's tree diagram groups determinatives by their semantics. It has three main branches: definite, quantificational, and interrogative. I'll describe the branches in turn.
 
 The definite branch divides into demonstrative, general, and temporal. The singular demonstratives are “this” and “that”; the plural demonstratives are “these” and “those”. The general definite determinative is “the”. The temporal entries are “next” and “last”, each shown with “week” in parentheses.
 
-[00:57:57] 49. The determinative tree: quantity and questions
+[00:57:54] 49. The determinative tree: quantity and questions
 
 The quantificational branch has six divisions: grade, universal, dual, singular, partial, and cardinal. Let's take them one at a time.
 
@@ -605,7 +605,7 @@ The cardinal group distinguishes singular “one” from plural “zero”, “t
 
 Finally, the tree's interrogative branch contains “what” and “which”.
 
-[00:59:11] 50. Determiners in the Alice Munro passage
+[00:59:07] 50. Determiners in the Alice Munro passage
 
 The excerpt is from Alice Munro's “The love of a good woman”. The task is to identify any phrase functioning as determiner in each NP. First, I'll read the passage. In the next section, I'll read the NPs separately. As in the exercise's instructions, we'll ignore the smaller NPs inside them.
 
@@ -615,7 +615,7 @@ Kath and Sonje have their own Thermos of coffee and their extra towels, rigged u
 
 End of the passage. You can pause here or continue to the NPs.
 
-[01:01:16] 51. Munro exercise: the noun phrases
+[01:01:12] 51. Munro exercise: the noun phrases
 
 Here are the NPs from the Munro passage, in order. For each, identify any phrase functioning as determiner. Pause after each one if you need time.
 
@@ -734,7 +734,7 @@ Here are the NPs from the Munro passage, in order. For each, identify any phrase
 
 Pause here to finish the exercise. The book doesn't give a complete answer key, but the later section on NPs as determiners discusses the possessives.
 
-[01:03:30] 52. When one label names two things
+[01:03:27] 52. When one label names two things
 
 When one label names two things.
 
@@ -750,7 +750,7 @@ For definiteness, the syntactic side is determiner choice; the semantic side is 
 
 For tense, the syntactic side is verb inflection; the semantic side is temporal reference; and the mismatch is “I wish I knew”.
 
-[01:05:43] 53. Noun phrases as determiners
+[01:05:40] 53. Noun phrases as determiners
 
 The Munro passage includes possessive NPs functioning as determiners, such as “their” and “her”. This is the other major category that fills the determiner slot.
 
@@ -758,7 +758,7 @@ The dependent genitive pronouns in the pronoun table, “my”, “your”, “h
 
 Longer possessive NPs work the same way. In “my mother's sister”, the NP “my mother's” functions as a determiner in the larger NP. And “my mother's” has its own internal structure: the pronoun “my” functions as a determiner inside it. So we have an NP nested inside an NP, each with its own determiner. The next section goes through the three examples.
 
-[01:06:48] 54. Nested possessive noun phrases
+[01:06:44] 54. Nested possessive noun phrases
 
 In “my mother's sister”, “my” is the determiner in “my mother's”; “my mother's” is the determiner in “my mother's sister”.
 
@@ -770,6 +770,6 @@ This nesting can go further. In “my uncle's dog's vet”, the possessive NP �
 
 Notice how this connects to the many-to-many theme from the start of the chapter. The determiner function can be filled by a DP (“the”, “some”, “every”) or by a possessive NP (“my”, “Brett's”, “the dog's”). Two different categories, one function.
 
-[01:08:04] 55. Summary
+[01:08:01] 55. Summary
 
 Summary. Most of this analytical detail stays behind the scenes in a language classroom. But it informs every professional judgment you make: whether a textbook's explanation will cause confusion down the road, what examples you choose, and what you say when a student asks you what an adjective is. You don't need to cover all the exceptions and edge cases from the beginning, but you shouldn't be setting traps for yourself to fall into later.

@@ -127,13 +127,7 @@ footer.ll-attrib {
     <button class="tab" id="tab-quiz" role="tab" aria-selected="false" data-panel="panel-quiz">Quiz</button>
   </nav>
 
-  <section id="panel-browse" role="tabpanel">
-    <input class="filter" id="filter" type="search" placeholder="Filter terms and definitions" aria-label="Filter terms and definitions">
-    <dl class="gloss" id="gloss-list"></dl>
-    <p class="noresults hidden" id="noresults">No matches.</p>
-  </section>
-
-  <section id="panel-cards" role="tabpanel" class="hidden">
+  <div id="study-controls" class="hidden">
     <div class="deck-options">
       <label for="card-chapter">Chapter
         <select id="card-chapter"></select>
@@ -146,6 +140,15 @@ footer.ll-attrib {
       </label>
     </div>
     <p class="deck-summary" id="deck-summary" aria-live="polite"></p>
+  </div>
+
+  <section id="panel-browse" role="tabpanel">
+    <input class="filter" id="filter" type="search" placeholder="Filter terms and definitions" aria-label="Filter terms and definitions">
+    <dl class="gloss" id="gloss-list"></dl>
+    <p class="noresults hidden" id="noresults">No matches.</p>
+  </section>
+
+  <section id="panel-cards" role="tabpanel" class="hidden">
     <div class="card" id="flashcard" role="button" tabindex="0" aria-label="Flashcard; click or press space to flip"></div>
     <div class="controls" id="card-controls">
       <button class="btn" id="card-prev">Previous</button>
@@ -162,6 +165,7 @@ footer.ll-attrib {
   </section>
 
   <section id="panel-quiz" role="tabpanel" class="hidden">
+    <p id="quiz-empty" class="meta hidden" role="status">This selection has fewer than two terms. Choose “Up to this chapter” for a quiz, or use Flashcards to review the available terms.</p>
     <div id="quiz-question">
       <p class="scoreline" id="quiz-progress"></p>
       <div class="qcard" id="quiz-def"></div>
@@ -412,6 +416,7 @@ footer.ll-attrib {
         document.getElementById(id).classList.toggle("hidden", id !== tab.dataset.panel);
       });
       activePanel = tab.dataset.panel;
+      document.getElementById("study-controls").classList.toggle("hidden", activePanel === "panel-browse");
     });
   });
 
@@ -463,7 +468,7 @@ footer.ll-attrib {
   chapterSelect.appendChild(allChapters);
   chapterSelect.value = "1";
 
-  function selectedCards() {
+  function selectedTerms() {
     var chapter = Number(chapterSelect.value);
     var cumulative = scopeSelect.value === "cumulative";
     return DATA.map(function (_, i) { return i; }).filter(function (i) {
@@ -474,14 +479,14 @@ footer.ll-attrib {
   }
 
   function resetDeck() {
-    deck = shuffle(selectedCards());
+    deck = shuffle(selectedTerms());
     deckTotal = deck.length;
     var all = chapterSelect.value === "all";
     scopeSelect.disabled = all;
     var scope = all ? "All chapters" :
       (scopeSelect.value === "cumulative" && chapterSelect.value !== "1" ?
         "Chapters 1–" + chapterSelect.value : "Chapter " + chapterSelect.value);
-    deckSummary.textContent = scope + " · " + deckTotal + " card" + (deckTotal === 1 ? "" : "s");
+    deckSummary.textContent = scope + " · " + deckTotal + " term" + (deckTotal === 1 ? "" : "s");
     pos = 0;
     flipped = false;
     againSet = {};
@@ -539,8 +544,9 @@ footer.ll-attrib {
     renderCard();
   });
   document.getElementById("card-restart").addEventListener("click", resetDeck);
-  chapterSelect.addEventListener("change", resetDeck);
-  scopeSelect.addEventListener("change", resetDeck);
+  function changeSelection() { resetDeck(); newRound(); }
+  chapterSelect.addEventListener("change", changeSelection);
+  scopeSelect.addEventListener("change", changeSelection);
 
   document.addEventListener("keydown", function (e) {
     if (activePanel !== "panel-cards") return;
@@ -554,7 +560,8 @@ footer.ll-attrib {
 
   /* Quiz */
   var ROUND = 10;
-  var qOrder = [], qi = 0, score = 0, missed = [];
+  var qPool = [], qOrder = [], qi = 0, score = 0, missed = [];
+  var quizEmpty = document.getElementById("quiz-empty");
   var quizQuestion = document.getElementById("quiz-question");
   var quizSummary = document.getElementById("quiz-summary");
   var quizDef = document.getElementById("quiz-def");
@@ -564,13 +571,15 @@ footer.ll-attrib {
   var quizScore = document.getElementById("quiz-score");
 
   function newRound() {
-    qOrder = shuffle(DATA.map(function (_, i) { return i; })).slice(0, Math.min(ROUND, DATA.length));
+    qPool = selectedTerms();
+    qOrder = shuffle(qPool.slice()).slice(0, ROUND);
     qi = 0;
     score = 0;
     missed = [];
     quizSummary.classList.add("hidden");
-    quizQuestion.classList.remove("hidden");
-    renderQuestion();
+    quizEmpty.classList.toggle("hidden", qPool.length >= 2);
+    quizQuestion.classList.toggle("hidden", qPool.length < 2);
+    if (qPool.length >= 2) renderQuestion();
   }
 
   function renderQuestion() {
@@ -581,7 +590,7 @@ footer.ll-attrib {
     quizNext.classList.add("hidden");
     quizScore.textContent = qi === 0 ? "" : "Score: " + score + "/" + qi;
 
-    var others = DATA.map(function (_, i) { return i; }).filter(function (i) { return i !== target; });
+    var others = qPool.filter(function (i) { return i !== target; });
     var options = shuffle(others).slice(0, 3).concat([target]);
     shuffle(options);
 

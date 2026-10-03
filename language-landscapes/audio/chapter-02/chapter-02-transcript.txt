@@ -1,8 +1,6 @@
 Language Landscapes — Chapter 2: Standards, Standard Englishes, and what to teach
 Adapted narrated companion. AI narration using the author’s approved voice.
 
-UNFINISHED RECORDING. This recording is unfinished. The first worked example (section 2.3 of the chapter) is not recorded, and neither is the closing material on normativity, audience, the conclusion, or the exercises. All of it is present in the written transcript below.
-
 [00:00:00] 01. Chapter title and learning objectives
 
 Chapter two. Standards, Standard Englishes, and what to teach.
@@ -179,11 +177,7 @@ Two. Specifically of sentences and the like, which conform to the rules of a giv
 
 Are we reduced to Wittgenstein's notion that language is mere use? That whatever we say is grammatical? That our speech defines our grammar? Well, yes, but that's of no help to you or your students, so I would like to consider some examples.
 
-[00:20:16] 22. A note on what is missing
-
-A note on this recording. The chapter's first worked example, and the discussion of why it is ungrammatical, have not been recorded yet. You will find them in the written transcript. The recording picks up just after them.
-
---- not recorded: the first worked example ---
+[00:20:16] 22. An easy one
 
 Let's start with an easy one. Example one is presented without any judgment mark.
 
@@ -195,7 +189,7 @@ Well, we could start with the word “key” and say that, as a singular countab
 
 You could look at “key” and ask yourself whether it's a noun or a verb. If it's a noun, then there is no verb, and if this is supposed to be a clause, it needs a verb phrase as its head. So let's assume “key” is a verb. That makes “me” the subject, but we would expect “I” here, not “me.” And if “key” is a verb, then you expect to key something. Unfortunately, “there” and “happy” aren't things that can be keyed. You could say, “please key mine,” but “mine” seems too detached from “key” for that to work. And “the” is just left at the end there, in a position where it never occurs.
 
-[00:20:32] 23. Colorless green ideas
+[00:21:58] 23. Colorless green ideas
 
 I could go on, but perhaps it's simpler than that. Maybe example one is ungrammatical because it doesn't make sense. Could it be that grammatical language always makes sense? Could it be that something that makes sense is grammatical? These are not the same claims.
 
@@ -209,13 +203,13 @@ Two b, starred as ungrammatical. “Furiously ideas sleep green colorless.”
 
 Chomsky claims that two a is grammatical and that two b is ungrammatical, which matches my intuition, and yours too, I expect. It seems you don't have to make sense to be grammatical.
 
-[00:21:52] 24. Frequency and statistics
+[00:23:17] 24. Frequency and statistics
 
 But Chomsky also claims that neither the sentences nor their subparts would occur in a corpus of English, and that they would be, in his words, equally remote from English in any statistical model of English. He wants to say that frequency has nothing to do with it.
 
 Here, I think he errs. Fernando Pereira has shown that two a is actually much more statistically likely than two b. And the success of large language models shows that language truly is built on statistical regularities.
 
-[00:22:28] 25. Jean Paul, very very good
+[00:23:54] 25. Jean Paul, very very good
 
 Next, we'll consider the converse, that all meaningful language is grammatical. Before we do, try to think of something that is ungrammatical but has a clear meaning.
 
@@ -229,7 +223,7 @@ This example was heard by my friend, Geoff Pullum, in an interview on National P
 
 It seems, then, that something can be grammatical but not meaningful, and meaningful but not grammatical. So meaning is neither a necessary nor a sufficient condition for grammaticality.
 
-[00:23:41] 26. The rules in grammar books
+[00:25:06] 26. The rules in grammar books
 
 So here's another thought: perhaps we just go by the rules in grammar books.
 
@@ -243,7 +237,7 @@ As you can tell by the star, I think four a is grammatical, but not four b. I as
 
 I also assume that the grammaticality of four a and four b didn't change between the time Watt wrote his article and the publication of the Cambridge Grammar. Given that, I guess we can set aside the idea that rules in grammar books dictate what is grammatical. Many rules are not mentioned in grammar books. In fact, many languages exist without any linguist having written a grammar for them at all. We wouldn't want to say that anything goes in those languages, just because no books have been written about them.
 
-[00:25:08] 27. An island constraint
+[00:26:33] 27. An island constraint
 
 Now consider example five, which is starred as ungrammatical.
 
@@ -251,7 +245,7 @@ Example five, starred. “What movies do you have friends who acted in?”
 
 You'll probably agree that this is a very strange sentence, almost like an optical illusion, feeling grammatical and ungrammatical at the same time. The reason is thought to be the result of something called island constraints, a kind of rule or limitation that many linguists think might apply to all languages, though there is some debate about this. This could be the result of some processing constraint in our brains, or it could be something about how information can be structured. Fortunately, if this is true, then you'll never have to explain it to your students, because nobody would naturally try to use a sentence like this.
 
-[00:26:02] 28. The unpacked suitcase
+[00:27:28] 28. The unpacked suitcase
 
 So it seems that our processing ability may help us decide what is grammatical and what is not.
 
@@ -265,7 +259,7 @@ Many people say the sentence describes the first suitcase, the one on the left w
 
 Why would anybody get this wrong? The people who have thought about this question often feel that there's something tricky in the negation, the “un” at the beginning of “unpacked.” After all, if you replaced it with “packed,” the meaning would be perfectly clear. So is there some kind of glitch in the way we process language that messes with our comprehension sometimes? Maybe we can't rely on instinct to judge what is grammatical at all.
 
-[00:27:24] 29. The horse raced past the barn
+[00:28:50] 29. The horse raced past the barn
 
 In fact, this is exactly what Bever's famous sentence suggests. Here is example seven. Listen for the judgment mark, because there isn't one, and that matters.
 
@@ -275,7 +269,7 @@ I expect that example seven seems ungrammatical to you, but you may have noticed
 
 The problem you had with example seven was that you interpreted “raced” as the past-tense form, like “rode,” rather than the past-participle form, like “ridden.” Again, maybe our instinct isn't a hundred per cent reliable. Sometimes we need to think things through carefully, step by step.
 
-[00:28:25] 30. Thirty years, and the weekend
+[00:29:51] 30. Thirty years, and the weekend
 
 Example eight is marked with a raised question mark, which flags it as questionable rather than clearly ungrammatical.
 
@@ -291,7 +285,7 @@ North American speakers of English generally judge this to be ungrammatical, but
 
 The reason for this difference is not a grammatical one. Rather, we are operating under different cultural assumptions about the relevant metaphor for weekends. It has been claimed that North Americans see a weekend as a platform or stage on which events play out, while the British see it as a point at the end of the week. There's more about metaphors and prepositions later in the book.
 
-[00:29:59] 31. Dialect and register
+[00:31:25] 31. Dialect and register
 
 Example ten is marked with a raised percent sign, which flags a form that may not be grammatical in Standard English but is grammatical in other varieties.
 
@@ -305,7 +299,7 @@ Example eleven. “Me and Mia are taking the bus.”
 
 In contrast, example eleven is fully grammatical in all dialects, but it belongs to an informal register. The more formal version would use “Mia and I.” This is a shibboleth for some people.
 
-[00:30:52] 32. Jim and me's teacher
+[00:32:18] 32. Jim and me's teacher
 
 Finally, try to fix example twelve, which I find ungrammatical. It is starred.
 
@@ -315,7 +309,7 @@ Pause here.
 
 There's no good solution. If we change it to “Jim and my,” then it's like “my teacher and Jim,” which is not what I mean, and a similar problem applies to “me and Jim's.” But “Jim and my's,” which is also ungrammatical, sounds just as bad as “Jim and me's.” Could it be that we need to be ungrammatical sometimes in order to express certain simple concepts? I think that might be the case.
 
-[00:31:36] 33. Summary of the grammaticality section
+[00:33:01] 33. Summary of the grammaticality section
 
 Summary.
 
@@ -323,7 +317,7 @@ Generally, things that are grammatical are meaningful and vice versa, but being 
 
 So what makes grammatical grammatical?
 
-[00:32:19] 34. Form and meaning pairings
+[00:33:44] 34. Form and meaning pairings
 
 A model of grammaticality.
 
@@ -333,7 +327,7 @@ At its core, grammaticality is about form-and-meaning pairings that work for a p
 
 To see what I mean, consider that a teen saying “mommy sock” to mean “that's your sock, mom” feels very ungrammatical, and very odd. The same utterance by an infant doesn't evoke either of those feelings, though, because it's a good form-and-meaning pairing that works for a particular group of speakers in a particular situation.
 
-[00:33:08] 35. Code-switching
+[00:34:34] 35. Code-switching
 
 Or consider the following conversation, recorded by Nishimura. Some of the speaker's words are Japanese, and I'll give the translation after each one.
 
@@ -341,7 +335,7 @@ B.C. ni iku toki, meaning “when I went to B.C.”, hikooki de yomoo to omotte 
 
 This kind of code-switching is perfectly grammatical for any English-Japanese bilingual, but much of it seems ungrammatical for other English speakers.
 
-[00:34:06] 36. Groups of speakers
+[00:35:32] 36. Groups of speakers
 
 The chapter has a diagram of speaker groups at this point, and it's worth describing, because the model depends on it.
 
@@ -351,7 +345,7 @@ Now picture smaller circles scattered across those two ovals. Three of them sit 
 
 The figure is not to scale, and the point isn't the sizes. The point is that grammaticality is settled inside these groups, and the groups overlap, nest, and sit outside one another.
 
-[00:35:05] 37. Layers of meaning
+[00:36:31] 37. Layers of meaning
 
 When it comes to the meaning, there can often be layers and layers, any of which need to match the construction used to convey them.
 
@@ -361,7 +355,7 @@ Sometimes old constructions pair with new meanings. That's how we ended up with 
 
 Other times grammatical constructions become less grammatical or fall out of use. Take the way we make questions and negatives in English. Shakespeare would have asked “know you not?” instead of “don't you know?”, and obviously, that's not how you and I say it.
 
-[00:36:33] 38. Four situations
+[00:37:58] 38. Four situations
 
 So when do we say something's ungrammatical? A few situations come to mind.
 
@@ -373,19 +367,19 @@ Third, when you've got contradictory form-and-meaning pairs in the same utteranc
 
 And finally, when there's a strongly preferred alternative form, and there's no good reason not to use it.
 
-[00:37:28] 39. It very good
+[00:38:53] 39. It very good
 
 Take a common phrase like “It's very good.” Most English speakers would call this grammatical. Say “It very good” instead, and you'll still get your meaning across. After all, ungrammatical doesn't mean meaningless. But listeners might pause, wondering why you skipped the verb. Maybe you're quoting something? Referencing a meme? Without a clear reason for the unusual form, they're likely to judge it ungrammatical.
 
 These judgments aren't always reliable guides. Our brains sometimes flag perfectly grammatical sentences as wrong just because they're tricky to process. Other times, we breeze right past actually ungrammatical phrases without noticing, especially in casual conversation when we're focused on meaning rather than form.
 
-[00:38:23] 40. What the model says
+[00:39:48] 40. What the model says
 
 This model frames grammaticality not as following rules from grammar books, but as being about using form-and-meaning pairs that work for your linguistic community in a given context. Grammar isn't hardwired into our brains, despite what many linguists since the 1950s have claimed. We don't, for example, have the innate principles and parameters that Chomsky claimed.
 
 Language is fluid, shaped by its speakers. What counts as grammatical shifts across time, space, and social groups.
 
-[00:38:59] 41. What learners are aiming at
+[00:40:25] 41. What learners are aiming at
 
 Most learners aim their speech at the Standard English-speaking world. Not everyone needs or wants to match these standards exactly. Many just want to communicate effectively, maybe to do business in a country like Vietnam. When students pursue Standard English, we guide them toward that goal.
 
@@ -393,15 +387,13 @@ Fortunately, unlike rigid technical standards, language standards bend without b
 
 Grammar alone doesn't determine how language works. Social expectations and values cast long shadows, quietly shaping what people consider correct. And this brings us to normativity: how social rules ripple through language, shaping both our words and our place in the world.
 
---- not recorded: normativity, audience, conclusion, and exercises ---
-
-N01. What a normative statement is
+[00:41:18] 42. What a normative statement is
 
 Normativity.
 
 A normative statement is one that deals not with how things are, but with how they ought to be, or how it is appropriate for them to be given some set of values.
 
-N02. Normative and positive domains
+[00:41:30] 43. Normative and positive domains
 
 The chapter sets out a table with two columns, normative on the left and positive on the right, and four pairs of entries. Each pair contrasts a domain concerned with how things ought to be against one concerned with how things are.
 
@@ -413,7 +405,7 @@ Third pair, and this one splits a single field. Normative: economics, in the sen
 
 Fourth pair, and this is the one that matters for us. Normative: language teaching. Positive: linguistics.
 
-N03. Pullum's examples
+[00:42:24] 44. Pullum's examples
 
 Geoff Pullum gives examples like the following to illustrate normative observations.
 
@@ -427,7 +419,7 @@ Geoff Pullum gives examples like the following to illustrate normative observati
 
 And from the fact that torturing a child is immoral, it follows that we ought not to torture a child.
 
-N04. Are the rules of grammar normative?
+[00:43:01] 45. Are the rules of grammar normative?
 
 Are the rules of English grammar normative? And if so, what can be learned from them about how folks ought to speak English? In paraphrase, Pullum observes two things.
 
@@ -441,7 +433,7 @@ Perhaps we ought to aim to be comprehensible, or to be able to comprehend. Gramm
 
 And similarly, perhaps we ought to be timely and fluent, but concern about being grammatical may reduce timeliness and fluency.
 
-N05. Audience
+[00:44:12] 46. Audience
 
 Audience.
 
@@ -453,7 +445,7 @@ This may not always be the case, though. Some people learning English may wish t
 
 But to the extent that our students wish to become speakers of Standard English, it seems clear to me that we, as language teachers, should facilitate that. And yet, even for those students, time should most likely not be spent grasping for finer and finer levels of Standard English fidelity, instead of learning more vocabulary or increasing their processing fluency.
 
-N06. Facilitation goes two ways
+[00:45:50] 47. Facilitation goes two ways
 
 As noted above, unlike technology standards, which often require high fidelity, language standards are quite forgiving within a language, as long as we are. And so English-language learners can often communicate highly successfully while diverging significantly from the standards of their audience.
 
@@ -463,13 +455,13 @@ The difficulty will be in how differently they speak, how much they wish to belo
 
 Finally, facilitation can go two ways. The standard way is to put the burden on students to conform. That's how most English teachers see our jobs, and it's probably our most central role. But there is another way, and that is to help Standard-English speakers to accommodate, include, accept, and welcome users of other varieties of English. Needless to say, language teachers typically do much less of this, many of us none at all. But, as English-language teachers, we should at least be aware of the possibility.
 
-C01. Conclusion
+[00:47:19] 48. Conclusion
 
 Conclusion.
 
 Standard English has social and economic power, and your students need access to it. But “is this correct?” is rarely a yes-or-no question. The answer depends on the community, the register, and the purpose, and sometimes the most useful thing you can say is why a form is standard, not just that it is. That's a harder conversation than red-penning errors, but it's the conversation this chapter equips you to have.
 
-Q01. Ten exercises
+[00:47:50] 49. Ten exercises
 
 Exercises. There are ten. Pause after each one if you want to work it through.
 
@@ -493,7 +485,7 @@ Nine. What is meant by the term “normative” in the context of language?
 
 And ten. What is the role of a TESL teacher in navigating the complexities of Standard English and grammaticality for their students?
 
-Q02. Answer key
+[00:49:25] 50. Answer key
 
 Answer key. Ten answers, in order.
 
@@ -517,7 +509,7 @@ Nine. Normative statements are those about how language ought to be used based o
 
 And ten. TESL teachers need to guide students towards achieving communicative competence in Standard English, while acknowledging the diversity of English dialects and fostering an understanding of language as a dynamic social phenomenon.
 
-Q03. Discussion questions
+[00:52:07] 51. Discussion questions
 
 Discussion questions. There are five, and the chapter doesn't supply answers for these.
 

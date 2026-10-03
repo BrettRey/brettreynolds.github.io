@@ -1,4 +1,5 @@
 Language Landscapes — Chapter 1
+AI narration using the author’s approved voice, with a native French AI voice for French examples.
 Some key concepts, terms, and ways of thinking about English grammar
 
 Adapted narrated companion. Voice: Brett Reynolds, synthesized with his approved ElevenLabs voice.

@@ -1,5 +1,5 @@
 Language Landscapes — Chapter 4: Adverbs and prepositions
-Adapted narrated companion. AI narration using the author’s approved voice.
+Adapted narrated companion. AI narration using the author’s approved voice, with a native Italian AI voice for Italian examples.
 
 The complete examples, practice activities, and final exercises are narrated; answers are in separate sections. The written reference retains the epigraph, inventories, historical spellings, Italian examples, and sources.
 
@@ -559,7 +559,7 @@ Or “That depends on your ability.” Omit “on” and you get “That depends
 
 Although the conditional “if” in the first example is a preposition, there's also a subordinator “if”, used in certain interrogative clauses, such as “I wonder if she lives here”. We'll return to that in Chapter 18, on subordination and coordination.
 
-[00:47:22] 41. Phrasal verbs
+[00:47:23] 41. Phrasal verbs
 
 One area that illustrates the difficulties of preposition choice and meaning is so-called phrasal verbs.
 
@@ -615,7 +615,7 @@ The following are grammatical: “Pick it up.” “Put it down.” “Get it ou
 
 But the following are ungrammatical: “Pick up it.” “Put down it.” “Get out it.” “Push in it.”
 
-[00:51:47] 45. A particle or a preposition with an object?
+[00:51:48] 45. A particle or a preposition with an object?
 
 Now compare “Take off your jacket” with “Fall off your chair”. They're superficially similar, but the structures differ.
 
@@ -625,7 +625,7 @@ In “Fall off your chair”, “off” heads the whole PP “off your chair”,
 
 Notice that you can only fall off your chair because you're on it. But you're not on your jacket, so “off your jacket” isn't a phrase in “Take off your jacket”.
 
-[00:52:37] 46. Practice with the particle test
+[00:52:38] 46. Practice with the particle test
 
 Practise using the particle test.
 
@@ -637,7 +637,7 @@ Can you reverse the order in each case? What does this tell you about the struct
 
 Pause the recording while you analyse the examples.
 
-[00:52:58] 47. Fronting and stranding
+[00:52:59] 47. Fronting and stranding
 
 Fronting and stranding.
 
@@ -655,7 +655,7 @@ Third: “About what do you disagree?” This is an awkwardly formal way of aski
 
 The structure of these phrases can be difficult to grasp when just written out in text. That's why it's often useful to show them in a graphic format that linguists call syntax trees, or just trees. Such trees are the focus of Chapter 6.
 
-[00:54:48] 48. Summary
+[00:54:49] 48. Summary
 
 The challenges described in this chapter, including arbitrary collocations, metaphorical extensions, and culturally determined usage, are genuine. No analytical framework makes “depend on” predictable or explains why we say “at night” but “in the morning”. When students ask why, the honest answer is usually convention.
 
@@ -681,7 +681,7 @@ Five. “Is he in yet, or still out?”
 
 Pause the recording to finish Part A.
 
-[00:56:39] 50. Exercise B: diagnostics
+[00:56:40] 50. Exercise B: diagnostics
 
 Part B: diagnostics. For each word, apply the named test and decide whether it's an adverb or a preposition.
 
@@ -695,7 +695,7 @@ Four. Consider “likely” in the certainty use listed earlier in this chapter.
 
 Pause the recording to work through Part B.
 
-[00:57:12] 51. Exercise C: production
+[00:57:13] 51. Exercise C: production
 
 Part C: production.
 
@@ -709,7 +709,7 @@ Four. Explain the source of the error in the following ungrammatical example: �
 
 Pause the recording before continuing to the answers.
 
-[00:57:42] 52. Answer key: Part A
+[00:57:43] 52. Answer key: Part A
 
 Answer key. Part A.
 
@@ -723,7 +723,7 @@ Four. “I left the key on the desk just inside the door.” “On” is a prepo
 
 Five. “Is he in yet, or still out?” “In” and “out” are prepositions; “yet” and “still” are adverbs.
 
-[00:58:27] 53. Answer key: Part B
+[00:58:28] 53. Answer key: Part B
 
 Part B.
 

@@ -1,5 +1,5 @@
 Language Landscapes — Chapter 3: Categories and functions: An overview
-Adapted narrated companion. AI narration using the author’s approved voice, with a native French AI voice for French examples.
+Adapted narrated companion. AI narration using the author’s approved voice.
 
 The pronoun and determinative tables are explained in audio and reproduced in full in the written reference.
 
@@ -585,7 +585,7 @@ If you did respond to my question about the car by asking “Which one?”, it w
 
 Definiteness can be a trouble point for learners of English because definiteness in English is always marked (by a definite determiner or by virtue of being a pronoun or a proper name), but only optionally marked in many languages. Determiner choice is also only partially conditioned by definiteness. Countability, quantity, number, proximity, and possession all factor in.
 
-[00:57:15] 48. The determinative tree: definite forms
+[00:57:14] 48. The determinative tree: definite forms
 
 The book's tree diagram groups determinatives by their semantics. It has three main branches: definite, quantificational, and interrogative. I'll describe the branches in turn.
 
@@ -605,7 +605,7 @@ The cardinal group distinguishes singular “one” from plural “zero”, “t
 
 Finally, the tree's interrogative branch contains “what” and “which”.
 
-[00:59:07] 50. Determiners in the Alice Munro passage
+[00:59:06] 50. Determiners in the Alice Munro passage
 
 The excerpt is from Alice Munro's “The love of a good woman”. The task is to identify any phrase functioning as determiner in each NP. First, I'll read the passage. In the next section, I'll read the NPs separately. As in the exercise's instructions, we'll ignore the smaller NPs inside them.
 
@@ -770,6 +770,6 @@ This nesting can go further. In “my uncle's dog's vet”, the possessive NP �
 
 Notice how this connects to the many-to-many theme from the start of the chapter. The determiner function can be filled by a DP (“the”, “some”, “every”) or by a possessive NP (“my”, “Brett's”, “the dog's”). Two different categories, one function.
 
-[01:08:01] 55. Summary
+[01:08:00] 55. Summary
 
 Summary. Most of this analytical detail stays behind the scenes in a language classroom. But it informs every professional judgment you make: whether a textbook's explanation will cause confusion down the road, what examples you choose, and what you say when a student asks you what an adjective is. You don't need to cover all the exceptions and edge cases from the beginning, but you shouldn't be setting traps for yourself to fall into later.

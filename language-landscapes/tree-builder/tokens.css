@@ -1,0 +1,48 @@
+/* Language Landscapes supplements: shared design tokens (v1)
+   Book-derived identity; see design-tokens.md. CC BY 4.0. */
+:root {
+  --ll-cream: #faf7f1;
+  --ll-ink: #1a1a1a;
+  --ll-muted: #6b6b6b;
+  --ll-hairline: #e0d9cc;
+  --ll-maroon: #800020;
+  --ll-green: #1b9e77;   /* categories / correct */
+  --ll-orange: #d95f02;  /* functions / contrast */
+  --ll-purple: #7570b3;  /* secondary highlight */
+  --ll-pink: #e7298a;    /* attention / error */
+  --ll-serif: "EB Garamond", Georgia, "Times New Roman", serif;
+}
+body.ll {
+  background: var(--ll-cream);
+  color: var(--ll-ink);
+  font-family: var(--ll-serif);
+  line-height: 1.55;
+  margin: 0;
+}
+.ll h1, .ll h2, .ll h3 {
+  font-weight: 500;
+  font-variant: small-caps;
+  letter-spacing: 0.04em;
+}
+.ll a { color: var(--ll-maroon); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+.ll .card {
+  border: 1px solid var(--ll-hairline);
+  background: #fffdf8;
+  padding: 1rem 1.25rem;
+}
+.ll button, .ll .btn {
+  font-family: var(--ll-serif);
+  background: transparent;
+  border: 1px solid var(--ll-maroon);
+  color: var(--ll-maroon);
+  padding: 0.35rem 1rem;
+  cursor: pointer;
+}
+.ll button:hover, .ll .btn:hover { background: var(--ll-maroon); color: var(--ll-cream); }
+.ll footer.ll-attrib {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--ll-hairline);
+  font-size: 0.85rem;
+  color: var(--ll-muted);
+}

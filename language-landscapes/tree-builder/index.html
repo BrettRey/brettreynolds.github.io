@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Construct and revise syntax trees with separate category and function labels. Four guided examples from Language Landscapes.">
+  <title>Build a syntax tree · Language Landscapes</title>
+  <link rel="stylesheet" href="./tokens.css">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body class="ll">
+  <a class="skip-link" href="#workspace">Skip to the tree</a>
+  <div class="page">
+    <header class="masthead"><a class="book-name" href="https://brettreynolds.ca/language-landscapes/">Language Landscapes</a><span>Chapter 6 · Syntax trees</span></header>
+    <div class="page-heading"><div><p class="eyebrow">A place to work out the structure</p><h1>Build a syntax tree</h1><p class="intro">Give words their categories. Build phrases around them. Show how each branch relates to its parent.</p></div><p id="save-status" class="save-status" role="status">Your drafts stay on this device</p></div>
+    <nav id="examples" class="examples" aria-label="Choose an example"></nav>
+    <main id="workspace" tabindex="-1">
+      <div class="exercise-heading"><div><p id="exercise-focus" class="eyebrow"></p><h2 id="sentence"></h2></div><button id="instructions-open" class="text-button" type="button">How to build</button></div>
+      <div class="workspace-grid">
+        <aside class="tools" aria-label="Tree tools">
+          <details id="toolbox" open><summary>Categories &amp; functions</summary><div class="toolbox-body">
+            <h3>Word categories</h3><p class="small">Drop a label on a word, or select the word and choose a label.</p><div id="lexical-palette" class="palette" aria-label="Lexical categories"></div>
+            <h3>Phrase categories</h3><p class="small">Select neighbouring branches, then choose a phrase. With nothing selected, add an empty phrase.</p><div id="phrase-palette" class="palette" aria-label="Phrase categories"></div>
+            <h3>Functions</h3><p class="small">Choose what a branch does in its parent.</p><div id="function-palette" class="palette functions" aria-label="Functions"></div>
+            <section id="selection" class="selection" aria-live="polite"></section>
+          </div></details>
+        </aside>
+        <section class="work-area" aria-label="Your analysis">
+          <div class="toolbar"><div class="toolbar-group"><button id="undo" type="button">Undo</button><button id="redo" type="button">Redo</button><button id="remove-grouping" data-action="ungroup" type="button" disabled>Remove grouping</button></div><button id="clear-selection" class="quiet-button" type="button">Clear selection</button><label class="group-switch"><input id="multi-select" type="checkbox"> Select a group</label><button id="reset-open" class="quiet-button" type="button">Reset</button></div>
+          <p id="instruction" class="instruction" role="status">Drag a word-category label onto a word to begin. You can also select a word and click a label.</p>
+          <div id="diagrams" class="diagrams">
+            <section class="drawing"><div class="drawing-title"><h3>Your tree</h3><span id="branch-status" class="small"></span></div><div id="tree-scroll" class="tree-scroll" tabindex="0" aria-label="Your tree canvas. Scroll to see the whole tree."><div id="tree" class="tree"></div></div></section>
+            <section id="worked" class="drawing worked" hidden aria-label="The book’s worked tree"><div class="drawing-title"><h3>The book’s analysis</h3><button id="hide-worked" class="quiet-button" type="button">Close</button></div><div id="answer-scroll" class="tree-scroll" tabindex="0" aria-label="Worked tree. Scroll to see the whole tree."><div id="answer" class="answer"></div></div><p id="worked-explanation" class="worked-explanation"></p></section>
+          </div>
+          <div class="resize-row"><div id="canvas-resizer" class="canvas-resizer" role="separator" tabindex="0" aria-label="Resize the tree workspace" aria-orientation="horizontal" aria-valuemin="300" aria-valuemax="1600" aria-valuenow="660" aria-controls="diagrams" aria-describedby="resize-help"><span class="resize-grip" aria-hidden="true"></span><span id="resize-help">Drag to resize · arrow keys also work</span></div><button id="fit-height" class="text-button" type="button">Fit tree height</button></div>
+          <div class="check-actions"><button id="check" class="primary" type="button">Check connections</button><button id="hint" type="button">Give me a hint</button><button id="show-worked" class="quiet-button" type="button">Show the worked tree</button></div>
+          <section id="feedback" class="feedback" aria-live="polite" hidden></section>
+          <section id="hint-panel" class="hint-panel" aria-live="polite" hidden></section>
+          <div class="exports"><p class="small">Keep your analysis</p><button id="export-svg" class="text-button" type="button">Download SVG</button><button id="copy-brackets" class="text-button" type="button">Copy bracketed tree</button><span id="export-status" class="small" role="status"></span></div>
+        </section>
+      </div>
+      <details class="source-notes"><summary>Source &amp; notation</summary><p id="source-note"></p><p>Function labels appear above category labels. Use N for nouns, including pronouns, and V for verbs, including auxiliaries. A phrase can contain one word. The top node has no function label because it has no parent.</p><p>Checking covers these four worked examples. A difference from the book’s tree is an invitation to inspect the analysis; it is not a general judgment about every possible tree.</p></details>
+    </main>
+    <footer class="ll-attrib"><a href="https://brettreynolds.ca/language-landscapes/">Language Landscapes</a> · Brett Reynolds · Chapter 6</footer>
+  </div>
+  <dialog id="instructions-dialog" aria-labelledby="instructions-title"><h2 id="instructions-title">Build the relationships</h2><ol><li><strong>Label words.</strong> Drag a word category onto its word. Or select the word, then click a category.</li><li><strong>Build a phrase.</strong> Turn on “Select a group” and select neighbouring branches. Choose a phrase category to group them. For a one-branch phrase, select just that branch.</li><li><strong>Work from the top.</strong> Clear the selection and choose a phrase category to add an empty node. Drag branches onto that node to attach them.</li><li><strong>Set functions.</strong> Select an attached branch and choose Head, Subj, Obj, Comp, Mod, or Det.</li><li><strong>Revise.</strong> Drag a whole branch to a phrase node. Without dragging, select it, choose “Move branch” in the tools, then select its new parent. The branch needs a function in that new relation.</li></ol><p class="small">Shift-click also adds to a selection. Use Tab and Enter/Space for the same controls without a pointer. Escape cancels a move or selection. Undo and redo are available with the buttons or ⌘/Ctrl Z and Shift Z. The canvas scrolls when the tree is wider than the screen.</p><form method="dialog"><button class="primary">Start building</button></form></dialog>
+  <dialog id="reset-dialog" aria-labelledby="reset-title"><h2 id="reset-title">Start this tree again?</h2><p>This clears the current example. Your other examples stay saved.</p><div class="dialog-actions"><button id="reset-cancel" type="button">Keep working</button><button id="reset-confirm" class="primary" type="button">Reset this tree</button></div></dialog>
+  <dialog id="category-dialog" aria-labelledby="category-title"><h2 id="category-title">Change the selected category</h2><div id="category-choices" class="palette"></div><form method="dialog"><button type="submit">Cancel</button></form></dialog>
+  <dialog id="copy-dialog" aria-labelledby="copy-title"><h2 id="copy-title">Copy your bracketed tree</h2><p>Select and copy the text below.</p><textarea id="copy-text" rows="8" readonly aria-label="Bracketed tree"></textarea><form method="dialog"><button type="submit">Done</button></form></dialog>
+  <div id="drag-ghost" class="drag-ghost" hidden aria-hidden="true"></div>
+</body>
+</html>

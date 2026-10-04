@@ -1,0 +1,912 @@
+Language Landscapes — Chapter 5: Verbs, tense, and aspect
+Adapted narrated companion. AI narration using the author’s approved voice.
+
+The teaching examples and exercises are narrated, with instructions to pause. The written reference provides verb-form tables, tense/aspect comparisons, Yimas spellings, diagram guides, and sources.
+
+[00:00:00] 01. Title and learning objectives
+
+Chapter 5. Verbs, tense, and aspect.
+
+By the end of this chapter, you should be able to distinguish between lexical and auxiliary verbs and their roles in English. Identify and apply the NICER properties to test for auxiliary verbs. And recognize the various forms of verbs: plain forms, tensed forms, and participles.
+
+You should also be able to distinguish grammatical tense from semantic time. Analyse the English aspect system: simple, progressive, perfect, and perfect-progressive. Explain how modal auxiliaries express meanings such as possibility, necessity, and obligation. And recognize different verb complementation patterns.
+
+For teaching, you should be able to appreciate the challenges that auxiliary verbs pose for English language learners and apply diagnostic tests to distinguish auxiliary verbs from lexical verbs.
+
+[00:00:57] 02. Introduction
+
+If you've ever tried to explain why we say “I'm going to the store” instead of “I go to the store”, or why “I've lived here for five years” means something different from “I lived here for five years”, you've grappled with the complexities of verbs, tense, and aspect.
+
+We'll explore the syntax and semantics of English verbs, along with the systems of tense and aspect associated with them. We'll start with the two basic verb types: lexical and auxiliary verbs. We'll set out the special characteristics of the auxiliary verbs, the NICER properties, and then consider their morphology: the different forms verbs take.
+
+We'll distinguish grammatical tense from semantic time, and discuss aspect and modality. Finally, we'll examine verb phrase complementation: the ways verbs combine with other elements to form complete VPs.
+
+[00:01:49] 03. Lexical and auxiliary verbs
+
+English has two main types of verbs: lexical and auxiliary. The chapter’s classification diagram branches from verbs to these two types. The auxiliary branch then divides into modal and non-modal auxiliaries.
+
+The distinction between lexical and auxiliary verbs is more significant in English than in many other languages, such as Spanish or Japanese. Auxiliary verbs participate in grammatical constructions including questions and negation.
+
+Lexical verbs make up the vast majority of English verbs. With a conservative estimate of around ten thousand verbs in English, over ninety-nine percent are lexical. They express actions, as in “run”, “eat”, and “write”; states, as in “exist”, “seem”, and “like”; changes, as in “become”, “grow”, and “turn”; and many other situations.
+
+In “The cat sleeps on the couch”, “sleeps” is the lexical verb, even though not much action is going on.
+
+While lexical verbs carry much of the meaning, auxiliary verbs often bear the burden of grammar. They help form negatives, express aspect, construct questions, and form the passive voice. No wonder they're often called “helping verbs”. There are very few, but they're in heavy rotation, making up about thirty-six percent of all verbs in a typical English text.
+
+[00:03:16] 04. Modal auxiliaries and their meanings
+
+Modal auxiliaries express modality: notions such as possibility, probability, necessity, advice, and obligation. The primary modal auxiliaries in English are “will”, “would”, “can”, “could”, “may”, “might”, “shall”, “should”, and “must”. We'll return to their tensed forms.
+
+In “I should study more”, “should” is the modal auxiliary expressing advice, while “study” is the lexical verb.
+
+Each modal typically has a variety of meanings. “Can” is often associated with ability, but listen to four examples.
+
+“She can speak three languages.” Here, “can” expresses ability.
+
+“You can leave early today.” Here, it expresses permission.
+
+“It can be quite cold here in winter.” Here, it expresses possibility.
+
+“That can't be true!” Here, the negative form expresses a logical conclusion.
+
+“Should” also has different uses. Besides expressing obligation, it can appear in a conditional construction: “Should I be late, please go on without me.” Here, the opening has the force of a condition with “if”.
+
+[00:04:27] 05. Non-modal auxiliaries
+
+The primary non-modal auxiliaries are “be”, “have”, and “do”.
+
+“Be” forms the progressive aspect, as in “I am studying”, and the passive voice, as in “The book was written”.
+
+“Have” forms the perfect aspect, as in “I have studied”.
+
+“Do” is used for emphasis: “I do like it”. It appears in questions: “Do you like it?” And in negatives: “No, I don't like it”.
+
+Few languages rely on auxiliary verbs to the extent that English does. Learners from many backgrounds may need extra support with the role of auxiliaries in questions, negatives, and modal meanings.
+
+[00:05:09] 06. Check your understanding: verb types
+
+Check your understanding.
+
+One. What's the fundamental difference between lexical and auxiliary verbs in terms of meaning and grammar?
+
+Two. Can you give examples of modal and non-modal auxiliary verbs?
+
+Three. Why might auxiliary verbs be particularly challenging for English language learners?
+
+Pause the recording while you consider your answers. The difference becomes clearer when we examine the NICER properties.
+
+[00:05:41] 07. Introducing the NICER properties
+
+The NICER properties of auxiliary verbs.
+
+As we saw in Chapter 3, English auxiliary verbs have syntactic properties that distinguish them from lexical verbs. NICER stands for negation, inversion, contraction, ellipsis, and rebuttal. The acronym is pronounced like the word “nicer”.
+
+The comparison table in the written reference puts an auxiliary example beside a lexical example for each property. We'll work through all five contrasts. When an example is marked as ungrammatical in the book, I'll say so; you don't need to hear an asterisk.
+
+The purpose is to identify how a verb behaves. Calling a word a “helping verb” doesn't give us a test, but its behaviour in these constructions does.
+
+[00:06:32] 08. Negation
+
+First, negation. If an auxiliary is present, we can form a negative with “not” after it: “Lee will not eat apples”.
+
+Compare the ungrammatical example “Lee eats not apples”. That pattern would have been possible in Early Modern English, the language of Shakespeare, but it isn't the ordinary pattern in present-day English.
+
+With the lexical verb “eat”, we need an auxiliary: “Lee does not eat apples”. This use of auxiliary “do” is called do-support.
+
+[00:07:06] 09. Inversion
+
+Second, inversion. In constructions such as certain questions, an auxiliary appears before the subject: “Has Lee eaten apples?” The auxiliary “has” comes before “Lee”.
+
+The corresponding attempt with the lexical verb is ungrammatical: “Eats Lee apples?” We need do-support: “Does Lee eat apples?”
+
+This kind of subject–auxiliary inversion isn't shared by a wide range of languages. English learners commonly omit “do” in negation and inversion, perhaps because it contributes to the syntax without adding a separate lexical meaning. A learner might say “I not like apples” or “He eat apples?” without do-support.
+
+[00:07:54] 10. Negative forms and contraction
+
+Third, contraction, with a qualification about that label.
+
+Most auxiliaries have negative forms ending in n't, spelled N-apostrophe-T. Listen to “didn't”, “shouldn't”, and “isn't”. Ordinary lexical verbs don't have corresponding negative forms. The invented forms “eatn't”, “gon't”, and “maken't” are ungrammatical.
+
+The book puts “contraction” in quotation marks because there's a difference between a true contraction and this negative suffix. The contracted form 's, spelled apostrophe-S, can stand for “is”. The ending n't is a suffix. Chapter 2 discussed that distinction.
+
+[00:08:42] 11. Ellipsis and rebuttal
+
+Fourth, ellipsis. Part of a VP can be understood from the context instead of being spoken.
+
+“Lee was eating and so was Kim.” The second “was” is an auxiliary, and the eating is understood. Compare the ungrammatical “Lee kept eating and so kept Kim”. The lexical verb “kept” doesn't behave the same way.
+
+Another version is “Lee was eating apples, and Kim was too”. We understand Kim to have been eating them too. The corresponding “Lee kept eating apples, and Kim kept too” doesn't work with that intended ellipsis.
+
+Fifth, rebuttal. Auxiliaries combine with “so”, “too”, or “indeed” to contradict a negative statement. One person says, “We shouldn't eat apples”. Another replies, “We should SO”.
+
+Compare “We didn't try to eat apples” and the ungrammatical attempted rebuttal “We tried SO”. Here, the lexical verb “tried” doesn't do what the auxiliary “should” does.
+
+The NICER properties identify several things learners need to acquire. They help explain “Don't you like it?” and why “You no like it?” isn't standard English. They also help explain an emphatic assertion such as “I do like it”.
+
+Next, we'll examine the forms that verbs can take, but first there are two activities.
+
+[00:10:05] 12. Exercise: identifying verb types
+
+Exercise: basic verb types.
+
+Decide whether each target verb is lexical or auxiliary. If it's auxiliary, say whether it's modal or non-modal. Remember that some auxiliaries have matching lexical verbs. I'll name the target after each sentence.
+
+One. “The cat sleeps on the couch.” Target: “sleeps”.
+
+Two. “I will attend the meeting tomorrow.” Target: “will”.
+
+Three. “She has a test tomorrow.” Target: “has”.
+
+Four. “She has finished her homework.” Target: “has”.
+
+Five. “Did she do her homework?” Targets: both “did” and “do”.
+
+Six. “They are planning a surprise party.” Target: “are”.
+
+Seven. “It's at my house.” Target: the contracted 's in “it's”.
+
+Eight. “It is not.” Target: “is”.
+
+Nine. “You must complete the assignment by Friday.” Target: “must”.
+
+Ten. “I don't think I can.” Target: “can”.
+
+Pause the recording while you work through the examples.
+
+[00:11:08] 13. Exercise: applying the NICER properties
+
+For each sentence, use one of the NICER properties to make a new, grammatically correct sentence. Name the property you've used: negation, inversion, contraction, ellipsis, or rebuttal.
+
+The book’s example changes “He's Cambodian” to “He isn't Cambodian”, illustrating the negative form under contraction.
+
+One. “She can swim very well.”
+
+Two. “They have finished the project.”
+
+Three. “We are having lunch.”
+
+Four. “You should try it.”
+
+Five. “Do you study grammar?”
+
+Pause here to make your changes.
+
+[00:11:47] 14. Plain and present forms
+
+Verb forms.
+
+As a proficient English speaker, you already know the syntax, morphology, and spelling of many verb forms. As a teacher, being able to identify the forms helps you explain clause structure, tense, and aspect.
+
+The plain form is the dictionary form. Examples include “arrive”, “be”, “come”, “do”, “eat”, “fall”, “go”, “have”, and “interrupt”.
+
+The plain present is a tensed form. For verbs that have both forms, it normally looks and sounds like the plain form. Compare the same list without “be”: “arrive”, “come”, “do”, “eat”, “fall”, “go”, “have”, and “interrupt”. “Be” is exceptional, with the present forms “am”, “is”, and “are”.
+
+The third-person singular present is also called the S form. Regular verbs add an ending spelled S or E-S. Listen to “arrives”, “is”, “comes”, “does”, “eats”, “falls”, “goes”, “has”, and “interrupts”. Some of those forms are irregular.
+
+The distinction between a plain form and a plain present is grammatical, even when the two sound identical. We'll see that in the table and exercises.
+
+[00:13:02] 15. Past forms and participles
+
+The past form is used for the simple past tense. Regular verbs add the ending spelled E-D, but many common verbs have irregular forms.
+
+Using the same verbs as before, the past forms are “arrived”; “was” and “were”; “came”; “did”; “ate”; “fell”; “went”; “had”; and “interrupted”.
+
+The ing form, also called the present participle, forms the progressive aspect, among other things. The forms are “arriving”, “being”, “coming”, “doing”, “eating”, “falling”, “going”, “having”, and “interrupting”. The Cambridge Grammar of the English Language, or CGEL, calls this form the gerund-participle.
+
+The past participle has several grammatical roles, including forming the perfect and passive constructions. For regular verbs, it has the same shape as the past-tense form, sometimes called the preterite. Many irregular verbs have distinct past participles.
+
+The past participles in our list are “arrived”, “been”, “come”, “done”, “eaten”, “fallen”, “gone”, “had”, and “interrupted”.
+
+[00:14:14] 16. Reading the verb-form table
+
+The verb-form table has six columns. The first is the plain form. The next three are tensed forms: plain present, third-person singular present, and past. The last two are participles: present and past.
+
+The five rows illustrate “jump”, “go”, “eat”, “put”, and “keep”. Listen for places where two grammatical forms have the same shape.
+
+For “jump”: plain “jump”; plain present “jump”; third-person singular “jumps”; past “jumped”; present participle “jumping”; past participle “jumped”. The past and past participle sound the same.
+
+For “go”: plain “go”; plain present “go”; third-person singular “goes”; past “went”; present participle “going”; past participle “gone”. Here, “went” and “gone” are different.
+
+For “eat”: plain “eat”; plain present “eat”; third-person singular “eats”; past “ate”; present participle “eating”; past participle “eaten”.
+
+For “put”: plain “put”; plain present “put”; third-person singular “puts”; past “put”; present participle “putting”; past participle “put”. Several columns have the same word form.
+
+For “keep”: plain “keep”; plain present “keep”; third-person singular “keeps”; past “kept”; present participle “keeping”; past participle “kept”.
+
+The complete table is in the written reference if you'd like to compare the rows visually.
+
+[00:15:47] 17. What about gerunds?
+
+What about gerunds?
+
+You may have heard “gerund” used for an ing verb said to function as a noun. Consider “Merely looking can make a difference” and “I actually enjoy making dinner after a long day”. The relevant phrases are “merely looking” and “making dinner”.
+
+The idea of a verb functioning as a noun is as odd as a goldfish functioning as a dog. Both animals can function as pets, but that doesn't make them the same kind of animal. Similarly, subject and complement are functions; noun is a word category. So are “looking” and “making” nouns or verbs in these examples?
+
+Return to the characteristics of nouns and verbs from Chapter 3. If these phrases were NPs, we might expect plural forms and adjective phrase modifiers. Instead, we find an adverb phrase modifier in “merely looking” and an object in “making dinner”. Those are characteristics of VPs.
+
+In the first example, “merely looking” functions as subject. In the second, “making dinner” functions as complement of “enjoy”. Neither function makes the phrase an NP.
+
+[00:17:03] 18. Nouns ending in ing
+
+There are also nouns ending in ing. Consider “The opening of the new store attracted a large crowd” and “The city funded the building of the bridge”. Here, “opening” and “building” are nouns.
+
+They show noun behaviour. We can have a plural: “The openings of the new stores were scheduled for next month”. We can have an adjective modifier: “The grand opening of the new store was a success”. And the complement appears in an “of” phrase: “The building of the bridge”, not the ungrammatical “The building the bridge”.
+
+For today's English, I don't find the term “gerund” useful. In the earlier examples, I call the subject “merely looking” a VP, and I call the complement of “enjoy”, “making dinner”, a VP too. CGEL analyses those constituents as clauses. The present book uses VPs for this discussion; the difference in terminology doesn't turn the verbs into nouns.
+
+[00:18:04] 19. Defective modal paradigms
+
+Most lexical verbs have all six grammatical forms in our table, though several may have the same shape. Modal auxiliaries are defective: they lack a non-tensed plain form and participles.
+
+The table pairs the present and past forms “can” and “could”, “will” and “would”, “shall” and “should”, and “may” and “might”. “Must” has no corresponding past form in this table.
+
+Auxiliaries also have negative forms and, in some cases, contracted forms. We'll compare these next. A blank cell in the written table means that no form is listed there; it isn't something to pronounce.
+
+[00:18:47] 20. Negative and contracted auxiliary forms
+
+Here are the rows of the table of tensed auxiliary forms.
+
+“Will” has the contraction written 'll and the negative “won't”. Its past form is “would”, with the contraction 'd and the negative “wouldn't”.
+
+“May” has no contraction or negative form listed in the present-tense columns. Its past form is “might”, with the negative “mightn't”.
+
+“Can” has the negative forms “can't” and “cannot”. The past form is “could”, with “couldn't”.
+
+“Shall” also has the contraction 'll. Its negative is “shan't”. The past form is “should”, with “shouldn't”.
+
+“Must” has “mustn't”, but no corresponding past form is listed.
+
+“Do” and “does” have “don't” and “doesn't”. The past form “did” has “didn't”.
+
+“Have” and “has” have the contractions 've and 's. The negatives are “haven't” and “hasn't”. The past form “had” can contract to 'd, and its negative is “hadn't”.
+
+Finally, “be” has “am”, “are”, and “is”, which contract to 'm, 're, and 's. The table lists “aren't” and “isn't”, with no corresponding negative form for “am”. The past forms are “was” and “were”, with “wasn't” and “weren't”.
+
+The written table keeps these forms alongside one another for reference.
+
+[00:20:17] 21. Lexical counterparts and the special case of be
+
+The non-modal auxiliaries “do”, “have”, and “be” also have plain forms and participles. There are lexical uses of these verbs too, but we need to distinguish the constructions carefully.
+
+In “I have a cat”, “have” expresses possession. It isn't the auxiliary that forms the perfect. In most present-day North American dialects, we don't ask “Have you a cat?” or say “I haven't a cat”. Those patterns are available in some other varieties.
+
+In “I do my homework every day”, “do” is lexical. To ask a question, we need an auxiliary “do” as well: “Do you do your homework?” The first “do” is auxiliary; the second is lexical.
+
+“Be” needs special care. In “Don't be late”, we find do-support, but negative imperatives are an exception to the usual restriction against putting auxiliary “do” before another auxiliary. This example alone doesn't show that “be” is lexical. “Be not late” isn't the ordinary everyday imperative, and “ben't” isn't a standard modern negative form.
+
+CGEL gives “Why don't you be more tolerant?” as an example of lexical “be”. Here, “do” occurs in a tensed interrogative construction. The ordinary copular uses of “be”, such as “It's at my house”, behave as auxiliaries.
+
+The distinction we're testing with the NICER properties is lexical versus auxiliary. Both lexical verbs and non-modal auxiliaries are non-modal, so “not modal” wouldn't identify the difference.
+
+[00:21:58] 22. Be and combinations of verb forms
+
+“Be” is highly irregular, with more forms than any other English verb. Its main forms are “be”, “am”, “is”, “are”, “was”, “were”, “being”, and “been”. Its negative forms include “isn't”, “aren't”, “wasn't”, and “weren't”. Its contracted present forms are 'm, 's, and 're.
+
+Verb forms combine with auxiliaries to create the tense and aspect system. The present perfect uses present-tense “have” with a past participle: “I have eaten”; “She has gone”.
+
+CGEL analyses the perfect as a secondary past tense. I don't follow that analysis here; for the teaching framework in this book, I treat the perfect as an aspect.
+
+The past progressive combines past-tense “be” with the ing form: “I was reading”; “They were sleeping”.
+
+[00:22:50] 23. Exercise: identifying verb forms
+
+Exercise: verb forms.
+
+Identify the grammatical form of each target. The six possibilities are plain, plain present, third-person singular present, past, present participle, and past participle.
+
+One. “She sings beautifully.” Target: “sings”.
+
+Two. “They may have gone to the store.” Targets: “may”, “have”, and “gone”, separately.
+
+Three. “We were watching a movie.” Targets: “were” and “watching”.
+
+Four. “The dog barked all night.” Target: “barked”.
+
+Five. “I write in my journal every day.” Target: “write”.
+
+Six. “I'll try again.” Target: the contracted 'll, standing for “will”.
+
+Pause the recording while you identify the forms.
+
+[00:23:42] 24. Mandarin and time reference
+
+Tense across languages.
+
+Imagine learning a language where verbs don't change to show when something happened, with no past-tense ending like English E-D. How would you talk about time? For speakers of many languages, this is normal.
+
+In Mandarin Chinese, for instance, the verb form stays the same regardless of when the action occurs. Consider “Wǒ chī píngguǒ”. A word-for-word gloss is “I eat apple”.
+
+Depending on the context, the book gives the possible English translations “I eat apples”, “I ate an apple”, “I'm eating an apple”, and “I will eat an apple”. Time can be indicated by other words, such as the equivalents of “tomorrow” or “before”, or left to context. A language can express time without changing the verb's form for tense.
+
+[00:24:30] 25. The Yimas comparison
+
+Now consider Yimas, a language of Papua New Guinea. The chapter’s examples distinguish times more finely than English does, and the list also includes an aspectual distinction.
+
+For the verb meaning “go”, the eight examples have these English glosses.
+
+“Went more than a few days ago.”
+
+“Went a few days ago.”
+
+“Went yesterday.”
+
+“Went today.”
+
+“Going now.”
+
+“Usually go.”
+
+“Will go tomorrow.”
+
+And “will go after tomorrow”.
+
+The habitual example, “usually go”, concerns a pattern of repeated action. It isn't simply another distance from the present. Some of the forms combine tense and aspect meanings. The written reference gives the corresponding Yimas forms alongside all eight glosses.
+
+Speech communities have different conventions for expressing time. Given that diversity, how many grammatical tenses would you expect English to have? Before answering, let's consider another contrast between languages.
+
+[00:25:33] 26. French and the progressive distinction
+
+Elements that seem important in one language may be left unmarked in another. English speakers learning French often want to translate the progressive construction directly.
+
+You can translate “I'm doing it” as “Je suis en train de le faire”. But often you'd simply say “je le fais”. French doesn't routinely make the same grammatical distinction that English makes between “I do it” and “I'm doing it”. When the distinction matters, speakers have ways to express it.
+
+For a learner, the issue is knowing when a language normally marks a distinction and when it normally leaves the interpretation to context.
+
+[00:26:15] 27. Quechua and sources of information
+
+Other languages regularly mark distinctions that English may leave to context. Cuzco Quechua has evidential markers that indicate a speaker's basis for a claim, including information from another person or a conjecture.
+
+For the claim “the llama escaped”, how the speaker knows can be relevant: direct observation, someone else's report, or an inference. English can express such differences too, but it doesn't have the same grammatical system.
+
+The Quechua markers aren't obligatory in every assertion. An assertion without an explicit marker can still convey assumptions about the speaker's evidence. The comparison concerns the grammatical resources available and their use.
+
+[00:27:03] 28. Reflection: comparing languages
+
+If you're proficient in another language, consider how it handles time and duration.
+
+Does it distinguish “I do” from “I'm doing”? If it can express the distinction, does it do so as often as English?
+
+Pause the recording and think of a comparison from a language you know.
+
+[00:27:23] 29. Grammatical tense and semantic time
+
+Tense and time.
+
+Tense is a grammatical category, typically marked on the verb. I say “typically” because, for example, Japanese also has a class of adjectives that conjugate for tense.
+
+Time is a semantic concept: when things happen. It's something we can measure and something physicists study. Grammatical tense and time are related, but they aren't the same thing.
+
+We made a similar distinction with definiteness in Chapter 3, separating the grammatical category from the semantic concept it usually tracks. A grammatical distinction needn't match a distinction in meaning on every occasion.
+
+[00:28:09] 30. Quick self-check: tense and time
+
+Quick self-check.
+
+One. Can you explain the difference between grammatical tense and semantic time?
+
+Two. Why might that distinction matter for English language teaching?
+
+Three. Would you expect more grammatical tenses, or more ways to express time?
+
+Pause here before continuing.
+
+[00:28:32] 31. Two grammatical tenses
+
+In the analysis used here, English has two grammatical tenses: past and non-past. We usually call the non-past “present tense”. Listen to six examples and identify the tensed verb.
+
+“I walked to school yesterday.” “Walked” is past tense.
+
+In an account of a past routine, “I would walk to school” can describe a habit. “Would” is a past-tense form.
+
+“I walk to school every day.” “Walk” is present tense.
+
+“I'm walking to school right now.” The contracted “am” is present tense.
+
+“I'm going to walk to school tomorrow.” Again, “am” is present tense.
+
+“I'll walk to school tomorrow.” The contracted “will” is present tense.
+
+The last four examples use present-tense forms even though they aren't all about the present time. Grammatical tense doesn't by itself tell us when the situation occurs.
+
+[00:29:26] 32. Will need not refer to future time
+
+You may be used to calling “I'll walk” a future tense. Here, we analyse “will” as a present-tense modal auxiliary. It can express a high degree of certainty, and it isn't restricted to future time.
+
+Imagine that a friend is coming to visit. You're busy and haven't checked your phone, but her plane was supposed to arrive an hour ago. With no reason to think otherwise, you say, “She'll have landed an hour ago”.
+
+You use “will”, but “an hour ago” refers to the past. The modal contributes to the speaker's assessment of the situation; its present-tense form doesn't force a future-time interpretation.
+
+[00:30:08] 33. Present-tense ways to talk about the future
+
+English has several present-tense constructions that can refer to future time.
+
+“I'll see you tomorrow.” This combines “will” with a plain-form VP.
+
+“I'm seeing the doctor next week.” This uses the present progressive.
+
+“My flight leaves at six p.m.” “Leaves” is a third-person singular present form.
+
+“I'm going to visit my parents this weekend.” This uses “be going to” with a plain-form VP.
+
+All four are grammatically present tense. In the intended contexts, all four concern future time. Instead of a single grammatical future tense, we have several constructions for referring to the future.
+
+[00:30:53] 34. Past-tense forms with present and future meanings
+
+Past-tense forms can also refer to present or future time.
+
+“I wish I knew the answer.” “Knew” is a past-tense form, but the wish concerns the present.
+
+“If I won the lottery, I'd buy a house.” “Won” is past tense, but the condition can concern a future possibility.
+
+In these examples, the past form expresses something about the speaker's view of reality or likelihood. It doesn't simply locate the situation earlier than now.
+
+[00:31:25] 35. Teaching tense without equating it with time
+
+As teachers, we have to decide how to explain these distinctions. The two-tense analysis gives us a framework for understanding the familiar textbook labels.
+
+Textbooks that list twelve or sixteen “tenses” mix grammatical tense with semantic time and aspect. With the two-tense analysis, you can identify the components of each construction and evaluate whether a textbook's presentation will help learners or confuse them.
+
+Whether you teach the analysis directly depends on your professional context, not simply your students' level. If you're in a program where everyone understands tense, teach it correctly. If doing so means contradicting your fellow faculty, the problem is no longer just a question about pedagogy.
+
+We often expect a one-to-one relationship between a form and its meaning. But we've already seen that several phrase types can modify nouns, that prepositions can take several types of complement, and that “can” expresses more than ability. Similarly, neither tense has only one meaning. In modal auxiliaries, meanings such as remoteness often take priority over time reference.
+
+[00:32:40] 36. Exercise: tense and time
+
+Exercise: tense and time.
+
+For each target, identify the grammatical tense, past or present, and the semantic time, past, present, or future. Explain any mismatch. Where a sentence has two targets, consider them separately.
+
+One. “I wish I knew the answer.” Targets: “wish” and “knew”.
+
+Two. “The train leaves at five p.m. tomorrow.” Target: “leaves”.
+
+Three. “If I won the lottery, I would buy a house.” Targets: “won” and “would”.
+
+Four. “She has lived here for ten years.” Target: “has lived”.
+
+Five. “We are meeting the client next week.” Target: “are meeting”.
+
+The book’s worked example is “I'm going to visit my dad this weekend”. “Am” is present tense, but the visit is in the future. The sentence also concerns a present plan.
+
+Pause here to work through the five examples.
+
+[00:33:36] 37. Simple and progressive perspectives
+
+Aspect concerns the temporal perspective we take on a situation. Let's start with two sentences: “I live in Mississauga” and “I'm living in Mississauga”.
+
+Both can describe the same person's residence in the same city. The first uses the simple aspect and draws no special attention to the situation's duration. The second uses the progressive and presents the residence as temporary.
+
+The timeline in the book shows both situations extending through now. For the simple example, the line continues without a specially marked endpoint. For the progressive example, the diagram marks an endpoint as relevant. The comparison illustrates a difference in perspective; it doesn't tell us the date on which the person will leave.
+
+The progressive combines a form of “be” with an ing form. In “I'm living”, “am” is the auxiliary and “living” is the present participle.
+
+[00:34:34] 38. A situation viewed as temporary
+
+An international student attending the University of Toronto might choose “I'm living in Mississauga” to present the residence as temporary. Someone who doesn't want to highlight its duration might choose “I live in Mississauga”. Other speakers can make the same contrast.
+
+Consider the difference between paddling a river that flows into the sea and paddling one that comes to a dam. In the first, you may attend to the water without focusing on an endpoint. In the second, the dam demands attention.
+
+Unlike the paddler, a speaker usually has a choice about how to portray a situation. In the account developed here, the progressive makes its time-limited character relevant. The simple aspect draws no special attention to its ending. Neither choice is grammatically better in itself; the choice depends on the perspective the speaker wants to convey.
+
+[00:35:26] 39. States that resist the progressive
+
+Some perspectives fit less readily with particular situations. Compare “I know that feeling” with “I'm knowing that feeling”.
+
+The book marks the progressive example as ungrammatical for the varieties and ordinary interpretation at issue. But the pattern also occurs in varieties such as South Asian English. A grammaticality judgment needs a language variety and a context.
+
+In our account, ordinary “know” presents a state without making a temporary episode or its endpoint relevant. Knowing can end—people forget—but that possibility needn't be part of what a speaker is saying.
+
+Now compare three more pairs. First, “Birds have feathers” and “Birds are having feathers”. Second, “Earth is a planet” and “Earth is being a planet”. Third, “Honey tastes sweet” and “Honey's tasting sweet”.
+
+The book marks the progressive versions as ungrammatical in their intended general-statement readings. They're being compared with relatively stable states, not with a specially supplied temporary interpretation. Context can make some progressive readings easier. If Earth is only being a planet for the time being, we've probably wandered into a different textbook.
+
+[00:36:43] 40. Progressive uses of stative verbs
+
+Now listen to “We're having dinner”, “He's being grumpy”, and “It's tasting sweeter”.
+
+These progressives are possible. “Having dinner” describes an activity; “being grumpy” can describe temporary behaviour; and “tasting sweeter” can describe a developing or contextually limited experience.
+
+You might call someone back when dinner is over, or wait to talk to someone until he's less grumpy. In each case, the progressive fits the particular activity, behaviour, or change being described.
+
+We need to consider the verb's particular use and the situation being described, rather than declaring that a word labelled stative can never occur in a progressive construction.
+
+[00:37:32] 41. The progressive and repeated events
+
+The progressive can also present a series of events. Consider the short events in “the light flashed”, “she sneezed”, “it popped”, “he blinked”, and “the show ended”.
+
+“I'm falling” may describe a long descent. But “She's sneezing” can describe repeated sneezes rather than one sneeze stretched into slow motion. The book describes this as a series of sternutations viewed as limited in duration.
+
+The same perspective is available with events that take longer. “I'm going to the gym regularly” presents repeated visits as a current pattern. The speaker may be unsure how long the commitment will last, or may have a limited-term membership.
+
+The timeline shows a series of short visits on either side of now. Farther along, an endpoint is labelled “I give up”. That's one illustration of the temporary-pattern interpretation. The adverb “regularly” directs us towards repeated visits rather than one journey to the gym.
+
+[00:38:33] 42. A meal or a pattern of visits
+
+“I'm eating at that new restaurant” has more than one possible interpretation.
+
+It may describe a meal in progress. It may also describe a pattern of visits during a current period: this is where I'm eating these days, until something changes.
+
+Context helps us choose between those readings. The speaker's location can provide a clue, but being inside or outside the restaurant doesn't by itself settle the interpretation.
+
+[00:39:04] 43. The progressive for plans
+
+The progressive can also express a future plan: “The Smiths are having dinner with us this week”.
+
+The sentence doesn't mean that an extended feast is already in progress. In the intended context, it concerns a planned dinner. The progressive can present the future event as part of an arrangement or current plan.
+
+The diagram marks the point at which the plan is formed, then a planning interval that extends through now, followed by the dinner and its end. We're looking at the dinner from a time when the plan is current and the event is still ahead.
+
+This is an illustration of how the construction can be used. The amount of prior arrangement required depends on context; a speaker can also use such a statement to announce a plan.
+
+[00:39:52] 44. The present perfect and the simple past
+
+The perfect aspect.
+
+The perfect combines a form of “have” with a past participle. It relates an earlier situation to a later reference time. That reference time can be present, past, or future.
+
+Start with “I've lived in Mississauga for five years”. In its most salient reading here, the residence began five years ago and continues now. The present tense places the reference time at now; the perfect connects the earlier period with that reference time.
+
+Compare “I lived in Mississauga for five years”. In the reading illustrated in the book, the whole period is past and I no longer live there.
+
+The first timeline places both examples against now. The present-perfect line reaches now. The simple-past line ends before now. It shows the two interpretations we've just compared.
+
+We'll see shortly that the perfect can also describe a period that's already over. The diagram illustrates these particular readings; completion isn't fixed by the word “perfect” alone.
+
+[00:41:00] 45. Moving the reference time
+
+The next three diagrams move the reference time.
+
+For the past perfect, the example is “I'd lived there for five years”. Here, 'd stands for “had”. The reference point is before now. In the diagram’s illustrated reading, the period of residence is earlier still. Imagine the three positions in order: the residence, the past reference point, then now.
+
+For a future reference point, the example is “I'll have lived there for five years”. The reference point is after now, and the five-year period is viewed from that future point. Now needn't coincide with either the beginning or the end of the residence. The construction is often called the future perfect, but in our grammatical analysis “will” remains present tense.
+
+The third example is “To have lived there for five years is quite an experience”. The infinitival phrase “to have lived there for five years” has no grammatical tense. The diagram therefore supplies a reference point without locating it relative to now. The perfect still relates the residence to that later point.
+
+Across the diagrams, keep track of two things: the situation and the reference time from which it's considered. Tense and context help locate the reference time; the perfect relates the earlier situation to it.
+
+[00:42:29] 46. Two periods of residence
+
+The perfect can leave open whether a situation is complete at the reference time. Its beginning is earlier, but its endpoint may or may not have been reached.
+
+The final timeline compares “I've lived there twice” with “I lived there twice”. It shows two possibilities for the present perfect. In one, both periods of residence have ended. In the other, the second period extends to now. The simple-past illustration shows two periods that have ended.
+
+The present perfect and simple past can therefore describe the same two completed periods from different perspectives. The perfect connects those periods to the present reference point. Context, and expressions such as “already”, can help identify the intended interpretation.
+
+We can now combine the chapter’s two tenses with the simple, progressive, and perfect aspects, including the combination of perfect and progressive.
+
+[00:43:28] 47. Exercise: aspect
+
+Exercise: aspect.
+
+Identify the simple, progressive, or perfect aspect in each example, and explain the temporal perspective it conveys.
+
+One. “I've worked here for ten years.”
+
+Two. “She was reading when the phone rang.”
+
+Three. “We play tennis every Saturday.”
+
+Four. “They will have completed the course by June.”
+
+Five. “The sun is setting earlier these days.”
+
+Pause the recording while you work through the examples.
+
+[00:44:02] 48. Combining tense and aspect: present forms
+
+The English tense and aspect system.
+
+If you've ever tried to chart all the possible English verb constructions, you may have ended up with something resembling a complicated subway map. We can organize the system by separating tense from aspect.
+
+The table has three rows: present tense, past tense, and non-tensed infinitivals. Its four columns are simple, progressive, perfect, and perfect-progressive. The last column combines the two aspectual constructions.
+
+Start with the present-tense row.
+
+Simple: “I try”.
+
+Progressive: “I am trying”.
+
+Perfect: “I have tried”.
+
+Perfect-progressive: “I have been trying”.
+
+In “I try”, the lexical verb is tensed. In the other three, the first auxiliary is tensed. “Am” is present tense in “I am trying”; “have” is present tense in both “I have tried” and “I have been trying”. The verbs that follow take the forms selected by the auxiliaries.
+
+[00:45:00] 49. Past forms and infinitivals
+
+Now listen to the same four columns in the past-tense row.
+
+Simple: “I tried”.
+
+Progressive: “I was trying”.
+
+Perfect: “I had tried”.
+
+Perfect-progressive: “I had been trying”.
+
+The tensed forms are “tried”, “was”, and “had”. The aspectual combinations remain the same.
+
+The third row contains infinitivals. These have no grammatical tense, but they can still have aspect. With “to”, the examples are “to try”, “to be trying”, “to have tried”, and “to have been trying”.
+
+The table puts “to” in parentheses because some constructions use a bare infinitival without it. The corresponding forms are “try”, “be trying”, “have tried”, and “have been trying”.
+
+Keeping these rows and columns separate lets us identify a construction's components without treating each combination as a separate tense.
+
+[00:45:55] 50. What the perfect-progressive contributes
+
+Consider “I have been trying”.
+
+The present tense places the reference point at now. The perfect presents the efforts as beginning before that point and being relevant to it. The progressive presents them from a time-limited perspective.
+
+The forms show how the construction is assembled. “Have” selects the past participle “been”. “Been”, a form of “be”, selects the present participle “trying”. Perfect and progressive are combined in that order.
+
+[00:46:30] 51. Practice: analysing the combinations
+
+Practice consolidation. Break down three examples using this framework.
+
+One. “She had been studying.” What does each element contribute?
+
+Two. “They will have finished.” How do tense and aspect combine here?
+
+Three. “I am working.” What aspect information is conveyed?
+
+Then reflect on teaching. How do the meanings contributed by the different elements help explain why these constructions can be challenging for learners?
+
+Pause the recording while you work through them.
+
+[00:47:07] 52. Perfect-progressive, but not progressive-perfect
+
+We can say “I've been trying”, but not “I'm having tried”. The perfect-progressive is possible; the attempted progressive-perfect is ungrammatical.
+
+In the explanation developed in this chapter, perfect “have” marks the relevance of an earlier situation to a reference time. It doesn't itself describe a temporary situation. Putting this auxiliary in the progressive would direct the temporary perspective towards that relevance, rather than towards the situation being described.
+
+The grammatical pattern is worth keeping distinct from its explanation: English allows the perfect outside the progressive, but not the reverse order in these examples.
+
+[00:47:52] 53. Modal forms and remoteness
+
+The modals have present and past-tense forms too. The table pairs “will” with “would”, “can” with “could”, “may” with “might”, and “shall” with “should”. “Must” has no matching past form in the table.
+
+With modals, tense frequently expresses likelihood, politeness, or hypotheticality rather than a contrast between past and present time. We can group many uses of past-tense modals under the idea of remoteness.
+
+Before looking at examples, consider how another language handles modality.
+
+[00:48:28] 54. Reflection: modality across languages
+
+Think about another language you speak. How does it express possibility, necessity, and obligation?
+
+Does it use auxiliary verbs like English, or does it use different grammatical strategies?
+
+Consider how those differences might affect an English learner's use of modal auxiliaries. Pause here to reflect.
+
+[00:48:49] 55. Likelihood, conditionality, and politeness
+
+Compare “It'll work” with “It should work”. In the intended readings, the first expresses greater confidence and the second a more qualified expectation.
+
+These examples use different modal verbs. “Should” is paired with “shall” in the form table, not with “will”. The difference in likelihood therefore isn't a comparison of the present and past forms of one verb.
+
+For a “will” and “would” pair, compare “I'll help you” with “I would help you”. The first can be an unconditional commitment; the second can make the offer conditional. The shift needn't concern past time. It can concern the speaker's commitment under particular circumstances.
+
+Now compare “Will you get that for me?” and “Would you get that for me?” The book illustrates the first with an informal request to someone close, and the second with a more formal request. “Would” can make a request more tentative or polite. The effect depends on context and intonation, rather than on a fixed rule about who is being addressed.
+
+[00:49:56] 56. Modals with aspectual complements
+
+Modals lack present and past participle forms. Those are the forms needed after progressive “be” and perfect “have”, so a modal itself can't appear in those positions.
+
+A modal can, however, take a VP complement that has progressive or perfect aspect. Listen to the three table examples.
+
+“I could try.” The infinitival complement “try” has simple aspect.
+
+“I could be trying.” The infinitival complement “be trying” has progressive aspect.
+
+“I could have tried.” The infinitival complement “have tried” has perfect aspect. The prose gives the same pattern with another subject: “They could have tried”.
+
+The modal doesn't create another tense. It combines with non-tensed verb forms to express modality together with the aspectual meaning of its complement.
+
+[00:50:47] 57. Infinitivals have no tense
+
+English also has non-tensed, or non-finite, verb forms. These include plain forms and participles.
+
+Infinitivals use the plain form, often preceded by “to”: “I want to sleep”; “She likes to dance”. The infinitival complements are “to sleep” and “to dance”.
+
+Some verbs license bare infinitival complements without “to”. Consider “You should stay”, “I can swim well”, and “How do I make it make sense?” The relevant complements are “stay”, “swim well”, and “make sense”.
+
+Infinitival VPs can have a timeless or future-oriented interpretation. Think of Hamlet's “to be or not to be”, or Tennyson's reflection that it is better to have loved and lost than never to have loved at all.
+
+An infinitival VP can also function as subject. Alexander Pope's “To err is human; to forgive, divine” presents a general truth. The infinitival forms themselves aren't marked as past or present tense.
+
+[00:51:51] 58. Participles and their interpretations
+
+Participles come in two forms in our terminology: present participles, ending in ing, and past participles, often ending in E-D for regular verbs. The names “present” and “past” don't make the participles themselves tensed forms.
+
+Present participial VPs can function as subjects and complements. In “Swimming is good exercise”, the VP “swimming” is the subject. In “I enjoy reading”, the VP “reading” is a complement.
+
+Compare three constructions with “read”.
+
+“I am reading a book.” This is progressive. It presents reading in progress, without saying that the reader reaches the end.
+
+“I have read the book.” This is perfect; in the ordinary reading here, the reading is complete.
+
+“The book was read.” This is passive, with the past participle “read”. It can describe a reading event.
+
+We also find participle-shaped words modifying nouns: “The sleeping baby looks peaceful”; “The broken vase lay on the floor”. These examples suggest a current state of sleeping and a resulting state of being broken. But words with participial forms can also be adjectives. Their shape and meaning alone don't settle their grammatical category.
+
+[00:53:08] 59. Exercise: tense and aspect in a target phrase
+
+Exercise: the English tense and aspect system.
+
+For each target phrase, identify its grammatical tense, if any, and its aspect. Use the comparison table in the written reference if you'd like. Analyse the named target rather than automatically including another verb elsewhere in the sentence.
+
+One. “I have been trying to reach you all day.” Target: “have been trying”.
+
+Two. “They should have completed it by next month.” Target: “have completed”.
+
+Three. “She was reading when the phone rang.” Target: “was reading”.
+
+Four. “We are going to visit them this weekend.” Target: “are going”.
+
+Pause here to analyse the four targets.
+
+[00:53:58] 60. Exercise: meanings and non-tensed forms
+
+First, explain the difference in meaning between two pairs.
+
+Pair one: “I'm reading that book” and “I started reading that book”.
+
+Pair two: “I'll go to the store later” and “I'm going to go to the store later”.
+
+Then identify the non-tensed verb forms in five sentences. Look for plain forms and participles.
+
+One. “To err is human; to forgive, divine.”
+
+Two. “Watching the sunset, we lost track of time.”
+
+Three. “The book was read.”
+
+Four. “I want to sleep.”
+
+Five. “Having finished her homework, she went to bed.”
+
+Pause the recording to compare the meanings and identify the forms.
+
+[00:54:46] 61. What complementation means
+
+Verb complementation.
+
+Tense and aspect concern how a verb construction presents time. Complementation concerns what kinds of phrases a verb requires or permits. Knowing a verb includes knowing its complementation patterns.
+
+The term “complementation” suggests completing a phrase. If you say “I make”, you can leave the listener wondering what you make. That's a useful first approximation, but complements can also be optional.
+
+Compare “She reads” and “She reads blogs”. The first doesn't leave us hanging. It tells us that she reads from time to time. The second supplies an object, “blogs”, but the first was already a complete clause.
+
+Labels aren't definitions, and the idea of completing a meaning won't reliably identify every complement.
+
+A more useful property is selection by the head. “Read” can select NP objects, but “sleep” generally can't. “Read” doesn't select adjective phrase complements, but “seem” does. The choice depends on the verb.
+
+[00:55:57] 62. One, two, or three complements
+
+A verb may license several types of complement without allowing all of them together.
+
+“I know your name” has the NP object “your name”. “I know that you study grammar” has a “that” clause. But “I know your name that you study grammar” is ungrammatical with those intended complements. “Know” doesn't simply stack the two alternatives.
+
+One diagnostic for a possible modifier is whether you can add another constituent of the same type. Repeatability can favour a modifier analysis, though it isn't a conclusive test.
+
+The verb “make” licenses VPs with two complements. “He made them dinner” contains two NPs, “them” and “dinner”. “He made them happy” contains the NP “them” and the adjective phrase “happy”.
+
+A verb can even license three complements: “I bet him three dollars that it wouldn't work”. The complements are “him”, “three dollars”, and “that it wouldn't work”. As far as I know, three complements plus a subject is the limit.
+
+[00:57:02] 63. The complements of be
+
+“Be” licenses a wide range of complement types. Listen to seven examples.
+
+“I'm going.” “Going” is a present participial VP.
+
+“It was broken by the sound of a truck.” “Broken by the sound of a truck” is a past participial VP.
+
+“It's to go back.” “To go back” is a to-infinitival VP.
+
+“It's a book.” “A book” is an NP.
+
+“It's nice.” “Nice” is an adjective phrase.
+
+“It's on the table.” “On the table” is a PP.
+
+“The important thing is that you're here.” “That you're here” is a “that” clause.
+
+The NP and adjective phrase in “It's a book” and “It's nice” function as predicative complements. The written reference points to CGEL's fuller discussion of that function.
+
+[00:57:56] 64. Complement choices and language change
+
+Predicting which complements a verb allows can be difficult. The choices have motivations, but they're also conventional, and they can change over time.
+
+The chapter illustrates this with “graduate”. Listen to the sequence of uses.
+
+“Humber graduated one hundred students.” The institution is the subject and the students are the object.
+
+“I was graduated from Humber.” This is an older passive use.
+
+“I graduated from Humber.” The person is now the subject, with a “from” phrase.
+
+“I graduated Humber.” This is a newer use with the institution as object.
+
+A good learner's dictionary, such as the Longman Dictionary of Contemporary English, helps identify the complement patterns licensed by a particular verb. Next are several common patterns and examples.
+
+[00:58:47] 65. Intransitive, transitive, and clause-complement patterns
+
+Verbs that often appear without a complement include “arrive”, “appear”, “begin”, “belong”, “collapse”, “come”, “cry”, “emerge”, “exist”, and “fade”. Verbs used without an object are intransitive.
+
+Transitive verbs take NP objects. Examples are “build a fort”, “buy groceries”, “carry an infant”, “eat dinner”, “find a new idea”, “give hope”, “hear your name”, “love someone”, “make a great catch”, and “open a book”.
+
+Verbs with two objects are called ditransitive. The first object is often a recipient and the second is what is given, sent, or communicated. Listen to “give someone a gift”, “tell your friend a story”, “send them a letter”, “show the class a video”, and “offer us advice”.
+
+Other verbs license “that”-clause complements. They often concern speech or thought. Examples are “I hope that it works”, “I heard that it works”, “I know that it works”, “I said that it works”, “I like that it works”, and “I expect that it works”.
+
+[00:59:53] 66. Adjective phrase and PP complements
+
+Verbs that take adjective phrase complements are often stative. Compare “I feel happy”, “They seem happy”, “They looked happy”, “They appear happy”, and “They became happy”. As with the earlier progressive examples, the particular use of a verb matters.
+
+Some verbs combine an object with an adjective phrase complement. Listen to five examples.
+
+“I made it bigger.” “It” is the object, and “bigger” is the adjective phrase.
+
+“I painted the room blue.” The two complements are “the room” and “blue”.
+
+“I left the door open.” The complements are “the door” and “open”.
+
+“She kept the audience happy.” The complements are “the audience” and “happy”.
+
+“They declared the area safe.” The complements are “the area” and “safe”.
+
+When a verb takes a PP complement, it commonly restricts the choice of preposition. Consider “I headed to school”, “They stayed in school”, “They listened to their teachers”, “They spoke about school”, “They apologized for my mistakes”, and “She laughed at the joke”.
+
+These choices are part of what you need to know about the individual verb and its construction.
+
+[01:01:08] 67. Auxiliary verbs as heads
+
+Auxiliary verbs as heads.
+
+Calling auxiliaries “helping verbs” can make them sound like dependents rather than heads. But the head selects the types of complement it can combine with.
+
+Compare four sentences: “She sings beautifully”; “She can sing beautifully”; “She's singing beautifully”; and “She has sung beautifully”.
+
+In the first, “sings” is the head of the VP. There's no other verb to head it. “Sing” is used intransitively, and “beautifully” is a modifier.
+
+In “She can sing beautifully”, the modal “can” selects a bare infinitival VP, “sing beautifully”. That's why “sing” is in the plain form. The infinitival is called bare because it has no “to”. Compare “She wants to sing beautifully” and “She ought to sing beautifully”, where the infinitival complement includes “to”.
+
+In “She's singing beautifully”, 's stands for “is”. This form of “be” selects the present participial VP “singing beautifully”. Its head is “singing”.
+
+In “She has sung beautifully”, “have”, realized as “has”, selects a past participial VP, “sung beautifully”. Its head is “sung”.
+
+The auxiliary heads the larger VP and selects the form of the VP within it. And auxiliaries don't always take VP complements: we've just seen the different phrase types licensed by “be”.
+
+An auxiliary can also be left without an overt complement when the content is understood. “Can you dig it?” “Yes, I can.”
+
+[01:02:55] 68. Exercise: complementation patterns
+
+Exercise: verb complementation patterns.
+
+First, explain why the following examples are ungrammatical in the intended standard-English patterns.
+
+One. “I rely of my phone.”
+
+Two. “She went school already.”
+
+Three. “I must to leave.”
+
+Second, rewrite three sentences using a different complementation pattern.
+
+One. “I heard that the concert was cancelled.”
+
+Two. “She painted the room blue.”
+
+Three. “They want to visit Paris.”
+
+Third, create examples of four complementation types: a verb with two NP complements; a verb with an NP and an adjective phrase complement; a verb with a PP complement; and a verb with a “that”-clause complement.
+
+Pause the recording while you work through the tasks.
+
+[01:03:47] 69. Bringing the analysis into teaching
+
+When a textbook presents the “present perfect continuous”, you can now analyse its components: present tense, perfect aspect, progressive aspect, and a lexical verb. Each contributes something specific. Identifying the components helps you locate a student's difficulty.
+
+The same analytical habit applies to complementation. Knowing which complements a verb selects is part of knowing that verb. It also helps you judge whether a dictionary entry or a textbook explanation supports the distinction you're trying to teach.

@@ -50,7 +50,7 @@ The term <span class="smallcaps">countability</span> conflates three distinct le
 
 Individuation operates at two levels. Lexemes carry conventionalized construal profiles (default settings for how their referents are packaged, established through usage history and stored in lexical knowledge). These profiles make *cattle* quasi-count and *book* fully count as types. But speakers can override defaults in context: *three coffees* coerces a mass noun into a count frame. The bidirectional inference mechanism operates on both levels: conventionalized profiles constrain expectations; online construal can shift them. The hierarchy developed here concerns conventionalized profiles (the stable defaults that determine a noun’s typical countability behaviour), not the contextual coercions that temporarily override them. Because those profiles are established by distributional history (frequency, collocational patterns, register) rather than read off any single morphosyntactic property, the account avoids circularity.
 
-<span class="smallcaps">Morphosyntactic countability</span> is the grammatical cluster (Huddleston and Pullum 2002; Allan 1980, 333–36): singular–plural contrast, *a*(*n*) selection, numeral compatibility, *many/few* vs. *much/little*, plural agreement, demonstrative selection, distributive quantifiers. For a given noun sense in English, its <span class="smallcaps">countability profile</span> is the pattern it shows across these diagnostics. These properties cluster tightly in *book*, partially in *cattle* and *police*, and not at all in *furniture*.
+<span class="smallcaps">Morphosyntactic countability</span> is the grammatical cluster (Allan 1980; Huddleston and Pullum 2002, 333–36): singular–plural contrast, *a*(*n*) selection, numeral compatibility, *many/few* vs. *much/little*, plural agreement, demonstrative selection, distributive quantifiers. For a given noun sense in English, its <span class="smallcaps">countability profile</span> is the pattern it shows across these diagnostics. These properties cluster tightly in *book*, partially in *cattle* and *police*, and not at all in *furniture*.
 
 These dissociations aren’t random; they follow the hierarchy proposed in §<a href="#sec:hierarchy" data-reference-type="ref" data-reference="sec:hierarchy">4</a>. Much confusion in the literature arises from sliding between levels. Claims that “mass nouns denote stuff without boundaries” conflate semantics with ontology. Claims that “count nouns have plurals” mistake one salient property for the cluster as a whole.
 
@@ -207,7 +207,7 @@ This hierarchy explains the quasi-count pattern documented in descriptive gramma
 
 <figure id="fig:matrix" data-latex-placement="t">
 
-<figcaption>Triangular structure of the noun <span class="math inline">×</span> property matrix. Properties are ordered from tight (left) to loose (right); nouns from fully count (top) to mass (bottom). The implicational boundary (dashed line) separates acceptable from unacceptable cells: no noun accepts tight properties while rejecting looser ones. Coral cells indicate marginal or variable judgments. The <em>folks</em> row shows the boundary case: loose properties accepted, tight properties degraded. Note: <em>people</em> has suppletive singular <em>person</em>; archaic/literary <em>a folk</em> survives as a different sense. The <em>people</em> row tracks the “persons” sense only; <em>a people</em> (= an ethnic group) is a distinct sense with full count syntax (<em>three peoples</em>, <em>many peoples</em>).</figcaption>
+<figcaption>Triangular structure of the noun <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>×</mi><annotation encoding="application/x-tex">\times</annotation></semantics></math> property matrix. Properties are ordered from tight (left) to loose (right); nouns from fully count (top) to mass (bottom). The implicational boundary (dashed line) separates acceptable from unacceptable cells: no noun accepts tight properties while rejecting looser ones. Coral cells indicate marginal or variable judgments. The <em>folks</em> row shows the boundary case: loose properties accepted, tight properties degraded. Note: <em>people</em> has suppletive singular <em>person</em>; archaic/literary <em>a folk</em> survives as a different sense. The <em>people</em> row tracks the “persons” sense only; <em>a people</em> (= an ethnic group) is a distinct sense with full count syntax (<em>three peoples</em>, <em>many peoples</em>).</figcaption>
 </figure>
 
 Lexicalized food terms like *mashed potatoes*, *scrambled eggs*, and *grits* show plural morphology with mass-like semantics: plural agreement but resistance to count quantifiers (\**three mashed potatoes* in the dish sense). These are frozen collocations reflecting an original count construal; they don’t participate productively in the count system examined here. Note that BrE often rationalizes to singular mass (*mashed potato*), while AmE tolerates the mismatch. [^6]
@@ -263,12 +263,12 @@ Figure <a href="#fig:pmi" data-reference-type="ref" data-reference="fig:pmi">3<
 
 <figure id="fig:pmi" data-latex-placement="t">
 
-<figcaption>PMI (pointwise mutual information) for determinative–noun combinations in COCA, plotted against determinative frequency on a <span class="math inline">log<sub>10</sub></span> scale. Triangles (coral) = tight determinatives; squares (gold) = moderate; circles (blue) = loose. Whiskers show approximate 95% Poisson CIs where counts exceed 1. If frequency drove the pattern, PMI should increase with determinative frequency (positive slope). Instead, the vertical separation tracks precision class: tight determinatives (triangles) cluster below zero regardless of frequency; loose determinatives (circles) cluster above. <em>Two</em> (1.1M tokens) and <em>numerous</em> (35k tokens) differ 32-fold in frequency but fall on opposite sides of zero.</figcaption>
+<figcaption>PMI (pointwise mutual information) for determinative–noun combinations in COCA, plotted against determinative frequency on a <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mrow><mi mathvariant="normal">log</mi><mo>&#8289;</mo></mrow><mn>10</mn></msub><annotation encoding="application/x-tex">\log_{10}</annotation></semantics></math> scale. Triangles (coral) = tight determinatives; squares (gold) = moderate; circles (blue) = loose. Whiskers show approximate 95% Poisson CIs where counts exceed 1. If frequency drove the pattern, PMI should increase with determinative frequency (positive slope). Instead, the vertical separation tracks precision class: tight determinatives (triangles) cluster below zero regardless of frequency; loose determinatives (circles) cluster above. <em>Two</em> (1.1M tokens) and <em>numerous</em> (35k tokens) differ 32-fold in frequency but fall on opposite sides of zero.</figcaption>
 </figure>
 
 <figure id="fig:dotplot" data-latex-placement="t">
 
-<figcaption>Per-million frequency of <em>three</em> N (coral) and <em>many</em> N (blue) with 95% Poisson confidence intervals, plotted on a <span class="math inline">log<sub>10</sub></span> scale. Singulatives cluster at top right (both quantifiers well attested). Quasi-count nouns show the dissociation: <em>many</em> rates overlap with singulatives, but <em>three</em> rates plummet. Intervals for high-count nouns (<em>people</em>, <em>officers</em>) are too narrow to see at this scale; intervals for small counts (<em>three clergy</em>, <em>many poultry</em>, <em>many vermin</em>) are wide. The contrast is the point: some estimates are precise, others are not. Head uses only for <em>police</em> and <em>cattle</em>; <em>many</em> excludes <em>how many</em>.</figcaption>
+<figcaption>Per-million frequency of <em>three</em> N (coral) and <em>many</em> N (blue) with 95% Poisson confidence intervals, plotted on a <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mrow><mi mathvariant="normal">log</mi><mo>&#8289;</mo></mrow><mn>10</mn></msub><annotation encoding="application/x-tex">\log_{10}</annotation></semantics></math> scale. Singulatives cluster at top right (both quantifiers well attested). Quasi-count nouns show the dissociation: <em>many</em> rates overlap with singulatives, but <em>three</em> rates plummet. Intervals for high-count nouns (<em>people</em>, <em>officers</em>) are too narrow to see at this scale; intervals for small counts (<em>three clergy</em>, <em>many poultry</em>, <em>many vermin</em>) are wide. The contrast is the point: some estimates are precise, others are not. Head uses only for <em>police</em> and <em>cattle</em>; <em>many</em> excludes <em>how many</em>.</figcaption>
 </figure>
 
 ## Existential construction probe
@@ -303,7 +303,7 @@ Third, *cattle* categorically avoids quantified existentials. Across *three*, *s
 
 ## *CGEL*’s quasi-count nouns
 
-*CGEL* identifies a class of quasi-count nouns: plural-only nouns that take plural agreement and accept *many* but resist singular forms, *a*(*n*), and low cardinals (Huddleston and Pullum 2002, 345). Such nouns represent what Corbett (2019) terms instances with “reduced number possibilities,” where a noun’s morphology, syntax, and semantics may not align. The core cases (*cattle*, *police*, *poultry*, *vermin*, *livestock*, *clergy*) show a consistent profile: they occupy the intermediate zone predicted by the hierarchy, accepting loose properties while rejecting tight ones.
+*CGEL* picks out a set of plural-only nouns (*cattle*, *livestock*, *police*, *poultry*, *vermin*) that can’t be used with low numerals but are found with high round numerals, and suggests that they “might be classified as ‘quasi-count nouns’” (Huddleston and Pullum 2002, 345). Such nouns represent what Corbett (2019) terms instances with “reduced number possibilities,” where a noun’s morphology, syntax, and semantics may not align. I add *clergy*, which *CGEL* lists among collective nouns (Huddleston and Pullum 2002, 503), because its quantifier profile is similar. These six nouns show a consistent profile: they occupy the intermediate zone predicted by the hierarchy, accepting loose properties while rejecting tight ones.
 
 The pattern is implicational. All these nouns accept *many* N and plural agreement (*many cattle*, *the police were*). Virtually all reject *a*(*n*) N and singular forms (\**a cattle*, \**one police*); *clergy* shows marginal *a clergy* in elevated registers, but this is exceptional. Low cardinals[^7] are degraded or impossible (\**three cattle*, \**five police*). But high round numerals and approximate quantifiers are acceptable (*hundreds of cattle*, *thousands of police*). This isn’t a random scatter; they peel off in the predicted order.
 
@@ -474,7 +474,7 @@ COCA frequencies confirm the offloading. For seven quasi-count/singulative pairs
 <td style="text-align: left;"><em>teenagers</em></td>
 <td style="text-align: right;">13<span>,</span>180</td>
 <td style="text-align: right;">11<span>,</span>912</td>
-<td style="text-align: right;">59<span class="math inline">×</span></td>
+<td style="text-align: right;">59<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>×</mi><annotation encoding="application/x-tex">\times</annotation></semantics></math></td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>police</em></td>
@@ -483,7 +483,7 @@ COCA frequencies confirm the offloading. For seven quasi-count/singulative pairs
 <td style="text-align: left;"><em>officers</em></td>
 <td style="text-align: right;">60<span>,</span>161</td>
 <td style="text-align: right;">3<span>,</span>956</td>
-<td style="text-align: right;">44<span class="math inline">×</span></td>
+<td style="text-align: right;">44<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>×</mi><annotation encoding="application/x-tex">\times</annotation></semantics></math></td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>cattle</em></td>
@@ -492,7 +492,7 @@ COCA frequencies confirm the offloading. For seven quasi-count/singulative pairs
 <td style="text-align: left;"><em>cows</em></td>
 <td style="text-align: right;">9<span>,</span>574</td>
 <td style="text-align: right;">3<span>,</span>865</td>
-<td style="text-align: right;">8<span class="math inline">×</span></td>
+<td style="text-align: right;">8<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>×</mi><annotation encoding="application/x-tex">\times</annotation></semantics></math></td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>clergy</em></td>
@@ -501,7 +501,7 @@ COCA frequencies confirm the offloading. For seven quasi-count/singulative pairs
 <td style="text-align: left;"><em>priests</em></td>
 <td style="text-align: right;">12<span>,</span>168</td>
 <td style="text-align: right;">2<span>,</span>876</td>
-<td style="text-align: right;">6<span class="math inline">×</span></td>
+<td style="text-align: right;">6<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>×</mi><annotation encoding="application/x-tex">\times</annotation></semantics></math></td>
 </tr>
 <tr>
 <td style="text-align: left;"><em>gentry</em></td>
@@ -809,7 +809,7 @@ Bybee, Joan L. 2010. *Language, Usage and Cognition*. Cambridge University Press
 
 <div id="ref-cheng1998" class="csl-entry">
 
-Cheng, Lisa Lai-Shen, and Rint Sybesma. 1998. “Yi-Wan Tang, Yi-Ge Tang: Classifiers and Massifiers.” *Tsing Hua Journal of Chinese Studies* 28 (3): 385–412.
+Cheng, Lisa L.-S., and Rint Sybesma. 1998. “Yi-Wan Tang, Yi-Ge Tang: Classifiers and Massifiers.” *Tsing Hua Journal of Chinese Studies* 28 (3): 385–412.
 
 </div>
 
@@ -905,7 +905,7 @@ Hackl, Martin. 2000. “Comparative Quantifiers.” PhD thesis, MIT. <https://ds
 
 <div id="ref-hu-levy2023" class="csl-entry">
 
-Hu, Jennifer, and Roger Levy. 2023. “Prompting Is Not a Substitute for Probability Measurements in Large Language Models.” *Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing*, 5040–60.
+Hu, Jennifer, and Roger Levy. 2023. “Prompting Is Not a Substitute for Probability Measurements in Large Language Models.” *Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing*, 5040–60. <https://aclanthology.org/2023.emnlp-main.620/>.
 
 </div>
 
@@ -953,7 +953,7 @@ Leivada, Evelina, Fritz Günther, and Vittoria Dentella. 2024. “Reply to Hu Et
 
 <div id="ref-lima2014" class="csl-entry">
 
-Lima, Suzi. 2014. “All Nouns Are Both Mass and Count in Yudja.” *Proceedings of SULA 7*, 109–27.
+Lima, Suzi. 2014. “All Notional Mass Nouns Are Count Nouns in Yudja.” Unpublished manuscript.
 
 </div>
 
@@ -1051,4 +1051,4 @@ Tomasello, Michael. 2003. *Constructing a Language: A Usage-Based Theory of Lang
 
 [^10]: For many speakers, colloquial *there’s three folks* is more acceptable than *there are three folks*, likely reflecting register congruence and the lower precision demands of the invariant existential. The standard agreeing form *there are* maintains the high-precision condition. *There are three guys* (equally informal but fully count) is acceptable, so the *folks* degradation isn’t purely register mismatch.
 
-[^11]: Some languages (e.g., Yudja) have been claimed to lack a grammatical mass/count distinction entirely. Recent work suggests these cases involve covert classifiers or restricted numeral semantics rather than true absence of the distinction (Lima 2014). If a language genuinely lacks morphosyntactic resources encoding individuation, the homeostatic mechanism would have nothing to operate on, and no clustering would be predicted.
+[^11]: Some languages (e.g., Yudja) have been claimed to lack a grammatical mass/count distinction entirely. In Yudja, all nouns combine directly with numerals and count quantifiers, and Lima (2014) argues that this isn’t coercion: notional mass nouns have default count interpretations. If a language genuinely lacks morphosyntactic resources encoding individuation, the homeostatic mechanism would have nothing to operate on, and no clustering would be predicted.

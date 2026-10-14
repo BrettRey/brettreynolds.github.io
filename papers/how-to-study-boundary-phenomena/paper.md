@@ -2,7 +2,7 @@
 title: "Measuring Stable Diagnostic Ambiguity: A Quantitative Workflow for Small-n Grammatical Boundary Phenomena"
 author: "Brett Reynolds"
 year: "2025"
-status: "Under review at Journal of Quantitative Linguistics"
+status: "Revise and resubmit, Journal of Quantitative Linguistics"
 canonical_url: "https://ling.auf.net/lingbuzz/009294"
 website_url: "https://brettreynolds.ca/papers/how-to-study-boundary-phenomena/"
 markdown_url: "https://brettreynolds.ca/papers/how-to-study-boundary-phenomena/paper.md"

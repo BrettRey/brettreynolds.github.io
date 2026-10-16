@@ -2,7 +2,7 @@
 title: "The homeostatic maintenance of English countability: Bidirectional inference and the stability of grammatical clusters"
 author: "Brett Reynolds"
 year: "2025"
-status: "Under review at Linguistics"
+status: "Preprint"
 canonical_url: "https://ling.auf.net/lingbuzz/009537"
 website_url: "https://brettreynolds.ca/papers/english-countability/"
 markdown_url: "https://brettreynolds.ca/papers/english-countability/paper.md"

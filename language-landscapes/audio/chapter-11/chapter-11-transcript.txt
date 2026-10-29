@@ -1,0 +1,468 @@
+Language Landscapes — Chapter 11: Negation
+Adapted narrated companion. AI narration using the author’s approved voice, including French, Japanese and Czech examples.
+
+The teaching examples and exercises are narrated, with instructions to pause. A written reference accompanies the audio.
+
+[00:00:00] 01. Title and learning objectives
+
+Chapter 11. Negation.
+
+By the end of this chapter, you should be able to explain how negation in English has evolved through Jespersen's cycle, and predict future changes. Distinguish between different types of negation: clausal, both verbal and non-verbal, sub-clausal, affixal, and pragmatic. And analyse scope relationships in negative sentences, and understand how different modal verbs interact with negation.
+
+You should also be able to identify and use non-affirmative items, such as “any”, “ever”, and “yet”, and positive polarity items, appropriately. Apply diagnostic tests to determine whether a clause is syntactically positive or negative. And understand cross-linguistic differences in responding to negative questions, and their implications for communication.
+
+Finally, you should be able to recognize asymmetries in negative meaning, and how negation interacts with scalar contexts. And analyse phrase structure trees for various types of negative constructions in English.
+
+[00:01:09] 02. Tests used in this chapter
+
+Tests used in this chapter.
+
+This chapter introduces several diagnostic techniques for analysing negation.
+
+First, the non-affirmative item test. Use words like “at all”, “ever”, or “yet” to identify negative clauses. If they work, the clause is likely negative.
+
+Second, the scope ambiguity test. Examine sentences like “I didn't finish my homework because I was at the park” to determine what falls within negation's scope.
+
+Third, the modal negation test. Compare “can't” with “mustn't” to understand different scope relationships with modal verbs.
+
+Fourth, the polarity response test. Check how different languages handle responses to negative questions, to understand cultural variation.
+
+And fifth, the positive polarity item test. Use words like “already”, “some”, and “a fair chance” to identify contexts that resist negation.
+
+[00:02:09] 03. Introduction
+
+Negation is a topic that seems extremely simple on the surface, but its underlying complexity makes it a great vehicle for understanding so many areas of the language landscape: scope, polarity, language change, grammaticalization, and exaptation.
+
+[00:02:26] 04. Language change, grammaticalization, and exaptation
+
+Language change, grammaticalization, and exaptation.
+
+“I heard not of it before,” says Bertram in Shakespeare's “All's Well That Ends Well”. You and I would say “I have not heard of it before”.
+
+Language, as you can clearly see, changes. But the changes are often surprisingly systematic.
+
+Old English, which dates from about the year four hundred fifty to eleven hundred fifty, used “ne”, simply placed before the verb, for negation. Here's an example in Old English. Its word-for-word gloss is: “no, or not, have I it before heard of”. Its translation is “I have not heard of it before”. The original spelling is in the written reference.
+
+If things had stayed this way, then the language-learner strategy of putting “no” before the relevant verb, as in “I no put it there”, would be basically the right one. It's simple, and many of the world's languages do essentially this. There is, actually, a construction in which things more or less have stayed this way: “Never have I”, followed by the rest of the sentence.
+
+But this is just one stage in what's known as Jespersen's cycle. I draw most of the following stylized description from the first chapter of Jespersen's book, “Negation in English and Other Languages”. Here's how it goes. The chapter's figure shows the stages, and we'll go through it in words.
+
+[00:03:59] 05. Jespersen's cycle: stage one
+
+Stage one.
+
+There's a problem with “no”, or “ne”, or “non”, and so on, hanging out there on its own before the verb. That initial negator often gets swallowed up when your speech apparatus fails to engage quite in time. Think about saying “Good morning!” That “good” is often hardly voiced at all: “G'morning!” Do people reliably say “I'm afraid not” with the subject “I”, “am”, and the first syllable of the next word? “'Fraid not.” “See you later” is missing “I” and “will” in their entirety, and “'kay” is short for “OK”, itself a slangy shortening of “oll korrect”, meaning “all correct”, from a brief Bostonian fad of humorous initialisms in the early eighteen hundreds. The start of a phrase is a perilous place for words to find themselves if they want to stick around.
+
+Phrase-initial “ne” was at risk of erosion. And in due course, the stressed version in Old English gave way to unstressed, which, in turn, simply gave way. But not quite yet.
+
+[00:05:07] 06. Stage two: strengthening the negator
+
+Stage two.
+
+The gradual erosion of phrase-initial elements creates little problem for cases like “Morning!” or “Afraid not.” But phrase-initial “ne” carries a meaning fundamentally different from the same sentence without it. Without a clear, reliable marker of negation, the negative meaning is often lost entirely.
+
+To compensate for a degraded “ne”, even before it had edged its way out of English entirely, we began adding extra elements to ensure the negative meaning wasn't missed. For example, “nā” in Old English directly negated nouns or adjectives, as in “nā good”, meaning “no, or not, good”. And it was used together with “ne”.
+
+Here's an example in Old English that uses several of these elements. Its word-for-word gloss is: “no, or not, shall no man with word nor with deed no evil do”. Its translation is “No man shall do any evil, neither in words nor in deeds”. The original spelling is in the written reference.
+
+[00:06:17] 07. Stage two: double negatives and the birth of not
+
+Today, “no man shall not do any evil” would mean that every man will do some evil. In Old English, though, that particular phrasing was emphatically negative. Of course, the same strategy in “I don't do no evil” is perfectly clear to Standard English speakers today, and claiming that those two negatives literally make a positive mistakes grammar for arithmetic. The contemporary “No man shall do any evil, neither in words nor in deeds” has three negatives, each propping up the next. So-called “double negatives” are still with us in some form, even in Standard English.
+
+This is the birth of today's “not”, which comes from the word spelled N-O-H-T in Old English, itself from forms like “nought”, meaning “nothing”. The Old English for “I no say” was strengthened by adding this word, giving “I no say nothing”. But this strategy to reinforce the meaning made the word “ne” even more vulnerable to disappearance, and disappear it did.
+
+[00:07:19] 08. Stage three: ne and not
+
+Stage three.
+
+The decline and eventual disappearance of “ne” continued through Middle English, which dates from about eleven hundred fifty to fifteen hundred, making way for the rise of “not”. Consider a phrase in Middle English, glossed “I no know not”, where that last word could mean “not” or “nothing”. It's a linguistic crossroads of sorts. In a process called grammaticalization, “not” was being bleached of its “nothing” meaning and becoming simply a marker of negation, equivalent to “ne”. For a time, it could be understood as either “I know nothing” or simply as “I know not”, but eventually, new generations of speakers forgot the “nothing” meaning or never learned it in the first place. The original spelling is in the written reference.
+
+Late in stage three, this new “not” was even obligatorily paired with “ne”, as in the French “Je ne sais pas”, propelled by the evolving sound patterns of English, coupled with the desire for clear and unambiguous communication.
+
+As Middle English segued into Early Modern English, which dates from about fifteen hundred to seventeen hundred, with the devoicing of “ne” and the redundancy of two negators on opposite sides of the verb, “ne” completed its disappearing act, and double negatives lost favour. According to the usage dictionary edited by Gilman, the grammarian Lowth, in seventeen sixty-two, thought the old emphatic multiple negation obsolete, though it lived on in conversation and letters.
+
+But that's only half the story.
+
+[00:09:02] 09. Stage four: German and the position of not
+
+Stage four.
+
+“Not” arrived late in English and it was positioned late in the sentence, which caused a bit of a problem. In German, where a similar process occurred, the negator “nicht” can be delayed a lot, isolating it from the much earlier verb location. On page ten of that book, Jespersen describes the result like this: “the result being that the hearer or reader is sometimes bewildered at first and thinks that the sentence is to be understood in a positive sense, till suddenly he comes upon the nicht, which changes everything.”
+
+[00:09:42] 10. Stage four: the rise of do
+
+English was saved from this kind of confusion by another change that was going on around the same time, a proliferation of uses of “do”. For a less stylized account of “do”, the chapter cites Denison, nineteen eighty-five.
+
+On this stylized account, one thing that “do” did was to add emphasis: “do come and see us, darling” may not have been any more sincere than it is now, but at least it sounds emphatic. It was also stressed. And there were already other auxiliary verbs which were followed by “not”: “I could not go”, “it might not rain”, and so on. This emphatic “do”, with its exaggerated stress, was a perfect candidate for hosting the negator. The end result was do-support, where the auxiliary “do” serves as a solid anchor for “not”, preventing any ambiguity about the presence of negation. Chapter 10 covers basic do-support.
+
+“Do” started out as a mere helper but quickly became an indispensable part of English negation. By the time of Early Modern English, constructions without “do”, like “I know not”, became increasingly rare and marked as formal or archaic. The rise of “do” in negation coincided with its spread in other constructions as well, such as interrogatives, as in “Do you know?”, and emphatics, as in “I do want that”. Do-support is unique to English among the Germanic languages.
+
+[00:11:10] 11. Stage five: contraction
+
+Stage five.
+
+With the establishment of “do” as a crucial part of negation, “not” once more became dispensable, or at least reducible. A new variation emerged: contraction, with “do not” naturally evolving into “don't”. Other forms followed suit: “does not” became “doesn't”, and “did not” became “didn't”. And contracted forms of other auxiliary verbs cropped up: “can't”, “won't”, “isn't”, even “amn't” for a while.
+
+These contractions, now negative inflections, have become so ingrained in the language that the uncontracted forms can sound overly formal, even pedantic, in everyday conversation.
+
+[00:11:56] 12. Box: negative auxiliary verbs
+
+Negative auxiliary verbs.
+
+You may have been told to write “do not” instead of “don't”, “is not” instead of “isn't”, “will not” instead of “won't”, and so on. If so, you were misguided.
+
+Before the sixteen hundreds, “not” was obligatorily stressed, but in the early sixteen hundreds, it started to lose that requirement. In writing, the new unstressed form was sometimes spelled N-apostrophe-T, especially in comedic plays and when characters with country accents or nonstandard dialects spoke. Brainerd, in nineteen eighty-nine, concluded that the contracted form seems to have started among speakers of nonstandard English. This is the origin of the stigma and the subsequent avoidance.
+
+Fast forward to the nineteenth and twentieth centuries and you'll find N-apostrophe-T popping up everywhere in writing, not just in plays and novels, but also in personal letters, newspapers, and various descriptions. In the twenty-first century, N-apostrophe-T is ubiquitous. Proscribing its use in formal writing is a pedantic and outdated view. In reality, these forms are not only efficient but also reflect the natural rhythm of today's language. Their use should be embraced, not shunned.
+
+[00:13:18] 13. Stages six and seven: the figure
+
+Stages six and seven.
+
+The chapter's figure is a stylized illustration of Jespersen's cycle, from Old English to a possible future English. It has seven rows, one for each stage, and each row shows a version of the sentence that means roughly “I don't know”. Arrows in the figure link each element to its descendant in the next row.
+
+Stage one is the version in Old English, in which the negator “ne” comes before the verb and is stressed. In stage two, the “ne” is unstressed, and a second negator, the word that became “not”, follows the verb. In stage three, the “ne” has gone, and the sentence is “I know not”. In stage four, the auxiliary “do” appears: “I do not know”. In stage five, the sentence is “I don't know anything”. In stage six, it is “I dunno anythin'”. And stage seven, a possible future English, is “I know en”, with “en” spelled E-N.
+
+[00:14:25] 14. Stages six and seven: contraction keeps going
+
+And still the contractions keep contracting. The T on the end of “can't” is hardly audible most of the time, and the only way to distinguish between it and its positive form is the difference in their vowels. The positive “can” usually has a reduced vowel, a schwa, while “can't” keeps the fuller vowel of “cat”. And “don't”, in “I don't wanna”, for example, is often truncated to something like “doe”. Together with “know”, we get “I dunno”, the negator and verb fused into a single word, little more than a prepended D sound. In fact, you can just sort of intone the standard pitches of “I don't know” without so much as moving your lips, and you'll usually be understood.
+
+This brings up the possibility that we've cycled back to stage two, where we're reaching for another element to shore up the negative. It could be anything, but perhaps, this time it will be “anything”. It's possible to imagine a future English in which “don't” is diminished to the point where people start using “anything” obligatorily, where it starts to have its central meaning bleached away, and where it becomes the new negator.
+
+The stressed syllable in “anything” has the vowel of “bed”, so perhaps this new “not” is reduced to “en”, spelled E-N and pronounced like the letter N. Is it likely? I think “en”, but we'll have to wait and see.
+
+[00:16:00] 15. Check your understanding: Jespersen's cycle
+
+Check your understanding: Jespersen's cycle.
+
+Before moving on, test your grasp of language change.
+
+One. Can you explain why phrase-initial negators like “ne” are vulnerable to disappearance?
+
+Two. What role did do-support play in stabilizing English negation?
+
+Three. Do you see evidence of stage five to six contraction in your own speech, for example “dunno”, or a reduced “can't”?
+
+Pause the recording while you consider your answers.
+
+[00:16:34] 16. Summary of the language change section: change is systematic
+
+Summary.
+
+We all know that language changes. Some of us may have the pre-modern idea that we speak a fallen language, an idea rooted in the concept of a golden age or a primordial state of grace from which English has since degenerated, though no one is really sure what that was or when it prevailed. I hope this stylized history and weak attempt at prognostication suggest to you that language change too is rule-governed, natural, and eternal, not simply the accumulated rust of a once gleaming metal exposed to the elements. It is decidedly not the case that one can simply look at the way English is today and discern some kind of logical structure, but the structure is there, and the logic behind it can be uncovered.
+
+[00:17:23] 17. Summary of the language change section: English is not illogical
+
+I've seen many teachers say that English is crazy or illogical. It isn't. Like any language, it's a wonderful, complex, massively multi-player game with many interacting logics. Calling English crazy or arbitrary when people are learning it, whether learning to speak it or learning to teach it, is counterproductive. Telling learners that English is illogical can foster unnecessary apprehension or even disillusionment. Students don't have to know the history of every word and grammatical system, but, for teachers, understanding something about the structure of language change and the forces driving it reveals that there are reasons and explanations if we're interested in looking for them. It helps us to approach teaching and learning with a sense of curiosity and discovery, rather than frustration and confusion.
+
+[00:18:16] 18. Summary of the language change section: errors and Standard English
+
+The most important idea behind this potted history and projected future of negation is that forms come and go for reasons. Many of the errors that English-language learners make stem from those same reasons, and the mistakes often recapitulate plausible past or future forms of the language; they follow the logic that drives language change. Think of how “pease” became “peas”. It was a mistake, but it made so much sense to so many that it overwhelmed the original form. Likewise, students' mistakes are often insightful and motivated, not foolish or risible.
+
+This is not an attempt to justify an anything-goes attitude. Standard English, the subject of Chapter 2, is real, and students of English will mostly want to learn the Standard variety. Patterns like “I no go” should be recognized as the mistakes they are, but they should not be cause for frustration or distress on your part or your students'. When language learners make the correct choice, respect them for their insight into the peculiar way of looking at the world shared by English speakers. For your part, understanding how the language works often provides insight into where the confusion is coming from. It allows teachers to point out analogous aspects that are already familiar or that may be the next points of departure, and to suggest ways to improve.
+
+[00:19:46] 19. Scope
+
+Scope.
+
+The scope of a problem is how big it is, how many things it impacts. A small-scope project might involve developing a single mobile application for a local business, while a large-scope project could be constructing a multi-functional smart city infrastructure. The scope of an investigation is the breadth and diversity of the questions asked, while a law's scope refers to the range of activities, individuals, or situations it covers. In “five times three, plus two”, the multiplication operator has scope only over five and three, while in “five times, the quantity three plus two”, it has scope over five and the sum of three and two. In the realm of programming, the scope of a variable dictates where the variable can be accessed or modified within the code.
+
+Scope is like that in linguistics too. If one element has scope over some part of a clause or phrase, then it has a semantic effect on that part. Take the negative sentence “I didn't finish my homework because I was at the park”. What is within the scope of negation? In the most obvious reading, the homework was not completed, and the reason for my failure to do so was that I was at the park. Here the scope of negation includes only “finish my homework”. That's what didn't happen. But there is a second reading in which everything after “didn't” is in the scope of negation. Under this reading, I'm negating the whole claim that I finished my homework, because I was at the park. In other words, it was not being at the park that resulted in my homework getting finished.
+
+[00:21:29] 20. Scope: not many and many not
+
+Or consider two sentences. First, “Not many friends came.” Second, “Many friends didn't come.” In the first, “many” is within the scope of negation: the number of friends who came is small. In the second, “many” is outside the scope of negation: the number of friends who did not come is large.
+
+These may seem like the same thing, but if you have only a few friends, then the first could be true while the second would be false, a semantic difference.
+
+[00:22:05] 21. Scope and modal auxiliary verbs: can
+
+Scope and modal auxiliary verbs.
+
+Interestingly, modal auxiliary verbs have different implications for scope of negation. Listen to four examples, in two pairs. For “can”: “You can do it”, meaning “you're able to”. And “You can't do it”, meaning “you're unable to”. For “must”: “You must do it”, meaning “you're obliged to”. And “You mustn't do it”, meaning “you're obliged to not”.
+
+If you can do something, you're able to do it. There are two ways to negate this: one, you are unable to do it, and two, you're able not to do it, to avoid doing it. The only way to read “can't” here is the first way, with ability negated. So here we say that negation has scope over the modal; “can do it” is negated.
+
+In the rare case that you want to use “can” to say you're able to avoid doing it, then the normal way is to say “you can not do it”, as in “It's OK, you can not go to school today”, with a deliberate pause before “not”.
+
+[00:23:09] 22. Scope and modal auxiliary verbs: must
+
+When we go through the same analysis with “must”, we get a different result. If you must do something, you're obliged to do it. There are again two ways to negate this: one, you are not obliged to do it, a lack of obligation, and two, you're obliged not to do it, a prohibition. The only way to read “mustn't” here is the second way, as a prohibition. So here we say that negation does not have scope over the modal; only “do it” is negated, not “must”.
+
+Here, there is no simple way to negate “must” without resorting to completely different constructions or vocabulary, such as “it is not the case that you must do that”, or more simply “you're not obliged to”.
+
+“Mustn't”, or “must not”, is unusual here, but it isn't alone. “Shouldn't” patterns the same way: in “You shouldn't do it”, the advice is not to do it, so the modal sits outside the negation. Others, like “can't”, have their modal meaning within the scope of negation. So the pattern varies from modal to modal.
+
+[00:24:16] 23. Quick self-check: scope
+
+Quick self-check: scope.
+
+Test your understanding of scope with these questions.
+
+One. In “Not many students came”, what has scope over what?
+
+Two. Why does “You can't do it” mean inability, rather than the ability to not do it?
+
+Three. What's the scope difference between “I didn't call because I was angry” and the reading where the reason itself is negated?
+
+Pause the recording while you consider your answers.
+
+[00:24:50] 24. Types of negation
+
+Types of negation.
+
+There is an appealing, but ultimately incorrect sense that scope of negation is related to types of negation: clausal negation, including verbal and non-verbal negation, sub-clausal negation, and affixal negation. But it is not the case that clausal negation has scope over the whole clause or that affixal negation has scope only over a word. Chapter 8 has more on affixation and morphology. Still, it's useful to understand the different types of negation because of how it affects other parts of the sentence.
+
+The seeming relationship is due to the intuition that, if a negative marker lacks scope over a verb, the verb, and therefore the clause, is not negative. And yet we've already seen that “can't” and “mustn't” scope differently. I assure you that both of the negated examples, “You can't do it” and “You mustn't do it”, are examples of verbal negation, which means they're examples of clausal negation even though their scope is quite different.
+
+How can this be? Once again, it's because of the difference between syntax and semantics. Scope is a semantic concept, while the different types of negation are syntactic types. Semantically, “can't” and “mustn't” are different. Syntactically, they're the same.
+
+[00:26:19] 25. Types of negation: the diagram
+
+The chapter's diagram shows these syntactic types as a tree. At the top is negation, labelled syntactic types. It divides into three types: clausal, sub-clausal, and affixal. The clausal type divides further, into verbal and non-verbal.
+
+Pragmatic negation, discussed at the end of this section, is a matter of meaning rather than syntax, and doesn't belong in this taxonomy. It's another case of one label naming two things. Chapter 3 has a box on that.
+
+[00:26:56] 26. Clausal negation
+
+Clausal negation.
+
+Clausal negation makes a clause syntactically negative. It can be realized as verbal negation, as in these five examples. “It isn't good”, where the negation is in the negative form of an auxiliary. “It doesn't look good”, again a negative form of an auxiliary. “It is not good”, where “not” is an adverb. “It is never good”, where “never” is an adverb. And “It is rarely good”, where “rarely” is an adverb.
+
+Or it can be non-verbal negation, as in these two examples. “No illness is good”, where “no” is a determinative. And “I know neither manager”, where “neither” is a determinative.
+
+A key syntactic difference emerges when there is no auxiliary verb present. Verbal negation requires do-support in such cases, as in “It doesn't look good”, while non-verbal negation does not, as in “I know neither manager”. In other words, the difference results in different syntax.
+
+In the non-verbal examples, the negative markers sit inside the NP, as the determiner of “illness” and of “manager”. They aren't attached to the verb. And yet, the clauses are still syntactically negative. The chapter comes back to this in the section on polarity items, which gives tests for checking whether a clause is negative.
+
+[00:28:21] 27. Sub-clausal negation
+
+Sub-clausal negation.
+
+Sub-clausal negation refers to positive clauses that include negation, as in these three examples. “I saw him not for the first time.” “Not coincidentally, they won.” “We ended up going nowhere.”
+
+In the first, this is quite clear: I did indeed see him, and it wasn't the first time. Similarly, in the second, they did indeed win, and it wasn't coincidental. The third, though, seems negative: In the end, we didn't go anywhere. But the main clause of the third is not about going but about ending up, and we did indeed end up with some result, even if it was a non-peripatetic one. Though it might seem like clausal negation, it is sub-clausal.
+
+Sub-clausal negation may be confused with non-verbal negation. After all, the negated elements in these examples are not VPs. But, in non-verbal negation, the clause is negative. In sub-clausal negation, it is positive. The polarity tests later in the chapter give a way to check.
+
+In case you were wondering, clausal and sub-clausal negation can be combined, as in “Not coincidentally, they didn't win.” “Not coincidentally” exhibits sub-clausal negation, and “they didn't win” is clausal negation of the verbal subtype.
+
+[00:29:50] 28. Affixal negation
+
+Affixal negation.
+
+Unlike clausal or sub-clausal negation, which modify the meaning of clauses or phrases, affixal negation directly alters individual words. Affixal negation represents a morphological process, covered in Chapter 8, where prefixes are attached to words, particularly adjectives and nouns, to negate their original meanings. Common prefixes used in affixal negation include “un”, as in “unfortunately”, “unidentified”, “unlike”, “unable”, and so on. And “in”, as in “independent”, “inevitable”, “invisible”, “insane”, and so on. And “non”, as in “non-profit”, “nonfiction”, “non-stop”, “nonexistent”, and so on.
+
+Negative suffixes are rare but include “less”, as in “homeless”, “endless”, “useless”, and so on. And “free”, as in “carefree”, “tax-free”, “fat-free”, and so on. And “proof”, as in “waterproof”, “bulletproof”, “foolproof”, and so on.
+
+[00:30:49] 29. Pragmatic negation
+
+Pragmatic negation.
+
+Lastly, pragmatic negation conveys its meaning indirectly, as seen in “She finished the race, albeit slowly”, where the slowness implies she was not fast. Here are some other constructions like these.
+
+“Like hell we will.” “Fat chance that will happen.” “You'll take it over my dead body.” “He'll clean his room when pigs fly.” “In your dreams will I ever lend you the car again.” “As if I would ever trust him.” “Yeah, right, like you're going to start working out every day.” “Good luck with getting that proposal approved by tomorrow.”
+
+In each, the book highlights the part that signals the negative meaning: “like hell”, “fat chance”, “over my dead body”, “when pigs fly”, “in your dreams”, “as if”, “yeah, right, like”, and “good luck”.
+
+These are not typically the stuff of English-language classes. Perhaps they should be, but I would want to look at the frequencies of each form and consider the opportunity costs, discussed in Chapter 8, before I invested my students' precious time in them. Chapter 16, on pragmatics, says more about how expressions convey meaning beyond their literal content.
+
+[00:32:03] 30. Polarity items: non-affirmative items
+
+Polarity items. Non-affirmative items.
+
+We're now ready to answer the question raised earlier: how do we tell if a clause is positive or negative? One way is through syntactic tests using non-affirmative items. These items work in interrogative and negative environments, but they're often ungrammatical in affirmative environments. Here are three sets of examples, with “at all”, “ever”, and “yet”.
+
+“Does that make sense at all?” That's interrogative. “That doesn't make sense at all.” That's negative. But “That makes sense at all” is positive, and ungrammatical.
+
+“Does that ever make sense?” Interrogative. “That doesn't ever make sense.” Negative. “That ever makes sense.” Positive, and ungrammatical.
+
+“Does that make sense yet?” Interrogative. “That doesn't make sense yet.” Negative. “That makes sense yet.” Positive, and ungrammatical.
+
+[00:33:02] 31. Box: overlap between interrogatives and negatives
+
+Overlap between interrogatives and negatives.
+
+If it hasn't already hit you, take a moment to think about how negation and interrogatives may be connected before going on.
+
+Just as most interrogative clauses need do-support without an auxiliary in the corresponding declarative, for example “They speak English” becoming “Do they speak English?”, a negative clause needs do-support if there's no auxiliary in the corresponding affirmative clause, for example “They speak English” becoming “They do not speak English.”
+
+Now, we've seen another area of overlap: non-affirmative items are natural in both negative and interrogative clauses.
+
+[00:33:47] 32. Applying the tests: friends and verbal negation
+
+So, if you can add “at all”, “ever”, or “yet”, you are unlikely to have a positive clause. Let's apply these tests to examples we've already seen.
+
+“Not many friends came yet.” That's negative. “Many friends didn't come at all.” Also negative.
+
+As you can see, this applies both to verbal negation and to non-verbal negation. First, verbal negation. “It isn't ever good” is negative. “It isn't any good at all” is also negative. But “It is ever good” is positive, and ungrammatical. And “It is any good at all” is positive, and ungrammatical.
+
+[00:34:29] 33. Applying the tests: non-verbal negation and approximate negators
+
+Now non-verbal negation. “No illness is ever good” is negative. But “An illness is ever good” is positive, and ungrammatical. “I know neither manager yet” is negative. And “I know both managers yet” is positive, and ungrammatical.
+
+Perhaps surprisingly, this holds even for approximate negators like the adverb “rarely” and the determinative “few”. “I rarely ever go” is negative. “I ever go” is positive, and ungrammatical. “Few problems ever persist” is negative. “Many problems ever persist” is positive, and ungrammatical.
+
+[00:35:10] 34. Other non-affirmative items
+
+“At all”, “ever”, and “yet” are by no means the only non-affirmative items. Others include the italicized words in these examples.
+
+“I haven't tried much” is negative. “I have tried much” is positive, and ungrammatical. “I haven't had anything to drink” is negative. “I have had anything to drink” is positive, and ungrammatical. “She didn't touch a drop” is negative. “She touched a drop” is positive, and the book marks it with a question mark, to show that it sounds doubtful. “He wouldn't lift a finger to help” is negative. “He would lift a finger to help” is positive, and also marked with a question mark.
+
+To be clear, non-affirmative items are not ungrammatical in all positive environments. Israel, in his 2011 book, treats non-affirmative items in simple positive clauses as unacceptable, even apparently ungrammatical. Me, I'm not so sure. For example, “I think literally anything would please her” is positive, and perfectly fine. So is “That's much better.” It's just that there are limits, certain constructions, environments, and meanings for which these items won't work.
+
+[00:36:26] 35. Box: non-affirmative items in other languages
+
+Non-affirmative items in other languages.
+
+If you find the concept of non-affirmative items intriguing, it's worth noting that such linguistic features are by no means limited to English. In fact, it's likely that they occur in most languages. Here's a range of examples. In each, the book highlights the item that does the work of “at all” or “even”. For each language, I'll give the translation and the gloss of the highlighted item. The full glosses and spellings are in the written reference.
+
+Japanese. “Hitokoto mo ittenai.” That's “I didn't say a single word.” The highlighted word glosses as “one word”, and the particle after it as “even”.
+
+Nishnaabemwin, from Valentine's 2001 reference grammar, page eight forty-three. The translation is “Perhaps nothing at all can be done.” The highlighted word, the last in the sentence, glosses as “at all”.
+
+Shilluk, with a sentence supplied by Bert Remijsen and Otto Gwado in a personal communication in December twenty twenty-four. The translation is “He is definitely not beating me.” The highlighted word, the last in the sentence, glosses as “at all”.
+
+Persian. The translation is “He didn't say even one word.” The highlighted words gloss as “one” and “even”.
+
+Amharic. The translation is “He didn't work at all.” The highlighted word glosses as “little”, with a focus marker.
+
+Czech. “Nechtěl jsem promarnit sebemenší šanci.” That's “I didn't want to waste even the slightest chance.” The highlighted word glosses as “self-smallest”.
+
+And Irish. The translation is “She saw no light whatsoever.” The highlighted words gloss as “light or light”.
+
+[00:38:23] 36. Positive polarity items
+
+Positive polarity items.
+
+Positive polarity items are the yin to the yang of non-affirmative items. While the latter flourish in negative and interrogative environments, positive polarity items naturally occur in positive, affirmative contexts. These items, such as “some”, “already”, and “somewhat”, sound odd or outright ungrammatical in negative sentences. Consider these examples, where “a fair chance” is intended as roughly “good odds”.
+
+“I already know some of the answers.” That's positive, and fine. “I don't already know some of the answers.” That's negative, and the book marks it with a question mark, to show that it sounds doubtful. “She has a fair chance of winning.” Positive, and fine. “She doesn't have a fair chance of winning.” Negative, and again marked doubtful.
+
+In the positive examples, the positive polarity items are perfectly at home, but they are far less natural with negation. Yet, just like non-affirmative items, these items aren't entirely limited to one environment; they can sometimes appear in negative clauses. For example, “Before you know it, there won't be any left”.
+
+In fact, if anything, they're less polarity sensitive than the negative items. Here is Israel, from page twenty-eight of his 2011 book: “While the licensing conditions for non-affirmative items are overt, those for positive polarity items are not: non-affirmative items must be triggered; positive polarity items need only avoid being anti-triggered.” To be sure, though, they are more likely in positive environments.
+
+Other positive polarity items, drawing on Israel's catalogue, pages two fifty-eight to two sixty-five, include: “a couple of”, “a little bit”, “a thing or two”, “also”, “before you know it”, “by far”, “dribs and drabs”, “galore”, “scads”, “so”, “some”, “the whole shebang”, “too”, “utterly”, and others.
+
+[00:40:37] 37. Pattern recognition: polarity items
+
+Pattern recognition: polarity items.
+
+Notice the systematic pattern in polarity sensitivity.
+
+First, non-affirmative items, such as “any”, “ever”, and “yet”, are licensed by downward-entailing contexts, such as negation, questions, conditionals, and “few”.
+
+Second, positive polarity items, such as “some”, “already”, and “a fair chance”, resist these same contexts.
+
+Third, both can appear in unexpected environments: a non-affirmative item, “anything”, in “I think anything would work”, and a positive polarity item, “before you know it”, in a negative clause, as in “Before you know it, there won't be any left”.
+
+Why might this pattern exist? Consider how information flows up and down in these contexts.
+
+Pause the recording while you think about it.
+
+[00:41:30] 38. The meaning of negatives: asymmetries
+
+The meaning of negatives. Asymmetries.
+
+“He's not third in line” means just that, plain and simple: “he is anything but number three”. He could be first or second; he could be five hundred and twelfth. In contrast, “not ten meters from me” means “less than ten meters from me”, according to Jespersen, page eighty-one. There is an asymmetry there that is bound up with the structure of the scale. “He spends four thousand dollars a year” and “He lives on four thousand dollars a year” have almost the same meaning, but “He doesn't spend four thousand dollars a year” suggests he's thrifty, while “He doesn't live on four thousand dollars a year” suggests that four thousand dollars wouldn't be enough.
+
+[00:42:21] 39. Polarity interpretation: the wallet
+
+Polarity interpretation.
+
+You've gone home from your job in Tokyo, and you realize you don't have your wallet with you. You call your Japanese co-worker, and explain your situation, but you're told nobody knows anything about the wallet. In desperation, you ask “Isn't it on my desk?” In Japanese, that's “tsukue no ue ni nai?” And you get a crisp “hai”. “Hai” is affirmative, approximating “yes”, but what does “yes” mean here? What is being affirmed?
+
+In English, whether you ask the question in the positive, “Is it on my desk?”, or in the negative, “Isn't it on my desk?”, “yes” is normally interpreted the same way: as an affirmation that the wallet is there.
+
+[00:43:11] 40. Polarity interpretation: English, Japanese, and others
+
+In Japanese, on the other hand, the negatively posed “tsukue no ue ni nai?” and the positively posed “tsukue no ue ni aru?”, meaning “Is it on my desk?”, require opposite responses affirming or denying the polarity of the question. Responding with “hai” to the negative formulation, “tsukue no ue ni nai?”, means agreeing with the negative polarity of the question: “hai” means “Yes, it is not there.” In contrast, if you ask without the negative, “tsukue no ue ni aru?”, “hai” means “Yes, it is there.”
+
+This shows that the meaning of a response isn't predictable from language alone, but partly determined by cultural expectations. And this isn't a uniquely English and Japanese difference. There are many languages that follow the English approach, and many that follow the Japanese.
+
+In other cases, an affirmative response could mean, “I see why you're asking that,” “that's an interesting observation,” “let me think about it,” or “that might be so.” Even within English, a drawn-out “yes” or “yeah” could just mean “Good idea, I'll go and check your desk.”
+
+For these reasons, it's often useful, in situations where at least one party is not reasonably familiar with these potential quagmires, to avoid negatively phrased questions and to respond unambiguously. An answer like “I see it” or “it's not there” isn't susceptible to misunderstanding the way a simple “yes” or “no” is.
+
+[00:44:47] 41. Beyond simple polarity: hunting for exceptions
+
+Beyond simple polarity.
+
+At this point, you might have formed a tidy generalization: “Non-affirmative items like ‘any’ and ‘ever’ only appear in negative and interrogative contexts.” But remember the counterexample habit from Chapter 1. When faced with such a clean rule, start hunting for exceptions.
+
+Look again at the section on polarity items. We saw that “I think literally anything would please her” is perfectly grammatical despite being positive. Why? The verb “think” isn't negative, the clause isn't interrogative, yet “anything” is licensed. Search for more patterns. Here are five sentences, each with its environment.
+
+“If you see anything suspicious, call me.” That's a conditional. “She's the smartest person I've ever met.” A superlative. “I doubt he'll ever understand.” An inherently negative predicate. “Few people have ever climbed that mountain.” An approximate negator. And “That's the last thing I'd ever do.” An extremity expression.
+
+[00:45:54] 42. Beyond simple polarity: the revised generalization
+
+These environments, conditionals, superlatives, inherently negative predicates like “doubt” and “deny”, approximate negators, and extremity expressions, all license non-affirmative items despite not being syntactically negative or interrogative. What unites them? They're all “downward entailing” contexts: if few people have climbed Mount Everest, then even fewer have climbed it barefoot. If that's the smartest person you've met, then it's also the smartest blonde person you've met.
+
+The revised generalization: “Non-affirmative items prefer downward-entailing contexts, which include but aren't limited to negation and questions.” This more sophisticated understanding explains both the core cases and the apparent exceptions.
+
+Now test this with “yes” and “no” responses across languages. Ask speakers of French, Japanese, or Mandarin how they'd answer negative questions. You'll discover that the English pattern of ignoring question polarity, where “yes” means “it is there” regardless of how the question is asked, is far from universal. Some languages have three-way systems, others have special words for agreeing with negative propositions. Each discovery refines our understanding of how polarity works across human language.
+
+[00:47:17] 43. Exercise: appropriate polarity items
+
+Exercise: appropriate polarity items.
+
+Choose a CEFR or CLB level and use the ideas from Chapter 8 to identify three negative and three positive polarity items that are worth your students' time and attention. Identify three of each which are not.
+
+Pause the recording while you work on this.
+
+[00:47:40] 44. Phrase structure: verbal negation
+
+Phrase structure.
+
+Verbal negation.
+
+The phrase structures for clausal negation are very similar to those for positive constructions. Let's start with verbal negation with a nice simple clause: “I can't wait”. The chapter's figure shows two syntax trees side by side, one for “I can't wait” and one for “I do not ski”.
+
+In the tree for “I can't wait”, the clause has two parts: a subject, which is an NP consisting of the pronoun “I”, and a head, which is a VP. The VP has two parts: its head, the auxiliary verb “can't”, and a complement, which is itself a VP, whose head is the verb “wait”.
+
+This is exactly the same phrase structure as the positive clause “I can wait”, or “she won't fail”, or “you should try”. That's because “can't” is simply the negative form of “can”, “won't” of “will”, and so on. In fact, any clause with a pronoun plus auxiliary verb plus lexical verb would have this structure. One note: in the CGEL framework, the complement of the VP is not just a VP but a whole clause, so that “wait” is a verb, which is the head of a VP, which is the head of a clause, and that clause is the complement. This is a better theoretical analysis for reasons I won't go into, but to keep things simple, I'm going to fudge and just call it a VP in this book.
+
+Similarly, there's nothing at all special about do-support for negation. A clause like “I do not ski” has exactly the same structure as “she is always skiing” or “you should really come”. In the tree for “I do not ski”, the VP has three parts: its head, the auxiliary “do”; a modifier, an adverb phrase whose head is the adverb “not”; and a complement, a VP whose head is the verb “ski”.
+
+[00:49:42] 45. Phrase structure: negative imperatives
+
+The only slightly odd structure is negative imperatives, such as “don't worry”, “don't go away”, “don't tell me what to do”, “don't be afraid”, and so on. These all require do-support. Most auxiliary verbs are impossible here, and “be”, while possible, still requires do-support.
+
+The chapter's next figure shows the tree for “Don't be afraid”. The clause has no subject. Its head is a VP, whose head is the auxiliary “don't” and whose complement is another VP. That VP has the auxiliary “be” as its head, and an adjective phrase as its complement, with “afraid” as the adjective.
+
+[00:50:29] 46. Phrase structure: non-verbal negation
+
+Non-verbal negation.
+
+This is the other kind of clausal negation, but again, there's no special structure. “No” and “neither” are just determiners. The fact that they are negative has no bearing on the phrase structure. The clauses in the chapter's next figure could just as easily be for positive determiners like “some”, “many”, or “all”. Nor would it change for approximate negators like “few” or “hardly any”.
+
+The figure shows two trees. In “No injuries were reported”, the clause has a subject NP and a head VP. The subject NP has a determiner, a DP whose head is the determinative “no”, and a head noun, “injuries”. The VP has the auxiliary “were” as its head, and a VP complement headed by the verb “reported”. In “Neither side has all the answers”, the subject NP again has a determiner, a DP headed by the determinative “neither”, and the head noun “side”. The VP's head is the verb “has”, and its object is the NP “all the answers”.
+
+[00:51:35] 47. Phrase structure: never did he try
+
+That's not to say there are no interesting constructions at all. There is a slightly older construction, with “never”, then an auxiliary verb, then the subject, as in “never did he try”. The Corpus of Historical American English, or COHA, suggests its use is fading, while the Google Ngram Viewer shows a strong resurgence starting around the year two thousand. Here “never” has been fronted, like an interrogative phrase, as Chapter 10 describes in the section on subject-auxiliary inversion and fronting, and this fronting has triggered subject-auxiliary inversion. As a result, we can expect a structure similar to the one in that chapter's figure for “what can you”.
+
+The actual tree is in the chapter's figure for “Never did he try”. The clause has a preposed element, the adverb phrase “never”, followed by a clause whose own preposed element is the auxiliary “did”, followed by a clause with the subject, the pronoun “he”, and a VP. In that VP, the head and the modifier are gaps, linked back to “did” and “never”, and the complement is a VP headed by the verb “try”.
+
+“Nor did he have any idea” is a similar example, but with a coordinator. Chapter 18 covers coordination.
+
+[00:52:59] 48. Phrase structure: sub-clausal and affixal negation
+
+Sub-clausal and affixal negation.
+
+I expect you're getting the idea by now that negation poses very few phrase-structure issues. That happy situation continues to hold with sub-clausal negation. Consider the chapter's figure for “I saw him not for the first time”, one of the sub-clausal examples from earlier. Nothing notable comes of adding the adverb “not”. In the tree, the subject is the pronoun “I”, an NP. The head VP has the verb “saw”, an object NP, “him”, and a modifier, the PP “not for the first time”.
+
+And, of course, affixal negation only changes the internal structure of various words; phrase structure is not affected.
+
+[00:53:48] 49. Phrase structure summary
+
+Phrase structure summary.
+
+The purpose of the trees, as I've said, is to help you see the syntax at a glance. The trees in this section all recapitulate structures you've seen in previous chapters, providing a good opportunity for review. Deliberate practice with drawing trees will be invaluable to you in improving your ability to categorize words and phrases and to understand phrase structure.
+
+[00:54:18] 50. Summary
+
+Summary.
+
+Negation follows the same logic as the rest of English syntax: scope, polarity licensing, and phrase structure, even when the surface forms look irregular. The practical dividend is that learner errors in negation often recapitulate historical patterns or follow productive analogies. A student who says “I no go”, an ungrammatical example, is applying a logic that drove English through several stages of Jespersen's cycle. Knowing that won't make the error correct, but it will keep you from treating it as random.

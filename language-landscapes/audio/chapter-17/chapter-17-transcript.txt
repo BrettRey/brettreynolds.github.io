@@ -1,0 +1,792 @@
+Language Landscapes — Chapter 17: Conversations
+Adapted narrated companion. AI narration using the author’s approved voice.
+
+The teaching examples and exercises are narrated, with instructions to pause. A written reference accompanies the audio.
+
+[00:00:00] 01. Title and learning objectives
+
+Chapter 17. Conversations.
+
+By the end of this chapter, you should be able to analyse the structure and organization of natural conversation beyond simple turn-taking. Identify key conversational phenomena, including repair, overlap, and collaborative completion. And understand how speakers build and maintain common ground through conversational moves.
+
+You should also be able to recognize the role of embodied actions, such as gestures, gaze, and posture, in conversation. Analyse how power, identity, and social relationships are constructed through talk. And understand how digital communication reshapes traditional conversational patterns.
+
+Finally, you should be able to apply conversation analysis techniques to authentic spoken interactions. And appreciate conversation as a complex, self-organizing social system, rather than as rule-following.
+
+[00:00:58] 02. Opening scene: Jim and Nao, first part
+
+The chapter opens with a conversation between two colleagues, Jim and Nao. The setting is the staff lounge, where Jim's colleague sees him. In the written chapter, margin notes label some of the moves. I'll list them after the scene.
+
+Nao says, “Oh sorry, am I interrupting something?”
+
+Jim says, “No no, just...” He closes his laptop. “I was reviewing this chapter on conversation, actually. Kind of perfect timing, huh?”
+
+Nao leans forward and says, “Oh? What kind of...”
+
+Jim's reply overlaps the end of Nao's question. He says, “It's for a textbook I'm writing. But I'm stuck because...” He sighs and gestures vaguely. “It feels too abstract, you know? Like, all formal terms and...”
+
+Nao says, “And you're not actually showing how it works.”
+
+Jim says, “Exactly! Like, all this stuff about turn-taking and repair strategies and...” He points at his laptop.
+
+Nao nods and says, “Mm-hmm. The old show-don't-tell problem.”
+
+Jim says, “Right? I mean... Wait. What if we just had a conversation about conversation? Like, demonstrate the moves while talking?”
+
+With a tilt of the head, Nao says, “You mean a... meta-conversation?”
+
+[00:02:16] 03. Opening scene: Jim and Nao, second part
+
+Jim says, “Yeah! Look what just happened: you finished my sentence, that's collaborative completion. And when I paused before ‘like’? That's...”
+
+Nao raises their eyebrows and says, “Turn-yielding?” Nao sips coffee.
+
+Jim says, “Yes! And see how we're both using these physical cues...”
+
+Nao says, “The embodied stuff?” Nao mimics Jim's pointing. “Gestures, posture...”
+
+Jim says, “Exactly. Plus the confirmations that build common ground...”
+
+Nao says, “Speaking of which...” Nao glances at Jim's cup. “Your coffee's probably cold.”
+
+Jim says, “Oh! True. I'll get a fresh one. Need anything?”
+
+Nao says, “I'm good. But... record this when you get back.”
+
+Jim says, “Us?”
+
+[00:03:05] 04. Opening scene: Jim and Nao, last part
+
+Nao says, “Sure. We're enacting every concept: turn-taking, repair, body language...”
+
+Jim says, “And shared understanding... like you reading the cold coffee cue.”
+
+Nao says, “Context plus observation. You haven't touched it since I sat down.”
+
+Jim holds up his phone and says, “Mind if I...?”
+
+Nao says, “Go ahead. Oh, and note how different text chat is... handling overlaps, gestures...”
+
+Jim adjusts the phone and says, “In digital space? That's a whole section...”
+
+Nao says, “Recording?”
+
+Jim says, “Yep. So, digital platforms: typing indicators as online back-channels?”
+
+Nao says, “Right. They replace nods and ‘mm-hmms’.”
+
+There's a crash at the counter, and both look.
+
+Jim says, “Ouch. That sounded expensive.”
+
+Nao says, “Perfect example of external interruption.”
+
+Jim says, “And how we re-enter the talk... gestures anchoring attention.”
+
+Nao says, “We'll be insufferable, analysing everything.”
+
+Jim says, “Occupational hazard. Ready to help me turn this into the textbook example?”
+
+Nao says, “As long as my coffee stays hot.”
+
+Jim says, “Unlike mine. Some patterns are hard to break.”
+
+[00:04:23] 05. The margin notes on the opening scene
+
+In the written chapter, margin notes label twenty moments in that scene. Each label also points to the section where the idea is discussed. Here they are, in order.
+
+Nao's “am I interrupting” is labelled turn taking. Jim's “actually” is a discourse marker, and “kind of” is hedging. Nao's “Oh?” is labelled common ground. Jim's “It's for”, which overlaps Nao's question, is labelled overlap, and his vague gesture is labelled embodied action.
+
+“You know” is labelled alignment. The first “like” is an example preface. Nao's “And you're not actually showing how it works” is a collaborative completion. Jim's “Exactly” is alignment. The second “like” is a topic shift. Pointing at the laptop is a deictic gesture, one that points. Nao's nodding is a back-channel, and “mm-hmm” is labelled common ground. The word “problem” is a metacomment.
+
+“Right?” is checking understanding, and “I mean” is reformulating. “Wait” is a side-sequence opener. The “like” in “Like, demonstrate the moves” is clarifying. And “meta-conversation” is another metacomment.
+
+[00:05:40] 06. Introduction: the last conversation you had
+
+Take a moment to consider your last conversation. Perhaps it was with a colleague about lesson plans, a friend about weekend plans, or a stranger about the weather. On the surface, these interactions might seem straightforward, just people exchanging information or maintaining social bonds. But have you ever noticed how a simple “how are you?” can lead to anything from a quick “fine” to a twenty-minute discussion of life's complexities? Or how the same words can mean entirely different things depending on who says them, when, and how?
+
+Conversation is central to who we are, but like fish in water, we rarely notice its true nature. We talk about the “rules of conversation” as if they were like the rules of chess, clearly defined and deliberately followed. But real conversation is more like a flock of birds wheeling through the sky: complex patterns emerge not from a rulebook, but from countless small adjustments between individuals.
+
+[00:06:40] 07. Introduction: learning to converse
+
+Think about how we learn to converse. Nobody sits down with a toddler and explains turn-taking mechanics, that is, how we know when it's our turn to speak, or repair strategies. Instead, these patterns emerge naturally through interaction. But somehow, across vastly different cultures and contexts, conversations show remarkably similar structural properties. It's as if we're all playing jazz without ever having learned music theory.
+
+This self-organizing nature of conversation challenges our common assumptions. We often think of conversation as primarily about exchanging information or maintaining social relationships. While these functions are important, they barely scratch the surface. When we talk, we're not just sharing facts or being friendly; we're actively constructing reality together, maintaining our identities, and coordinating our social world in real-time.
+
+[00:07:37] 08. Introduction: what a question does
+
+Consider what happens when someone asks “What did you do yesterday?” This isn't just a request for information. It's an invitation to construct a narrative, to present a particular version of yourself, to establish common ground, and perhaps to build or maintain a relationship. The answer might involve not just words but gestures, facial expressions, and subtle adjustments based on the listener's responses. All of this happens in split-second timing, usually without conscious thought.
+
+The complexity deepens when we consider how conversations work across different contexts. A business meeting, a family dinner, and a chat between friends might all follow different “rules”, but they're all recognizably conversation. Even more intriguingly, these patterns emerge similarly across languages and cultures, though with many local variations.
+
+[00:08:30] 09. Introduction: the paradox and the plan
+
+This seeming paradox, that universal patterns emerge from local interactions without central control, is at the heart of understanding conversation. It's why prescriptive “rules of conversation” often miss the point. Real conversation isn't about following rules; it's about participating in a dynamic, collaborative process of meaning-making.
+
+In this chapter, we'll explore this hidden life of conversation, looking at how turns are constructed and negotiated, how understanding is built and repaired, how bodies participate in talk, and how relationships are maintained through talk. We'll see how digital technologies are reshaping these patterns, and we'll consider what all this means for language teaching.
+
+[00:09:17] 10. Beyond turn-taking
+
+Most attempts to explain conversation start with a simple observation: people take turns talking. In the classroom, this often gets simplified into a set of rules about when to speak and when to stay quiet, a useful starting point but one that misses something fundamental about how conversation actually works.
+
+[00:09:39] 11. Timescales and structure: timing, turns, and sequences
+
+When we look closely at recordings of natural conversation, we find that talk is organized simultaneously on multiple timescales. At the finest grain, we have micro-adjustments in timing: tiny pauses, overlaps, and speed-ups that last fractions of a second. A speaker might speed up to hold the floor or pause briefly to invite response. These adjustments are far from random. Conversation analysts such as Schegloff treat them as a fundamental part of how interaction is organized, reflecting participants' attentiveness to the ongoing flow of talk.
+
+But these micro-patterns nest inside larger structures. A single turn at talk might last several seconds and contain multiple complete sentences, or it might be as brief as a grunt of acknowledgement. These turns themselves cluster into recognizable sequences: a question followed by an answer, a greeting followed by a return greeting, an invitation followed by acceptance or declination.
+
+[00:10:42] 12. Timescales and structure: activities and situations
+
+Moving up another level, we find stretches of talk that appear to hang together around particular activities or concerns. These aren't like chapters in a book with clear boundaries. Instead, they emerge, develop, and shade into one another through various practices that participants use. A speaker might link to an earlier thread of conversation, with “speaking of cats”, transform the current activity, with “that reminds me”, or initiate a completely new direction, with “oh, before I forget”.
+
+At an even broader scale, conversations themselves occur within recognizable social situations: catching up with an old friend, a job interview, a parent-teacher conference. These situations shape participants' expectations about appropriate behaviour, turn length, and level of formality. They also influence how people interpret ambiguous utterances. The phrase “that's interesting” means something quite different in a job interview than in casual conversation with a friend.
+
+This layered organization creates a kind of ordered complexity. At each level, patterns emerge from the interaction of simpler elements below. Think of nested Russian dolls: micro-pauses inside turns inside sequences inside activities.
+
+[00:12:03] 13. Topic management
+
+A topic isn't just a collection of turns, and a conversation isn't just a collection of topics. Each level has its own organizational principles that emerge from, but can't be reduced to, the levels below.
+
+For language teachers, this multi-level organization has important implications. When we teach conversation, we often focus on just one level, usually turns and simple sequences. We might drill question-answer pairs or teach turn-taking signals. But real conversational competence requires understanding how these levels interact. A student might master the mechanics of turn-taking but still struggle with topic management or miss activity-type cues that signal how formal or casual they should be.
+
+Looking at actual recordings of conversation reveals how these levels interact. Consider this excerpt from the British National Corpus. I'll read it as a sequence of turns and describe the coughs, yawns, and omitted stretches in words. The exact transcription is in the written reference.
+
+[00:13:09] 14. An authentic excerpt from the British National Corpus
+
+Gillian says, “I think it's just Friday night and he's... yeah, basically... I don't think Billy's telling him enough”, and coughs, “to be honest.”
+
+Robert says, “Why?”
+
+Gillian says, “I just don't.”
+
+Robert yawns, then says, “What, he knows something's happened. But he doesn't know what it is...”
+
+Gillian says, “He doesn't seem to be involved in that many... discussions about the company, does he?” She yawns. “Or what's happening. I mean he was moaning about erm or those trade accounts, wasn't he?”
+
+Robert says, “Mm... well it's not for me to say. I don't know anything more about this business than he does.”
+
+Gillian says, “Oh no.”
+
+The transcription omits the start of Robert's next turn. It continues, “go as far as to say we probably know less about what's going on than he does.”
+
+Gillian says, “Do we? Oh. Such is life... I had a word with Steph on the phone.”
+
+Robert says, “Oh?”
+
+Gillian says, “She's getting fat...” The transcription omits the rest of her turn and Robert's next turn.
+
+Gillian says, “Yeah. She goes to hospital on Thursday. Eighteen week appointment.”
+
+[00:14:26] 15. Four organizational levels in the excerpt
+
+This brief exchange shows multiple organizational levels at work. At the micro level, we see the precise timing of turns marked by coughs, yawns, and brief responses like “Oh” and “Mm”. At the sequence level, we see question-answer pairs, like “Why?” followed by “I just don't”. At the topic level, we see how the conversation shifts from a discussion about Billy's situation at work to Steph, whose pregnancy the talk implies without naming it, through a clear topic transition: “Such is life... I had a word with Steph on the phone”. And at the activity level, we see how the casual conversation between people who know each other well enables Gillian and Robert to cover both workplace concerns and intimate personal matters, as well as comfortable topic transitions.
+
+[00:15:20] 16. The same content as a textbook dialogue
+
+Compare this with how the same basic content might appear in a textbook dialogue.
+
+Robert says, “How is Billy doing at work?”
+
+Gillian says, “I'm worried about him. I don't think he's getting enough information from his manager.”
+
+Robert says, “Really? Why do you think that?”
+
+Gillian says, “Well, he's not included in many important meetings about the company. For example, he was complaining about the trade accounts last week.”
+
+Robert says, “I see. But I don't really know much about the situation. In fact, I probably know less than he does.”
+
+Gillian says, “Oh, I understand. Let's change the subject. I spoke to Stephanie yesterday.”
+
+Robert says, “Oh? How is she?”
+
+Gillian says, “She's doing well. She's pregnant, you know. She has her eighteen-week doctor's appointment on Thursday.”
+
+Robert says, “That's wonderful news!”
+
+[00:16:13] 17. What the textbook version loses
+
+Textbook dialogues aim to serve real purposes: they control difficulty, stage new vocabulary, and keep things readable. But the contrast with the authentic version reveals how much is lost in the smoothing: the subtle timing adjustments marked by coughs and yawns, the collaborative construction of meaning through incomplete utterances, and the organic flow of topic transitions. In the authentic conversation, Gillian's topic shift to Steph emerges naturally through “Such is life...”, while in the textbook dialogue, the transition is explicitly flagged with “Let's change the subject”. Similarly, the textbook version smooths out the hesitations, repairs, and incremental additions that characterize authentic speech, replacing them with complete, well-formed sentences, adding explanatory context that real participants don't need, like labeling the subject change or explicitly stating relationships that are already clear to the speakers.
+
+The question for teachers isn't whether to use simplified dialogues; of course you will. It's whether students also get regular exposure to the messier, more authentic patterns they'll encounter outside the classroom. Wilson and Wilson propose that, during conversation, oscillators in the brains of the speaker and the listeners become mutually entrained on the speaker's rate of syllable production, which accounts for the cyclic timing of silences between turns. The chapter says that rhythms like these are largely absent from scripted materials.
+
+[00:17:51] 18. Exercise: mapping temporal layers
+
+Exercise: mapping temporal layers.
+
+Listen to any three-minute conversation, such as a podcast, an overheard chat, or a phone call. Without transcribing, try to identify three things.
+
+One. A moment where micro-timing affects larger structure. For example, a brief pause that enables a topic shift.
+
+Two. A sequence that nests inside another. For example, a clarification sequence within a story.
+
+Three. A place where speakers orient to the activity type. For example, “before we wrap up”.
+
+Then ask yourself: How do these different timescales interact? Can you identify a moment where they conflict?
+
+Pause the recording and think about your answers.
+
+[00:18:41] 19. Cultural organization of talk: turn-taking rules and contrapuntal conversation
+
+Many language teachers emphasize what they call “turn-taking rules”, often presenting these as universal principles. They tell students to wait for a pause before speaking, to avoid interrupting, and to give clear signals when yielding the floor. While well-intentioned, this advice reflects just one cultural model of how talk should be organized, typically a middle-class, Western European or North American one.
+
+Looking at conversations across cultures reveals a much richer picture. In many Caribbean communities, for instance, what Reisman calls “contrapuntal conversation” is common: multiple people speaking at the same time, weaving their voices together like instruments in an ensemble. From one perspective, this might look like chaos or rudeness. But participants experience it as a highly coordinated form of interaction, one that creates involvement and builds solidarity.
+
+[00:19:40] 20. Proposed addition: a cross-linguistic check on timing
+
+One qualification belongs here. Stivers and colleagues compared how quickly people answer yes-no questions in conversation in ten languages from five continents. Speakers of every language avoided overlapping talk and kept silences between turns short. Average response times differed from language to language, but all of them fell within about a quarter of a second of the cross-language average.
+
+[00:20:07] 21. An interview excerpt: Terry Gross and Donna Summer
+
+Similar patterns appear in other cultural contexts. Consider this excerpt from Terry Gross' interview with Donna Summer on Fresh Air.
+
+Summer says, “So I always felt like I had this sort of... people to answer to and my children, and my child at the time, was one of them. And I felt that in the future I didn't want her to say, ‘Mom, well, you did it.’ You know? But, you know...”
+
+Gross says, “Did she ever say that?”
+
+Summer says, “Yeah, she did. Yes, she did, much...”
+
+Gross says, “What was your comeback?”
+
+Summer continues, “...to my chagrin. I just told her it was a different time, and, you know, I came from a totally different life than her.”
+
+[00:20:56] 22. Reading the interview
+
+This interaction shows several cultural patterns at work. Tannen documents a “high-involvement style” among some New York Jewish speakers. Gross uses quick follow-up questions, and the second comes in while Summer's sentence, “much to my chagrin”, is still unfinished. Summer finishes it afterwards. Rather than appearing rude, moves like this can signal engagement and help maintain conversational momentum. Summer, in turn, uses expressions like “you know?” to check for understanding and manage turn-taking. The overall effect is of a coordinated dance between interviewer and interviewee, each adapting to the other's conversational style.
+
+[00:21:43] 23. Beyond timing: Korean, Japanese, and crosstalk
+
+These differences extend beyond timing patterns. Consider how Korean speakers often ask about the age of their interlocutor to decide whether to use honorific verb forms that encode complex social relationships, or how Japanese conversation involves frequent use of back-channel responses like “hai” and a long “eh”, a back-channel “yes”, that signal attention and understanding, as Maynard describes. Even within English-speaking communities, we find significant geographic, cultural, and situational variation in conversational practices and expectations.
+
+The implications for language teaching go beyond simple awareness of difference. When students from one conversational culture enter another, they face what Gumperz calls “crosstalk”, systematic mismatches in conversational expectations that can lead to serious misunderstandings. A student whose first language treats overlapping speech as normal might be seen as “pushy” or “rude” by speakers who expect sequential turn-taking. Conversely, a student from a culture that values longer silences between turns might appear “unengaged” or “slow to respond” in certain contexts.
+
+[00:22:56] 24. Awareness for students and teachers
+
+While it would be unrealistic to attempt to learn what conversational style to adopt in each situation, it can be very useful to be aware that such differences exist. This awareness can help students navigate unfamiliar interactional patterns with more confidence and less anxiety. Rather than trying to master every local convention, they can develop a more flexible approach, understanding that when conversation feels awkward or uncomfortable, the issue may be cultural differences in conversational style rather than personal failings or language deficiency. For teachers, this means spending less time prescribing “correct” conversational behaviour and more time helping students recognize and reflect on different patterns of interaction they encounter.
+
+[00:23:44] 25. Exercise: cultural patterns in action
+
+Exercise: cultural patterns in action.
+
+One. Listen to any publicly available interview or conversation between people from different backgrounds. Can you identify moments where conversational styles might differ? What evidence do you see of participants adjusting to each other?
+
+Two. In group conversations you participate in, notice: Who speaks when? Are there consistent patterns in how turns are distributed? Do these patterns change based on topic or setting?
+
+Three. Consider the last time a conversation felt “awkward” or “off”. Using concepts from this section, what might explain the discomfort beyond individual personalities?
+
+Pause the recording and think about your answers.
+
+[00:24:35] 26. Grammar in interaction
+
+Most discussions of grammar treat it as something that exists primarily in sentences: isolated, written units of language constructed with careful attention to rules. But real-time interaction reveals grammar doing different kinds of work. Consider these recorded exchanges from Lerner.
+
+[00:24:53] 27. Collaborative completions in Lerner's examples
+
+In the first exchange, Rich says, “if you bring it into them”. Carol says, “it don't cost you nothing”.
+
+In the second, David says, “so if one person said he couldn't invest”. Kerry says, “then I'd have to wait”.
+
+In the third, Dan says, “when the group reconvenes in two weeks”. Roger says, “they're going to issue strait jackets”.
+
+In each case, speakers collaborate to build a complex sentence across turns. The first speaker produces a dependent clause, introduced by “if” or “when”, that projects a particular grammatical shape for what must follow. The second speaker then completes the structure. In the second example, the completion starts with “then”, a word that marks the completion of the compound structure. As Lerner demonstrates, these “compound turn-constructional units” aren't accidents; they're systematic practices that speakers use to coordinate their contributions.
+
+The grammar here isn't just organizing words into sentences; it's providing resources for real-time collaboration. Certain grammatical structures, like if-then constructions, create natural pivot points where another speaker can jump in to complete the emerging utterance. We find similar patterns with relative clauses, such as “the guy who”, reported speech, such as “she told me that”, and list structures, such as “first, second”. These patterns show how deeply grammar is woven into the fabric of real-time interaction.
+
+[00:26:27] 28. A collaborative production from Szczepek
+
+We find similar patterns with other grammatical structures, as in this example from Szczepek. The two speakers are labelled C-O and A-L.
+
+C-O says, “and people also, who've never been close friends of hers, but who'd bend over backwards, for this woman.”
+
+A-L says, “but are tired of bending over backwards.”
+
+C-O says, “but they still do. we all still do.”
+
+This exchange shows how grammar supports the collaborative development of a complex idea. After C-O completes what could be a finished turn, A-L continues the thought. Though A-L's addition lacks its own subject, it fits smoothly into the established pattern. The grammar here provides a framework for speakers to build meaning together: C-O sets up a structure that A-L can extend, and then C-O acknowledges and elaborates on this extension, moving from “they” to the more inclusive “we”.
+
+[00:27:23] 29. Building reference piece by piece
+
+Grammar also helps participants manage understanding in real time. When we examine recordings of natural conversation, we find speakers constantly adjusting their utterances based on how others are responding. They might break a complex sentence into chunks, checking for understanding after each piece. Or they might start with a simple structure and elaborate it incrementally as needed.
+
+A says, “Pass me that thing.”
+
+B says, “Which...”
+
+A says, “The blue one. On the shelf. Next to the lamp.”
+
+Here the grammar of reference unfolds dynamically as the speakers work to establish shared understanding. Rather than producing a complete noun phrase like “the blue thing on the shelf next to the lamp”, speaker A builds the reference piece by piece, responding to B's evident uncertainty.
+
+[00:28:12] 30. Exercise: grammar as a real-time resource
+
+Exercise: grammar as a real-time resource.
+
+One. Find three examples in your daily conversations where someone completes another person's grammatical structure. What types of constructions seem to invite collaborative completion?
+
+Two. Notice how speakers build reference incrementally, like the “Pass me that thing” example. Document one instance where reference unfolds piece by piece rather than being fully specified initially.
+
+Pause the recording and think about your answers.
+
+[00:28:48] 31. How do we know when to speak: a classroom exchange
+
+The next section asks how we know when to speak, and when to stop. Consider this brief exchange from my classroom.
+
+I say, “What do you mean? What did people used to think about dinosaurs?”
+
+The student says, “They think they crawl like”, and demonstrates with a hand movement.
+
+I say, “They thought they walked like this?” and imitate the movement.
+
+The student says, “Yes, like, like, uh gecko. But now they think more like bird.”
+
+I say, “Right, I see, more like birds. Standing upright.”
+
+At first glance, this might seem like a simple exchange about changing views of dinosaur posture. But look closer. Each contribution fits precisely into the flow of talk. The student's initial response links back to the question with “they”, the teacher's reframing offers both past tense and confirmation, and understanding emerges through a combination of words and gesture.
+
+[00:29:44] 32. Turn-constructional units
+
+When we hear someone speaking, we can usually tell when they've finished what they're trying to say, even if we weren't paying attention to the meaning. We might be checking our phone or watching a bird out the window, but we still know when it's our turn. How do we do this?
+
+One part of the answer lies in how speakers construct their turns at talk. Each turn is built from recognizable pieces that conversation analysts call turn-constructional units, or T-C-Us. A T-C-U might be as brief as “mm-hmm” or as complex as a multi-clause sentence. What matters isn't the length but that other participants can recognize when it's complete.
+
+[00:30:30] 33. Two replies to a party invitation
+
+Consider these responses to a party invitation.
+
+In the first version, A says, “You coming tonight?” B one says, “Can't.” A says, “Oh, okay.”
+
+In the second version, A says, “You coming tonight?” B two says, “Can't. Got this thing with my sister. She needs a ride to the airport.”
+
+B one's single-word response forms a complete T-C-U. It answers the question and A treats it as adequate. B two's response contains three T-C-Us, each potentially complete on its own, but built together to give a fuller explanation. The speaker may have sensed that “can't” alone would seem too abrupt, or that “got this thing” needed elaboration.
+
+[00:31:16] 34. Partial units and turns as tools for action
+
+T-C-Us often align with grammatical units, but they don't have to. In language classrooms, we often see partial units doing important interactional work.
+
+The teacher says, “What's the capital of France?”
+
+The student says, “Um... Pa...”
+
+The teacher says, “Par...”
+
+The student says, “Paris!”
+
+The student's “um” and incomplete “Pa” aren't sentences, but they function as meaningful T-C-Us here. They show the student is working on the answer, and the teacher treats them as legitimate contributions by offering support.
+
+This points to something crucial: turns aren't just syntactic units; they're tools for action. Even a grunt can be a complete T-C-U if it does recognizable work in context. Conversely, a perfectly formed sentence might be treated as incomplete if it leaves some projected action unfinished.
+
+[00:32:11] 35. Building common ground: a parent and child
+
+Watch a parent and young child looking at a picture book together. You'll often hear exchanges like this.
+
+The parent points and says, “What's that?”
+
+The child says, “A buh buh.”
+
+The parent says, “Yes, a bird! What's the bird doing?”
+
+The child says, “Eee!”
+
+The parent says, “Eating, that's right. The bird is eating some seeds.”
+
+This might seem far removed from adult conversation, but it illustrates something about how we communicate: understanding isn't just transferred from one mind to another. It's built together, piece by piece, through constant checking, confirming, and repairing when things go wrong.
+
+[00:32:54] 36. Building common ground: two colleagues
+
+Adult conversations may be more sophisticated, but they rely on similar processes. Consider this exchange between colleagues.
+
+A says, “Did you see that email from Sandra?”
+
+B says, “About the meeting?”
+
+A says, “No, the budget thing.”
+
+B says, “Oh right, yeah. The cuts.”
+
+A says, “Pretty bad, huh?”
+
+B says, “Twenty percent across the board.”
+
+A says, “And that's just the start.”
+
+Like the parent and child, these speakers work together to establish what they're talking about. They check understanding with “About the meeting?”, repair misunderstandings when they arise with “No, the budget thing”, and build shared interpretations with “Pretty bad, huh?” This process of establishing and maintaining shared understanding, what psychologists call common ground, is central to all conversation.
+
+[00:33:48] 37. Grounding
+
+When you're talking with a friend, you probably don't think consciously about how you show you're following along. You nod, make little sounds like “mm-hmm”, maybe repeat key words, or ask brief questions. These aren't just social niceties; they're part of what Clark and Brennan call “grounding”, the moment-by-moment work of establishing mutual understanding.
+
+[00:34:12] 38. Observation exercise: grounding in action
+
+Observation exercise: grounding in action.
+
+Pay attention to your next conversation and notice four things.
+
+First, how do you show you're following along? For example, nods, “mm-hmm”, “right”, “okay”.
+
+Second, what happens when someone doesn't give these signals?
+
+Third, how do speakers check that they're being understood?
+
+Fourth, what repair strategies emerge when understanding breaks down?
+
+This awareness of grounding work reveals the collaborative effort required for even simple conversations.
+
+Pause the recording and think about your answers.
+
+[00:34:55] 39. Giving directions
+
+To see how this works in practice, consider this exchange in which someone gives directions.
+
+A says, “So you go down Bank Street”.
+
+B says, “mm-hmm”.
+
+A says, “past the library”.
+
+B says, “right”.
+
+A says, “and there's this big red building”.
+
+B says, “the old post office?”
+
+A says, “yeah, exactly, and just after that”.
+
+B says, “mm-hmm”.
+
+A says, “there's a little side street”.
+
+B isn't just being polite here. Each response shows not only that B is listening but that specific pieces of information have been understood. “Mm-hmm” acknowledges receipt, “right” claims understanding, and “the old post office?” demonstrates understanding by offering relevant additional information.
+
+[00:35:45] 40. Repair: catching your own trouble
+
+When understanding breaks down, speakers have various ways to repair the problem. Sometimes they catch their own troubles.
+
+The teacher says, “Turn to page fifty... sorry, fifteen.”
+
+The student says, “Fifteen?”
+
+The teacher says, “Yes, fifteen.”
+
+[00:36:02] 41. Repair: a listener signals trouble
+
+Other times, listeners signal trouble.
+
+A says, “We need to defenestrate the problem.”
+
+B says, “Defen...?”
+
+A says, “Oh, sorry... throw it out. Defenestrate means throw out a window.”
+
+B says, “Ah, okay. Bit formal!”
+
+A says, “Yeah, showing off really”, and laughs.
+
+Participants work together to repair understanding. B signals trouble by partially repeating the problem word with rising intonation. A not only provides the meaning but acknowledges the word choice might have been inappropriate. B confirms understanding while gently teasing about the language choice, and A accepts this with self-deprecating humour.
+
+[00:36:46] 42. Exercise: tracking common ground
+
+Exercise: tracking common ground.
+
+In your next extended conversation, notice three things.
+
+One. How often do speakers explicitly check understanding versus assuming it?
+
+Two. What triggers repair: mishearing, misunderstanding, or something else?
+
+Three. Can you identify a moment where common ground is assumed incorrectly? How is this discovered and resolved?
+
+Reflection: How much conversational work goes into maintaining mutual understanding that we typically don't notice?
+
+Pause the recording and think about your answers.
+
+[00:37:28] 43. Bodies in conversation
+
+When we analyse conversation in textbooks or research papers, we often reduce it to words on a page. Even our recordings capture just voices. But real conversation is thoroughly embodied: hands gesture, heads nod, bodies lean and turn, eyes meet or avoid, faces display understanding or confusion.
+
+On the one hand, these elements are nowhere near as important for conveying a message as some popular ideas would have you think. After all, we have very little problem understanding people on the radio, telephone, or in print. On the other hand, they aren't just add-ons to the “real” conversation happening in words. As Goodwin demonstrates, bodily actions are fundamental to how we construct and coordinate our interactions.
+
+[00:38:18] 44. Keeping still, and the term body language
+
+To see how deeply embodied conversation is, try having a discussion while keeping your body completely still: no nodding, no hand movements, no facial expressions, no shifts in posture. You'll likely find it remarkably difficult, and your partner will probably find it quite unsettling. Or try discussing a complex spatial arrangement, like how to rearrange furniture in a room, while keeping your hands still. Even on the phone, where our conversation partner can't see us, we tend to gesture as we speak.
+
+The term “body language” is often used for these phenomena, but it's misleading. It suggests that bodily actions are just a kind of add-on code that translates mental states into visible signals: crossed arms mean defensiveness, leaning forward means interest, and so on. But actual embodied interaction isn't really like that. Consider this imagined interaction at a construction site.
+
+[00:39:19] 45. A construction-site exchange
+
+Worker One says, “So we need to”, and points to a beam. “Move all these and then...”
+
+Worker Two says, “Yeah, all along here”, and traces a line with a finger. “Up to the...”
+
+Worker One says, “Right, but first we gotta”, and mimes a lifting motion. “All the old ones.”
+
+Worker Two says, “Oh yeah, those'll have to come out.”
+
+The verbal part of this exchange is almost incomprehensible without the bodily actions, but note how precisely coordinated the words and actions are. Worker One's pointing gesture doesn't just happen anywhere. It occurs exactly when needed to specify which beam, and the lifting gesture precisely coincides with the relevant part of the utterance. These aren't random movements; they're part of our system for building meaning in real time.
+
+[00:40:09] 46. Kinds of gesture
+
+Different kinds of gestures do different kinds of work in conversation. McNeill identifies several major types.
+
+Pointing, or deictic, gestures, like Worker One's beam-pointing above, connect talk to the physical environment.
+
+Iconic gestures represent physical features or actions, like when we show the size of a fish or demonstrate how something moves.
+
+Metaphoric gestures represent abstract concepts; watch people's hands as they discuss ideas “building on each other” or time “flowing forward”.
+
+Beat gestures mark rhythm and emphasis, often synchronized with the prosodic structure of speech.
+
+The timing of these gestures is remarkably precise. When someone explains a spiral staircase by saying “it goes up like”, with the hand spiralling upward, “to the second floor”, the spiralling gesture begins exactly with “up” and continues through “like”. This precise timing reflects deep connections between speech and gesture systems. Even more intriguingly, listeners process speech and gesture as an integrated package; in experimental studies, people often can't remember whether they got a particular piece of information from words or gestures.
+
+[00:41:25] 47. Bodies and conversational space
+
+Bodies also create and manipulate conversational space. Different types of interaction create characteristic spatial arrangements. At a coffee shop, you might notice four.
+
+Friends catching up: seated at ninety-degree angles, bodies oriented toward a shared space between them, often leaning in during emotional moments or key points.
+
+Business meetings: directly facing, laptops or documents creating a shared workspace that participants manage together, bodies more upright and formal.
+
+Quick greetings: standing, bodies at forty-five degrees, partly oriented toward exits, maintaining what Kendon calls “temporary with” arrangements that signal the interaction's brief nature.
+
+And service encounters: customer and server separated by a counter, maintaining clear roles through spatial positioning, but often leaning in to create momentary shared spaces for checking details or making choices.
+
+[00:42:25] 48. Exercise: bodies and space
+
+Exercise: bodies and space.
+
+One. Without recording, observe a conversation in a public space. Map the spatial arrangement and note any changes. What triggers repositioning?
+
+Two. In your next face-to-face conversation, consciously suppress all gestures for thirty seconds. What happens to your speech? To the interaction?
+
+Three. Watch any video conversation with the sound off for one minute. List what information you can extract purely from bodily conduct. Then watch with sound. What crucial information required the verbal channel?
+
+Pause the recording and think about your answers.
+
+[00:43:17] 49. Maintaining arrangements; cultural variation in body use
+
+These arrangements aren't static; people work constantly to maintain and adjust them as interaction proceeds. Watch a group of friends walking and talking: they'll continuously adjust their pace and positioning to maintain what Kendon calls an “F-formation”, an arrangement that lets everyone see each other's faces and gestures easily.
+
+The way we use our bodies in conversation varies significantly across cultures. In many Mediterranean cultures, speakers use larger gesture spaces and more frequent touch than typical in Northern Europe. Japanese conversation involves frequent head movement and facial displays of attention but relatively less gesture. Even within cultures, these patterns vary by context: the same person who gestures expansively while telling stories to friends might use minimal movement in a job interview.
+
+[00:44:10] 50. Information and action
+
+So far, we've looked at how conversation is structured, how participants coordinate their turns, build understanding, and use their bodies. But we haven't yet explored what conversations actually do, how they accomplish social actions and construct knowledge. Conversations aren't just about exchanging pre-existing information; they're about creating, negotiating, and transforming both information and relationships.
+
+Every turn in conversation does something: it performs an action. Sometimes these actions are obvious: a greeting, a request, an apology. But even seemingly neutral statements do things: they inform, claim, assert, or propose. And these actions rarely stand alone. Instead, they form sequences where one action projects and constrains what comes next.
+
+[00:44:59] 51. Action sequences: an invitation
+
+Take a simple invitation sequence.
+
+A says, “We're having a barbecue on Saturday. You should come!”
+
+B says, “Oh, that sounds great! What time?”
+
+A says, “Around three?”
+
+B says, “Perfect. Can I bring anything?”
+
+A's first turn doesn't just convey information about a barbecue; it extends an invitation. Chapter 16 discusses invitations as speech acts, in its section on speech acts and performatives. This creates what conversation analysts call a “conditional relevance”: B now needs to respond in a way that addresses the invitation. B could accept, as here, decline, or hedge, but ignoring the invitation entirely would be noticeably absent and potentially face-threatening.
+
+[00:45:51] 52. Action sequences: a doctor's office
+
+But sequences can be much more complex. Consider this example from a doctor's office.
+
+The doctor says, “How can I help you today?”
+
+The patient says, “Well, I've been having these headaches...”
+
+The doctor says, “Mm-hmm.”
+
+The patient says, “And they're different from my usual ones?”
+
+The doctor says, “Different how?”
+
+The patient says, “They're like, behind my eye? Just the left one.”
+
+The doctor says, “How long has this been going on?”
+
+The doctor's opening question launches a complex sequence where the patient presents a problem, the doctor gathers information, and together they work toward diagnosis and treatment. Each question shapes what information is relevant next, and the patient's responses build a narrative that will inform medical decision-making.
+
+[00:46:43] 53. Knowledge construction
+
+Conversations don't just transmit knowledge from one person to another; they actively construct it. This is particularly visible in educational settings, but it happens in all conversations. Consider this exchange between friends.
+
+A says, “Did you see what happened at the meeting?”
+
+B says, “When Sarah walked out?”
+
+A says, “Yeah! I couldn't believe it.”
+
+B says, “I know. But honestly? I get it.”
+
+A says, “You do?”
+
+B says, “They've been dismissing her ideas for months.”
+
+A says, “Huh. I hadn't thought about it that way.”
+
+B says, “Remember the budget proposal she made?”
+
+A says, “Oh right. They barely let her finish.”
+
+B says, “Exactly.”
+
+Neither A nor B started with a complete understanding of the situation. But through their conversation, they collaboratively construct an interpretation that neither had fully formed before. A begins with surprise at Sarah's action, B offers a different perspective, and together they build a shared understanding that reframes the event.
+
+[00:47:50] 54. Side sequences
+
+Real conversations rarely proceed in straight lines; they meander like a river, carving side channels whenever the terrain demands. Participants regularly suspend the main business to deal with problems, clarify meanings, or address other concerns. These side sequences maintain mutual understanding.
+
+A says, “So I told Jennifer about the...”
+
+B says, “Wait, Jennifer Chen or Jennifer from accounting?”
+
+A says, “Chen. The one who organized the conference?”
+
+B says, “Got it. Sorry, go on.”
+
+A says, “So I told her about the deadline change...”
+
+B's clarification request suspends A's telling to ensure they're thinking of the same person. Once this is resolved, A resumes the main sequence. Side sequences like this one are closely related to the repair mechanisms we saw in the section on building common ground. The difference is structural: a side sequence temporarily suspends the main action to resolve something, then hands the floor back.
+
+[00:48:53] 55. Social dimensions and face
+
+Every conversation exists within a web of social relationships, cultural expectations, and power dynamics. These dimensions shape not just what we say, but how we say it, when we speak, and what remains unspoken.
+
+The concept of “face”, our public self-image and the respect we claim from others, profoundly influences conversational interaction. Chapter 16 discusses it in its section on politeness and face. As Brown and Levinson demonstrate, much of what we call politeness involves managing face concerns: both protecting our own face and attending to others'.
+
+[00:49:36] 56. Making the same request in different ways
+
+Consider how differently we might make the same request.
+
+One. “Close the window.”
+
+Two. “Could you close the window?”
+
+Three. “Would you mind closing the window?”
+
+Four. “I'm sorry, but would it be possible to close the window? It's getting a bit cold in here.”
+
+Each version does more face work than the last, acknowledging that requests impose on others and offering them ways to refuse without conflict. The choice depends on many factors: the relationship between speakers, the size of the imposition, and cultural expectations about directness.
+
+[00:50:19] 57. Pessimism about our own conversations
+
+This constant, often unconscious, management of face can lead to a significant gap between how a conversation actually unfolds and how we perceive our own performance within it. We are often our own worst critics. In fact, research by Welker and colleagues suggests that we tend to be overly pessimistic about our conversational abilities. And research on what is called the liking gap suggests that, after an informal chat, people frequently underestimate how much their partner liked them and enjoyed the interaction, focusing instead on their own perceived stumbles and awkward moments. This highlights how deeply the pressure to maintain face is ingrained; we are so focused on monitoring our own performance for potential threats to our self-image that we often miss the signs of success that are clear to our conversational partners.
+
+[00:51:12] 58. Power and identity
+
+Conversations both reflect and construct social hierarchies. In institutional settings, these patterns can be quite marked.
+
+The manager says, “I need that report by Friday.”
+
+The employee says, “I'm not sure that's possible. We're still waiting for...”
+
+The manager says, “Friday. Make it happen.”
+
+The employee says, “I'll... see what I can do.”
+
+The manager's ability to interrupt, issue directives, and close down discussion reflects institutional power. But power isn't always institutional. Knowledge, language proficiency, social connections, and many other factors create complex dynamics that shift throughout interaction.
+
+[00:51:59] 59. Institutional talk
+
+Many conversations occur within institutional frameworks that shape their structure and possibilities. A classroom discussion, a medical consultation, and a job interview each have characteristic patterns. They involve specific types of sequences, like the patterns in classrooms. They place restrictions on who can initiate topics or ask questions. They use specialized vocabulary and ways of speaking. And they have different goals than ordinary conversation.
+
+Understanding these institutional patterns is useful for students who need to navigate professional or educational settings in English.
+
+[00:52:41] 60. Digital reshaping: new turn patterns
+
+Digital technologies haven't replaced face-to-face conversation, but they've created new contexts and possibilities that reshape how we interact. From text messages to video calls, each medium brings its own affordances and constraints.
+
+In text-based chat, the neat turn-taking of spoken conversation often breaks down. Here's an example, with the time of each message.
+
+A, two thirty-four: “hey did you see the email about the meeting?”
+
+A, two thirty-four: “apparently they moved it”.
+
+B, two thirty-five: “which meeting?”
+
+A, two thirty-five: “to thursday”.
+
+B, two thirty-five: “oh the budget one?”
+
+B, two thirty-five: “thursday doesn't work for me”.
+
+A, two thirty-six: “yeah the budget meeting”.
+
+A, two thirty-six: “ugh that's annoying”.
+
+[00:53:30] 61. Digital turns: what happens
+
+Messages arrive out of sequence, responses address earlier messages while new ones appear, and participants must mentally reorder the conversation. Yet people manage this complexity remarkably well, developing new strategies for maintaining coherence.
+
+[00:53:48] 62. Multiple conversations
+
+Digital platforms often support multiple simultaneous conversations. A person might be engaged in several text threads, have email open, and be participating in a video call. This distributed attention creates new patterns. Longer response times become acceptable. Conversations pause and resume over hours or days. Context must be re-established more explicitly. And different levels of engagement become normal.
+
+[00:54:19] 63. Repairing sarcasm in text
+
+Without access to tone of voice or facial expression, text-based communication develops compensatory strategies to manage understanding and prevent misinterpretation. As Gawne and McCulloch note, informal written communication online faces the challenge of conveying emotion without the additional information provided by tone of voice and body language in face-to-face communication, making it easy for internet users to miss sarcasm, fail to divine humour, and misinterpret emotions. Here's an example.
+
+A writes, “that's perfect”.
+
+A writes, “sarcasm”, in parentheses.
+
+B replies with an emoji, a grinning face with a bead of sweat, followed by the words “I figured”.
+
+B writes, “sorry!! I'll give it another go”.
+
+[00:55:05] 64. Emoji as digital gestures
+
+These repair mechanisms serve multiple functions. The explicit parenthetical “sarcasm” clarifies illocutionary force after potential ambiguity, while the emoji response signals both understanding and emotional stance. As Gawne and McCulloch argue, drawing on Dresner and Herring, emoji function as pragmatic markers of speaker intention: the smiley face in contexts like “I'm sick and tired all the time”, followed by a smiley, does not indicate happiness, the emotional interpretation, but rather signals that the speaker is trying not to come across as complaining, the pragmatic interpretation.
+
+This aligns with their broader framework of emoji as digital gestures that fulfill functions parallel to co-speech gestures, including what they term “illocutionary” gestures that indicate the type of speech act being performed. Quick follow-up messages, explicit markers, and emoji all serve repair functions that prosody and facial expression handle in spoken conversation, demonstrating how digital communication develops multimodal strategies to restore the contextual cues lost in the transition to text.
+
+[00:56:21] 65. Exercise: digital transformations
+
+Exercise: digital transformations.
+
+Examine your recent digital conversations.
+
+One. Find an example where message timing created confusion. How was coherence restored?
+
+Two. Identify three strategies you use to compensate for absent prosody and gesture in text. Are these conscious choices?
+
+Three. Compare the same topic discussed in person versus via text. What conversational work becomes visible in the digital version that was invisible in speech?
+
+Consider: Are these limitations of digital conversation, or do they reveal something about how all conversation works?
+
+Pause the recording and think about your answers.
+
+[00:57:11] 66. Quick self-check: conversation analysis skills
+
+Quick self-check: conversation analysis skills. Test your understanding of conversational patterns.
+
+First, can you identify when overlapping speech signals engagement versus rudeness in context?
+
+Second, do you recognize how gestures and spatial positioning contribute to meaning beyond words?
+
+Third, can you spot collaborative completions and repair sequences in natural conversation?
+
+Fourth, do you notice how digital communication adapts traditional conversational principles?
+
+Developing this analytical awareness enhances both your understanding of conversation as a linguistic phenomenon and your ability to navigate diverse conversational contexts.
+
+Pause the recording and answer for yourself.
+
+[00:58:00] 67. Summary
+
+The opening meta-conversation between Jim and Nao demonstrated these principles in action: overlapping speech signalling engagement, collaborative completions building shared understanding, embodied actions carrying meaning, and organic topic transitions emerging from interaction itself, illustrating how conversational patterns operate even under conscious analysis.
+
+[00:58:25] 68. Exercise: synthesis, conversation as system
+
+Exercise: synthesis, conversation as system.
+
+Return to the opening dialogue between Jim and Nao. Using concepts from throughout the chapter, do three things.
+
+One. Identify examples of at least five different phenomena discussed, such as turn-taking, repair, and embodied action.
+
+Two. Find one moment where multiple organizational levels interact.
+
+Three. Locate an instance where their “meta-conversation about conversation” demonstrates the very principle they're discussing.
+
+Final reflection: How does analysing conversation change your experience of participating in it? Does conscious attention to these patterns interfere with natural interaction, or does it enhance your communicative abilities?
+
+Pause the recording and think about your answers.

@@ -1,0 +1,400 @@
+Language Landscapes — Chapter 8: Analysing vocabulary
+Adapted narrated companion. AI narration using the author’s approved voice.
+
+The teaching examples and exercises are narrated, with instructions to pause. A written reference accompanies the audio.
+
+[00:00:00] 01. Title and learning objectives
+
+Chapter 8. Analysing vocabulary.
+
+By the end of this chapter, you should be able to distinguish between semantic and syntactic notions of words, and explain what that means for language analysis. Analyse word structure in terms of bases, affixes, derivation, and inflection. And differentiate between word families, lemmas, shapes, and tokens for vocabulary counting purposes.
+
+You should also be able to explain how word frequencies are distributed and how they relate to text coverage, and calculate the vocabulary size needed for different levels of text comprehension. Identify polysemy, collocations, and formulaic language. And understand how complementation patterns and selectional restrictions link vocabulary to syntax.
+
+For teaching, you should be able to recognize common vocabulary teaching pitfalls and apply frequency-based principles. And you should be able to apply morphological knowledge to decode unfamiliar words and understand how words are related.
+
+[00:01:04] 02. Introduction
+
+For many people, language is all about words. It's not that they discount grammar, but words are just so salient, and there are so very many of them. Grammar provides the architecture; vocabulary furnishes the rooms.
+
+This chapter examines vocabulary as a linguistic phenomenon. We'll look at how words are constructed, which is morphology. We'll ask what constitutes a “word”, and consider different ways to count vocabulary. We'll look at the frequency distribution of words in English, and at how vocabulary size relates to text coverage. We'll consider the relationship between vocabulary and other aspects of language. And we'll finish with common misconceptions that can derail vocabulary instruction.
+
+We begin with the building blocks of vocabulary: morphemes and word formation. That foundation will inform our later discussion of vocabulary size, frequency, and the various ways linguists conceptualize and count words.
+
+[00:02:04] 03. What's a word?
+
+Defining exactly what constitutes a “word” is trickier than it might seem at first glance. Like soup, it becomes much less obvious the moment you try to define it. The complexity arises from multiple perspectives on what counts as a word, and on how words relate to each other through morphological processes.
+
+In this section, we'll consider semantic versus syntactic notions of a word. We'll consider how words are formed and change, which is morphology. We'll look at different ways of conceptualizing words for various purposes. And we'll look at the relationship between word forms and word families.
+
+[00:02:48] 04. Semantic and syntactic notions of words
+
+When discussing words, it's useful to distinguish between the semantic and syntactic perspectives. They don't always coincide, and sometimes misunderstandings are simply due to a lack of a shared perspective.
+
+From a semantic standpoint, a word is a unit of meaning. This view focuses on the conceptual content rather than grammatical behaviour. Dictionaries typically reflect this perspective. They treat semantically unified strings, such as “at the moment”, meaning “now”, as single entries, even when they consist of several syntactic parts. A prime example is the treatment of so-called “phrasal verbs”, which we met in Chapter 4. Phrasal verbs like “put up with” are often phrases only in the traditional sense of “a group of words”, and not in the technical sense of “a syntactic head and its dependents”.
+
+Consider the case of “give up”, in “I decided to give up smoking”. Semantically and lexicographically, “give up” functions as a single unit of meaning: “stop doing or trying something”. You'd find it as one entry in a dictionary, despite its two-part composition.
+
+Syntactically, though, we often need to treat the components of such expressions as separate words. This is the view we've been using in our discussions of lexical categories in earlier chapters. From this angle, “give” and “up” are distinct syntactic units, a verb and a preposition, as shown by their ability to be separated in certain constructions. Compare “I gave up smoking last year” with “I gave it up last year”.
+
+This syntactic flexibility shows why, grammatically, we often need to consider “give” and “up” as separate words, even when it takes both to convey the intended meaning.
+
+Both perspectives are valid: semantics asks what words mean; syntax asks how meanings work as words. Pay attention to which perspective is in play.
+
+[00:04:58] 05. Check your understanding: pick up
+
+Check your understanding.
+
+Consider the expression “pick up”. Compare “I'll pick up the book” with “I'll pick the book up”. How do the semantic and syntactic perspectives differ? And why might a dictionary list “pick up” as one entry, while syntax treats it as two separate words?
+
+Pause the recording while you think it through.
+
+[00:05:22] 06. Morphology
+
+While these different notions of words help us understand their behaviour in phrases and sentences, there's another crucial aspect to consider: how words themselves are formed, and how they change. This brings us to the study of morphology.
+
+Morphology is the study of how words change their form or category: how they morph. For example, you can add “ly” to the adjective “happy” and get the adverb “happily”. That's a morphological fact. So is the fact that you can get the noun “run” from the verb “run” without changing anything at all. Some languages are rich in morphology, but English is relatively impoverished in this regard.
+
+Words can be formed of bases and affixes. All words contain at least one base, and most bases are words in their own right. For example, the base of “happiness” is “happy”, which is obviously a word. In contrast, “ness” is an affix, which depends on a base. This is very much like the syntactic idea of heads and dependents from Chapter 3. But just as some syntactic heads, such as the verb “helped”, can't form a sentence on their own, some bases can't stand alone as words. One example is “dur”, as in “durable” or “duration”. “Dur” is never a word on its own, but nor does it combine with any free bases.
+
+[00:06:50] 07. Combining forms
+
+There are also special bases called combining forms. These include “bio” and “ology”, which combine to form words such as “biology”. Combining forms usually combine with each other, but sometimes they can combine with a free base, as in “bio-mechanical”.
+
+The distinction between combining forms and affixes isn't always clear-cut. Elements like “tele”, as in “television”, or “mini”, as in “miniskirt”, started as combining forms but now function more like prefixes. The key difference is that true combining forms typically derive from Greek or Latin roots and often combine with other bound forms, while affixes attach to existing words.
+
+For a detailed discussion of the boundary between combining forms and affixes, see Bauer's 1983 book, English Word-formation.
+
+[00:07:41] 08. Derivation and inflection
+
+English employs two types of morphological processes: derivation and inflection. Derivational morphology creates new words or changes a word's lexical category. Inflectional morphology marks grammatical distinctions without creating new words.
+
+First, derivational affixes. According to The Longman Grammar of Spoken and Written English, certain affixes stand head and shoulders above others in terms of their frequency in a forty-million-word corpus.
+
+[00:08:14] 09. Verb-forming suffixes and verb-changing prefixes
+
+Verb-forming suffixes change words into verbs. For example, to describe somebody's character is to “characterize” them. The verb “characterize” is formed by adding the verb-forming suffix “ize” to the noun “character”. The most common verb-forming suffixes, occurring in roughly twenty to a hundred and seventy verbs each, are “ize”, also spelled I-S-E; “en”; “ate”; and “ify”.
+
+Verb-changing prefixes change the meaning of the verb without changing its lexical category. For example, if you “overdo” something, you do it too much. But both “do” and “overdo” are verbs. The most common of these prefixes are “re”, “over”, “un”, “mis”, and “out”.
+
+[00:09:04] 10. Noun-forming suffixes
+
+Noun-forming suffixes change adjectives and verbs into nouns. For example, “openness” is the adjective “open” plus the suffix “ness”. The most productive are “tion”, “ism”, “ity”, “ness”, “ment”, “ant”, “ship”, “age”, and “ery”.
+
+There are about two thousand nouns ending in “tion” in the Longman grammar's corpus, and only about fifty ending in “ery”. This dramatic difference in frequency between the most frequent and even slightly less frequent elements is a fundamental pattern we'll see repeated across various aspects of vocabulary. We'll meet it again later in this chapter, when we turn to word frequency.
+
+[00:09:49] 11. Practice: morphological analysis
+
+Practice: morphological analysis.
+
+Try your morphological skills. One. Identify the base and affixes in “uncomfortable”. Two. Create three new words using the productive suffix “ize”.
+
+Pause the recording while you work through the questions.
+
+[00:10:11] 12. Inflectional suffixes
+
+English has a limited set of inflectional suffixes that mark grammatical systems: tense, number, and comparison. These include the possessive, apostrophe S; the verbal suffixes S, E-D, and “ing”, which we saw in Chapter 5; the plural S on nouns; and the comparative E-R and superlative E-S-T on adjectives and adverbs. Unlike derivational morphology, inflectional morphology doesn't create new words or lexical categories.
+
+[00:10:44] 13. Exercise: understanding word structure
+
+Exercise: understanding word structure.
+
+One. The words “biology”, “biography”, and “biodegradable” all begin with “bio”. Part A. What does this element mean, and why might it combine with both Greek-origin elements, like “logy”, and English words, like “degradable”? Part B. How does this differ from a prefix like “un”, which attaches to existing English words?
+
+Two. Consider the verb “sing”: “sing”, “sings”, “singing”, “sang”, “sung”. Part A. Why do dictionaries list all these forms under one entry? Part B. How does this help explain why English dictionaries have fewer entries than the total number of word forms in English?
+
+Three. A student writes: “I looked it up in the dictionary but couldn't find happily.” What linguistic knowledge would help them find this word, and what does this tell us about how dictionaries organize information?
+
+Pause the recording while you work through the questions.
+
+[00:11:48] 14. Counting words
+
+The variability of word forms through inflection and derivation makes counting words surprisingly complex. How do we account for words like “wide”, “wider”, and “width”? Are they separate words, or just variations of the same word? Linguists use several different ways of grouping and counting words, each serving different purposes. A tree diagram for the “wide” family follows shortly.
+
+[00:12:15] 15. Word families
+
+A word family includes a base word and all its inflectionally and derivationally related words. All the words in the following list belong to a single word family, the “wide” family: “wide”, “wider”, “widest”, “widely”, “widen”, “widens”, “widened”, “widening”, “wideness”, “widener”, “wideners”, and “width”. You could add others, such as “widespread”, “wide-ranging”, and “wide-eyed”.
+
+The size and composition of word families isn't fixed, but relates to morphological transparency. A word family includes a base word plus its inflected and derived forms, but which derived forms belong to a family depends on how transparent the morphological relationship is. For instance, “industry” and “industrious” clearly belong to the same family, while etymologically related pairs like “abyss” and “abysmal” may not be recognized as related by most speakers.
+
+[00:13:12] 16. Lemmas
+
+The inflectionally related words belong to a single lemma. For example, the verb lemma “widen” includes “widen”, “widens”, “widened” as the past tense, “widened” as the past participle, and “widening”. The “wide” family includes several lemmas: an adjective “wide”, an adverb “widely”, a verb “widen”, and two nouns, “widener” and “width”. Generally, a lemma is what you look up in the dictionary.
+
+[00:13:43] 17. Shapes and tokens
+
+Each inflectional or derivational word form is a different shape. “Type” is another commonly used term. In the “wide” lemma, there are three shapes: “wide”, “wider”, and “widest”.
+
+A word token is a single instance or occurrence of a word in a text or utterance. If an article is eight hundred words long, it has eight hundred tokens, even if fifty-six of those tokens are “the”.
+
+[00:14:11] 18. The word-family tree
+
+Here is the tree diagram for the “wide” family. It shows how word family, lemma, shape, and token relate, and it grows from left to right. It shows a selection of forms, not every member of the family.
+
+At the left is the family, “wide”. It branches into three lemmas: the adjective “wide”, the verb “widen”, and the noun “width”.
+
+Each lemma branches into shapes. The adjective lemma has three: “wide”, “wider”, and “widest”. The verb lemma, in the diagram, has “widen”, “widens”, and “widened”. The noun lemma has one: “width”.
+
+And each shape branches into a token, an actual use in context. For the adjective shapes: “a wide river”, “a wider river”, and “the widest river”. For the verb shapes: “to widen the gap”, “the gap widens”, and “they widened it”. And for the noun: “the width of”.
+
+[00:15:07] 19. Why the distinctions matter
+
+These different conceptualizations of words serve different purposes. Dictionaries typically count lemmas. Researchers studying a person's vocabulary size often work with word families. Text length is measured in tokens. Interpreting linguistic data and research correctly requires an understanding of these distinctions.
+
+[00:15:29] 20. Exercise: word families and lemmas
+
+Exercise: word families and lemmas.
+
+One. For each of the following, list at least three other words that belong to the same word family: “happy”; “create”; “science”; “electric”; “politics”.
+
+Two. Identify the lemma or lemmas for each of the following words: “running”; “better”; “mice”; “went”; “lives”.
+
+Three. Explain the difference between a word family and a lemma, using examples from your answers above.
+
+Four. This one comes from the earlier practice on morphological analysis, moved here so that you have the terms. Explain why “singer” and “singing” belong to different lemmas but the same word family.
+
+Pause the recording while you work through the questions.
+
+[00:16:21] 21. Word frequency and distribution
+
+Having established how words can be analysed and counted, we can now examine how these different word forms are distributed in actual use. Word frequency plays a fundamental role in understanding how vocabulary functions in English. Corpus linguistics research demonstrates that a relatively small number of high-frequency words account for a large percentage of tokens in typical texts.
+
+[00:16:48] 22. The frequency distribution
+
+Word frequency in English, in fact in all human languages, follows a stark pattern: a few words dominate, most languish. The most frequent word, “the”, occurs about sixty thousand eight hundred times per million words, while the hundredth most frequent word, “such”, occurs only about nine hundred times per million. By the time we reach the thousandth most frequent word, “purchase”, frequency has dropped to about ninety occurrences per million words. This pattern, where a few items account for most occurrences, is known as a Zipfian distribution, and it has implications for vocabulary coverage and comprehension.
+
+[00:17:30] 23. Reading the frequency table
+
+The chapter's table, “Word frequency drop-off”, lists five word families with their ranks and their frequencies per million words.
+
+“The” is rank one, at sixty thousand eight hundred. “You” is rank ten, at twelve thousand eight hundred. “Such” is rank one hundred, at nine hundred. “Purchase” is rank one thousand, at ninety. And “negotiate” is rank two thousand, at thirty-five.
+
+These frequencies are based on the Corpus of Contemporary American English, or COCA, using word family counts following Nation's 2022 book, Learning Vocabulary in Another Language. Different corpora and counting methods will yield somewhat different figures, but the general pattern of dramatic frequency drop-off remains consistent across sources.
+
+[00:18:21] 24. Vocabulary size
+
+Very roughly, beginning learners typically know fewer than one thousand word families, which provides basic communication ability but requires extensive circumlocution. Intermediate learners, B-one to B-two in the Common European Framework of Reference for Languages, typically know up to five thousand families, enabling participation in everyday conversations and comprehension of simplified texts. Advanced learners may know up to eight thousand families, approaching the threshold for comfortable comprehension of unsimplified texts.
+
+The chapter's bar chart shows vocabulary size estimates in word families, rising from left to right. It draws on Brysbaert and colleagues in 2016, and on two papers by Capel, from 2010 and 2012. Level A-one is about six hundred. CLB four, on the Canadian Language Benchmarks, is one thousand. A-two is fifteen hundred. CLB six is two thousand. B-one is three thousand. B-two is forty-seven hundred. C-one is six thousand. And C-two is seven thousand.
+
+The last three bars are for first-language speakers. A twenty-year-old is about eleven thousand one hundred. A sixty-year-old is about thirteen thousand four hundred. And the highest bar, labelled high L-one, is sixteen thousand seven hundred.
+
+[00:19:47] 25. Text coverage
+
+The relationship between vocabulary size and text coverage follows a predictable pattern, shown in the chapter's second figure. It plots cumulative token coverage against the number of word families known, from zero to five thousand.
+
+The most frequent thousand word families in English cover a little under eighty percent of written text, about seventy-eight percent on the plot. At two thousand families, coverage is about eighty-six percent. After that the curve continues to flatten: about ninety percent at three thousand families, about ninety-two percent at four thousand, and about ninety-three percent at five thousand.
+
+[00:20:32] 26. Coverage and comprehension
+
+Research suggests that readers need to know about ninety-eight percent of the words in a text for comfortable comprehension. The source is a 2000 study by Hu and Nation. For typical reading materials like newspapers, books, and emails, this means knowing about eight to nine thousand word families. But proper nouns, the names of people, places, and companies, often make up about four percent of text, according to Nation, reducing the actual vocabulary burden to about seven thousand eight hundred word families.
+
+Spoken English tends to use fewer word families than written texts. Just two thousand families make up most words in everyday English conversation.
+
+These figures help contextualize frequency and coverage data. When we note that the most frequent two thousand families provide about eighty-six percent text coverage, we can see why intermediate learners often struggle with authentic texts: knowing eighty-six percent of words falls well short of the ninety-eight percent needed for comfortable comprehension.
+
+[00:21:37] 27. Strategic insight: the frequency cliff
+
+Strategic insight: the frequency cliff.
+
+Think about the implications. If “the” appears sixty thousand eight hundred times per million words, but “purchase” only ninety times, what does this mean for teaching priorities? How might this frequency cliff affect your approach to vocabulary selection and sequencing?
+
+Pause the recording while you think it through.
+
+[00:22:03] 28. Specialized vocabulary
+
+Certain genres have particular sub-groups of words that occur with high frequency within those contexts. Academic English, for example, contains a core set of words that appear frequently across disciplines. Coxhead's 2000 Academic Word List identifies five hundred and seventy word families that are particularly common in academic texts but less frequent in general English. Adding the Academic Word List to the most frequent general word families raises coverage of academic texts substantially.
+
+[00:22:38] 29. Exercise: frequency and comprehension
+
+Exercise: frequency and comprehension.
+
+One. Here's a sentence with some words replaced by nonsense words: “The scientist vexored that the blentic samples showed unusual tripheration patterns.” Part A. Even without knowing the nonsense words, what can you infer about their meanings? How? Part B. What does this tell us about the relationship between high-frequency words, like “the”, “that”, and “showed”, and comprehension?
+
+Two. “The” appears about sixty thousand eight hundred times per million words, while “purchase” appears three orders of magnitude less frequently. Part A. Calculate roughly how many pages you'd have to read before encountering each of them in a three-hundred-page novel. Assume a hundred thousand words. Part B. What does this dramatic difference tell us about how vocabulary is distributed in English?
+
+Three. An advanced learner knows five thousand word families but struggles with newspaper articles. Using the coverage data from this chapter, explain why five thousand families might be insufficient for comfortable reading.
+
+Pause the recording while you work through the questions.
+
+[00:23:58] 30. Form, meaning, and use; polysemy
+
+Understanding a word involves knowing not just its basic form and meaning, but also the relational complexities among form, meaning, and use.
+
+Most common words in English have multiple related meanings; they're polysemous. The word “head”, for instance, can refer to the body part, the leader of an organization, the foam on beer, or the front of a line, and those are just the nouns. These meanings are related through metaphorical extension of “the top or front part of something”. Recall the fallacy of monosemy from Chapter 2.
+
+[00:24:35] 31. Homonymy and monosemy
+
+Polysemy differs from homonymy, where unrelated words happen to share the same form. “Bank”, the financial institution, and “bank”, the river's edge, are homonyms: historically unrelated words that coincidentally have the same form.
+
+The prevalence of polysemy in high-frequency words reflects a general pattern: common words tend to develop multiple meanings through metaphorical and metonymic extension. Less frequent words are more likely to be monosemous, having a single, specific meaning.
+
+[00:25:12] 32. Practical application: polysemy
+
+Practical application.
+
+Consider the teaching implications. Why might high-frequency words like “get”, “take”, or “make” be particularly challenging for learners? How does polysemy relate to the frequency patterns discussed earlier in this chapter?
+
+Pause the recording while you think it through.
+
+[00:25:35] 33. Collocations
+
+Words often occur in predictable combinations called collocations. In North American English, we “make” a decision but “take” a break. We don't normally say “take a decision” or “make a break”, although British English does allow “take a decision”. We say “heavy rain”, not “strong rain”, but “strong wind”, not “heavy wind”.
+
+The existence of collocations reflects the partially formulaic nature of language. While syntax provides the structure for combining words, usage patterns create preferences for certain combinations over others. Corpus linguists use statistical methods to identify these patterns, finding word combinations that occur together more often than we'd expect by chance. Common statistical measures include mutual information, or M-I, and T-scores, which quantify the strength of word associations.
+
+[00:26:33] 34. The collocation continuum
+
+Collocations exist on a continuum from completely free combinations to fixed expressions. At one end, combinations like “red car” are entirely compositional: any colour can modify “car”. At the other end, expressions like “kick the bucket”, meaning “die”, are fully fixed idioms. Most collocations fall somewhere in between, showing preferences rather than absolute restrictions.
+
+[00:27:03] 35. Idioms
+
+Idioms are expressions whose meaning can't be derived from the meanings of their component words. Examples of idioms include “spill the beans”, meaning “reveal a secret”; “under the weather”, meaning “ill”; and “a piece of cake”, meaning “something easy”.
+
+Corpus studies show that individual idioms occur relatively infrequently. Even seemingly common idioms like “hit the jackpot” appear rarely. This low frequency, combined with their cultural specificity and semantic opacity, makes idioms a high-investment, low-payoff aspect of vocabulary. The cultural and contextual factors that influence idiom interpretation connect to broader issues of pragmatic competence, which we discuss in Chapter 16.
+
+[00:27:52] 36. Other formulaic language
+
+Idioms represent just one type of formulaic language. Other types include phrasal verbs, such as “give up” and “look after”, though note that not all phrasal verbs are idiomatic; some, like “put down”, can be semantically transparent. Another type is pragmatic formulas, such as “how do you do” and “nice to meet you”. And a third is discourse markers, such as “on the other hand” and “as a matter of fact”.
+
+[00:28:24] 37. Construction grammar and vocabulary
+
+These examples highlight how much of language consists of multi-word patterns. Construction grammar, which we'll meet in Chapter 12, views these not as special cases but as part of how all language works: everything, from single morphemes to sentence patterns, counts as a construction, a learned pairing of form and meaning. In this view, “kick the bucket”, the verb-plus-“up” pattern, the word “dog”, and even the plural S are all constructions. From this perspective, language knowledge consists of thousands of these constructions rather than words plus rules for combining them. And vocabulary isn't just individual words, but all these stored form-meaning pairings, regardless of their size or complexity.
+
+[00:29:11] 38. Exercise: meaning and use
+
+Exercise: meaning and use.
+
+One. The noun lemma “head” can refer to the body part, the leader of an organization, the foam on beer, and the front of a line. Explain how these meanings might be related to the lemma “head” as a verb. What does this tell us about how word meanings develop over time?
+
+Two. We say “heavy rain” but “strong wind”, not the reverse. Part A. What does this tell us about how words combine in English? Part B. Why might corpus linguists be interested in these patterns? Part C. How is this different from grammatical principles like word order?
+
+Three. Compare these two sentences: “I need to make a decision” and “I need to decide.” Since both convey essentially the same meaning, what does the existence of two forms tell us about the nature of English vocabulary?
+
+Pause the recording while you work through the questions.
+
+[00:30:11] 39. Vocabulary and syntax: complementation
+
+Vocabulary and syntax interact in several important ways. Words carry information about their syntactic behaviour, and syntactic structures constrain which words can appear where.
+
+As we saw in Chapter 5, in the section on verb complementation, verbs specify what kinds of complements they can take. “Sleep” is intransitive: “The baby slept”. The ungrammatical “The baby slept the bed” shows that “sleep” doesn't take an object. “Devour” is transitive: “The lion devoured the antelope”. The ungrammatical “The lion devoured” shows that “devour” needs one. “Give” can be ditransitive: “She gave him a book”. And “give” also allows a version with a P-P complement: “She gave a book to him”.
+
+Knowledge of complementation patterns is vocabulary knowledge, and it's not limited to verbs.
+
+[00:31:04] 40. Selectional restrictions
+
+Words also have selectional restrictions: semantic constraints on what can fill their argument positions. The verb “elapse”, for instance, requires a time period as its subject. Compare “Three hours elapsed before the rescue team arrived” with the ungrammatical “The committee elapsed before the rescue team arrived”.
+
+These restrictions reflect the semantic requirements of predicates, and contribute to the overall well-formedness of sentences.
+
+[00:31:37] 41. Pedagogical pitfalls: the semantic set trap
+
+While this book focuses on linguistic analysis rather than teaching methods, understanding vocabulary structure helps avoid common instructional pitfalls that can hinder learning.
+
+The first is the semantic set trap. One widespread practice is teaching words in semantic sets: colours, kitchen utensils, zoo animals, and emotions. While this seems logical, research suggests it can impede learning. The chapter cites Finkbeiner and Nicol's 2003 study and Waring's 1997 replication. When you teach “red”, “blue”, “green”, and “purple” together, learners often remember “it was a colour” but struggle to recall which colour. The similar meanings create interference rather than reinforcement.
+
+[00:32:25] 42. Teaching make and do together
+
+This problem extends beyond simple vocabulary. Teaching “make” and “do” collocations together, such as “make a decision” and “do homework”, often results in more errors than teaching them separately. The cognitive load of distinguishing between similar items outweighs any organizational benefits.
+
+[00:32:45] 43. The frequency blindness problem
+
+The second pitfall is frequency blindness. Many instructional materials pay little attention to frequency data. Textbooks sometimes include words like “archipelago” or “obsequious” alongside genuinely useful vocabulary, often because they fit a thematic unit or appear on a test. But the opportunity cost is real. Even seemingly “common” words can be deceptive: “humble” feels familiar to proficient speakers but falls outside the most frequent five thousand words.
+
+Consider the opportunity cost. Every minute spent on “humble” is a minute not spent on words from the most frequent two thousand families that learners will encounter constantly. The dramatic frequency drop-off we've seen means that focusing on less frequent words provides diminishing returns.
+
+[00:33:38] 44. The idiom fixation
+
+The third pitfall is the idiom fixation. Native speakers often overestimate how much idiomatic language appears in everyday communication. While idioms as a class are common, individual idioms are vanishingly rare. Teaching “kick the bucket” or “spill the beans” might feel culturally authentic, but learners might never encounter these specific expressions in years of English use.
+
+The same applies to many phrasal verbs. While some, like “get up” or “look for”, are genuinely high-frequency, others, like “come across as” or “come down with”, are so rare that teaching them represents a poor use of limited instructional time.
+
+[00:34:26] 45. What helps instead
+
+What helps instead? The most important advice is quite simply and boringly this: learning the most common meaning of the most common vocabulary has a shockingly good return on study time. The frequency data in this chapter provides a principled basis for vocabulary selection.
+
+Understanding morphology, in particular the most common affixes and their relationship to word families, which we covered earlier in the chapter, provides additional leverage. If learners know the most common prefixes and suffixes, they can decode thousands of words they've never seen before. Knowing that “tion” creates nouns from verbs is infinitely more useful than knowing a dozen rare idioms.
+
+[00:35:15] 46. Exercise: avoiding common pitfalls
+
+Exercise: avoiding common pitfalls.
+
+One. A textbook presents these words together in a unit on “emotions”: “happy”, “sad”, “angry”, “frustrated”, “elated”, “melancholy”. Part A. What problems might learners face with this grouping? Part B. Which of these words would frequency data suggest are worth focusing on? Part C. How might you reorganize this vocabulary for more effective learning?
+
+Two. A teacher spends twenty minutes explaining the idiom “barking up the wrong tree”. Part A. What's the opportunity cost of this instructional choice? Part B. What morphological knowledge could be taught in the same time? Part C. How would you decide whether an idiom is worth teaching?
+
+Three. A student asks about the difference between “big” and “large”. Part A. Why might teaching these together cause problems? Part B. How do their frequencies compare? Part C. What does this suggest about when to introduce each word?
+
+Pause the recording while you work through the questions.
+
+[00:36:28] 47. Self-assessment: vocabulary analysis
+
+Self-assessment: vocabulary analysis.
+
+Before concluding, check your understanding. Can you explain the difference between word families and lemmas? Do you understand why frequency follows a Zipfian distribution? Can you identify morphological processes in unfamiliar words? Do you recognize why semantic sets can impede learning? If you can't confidently address these concepts, review the relevant sections.
+
+Pause the recording while you think it through.
+
+[00:37:01] 48. Summary
+
+For many people, language is all about words. This chapter has shown that even defining “word” requires multiple perspectives, and that vocabulary knowledge encompasses not just individual items but patterns of combination, complementation, and semantic extension. The next time you look at a textbook's vocabulary list, you have the tools to ask whether it's organized around frequency or around semantic sets, whether the target words are common enough to justify the time, and whether the morphological patterns in the selection could do more work than the individual items.
+
+[00:37:43] 49. Advanced exercise: the complexity of counting words
+
+Advanced exercises. There are six. Pause after each one.
+
+Exercise one: the complexity of counting words. A corpus analysis of a news website shows fifteen million word tokens; ninety-five thousand word types, or shapes; thirty-five thousand lemmas; and eighteen thousand word families.
+
+Part A. Explain what each of these counts tells us about the vocabulary in this corpus. Why are they all useful for different purposes? Part B. The ratio of tokens to types is about a hundred and fifty-eight to one. What does this tell us about vocabulary distribution? Part C. Why is the jump from ninety-five thousand types to only eighteen thousand families so dramatic? What linguistic knowledge allows this reduction?
+
+Pause the recording while you work through the exercise.
+
+[00:38:37] 50. Advanced exercise: morphological productivity and frequency
+
+Exercise two: morphological productivity and frequency.
+
+The suffix “ness” can attach to almost any adjective: “happiness”, “redness”, “interestingness”. The suffix T-H appears in only a few words.
+
+Part A. What does this tell us about morphological productivity? Part B. How might this relate to the frequency patterns we see in vocabulary more generally? Part C. Why might some affixes remain productive but not others?
+
+Pause the recording while you work through the exercise.
+
+[00:39:17] 51. Advanced exercise: knowing a word
+
+Exercise three: the linguistics of “knowing a word”.
+
+Consider these two sentences. First, the ungrammatical “The child slept the bed”. Second, the ungrammatical “The committee elapsed before the rescue team arrived”.
+
+Each contains a grammatical error related to how the verb combines with other elements. What different types of knowledge about words do these errors reveal? How does this complicate our notion of what it means to “know” a word?
+
+Pause the recording while you work through the exercise.
+
+[00:39:54] 52. Advanced exercise: frequency, coverage, and genre
+
+Exercise four: frequency, coverage, and genre.
+
+The Academic Word List provides roughly ten percent coverage of academic texts, but only about one point four percent of fiction. Meanwhile, the two thousand most frequent word families provide about ninety percent coverage of conversation, but only eighty percent of academic writing.
+
+Part A. What does this tell us about how vocabulary is distributed across different text types? Part B. What does this imply about “general” frequency lists? Part C. What implications does this have for claims about vocabulary size and comprehension?
+
+Pause the recording while you work through the exercise.
+
+[00:40:43] 53. Advanced exercise: word families across speakers
+
+Exercise five: word families across speakers.
+
+Consider the word family containing “electric”: “electric”, “electrical”, “electrician”, “electricity”, “electrify”, “electrification”.
+
+Part A. Would all speakers necessarily recognize these as related? Why or why not? Part B. How does this complicate research on vocabulary size? Part C. Find another word family where the morphological relationships might be opaque to some speakers.
+
+Pause the recording while you work through the exercise.
+
+[00:41:22] 54. Advanced exercise: construction-grammar perspective
+
+Exercise six: the construction-grammar perspective.
+
+Suppose we view expressions like “kick the bucket”, the verb-plus-“up” pattern meaning completion, as in “ate it up”, individual words, and even bound morphemes as different-sized constructions.
+
+Part A. How does this change our understanding of what constitutes “vocabulary”? Part B. What problems does this solve that traditional word-based approaches struggle with? Part C. How might this affect how we think about vocabulary size and frequency counts?
+
+Pause the recording while you work through the exercise.

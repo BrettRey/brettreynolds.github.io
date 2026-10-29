@@ -1,0 +1,494 @@
+Language Landscapes — Chapter 7: Speech and the sound system
+Adapted narrated companion. AI narration using the author’s approved voice.
+
+The teaching examples and exercises are narrated, with instructions to pause. A written reference accompanies the audio.
+
+[00:00:00] 01. Title and learning objectives
+
+Chapter 7. Speech and the sound system.
+
+By the end of this chapter, you should be able to explain the complexity of speech production and identify the major articulatory organs. Distinguish between phonemes and allophones, and understand their significance for pronunciation teaching. Describe English consonants and vowels using articulatory features: place, manner, voicing, and tongue position. Set realistic pronunciation goals that emphasize intelligibility over native-like accuracy.
+
+You should also be able to analyse syllable structure and apply phonotactic principles to understand learner difficulties. Recognize the suprasegmental features, stress, intonation, and rhythm, and their role in English pronunciation. Identify connected speech processes, such as linking, assimilation, and reduction, in natural speech. And apply phonetic knowledge to diagnose pronunciation challenges and provide targeted feedback.
+
+[00:01:02] 02. Introduction
+
+As English language teachers, we often focus on grammar and vocabulary, along with reading, writing, listening, and speaking. Underpinning all of these, though, is a fundamental aspect of language: pronunciation. This chapter introduces English speech and its sound system, providing you with the knowledge and tools to effectively teach reading, listening, and pronunciation to your students.
+
+We'll start by setting pronunciation goals, then explore the complexity of speech production, from the precise control of breathing to the intricate coordination of articulators. From there, we'll examine the sound system of English, considering phonemes, allophones, and the challenges they present for learners. We'll also discuss setting realistic pronunciation goals for learners; the distinction between phonemes and allophones; vowel length and quality; syllable structure and phonotactics; suprasegmental features like stress, intonation, and rhythm; and connected speech processes.
+
+[00:02:08] 03. Setting pronunciation goals: native-like pronunciation
+
+Setting pronunciation goals.
+
+When learning a new language, setting realistic and achievable pronunciation goals is crucial for both learners and educators. But determining what constitutes an appropriate pronunciation goal can be a complex and sometimes controversial issue, particularly in the context of English language learning.
+
+One perspective on pronunciation goals is the idea of “native-like” pronunciation. From this viewpoint, the ultimate aim of pronunciation instruction is to help learners achieve a level of proficiency that is indistinguishable from that of a native speaker. This goal is often motivated by the belief that native-like pronunciation is necessary for effective communication and social acceptance within the target language community. It's also the goal that many students have, at least implicitly.
+
+[00:03:02] 04. Challenges to native-likeness
+
+But the concept of native-like pronunciation has been challenged on several grounds. First, the very notion of a “native speaker” is very hard to pin down, given the wide variety of accents and dialects that exist within any language community, especially in a global language like English. Second, research has shown that even highly proficient English speakers who did not grow up speaking English typically retain some degree of foreign accent, and that this accent does not necessarily impede communication or social integration. The book cites Derwing and Munro, two thousand nine. Third, the pursuit of native-like pronunciation can be demotivating for learners, as it sets an unrealistic standard that may be difficult or impossible to achieve.
+
+[00:03:50] 05. Intelligibility and comprehensibility
+
+An alternative perspective on pronunciation goals emphasizes intelligibility and comprehensibility over native-likeness. Intelligibility refers to the extent to which a listener can accurately decode the words and utterances produced by a speaker, while comprehensibility refers to the ease with which a listener can understand the meaning of those utterances. The book cites Derwing and Munro, two thousand fifteen. From this viewpoint, the primary aim of pronunciation instruction is to help learners develop the skills and strategies needed to communicate effectively and efficiently in the target language, even if their pronunciation retains some non-native characteristics.
+
+Research has provided support for the intelligibility and comprehensibility perspective on pronunciation goals. Studies have shown that even speech with noticeable accents can be highly intelligible and comprehensible. Typically, we don't notice our own accents or those like them. And factors such as speech rate, fluency, and lexical and grammatical accuracy often play a more significant role in communication success than accent. That's from Munro and Derwing, nineteen ninety-five. This focus can also be more motivating for learners, as it emphasizes the communicative value of their language skills rather than their ability to conform to some idealized native-speaker norm.
+
+[00:05:22] 06. Identity and individual differences
+
+Another factor to consider when setting pronunciation goals is the role of identity and individual differences. For some learners, developing a native-like accent may be an important personal or professional goal, reflecting their desire to fully integrate into the target language community or to project a particular social or cultural identity. For others, retaining some degree of foreign accent may be a way of asserting their linguistic and cultural heritage or of expressing their unique personality and style. Ultimately, the choice of pronunciation goals should be informed by a learner's individual needs, motivations, and contexts of language use.
+
+[00:06:06] 07. Accent discrimination and bias
+
+In setting pronunciation goals, it is also important to consider the potential for accent discrimination and bias. Everyday experience shows that non-local accents can sometimes trigger negative stereotypes or prejudices, and this can lead to social, educational, or professional barriers for speakers. The book cites Lippi-Green, two thousand twelve. While the ultimate solution to this problem is greater linguistic diversity and inclusion, language teachers can both help learners surmount accent bias and urge a greater acceptance of non-native speech.
+
+[00:06:45] 08. Balancing aspiration and realism
+
+Ultimately, the key to setting effective pronunciation goals is to strike a balance between aspirational and realistic expectations. While the goal of native-like pronunciation may be appropriate for some learners in some contexts, a more broadly applicable and achievable goal is the development of intelligible, comprehensible, and confident speech that allows learners to communicate successfully in a variety of social and professional settings. By prioritizing these communicative outcomes over a narrow focus on accent reduction, language educators can help learners develop the skills and strategies needed to become effective and empowered users of the English language.
+
+[00:07:30] 09. Speech production: breath and the trunk
+
+Speech production.
+
+Speaking is one of the most complicated things we do. Even when we put aside all the linguistic processing that's completely invisible, the physical act of speech itself remains a feat of remarkable intricacy.
+
+Start with the breath. As we speak, we push an exquisitely controlled stream of air from our lungs, up our windpipe, past our vocal cords, and then out, through the mouth, the nose, or both. This is surprising. While breathing typically occurs automatically, speaking requires voluntary control over the breathing apparatus. Speakers often inhale quickly and deeply, and exhale more slowly to prolong phonation, that is, making speech sounds. This pattern is crucial for long sentences or when emphasis is needed on particular words or phrases.
+
+The muscles of the trunk, which include the abdominal and back muscles, play a supporting role in breathing and speech. These muscles help regulate the pressure within the abdominal and thoracic cavities, enhancing control over the air expelled during speech. There's a feedback loop between trunk stability and breath control.
+
+[00:08:42] 10. Speech production: articulators and the brain
+
+But what of the mouth, the tongue, the lips, the jaw, the soft palate? The level of precision they achieve rivals that of a fine orchestra, the placement of each articulator shaping the fundamental frequencies and various overtones that characterize the various vowels and consonants. Unlike an orchestra, though, nobody rehearses. You've been doing this flawlessly since before you could tie your shoes, and you've never once thought about it. Until now. Sorry about that.
+
+The brain has to send signals to each of these structures in a precise sequence and timing. Due to the varying distances between the brain and the different articulators, the neural impulses need careful orchestration. Speech production isn't a simple sequence of brain signals matching the order of sounds. The brain issues motor commands in complex patterns that may not follow the phonological order of words, constantly adjusting for varying articulator positions in different sound contexts. The book cites Tatham and Morton, two thousand six, page one hundred eight.
+
+[00:09:51] 11. Articulatory organs and the places-of-articulation figure
+
+Articulatory organs and their roles.
+
+Speech production involves a coordinated effort of several organs, each contributing to the formation of sounds. The book's first figure illustrates various places of articulation, which we'll explore in this section. It's a cross-section of the head, cut down the middle, with the lips at the left edge and the throat at the right. Numbers mark each place along the way: the lips at the front, the teeth, the ridge behind them, the roof of the mouth, the soft palate and the uvula at the back, and the larynx at the bottom of the throat, with the parts of the tongue marked below the roof of the mouth. The numbers are in the written reference. Here, I'll name each place as we meet it.
+
+A place of articulation is a location in the vocal tract where the tongue, lips, or other organ can form a constriction or closure to produce a speech sound. We'll focus on those most relevant to English.
+
+[00:10:52] 12. Lungs, larynx, and glottis
+
+The lungs provide the airstream for most speech sounds. During speech, we control this airflow, using it to generate different sounds as it passes through the vocal tract.
+
+The larynx houses the vocal folds. When these folds vibrate as air passes through, they produce voicing, forming vowels and voiced consonants, like the first sounds in bin, din, get, nip, mat, red, and lip. Holding the folds apart results in voiceless sounds, like the first sounds in pin, tin, and kin.
+
+The glottis is the space between the vocal folds. When the vocal folds are brought together abruptly, they produce a glottal stop, heard in expressions like uh-oh, and other words in various dialects.
+
+[00:11:41] 13. The velum
+
+The velum, or soft palate, controls nasal airflow. A lowered velum creates nasal sounds, like the first sounds in mat and nip, and the N-G sound at the end of sing, while a raised velum produces oral sounds. The velum also serves as a place of articulation for velar consonants, such as the first sounds in kin and get, and again the N-G sound at the end of sing.
+
+Here's a way to feel the nasal airflow: try saying murmur or nanny while firmly holding your nose. Pause the recording and give it a try.
+
+[00:12:22] 14. The uvula
+
+The uvula is used as a place of articulation in some languages. This is uncommon in English, though it occurs in some dialects. An example of a uvular sound is the French R in rouge.
+
+[00:12:35] 15. Teeth, alveolar ridge, tongue, and lips
+
+The teeth and the alveolar ridge serve as points of contact for the tongue for many sounds, including the first sounds in tin, din, sip, and zip.
+
+The tongue's versatility allows for a wide range of sound productions. The tip and the blade are used for alveolar sounds, like those same first sounds in tin, din, sip, and zip. The front of the tongue is used for sounds made toward the hard palate, like the S-H sound in ship. And the back of the tongue is used for velar sounds, like the first sounds in kin and get.
+
+The lips shape sounds in various ways. They're rounded, as for the vowel sound in boot. They're spread, as for the vowel sound in beet. And they're brought together for bilabial sounds, like the first sounds in pin and bin.
+
+[00:13:23] 16. The sound system: my dialect
+
+The sound system.
+
+English pronunciation varies from place to place and time to time. There is no universal standard, so I will describe the English that I speak, a somewhat conservative variety found in and around Toronto. When I say conservative, I mean that I don't have a number of the sound changes that many folks I grew up with have. When I say which, for instance, it doesn't sound like witch: it starts with an H followed by a W, not just a W.
+
+[00:13:55] 17. No single correct pronunciation
+
+I can't emphasize enough that there is no single correct pronunciation. There is no way to adjudicate between those who say off-ten, with the T sounded, and those who say off-en, without it. Or between those who say nuclear as noo-klee-er, those who say it as nyoo-klee-er, and those who say it as noo-kyuh-ler. Or between those who apologize with sah-ree and those who use saw-ree, and so on. Even if you've never learned the IPA, I expect you can work out that those words are often, nuclear, and sorry. People will nevertheless continue to announce one, because certainty is cheaper than analysis.
+
+[00:14:36] 18. The IPA, symbol by symbol
+
+But it's time to go through the symbols of the International Phonetic Alphabet, or IPA, one by one. The symbols themselves are in the written reference. Here, I'll describe each sound with an example word. Most of them are just what you'd expect: the first sound in mom, the first sound in dad, and so on. Only a few are unfamiliar: the T-H sounds in thin and this, the sound in the middle of measure, the J sound in judge, the N-G sound in sing, the S-H sound in ship, and the C-H sound in chip. And one is confusing: the symbol that looks like a letter j is the Y sound in yellow.
+
+[00:15:19] 19. Consonants
+
+Consonants.
+
+I have roughly twenty-four consonant phonemes in my dialect, depending on whether you count things like the glottal stop in uh-oh. Each is characterized by its place and manner of articulation, and by voicing. Let's explore these features.
+
+[00:15:38] 20. Consonants: place of articulation
+
+Place of articulation.
+
+The place of articulation refers to where in the vocal tract the airflow is obstructed. English uses these main places.
+
+Bilabial: both lips come together. Examples are the first sounds in pin, bin, mat, and win.
+
+Labiodental: the lower lip touches the upper teeth. Examples are the first sounds in fan and van.
+
+Dental: the tongue tip is behind or between the teeth. Examples are the T-H sound in thin, and the voiced T-H sound in this.
+
+Alveolar: the tongue tip or blade is on the alveolar ridge. Examples are the first sounds in tin, din, sip, zip, nip, and lip.
+
+Post-alveolar: the tongue blade is behind the alveolar ridge. Examples are the first sound in red, the S-H sound in ship, the sound in the middle of measure, the C-H sound in chip, and the J sound in judge. Here, the C-H and J sounds are single phonemes, even though they're represented in the IPA with two symbols each.
+
+Palatal: the tongue body is against the hard palate. The example is the Y sound in yes.
+
+Velar: the tongue body is against the soft palate. Examples are the first sounds in kin and get, and the N-G sound at the end of sing.
+
+Glottal: constriction at the vocal folds. The example is the first sound in hat.
+
+[00:17:10] 21. Consonants: manner of articulation
+
+Manner of articulation.
+
+The manner of articulation describes how the airflow is obstructed. English uses these manners.
+
+Plosives, also called stops: complete closure followed by sudden release. Examples are the first sounds in pin, bin, tin, din, kin, and get.
+
+Nasals: the velum is lowered, and air escapes through the nose. Examples are the first sounds in mat and nip, and the N-G sound at the end of sing.
+
+Fricatives: close approximation of the articulators, with turbulent airflow. Examples are the first sounds in fan, van, thin, this, sip, zip, ship, and hat, and the sound in the middle of measure.
+
+Affricates: a plosive beginning and a fricative end. Examples are the first sounds in chip and judge.
+
+Approximants: the articulators approach each other but don't cause turbulence. Examples are the first sounds in red, yes, and win.
+
+Lateral: air escapes around the sides of the tongue. The example is the first sound in lip.
+
+[00:18:17] 22. Consonants: voicing
+
+Voicing.
+
+Voicing refers to whether the vocal folds vibrate during the production of a sound. English consonants come in voiced-voiceless pairs for many places and manners of articulation.
+
+The voiced consonants are the first sounds in bin, din, get, van, this, zip, and judge; the sound in the middle of measure; the first sounds in mat and nip; the N-G sound at the end of sing; and the first sounds in lip, red, yes, and win.
+
+The voiceless consonants are the first sounds in pin, tin, kin, fan, thin, sip, ship, chip, and hat.
+
+Understanding these features helps in identifying why certain sounds might be challenging for learners. For instance, a native speaker of a language without the voiceless T-H sound might substitute it with the first sound in sip or the first sound in tin, as these are the closest sounds in their phonetic inventory.
+
+[00:19:13] 23. Check your understanding: consonants
+
+Check your understanding.
+
+Test your consonant analysis skills. Describe the first sound in fan using the three-feature system: place, manner, and voicing. Then predict why a Spanish speaker might confuse the first sounds in berry and very. What features do these sounds share, and how do they differ?
+
+Pause the recording and think about your answers.
+
+[00:19:40] 24. Vowels and the vowel chart
+
+Vowels.
+
+My dialect has about nine main vowel phonemes and seven diphthongs. Vowels are characterized by the position of the tongue, the shape of the lips, and their length. The vowels in my dialect are shown in the book's vowel chart.
+
+It's a trapezoid, with the front of the mouth at the left and the back at the right, and with close, or high, vowels at the top and open, or low, vowels at the bottom. The vowel of beet sits at the top left, and the vowel of boot at the top right of the chart, with the vowels of bit and book just below them. The mid vowels, such as the vowels of bet and but and the first vowel of about, sit in the middle of the chart. And the open vowels, such as the vowels of bat and bot, sit at the bottom. The symbols are in the written reference.
+
+[00:20:31] 25. Vowels: tongue position
+
+Tongue position.
+
+The tongue position is described in terms of height, high, mid, and low, and frontness, front, central, and back.
+
+The book's second vowel figure is a cross-section of the mouth showing the tongue's shape for four vowels. The tongue arches highest for the first vowel, the vowel of beet, and the arch drops step by step through the next three, with the highest point drifting a little toward the back, ending lowest for the most open vowel.
+
+High front: the vowels in beet and bit. High back: the vowels in boot and book. Mid front: the vowel in bet. Mid central: the vowel in the first syllable of about. Mid back: the vowel in but. Low front: the vowel in bat. And low back: the vowel in bot.
+
+[00:21:19] 26. Vowels: lip rounding and diphthongs
+
+Lip rounding.
+
+Vowels can be rounded or unrounded. The rounded vowels are the ones in boot and book, and the O vowel. All the others are unrounded.
+
+Diphthongs.
+
+Diphthongs are vowel sounds that involve a change in quality during their production. The word comes from the Greek diphthongos, meaning having two sounds. For example, ride starts at an open vowel and glides to the vowel in bit. My dialect includes the following diphthongs. The vowel in ride, before voiced consonants. The vowel in write, before voiceless consonants. The vowel in loud, before voiced consonants. The vowel in out, before voiceless consonants. The vowel in boy. The vowel in bait. And the vowel in boat. In the book's symbols, the vowels in write and out start higher in the mouth than the vowels in ride and loud.
+
+[00:22:11] 27. Vowels and learners
+
+Many languages have fewer vowel distinctions than English, making vowel production and discrimination a common challenge for learners. For instance, speakers of languages with a five-vowel system, with one vowel each in the high front, high back, mid front, mid back, and low positions, may struggle to differentiate between the vowels in beet and bit, or in boot and book.
+
+[00:22:36] 28. Phonemes and allophones: the strawberries
+
+Phonemes and allophones.
+
+The human capacity for language is remarkable.
+
+Not only can we produce and understand complex sounds, but our brains can also categorize these sounds in ways that create meaning. Those sound categories, the smallest ones, the building blocks of spoken English, are phonemes and allophones.
+
+Now, consider, for a moment, the strawberries in the book's strawberry figure. At first glance, they likely appear red to you, a colour universally associated with ripeness in this fruit. But there are no red pixels in the image at all. The pixels are actually greys and cyans. In most contexts, they would look grey with a tinge of cyan. Instead, red is a process in your brain that guesses at what you must be perceiving, given the cyan background, and then serves that up to your conscious experience. It's an optical illusion, nothing more. The figure is based on a technique by Akiyoshi Kitaoka.
+
+[00:23:40] 29. Phonemes as mental categories
+
+Phonemes function in a similar way. They are useful illusions that our brains serve up to our conscious experience, mental categories used to group similar sounding speech units in particular contexts. They're how we tell cat from cot, fan from van, ducks from Doug's, and ripe from wipe. They're the smallest sounds that make a difference in a language, the colours of words, the psychological experience of speech atoms.
+
+But, just as the redness of the strawberries depends on the background colour, cyan, the specific sounds that make up a phoneme can vary depending on the language background of the speaker and the surrounding sounds in a word. Red is a mental category, not a physical property of the world. Similarly, the M phoneme, the one at both ends of mom, is a mental category, not a physical property of the world.
+
+As the M phoneme illustrates, we write phonemes in between slashes. For instance, the phoneme that starts the word top is the T phoneme, and so is the one that comes after the S in stop.
+
+[00:24:47] 30. Allophones and aspiration
+
+Phonemes are the smallest speech sounds that make a difference in a language. The T phonemes in top and stop each have even sonic aspects that distinguish them from one another, but not in a way that makes a difference to English speakers. These different versions of the same phoneme are called allophones. Allophones are simply different ways to pronounce the same sound, without changing the meaning of a word.
+
+For example, the first T in top is aspirated: it's accompanied by a puff of air, which we show with a small raised H after the T, in square brackets. The second T, in stop, is not; it's just plain old T. The aspirated T and the plain T are allophones of the T phoneme.
+
+If you're sure that those two sounds are, in fact, identical, as I did the first time I was told that they were different, then you should hold a tissue or a flame in front of your mouth and say the two words. Because the T in top is aspirated, the tissue or flame will jump, something it won't do for the T in stop. The book has two photographs of a flame, one for each word. Give it a try. Pause the recording and try it.
+
+[00:26:03] 31. Hindi and Urdu
+
+If you speak a language such as Hindi or Urdu, then you don't need a flame to perceive this difference. It's obvious to you, because the aspirated T and the plain T are different phonemes. They seem as different as T and D do to English speakers, or as red and cyan.
+
+[00:26:21] 32. Phones, phonemes, and spellings
+
+So, to review, a phoneme is the smallest language sound that makes a difference in a particular language. Phonemes are written between slashes. By contrast, phones are the smallest language sounds found across human language, whether or not they make a difference in any particular language, and they're written in square brackets. While we're at it, spellings are written in angle brackets. The book's example is the word this, written between slashes, in square brackets, and in angle brackets.
+
+[00:26:55] 33. Vowels and consonants versus letters
+
+Vowels and consonants.
+
+We often say that the English vowels are A, E, I, O, U, and sometimes Y. But linguists prefer the word vowel for phonemes, not for graphemes. Graphemes are individual letters or groups of letters that represent a sound: the letter T represents the T sound, and the letters T and H together represent the T-H sound in thin. When I use the word vowel here, that's what I mean: a phoneme, not a letter or grapheme. Same thing for consonant. So English doesn't have five or six vowels. It's got more than twenty, depending on the dialect.
+
+This is, incidentally, a useful diagnostic. If someone confidently tells you English has five vowels, you can be fairly certain they're talking about letters. If they say six, they've remembered Y. If they say twenty-odd, they may have taken a linguistics course and would like to tell you about it.
+
+[00:27:54] 34. Phonemes across languages and dialects
+
+Two different phones may make no phonemic difference in one language, like the aspirated and plain T in English, while being distinct in another. If you said stop with an aspirated T, it would still be stop. On the other hand, if you changed the plain T in the Hindi word for rhythm, which sounds something like tahl, to an aspirated T, it would become the Hindi word for plate.
+
+Here, English has one phoneme where Hindi has two. But cases where English has two phonemes where another language has one are also common. Japanese speakers, for instance, somewhat famously perceive both English R and L as one phoneme.
+
+In fact, there are even differences among English dialects. In my Ontario English, the vowels in cot and caught are the same, but many people perceive cot and caught as having different vowels. For them, these words are as perceptually distinct as pin and pen or ban and bun.
+
+[00:28:54] 35. Why phonemes and allophones matter to teachers
+
+So why does this phoneme and allophone business matter for teachers? For one thing, it helps us understand the nature of pronunciation errors. If a Spanish speaker says berry instead of very, they're not messing up the phonemes; they're applying Spanish allophonic rules to English. In Spanish, the plain B and a second sound, written with the Greek letter beta, are allophones of the same phoneme, with the second occurring between vowels and sounding to English speakers half-way between a B and a V. But in English, B and V can change meaning. Recognizing this can help us give more targeted, meaningful feedback.
+
+It also matters because if students sometimes perceive us as saying the “clear L” in love and other times the “dark L” in ball, but we think they're always hearing only the English L, then there's a good deal of possibility for miscommunication.
+
+So as ESL teachers, we need a solid grasp of the phoneme and allophone distinction. We need to know which sound differences are phonemic in English, and thus essential for meaning, and which are allophonic, and thus more flexible. We need this knowledge to prioritize our teaching, to troubleshoot learner difficulties, and to make informed choices about pronunciation models and targets.
+
+[00:30:20] 36. Developing phonemic awareness
+
+Luckily, you don't need to be a trained linguist to develop this kind of phonemic awareness. A good place to start is simply by studying a phonemic chart of English, like the ones provided by the International Phonetic Association. Get familiar with the symbols, the articulatory descriptions, and the example words. Train your ear to hear the contrasts through minimal pair activities and transcription practice.
+
+And crucially, start listening to English with “phonetic ears”. When you hear a learner's pronunciation error, ask yourself: are they mixing up phonemes, or just using non-native allophones? When you listen to regional accents, try to consider precisely how they vary. When you teach new vocabulary, think about how to highlight the phonemic contrasts and relationships.
+
+[00:31:11] 37. Vowel length and quality
+
+Vowel length and quality.
+
+One area of confusion for ESL learners and teachers alike is the concept of “long” and “short” vowels in English. This terminology, while widely used, can be misleading, as it conflates two distinct aspects of vowel sounds: duration and quality.
+
+In everyday language, we often describe the vowel in words like mate as being “long” and the vowel in words like mat as “short”. But from a phonological perspective, the primary difference between these vowels is not one of length, but of quality. The two vowels are simply distinct sounds, the vowel in bait and the vowel in bat. But, generally speaking, they have very similar durations.
+
+That said, vowel duration does play a role in English pronunciation, but in a different way. In many varieties of English, vowels tend to be phonetically longer before voiced consonants than before voiceless consonants.
+
+[00:32:11] 38. Box: consonant voicing
+
+Consonant voicing.
+
+Consonants in English can be either voiced or voiceless. Voiced consonants involve vibration of the vocal cords during production, while voiceless consonants do not. For example, the first sound in bin is the voiced counterpart to the voiceless first sound in pin, the first sound in din to the first sound in tin, and the first sound in get to the first sound in kin. If that's not clear, try putting your fingertips to your throat and alternating between the first sound in pin and the first sound in bin. You'll feel the vibrations with the one in bin. Pause the recording and give it a try.
+
+[00:32:55] 39. Vowel duration before voiced and voiceless consonants
+
+For example, the vowel in mad is typically slightly longer than the vowel in mat, something we can mark with a length mark in the phonetic transcription. One explanation is that the vibration of the vocal cords during the production of the D allows the vowel to be sustained for a bit longer than before the voiceless T.
+
+This durational difference is a phonetic detail, though, not a phonological contrast, at least not in English. It doesn't change the identity of the vowel in the same way that the quality difference between the vowel in mat and the vowel in mate does. In other words, the vowel in mad and the vowel in mat are allophones of the same phoneme, while the vowel in mat and the vowel in mate are separate phonemes.
+
+For students who have difficulty producing the voiced versus voiceless distinction after vowels, as in bag versus back, or hid versus hit, it is sometimes helpful to try “holding” the preceding vowels a bit longer, especially if they speak a language in which vowel length is phonemic, that is, where a short tee and a long tee could be different words.
+
+[00:34:07] 40. The pronunciations of the s ending
+
+The pronunciations of the s and ed endings.
+
+Two of the most common inflectional endings in English are the s ending, spelled s or e-s, used for plural nouns and third-person singular present tense verbs, and the ed ending, used for past tense and past participle forms of regular verbs. Despite their simple spellings, these endings can be pronounced in multiple ways depending on the phonological context in which they appear.
+
+The s ending has three possible pronunciations. One: an S sound after voiceless consonants, except the S sound, the S-H sound, and the C-H sound. Examples: cats, books, laughs. Two: a Z sound after vowels and voiced consonants, except the Z sound, the sound in the middle of measure, and the J sound. Examples: dogs, rooms, cars. Three: an extra syllable, iz, as in the end of buses, after sibilants, the hissing or buzzing sounds: the S sound, the Z sound, the S-H sound, the sound in the middle of measure, the C-H sound, and the J sound. Examples: buses, garages, watches.
+
+[00:35:18] 41. The pronunciations of the ed ending
+
+Similarly, the ed ending has three possible pronunciations. One: a T sound after voiceless consonants, except T. Examples: walked, helped, laughed. Two: a D sound after vowels and voiced consonants, except D. Examples: played, showed, loved. Three: an extra syllable, id, as in the end of wanted, after T and D. Examples: wanted, headed, guarded.
+
+[00:35:49] 42. Progressive assimilation and learner difficulty
+
+These pronunciation patterns are not random but rather reflect a process called progressive assimilation, where the voicing of the final consonant of the base word influences the voicing of the inflectional ending. In other words, voiceless consonants trigger voiceless pronunciations, the S sound and the T sound, while voiced consonants and vowels trigger voiced pronunciations, the Z sound and the D sound. The iz and id pronunciations occur when the base word ends in a sound that is phonetically similar to the inflectional ending, in order to maintain the contrast between the two sounds.
+
+The past tense and past participle ending often causes problems for students who speak particular languages. Such students default to the id ending, even where T or D would typically be preferred. This usually has to do with limits on what and where consonant clusters are allowed to occur in the first language. These are called phonotactic limits and are the topic of the next section.
+
+[00:36:53] 43. Syllable structure
+
+Syllable structure and phonotactics.
+
+If phonemes are the fundamental sound units of English pronunciation, syllables are the fundamental rhythmic units. Every word is composed of one or more syllables, each with its own internal structure and rules for which sounds can go where. This structure underpins everything from word stress to connected speech processes to pronunciation teaching strategies.
+
+At its most basic, a syllable consists of a vowel sound, the nucleus, optionally preceded by one or more consonants, the onset, and optionally followed by one or more consonants, the coda. The nucleus is the peak of sonority, the loudest and most prominent part of the syllable. The onset and coda are the margins, the consonantal bookends that shape the syllable's identity.
+
+Another useful unit of analysis in the syllable is the rime, the nucleus plus the coda, which is the part that matters for rhyming. The rime in a word like teach is the vowel plus the C-H sound, spelled e-a-c-h. Another example is the rime in plate, spelled a-t-e.
+
+To put these syllable parts all together, consider the word cats. It's a straightforward monosyllabic word, consisting of a single syllable. The vowel is the nucleus, the first consonant is the onset, and the T and S together, a cluster, are the coda. All together, they form a tidy syllabic package: onset, nucleus, coda.
+
+[00:38:32] 44. Syllable variety and learner strategies
+
+But of course, English doesn't always opt for tidy. One of the delightful, and devilish, things about English syllable structure is its sheer variety. English allows for all sorts of syllable types: from the simple single vowel of a word like eye, to the complex pattern of three consonants, a vowel, and four consonants in a word like strengths. These long consonant clusters are actually quite uncommon across languages, and they can be hard to produce if you're not used to them. In fact, many languages allow only a vowel, or a consonant followed by a vowel, with nary a coda in sight. At times, English seems to regard the syllable as a dare.
+
+Depending on the first language, sometimes this difficulty is somewhat circumvented by inserting extra vowels in between consonants. For example, a Japanese speaker saying McDonalds will produce something like ma-ku-do-na-ru-do, and an English speaker might add an extra vowel after the first consonant of the Russian word for look, which begins with a cluster of consonants. In other cases, some of the consonants simply disappear. Vietnamese speakers will often produce problem as something like pob-um, not because they can't say R or L, but because they can't say the clusters P-R and B-L.
+
+Both coping mechanisms can cause confusion for listeners, but it seems that deletion is generally more confusing than insertion.
+
+[00:40:06] 45. Phonotactics
+
+And yet, even in this wild variety, there are patterns and constraints. Enter phonotactics: the permissible and impermissible combinations of sounds in a language. Phonotactics determines both which sound sequences are allowed and which positions they can occupy within syllables: onset, nucleus, and coda.
+
+For instance, English is happy to have S followed by L as an onset cluster, as in slide, slap, and slip. But it categorically rejects that sequence as a coda. There are no English words that end with S followed by L. Similarly, English allows N followed by D as a coda cluster in words like hand and pond, but it doesn't allow it as an onset: syllables that begin with N followed by D are not well-formed English syllables.
+
+These aren't just random quirks, but deeply ingrained patterns in the language. And they can vary across varieties of English. Many British and American speakers, for example, happily produce a syllabic L in words like bottle, with the L functioning as a nucleus. But for some New Zealand speakers, this syllable type is illicit, and bottle becomes something like bot-ul.
+
+The N-G sound, as in sing, is the one found at the beginning of the Vietnamese name Nguyen. But English doesn't allow syllable-initial N-G, which is why most English speakers mangle that name so badly. To be clear, we can all say the N-G sound perfectly well. But our brains balk when asked to do it at the beginning of a syllable.
+
+[00:41:44] 46. Phonotactics for teachers
+
+For teachers, phonotactic awareness is just as important as phonemic awareness. It helps us understand why certain pronunciations are difficult for learners, because they might be trying to map first-language phonotactics onto English, and it gives us a basis for providing targeted, principled feedback. If a Spanish speaker consistently adds a vowel before initial S-T clusters, saying “estop” for stop, we can recognize this as a phonotactic issue, since S-T, S-P, S-K, and so on are not possible onsets in Spanish, and deal with it accordingly.
+
+Phonotactics also has implications for syllabus design and materials development. When creating word lists or pronunciation activities, we need to consider syllable structure and consonant cluster sequencing in a way that builds complexity gradually. Starting with simple consonant-vowel and consonant-vowel-consonant syllables, then moving on to more complex onsets and codas, can help learners build phonotactic competence in a systematic way.
+
+And of course, phonotactics interacts with other aspects of pronunciation in crucial ways. Syllable structure is the foundation for word stress patterns, with stressed syllables attracting more complex onsets and codas. Phonotactics also plays a key role in connected speech processes like linking and elision, as sounds adjust to maintain well-formedness across word boundaries.
+
+[00:43:16] 47. Developing a mental map of syllables
+
+As ESL teachers, we need to have a mental map of English syllable structure and phonotactics. We need to know not just what's possible, but what's probable, which syllable types and sound sequences are most common and productive in the language. This knowledge allows us to prioritize our teaching, to anticipate learner challenges, and to provide authentic, relevant input and practice.
+
+So how can we develop this mental map? Again, it starts with self-study and reflection. Analyse the syllable structure of words you encounter, breaking them down into onset, nucleus, and coda. Notice patterns in the distribution of consonant clusters. Consult phonotactic descriptions in pronunciation resources and linguistics textbooks.
+
+But also, crucially, start listening to English with “syllabic ears”. Tune into the rhythmic ebb and flow of the language, the way sounds group and divide themselves into syllabic units. Pay attention to how syllable structure shapes stress, intonation, and connected speech. And when you hear learner errors, consider whether they might have a phonotactic basis.
+
+Above all, remember that syllables and phonotactics are not just abstract linguistic concepts, but fundamental organizational principles of English pronunciation. By grasping these principles, we gain a powerful framework for understanding and teaching the sound system holistically. We can help our learners not just to pronounce individual sounds, but to internalize the rhythmic architecture of the language.
+
+[00:44:59] 48. Suprasegmentals and word stress
+
+Suprasegmentals.
+
+Suprasegmental features extend over more than one sound segment in an utterance. They play a crucial role in the rhythm, melody, and overall sound of a language.
+
+Stress. Word stress.
+
+Word stress refers to the emphasis placed on a particular syllable within a word. In English, stress can distinguish meaning.
+
+[00:45:25] 49. Word stress: record and desert
+
+Compare the noun and the verb record. In “a world record”, the stress falls on the first syllable. In “to record a song”, it falls on the second. Likewise, desert. In “the Sahara desert”, meaning arid land, the stress falls on the first syllable. In “to desert your friends”, meaning to abandon them, it falls on the second.
+
+[00:45:48] 50. Word stress tendencies
+
+English word stress patterns are complex and often unpredictable, though some general tendencies exist. Two-syllable nouns often stress the first syllable. Two-syllable verbs often stress the second syllable. And words ending in tion or sion typically stress the penultimate syllable, the one before the last.
+
+[00:46:11] 51. Stress in compounds and phrases
+
+Stress also distinguishes compounds from ordinary phrases. A black bird, any bird that's black, is not necessarily a blackbird, a species. A green house needs paint; a greenhouse grows plants. These contrasts cause real confusion for learners, and they resist explicit rule-giving because compound stress depends partly on how established the compound is. Ice cream is typically stressed like a compound, with the stress on ice. But for many speakers, ice water is not, and the book marks the compound-style stress on ice in ice water with an asterisk.
+
+[00:46:49] 52. Sentence stress
+
+Sentence stress.
+
+In connected speech, not all words receive equal stress. Content words, meaning nouns, lexical verbs, adjectives, and adverbs, are typically stressed, while function words, meaning articles, prepositions, and auxiliary verbs, are often unstressed. Here's the book's example, with the stress on cat and mat: The cat sat on the mat.
+
+This pattern of emphasizing content words contributes significantly to the rhythm of English speech.
+
+[00:47:21] 53. Contrastive stress
+
+But speakers can override the default pattern to mark contrastive focus, shifting stress onto the word that carries the new or corrective information. Here's the book's example: I didn't say he STOLE the money; I said he BORROWED it.
+
+Here, the stress on borrowed signals a correction. Without it, the sentence loses its point. Contrastive stress can land on any word in a sentence, including function words that are normally unstressed: I gave it TO her, not FOR her. This flexibility makes English stress a powerful information-packaging tool. See Chapter 14, on information packaging. But it's a subtle one. Misplaced stress rarely causes misunderstanding, but it does make the speaker harder to follow.
+
+[00:48:08] 54. Intonation: statements, questions, and attitudes
+
+Intonation.
+
+Intonation refers to the rise and fall of voice pitch over the course of an utterance. It serves several functions in English.
+
+First, distinguishing between statements and questions. “You're going.” That's falling intonation. “You're going?” That's rising intonation.
+
+Second, expressing emotions or attitudes. “Really.” Falling intonation can express agreement or boredom. “Really?” Rising intonation can express surprise or disbelief.
+
+[00:48:41] 55. Intonation: finished or continuing
+
+Third, indicating whether a speaker has finished or is continuing. “I bought apples, pears, and bananas.” The falling intonation on bananas indicates the list is complete. “I bought apples, pears, bananas...” Level or slightly rising intonation suggests the list continues.
+
+[00:49:02] 56. Intonation: tag questions
+
+Tag questions are a particularly clear case. The same words carry different meanings depending on the intonation. “You're coming, aren't you?” With falling intonation, that means: I expect so. “You're coming, aren't you?” With rising intonation, that means: I'm genuinely asking.
+
+[00:49:21] 57. Intonation: speech acts and errors
+
+With falling intonation, the tag is a confirmation: the speaker already believes the answer is yes. With rising intonation, the speaker is uncertain and wants a real answer. This is the kind of distinction that grammar alone can't capture: the syntax is identical, but the intonation changes the speech act from an assertion to a question.
+
+Intonation can be hard to notice consciously; we tend to hear what someone says before we hear how they say it. But intonation errors can cause real pragmatic misfires: a flat or falling intonation on what's meant as a question can sound like a statement or even a command.
+
+[00:50:05] 58. Rhythm: stress-timed and syllable-timed
+
+Rhythm.
+
+Stress-timed versus syllable-timed languages.
+
+Languages are often categorized as stress-timed or syllable-timed, though this distinction is more of a continuum than a binary classification.
+
+In stress-timed languages like English, the time between stressed syllables tends to be roughly equal, regardless of the number of unstressed syllables in between. This leads to the compression or reduction of unstressed syllables in rapid speech. Here are two sentences.
+
+[00:50:41] 59. Rhythm: the cat and the rat
+
+The cat ate the rat. That's five syllables.
+
+The cat has eaten the rat. That's seven syllables.
+
+Both sentences take approximately the same time to say, despite the different number of syllables. The unstressed syllables in the longer version get compressed to fit.
+
+[00:50:59] 60. Vowel reduction
+
+This compression is what drives vowel reduction. In unstressed syllables, most vowels collapse toward the schwa, the most common vowel in English.
+
+[00:51:10] 61. Vowel reduction: photograph and photographer
+
+The word photograph has full vowels in its first and last syllables. But when we shift to photographer, the stress moves, and the formerly full vowels reduce. Photograph. Photographer. This is not sloppy speech; it's the system working as designed. Learners who give every syllable equal weight sound effortful and choppy, not because their vowels are wrong but because their rhythm is.
+
+[00:51:37] 62. Syllable-timed languages
+
+Syllable-timed languages, like Malayalam or Spanish, tend to give each syllable roughly equal duration and stress. In these languages, the duration of an utterance is more directly related to the number of syllables it contains. Learners from syllable-timed backgrounds often resist vowel reduction because their first language has trained them to give each syllable its due. The result is intelligible but effortful English: every syllable gets full articulation, and the characteristic bounce of English stress-timing disappears.
+
+The stress-timed and syllable-timed contrast is an oversimplification; as the chapter noted, it's a continuum, and even “stress-timed” English varies by dialect and register. But as a teaching heuristic, it explains a real and pervasive source of difficulty. Rhythm is rarely taught explicitly in pronunciation classes, yet it may matter more for intelligibility than any individual consonant or vowel.
+
+[00:52:39] 63. Connected speech
+
+Connected speech.
+
+In the previous sections, we've looked at English pronunciation as a system of discrete parts: phonemes, allophones, syllables, stress, intonation. But in real-life language use, these parts are rarely produced in isolation. Instead, they flow and blend together in the stream of connected speech, undergoing all sorts of modifications and transformations in the process.
+
+These connected speech processes aren't just linguistic trivia, but fundamental features of natural, fluent English. When learners can comprehend and produce connected speech, they can engage more effectively in real-time communication, with all its speed, variability, and spontaneity.
+
+So what exactly happens in connected speech? At a broad level, we can identify three main types of processes: linking, assimilation, and reduction.
+
+[00:53:35] 64. The phonetic-reduction figure
+
+The book's figure for connected speech is a comic by Randall Munroe, showing the phrase going to in four steps, from the fully articulated form to an extremely reduced form in rapid speech. The first step is going to, the second is goin' to, the third is gonna, and the fourth is how fluent speakers actually say it when speaking rapidly, which is little more than a G and a nasalized vowel. Under each form is a drawing of the mouth, with the path of the tongue getting simpler at every step. The figure humorously shows the progression, and the caption in the book says so. The comic's own words and symbols are in the written reference.
+
+[00:54:20] 65. Linking
+
+Linking refers to the way sounds are joined together across word boundaries. In English, as in all languages, there's a tendency to “glue” words together, to create smooth, continuous transitions rather than choppy, staccato breaks. This can involve linking consonants to vowels, as in an apple; vowels to vowels, as in go in; or even consonants to consonants, as in top piece.
+
+[00:54:47] 66. Assimilation
+
+Assimilation is when a sound takes on characteristics of a neighboring sound, becoming more similar to it in place or manner of articulation. This can happen within words, like the N becoming an M before a P in input, but it's especially common across word boundaries. The phrase ten books might be pronounced tem books, because the N assimilates to the bilabial place of articulation of the B.
+
+[00:55:14] 67. Reduction
+
+Reduction, as illustrated in the figure, involves the simplification of sounds, often resulting in the omission or weakening of sounds. This process is particularly prominent in rapid, casual speech. For example, the phrase going to might be pronounced as gonna, or even further reduced to something approximating a G followed by a nasalized vowel, a vowel said partly through the nose. This reduction process helps make speech more fluid and less effortful for the speaker, but it can pose significant challenges for language learners who are accustomed to more deliberate, articulated forms of speech.
+
+[00:55:54] 68. Connected speech: patterns can be taught
+
+These processes are not random but follow predictable patterns that can be taught and practiced. Understanding the principles behind linking, assimilation, and reduction helps not only in producing more natural-sounding speech but also in better understanding native speakers, who naturally employ these processes in everyday conversation.
+
+[00:56:16] 69. Conclusion
+
+Conclusion.
+
+The sound system is where many teachers feel least prepared, and for good reason: the gap between what we hear and what's actually happening in the mouth is wide. Phonemes versus allophones, place and manner of articulation, stress, and intonation: these tools let you hear a pronunciation difficulty and trace it to a specific articulatory habit, or spot a systematic first-language transfer behind what looks like a random error. That diagnostic ear is worth more than any pronunciation drill.
+
+The chapter ends with a note: These definitions are simplified for accessibility and may not capture all nuances or exceptions. In practice, many of these concepts have complex interactions and variations across different contexts and varieties of English.

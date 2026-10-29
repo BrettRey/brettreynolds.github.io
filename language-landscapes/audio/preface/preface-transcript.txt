@@ -1,0 +1,45 @@
+Language Landscapes: Preface (transcript, adapted for listening)
+
+[0:00] 01. Preface: a foundation, not a traditional guide
+
+Preface.
+
+This book is not a traditional grammar guide or a collection of lesson plans, but a foundation for understanding language and a catalyst for informed teaching. It doesn't merely complement existing knowledge; it lays the groundwork for novices to understand the landscape of language, while offering seasoned educators new vantage points from which to view familiar territory.
+
+[0:24] 02. What each chapter does
+
+Each chapter equips you with tools for a different facet of English, moving from concepts to use. We begin by building a clear and solid understanding of familiar labels and categories and by asking what counts as “standard” and “grammatical”. We then map categories (noun, verb, phrase, clause) onto functions (head, modifier, subject, dependent), and revisit lexical categories, especially adverbs and prepositions, to show how a leaner system accounts for the data (including stubborn items like “on”). From there we introduce syntax trees as a professional lens for teachers rather than a student exercise. Subsequent chapters take up the sound system (suprasegmentals and connected-speech processes), followed by vocabulary (frequency, definition, deliberate practice, idiomaticity) and the writing system (phonics and spelling patterns). We then survey key constructions (questions, negation, relatives) to expose shared structures, shift to fluency and flow across skills and their trade-offs with accuracy, and end with discourse organization (coherence, information packaging) and the dynamics of conversation (turn-taking, pragmatics, cultural norms).
+
+[1:45] 03. Why this order
+
+This order is intentional: it lays conceptual ground first (what counts as a category, a standard, a judgment), stabilizes the category–function distinction before representation (trees), fills in the interfaces that shape form and processing (sound, lexicon, orthography), and only then generalizes across patterns (constructions) before widening to performance and interaction (fluency, discourse, conversation). In short, we move from foundations to form, from form to patterns, and from patterns to use.
+
+[2:26] 04. Reading the chapters in a different order
+
+The chapters are more or less modular. If your priority is classroom practice, begin with fluency and discourse, then consult constructions as needed. If you're preparing learners for pronunciation-intensive work, start with the sound system and writing system, then loop back to categories and functions. For grammar-focused courses, take the default path through categories, functions, lexical categories, and trees before dipping into constructions. Cross-references can be used to find light prerequisites; otherwise, feel free to reorder to fit your cohort, time, and aims.
+
+[3:05] 05. Who the book is for
+
+Throughout the book, you'll find that it often prioritizes areas that are typically underrepresented in training for teaching English as a second language, or TESL. Although the examples draw primarily on English as a second language, or ESL, and English as a foreign language, or EFL, contexts, the book is equally relevant for English language arts teachers at any level and for college-level writing and communication instructors, and anyone who needs to understand how English works in order to help others use it well. I'll point out common pitfalls and misunderstandings, not to criticize, but to help you avoid the ruts that many language courses get stuck in.
+
+[3:49] 06. The landscape and the terrain
+
+As you explore this linguistic landscape, remember that language is an ever-changing ecosystem. My goal isn't always to provide definitive answers, but to equip you with the fundamental knowledge and critical thinking skills to navigate the terrain of English as you encounter it in your teaching journey.
+
+This book maps the terrain; it's up to you to explore it.
+
+[4:13] 07. What the book builds on
+
+The global market for English grammar textbooks is vast, from learner series like Azar-Hagen and Murphy's Grammar in Use to teacher references by Larsen-Freeman and Celce-Murcia and by Parrott, with locally produced counterparts worldwide. What nearly all share is a traditional body of inherited analysis that has served generations of teachers and learners. Much of it is useful, and much of it is right. But much of it has also been passed down largely untested, and some of it doesn't hold up under scrutiny (Geoffrey Pullum offers a bracing critique in his book The Truth About English Grammar). This book starts from a different foundation: the framework of The Cambridge Grammar of the English Language, which subjects traditional claims to systematic testing and replaces those that don't hold up. It also reaches well beyond grammar to the sound system, the writing system, vocabulary, fluency, discourse, and conversation.
+
+[5:19] 08. A note about the grammatical framework
+
+A note about the grammatical framework.
+
+The framework provided here follows that of The Cambridge Grammar of the English Language, or CGEL, by Rodney Huddleston and Geoffrey Pullum, very closely, but has been simplified for accessibility. For instance, I use a two-level noun and noun phrase analysis instead of CGEL's three-level approach, employ a smaller set of functions, and avoid the issue of function fusion. This book focuses on providing the essential elements and ideas that teachers need to embark on their English-teaching journey, rather than attempting to cover all constructions dealt with in CGEL. For a more in-depth treatment, consider A Student's Introduction to English Grammar, by Huddleston, Pullum, and Reynolds, or CGEL itself.
+
+[6:10] 09. A note about Canadian English
+
+A note about Canadian English.
+
+While most of the book applies to any English-language teaching situation, the phonology section presents vowels as spoken in southern Ontario, Canada. Many of these will align with General American English, but I include features such as Canadian raising (for example, my raised pronunciation of the vowel in the word “house”, as opposed to the British or General American pronunciation), or indeed any other pronunciation. This choice reflects my own dialect and provides a specific reference point for phonological discussions.

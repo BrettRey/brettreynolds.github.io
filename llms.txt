@@ -34,6 +34,10 @@
 - [Adversarial Pragmatics for AI Safety Evaluation: Adjudication app](https://brettreynolds.ca/papers/adversarial-pragmatics-for-ai-safety-evaluation/judgment-protocol.html): The same browser review app used for the 54-row local seed-pilot adjudication.
 - [English Constructionary](https://brettrey.github.io/English-Constructionary/): A dictionary of English constructions in a projectibility-first Construction Grammar framework, with a curated lexicon layer of closed-class lexemes. Browsable site with per-entry formal patterns, meanings, constraints, and examples; YAML source data at https://github.com/BrettRey/English-Constructionary (MIT licence).
 
+## Data Sets
+
+- [Syllabified Wikipedia text in 17 languages, as counted for a study of cross-linguistic information rate](https://doi.org/10.5281/zenodo.24134212): Wikipedia text in 17 languages, 19,436,200 rows, with the syllables a counting pipeline found in each (391,330,566 syllables), built for a replication and extension of Coupé et al. (2019) on cross-linguistic information rate. Tab-separated, one file per language, with a datasheet. CC BY-SA 4.0. Mirror: https://huggingface.co/datasets/BrettRey/syllabified-wikipedia. Decision record: https://github.com/BrettRey/info-rate-context-prereg.
+
 ## Reference Entries
 
 - [Capitalism](https://brettreynolds.ca/capitalism.md): Reference entry treating capitalism as a structured institutional family organized around recurrent accumulation, with categorization tests, an attribution rule, and a worked inference on venture capital. HTML: https://brettreynolds.ca/capitalism.html

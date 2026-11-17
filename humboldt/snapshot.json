@@ -1,7 +1,7 @@
 {
   "format": "humboldt.website-snapshot",
   "version": 1,
-  "source_commit": "31645fd8d041ab6abce7e539cff4e25bb3ab07ea",
+  "source_commit": "3e1f30ab374637421861f911f8d42c207b01908b",
   "source_repository": "https://github.com/BrettRey/humboldt-grundzuege-translation",
   "manifest_sha256": "3701827f62d37fe94a63c4dec80ce7209c8165c3791f164030f224ba3be7dedd",
   "sections": [
@@ -131,55 +131,55 @@
     },
     {
       "path": "index.html",
-      "sha256": "c36853b83c52c2fa529ba67f107f6ffa9ae3fd812f40d87470acd2be84777c36"
+      "sha256": "635fdbdd16482a2140f001c97143007bcaec6a9a9dc4712e570f77b0a45f904f"
     },
     {
       "path": "introduction/index.html",
-      "sha256": "6233b0c56a2fe10e306bf31b6e8539cf80ec3abdb1a1f55c1ff2c9a01ce65174"
+      "sha256": "14d4524f89ca37a3ed758e1ea8d9602dd4e3735262eeb7f723386db47ec12f2a"
     },
     {
       "path": "introduction/reading.md",
-      "sha256": "513fce6b02f73acd879820031d43182d5f2ddcf89cc5af4e04e2119f2c7b2950"
+      "sha256": "26fec51ffc3c5edfd3e146101b788fb4d65f52fe9d2f04c20bc00c75341eb7ed"
     },
     {
       "path": "introduction/records.json",
-      "sha256": "15d829aded24a10f58713bec237732dc582a1bf0d5617e598db167ae386a0b16"
+      "sha256": "59646ee68ba7b63941ce66a94ad09c84607a041c55019771e034d43f058d97fd"
     },
     {
       "path": "nature-of-language/index.html",
-      "sha256": "fcb320b760767f95d10d91d77f7ad60bb175339830114543ad3e2b53e03b95fa"
+      "sha256": "6e2b6e2edcabc9d27e24b0909c0672e8e11b2a3978a91042467efc227a43e8d0"
     },
     {
       "path": "nature-of-language/reading.md",
-      "sha256": "fbe2b1eefc9baf8d5d5f3efcd45d9b12531c4f7f9fe61af8e90c7087a759a49e"
+      "sha256": "b15b7db850701690cc4d942f1d1a3907513f796b667544fa9d0ce9ba28d326db"
     },
     {
       "path": "nature-of-language/records.json",
-      "sha256": "e026982d2cb7d5fce678b202cb438e126f4059da9e9774b7dea563dcbaf7f956"
+      "sha256": "b57945d4239b33baea0f7898d007e6c01d2825578f5de603da6b3a7217227a9c"
     },
     {
       "path": "part-i/index.html",
-      "sha256": "5133ddd92a5196c3e324b1f8f9656ee5dfe1055d2c6a1a1c66d83b995bc0bb80"
+      "sha256": "9595e2b33138b00e7c57437c17a5f758e768dd4714cd260758ed66b7f043b4df"
     },
     {
       "path": "part-i/reading.md",
-      "sha256": "fb58ab971587191c466642ee58f579ab34ab2eb1bb81594428b51baa0c1066ba"
+      "sha256": "80bc31da3d3b1dbf076d985a7851dcb92648c0390db09be342e1fd5b481d6e41"
     },
     {
       "path": "part-i/records.json",
-      "sha256": "dcf97cf95d92357e3fff6bf64f199c9082dfbed194e5f04915cd37ca5d0411a9"
+      "sha256": "08816f48eb08a1f7e9ad3207c22a513cc4f05529e19f4d56b744ecb79617cadb"
     },
     {
       "path": "pilot-147/index.html",
-      "sha256": "70911a3425eb47e329cc6cd157a041a9dc7abfa20d42b0cd84cc47c35b5adf27"
+      "sha256": "14380ba2564811d3584f474f2e90640971c275c64407a65929e89a1fe5e2d450"
     },
     {
       "path": "pilot-147/reading.md",
-      "sha256": "d61440b120f3c3e402aa7ca08d71e7c330b739ac841706e04a3b3e5175cb97a1"
+      "sha256": "1958acb681cb1aec3b1edfa29598f086f05cc525726e1527f78cb2e38720bd3c"
     },
     {
       "path": "pilot-147/records.json",
-      "sha256": "0f40db5146f4b270f677d85208fa3c37a8a9fd4287986ea356055192ed927d18"
+      "sha256": "e170886e04b78f104e52e4956c47a38ddb9760109da48fce98fd7ebd671c01cc"
     },
     {
       "path": "reader.css",
@@ -191,19 +191,19 @@
     },
     {
       "path": "search-index.json",
-      "sha256": "fb34970405752e6a58d509212a0719b78ec01abd6527b9b6b44ccfd8c1ea76fe"
+      "sha256": "d286d21d0ef58bcea773d97491a69b4acd2f15e586a51229e32ad5d97aa1f44e"
     },
     {
       "path": "sound-system/index.html",
-      "sha256": "dd9f1f147e266b3e6303cdfcf59a82af723b5900dc42e4df681b63ac8c0e7ee3"
+      "sha256": "fce04e3ef5347ff149111e3d78d6f8fc495bd6b05b05c050d97a90fc8278f6d1"
     },
     {
       "path": "sound-system/reading.md",
-      "sha256": "2d8cd6c85081a80448ce5a4170aac9b62831475cfb6cc6c3a1fcd9abdb388d97"
+      "sha256": "31290fea5c9dc5f13f8a61af5f7c800e22b87a72586840bae726b1242128c4f6"
     },
     {
       "path": "sound-system/records.json",
-      "sha256": "f482941bb6a2def7b726a3190ce15fa8172c944823ffe1a8d76cc6f78cd2c7ff"
+      "sha256": "1a045683a4cc018c341fa3afa273efd430ac3800a5a53bc395db04683c558bf4"
     }
   ]
 }

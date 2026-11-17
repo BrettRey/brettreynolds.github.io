@@ -37,7 +37,7 @@
       },
       "authorship": "translator",
       "attribution": "Trans.",
-      "text": "“Substantive” means the content meaning of a word, as distinct from the grammatical relation it marks. For example, “to use, to employ” is the content meaning of the Chinese word also used as a preposition. An “original substantive meaning” is an earlier content meaning that may later be lost; “substantive” does not mean “noun.”",
+      "text": "*Substantive* means the content meaning of a word, as distinct from the grammatical relation it marks. For example, ‘to use, to employ’ is the content meaning of the Chinese word also used as a preposition. An *original substantive meaning* is an earlier content meaning that may later be lost; *substantive* does not mean ‘noun’.",
       "source_ids": [
         "p147:s07"
       ],
@@ -63,7 +63,7 @@
       },
       "authorship": "translator",
       "attribution": "Trans.",
-      "text": "“The grammatical form” supplies the referent of German sie. “The indication” is also grammatically possible; the surrounding discussion favours the form as the chosen reading.",
+      "text": "*The grammatical form* supplies the referent of German *sie*. ‘The indication’ is also grammatically possible; the surrounding discussion favours the form as the chosen reading.",
       "source_ids": [
         "p147:s07"
       ],
@@ -88,7 +88,7 @@
       },
       "authorship": "translator",
       "attribution": "Trans.",
-      "text": "“Grammatical form” has the restricted sense defined above. The argument distinguishes a grammatical relation from its formal designation; it explicitly allows Chinese verbs to be recognized through habitual use in the following sentences.",
+      "text": "*Grammatical form* has the restricted sense defined above. The argument distinguishes a grammatical relation from its formal designation; it explicitly allows Chinese verbs to be recognized through habitual use in the following sentences.",
       "source_ids": [
         "p147:s08"
       ],
@@ -113,7 +113,7 @@
       },
       "authorship": "translator",
       "attribution": "Trans.",
-      "text": "The form ì reproduces the historical transcription in the print. No Chinese character or modern pinyin equivalent is supplied here.",
+      "text": "The form *ì* reproduces the historical transcription in the print. No Chinese character or modern pinyin equivalent is supplied here.",
       "source_ids": [
         "p147:s14"
       ],
@@ -196,7 +196,7 @@
       },
       "authorship": "translator",
       "attribution": "Trans.",
-      "text": "The unexplained terminal “98.” is retained from Humboldt’s note. The editor’s page 268 belongs to the 1906 German volume, rather than this English reading.",
+      "text": "The unexplained terminal *98.* is retained from Humboldt’s note. The editor’s page 268 belongs to the 1906 German volume, rather than this English reading.",
       "source_ids": [
         "p147:s15"
       ],
@@ -215,7 +215,7 @@
         "Geist",
         "Seele"
       ],
-      "text": "The inherited English uses soul for Seele in 13 and mind for it in 147; that English variation does not establish a German lexical contrast. Geist and Seele are not assigned an invariant division into separate faculties here. The main text is preserved in this annotation pass.",
+      "text": "The inherited English uses *soul* for *Seele* in 13 and *mind* for it in 147; that English variation does not establish a German lexical contrast. *Geist* and *Seele* are not assigned an invariant division into separate faculties here. The main text is preserved in this annotation pass.",
       "source_ids": [
         "p13:s4",
         "p147:s07"
@@ -254,7 +254,7 @@
         "Verhältnisswörter",
         "Verhältnissbegriff"
       ],
-      "text": "The contrast in 147 is between what a word means in its own right and a grammatical relation it expresses. The meaning “to use, to employ” is an example of content meaning; in a later stage of a word’s history, such an earlier meaning may be lost while a relational use remains. “Substantive” does not mean “noun,” and “relational word” is not imposed as a universal modern word-class label.",
+      "text": "The contrast in 147 is between what a word means in its own right and a grammatical relation it expresses. The meaning ‘to use, to employ’ is an example of content meaning; in a later stage of a word’s history, such an earlier meaning may be lost while a relational use remains. *Substantive* does not mean ‘noun’, and *relational word* is not imposed as a universal modern word-class label.",
       "source_ids": [
         "p147:s07",
         "p147:s13",
@@ -273,7 +273,7 @@
         "Nomina",
         "Verbum"
       ],
-      "text": "Noun is the working English label for the Latin Nomen in 147; its precise historical extension remains unsettled. The examples describe a word’s use as a noun or a verb, without establishing a modern category-membership test.",
+      "text": "*Noun* is the working English label for the Latin *Nomen* in 147; its precise historical extension remains unsettled. The examples describe a word’s use as a noun or a verb, without establishing a modern category-membership test.",
       "source_ids": [
         "p147:s09",
         "p147:s10",

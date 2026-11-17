@@ -312,7 +312,7 @@
       "source_ids": [
         "p56:s2"
       ],
-      "text": "“Letters” here are speech-sound elements, not marks on a page; see the terminology guide. Writing is introduced separately in 71.",
+      "text": "*Letters* here are speech-sound elements, not marks on a page; see the terminology guide. Writing is introduced separately in 71.",
       "reason": "Prevent written characters from replacing speech sounds in the argument.",
       "evidence": [],
       "attribution": "Trans.",
@@ -391,7 +391,7 @@
         "p61:s3",
         "p61:s6"
       ],
-      "text": "“Meaningless” here contrasts with an associated concept carried by the sound. It does not mean that an inflection has no grammatical role: the point is to express the relation without adding unrelated lexical content.",
+      "text": "*Meaningless* here contrasts with an associated concept carried by the sound. It does not mean that an inflection has no grammatical role: the point is to express the relation without adding unrelated lexical content.",
       "reason": "Prevent absence of substantive content from becoming absence of grammatical function.",
       "evidence": [],
       "attribution": "Trans.",
@@ -417,7 +417,7 @@
         "note:deleted-near"
       ],
       "source_note_id": "note:deleted-near",
-      "text": "Deleted after ‘der’: ‘lying close to one another’.",
+      "text": "Deleted after *der*: “lying close to one another”.",
       "reason": "Translate the complete printed source note, retaining authorship and original callout metadata. The English callout is at the corresponding phrase or nearest readable boundary; it does not restore a reported deletion into the text.",
       "evidence": [],
       "attribution": "1906 Ed.",
@@ -447,7 +447,7 @@
         "note:bopp-62"
       ],
       "source_note_id": "note:bopp-62",
-      "text": "Bopp’s Lehrgebäude der Sanskrita Sprache, p. 14, no. 20. (Bopp’s Grammar.)",
+      "text": "Bopp’s *Lehrgebäude der Sanskrita Sprache*, p. 14, no. 20. (Bopp’s *Grammar*.)",
       "reason": "Translate the complete printed source note, retaining authorship and original callout metadata. The English callout is at the corresponding phrase or nearest readable boundary; it does not restore a reported deletion into the text.",
       "evidence": [],
       "attribution": "Humboldt",
@@ -475,7 +475,7 @@
       "source_ids": [
         "p62:s3"
       ],
-      "text": "“Cerebral” and “lingual” are historical names for consonants made with the tongue tip drawn back, usually called retroflex consonants today. They concern articulation, not a class of mental abilities; see [Whitney, Sanskrit Grammar, §45](https://en.wikisource.org/wiki/Sanskrit_Grammar_(Whitney)/Chapter_II).",
+      "text": "*Cerebral* and *lingual* are historical names for consonants made with the tongue tip drawn back, usually called retroflex consonants today. They concern articulation, not a class of mental abilities; see [Whitney, Sanskrit Grammar, §45](https://en.wikisource.org/wiki/Sanskrit_Grammar_(Whitney)/Chapter_II).",
       "reason": "Explain an unfamiliar historical sound-class label.",
       "evidence": [
         "whitney"
@@ -502,7 +502,7 @@
         "p63:s4",
         "p64:s3"
       ],
-      "text": "The phrase “before the understanding” is read here as “as it appears to the understanding”, in line with the parallel contrast between ear and understanding in 64. A temporal reading, “before understanding intervenes”, is also possible, but is less well supported by that parallel.",
+      "text": "The phrase ‘before the understanding’ is read here as *as it appears to the understanding*, in line with the parallel contrast between ear and understanding in 64. A temporal reading, ‘before understanding intervenes’, is also possible, but is less well supported by that parallel.",
       "reason": "Expose a consequential reading of a compressed construction.",
       "evidence": [],
       "attribution": "Trans.",
@@ -558,7 +558,7 @@
         "note:carey"
       ],
       "source_note_id": "note:carey",
-      "text": "Grammar of the Telinga Language, Preface, p. II.",
+      "text": "*Grammar of the Telinga Language*, Preface, p. II.",
       "reason": "Translate the complete printed source note, retaining authorship and original callout metadata. The English callout is at the corresponding phrase or nearest readable boundary; it does not restore a reported deletion into the text.",
       "evidence": [],
       "attribution": "Humboldt",
@@ -587,7 +587,7 @@
         "p63:s8",
         "p63:s7"
       ],
-      "text": "“Telinga” is Telugu, a Dravidian language, not a descendant of Sanskrit. The transition from Sanskrit-derived languages to this example therefore needs qualification: compare [Carey’s catalogue record](https://openlibrary.org/books/OL27882132M/A_grammar_of_the_Telinga_language) with [Glottolog’s classification](https://glottolog.org/glottolog?iso=tel). Carey’s cited preface has not been independently checked here.",
+      "text": "*Telinga* is Telugu, a Dravidian language, not a descendant of Sanskrit. The transition from Sanskrit-derived languages to this example therefore needs qualification: compare [Carey’s catalogue record](https://openlibrary.org/books/OL27882132M/A_grammar_of_the_Telinga_language) with [Glottolog’s classification](https://glottolog.org/glottolog?iso=tel). Carey’s cited preface has not been independently checked here.",
       "reason": "Identify the historical name and qualify the apparent genealogical inclusion, without claiming to have checked the cited preface.",
       "evidence": [
         "telugu",
@@ -616,7 +616,7 @@
         "note:haughton"
       ],
       "source_note_id": "note:haughton",
-      "text": "Haugthon’s Rudiments of Bengali Grammar, p. 147, § 377.",
+      "text": "Haugthon’s *Rudiments of Bengali Grammar*, p. 147, § 377.",
       "reason": "Translate the complete printed source note, retaining authorship and original callout metadata. The English callout is at the corresponding phrase or nearest readable boundary; it does not restore a reported deletion into the text.",
       "evidence": [],
       "attribution": "Humboldt",
@@ -646,7 +646,7 @@
         "note:bopp-64"
       ],
       "source_note_id": "note:bopp-64",
-      "text": "Strictly speaking, the rules for the interior of words are not quite correctly so called. They apply in full only when the root is stamped anew as a word, and in that word’s inflections. Already with the Taddhita suffixes, which further reshape the word thus stamped, the rules for the initial and final letters of different words come into play. Bopp’s Grammar, p. 58, § 85.",
+      "text": "Strictly speaking, the rules for the interior of words are not quite correctly so called. They apply in full only when the root is stamped anew as a word, and in that word’s inflections. Already with the Taddhita suffixes, which further reshape the word thus stamped, the rules for the initial and final letters of different words come into play. Bopp’s *Grammar*, p. 58, § 85.",
       "reason": "Translate the complete printed source note, retaining authorship and original callout metadata. The English callout is at the corresponding phrase or nearest readable boundary; it does not restore a reported deletion into the text.",
       "evidence": [],
       "attribution": "Humboldt",
@@ -676,7 +676,7 @@
         "note:deleted-signs"
       ],
       "source_note_id": "note:deleted-signs",
-      "text": "Deleted after ‘dem’ in ‘in dem’ (‘in which’): ‘with or without signs of their own’.",
+      "text": "Deleted after *dem* in *in dem* (‘in which’): “with or without signs of their own”.",
       "reason": "Translate the complete printed source note, retaining authorship and original callout metadata. The English callout is at the corresponding phrase or nearest readable boundary; it does not restore a reported deletion into the text.",
       "evidence": [],
       "attribution": "1906 Ed.",
@@ -705,7 +705,7 @@
         "p65:s11",
         "p65:s12"
       ],
-      "text": "The referent of “its freedom” is compressed. It may be aesthetic feeling, rhythm or quantity; the English leaves the reference open rather than assigning it uniquely.",
+      "text": "The referent of *its freedom* is compressed. It may be aesthetic feeling, rhythm or quantity; the English leaves the reference open rather than assigning it uniquely.",
       "reason": "Preserve an unresolved antecedent while keeping the whole contrast visible.",
       "evidence": [],
       "attribution": "Trans.",
@@ -757,7 +757,7 @@
         "note:deleted-word"
       ],
       "source_note_id": "note:deleted-word",
-      "text": "Deleted after ‘syllable’: ‘or a word’.",
+      "text": "Deleted after *syllable*: “or a word”.",
       "reason": "Translate the complete printed source note, retaining authorship and original callout metadata. The English callout is at the corresponding phrase or nearest readable boundary; it does not restore a reported deletion into the text.",
       "evidence": [],
       "attribution": "1906 Ed.",
@@ -786,7 +786,7 @@
         "p66:s10",
         "note:chinese"
       ],
-      "text": "Tone is not confined to vowels in all Chinese varieties. Cantonese has tone-bearing syllabic nasals, such as *m4* “no” and *ng5* “five”, with no vowel; see [Hong Kong Polytechnic University, “Understanding Finals”](https://www.polyu.edu.hk/clc/cantonese/phoneticKnowledge/vowel/recognizingVowel/?lang=en), the syllabic-nasals table. This does not identify the exact varieties covered by Humboldt’s sources.",
+      "text": "Tone is not confined to vowels in all Chinese varieties. Cantonese has tone-bearing syllabic nasals, such as *m4* ‘no’ and *ng5* ‘five’, with no vowel; see [Hong Kong Polytechnic University, “Understanding Finals”](https://www.polyu.edu.hk/clc/cantonese/phoneticKnowledge/vowel/recognizingVowel/?lang=en), the syllabic-nasals table. This does not identify the exact varieties covered by Humboldt’s sources.",
       "reason": "Qualify the vowel-only generalization with copied, source-checked examples.",
       "evidence": [
         "cantonese"
@@ -895,7 +895,7 @@
       "source_ids": [
         "p68:s4"
       ],
-      "text": "“When they do combine” makes explicit the reading that conceptual union requires one element to predominate. The final “in that case” in the German could instead be attached to the preceding negative alternative; its reference is not explicit.",
+      "text": "*When they do combine* makes explicit the reading that conceptual union requires one element to predominate. The final ‘in that case’ in the German could instead be attached to the preceding negative alternative; its reference is not explicit.",
       "reason": "Expose the interpretive scope of alsdann rather than hide it in the apparatus.",
       "evidence": [],
       "attribution": "Trans.",
@@ -953,7 +953,7 @@
         "Alphabet",
         "Buchstabenschrift"
       ],
-      "text": "A “letter” often means a speech-sound element, and “alphabet” the inventory or system of such sounds. They are not automatically written characters or a modern phoneme inventory. Where writing enters in 62 and 71, written signs are identified separately; Buchstabenschrift is alphabetic writing.",
+      "text": "A *letter* often means ‘a speech-sound element’, and *alphabet* ‘the inventory or system of such sounds’. They are not automatically written characters or a modern phoneme inventory. Where writing enters in 62 and 71, written signs are identified separately; *Buchstabenschrift* is *alphabetic writing*.",
       "source_ids": [
         "p56:s2",
         "p56:s4",
@@ -972,7 +972,7 @@
         "Geräusch",
         "Schall"
       ],
-      "text": "Ton and Laut overlap as “sound”; articulated sound is shaped to carry thought. Geräusch is the accompanying noise Humboldt wants removed, though his evaluation of particular consonants is qualified in the note on 57. Schall in 71 is the transient acoustic occurrence to which the written sign recalls us.",
+      "text": "*Ton* and *Laut* overlap as *sound*; articulated sound is shaped to carry thought. *Geräusch* is the accompanying noise Humboldt wants removed, though his evaluation of particular consonants is qualified in the note on 57. *Schall* in 71 is the transient acoustic occurrence to which the written sign recalls us.",
       "source_ids": [
         "p57:s1",
         "p57:s4",
@@ -988,7 +988,7 @@
         "Verstand",
         "Seele"
       ],
-      "text": "These are “mind”, “understanding” and “soul” in this unit. The English keeps the recurring German terms recoverable without turning every lexical difference into a separate modern psychological mechanism. Understanding here names an intellectual capacity, not just successful comprehension of an utterance.",
+      "text": "These are *mind*, *understanding* and *soul* in this unit. The English keeps the recurring German terms recoverable without turning every lexical difference into a separate modern psychological mechanism. *Understanding* here names an intellectual capacity, not just successful comprehension of an utterance.",
       "source_ids": [
         "p57:s4",
         "p64:s3",
@@ -1003,7 +1003,7 @@
         "Intellectualitaet",
         "Intellectualität"
       ],
-      "text": "Here the term concerns language’s intellectual character and its relation to thought. The earlier division used “intellectual life” where the bearer was a nation and its orientation; that contextual change does not establish different faculties. “Intellectual cultivation” in 70 renders a different expression, intellectuelle Bildung.",
+      "text": "Here the term concerns language’s intellectual character and its relation to thought. The earlier division used *intellectual life* where the bearer was a nation and its orientation; that contextual change does not establish different faculties. *Intellectual cultivation* in 70 renders a different expression, *intellectuelle Bildung*.",
       "source_ids": [
         "p56:s3",
         "p61:s5",
@@ -1103,7 +1103,7 @@
         "Umstempelung",
         "Taddhita-Suffix"
       ],
-      "text": "In the note on 64, a root is first “stamped” into a word and the word is then reshaped further by Taddhita suffixes. The metaphor distinguishes stages of formation; the note warns that the rules loosely called “internal” do not apply uniformly at every stage.",
+      "text": "In the note on 64, a root is first *stamped* into a word and the word is then reshaped further by Taddhita suffixes. The metaphor distinguishes stages of formation; the note warns that the rules loosely called *internal* do not apply uniformly at every stage.",
       "source_ids": [
         "note:bopp-64"
       ]
@@ -1115,7 +1115,7 @@
         "Wohllaut",
         "aesthetisches Gefühl"
       ],
-      "text": "Euphony means pleasing sound as assessed in the argument. Roughness, purity and refinement are Humboldt’s aesthetic and developmental evaluations; they are not measurements of a people’s intellectual capacities. Keep the sensory description distinct from the value attached to it.",
+      "text": "*Euphony* means ‘pleasing sound’ as assessed in the argument. Roughness, purity and refinement are Humboldt’s aesthetic and developmental evaluations; they are not measurements of a people’s intellectual capacities. Keep the sensory description distinct from the value attached to it.",
       "source_ids": [
         "p57:s4",
         "p60:s1",
@@ -1130,7 +1130,7 @@
         "Lautgeltung",
         "Verstandesgeltung"
       ],
-      "text": "Geltung varies with its bearer: the conceptual force of language, the sway of quantity, a word’s independent standing, or its significance for the understanding. Lautgeltung concerns audible realization. These are related contributions or kinds of standing, not uniformly logical validity.",
+      "text": "*Geltung* varies with its bearer: the conceptual force of language, the sway of quantity, a word’s independent standing, or its significance for the understanding. *Lautgeltung* concerns audible realization. These are related contributions or kinds of standing, not uniformly logical validity.",
       "source_ids": [
         "p64:s3",
         "p65:s7",

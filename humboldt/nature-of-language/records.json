@@ -716,7 +716,7 @@
     {
       "id": "nature-noise",
       "source_id": "p21:s1",
-      "text": "“Noise” here means the audible physical component of speech, contrasted with articulation; it need not mean an unwanted or disorderly sound. See the terminology guide on sound and articulation.",
+      "text": "*Noise* here means the audible physical component of speech, contrasted with articulation; it need not mean an unwanted or disorderly sound. See the terminology guide on sound and articulation.",
       "reason": "Avoid the modern everyday evaluative sense of Geräusch.",
       "evidence": [],
       "attribution": "Trans.",
@@ -740,7 +740,7 @@
     {
       "id": "nature-deaf-language",
       "source_id": "p21:s5",
-      "text": "“Deaf-mute” is Humboldt’s historical label. His account considers lip-reading, writing and taught speech; a natural sign language such as ASL is a complete visual language with its own grammar, not merely a set of signs for spoken sounds. See [NIDCD, American Sign Language](https://www.nidcd.nih.gov/health/american-sign-language), especially “What is ASL?” and “How does ASL compare with spoken language?”",
+      "text": "*Deaf-mute* is Humboldt’s historical label. His account considers lip-reading, writing and taught speech; a natural sign language such as ASL is a complete visual language with its own grammar, not merely a set of signs for spoken sounds. See [NIDCD, American Sign Language](https://www.nidcd.nih.gov/health/american-sign-language), especially “What is ASL?” and “How does ASL compare with spoken language?”",
       "reason": "Qualify the account of language access without erasing the historical argument.",
       "evidence": [
         "sign-language"
@@ -852,7 +852,7 @@
     {
       "id": "nature-savages",
       "source_id": "p27:s6",
-      "text": "“So-called savages” preserves Humboldt’s qualified historical label. His immediate point is that these languages contain expressive resources beyond practical need, rather than being impoverished systems for obtaining help.",
+      "text": "*So-called savages* preserves Humboldt’s qualified historical label. His immediate point is that these languages contain expressive resources beyond practical need, rather than being impoverished systems for obtaining help.",
       "reason": "Make the rhetorical function of a historical classification clear.",
       "evidence": [],
       "attribution": "Trans.",
@@ -876,7 +876,7 @@
     {
       "id": "nature-abschliesst",
       "source_id": "p29:s5",
-      "text": "“Brings much to a close” follows the printed verb *abschliesst*, whose force here is uncertain: it may mean completing or closing off. “Wears much away” would fit the contrast with what remains fixed, but would require a different German reading; the checked print has not been altered.",
+      "text": "*Brings much to a close* follows the printed verb *abschliesst*, whose force here is uncertain: it may mean completing or closing off. ‘Wears much away’ would fit the contrast with what remains fixed, but would require a different German reading; the checked print has not been altered.",
       "reason": "Expose a consequential uncertain verb rather than silently emending it.",
       "evidence": [],
       "attribution": "Trans.",
@@ -900,7 +900,7 @@
     {
       "id": "nature-inclusive-we",
       "source_id": "p31:s20",
-      "text": "The distinction is between “we, including you” and “we, excluding you”: often called inclusive and exclusive *we*. Humboldt invokes different grammatical forms for these meanings, without giving a language-specific example here.",
+      "text": "The distinction is between ‘we, including you’ and ‘we, excluding you’: often called inclusive and exclusive *we*. Humboldt invokes different grammatical forms for these meanings, without giving a language-specific example here.",
       "reason": "Explain an unfamiliar grammatical contrast in ordinary English.",
       "evidence": [],
       "attribution": "Trans.",
@@ -924,7 +924,7 @@
     {
       "id": "nature-origin-parenthesis",
       "source_id": "p34:s4",
-      "text": "The English reads the parenthesis as “not just … but also”, including both emergence as such and emergence in each act of speaking. The print has an uneven “not … but also” construction; the inclusive reading follows “also”, but a strictly literal rendering leaves the relation unclear.",
+      "text": "The English reads the parenthesis as *not just … but also*, including both emergence as such and emergence in each act of speaking. The print has an uneven *not … but also* construction; the inclusive reading follows *also*, but a strictly literal rendering leaves the relation unclear.",
       "reason": "Disclose a syntactic interpretation that changes the scope of origin.",
       "evidence": [],
       "attribution": "Trans.",
@@ -1002,7 +1002,7 @@
     {
       "id": "nature-inca",
       "source_id": "p38:s3",
-      "text": "Humboldt gives no name or example that identifies this variety precisely. “The language of the Incas” here should therefore not be silently equated with a particular modern language; the point of the example is its joint association with family descent and social rank.",
+      "text": "Humboldt gives no name or example that identifies this variety precisely. *The language of the Incas* here should therefore not be silently equated with a particular modern language; the point of the example is its joint association with family descent and social rank.",
       "reason": "Retain the identification limit for a historical example.",
       "evidence": [],
       "attribution": "Trans.",
@@ -1055,7 +1055,7 @@
     {
       "id": "nature-individuality",
       "source_id": "p49:s1",
-      "text": "This qualifies the earlier emphasis on sound in29: here individuality extends throughout a language, and50 places “true individuality” in the individual speaker. The changes in level—from a language’s audible identity to its entire character and then its speakers—should remain visible rather than being harmonized into one unchanging claim.",
+      "text": "This qualifies the earlier emphasis on sound in29: here individuality extends throughout a language, and50 places *true individuality* in the individual speaker. The changes in level—from a language’s audible identity to its entire character and then its speakers—should remain visible rather than being harmonized into one unchanging claim.",
       "reason": "Flag an apparent shift while distinguishing its bearers.",
       "evidence": [],
       "attribution": "Trans.",
@@ -1109,7 +1109,7 @@
     {
       "id": "nature-physiological",
       "source_id": "p51:s2",
-      "text": "“Physiological” describes language’s inherited power over its users; “dynamic” describes their power to act upon it. Humboldt expressly marks the physiological term as an analogy applied to mental powers, not a claim about a measured bodily mechanism.",
+      "text": "*Physiological* describes language’s inherited power over its users; *dynamic* describes their power to act upon it. Humboldt expressly marks the physiological term as an analogy applied to mental powers, not a claim about a measured bodily mechanism.",
       "reason": "Resolve the demonstratives and explain the historically specific contrast.",
       "evidence": [],
       "attribution": "Trans.",
@@ -1137,7 +1137,7 @@
         "p51:s4",
         "p52:s8"
       ],
-      "text": "The English takes “within a certain latitude” to qualify how far freedom’s limits can be recognized. It may instead describe the latitude within which freedom itself operates;52 uses the same word for the scope left to an individual.",
+      "text": "The English takes *within a certain latitude* to qualify how far freedom’s limits can be recognized. It may instead describe the latitude within which freedom itself operates;52 uses the same word for the scope left to an individual.",
       "reason": "Expose the consequential scope ambiguity instead of hiding it in a literal English comma frame.",
       "evidence": [],
       "attribution": "Trans.",
@@ -1158,7 +1158,7 @@
     {
       "id": "nature-aggregate",
       "source_id": "p52:s6",
-      "text": "“In that influence” takes the compressed German pronoun to refer to national influence: individual treatments appear there in the aggregate. “In the individual” is grammatically possible, but fits the contrast between collective influence and individual activity less well.",
+      "text": "*In that influence* takes the compressed German pronoun to refer to national influence: individual treatments appear there in the aggregate. ‘In the individual’ is grammatically possible, but fits the contrast between collective influence and individual activity less well.",
       "reason": "Expose a consequential pronoun choice.",
       "evidence": [],
       "attribution": "Trans.",
@@ -1188,7 +1188,7 @@
         "Typus",
         "Sprachtypus"
       ],
-      "text": "The shared pattern of the mental process described in16–20, abstracting from circumstances that give particular languages their character. It is not a classification such as “inflecting” or “agglutinating”.",
+      "text": "The shared pattern of the mental process described in16–20, abstracting from circumstances that give particular languages their character. It is not a classification such as *inflecting* or *agglutinating*.",
       "source_ids": [
         "p16:s2",
         "p16:s3",
@@ -1203,7 +1203,7 @@
         "Seele",
         "Gemüth"
       ],
-      "text": "This unit uses “mind”, “soul” and “inner life” to keep these recurring German terms recoverable. They overlap in reference; the wording does not impose a system of three separate faculties. The earlier English147 used “mind” for some instances of Seele and remains preserved.",
+      "text": "This unit uses *mind*, *soul* and *inner life* to keep these recurring German terms recoverable. They overlap in reference; the wording does not impose a system of three separate faculties. The earlier English147 used *mind* for some instances of *Seele* and remains preserved.",
       "source_ids": [
         "p19:s2",
         "p33:s3",
@@ -1218,7 +1218,7 @@
         "Begriff",
         "Wesenheit"
       ],
-      "text": "A representation is what the mind presents to itself; a concept is its articulated determination in the argument. “Reality” translates Wesenheit where a thought acquires standing as an object for a subject, not necessarily material substance.",
+      "text": "A representation is what the mind presents to itself; a concept is its articulated determination in the argument. *Reality* translates *Wesenheit* where a thought acquires standing as an object for a subject, not necessarily material substance.",
       "source_ids": [
         "p20:s6",
         "p25:s4",
@@ -1236,7 +1236,7 @@
         "Geräusch",
         "Articulation"
       ],
-      "text": "Articulation is the shaping of sound into thought-bearing elements and combinations. Ton and Laut overlap and can both require “sound”; “speech sound” marks Laut where useful. Geräusch is “noise” in the specific contrast of21–22, without the implication of unwanted sound. “Alphabet” in29 and33 ranges over speech sounds rather than merely written letters.",
+      "text": "Articulation is the shaping of sound into thought-bearing elements and combinations. *Ton* and *Laut* overlap and can both require *sound*; *speech sound* marks *Laut* where useful. *Geräusch* is *noise* in the specific contrast of21–22, without the implication of unwanted sound. *Alphabet* in29 and33 ranges over speech sounds rather than merely written letters.",
       "source_ids": [
         "p21:s1",
         "p21:s3",
@@ -1256,7 +1256,7 @@
         "Gewalt",
         "Macht"
       ],
-      "text": "“Power of language” keeps the recurring Sprachkraft visible; “capacity for language” renders Sprachvermögen. These are contextual contrasts, not names for two independently established mechanisms. Empfindung is “feeling” in the thinking/feeling contrast and “sensation” where bodily or animal responsiveness is at issue. Gewalt and Macht can also require “power”; their German identity remains available in the source. In51 the crucial contrast is who acts upon whom, made explicit in the English, rather than three independently established kinds of mechanism. Gefühl also requires “feeling”; the German words overlap here rather than naming universally separate domains.",
+      "text": "*Power of language* keeps the recurring *Sprachkraft* visible; *capacity for language* renders *Sprachvermögen*. These are contextual contrasts, not names for two independently established mechanisms. *Empfindung* is *feeling* in the thinking/feeling contrast and *sensation* where bodily or animal responsiveness is at issue. *Gewalt* and *Macht* can also require *power*; their German identity remains available in the source. In51 the crucial contrast is who acts upon whom, made explicit in the English, rather than three independently established kinds of mechanism. *Gefühl* also requires *feeling*; the German words overlap here rather than naming universally separate domains.",
       "source_ids": [
         "p19:s1",
         "p23:s1",
@@ -1288,7 +1288,7 @@
         "Weltansicht",
         "Weltvorstellung"
       ],
-      "text": "Weltansicht in39 is “view of the world”: a standpoint and manner of apprehending things, not merely an explicit set of opinions. Weltvorstellung in49 is “representation of the world”; the English retains the change of German term. This does not by itself make every member of a nation hold identical beliefs;50 explicitly returns to individual differences.",
+      "text": "*Weltansicht* in39 is *view of the world*: a standpoint and manner of apprehending things, not merely an explicit set of opinions. *Weltvorstellung* in49 is *representation of the world*; the English retains the change of German term. This does not by itself make every member of a nation hold identical beliefs;50 explicitly returns to individual differences.",
       "source_ids": [
         "p39:s6",
         "p39:s8",
@@ -1305,7 +1305,7 @@
         "Verkehr",
         "Ursprache"
       ],
-      "text": "Descent may concern people or languages; the argument distinguishes these. “Stock” retains the historical grouping metaphor, including regional groups such as the Florentines in29, without making it a modern biological taxon. “Primordial language” belongs to the explicitly qualified origin discussion in45–47. In43 “mother language” is a supposed parent language; “mother tongues” in49 are people’s native languages.",
+      "text": "Descent may concern people or languages; the argument distinguishes these. *Stock* retains the historical grouping metaphor, including regional groups such as the Florentines in29, without making it a modern biological taxon. *Primordial language* belongs to the explicitly qualified origin discussion in45–47. In43 *mother language* is a supposed parent language; *mother tongues* in49 are people’s native languages.",
       "source_ids": [
         "p29:s6",
         "p37:s4",
@@ -1325,7 +1325,7 @@
         "Form",
         "Stoff"
       ],
-      "text": "Rede concerns connected speech or discourse, rather than a stock of words. In55 the distinction is between words as matter and their combination into discourse as form, explicitly not simply sounds versus rules. “Material” renders Stoff where the inherited language is contrasted with its living production. “Dead” material means the inherited stock considered apart from its living use; it need not be an extinct language.",
+      "text": "*Rede* concerns connected speech or discourse, rather than a stock of words. In55 the distinction is between words as matter and their combination into discourse as form, explicitly not simply sounds versus rules. *Material* renders *Stoff* where the inherited language is contrasted with its living production. *Dead* material means the inherited stock considered apart from its living use; it need not be an extinct language.",
       "source_ids": [
         "p17:s2",
         "p40:s1",
@@ -1341,7 +1341,7 @@
       "German": [
         "Intellectualitaet"
       ],
-      "text": "The repeated Intellectualitaet in52 and54 is “intellectual life”: the sphere towards which national activity is directed, with a role for language. It does not mean measured intelligence or modern national test scores. Geistig and intellectuell can also overlap as “mental” or “intellectual”; the English does not posit two exclusive faculties from that lexical difference.",
+      "text": "The repeated *Intellectualitaet* in52 and54 is *intellectual life*: the sphere towards which national activity is directed, with a role for language. It does not mean measured intelligence or modern national test scores. *Geistig* and *intellectuell* can also overlap as *mental* or *intellectual*; the English does not posit two exclusive faculties from that lexical difference.",
       "source_ids": [
         "p52:s8",
         "p54:s5"
@@ -1369,7 +1369,7 @@
         "Gegenstand",
         "Object"
       ],
-      "text": "In31 the word is contrasted with things and then becomes an object for a thinking subject;39 distinguishes an external object’s impression from the word’s own effect. “Object” can translate either German noun where the context supports it. Gegenstand does not invariably mean a physical thing:31 also calls I and he different Gegenstände.",
+      "text": "In31 the word is contrasted with things and then becomes an object for a thinking subject;39 distinguishes an external object’s impression from the word’s own effect. *Object* can translate either German noun where the context supports it. *Gegenstand* does not invariably mean a physical thing:31 also calls *I* and *he* different *Gegenstände*.",
       "source_ids": [
         "p31:s11",
         "p31:s14",

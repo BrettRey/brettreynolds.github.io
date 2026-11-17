@@ -4,7 +4,7 @@ Wilhelm von Humboldt · developing English translation
 
 English-reading review completed; German fidelity remains provisional.
 
-Edition snapshot: 31645fd8d041ab6abce7e539cff4e25bb3ab07ea
+Edition snapshot: 3e1f30ab374637421861f911f8d42c207b01908b
 
 Source: GS V, Leitzmann 1906. https://github.com/BrettRey/humboldt-grundzuege-translation
 
@@ -96,29 +96,29 @@ Source: GS V, Leitzmann 1906. https://github.com/BrettRey/humboldt-grundzuege-tr
 
 ## Terminology guide
 
-**General type** (Typus, Sprachtypus). The shared pattern of the mental process described in16–20, abstracting from circumstances that give particular languages their character. It is not a classification such as “inflecting” or “agglutinating”.
+**General type** (*Typus*, *Sprachtypus*). The shared pattern of the mental process described in16–20, abstracting from circumstances that give particular languages their character. It is not a classification such as *inflecting* or *agglutinating*.
 
-**Mind, soul and inner life** (Geist, Seele, Gemüth). This unit uses “mind”, “soul” and “inner life” to keep these recurring German terms recoverable. They overlap in reference; the wording does not impose a system of three separate faculties. The earlier English147 used “mind” for some instances of Seele and remains preserved.
+**Mind, soul and inner life** (*Geist*, *Seele*, *Gemüth*). This unit uses *mind*, *soul* and *inner life* to keep these recurring German terms recoverable. They overlap in reference; the wording does not impose a system of three separate faculties. The earlier English147 used *mind* for some instances of *Seele* and remains preserved.
 
-**Representation and concept** (Vorstellung, Begriff, Wesenheit). A representation is what the mind presents to itself; a concept is its articulated determination in the argument. “Reality” translates Wesenheit where a thought acquires standing as an object for a subject, not necessarily material substance.
+**Representation and concept** (*Vorstellung*, *Begriff*, *Wesenheit*). A representation is what the mind presents to itself; a concept is its articulated determination in the argument. *Reality* translates *Wesenheit* where a thought acquires standing as an object for a subject, not necessarily material substance.
 
-**Sound and articulation** (Ton, Laut, Geräusch, Articulation). Articulation is the shaping of sound into thought-bearing elements and combinations. Ton and Laut overlap and can both require “sound”; “speech sound” marks Laut where useful. Geräusch is “noise” in the specific contrast of21–22, without the implication of unwanted sound. “Alphabet” in29 and33 ranges over speech sounds rather than merely written letters.
+**Sound and articulation** (*Ton*, *Laut*, *Geräusch*, *Articulation*). Articulation is the shaping of sound into thought-bearing elements and combinations. *Ton* and *Laut* overlap and can both require *sound*; *speech sound* marks *Laut* where useful. *Geräusch* is *noise* in the specific contrast of21–22, without the implication of unwanted sound. *Alphabet* in29 and33 ranges over speech sounds rather than merely written letters.
 
-**Power and capacity** (Kraft, Vermögen, Sprachkraft, Sprachvermögen, Gewalt, Macht). “Power of language” keeps the recurring Sprachkraft visible; “capacity for language” renders Sprachvermögen. These are contextual contrasts, not names for two independently established mechanisms. Empfindung is “feeling” in the thinking/feeling contrast and “sensation” where bodily or animal responsiveness is at issue. Gewalt and Macht can also require “power”; their German identity remains available in the source. In51 the crucial contrast is who acts upon whom, made explicit in the English, rather than three independently established kinds of mechanism. Gefühl also requires “feeling”; the German words overlap here rather than naming universally separate domains.
+**Power and capacity** (*Kraft*, *Vermögen*, *Sprachkraft*, *Sprachvermögen*, *Gewalt*, *Macht*). *Power of language* keeps the recurring *Sprachkraft* visible; *capacity for language* renders *Sprachvermögen*. These are contextual contrasts, not names for two independently established mechanisms. *Empfindung* is *feeling* in the thinking/feeling contrast and *sensation* where bodily or animal responsiveness is at issue. *Gewalt* and *Macht* can also require *power*; their German identity remains available in the source. In51 the crucial contrast is who acts upon whom, made explicit in the English, rather than three independently established kinds of mechanism. *Gefühl* also requires *feeling*; the German words overlap here rather than naming universally separate domains.
 
-**Individuality and similarity in kind** (Individualität, Gleichartigkeit). Individuality is a distinctive way of being, said of languages, nations and persons at different levels; similarity in kind is what makes them comparable. The bearer and comparison matter. Sound’s privileged role in29 is qualified by49–50, as the local note explains.
+**Individuality and similarity in kind** (*Individualität*, *Gleichartigkeit*). Individuality is a distinctive way of being, said of languages, nations and persons at different levels; similarity in kind is what makes them comparable. The bearer and comparison matter. Sound’s privileged role in29 is qualified by49–50, as the local note explains.
 
-**View and representation of the world** (Weltansicht, Weltvorstellung). Weltansicht in39 is “view of the world”: a standpoint and manner of apprehending things, not merely an explicit set of opinions. Weltvorstellung in49 is “representation of the world”; the English retains the change of German term. This does not by itself make every member of a nation hold identical beliefs;50 explicitly returns to individual differences.
+**View and representation of the world** (*Weltansicht*, *Weltvorstellung*). *Weltansicht* in39 is *view of the world*: a standpoint and manner of apprehending things, not merely an explicit set of opinions. *Weltvorstellung* in49 is *representation of the world*; the English retains the change of German term. This does not by itself make every member of a nation hold identical beliefs;50 explicitly returns to individual differences.
 
-**Descent, stock and contact** (Abstammung, Stamm, Verkehr, Ursprache). Descent may concern people or languages; the argument distinguishes these. “Stock” retains the historical grouping metaphor, including regional groups such as the Florentines in29, without making it a modern biological taxon. “Primordial language” belongs to the explicitly qualified origin discussion in45–47. In43 “mother language” is a supposed parent language; “mother tongues” in49 are people’s native languages.
+**Descent, stock and contact** (*Abstammung*, *Stamm*, *Verkehr*, *Ursprache*). Descent may concern people or languages; the argument distinguishes these. *Stock* retains the historical grouping metaphor, including regional groups such as the Florentines in29, without making it a modern biological taxon. *Primordial language* belongs to the explicitly qualified origin discussion in45–47. In43 *mother language* is a supposed parent language; *mother tongues* in49 are people’s native languages.
 
-**Speech, discourse, matter and form** (Rede, Redeverbindung, Materie, Form, Stoff). Rede concerns connected speech or discourse, rather than a stock of words. In55 the distinction is between words as matter and their combination into discourse as form, explicitly not simply sounds versus rules. “Material” renders Stoff where the inherited language is contrasted with its living production. “Dead” material means the inherited stock considered apart from its living use; it need not be an extinct language.
+**Speech, discourse, matter and form** (*Rede*, *Redeverbindung*, *Materie*, *Form*, *Stoff*). *Rede* concerns connected speech or discourse, rather than a stock of words. In55 the distinction is between words as matter and their combination into discourse as form, explicitly not simply sounds versus rules. *Material* renders *Stoff* where the inherited language is contrasted with its living production. *Dead* material means the inherited stock considered apart from its living use; it need not be an extinct language.
 
-**Intellectual life** (Intellectualitaet). The repeated Intellectualitaet in52 and54 is “intellectual life”: the sphere towards which national activity is directed, with a role for language. It does not mean measured intelligence or modern national test scores. Geistig and intellectuell can also overlap as “mental” or “intellectual”; the English does not posit two exclusive faculties from that lexical difference.
+**Intellectual life** (*Intellectualitaet*). The repeated *Intellectualitaet* in52 and54 is *intellectual life*: the sphere towards which national activity is directed, with a role for language. It does not mean measured intelligence or modern national test scores. *Geistig* and *intellectuell* can also overlap as *mental* or *intellectual*; the English does not posit two exclusive faculties from that lexical difference.
 
-**Nation and people** (Nation, Volk). These name the human communities in the argument, not automatically modern sovereign states. Humboldt places dialects, social groups and individual ways of speaking within them, and describes their historical formation through separation and cohesion.
+**Nation and people** (*Nation*, *Volk*). These name the human communities in the argument, not automatically modern sovereign states. Humboldt places dialects, social groups and individual ways of speaking within them, and describes their historical formation through separation and cohesion.
 
-**Thing and object** (Gegenstand, Object). In31 the word is contrasted with things and then becomes an object for a thinking subject;39 distinguishes an external object’s impression from the word’s own effect. “Object” can translate either German noun where the context supports it. Gegenstand does not invariably mean a physical thing:31 also calls I and he different Gegenstände.
+**Thing and object** (*Gegenstand*, *Object*). In31 the word is contrasted with things and then becomes an object for a thinking subject;39 distinguishes an external object’s impression from the word’s own effect. *Object* can translate either German noun where the context supports it. *Gegenstand* does not invariably mean a physical thing:31 also calls *I* and *he* different *Gegenstände*.
 
 ## Notes
 
@@ -126,9 +126,9 @@ Source: GS V, Leitzmann 1906. https://github.com/BrettRey/humboldt-grundzuege-tr
 
 [^nature-establishment]: The English takes intellectual activity as establishing the domain of sounds. The nearer German subject, articulated sound, is also possible; the hypothetical beginning may qualify that establishment or the whole account of producing articulated sound. (Trans.)
 
-[^nature-noise]: “Noise” here means the audible physical component of speech, contrasted with articulation; it need not mean an unwanted or disorderly sound. See the terminology guide on sound and articulation. (Trans.)
+[^nature-noise]: *Noise* here means the audible physical component of speech, contrasted with articulation; it need not mean an unwanted or disorderly sound. See the terminology guide on sound and articulation. (Trans.)
 
-[^nature-deaf-language]: “Deaf-mute” is Humboldt’s historical label. His account considers lip-reading, writing and taught speech; a natural sign language such as ASL is a complete visual language with its own grammar, not merely a set of signs for spoken sounds. See [NIDCD, American Sign Language](https://www.nidcd.nih.gov/health/american-sign-language), especially “What is ASL?” and “How does ASL compare with spoken language?” (Trans.)
+[^nature-deaf-language]: *Deaf-mute* is Humboldt’s historical label. His account considers lip-reading, writing and taught speech; a natural sign language such as ASL is a complete visual language with its own grammar, not merely a set of signs for spoken sounds. See [NIDCD, American Sign Language](https://www.nidcd.nih.gov/health/american-sign-language), especially “What is ASL?” and “How does ASL compare with spoken language?” (Trans.)
 
 [^nature-articulation-senses]: Passage21 separates articulation from audible noise; here Humboldt nevertheless restricts articulation in its essential nature to hearing. His restriction does not accommodate natural sign languages, whose grammar is expressed visually; see the preceding note on deaf people and language. (Trans.)
 
@@ -136,28 +136,28 @@ Source: GS V, Leitzmann 1906. https://github.com/BrettRey/humboldt-grundzuege-tr
 
 [^nature-animal-song]: Birds are not the only animals that sing: male humpback whales also produce complex songs. See [NOAA’s account of humpback whale song](https://hawaiihumpbackwhale.noaa.gov/science/research/whale-behavior.html), “Understanding the function of humpback whale song”. (Trans.)
 
-[^nature-savages]: “So-called savages” preserves Humboldt’s qualified historical label. His immediate point is that these languages contain expressive resources beyond practical need, rather than being impoverished systems for obtaining help. (Trans.)
+[^nature-savages]: *So-called savages* preserves Humboldt’s qualified historical label. His immediate point is that these languages contain expressive resources beyond practical need, rather than being impoverished systems for obtaining help. (Trans.)
 
-[^nature-abschliesst]: “Brings much to a close” follows the printed verb *abschliesst*, whose force here is uncertain: it may mean completing or closing off. “Wears much away” would fit the contrast with what remains fixed, but would require a different German reading; the checked print has not been altered. (Trans.)
+[^nature-abschliesst]: *Brings much to a close* follows the printed verb *abschliesst*, whose force here is uncertain: it may mean completing or closing off. ‘Wears much away’ would fit the contrast with what remains fixed, but would require a different German reading; the checked print has not been altered. (Trans.)
 
-[^nature-inclusive-we]: The distinction is between “we, including you” and “we, excluding you”: often called inclusive and exclusive *we*. Humboldt invokes different grammatical forms for these meanings, without giving a language-specific example here. (Trans.)
+[^nature-inclusive-we]: The distinction is between ‘we, including you’ and ‘we, excluding you’: often called inclusive and exclusive *we*. Humboldt invokes different grammatical forms for these meanings, without giving a language-specific example here. (Trans.)
 
-[^nature-origin-parenthesis]: The English reads the parenthesis as “not just … but also”, including both emergence as such and emergence in each act of speaking. The print has an uneven “not … but also” construction; the inclusive reading follows “also”, but a strictly literal rendering leaves the relation unclear. (Trans.)
+[^nature-origin-parenthesis]: The English reads the parenthesis as *not just … but also*, including both emergence as such and emergence in each act of speaking. The print has an uneven *not … but also* construction; the inclusive reading follows *also*, but a strictly literal rendering leaves the relation unclear. (Trans.)
 
 [^nature-development]: The broad developmental pattern does not warrant the claim about all children under the most varied circumstances. Children differ in timing, and access to language matters; see [NIDCD, “Speech and Language Developmental Milestones”](https://www.nidcd.nih.gov/health/speech-and-language), the opening two sections. (Trans.)
 
 [^nature-descent]: The proposed inherited destiny for a particular language is Humboldt’s inference, not something established by the examples offered here. He names no individual case in this passage; attachment to a familiar language does not by itself distinguish inheritance from experience. The German may instead mean that an original destiny was shifted onto another language; distinguish either reading from the descent of languages in43–47. (Trans.)
 
-[^nature-inca]: Humboldt gives no name or example that identifies this variety precisely. “The language of the Incas” here should therefore not be silently equated with a particular modern language; the point of the example is its joint association with family descent and social rank. (Trans.)
+[^nature-inca]: Humboldt gives no name or example that identifies this variety precisely. *The language of the Incas* here should therefore not be silently equated with a particular modern language; the point of the example is its joint association with family descent and social rank. (Trans.)
 
 [^nature-klaproth]: Mr Klaproth already makes this observation in *Asia polyglotta*, p. [43.] (Humboldt)
 
-[^nature-individuality]: This qualifies the earlier emphasis on sound in29: here individuality extends throughout a language, and50 places “true individuality” in the individual speaker. The changes in level—from a language’s audible identity to its entire character and then its speakers—should remain visible rather than being harmonized into one unchanging claim. (Trans.)
+[^nature-individuality]: This qualifies the earlier emphasis on sound in29: here individuality extends throughout a language, and50 places *true individuality* in the individual speaker. The changes in level—from a language’s audible identity to its entire character and then its speakers—should remain visible rather than being harmonized into one unchanging claim. (Trans.)
 
 [^nature-not-understanding]: The claim concerns differences within understanding, not its complete impossibility: even speakers who agree do not attach precisely identical content to a word. The qualification develops the differences introduced in50 rather than retracting the possibility of communication argued for earlier. (Trans.)
 
-[^nature-physiological]: “Physiological” describes language’s inherited power over its users; “dynamic” describes their power to act upon it. Humboldt expressly marks the physiological term as an analogy applied to mental powers, not a claim about a measured bodily mechanism. (Trans.)
+[^nature-physiological]: *Physiological* describes language’s inherited power over its users; *dynamic* describes their power to act upon it. Humboldt expressly marks the physiological term as an analogy applied to mental powers, not a claim about a measured bodily mechanism. (Trans.)
 
-[^nature-latitude]: The English takes “within a certain latitude” to qualify how far freedom’s limits can be recognized. It may instead describe the latitude within which freedom itself operates;52 uses the same word for the scope left to an individual. (Trans.)
+[^nature-latitude]: The English takes *within a certain latitude* to qualify how far freedom’s limits can be recognized. It may instead describe the latitude within which freedom itself operates;52 uses the same word for the scope left to an individual. (Trans.)
 
-[^nature-aggregate]: “In that influence” takes the compressed German pronoun to refer to national influence: individual treatments appear there in the aggregate. “In the individual” is grammatically possible, but fits the contrast between collective influence and individual activity less well. (Trans.)
+[^nature-aggregate]: *In that influence* takes the compressed German pronoun to refer to national influence: individual treatments appear there in the aggregate. ‘In the individual’ is grammatically possible, but fits the contrast between collective influence and individual activity less well. (Trans.)

@@ -155,7 +155,7 @@
       },
       "authorship": "translator",
       "attribution": "Trans.",
-      "text": "English distinguishes he, she and it, although nouns are not commonly marked for gender. Humboldt’s claim is therefore too broad if read as excluding every gender distinction; a restriction to nominal gender is possible but is not explicit here. See [English Grammar Today](https://dictionary.cambridge.org/grammar/british-grammar/gender).",
+      "text": "English distinguishes *he*, *she* and *it*, although nouns are not commonly marked for gender. Humboldt’s claim is therefore too broad if read as excluding every gender distinction; a restriction to nominal gender is possible but is not explicit here. See [English Grammar Today](https://dictionary.cambridge.org/grammar/british-grammar/gender).",
       "source_ids": [
         "p8:s5"
       ],
@@ -233,7 +233,7 @@
       },
       "authorship": "translator",
       "attribution": "Trans.",
-      "text": "Inflected passive forms are attested in Gothic; Old High German has passive constructions with auxiliaries. “German” is retained here; a broader historical use for Germanic may be intended. See [Lehmann, §5.5](https://lrc.la.utexas.edu/books/pgmc/5-syntax).",
+      "text": "Inflected passive forms are attested in Gothic; Old High German has passive constructions with auxiliaries. *German* is retained here; a broader historical use for Germanic may be intended. See [Lehmann, §5.5](https://lrc.la.utexas.edu/books/pgmc/5-syntax).",
       "source_ids": [
         "p8:s10"
       ],
@@ -259,7 +259,7 @@
       },
       "authorship": "translator",
       "attribution": "Trans.",
-      "text": "“System of languages” takes the German Sprachsystem in the classificatory context of passage 8. “System of language,” referring to language’s internal organization, is another possible reading.",
+      "text": "*System of languages* takes the German *Sprachsystem* in the classificatory context of passage 8. ‘System of language’, referring to language’s internal organization, is another possible reading.",
       "source_ids": [
         "p9:s1"
       ],
@@ -284,7 +284,7 @@
       },
       "authorship": "translator",
       "attribution": "Trans.",
-      "text": "The German leaves the noun unexpressed. “Forms” is supplied from the preceding “fixed form”; “thoughts” is also possible.",
+      "text": "The German leaves the noun unexpressed. *Forms* is supplied from the preceding *fixed form*; ‘thoughts’ is also possible.",
       "source_ids": [
         "p9:s5"
       ],
@@ -309,7 +309,7 @@
       },
       "authorship": "translator",
       "attribution": "Trans.",
-      "text": "A “period” here is an extended, articulated sentence, rather than a full stop. Periodenbau concerns its construction or structure.",
+      "text": "A *period* here means ‘an extended, articulated sentence’, rather than ‘a full stop’. *Periodenbau* concerns its construction or structure.",
       "source_ids": [
         "p11:s8"
       ],
@@ -335,7 +335,7 @@
       },
       "authorship": "translator",
       "attribution": "Trans.",
-      "text": "“Basic sounds” (Grundlaute) leaves open whether elementary speech sounds or root-like sound formations are in view; it is not a substitution of the modern term phonemes.",
+      "text": "*Basic sounds* (*Grundlaute*) leaves open whether elementary speech sounds or root-like sound formations are in view; it is not a substitution of the modern term *phonemes*.",
       "source_ids": [
         "p11:s9"
       ],
@@ -361,7 +361,7 @@
       },
       "authorship": "translator",
       "attribution": "Trans.",
-      "text": "In passage 5, “true individuality” was tied to specific designation by sounds; here individuality is felt in the language’s working as a whole. The German uses Individualität in both places. These different emphases are retained without imposing a fixed opposition between individuality, distinctive character and character.",
+      "text": "In passage 5, *true individuality* was tied to specific designation by sounds; here individuality is felt in the language’s working as a whole. The German uses *Individualität* in both places. These different emphases are retained without imposing a fixed opposition between *individuality*, *distinctive character* and *character*.",
       "source_ids": [
         "p14:s2",
         "p5:s2"
@@ -388,7 +388,7 @@
       },
       "authorship": "translator",
       "attribution": "Trans.",
-      "text": "“Its” takes the language as the referent. The German also permits “their working together,” referring to the causes, technical means and purpose just listed.",
+      "text": "*Its* takes the language as the referent. The German also permits ‘their working together’, referring to the causes, technical means and purpose just listed.",
       "source_ids": [
         "p14:s2"
       ],
@@ -408,7 +408,7 @@
         "Charakter",
         "Individualität"
       ],
-      "text": "These expressions can overlap. The present passages do not establish an invariant three-way technical division; passages 5 and 14 place different emphases on Individualität.",
+      "text": "These expressions can overlap. The present passages do not establish an invariant three-way technical division; passages 5 and 14 place different emphases on *Individualität*.",
       "source_ids": [
         "p5:s2",
         "p7:s6",
@@ -446,7 +446,7 @@
         "Wirken",
         "Zusammenwirken"
       ],
-      "text": "Activity in 9 renders Verrichtung in contrast to a stock of material; operation or working renders Wirken. Their joint-working sense is important, but no fixed philosophical opposition between these English words is asserted.",
+      "text": "*Activity* in 9 renders *Verrichtung* in contrast to a stock of material; *operation* or *working* renders *Wirken*. Their joint-working sense is important, but no fixed philosophical opposition between these English words is asserted.",
       "source_ids": [
         "p9:s2",
         "p10:s1",
@@ -466,7 +466,7 @@
         "Bestimmung",
         "Beschränkung"
       ],
-      "text": "Passage 9 uses three distinct words: making a boundary, the determination it contains, and the restriction thereby made possible. Cancels renders aufhebt without fixing a later philosophical doctrine.",
+      "text": "Passage 9 uses three distinct words: making a boundary, the determination it contains, and the restriction thereby made possible. *Cancels* renders *aufhebt* without fixing a later philosophical doctrine.",
       "source_ids": [
         "p9:s6"
       ],
@@ -481,7 +481,7 @@
         "Geist",
         "Seele"
       ],
-      "text": "The inherited English uses soul for Seele in 13 and mind for it in 147; that English variation does not establish a German lexical contrast. Geist and Seele are not assigned an invariant division into separate faculties here. The main text is preserved in this annotation pass.",
+      "text": "The inherited English uses *soul* for *Seele* in 13 and *mind* for it in 147; that English variation does not establish a German lexical contrast. *Geist* and *Seele* are not assigned an invariant division into separate faculties here. The main text is preserved in this annotation pass.",
       "source_ids": [
         "p13:s4",
         "p147:s07"
@@ -497,7 +497,7 @@
       "German": [
         "Geistes- und Tonart"
       ],
-      "text": "The compressed phrase in 10 concerns mental and sonic character. Manner of sound leaves open its historical range; it does not designate a musical key or a modern tone-language class.",
+      "text": "The compressed phrase in 10 concerns mental and sonic character. *Manner of sound* leaves open its historical range; it does not designate a musical key or a modern tone-language class.",
       "source_ids": [
         "p10:s3"
       ],

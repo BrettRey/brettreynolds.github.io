@@ -4,7 +4,7 @@ Wilhelm von Humboldt · developing English translation
 
 English-reading review completed; German fidelity remains provisional.
 
-Edition snapshot: 31645fd8d041ab6abce7e539cff4e25bb3ab07ea
+Edition snapshot: 3e1f30ab374637421861f911f8d42c207b01908b
 
 Source: GS V, Leitzmann 1906. https://github.com/BrettRey/humboldt-grundzuege-translation
 
@@ -12,26 +12,26 @@ Source: GS V, Leitzmann 1906. https://github.com/BrettRey/humboldt-grundzuege-tr
 
 ## Terminology guide
 
-**Mind and soul** (Geist, Seele). The inherited English uses soul for Seele in 13 and mind for it in 147; that English variation does not establish a German lexical contrast. Geist and Seele are not assigned an invariant division into separate faculties here. The main text is preserved in this annotation pass.
+**Mind and soul** (*Geist*, *Seele*). The inherited English uses *soul* for *Seele* in 13 and *mind* for it in 147; that English variation does not establish a German lexical contrast. *Geist* and *Seele* are not assigned an invariant division into separate faculties here. The main text is preserved in this annotation pass.
 
-**Apprehension and knowledge** (Anschauung, Auffassung, Erkenntniss). The distinctions are local: 14 contrasts apprehended living individuality with knowledge obtained by analysis; 147 contrasts speakers’ apprehension with what is audibly marked. No uniform English substitution settles their philosophical relations.
+**Apprehension and knowledge** (*Anschauung*, *Auffassung*, *Erkenntniss*). The distinctions are local: 14 contrasts apprehended living individuality with knowledge obtained by analysis; 147 contrasts speakers’ apprehension with what is audibly marked. No uniform English substitution settles their philosophical relations.
 
-**Substantive and relational** (Sachbegriff, Sachwörter, Sachbedeutung, Verhältnisswörter, Verhältnissbegriff). The contrast in 147 is between what a word means in its own right and a grammatical relation it expresses. The meaning “to use, to employ” is an example of content meaning; in a later stage of a word’s history, such an earlier meaning may be lost while a relational use remains. “Substantive” does not mean “noun,” and “relational word” is not imposed as a universal modern word-class label.
+**Substantive and relational** (*Sachbegriff*, *Sachwörter*, *Sachbedeutung*, *Verhältnisswörter*, *Verhältnissbegriff*). The contrast in 147 is between what a word means in its own right and a grammatical relation it expresses. The meaning ‘to use, to employ’ is an example of content meaning; in a later stage of a word’s history, such an earlier meaning may be lost while a relational use remains. *Substantive* does not mean ‘noun’, and *relational word* is not imposed as a universal modern word-class label.
 
-**Noun and verb** (Nomen, Nomina, Verbum). Noun is the working English label for the Latin Nomen in 147; its precise historical extension remains unsettled. The examples describe a word’s use as a noun or a verb, without establishing a modern category-membership test.
+**Noun and verb** (*Nomen*, *Nomina*, *Verbum*). *Noun* is the working English label for the Latin *Nomen* in 147; its precise historical extension remains unsettled. The examples describe a word’s use as a noun or a verb, without establishing a modern category-membership test.
 
 ## Notes
 
-[^substantive-content]: “Substantive” means the content meaning of a word, as distinct from the grammatical relation it marks. For example, “to use, to employ” is the content meaning of the Chinese word also used as a preposition. An “original substantive meaning” is an earlier content meaning that may later be lost; “substantive” does not mean “noun.” (Trans.)
+[^substantive-content]: *Substantive* means the content meaning of a word, as distinct from the grammatical relation it marks. For example, ‘to use, to employ’ is the content meaning of the Chinese word also used as a preposition. An *original substantive meaning* is an earlier content meaning that may later be lost; *substantive* does not mean ‘noun’. (Trans.)
 
-[^form-or-indication]: “The grammatical form” supplies the referent of German sie. “The indication” is also grammatically possible; the surrounding discussion favours the form as the chosen reading. (Trans.)
+[^form-or-indication]: *The grammatical form* supplies the referent of German *sie*. ‘The indication’ is also grammatically possible; the surrounding discussion favours the form as the chosen reading. (Trans.)
 
-[^chinese-grammatical-form]: “Grammatical form” has the restricted sense defined above. The argument distinguishes a grammatical relation from its formal designation; it explicitly allows Chinese verbs to be recognized through habitual use in the following sentences. (Trans.)
+[^chinese-grammatical-form]: *Grammatical form* has the restricted sense defined above. The argument distinguishes a grammatical relation from its formal designation; it explicitly allows Chinese verbs to be recognized through habitual use in the following sentences. (Trans.)
 
-[^historical-chinese-transcription]: The form ì reproduces the historical transcription in the print. No Chinese character or modern pinyin equivalent is supplied here. (Trans.)
+[^historical-chinese-transcription]: The form *ì* reproduces the historical transcription in the print. No Chinese character or modern pinyin equivalent is supplied here. (Trans.)
 
 [^remusat-citation]: *Lettre sur le génie de la langue Chinoise à Monsieur Abel Remusat* [*Letter on the character of the Chinese language to Monsieur Abel Remusat*], p. 22. 98. (Humboldt)
 
 [^editor-remusat-page]: [On Humboldt’s preceding citation:] Cf. above, p. 268. (1906 Ed.)
 
-[^citation-number-context]: The unexplained terminal “98.” is retained from Humboldt’s note. The editor’s page 268 belongs to the 1906 German volume, rather than this English reading. (Trans.)
+[^citation-number-context]: The unexplained terminal *98.* is retained from Humboldt’s note. The editor’s page 268 belongs to the 1906 German volume, rather than this English reading. (Trans.)

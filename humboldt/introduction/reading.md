@@ -4,7 +4,7 @@ Wilhelm von Humboldt · developing English translation
 
 English-reading review completed; German fidelity remains provisional.
 
-Edition snapshot: 31645fd8d041ab6abce7e539cff4e25bb3ab07ea
+Edition snapshot: 3e1f30ab374637421861f911f8d42c207b01908b
 
 Source: GS V, Leitzmann 1906. https://github.com/BrettRey/humboldt-grundzuege-translation
 
@@ -28,26 +28,26 @@ I begin with the presentation of the languages in themselves, since knowledge of
 
 ## Terminology guide
 
-**Distinctive character, character, individuality** (Eigenthümlichkeit, Charakter, Individualität). These expressions can overlap. The present passages do not establish an invariant three-way technical division; passages 5 and 14 place different emphases on Individualität.
+**Distinctive character, character, individuality** (*Eigenthümlichkeit*, *Charakter*, *Individualität*). These expressions can overlap. The present passages do not establish an invariant three-way technical division; passages 5 and 14 place different emphases on *Individualität*.
 
 ## Notes
 
 [^source-manuscript]: [Summary of the 1906 editor’s note.] The editor reports a manuscript of 148 half-written folio pages in the Royal Library in Berlin and notes Steinthal’s use of selected passages in his edition of Humboldt’s language-philosophical works. (1906 Ed.)
 
-[^subjugation-scope]: “Down to subjugation by Europeans” adopts the temporal reading of German bis auf. “Except for subjugation by Europeans” remains possible; that reading would make subjugation an exception to the claim of freedom from foreign influence. (Trans.)
+[^subjugation-scope]: *Down to subjugation by Europeans* adopts the temporal reading of German *bis auf*. ‘Except for subjugation by Europeans’ remains possible; that reading would make subjugation an exception to the claim of freedom from foreign influence. (Trans.)
 
 [^american-contact]: The Norse settlement at L’Anse aux Meadows, dating from around 1000 and discovered in 1960, supplies archaeological evidence of pre-Columbian European presence. This qualifies the picture of isolation; it does not by itself establish an influence on American languages. See [Parks Canada](https://www.parcs.canada.ca/lhn-nhs/nl/meadows/culture). (Trans.)
 
-[^nations-or-languages]: “In the languages themselves” interprets a German pronoun that can also refer to the nations. The later “them all” likewise leaves open whether nations or languages are placed on the asserted scale. (Trans.)
+[^nations-or-languages]: *In the languages themselves* interprets a German pronoun that can also refer to the nations. The later *them all* likewise leaves open whether nations or languages are placed on the asserted scale. (Trans.)
 
 [^writing-and-literature]: Alphabetic writing is only one kind of writing. Maya script combines word signs and syllable signs; absence of an alphabet therefore does not establish absence of writing. “Literature in the proper sense” and the scale of a “lower level” express Humboldt’s evaluative criterion. See [SLUB Dresden](https://www.slub-dresden.de/en/explore/manuscripts/the-dresden-maya-codex/deciphering). (Trans.)
 
-[^parts-of-presentation]: “The most important parts” is taken to mean parts of the presentation. The German possessive also permits parts of the individual languages; its form does not settle the reference. (Trans.)
+[^parts-of-presentation]: *The most important parts* is taken to mean parts of the presentation. The German possessive also permits parts of the individual languages; its form does not settle the reference. (Trans.)
 
-[^sound-designation]: The German Lautbezeichnung can concern designation through sounds or the specification of those sounds. The present rendering follows the former reading; the latter remains possible. (Trans.)
+[^sound-designation]: The German *Lautbezeichnung* can concern designation through sounds or the specification of those sounds. The present rendering follows the former reading; the latter remains possible. (Trans.)
 
 [^american-publication]: Humboldt’s larger American project remained unfinished, although he left substantial grammatical studies, including a Nahuatl grammar (modern manuscript-based edition, 1994). The Nahuatl dictionary, published in 2000, was conceived by Humboldt but compiled and revised chiefly by Eduard Buschmann, who continued the work after Humboldt’s death. See [Drechsel 2024, chapters 7–8](https://doi.org/10.1017/9781108966801) and [Trabant 2002, §4.2](https://shesl.org/trabant-legs-intempestif/). (Trans.)
 
-[^idiom]: “Idioms” here means individual languages or varieties, rather than idiomatic expressions. (Trans.)
+[^idiom]: *Idioms* here means individual languages or varieties, rather than idiomatic expressions. (Trans.)
 
-[^genus-shift]: The earlier analogy makes individual languages species under the genus of human language. Here each language is itself called a “new genus”: the German repeats Gattung. This apparent shift in classificatory level is retained; “new kind” is another possible reading. (Trans.)
+[^genus-shift]: The earlier analogy makes individual languages species under the genus of human language. Here each language is itself called a *new genus*: the German repeats *Gattung*. This apparent shift in classificatory level is retained; ‘new kind’ is another possible reading. (Trans.)

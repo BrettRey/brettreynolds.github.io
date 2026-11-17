@@ -4,7 +4,7 @@ Wilhelm von Humboldt · developing English translation
 
 English-reading review completed; German fidelity remains provisional.
 
-Edition snapshot: 31645fd8d041ab6abce7e539cff4e25bb3ab07ea
+Edition snapshot: 3e1f30ab374637421861f911f8d42c207b01908b
 
 Source: GS V, Leitzmann 1906. https://github.com/BrettRey/humboldt-grundzuege-translation
 
@@ -28,38 +28,38 @@ Source: GS V, Leitzmann 1906. https://github.com/BrettRey/humboldt-grundzuege-tr
 
 ## Terminology guide
 
-**Distinctive character, character, individuality** (Eigenthümlichkeit, Charakter, Individualität). These expressions can overlap. The present passages do not establish an invariant three-way technical division; passages 5 and 14 place different emphases on Individualität.
+**Distinctive character, character, individuality** (*Eigenthümlichkeit*, *Charakter*, *Individualität*). These expressions can overlap. The present passages do not establish an invariant three-way technical division; passages 5 and 14 place different emphases on *Individualität*.
 
-**Procedure and constituents** (Verfahren, Bestandtheile). Procedure concerns how a language employs and coordinates its means; constituents are the grammatical and lexical components. Passage 12 expressly makes the opposition non-rigid.
+**Procedure and constituents** (*Verfahren*, *Bestandtheile*). Procedure concerns how a language employs and coordinates its means; constituents are the grammatical and lexical components. Passage 12 expressly makes the opposition non-rigid.
 
-**Activity and operation** (Verrichtung, Wirken, Zusammenwirken). Activity in 9 renders Verrichtung in contrast to a stock of material; operation or working renders Wirken. Their joint-working sense is important, but no fixed philosophical opposition between these English words is asserted.
+**Activity and operation** (*Verrichtung*, *Wirken*, *Zusammenwirken*). *Activity* in 9 renders *Verrichtung* in contrast to a stock of material; *operation* or *working* renders *Wirken*. Their joint-working sense is important, but no fixed philosophical opposition between these English words is asserted.
 
-**Boundary, determination, restriction** (Begränzung, Bestimmung, Beschränkung). Passage 9 uses three distinct words: making a boundary, the determination it contains, and the restriction thereby made possible. Cancels renders aufhebt without fixing a later philosophical doctrine.
+**Boundary, determination, restriction** (*Begränzung*, *Bestimmung*, *Beschränkung*). Passage 9 uses three distinct words: making a boundary, the determination it contains, and the restriction thereby made possible. *Cancels* renders *aufhebt* without fixing a later philosophical doctrine.
 
-**Mind and soul** (Geist, Seele). The inherited English uses soul for Seele in 13 and mind for it in 147; that English variation does not establish a German lexical contrast. Geist and Seele are not assigned an invariant division into separate faculties here. The main text is preserved in this annotation pass.
+**Mind and soul** (*Geist*, *Seele*). The inherited English uses *soul* for *Seele* in 13 and *mind* for it in 147; that English variation does not establish a German lexical contrast. *Geist* and *Seele* are not assigned an invariant division into separate faculties here. The main text is preserved in this annotation pass.
 
-**Cast of mind and manner of sound** (Geistes- und Tonart). The compressed phrase in 10 concerns mental and sonic character. Manner of sound leaves open its historical range; it does not designate a musical key or a modern tone-language class.
+**Cast of mind and manner of sound** (*Geistes- und Tonart*). The compressed phrase in 10 concerns mental and sonic character. *Manner of sound* leaves open its historical range; it does not designate a musical key or a modern tone-language class.
 
-**Apprehension and knowledge** (Anschauung, Auffassung, Erkenntniss). The distinctions are local: 14 contrasts apprehended living individuality with knowledge obtained by analysis; 147 contrasts speakers’ apprehension with what is audibly marked. No uniform English substitution settles their philosophical relations.
+**Apprehension and knowledge** (*Anschauung*, *Auffassung*, *Erkenntniss*). The distinctions are local: 14 contrasts apprehended living individuality with knowledge obtained by analysis; 147 contrasts speakers’ apprehension with what is audibly marked. No uniform English substitution settles their philosophical relations.
 
 ## Notes
 
-[^english-gender]: English distinguishes he, she and it, although nouns are not commonly marked for gender. Humboldt’s claim is therefore too broad if read as excluding every gender distinction; a restriction to nominal gender is possible but is not explicit here. See [English Grammar Today](https://dictionary.cambridge.org/grammar/british-grammar/gender). (Trans.)
+[^english-gender]: English distinguishes *he*, *she* and *it*, although nouns are not commonly marked for gender. Humboldt’s claim is therefore too broad if read as excluding every gender distinction; a restriction to nominal gender is possible but is not explicit here. See [English Grammar Today](https://dictionary.cambridge.org/grammar/british-grammar/gender). (Trans.)
 
 [^coptic-participle-comparison]: Coptic circumstantial clauses can do work rendered by participles in Greek or English: for example, “He found them sleeping” (Matthew 26:40). See [Plumley, §§197–197a](https://cdn.suscopts.org/files/deacons/coptic/introductory-sahidic-coptic-grammar_john-martin-plumley-1948.pdf); this supports the functional comparison without identifying Humboldt’s precise intended construction. (Trans.)
 
 [^greek-article-development]: Greek article forms retain demonstrative uses in Homer alongside emerging article uses; see [Smyth, §§1099–1102](https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.16.html). The comparison here does not establish a direct derivation of Greek from an Indian language. (Trans.)
 
-[^historical-german-passive]: Inflected passive forms are attested in Gothic; Old High German has passive constructions with auxiliaries. “German” is retained here; a broader historical use for Germanic may be intended. See [Lehmann, §5.5](https://lrc.la.utexas.edu/books/pgmc/5-syntax). (Trans.)
+[^historical-german-passive]: Inflected passive forms are attested in Gothic; Old High German has passive constructions with auxiliaries. *German* is retained here; a broader historical use for Germanic may be intended. See [Lehmann, §5.5](https://lrc.la.utexas.edu/books/pgmc/5-syntax). (Trans.)
 
-[^system-of-languages]: “System of languages” takes the German Sprachsystem in the classificatory context of passage 8. “System of language,” referring to language’s internal organization, is another possible reading. (Trans.)
+[^system-of-languages]: *System of languages* takes the German *Sprachsystem* in the classificatory context of passage 8. ‘System of language’, referring to language’s internal organization, is another possible reading. (Trans.)
 
-[^thought-other-forms]: The German leaves the noun unexpressed. “Forms” is supplied from the preceding “fixed form”; “thoughts” is also possible. (Trans.)
+[^thought-other-forms]: The German leaves the noun unexpressed. *Forms* is supplied from the preceding *fixed form*; ‘thoughts’ is also possible. (Trans.)
 
-[^period]: A “period” here is an extended, articulated sentence, rather than a full stop. Periodenbau concerns its construction or structure. (Trans.)
+[^period]: A *period* here means ‘an extended, articulated sentence’, rather than ‘a full stop’. *Periodenbau* concerns its construction or structure. (Trans.)
 
-[^basic-sounds]: “Basic sounds” (Grundlaute) leaves open whether elementary speech sounds or root-like sound formations are in view; it is not a substitution of the modern term phonemes. (Trans.)
+[^basic-sounds]: *Basic sounds* (*Grundlaute*) leaves open whether elementary speech sounds or root-like sound formations are in view; it is not a substitution of the modern term *phonemes*. (Trans.)
 
-[^individuality-across-passages]: In passage 5, “true individuality” was tied to specific designation by sounds; here individuality is felt in the language’s working as a whole. The German uses Individualität in both places. These different emphases are retained without imposing a fixed opposition between individuality, distinctive character and character. (Trans.)
+[^individuality-across-passages]: In passage 5, *true individuality* was tied to specific designation by sounds; here individuality is felt in the language’s working as a whole. The German uses *Individualität* in both places. These different emphases are retained without imposing a fixed opposition between *individuality*, *distinctive character* and *character*. (Trans.)
 
-[^joint-working]: “Its” takes the language as the referent. The German also permits “their working together,” referring to the causes, technical means and purpose just listed. (Trans.)
+[^joint-working]: *Its* takes the language as the referent. The German also permits ‘their working together’, referring to the causes, technical means and purpose just listed. (Trans.)

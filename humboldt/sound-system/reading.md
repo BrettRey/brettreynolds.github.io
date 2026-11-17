@@ -4,7 +4,7 @@ Wilhelm von Humboldt · developing English translation
 
 English-reading review pending; German fidelity remains provisional.
 
-Edition snapshot: 31645fd8d041ab6abce7e539cff4e25bb3ab07ea
+Edition snapshot: 3e1f30ab374637421861f911f8d42c207b01908b
 
 Source: GS V, Leitzmann 1906. https://github.com/BrettRey/humboldt-grundzuege-translation
 
@@ -50,67 +50,67 @@ Source: GS V, Leitzmann 1906. https://github.com/BrettRey/humboldt-grundzuege-tr
 
 ## Terminology guide
 
-**Letters and alphabet** (Buchstabe, Alphabet, Buchstabenschrift). A “letter” often means a speech-sound element, and “alphabet” the inventory or system of such sounds. They are not automatically written characters or a modern phoneme inventory. Where writing enters in 62 and 71, written signs are identified separately; Buchstabenschrift is alphabetic writing.
+**Letters and alphabet** (*Buchstabe*, *Alphabet*, *Buchstabenschrift*). A *letter* often means ‘a speech-sound element’, and *alphabet* ‘the inventory or system of such sounds’. They are not automatically written characters or a modern phoneme inventory. Where writing enters in 62 and 71, written signs are identified separately; *Buchstabenschrift* is *alphabetic writing*.
 
-**Sound, articulation and noise** (Ton, Laut, Sprachlaut, Geräusch, Schall). Ton and Laut overlap as “sound”; articulated sound is shaped to carry thought. Geräusch is the accompanying noise Humboldt wants removed, though his evaluation of particular consonants is qualified in the note on 57. Schall in 71 is the transient acoustic occurrence to which the written sign recalls us.
+**Sound, articulation and noise** (*Ton*, *Laut*, *Sprachlaut*, *Geräusch*, *Schall*). *Ton* and *Laut* overlap as *sound*; articulated sound is shaped to carry thought. *Geräusch* is the accompanying noise Humboldt wants removed, though his evaluation of particular consonants is qualified in the note on 57. *Schall* in 71 is the transient acoustic occurrence to which the written sign recalls us.
 
-**Mind, understanding and soul** (Geist, Verstand, Seele). These are “mind”, “understanding” and “soul” in this unit. The English keeps the recurring German terms recoverable without turning every lexical difference into a separate modern psychological mechanism. Understanding here names an intellectual capacity, not just successful comprehension of an utterance.
+**Mind, understanding and soul** (*Geist*, *Verstand*, *Seele*). These are *mind*, *understanding* and *soul* in this unit. The English keeps the recurring German terms recoverable without turning every lexical difference into a separate modern psychological mechanism. *Understanding* here names an intellectual capacity, not just successful comprehension of an utterance.
 
-**Intellectual character** (Intellectualitaet, Intellectualität). Here the term concerns language’s intellectual character and its relation to thought. The earlier division used “intellectual life” where the bearer was a nation and its orientation; that contextual change does not establish different faculties. “Intellectual cultivation” in 70 renders a different expression, intellectuelle Bildung.
+**Intellectual character** (*Intellectualitaet*, *Intellectualität*). Here the term concerns language’s intellectual character and its relation to thought. The earlier division used *intellectual life* where the bearer was a nation and its orientation; that contextual change does not establish different faculties. *Intellectual cultivation* in 70 renders a different expression, *intellectuelle Bildung*.
 
-**Changes of sounds** (Buchstabenveränderung, Buchstabenverwandlung, Lautveränderung, Lautverwandlung). The German uses several overlapping expressions for alterations of speech sounds. The contexts include inflection, changes inside words and changes when words meet; these are not automatically historical sound laws or merely spelling changes. The German forms remain available in the linked record.
+**Changes of sounds** (*Buchstabenveränderung*, *Buchstabenverwandlung*, *Lautveränderung*, *Lautverwandlung*). The German uses several overlapping expressions for alterations of speech sounds. The contexts include inflection, changes inside words and changes when words meet; these are not automatically historical sound laws or merely spelling changes. The German forms remain available in the linked record.
 
-**Word linking and contraction** (Verkettung, Wortverkettung, Zusammenziehung). Words can be linked by changes at their boundaries and by contraction. Humboldt distinguishes changes joining parts of one word from those joining otherwise independent words, criticizes the latter for obscuring conceptual divisions, and allows a poetic advantage. This is his argument, not a modern rule for counting words.
+**Word linking and contraction** (*Verkettung*, *Wortverkettung*, *Zusammenziehung*). Words can be linked by changes at their boundaries and by contraction. Humboldt distinguishes changes joining parts of one word from those joining otherwise independent words, criticizes the latter for obscuring conceptual divisions, and allows a poetic advantage. This is his argument, not a modern rule for counting words.
 
-**Quantity and rhythm** (Zeitmass, Länge, Kürze, Rhythmus). Quantity concerns timing, including long and short vowels and syllabic duration; it is distinct from accent. Consonants also enter the argument in 65, so syllabic timing should not be reduced to vowel length alone. Rhythm and accent can support or oppose one another in Humboldt’s account.
+**Quantity and rhythm** (*Zeitmass*, *Länge*, *Kürze*, *Rhythmus*). Quantity concerns timing, including long and short vowels and syllabic duration; it is distinct from accent. Consonants also enter the argument in 65, so syllabic timing should not be reduced to vowel length alone. Rhythm and accent can support or oppose one another in Humboldt’s account.
 
-**Word accent, discourse accent and tone** (Accent, Wortaccent, Redeaccent, Sprachaccent, Intonation). Accent organizes prominence and groups in speech; word accent belongs to the word, discourse accent varies with delivery. Intonation in the Chinese discussion concerns tone distinctions, not simply sentence melody. These historical categories overlap with modern stress, pitch accent and tone without being identical to them.
+**Word accent, discourse accent and tone** (*Accent*, *Wortaccent*, *Redeaccent*, *Sprachaccent*, *Intonation*). Accent organizes prominence and groups in speech; word accent belongs to the word, discourse accent varies with delivery. Intonation in the Chinese discussion concerns tone distinctions, not simply sentence melody. These historical categories overlap with modern stress, pitch accent and tone without being identical to them.
 
-**Enclitic and orthotonic** (enklitisch, orthotonisch). Here an enclitic word loses its independent accent and attaches to another word; an orthotonic form has its own accent. Humboldt’s point is that an independent word’s pronunciation and accent can change through attachment, which complicates the picture of one word as one audible whole.
+**Enclitic and orthotonic** (*enklitisch*, *orthotonisch*). Here an enclitic word loses its independent accent and attaches to another word; an orthotonic form has its own accent. Humboldt’s point is that an independent word’s pronunciation and accent can change through attachment, which complicates the picture of one word as one audible whole.
 
-**Root, word and Taddhita suffix** (Wurzel, Umstempelung, Taddhita-Suffix). In the note on 64, a root is first “stamped” into a word and the word is then reshaped further by Taddhita suffixes. The metaphor distinguishes stages of formation; the note warns that the rules loosely called “internal” do not apply uniformly at every stage.
+**Root, word and Taddhita suffix** (*Wurzel*, *Umstempelung*, *Taddhita-Suffix*). In the note on 64, a root is first *stamped* into a word and the word is then reshaped further by Taddhita suffixes. The metaphor distinguishes stages of formation; the note warns that the rules loosely called *internal* do not apply uniformly at every stage.
 
-**Euphony and aesthetic feeling** (Wohllaut, aesthetisches Gefühl). Euphony means pleasing sound as assessed in the argument. Roughness, purity and refinement are Humboldt’s aesthetic and developmental evaluations; they are not measurements of a people’s intellectual capacities. Keep the sensory description distinct from the value attached to it.
+**Euphony and aesthetic feeling** (*Wohllaut*, *aesthetisches Gefühl*). *Euphony* means ‘pleasing sound’ as assessed in the argument. Roughness, purity and refinement are Humboldt’s aesthetic and developmental evaluations; they are not measurements of a people’s intellectual capacities. Keep the sensory description distinct from the value attached to it.
 
-**Force, standing and sound value** (Geltung, Lautgeltung, Verstandesgeltung). Geltung varies with its bearer: the conceptual force of language, the sway of quantity, a word’s independent standing, or its significance for the understanding. Lautgeltung concerns audible realization. These are related contributions or kinds of standing, not uniformly logical validity.
+**Force, standing and sound value** (*Geltung*, *Lautgeltung*, *Verstandesgeltung*). *Geltung* varies with its bearer: the conceptual force of language, the sway of quantity, a word’s independent standing, or its significance for the understanding. *Lautgeltung* concerns audible realization. These are related contributions or kinds of standing, not uniformly logical validity.
 
 ## Notes
 
-[^sound-letters]: “Letters” here are speech-sound elements, not marks on a page; see the terminology guide. Writing is introduced separately in 71. (Trans.)
+[^sound-letters]: *Letters* here are speech-sound elements, not marks on a page; see the terminology guide. Writing is introduced separately in 71. (Trans.)
 
 [^sound-clicks]: Modern phonetics classifies clicks as consonants, not as an animal residue added to articulated speech. See the [International Phonetic Association’s chart](https://www.internationalphoneticassociation.org/IPAcharts/common_files/pdfs/pdfs_IPA_charts_archive/IPA_unitipa_2020.pdf), “Consonants (non-pulmonic)”. This classification does not support Humboldt’s scale of intellectual refinement. (Trans.)
 
 [^sound-conceptual-inference]: This moves from the differentiation of sounds to a judgment about concepts. Humboldt offers it as part of his theory; no comparative demonstration is given in this division. (Trans.)
 
-[^sound-meaningless]: “Meaningless” here contrasts with an associated concept carried by the sound. It does not mean that an inflection has no grammatical role: the point is to express the relation without adding unrelated lexical content. (Trans.)
+[^sound-meaningless]: *Meaningless* here contrasts with an associated concept carried by the sound. It does not mean that an inflection has no grammatical role: the point is to express the relation without adding unrelated lexical content. (Trans.)
 
-[^sound-source-deleted-near]: Deleted after ‘der’: ‘lying close to one another’. (1906 Ed.)
+[^sound-source-deleted-near]: Deleted after *der*: “lying close to one another”. (1906 Ed.)
 
-[^sound-source-bopp-62]: Bopp’s Lehrgebäude der Sanskrita Sprache, p. 14, no. 20. (Bopp’s Grammar.) (Humboldt)
+[^sound-source-bopp-62]: Bopp’s *Lehrgebäude der Sanskrita Sprache*, p. 14, no. 20. (Bopp’s *Grammar*.) (Humboldt)
 
-[^sound-cerebral]: “Cerebral” and “lingual” are historical names for consonants made with the tongue tip drawn back, usually called retroflex consonants today. They concern articulation, not a class of mental abilities; see [Whitney, Sanskrit Grammar, §45](https://en.wikisource.org/wiki/Sanskrit_Grammar_(Whitney)/Chapter_II). (Trans.)
+[^sound-cerebral]: *Cerebral* and *lingual* are historical names for consonants made with the tongue tip drawn back, usually called retroflex consonants today. They concern articulation, not a class of mental abilities; see [Whitney, Sanskrit Grammar, §45](https://en.wikisource.org/wiki/Sanskrit_Grammar_(Whitney)/Chapter_II). (Trans.)
 
-[^sound-understanding]: The phrase “before the understanding” is read here as “as it appears to the understanding”, in line with the parallel contrast between ear and understanding in 64. A temporal reading, “before understanding intervenes”, is also possible, but is less well supported by that parallel. (Trans.)
+[^sound-understanding]: The phrase ‘before the understanding’ is read here as *as it appears to the understanding*, in line with the parallel contrast between ear and understanding in 64. A temporal reading, ‘before understanding intervenes’, is also possible, but is less well supported by that parallel. (Trans.)
 
 [^sound-source-thiersch]: Thiersch maintains that the Greeks joined words, as in Sanskrit. (Humboldt)
 
-[^sound-source-carey]: Grammar of the Telinga Language, Preface, p. II. (Humboldt)
+[^sound-source-carey]: *Grammar of the Telinga Language*, Preface, p. II. (Humboldt)
 
-[^sound-telugu]: “Telinga” is Telugu, a Dravidian language, not a descendant of Sanskrit. The transition from Sanskrit-derived languages to this example therefore needs qualification: compare [Carey’s catalogue record](https://openlibrary.org/books/OL27882132M/A_grammar_of_the_Telinga_language) with [Glottolog’s classification](https://glottolog.org/glottolog?iso=tel). Carey’s cited preface has not been independently checked here. (Trans.)
+[^sound-telugu]: *Telinga* is Telugu, a Dravidian language, not a descendant of Sanskrit. The transition from Sanskrit-derived languages to this example therefore needs qualification: compare [Carey’s catalogue record](https://openlibrary.org/books/OL27882132M/A_grammar_of_the_Telinga_language) with [Glottolog’s classification](https://glottolog.org/glottolog?iso=tel). Carey’s cited preface has not been independently checked here. (Trans.)
 
-[^sound-source-haughton]: Haugthon’s Rudiments of Bengali Grammar, p. 147, § 377. (Humboldt)
+[^sound-source-haughton]: Haugthon’s *Rudiments of Bengali Grammar*, p. 147, § 377. (Humboldt)
 
-[^sound-source-bopp-64]: Strictly speaking, the rules for the interior of words are not quite correctly so called. They apply in full only when the root is stamped anew as a word, and in that word’s inflections. Already with the Taddhita suffixes, which further reshape the word thus stamped, the rules for the initial and final letters of different words come into play. Bopp’s Grammar, p. 58, § 85. (Humboldt)
+[^sound-source-bopp-64]: Strictly speaking, the rules for the interior of words are not quite correctly so called. They apply in full only when the root is stamped anew as a word, and in that word’s inflections. Already with the Taddhita suffixes, which further reshape the word thus stamped, the rules for the initial and final letters of different words come into play. Bopp’s *Grammar*, p. 58, § 85. (Humboldt)
 
-[^sound-source-deleted-signs]: Deleted after ‘dem’ in ‘in dem’ (‘in which’): ‘with or without signs of their own’. (1906 Ed.)
+[^sound-source-deleted-signs]: Deleted after *dem* in *in dem* (‘in which’): “with or without signs of their own”. (1906 Ed.)
 
-[^sound-freedom]: The referent of “its freedom” is compressed. It may be aesthetic feeling, rhythm or quantity; the English leaves the reference open rather than assigning it uniquely. (Trans.)
+[^sound-freedom]: The referent of *its freedom* is compressed. It may be aesthetic feeling, rhythm or quantity; the English leaves the reference open rather than assigning it uniquely. (Trans.)
 
 [^sound-intention]: The claim of exclusive dependence on intention is Humboldt’s. He immediately adds constraints from pronunciation and euphony, and in 67 treats word accent as belonging to the language; it should not be paraphrased as free choice of the accent on each word. (Trans.)
 
-[^sound-source-deleted-word]: Deleted after ‘syllable’: ‘or a word’. (1906 Ed.)
+[^sound-source-deleted-word]: Deleted after *syllable*: “or a word”. (1906 Ed.)
 
-[^sound-vowel-tone]: Tone is not confined to vowels in all Chinese varieties. Cantonese has tone-bearing syllabic nasals, such as *m4* “no” and *ng5* “five”, with no vowel; see [Hong Kong Polytechnic University, “Understanding Finals”](https://www.polyu.edu.hk/clc/cantonese/phoneticKnowledge/vowel/recognizingVowel/?lang=en), the syllabic-nasals table. This does not identify the exact varieties covered by Humboldt’s sources. (Trans.)
+[^sound-vowel-tone]: Tone is not confined to vowels in all Chinese varieties. Cantonese has tone-bearing syllabic nasals, such as *m4* ‘no’ and *ng5* ‘five’, with no vowel; see [Hong Kong Polytechnic University, “Understanding Finals”](https://www.polyu.edu.hk/clc/cantonese/phoneticKnowledge/vowel/recognizingVowel/?lang=en), the syllabic-nasals table. This does not identify the exact varieties covered by Humboldt’s sources. (Trans.)
 
 [^sound-source-chinese]: In Chinese grammars, the intonations are admittedly called modifications of the words, or, what there amounts to the same thing, of the syllables, which is indeed much more appropriate in those grammars. Yet, properly speaking, they rest only on the vowel ending; hence, speaking in the manner of other languages, it is more natural to say that each simple and compound vowel ending can have such and such an intonation, and that the words then take the vowel ending intoned in this or that way according to differences in their meaning. In this way the matter is put on the same footing as the short and long vowels of other languages. (Humboldt)
 
@@ -118,6 +118,6 @@ Source: GS V, Leitzmann 1906. https://github.com/BrettRey/humboldt-grundzuege-tr
 
 [^sound-word-unity]: The argument links unity of concept with unity of accent. Compare 69, where Humboldt considers several words joining as one accentual group; a group heard as one whole need not simply be one independent word. (Trans.)
 
-[^sound-combined-accent]: “When they do combine” makes explicit the reading that conceptual union requires one element to predominate. The final “in that case” in the German could instead be attached to the preceding negative alternative; its reference is not explicit. (Trans.)
+[^sound-combined-accent]: *When they do combine* makes explicit the reading that conceptual union requires one element to predominate. The final ‘in that case’ in the German could instead be attached to the preceding negative alternative; its reference is not explicit. (Trans.)
 
 [^sound-source-sanskrit-pronouns]: The Sanskrit pronouns of the first and second persons do have, for certain cases, a second, more frequently used, abbreviated form alongside the full form, whose fullness is due to its less frequent use. But it does not appear that this second form was used exclusively as an enclitic. (Humboldt)

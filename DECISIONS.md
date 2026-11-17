@@ -104,3 +104,7 @@ Format: `## YYYY-MM-DD` then bullet points with **bold topic** and brief rationa
 ## 2026-08-31
 
 - **The paired capitalism/socialism entries now distinguish pro tanto objections from system-specific verdicts.** After intake of Joseph Heath’s “Hussain on the Market: Critique or Kvetch?”, both entries state that a defect can remain an objection even when feasible alternatives share it, while a capitalism- or socialism-specific, all-things-considered verdict requires matched comparison with an alternative that avoids or attenuates it without unacceptable losses elsewhere. Both bibliographies now distinguish Heath 2025a/2025b. This change establishes Version 1.3, dated August 31, 2026.
+
+## 2026-11-17: Developing Humboldt reader
+
+Brett approved the complete reader design and both recommended options: English first with optional parallel German, and latest drafts carrying section-level review labels. Implement it at `/humboldt/` within the existing static GitHub Pages site, reusing its typography and theme. Public text is generated from the edition’s recorded versions and accepted annotation updates, preserving original wording, attribution, uncertainty, paragraph IDs and source provenance. The separate147 pilot is identified rather than presented as a continuation. Website approval does not complete a pending translation review or certify German fidelity. No new hosting, account system, recurring publication schedule or translation beyond the available material is introduced.

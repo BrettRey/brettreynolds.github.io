@@ -26,6 +26,8 @@
 
 ## Project Pages
 
+- [Humboldt: Outlines of the General Type of Language](https://brettreynolds.ca/humboldt/): A developing English research translation of Grundzüge des allgemeinen Sprachtypus, with aligned German, attributed notes, section-specific terminology and linked source/decision records. The 1906 printed base remains provisional; each section states its English-reading review status. Structured text and note records, Markdown downloads and a versioned snapshot accompany the reader.
+
 - [What Generalizes in Reliability Generalization?](https://osf.io/preprints/psyarxiv/zw4tq_v1): A methods response connecting reliability benchmarks to the consequences of measurement error for specified inferences. Status: Submitted to Research Methods in Applied Linguistics on 6 November 2026. Preprint and public source remain available: https://github.com/BrettRey/reliability-generalization-response
 - [What We Notice](https://brettreynolds.ca/what-we-notice.html): An illustrated plain-language companion to “An attentional-bias account of language emergence.” The essay uses human echolocation to explain why complexity does not establish direct adaptation, then develops structured precision as a trust policy, distinguishes it from general attention, compares other vocal learners, and sets out the proposal's falsification tests. Article: https://doi.org/10.1075/elt.26001.rey
 - [The Valley Hunt](https://brettreynolds.ca/valley-hunt.html): A playable expedition into Erdős problem #993 (is the independence sequence of every tree unimodal?): build trees, watch the exact sequence live, and hunt for the valley nobody has found. Companion to the 2026 tree-unimodality paper, doi:10.5281/zenodo.19100781.

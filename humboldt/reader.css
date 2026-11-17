@@ -1,0 +1,116 @@
+/* MIT license: see code-license.txt. Type, colour and theme come from the site. */
+body.humboldt { max-width: 48rem; padding-top: 1.25rem; }
+.humboldt main { min-width: 0; }
+.humboldt .site-header { font-size: var(--t-meta); margin-bottom: 3rem; color: var(--meta); }
+.humboldt .site-header a { text-decoration: underline; text-underline-offset: .14em; }
+.humboldt h1 { max-width: 30rem; font-size: var(--t-display); line-height: 1.18; font-weight: 400; }
+.humboldt h2 { font-size: var(--t-name); margin: 2.5rem 0 1rem; font-weight: 400; }
+.humboldt h3 { font-size: var(--t-body); font-weight: 500; font-variant: small-caps; letter-spacing: .035em; }
+.humboldt p { max-width: var(--measure); margin-bottom: .85rem; }
+.humboldt .meta, .humboldt .review-status { font-size: var(--t-meta); color: var(--meta); }
+.humboldt .eyebrow { font-variant: small-caps; letter-spacing: .09em; color: var(--meta); margin-bottom: .75rem; }
+.humboldt .original-title { margin-top: .5rem; }
+.humboldt .edition-deck { font-size: var(--t-name); margin-top: 1rem; }
+.humboldt .work-name { font-size: var(--t-meta); margin-bottom: .4rem; }
+.humboldt .reading-top { max-width: var(--measure); margin: 0 auto 2rem; }
+.humboldt .start-reading, .humboldt .resume-reading { display: inline-block; margin: .5rem 1.5rem .5rem 0; text-decoration: underline; text-underline-offset: .15em; }
+.humboldt section, .humboldt .edition-contents { max-width: var(--measure); margin: 0 auto 2rem; }
+.humboldt .edition-contents ol { list-style: none; }
+.humboldt .edition-contents li { padding: 1rem 0; border-bottom: 1px solid var(--rule); }
+.humboldt .edition-contents li > a { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
+.humboldt .contents-title { font-size: var(--t-name); }
+.humboldt .edition-contents li p { margin: .35rem 0 0; }
+.humboldt .not-yet { display: flex; flex-direction: column; gap: .25rem; color: var(--meta); }
+.humboldt .sample-link { margin-top: 1.25rem; }
+.humboldt .section-menu { max-width: var(--measure); margin: 0 auto 1rem; }
+.humboldt summary { cursor: pointer; color: var(--link); text-decoration: underline; text-underline-offset: .14em; padding: .3rem 0; }
+.humboldt details[open] > summary { margin-bottom: .75rem; }
+.humboldt .contents { padding-left: 1.3rem; margin: 1rem 0; }
+.humboldt .contents a[aria-current] { font-weight: 600; }
+.humboldt .contents .meta { display: inline; margin-left: .4rem; }
+.humboldt .passage-index { margin: 1rem 0; }
+.humboldt .passage-index > div { display: flex; flex-wrap: wrap; gap: .25rem .4rem; margin-top: .4rem; }
+.humboldt .passage-index a { min-width: 1.8rem; padding: .15rem .3rem; text-align: center; border: 1px solid var(--rule); border-radius: 2px; }
+.humboldt a { overflow-wrap: anywhere; }
+.humboldt button, .humboldt input { font: inherit; }
+.humboldt button { padding: .3rem .6rem; color: var(--link); background: var(--bg); border: 1px solid var(--rule); border-radius: 2px; cursor: pointer; }
+.humboldt button:hover { border-color: var(--link); }
+.humboldt button:focus-visible, .humboldt input:focus-visible, .humboldt summary:focus-visible { outline: 2px solid var(--link); outline-offset: 3px; }
+.humboldt [hidden] { display: none !important; }
+.humboldt .reader-controls { position: sticky; top: 0; z-index: 5; display: flex; flex-wrap: wrap; align-items: center; gap: .45rem 1rem; max-width: var(--measure); margin: 0 auto 1.5rem; padding: .55rem 0; background: var(--bg); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); font-size: var(--t-meta); }
+.humboldt .reader-controls a { text-decoration: underline; }
+.humboldt .source-notice { max-width: var(--measure); margin: 0 auto 1.25rem; border-left: 2px solid var(--rule); padding-left: 1rem; }
+.humboldt .source-notice p { font-size: var(--t-meta); }
+.humboldt .reading-help { margin: 0 auto 2rem; }
+.humboldt #reading { max-width: var(--measure); margin: 0 auto; }
+.humboldt .printed-heading { font-size: var(--t-body); font-variant: small-caps; letter-spacing: .04em; }
+.humboldt .passage { margin: 0 0 2rem; scroll-margin-top: 5rem; }
+.humboldt .passage:target { border-left: 2px solid var(--link); padding-left: .8rem; }
+.humboldt .passage-tools { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: .3rem 1rem; margin-bottom: .3rem; }
+.humboldt .passage-tools h3 { font-size: var(--t-name); margin: 0; }
+.humboldt .passage-tools > div { display: flex; align-items: center; gap: .75rem; font-size: .75rem; }
+.humboldt .copy-citation { border: 0; padding: .15rem 0; text-decoration: underline; text-underline-offset: .14em; }
+.humboldt .english p { max-width: none; hyphens: auto; }
+.humboldt .german { margin: .5rem 0 1rem; }
+.humboldt .german > summary { font-size: var(--t-meta); }
+.humboldt .german p { hyphens: auto; }
+.humboldt .source-links { font-size: var(--t-meta); }
+.humboldt .note-ref { display: inline-block; min-height: 24px; min-width: 1.1em; padding: .25rem .15rem; line-height: 1; text-align: center; text-decoration: none; font-variant-numeric: lining-nums; }
+.humboldt sup { line-height: 0; font-size: .7em; vertical-align: super; }
+.humboldt .term-entry { margin-bottom: 1.3rem; scroll-margin-top: 5rem; }
+.humboldt .term-entry h3 { margin-bottom: .15rem; }
+.humboldt .german-terms { font-size: var(--t-meta); color: var(--meta); font-style: italic; }
+.humboldt .endnotes { padding-left: 1.4rem; }
+.humboldt .endnotes li { margin-bottom: 1.25rem; padding-left: .2rem; scroll-margin-top: 5rem; }
+.humboldt .endnotes li::marker { font-variant-numeric: lining-nums; color: var(--meta); }
+.humboldt .endnotes li:target { outline: 1px solid var(--rule); outline-offset: .4rem; }
+.humboldt .note-back { font-size: var(--t-meta); }
+.humboldt .next-previous { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; max-width: var(--measure); margin: 2.5rem auto; border-top: 1px solid var(--rule); padding-top: 1rem; }
+.humboldt .edition-footer { max-width: var(--measure); margin: 3rem auto 0; font-size: var(--t-meta); border-top: 1px solid var(--rule); padding-top: 1rem; color: var(--meta); }
+.humboldt .search { margin: 1rem 0; }
+.humboldt .search label { display: block; margin-bottom: .4rem; }
+.humboldt .search-row { display: flex; gap: .5rem; }
+.humboldt input[type="search"] { width: 100%; min-width: 0; padding: .35rem .5rem; border: 1px solid var(--rule); border-radius: 2px; color: var(--text); background: var(--bg); }
+.humboldt #search-results { list-style: none; margin: 1rem 0; }
+.humboldt #search-results li { border-top: 1px solid var(--rule); padding: .75rem 0; }
+.humboldt #search-results p { margin: .25rem 0 0; font-size: var(--t-meta); }
+.humboldt dialog { width: min(36rem, calc(100vw - 2rem)); max-height: 80dvh; overflow: auto; margin: auto; padding: 1.2rem 1.5rem; border: 1px solid var(--rule); border-radius: 3px; color: var(--text); background: var(--bg); font: inherit; }
+.humboldt dialog::backdrop { background: rgb(0 0 0 / .35); }
+.humboldt .dialog-head { display: flex; justify-content: space-between; gap: 1rem; align-items: baseline; margin-bottom: 1rem; }
+.humboldt .dialog-head h2 { margin: 0; }
+.humboldt #note-original { display: inline-block; margin-top: .75rem; font-size: var(--t-meta); }
+.humboldt .sr-only, .humboldt .skip:not(:focus) { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.humboldt .skip:focus { display: inline-block; margin-bottom: 1rem; }
+.humboldt .theme-toggle { z-index: 10; }
+@media (min-width: 70rem) {
+  body.humboldt.parallel { max-width: 76rem; }
+  .humboldt.parallel #reading { max-width: 70rem; }
+  .humboldt.parallel .language-pair { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 2.5rem; align-items: start; }
+  .humboldt.parallel .german { margin: 0; border-left: 1px solid var(--rule); padding-left: 1.25rem; }
+  .humboldt.parallel .german > summary { margin-bottom: .85rem; }
+  .humboldt.parallel .english p { max-width: var(--measure); }
+}
+@media (max-width: 42rem) {
+  body.humboldt { padding: 1rem 1rem 3rem; }
+  .humboldt .site-header { margin-bottom: 2rem; }
+  .humboldt .passage-tools { align-items: flex-start; }
+  .humboldt .passage-tools > div { flex-wrap: wrap; gap: .4rem .7rem; }
+  .humboldt .edition-contents li > a { display: block; }
+  .humboldt .edition-contents li > a > span { display: block; }
+  .humboldt .german { border-left: 1px solid var(--rule); padding-left: .75rem; }
+  .humboldt .theme-toggle { position: static; margin: 1rem 0; }
+  .humboldt .reader-controls { gap: .45rem .8rem; }
+}
+@media print {
+  html { font-size: 11pt; }
+  body.humboldt { max-width: none; padding: 0; background: white; color: black; }
+  .humboldt .site-header, .humboldt .reader-controls, .humboldt .section-menu, .humboldt .theme-toggle, .humboldt .passage-tools > div, .humboldt .note-back, .humboldt .next-previous, .humboldt .skip, .humboldt .reading-help { display: none !important; }
+  .humboldt #reading, .humboldt section, .humboldt .reading-top, .humboldt .edition-footer { max-width: none; }
+  .humboldt:not(.parallel) .german { display: none; }
+  .humboldt.parallel .language-pair { display: block; }
+  .humboldt .passage { margin-bottom: 1.2rem; }
+  .humboldt a { color: inherit; }
+  .humboldt .passage-tools h3, .humboldt h2, .humboldt h3 { break-after: avoid; }
+  .humboldt p { orphans: 3; widows: 3; }
+  .humboldt .term-entry, .humboldt .endnotes li { break-inside: avoid; }
+}

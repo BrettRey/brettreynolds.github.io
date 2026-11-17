@@ -1,0 +1,209 @@
+{
+  "format": "humboldt.website-snapshot",
+  "version": 1,
+  "source_commit": "31645fd8d041ab6abce7e539cff4e25bb3ab07ea",
+  "source_repository": "https://github.com/BrettRey/humboldt-grundzuege-translation",
+  "manifest_sha256": "3701827f62d37fe94a63c4dec80ce7209c8165c3791f164030f224ba3be7dedd",
+  "sections": [
+    {
+      "slug": "introduction",
+      "title": "Introduction",
+      "passages": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "review_status": "English-reading review completed",
+      "note_count": 10
+    },
+    {
+      "slug": "part-i",
+      "title": "Opening of Part I",
+      "passages": [
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "review_status": "English-reading review completed",
+      "note_count": 10
+    },
+    {
+      "slug": "nature-of-language",
+      "title": "Nature of language",
+      "passages": [
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55"
+      ],
+      "review_status": "English-reading review completed",
+      "note_count": 20
+    },
+    {
+      "slug": "sound-system",
+      "title": "Sound system",
+      "passages": [
+        "56",
+        "57",
+        "58",
+        "59",
+        "60",
+        "61",
+        "62",
+        "62a",
+        "62b",
+        "63",
+        "64",
+        "65",
+        "66",
+        "67",
+        "68",
+        "69",
+        "70",
+        "71"
+      ],
+      "review_status": "English-reading review pending",
+      "note_count": 23
+    },
+    {
+      "slug": "pilot-147",
+      "title": "Later sample: passage 147",
+      "passages": [
+        "147"
+      ],
+      "review_status": "English-reading review completed",
+      "note_count": 7
+    }
+  ],
+  "files": [
+    {
+      "path": "code-license.txt",
+      "sha256": "ae2f0fe7fe1979377b003cffe75e0037167c96198048bddc9639b7a7c36a2b6b"
+    },
+    {
+      "path": "content-license.txt",
+      "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    },
+    {
+      "path": "index.html",
+      "sha256": "c36853b83c52c2fa529ba67f107f6ffa9ae3fd812f40d87470acd2be84777c36"
+    },
+    {
+      "path": "introduction/index.html",
+      "sha256": "6233b0c56a2fe10e306bf31b6e8539cf80ec3abdb1a1f55c1ff2c9a01ce65174"
+    },
+    {
+      "path": "introduction/reading.md",
+      "sha256": "513fce6b02f73acd879820031d43182d5f2ddcf89cc5af4e04e2119f2c7b2950"
+    },
+    {
+      "path": "introduction/records.json",
+      "sha256": "15d829aded24a10f58713bec237732dc582a1bf0d5617e598db167ae386a0b16"
+    },
+    {
+      "path": "nature-of-language/index.html",
+      "sha256": "fcb320b760767f95d10d91d77f7ad60bb175339830114543ad3e2b53e03b95fa"
+    },
+    {
+      "path": "nature-of-language/reading.md",
+      "sha256": "fbe2b1eefc9baf8d5d5f3efcd45d9b12531c4f7f9fe61af8e90c7087a759a49e"
+    },
+    {
+      "path": "nature-of-language/records.json",
+      "sha256": "e026982d2cb7d5fce678b202cb438e126f4059da9e9774b7dea563dcbaf7f956"
+    },
+    {
+      "path": "part-i/index.html",
+      "sha256": "5133ddd92a5196c3e324b1f8f9656ee5dfe1055d2c6a1a1c66d83b995bc0bb80"
+    },
+    {
+      "path": "part-i/reading.md",
+      "sha256": "fb58ab971587191c466642ee58f579ab34ab2eb1bb81594428b51baa0c1066ba"
+    },
+    {
+      "path": "part-i/records.json",
+      "sha256": "dcf97cf95d92357e3fff6bf64f199c9082dfbed194e5f04915cd37ca5d0411a9"
+    },
+    {
+      "path": "pilot-147/index.html",
+      "sha256": "70911a3425eb47e329cc6cd157a041a9dc7abfa20d42b0cd84cc47c35b5adf27"
+    },
+    {
+      "path": "pilot-147/reading.md",
+      "sha256": "d61440b120f3c3e402aa7ca08d71e7c330b739ac841706e04a3b3e5175cb97a1"
+    },
+    {
+      "path": "pilot-147/records.json",
+      "sha256": "0f40db5146f4b270f677d85208fa3c37a8a9fd4287986ea356055192ed927d18"
+    },
+    {
+      "path": "reader.css",
+      "sha256": "720726cacbf1aba22a69233c8dd8eccce57e2b13d195a55803b26d195529c2a1"
+    },
+    {
+      "path": "reader.js",
+      "sha256": "2aa7c49e1fc1c786e1293bb624741890aff8c7d6fab4078b77f8ce926c8a2d52"
+    },
+    {
+      "path": "search-index.json",
+      "sha256": "fb34970405752e6a58d509212a0719b78ec01abd6527b9b6b44ccfd8c1ea76fe"
+    },
+    {
+      "path": "sound-system/index.html",
+      "sha256": "dd9f1f147e266b3e6303cdfcf59a82af723b5900dc42e4df681b63ac8c0e7ee3"
+    },
+    {
+      "path": "sound-system/reading.md",
+      "sha256": "2d8cd6c85081a80448ce5a4170aac9b62831475cfb6cc6c3a1fcd9abdb388d97"
+    },
+    {
+      "path": "sound-system/records.json",
+      "sha256": "f482941bb6a2def7b726a3190ce15fa8172c944823ffe1a8d76cc6f78cd2c7ff"
+    }
+  ]
+}

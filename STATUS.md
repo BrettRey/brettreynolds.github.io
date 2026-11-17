@@ -1,10 +1,16 @@
 # STATUS.md
-<!-- SUMMARY: Static site state for brettreynolds.ca · status: live; publication and CV surfaces current through the PhiMiSci decision · updated: 2026-08-14 -->
+<!-- SUMMARY: Static site for brettreynolds.ca · status: developing Humboldt reader added; translation provisional · updated: 2026-11-17 -->
+
+## 2026-11-17: Developing Humboldt translation
+
+Added `/humboldt/` with five reading units, 74 available passages and 70 attributed notes. The existing typography and theme system are reused. English opens first, parallel German is optional, and review status remains explicit.
+
+Search, paragraph links, citations, local reading-position memory, print styling and downloadable Markdown accompany source-linked text/annotation records. The edition’s export tools generate the files; source wording and accepted annotations remain authoritative. Browser inspection was unavailable, so automated content/link/search checks and live-file verification are distinguished from interactive visual QA.
 
 ## Current State
 
 **Status:** Static site maintained for brettreynolds.ca
-**Last updated:** 2026-08-18
+**Last updated:** 2026-11-17
 
 ### 2026-08-18 What We Notice plain-language explainer
 - Added `what-we-notice.html`, an illustrated editorial companion to the newly published attentional-bias article.

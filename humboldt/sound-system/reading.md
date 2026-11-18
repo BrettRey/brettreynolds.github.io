@@ -4,7 +4,7 @@ Wilhelm von Humboldt · developing English translation
 
 English-reading review pending; German fidelity remains provisional.
 
-Edition snapshot: 3e1f30ab374637421861f911f8d42c207b01908b
+Edition snapshot: 35efbbca245b2a9b93cfba2a7ee131085828fc49
 
 Source: GS V, Leitzmann 1906. https://github.com/BrettRey/humboldt-grundzuege-translation
 

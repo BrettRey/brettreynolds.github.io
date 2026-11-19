@@ -1,0 +1,33 @@
+{
+  "id": "CG-0094",
+  "topic": "Coordination with <i>but not</i>",
+  "assessment": "Production error",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "18.4",
+    "page": 510
+  },
+  "claim": "Coordinations with <i>and not</i> and <i>but not</i> follow a simple rule, illustrated in [39].",
+  "evidence_summary": "[39] has a row i (a and b, both with <i>and not</i>) and no row ii. No example with <i>but not</i> is given.",
+  "finding": "Add the missing row, presumably [39ii] with <i>but not</i>, or remove the numeral.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "510 [39]",
+  "inference": "Is the numbered display complete?",
+  "family": "Number, agreement and predication",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 error sweep, 19 November 2026",
+      "url": null,
+      "passage": "§18.4(e), p. 510 [39].",
+      "example": "Scan of every Chapter 5 display for a row i without a row ii.",
+      "establishes": "The only such display in the chapter.",
+      "locator": "Section D.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0094/"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "CG-0044",
+  "topic": "Adjacency of a pre-head complement",
+  "assessment": "Qualification",
+  "cgel": {
+    "chapter": 5,
+    "section": "15",
+    "page": 452
+  },
+  "claim": "Alleged pre-head complements are expected immediately adjacent to the head.",
+  "evidence_summary": "Payne’s corpus studies of <i>student</i> and <i>advisor</i> challenge the ordering prediction for their putative complements.",
+  "finding": "Reassess the analysis of these attributes. Extending the result beyond the studied heads needs evidence.",
+  "semantic_inference": false,
+  "condition": "Necessary",
+  "internal_tension": false,
+  "related": "439–442, 452–454",
+  "inference": "Does immediate adjacency to the noun consistently distinguish an attributive complement from a modifier?",
+  "family": "Licensing and order of dependents",
+  "evidence": [
+    {
+      "role": "Research source",
+      "source": "John Payne (2025). Attributive adjective ordering and the complement-modifier distinction. Journal of Linguistics, First View, 1–18.",
+      "url": "https://www.cambridge.org/core/journals/journal-of-linguistics/article/attributive-adjective-ordering-and-the-complementmodifier-distinction/169752F43A55A46AE5153A929ED9A2DD",
+      "passage": "§15, p. 452. Alleged pre-head complements are expected immediately adjacent to the head.",
+      "example": "The study compares the collocate and ordering patterns for <i>student</i> and <i>advisor</i>.",
+      "establishes": "The two head nouns give a source-specific challenge to the ordering diagnostic. Its wider range remains to be established.",
+      "locator": "§§4.1–4.2, pp. 8–15, Tables 1–4."
+    },
+    {
+      "role": "Audit note",
+      "source": "Nouns and noun phrases notebook",
+      "url": null,
+      "passage": "§15, p. 452. Alleged pre-head complements are expected immediately adjacent to the head.",
+      "example": "Payne’s corpus studies of <i>student</i> and <i>advisor</i> challenge the ordering prediction for their putative complements.",
+      "establishes": "Reassess the analysis of these attributes. Extending the result beyond the studied heads needs evidence.",
+      "locator": "Other findings and their weight",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0044/"
+}

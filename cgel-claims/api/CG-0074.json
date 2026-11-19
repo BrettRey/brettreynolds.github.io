@@ -1,0 +1,34 @@
+{
+  "id": "CG-0074",
+  "topic": "<i>Two thirds</i> as a fused predeterminer",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "9.4",
+    "page": 419
+  },
+  "claim": "In [31i] (<i>two thirds</i>) the predeterminer is a nominal.",
+  "evidence_summary": "Page 434: “Predeterminers expressing fractions have the form of NPs”, since <i>half</i>, <i>quarter</i> and <i>third</i> take determiners such as cardinals. Page 331 [10a] also gives an NP in this function.",
+  "finding": "Call <i>two thirds</i> an NP. A nominal cannot contain the determiner <i>two</i>.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "419 [31]. 331 [10a]. 434",
+  "proposed_wording": "In [i–ii] the predeterminer is respectively an NP and a noun",
+  "inference": "Which category realizes the fused predeterminer in <i>two thirds</i>?",
+  "family": "NP structure and headedness",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 error sweep, 19 November 2026",
+      "url": null,
+      "passage": "§9.4, p. 419. “In [i–ii] the predeterminer is respectively a nominal and a noun”.",
+      "example": "§12, p. 434, on fractions.",
+      "establishes": "Two category labels for the same expression type.",
+      "locator": "Section A, item A9.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0074/"
+}

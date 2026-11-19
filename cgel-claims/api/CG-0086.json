@@ -1,0 +1,63 @@
+{
+  "id": "CG-0086",
+  "topic": "Genitive subjects after <i>without</i>",
+  "assessment": "Correction",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "16.2.1",
+    "page": 461
+  },
+  "claim": "In the clausal complement of <i>with</i> or <i>without</i>, a gerund-participial cannot take a genitive subject.",
+  "evidence_summary": "CGEL itself treats <i>without</i> as part of the construction (n. 61; [23id]). Edited prose: Owens (2012) <i>without my having communicated</i>; Thomasson (2015) <i>without their being governed by the standard rules of use</i>; Mill <i>without our being aware of it</i>.",
+  "finding": "Genitive subjects occur after <i>without</i>. The restriction may hold for absolute <i>with</i>, as in <i>With me out of the way</i>.",
+  "semantic_inference": false,
+  "condition": "Distributional restriction",
+  "internal_tension": true,
+  "related": "461 [16] and n. 61. 463 [23id]. 1267",
+  "proposed_wording": "In the absolute construction with <i>with</i>, a gerund-participial cannot take a genitive subject. After <i>without</i> a genitive subject is possible.",
+  "inference": "Does <i>without</i> exclude a genitive subject in its gerund-participial complement?",
+  "family": "Genitives, nominal arguments and subjecthood",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 error sweep, 19 November 2026",
+      "url": null,
+      "passage": "§16.2.1(f), p. 461. “this is one place where a gerund-participial in complement function cannot take a genitive subject”.",
+      "example": "Footnote 61 and [23id] place <i>without</i> in the construction.",
+      "establishes": "The restriction is stated for both prepositions.",
+      "locator": "Section B, item B1.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    },
+    {
+      "role": "Attestation",
+      "source": "David Owens (2012). Shaping the Normative Landscape, “The Promissory Bond”. Oxford University Press.",
+      "url": "https://doi.org/10.1093/acprof:oso/9780199691500.003.0010",
+      "passage": "§16.2.1(f), p. 461.",
+      "example": "<i>without my having communicated</i>",
+      "establishes": "A genitive subject with a perfect gerund-participial after without.",
+      "locator": "Local Markdown copy, line 75."
+    },
+    {
+      "role": "Attestation",
+      "source": "Amie L. Thomasson (2015). Ontology Made Easy. Oxford University Press. ISBN 978-0-19-938511-9.",
+      "url": null,
+      "passage": "§16.2.1(f), p. 461.",
+      "example": "<i>without their being governed by the standard rules of use</i>",
+      "establishes": "A genitive subject with a passive gerund-participial after without.",
+      "locator": "Local Markdown copy, line 488.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    },
+    {
+      "role": "Attestation",
+      "source": "John Stuart Mill. A System of Logic. Collected Works, vol. VII. Liberty Fund, Online Library of Liberty.",
+      "url": null,
+      "passage": "§16.2.1(f), p. 461.",
+      "example": "<i>without our being aware of it</i>",
+      "establishes": "An older edited attestation of the same pattern.",
+      "locator": "Local Markdown copy, line 2453.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0086/"
+}

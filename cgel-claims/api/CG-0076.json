@@ -1,0 +1,34 @@
+{
+  "id": "CG-0076",
+  "topic": "Items in both pronoun and determinative categories",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "9.5",
+    "page": 421
+  },
+  "claim": "Just four items belong in both categories: <i>what</i>, <i>which</i>, <i>we</i> and <i>you</i>.",
+  "evidence_summary": "Page 422 refers to “pronouns <i>what</i> (and <i>whatever</i>)”. Page 356 lists determinative <i>whatever</i>. Ch. 12, p. 1074, gives pronoun and determinative uses of the <i>·ever</i> forms.",
+  "finding": "Add <i>whatever</i> to the count.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "356. 421. 422. 1074 [20–21]",
+  "proposed_wording": "just five items that belong in both categories: <i>what</i>, <i>whatever</i>, <i>which</i>, <i>we</i>, and <i>you</i>",
+  "inference": "Is the inventory of dual-category items complete?",
+  "family": "Nouns, pronouns and word boundaries",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 error sweep, 19 November 2026",
+      "url": null,
+      "passage": "§9.5, p. 421.",
+      "example": "Page 422 and Ch. 12, p. 1074 [21ii], [21iv].",
+      "establishes": "The count omits an item the same section treats as dual.",
+      "locator": "Section A, item A8.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0076/"
+}

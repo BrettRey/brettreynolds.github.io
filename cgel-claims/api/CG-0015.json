@@ -1,0 +1,32 @@
+{
+  "id": "CG-0015",
+  "topic": "Some in existential clauses",
+  "assessment": "Argument gap",
+  "cgel": {
+    "chapter": 5,
+    "section": "5.2",
+    "page": 364
+  },
+  "claim": "The failure of <i>not all</i> in the same existential frame is used to test an implicature of <i>some</i>.",
+  "evidence_summary": "<i>There were some children in the park</i> is natural with no larger set salient. The stronger alternative can also be negated outside that frame.",
+  "finding": "Syntactic substitutability is a weak test of an implicature. The distinction between proportional and non-proportional uses survives.",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "[19–20]",
+  "inference": "Must a stronger scalar alternative fit the identical syntactic frame to contribute an implicature?",
+  "family": "Quantification and alternatives",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§5.2, p. 364. The failure of <i>not all</i> in the same existential frame is used to test an implicature of <i>some</i>.",
+      "example": "<i>There were some children in the park</i> can introduce an entirely new group. Where a particular class is salient, a speaker can add <i>The rest of the class stayed at school</i>. The stronger alternative need not occupy the postverbal NP slot.",
+      "establishes": "Infelicity of <i>not all</i> in one existential frame gives no direct verdict on an inference about the salient class. The contrast between proportional and non-proportional uses remains.",
+      "locator": "Coverage by numbered section",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0015/"
+}

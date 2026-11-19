@@ -1,0 +1,41 @@
+{
+  "id": "CG-0056",
+  "topic": "Plural names and the article",
+  "assessment": "Correction",
+  "cgel": {
+    "chapter": 5,
+    "section": "20.2.1",
+    "page": 517
+  },
+  "claim": "Plural proper names are said always to be weak, requiring <i>the</i>.",
+  "evidence_summary": "The National Park Service uses bare <i>Kanawha Falls</i> as subject of <i>span</i>, <i>drops</i> and <i>is located</i>. The plural verb supplies the relevant token. The two singular verbs show another agreement pattern for the same name on the same page.",
+  "finding": "The bare name is available in full subject position with plural agreement. The evidence is one US place name on a page updated in 2023. Uniform agreement, frequency, and a change since 2002 would need separate evidence.",
+  "semantic_inference": false,
+  "condition": "Necessary",
+  "internal_tension": false,
+  "related": "517",
+  "inference": "Does plural agreement with a place name require an overt article in full subject position?",
+  "family": "Definiteness, reference and names",
+  "evidence": [
+    {
+      "role": "Attestation",
+      "source": "U.S. National Park Service (updated 15 September 2023). Kanawha Falls.",
+      "url": "https://www.nps.gov/places/kanawha-falls.htm",
+      "passage": "§20.2.1, p. 517, paragraph after [2]. CGEL says “Plural proper names are always weak”. The preceding discussion distinguishes full names in argument position from article omission in attributive use.",
+      "example": "The same bare name occurs with <i>span</i>, <i>drops</i> and <i>is located</i>. The first two occur in the same descriptive paragraph.",
+      "establishes": "The plural-agreement subject supplies the counterexample. The singular examples document within-source variation.",
+      "locator": "Tour Stop 1, first and fourth sentences. Directions, first sentence."
+    },
+    {
+      "role": "Audit note",
+      "source": "Nouns and noun phrases notebook",
+      "url": null,
+      "passage": "§20.2.1, p. 517, paragraph after [2]. CGEL says “Plural proper names are always weak”. The preceding discussion distinguishes full names in argument position from article omission in attributive use.",
+      "example": "The National Park Service uses bare <i>Kanawha Falls</i> as subject of <i>span</i>, <i>drops</i> and <i>is located</i>. The plural verb supplies the relevant token. The two singular verbs show another agreement pattern for the same name on the same page.",
+      "establishes": "The bare name is available in full subject position with plural agreement. The evidence is one US place name on a page updated in 2023. Uniform agreement, frequency, and a change since 2002 would need separate evidence.",
+      "locator": "Other findings and their weight",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0056/"
+}

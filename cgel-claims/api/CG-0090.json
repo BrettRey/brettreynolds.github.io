@@ -1,0 +1,34 @@
+{
+  "id": "CG-0090",
+  "topic": "Cross-reference for anaphoric restrictions",
+  "assessment": "Production error",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "17.2.1",
+    "page": 486
+  },
+  "claim": "Subject to restrictions described in Ch. 17, §2.3, antecedent and pronoun can occupy the full range of NP functions.",
+  "evidence_summary": "Ch. 17 §2.3 (pp. 1468–1475) covers 3rd person pronouns and their semantic relations. Restrictions on position are in §2.4 (order of anaphor and antecedent) and §3 (reflexives).",
+  "finding": "Probably §§2.4 and 3. Confidence is lower than for the other cross-references because §2.3 states an agreement restriction.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "486. 1468–1475. 1475 [38]. 1484",
+  "proposed_wording": "Ch. 17, §§2.4 and 3",
+  "inference": "Does the cited section state the restrictions?",
+  "family": "Number, agreement and predication",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 error sweep, 19 November 2026",
+      "url": null,
+      "passage": "§17.2.1, p. 486.",
+      "example": "Ch. 17 contents and pp. 1469, 1475, 1484.",
+      "establishes": "A probable wrong reference.",
+      "locator": "Section C.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0090/"
+}

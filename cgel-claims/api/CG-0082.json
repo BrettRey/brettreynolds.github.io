@@ -1,0 +1,34 @@
+{
+  "id": "CG-0082",
+  "topic": "Attributive use of <i>a-</i> adjectives",
+  "assessment": "Qualification",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "14.2",
+    "page": 446
+  },
+  "claim": "The adjectives in [12iv] (<i>the house currently ablaze</i>, <i>all people now alive</i>, <i>the ones asleep</i>) are altogether excluded from attributive position.",
+  "evidence_summary": "Ch. 6, p. 559: modification or coordination “can greatly improve the acceptability of the attributive use”, with <i>their still awake children</i> and attested <i>an aware, amused glance</i>.",
+  "finding": "Chapter 5 omits the caveat its cross-reference supplies. <i>Altogether</i> may contrast with the sense difference in [12ii].",
+  "semantic_inference": false,
+  "condition": "Distributional restriction",
+  "internal_tension": true,
+  "related": "446 [12iv]. 559",
+  "proposed_wording": "are excluded from attributive position unless expanded by modification or coordination (Ch. 6, §4.2)",
+  "inference": "Are these adjectives excluded from attributive position in all forms?",
+  "family": "Licensing and order of dependents",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 error sweep, 19 November 2026",
+      "url": null,
+      "passage": "§14.2, p. 446 [12iv].",
+      "example": "Ch. 6, p. 559.",
+      "establishes": "The two passages differ in modal force.",
+      "locator": "Section A, item A15.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0082/"
+}

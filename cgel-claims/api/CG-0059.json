@@ -1,0 +1,41 @@
+{
+  "id": "CG-0059",
+  "topic": "NP modifiers of adjectives",
+  "assessment": "Textual mismatch",
+  "cgel": {
+    "chapter": 19,
+    "section": "4.1",
+    "page": 1644
+  },
+  "claim": "In the discussion of <i>tax-exempt</i>, Chapter 19 excludes a contrasting syntactic construction in which a noun or NP modifies an adjective.",
+  "evidence_summary": "Chapter 6 identifies the NPs in <i>two inches long</i>, <i>a foot wide</i> and <i>a bit lax</i> as modifiers of adjectives. Chapter 19 later acknowledges the measure phrase and contrasts it with compound forms.",
+  "finding": "The general wording in §4.1 conflicts with CGEL’s own phrasal cases. <i>Tax-exempt</i> can retain its compound analysis.",
+  "semantic_inference": false,
+  "condition": "Distributional restriction",
+  "internal_tension": true,
+  "related": "547 [33iii], 549 [38], 1656–1657, 1660",
+  "proposed_wording": "<i>Tax-exempt</i> is a compound adjective. A limited range of NPs can also modify adjectives in phrases such as <i>two inches long</i> and <i>a bit lax</i>.",
+  "inference": "Does English have a syntactic construction in which an adjective takes an NP modifier?",
+  "family": "Category diagnostics and word formation",
+  "evidence": [
+    {
+      "role": "Primary text",
+      "source": "Geoffrey K. Pullum and Rodney Huddleston (2002). CGEL, Chapter 6, Adjectives and adverbs.",
+      "url": "https://www.cambridge.org/core/books/abs/cambridge-grammar-of-the-english-language/adjectives-and-adverbs/1FC3B504CCE07756344026B7F7AD3A13",
+      "passage": "Ch. 19 §4.1, p. 1644. In its discussion of <i>tax-exempt</i>, CGEL excludes a contrasting syntactic construction with a noun or NP modifying an adjective.",
+      "example": "Chapter 6 explicitly assigns NP modifier function to <i>two inches</i> in <i>two inches long</i> and lists <i>a foot wide</i> and <i>a bit lax</i> alongside it.",
+      "establishes": "CGEL’s adjective-phrase analysis provides cases outside the blanket statement in Chapter 19.",
+      "locator": "§3.2, p. 547 [33iii], p. 549 [38]."
+    },
+    {
+      "role": "Primary text",
+      "source": "Laurie Bauer and Rodney Huddleston (2002). CGEL, Chapter 19, Lexical word-formation.",
+      "url": "https://www.cambridge.org/core/books/abs/cambridge-grammar-of-the-english-language/lexical-wordformation/B39A8AA579252AE87E0B675FBDA47606",
+      "passage": "Ch. 19 §4.1, p. 1644. In its discussion of <i>tax-exempt</i>, CGEL excludes a contrasting syntactic construction with a noun or NP modifying an adjective.",
+      "example": "Section 4.3.1 acknowledges a restricted set of NP dependents. Section 4.3.3 uses <i>three inches long</i> as the phrasal comparison for singular-unit compounds.",
+      "establishes": "Chapter 19 itself supplies the qualification. The local compound analysis of tax-exempt remains available.",
+      "locator": "§4.1, p. 1644. §4.3.1, pp. 1656–1657. §4.3.3, p. 1660."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0059/"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "CG-0047",
+  "topic": "Subject as a second NP function",
+  "assessment": "Open",
+  "cgel": {
+    "chapter": 5,
+    "section": "16.5.1",
+    "page": 472
+  },
+  "claim": "Every Type I genitive is assigned both determiner and subject function.",
+  "evidence_summary": "Semantic parallels survive changes of function. Local reflexive antecedence supplies independent evidence, but a post-head <i>by</i>-phrase can also antecede a reflexive.",
+  "finding": "Test whether binding or control tracks genitive position when participant role and discourse perspective are held constant.",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "248, 472–475, 1491 [29]",
+  "traditional_parallel": "P. 248 keeps the recipient role distinct from indirect-object function when the recipient is expressed in a PP. A genitive and a clausal subject likewise can share a role across different constructions. A methodological inconsistency would require comparable independent evidence: local binding, constituent position and control in NPs need their own tests.",
+  "inference": "What evidence for a genitive’s role as determiner independently establishes a second function as subject?",
+  "family": "Genitives, nominal arguments and subjecthood",
+  "evidence": [
+    {
+      "role": "Research source",
+      "source": "Jeffrey T. Runner, Rachel S. Sussman & Michael K. Tanenhaus (2003). Assignment of reference to reflexives and pronouns in picture noun phrases: Evidence from eye movements. Cognition 89(1), B1–B13.",
+      "url": "https://doi.org/10.1016/S0010-0277(03)00065-9",
+      "passage": "§16.5.1, p. 472. Every Type I genitive is assigned both determiner and subject function.",
+      "example": "In the two conditions, .35 and .27 of reflexive responses selected the clause subject, while .65 and .72 selected the possessor.",
+      "establishes": "A possessor has a substantial advantage in these picture NPs, but another antecedent is available. These data do not settle subjecthood for genitives of event nouns.",
+      "locator": "Experiment 2, Table 5, p. B9."
+    },
+    {
+      "role": "Related manuscript",
+      "source": "Fusion paper’s criterion",
+      "url": null,
+      "passage": "§16.5.1, p. 472. Every Type I genitive is assigned both determiner and subject function.",
+      "example": "The linked manuscript develops a related analysis. See the working-note record for the test applied to this CGEL passage.",
+      "establishes": "Related work by the catalogue’s author. Its inclusion provides background rather than independent corroboration.",
+      "locator": "Manuscript text",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    },
+    {
+      "role": "Audit note",
+      "source": "Nouns and noun phrases notebook",
+      "url": null,
+      "passage": "§16.5.1, p. 472. Every Type I genitive is assigned both determiner and subject function.",
+      "example": "Semantic parallels survive changes of function. Local reflexive antecedence supplies independent evidence, but a post-head <i>by</i>-phrase can also antecede a reflexive.",
+      "establishes": "Test whether binding or control tracks genitive position when participant role and discourse perspective are held constant.",
+      "locator": "The subject-determiner",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0047/"
+}

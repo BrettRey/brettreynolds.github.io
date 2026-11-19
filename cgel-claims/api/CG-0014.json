@@ -1,0 +1,41 @@
+{
+  "id": "CG-0014",
+  "topic": "Exact and lower-bound numerals",
+  "assessment": "Open",
+  "cgel": {
+    "chapter": 5,
+    "section": "5.2",
+    "page": 363
+  },
+  "claim": "For <i>four children</i> the lower bound is entailed and the upper bound implicated.",
+  "evidence_summary": "Fourteen chairs can suffice for dinner. A four-child fee band can also exclude a five-child household under negation.",
+  "finding": "Either local strengthening or an exact analysis with pragmatic weakening needs consideration. The dinner example alone cannot choose.",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "363–364",
+  "inference": "Does one lower-bound reading locate exactness in pragmatics in every environment?",
+  "family": "Quantification and alternatives",
+  "evidence": [
+    {
+      "role": "Research context",
+      "source": "Richard Breheny (2008). A new look at the semantics and pragmatics of numerically quantified noun phrases. Journal of Semantics 25(2), 93–139.",
+      "url": "https://doi.org/10.1093/jos/ffm016",
+      "passage": "§5.2, p. 363. For <i>four children</i> the lower bound is entailed and the upper bound implicated.",
+      "example": "Exactness and a lower bound can be distributed differently between semantics and pragmatics.",
+      "establishes": "The chair example needs a diagnostic that makes the rival analyses diverge. The fee schedule in the audit is constructed.",
+      "locator": "Article comparing accounts of exact and lower-bound numerals."
+    },
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§5.2, p. 363. For <i>four children</i> the lower bound is entailed and the upper bound implicated.",
+      "example": "Fourteen chairs can suffice for dinner. A four-child fee band can also exclude a five-child household under negation.",
+      "establishes": "Either local strengthening or an exact analysis with pragmatic weakening needs consideration. The dinner example alone cannot choose.",
+      "locator": "What free choice lets you do",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0014/"
+}

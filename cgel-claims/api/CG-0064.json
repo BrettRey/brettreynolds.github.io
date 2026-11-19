@@ -1,0 +1,51 @@
+{
+  "id": "CG-0064",
+  "topic": "<i>Overalls</i> in British and American English",
+  "assessment": "Correction",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "3.2.1",
+    "page": 341
+  },
+  "claim": "<i>Overalls</i> is listed as BrE among bipartite plural-only nouns. For the garment covering both parts of the body, the text says AmE has singular <i>overall</i>.",
+  "evidence_summary": "OED <i>overall</i>, n. (revised 2004): sense 1, the singular protective garment, is chiefly British. Senses 2b–c, chiefly in plural, cover protective trousers, bib-and-strap trousers and later a boiler suit; 2b is originally and chiefly U.S., and 2c has U.S. quotations (Sears, Roebuck, 1897). Wiktionary agrees.",
+  "finding": "American English uses plural <i>overalls</i> for a garment covering legs and chest, and the OED records no American singular. The BrE label in [26i] is too narrow, and “AmE here has singular <i>overall</i>” reverses the evidence.",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "341 [26i]",
+  "inference": "Is <i>overalls</i> restricted to BrE, and does AmE use singular <i>overall</i> for this garment?",
+  "family": "Count syntax and individuation",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 error sweep, 19 November 2026",
+      "url": null,
+      "passage": "§3.2.1, p. 341 [26i] and following paragraph. “BrE <i>overalls</i>, however, denotes a garment covering both parts of the body; AmE here has singular <i>overall</i>”.",
+      "example": "Wiktionary entries for <i>overalls</i> and <i>overall</i>, read as wikitext through the MediaWiki API.",
+      "establishes": "The variety labels conflict with a dictionary source. Edited dictionaries returned HTTP 403 to the audit tools.",
+      "locator": "Section E, first item.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    },
+    {
+      "role": "Research source",
+      "source": "Wiktionary, “overalls” (revision 93539230) and “overall” (revision 93573209).",
+      "url": "https://en.wiktionary.org/w/index.php?title=overalls&oldid=93539230",
+      "passage": "§3.2.1, p. 341 [26i].",
+      "example": "<i>overalls</i>: “(US, Canada, Australia) Loose-fitting pants with supporting cross-straps and a panel of material in the chest (called a bib)”. <i>overall</i>, noun: “(British) A garment worn over other clothing to protect it; a coverall or boiler suit.” and “(in the plural, US) A garment, worn for manual labor, with an integral covering extending to the chest”.",
+      "establishes": "A collaborative dictionary that assigns plural <i>overalls</i> to US usage and singular <i>overall</i> to British usage.",
+      "locator": "Noun senses 1–2 (overalls); noun senses 1–2 (overall)."
+    },
+    {
+      "role": "Research source",
+      "source": "Oxford English Dictionary, “overall, n.” (revised 2004).",
+      "url": "https://www.oed.com/dictionary/overall_n",
+      "passage": "§3.2.1, p. 341 [26i] and following paragraph.",
+      "example": "Sense 1, a protective outer garment, labelled chiefly British. Sense 2, chiefly in plural, protective trousers: 2b “Originally and chiefly U.S.”; 2c bib-and-strap trousers, later also a boiler suit, quoted from Sears, Roebuck (1897) and the New York Times Magazine (1990).",
+      "establishes": "The singular is the British form. American usage has the plural for garments covering the legs and chest.",
+      "locator": "Meaning & use, senses 1, 2b, 2c. Accessed 19 November 2026 through the University of Toronto Libraries subscription."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0064/"
+}

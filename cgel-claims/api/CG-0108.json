@@ -1,0 +1,33 @@
+{
+  "id": "CG-0108",
+  "topic": "Earliest standard singular <i>themself</i>",
+  "assessment": "Qualification",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "17.2.4",
+    "page": 494
+  },
+  "claim": "Singular <i>themself</i> is attested in the standard dialect from the 1970s onwards, but very rarely.",
+  "evidence_summary": "OED <i>themself</i>, pron. (revised 2013), senses I.2a–b and II.3b: <i>anybody could harm themself</i> (<i>Congregationalist</i>, Boston, 1873); <i>each for themself promises and agrees</i> (memorandum, 1881, Nebraska Supreme Court reports); <i>the person themself</i> (<i>Railway Conductor</i>, 1893); <i>had a finger-bowl to themself</i> (<i>Outlook</i>, 1905); <i>somebody outsmart themself</i> (G. Kanin, 1946); <i>anyone sees themself</i> (P. Nichols, 1967).",
+  "finding": "Singular <i>themself</i> occurs in edited sources from the late nineteenth century, though several quotations are dialogue or reported speech. The OED adds that <i>themself</i> is often considered nonstandard in later use. The rarity claim is unaffected.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "494 [30ii], [32]",
+  "proposed_wording": "Examples of the morphologically singular <i>themself</i> are attested from the late nineteenth century, but they are very rare …",
+  "inference": "When is singular <i>themself</i> first attested in standard written English?",
+  "family": "Number, agreement and predication",
+  "evidence": [
+    {
+      "role": "Research source",
+      "source": "Oxford English Dictionary, “themself, pron.” (revised 2013).",
+      "url": "https://www.oed.com/dictionary/themself_pron",
+      "passage": "§17.2.4, p. 494, after [30].",
+      "example": "Sense I.2b: 1873 <i>I didn’t know that anybody could harm themself…</i> (<i>Congregationalist</i>); 1946 <i>somebody outsmart themself</i> (Kanin, <i>Born Yesterday</i>). Sense I.2a: 1881 <i>each for themself</i>; 1905 <i>a finger-bowl to themself</i>. Sense II.3b: 1893 <i>the person themself</i>.",
+      "establishes": "The first edited attestations precede the 1970s by about a century.",
+      "locator": "Meaning & use, senses I.2a, I.2b, II.3b. Accessed 19 November 2026 through the University of Toronto Libraries subscription."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0108/"
+}

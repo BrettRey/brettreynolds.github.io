@@ -1,0 +1,52 @@
+{
+  "id": "CG-0025",
+  "topic": "Second function of a fused head",
+  "assessment": "Open",
+  "cgel": {
+    "chapter": 5,
+    "section": "9",
+    "page": 410
+  },
+  "claim": "CGEL assigns both a dependent function and head function where a phrase occurs alone.",
+  "evidence_summary": "Standalone <i>some</i> retains the modifiers it takes before a noun. Ordinary-head and fusion accounts both predict that continuity.",
+  "finding": "Brett’s fusion paper tests the additional function independently. This question also arises where the head noun is overt with a genitive.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "410–425",
+  "inference": "Does distribution without an overt head noun establish the additional dependent function?",
+  "family": "NP structure and headedness",
+  "evidence": [
+    {
+      "role": "Related manuscript",
+      "source": "Fusion paper’s criterion",
+      "url": null,
+      "passage": "§9, p. 410. CGEL assigns both a dependent function and head function where a phrase occurs alone.",
+      "example": "The linked manuscript develops a related analysis. See the working-note record for the test applied to this CGEL passage.",
+      "establishes": "Related work by the catalogue’s author. Its inclusion provides background rather than independent corroboration.",
+      "locator": "Manuscript text",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    },
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§9, p. 410. CGEL assigns both a dependent function and head function where a phrase occurs alone.",
+      "example": "Standalone <i>some</i> retains the modifiers it takes before a noun. Ordinary-head and fusion accounts both predict that continuity.",
+      "establishes": "Brett’s fusion paper tests the additional function independently. This question also arises where the head noun is overt with a genitive.",
+      "locator": "Coverage by numbered section",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    },
+    {
+      "role": "Audit note",
+      "source": "Nouns and noun phrases notebook",
+      "url": null,
+      "passage": "§9, p. 410. CGEL assigns both a dependent function and head function where a phrase occurs alone.",
+      "example": "Standalone <i>some</i> retains the modifiers it takes before a noun. Ordinary-head and fusion accounts both predict that continuity.",
+      "establishes": "Brett’s fusion paper tests the additional function independently. This question also arises where the head noun is overt with a genitive.",
+      "locator": "The subject-determiner",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0025/"
+}

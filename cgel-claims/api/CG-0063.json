@@ -1,0 +1,34 @@
+{
+  "id": "CG-0063",
+  "topic": "Cross-reference for the hybrid NP",
+  "assessment": "Production error",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "2",
+    "page": 332
+  },
+  "claim": "Note 3 sends readers to Ch. 14 §1.6 for the hybrid NP in <i>There was no stopping her</i>. Page 333 cites the same section for the argument that gerund-participials are clauses.",
+  "evidence_summary": "Ch. 14 begins §1.5 on p. 1187 and §1.6 on p. 1191. The hybrid constructions are on p. 1189 [57], and the argument for the clausal analysis runs through pp. 1188–1190.",
+  "finding": "Both references should point to §1.5. Section 1.6 concerns the case of the subject. Ch. 16, p. 1394, repeats the same reference.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "332 n. 3, 333. 1187–1191 [57]. 1394",
+  "proposed_wording": "For discussion, see Ch. 14, §1.5.",
+  "inference": "Do the references lead to the passages they cite?",
+  "family": "NP structure and headedness",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 error sweep, 19 November 2026",
+      "url": null,
+      "passage": "§2, p. 332 n. 3 and p. 333. Both cite Ch. 14, §1.6.",
+      "example": "Ch. 14 contents, p. 1171: “1.5 The structure of gerund-participials 1187”, “1.6 Case of the subject NP in gerund-participials 1191”. Page 1189 has “(b) Hybrid constructions” with [57ii b] <i>There’ll be no stopping her</i>.",
+      "establishes": "The cited section begins after the material it is cited for.",
+      "locator": "Section C, first two rows.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0063/"
+}

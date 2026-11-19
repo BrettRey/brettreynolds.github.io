@@ -1,0 +1,41 @@
+{
+  "id": "CG-0038",
+  "topic": "Anaphoric <i>one</i> and nominal complements",
+  "assessment": "Qualification",
+  "cgel": {
+    "chapter": 5,
+    "section": "14.1",
+    "page": 441
+  },
+  "claim": "The possibility of <i>one</i> substitution helps distinguish modifiers from complements.",
+  "evidence_summary": "Payne and colleagues document <i>one</i> with an inherent-part <i>of</i>-dependent, a relation CGEL treats as complementary.",
+  "finding": "Reduce the weight of this diagnostic. CGEL already limits it, especially with deverbal nouns.",
+  "semantic_inference": false,
+  "condition": "Diagnostic only",
+  "internal_tension": false,
+  "related": "441–442",
+  "inference": "Does substitution by anaphoric <i>one</i> exclude an <i>of</i>-complement?",
+  "family": "Licensing and order of dependents",
+  "evidence": [
+    {
+      "role": "Research source",
+      "source": "John Payne, Geoffrey K. Pullum, Barbara C. Scholz & Eva Berlage (2013). Anaphoric one and its implications. Language 89(4), 794–829.",
+      "url": "https://doi.org/10.1353/lan.2013.0071",
+      "passage": "§14.1, p. 441. The possibility of <i>one</i> substitution helps distinguish modifiers from complements.",
+      "example": "The antecedent is <i>eyes</i> and the anaphoric construction is <i>ones of the team manager</i>. The <i>of</i>-phrase expresses the inherent-part relation.",
+      "establishes": "An overt dependent can accompany <i>one</i> in a relation CGEL treats as complementary. The diagnostic retains its previously acknowledged limits.",
+      "locator": "P. 800, (11a), BNC HGM 204. Table 2, p. 815."
+    },
+    {
+      "role": "Audit note",
+      "source": "Nouns and noun phrases notebook",
+      "url": null,
+      "passage": "§14.1, p. 441. The possibility of <i>one</i> substitution helps distinguish modifiers from complements.",
+      "example": "Payne and colleagues document <i>one</i> with an inherent-part <i>of</i>-dependent, a relation CGEL treats as complementary.",
+      "establishes": "Reduce the weight of this diagnostic. CGEL already limits it, especially with deverbal nouns.",
+      "locator": "Other findings and their weight",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0038/"
+}

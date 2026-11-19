@@ -1,0 +1,34 @@
+{
+  "id": "CG-0092",
+  "topic": "<i>Which</i> with human antecedents",
+  "assessment": "Qualification",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "17.3",
+    "page": 498
+  },
+  "claim": "With human nouns, <i>which</i> is possible only with nouns denoting infants without specification of sex.",
+  "evidence_summary": "Ch. 12, p. 1048, “Two special cases of <i>which</i> used with human antecedents”: <i>They accused him of being a traitor, which he undoubtedly was</i> [44i], and complements of <i>have (got)</i> [45]. That passage refers back to §17.3.",
+  "finding": "Restrict the claim to referential antecedents or cross-refer to Ch. 12, §3.5.1. Brett’s personhood paper discusses infants and the <i>who</i>/<i>which</i> split but not these cases.",
+  "semantic_inference": true,
+  "condition": "Distributional restriction",
+  "internal_tension": true,
+  "related": "498 [46]. 1048–1049 [44–45]",
+  "proposed_wording": "With referential human antecedents, <i>which</i> is possible only with nouns denoting infants … (but see Ch. 12, §3.5.1)",
+  "inference": "Is <i>which</i> with a human antecedent limited to infant nouns?",
+  "family": "Nouns, pronouns and word boundaries",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 error sweep, 19 November 2026",
+      "url": null,
+      "passage": "§17.3, p. 498.",
+      "example": "Ch. 12, pp. 1048–1049.",
+      "establishes": "An unqualified <i>only</i> conflicts with a later section that cites this one.",
+      "locator": "Section A, item A10.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0092/"
+}

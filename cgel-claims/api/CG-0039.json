@@ -1,0 +1,32 @@
+{
+  "id": "CG-0039",
+  "topic": "Ownership as a nominal argument",
+  "assessment": "Open",
+  "cgel": {
+    "chapter": 5,
+    "section": "14.1",
+    "page": 442
+  },
+  "claim": "<i>The owner of a car</i> is analysed as a complement partly because owners are involved with possessions.",
+  "evidence_summary": "Cars can have mechanics and insurers as well as owners. CGEL appeals to subject-determiner status here and to oblique parallels in the subject argument.",
+  "finding": "Compare relational and object nouns while holding the form of the personal oblique constant. Some of the supporting arguments depend on one another.",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "442 [7vii], 472, 477",
+  "inference": "Does an owner’s plausible involvement with a car make the owner a lexical argument of <i>car</i>?",
+  "family": "Genitives, nominal arguments and subjecthood",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§14.1, p. 442. <i>The owner of a car</i> is analysed as a complement partly because owners are involved with possessions.",
+      "example": "A car may have an owner, a mechanic and an insurer. Its having no owner at all is coherent. <i>Sister</i>, in its ordinary kinship use, requires a relation to somebody. The plausibility of association with <i>car</i> does not select ownership from the other relations.",
+      "establishes": "Genitive subjecthood and oblique complementation partly support one another across pp. 442 and 472. A test for lexical selection must also control the independent constraints on personal <i>of</i>-phrases at p. 477.",
+      "locator": "Structural analyses with a genuine rival",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0039/"
+}

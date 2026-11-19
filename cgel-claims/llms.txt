@@ -1,0 +1,23 @@
+# CGEL claim catalogue
+
+> Claims from The Cambridge Grammar of the English Language (Huddleston and Pullum 2002), tested against the book itself and against usage, by Brett Reynolds. 111 claims; snapshot 2026-11-19 (8796464).
+
+## How to use this data
+
+- Each record gives CGEL's claim (a paraphrase, with its chapter, section and page in the corrected printing used for the audit), a verdict (`assessment`), the finding and its limits, a proposed rewording where needed, and the evidence item by item.
+- Verdicts: Correction: Correction proposes changing a particular claim.; Qualification: Qualification narrows its scope or evidential force.; Argument gap: Argument gap identifies an inference the evidence fails to establish.; Textual mismatch: Textual mismatch records incompatible wording or labels across passages.; Extension: Extension supplies an account or test beyond the description.; Production error: Production error records a misprint, a wrong cross-reference or a misnumbered example that the authors’ errata do not list.; Supported: Supported means that the tested distinction survives the stated challenge.; Open: Open means that live alternatives remain.; Author erratum: Author erratum identifies a correction by the authors.
+- Verdicts include positive controls and known errata; their proportions don't estimate CGEL's error rate.
+- Text fields may contain <i>...</i> around mentioned forms; the Markdown files render them as *...*.
+- Evidence with `url: null` cites a working note, an unpublished draft or a local copy that isn't online.
+- `reviewed: false` marks an entry drafted with AI assistance that the author hasn't yet checked; treat its verdict as provisional. Large language models served as research and drafting aids throughout.
+
+## Data
+
+- [All claims](https://brettreynolds.ca/cgel-claims/claims.json): one JSON document with labels, guide and claims.
+- [One claim per line](https://brettreynolds.ca/cgel-claims/claims.jsonl).
+- Per claim: `https://brettreynolds.ca/cgel-claims/api/<ID>.json` and `.md`, for example [CG-0107](https://brettreynolds.ca/cgel-claims/api/CG-0107.json).
+- [Workbook](https://brettreynolds.ca/cgel-claims/cgel-claim-catalogue.xlsx): the same data as an Excel file.
+
+## Pages
+
+- [Claims in CGEL page order](https://brettreynolds.ca/cgel-claims/), [by argument family](https://brettreynolds.ca/cgel-claims/families/), [guide](https://brettreynolds.ca/cgel-claims/guide/).

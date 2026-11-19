@@ -1,0 +1,32 @@
+{
+  "id": "CG-0003",
+  "topic": "Full NPs before the head",
+  "assessment": "Textual mismatch",
+  "cgel": {
+    "chapter": 5,
+    "section": "2",
+    "page": 329
+  },
+  "claim": "The overview excludes full NPs as pre-head dependents in its discussion of nominal modifiers.",
+  "evidence_summary": "CGEL gives full NP status to measure genitives and to <i>all girls’</i> in an <i>all girls’ school</i>.",
+  "finding": "Qualify the generalization for genitive attributes. The plain-case institutional examples still distinguish nominal from NP.",
+  "semantic_inference": false,
+  "condition": "Distributional restriction",
+  "internal_tension": true,
+  "related": "444, 470 [45–46]",
+  "inference": "Does the restriction on ordinary attributive nouns extend to genitive NPs before a head?",
+  "family": "NP structure and headedness",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§2, p. 329. The overview excludes full NPs as pre-head dependents in its discussion of nominal modifiers.",
+      "example": "The <i>Ministry of Defence officials</i> example tests plain-case noun modification. At p. 444 CGEL permits a full measure genitive, and on p. 470 assigns NP status to <i>all girls’</i> in an <i>all girls’ school</i>.",
+      "establishes": "The chapter itself supplies a pre-head NP outside the plain-case pattern. The <i>Ministry of Defence</i> contrast can retain its narrower use.",
+      "locator": "Coverage by numbered section",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0003/"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "CG-0053",
+  "topic": "Distributivity of a singular predicative",
+  "assessment": "Correction",
+  "cgel": {
+    "chapter": 5,
+    "section": "19.2",
+    "page": 513
+  },
+  "claim": "In §19.2, with semantically plural predicands in ascriptive constructions lacking explicit quantification, rule [12] assigns non-distributive interpretation to singular predicatives.",
+  "evidence_summary": "“<i>Coin envelopes are a good size for most seeds</i>” describes the individual envelopes. Give a seedling a 10-cm pot and a tree a 40-cm pot. “<i>The pots are a suitable size for their respective plants</i>” can be true. In that context the unmarked “<i>These pots are a suitable size</i>” can also be true, then false after swapping the plants.",
+  "finding": "Suitability applies separately to each pot although the predicative NP is singular and their sizes differ. A single shared value is possible but unnecessary. The argument against general grammatical number concord survives.",
+  "semantic_inference": true,
+  "condition": "Sufficient",
+  "internal_tension": false,
+  "related": "510–515 [12]",
+  "proposed_wording": "With a semantically plural predicand, a singular predicative may attribute a property to the group or to each member. In the latter case each member may satisfy the description with a different value.",
+  "inference": "Does a singular count predicative force the property to apply to the bearers collectively?",
+  "family": "Number, agreement and predication",
+  "evidence": [
+    {
+      "role": "Attestation",
+      "source": "Mikaela Boley (2020). Collecting Native Seed. University of Maryland Extension.",
+      "url": "https://extension.umd.edu/sites/extension.umd.edu/files/2021-02/Native%20Plant%20Seed%20Saving%20Resources.pdf#page=9",
+      "passage": "§19.2, p. 513, [12], following [11i–ii]. The rule assigns plural forms distributively and “singular forms non-distributively”. Its domain excludes specifying predicatives and explicit quantification. The quantified cases are taken up on p. 515.",
+      "example": "“Coin envelopes are a good size for most seeds.” The advice concerns which individual envelopes can hold the material. The dimensions of a stack would not answer that question.",
+      "establishes": "A singular predicative is applicable to individual bearers. The different-sized pots in the audit test the further suggestion that those bearers have to share one value.",
+      "locator": "Handout p. 9, Taking Care of Collected Seed, first bullet."
+    },
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§19.2, p. 513, [12], following [11i–ii]. The rule assigns plural forms distributively and “singular forms non-distributively”. Its domain excludes specifying predicatives and explicit quantification. The quantified cases are taken up on p. 515.",
+      "example": "“<i>Coin envelopes are a good size for most seeds</i>” describes the individual envelopes. Give a seedling a 10-cm pot and a tree a 40-cm pot. “<i>The pots are a suitable size for their respective plants</i>” can be true. In that context the unmarked “<i>These pots are a suitable size</i>” can also be true, then false after swapping the plants.",
+      "establishes": "Suitability applies separately to each pot although the predicative NP is singular and their sizes differ. A single shared value is possible but unnecessary. The argument against general grammatical number concord survives.",
+      "locator": "Counting properties and counting their bearers",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0053/"
+}

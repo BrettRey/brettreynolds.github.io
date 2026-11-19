@@ -1,0 +1,33 @@
+{
+  "id": "CG-0098",
+  "topic": "<i>This</i> with an integrated relative after a name",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "20.3",
+    "page": 520
+  },
+  "claim": "In <i>Who’s [this Penelope who’s been sending you emails]?</i>, <i>this</i> is an embellishment of the proper name.",
+  "evidence_summary": "Ch. 12, p. 1062: with an integrated relative the name is “a nominal, not an NP”, and the larger nominal “is not a proper name and hence … it requires a determiner”. §20.4(a) [6i] treats <i>The Mary that you met yesterday</i> as a secondary use.",
+  "finding": "Replace the example (<i>That Senator Fox</i> in the same display has no relative) or reclassify it as a secondary use.",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "520 [5iii]. 521 [6i]. 1060 [6ii]. 1062",
+  "inference": "Is this an embellishment when the name has an integrated relative?",
+  "family": "Definiteness, reference and names",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 error sweep, 19 November 2026",
+      "url": null,
+      "passage": "§20.3, p. 520 [5iii].",
+      "example": "Ch. 12, pp. 1060 and 1062, and p. 521 [6i].",
+      "establishes": "The example meets Ch. 12’s description of a required determiner.",
+      "locator": "Section A, item A11.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0098/"
+}

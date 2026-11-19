@@ -1,0 +1,41 @@
+{
+  "id": "CG-0055",
+  "topic": "The article inside a proper name",
+  "assessment": "Qualification",
+  "cgel": {
+    "chapter": 5,
+    "section": "20.2.1",
+    "page": 517
+  },
+  "claim": "Definite reference is taken to exclude an indefinite determiner in a proper name.",
+  "evidence_summary": "<i>A Flock of Seagulls</i> names a single band and occurs as subject in BMG’s prose.",
+  "finding": "Distinguish a fixed article inside a conventional name from productive external determination.",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "515–517",
+  "inference": "Does definite reference constrain which article can be fixed inside a name?",
+  "family": "Definiteness, reference and names",
+  "evidence": [
+    {
+      "role": "Attestation",
+      "source": "BMG (12 March 2026). BMG Acquires Publishing & Recording Catalog of A Flock of Seagulls.",
+      "url": "https://www.bmg.com/news/bmg-acquires-publishing-and-recording-catalog-of-a-flock-of-seagulls",
+      "passage": "§20.2.1, p. 517. Definite reference is taken to exclude an indefinite determiner in a proper name.",
+      "example": "BMG uses the full band name <i>A Flock of Seagulls</i> in subject position before broke through internationally.",
+      "establishes": "An indefinite article is fixed inside this conventional name. This leaves open what external determination it allows.",
+      "locator": "Fifth body paragraph, beginning Formed in Liverpool in 1979."
+    },
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§20.2.1, p. 517. Definite reference is taken to exclude an indefinite determiner in a proper name.",
+      "example": "<i>A Flock of Seagulls</i> names a single band and occurs as subject in BMG’s prose.",
+      "establishes": "Distinguish a fixed article inside a conventional name from productive external determination.",
+      "locator": "Other corrections with direct evidence",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0055/"
+}

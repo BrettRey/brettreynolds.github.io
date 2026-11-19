@@ -1,0 +1,32 @@
+{
+  "id": "CG-0016",
+  "topic": "Identifiability and <i>which arm</i>",
+  "assessment": "Argument gap",
+  "cgel": {
+    "chapter": 5,
+    "section": "6.1",
+    "page": 369
+  },
+  "claim": "A hearer’s lack of need to ask <i>which arm</i> helps explain the definite article.",
+  "evidence_summary": "Constructed: <i>Put it on an arm of your chair</i> also needs no follow-up if either arm will do.",
+  "finding": "The practical test alone cannot select the article. CGEL already recognizes nonunique and accommodated definites.",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "368–371 [3]",
+  "inference": "Does the absence of a practical reason to ask <i>which one</i> suffice to predict use of the definite article?",
+  "family": "Definiteness, reference and names",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§6.1, p. 369. A hearer’s lack of need to ask <i>which arm</i> helps explain the definite article.",
+      "example": "Give the same instruction with <i>the arm of your chair</i> and <i>an arm of your chair</i> when either arm will serve. In both cases the hearer can comply without asking <i>which arm</i>.",
+      "establishes": "Lack of a practical need to ask cannot distinguish article choice here. CGEL separately allows accommodated referents and cases without a unique arm.",
+      "locator": "Coverage by numbered section",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0016/"
+}

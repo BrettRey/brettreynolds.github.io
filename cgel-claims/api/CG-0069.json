@@ -1,0 +1,34 @@
+{
+  "id": "CG-0069",
+  "topic": "Approximators with any",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "7.5",
+    "page": 383
+  },
+  "claim": "Free-choice <i>any</i>, unlike non-affirmative <i>any</i>, permits modification, for example by <i>almost</i>.",
+  "evidence_summary": "§11(b), p. 431: “The approximate negators <i>hardly</i>, <i>barely</i>, <i>scarcely</i> can modify <i>anyn</i>”. Page 424 [45iia] has <i>They did [hardly any] work.</i> Page 816 makes the same point.",
+  "finding": "The contrast holds for <i>almost</i>-type approximators. Non-affirmative <i>any</i> takes the approximate negators. Brett’s determinatives paper relies on the p. 431 description.",
+  "semantic_inference": false,
+  "condition": "Distributional restriction",
+  "internal_tension": true,
+  "related": "383 [36]. 424 [45iia]. 431. 816",
+  "proposed_wording": "<i>Anyf</i>, unlike <i>anyn</i>, permits modification by <i>almost</i>, <i>nearly</i> or <i>practically</i>. <i>Anyn</i> takes only the approximate negators <i>hardly</i>, <i>barely</i> and <i>scarcely</i> (§11).",
+  "inference": "Does the <i>almost</i> contrast show that only free-choice <i>any</i> can be modified?",
+  "family": "Quantification and alternatives",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 error sweep, 19 November 2026",
+      "url": null,
+      "passage": "§7.5, p. 383 [36]. “<i>anyf</i>, unlike <i>anyn</i>, permits modification, for example by the adverb <i>almost</i>.”",
+      "example": "§11(b), p. 431, and p. 424 [45iia] <i>They did [hardly any] work.</i>",
+      "establishes": "A direct conflict between two descriptions of the same determinative.",
+      "locator": "Section A, item A1.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0069/"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "CG-0052",
+  "topic": "Collective agreement with <i>consist of</i>",
+  "assessment": "Correction",
+  "cgel": {
+    "chapter": 5,
+    "section": "18.2",
+    "page": 502
+  },
+  "claim": "A whole-group reading with <i>consist of</i> is said to preclude plural agreement.",
+  "evidence_summary": "Rickman (2018, p. 42) acknowledges authentic examples of <i>the committee consist of</i>. Swansea’s <i>committee consist of 9 members</i> gives the full composition predicate, whose subject denotes the group taken as a whole.",
+  "finding": "Plural agreement occurs with the whole-group predicate CGEL uses to exclude it. Rickman credits a reviewer for the examples. Neither that acknowledgment nor the club webpages supply a frequency estimate.",
+  "semantic_inference": true,
+  "condition": "Sufficient",
+  "internal_tension": false,
+  "related": "502 [10i]",
+  "inference": "Does applying to a group as a whole exclude plural agreement on <i>consist</i>?",
+  "family": "Number, agreement and predication",
+  "evidence": [
+    {
+      "role": "Research source",
+      "source": "Paul Rickman (2018). Collective nouns and number agreement in New Zealand English. New Zealand Studies in Applied Linguistics 24(1), 40–55.",
+      "url": "https://www.alanz.org.nz/wp-content/uploads/2018/12/NZSAL_2018_241.pdf#page=42",
+      "passage": "§18.2, p. 502, [10i] and preceding paragraph. CGEL treats plural agreement as excluded with a predicate applicable to the group as a whole. Its test uses <i>consist of</i>.",
+      "example": "Rickman credits a reviewer with supplying authentic counterexamples, including the abbreviated <i>the committee consist of …</i> .",
+      "establishes": "A published acknowledgment of occurrence. The cited examples have no reported frequency or assigned variety here.",
+      "locator": "P. 42, continuation of item 1, Semantics."
+    },
+    {
+      "role": "Attestation",
+      "source": "Swansea University Students’ Union. Badminton.",
+      "url": "https://www.swansea-union.co.uk/activities/club/badminton/",
+      "passage": "§18.2, p. 502, [10i] and preceding paragraph. CGEL treats plural agreement as excluded with a predicate applicable to the group as a whole. Its test uses <i>consist of</i>.",
+      "example": "“<i>Our committee consist of 9 members.</i>” The number gives the membership of the whole committee.",
+      "establishes": "Direct attestation of plural agreement in a British club description.",
+      "locator": "The ‘Who are we?’ bit, third bullet."
+    },
+    {
+      "role": "Attestation",
+      "source": "Leeds Hockey. Club Governance.",
+      "url": "https://www.leedshockey.co.uk/about-the-club/club-governance/",
+      "passage": "§18.2, p. 502, [10i] and preceding paragraph. CGEL treats plural agreement as excluded with a predicate applicable to the group as a whole. Its test uses <i>consist of</i>.",
+      "example": "The management committee is the subject of plural <i>consist of</i> in the description of its membership.",
+      "establishes": "An additional attestation in British club prose.",
+      "locator": "Second paragraph, sentence listing the officers."
+    },
+    {
+      "role": "Audit note",
+      "source": "Nouns and noun phrases notebook",
+      "url": null,
+      "passage": "§18.2, p. 502, [10i] and preceding paragraph. CGEL treats plural agreement as excluded with a predicate applicable to the group as a whole. Its test uses <i>consist of</i>.",
+      "example": "Rickman (2018, p. 42) acknowledges authentic examples of <i>the committee consist of</i>. Swansea’s <i>committee consist of 9 members</i> gives the full composition predicate, whose subject denotes the group taken as a whole.",
+      "establishes": "Plural agreement occurs with the whole-group predicate CGEL uses to exclude it. Rickman credits a reviewer for the examples. Neither that acknowledgment nor the club webpages supply a frequency estimate.",
+      "locator": "Other findings and their weight",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0052/"
+}

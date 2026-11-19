@@ -1,0 +1,51 @@
+{
+  "id": "CG-0034",
+  "topic": "Indefinite NPs after a multiplier",
+  "assessment": "Correction",
+  "cgel": {
+    "chapter": 5,
+    "section": "12",
+    "page": 434
+  },
+  "claim": "Multipliers such as <i>twice</i> are restricted to definite NPs.",
+  "evidence_summary": "Math textbooks use <i>twice a number</i> and <i>of twice an angle</i>. The latter cannot mean twice per occasion.",
+  "finding": "Mathematical English allows the indefinite magnitude in these expressions. A restriction limited to a distinct predeterminer construction would need an independent way to distinguish it from multiplicative <i>twice</i> here.",
+  "semantic_inference": false,
+  "condition": "Necessary",
+  "internal_tension": false,
+  "related": "434",
+  "proposed_wording": "Multipliers commonly take definite NPs. They also take indefinite NPs denoting a magnitude, as in <i>twice a number</i> or <i>twice an angle</i>.",
+  "inference": "Must the magnitude selected by a multiplier be expressed by a definite NP?",
+  "family": "Quantification and alternatives",
+  "evidence": [
+    {
+      "role": "Attestation",
+      "source": "OpenStax. Intermediate Algebra 2e.",
+      "url": "https://openstax.org/books/intermediate-algebra-2e/pages/2-2-use-a-problem-solving-strategy",
+      "passage": "§12(c), p. 434, paragraph after [4]. The definite-NP restriction follows the multiplier examples. The relevant comparison is with a quantified magnitude rather than an event frequency.",
+      "example": "The exercises give a sum and a difference involving <i>twice a number</i>. The expression supplies a magnitude.",
+      "establishes": "An indefinite occurs in multiplication language.",
+      "locator": "§2.2, Use a Problem-Solving Strategy, exercises 90–91."
+    },
+    {
+      "role": "Attestation",
+      "source": "Thomas Tradler & Holly Carley. Precalculus, §18.2, Double and half angles.",
+      "url": "https://math.libretexts.org/Bookshelves/Precalculus/Precalculus_%28Tradler_and_Carley%29/18%3A_Addition_of_Angles_and_Multiple_Angles/18.02%3A_Double_and_half_angles",
+      "passage": "§12(c), p. 434, paragraph after [4]. The definite-NP restriction follows the multiplier examples. The relevant comparison is with a quantified magnitude rather than an event frequency.",
+      "example": "In <i>of twice an angle</i> the enclosing preposition selects the angle expression as a magnitude.",
+      "establishes": "The syntax blocks the irrelevant twice-per-occasion interpretation. The evidence comes from mathematical English.",
+      "locator": "Opening sentence before the proposition on half and double angle formulas."
+    },
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§12(c), p. 434, paragraph after [4]. The definite-NP restriction follows the multiplier examples. The relevant comparison is with a quantified magnitude rather than an event frequency.",
+      "example": "Math textbooks use <i>twice a number</i> and <i>of twice an angle</i>. The latter cannot mean twice per occasion.",
+      "establishes": "Mathematical English allows the indefinite magnitude in these expressions. A restriction limited to a distinct predeterminer construction would need an independent way to distinguish it from multiplicative <i>twice</i> here.",
+      "locator": "Other corrections with direct evidence",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0034/"
+}

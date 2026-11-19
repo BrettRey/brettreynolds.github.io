@@ -1,0 +1,32 @@
+{
+  "id": "CG-0021",
+  "topic": "Group identity over time",
+  "assessment": "Open",
+  "cgel": {
+    "chapter": 5,
+    "section": "8.3",
+    "page": 406
+  },
+  "claim": "<i>The police are getting younger</i> is explained through different sets of people at different times.",
+  "evidence_summary": "A stable force could have a falling mean age as membership changes.",
+  "finding": "A theory of what the NP picks out is needed to choose between an institutional and a member-set analysis.",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "[13ii]",
+  "inference": "Does change in the members compared over time require a change of institutional referent?",
+  "family": "Definiteness, reference and names",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§8.3, p. 406. <i>The police are getting younger</i> is explained through different sets of people at different times.",
+      "example": "Compare a police force whose older members retire and whose younger recruits replace them. The sets of people compared change even if speakers identify the same continuing institution at every date.",
+      "establishes": "Both descriptions can be true in the same history. A model of the referent is needed to distinguish readings of <i>The police are getting younger</i>.",
+      "locator": "The difference between possible variation and actual variation",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0021/"
+}

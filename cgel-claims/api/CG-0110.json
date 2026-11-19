@@ -1,0 +1,33 @@
+{
+  "id": "CG-0110",
+  "topic": "<i>At dark</i> as a time of day",
+  "assessment": "Correction",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "8.5",
+    "page": 410
+  },
+  "claim": "Bare NPs for times of day follow <i>at</i>, <i>by</i>, <i>before</i>, <i>until</i> and <i>after</i>, but <i>morning</i>, <i>daytime</i>, <i>evening</i> and <i>dark</i> take <i>in</i> + <i>the</i> instead of <i>at</i>.",
+  "evidence_summary": "OED quotations with <i>at dark</i> for nightfall: <i>returned at dark with only five men</i> (D. Haig, diary, 1915); <i>We reached Biela at dark</i> (<i>Daily News</i>, 1877); <i>At dark John Henry came to the back door</i> (C. McCullers, <i>The Member of the Wedding</i>, 1946); <i>at daybreak or at dark</i> (<i>Hunting Annual</i>, 1980).",
+  "finding": "<i>Dark</i> patterns with <i>night</i> and <i>dawn</i> in taking bare <i>at</i>. <i>In the dark</i> is a locative or state expression rather than a time of day. The claim holds for <i>morning</i>, <i>daytime</i> and <i>evening</i>.",
+  "semantic_inference": false,
+  "condition": "Distributional restriction",
+  "internal_tension": false,
+  "related": "410 [20v]",
+  "proposed_wording": "note, however, that <i>morning</i>, <i>daytime</i> and <i>evening</i> take <i>in</i> + <i>the</i> instead of <i>at</i>: <i>in the</i> / ∗<i>at morning</i>",
+  "inference": "Does <i>dark</i>, as a time of day, take <i>in the</i> rather than <i>at</i>?",
+  "family": "Definiteness, reference and names",
+  "evidence": [
+    {
+      "role": "Research source",
+      "source": "Oxford English Dictionary, quotation search for “at dark”.",
+      "url": "https://www.oed.com/search/advanced/Quotations?textTermText0=%22at+dark%22&textTermOpt0=QuotText",
+      "passage": "§8.5, p. 410, after [20].",
+      "example": "1877 <i>We reached Biela at dark</i> (<i>Daily News</i>, under <i>earth-coloured</i>, adj.). 1915 <i>returned at dark</i> (Haig, under <i>dark</i>, n.). 1946 <i>At dark John Henry came to the back door</i> (McCullers, under <i>weekend</i>, n.). 1980 <i>at daybreak or at dark</i> (<i>Hunting Ann.</i>, under <i>owling</i>, n.).",
+      "establishes": "<i>At dark</i> for nightfall in edited British and American prose across a century.",
+      "locator": "Quotation search, 9 results, 4 relevant. Accessed 19 November 2026 through the University of Toronto Libraries subscription."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0110/"
+}

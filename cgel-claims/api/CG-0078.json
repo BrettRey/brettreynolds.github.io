@@ -1,0 +1,34 @@
+{
+  "id": "CG-0078",
+  "topic": "Ordering of post-head dependents",
+  "assessment": "Qualification",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "9.6",
+    "page": 423
+  },
+  "claim": "The restriction on <i>else</i> departs from the general rule that, syntactically, the order of post-head internal dependents is completely free (see §15).",
+  "evidence_summary": "§15, p. 454: “Although the order of post-head internal dependents is essentially labile, certain specialised types are subject to rigid ordering constraints”. Its rule [14] includes <i>else</i> before restrictors.",
+  "finding": "The §9.6 restriction is one of the rigid constraints §15 recognizes. General rule and from a syntactic point of view partly rescue the sentence. Two readers weighed it differently.",
+  "semantic_inference": false,
+  "condition": "Distributional restriction",
+  "internal_tension": true,
+  "related": "423. 454–455 [12], [14]",
+  "proposed_wording": "departs from the general lability of post-head internal dependents (see §15)",
+  "inference": "Is post-head order free apart from this restriction?",
+  "family": "Licensing and order of dependents",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 error sweep, 19 November 2026",
+      "url": null,
+      "passage": "§9.6, p. 423.",
+      "example": "§15, pp. 454–455.",
+      "establishes": "The cross-referenced section states rigid constraints.",
+      "locator": "Section A, item A5.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0078/"
+}

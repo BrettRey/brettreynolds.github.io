@@ -1,0 +1,32 @@
+{
+  "id": "CG-0027",
+  "topic": "Ranking and fused adjectives",
+  "assessment": "Supported",
+  "cgel": {
+    "chapter": 5,
+    "section": "9.3",
+    "page": 416
+  },
+  "claim": "CGEL limits which adjectives license the fused construction.",
+  "evidence_summary": "<i>Main</i> has a ranking interpretation yet fails to license the corresponding fused use.",
+  "finding": "The inventory needs a lexical restriction alongside the semantic tendency.",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "416–418",
+  "inference": "Is a ranking interpretation sufficient to license an adjective in a fused construction?",
+  "family": "Nouns, pronouns and word boundaries",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§9.3, p. 416. CGEL limits which adjectives license the fused construction.",
+      "example": "Compare admissible ranking adjectives in §9.3 with <i>main</i>. A speaker who understands which item is principal still cannot freely use <i>the main</i> in the same fused use.",
+      "establishes": "CGEL explicitly records this lexical restriction. The semantics predicts a tendency and the inventory supplies an independent control.",
+      "locator": "Coverage by numbered section",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0027/"
+}

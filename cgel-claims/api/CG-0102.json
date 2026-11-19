@@ -1,0 +1,34 @@
+{
+  "id": "CG-0102",
+  "topic": "Vocatives as interpolations",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "20.5",
+    "page": 523
+  },
+  "claim": "A vocative is best regarded as a kind of interpolation that can appear in front, central or end position.",
+  "evidence_summary": "Ch. 15, p. 1350: an interpolation “is located at a position between the beginning and end of a main clause”, and “An appendage is attached loosely at the beginning or end of a clause.” Page 67 draws the same distinction.",
+  "finding": "Call the vocative a supplement, or say that it is an interpolation in central position and an appendage elsewhere.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "523. 67. 1350",
+  "proposed_wording": "It is best regarded as a kind of supplement, an interpolation in central position and an appendage in front or end position (cf. Ch. 8, §20).",
+  "inference": "Does the description use interpolation in CGEL’s defined sense?",
+  "family": "Licensing and order of dependents",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 error sweep, 19 November 2026",
+      "url": null,
+      "passage": "§20.5, p. 523.",
+      "example": "Ch. 15, p. 1350, and p. 67.",
+      "establishes": "A defined term used outside its definition.",
+      "locator": "Section A, item A12.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0102/"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "CG-0101",
+  "topic": "<i>Officer</i> as an appellation",
+  "assessment": "Correction",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "20.5",
+    "page": 523
+  },
+  "claim": "The occupational terms in [12iv] (<i>driver</i>, <i>officer</i> “member of police force”, <i>waiter</i>, <i>vicar</i>) are not used as appellations.",
+  "evidence_summary": "<i>Gee, Officer Krupke</i>, from <i>West Side Story</i> (1957), addresses a police sergeant with <i>Officer</i> + surname. Page 519 already lists the police rank <i>Inspector</i>, and [4ii] has <i>Nurse Fox</i>.",
+  "finding": "<i>Officer</i> + surname is an appellation in at least American English. The claim holds for <i>driver</i> and <i>waiter</i>.",
+  "semantic_inference": false,
+  "condition": "Distributional restriction",
+  "internal_tension": false,
+  "related": "519. 518 [4ii]. 522 [12iv]. 523",
+  "proposed_wording": "The occupational terms in [iv] other than <i>officer</i> are not used as appellations",
+  "inference": "Is <i>officer</i> unavailable as an appellation?",
+  "family": "Definiteness, reference and names",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 error sweep, 19 November 2026",
+      "url": null,
+      "passage": "§20.5, p. 523. “The occupational terms in [iv] are not used as appellations”.",
+      "example": "Wikipedia row below.",
+      "establishes": "The rank of Krupke shows that <i>officer</i> works as a general police appellation.",
+      "locator": "Section B, item B3.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    },
+    {
+      "role": "Attestation",
+      "source": "Wikipedia, “Gee, Officer Krupke” (revision 1371758828).",
+      "url": "https://en.wikipedia.org/w/index.php?title=Gee,_Officer_Krupke&oldid=1371758828",
+      "passage": "§20.5, p. 523.",
+      "example": "“‘Gee, Officer Krupke’ is a comedy number from the 1957 musical West Side Story.” The Jets “poke fun at the gruff Police Sergeant Krupke”.",
+      "establishes": "A widely known vocative with <i>Officer</i> + surname, applied to a sergeant.",
+      "locator": "Lead and Music sections."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0101/"
+}

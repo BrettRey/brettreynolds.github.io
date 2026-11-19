@@ -1,0 +1,60 @@
+{
+  "id": "CG-0051",
+  "topic": "Singular verb and plural reflexive",
+  "assessment": "Correction",
+  "cgel": {
+    "chapter": 5,
+    "section": "17.2.5",
+    "page": 496
+  },
+  "claim": "A plural reflexive complement with a collective subject and singular verb is excluded.",
+  "evidence_summary": "Smith gives <i>the government has offered themselves</i> as marginal. An annual report has <i>a team that has outshone themselves</i>.",
+  "finding": "Some speakers allow the singular-verb/plural-reflexive direction more readily than its converse. The published judgments and the annual-report example document variation. They do not estimate prevalence by variety, register or period.",
+  "semantic_inference": false,
+  "condition": "Distributional restriction",
+  "internal_tension": false,
+  "related": "495–496 [35–37]",
+  "proposed_wording": "Some speakers allow a singular verb with a collective subject and a plural reflexive complement. Acceptability varies across speakers and with the direction of the mismatch.",
+  "inference": "Does singular verbal agreement block a later plural reflexive with the same collective antecedent?",
+  "family": "Number, agreement and predication",
+  "evidence": [
+    {
+      "role": "Research source",
+      "source": "Peter W. Smith (2017). The syntax of semantic agreement in English. Journal of Linguistics 53, 823–863.",
+      "url": "https://doi.org/10.1017/S0022226716000360",
+      "passage": "§17.2.5, p. 496. A plural reflexive complement with a collective subject and singular verb is excluded.",
+      "example": "Nine speakers of varieties allowing plural collective agreement preferred <i>has offered themselves</i> to <i>have offered itself</i>. Some found the former marginal.",
+      "establishes": "Supports a directional asymmetry and speaker variation. It does not establish acceptance across English varieties.",
+      "locator": "P. 826, (10c–d) and n. 4."
+    },
+    {
+      "role": "Research source",
+      "source": "Byron Ahn (24 April 2019). Anaphor-Internal Syntax and φ-(Mis)Matches in English. QMUL Ling Lunch handout.",
+      "url": "https://www.byronahn.com/papers/Ahn-QMUL-handout.pdf",
+      "passage": "§17.2.5, p. 496. A plural reflexive complement with a collective subject and singular verb is excluded.",
+      "example": "The handout includes <i>the U.N. finds themselves</i> among its collective examples.",
+      "establishes": "An additional judgment in the singular-verb/plural-reflexive direction.",
+      "locator": "Handout p. 7, example (18b)."
+    },
+    {
+      "role": "Attestation",
+      "source": "UWC Berhad. Annual Report 2024.",
+      "url": "https://www.uwcberhad.com.my/wp-content/uploads/2025/12/UWC-Annual-Report-2024.pdf",
+      "passage": "§17.2.5, p. 496. A plural reflexive complement with a collective subject and singular verb is excluded.",
+      "example": "The report uses “<i>our multi-talented team has truly outshone themselves</i>”. The collective subject controls singular <i>has</i>, while the reflexive object is plural.",
+      "establishes": "An attestation of this direction of agreement mismatch in organizational prose.",
+      "locator": "Sustainability Report, Social, UWC Raya Bazaar, second sentence."
+    },
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§17.2.5, p. 496. A plural reflexive complement with a collective subject and singular verb is excluded.",
+      "example": "Smith gives <i>the government has offered themselves</i> as marginal. An annual report has <i>a team that has outshone themselves</i>.",
+      "establishes": "Some speakers allow the singular-verb/plural-reflexive direction more readily than its converse. The published judgments and the annual-report example document variation. They do not estimate prevalence by variety, register or period.",
+      "locator": "Other corrections with direct evidence",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0051/"
+}

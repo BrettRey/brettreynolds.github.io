@@ -1,0 +1,32 @@
+{
+  "id": "CG-0111",
+  "topic": "No plural for <i>shambles</i>",
+  "assessment": "Supported",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "19.2",
+    "page": 514
+  },
+  "claim": "<i>Shambles</i> has no plural form: <i>These rooms are a shambles</i>, not ∗<i>These rooms are shambles</i>.",
+  "evidence_summary": "OED <i>shamble</i>, n.¹ sense 5b, “a scene of disorder or devastation; a ruin; a mess”, originally U.S., from 1926. Every quotation has <i>a shambles</i> or <i>in a shambles</i>. Quotation searches for <i>are shambles</i> and <i>were shambles</i> return nothing.",
+  "finding": "The lexical premise holds in the OED. The further inference that <i>shambles</i> cannot be used distributively is tested in CG-0053.",
+  "semantic_inference": false,
+  "condition": "Distributional restriction",
+  "internal_tension": false,
+  "related": "514 [14] and following paragraph",
+  "inference": "Does the disorder sense of <i>shambles</i> have a plural?",
+  "family": "Number, agreement and predication",
+  "evidence": [
+    {
+      "role": "Research source",
+      "source": "Oxford English Dictionary, “shamble, n.¹”.",
+      "url": "https://www.oed.com/dictionary/shamble_n1",
+      "passage": "§19.2, p. 514.",
+      "example": "Sense 5b, 1926–: <i>became a shambles of cluttered flasks</i> (1926); <i>a thorough shambles</i> (1966); <i>its economy in a shambles</i> (1979).",
+      "establishes": "Singular construal with <i>a</i> throughout; no plural attested.",
+      "locator": "Meaning & use, sense 5b; quotation searches “are shambles”, “were shambles” (0 results). Accessed 19 November 2026 through the University of Toronto Libraries subscription."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0111/"
+}

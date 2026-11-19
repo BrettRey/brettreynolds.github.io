@@ -1,0 +1,32 @@
+{
+  "id": "CG-0001",
+  "topic": "Exceptions to noun-headedness",
+  "assessment": "Textual mismatch",
+  "cgel": {
+    "chapter": 5,
+    "section": "1",
+    "page": 326
+  },
+  "claim": "The opening summary identifies fusion as the exception to noun-headed NPs.",
+  "evidence_summary": "CGEL itself treats <i>no stopping her</i> as a VP-headed hybrid NP.",
+  "finding": "Add the hybrid construction to the summary. The wider noun definition already uses characteristic properties.",
+  "semantic_inference": false,
+  "condition": "Necessary",
+  "internal_tension": true,
+  "related": "332 n. 3",
+  "inference": "If fusion is the sole exception in the summary, every other NP should have a noun as head.",
+  "family": "NP structure and headedness",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§1, p. 326. The opening summary identifies fusion as the exception to noun-headed NPs.",
+      "example": "Compare the exception in §1 [1ii] with p. 332 n. 3. In <i>no stopping her</i>, <i>stopping</i> takes the direct object <i>her</i>. CGEL itself treats the result as a hybrid with a VP head.",
+      "establishes": "Add this hybrid to the overview’s exceptions. The general characterization explicitly allows non-prototypical cases.",
+      "locator": "Coverage by numbered section",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0001/"
+}

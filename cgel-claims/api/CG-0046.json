@@ -1,0 +1,50 @@
+{
+  "id": "CG-0046",
+  "topic": "Spatial measure genitives",
+  "assessment": "Correction",
+  "cgel": {
+    "chapter": 5,
+    "section": "16.3",
+    "page": 470
+  },
+  "claim": "Measure genitives are restricted to duration and value. <i>A mile’s walk</i> is starred.",
+  "evidence_summary": "A planning inspector evaluates an 800-metre definition of <i>walkable</i> and says <i>a mile’s walk</i> would be twice that distance. Holding the unit of comparison fixed rules out an interpretation in minutes.",
+  "finding": "Spatial length is available in precisely the genitive starred on p. 470. This 2024 decision documents usage at that date. The separate proposal about weight in <i>a pound’s carrots</i> still needs testing.",
+  "semantic_inference": false,
+  "condition": "Distributional restriction",
+  "internal_tension": false,
+  "related": "470 [46]",
+  "inference": "Does a measure genitive have to denote duration or value?",
+  "family": "Genitives, nominal arguments and subjecthood",
+  "evidence": [
+    {
+      "role": "Attestation",
+      "source": "Graham Chamberlain, Planning Inspectorate (6 March 2024). Appeal decision APP/X0360/W/23/3331651.",
+      "url": "https://www.winnersh.gov.uk/wp-content/uploads/2024/07/240312-WPC-Plng-Transport-Minutes-merged.pdf#page=11",
+      "passage": "§16.3(b), p. 470, immediately after [46]. The restriction is “just temporal length or value”. The following sentence stars <i>a mile’s walk</i> with a spatial gloss, alongside a separate weight example.",
+      "example": "“<i>A mile’s walk would be twice that</i>” refers to a threshold of 800 metres. The surrounding question concerns walking distances.",
+      "establishes": "The length measure occurs in the exact spatial genitive marked unacceptable. A temporal paraphrase loses the explicit metre comparison.",
+      "locator": "Decision p. 6, ¶27. Winnersh Parish Council packet, PDF p. 11."
+    },
+    {
+      "role": "Attestation",
+      "source": "South Downs National Park. Worthing to Arundel.",
+      "url": "https://www.southdowns.gov.uk/enjoy/days-out/worthing-to-arundel/",
+      "passage": "§16.3(b), p. 470, immediately after [46]. The restriction is “just temporal length or value”. The following sentence stars <i>a mile’s walk</i> with a spatial gloss, alongside a separate weight example.",
+      "example": "The route along Mill Road is described as <i>a gentle mile’s walk</i>.",
+      "establishes": "A second attestation of the expression. The inspector’s explicit comparison supplies the stronger control for the spatial reading.",
+      "locator": "Itinerary, paragraph about Arundel Wetland Centre."
+    },
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§16.3(b), p. 470, immediately after [46]. The restriction is “just temporal length or value”. The following sentence stars <i>a mile’s walk</i> with a spatial gloss, alongside a separate weight example.",
+      "example": "A planning inspector evaluates an 800-metre definition of <i>walkable</i> and says <i>a mile’s walk</i> would be twice that distance. Holding the unit of comparison fixed rules out an interpretation in minutes.",
+      "establishes": "Spatial length is available in precisely the genitive starred on p. 470. This 2024 decision documents usage at that date. The separate proposal about weight in <i>a pound’s carrots</i> still needs testing.",
+      "locator": "Other corrections with direct evidence",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0046/"
+}

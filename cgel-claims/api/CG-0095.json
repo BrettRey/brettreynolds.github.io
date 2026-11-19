@@ -1,0 +1,33 @@
+{
+  "id": "CG-0095",
+  "topic": "Titles in the account of proper names",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "20.2",
+    "page": 517
+  },
+  "claim": "Titles of written works, films and periodicals are much less constrained than other proper names and are excluded from the following account.",
+  "evidence_summary": "The account includes them: [3x–xi] <i>the Bible</i>, <i>the Koran</i>, <i>the Talmud</i>; <i>The Economist</i>, <i>The Guardian</i>, <i>The Times</i>, with following prose on newspaper and periodical names. Page 522 calls them newspaper titles.",
+  "finding": "Narrow the exclusion or move these examples.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "517. 518 [3x–xi]. 519 n. 79. 522",
+  "inference": "Are titles excluded from the account of proper-name form?",
+  "family": "Definiteness, reference and names",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 error sweep, 19 November 2026",
+      "url": null,
+      "passage": "§20.2, p. 517.",
+      "example": "Page 518 [3x–xi].",
+      "establishes": "The examples contradict the stated scope.",
+      "locator": "Section A, item A13.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0095/"
+}

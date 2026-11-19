@@ -1,0 +1,59 @@
+{
+  "id": "CG-0062",
+  "topic": "Indefinite articles with embellished names",
+  "assessment": "Qualification",
+  "cgel": {
+    "chapter": 5,
+    "section": "20.3–20.4",
+    "page": 520
+  },
+  "claim": "CGEL gives bare NPs and NPs with <i>the</i> as the adjective-embellishment patterns for names, and treats selection of a manifestation as a secondary use.",
+  "evidence_summary": "Two reports from 2001 have <i>a visibly shaken Giuliani</i> and <i>a visibly-shaken Yuri Lutsenko</i>. CBS has already named Giuliani and described his emotional state before the indefinite NP.",
+  "finding": "The article can accompany an adjective that characterizes an already identified bearer. An analysis in terms of manifestations would need an independent reason to posit selection of a stage here.",
+  "semantic_inference": true,
+  "condition": "Distributional restriction",
+  "internal_tension": false,
+  "related": "517 [2ii], 520 [5ii], 521 [8]",
+  "proposed_wording": "Nonrestrictive adjectival dependents can occur in bare NPs and with <i>the</i>. With an adjective describing the bearer’s state on an occasion, <i>a/an</i> is also available.",
+  "inference": "Does <i>a/an</i> with a modified personal name require the NP to select a bearer, counterpart or manifestation?",
+  "family": "Definiteness, reference and names",
+  "evidence": [
+    {
+      "role": "Primary text",
+      "source": "John Payne and Rodney Huddleston (2002). Nouns and noun phrases. The Cambridge Grammar of the English Language, 323–523.",
+      "url": "https://www.cambridge.org/core/books/abs/cambridge-grammar-of-the-english-language/nouns-and-noun-phrases/5FBD68B30C8DC7E89BF88482B053BAD3",
+      "passage": "Ch. 5 §20.3, p. 520 [5ii], lists bare and <i>the</i>-marked NPs as the two patterns of adjective embellishment. §20.4 [8] treats selection of a manifestation as a secondary use.",
+      "example": "<i>The inimitable Oscar Wilde</i> illustrates embellishment. <i>The young Isaac Newton</i> illustrates a restrictive reading.",
+      "establishes": "The contrast turns on the modifier’s contribution. Neither example tests <i>a/an</i> in an embellishment.",
+      "locator": "§20.3, p. 520 [5ii]. §20.4, p. 521 [8iii]."
+    },
+    {
+      "role": "Attestation",
+      "source": "CBS News. No Answers In NYC Fire. 18 June 2001.",
+      "url": "https://www.cbsnews.com/news/no-answers-in-nyc-fire/",
+      "passage": "Ch. 5 §20.3, p. 520 [5ii], lists bare and <i>the</i>-marked NPs as the two patterns of adjective embellishment. §20.4 [8] treats selection of a manifestation as a secondary use.",
+      "example": "<i>A visibly shaken Giuliani noted the tragic circumstances during a hospital press conference.</i>",
+      "establishes": "The article accompanies an adjective that characterizes the same Giuliani already identified by name and office. The context provides no explicit contrast between stages.",
+      "locator": "CBS News, paragraph before Giuliani’s Father’s Day quotation."
+    },
+    {
+      "role": "Attestation",
+      "source": "Congressional Record, 1 March 2001, quoting an international news report.",
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2001-03-01/pdf/CREC-2001-03-01-pt1-PgH606-5.pdf",
+      "passage": "Ch. 5 §20.3, p. 520 [5ii], lists bare and <i>the</i>-marked NPs as the two patterns of adjective embellishment. §20.4 [8] treats selection of a manifestation as a secondary use.",
+      "example": "The speech tag uses <i>a visibly-shaken Yuri Lutsenko</i>. A later paragraph continues with surname-only reference.",
+      "establishes": "A separate pre-2002 source attests the construction, this time with a full personal name.",
+      "locator": "House, p. H607, report on Kiev tent camp."
+    },
+    {
+      "role": "Research source",
+      "source": "Tamás Halm (2022). Modified pronouns and split agreement: the syntax of virtual performatives. NELS 52, 319–329.",
+      "url": "https://www.researchgate.net/publication/360162060_Modified_pronouns_and_split_agreement_the_syntax_of_virtual_performatives",
+      "passage": "Ch. 5 §20.3, p. 520 [5ii], lists bare and <i>the</i>-marked NPs as the two patterns of adjective embellishment. §20.4 [8] treats selection of a manifestation as a secondary use.",
+      "example": "Halm describes indefinite article plus adjective and name with <i>visibly irritated Mr Andrews</i>. He gives corresponding article-marked pronoun examples.",
+      "establishes": "Independent analysis treats the adjective as nonrestrictive characterization. A stricter theory of manifestations requires a test that does not presuppose the article defines the reading.",
+      "locator": "§10 [30b–31]."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0062/"
+}

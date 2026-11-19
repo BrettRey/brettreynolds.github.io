@@ -56,6 +56,7 @@
 - [Why I Work This Way](https://brettreynolds.ca/why-i-work-this-way.html): An essay on speed, projectibility-first research, and agentic Codex/Claude Code-style systems as workspace infrastructure for science and philosophy.
 - [About](https://brettreynolds.ca/about.html): Full biography, affiliations, research focus, and profile links for Brett Reynolds.
 - [CGEL correctives and extensions](https://brettreynolds.ca/cgel-correctives.html): Thematic cluster of CGEL corrections, extensions, and related category/function work.
+- [CGEL claim catalogue](https://brettreynolds.ca/cgel-claims/): Claims from The Cambridge Grammar of the English Language tested against the book and usage, each with a verdict, evidence and, where needed, a proposed rewording. Entries with reviewed: false were drafted with AI assistance and are not yet checked by the author. Usage notes for machines: https://brettreynolds.ca/cgel-claims/llms.txt; all claims as JSON at https://brettreynolds.ca/cgel-claims/claims.json.
 - [Machine-readable papers](https://brettreynolds.ca/papers/): Index of Markdown mirrors and BibTeX records.
 - [Public OKF export](https://brettreynolds.ca/okf/): Public Open Knowledge Format bundle for selected research-project context.
 - [Public OKF bundle index](https://brettreynolds.ca/okf/bundle/index.md): Raw OKF Markdown/YAML bundle index.

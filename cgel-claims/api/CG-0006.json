@@ -1,0 +1,42 @@
+{
+  "id": "CG-0006",
+  "topic": "Low cardinals with quasi-count nouns",
+  "assessment": "Open",
+  "cgel": {
+    "chapter": 5,
+    "section": "3.2",
+    "page": 345
+  },
+  "claim": "The chapter excludes low cardinals in the use exemplified in [37–39].",
+  "evidence_summary": "Brett’s countability work distinguishes rare counted-head examples from attributive uses.",
+  "finding": "The empirical issue is how a low cardinal combines with the head. A count of strings alone cannot settle it.",
+  "semantic_inference": false,
+  "condition": "Distributional restriction",
+  "internal_tension": false,
+  "related": "[37–39]",
+  "inference": "Is a low cardinal directly counting the head noun, or does the numeral belong inside an attribute?",
+  "family": "Count syntax and individuation",
+  "evidence": [
+    {
+      "role": "Related manuscript",
+      "source": "Countability draft",
+      "url": null,
+      "passage": "§3.2, p. 345. The chapter excludes low cardinals in the use exemplified in [37–39].",
+      "example": "The linked manuscript develops a related analysis. See the working-note record for the test applied to this CGEL passage.",
+      "establishes": "Related work by the catalogue’s author. Its inclusion provides background rather than independent corroboration.",
+      "locator": "Manuscript text",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    },
+    {
+      "role": "Audit note",
+      "source": "Nouns and noun phrases notebook",
+      "url": null,
+      "passage": "§3.2, p. 345. The chapter excludes low cardinals in the use exemplified in [37–39].",
+      "example": "Brett’s countability work distinguishes rare counted-head examples from attributive uses.",
+      "establishes": "The empirical issue is how a low cardinal combines with the head. A count of strings alone cannot settle it.",
+      "locator": "Other findings and their weight",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0006/"
+}

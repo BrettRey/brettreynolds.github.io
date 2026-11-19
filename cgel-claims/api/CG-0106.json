@@ -1,0 +1,33 @@
+{
+  "id": "CG-0106",
+  "topic": "Singular <i>shear</i> for one blade",
+  "assessment": "Qualification",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "3.2.1",
+    "page": 341
+  },
+  "claim": "The two parts of a bipartite object have no singular form denoting just one of them: ∗<i>damaged the lower shear</i>. Footnote 7 marks singular <i>trouser</i> with %.",
+  "evidence_summary": "OED <i>shear</i>, n.¹ sense 1.i, “One of the blades of a pair of shears”, from 1794: <i>The upper shear is rivetted to a couple of strong standards</i> (G. Adams, <i>Lectures on Natural and Experimental Philosophy</i>). A second quotation comes from <i>Cassell’s Technical Educator</i> (1884).",
+  "finding": "A technical singular for one blade is attested, so <i>shear</i> deserves the % treatment footnote 7 gives <i>trouser</i>. The claim for <i>slack</i> and <i>spectacle</i> was not tested.",
+  "semantic_inference": false,
+  "condition": "Distributional restriction",
+  "internal_tension": false,
+  "related": "341 [26] and n. 7",
+  "proposed_wording": "and there is generally no singular form denoting just one of them: ∗<i>torn his left slack</i> / %<i>damaged the lower shear</i> / ∗<i>cracked the right spectacle</i>",
+  "inference": "Does any bipartite plural have a singular denoting one part?",
+  "family": "Count syntax and individuation",
+  "evidence": [
+    {
+      "role": "Research source",
+      "source": "Oxford English Dictionary, “shear, n.¹”.",
+      "url": "https://www.oed.com/dictionary/shear_n1",
+      "passage": "§3.2.1, p. 341, the starred <i>lower shear</i>.",
+      "example": "Sense 1.i: “One of the blades of a pair of shears”, 1794–. Quotation 1794 (G. Adams): <i>The upper shear is rivetted to a couple of strong standards</i>.",
+      "establishes": "An edited dictionary records a singular for one part of this bipartite tool. The sense display also carries a Scottish English label; both quotations are from technical works.",
+      "locator": "Meaning & use, sense 1.i. Accessed 19 November 2026 through the University of Toronto Libraries subscription."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0106/"
+}

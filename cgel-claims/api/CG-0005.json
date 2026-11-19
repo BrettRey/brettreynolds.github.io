@@ -1,0 +1,60 @@
+{
+  "id": "CG-0005",
+  "topic": "Individuation in mass uses",
+  "assessment": "Supported",
+  "cgel": {
+    "chapter": 5,
+    "section": "3.1",
+    "page": 336
+  },
+  "claim": "The chapter distinguishes heterogeneous aggregates from homogeneous substances.",
+  "evidence_summary": "People can compare quantities of furniture by counting individual items, although <i>furniture</i> has mass syntax.",
+  "finding": "Units used for judgment need not be count nouns. This limits the converse of the atomicity argument.",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "335–336",
+  "inference": "Does counting objects in a quantity judgment entail that the expression has count syntax?",
+  "family": "Count syntax and individuation",
+  "evidence": [
+    {
+      "role": "Research source",
+      "source": "Susan Rothstein (2010). Counting and the mass/count distinction. Journal of Semantics 27(3), 343–397.",
+      "url": "https://doi.org/10.1093/jos/ffq007",
+      "passage": "§3.1, p. 336. The chapter distinguishes heterogeneous aggregates from homogeneous substances.",
+      "example": "The discussion asks what counts as one fence in a context and compares other count nouns with same-kind parts.",
+      "establishes": "Published precedent for context-sensitive counting units. <i>Interval</i> is the catalogue’s extension of the argument.",
+      "locator": "§3.3, pp. 354–356."
+    },
+    {
+      "role": "Research source",
+      "source": "David Barner & Jesse Snedeker (2005). Quantity judgments and individuation: Evidence that mass nouns count. Cognition 97(1), 41–66.",
+      "url": "https://doi.org/10.1016/j.cognition.2004.06.009",
+      "passage": "§3.1, p. 336. The chapter distinguishes heterogeneous aggregates from homogeneous substances.",
+      "example": "Participants could judge the quantity of an object-mass noun such as <i>furniture</i> by the number of objects, even when the competing set contained larger objects.",
+      "establishes": "Number-based judgments can accompany mass syntax. This bears directly on the converse of the proposed count-noun condition.",
+      "locator": "Experiments comparing quantity judgments for object-mass, count and substance nouns."
+    },
+    {
+      "role": "Related manuscript",
+      "source": "Countability draft",
+      "url": null,
+      "passage": "§3.1, p. 336. The chapter distinguishes heterogeneous aggregates from homogeneous substances.",
+      "example": "The linked manuscript develops a related analysis. See the working-note record for the test applied to this CGEL passage.",
+      "establishes": "Related work by the catalogue’s author. Its inclusion provides background rather than independent corroboration.",
+      "locator": "Manuscript text",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    },
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§3.1, p. 336. The chapter distinguishes heterogeneous aggregates from homogeneous substances.",
+      "example": "People can compare quantities of furniture by counting individual items, although <i>furniture</i> has mass syntax.",
+      "establishes": "Units used for judgment need not be count nouns. This limits the converse of the atomicity argument.",
+      "locator": "Counting an interval",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0005/"
+}

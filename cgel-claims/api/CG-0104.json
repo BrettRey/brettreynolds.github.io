@@ -1,0 +1,34 @@
+{
+  "id": "CG-0104",
+  "topic": "Inbound cross-reference to <i>both</i> and <i>either</i>",
+  "assessment": "Production error",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 15,
+    "section": "2.3",
+    "page": 1305
+  },
+  "claim": "Determiner <i>both</i> and <i>either</i> are described in Ch. 5, §§7.2, 7.7.",
+  "evidence_summary": "Ch. 5 §7.2 treats <i>we</i> and <i>you</i>. <i>Both</i> is in §7.3, “The universal determinatives <i>all</i> and <i>both</i>”.",
+  "finding": "Change §§7.2, 7.7 to §§7.3, 7.7.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "1305. 374",
+  "proposed_wording": "as described in Ch. 5, §§7.3, 7.7",
+  "inference": "Does the reference lead to the Chapter 5 passage?",
+  "family": "Quantification and alternatives",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 error sweep, 19 November 2026",
+      "url": null,
+      "passage": "Ch. 15 §2.3, p. 1305.",
+      "example": "Ch. 5, p. 374, headings of §§7.2 and 7.3.",
+      "establishes": "A wrong reference into Chapter 5.",
+      "locator": "Section C, inbound references.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0104/"
+}

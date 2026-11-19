@@ -1,0 +1,32 @@
+{
+  "id": "CG-0019",
+  "topic": "Dependent scope across students",
+  "assessment": "Open",
+  "cgel": {
+    "chapter": 5,
+    "section": "8.3",
+    "page": 405
+  },
+  "claim": "The dependent reading of <i>two languages</i> requires at least three candidate languages.",
+  "evidence_summary": "Suppose all students independently choose Welsh and German from five languages. That meets CGEL’s candidate-domain condition. If only those two are offered, assigning two to each student and assigning the same two to everyone have identical outcomes.",
+  "finding": "Coincidence rebuts a requirement for distinct realized pairs, which CGEL does not impose here. Opening a third course could distinguish two policies. This leaves open whether the original sentence admits both readings in the two-language setting.",
+  "semantic_inference": true,
+  "condition": "Necessary",
+  "internal_tension": false,
+  "related": "405 [12i–ii], 1473 [32ii]",
+  "inference": "Must at least two distinct pairs be available for <i>two languages</i> to take scope under each student?",
+  "family": "Dependent readings",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§8.3, p. 405, [12i] and the following paragraph. The condition is “three or more languages from which each student selects (or is assigned) a set of two”. Overlap among the resulting pairs is explicitly allowed.",
+      "example": "Suppose all students independently choose Welsh and German from five languages. That meets CGEL’s candidate-domain condition. If only those two are offered, assigning two to each student and assigning the same two to everyone have identical outcomes.",
+      "establishes": "Coincidence rebuts a requirement for distinct realized pairs, which CGEL does not impose here. Opening a third course could distinguish two policies. This leaves open whether the original sentence admits both readings in the two-language setting.",
+      "locator": "The difference between possible variation and actual variation",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0019/"
+}

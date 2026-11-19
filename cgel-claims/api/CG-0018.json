@@ -1,0 +1,51 @@
+{
+  "id": "CG-0018",
+  "topic": "Internal expansion of <i>a few</i>",
+  "assessment": "Qualification",
+  "cgel": {
+    "chapter": 5,
+    "section": "7.10",
+    "page": 392
+  },
+  "claim": "A short list of internal expansions helps motivate lexical treatment of <i>a few</i>.",
+  "evidence_summary": "A Wisconsin opinion uses <i>a scant few minutes</i>.",
+  "finding": "Expand the distribution recorded for <i>few</i>. Further evidence is needed to choose a lexical analysis.",
+  "semantic_inference": false,
+  "condition": "Diagnostic only",
+  "internal_tension": false,
+  "related": "392",
+  "inference": "How much does the restricted internal expansion of <i>a few</i> establish about its lexical status?",
+  "family": "Nouns, pronouns and word boundaries",
+  "evidence": [
+    {
+      "role": "Attestation",
+      "source": "Wisconsin Court of Appeals (26 July 1995). State v. Nienhardt, No. 94-3051-CR.",
+      "url": "https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=8285#page=5",
+      "passage": "§7.10, p. 392. A short list of internal expansions helps motivate lexical treatment of <i>a few</i>.",
+      "example": "The court quotes the appellant’s expression <i>a scant few minutes</i>.",
+      "establishes": "A pre-2002 attestation of an additional internal expansion. It is compatible with more than one analysis of <i>a few</i>.",
+      "locator": "Slip opinion p. 3 (PDF p. 5), paragraph beginning On appeal, Nienhardt first argues."
+    },
+    {
+      "role": "Related manuscript",
+      "source": "Determinatives draft",
+      "url": null,
+      "passage": "§7.10, p. 392. A short list of internal expansions helps motivate lexical treatment of <i>a few</i>.",
+      "example": "The linked manuscript develops a related analysis. See the working-note record for the test applied to this CGEL passage.",
+      "establishes": "Related work by the catalogue’s author. Its inclusion provides background rather than independent corroboration.",
+      "locator": "Manuscript text",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    },
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§7.10, p. 392. A short list of internal expansions helps motivate lexical treatment of <i>a few</i>.",
+      "example": "A Wisconsin opinion uses <i>a scant few minutes</i>.",
+      "establishes": "Expand the distribution recorded for <i>few</i>. Further evidence is needed to choose a lexical analysis.",
+      "locator": "Coverage by numbered section",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0018/"
+}

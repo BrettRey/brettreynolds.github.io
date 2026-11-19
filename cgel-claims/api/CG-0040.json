@@ -1,0 +1,41 @@
+{
+  "id": "CG-0040",
+  "topic": "Postpositive <i>possible</i> and <i>available</i>",
+  "assessment": "Correction",
+  "cgel": {
+    "chapter": 5,
+    "section": "14.2",
+    "page": 445
+  },
+  "claim": "Postpositive adjectives in this class are said to require a superlative or <i>only</i>.",
+  "evidence_summary": "CGEL gives <i>the money available elsewhere</i>. The Congressional Record supplies <i>every effort possible</i>.",
+  "finding": "Qualify the licensing condition by adjective and construction.",
+  "semantic_inference": false,
+  "condition": "Necessary",
+  "internal_tension": true,
+  "related": "57, 445",
+  "inference": "Is a superlative or <i>only</i> necessary to license these adjectives in postpositive position?",
+  "family": "Licensing and order of dependents",
+  "evidence": [
+    {
+      "role": "Attestation",
+      "source": "U.S. Senate, Congressional Record (24 April 1998). S. Res. 216.",
+      "url": "https://www.govinfo.gov/content/pkg/CREC-1998-04-24/pdf/CREC-1998-04-24.pdf#page=33",
+      "passage": "§14.2, p. 445, after [12i]. CGEL requires “an attributive superlative or <i>only</i>” for postpositive adjectives of the class exemplified by <i>suitable</i> and <i>possible</i>. Compare <i>the money available</i> on p. 57.",
+      "example": "The resolution uses <i>every effort possible</i> with neither <i>only</i> nor an attributive superlative.",
+      "establishes": "A pre-2002 counterexample for <i>possible</i> after <i>every</i>. Different adjectives and postpositive constructions may have different licensing conditions.",
+      "locator": "P. S3593, right column, resolved clause (3). PDF p. 33."
+    },
+    {
+      "role": "Audit note",
+      "source": "Nouns and noun phrases notebook",
+      "url": null,
+      "passage": "§14.2, p. 445, after [12i]. CGEL requires “an attributive superlative or <i>only</i>” for postpositive adjectives of the class exemplified by <i>suitable</i> and <i>possible</i>. Compare <i>the money available</i> on p. 57.",
+      "example": "CGEL gives <i>the money available elsewhere</i>. The Congressional Record supplies <i>every effort possible</i>.",
+      "establishes": "Qualify the licensing condition by adjective and construction.",
+      "locator": "Other findings and their weight",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0040/"
+}

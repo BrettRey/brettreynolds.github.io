@@ -1,0 +1,42 @@
+{
+  "id": "CG-0109",
+  "topic": "<i>The plague</i> with and without the article",
+  "assessment": "Qualification",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "8.4",
+    "page": 408
+  },
+  "claim": "Some common infectious diseases optionally take the definite article (<i>(the) flu</i>, <i>(the) measles</i>). With <i>the plague</i>, the article is obligatory.",
+  "evidence_summary": "OED <i>plague</i>, n. sense 3c, the disease caused by Yersinia pestis: “Frequently <i>in the plague</i>.” Bare <i>plague</i> occurs in its quotations, e.g. <i>during the prevalence of plague</i> (E. W. Lane, 1841). The WHO fact sheet has <i>Plague is an infectious disease</i> and <i>effective against plague</i>. In the <i>have</i> frame, the OED’s one example keeps the article: <i>suspected of having the plague</i> (<i>Times</i>, 1994).",
+  "finding": "The article is frequent, not obligatory, with this noun. The claim may hold for the <i>have</i> frame of [17iii], which none of the sources tests with a bare noun.",
+  "semantic_inference": false,
+  "condition": "Distributional restriction",
+  "internal_tension": false,
+  "related": "408 [17iii]",
+  "proposed_wording": "With <i>plague</i>, the article is usual, especially after <i>have</i>: <i>He has the plague</i>.",
+  "inference": "Does the disease noun <i>plague</i> require the definite article?",
+  "family": "Definiteness, reference and names",
+  "evidence": [
+    {
+      "role": "Research source",
+      "source": "Oxford English Dictionary, “plague, n.”.",
+      "url": "https://www.oed.com/dictionary/plague_n",
+      "passage": "§8.4, p. 408, after [17iii].",
+      "example": "Sense 3c: “Frequently <i>in the plague</i>.” 1841 <i>Some Muslims even shut themselves up during the prevalence of plague</i> (Lane). 1994 <i>eight people suspected of having the plague</i> (<i>Times</i>).",
+      "establishes": "An edited dictionary treats the article as frequent rather than required. The <i>have</i>-frame example has the article.",
+      "locator": "Meaning & use, sense 3c. Accessed 19 November 2026 through the University of Toronto Libraries subscription."
+    },
+    {
+      "role": "Research source",
+      "source": "World Health Organization, Plague fact sheet.",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/plague",
+      "passage": "§8.4, p. 408.",
+      "example": "“<i>Plague is an infectious disease caused by the bacterium Yersinia pestis</i>”; “<i>Antibiotics and supportive therapy are effective against plague</i>”.",
+      "establishes": "Current edited medical prose uses bare <i>plague</i> as subject and as object of a preposition.",
+      "locator": "Key facts and treatment sections. Fetched by a reader on 19 November 2026."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0109/"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "CG-0099",
+  "topic": "One country named <i>Zaire</i>",
+  "assessment": "Correction",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "20.4",
+    "page": 521
+  },
+  "claim": "“Although there is only one country named <i>Zaire</i>, there are thousands of people named <i>Mary</i>.”",
+  "evidence_summary": "The country was renamed the Democratic Republic of the Congo in 1997, five years before CGEL appeared.",
+  "finding": "Change the tense or the example. The point about secondary uses is unaffected. Compare the authors’ correction of <i>the Bronx</i> on p. 518.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "521. 518 (erratum)",
+  "proposed_wording": "Although there was only one country named <i>Zaire</i>, …",
+  "inference": "Is the illustrative fact true at publication?",
+  "family": "Definiteness, reference and names",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 error sweep, 19 November 2026",
+      "url": null,
+      "passage": "§20.4(a), p. 521.",
+      "example": "Wikipedia row below.",
+      "establishes": "A factual slip in an illustration.",
+      "locator": "Section B, item B4.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    },
+    {
+      "role": "Research source",
+      "source": "Wikipedia, “Zaire” (revision 1386532965).",
+      "url": "https://en.wikipedia.org/w/index.php?title=Zaire&oldid=1386532965",
+      "passage": "§20.4(a), p. 521.",
+      "example": "“In 1997, the country’s name was restored to the Democratic Republic of the Congo”. “On 21 May, Kabila officially reverted the name of the country to the Democratic Republic of the Congo.”",
+      "establishes": "<i>Zaire</i> was no longer a country name in 2002.",
+      "locator": "Lead section; section on the fall of Mobutu."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0099/"
+}

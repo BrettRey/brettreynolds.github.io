@@ -1,0 +1,32 @@
+{
+  "id": "CG-0033",
+  "topic": "Number in <i>more than one</i>",
+  "assessment": "Supported",
+  "cgel": {
+    "chapter": 5,
+    "section": "11",
+    "page": 432
+  },
+  "claim": "<i>More than one glass</i> is grammatically singular despite denoting a plurality.",
+  "evidence_summary": "Singular <i>glass</i> persists in the comparison. The alternation of <i>no</i> and <i>none</i> supplies an independent head test.",
+  "finding": "The chapter distinguishes plurality of reference from grammatical singular in [6i]. Footnote 49 uses <i>no</i>/<i>none</i> in a separate construction with pre-head modification of <i>more</i>.",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "432 n. 49",
+  "inference": "Can plurality of reference determine grammatical number inside <i>more than one</i> <i>glass</i>?",
+  "family": "Count syntax and individuation",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§11, p. 432. <i>More than one glass</i> is grammatically singular despite denoting a plurality.",
+      "example": "<i>More than one glass</i> can describe two or more glasses, although <i>glass</i> takes singular form. In [6i] the whole subject also takes singular <i>was</i>. Footnote 49 gives a distinct headship argument for <i>more</i> with a pre-head modifier.",
+      "establishes": "The chapter’s distinction between formal singular and semantic plurality survives this comparison.",
+      "locator": "Coverage by numbered section",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0033/"
+}

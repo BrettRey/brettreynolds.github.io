@@ -1,0 +1,42 @@
+{
+  "id": "CG-0058",
+  "topic": "Degree modification and lexical conversion",
+  "assessment": "Argument gap",
+  "cgel": {
+    "chapter": 19,
+    "section": "3.3(b)",
+    "page": 1643
+  },
+  "claim": "CGEL treats gradability and compatibility with <i>very</i> and <i>too</i> as evidence that a noun has acquired adjectival status.",
+  "evidence_summary": "Bylinina accepts <i>very McDonalds</i> as a predicative but rejects <i>these very McDonalds french fries</i>. Gonzálvez-García documents nominal grading with several intensifiers.",
+  "finding": "Degree modification can diagnose a gradable use. Independent tests are needed to establish conversion of a lexical item. CGEL’s <i>a very Oxbridge accent</i> adds distributional evidence for <i>Oxbridge</i>.",
+  "semantic_inference": true,
+  "condition": "Diagnostic only",
+  "internal_tension": false,
+  "related": "1643. Bylinina [12b], [21a]",
+  "proposed_wording": "Compatibility with <i>very</i> or <i>too</i> is evidence for a gradable use. Use independent morphological or syntactic evidence to establish whether a lexical adjective has developed.",
+  "traditional_parallel": "CGEL rejects inferring adjective category from prenominal modifier function. Similar care applies when inferring the category of a word from the gradability of the phrase that contains it.",
+  "inference": "Does compatibility with <i>very</i> or <i>too</i> establish lexical conversion, or can a construction supply the gradable interpretation?",
+  "family": "Category diagnostics and word formation",
+  "evidence": [
+    {
+      "role": "Research source",
+      "source": "Elizaveta Bylinina (2011). This Is So NP! Baltic International Yearbook of Cognition, Logic and Communication 6, article 8.",
+      "url": "https://doi.org/10.4148/biyclc.v6i0.1571",
+      "passage": "Ch. 19 §3.3(b), p. 1643. CGEL uses compatibility with <i>very</i> and <i>too</i> as evidence for conversion of nouns to adjectives, with <i>fun</i> and <i>Oxbridge</i> as examples.",
+      "example": "<i>Very McDonalds</i> is accepted in the predicative example [12b]. <i>These very McDonalds french fries</i> is rejected in [21a].",
+      "establishes": "The predicative pattern can supply a scale for the nominal. The same expression lacks the prenominal distribution expected for an ordinary gradable adjective.",
+      "locator": "§2, pp. 6–8, [12b], [21a]."
+    },
+    {
+      "role": "Research source",
+      "source": "Francisco Gonzálvez-García (2014). “That’s so a construction!” Theory and Practice in Functional-Cognitive Space, 271–294.",
+      "url": "https://www.benjamins.com/catalog/sfsl.68.12gon",
+      "passage": "Ch. 19 §3.3(b), p. 1643. CGEL uses compatibility with <i>very</i> and <i>too</i> as evidence for conversion of nouns to adjectives, with <i>fun</i> and <i>Oxbridge</i> as examples.",
+      "example": "<i>The X is so N(P)</i> family also admits other intensifiers, including <i>very</i> and <i>too</i>, with varying degrees of conventionalization.",
+      "establishes": "The distribution motivates testing a construction-level account alongside lexical conversion. The study treats the transition from noun to adjective as gradual.",
+      "locator": "Chapter abstract and discussion of the intensifier paradigms."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0058/"
+}

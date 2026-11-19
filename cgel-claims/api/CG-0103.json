@@ -1,0 +1,34 @@
+{
+  "id": "CG-0103",
+  "topic": "Inbound cross-reference to nonce attributives",
+  "assessment": "Production error",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 6,
+    "section": "3.2–3.3",
+    "page": 550
+  },
+  "claim": "A footnote in Ch. 6 on nonce formations as attributive modifiers cites Ch. 5, §14.1.",
+  "evidence_summary": "Nonce attributive formations are treated in Ch. 5 §14.2 (p. 444). Ch. 19, p. 1660, cites §14.2.",
+  "finding": "Change §14.1 to §14.2.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "550. 444. 1660",
+  "proposed_wording": "cf. Ch. 5, §14.2",
+  "inference": "Does the reference lead to the Chapter 5 passage?",
+  "family": "Licensing and order of dependents",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 error sweep, 19 November 2026",
+      "url": null,
+      "passage": "Ch. 6, p. 550, footnote.",
+      "example": "Ch. 5, p. 444, and Ch. 19, p. 1660.",
+      "establishes": "A wrong reference into Chapter 5.",
+      "locator": "Section C, inbound references.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0103/"
+}

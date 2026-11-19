@@ -1,0 +1,32 @@
+{
+  "id": "CG-0017",
+  "topic": "Presentative <i>this</i>",
+  "assessment": "Qualification",
+  "cgel": {
+    "chapter": 5,
+    "section": "7.1",
+    "page": 373
+  },
+  "claim": "Demonstrative determiners are introduced as markers of definiteness.",
+  "evidence_summary": "Presentative <i>this</i> can introduce a new discourse entity. CGEL discusses the construction elsewhere.",
+  "finding": "Cross-reference the later treatment when describing the central demonstrative use.",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "357, 1401, 1510",
+  "inference": "Does marking definiteness require prior discourse familiarity for presentative <i>this</i>?",
+  "family": "Definiteness, reference and names",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§7.1, p. 373. Demonstrative determiners are introduced as markers of definiteness.",
+      "example": "In the presentative use exemplified by <i>There was this man …</i>, the speaker can introduce the man for the first time. Compare the chapter’s central demonstratives with the discussions on pp. 1401 and 1510.",
+      "establishes": "A cross-reference would reconcile introductory wording with a use CGEL already recognizes. Prior mention and grammatical marking of definiteness are distinct.",
+      "locator": "Coverage by numbered section",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0017/"
+}

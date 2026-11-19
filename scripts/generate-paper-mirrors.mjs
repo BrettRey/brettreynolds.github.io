@@ -815,6 +815,7 @@ ${companionEntries ? `${companionEntries}\n` : ""}- [English Constructionary](ht
 - [Essays](${baseUrl}/essays.html): Human-facing essays and talks.
 - [Why I Work This Way](${baseUrl}/why-i-work-this-way.html): An essay on speed, projectibility-first research, and agentic Codex/Claude Code-style systems as workspace infrastructure for science and philosophy.
 - [CGEL correctives and extensions](${baseUrl}/cgel-correctives.html): Thematic cluster of CGEL corrections, extensions, and related category/function work.
+- [CGEL claim catalogue](${baseUrl}/cgel-claims/): Claims from The Cambridge Grammar of the English Language tested against the book and usage, each with a verdict, evidence and, where needed, a proposed rewording. Entries with reviewed: false were drafted with AI assistance and are not yet checked by the author. Usage notes for machines: ${baseUrl}/cgel-claims/llms.txt; all claims as JSON at ${baseUrl}/cgel-claims/claims.json.
 - [Machine-readable papers](${baseUrl}/papers/): Index of Markdown mirrors and BibTeX records.
 - [Public OKF export](${baseUrl}/okf/): Public Open Knowledge Format bundle for selected research-project context.
 - [Public OKF bundle index](${baseUrl}/okf/bundle/index.md): Raw OKF Markdown/YAML bundle index.

@@ -1,0 +1,34 @@
+{
+  "id": "CG-0091",
+  "topic": "Antecedent of <i>which</i> in [45]",
+  "assessment": "Production error",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "17.3",
+    "page": 498
+  },
+  "claim": "The contrast between <i>who</i> with <i>man</i> and <i>woman</i> and “<i>which</i> with <i>roof</i>” applies in the plural examples too.",
+  "evidence_summary": "In [45iii] (p. 497), <i>the house which lost its roof</i>, the antecedent of <i>which</i> is <i>house</i>.",
+  "finding": "Change <i>roof</i> to <i>house</i>.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "497 [45]. 498",
+  "proposed_wording": "<i>which</i> with <i>house</i>",
+  "inference": "Does the commentary name the antecedent?",
+  "family": "Number, agreement and predication",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 error sweep, 19 November 2026",
+      "url": null,
+      "passage": "§17.3, p. 498, first lines.",
+      "example": "Page 497 [45iii].",
+      "establishes": "A slip in the commentary.",
+      "locator": "Section C.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0091/"
+}

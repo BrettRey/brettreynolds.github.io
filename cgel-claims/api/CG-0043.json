@@ -1,0 +1,41 @@
+{
+  "id": "CG-0043",
+  "topic": "Coordination as a diagnostic of wordhood",
+  "assessment": "Argument gap",
+  "cgel": {
+    "chapter": 5,
+    "section": "14.4",
+    "page": 449
+  },
+  "claim": "Passing any one of the coordination or modification tests suffices for a composite nominal.",
+  "evidence_summary": "CGEL admits coordinated bases inside compounds and allows <i>washing-machine</i> to pass by reanalysis.",
+  "finding": "Successful coordination alone cannot choose between base coordination and syntactic reanalysis. A compound of another type is a calibration case.",
+  "semantic_inference": false,
+  "condition": "Sufficient",
+  "internal_tension": true,
+  "related": "448–451, 1325 [9g]",
+  "inference": "Does a positive coordination test identify a syntactic nominal when compound-base coordination is available?",
+  "family": "Nouns, pronouns and word boundaries",
+  "evidence": [
+    {
+      "role": "Attestation",
+      "source": "U.S. Census Bureau (May 2008). Changes in the Relationship Categories Between 2007 & 2008.",
+      "url": "https://www.census.gov/programs-surveys/acs/technical-documentation/user-notes/2008-05.html",
+      "passage": "§14.4, p. 449. Passing any one of the coordination or modification tests suffices for a composite nominal.",
+      "example": "The enumeration uses <i>brothers- and sisters-in-law</i>, preserving the characteristic internal plural.",
+      "establishes": "A calibration case for coordination within another type of compound. It does not by itself settle the analysis of <i>washing-machine</i>.",
+      "locator": "Second paragraph, second sentence."
+    },
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§14.4, p. 449. Passing any one of the coordination or modification tests suffices for a composite nominal.",
+      "example": "CGEL admits coordinated bases inside compounds and allows <i>washing-machine</i> to pass by reanalysis.",
+      "establishes": "Successful coordination alone cannot choose between base coordination and syntactic reanalysis. A compound of another type is a calibration case.",
+      "locator": "Structural analyses with a genuine rival",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0043/"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "CG-0080",
+  "topic": "Position of <i>so</i>-licensed content clauses",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "14.1",
+    "page": 443
+  },
+  "claim": "In <i>[so great] a loss that we’re likely to go bankrupt</i> the content clause is an indirect complement within the NP. It can be “further delayed so that it occurs later in the clause rather than within the NP”.",
+  "evidence_summary": "Ch. 11, p. 967: the content clause is delayed to the end of the matrix clause, and “This position is obligatory”. It stars <i>So many people that we had to move to a larger room enrolled for the course</i> and analyses the clause as a complement in clause structure.",
+  "finding": "The two chapters place the <i>so</i> clause in different constituents. The Ch. 5 generalization holds for comparatives and for <i>too</i> (Ch. 14, pp. 1262–1263). Which analysis is correct is a separate question.",
+  "semantic_inference": false,
+  "condition": "Distributional restriction",
+  "internal_tension": true,
+  "related": "443 [8ii]. 435 [6iia]. 547 [32iii]. 967. 1262–1263",
+  "proposed_wording": "Reconcile with Ch. 11, §4.6, where a content clause licensed by <i>so</i> occurs at the end of the matrix clause.",
+  "inference": "Can a <i>so</i>-licensed content clause occur inside the NP?",
+  "family": "Licensing and order of dependents",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 error sweep, 19 November 2026",
+      "url": null,
+      "passage": "§14.1, p. 443 [8ii] and the following paragraph.",
+      "example": "Ch. 11, p. 967.",
+      "establishes": "An internal conflict, with the Ch. 11 star as the deciding case.",
+      "locator": "Section A, item A2.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0080/"
+}

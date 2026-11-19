@@ -1,0 +1,42 @@
+{
+  "id": "CG-0050",
+  "topic": "Inanimate genitives denoting a colour",
+  "assessment": "Correction",
+  "cgel": {
+    "chapter": 5,
+    "section": "16.5.3",
+    "page": 477
+  },
+  "claim": "<i>Gold’s colour</i> is starred as a relation unavailable to the genitive.",
+  "evidence_summary": "Lorch explains the different appearances of elemental silver and gold using the phrase <i>gold’s colour</i>. The surrounding discussion fixes both the substance and the literal colour relation.",
+  "finding": "The genitive can express this specific relation in ordinary explanatory prose. Nothing here decides the other pairs in [60] or whether speakers prefer the <i>of</i>-construction in other contexts.",
+  "semantic_inference": true,
+  "condition": "Distributional restriction",
+  "internal_tension": false,
+  "related": "477 [60iv]",
+  "proposed_wording": "The <i>of</i> construction and the genitive differ in the relations they readily express. Colour is available in both. For the remaining proposed exclusions, distinguish a difference in grammaticality from a preference conditioned by the discourse.",
+  "inference": "Is the literal material–colour relation excluded from the genitive construction?",
+  "family": "Genitives, nominal arguments and subjecthood",
+  "evidence": [
+    {
+      "role": "Attestation",
+      "source": "Mark Lorch. Why is gold yellow? BBC Science Focus Magazine.",
+      "url": "https://www.sciencefocus.com/science/why-is-gold-yellow",
+      "passage": "§16.5.3, p. 477, [60iv]. CGEL stars <i>gold’s colour</i> beside <i>the colour of gold</i>. This pair tests a specific relation between the head and the genitive.",
+      "example": "“<i>To explain gold’s colour</i>” introduces the literal difference in the appearances of gold and silver.",
+      "establishes": "The exact material–colour relation excluded in [60iv] is expressed in context.",
+      "locator": "First answer paragraph, second sentence."
+    },
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§16.5.3, p. 477, [60iv]. CGEL stars <i>gold’s colour</i> beside <i>the colour of gold</i>. This pair tests a specific relation between the head and the genitive.",
+      "example": "Lorch explains the different appearances of elemental silver and gold using the phrase <i>gold’s colour</i>. The surrounding discussion fixes both the substance and the literal colour relation.",
+      "establishes": "The genitive can express this specific relation in ordinary explanatory prose. Nothing here decides the other pairs in [60] or whether speakers prefer the <i>of</i>-construction in other contexts.",
+      "locator": "Three successive claims about genitives and obliques",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0050/"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "CG-0061",
+  "topic": "Modified personal pronouns and person agreement",
+  "assessment": "Qualification",
+  "cgel": {
+    "chapter": 5,
+    "section": "10.2",
+    "page": 429
+  },
+  "claim": "CGEL defines pronouns by their exclusion of determiners and treats <i>a he</i> and <i>a she</i> as common-noun uses.",
+  "evidence_summary": "Halm finds <i>a younger me</i> with <i>myself</i> as the object of <i>ask</i>. The <i>five-year-old you</i> governs <i>was</i>. He also reports first-person plural <i>ourselves</i> with the <i>younger us</i>.",
+  "finding": "An article-marked NP can show third-person verbal agreement and retain pronoun-specific person information in coreference. A converted-noun analysis needs to explain that split. The distribution in 2002 is open.",
+  "semantic_inference": false,
+  "condition": "Necessary",
+  "internal_tension": true,
+  "related": "327, 429 n. 46, 430 [12], 486 [5]. Halm [6], [24], [26–27]",
+  "proposed_wording": "Ordinary personal pronoun NPs exclude determiners. Restricted modified patterns such as <i>the younger me</i> allow an article and can preserve the pronoun’s person features for reflexives.",
+  "inference": "Can article compatibility decide whether the head has changed category when independent agreement targets diverge?",
+  "family": "Category diagnostics and word formation",
+  "evidence": [
+    {
+      "role": "Primary text",
+      "source": "John Payne and Rodney Huddleston (2002). Nouns and noun phrases. The Cambridge Grammar of the English Language, 323–523.",
+      "url": "https://www.cambridge.org/core/books/abs/cambridge-grammar-of-the-english-language/nouns-and-noun-phrases/5FBD68B30C8DC7E89BF88482B053BAD3",
+      "passage": "Ch. 5 §10.2, p. 429, treats exclusion of determiners as defining for pronouns. N. 46 assigns <i>he</i> and <i>she</i> with <i>a</i> to the common-noun category.",
+      "example": "<i>Poor old me</i> shows CGEL’s limited evaluative modifier pattern. P. 486 [5] gives the ordinary person contrasts in subject–reflexive agreement.",
+      "establishes": "Pre-head modification alone is compatible with pronoun status in CGEL. Person agreement provides another test.",
+      "locator": "§10.2, pp. 429–430, and §17.2.1, p. 486 [5]."
+    },
+    {
+      "role": "Research source",
+      "source": "Tamás Halm (2022). Modified pronouns and split agreement: the syntax of virtual performatives. NELS 52, 319–329.",
+      "url": "https://www.researchgate.net/publication/360162060_Modified_pronouns_and_split_agreement_the_syntax_of_virtual_performatives",
+      "passage": "Ch. 5 §10.2, p. 429, treats exclusion of determiners as defining for pronouns. N. 46 assigns <i>he</i> and <i>she</i> with <i>a</i> to the common-noun category.",
+      "example": "<i>Questions A Younger Me Would Ask Myself.</i> <i>The five-year-old you was so cute!</i> <i>The younger us were so confident of ourselves.</i>",
+      "establishes": "The data show the divergence between verb form and coreferential person. Third-person anaphora also occurs when stages are contrasted. The paper proposes pronominal heads.",
+      "locator": "§4 [6b], §8 [24], §9 [26–27]."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0061/"
+}

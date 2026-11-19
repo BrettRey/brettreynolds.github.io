@@ -1,0 +1,70 @@
+{
+  "id": "CG-0004",
+  "topic": "Atomicity of count uses",
+  "assessment": "Correction",
+  "cgel": {
+    "chapter": 5,
+    "section": "3.1",
+    "page": 335
+  },
+  "claim": "A count noun denotes individuals which cannot divide into smaller things of the same kind.",
+  "evidence_summary": "“<i>We divided an interval into three shorter intervals</i>” (constructed). The article <i>an</i> and the numeral <i>three</i> with a plural independently mark the two count uses. The original interval and each of its three proper parts satisfy the same noun in the same mathematical sense.",
+  "finding": "Counting requires a unit at the chosen level of description. It does not require a unit with no interval as a proper part. Conversely, people may count pieces to judge how much furniture there is (CG-0005).",
+  "semantic_inference": true,
+  "condition": "Necessary",
+  "internal_tension": false,
+  "related": "334–336",
+  "proposed_wording": "A count use presents entities as units relative to a context. An interval may count as one unit even when it contains shorter intervals. Use the distribution with numerals and determiners to identify count syntax.",
+  "inference": "Must a count individual lack proper parts that also satisfy the same noun?",
+  "family": "Count syntax and individuation",
+  "evidence": [
+    {
+      "role": "Attestation",
+      "source": "OpenStax, Calculus Volume 2. Chapter 1, Key Terms.",
+      "url": "https://openstax.org/books/calculus-volume-2/pages/1-key-terms",
+      "passage": "§3.1, p. 335, paragraph after [5]. Having defined a count use through individuals and illustrated <i>boy</i>, CGEL says they “cannot be divided into smaller parts of the same kind as the whole”.",
+      "example": "A partition divides an interval into subintervals. Each subinterval is an interval in the same mathematical sense. The example with <i>an</i> and <i>three shorter intervals</i> is constructed in this audit.",
+      "establishes": "The source establishes the part–whole relation. In the constructed sentence the article and the low cardinal independently establish the count distribution.",
+      "locator": "Entries for partition and regular partition."
+    },
+    {
+      "role": "Research source",
+      "source": "Susan Rothstein (2010). Counting and the mass/count distinction. Journal of Semantics 27(3), 343–397.",
+      "url": "https://doi.org/10.1093/jos/ffq007",
+      "passage": "§3.1, p. 335, paragraph after [5]. Having defined a count use through individuals and illustrated <i>boy</i>, CGEL says they “cannot be divided into smaller parts of the same kind as the whole”.",
+      "example": "The discussion asks what counts as one fence in a context and compares other count nouns with same-kind parts.",
+      "establishes": "Published precedent for context-sensitive counting units. <i>Interval</i> is the catalogue’s extension of the argument.",
+      "locator": "§3.3, pp. 354–356."
+    },
+    {
+      "role": "Research source",
+      "source": "David Barner & Jesse Snedeker (2005). Quantity judgments and individuation: Evidence that mass nouns count. Cognition 97(1), 41–66.",
+      "url": "https://doi.org/10.1016/j.cognition.2004.06.009",
+      "passage": "§3.1, p. 335, paragraph after [5]. Having defined a count use through individuals and illustrated <i>boy</i>, CGEL says they “cannot be divided into smaller parts of the same kind as the whole”.",
+      "example": "Participants could judge the quantity of an object-mass noun such as <i>furniture</i> by the number of objects, even when the competing set contained larger objects.",
+      "establishes": "Number-based judgments can accompany mass syntax. This bears directly on the converse of the proposed count-noun condition.",
+      "locator": "Experiments comparing quantity judgments for object-mass, count and substance nouns."
+    },
+    {
+      "role": "Related manuscript",
+      "source": "Countability draft",
+      "url": null,
+      "passage": "§3.1, p. 335, paragraph after [5]. Having defined a count use through individuals and illustrated <i>boy</i>, CGEL says they “cannot be divided into smaller parts of the same kind as the whole”.",
+      "example": "The linked manuscript develops a related analysis. See the working-note record for the test applied to this CGEL passage.",
+      "establishes": "Related work by the catalogue’s author. Its inclusion provides background rather than independent corroboration.",
+      "locator": "Manuscript text",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    },
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§3.1, p. 335, paragraph after [5]. Having defined a count use through individuals and illustrated <i>boy</i>, CGEL says they “cannot be divided into smaller parts of the same kind as the whole”.",
+      "example": "“<i>We divided an interval into three shorter intervals</i>” (constructed). The article <i>an</i> and the numeral <i>three</i> with a plural independently mark the two count uses. The original interval and each of its three proper parts satisfy the same noun in the same mathematical sense.",
+      "establishes": "Counting requires a unit at the chosen level of description. It does not require a unit with no interval as a proper part. Conversely, people may count pieces to judge how much furniture there is (CG-0005).",
+      "locator": "Counting an interval",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0004/"
+}

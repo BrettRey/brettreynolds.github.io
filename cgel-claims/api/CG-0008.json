@@ -1,0 +1,41 @@
+{
+  "id": "CG-0008",
+  "topic": "Number after <i>a great deal of</i>",
+  "assessment": "Correction",
+  "cgel": {
+    "chapter": 5,
+    "section": "3.3",
+    "page": 350
+  },
+  "claim": "The oblique in the quantificational use of <i>a great deal of</i> is restricted in number.",
+  "evidence_summary": "Van Eynde and Kim give <i>a great deal of people</i> in example [60].",
+  "finding": "Allow a plural oblique in at least some uses. The example leaves pseudopartitive headedness unresolved.",
+  "semantic_inference": false,
+  "condition": "Distributional restriction",
+  "internal_tension": false,
+  "related": "349–352",
+  "inference": "If the oblique requires a singular form, can a plural denote the people quantified over?",
+  "family": "NP structure and headedness",
+  "evidence": [
+    {
+      "role": "Research source",
+      "source": "Frank Van Eynde & Jong-Bok Kim (2023). Pseudo-partitives in English: An HPSG analysis. English Language & Linguistics 27(2), 271–302.",
+      "url": "https://www.cambridge.org/core/journals/english-language-and-linguistics/article/pseudopartitives-in-english-an-hpsg-analysis/91D1DCA1960475D6766E4A084CAB0127",
+      "passage": "§3.3, p. 350. The oblique in the quantificational use of <i>a great deal of</i> is restricted in number.",
+      "example": "The article develops a second-noun-headed account and gives <i>a great deal of people</i> in (60), from a 2012 blog in COCA.",
+      "establishes": "A lexical restriction can fail regardless of which head analysis wins. The published corpus example bears specifically on CG-0008.",
+      "locator": "Alternative headedness analysis. For the narrower oblique-number issue, p. 294 (60)."
+    },
+    {
+      "role": "Audit note",
+      "source": "Nouns and noun phrases notebook",
+      "url": null,
+      "passage": "§3.3, p. 350. The oblique in the quantificational use of <i>a great deal of</i> is restricted in number.",
+      "example": "Van Eynde and Kim give <i>a great deal of people</i> in example [60].",
+      "establishes": "Allow a plural oblique in at least some uses. The example leaves pseudopartitive headedness unresolved.",
+      "locator": "Other findings and their weight",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0008/"
+}

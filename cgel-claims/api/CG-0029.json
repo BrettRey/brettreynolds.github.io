@@ -1,0 +1,32 @@
+{
+  "id": "CG-0029",
+  "topic": "Wordhood of <i>us both</i>",
+  "assessment": "Open",
+  "cgel": {
+    "chapter": 5,
+    "section": "10.1",
+    "page": 427
+  },
+  "claim": "Adjacency and substitution support the proposed universal personal-pronoun analysis.",
+  "evidence_summary": "<i>To us both</i> behaves as one constituent. Compare <i>outside of us two</i> and <i>you two</i>.",
+  "finding": "Evidence for one NP leaves wordhood open. First-, second- and third-person forms need separate controls.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "427–428, 639, 1466",
+  "inference": "Do adjacency and substitution identify a word, or only an NP constituent?",
+  "family": "Nouns, pronouns and word boundaries",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Nouns and noun phrases notebook",
+      "url": null,
+      "passage": "§10.1, p. 427. Adjacency and substitution support the proposed universal personal-pronoun analysis.",
+      "example": "In <i>to us both</i> the two words can form a single complement of <i>to</i>. The personal forms also combine with <i>two</i> in independently documented phrases (pp. 639, 1466). More than one word can occupy that same constituent position.",
+      "establishes": "Constituency follows more readily than single-word status. The distributions of <i>us</i>, <i>you</i> and <i>them</i> require separate controls.",
+      "locator": "Other findings and their weight",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0029/"
+}

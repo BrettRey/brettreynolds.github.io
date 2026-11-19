@@ -1,0 +1,34 @@
+{
+  "id": "CG-0071",
+  "topic": "Degree determiners as predicative complements",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "7.11",
+    "page": 395
+  },
+  "claim": "“The degree determiners can also function directly as predicative complement: <i>Their enemies were many.</i>”",
+  "evidence_summary": "Determiner is CGEL’s name for a function. The sentence concerns items outside that function. The section title and the book’s other uses say degree determinatives.",
+  "finding": "Replace determiners with determinatives. This is the only occurrence of degree determiners in the book.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "395",
+  "proposed_wording": "The degree determinatives can also function directly as predicative complement",
+  "inference": "Does the sentence keep category and function distinct?",
+  "family": "Category diagnostics and word formation",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 error sweep, 19 November 2026",
+      "url": null,
+      "passage": "§7.11, p. 395, “Other functions”.",
+      "example": "Search of the whole text layer for degree determiners returns this sentence only.",
+      "establishes": "A category–function slip in one sentence.",
+      "locator": "Section A, item A14.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0071/"
+}

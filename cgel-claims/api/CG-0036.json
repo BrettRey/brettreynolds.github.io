@@ -1,0 +1,32 @@
+{
+  "id": "CG-0036",
+  "topic": "Scope and attachment of <i>possibly</i>",
+  "assessment": "Supported",
+  "cgel": {
+    "chapter": 5,
+    "section": "13",
+    "page": 436
+  },
+  "claim": "<i>Possibly</i> may attach to the subject NP or to the clause.",
+  "evidence_summary": "Passivisation separates clause-initial <i>possibly</i> from <i>by possibly the best actress</i>.",
+  "finding": "Constituency evidence supports the interpretation contrast.",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "436 [1–2]",
+  "inference": "Does moving a whole NP also move <i>possibly</i> on the NP-internal interpretation?",
+  "family": "NP structure and headedness",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§13, p. 436. <i>Possibly</i> may attach to the subject NP or to the clause.",
+      "example": "The passive controls in [1–2] put <i>possibly</i> before the clause or inside a <i>by</i>-phrase before <i>the best actress</i>. A modifier within the <i>by</i>-phrase moves with the NP under the relevant alternation.",
+      "establishes": "The available positions support the contrasting scopes. This supplies a structural check on a distinction initially suggested by interpretation.",
+      "locator": "Coverage by numbered section",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0036/"
+}

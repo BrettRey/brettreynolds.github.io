@@ -1,0 +1,32 @@
+{
+  "id": "CG-0012",
+  "topic": "Noun as head of an ordinary NP",
+  "assessment": "Supported",
+  "cgel": {
+    "chapter": 5,
+    "section": "4",
+    "page": 357
+  },
+  "claim": "The grammar argues for N-headedness from semantic selection and the distribution of bare NPs.",
+  "evidence_summary": "<i>Kim</i>, <i>money</i> and <i>women</i> can each constitute an NP without an overt determiner.",
+  "finding": "The distributional argument survives a challenge to selection as a sufficient head diagnostic.",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "357–358",
+  "inference": "Can bare noun-headed NPs independently support the head analysis suggested by selection?",
+  "family": "NP structure and headedness",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§4, p. 357. The grammar argues for N-headedness from semantic selection and the distribution of bare NPs.",
+      "example": "Compare <i>Kim smiled</i>, <i>Money matters</i> and <i>Women voted</i> (constructed). The head noun can form the subject NP without an overt determiner in each case. This is evidence beyond semantic selection by a verb.",
+      "establishes": "The bare distribution supports CGEL’s ordinary noun-head analysis. Selection on its own would leave room for a different account of the nominal information available to a governor.",
+      "locator": "Coverage by numbered section",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0012/"
+}

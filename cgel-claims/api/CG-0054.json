@@ -1,0 +1,32 @@
+{
+  "id": "CG-0054",
+  "topic": "<i>Both</i> and <i>a nuisance</i>",
+  "assessment": "Qualification",
+  "cgel": {
+    "chapter": 5,
+    "section": "19.3",
+    "page": 515
+  },
+  "claim": "<i>Both</i> is used to explain the equivalence of predicative <i>a nuisance</i> and <i>nuisances</i> with a plural subject.",
+  "evidence_summary": "Fix two semicircular tiles arranged edge to edge. “<i>Both tiles together are a complete disk</i>” is true of the pair. “<i>Each tile is a complete disk</i>” is false in that very arrangement. CGEL itself allows a joint reading with <i>both</i> in the piano example on p. 377.",
+  "finding": "<i>Both</i> can occur with joint attribution. The overt <i>together</i> and the predicate <i>disk</i> make this a control on the proposed explanation. Neither this control nor the daughters’ behaviour together versus alone decides the equivalence of <i>a nuisance</i> and <i>nuisances</i> in [19ii].",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "377 [17], 515 [19]",
+  "inference": "Does <i>both</i> force distributive attribution strongly enough to explain the equivalence in [19ii]?",
+  "family": "Number, agreement and predication",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§19.3, p. 515, [19ii] and following paragraph. With <i>both</i>, CGEL says the singular and plural <i>nuisance</i> versions “are equivalent”, attributing this to distributivity. Compare §7.3, p. 377, [17i].",
+      "example": "Fix two semicircular tiles arranged edge to edge. “<i>Both tiles together are a complete disk</i>” is true of the pair. “<i>Each tile is a complete disk</i>” is false in that very arrangement. CGEL itself allows a joint reading with <i>both</i> in the piano example on p. 377.",
+      "establishes": "<i>Both</i> can occur with joint attribution. The overt <i>together</i> and the predicate <i>disk</i> make this a control on the proposed explanation. Neither this control nor the daughters’ behaviour together versus alone decides the equivalence of <i>a nuisance</i> and <i>nuisances</i> in [19ii].",
+      "locator": "Counting properties and counting their bearers",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0054/"
+}

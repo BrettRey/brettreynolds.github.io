@@ -1,0 +1,32 @@
+{
+  "id": "CG-0009",
+  "topic": "Measure respecification",
+  "assessment": "Supported",
+  "cgel": {
+    "chapter": 5,
+    "section": "3.4",
+    "page": 354
+  },
+  "claim": "<i>Another</i> can combine with a plural head even where singular respecification is unavailable.",
+  "evidence_summary": "<i>Another three days</i> allows a singular time-span construal. <i>Another three bodies have been discovered</i> retains plural agreement.",
+  "finding": "The lexical distribution of <i>another</i> and singular measure agreement make different predictions.",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "[74]",
+  "inference": "Does <i>another</i> license plurals only when their measure can be construed as one unit?",
+  "family": "Count syntax and individuation",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§3.4, p. 354. <i>Another</i> can combine with a plural head even where singular respecification is unavailable.",
+      "example": "Compare <i>another three days</i> with <i>another three bodies have been discovered</i> (p. 354 [74]). A time span can be conceived as one interval. Plural agreement is required whether the discoveries were simultaneous or separate.",
+      "establishes": "A plural after <i>another</i> cannot always be explained by a singular measure reading. The two diagnostics apply to different phenomena.",
+      "locator": "Coverage by numbered section",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0009/"
+}

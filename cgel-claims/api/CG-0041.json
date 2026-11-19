@@ -1,0 +1,32 @@
+{
+  "id": "CG-0041",
+  "topic": "Entailment as a test for apposition",
+  "assessment": "Argument gap",
+  "cgel": {
+    "chapter": 5,
+    "section": "14.3",
+    "page": 447
+  },
+  "claim": "Replacing a containing NP with its appositive is supposed systematically to preserve entailment.",
+  "evidence_summary": "In <i>We found no city of Manchester in the gazetteer</i>, replacement by <i>Manchester</i> loses the quantifier.",
+  "finding": "Restrict the test to suitable identifying uses. CGEL already admits name-bearing readings with indefinite matrix NPs.",
+  "semantic_inference": true,
+  "condition": "Necessary",
+  "internal_tension": true,
+  "related": "447–448 [18–21]",
+  "inference": "Does replacing the whole quantified matrix NP with the identifying name preserve entailment?",
+  "family": "Licensing and order of dependents",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§14.3, p. 447. Replacing a containing NP with its appositive is supposed systematically to preserve entailment.",
+      "example": "<i>We found no city of Manchester in the gazetteer</i> can be true when the gazetteer contains no city bearing that name. Substitution of <i>Manchester</i> for the entire object produces <i>We found Manchester in the gazetteer</i>, which can then be false.",
+      "establishes": "The loss of <i>no</i> breaks the entailment. The test remains available for definite identifying NPs. CGEL explicitly includes an indefinite <i>city of Manchester</i> on p. 448. The audit extends that name-bearing use to a negative quantifier.",
+      "locator": "Structural analyses with a genuine rival",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0041/"
+}

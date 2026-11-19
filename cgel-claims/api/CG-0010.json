@@ -1,0 +1,32 @@
+{
+  "id": "CG-0010",
+  "topic": "Weekday as determiner",
+  "assessment": "Open",
+  "cgel": {
+    "chapter": 5,
+    "section": "4",
+    "page": 357
+  },
+  "claim": "The weekday is assigned determiner function in <i>Sunday morning</i>.",
+  "evidence_summary": "Plural <i>Sunday mornings</i> establishes the head. Constructed <i>three Sunday mornings</i> admits an internal modifier reading.",
+  "finding": "Identify a test for the weekday’s function in bare <i>on Sunday morning</i>. Locating the head settles only half the analysis.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "357",
+  "inference": "Does identifying <i>morning</i> as head also identify the function of <i>Sunday</i>?",
+  "family": "NP structure and headedness",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§4, p. 357. The weekday is assigned determiner function in <i>Sunday morning</i>.",
+      "example": "Adding plural <i>-s</i> to <i>morning</i> locates the head. In <i>three Sunday mornings</i>, <i>three</i> counts <i>mornings</i> and <i>Sunday</i> occurs within the material it quantifies. Compare the bare temporal use <i>on Sunday morning</i>.",
+      "establishes": "There is evidence for a modifier use in the counted phrase. An independent test is needed to assign the weekday the determiner function in the bare phrase.",
+      "locator": "Coverage by numbered section",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0010/"
+}

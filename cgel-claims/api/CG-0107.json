@@ -1,0 +1,78 @@
+{
+  "id": "CG-0107",
+  "topic": "<i>Enough</i> with the core degree determinatives",
+  "assessment": "Correction",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "7.12",
+    "page": 397
+  },
+  "claim": "<i>Enough</i> does not modify the core degree determinatives: <i>enough money</i> (or <i>money enough</i>), not ∗<i>much enough money</i>.",
+  "evidence_summary": "OED quotations with sufficiency <i>enough</i> after <i>few</i>: <i>For a relatively short accelerator, there may be few enough grids so that a considerable fraction of the ion beam penetrates all the grids</i> (J. C. Slater, <i>Microwave Electronics</i>, 1950, under <i>grid</i>, n.¹); <i>A number of persons who communicate with one another often over a span of time, and..few enough so that each person is able to communicate with all the others..face-to-face</i> (G. C. Homans, <i>Human Group</i>, 1950, under <i>primary group</i>, n.). Every <i>little enough</i> found in determiner function has the understatement sense “very little”: <i>There was little enough comfort for us subalterns</i> (A. Griffiths, 1904); <i>Little enough encouragement was there</i> (<i>Lancet</i>, 1946); <i>have little enough money left for reinvestment except in technology</i> (C. Coker, <i>Humane Warfare</i>, 2001). <i>Few enough men and scarcely any women can tell the difference</i> (<i>Illustrated American</i>, 1893) is the same use. OED quotation searches find no <i>many enough</i>, and one <i>much enough</i>, a 1562 proverb about the word itself: <i>This woord enough twoo waies we may skan. Thone much enough, thother littell enough</i> (J. Heywood).",
+  "finding": "Sufficiency <i>enough</i> modifies <i>few</i>, in determiner function in Slater and also in Homans, where a group is defined by its size; the restriction fails for <i>few</i>. A defender could read Slater as understatement followed by a separate result clause, but that reading doesn’t fit Homans’s definition. The evidence is two quotations, both from 1950. CGEL doesn’t define “core”, but §7.11 and §11(c) (p. 431) both name <i>many</i>, <i>much</i>, <i>few</i> and <i>little</i>. No sufficiency <i>little enough</i> in determiner function was found: those quotations are the understatement use. The OED (<i>enough</i>, revised 2020) separates an intensive adverb sense (“fully, quite, pretty, very”) from “Sufficiently” but doesn’t place <i>little enough</i> in either, so treating it as the intensive use is an inference. For <i>much</i> and <i>many</i> the OED quotations agree with CGEL: <i>many enough</i> has no hits, and the one <i>much enough</i> is a 1562 proverb about the word <i>enough</i>.",
+  "semantic_inference": false,
+  "condition": "Distributional restriction",
+  "internal_tension": false,
+  "related": "397 [74]; 393 §7.11; 431 §11(c)",
+  "proposed_wording": "Note, however, that in this sense it doesn’t modify <i>much</i>, <i>many</i> or <i>little</i>: <i>we have enough money</i> (or <i>money enough</i>), not ∗<i>much enough money</i>. It can modify <i>few</i>: <i>there may be few enough grids so that a considerable fraction of the ion beam penetrates all the grids</i>. <i>Little enough</i> in determiner function has the understatement sense “very little” (<i>There was little enough comfort for us subalterns</i>).",
+  "inference": "Does sufficiency <i>enough</i> combine with any core degree determinative?",
+  "family": "Quantification and alternatives",
+  "evidence": [
+    {
+      "role": "Research source",
+      "source": "Oxford English Dictionary, quotation search for “few enough”.",
+      "url": "https://www.oed.com/search/advanced/Quotations?textTermText0=%22few+enough%22&textTermOpt0=QuotText",
+      "passage": "§7.12, p. 397, after [74].",
+      "example": "1950 <i>For a relatively short accelerator, there may be few enough grids so that a considerable fraction of the ion beam penetrates all the grids</i> (J. C. Slater, <i>Microwave Electronics</i>, under <i>grid</i>, n.¹). 1950 <i>A number of persons who communicate with one another often over a span of time, and..few enough so that each person is able to communicate with all the others..face-to-face</i> (G. C. Homans, <i>Human Group</i>, under <i>primary group</i>, n.). 1893 <i>Few enough men and scarcely any women can tell the difference…</i> (<i>Illustr. Amer.</i>, under <i>built</i>, adj.) has the understatement sense.",
+      "establishes": "Sufficiency <i>enough</i> with <i>few</i> in edited prose, in determiner function before a plural head in Slater. The <i>so that</i> clause fixes the sufficiency reading; Homans’s definition of a group by its size can’t be read as understatement.",
+      "locator": "Quotation search, 5 results. Accessed 19 November 2026 through the University of Toronto Libraries subscription."
+    },
+    {
+      "role": "Research source",
+      "source": "Oxford English Dictionary, quotation search for “little enough”.",
+      "url": "https://www.oed.com/search/advanced/Quotations?textTermText0=%22little+enough%22&textTermOpt0=QuotText",
+      "passage": "§7.12, p. 397, after [74].",
+      "example": "1904 <i>There was little enough comfort for us subalterns</i> (A. Griffiths, under <i>planking</i>, n.). 1944 <i>we have had little enough success in charming the ear of the nation</i> (<i>Theology</i>, under <i>nation</i>, n.¹). 1946 <i>Little enough encouragement was there…</i> (<i>Lancet</i>, under <i>poitrinaire</i>, n.). 2001 <i>have little enough money left for reinvestment except in technology</i> (C. Coker, <i>Humane Warfare</i>, under <i>reinvestment</i>, n.).",
+      "establishes": "<i>Little enough</i> in determiner function, with the understatement sense “very little” in every case found, not sufficiency. These count against CGEL only if that use is the same enough.",
+      "locator": "Quotation search, 32 results. Accessed 19 November 2026 through the University of Toronto Libraries subscription."
+    },
+    {
+      "role": "Research source",
+      "source": "Wiktionary, “enough” (revision 95613231).",
+      "url": "https://en.wiktionary.org/w/index.php?title=enough&oldid=95613231",
+      "passage": "§7.12, p. 397, after [74].",
+      "example": "Adverb sense 2: “Fully; quite; used after adjectives to express slight augmentation of the positive degree, and sometimes equivalent to very”, listed apart from adverb sense 1, “Sufficiently”. Determiner sense 1 (“Sufficient”) has the constructed example <i>We had little enough time to finish the project</i>.",
+      "establishes": "Some support for treating understatement <i>little enough</i> as a separate use, though Wiktionary also files a <i>little enough</i> example under sufficiency.",
+      "locator": "English, Determiner sense 1 and Adverb sense 2. Accessed 19 November 2026."
+    },
+    {
+      "role": "Research source",
+      "source": "Oxford English Dictionary, “enough, adj., pron., n., adv.” (revised 2020).",
+      "url": "https://www.oed.com/dictionary/enough_adj",
+      "passage": "§7.12, p. 397, after [74].",
+      "example": "Adverb sense 1a: “Sufficiently; in a quantity or degree that satisfies a desire, meets a want, or fulfils a purpose”. Sense 2: “With the idea of satisfying a requirement reduced or absent”; 2a “With intensive force: fully, quite, pretty, very, as much as well could be”; 2a(i) “Modifying an adjective or adverb. Now esp. in certain set phrases” (<i>fair enough</i>, <i>like enough</i>, <i>right enough</i>, <i>sure enough</i>, <i>well enough</i>).",
+      "establishes": "The OED separates an intensive <i>enough</i> from sufficiency <i>enough</i>, which gives the understatement reading of <i>little enough</i> a recognized source. The entry doesn’t classify <i>little enough</i> itself, and no OED entry or definition contains it.",
+      "locator": "Meaning & use, part C (adverb), senses 1a, 2, 2a, 2a(i). The entry text, including collapsed quotations, has no little, few, much or many enough. Accessed 19 November 2026 through the University of Toronto Libraries subscription."
+    },
+    {
+      "role": "Research source",
+      "source": "Oxford English Dictionary, quotation search for “much enough”.",
+      "url": "https://www.oed.com/search/advanced/Quotations?textTermText0=%22much+enough%22&textTermOpt0=QuotText",
+      "passage": "§7.12, p. 397, after [74].",
+      "example": "1562 <i>This woord enough twoo waies we may skan. Thone much enough, thother littell enough</i> (J. Heywood, <i>Prov.</i>, under <i>scan</i>, v.).",
+      "establishes": "No <i>much enough</i> with the sufficiency sense or in determiner function. The one hit is about the word <i>enough</i> itself.",
+      "locator": "Quotation search, 1 result. Accessed 19 November 2026 through the University of Toronto Libraries subscription."
+    },
+    {
+      "role": "Research source",
+      "source": "Oxford English Dictionary, quotation search for “many enough”.",
+      "url": "https://www.oed.com/search/advanced/Quotations?textTermText0=%22many+enough%22&textTermOpt0=QuotText",
+      "passage": "§7.12, p. 397, after [74].",
+      "example": "No results.",
+      "establishes": "No <i>many enough</i> in the OED quotations. An absence from a quotation corpus is consistent with CGEL’s restriction but doesn’t prove it.",
+      "locator": "Quotation search, 0 results. Accessed 19 November 2026 through the University of Toronto Libraries subscription."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0107/"
+}

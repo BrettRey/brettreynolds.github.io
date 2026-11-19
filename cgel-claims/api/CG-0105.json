@@ -1,0 +1,34 @@
+{
+  "id": "CG-0105",
+  "topic": "Misprints in this printing",
+  "assessment": "Production error",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "various",
+    "page": "323–517"
+  },
+  "claim": "Fourteen misprints not in the authors’ errata, confirmed on the page images of the corrected printing.",
+  "evidence_summary": "p. 323 contents “<i>several. etc.</i>”; p. 346 “<i>it/they are hardly life-threatening</i>”; p. 354 “<i>a(n) additional further/good</i>”; p. 365 [21ii] “<i>Pyschology</i>”; p. 382 “<i>arbitary</i>”; p. 391 §7.9 heading printed twice; p. 408 “<i>one with the definite article NP is possible</i>”; p. 441 [6] both rows labelled a.; pp. 444–445 “<i>custard-pie-in-your face</i>”; p. 446 [15iii] “<i>disavantaged</i>”; p. 452 “<i>contraint</i>”; p. 517 “<i>Himalyas</i>”, [3iii] “<i>Colisseum</i>”, [3iv] “<i>Bosphorous</i>”.",
+  "finding": "Candidates for the authors’ errata page. The printing used already incorporates the p. 446 and p. 518 corrections.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "323, 346, 354, 365, 382, 391, 408, 441, 444–446, 452, 517",
+  "proposed_wording": "<i>it is/they are</i>; <i>a(n) additional/further/good</i>; <i>Psychology</i>; <i>arbitrary</i>; delete repeated heading; delete NP; [6i a, b]; <i>custard-pie-in-your-face</i>; <i>disadvantaged</i>; <i>constraint</i>; <i>Himalayas</i>; <i>Colosseum</i>; <i>Bosporus</i>",
+  "inference": "Which printed forms need correction?",
+  "family": "NP structure and headedness",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 error sweep, 19 November 2026",
+      "url": null,
+      "passage": "Chapter 5, various pages.",
+      "example": "Readers’ page-image checks for each item.",
+      "establishes": "A list for the authors.",
+      "locator": "Section D.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0105/"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "CG-0024",
+  "topic": "Definiteness of bare role NPs",
+  "assessment": "Qualification",
+  "cgel": {
+    "chapter": 5,
+    "section": "8.5",
+    "page": 409
+  },
+  "claim": "CGEL infers from the definiteness of the office that bare role NPs invariably allow substitution of a corresponding NP with <i>the</i>.",
+  "evidence_summary": "ASU reports a shared appointment. Hold team, meeting and date fixed. Compare “<i>Faatulu became co-captain of the team that day, and so did Peck</i>” with “<i>Faatulu became the co-captain of the team that day, and so did Peck</i>”. Both versions are constructed.",
+  "finding": "The bare form readily assigns the office to both players. The definite counterpart invites a single-holder reading, though a salient office may sustain a shared-role reading. The attestation establishes shared tenure. Preservation of the reading under insertion is a judgment.",
+  "semantic_inference": true,
+  "condition": "Necessary",
+  "internal_tension": false,
+  "related": "409 [19]",
+  "inference": "Does an identifiable office guarantee that adding <i>the</i> preserves a bare role reading?",
+  "family": "Definiteness, reference and names",
+  "evidence": [
+    {
+      "role": "Attestation",
+      "source": "Arizona State University, Sun Devil Athletics. Jolynn Faatulu Overcomes Injuries to Shine.",
+      "url": "https://thesundevils.com/jolynn-faatulu-overcomes-injuries-to-shine",
+      "passage": "§8.5(a), p. 409, discussion of [19i–iii]. The office is “invariably definite”. The inference to substitution is signalled by “therefore invariably replaceable”. The examples concern the office of treasurer.",
+      "example": "The report says Faatulu “<i>was named co-captain along with fellow junior Jamie Peck</i>”. It never supplies a definite counterpart in this context.",
+      "establishes": "Attests a bare role with two officeholders. The two versions with <i>became</i> in the audit are constructed comparative judgments.",
+      "locator": "Paragraph naming fellow junior Jamie Peck."
+    },
+    {
+      "role": "Audit note",
+      "source": "Nouns and noun phrases notebook",
+      "url": null,
+      "passage": "§8.5(a), p. 409, discussion of [19i–iii]. The office is “invariably definite”. The inference to substitution is signalled by “therefore invariably replaceable”. The examples concern the office of treasurer.",
+      "example": "ASU reports a shared appointment. Hold team, meeting and date fixed. Compare “<i>Faatulu became co-captain of the team that day, and so did Peck</i>” with “<i>Faatulu became the co-captain of the team that day, and so did Peck</i>”. Both versions are constructed.",
+      "establishes": "The bare form readily assigns the office to both players. The definite counterpart invites a single-holder reading, though a salient office may sustain a shared-role reading. The attestation establishes shared tenure. Preservation of the reading under insertion is a judgment.",
+      "locator": "Other findings and their weight",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0024/"
+}

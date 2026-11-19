@@ -1,0 +1,50 @@
+{
+  "id": "CG-0011",
+  "topic": "Definiteness of a genitive NP",
+  "assessment": "Open",
+  "cgel": {
+    "chapter": 5,
+    "section": "4",
+    "page": 357
+  },
+  "claim": "A Type I genitive determiner marks the whole containing NP as definite.",
+  "evidence_summary": "An indefinite possessor can introduce a new dog. A listener can also accommodate a salient dog relative to that possessor.",
+  "finding": "Test whole-NP uniqueness and quantification against competing accounts. The article on the possessor is insufficient evidence.",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "470, 472",
+  "inference": "Does marking the possessor’s relation determine the definiteness of the whole possessive?",
+  "family": "Definiteness, reference and names",
+  "evidence": [
+    {
+      "role": "Research context",
+      "source": "Elizabeth Coppock & David Beaver (2015). Definiteness and determinacy. Linguistics and Philosophy 38(5), 377–435.",
+      "url": "https://doi.org/10.1007/s10988-015-9178-8",
+      "passage": "§4, p. 357. A Type I genitive determiner marks the whole containing NP as definite.",
+      "example": "The authors distinguish properties that are easily conflated in claims about what a definite form contributes.",
+      "establishes": "A theoretical comparison. Testing the whole possessive still requires opposing predictions in the same context.",
+      "locator": "The distinction between definiteness and determinacy."
+    },
+    {
+      "role": "Research context",
+      "source": "Peter Willemse (2007). Indefinite possessive NPs and the distinction between determining and nondetermining genitives in English. English Language & Linguistics 11(3), 537–568.",
+      "url": "https://doi.org/10.1017/S1360674307002389",
+      "passage": "§4, p. 357. A Type I genitive determiner marks the whole containing NP as definite.",
+      "example": "The study distinguishes uses within possessive expressions that can look alike in isolation.",
+      "establishes": "Motivates controlling which possessive construction is at issue before inferring whole-NP definiteness.",
+      "locator": "Analysis of determining and nondetermining genitives."
+    },
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§4, p. 357. A Type I genitive determiner marks the whole containing NP as definite.",
+      "example": "An indefinite possessor can introduce a new dog. A listener can also accommodate a salient dog relative to that possessor.",
+      "establishes": "Test whole-NP uniqueness and quantification against competing accounts. The article on the possessor is insufficient evidence.",
+      "locator": "Structural analyses with a genuine rival",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0011/"
+}

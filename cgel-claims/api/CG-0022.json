@@ -1,0 +1,32 @@
+{
+  "id": "CG-0022",
+  "topic": "Exceptions to generic predication",
+  "assessment": "Qualification",
+  "cgel": {
+    "chapter": 5,
+    "section": "8.3",
+    "page": 407
+  },
+  "claim": "Generic <i>a lion</i> is glossed using <i>any lion that exists</i>.",
+  "evidence_summary": "CGEL’s own generic about Italians and pasta tolerates individual exceptions.",
+  "finding": "An unrestricted domain does not require that the predicate hold of every member. The book gives generic a restricted technical use.",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "406 n. 39, 407 [14]",
+  "inference": "Does lack of a contextual restriction make a generic true of every individual?",
+  "family": "Definiteness, reference and names",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§8.3, p. 407. Generic <i>a lion</i> is glossed using <i>any lion that exists</i>.",
+      "example": "Compare the <i>any-lion</i> gloss with CGEL’s own generalization about Italians and pasta. An Italian who dislikes pasta can belong to the intended population without making the generic unusable.",
+      "establishes": "Including every individual in the domain leaves open whether the property must hold of every individual. The chapter’s restricted technical sense of generic matters here.",
+      "locator": "Coverage by numbered section",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0022/"
+}

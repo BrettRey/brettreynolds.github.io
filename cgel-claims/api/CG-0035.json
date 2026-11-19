@@ -1,0 +1,32 @@
+{
+  "id": "CG-0035",
+  "topic": "Bracketing of <i>all three proposals</i>",
+  "assessment": "Open",
+  "cgel": {
+    "chapter": 5,
+    "section": "12",
+    "page": 434
+  },
+  "claim": "<i>All</i> is analysed as determiner because adding it makes the proposals identifiable.",
+  "evidence_summary": "External <i>all</i> is independently available in <i>all the three proposals</i> and <i>all you who …</i> . Either bracketing can identify the set.",
+  "finding": "Identifiability cannot alone settle attachment. CGEL’s analogy with <i>all proposals</i> remains structural evidence.",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "370–371, 433–434",
+  "inference": "Does making a set identifiable locate <i>all</i> inside the NP as determiner?",
+  "family": "NP structure and headedness",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§12, p. 434. <i>All</i> is analysed as determiner because adding it makes the proposals identifiable.",
+      "example": "Compare <i>all three proposals</i> with <i>all the three proposals</i>. The second has an independent position for <i>all</i> outside the definite NP. Either proposed structure for the first can pick out the entire identifiable set.",
+      "establishes": "Identifiability leaves the first attachment undecided. CGEL’s analogy with <i>all proposals</i> and <i>all the proposals</i> is a separate syntactic consideration.",
+      "locator": "Structural analyses with a genuine rival",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0035/"
+}

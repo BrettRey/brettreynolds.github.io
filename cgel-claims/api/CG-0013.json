@@ -1,0 +1,42 @@
+{
+  "id": "CG-0013",
+  "topic": "Free choice and permission",
+  "assessment": "Argument gap",
+  "cgel": {
+    "chapter": 5,
+    "section": "5.1",
+    "page": 362
+  },
+  "claim": "CGEL infers that the universal component of free choice is implicated from the fact that an instruction to take either computer need not instruct the addressee to take both.",
+  "evidence_summary": "Fix two laptops, one blue and one silver. “<i>You may take either, but not both</i>” leaves both individual options open. “<i>You may take either, but you may not take the blue one</i>” withdraws one of those options. Both continuations are constructed.",
+  "finding": "Permission to select blue and permission to select silver can coexist with a prohibition on taking the pair. The imperative tests joint selection. It leaves open whether the availability of each single option is entailed or implicated.",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "361–362 [11–12]",
+  "proposed_wording": "An instruction to take either computer makes each computer available for selection and commonly licenses taking only one. Whether the availability of each alternative is entailed or implicated requires a test that keeps the number selected constant.",
+  "inference": "Does withholding permission to take two items jointly withdraw permission for either single choice?",
+  "family": "Quantification and alternatives",
+  "evidence": [
+    {
+      "role": "Research context",
+      "source": "Maria Aloni (2007). Free choice, modals, and imperatives. Natural Language Semantics 15(1), 65–94. DOI 10.1007/s11050-007-9010-2.",
+      "url": "https://www.marialoni.org/resources/Aloni2007c.pdf",
+      "passage": "§5.1, pp. 361–362. Compare suitability in [11b], permission in [12], and the imperative argument immediately following. Its pivot is “not an instruction to take all or both of them”.",
+      "example": "Being free to choose any single key differs from being instructed to press every key. The laptop continuations in the audit are constructed.",
+      "establishes": "Prior analysis supplies an analogous contrast. The laptop test isolates what CGEL’s inference would have to establish.",
+      "locator": "P. 66, examples (1)–(4), particularly the instruction about keys in (3)."
+    },
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§5.1, pp. 361–362. Compare suitability in [11b], permission in [12], and the imperative argument immediately following. Its pivot is “not an instruction to take all or both of them”.",
+      "example": "Fix two laptops, one blue and one silver. “<i>You may take either, but not both</i>” leaves both individual options open. “<i>You may take either, but you may not take the blue one</i>” withdraws one of those options. Both continuations are constructed.",
+      "establishes": "Permission to select blue and permission to select silver can coexist with a prohibition on taking the pair. The imperative tests joint selection. It leaves open whether the availability of each single option is entailed or implicated.",
+      "locator": "What free choice lets you do",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0013/"
+}

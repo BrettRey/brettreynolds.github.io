@@ -1,0 +1,42 @@
+{
+  "id": "CG-0028",
+  "topic": "An understood partitive PP",
+  "assessment": "Open",
+  "cgel": {
+    "chapter": 5,
+    "section": "9.7",
+    "page": 425
+  },
+  "claim": "<i>Almost all</i> in [47ii] is assigned an unspoken <i>of them</i>.",
+  "evidence_summary": "Context also restricts <i>everyone</i> in <i>A hundred guests came. Everyone enjoyed it</i>. The explicit <i>almost all of them</i> alternant supports CGEL.",
+  "finding": "Domain recovery alone cannot select ellipsis. A test should distinguish silent syntax from contextual restriction.",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "411, 419–425 [47ii]",
+  "inference": "Does recovering a quantifier’s domain require recovering a syntactic <i>of</i>-phrase?",
+  "family": "NP structure and headedness",
+  "evidence": [
+    {
+      "role": "Related manuscript",
+      "source": "Fusion manuscript on partitive readings",
+      "url": null,
+      "passage": "§9.7, p. 425. <i>Almost all</i> in [47ii] is assigned an unspoken <i>of them</i>.",
+      "example": "The linked manuscript develops a related analysis. See the working-note record for the test applied to this CGEL passage.",
+      "establishes": "Related work by the catalogue’s author. Its inclusion provides background rather than independent corroboration.",
+      "locator": "Manuscript text",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    },
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§9.7, p. 425. <i>Almost all</i> in [47ii] is assigned an unspoken <i>of them</i>.",
+      "example": "Context also restricts <i>everyone</i> in <i>A hundred guests came. Everyone enjoyed it</i>. The explicit <i>almost all of them</i> alternant supports CGEL.",
+      "establishes": "Domain recovery alone cannot select ellipsis. A test should distinguish silent syntax from contextual restriction.",
+      "locator": "Structural analyses with a genuine rival",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0028/"
+}

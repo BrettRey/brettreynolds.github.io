@@ -1,0 +1,32 @@
+{
+  "id": "CG-0026",
+  "topic": "Label of the partitive PP",
+  "assessment": "Textual mismatch",
+  "cgel": {
+    "chapter": 5,
+    "section": "9.1",
+    "page": 411
+  },
+  "claim": "The explicit partitive PP is called a modifier and a complement.",
+  "evidence_summary": "The same section introduces the modifier label, then treats <i>of her friends</i> as a complement. The diagram assigns Comp.",
+  "finding": "Reconcile the prose with the analysis used in the tree.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "411 [5ii], 412 [7a]",
+  "inference": "Does the prose assign the same function to the overt partitive PP as the accompanying tree?",
+  "family": "NP structure and headedness",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§9.1, p. 411. The explicit partitive PP is called a modifier and a complement.",
+      "example": "On p. 411 compare the introduction of the <i>of</i>-phrase as a modifier with the following discussion of <i>of her friends</i> as a complement. The tree on p. 412 [7a] labels the PP Comp.",
+      "establishes": "This is a discrepancy in the assigned function. The existence and position of the overt PP are common ground.",
+      "locator": "Structural analyses with a genuine rival",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0026/"
+}

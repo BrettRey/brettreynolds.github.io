@@ -1,0 +1,42 @@
+{
+  "id": "CG-0030",
+  "topic": "Sufficiency of excluding determiners",
+  "assessment": "Argument gap",
+  "cgel": {
+    "chapter": 5,
+    "section": "10.1.4",
+    "page": 429
+  },
+  "claim": "CGEL classifies the four deictic temporal nouns as pronouns on the strength of their inability to take determiners. It then adduces their deictic meaning.",
+  "evidence_summary": "Compare <i>today</i> with quantificational <i>plenty</i> in <i>plenty of time</i>. CGEL says this use of <i>plenty</i> permits no determiner or modifier (p. 350), yet treats it as nominal outside the pronoun subclass.",
+  "finding": "Exclusion is shared by noun uses on opposite sides of the proposed boundary. Its presence alone cannot identify a pronoun. Deixis remains positive evidence of resemblance, and the genitive contrast bears on the comparison with prepositions.",
+  "semantic_inference": false,
+  "condition": "Sufficient",
+  "internal_tension": false,
+  "related": "350, 429",
+  "inference": "Does the inability to take determiners distinguish temporal pronouns from all other nominal uses?",
+  "family": "Nouns, pronouns and word boundaries",
+  "evidence": [
+    {
+      "role": "Related manuscript",
+      "source": "Determinatives draft, “Restricted dependents”",
+      "url": null,
+      "passage": "§10.1.4, p. 429, final paragraph. <i>Yesterday</i>, <i>today</i>, <i>tonight</i> and <i>tomorrow</i> belong to the pronoun subclass “by virtue of their inability to take determiners”. CGEL then adduces deixis and compares their genitives with <i>now</i> and <i>then</i>.",
+      "example": "The linked manuscript develops a related analysis. See the working-note record for the test applied to this CGEL passage.",
+      "establishes": "Related work by the catalogue’s author. Its inclusion provides background rather than independent corroboration.",
+      "locator": "Manuscript text",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    },
+    {
+      "role": "Audit note",
+      "source": "Nouns and noun phrases notebook",
+      "url": null,
+      "passage": "§10.1.4, p. 429, final paragraph. <i>Yesterday</i>, <i>today</i>, <i>tonight</i> and <i>tomorrow</i> belong to the pronoun subclass “by virtue of their inability to take determiners”. CGEL then adduces deixis and compares their genitives with <i>now</i> and <i>then</i>.",
+      "example": "Compare <i>today</i> with quantificational <i>plenty</i> in <i>plenty of time</i>. CGEL says this use of <i>plenty</i> permits no determiner or modifier (p. 350), yet treats it as nominal outside the pronoun subclass.",
+      "establishes": "Exclusion is shared by noun uses on opposite sides of the proposed boundary. Its presence alone cannot identify a pronoun. Deixis remains positive evidence of resemblance, and the genitive contrast bears on the comparison with prepositions.",
+      "locator": "A definition to test separately",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0030/"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "CG-0065",
+  "topic": "<i>Hives</i> among singular <i>-s</i> nouns",
+  "assessment": "Open",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "3.2.3",
+    "page": 346
+  },
+  "claim": "<i>Hives</i> is listed with <i>shingles</i>, <i>mumps</i> and <i>rabies</i> as a singular noun in <i>-s</i>.",
+  "evidence_summary": "Wiktionary codes <i>hives</i> as plural with singular <i>hive</i>, and <i>shingles</i> as uncountable. The OED entry <i>hives</i>, n. says “Chiefly with plural agreement”, but it dates from 1898, is not fully revised, carries a Scottish English label, and its one <i>Hives are</i> quotation is from an 1893 Northumberland glossary. An NHS page has <i>hives keeps coming back</i> (seen through a summary only).",
+  "finding": "The evidence conflicts. Present-day agreement data (<i>Hives is/are</i>) in edited medical or general prose would decide whether <i>hives</i> belongs with <i>hiccups</i> in [42ii].",
+  "semantic_inference": false,
+  "condition": "Diagnostic only",
+  "internal_tension": false,
+  "related": "346 [40], [42]",
+  "inference": "Does <i>hives</i> pattern with <i>shingles</i> in requiring singular agreement?",
+  "family": "Count syntax and individuation",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 error sweep, 19 November 2026",
+      "url": null,
+      "passage": "§3.2.3, p. 346 [42i]. “The terms in [i] are singular nouns, behaving like our model example <i>shingles</i>.”",
+      "example": "Wiktionary headword lines for <i>hives</i> and <i>shingles</i>.",
+      "establishes": "A lead only. The dictionary classification is not agreement evidence.",
+      "locator": "Section E, second item.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    },
+    {
+      "role": "Research source",
+      "source": "Wiktionary, “hives” (revision 94558116) and “shingles” (revision 93418628).",
+      "url": "https://en.wiktionary.org/w/index.php?title=hives&oldid=94558116",
+      "passage": "§3.2.3, p. 346 [42i].",
+      "example": "<i>hives</i>: noun, plural, singular <i>hive</i>, “Itchy, swollen, red areas of the skin”. <i>shingles</i>: noun, uncountable, “Herpes zoster”.",
+      "establishes": "The two nouns CGEL groups together receive different number codings.",
+      "locator": "English noun headword lines."
+    },
+    {
+      "role": "Research source",
+      "source": "Oxford English Dictionary, “hives, n.” (first published 1898; not fully revised).",
+      "url": "https://www.oed.com/dictionary/hives_n",
+      "passage": "§3.2.3, p. 346 [42i].",
+      "example": "Sense a: “Chiefly with plural agreement.” Quotation 1893 (Heslop): <i>Hives are not usually outward eruptions.</i>",
+      "establishes": "Historical and regional evidence for plural agreement. It does not establish present-day usage.",
+      "locator": "Meaning & use, sense a. Accessed 19 November 2026 through the University of Toronto Libraries subscription."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0065/"
+}

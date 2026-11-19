@@ -1,0 +1,34 @@
+{
+  "id": "CG-0089",
+  "topic": "Bare genitive and plural formation",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "16.6",
+    "page": 481
+  },
+  "claim": "The bare genitive is obligatory when the plural is formed regularly with <i>·s</i>, and <i>’s</i> is required when the plural is not formed with <i>·s</i>.",
+  "evidence_summary": "Ch. 18, pp. 1595–1596 [35i], lists <i>indices’ theses’ species’</i> (and <i>wives’</i>) as obligatory bare genitives: “regular or irregular, including foreign plurals like <i>indices</i>”.",
+  "finding": "State the rule in terms of plurals ending in <i>s</i>. The argument from <i>geese</i> and <i>mice</i> for inflectional status is unaffected.",
+  "semantic_inference": false,
+  "condition": "Distributional restriction",
+  "internal_tension": true,
+  "related": "480–481 [66]. 1585. 1595–1596 [35]",
+  "proposed_wording": "the bare genitive is obligatory when the plural form ends in <i>s</i>, however it is formed, and <i>’s</i> is required otherwise",
+  "inference": "Does the bare genitive track regular <i>·s</i> plural formation?",
+  "family": "Genitives, nominal arguments and subjecthood",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 error sweep, 19 November 2026",
+      "url": null,
+      "passage": "§16.6, p. 481.",
+      "example": "Ch. 18, pp. 1595–1596.",
+      "establishes": "The two chapters state different conditions on the bare genitive.",
+      "locator": "Section A, item A3.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0089/"
+}

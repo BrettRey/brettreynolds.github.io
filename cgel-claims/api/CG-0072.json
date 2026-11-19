@@ -1,0 +1,34 @@
+{
+  "id": "CG-0072",
+  "topic": "Bare role NPs outside predicative complement",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "8.2",
+    "page": 401
+  },
+  "claim": "<i>Treasurer</i> in <i>I was elected treasurer</i> is a bare role NP restricted to the function of predicative complement.",
+  "evidence_summary": "Page 409 lists complement of <i>of</i> after <i>role</i>, <i>part</i> or <i>position</i>, with [19iii] <i>The role of treasurer will fall to Henry.</i> Page 1358 has the supplement <i>Wilson, Secretary to the Cabinet</i>. Ch. 4 p. 255 treats the <i>as</i> phrase as a marked predicative, which covers [19ii] only.",
+  "finding": "Extend the restriction to the <i>of</i> construction and supplements, or explain how they count as predicative. CG-0024 concerns insertion of <i>the</i> in the same NPs.",
+  "semantic_inference": false,
+  "condition": "Distributional restriction",
+  "internal_tension": true,
+  "related": "401 [5iv]. 409 [19]. 1358",
+  "proposed_wording": "Bare role NPs are restricted to predicative functions, the complement of <i>of</i> after nouns such as <i>role</i>, and supplements.",
+  "inference": "Can a determiner-less role NP occur only as predicative complement?",
+  "family": "Definiteness, reference and names",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 error sweep, 19 November 2026",
+      "url": null,
+      "passage": "§8.2, p. 401 [5iv]. “a bare role NP restricted to the function of predicative complement”.",
+      "example": "Page 409 [19iii] <i>The role of treasurer will fall to Henry.</i> Page 1358, <i>Wilson, Secretary to the Cabinet</i>.",
+      "establishes": "The chapter’s own inventory includes a non-predicative function.",
+      "locator": "Section A, item A7.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0072/"
+}

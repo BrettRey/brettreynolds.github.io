@@ -1,0 +1,33 @@
+{
+  "id": "CG-0020",
+  "topic": "Dependent scope across occasions",
+  "assessment": "Correction",
+  "cgel": {
+    "chapter": 5,
+    "section": "8.3",
+    "page": 406
+  },
+  "claim": "The non-referential lunch-colleague reading requires variation across occasions.",
+  "evidence_summary": "In a completed twelve-Friday placement I usually had lunch with a colleague. I ate alone twice. On the other ten Fridays an independent draw assigned the partner, I followed the draw, and all ten draws selected Jo. Constructed.",
+  "finding": "Changing a draw would have changed my partner. A standing appointment with Jo would have survived that change. The procedure establishes dependence despite identical outcomes. Even in that history the speaker could mean Jo specifically.",
+  "semantic_inference": true,
+  "condition": "Necessary",
+  "internal_tension": true,
+  "related": "406 [13iii], 1473 [32ii]",
+  "proposed_wording": "A partner can be determined afresh on each occasion even when every assignment selects the same colleague. Variation across lunches makes this reading easier to distinguish from fixed reference.",
+  "inference": "Must a partner assigned per occasion ever differ across the occasions that actually occur?",
+  "family": "Dependent readings",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§8.3, p. 406, [13iii], <i>I usually have lunch with a colleague</i>. The explanation says “in the non-referential case there is variation between one occasion and another”.",
+      "example": "In a completed twelve-Friday placement I usually had lunch with a colleague. I ate alone twice. On the other ten Fridays an independent draw assigned the partner, I followed the draw, and all ten draws selected Jo. Constructed.",
+      "establishes": "Changing a draw would have changed my partner. A standing appointment with Jo would have survived that change. The procedure establishes dependence despite identical outcomes. Even in that history the speaker could mean Jo specifically.",
+      "locator": "The difference between possible variation and actual variation",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0020/"
+}

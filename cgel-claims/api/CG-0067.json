@@ -1,0 +1,61 @@
+{
+  "id": "CG-0067",
+  "topic": "Game names that also name pieces",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "3.2.3",
+    "page": 348
+  },
+  "claim": "<i>Checkers</i> (AmE) and <i>ninepins</i> apply only to the game and are therefore singular nouns. <i>Cards</i>, <i>darts</i>, <i>dominoes</i> and <i>skittles</i> are plurals that can also apply to the entities used in the game.",
+  "evidence_summary": "<i>Skittles</i> is placed in [49ii] because it names the pins, but <i>ninepins</i> names the same kind of pins and appears in [49i]. OED: <i>checker</i> (II.7b) is a playing piece in checkers, “The usual term in North America”, from 1808; <i>ninepins</i> (II.2a) is each of the pins, from 1664, and the game name takes singular agreement (I.1).",
+  "finding": "By CGEL’s own criterion ([50ii] <i>I’ve only three dominoes left</i>), <i>ninepins</i> and <i>checkers</i> belong in [49ii], with the game reading recategorizing a plural NP. Footnote 10 already concedes <i>draughts</i> for some speakers.",
+  "semantic_inference": true,
+  "condition": "Sufficient",
+  "internal_tension": true,
+  "related": "348 [49–50] and n. 10",
+  "proposed_wording": "<i>Billiards</i> and <i>fives</i> apply only to the game. <i>Checkers</i> and <i>ninepins</i> can also apply to the pieces and belong with [ii], as <i>draughts</i> does for some speakers.",
+  "inference": "Does CGEL apply its pieces criterion consistently across the game names in [49]?",
+  "family": "Count syntax and individuation",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 error sweep, 19 November 2026",
+      "url": null,
+      "passage": "§3.2.3(d), p. 348 [49]. “But the nouns in [49i] apply only to the game (ignoring irrelevant senses)”.",
+      "example": "Compare <i>skittles</i> in [49ii] with <i>ninepins</i> in [49i]. Footnote 10 places <i>draughts</i> in [ii] for some speakers.",
+      "establishes": "The classification is internally inconsistent for ninepins. The dictionary rows supply the piece senses.",
+      "locator": "Section B, item B5.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    },
+    {
+      "role": "Research source",
+      "source": "Wiktionary, “checker” (revision 93684205) and “ninepin” (revision 90796357).",
+      "url": "https://en.wiktionary.org/w/index.php?title=checker&oldid=93684205",
+      "passage": "§3.2.3(d), p. 348 [49i].",
+      "example": "<i>checker</i>, etymology 2: “A playing piece in the game of checkers (British: draughts), or certain other table games such as backgammon.” <i>ninepin</i>: “The wooden pin used in the game of ninepins; a skittle.”",
+      "establishes": "Both singulars name entities used in the game, the property CGEL uses to place a name in [49ii].",
+      "locator": "checker, Etymology 2, noun sense 1. ninepin, noun sense 1."
+    },
+    {
+      "role": "Research source",
+      "source": "Oxford English Dictionary, “chequer | checker, n.¹” (revised 2025).",
+      "url": "https://www.oed.com/dictionary/chequer_n1",
+      "passage": "§3.2.3(d), p. 348 [49i].",
+      "example": "Sense II.7b: “One of the playing pieces used in the game of checkers”, usually in plural, “The usual term in North America”; first quotation 1808. Sense II.7a: the game, usually <i>checkers</i> with singular agreement.",
+      "establishes": "<i>Checkers</i> is a plural of a count noun naming the pieces, as well as the name of the game.",
+      "locator": "Meaning & use, senses II.7a–b. Accessed 19 November 2026 through the University of Toronto Libraries subscription."
+    },
+    {
+      "role": "Research source",
+      "source": "Oxford English Dictionary, “ninepins, n.” (revised 2003).",
+      "url": "https://www.oed.com/dictionary/ninepins_n",
+      "passage": "§3.2.3(d), p. 348 [49i].",
+      "example": "Sense I.1: the game, in plural form, “Usually with singular agreement.” Sense II.2a: “Each of the pins with which this game is played”, from 1664.",
+      "establishes": "<i>Ninepins</i> has the same two uses as <i>skittles</i> and <i>dominoes</i> in [49ii].",
+      "locator": "Meaning & use, senses I.1 and II.2a. Accessed 19 November 2026 through the University of Toronto Libraries subscription."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0067/"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "CG-0057",
+  "topic": "Function of <i>from Lloyds</i> in tree [11]",
+  "assessment": "Author erratum",
+  "cgel": {
+    "chapter": 5,
+    "section": "2",
+    "page": 332
+  },
+  "claim": "In the salary NP in tree [11], CGEL labels the PP <i>from Lloyds</i> as a complement.",
+  "evidence_summary": "Compare the printed Comp label with the authors’ published instruction to replace it with Mod. Both use PP for the category and permit the same branching.",
+  "finding": "Change the dependent’s function label in this tree. Nothing about the correction assigns a uniform function to other <i>from</i>-phrases.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "332 [11]",
+  "proposed_wording": "Label <i>from Lloyds</i> as a modifier (Mod) above PP.",
+  "inference": "Which dependent function should [11] assign to the particular PP <i>from Lloyds</i>?",
+  "family": "Licensing and order of dependents",
+  "evidence": [
+    {
+      "role": "Published erratum",
+      "source": "CGEL authors. The Cambridge Grammar of the English Language: Typographical and Other Errors.",
+      "url": "https://pullum.ppls.ed.ac.uk/cgelerrata.html",
+      "passage": "§2, p. 332, tree [11]. The PP <i>from Lloyds</i>, following <i>salary</i>, bears the function label Comp. The immediately higher relative clause has a separate attachment.",
+      "example": "The authors explicitly replace the complement function label on <i>from Lloyds</i> with modifier. The PP category and the tree’s branching remain as printed.",
+      "establishes": "An author-acknowledged change to this analysis.",
+      "locator": "Opening numbered list, item 1, and table entry for p. 332, tree [11]."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0057/"
+}

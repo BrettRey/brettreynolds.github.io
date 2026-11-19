@@ -1,0 +1,41 @@
+{
+  "id": "CG-0037",
+  "topic": "Obligatory complement of <i>denizen</i>",
+  "assessment": "Author erratum",
+  "cgel": {
+    "chapter": 5,
+    "section": "14.1",
+    "page": 440
+  },
+  "claim": "<i>Denizen</i> was identified as the exception among nouns in requiring a complement.",
+  "evidence_summary": "The authors’ errata expressly withdraw the exception.",
+  "finding": "Use the corrected wording in later comparisons.",
+  "semantic_inference": false,
+  "condition": "Necessary",
+  "internal_tension": false,
+  "related": "440",
+  "inference": "Does <i>denizen</i> require an overt complement in every use?",
+  "family": "Licensing and order of dependents",
+  "evidence": [
+    {
+      "role": "Published erratum",
+      "source": "CGEL authors. The Cambridge Grammar of the English Language: Typographical and Other Errors.",
+      "url": "https://pullum.ppls.ed.ac.uk/cgelerrata.html",
+      "passage": "§14.1, p. 440. <i>Denizen</i> was identified as the exception among nouns in requiring a complement.",
+      "example": "The erratum withdraws the special claim about obligatory complementation of <i>denizen</i>.",
+      "establishes": "Records an author correction already made.",
+      "locator": "Entry for printed p. 440, §14.1."
+    },
+    {
+      "role": "Audit note",
+      "source": "Nouns and noun phrases notebook",
+      "url": null,
+      "passage": "§14.1, p. 440. <i>Denizen</i> was identified as the exception among nouns in requiring a complement.",
+      "example": "The authors’ errata expressly withdraw the exception.",
+      "establishes": "Use the corrected wording in later comparisons.",
+      "locator": "Relation to the existing inventory",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0037/"
+}

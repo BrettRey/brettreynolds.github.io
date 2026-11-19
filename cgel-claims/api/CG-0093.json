@@ -1,0 +1,33 @@
+{
+  "id": "CG-0093",
+  "topic": "Number-transparent singular nouns",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 5,
+    "section": "18.2",
+    "page": 503
+  },
+  "claim": "The clear cases of number-transparent singular nouns are <i>lot</i>, <i>number</i> and <i>couple</i>₂.",
+  "evidence_summary": "Page 350 [57] also lists singular <i>plenty</i>, <i>remainder</i> and <i>rest</i> without hedging. Page 504 adds <i>percent</i>.",
+  "finding": "The p. 503 list is restricted to nouns taking <i>a</i> + N + <i>of</i> without saying so.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "350 [57]. 503. 504",
+  "inference": "Does the list match the inventory in §3.3?",
+  "family": "Number, agreement and predication",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 error sweep, 19 November 2026",
+      "url": null,
+      "passage": "§18.2, p. 503.",
+      "example": "§3.3, p. 350 [57].",
+      "establishes": "Two inventories of the same class differ.",
+      "locator": "Section A, item A16.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0093/"
+}

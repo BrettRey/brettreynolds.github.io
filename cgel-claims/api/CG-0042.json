@@ -1,0 +1,41 @@
+{
+  "id": "CG-0042",
+  "topic": "Heads of marked appositives",
+  "assessment": "Correction",
+  "cgel": {
+    "chapter": 5,
+    "section": "14.3",
+    "page": 448
+  },
+  "claim": "Heads before appositive <i>of</i> are limited to month and politico-geographical terms.",
+  "evidence_summary": "The Foreign Office names <i>the Hindu festival of Holi</i>. <i>Holi</i> identifies the festival being celebrated.",
+  "finding": "Extend the inventory to <i>festival</i> in this identifying use. <i>A festival of music</i> has a different relation.",
+  "semantic_inference": false,
+  "condition": "Distributional restriction",
+  "internal_tension": false,
+  "related": "448 [21]",
+  "inference": "Must a head in identifying <i>of</i> be month or a politico-geographical term?",
+  "family": "Licensing and order of dependents",
+  "evidence": [
+    {
+      "role": "Attestation",
+      "source": "UK Foreign & Commonwealth Office (13 March 2017). Alok Sharma extends his wishes for a happy Holi festival.",
+      "url": "https://www.gov.uk/government/news/alok-sharma-extends-his-wishes-for-a-happy-holi-festival",
+      "passage": "§14.3, p. 448, [21]. CGEL restricts heads in the identifying <i>of</i> construction to month and names of politico-geographical categories. The construction specifies which entity bears the name.",
+      "example": "The account identifies the occasion celebrated as <i>the Hindu festival of Holi</i>. Compare <i>a festival of music</i>, where music supplies subject matter.",
+      "establishes": "<i>Festival</i> admits an identifying use outside CGEL’s stated head inventory.",
+      "locator": "Second body paragraph after the photograph, first sentence."
+    },
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§14.3, p. 448, [21]. CGEL restricts heads in the identifying <i>of</i> construction to month and names of politico-geographical categories. The construction specifies which entity bears the name.",
+      "example": "The Foreign Office names <i>the Hindu festival of Holi</i>. <i>Holi</i> identifies the festival being celebrated.",
+      "establishes": "Extend the inventory to <i>festival</i> in this identifying use. <i>A festival of music</i> has a different relation.",
+      "locator": "Structural analyses with a genuine rival",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0042/"
+}

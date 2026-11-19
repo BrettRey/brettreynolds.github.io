@@ -1,0 +1,50 @@
+{
+  "id": "CG-0023",
+  "topic": "Weak definite NPs",
+  "assessment": "Extension",
+  "cgel": {
+    "chapter": 5,
+    "section": "8.4",
+    "page": 408
+  },
+  "claim": "The grammar records activity readings with <i>the bus</i> and similar expressions.",
+  "evidence_summary": "Under VP ellipsis two people may go to different hospitals. Keeping the noun constant and varying its governor affects the weak reading.",
+  "finding": "These tests extend the account of when the activity reading is available.",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "407–410",
+  "inference": "Which verb–noun combinations allow a weak reading with different individual referents?",
+  "family": "Definiteness, reference and names",
+  "evidence": [
+    {
+      "role": "Research source",
+      "source": "Natalie M. Klein, Whitney M. Gegg-Harrison, Greg N. Carlson & Michael K. Tanenhaus (2013). Experimental investigations of weak definite and weak indefinite noun phrases. Cognition 128(2), 187–213.",
+      "url": "https://doi.org/10.1016/j.cognition.2013.03.007",
+      "passage": "§8.4, p. 408. The grammar records activity readings with <i>the bus</i> and similar expressions.",
+      "example": "The experiments bear on conventional activities associated with particular verb–noun combinations.",
+      "establishes": "Evidence for describing the distribution of an interpretation CGEL already records.",
+      "locator": "Experimental study of weak definite and weak indefinite NPs."
+    },
+    {
+      "role": "Research source",
+      "source": "Ana Aguilar-Guevara & Joost Zwarts (2010). Weak definites and reference to kinds. Proceedings of SALT 20, 179–196.",
+      "url": "https://doi.org/10.3765/salt.v20i0.2583",
+      "passage": "§8.4, p. 408. The grammar records activity readings with <i>the bus</i> and similar expressions.",
+      "example": "A repeated <i>hospital</i> expression can pick out different hospitals for different patients.",
+      "establishes": "Illustrates how to diagnose the activity reading. The proposed kind analysis is an additional theoretical commitment.",
+      "locator": "Discussion of weak definites and their readings under ellipsis."
+    },
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§8.4, p. 408. The grammar records activity readings with <i>the bus</i> and similar expressions.",
+      "example": "Under VP ellipsis two people may go to different hospitals. Keeping the noun constant and varying its governor affects the weak reading.",
+      "establishes": "These tests extend the account of when the activity reading is available.",
+      "locator": "Coverage by numbered section",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0023/"
+}

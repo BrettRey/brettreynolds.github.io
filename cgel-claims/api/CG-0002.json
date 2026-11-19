@@ -1,0 +1,32 @@
+{
+  "id": "CG-0002",
+  "topic": "Dummy <i>there</i> as an NP",
+  "assessment": "Supported",
+  "cgel": {
+    "chapter": 5,
+    "section": "1",
+    "page": 328
+  },
+  "claim": "CGEL includes dummy <i>there</i> on distributional grounds.",
+  "evidence_summary": "<i>There</i> occupies the subject slot and can itself appear as the subject of a question tag.",
+  "finding": "Tag behaviour independently supports the pronoun analysis, despite limited distribution.",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "333, 427",
+  "inference": "Does the subject and tag distribution of dummy <i>there</i> support its placement with pronouns?",
+  "family": "Nouns, pronouns and word boundaries",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 5 systematic audit",
+      "url": null,
+      "passage": "§1, p. 328. CGEL includes dummy <i>there</i> on distributional grounds.",
+      "example": "Compare existential <i>There is a problem</i> with its tag <i>isn’t there</i>? The position after the inverted verb in the tag independently identifies the subject form.",
+      "establishes": "The distribution supplies evidence for the pronominal analysis of unstressed existential <i>there</i> even though it lacks an ordinary referent.",
+      "locator": "Coverage by numbered section",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0002/"
+}

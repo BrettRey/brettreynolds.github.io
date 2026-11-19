@@ -230,7 +230,7 @@
         "A learner might use isn't or aren't to negate be in an imperative, when this dictionary requires do-support in Don't be late.",
         "A learner might treat any directive as an imperative clause, though other forms can convey directives."
       ],
-      "activity": "Give students a mixed set of directives, wishes and requests. They mark which are imperatives (a plain-form verb, with the subject either left out or overt) and which are other forms that convey a directive."
+      "activity": "Give students a mixed set of directives, wishes and requests. They mark which are imperatives, using this page's examples as models, and which are other forms that convey a directive."
     },
     "child": {
       "hook": "Does every sentence like Be generous give an order?",
@@ -271,10 +271,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Imperative Clause.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/imperative-clause-001/ (snapshot 2026-11-19, fa37529).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Imperative Clause.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/imperative-clause-001/ (snapshot 2026-11-19, 5c11b28).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "fa37529",
+    "commit": "5c11b28",
     "dirty_data": false
   }
 }

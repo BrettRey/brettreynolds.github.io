@@ -113,17 +113,17 @@
       },
       "checked": {
         "date": "2026-11-19",
-        "model": "codex (gpt-6.2-sol)",
+        "model": "codex (gpt-6.2-sol); claude-opus-5-5 (audit edits)",
         "result": "pass",
         "note": "Audit: fixed curious.body, which gave a causal link (because it carries that description) that the entry does not make, and the child hook and explain, which called the noun shoes a name. Also replaced the entry with this dictionary in curious and teacher text, Often with Sometimes in teacher.terms, and restated the count limit with the entry's normally."
       }
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Pro-Nominal One and Ones.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/pro-nominal-one-001/ (snapshot 2026-11-19, fa37529).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Pro-Nominal One and Ones.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/pro-nominal-one-001/ (snapshot 2026-11-19, 5c11b28).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "fa37529",
+    "commit": "5c11b28",
     "dirty_data": false
   }
 }

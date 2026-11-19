@@ -21,7 +21,7 @@
     "meanings": {
       "1": {
         "definition": "A DP functions simultaneously as determiner and head of the NP, with no separate nominal head",
-        "details": "CGEL Ch. 5 §9. Covers anaphoric uses, partitives, the compound determinatives in -body/-one/-thing/-where (traditional 'indefinite pronouns'), and demonstratives standing alone. These are not pronouns; the category stays determinative while the head function is fused. This entry is a determiner-head subtype of the broader fused-head construction. Contested: Reynolds, Determinatives as nouns in English (under review at ELL; LingBuzz 009939), analyzes determinatives as a fourth noun subclass, with simple independent uses (Some left) as ordinary Head rather than fused Det-Head, narrowing fusion to a residue. If adopted, this entry shrinks accordingly.",
+        "details": "CGEL Ch. 5 §9. Covers anaphoric uses, partitives, the compound determinatives in -body/-one/-thing/-where (traditional 'indefinite pronouns'), and demonstratives standing alone. These are not pronouns; the category stays determinative while the head function is fused. This entry is a determiner-head subtype of the broader fused-head construction. Contested: Reynolds, Determinatives as nouns in English (LingBuzz 009939), analyzes determinatives as a fourth noun subclass, with simple independent uses (Some left) as ordinary Head rather than fused Det-Head, narrowing fusion to a residue. If adopted, this entry shrinks accordingly.",
         "examples": [
           {
             "form": "She bought twenty books, but I bought [twenty-two].",
@@ -165,10 +165,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Fused Determiner-Head Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/fused-determiner-head-001/ (snapshot 2026-11-19, fa37529).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Fused Determiner-Head Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/fused-determiner-head-001/ (snapshot 2026-11-19, 5c11b28).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "fa37529",
+    "commit": "5c11b28",
     "dirty_data": false
   }
 }

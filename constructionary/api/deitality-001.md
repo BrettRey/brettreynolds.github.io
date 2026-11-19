@@ -4,13 +4,13 @@
 - pattern: Structural profile over determination: there-resistance + partitive domain establishment + identificational hosting
 - status: provisional analysis; evidence level: stable
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/deitality-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (fa37529)
+- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
 
 ## Meaning 1
 
 A structural (morphosyntactic) profile of English determination, distinct from semantic definiteness, for which English grammar previously had no agreed name
 
-Reynolds, Definiteness and Deitality in English (under review at Journal of Linguistics; LingBuzz 009369). Prototype: the demonstratives (deictic, and the historical source of the). Core diagnostics, ranked: resistance to neutral existential there pivots; domain establishment in true partitives; ready hosting of identificational material. A narrow bare-one substitution pattern supplies corroborating residue, not a core diagnostic. Definiteness and deitality usually coincide, which is why they get run together; weak definites, generic definites, narrative this, and proper names each mark a point where they separate. See data/indices/deitality-status.yaml for the provisional membership inventory.
+Reynolds, Definiteness and Deitality in English (LingBuzz 009369). Prototype: the demonstratives (deictic, and the historical source of the). Core diagnostics, ranked: resistance to neutral existential there pivots; domain establishment in true partitives; ready hosting of identificational material. A narrow bare-one substitution pattern supplies corroborating residue, not a core diagnostic. Definiteness and deitality usually coincide, which is why they get run together; weak definites, generic definites, narrative this, and proper names each mark a point where they separate. See data/indices/deitality-status.yaml for the provisional membership inventory.
 
 - **There was [the] dog in the yard.*: There-resistance under neutral prosody (definiteness effect)
 - *two of [the] dogs / *two of [some] dogs (true partitive)*: Domain-establishing complement in a true partitive

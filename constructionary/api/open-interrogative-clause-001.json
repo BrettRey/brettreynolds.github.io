@@ -158,7 +158,7 @@
   "editions": {
     "curious": {
       "title": "Questions built around a question word",
-      "summary": "Questions starting with a word like who, what or why ask for a missing piece of information, and word order depends on what the question word does.",
+      "summary": "Questions starting with a word like who, what or why typically ask for a missing piece of information, and word order depends on what the question word does.",
       "body": "A question such as Who broke the window? asks for a missing piece, and the answer supplies it. The question word comes from the set who, whom, whose, which, what, when, where, why and how.\n\nWhen the question word is the subject, as in Who broke the window?, the order stays as in a statement. When it's something else, as in Which report did Kim finish?, it is normally moved to the front, and in a main question like this one a helping verb comes before the subject. A question tucked inside a sentence, as in I know which report Kim finished, normally keeps the statement order. Not every such question is a real request: Why are you making such a fuss? can be a complaint.",
       "examples": [
         {
@@ -228,7 +228,7 @@
     },
     "child": {
       "hook": "Which words start a question, like who, what, where and why?",
-      "explain": "Some questions start with a word like who, what, where or why. They ask for a missing piece, and the answer fills it in. Who broke the window? asks who did it.",
+      "explain": "Some questions start with a word like who, what, where or why. They usually ask for a missing piece, and the answer fills it in. Who broke the window? asks who did it.",
       "examples": [
         {
           "text": "[Who broke the window?]",
@@ -261,10 +261,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Open Interrogative Clause.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/open-interrogative-clause-001/ (snapshot 2026-11-19, fa37529).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Open Interrogative Clause.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/open-interrogative-clause-001/ (snapshot 2026-11-19, 5c11b28).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "fa37529",
+    "commit": "5c11b28",
     "dirty_data": false
   }
 }

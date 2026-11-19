@@ -107,7 +107,7 @@
     },
     "teacher": {
       "summary": "Core pattern for the perfect, with its present, past, experiential and continuing uses.",
-      "explain": "Perfect have selects a past participle and relates a situation to a temporal anchor. With a present anchor (has finished) the situation is prior to now; with a past anchor (had left) it precedes that past time. A present anchor is only one possibility, even when no time expression is overt. This dictionary distinguishes three uses: a prior situation relative to the anchor (has finished the report, had already left), experiential or repeatable prior occurrence (have visited Japan), and a continuing situation spanning up to the reference time (have lived there for three years, has worked here since 2020). It also separates perfect anteriority from primary tense and from the contextual interpretation of current relevance. This dictionary marks the analysis as provisional, with medium confidence.",
+      "explain": "Perfect have selects a past participle and relates a situation to a temporal anchor. With a present anchor (has finished) the situation is prior to now or, in the continuing use, runs up to now; with a past anchor (had left) it precedes that past time. A present anchor is only one possibility, even when no time expression is overt. This dictionary distinguishes three uses: a prior situation relative to the anchor (has finished the report, had already left), experiential or repeatable prior occurrence (have visited Japan), and a continuing situation spanning up to the reference time (have lived there for three years, has worked here since 2020). It also separates perfect anteriority from primary tense and from the contextual interpretation of current relevance. This dictionary marks the analysis as provisional, with medium confidence.",
       "terms": "Textbooks sometimes call these the present perfect and the past perfect. This dictionary's preterite perfect is the version with a past anchor. The continuing use is also called the universal or continuative perfect.",
       "examples": [
         {
@@ -192,10 +192,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Perfect HAVE + V-en.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/perfect-have-001/ (snapshot 2026-11-19, fa37529).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Perfect HAVE + V-en.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/perfect-have-001/ (snapshot 2026-11-19, 5c11b28).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "fa37529",
+    "commit": "5c11b28",
     "dirty_data": false
   }
 }

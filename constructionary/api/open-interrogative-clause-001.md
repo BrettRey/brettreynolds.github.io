@@ -4,7 +4,7 @@
 - pattern: Clause: Interrogative:XP[non-subject] + (Subject:XP +) Head:VP / Subject:XP[interrogative] + Head:VP
 - status: provisional analysis; evidence level: stable
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/open-interrogative-clause-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (fa37529)
+- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
 
 ## Meaning 1
 
@@ -53,7 +53,7 @@ The grammatical role of the interrogative phrase predicts whether main-clause fr
 
 ### Curious reader: Questions built around a question word
 
-Questions starting with a word like who, what or why ask for a missing piece of information, and word order depends on what the question word does.
+Questions starting with a word like who, what or why typically ask for a missing piece of information, and word order depends on what the question word does.
 
 A question such as Who broke the window? asks for a missing piece, and the answer supplies it. The question word comes from the set who, whom, whose, which, what, when, where, why and how.
 
@@ -69,4 +69,4 @@ An open interrogative is a headed clause marked by an interrogative phrase, char
 
 Which words start a question, like who, what, where and why?
 
-Some questions start with a word like who, what, where or why. They ask for a missing piece, and the answer fills it in. Who broke the window? asks who did it.
+Some questions start with a word like who, what, where or why. They usually ask for a missing piece, and the answer fills it in. Who broke the window? asks who did it.

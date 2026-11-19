@@ -4,7 +4,7 @@
 - pattern: Aux HAVE + V-en
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/perfect-have-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (fa37529)
+- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
 
 ## Meaning 1
 
@@ -66,7 +66,7 @@ The same build also covers I have visited Japan and We have met before, which re
 
 Core pattern for the perfect, with its present, past, experiential and continuing uses.
 
-Perfect have selects a past participle and relates a situation to a temporal anchor. With a present anchor (has finished) the situation is prior to now; with a past anchor (had left) it precedes that past time. A present anchor is only one possibility, even when no time expression is overt. This dictionary distinguishes three uses: a prior situation relative to the anchor (has finished the report, had already left), experiential or repeatable prior occurrence (have visited Japan), and a continuing situation spanning up to the reference time (have lived there for three years, has worked here since 2020). It also separates perfect anteriority from primary tense and from the contextual interpretation of current relevance. This dictionary marks the analysis as provisional, with medium confidence.
+Perfect have selects a past participle and relates a situation to a temporal anchor. With a present anchor (has finished) the situation is prior to now or, in the continuing use, runs up to now; with a past anchor (had left) it precedes that past time. A present anchor is only one possibility, even when no time expression is overt. This dictionary distinguishes three uses: a prior situation relative to the anchor (has finished the report, had already left), experiential or repeatable prior occurrence (have visited Japan), and a continuing situation spanning up to the reference time (have lived there for three years, has worked here since 2020). It also separates perfect anteriority from primary tense and from the contextual interpretation of current relevance. This dictionary marks the analysis as provisional, with medium confidence.
 
 ### Child
 

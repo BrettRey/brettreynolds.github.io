@@ -94,17 +94,17 @@
       },
       "checked": {
         "date": "2026-11-19",
-        "model": "codex (gpt-6.2-sol)",
+        "model": "codex (gpt-6.2-sol); claude-opus-5-5 (audit edits)",
         "result": "pass",
         "note": "Audit: fixed curious.try, which compared the sentence with and without only (the entry's test is expansion to in order to). Also replaced This entry and The entry in teacher.explain, and cut resultative to-infinitive from teacher.terms (it could be confused with the resultative construction)."
       }
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Infinitival of Subsequent Outcome.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/infinitival-result-adjunct-001/ (snapshot 2026-11-19, fa37529).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Infinitival of Subsequent Outcome.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/infinitival-result-adjunct-001/ (snapshot 2026-11-19, 5c11b28).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "fa37529",
+    "commit": "5c11b28",
     "dirty_data": false
   }
 }

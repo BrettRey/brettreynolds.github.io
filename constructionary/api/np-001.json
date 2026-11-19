@@ -83,7 +83,7 @@
   "editions": {
     "curious": {
       "title": "Phrases that name things",
-      "summary": "A noun phrase is a word or group of words built around a noun or pronoun. It can point to a person, thing or idea.",
+      "summary": "A noun phrase is a word or group of words built around a head, which is ordinarily a noun or pronoun. It can point to a person, thing or idea.",
       "body": "John, the book and he can all do the same job in a sentence: each one names or points to something. John is a name, the book is a noun with a small word in front, and he is a pronoun.\n\nSuch a phrase can be the subject of a sentence or its object. It can also describe something, and it can point to things, ideas or qualities. This is the most general kind of noun phrase, and the dictionary uses it as a parent for more specific kinds.",
       "examples": [
         {
@@ -123,7 +123,7 @@
         "A learner might think a noun phrase must contain a determiner, when a name such as John is a full noun phrase.",
         "A learner might expect the small to stand in for the small box anywhere, when that ordinarily needs a recoverable noun or another licensed fused-head use."
       ],
-      "activity": "Write a short sentence on the board. Students underline each noun phrase, then say whether its head is a noun or a pronoun."
+      "activity": "Write a short sentence on the board. Students underline each noun phrase, then say whether its head is a noun, a pronoun or something else (as in the small, said of cups)."
     }
   },
   "status": {
@@ -145,10 +145,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Noun Phrase.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/np-001/ (snapshot 2026-11-19, fa37529).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Noun Phrase.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/np-001/ (snapshot 2026-11-19, 5c11b28).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "fa37529",
+    "commit": "5c11b28",
     "dirty_data": false
   }
 }

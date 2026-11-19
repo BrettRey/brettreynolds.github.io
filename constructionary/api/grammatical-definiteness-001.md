@@ -4,7 +4,7 @@
 - pattern: Semantic feature implemented through nominal determination
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/grammatical-definiteness-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (fa37529)
+- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
 
 ## Meaning 1
 
@@ -48,7 +48,7 @@ Whether entity is established in discourse
 ## Sources
 
 - Huddleston, Rodney & Geoffrey K. Pullum (2002), The Cambridge Grammar of the English Language. Cambridge: CUP, Ch. 5 §6; Ch. 16 §6.2.2 (discusses; bears on projection)
-- Reynolds, Brett, Definiteness and Deitality in English: A Projectibility-First Account (under review, Journal of Linguistics), Ranked formal diagnostics and interpretation mismatches (discusses; bears on projection)
+- Reynolds, Brett, Definiteness and Deitality in English: A Projectibility-First Account. LingBuzz 009369, Ranked formal diagnostics and interpretation mismatches (discusses; bears on projection)
 
 ## Projection
 

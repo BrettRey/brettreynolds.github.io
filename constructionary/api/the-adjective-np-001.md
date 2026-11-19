@@ -4,7 +4,7 @@
 - pattern: NP[Det:the + fused Modifier–Head:AdjP]
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/the-adjective-np-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (fa37529)
+- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
 
 ## Meaning 1
 

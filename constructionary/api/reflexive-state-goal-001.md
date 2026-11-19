@@ -4,7 +4,7 @@
 - pattern: VP[V + reflexive direct object + PP denoting a resulting state]
 - status: provisional analysis; evidence level: unassessed; early sketch (one example, evidence not yet written up)
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/reflexive-state-goal-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (fa37529)
+- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
 
 ## Meaning 1
 

@@ -101,17 +101,17 @@
       },
       "checked": {
         "date": "2026-11-19",
-        "model": "codex (gpt-6.2-sol)",
+        "model": "codex (gpt-6.2-sol); claude-opus-5-5 (audit edits)",
         "result": "pass",
         "note": "Audit: fixed teacher.terms, which glossed the pattern as an embedded yes/no question only (the entry also covers a choice between alternatives)."
       }
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Subordinate Closed Interrogative with Whether.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/closed-interrogative-whether-001/ (snapshot 2026-11-19, fa37529).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Subordinate Closed Interrogative with Whether.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/closed-interrogative-whether-001/ (snapshot 2026-11-19, 5c11b28).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "fa37529",
+    "commit": "5c11b28",
     "dirty_data": false
   }
 }

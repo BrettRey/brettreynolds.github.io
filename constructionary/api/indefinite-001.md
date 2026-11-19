@@ -4,7 +4,7 @@
 - pattern: Indefinite determination or contextually indefinite bare plural/non-count NP
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/indefinite-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (fa37529)
+- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
 
 ## Meaning 1
 
@@ -52,7 +52,7 @@ Instance of category
 ## Sources
 
 - Huddleston, Rodney & Geoffrey K. Pullum (2002), The Cambridge Grammar of the English Language. Cambridge: CUP, Ch. 5 §§6.2, 8; Ch. 16 §6.2.2 (discusses; bears on projection)
-- Reynolds, Brett, Definiteness and Deitality in English: A Projectibility-First Account (under review, Journal of Linguistics), Deital form and interpretation, including non-deital residual cases (discusses; bears on projection)
+- Reynolds, Brett, Definiteness and Deitality in English: A Projectibility-First Account. LingBuzz 009369, Deital form and interpretation, including non-deital residual cases (discusses; bears on projection)
 
 ## Projection
 

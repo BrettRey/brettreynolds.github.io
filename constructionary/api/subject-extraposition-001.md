@@ -4,7 +4,7 @@
 - pattern: Clause[Subject:dummy it + VP[... + extraposed content clause or infinitival]]
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/subject-extraposition-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (fa37529)
+- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
 
 ## Meaning 1
 

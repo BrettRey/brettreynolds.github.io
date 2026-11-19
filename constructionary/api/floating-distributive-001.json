@@ -74,7 +74,7 @@
     "teacher": {
       "summary": "Helps explain floating each, which distributes an action over the members of a nearby plural noun phrase.",
       "explain": "Floating each is separately positioned from the plural participant NP it is associated with, and it distributes the predication over the individual members: The three hikers each carried a radio. Each can follow the subject across a finite auxiliary, as in The hikers had each carried a radio. The linked NP can have its own determiner and isn't contained in each. This dictionary relates the pattern to the each-of partitive and to each in subject determiner function, and marks it provisional, with medium confidence.",
-      "terms": "Floating quantifier is a common textbook name for each in this position. Distributive each is used for its meaning.",
+      "terms": "Each in this position is sometimes called a floating quantifier. Distributive each is used for its meaning.",
       "examples": [
         {
           "text": "The three hikers [each carried a radio].",
@@ -116,17 +116,17 @@
       },
       "checked": {
         "date": "2026-11-19",
-        "model": "codex (gpt-6.2-sol)",
+        "model": "codex (gpt-6.2-sol); claude-opus-5-5 (audit edits)",
         "result": "pass",
         "note": "Audit: fixed teacher.summary, plural subject changed to nearby plural noun phrase (the entry says a plural participant NP, a nearby argument); also The entry changed to This dictionary in teacher.explain."
       }
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Floating Each.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/floating-distributive-001/ (snapshot 2026-11-19, fa37529).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Floating Each.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/floating-distributive-001/ (snapshot 2026-11-19, 5c11b28).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "fa37529",
+    "commit": "5c11b28",
     "dirty_data": false
   }
 }

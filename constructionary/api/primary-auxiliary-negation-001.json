@@ -109,17 +109,17 @@
       },
       "checked": {
         "date": "2026-11-19",
-        "model": "codex (gpt-6.2-sol)",
+        "model": "codex (gpt-6.2-sol); claude-opus-5-5 (audit edits)",
         "result": "pass",
         "note": "Audit: fixed teacher.terms, cutting primary auxiliary (such as have, be, do), since the entry covers any finite auxiliary and the activity uses will. Also replaced the entry with this dictionary in curious and teacher text, and the curious body now says receive needs do when there is no other helping verb."
       }
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Finite Auxiliary with Not.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/primary-auxiliary-negation-001/ (snapshot 2026-11-19, fa37529).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Finite Auxiliary with Not.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/primary-auxiliary-negation-001/ (snapshot 2026-11-19, 5c11b28).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "fa37529",
+    "commit": "5c11b28",
     "dirty_data": false
   }
 }

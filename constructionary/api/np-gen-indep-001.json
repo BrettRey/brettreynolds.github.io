@@ -55,7 +55,7 @@
     "curious": {
       "title": "Owner words that stand on their own",
       "summary": "Words like mine and yours, and names with 's like Jo's, can stand in for a whole phrase about who owns something.",
-      "body": "Mine and yours name a person, such as an owner, and also stand in for the thing itself, so no noun follows. In Jo's is blue, Jo's does the same job: the noun is left out, once it's clear what kind of thing we're talking about.\n\nA different use looks similar. In This one is Jo's, the 's form says who owns this one. It isn't standing in for a missing noun.",
+      "body": "Mine and yours stand on their own here, with no noun after them. In Jo's is blue, Jo's does the same job: the noun is left out, once it's clear what kind of thing we're talking about.\n\nA different use looks similar. In This one is Jo's, the 's form says who owns this one. It isn't standing in for a missing noun.",
       "examples": [
         {
           "text": "[mine]",
@@ -147,10 +147,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Independent Genitive NP.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/np-gen-indep-001/ (snapshot 2026-11-19, fa37529).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Independent Genitive NP.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/np-gen-indep-001/ (snapshot 2026-11-19, 5c11b28).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "fa37529",
+    "commit": "5c11b28",
     "dirty_data": false
   }
 }

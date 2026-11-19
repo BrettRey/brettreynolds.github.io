@@ -4,7 +4,7 @@
 - pattern: Indefinite determiner + Nominal | Existential quantifier + Nominal | Bare plural/non-count Nominal
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/np-indef-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (fa37529)
+- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
 
 ## Meaning 1
 
@@ -90,7 +90,7 @@ Refers to or predicates membership in taxonomic category
 ## Sources
 
 - Huddleston, Rodney & Geoffrey K. Pullum (2002), The Cambridge Grammar of the English Language. Cambridge: CUP, Ch. 5 §§6.2, 8.2–8.4; Ch. 16 §6.2.2 (discusses; bears on projection)
-- Reynolds, Brett, Definiteness and Deitality in English: A Projectibility-First Account (under review, Journal of Linguistics), Identification, existential pivots, and the relation between deitality and interpretation (discusses; bears on projection)
+- Reynolds, Brett, Definiteness and Deitality in English: A Projectibility-First Account. LingBuzz 009369, Identification, existential pivots, and the relation between deitality and interpretation (discusses; bears on projection)
 
 ## Projection
 

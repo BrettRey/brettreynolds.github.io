@@ -4,7 +4,7 @@
 - pattern: Clause: (Subject:XP +) Head:VP[closed interrogative; main-clause subject–auxiliary inversion]
 - status: provisional analysis; evidence level: stable
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/closed-interrogative-clause-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (fa37529)
+- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
 
 ## Meaning 1
 

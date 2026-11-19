@@ -144,10 +144,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Concealed Passive in an -ing Complement.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/concealed-passive-ing-001/ (snapshot 2026-11-19, fa37529).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Concealed Passive in an -ing Complement.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/concealed-passive-ing-001/ (snapshot 2026-11-19, 5c11b28).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "fa37529",
+    "commit": "5c11b28",
     "dirty_data": false
   }
 }

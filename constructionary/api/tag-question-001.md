@@ -4,7 +4,7 @@
 - pattern: Anchor:Clause[declarative | exclamative] + Tag:Clause[Head:VP[Head:V[auxiliary]]; Subject:NP[personal pronoun]; surface Auxiliary–Subject (+ not)] => Meaning:Question
 - status: provisional analysis; evidence level: stable
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/tag-question-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (fa37529)
+- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
 
 ## Meaning 1
 

@@ -4,7 +4,7 @@
 - pattern: NP[Genitive:Independent]
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/np-gen-indep-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (fa37529)
+- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
 
 ## Meaning 1
 
@@ -34,7 +34,7 @@ Jo’s can occur without an overt following noun in Jo’s is blue when the rele
 
 Words like mine and yours, and names with 's like Jo's, can stand in for a whole phrase about who owns something.
 
-Mine and yours name a person, such as an owner, and also stand in for the thing itself, so no noun follows. In Jo's is blue, Jo's does the same job: the noun is left out, once it's clear what kind of thing we're talking about.
+Mine and yours stand on their own here, with no noun after them. In Jo's is blue, Jo's does the same job: the noun is left out, once it's clear what kind of thing we're talking about.
 
 A different use looks similar. In This one is Jo's, the 's form says who owns this one. It isn't standing in for a missing noun.
 

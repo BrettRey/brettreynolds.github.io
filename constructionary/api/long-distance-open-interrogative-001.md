@@ -4,7 +4,7 @@
 - pattern: fronted interrogative XPᵢ + clause containing a subordinate clause with gapᵢ
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/long-distance-open-interrogative-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (fa37529)
+- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
 
 ## Meaning 1
 

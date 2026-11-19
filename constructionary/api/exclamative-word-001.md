@@ -4,7 +4,7 @@
 - pattern: what:Adj / how:Adv (exclamative packaging)
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/exclamative-word-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (fa37529)
+- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
 
 ## Meaning 1
 
@@ -50,6 +50,6 @@ How goes with a describing word or an action, as in how fast. What comes before 
 
 ### Teacher
 
-For advanced classes: exclamative what and how, and how their word class differs from the question words.
+For advanced classes: exclamative what and how, and how exclamative what differs in word class from question what.
 
 Exclamative use is the tightest packaging of the indeterminate series: only what and how, and the open variable is evaluated against a contextual norm. Exclamative what is an adjective functioning as an external or internal modifier in NP structure (what children, what a day). Exclamative how is adverbial and modifies an adjective, degree determinative, adverb or verb. Interrogative what is different: a determinative in determiner use and a pronoun when it heads an NP. In a singular count case, an independent What a mess! uses a, while What awful weather! does not. Such (a) and so many/much pattern with exclamative what in exclamatory NPs without belonging to the series.

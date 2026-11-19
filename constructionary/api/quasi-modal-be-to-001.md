@@ -4,7 +4,7 @@
 - pattern: VP[finite be + to-infinitival]
 - status: provisional analysis; evidence level: unassessed; early sketch (one example, evidence not yet written up)
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/quasi-modal-be-to-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (fa37529)
+- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
 
 ## Meaning 1
 

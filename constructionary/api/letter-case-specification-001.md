@@ -4,7 +4,7 @@
 - pattern: Case-specifying phrase or modifier attached to a label (e.g., with a small X, with a lowercase X, small-X)
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/letter-case-specification-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (fa37529)
+- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
 
 ## Meaning 1
 

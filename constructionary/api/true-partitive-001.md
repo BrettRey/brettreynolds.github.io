@@ -4,7 +4,7 @@
 - pattern: NP[quantificational head or fused head + PP[of + definite/domain-establishing NP]]
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/true-partitive-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (fa37529)
+- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
 
 ## Meaning 1
 

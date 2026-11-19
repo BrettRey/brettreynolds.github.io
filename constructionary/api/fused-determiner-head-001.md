@@ -4,13 +4,13 @@
 - pattern: NP[DP in fused-head function]
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/fused-determiner-head-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (fa37529)
+- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
 
 ## Meaning 1
 
 A DP functions simultaneously as determiner and head of the NP, with no separate nominal head
 
-CGEL Ch. 5 §9. Covers anaphoric uses, partitives, the compound determinatives in -body/-one/-thing/-where (traditional 'indefinite pronouns'), and demonstratives standing alone. These are not pronouns; the category stays determinative while the head function is fused. This entry is a determiner-head subtype of the broader fused-head construction. Contested: Reynolds, Determinatives as nouns in English (under review at ELL; LingBuzz 009939), analyzes determinatives as a fourth noun subclass, with simple independent uses (Some left) as ordinary Head rather than fused Det-Head, narrowing fusion to a residue. If adopted, this entry shrinks accordingly.
+CGEL Ch. 5 §9. Covers anaphoric uses, partitives, the compound determinatives in -body/-one/-thing/-where (traditional 'indefinite pronouns'), and demonstratives standing alone. These are not pronouns; the category stays determinative while the head function is fused. This entry is a determiner-head subtype of the broader fused-head construction. Contested: Reynolds, Determinatives as nouns in English (LingBuzz 009939), analyzes determinatives as a fourth noun subclass, with simple independent uses (Some left) as ordinary Head rather than fused Det-Head, narrowing fusion to a residue. If adopted, this entry shrinks accordingly.
 
 - *She bought twenty books, but I bought [twenty-two].*: Anaphoric fused head (numerative)
 - *We liked [none] of them.*: Partitive; independent form of the determinative no

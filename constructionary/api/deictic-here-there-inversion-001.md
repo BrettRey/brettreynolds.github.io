@@ -4,7 +4,7 @@
 - pattern: Clause[stressed locative here/there + V + full NP], or here/there + pronoun + V
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/deictic-here-there-inversion-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (fa37529)
+- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
 
 ## Meaning 1
 

@@ -1,7 +1,7 @@
 {
   "format": "humboldt.website-snapshot",
   "version": 1,
-  "source_commit": "35efbbca245b2a9b93cfba2a7ee131085828fc49",
+  "source_commit": "72443eb71a99790dcd76676c4ce3da044d20729d",
   "source_repository": "https://github.com/BrettRey/humboldt-grundzuege-translation",
   "manifest_sha256": "0053be4bb90001348af7b5ce10ba5a4c8495608d936f3c655d239a7e8bf22e04",
   "sections": [
@@ -170,7 +170,7 @@
         "125",
         "126"
       ],
-      "review_status": "English-reading review pending",
+      "review_status": "English-reading review completed",
       "note_count": 16
     },
     {
@@ -194,15 +194,15 @@
     },
     {
       "path": "index.html",
-      "sha256": "bd8fed4c668b77a28b3053449c60e3fcaf312a4ba07af0831c4b164e9f96dffc"
+      "sha256": "62203ae590d528e916e05b342ee3ec630321269ab98e4f261cd3abb781e7059d"
     },
     {
       "path": "introduction/index.html",
-      "sha256": "1545024ec204e093711316c56e0957837ee9c5224b6d0b8c0ddd6b7e2acd0aa0"
+      "sha256": "4cb778e8204cba1b7bc296c512c11340bc622654c01846316c652c1ec8501f0b"
     },
     {
       "path": "introduction/reading.md",
-      "sha256": "95d2371bfb1d0f648baf91b9fabe0e5d1f223a76b5693d160b9bb0bff52c24b9"
+      "sha256": "462801653060260ba6bc39836517b026ba4dd32ad5d1540926dabda36d68c147"
     },
     {
       "path": "introduction/records.json",
@@ -210,11 +210,11 @@
     },
     {
       "path": "nature-of-language/index.html",
-      "sha256": "2a52febdd1069eb1dbb94dd9f59873de1ab3da8cef649b049c5784070fa6f1f5"
+      "sha256": "9661472edeca5cee29db4777d01997ec3aadc986dbbfa4cf1c1de5658c56c5ae"
     },
     {
       "path": "nature-of-language/reading.md",
-      "sha256": "6753c75d715f504f77554a99a8b5c7fbdc05e0a904defa079b02a3740362533c"
+      "sha256": "d5761a57461c1ad5f7c99aa3850e77f9cee5d94f6b036ad744a78ea2e9afc1fc"
     },
     {
       "path": "nature-of-language/records.json",
@@ -222,11 +222,11 @@
     },
     {
       "path": "part-i/index.html",
-      "sha256": "2f7d71d81e3f22a6c7bff1cefbbee2b8d55285fcb674e6bb6e345795c93b040d"
+      "sha256": "278b47487b60fd8c92da542d5accc0e86f799297d3199daf8045fae22f2c7102"
     },
     {
       "path": "part-i/reading.md",
-      "sha256": "f3e461d00b19e3c93f5df344466541a210bfe24c3cdbccd0ccfea2a122963e2f"
+      "sha256": "55aa45b424673986a488c2f4fdfc6abd2685559bcc319e4953e7c48365832614"
     },
     {
       "path": "part-i/records.json",
@@ -234,11 +234,11 @@
     },
     {
       "path": "pilot-147/index.html",
-      "sha256": "48e5a63bf2908e69dde07d9a933dca3481474aa5245fdb1dffe02a03045b5c6c"
+      "sha256": "4287f305d9aab3f4fee564d64f4fd420bf142096156cd7abf0f93ee003de8a67"
     },
     {
       "path": "pilot-147/reading.md",
-      "sha256": "98207c2b412add6bc4b8492bd5f7cecd2d10231d8cb5d508a3a21e2d48b1b0e6"
+      "sha256": "5e8c5142cda952217f044d04d70a911dbbe01b67585c964dc846a0cebc190572"
     },
     {
       "path": "pilot-147/records.json",
@@ -258,11 +258,11 @@
     },
     {
       "path": "sound-system/index.html",
-      "sha256": "91889fd85d810f701e2d5c5736767b10061d2bcfb265fec76ba9ed9ea5ffd2f1"
+      "sha256": "6ebbb4dd462a4aba6f488f23ceca35057c3766b048e6580d7a4e7ed7372d301e"
     },
     {
       "path": "sound-system/reading.md",
-      "sha256": "8be5124609c1d3b410b77055e306503c2a47db473c0a37f04b204ba68c36d40a"
+      "sha256": "30436d72fb5be913537764588f0a7b5c10c816a0354ab3f3f2e67be36b3ece5f"
     },
     {
       "path": "sound-system/records.json",
@@ -270,15 +270,15 @@
     },
     {
       "path": "vocabulary/index.html",
-      "sha256": "a3cfeb6f926de0f175a300b157180fb3d2453190057a8e5aa696b2a97f6ee2d5"
+      "sha256": "70f3fa570ce6d68f1a9f31bcc5859cbccb7c502a2022ffdfa112372e7b5de404"
     },
     {
       "path": "vocabulary/reading.md",
-      "sha256": "4d8c1a20811f4bd3f13a87b24adbda24176e8cf4df35f07fa3606c2a36bb117c"
+      "sha256": "8c1127444c23f19aa116061ffed539b31b00c47542e4855d68fecfba1a350d41"
     },
     {
       "path": "vocabulary/records.json",
-      "sha256": "e8e431dd1d39ce7337bb1a8e36181bb4a77b9b28e8d32cdeba09c6d1c0f15b31"
+      "sha256": "208806f89c61fac8b6c09a56e43ecbb095678d215d597f2e9cf096f0e8174619"
     }
   ]
 }

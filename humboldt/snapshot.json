@@ -1,7 +1,7 @@
 {
   "format": "humboldt.website-snapshot",
   "version": 1,
-  "source_commit": "72443eb71a99790dcd76676c4ce3da044d20729d",
+  "source_commit": "847c25c34c02ad087a4faf731a3c9ec0b7c1e81b",
   "source_repository": "https://github.com/BrettRey/humboldt-grundzuege-translation",
   "manifest_sha256": "0053be4bb90001348af7b5ce10ba5a4c8495608d936f3c655d239a7e8bf22e04",
   "sections": [
@@ -194,15 +194,15 @@
     },
     {
       "path": "index.html",
-      "sha256": "62203ae590d528e916e05b342ee3ec630321269ab98e4f261cd3abb781e7059d"
+      "sha256": "44fa6e8bd7b9aa404672515ba7ef7b80eeba423cf9270aa89df7acc677dfbc50"
     },
     {
       "path": "introduction/index.html",
-      "sha256": "4cb778e8204cba1b7bc296c512c11340bc622654c01846316c652c1ec8501f0b"
+      "sha256": "bce54d4406523dff93b5e2d64a556ffe8adcd2fcae3bc5da19f46569b4428889"
     },
     {
       "path": "introduction/reading.md",
-      "sha256": "462801653060260ba6bc39836517b026ba4dd32ad5d1540926dabda36d68c147"
+      "sha256": "1c6ced178506fc445ed6d4967875d1e0481a65c01d920a2dc554975e7d6e1ac5"
     },
     {
       "path": "introduction/records.json",
@@ -210,11 +210,11 @@
     },
     {
       "path": "nature-of-language/index.html",
-      "sha256": "9661472edeca5cee29db4777d01997ec3aadc986dbbfa4cf1c1de5658c56c5ae"
+      "sha256": "57a81354e110e7d895fe76e1051186f299074786270941166ee5332508269128"
     },
     {
       "path": "nature-of-language/reading.md",
-      "sha256": "d5761a57461c1ad5f7c99aa3850e77f9cee5d94f6b036ad744a78ea2e9afc1fc"
+      "sha256": "999a10ce81cc2595bdeec861e9704fc695732dd12d18bdac83e9afaddaefbddd"
     },
     {
       "path": "nature-of-language/records.json",
@@ -222,11 +222,11 @@
     },
     {
       "path": "part-i/index.html",
-      "sha256": "278b47487b60fd8c92da542d5accc0e86f799297d3199daf8045fae22f2c7102"
+      "sha256": "7a49da19cf6952cd2c35828db154768924cdcef048936c032a75ba02bbfc1805"
     },
     {
       "path": "part-i/reading.md",
-      "sha256": "55aa45b424673986a488c2f4fdfc6abd2685559bcc319e4953e7c48365832614"
+      "sha256": "5180624af2e6f4fb42939c33f62db5bba21fe7343add3a621d54a14f93be6b8f"
     },
     {
       "path": "part-i/records.json",
@@ -234,11 +234,11 @@
     },
     {
       "path": "pilot-147/index.html",
-      "sha256": "4287f305d9aab3f4fee564d64f4fd420bf142096156cd7abf0f93ee003de8a67"
+      "sha256": "7ef4700f6e6ae8ff50a8cfa0a299d6d08a50b4433ff23991838e17e921cc509a"
     },
     {
       "path": "pilot-147/reading.md",
-      "sha256": "5e8c5142cda952217f044d04d70a911dbbe01b67585c964dc846a0cebc190572"
+      "sha256": "f5aea2ad1d7acb278588750e99adeb8353efd3ebcd22393d640a63b89cb6e65d"
     },
     {
       "path": "pilot-147/records.json",
@@ -246,7 +246,7 @@
     },
     {
       "path": "reader.css",
-      "sha256": "720726cacbf1aba22a69233c8dd8eccce57e2b13d195a55803b26d195529c2a1"
+      "sha256": "37d76299dbb18e5ad1997e6b8ac116682736f2195877be7d844208f38b0a5080"
     },
     {
       "path": "reader.js",
@@ -258,11 +258,11 @@
     },
     {
       "path": "sound-system/index.html",
-      "sha256": "6ebbb4dd462a4aba6f488f23ceca35057c3766b048e6580d7a4e7ed7372d301e"
+      "sha256": "d7d4b4be17c5160acff3c4dfe4f2b9a01a9857e3f0e13264723db0684dcc5ad8"
     },
     {
       "path": "sound-system/reading.md",
-      "sha256": "30436d72fb5be913537764588f0a7b5c10c816a0354ab3f3f2e67be36b3ece5f"
+      "sha256": "0c087c41229b0306520826dbbb73ae23ab2916fdbd19b0ff7ec47ebce7cd7cee"
     },
     {
       "path": "sound-system/records.json",
@@ -270,11 +270,11 @@
     },
     {
       "path": "vocabulary/index.html",
-      "sha256": "70f3fa570ce6d68f1a9f31bcc5859cbccb7c502a2022ffdfa112372e7b5de404"
+      "sha256": "c68aeab207377f8ef8d1548f9b92bccd0d6b85b3114ef783238aa19c2e2e9e1a"
     },
     {
       "path": "vocabulary/reading.md",
-      "sha256": "8c1127444c23f19aa116061ffed539b31b00c47542e4855d68fecfba1a350d41"
+      "sha256": "4480acbe15eeb082bee664dbd26d95d8279e224756128c118070ba41da33a63e"
     },
     {
       "path": "vocabulary/records.json",

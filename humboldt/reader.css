@@ -82,13 +82,23 @@ body.humboldt { max-width: 48rem; padding-top: 1.25rem; }
 .humboldt .sr-only, .humboldt .skip:not(:focus) { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .humboldt .skip:focus { display: inline-block; margin-bottom: 1rem; }
 .humboldt .theme-toggle { z-index: 10; }
-@media (min-width: 70rem) {
+@media screen and (min-width: 70rem) {
   body.humboldt.parallel { max-width: 76rem; }
   .humboldt.parallel #reading { max-width: 70rem; }
   .humboldt.parallel .language-pair { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 2.5rem; align-items: start; }
   .humboldt.parallel .german { margin: 0; border-left: 1px solid var(--rule); padding-left: 1.25rem; }
   .humboldt.parallel .german > summary { margin-bottom: .85rem; }
   .humboldt.parallel .english p { max-width: var(--measure); }
+  @supports (grid-template-rows: subgrid) and selector(::details-content) {
+    /* Put the passage tools and the German disclosure in the same header row. */
+    .humboldt.parallel .passage { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 2.5rem; }
+    .humboldt.parallel .language-pair { display: contents; }
+    .humboldt.parallel .passage-tools { grid-column: 1; grid-row: 1; }
+    .humboldt.parallel .english { grid-column: 1; grid-row: 2; }
+    .humboldt.parallel .german { display: grid; grid-column: 2; grid-row: 1 / 3; grid-template-rows: subgrid; }
+    .humboldt.parallel .german > summary { grid-row: 1; align-self: start; margin-bottom: .3rem; }
+    .humboldt.parallel .german::details-content { grid-row: 2; }
+  }
 }
 @media (max-width: 42rem) {
   body.humboldt { padding: 1rem 1rem 3rem; }

@@ -1,6 +1,6 @@
 {
   "id": "anaphoric-propositional-not-001",
-  "name": "Anaphoric Not with an Attitude Predicate",
+  "name": "Anaphoric <i>not</i> with an Attitude Predicate",
   "pattern": "licensed predicate + not",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/anaphoric-propositional-not-001/",
@@ -10,7 +10,7 @@
   },
   "entry": {
     "id": "anaphoric-propositional-not-001",
-    "name": "Anaphoric Not with an Attitude Predicate",
+    "name": "Anaphoric <i>not</i> with an Attitude Predicate",
     "pattern": "licensed predicate + not",
     "type": "mixed",
     "meanings": {
@@ -41,7 +41,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Not supplies the content that the screen is not broken. I don’t hope so can instead negate the hoping, and compatibility of the standalone not varies by predicate.",
+        "target": "<i>Not</i> supplies the content that <i>the screen is not broken</i>. <i>I don’t hope so</i> can instead negate the hoping, and compatibility of the standalone <i>not</i> varies by predicate.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -49,21 +49,21 @@
   },
   "editions": {
     "curious": {
-      "title": "I hope not",
-      "summary": "After a word like hope, not can stand in for a whole statement, the negative of something just raised in the conversation.",
-      "body": "Asked Is the screen broken?, someone can answer I hope not. The word not here stands in for the content the screen is not broken. So the answer means I hope the screen is not broken.\n\nThis isn't the same as I don't hope so, which can instead deny that the speaker hopes. Not every attitude word allows the short answer, and which ones do depends on the word.",
+      "title": "<i>I hope not</i>",
+      "summary": "After a word like <i>hope</i>, <i>not</i> can stand in for a whole statement, the negative of something just raised in the conversation.",
+      "body": "Asked <i>Is the screen broken?</i>, someone can answer <i>I hope not</i>. The word <i>not</i> here stands in for the content <i>the screen is not broken</i>. So the answer means <i>I hope the screen is not broken</i>.\n\nThis isn't the same as <i>I don't hope so</i>, which can instead deny that the speaker hopes. Not every attitude word allows the short answer, and which ones do depends on the word.",
       "examples": [
         {
           "text": "“Is the screen broken?” “I [hope not].”",
           "from": "entry"
         }
       ],
-      "try": "Answer a yes-or-no question with I hope not. Then say what the full sentence would be."
+      "try": "Answer a yes-or-no question with <i>I hope not</i>. Then say what the full sentence would be."
     },
     "teacher": {
-      "summary": "Shows how not can pick up a negative proposition after an attitude predicate, as in I hope not.",
-      "explain": "In this pattern not follows a licensed predicate and picks up the negative counterpart of a proposition already in the discourse. In the exchange Is the screen broken? I hope not, not supplies the content that the screen is not broken. I don't hope so can instead negate the hoping. Whether the standalone not is compatible depends on the predicate, so each predicate has to be checked. This dictionary relates it to negative raising.",
-      "terms": "Not here is anaphoric: it picks up the negative counterpart of an earlier proposition. This dictionary names the pattern anaphoric not with an attitude predicate.",
+      "summary": "Shows how <i>not</i> can pick up a negative proposition after an attitude predicate, as in <i>I hope not</i>.",
+      "explain": "In this pattern <i>not</i> follows a licensed predicate and picks up the negative counterpart of a proposition already in the discourse. In the exchange <i>Is the screen broken?</i> <i>I hope not</i>, <i>not</i> supplies the content that <i>the screen is not broken</i>. <i>I don't hope so</i> can instead negate the hoping. Whether the standalone <i>not</i> is compatible depends on the predicate, so each predicate has to be checked. This dictionary relates it to negative raising.",
+      "terms": "<i>Not</i> here is anaphoric: it picks up the negative counterpart of an earlier proposition. This dictionary names the pattern anaphoric <i>not</i> with an attitude predicate.",
       "examples": [
         {
           "text": "“Is the screen broken?” “I [hope not].”",
@@ -74,7 +74,7 @@
         {
           "text": "I hope not.",
           "from": "constructed",
-          "note": "Not supplies the content that the screen is not broken."
+          "note": "<i>Not</i> supplies the content that <i>the screen is not broken</i>."
         },
         {
           "text": "I don't hope so.",
@@ -83,14 +83,14 @@
         }
       ],
       "watch_for": [
-        "A learner might read I hope not as saying the speaker doesn't hope, when not supplies the negative content that is hoped for.",
-        "A learner might assume every attitude predicate can be followed by standalone not, when compatibility varies by predicate."
+        "A learner might read <i>I hope not</i> as saying the speaker doesn't hope, when <i>not</i> supplies the negative content that is hoped for.",
+        "A learner might assume every attitude predicate can be followed by standalone <i>not</i>, when compatibility varies by predicate."
       ],
-      "activity": "Students ask each other yes-or-no questions and answer with I hope so and I hope not. They then write out the full sentence each short answer stands for."
+      "activity": "Students ask each other yes-or-no questions and answer with <i>I hope so</i> and <i>I hope not</i>. They then write out the full sentence each short answer stands for."
     },
     "child": {
-      "hook": "When someone says \"I hope not\", what do they hope?",
-      "explain": "Someone asks, \"Is the screen broken?\" You answer, \"I hope not.\" Not stands for the whole idea that the screen is not broken. It saves you from saying the whole sentence.",
+      "hook": "When someone says \"<i>I hope not</i>\", what do they hope?",
+      "explain": "Someone asks, \"<i>Is the screen broken?</i>\" You answer, \"<i>I hope not</i>.\" <i>Not</i> stands for the whole idea that <i>the screen is not broken</i>. It saves you from saying the whole sentence.",
       "examples": [
         {
           "text": "“Is the screen broken?” “I [hope not].”",
@@ -101,7 +101,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Ask a partner a yes-or-no question. They answer with I hope not. Then they say the whole sentence that those words stand for."
+      "play": "Ask a partner a yes-or-no question. They answer with <i>I hope not</i>. Then they say the whole sentence that those words stand for."
     }
   },
   "status": {
@@ -123,10 +123,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Anaphoric Not with an Attitude Predicate.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/anaphoric-propositional-not-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Anaphoric <i>not</i> with an Attitude Predicate.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/anaphoric-propositional-not-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

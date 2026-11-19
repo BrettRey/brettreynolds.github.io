@@ -22,7 +22,7 @@
     "meanings": {
       "1": {
         "definition": "The default headed clause type, characteristically used to make a statement",
-        "details": "Declarative is a category of syntactic form, not a statement-force category. Basic declaratives normally have Subject–Predicator order, but their actual force depends on construction and context: Passengers are requested to remain seated is a directive, and a declarative question adds question intonation to declarative syntax. Declaratives occur both as main clauses and as subordinate content clauses (CGEL pp. 853–55, 951–55).",
+        "details": "Declarative is a category of syntactic form, not a statement-force category. Basic declaratives normally have Subject–Predicator order, but their actual force depends on construction and context: <i>Passengers are requested to remain seated</i> is a directive, and a declarative question adds question intonation to declarative syntax. Declaratives occur both as main clauses and as subordinate content clauses (CGEL pp. 853–55, 951–55).",
         "examples": [
           {
             "form": "[Kim finished the report.]",
@@ -124,7 +124,7 @@
     "curious": {
       "title": "The plain statement-shaped sentence",
       "summary": "A declarative sentence is the default sentence shape, and it is built for making statements but can do other jobs too.",
-      "body": "Kim finished the report is the plainest kind of sentence. It has no question word, no exclamation form and no command form. This dictionary calls that shape declarative. It is the default type, and it turns up both as a sentence on its own and inside another sentence, as in She says that Kim finished the report.\n\nMaking a statement is the characteristic use of this shape, but the shape doesn't fix the job. Passengers are requested to remain seated has the same shape and works as a directive. Declarative names a form, not a purpose. This dictionary treats the analysis as provisional.",
+      "body": "<i>Kim finished the report</i> is the plainest kind of sentence. It has no question word, no exclamation form and no command form. This dictionary calls that shape declarative. It is the default type, and it turns up both as a sentence on its own and inside another sentence, as in <i>She says that Kim finished the report</i>.\n\nMaking a statement is the characteristic use of this shape, but the shape doesn't fix the job. <i>Passengers are requested to remain seated</i> has the same shape and works as a directive. Declarative names a form, not a purpose. This dictionary treats the analysis as provisional.",
       "examples": [
         {
           "text": "[Kim finished the report.]",
@@ -143,7 +143,7 @@
     },
     "teacher": {
       "summary": "Helps separate declarative as a clause form from statement as a use, since declarative clauses can also direct, promise and ask.",
-      "explain": "A declarative clause is the default headed clause type: a Clause headed by a VP, with an optional Subject, and no interrogative, exclamative or imperative marking. Basic declaratives normally have Subject-Predicator order. Declarative is a category of syntactic form, not statement force. Statement is the characteristic use, but force depends on construction and context: Passengers are requested to remain seated is a directive, and a declarative question adds question intonation to declarative syntax. Declaratives occur as main clauses and as subordinate content clauses. The analysis is provisional.",
+      "explain": "A declarative clause is the default headed clause type: a Clause headed by a VP, with an optional Subject, and no interrogative, exclamative or imperative marking. Basic declaratives normally have Subject-Predicator order. Declarative is a category of syntactic form, not statement force. Statement is the characteristic use, but force depends on construction and context: <i>Passengers are requested to remain seated</i> is a directive, and a declarative question adds question intonation to declarative syntax. Declaratives occur as main clauses and as subordinate content clauses. The analysis is provisional.",
       "terms": "Traditional grammars call this the declarative sentence and tie it to making statements. This dictionary separates clause type (declarative) from force (statement, directive and so on).",
       "examples": [
         {
@@ -173,7 +173,7 @@
       ],
       "watch_for": [
         "A learner might assume that a declarative clause must make a statement, when its force depends on construction and context.",
-        "A learner might treat a clause inside another sentence, as in She says that Kim finished the report, as not declarative, when declaratives also occur as subordinate content clauses."
+        "A learner might treat a clause inside another sentence, as in <i>She says that Kim finished the report</i>, as not declarative, when declaratives also occur as subordinate content clauses."
       ],
       "activity": "Students collect short declarative sentences from notices and announcements around the school. They sort each by what it does (states, directs, promises, asks) and discuss how they can tell."
     }
@@ -196,10 +196,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Declarative Clause.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/declarative-clause-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Declarative Clause.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/declarative-clause-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

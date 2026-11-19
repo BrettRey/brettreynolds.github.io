@@ -1,6 +1,6 @@
 {
   "id": "genitive-s-001",
-  "name": "Genitive 's",
+  "name": "Genitive <i>'s</i>",
   "pattern": "Noun phrase + 's",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/genitive-s-001/",
@@ -10,7 +10,7 @@
   },
   "entry": {
     "id": "genitive-s-001",
-    "name": "Genitive 's",
+    "name": "Genitive <i>'s</i>",
     "pattern": "Noun phrase + 's",
     "meanings": {
       "1": {
@@ -161,7 +161,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "With the person next door’s bicycle, the genitive marker is adjacent to door but the possessor is the whole person next door. The semantic relation also varies across uses such as Monday’s meeting and our uncle’s bicycle.",
+        "target": "With <i>the person next door’s bicycle</i>, the genitive marker is adjacent to <i>door</i> but the possessor is the whole <i>person next door</i>. The semantic relation also varies across uses such as <i>Monday’s meeting</i> and <i>our uncle’s bicycle</i>.",
         "evidence": "CGEL uses phrasal placement to separate the marker’s host from the genitive’s semantic argument.",
         "confidence": "medium"
       }
@@ -169,9 +169,9 @@
   },
   "editions": {
     "curious": {
-      "title": "The 's ending",
-      "summary": "Adding 's to a noun phrase marks it as a genitive, and the relation it expresses can be of several different kinds.",
-      "body": "The 's ending marks a word or phrase as a genitive. In Mary's book, it means the book is Mary's. In the tree's branches, the branches are part of the tree. In Shakespeare's plays, Shakespeare wrote them. And in tomorrow's meeting, it ties the meeting to a time. The 's form can also stand alone, as in That car is John's.\n\nThe ending doesn't have to sit right next to the person it describes. In the person next door's bicycle, the 's is attached to door, but the owner is the whole phrase, the person next door.",
+      "title": "The <i>'s</i> ending",
+      "summary": "Adding <i>'s</i> to a noun phrase marks it as a genitive, and the relation it expresses can be of several different kinds.",
+      "body": "The <i>'s</i> ending marks a word or phrase as a genitive. In <i>Mary's book</i>, it means the book is Mary's. In <i>the tree's branches</i>, the branches are part of the tree. In <i>Shakespeare's plays</i>, Shakespeare wrote them. And in <i>tomorrow's meeting</i>, it ties the meeting to a time. The <i>'s</i> form can also stand alone, as in <i>That car is John's</i>.\n\nThe ending doesn't have to sit right next to the person it describes. In <i>the person next door's bicycle</i>, the <i>'s</i> is attached to <i>door</i>, but the owner is the whole phrase, <i>the person next door</i>.",
       "examples": [
         {
           "text": "[Mary's] book",
@@ -198,12 +198,12 @@
           "from": "entry"
         }
       ],
-      "try": "Pick a noun phrase of several words, such as the person next door, and add 's. Where does your 's land, and who does the phrase point to?"
+      "try": "Pick a noun phrase of several words, such as <i>the person next door</i>, and add <i>'s</i>. Where does your <i>'s</i> land, and who does the phrase point to?"
     },
     "teacher": {
-      "summary": "Covers the 's genitive, its range of meanings, and where the marker goes on a longer phrase.",
-      "explain": "The genitive 's attaches to a noun phrase and marks it as a genitive. This dictionary lists a range of relations: ownership (Mary's book), part-whole (the tree's branches), creation or authorship (Shakespeare's plays), time (a day's work, tomorrow's meeting), property (the metal's strength), a doer (the sun's rise) and social or institutional role (Mary's brother). The relation varies across these uses. Position matters: in the person next door's bicycle, 's is adjacent to door but the possessor is the whole person next door. The 's form can also stand alone, as in That car is John's (an independent genitive). This dictionary treats the analysis as provisional.",
-      "terms": "Traditional grammars sometimes call this the possessive, but the relation can be something other than ownership. Independent genitive is the name this dictionary uses for That car is John's.",
+      "summary": "Covers the <i>'s</i> genitive, its range of meanings, and where the marker goes on a longer phrase.",
+      "explain": "The genitive <i>'s</i> attaches to a noun phrase and marks it as a genitive. This dictionary lists a range of relations: ownership (<i>Mary's book</i>), part-whole (<i>the tree's branches</i>), creation or authorship (<i>Shakespeare's plays</i>), time (<i>a day's work</i>, <i>tomorrow's meeting</i>), property (<i>the metal's strength</i>), a doer (<i>the sun's rise</i>) and social or institutional role (<i>Mary's brother</i>). The relation varies across these uses. Position matters: in <i>the person next door's bicycle</i>, <i>'s</i> is adjacent to <i>door</i> but the possessor is the whole <i>person next door</i>. The <i>'s</i> form can also stand alone, as in <i>That car is John's</i> (an independent genitive). This dictionary treats the analysis as provisional.",
+      "terms": "Traditional grammars sometimes call this the possessive, but the relation can be something other than ownership. Independent genitive is the name this dictionary uses for <i>That car is John's</i>.",
       "examples": [
         {
           "text": "[Mary's] book",
@@ -230,18 +230,18 @@
         {
           "text": "the person next door's bicycle",
           "from": "entry",
-          "note": "The 's is attached to door, but the possessor is the whole phrase."
+          "note": "The <i>'s</i> is attached to <i>door</i>, but the possessor is the whole phrase."
         }
       ],
       "watch_for": [
-        "A learner might read every 's phrase as ownership, when this dictionary lists part-whole, authorship, time and role uses as well.",
-        "A learner might expect 's on the head noun of a longer phrase, though in the person next door's bicycle it is attached to door."
+        "A learner might read every <i>'s</i> phrase as ownership, when this dictionary lists part-whole, authorship, time and role uses as well.",
+        "A learner might expect <i>'s</i> on the head noun of a longer phrase, though in <i>the person next door's bicycle</i> it is attached to <i>door</i>."
       ],
-      "activity": "Give students a set of 's phrases from this dictionary on slips. They sort them by relation (owner, part, author, time, role) and then compose one of each type with their own nouns."
+      "activity": "Give students a set of <i>'s</i> phrases from this dictionary on slips. They sort them by relation (owner, part, author, time, role) and then compose one of each type with their own nouns."
     },
     "child": {
-      "hook": "What does the little 's tell you in Mary's book?",
-      "explain": "The 's ending can show who something belongs to. It can also show where something comes from or what it is part of. Mary's book is the book that is Mary's. The tree's branches are the branches on the tree.",
+      "hook": "What does the little <i>'s</i> tell you in <i>Mary's book</i>?",
+      "explain": "The <i>'s</i> ending can show who something belongs to. It can also show where something comes from or what it is part of. <i>Mary's book</i> is the book that is Mary's. <i>The tree's branches</i> are the branches on the tree.",
       "examples": [
         {
           "text": "[Mary's] book",
@@ -256,7 +256,7 @@
           "from": "entry"
         }
       ],
-      "play": "Look around the room and name five things with 's, like Mia's pencil or the door's handle. Then find one that is about a time, like tomorrow's lesson."
+      "play": "Look around the room and name five things with <i>'s</i>, like <i>Mia's pencil</i> or <i>the door's handle</i>. Then find one that is about a time, like <i>tomorrow's lesson</i>."
     }
   },
   "status": {
@@ -278,10 +278,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Genitive 's.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/genitive-s-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Genitive <i>'s</i>.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/genitive-s-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

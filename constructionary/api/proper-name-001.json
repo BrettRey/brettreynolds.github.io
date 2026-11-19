@@ -66,7 +66,7 @@
       },
       "5": {
         "definition": "Establishes legal/organizational status",
-        "details": "Certain name elements (Inc., Ltd., Co., etc.) have legal force, indicating corporate structure, liability status, and regulatory compliance. The presence or absence of these elements can affect legal standing.",
+        "details": "Certain name elements (<i>Inc.</i>, <i>Ltd.</i>, <i>Co.</i>, etc.) have legal force, indicating corporate structure, liability status, and regulatory compliance. The presence or absence of these elements can affect legal standing.",
         "examples": [
           {
             "form": "Apple Inc.",
@@ -129,7 +129,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "A standing name such as Jo can identify its bearer in subject or object position. Two Jos can instead count people sharing the name. A capital letter or name-shaped form alone does not fix which interpretation is used.",
+        "target": "A standing name such as <i>Jo</i> can identify its bearer in subject or object position. <i>Two Jos</i> can instead count people sharing the name. A capital letter or name-shaped form alone does not fix which interpretation is used.",
         "evidence": "CGEL contrasts ordinary name uses with description and counting uses. The construction account separates standing designation from its syntactic realization.",
         "confidence": "medium"
       }
@@ -139,7 +139,7 @@
     "curious": {
       "title": "Names and what they do",
       "summary": "A proper name picks out one particular person, place, organization or thing, and it can do more than label.",
-      "body": "A name like Brett Reynolds or The Boring Company points to one individual, so people can keep track of that individual and add what they learn. A name's form can hint at what kind of thing it names: company names, book titles and personal names each follow recognizable patterns.\n\nNames can also carry social meaning. Professor Smith signals a formal relationship, His Holiness the 14th Dalai Lama establishes an institutional role, and Inc. in Apple Inc. has legal force. A capital letter alone doesn't settle things, since two Jos can count people who share a name. This dictionary marks the account as provisional.",
+      "body": "A name like <i>Brett Reynolds</i> or <i>The Boring Company</i> points to one individual, so people can keep track of that individual and add what they learn. A name's form can hint at what kind of thing it names: company names, book titles and personal names each follow recognizable patterns.\n\nNames can also carry social meaning. <i>Professor Smith</i> signals a formal relationship, <i>His Holiness the 14th Dalai Lama</i> establishes an institutional role, and <i>Inc.</i> in <i>Apple Inc.</i> has legal force. A capital letter alone doesn't settle things, since <i>two Jos</i> can count people who share a name. This dictionary marks the account as provisional.",
       "examples": [
         {
           "text": "[Brett Reynolds]",
@@ -166,8 +166,8 @@
     },
     "teacher": {
       "summary": "Useful for explaining names as a meaning category, including titles, company designations and the difference between a name and a proper noun.",
-      "explain": "A proper name is a semantic category: any form that functions to identify a unique individual or entity. It is typically a proper noun but can be another form, such as a common-noun phrase (The Boring Company) or a title. Names refer to unique entities, can create social or institutional facts (the Dalai Lama's institutional role), signal membership in name categories, index social relations (Professor Smith), and can mark legal status (Inc., Ltd.). Proper name is a semantic category and proper noun a syntactic one, with a two-way link between them. This dictionary marks its analysis provisional. A standing name such as Jo can identify its bearer, but two Jos can count people sharing the name.",
-      "terms": "Proper noun: the syntactic category; proper name: the semantic category. Titles and honorifics (Professor, His Holiness) and corporate designations (Inc., Ltd.) are separate semantic refs in this dictionary.",
+      "explain": "A proper name is a semantic category: any form that functions to identify a unique individual or entity. It is typically a proper noun but can be another form, such as a common-noun phrase (<i>The Boring Company</i>) or a title. Names refer to unique entities, can create social or institutional facts (the Dalai Lama's institutional role), signal membership in name categories, index social relations (<i>Professor Smith</i>), and can mark legal status (<i>Inc.</i>, <i>Ltd.</i>). Proper name is a semantic category and proper noun a syntactic one, with a two-way link between them. This dictionary marks its analysis provisional. A standing name such as <i>Jo</i> can identify its bearer, but <i>two Jos</i> can count people sharing the name.",
+      "terms": "Proper noun: the syntactic category; proper name: the semantic category. Titles and honorifics (<i>Professor</i>, <i>His Holiness</i>) and corporate designations (<i>Inc.</i>, <i>Ltd.</i>) are separate semantic refs in this dictionary.",
       "examples": [
         {
           "text": "[The Boring Company]",
@@ -202,8 +202,8 @@
       "activity": "Students list names for the same person (full name, first name, nickname, title plus surname) and say what social relationship each suggests."
     },
     "child": {
-      "hook": "What's the difference between a girl and Jo?",
-      "explain": "A name points to one particular person or thing. Jo is one person. Sometimes two people share a name, and then we can say two Jos.",
+      "hook": "What's the difference between <i>a girl</i> and <i>Jo</i>?",
+      "explain": "A name points to one particular person or thing. <i>Jo</i> is one person. Sometimes two people share a name, and then we can say <i>two Jos</i>.",
       "examples": [
         {
           "text": "[Jo] waved at us.",
@@ -235,10 +235,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Proper Name.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/proper-name-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Proper Name.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/proper-name-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

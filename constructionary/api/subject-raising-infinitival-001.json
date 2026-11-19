@@ -22,7 +22,7 @@
           },
           {
             "form": "[Jo seems to have checked the lock].",
-            "note": "Constructed comparison. The corresponding passive, The lock seems to have been checked by Jo, preserves the subordinate event being assessed."
+            "note": "Constructed comparison. The corresponding passive, <i>The lock seems to have been checked by Jo</i>, preserves the subordinate event being assessed."
           }
         ]
       }
@@ -49,7 +49,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Dummy there is acceptable, and active and passive descriptions of the subordinate event preserve what seems to hold. This distinguishes raising from subject control.",
+        "target": "Dummy <i>there</i> is acceptable, and active and passive descriptions of the subordinate event preserve what seems to hold. This distinguishes raising from subject control.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -58,8 +58,8 @@
   "editions": {
     "curious": {
       "title": "Sentences where the subject belongs to the next verb",
-      "summary": "With verbs like seem, the subject of the sentence really belongs to the to-phrase that follows.",
-      "body": "In There seems to be a leak, the word there can't be doing anything of its own. It is the subject because the to-phrase, to be a leak, selects it. The verb seems gives an assessment of what follows.\n\nThat's why Jo seems to have checked the lock and The lock seems to have been checked by Jo describe the same thing that seems to hold. The subordinate event is what's being assessed.\n\nThis dictionary marks the analysis as provisional and bases it on constructed illustrations.",
+      "summary": "With verbs like <i>seem</i>, the subject of the sentence really belongs to the <i>to</i>-phrase that follows.",
+      "body": "In <i>There seems to be a leak</i>, the word <i>there</i> can't be doing anything of its own. It is the subject because the <i>to</i>-phrase, <i>to be a leak</i>, selects it. The verb <i>seems</i> gives an assessment of what follows.\n\nThat's why <i>Jo seems to have checked the lock</i> and <i>The lock seems to have been checked by Jo</i> describe the same thing that seems to hold. The subordinate event is what's being assessed.\n\nThis dictionary marks the analysis as provisional and bases it on constructed illustrations.",
       "examples": [
         {
           "text": "[There seems to be a leak].",
@@ -74,11 +74,11 @@
           "from": "entry"
         }
       ],
-      "try": "Say Jo seems to have checked the lock. Then say The lock seems to have been checked by Jo. Does what seems to be the case change?"
+      "try": "Say <i>Jo seems to have checked the lock</i>. Then say <i>The lock seems to have been checked by Jo</i>. Does what seems to be the case change?"
     },
     "teacher": {
       "summary": "Useful for contrasting seem-type verbs with promise-type verbs and for showing why dummy there works with them.",
-      "explain": "The pattern combines a verbal assessment or aspectual predicate with a subject selected through its complement. Two tests show it. Dummy there is acceptable (There seems to be a leak), and active and passive descriptions of the subordinate event preserve what seems to hold (Jo seems to have checked the lock; The lock seems to have been checked by Jo). Subject control, as in Jo promised to return, differs on both counts. This dictionary treats the analysis as provisional and bases it on constructed illustrations.",
+      "explain": "The pattern combines a verbal assessment or aspectual predicate with a subject selected through its complement. Two tests show it. Dummy <i>there</i> is acceptable (<i>There seems to be a leak</i>), and active and passive descriptions of the subordinate event preserve what seems to hold (<i>Jo seems to have checked the lock</i>; <i>The lock seems to have been checked by Jo</i>). Subject control, as in <i>Jo promised to return</i>, differs on both counts. This dictionary treats the analysis as provisional and bases it on constructed illustrations.",
       "terms": "Subject raising is this dictionary's name for it. Sometimes called subject-to-subject raising. The contrast is with subject control.",
       "examples": [
         {
@@ -104,14 +104,14 @@
         {
           "text": "Jo promised to return.",
           "from": "constructed",
-          "note": "Control; Jo has a role in the promising."
+          "note": "Control; <i>Jo</i> has a role in the promising."
         }
       ],
       "watch_for": [
-        "A learner might think the subject of seems is doing the seeming.",
-        "A learner might treat seems to and promised to as the same pattern, when only one allows dummy there."
+        "A learner might think the subject of <i>seems</i> is doing the seeming.",
+        "A learner might treat <i>seems to</i> and <i>promised to</i> as the same pattern, when only one allows dummy <i>there</i>."
       ],
-      "activity": "Students try the dummy there and the passive tests on sets of verbs followed by to-phrases. They sort the verbs into those that pass both tests and those that do not."
+      "activity": "Students try the dummy <i>there</i> and the passive tests on sets of verbs followed by <i>to</i>-phrases. They sort the verbs into those that pass both tests and those that do not."
     }
   },
   "status": {
@@ -133,10 +133,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Subject Raising with a Catenative Verb.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/subject-raising-infinitival-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Subject Raising with a Catenative Verb.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/subject-raising-infinitival-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

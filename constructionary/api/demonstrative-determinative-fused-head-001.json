@@ -15,11 +15,11 @@
     "meanings": {
       "1": {
         "definition": "A demonstrative determinative realizes fused determiner-head function in an NP and refers deictically to a salient entity or situation",
-        "details": "CGEL treats this, that, these, and those as determinatives; independent NP use does not reclassify them as pronouns.",
+        "details": "CGEL treats <i>this</i>, <i>that</i>, <i>these</i>, and <i>those</i> as determinatives; independent NP use does not reclassify them as pronouns.",
         "examples": [
           {
             "form": "[That] is incredible!",
-            "note": "That is a demonstrative determinative in fused determiner-head function, referring to the current situation."
+            "note": "<i>That</i> is a demonstrative determinative in fused determiner-head function, referring to the current situation."
           }
         ]
       }
@@ -27,7 +27,7 @@
     "constraints": [
       {
         "type": "syntactic",
-        "description": "The fused determiner-head must be realized by this, that, these, or those."
+        "description": "The fused determiner-head must be realized by <i>this</i>, <i>that</i>, <i>these</i>, or <i>those</i>."
       }
     ],
     "semanticType": "reference",
@@ -61,7 +61,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "That can be an entire NP subject in That is strange. In That plan is strange, it instead determines a nominal. A prior proposition can supply the deictic target even with no physical object indicated.",
+        "target": "<i>That</i> can be an entire NP subject in <i>That is strange</i>. In <i>That plan is strange</i>, it instead determines a nominal. A prior proposition can supply the deictic target even with no physical object indicated.",
         "evidence": "CGEL treats the two syntactic realizations separately and documents discourse-deictic demonstratives.",
         "confidence": "medium"
       }
@@ -69,9 +69,9 @@
   },
   "editions": {
     "curious": {
-      "title": "This and that standing on their own",
-      "summary": "Words like this and that can stand alone as a whole phrase, pointing to something in the situation.",
-      "body": "In That is incredible!, that isn't attached to a noun. It stands on its own and points to something in the situation, such as what has just happened or been said. A prior statement can supply the target even when no physical object is pointed at.\n\nThis dictionary counts this, that, these and those as a kind of word called determinatives, and it keeps them in that category even when they stand on their own. In That plan is strange, by contrast, that goes with a noun. This dictionary treats the analysis as provisional.",
+      "title": "<i>This</i> and <i>that</i> standing on their own",
+      "summary": "Words like <i>this</i> and <i>that</i> can stand alone as a whole phrase, pointing to something in the situation.",
+      "body": "In <i>That is incredible!</i>, <i>that</i> isn't attached to a noun. It stands on its own and points to something in the situation, such as what has just happened or been said. A prior statement can supply the target even when no physical object is pointed at.\n\nThis dictionary counts <i>this</i>, <i>that</i>, <i>these</i> and <i>those</i> as a kind of word called determinatives, and it keeps them in that category even when they stand on their own. In <i>That plan is strange</i>, by contrast, <i>that</i> goes with a noun. This dictionary treats the analysis as provisional.",
       "examples": [
         {
           "text": "[That] is incredible!",
@@ -82,12 +82,12 @@
           "from": "constructed"
         }
       ],
-      "try": "Hear someone say That is incredible! What could that be pointing to? Now say That plan is incredible. What changes?"
+      "try": "Hear someone say <i>That is incredible!</i> What could that be pointing to? Now say <i>That plan is incredible.</i> What changes?"
     },
     "teacher": {
-      "summary": "Helps explain this, that, these and those used alone, and why this grammar keeps them as determinatives.",
-      "explain": "The pattern is an NP where a demonstrative determinative realizes fused determiner-head function: one word does the jobs of determiner and head. In That is incredible!, that is an entire NP referring to the current situation. In That plan is strange, it instead determines a nominal. The fused head must be this, that, these or those. A prior proposition can supply the deictic target even with no physical object indicated. This grammar treats these words as determinatives, and independent NP use doesn't reclassify them as pronouns. The analysis is provisional.",
-      "terms": "Traditional grammars call this use a demonstrative pronoun. This grammar keeps this, that, these and those as determinatives (a word category) in fused determiner-head function.",
+      "summary": "Helps explain <i>this</i>, <i>that</i>, <i>these</i> and <i>those</i> used alone, and why this grammar keeps them as determinatives.",
+      "explain": "The pattern is an NP where a demonstrative determinative realizes fused determiner-head function: one word does the jobs of determiner and head. In <i>That is incredible!</i>, <i>that</i> is an entire NP referring to the current situation. In <i>That plan is strange</i>, it instead determines a nominal. The fused head must be <i>this</i>, <i>that</i>, <i>these</i> or <i>those</i>. A prior proposition can supply the deictic target even with no physical object indicated. This grammar treats these words as determinatives, and independent NP use doesn't reclassify them as pronouns. The analysis is provisional.",
+      "terms": "Traditional grammars call this use a demonstrative pronoun. This grammar keeps <i>this</i>, <i>that</i>, <i>these</i> and <i>those</i> as determinatives (a word category) in fused determiner-head function.",
       "examples": [
         {
           "text": "[That] is incredible!",
@@ -102,19 +102,19 @@
         {
           "text": "That is incredible!",
           "from": "entry",
-          "note": "That alone is the whole NP, referring to the situation."
+          "note": "<i>That</i> alone is the whole NP, referring to the situation."
         },
         {
           "text": "That plan is strange.",
           "from": "entry",
-          "note": "That determines a nominal, plan."
+          "note": "<i>That</i> determines a nominal, <i>plan</i>."
         }
       ],
       "watch_for": [
-        "A learner might reclassify that as a pronoun when it stands alone, when this grammar keeps it a determinative.",
-        "A learner might look for a physical object that that points to, when a prior proposition can supply the target."
+        "A learner might reclassify <i>that</i> as a pronoun when it stands alone, when this grammar keeps it a determinative.",
+        "A learner might look for a physical object that <i>that</i> points to, when a prior proposition can supply the target."
       ],
-      "activity": "Students collect sentences with this, that, these and those, sort them into stand-alone and followed-by-a-noun, and say what each one points to in the situation or in the previous sentence."
+      "activity": "Students collect sentences with <i>this</i>, <i>that</i>, <i>these</i> and <i>those</i>, sort them into stand-alone and followed-by-a-noun, and say what each one points to in the situation or in the previous sentence."
     }
   },
   "status": {
@@ -135,10 +135,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Demonstrative Determinative in Fused Determiner-Head Function.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/demonstrative-determinative-fused-head-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Demonstrative Determinative in Fused Determiner-Head Function.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/demonstrative-determinative-fused-head-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

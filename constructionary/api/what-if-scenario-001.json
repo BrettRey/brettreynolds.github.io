@@ -1,6 +1,6 @@
 {
   "id": "what-if-scenario-001",
-  "name": "Deliberative What If",
+  "name": "Deliberative <i>what if</i>",
   "pattern": "what if + finite clause",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/what-if-scenario-001/",
@@ -10,7 +10,7 @@
   },
   "entry": {
     "id": "what-if-scenario-001",
-    "name": "Deliberative What If",
+    "name": "Deliberative <i>what if</i>",
     "pattern": "what if + finite clause",
     "type": "pragmatic",
     "meanings": {
@@ -53,9 +53,9 @@
   },
   "editions": {
     "curious": {
-      "title": "What if something happened?",
-      "summary": "What if plus a clause raises a possible situation and invites talk about what would follow.",
-      "body": "What if the last bus has already gone? doesn't ask for a fact. It raises a possibility and invites the listener to think about it.\n\nA reply can discuss a plan for that situation, such as walking or calling a taxi. The string can stand alone without a stated result, unlike a fully expressed if sentence such as If the last bus has gone, we'll walk.\n\nThe dictionary marks this account as provisional.",
+      "title": "<i>What if</i> something happened?",
+      "summary": "<i>What if</i> plus a clause raises a possible situation and invites talk about what would follow.",
+      "body": "<i>What if the last bus has already gone?</i> doesn't ask for a fact. It raises a possibility and invites the listener to think about it.\n\nA reply can discuss a plan for that situation, such as walking or calling a taxi. The string can stand alone without a stated result, unlike a fully expressed if sentence such as <i>If the last bus has gone, we'll walk</i>.\n\nThe dictionary marks this account as provisional.",
       "examples": [
         {
           "text": "[What if the last bus has already gone?]",
@@ -66,11 +66,11 @@
           "from": "constructed"
         }
       ],
-      "try": "Ask a friend What if with something that could happen on the way home. What do they say you should do?"
+      "try": "Ask a friend <i>What if</i> with something that could happen on the way home. What do they say you should do?"
     },
     "teacher": {
-      "summary": "Helps explain what if as a way to raise a hypothetical and invite discussion of consequences.",
-      "explain": "The pattern is what if followed by a finite clause. It raises a hypothetical circumstance and invites consideration of its consequences. A response can discuss a plan for that circumstance. The string can stand alone without a stated matrix consequence, unlike a fully expressed ordinary conditional. This dictionary relates it to if-conditionals and to questions, classes it as pragmatic, and marks its analysis provisional. Teach it as a way of raising a scenario that can stand without a stated consequence.",
+      "summary": "Helps explain <i>what if</i> as a way to raise a hypothetical and invite discussion of consequences.",
+      "explain": "The pattern is <i>what if</i> followed by a finite clause. It raises a hypothetical circumstance and invites consideration of its consequences. A response can discuss a plan for that circumstance. The string can stand alone without a stated matrix consequence, unlike a fully expressed ordinary conditional. This dictionary relates it to <i>if</i>-conditionals and to questions, classes it as pragmatic, and marks its analysis provisional. Teach it as a way of raising a scenario that can stand without a stated consequence.",
       "terms": "Sometimes called a what-if question. This dictionary treats it as a deliberative use.",
       "examples": [
         {
@@ -95,14 +95,14 @@
         }
       ],
       "watch_for": [
-        "A learner might wait for a main clause after what if, when the string can stand alone.",
-        "A learner might answer with yes or no as to a plain question, when it invites discussion of the scenario."
+        "A learner might wait for a main clause after <i>what if</i>, when the string can stand alone.",
+        "A learner might answer with <i>yes</i> or <i>no</i> as to a plain question, when it invites discussion of the scenario."
       ],
-      "activity": "Students pose What if questions about a story's plot. Partners respond with a plan or consequence."
+      "activity": "Students pose <i>What if</i> questions about a story's plot. Partners respond with a plan or consequence."
     },
     "child": {
       "hook": "What would you do if you missed the last bus?",
-      "explain": "What if raises something that might happen. What if the last bus has already gone? Then we talk about what we could do.",
+      "explain": "<i>What if</i> raises something that might happen. <i>What if the last bus has already gone?</i> Then we talk about what we could do.",
       "examples": [
         {
           "text": "[What if the last bus has already gone?]",
@@ -113,7 +113,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Take turns asking a What if question. The other player says what they would do."
+      "play": "Take turns asking a <i>What if</i> question. The other player says what they would do."
     }
   },
   "status": {
@@ -135,10 +135,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Deliberative What If.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/what-if-scenario-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Deliberative <i>what if</i>.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/what-if-scenario-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

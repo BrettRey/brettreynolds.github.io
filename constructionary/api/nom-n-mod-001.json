@@ -72,7 +72,7 @@
       },
       "5": {
         "definition": "The first nominal has a relationship with the second nominal that is similar to that expressed by a genitive construction, indicating a relationship such as possession, association, or inalienable part.",
-        "details": "Constraints: semantic: The relationship between the two nominals can often be paraphrased using a genitive construction (e.g., using 'of' or ''s'). Related constructions: np-gen-dep-001 (semantically-related-to); np-gen-indep-001 (semantically-related-to); n-common-001 (can-fill-left); n-common-001 (can-fill-right)",
+        "details": "Constraints: semantic: The relationship between the two nominals can often be paraphrased using a genitive construction (e.g., using '<i>of</i>' or '<i>'s</i>'). Related constructions: np-gen-dep-001 (semantically-related-to); np-gen-indep-001 (semantically-related-to); n-common-001 (can-fill-left); n-common-001 (can-fill-right)",
         "examples": [
           {
             "form": "[[student] representative]",
@@ -131,7 +131,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Dog breeders normally pluralizes the head breeders. In book review the first nominal can supply the topic or object of a reviewing event. In coffee cup it supplies a conventional purpose. The word order alone does not select the semantic relation.",
+        "target": "<i>Dog breeders</i> normally pluralizes the head <i>breeders</i>. In <i>book review</i> the first nominal can supply the topic or object of a reviewing event. In <i>coffee cup</i> it supplies a conventional purpose. The word order alone does not select the semantic relation.",
         "evidence": "CGEL distinguishes noun-headed phrases and compounds and analyzes dependents independently of the inferred relation.",
         "confidence": "medium"
       }
@@ -141,7 +141,7 @@
     "curious": {
       "title": "A noun in front of another noun",
       "summary": "A noun can come before another noun to say what kind, what for or where from.",
-      "body": "In dog breeder, the first noun tells you what kind of breeder: one who breeds dogs. In coffee cup, it gives a purpose: a cup for holding coffee. In city council, it points to where the council belongs, and in baby food, it means food for babies.\n\nWord order alone doesn't say which relation is meant. In dog breeders, the plural normally goes on the second noun. In book review, the first noun can supply the topic or object of a reviewing event.",
+      "body": "In <i>dog breeder</i>, the first noun tells you what kind of breeder: one who breeds dogs. In <i>coffee cup</i>, it gives a purpose: a cup for holding coffee. In <i>city council</i>, it points to where the council belongs, and in <i>baby food</i>, it means food for babies.\n\nWord order alone doesn't say which relation is meant. In <i>dog breeders</i>, the plural normally goes on the second noun. In <i>book review</i>, the first noun can supply the topic or object of a reviewing event.",
       "examples": [
         {
           "text": "[dog] breeder",
@@ -160,11 +160,11 @@
           "from": "entry"
         }
       ],
-      "try": "Choose a noun, such as school. What different nouns can you put after it, and what relation does each one show?"
+      "try": "Choose a noun, such as <i>school</i>. What different nouns can you put after it, and what relation does each one show?"
     },
     "teacher": {
       "summary": "Covers noun-noun modification in the nominal, with several relations that word order alone doesn't signal.",
-      "explain": "A nominal can modify the head noun of a larger nominal. The relation between the two isn't signalled by word order, and this dictionary lists several: type (dog breeder), purpose (coffee cup), origin or location (city council, country music), a defining characteristic, and a relation like a genitive (student representative, government land, baby food). Plural normally goes on the head noun: dog breeders. In book review the first nominal can supply the topic or object of a reviewing event. This dictionary distinguishes this pre-head modifier from the noun-noun compound, which it lists as a related construction.",
+      "explain": "A nominal can modify the head noun of a larger nominal. The relation between the two isn't signalled by word order, and this dictionary lists several: type (<i>dog breeder</i>), purpose (<i>coffee cup</i>), origin or location (<i>city council</i>, <i>country music</i>), a defining characteristic, and a relation like a genitive (<i>student representative</i>, <i>government land</i>, <i>baby food</i>). Plural normally goes on the head noun: <i>dog breeders</i>. In <i>book review</i> the first nominal can supply the topic or object of a reviewing event. This dictionary distinguishes this pre-head modifier from the noun-noun compound, which it lists as a related construction.",
       "terms": "This dictionary treats the first nominal as a pre-head modifier and lists the noun-noun compound as a separate, related construction.",
       "examples": [
         {
@@ -203,9 +203,9 @@
       ],
       "watch_for": [
         "A learner might expect one fixed relation for every noun-noun pair, when word order alone doesn't select it.",
-        "A learner might put the plural on the first noun in dog breeders, when the head noun normally takes it."
+        "A learner might put the plural on the first noun in <i>dog breeders</i>, when the head noun normally takes it."
       ],
-      "activity": "Students make cards with nouns (dog, coffee, city, baby) and heads (breeder, cup, council, food). They combine each pair and explain the relation, and then compare with a partner who chose a different relation."
+      "activity": "Students make cards with nouns (<i>dog</i>, <i>coffee</i>, <i>city</i>, <i>baby</i>) and heads (<i>owner</i>, <i>cup</i>, <i>council</i>, <i>food</i>). They combine each pair and explain the relation, and then compare with a partner who chose a different relation."
     },
     "child": {
       "hook": "What is a coffee cup? What is a dog breeder?",
@@ -224,7 +224,7 @@
           "from": "entry"
         }
       ],
-      "play": "Pick the word cup and put a different noun before it. Then do the same with food. What does each new pair mean?"
+      "play": "Pick the word <i>cup</i> and put a different noun before it. Then do the same with <i>food</i>. What does each new pair mean?"
     }
   },
   "status": {
@@ -241,15 +241,15 @@
         "date": "2026-11-19",
         "model": "claude-sonnet-5-5 (resolving checker flags)",
         "result": "fixed",
-        "note": "Fixed: teacher terms no longer equates the construction with noun-noun compound or noun adjunct (the entry distinguishes noun-headed phrases from compounds and lists the compound as related); plural-on-the-head statements now say 'normally' and the book review reading 'can' supply the topic or object, as in the entry."
+        "note": "Fixed: teacher terms no longer equates the construction with noun-noun compound or noun adjunct (the entry distinguishes noun-headed phrases from compounds and lists the compound as related); plural-on-the-head statements now say 'normally' and the book review reading 'can' supply the topic or object, as in the entry. Frequency pass: teacher.activity head noun breeder (about 13,800th in SUBTLEX-UK, counting breeders) replaced by owner; entry examples unchanged."
       }
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Nominal Pre-head Modifier in Nominal.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/nom-n-mod-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Nominal Pre-head Modifier in Nominal.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/nom-n-mod-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

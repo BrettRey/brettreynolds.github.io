@@ -61,7 +61,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The tool is interpreted as the object of borrowed. Licensing varies with the intervening construction, and experiments find gradient effects associated with how strongly the embedded content is backgrounded.",
+        "target": "The tool is interpreted as the object of <i>borrowed</i>. Licensing varies with the intervening construction, and experiments find gradient effects associated with how strongly the embedded content is backgrounded.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -71,7 +71,7 @@
     "curious": {
       "title": "A question word reaching into a later clause",
       "summary": "A question word at the front of a sentence can ask about something that belongs to a verb in a later clause.",
-      "body": "In Which tool did Lee say Jo had borrowed? the question word phrase sits at the front, but the tool is what Jo borrowed, not what Lee said. The question reaches into the clause that follows say.\n\nCompare the shorter Which tool did Jo borrow? Here the question phrase is tied directly to the main verb. In the longer version, the same link is stretched across another clause.\n\nNot every sentence of this kind sounds equally natural. How well it works depends on the construction in between, and experiments find gradient effects, linked to how strongly the embedded content is backgrounded.",
+      "body": "In <i>Which tool did Lee say Jo had borrowed?</i> the question word phrase sits at the front, but the tool is what Jo borrowed, not what Lee said. The question reaches into the clause that follows <i>say</i>.\n\nCompare the shorter <i>Which tool did Jo borrow?</i> Here the question phrase is tied directly to the main verb. In the longer version, the same link is stretched across another clause.\n\nNot every sentence of this kind sounds equally natural. How well it works depends on the construction in between, and experiments find gradient effects, linked to how strongly the embedded content is backgrounded.",
       "examples": [
         {
           "text": "[Which tool did Lee say Jo had borrowed?]",
@@ -82,11 +82,11 @@
           "from": "entry"
         }
       ],
-      "try": "Say Which tool did Lee say Jo had borrowed? Which verb does Which tool belong to?"
+      "try": "Say <i>Which tool did Lee say Jo had borrowed?</i> Which verb does <i>Which tool</i> belong to?"
     },
     "teacher": {
       "summary": "For advanced classes: how a question phrase at the front is understood as belonging to a verb in a lower clause.",
-      "explain": "A long-distance open interrogative fronts an interrogative phrase and associates it with a gap inside an embedded clause. In Which tool did Lee say Jo had borrowed?, the tool is interpreted as the object of borrowed. The local counterpart, Which tool did Jo borrow?, ties the phrase directly to the main verb. Licensing varies with the intervening construction, and experiments report gradient effects associated with how strongly the embedded content is backgrounded. This dictionary marks the analysis as provisional, so don't present a simple rule for which embeddings allow it.",
+      "explain": "A long-distance open interrogative fronts an interrogative phrase and associates it with a gap inside an embedded clause. In <i>Which tool did Lee say Jo had borrowed?</i>, the tool is interpreted as the object of <i>borrowed</i>. The local counterpart, <i>Which tool did Jo borrow?</i>, ties the phrase directly to the main verb. Licensing varies with the intervening construction, and experiments report gradient effects associated with how strongly the embedded content is backgrounded. This dictionary marks the analysis as provisional, so don't present a simple rule for which embeddings allow it.",
       "terms": "Open interrogative is the term here; a wh-question is another name for the same kind of question. The link across clauses is a long-distance dependency.",
       "examples": [
         {
@@ -98,7 +98,7 @@
         {
           "text": "Which tool did Lee say Jo had borrowed?",
           "from": "entry",
-          "note": "Long-distance. The tool is the object of borrowed."
+          "note": "Long-distance. The tool is the object of <i>borrowed</i>."
         },
         {
           "text": "Which tool did Jo borrow?",
@@ -107,10 +107,10 @@
         }
       ],
       "watch_for": [
-        "A learner might link the question phrase to say, when the tool is the object of borrowed.",
+        "A learner might link the question phrase to <i>say</i>, when the tool is the object of <i>borrowed</i>.",
         "A learner might expect every embedding to allow the pattern equally, when licensing varies with the intervening construction."
       ],
-      "activity": "Give students a statement like Lee said Jo had borrowed a tool. They turn it into a question about the tool, then check each question by identifying which verb the question phrase belongs to."
+      "activity": "Give students a statement like <i>Lee said Jo had borrowed a tool</i>. They turn it into a question about the tool, then check each question by identifying which verb the question phrase belongs to."
     }
   },
   "status": {
@@ -131,10 +131,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Long-Distance Open Interrogative.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/long-distance-open-interrogative-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Long-Distance Open Interrogative.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/long-distance-open-interrogative-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

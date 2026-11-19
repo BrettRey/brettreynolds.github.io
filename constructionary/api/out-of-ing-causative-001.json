@@ -1,6 +1,6 @@
 {
   "id": "out-of-ing-causative-001",
-  "name": "Out-of Causative with an -ing Clause",
+  "name": "<i>out of</i> Causative with an <i>-ing</i> Clause",
   "pattern": "VP[Head:V + Od:NPᵢ + Comp:PP[out of + gerund-participial Clause with understood subjectᵢ]]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/out-of-ing-causative-001/",
@@ -9,13 +9,13 @@
   },
   "entry": {
     "id": "out-of-ing-causative-001",
-    "name": "Out-of Causative with an -ing Clause",
+    "name": "<i>out of</i> Causative with an <i>-ing</i> Clause",
     "pattern": "VP[Head:V + Od:NPᵢ + Comp:PP[out of + gerund-participial Clause with understood subjectᵢ]]",
     "type": "mixed",
     "meanings": {
       "1": {
         "definition": "Presents the object referent as caused to abandon an action or prevented from carrying it out.",
-        "details": "Talk someone out of leaving can prevent a prospective departure. Other uses involve stopping an ongoing course of action or losing an opportunity through deception. The object supplies the understood subject of the gerund-participial. A report of trying, intending, or planning to bring this about does not assert that the prevention occurred.",
+        "details": "<i>Talk someone out of leaving</i> can prevent a prospective departure. Other uses involve stopping an ongoing course of action or losing an opportunity through deception. The object supplies the understood subject of the gerund-participial. A report of trying, intending, or planning to bring this about does not assert that the prevention occurred.",
         "examples": [
           {
             "form": "They [talked Lee out of leaving].",
@@ -67,8 +67,8 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The affected object is understood as the participant in the action that is prevented, abandoned, or made unavailable. The paired into-frame can express the opposite outcome.",
-        "evidence": "Kim and Sim analyze 725 COCA examples. The noun-taking out of frame in Hunston’s inventory supplies a point of comparison.",
+        "target": "The affected object is understood as the participant in the action that is prevented, abandoned, or made unavailable. The paired <i>into</i>-frame can express the opposite outcome.",
+        "evidence": "Kim and Sim analyze 725 COCA examples. The noun-taking <i>out of</i> frame in Hunston’s inventory supplies a point of comparison.",
         "confidence": "high"
       }
     }
@@ -76,8 +76,8 @@
   "editions": {
     "curious": {
       "title": "Talked out of doing something",
-      "summary": "In They talked Lee out of leaving, the person after the verb is steered away from an action.",
-      "body": "In They talked Lee out of leaving, Lee is the person who would have left, and the talking is aimed at stopping that. The person after the verb is understood as the doer of the action in the -ing phrase.\n\nThis dictionary describes the meaning as causing someone to abandon an action or preventing them from carrying it out. Other uses involve stopping an ongoing course of action, or losing an opportunity through deception, as in I cheated you all out of being in my life. A report of trying to talk someone out of something doesn't say that it worked.",
+      "summary": "In <i>They talked Lee out of leaving</i>, the person after the verb is steered away from an action.",
+      "body": "In <i>They talked Lee out of leaving</i>, Lee is the person who would have left, and the talking is aimed at stopping that. The person after the verb is understood as the doer of the action in the <i>-ing</i> phrase.\n\nThis dictionary describes the meaning as causing someone to abandon an action or preventing them from carrying it out. Other uses involve stopping an ongoing course of action, or losing an opportunity through deception, as in <i>I cheated you all out of being in my life</i>. A report of trying to talk someone out of something doesn't say that it worked.",
       "examples": [
         {
           "text": "They [talked Lee out of leaving].",
@@ -92,12 +92,12 @@
           "from": "constructed"
         }
       ],
-      "try": "Say They talked Lee out of leaving. Did Lee leave? Now say They tried to talk Lee out of leaving. What do you know now?"
+      "try": "Say <i>They talked Lee out of leaving</i>. Did Lee leave? Now say <i>They tried to talk Lee out of leaving</i>. What do you know now?"
     },
     "teacher": {
-      "summary": "Explains verb + object + out of + -ing phrase, where the object is the understood doer of the -ing action.",
-      "explain": "The pattern is a verb, a direct object, and a PP complement headed by out of whose complement is a gerund-participial clause. The object supplies the understood subject of that clause. The meaning is that the object referent is caused to abandon an action, or is prevented from carrying it out. Uses include a prospective action (talked Lee out of leaving), stopping an ongoing course of action, and losing an opportunity through deception (cheated you all out of being in my life). A report of trying, intending or planning to bring this about doesn't assert that the prevention occurred. This dictionary marks the analysis as provisional.",
-      "terms": "Gerund-participial is this dictionary's term for the -ing clause. Traditional grammar might call it a gerund phrase.",
+      "summary": "Explains verb + object + <i>out of</i> + <i>-ing</i> phrase, where the object is the understood doer of the <i>-ing</i> action.",
+      "explain": "The pattern is a verb, a direct object, and a PP complement headed by <i>out of</i> whose complement is a gerund-participial clause. The object supplies the understood subject of that clause. The meaning is that the object referent is caused to abandon an action, or is prevented from carrying it out. Uses include a prospective action (<i>talked Lee out of leaving</i>), stopping an ongoing course of action, and losing an opportunity through deception (<i>cheated you all out of being in my life</i>). A report of trying, intending or planning to bring this about doesn't assert that the prevention occurred. This dictionary marks the analysis as provisional.",
+      "terms": "Gerund-participial is this dictionary's term for the <i>-ing</i> clause. Traditional grammar might call it a gerund phrase.",
       "examples": [
         {
           "text": "They [talked Lee out of leaving].",
@@ -112,7 +112,7 @@
         {
           "text": "They talked Lee out of leaving.",
           "from": "entry",
-          "note": "Lee is the understood subject of leaving."
+          "note": "Lee is the understood subject of <i>leaving</i>."
         },
         {
           "text": "They tried to talk Lee out of leaving.",
@@ -121,10 +121,10 @@
         }
       ],
       "watch_for": [
-        "A learner might conclude from tried to talk Lee out of leaving that Lee stayed, when the sentence doesn't assert it.",
-        "A learner might read out of as spatial, as in a literal movement out of a place, when here it introduces an action that's abandoned or prevented."
+        "A learner might conclude from <i>tried to talk Lee out of leaving</i> that Lee stayed, when the sentence doesn't assert it.",
+        "A learner might read <i>out of</i> as spatial, as in a literal movement out of a place, when here it introduces an action that's abandoned or prevented."
       ],
-      "activity": "Students write sentences with talked someone out of plus an -ing phrase. They then rewrite each with tried to, and discuss what each version tells the reader about whether the action took place."
+      "activity": "Students write sentences with <i>talked someone out of</i> plus an <i>-ing</i> phrase. They then rewrite each with <i>tried to</i>, and discuss what each version tells the reader about whether the action took place."
     }
   },
   "status": {
@@ -145,10 +145,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Out-of Causative with an -ing Clause.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/out-of-ing-causative-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"<i>out of</i> Causative with an <i>-ing</i> Clause.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/out-of-ing-causative-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

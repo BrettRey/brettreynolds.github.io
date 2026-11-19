@@ -1,6 +1,6 @@
 {
   "id": "true-partitive-001",
-  "name": "True Partitive with Of",
+  "name": "True Partitive with <i>of</i>",
   "pattern": "NP[quantificational head or fused head + PP[of + definite/domain-establishing NP]]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/true-partitive-001/",
@@ -10,7 +10,7 @@
   },
   "entry": {
     "id": "true-partitive-001",
-    "name": "True Partitive with Of",
+    "name": "True Partitive with <i>of</i>",
     "pattern": "NP[quantificational head or fused head + PP[of + definite/domain-establishing NP]]",
     "type": "mixed",
     "meanings": {
@@ -23,7 +23,7 @@
           },
           {
             "form": "They bought [three of the cartons of milk].",
-            "note": "Constructed comparison. Of the cartons supplies an established group of containers. Of milk identifies the contents of each."
+            "note": "Constructed comparison. <i>Of the cartons</i> supplies an established group of containers. <i>Of milk</i> identifies the contents of each."
           }
         ]
       }
@@ -41,7 +41,7 @@
       {
         "id": "measure-pseudopartitive-001",
         "relationship": "related-to",
-        "notes": "Three of the cartons selects members of a set. Three litres of the milk specifies quantity. A definite NP after of is compatible with either analysis."
+        "notes": "<i>Three of the cartons</i> selects members of a set. <i>Three litres of the milk</i> specifies quantity. A definite NP after <i>of</i> is compatible with either analysis."
       }
     ],
     "grounds": [
@@ -55,7 +55,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The of-phrase supplies the domain counted over. The boxes can be more numerous than three. In three boxes of apples, of apples instead identifies the content or measure domain.",
+        "target": "The <i>of</i>-phrase supplies the domain counted over. The boxes can be more numerous than three. In <i>three boxes of apples</i>, <i>of apples</i> instead identifies the content or measure domain.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -64,8 +64,8 @@
   "editions": {
     "curious": {
       "title": "Picking some out of a group",
-      "summary": "A phrase like three of the boxes picks out a smaller number from a group we already have in mind.",
-      "body": "In They opened three of the boxes, the words after of name a group already established: the boxes. The words before of say the number chosen from it. The boxes can be more numerous than three.\n\nCompare three boxes of apples. There, of apples says what is inside the boxes, not which boxes were chosen. A longer sentence can show both: They bought three of the cartons of milk. Of the cartons names the set that three comes from, and of milk says what each carton holds.\n\nThe dictionary marks this account as provisional.",
+      "summary": "A phrase like <i>three of the boxes</i> picks out a smaller number from a group we already have in mind.",
+      "body": "In <i>They opened three of the boxes</i>, the words after <i>of</i> name a group already established: the boxes. The words before <i>of</i> say the number chosen from it. The boxes can be more numerous than three.\n\nCompare <i>three boxes of apples</i>. There, <i>of apples</i> says what is inside the boxes, not which boxes were chosen. A longer sentence can show both: <i>They bought three of the cartons of milk</i>. <i>Of the cartons</i> names the set that <i>three</i> comes from, and <i>of milk</i> says what each carton holds.\n\nThe dictionary marks this account as provisional.",
       "examples": [
         {
           "text": "They opened [three of the boxes].",
@@ -76,11 +76,11 @@
           "from": "entry"
         }
       ],
-      "try": "Say three of the apples and three boxes of apples. In which one are you choosing from a set already in view?"
+      "try": "Say <i>three of the apples</i> and <i>three boxes of apples</i>. In which one are you choosing from a set already in view?"
     },
     "teacher": {
-      "summary": "Helps explain how of-phrases pick a subset from an established group, as opposed to naming contents or a measure.",
-      "explain": "In a true partitive, a quantificational head or fused head combines with an of-phrase whose noun phrase is definite or otherwise establishes a domain. The of-phrase supplies the domain counted over, so the boxes can be more numerous than three. In three boxes of apples, of apples instead identifies the content or measure domain. In three of the cartons of milk, of the cartons gives the domain and of milk identifies the contents of each. This dictionary notes that a definite noun phrase after of is compatible with either analysis: three of the cartons selects members of a set, while three litres of the milk specifies quantity. The analysis is marked provisional.",
+      "summary": "Helps explain how <i>of</i>-phrases pick a subset from an established group, as opposed to naming contents or a measure.",
+      "explain": "In a true partitive, a quantificational head or fused head combines with an <i>of</i>-phrase whose noun phrase is definite or otherwise establishes a domain. The <i>of</i>-phrase supplies the domain counted over, so the boxes can be more numerous than three. In <i>three boxes of apples</i>, <i>of apples</i> instead identifies the content or measure domain. In <i>three of the cartons of milk</i>, <i>of the cartons</i> gives the domain and <i>of milk</i> identifies the contents of each. This dictionary notes that a definite noun phrase after <i>of</i> is compatible with either analysis: <i>three of the cartons</i> selects members of a set, while <i>three litres of the milk</i> specifies quantity. The analysis is marked provisional.",
       "terms": "Partitive is the traditional name. The contrast case is the measure pseudopartitive, covered in a related entry.",
       "examples": [
         {
@@ -101,18 +101,18 @@
         {
           "text": "Three litres of the milk specifies quantity.",
           "from": "entry",
-          "note": "Measure reading, though the definite noun phrase after of looks the same."
+          "note": "Measure reading, though the definite noun phrase after <i>of</i> looks the same."
         }
       ],
       "watch_for": [
-        "A learner might read the of-phrase in three boxes of apples as the group chosen from, when it names the contents.",
-        "A learner might assume a definite noun phrase after of must signal a partitive, though this dictionary says it is compatible with either analysis."
+        "A learner might read the <i>of</i>-phrase in <i>three boxes of apples</i> as the group chosen from, when it names the contents.",
+        "A learner might assume a definite noun phrase after <i>of</i> must signal a partitive, though this dictionary says it is compatible with either analysis."
       ],
-      "activity": "Lay out ten counters. Students say \"I took three of the counters\" and compare it with \"three counters of plastic\", then discuss which phrase names the group chosen from."
+      "activity": "Lay out ten counters. Students say \"<i>I took three of the counters</i>\" and compare it with \"<i>three counters of plastic</i>\", then discuss which phrase names the group chosen from."
     },
     "child": {
       "hook": "If you take three cookies from a plate, what is left behind?",
-      "explain": "We say three of the cookies when we pick some from a group we can already see. The group comes after of.",
+      "explain": "We say <i>three of the cookies</i> when we pick some from a group we can already see. The group comes after <i>of</i>.",
       "examples": [
         {
           "text": "They opened [three of the boxes].",
@@ -123,7 +123,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Put toys on a table. Take some and say \"I took two of the toys.\" Then swap and let a friend say what you left."
+      "play": "Put toys on a table. Take some and say \"<i>I took two of the toys.</i>\" Then swap and let a friend say what you left."
     }
   },
   "status": {
@@ -144,10 +144,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"True Partitive with Of.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/true-partitive-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"True Partitive with <i>of</i>.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/true-partitive-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

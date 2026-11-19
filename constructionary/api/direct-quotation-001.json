@@ -32,7 +32,7 @@
       {
         "id": "indirect-report-001",
         "relationship": "related-to",
-        "notes": "Jo said, “I’m ready” presents a quotation in the original speaker’s terms. Jo said that she was ready reports content from the reporting context."
+        "notes": "<i>Jo said, “I’m ready”</i> presents a quotation in the original speaker’s terms. <i>Jo said that she was ready</i> reports content from the reporting context."
       }
     ],
     "grounds": [
@@ -46,7 +46,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "I and tomorrow are anchored to the quoted speech. A verbal question can retain root inversion inside the quote, unlike the ordinary indirect question complement.",
+        "target": "<i>I</i> and <i>tomorrow</i> are anchored to the quoted speech. A verbal question can retain root inversion inside the quote, unlike the ordinary indirect question complement.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -56,7 +56,7 @@
     "curious": {
       "title": "Quoting someone's exact words",
       "summary": "A direct quotation presents words as the speaker voiced them, set against a frame saying who spoke.",
-      "body": "In \"I'll call tomorrow,\" Jo said, the quoted words come first and the frame Jo said follows. The frame can also come first. Either way, the quotation presents the words in the original speaker's terms.\n\nReporting the same message differently changes the wording. Jo said, \"I'm ready\" quotes her words, and Jo said that she was ready reports what she meant from the point of view of the person doing the reporting.",
+      "body": "In <i>\"I'll call tomorrow,\" Jo said</i>, the quoted words come first and the frame <i>Jo said</i> follows. The frame can also come first. Either way, the quotation presents the words in the original speaker's terms.\n\nReporting the same message differently changes the wording. <i>Jo said, \"I'm ready\"</i> quotes her words, and <i>Jo said that she was ready</i> reports what she meant from the point of view of the person doing the reporting.",
       "examples": [
         {
           "text": "[“I’ll call tomorrow,” Jo said].",
@@ -71,11 +71,11 @@
           "from": "constructed"
         }
       ],
-      "try": "Tell a friend what you said earlier in the day, first in your exact words and then in a report that starts with that."
+      "try": "Tell a friend what you said earlier in the day, first in your exact words and then in a report that starts with <i>that</i>."
     },
     "teacher": {
       "summary": "Helps contrast a direct quotation with an indirect report of the same message.",
-      "explain": "A direct quotation presents words as directly voiced or displayed against a reporting frame, either quotation plus reporting predicate or the reverse. The quotation keeps the original speaker's terms. An indirect report, by contrast, reports content from the reporting context, which is why the pronoun and verb form in Jo said that she was ready differ from those in Jo said, \"I'm ready\". This dictionary relates direct quotation to indirect reports and to closed interrogative clauses.",
+      "explain": "A direct quotation presents words as directly voiced or displayed against a reporting frame, either quotation plus reporting predicate or the reverse. The quotation keeps the original speaker's terms. An indirect report, by contrast, reports content from the reporting context, which is why the pronoun and verb form in <i>Jo said that she was ready</i> differ from those in <i>Jo said, \"I'm ready\"</i>. This dictionary relates direct quotation to indirect reports and to closed interrogative clauses.",
       "terms": "Traditionally, direct speech versus indirect (reported) speech.",
       "examples": [
         {
@@ -96,13 +96,13 @@
         }
       ],
       "watch_for": [
-        "A learner might treat Jo said, \"I'm ready\" and Jo said that she was ready as identical in how they present the words."
+        "A learner might treat <i>Jo said, \"I'm ready\"</i> and <i>Jo said that she was ready</i> as identical in how they present the words."
       ],
       "activity": "Students write down a short remark from a partner as a direct quotation, then rewrite it as an indirect report, and mark which words changed."
     },
     "child": {
       "hook": "How do you tell someone exactly what a friend said?",
-      "explain": "You can say a person's exact words and then say who spoke. Or you can say who spoke first. Jo said, \"I'm ready\" repeats her words. Jo said that she was ready tells what she meant.",
+      "explain": "You can say a person's exact words and then say who spoke. Or you can say who spoke first. <i>Jo said, \"I'm ready\"</i> repeats her words. <i>Jo said that she was ready</i> tells what she meant.",
       "examples": [
         {
           "text": "[“I’ll call tomorrow,” Jo said].",
@@ -134,10 +134,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Direct Quotation with Reporting Predicate.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/direct-quotation-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Direct Quotation with Reporting Predicate.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/direct-quotation-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

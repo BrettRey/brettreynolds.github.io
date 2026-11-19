@@ -1,6 +1,6 @@
 {
   "id": "closed-interrogative-whether-001",
-  "name": "Subordinate Closed Interrogative with Whether",
+  "name": "Subordinate Closed Interrogative with <i>whether</i>",
   "pattern": "whether + subordinate declarative-order nucleus, or whether + to-infinitival",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/closed-interrogative-whether-001/",
@@ -9,7 +9,7 @@
   },
   "entry": {
     "id": "closed-interrogative-whether-001",
-    "name": "Subordinate Closed Interrogative with Whether",
+    "name": "Subordinate Closed Interrogative with <i>whether</i>",
     "pattern": "whether + subordinate declarative-order nucleus, or whether + to-infinitival",
     "type": "syntactic",
     "meanings": {
@@ -45,7 +45,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Whether can introduce an infinitival, where interrogative if is unavailable. Certain finite prepositional and subject environments likewise favour or require whether.",
+        "target": "<i>Whether</i> can introduce an infinitival, where interrogative <i>if</i> is unavailable. Certain finite prepositional and subject environments likewise favour or require <i>whether</i>.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -53,9 +53,9 @@
   },
   "editions": {
     "curious": {
-      "title": "Questions inside sentences with whether",
-      "summary": "Whether can introduce a question or a choice between alternatives inside a larger sentence.",
-      "body": "In Whether to reschedule still needs discussion, whether introduces a choice between alternatives, and the whole phrase acts as the subject of the sentence. Whether can be followed by a full clause or by to and a verb.\n\nIt also works in places where the question word if isn't available, such as before to and a verb. Some other positions, including some where the phrase is the subject, favour whether or require it.",
+      "title": "Questions inside sentences with <i>whether</i>",
+      "summary": "<i>Whether</i> can introduce a question or a choice between alternatives inside a larger sentence.",
+      "body": "In <i>Whether to reschedule still needs discussion</i>, <i>whether</i> introduces a choice between alternatives, and the whole phrase acts as the subject of the sentence. <i>Whether</i> can be followed by a full clause or by <i>to</i> and a verb.\n\nIt also works in places where the question word <i>if</i> isn't available, such as before <i>to</i> and a verb. Some other positions, including some where the phrase is the subject, favour <i>whether</i> or require it.",
       "examples": [
         {
           "text": "[Whether to reschedule] still needs discussion.",
@@ -66,12 +66,12 @@
           "from": "constructed"
         }
       ],
-      "try": "Compare I wonder whether to go and I wonder whether we should go. Is the choice between alternatives the same in both?"
+      "try": "Compare <i>I wonder whether to go</i> and <i>I wonder whether we should go</i>. Is the choice between alternatives the same in both?"
     },
     "teacher": {
-      "summary": "Useful for explaining when whether, and not if, introduces an embedded closed question.",
-      "explain": "Whether introduces an embedded closed question or choice between alternatives, followed either by a clause in declarative order or by a to-infinitival. It can introduce an infinitival where interrogative if is unavailable. Certain finite prepositional and subject environments likewise favour or require whether. When teaching embedded questions, show whether alongside if, so students see where whether is the form to use.",
-      "terms": "Subordinate closed interrogative: an embedded closed question or choice between alternatives. Compare if, whose use is more restricted here; see the separate entry for if.",
+      "summary": "Useful for explaining when <i>whether</i>, and not <i>if</i>, introduces an embedded closed question.",
+      "explain": "<i>Whether</i> introduces an embedded closed question or choice between alternatives, followed either by a clause in declarative order or by a <i>to</i>-infinitival. It can introduce an infinitival where interrogative <i>if</i> is unavailable. Certain finite prepositional and subject environments likewise favour or require <i>whether</i>. When teaching embedded questions, show <i>whether</i> alongside <i>if</i>, so students see where <i>whether</i> is the form to use.",
+      "terms": "Subordinate closed interrogative: an embedded closed question or choice between alternatives. Compare <i>if</i>, whose use is more restricted here; see the separate entry for <i>if</i>.",
       "examples": [
         {
           "text": "[Whether to reschedule] still needs discussion.",
@@ -83,10 +83,10 @@
         }
       ],
       "watch_for": [
-        "A learner might choose if where whether is favoured or required, as with whether to reschedule.",
-        "A learner might miss that a whether-phrase can itself be the subject of a sentence."
+        "A learner might choose <i>if</i> where <i>whether</i> is favoured or required, as with <i>whether to reschedule</i>.",
+        "A learner might miss that a <i>whether</i>-phrase can itself be the subject of a sentence."
       ],
-      "activity": "Give students sentences with a gap where whether or if could go. They decide where whether is needed or preferred, then say what each embedded clause asks."
+      "activity": "Give students sentences with a gap where <i>whether</i> or <i>if</i> could go. They decide where <i>whether</i> is needed or preferred, then say what each embedded clause asks."
     }
   },
   "status": {
@@ -108,10 +108,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Subordinate Closed Interrogative with Whether.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/closed-interrogative-whether-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Subordinate Closed Interrogative with <i>whether</i>.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/closed-interrogative-whether-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

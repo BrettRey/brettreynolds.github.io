@@ -32,7 +32,7 @@
       {
         "id": "emphatic-polarity-response-001",
         "relationship": "related-to",
-        "notes": "Compare Yes, she did with Hell yeah. The first can retain a subject and finite auxiliary from the antecedent clause. The second adds emphasis to the response word."
+        "notes": "Compare <i>Yes, she did</i> with <i>Hell yeah</i>. The first can retain a subject and finite auxiliary from the antecedent clause. The second adds emphasis to the response word."
       }
     ],
     "grounds": [
@@ -46,7 +46,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Did presents a positive answer and helps identify the elided predicate. Responses to negative questions can vary in the use of the answer particle across speakers and contexts.",
+        "target": "<i>Did</i> presents a positive answer and helps identify the elided predicate. Responses to negative questions can vary in the use of the answer particle across speakers and contexts.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -55,8 +55,8 @@
   "editions": {
     "curious": {
       "title": "Answering yes or no with a short reply",
-      "summary": "A short reply to a yes/no question can say yes or no, then a pronoun, then a helper verb, and leave the rest out.",
-      "body": "Asked Did Jo lock up?, you can answer Yes, she did. The answer uses the pronoun she for Jo, repeats the helper word did from the question, and drops the rest of the verb phrase. The helper verb in the reply tells you the answer is positive, and it helps you work out what is left out: lock up.\n\nReplies to negative questions can vary from speaker to speaker and context to context in how the answer word, yes or no, is used.",
+      "summary": "A short reply to a yes/no question can say <i>yes</i> or <i>no</i>, then a pronoun, then a helper verb, and leave the rest out.",
+      "body": "Asked <i>Did Jo lock up?</i>, you can answer <i>Yes, she did</i>. The answer uses the pronoun <i>she</i> for <i>Jo</i>, repeats the helper word <i>did</i> from the question, and drops the rest of the verb phrase. The helper verb in the reply tells you the answer is positive, and it helps you work out what is left out: <i>lock up</i>.\n\nReplies to negative questions can vary from speaker to speaker and context to context in how the answer word, <i>yes</i> or <i>no</i>, is used.",
       "examples": [
         {
           "text": "“Did Jo lock up?” “[Yes, she did].”",
@@ -70,9 +70,9 @@
       "try": "Ask a friend a yes/no question about their day. Does their short answer repeat a helper word from your question?"
     },
     "teacher": {
-      "summary": "Shows how a reply to a yes/no question can be built from yes or no, a subject pronoun and a finite auxiliary.",
-      "explain": "A polar short answer resolves an antecedent polar question with an overt indication of polarity. The pattern is an answer particle, a subject pronoun and a finite auxiliary, optionally negated. Did presents a positive answer and helps identify the elided predicate. Responses to negative questions can vary in the use of the answer particle across speakers and contexts. This dictionary marks this as provisional, with medium confidence, and relates it to auxiliary VP ellipsis.",
-      "terms": "Textbooks sometimes call these short answers or elliptical answers. This dictionary's answer particle is the word yes or no.",
+      "summary": "Shows how a reply to a yes/no question can be built from <i>yes</i> or <i>no</i>, a subject pronoun and a finite auxiliary.",
+      "explain": "A polar short answer resolves an antecedent polar question with an overt indication of polarity. The pattern is an answer particle, a subject pronoun and a finite auxiliary, optionally negated. <i>Did</i> presents a positive answer and helps identify the elided predicate. Responses to negative questions can vary in the use of the answer particle across speakers and contexts. This dictionary marks this as provisional, with medium confidence, and relates it to auxiliary VP ellipsis.",
+      "terms": "Textbooks sometimes call these short answers or elliptical answers. This dictionary's answer particle is the word <i>yes</i> or <i>no</i>.",
       "examples": [
         {
           "text": "“Did Jo lock up?” “[Yes, she did].”",
@@ -86,11 +86,11 @@
       "watch_for": [
         "A learner might treat the reply to a negative question as having a single fixed form, when this dictionary notes variation in the answer particle."
       ],
-      "activity": "Pairs ask each other five yes/no questions with different auxiliaries (did, can, is, has, will) and reply with a full short answer, then say what part of the verb phrase was left out."
+      "activity": "Pairs ask each other five yes/no questions with different auxiliaries (<i>did</i>, <i>can</i>, <i>is</i>, <i>has</i>, <i>will</i>) and reply with a full short answer, then say what part of the verb phrase was left out."
     },
     "child": {
-      "hook": "When someone asks Did you lock up? what short answer can you give?",
-      "explain": "You can answer a yes/no question with a short reply. Did Jo lock up? Yes, she did. The reply uses did from the question and leaves out the rest.",
+      "hook": "When someone asks <i>Did you lock up?</i> what short answer can you give?",
+      "explain": "You can answer a yes/no question with a short reply. <i>Did Jo lock up?</i> <i>Yes, she did</i>. The reply uses <i>did</i> from the question and leaves out the rest.",
       "examples": [
         {
           "text": "Did Jo lock up? Yes, she did.",
@@ -101,7 +101,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Ask each other yes/no questions. Give short answers like Yes, she did."
+      "play": "Ask each other yes/no questions. Give short answers like <i>Yes, she did</i>."
     }
   },
   "status": {
@@ -123,10 +123,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Finite Auxiliary in a Polar Short Answer.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/polarity-short-answer-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Finite Auxiliary in a Polar Short Answer.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/polarity-short-answer-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

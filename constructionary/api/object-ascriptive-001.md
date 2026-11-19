@@ -4,15 +4,15 @@
 - pattern: VP[Head:V + Od:NPᵢ + PredComp:NPᵢ or AdjPᵢ]
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/object-ascriptive-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
 Ascribes a property or status to the object referent.
 
-In considered him a fool, the NP a fool describes him. The predicative does not add another participant or require a change of state. Passivizing can make the original object the subject while retaining its status as the referent described by the predicative.
+In *considered him a fool*, the NP *a fool* describes him. The predicative does not add another participant or require a change of state. Passivizing can make the original object the subject while retaining its status as the referent described by the predicative.
 
-- *She [considered him a fool].*: The predicative NP describes the person referred to by him.
+- *She [considered him a fool].*: The predicative NP describes the person referred to by *him*.
 - *He was [considered unreliable].*: Constructed passive with the adjectival predicative retained.
 
 ## Related constructions
@@ -30,7 +30,7 @@ In considered him a fool, the NP a fool describes him. The predicative does not 
 
 ## Projection
 
-The predicative remains oriented to the original object under passivization. With consider, the sentence does not present the object as undergoing a change.
+The predicative remains oriented to the original object under passivization. With *consider*, the sentence does not present the object as undergoing a change.
 
 ## Reader editions (draft, AI-assisted, unreviewed; the linguist entry is the reference)
 
@@ -38,12 +38,12 @@ The predicative remains oriented to the original object under passivization. Wit
 
 In some sentences the phrase after the object describes it, and isn't a second object.
 
-In She considered him a fool, the phrase a fool doesn't name another person. It describes him. The sentence ascribes a property or status to the person referred to by him.
+In *She considered him a fool*, the phrase *a fool* doesn't name another person. It describes him. The sentence ascribes a property or status to the person referred to by *him*.
 
-Nothing has to change for this to work: considering someone a fool doesn't present them as becoming one. The description stays attached to him even when the sentence is turned around, as in He was considered unreliable. This dictionary separates this pattern from sentences with two objects, such as handing someone a gift.
+Nothing has to change for this to work: considering someone a fool doesn't present them as becoming one. The description stays attached to him even when the sentence is turned around, as in *He was considered unreliable*. This dictionary separates this pattern from sentences with two objects, such as handing someone a gift.
 
 ### Teacher
 
 Separates an object plus a describing phrase from two objects, and from a result.
 
-The pattern is a verb, a direct object and a predicative complement (an NP or AdjP) that describes the object: in considered him a fool, a fool describes him. The predicative adds no participant and doesn't require a change of state. In the passive, the original object becomes the subject and the predicative still describes the same referent (He was considered unreliable). It contrasts with the double-object pattern, where two NPs are separate objects, and with the resultative, which presents the property as the result of the event. This dictionary marks the analysis as provisional.
+The pattern is a verb, a direct object and a predicative complement (an NP or AdjP) that describes the object: in *considered him a fool*, *a fool* describes him. The predicative adds no participant and doesn't require a change of state. In the passive, the original object becomes the subject and the predicative still describes the same referent (*He was considered unreliable*). It contrasts with the double-object pattern, where two NPs are separate objects, and with the resultative, which presents the property as the result of the event. This dictionary marks the analysis as provisional.

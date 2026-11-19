@@ -1,6 +1,6 @@
 {
   "id": "what-about-topic-001",
-  "name": "Topic Proposal with What About",
+  "name": "Topic Proposal with <i>what about</i>",
   "pattern": "what about + NP or gerund-participial expression",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/what-about-topic-001/",
@@ -10,7 +10,7 @@
   },
   "entry": {
     "id": "what-about-topic-001",
-    "name": "Topic Proposal with What About",
+    "name": "Topic Proposal with <i>what about</i>",
     "pattern": "what about + NP or gerund-participial expression",
     "type": "pragmatic",
     "meanings": {
@@ -41,7 +41,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "An activity can be proposed without asking for the identity of an object. With a referent such as the spare key, the intended issue is supplied by the conversation.",
+        "target": "An activity can be proposed without asking for the identity of an object. With a referent such as <i>the spare key</i>, the intended issue is supplied by the conversation.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -49,9 +49,9 @@
   },
   "editions": {
     "curious": {
-      "title": "What about this idea?",
-      "summary": "What about, followed by a thing or an action, puts something forward for the other person to think about.",
-      "body": "What about asking Lee first? isn't really a request for information. It proposes an action, asking Lee, for the listener to consider.\n\nThe words after what about can name an action, as here, or a thing. With something like the spare key, the conversation supplies what the issue is. The speaker doesn't need to ask what the object is.\n\nThe dictionary marks this account as provisional.",
+      "title": "<i>What about</i> this idea?",
+      "summary": "<i>What about</i>, followed by a thing or an action, puts something forward for the other person to think about.",
+      "body": "<i>What about asking Lee first?</i> isn't really a request for information. It proposes an action, <i>asking Lee</i>, for the listener to consider.\n\nThe words after <i>what about</i> can name an action, as here, or a thing. With something like <i>the spare key</i>, the conversation supplies what the issue is. The speaker doesn't need to ask what the object is.\n\nThe dictionary marks this account as provisional.",
       "examples": [
         {
           "text": "[What about asking Lee first?]",
@@ -62,12 +62,12 @@
           "from": "constructed"
         }
       ],
-      "try": "Suggest something to a friend using What about. Does the friend answer with information or with a decision?"
+      "try": "Suggest something to a friend using <i>What about</i>. Does the friend answer with information or with a decision?"
     },
     "teacher": {
-      "summary": "Helps explain what about as a way to propose an activity or raise a related topic.",
-      "explain": "The pattern is what about followed by a noun phrase or a gerund-participial expression. It introduces something for consideration, often as a related topic or proposed activity. An activity can be proposed without asking for the identity of an object. With a referent such as the spare key, the intended issue is supplied by the conversation. This dictionary classes it as pragmatic and relates it to questions. It marks its analysis provisional, so present a proposed activity and a related topic as two uses, and note that context supplies what is at issue.",
-      "terms": "Gerund-participial is this dictionary's term for an -ing expression such as asking Lee first. Textbooks may call the -ing form a gerund.",
+      "summary": "Helps explain <i>what about</i> as a way to propose an activity or raise a related topic.",
+      "explain": "The pattern is <i>what about</i> followed by a noun phrase or a gerund-participial expression. It introduces something for consideration, often as a related topic or proposed activity. An activity can be proposed without asking for the identity of an object. With a referent such as <i>the spare key</i>, the intended issue is supplied by the conversation. This dictionary classes it as pragmatic and relates it to questions. It marks its analysis provisional, so present a proposed activity and a related topic as two uses, and note that context supplies what is at issue.",
+      "terms": "Gerund-participial is this dictionary's term for an <i>-ing</i> expression such as <i>asking Lee first</i>. Textbooks may call the <i>-ing</i> form a gerund.",
       "examples": [
         {
           "text": "[What about asking Lee first?]",
@@ -91,14 +91,14 @@
         }
       ],
       "watch_for": [
-        "A learner might answer What about asking Lee first? by naming an object, when it proposes an action.",
-        "A learner might look for a missing noun phrase after about, when the proposal is complete."
+        "A learner might answer <i>What about asking Lee first?</i> by naming an object, when it proposes an action.",
+        "A learner might look for a missing noun phrase after <i>about</i>, when the proposal is complete."
       ],
-      "activity": "Pairs plan a weekend. One suggests with What about and an -ing phrase, the other accepts, rejects or changes the plan."
+      "activity": "Pairs plan a weekend. One suggests with <i>What about</i> and an <i>-ing</i> phrase, the other accepts, rejects or changes the plan."
     },
     "child": {
       "hook": "How do you suggest a game to a friend?",
-      "explain": "Sometimes What about is a way to suggest an idea. What about asking Lee first? It isn't a question about a thing.",
+      "explain": "Sometimes <i>What about</i> is a way to suggest an idea. <i>What about asking Lee first?</i> It isn't a question about a thing.",
       "examples": [
         {
           "text": "[What about asking Lee first?]",
@@ -109,7 +109,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Take turns suggesting an activity with What about. The next player says yes or suggests another."
+      "play": "Take turns suggesting an activity with <i>What about</i>. The next player says yes or suggests another."
     }
   },
   "status": {
@@ -131,10 +131,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Topic Proposal with What About.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/what-about-topic-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Topic Proposal with <i>what about</i>.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/what-about-topic-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

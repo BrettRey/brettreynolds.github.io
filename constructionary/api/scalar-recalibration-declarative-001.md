@@ -4,7 +4,7 @@
 - pattern: You think you're/NP is [GRADABLE-PRED]
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/scalar-recalibration-declarative-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
@@ -19,16 +19,16 @@ The surface form attributes a belief to the addressee, but the constructional me
 
 ## Constraints
 
-- (syntactic) Matrix clause with 2nd person subject and "think" as main verb
+- (syntactic) Matrix clause with 2nd person subject and "*think*" as main verb
 - (semantic) Embedded predicate must be gradable (scalar)
 - (pragmatic) Requires follow-up providing speaker's evidence for exceeding on the scale
 
 ## Related constructions
 
-- Overlaps with: You Call That X Challenge (`scalar-challenge-call-001`)
+- Overlaps with: *you call that X* Challenge (`scalar-challenge-call-001`)
 - A kind of: Declarative Clause (`declarative-clause-001`): The scalar-recalibration frame retains declarative clause type
 - Interacts with: Declarative Question (`declarative-question-001`): Question prosody commonly layers onto the declarative scalar frame
-- Compare: Metalinguistic More … Than (`metalinguistic-more-than-001`)
+- Compare: Metalinguistic *more … than* (`metalinguistic-more-than-001`)
 
 ## Sources
 
@@ -36,15 +36,15 @@ The surface form attributes a belief to the addressee, but the constructional me
 
 ## Projection
 
-You think that is loud can introduce an instance that shifts the operative degree standard. In a literal conversation about the hearer’s beliefs, the same sentence need not introduce a higher degree. The comparison depends on the following discourse.
+*You think that is loud* can introduce an instance that shifts the operative degree standard. In a literal conversation about the hearer’s beliefs, the same sentence need not introduce a higher degree. The comparison depends on the following discourse.
 
 ## Reader editions (draft, AI-assisted, unreviewed; the linguist entry is the reference)
 
 ### Curious reader: Topping someone's claim with your own
 
-You think you're tired? can set up a comparison in which the speaker's own case goes further on the same scale.
+*You think you're tired?* can set up a comparison in which the speaker's own case goes further on the same scale.
 
-You think you're tired? I've been up for 36 hours. The first part looks like a remark about what you believe, but it can shift the scale. The speaker can be saying they're beyond tired, in a way that makes the listener's tiredness look smaller.
+*You think you're tired? I've been up for 36 hours.* The first part looks like a remark about what you believe, but it can shift the scale. The speaker can be saying they're beyond tired, in a way that makes the listener's tiredness look smaller.
 
 Whether the sentence really works this way depends on what follows. A follow-up that gives the speaker's evidence, such as the 36 hours, supplies the comparison. In a literal conversation about what someone believes, the same sentence need not do this. This dictionary marks the analysis as provisional.
 
@@ -52,10 +52,10 @@ Whether the sentence really works this way depends on what follows. A follow-up 
 
 Helps explain a belief-sounding frame that can top the listener's point on a scale.
 
-The frame You think you're/NP is [GRADABLE-PRED] has a matrix clause with a second person subject and think as the main verb, and the embedded predicate must be gradable. Its meaning can be scalar recalibration: the speaker has something that exceeds the addressee's example on the relevant dimension. The direction is flexible, since the speaker may exceed from superiority (dismissive) or from being worse off (self-deprecating, ironic). The pattern needs a follow-up giving the speaker's evidence. The comparison depends on the following discourse. This dictionary marks the analysis as provisional.
+The frame *You think* you're/NP is [GRADABLE-PRED] has a matrix clause with a second person subject and *think* as the main verb, and the embedded predicate must be gradable. Its meaning can be scalar recalibration: the speaker has something that exceeds the addressee's example on the relevant dimension. The direction is flexible, since the speaker may exceed from superiority (dismissive) or from being worse off (self-deprecating, ironic). The pattern needs a follow-up giving the speaker's evidence. The comparison depends on the following discourse. This dictionary marks the analysis as provisional.
 
 ### Child
 
 What do you say when you've got it even worse than your friend?
 
-You think you're tired? can sound like a question about what you think. Sometimes it means "I'm even more tired." What the speaker says next shows which.
+*You think you're tired?* can sound like a question about what you think. Sometimes it means "I'm even more tired." What the speaker says next shows which.

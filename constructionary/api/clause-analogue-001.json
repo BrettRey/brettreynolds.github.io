@@ -21,7 +21,7 @@
     "meanings": {
       "1": {
         "definition": "Conveys clause-like semantic or discourse content through a non-headed construction that is not a Clause",
-        "details": "This node houses the constructions that CGEL calls verbless clauses while rejecting their assignment to the Clause category. Some have an overt subject-like expression plus a predicative expression (their hands above their heads; Dinner over); others consist overtly of a single NP, AdjP, PP, or predicative phrase whose subject or copular relation is recovered from the licensing construction or discourse (What a disaster!; No entry). The overt daughter phrases retain their own internal Heads, but none is Head of the higher clausal-semantics construction. Recovering an implicit predication or speech act in interpretation does not posit a silent VP in syntax.",
+        "details": "This node houses the constructions that CGEL calls verbless clauses while rejecting their assignment to the Clause category. Some have an overt subject-like expression plus a predicative expression (<i>their hands above their heads</i>; <i>Dinner over</i>); others consist overtly of a single NP, AdjP, PP, or predicative phrase whose subject or copular relation is recovered from the licensing construction or discourse (<i>What a disaster!</i>; <i>No entry</i>). The overt daughter phrases retain their own internal Heads, but none is Head of the higher clausal-semantics construction. Recovering an implicit predication or speech act in interpretation does not posit a silent VP in syntax.",
         "examples": [
           {
             "form": "They stood with [their hands above their heads].",
@@ -197,7 +197,7 @@
     "curious": {
       "title": "Sentence-like phrases with no verb",
       "summary": "Some short phrases carry the meaning of a whole statement even though they contain no verb.",
-      "body": "A notice reading No entry means something like \"you may not enter.\" What a disaster! means something like \"that's a disaster.\" Neither has a verb, yet we understand a full message. Dinner over, they resumed their game works the same way: it tells us the dinner was over.\n\nThis dictionary groups such phrases together. They get their clause-like meaning from the pattern they belong to and from the situation, not from a hidden verb. A clause here means a stretch of language built around a verb phrase, and these phrases aren't built that way. They also work only in particular frames, so an arbitrary scrap of words doesn't count.",
+      "body": "A notice reading <i>No entry</i> means something like \"you may not enter.\" <i>What a disaster!</i> means something like \"that's a disaster.\" Neither has a verb, yet we understand a full message. <i>Dinner over, they resumed their game</i> works the same way: it tells us the dinner was over.\n\nThis dictionary groups such phrases together. They get their clause-like meaning from the pattern they belong to and from the situation, not from a hidden verb. A clause here means a stretch of language built around a verb phrase, and these phrases aren't built that way. They also work only in particular frames, so an arbitrary scrap of words doesn't count.",
       "examples": [
         {
           "text": "[No entry].",
@@ -219,8 +219,8 @@
       "try": "Think of a sign or a short exclamation with no verb. What full sentence does it stand for?"
     },
     "teacher": {
-      "summary": "For advanced classes, verbless but clause-like utterances such as No entry and Dinner over.",
-      "explain": "This dictionary groups together non-headed constructions with a clause-like interpretation but no VP in head function. CGEL calls these verbless clauses; this dictionary rejects that label, reserving Clause for structures with a VP head. Some have a subject-like expression plus a predicative expression (their hands above their heads; Dinner over). Others are a single NP, AdjP or PP whose subject or copular relation is recovered from the frame or the discourse (What a disaster!; No entry). This dictionary doesn't posit a silent verb: the implicit predication or speech act is recovered in interpretation, not supplied by an unpronounced VP. Membership is construction-specific, so an arbitrary non-verbal fragment isn't automatically included.",
+      "summary": "For advanced classes, verbless but clause-like utterances such as <i>No entry</i> and <i>Dinner over</i>.",
+      "explain": "This dictionary groups together non-headed constructions with a clause-like interpretation but no VP in head function. CGEL calls these verbless clauses; this dictionary rejects that label, reserving Clause for structures with a VP head. Some have a subject-like expression plus a predicative expression (<i>their hands above their heads</i>; <i>Dinner over</i>). Others are a single NP, AdjP or PP whose subject or copular relation is recovered from the frame or the discourse (<i>What a disaster!</i>; <i>No entry</i>). This dictionary doesn't posit a silent verb: the implicit predication or speech act is recovered in interpretation, not supplied by an unpronounced VP. Membership is construction-specific, so an arbitrary non-verbal fragment isn't automatically included.",
       "terms": "CGEL: verbless clause. This dictionary: clause-analogue, kept separate from Clause because it has no VP head.",
       "examples": [
         {
@@ -245,7 +245,7 @@
         }
       ],
       "watch_for": [
-        "A learner might assume No entry has a hidden verb in the sentence's structure, when this dictionary says the meaning is recovered without positing one.",
+        "A learner might assume <i>No entry</i> has a hidden verb in the sentence's structure, when this dictionary says the meaning is recovered without positing one.",
         "A learner might think any short fragment, such as a bare noun phrase naming something, carries clause-like meaning."
       ],
       "activity": "Collect short verbless signs and exclamations from around the school. Students write the full-sentence meaning of each and say whether it's a command, a statement, an exclamation or a question."
@@ -269,10 +269,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Clause-Analogue Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/clause-analogue-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Clause-Analogue Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/clause-analogue-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

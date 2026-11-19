@@ -15,7 +15,7 @@
     "meanings": {
       "1": {
         "definition": "Elaborates the event already described by the verb.",
-        "details": "An otherwise intransitive verb such as die can occur with a cognate event noun and its modifiers. The object in died a long and agonising death adds duration and manner without introducing a second dying event. Modification is commonly needed to make the object informative. This entry targets the event-reading construction, including otherwise intransitive verbs.",
+        "details": "An otherwise intransitive verb such as <i>die</i> can occur with a cognate event noun and its modifiers. The object in <i>died a long and agonising death</i> adds duration and manner without introducing a second dying event. Modification is commonly needed to make the object informative. This entry targets the event-reading construction, including otherwise intransitive verbs.",
         "examples": [
           {
             "form": "He [died a long and agonising death].",
@@ -78,7 +78,7 @@
     "curious": {
       "title": "A verb and an object that name the same event",
       "summary": "Some verbs can be followed by a noun naming the same event, which then lets you describe how it happened.",
-      "body": "In He died a long and agonising death, the verb already says what happened. The phrase after it doesn't add a second dying. It adds details about the one event: how long it lasted and what it was like.\n\nShe fought a heroic fight works the same way. The noun fight repeats the idea in the verb, and the describing words give the extra information. Die is otherwise a verb with no object after it, yet it can take one here.",
+      "body": "In <i>He died a long and agonising death</i>, the verb already says what happened. The phrase after it doesn't add a second dying. It adds details about the one event: how long it lasted and what it was like.\n\n<i>She fought a heroic fight</i> works the same way. The noun <i>fight</i> repeats the idea in the verb, and the describing words give the extra information. <i>Die</i> is otherwise a verb with no object after it, yet it can take one here.",
       "examples": [
         {
           "text": "He [died a long and agonising death].",
@@ -89,11 +89,11 @@
           "from": "entry"
         }
       ],
-      "try": "Take a verb like fought and a noun for the same event. What describing words could you add to say more about it?"
+      "try": "Take a verb like <i>fought</i> and a noun for the same event. What describing words could you add to say more about it?"
     },
     "teacher": {
       "summary": "Useful for explaining objects that repeat the verb's event noun and add manner or duration.",
-      "explain": "In a cognate event object, an object noun phrase whose head is an event nominal related to the verb elaborates the event the verb already describes. It can occur with otherwise intransitive verbs such as die. In died a long and agonising death, the object adds duration and manner without introducing a second dying event, and in fought a heroic fight the nominal elaborates the fight. The object is internal to the verb phrase. A reaction object differs: it identifies what is expressed rather than describing the verbal event.",
+      "explain": "In a cognate event object, an object noun phrase whose head is an event nominal related to the verb elaborates the event the verb already describes. It can occur with otherwise intransitive verbs such as <i>die</i>. In <i>died a long and agonising death</i>, the object adds duration and manner without introducing a second dying event, and in <i>fought a heroic fight</i> the nominal elaborates the fight. The object is internal to the verb phrase. A reaction object differs: it identifies what is expressed rather than describing the verbal event.",
       "terms": "Cognate object is the traditional name. Od is the direct object.",
       "examples": [
         {
@@ -118,10 +118,10 @@
         }
       ],
       "watch_for": [
-        "A learner might read died a long and agonising death as two events, dying and a death.",
+        "A learner might read <i>died a long and agonising death</i> as two events, dying and a death.",
         "A learner might treat the object as a separate participant, when it describes the verb's own event."
       ],
-      "activity": "Give students bare verbs such as fought and died. They add an event noun related to the verb plus describing words, then say what the added words tell about the event."
+      "activity": "Give students bare verbs such as <i>fought</i> and <i>died</i>. They add an event noun related to the verb plus describing words, then say what the added words tell about the event."
     }
   },
   "status": {
@@ -142,10 +142,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Cognate Event Object.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/cognate-event-object-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Cognate Event Object.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/cognate-event-object-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

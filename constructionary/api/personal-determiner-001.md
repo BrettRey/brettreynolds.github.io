@@ -1,10 +1,10 @@
-# Personal Determination with We or You
+# Personal Determination with *we* or *you*
 
 - id: `personal-determiner-001`
 - pattern: NP[we/us or you + plural nominal]
 - status: provisional analysis; evidence level: unassessed; early sketch (one example, evidence not yet written up)
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/personal-determiner-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
@@ -24,20 +24,20 @@ Locates the named group in relation to the speaker or addressee.
 
 ## Projection
 
-The nominal survives after the personal expression. In many varieties a non-subject parallel can use us volunteers, showing that case and reference matter independently.
+The nominal survives after the personal expression. In many varieties a non-subject parallel can use *us volunteers*, showing that case and reference matter independently.
 
 ## Reader editions (draft, AI-assisted, unreviewed; the linguist entry is the reference)
 
-### Curious reader: We or you before a group name
+### Curious reader: *We* or *you* before a group name
 
-The words we, us or you can come right before a plural noun to say which group is meant, in relation to the speaker or the person spoken to.
+The words *we*, *us* or *you* can come right before a plural noun to say which group is meant, in relation to the speaker or the person spoken to.
 
-In We volunteers need a break, the word we ties the group to the speaker: the volunteers in question include the speaker. The plural noun volunteers still follows and says which group it is.
+In *We volunteers need a break*, the word *we* ties the group to the speaker: the volunteers in question include the speaker. The plural noun *volunteers* still follows and says which group it is.
 
-This dictionary says the noun survives after the personal word. In many varieties, a version that isn't the subject can use us volunteers, which shows that the person-and-case choice and the reference are separate matters.
+This dictionary says the noun survives after the personal word. In many varieties, a version that isn't the subject can use *us volunteers*, which shows that the person-and-case choice and the reference are separate matters.
 
 ### Teacher
 
-Explains we or you followed by a plural noun, as in We volunteers need a break.
+Explains *we* or *you* followed by a plural noun, as in *We volunteers need a break*.
 
-In this pattern a personal expression (we, us or you) is followed by a plural nominal. The personal expression locates the named group in relation to the speaker or addressee. The nominal survives after it. In many varieties a non-subject parallel can use us volunteers, which shows that case and reference matter independently. This dictionary files this under noun phrases with a determiner and marks it provisional, with medium confidence.
+In this pattern a personal expression (*we*, *us* or *you*) is followed by a plural nominal. The personal expression locates the named group in relation to the speaker or addressee. The nominal survives after it. In many varieties a non-subject parallel can use *us volunteers*, which shows that case and reference matter independently. This dictionary files this under noun phrases with a determiner and marks it provisional, with medium confidence.

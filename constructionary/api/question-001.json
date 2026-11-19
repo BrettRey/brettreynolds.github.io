@@ -22,7 +22,7 @@
     "meanings": {
       "1": {
         "definition": "A semantic category in which an expression defines a set of logically possible answers",
-        "details": "Question is not a clause type and is not identified with the pragmatic act of making an inquiry. A question determines answerhood conditions: a closed question presents a delimited answer set, while an open question contains a variable whose possible values differentiate the answers. An answer supplies the relevant missing information; a conversational response need not do so. Questions can serve acknowledgement, wondering, examination, exposition, and indirect speech acts as well as information-seeking inquiry, and the same semantic category can be realized by syntactically different hosts (CGEL Ch. 10 §§4.1–4.3, pp. 865–72).",
+        "details": "Question is not a clause type and is not identified with the pragmatic act of making an inquiry. A question determines answerhood conditions: a closed question presents a delimited answer set, while an open question contains a variable <i>who</i>se possible values differentiate the answers. An answer supplies the relevant missing information; a conversational response need not do so. Questions can serve acknowledgement, wondering, examination, exposition, and indirect speech acts as well as information-seeking inquiry, and the same semantic category can be realized by syntactically different hosts (CGEL Ch. 10 §§4.1–4.3, pp. 865–72).",
         "examples": [
           {
             "form": "[Have you seen it?]",
@@ -38,7 +38,7 @@
           },
           {
             "form": "[Who broke it?]",
-            "note": "Open-interrogative Clause defining answers by values of the variable who",
+            "note": "Open-interrogative Clause defining answers by values of the variable <i>who</i>",
             "grounds": [
               {
                 "source": "cgel-2002",
@@ -219,7 +219,7 @@
     "curious": {
       "title": "What makes something a question",
       "summary": "A question is defined by the set of possible answers it opens, not by its word order or question mark.",
-      "body": "Have you seen it? leaves two possible answers, yes or no. Who broke it? leaves open who did it. Which one? is a short phrase that does the same job, and You're leaving? shows that a statement can also act as a question.\n\nSo what makes something a question is the set of answers it defines, not one particular grammar. This dictionary says a question isn't the same as an act of inquiry either: questions can also acknowledge, wonder, examine or explain. This dictionary marks the account as provisional.",
+      "body": "<i>Have you seen it?</i> leaves two possible answers, <i>yes</i> or <i>no</i>. <i>Who broke it?</i> leaves open who did it. <i>Which one?</i> is a short phrase that does the same job, and <i>You're leaving?</i> shows that a statement can also act as a question.\n\nSo what makes something a question is the set of answers it defines, not one particular grammar. This dictionary says a question isn't the same as an act of inquiry either: questions can also acknowledge, wonder, examine or explain. This dictionary marks the account as provisional.",
       "examples": [
         {
           "text": "[Have you seen it?]",
@@ -242,7 +242,7 @@
     },
     "teacher": {
       "summary": "Frames question as a meaning category (a set of possible answers) that different sentence types can carry.",
-      "explain": "Question is a semantic category: an expression defines a set of logically possible answers. It is not a clause type and is not the same as the act of inquiry. A closed question presents a delimited answer set (Have you seen it?), an open question contains a variable (Who broke it?), a declarative clause can carry question meaning (You're leaving?) and a reduced expression can too (Which one?, which isn't thereby a Clause). An answer supplies the missing information; a conversational response needn't. This dictionary says punctuation and word order don't fix membership, and it marks the account provisional.",
+      "explain": "Question is a semantic category: an expression defines a set of logically possible answers. It is not a clause type and is not the same as the act of inquiry. A closed question presents a delimited answer set (<i>Have you seen it?</i>), an open question contains a variable (<i>Who broke it?</i>), a declarative clause can carry question meaning (<i>You're leaving?</i>) and a reduced expression can too (<i>Which one?</i>, which isn't thereby a Clause). An answer supplies the missing information; a conversational response needn't. This dictionary says punctuation and word order don't fix membership, and it marks the account provisional.",
       "terms": "This dictionary separates the clause types (closed and open interrogative) from the semantic category Question.",
       "examples": [
         {
@@ -271,7 +271,7 @@
     },
     "child": {
       "hook": "How do you know something is a question?",
-      "explain": "A question comes with a set of possible answers. Have you seen it? can be answered with yes or no. Who broke it? can be answered by saying who.",
+      "explain": "A question comes with a set of possible answers. <i>Have you seen it?</i> can be answered with <i>yes</i> or <i>no</i>. <i>Who broke it?</i> can be answered by saying who.",
       "examples": [
         {
           "text": "[Have you seen it?]",
@@ -286,7 +286,7 @@
           "from": "entry"
         }
       ],
-      "play": "Ask a friend a question that needs a yes or no. Then ask one that starts with who. Which kind was easier to answer?"
+      "play": "Ask a friend a question that needs a yes or no. Then ask one that starts with <i>who</i>. Which kind was easier to answer?"
     }
   },
   "status": {
@@ -308,10 +308,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Question.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/question-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Question.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/question-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

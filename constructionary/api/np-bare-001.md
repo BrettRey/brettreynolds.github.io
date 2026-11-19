@@ -4,7 +4,7 @@
 - pattern: NP[Head:Nom]
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/np-bare-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
@@ -49,7 +49,7 @@ Refers to/predicates activity
 
 Refers to or predicates generic activity type
 
-- *Competitive swimming takes practice*: Activity reference (the adjectival modifier supports the noun analysis; bare "playing piano" is a gerund-participial clause, not an NP)
+- *Competitive swimming takes practice*: Activity reference (the adjectival modifier supports the noun analysis; bare "*playing piano*" is a gerund-participial clause, not an NP)
 - *That is competitive swimming*: Activity identification
 
 ## Meaning 6
@@ -84,7 +84,7 @@ Refers to or predicates abstract notion/quality
 - Kinds of this: Institutional Bare Singular (`bare-institutional-use-001`)
 - Kinds of this: Bare Role Construction (`bare-role-001`)
 - A kind of: Noun Phrase (`np-001`): The NP consists of its nominal and has no overt determiner.
-- Compare: Determined Noun Phrase (`np-det-001`): Dogs barked and Those dogs barked share the same nominal. The overt demonstrative in the second selects a contextually identifiable set.
+- Compare: Determined Noun Phrase (`np-det-001`): *Dogs barked* and *Those dogs barked* share the same nominal. The overt demonstrative in the second selects a contextually identifiable set.
 - Compare: Indefinite NP Construction (`np-indef-001`)
 - Compare: Non-count Noun (`n-non-count-001`): Original type: enables.
 - Compare: Proper Name (`proper-name-001`): Original type: enables.
@@ -99,20 +99,20 @@ Refers to or predicates abstract notion/quality
 
 ## Projection
 
-A bare NP can be singular count in a restricted role or naming use, while bare plurals and non-count nouns can normally be arguments. Compare Lee became chair, Chair called on the name reading, and We bought chairs.
+A bare NP can be singular count in a restricted role or naming use, while bare plurals and non-count nouns can normally be arguments. Compare *Lee became chair*, *Chair* called on the name reading, and *We bought chairs*.
 
 ## Reader editions (draft, AI-assisted, unreviewed; the linguist entry is the reference)
 
 ### Curious reader: Noun phrases with no small word in front
 
-Some noun phrases stand alone with no the, a or similar word, and still work as subjects, objects and names.
+Some noun phrases stand alone with no *the*, *a* or similar word, and still work as subjects, objects and names.
 
-Water is essential. Dogs are loyal. Monday works. Toronto was the next stop. None of these phrases has a small word like the or a in front of its noun, yet each is a complete phrase.
+*Water is essential*. *Dogs are loyal*. *Monday works*. *Toronto was the next stop*. None of these phrases has a small word like *the* or *a* in front of its noun, yet each is a complete phrase.
 
-Which meaning you get depends on the sentence around the phrase. Dogs are loyal talks about dogs as a kind, while Dogs barked all night is about a set of dogs the context supplies. Role words can go bare too: Lee stayed president. A word like chair needs something in front of it in other sentences, but in Jo became chair it can stand alone.
+Which meaning you get depends on the sentence around the phrase. *Dogs are loyal* talks about dogs as a kind, while *Dogs barked all night* is about a set of dogs the context supplies. Role words can go bare too: *Lee stayed president*. A word like *chair* needs something in front of it in other sentences, but in *Jo became chair* it can stand alone.
 
 ### Teacher
 
 Helps explain when a noun phrase can appear without a determiner and why the reading depends on the construction.
 
-A bare NP consists of a nominal with no overt determiner. The dictionary lists uses for non-count substances (Water is essential), bare plurals (Dogs are loyal; Those are bears; Dogs barked all night), proper names, activities, times, places and abstract concepts. A singular count noun can be bare only in restricted roles or naming uses (Lee stayed president, Jo became chair), whereas bare plurals and non-count nouns can normally be arguments. Not having a determiner doesn't fix the interpretation: kind, classification, or an episodic set all depend on the surrounding construction. The dictionary marks this account as provisional.
+A bare NP consists of a nominal with no overt determiner. The dictionary lists uses for non-count substances (*Water is essential*), bare plurals (*Dogs are loyal*; *Those are bears*; *Dogs barked all night*), proper names, activities, times, places and abstract concepts. A singular count noun can be bare only in restricted roles or naming uses (*Lee stayed president*, *Jo became chair*), whereas bare plurals and non-count nouns can normally be arguments. Not having a determiner doesn't fix the interpretation: kind, classification, or an episodic set all depend on the surrounding construction. The dictionary marks this account as provisional.

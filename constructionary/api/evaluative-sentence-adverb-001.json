@@ -41,7 +41,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Fortunately evaluates the situation as a whole. It does not describe a fortunate manner in which the backup operated.",
+        "target": "<i>Fortunately</i> evaluates the situation as a whole. It does not describe a fortunate manner in which the backup operated.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -50,8 +50,8 @@
   "editions": {
     "curious": {
       "title": "Showing how you feel about what happened",
-      "summary": "An adverb such as fortunately can open a sentence and express the speaker's evaluation of what is reported.",
-      "body": "In Fortunately, the backup worked, the word fortunately doesn't describe how the backup worked. It shows how the speaker feels about the fact that it worked. The evaluation is attached to the whole reported situation.\n\nThese adverbs are often separated from the rest of the sentence by a pause in speech.",
+      "summary": "An adverb such as <i>fortunately</i> can open a sentence and express the speaker's evaluation of what is reported.",
+      "body": "In <i>Fortunately, the backup worked</i>, the word <i>fortunately</i> doesn't describe how the backup worked. It shows how the speaker feels about the fact that it worked. The evaluation is attached to the whole reported situation.\n\nThese adverbs are often separated from the rest of the sentence by a pause in speech.",
       "examples": [
         {
           "text": "[Fortunately], the backup worked.",
@@ -66,7 +66,7 @@
     },
     "teacher": {
       "summary": "Helps explain a clause-initial adverb that gives the speaker's evaluation of the situation.",
-      "explain": "An evaluative adverb phrase before a clause expresses the speaker's evaluation of the reported situation. In Fortunately, the backup worked, the adverb is the speaker's assessment of the whole situation. This dictionary says it is often separated prosodically from the clause, and relates the pattern to evidential because.",
+      "explain": "An evaluative adverb phrase before a clause expresses the speaker's evaluation of the reported situation. In <i>Fortunately, the backup worked</i>, the adverb is the speaker's assessment of the whole situation. This dictionary says it is often separated prosodically from the clause, and relates the pattern to evidential <i>because</i>.",
       "terms": "This dictionary calls it a clause-orientated evaluative adjunct.",
       "examples": [
         {
@@ -79,13 +79,13 @@
         }
       ],
       "watch_for": [
-        "A learner might read fortunately as describing how the backup worked, when it gives the speaker's view of the situation."
+        "A learner might read <i>fortunately</i> as describing how the backup worked, when it gives the speaker's view of the situation."
       ],
-      "activity": "Give students short events (the bus came, the test was cancelled). They add an evaluative adverb at the start and say what the speaker thinks."
+      "activity": "Give students short events (<i>the bus came</i>, <i>the test was cancelled</i>). They add an evaluative adverb at the start and say what the speaker thinks."
     },
     "child": {
       "hook": "What word shows how you feel about something that happened?",
-      "explain": "A word like fortunately can start a sentence. It shows how the speaker feels about what happened. Fortunately, the backup worked.",
+      "explain": "A word like <i>fortunately</i> can start a sentence. It shows how the speaker feels about what happened. <i>Fortunately, the backup worked</i>.",
       "examples": [
         {
           "text": "[Fortunately], the backup worked.",
@@ -117,10 +117,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Clause-Orientated Evaluative Adjunct.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/evaluative-sentence-adverb-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Clause-Orientated Evaluative Adjunct.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/evaluative-sentence-adverb-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

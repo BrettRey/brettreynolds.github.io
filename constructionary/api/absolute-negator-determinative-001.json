@@ -16,7 +16,7 @@
     "meanings": {
       "1": {
         "definition": "Encodes clausal negation via an NP headed by an absolute negator determinative in fused determiner-head function",
-        "details": "CGEL (Ch. 9, §3.2) treats no and none as dependent and independent forms of the determinative no, and nobody, no one, nothing, nowhere, no place as single-word compounds of no. These are determinatives, not pronouns; standing alone as NPs they occupy fused determiner-head function.",
+        "details": "CGEL (Ch. 9, §3.2) treats <i>no</i> and <i>none</i> as dependent and independent forms of the determinative no, and <i>nobody</i>, <i>no one</i>, <i>nothing</i>, <i>nowhere</i>, <i>no place</i> as single-word compounds of <i>no</i>. These are determinatives, not pronouns; standing alone as NPs they occupy fused determiner-head function.",
         "examples": [
           {
             "form": "[Nobody] knew where Kim was.",
@@ -40,7 +40,7 @@
       },
       {
         "type": "semantic",
-        "description": "Alternates with verbal negation plus any/either/ever (e.g., \"didn't do anything\")."
+        "description": "Alternates with verbal negation plus <i>any</i>/<i>either</i>/<i>ever</i> (e.g., \"<i>didn't do anything</i>\")."
       }
     ],
     "formRefs": [
@@ -73,7 +73,7 @@
         "locator": "Ch. 9, SS3.2",
         "relation": "cites",
         "bears-on": "category-assignment",
-        "note": "no/none dependent and independent forms of the determinative no; compounds are single words"
+        "note": "<i>no</i>/<i>none</i> dependent and independent forms of the determinative <i>no</i>; compounds are single words"
       },
       {
         "source": "cgel-2002",
@@ -85,7 +85,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Nobody and nothing can trigger a positive confirmation tag even when the finite VP has affirmative form. The same polarity cannot be inferred merely from the use of few or little in every context.",
+        "target": "<i>Nobody</i> and <i>nothing</i> can trigger a positive confirmation tag even when the finite VP has affirmative form. The same polarity cannot be inferred merely from the use of <i>few</i> or <i>little</i> in every context.",
         "evidence": "CGEL discusses positive tags and the relation between absolute negative expressions and approximate negation.",
         "confidence": "medium"
       }
@@ -94,8 +94,8 @@
   "editions": {
     "curious": {
       "title": "Negative words that stand in for a noun phrase",
-      "summary": "Words like nobody, nothing and none can make a whole sentence negative without a separate not.",
-      "body": "In Nobody knew where Kim was, the word nobody does two jobs. It fills the place of the person who knew, and it makes the whole sentence negative. The same goes for nothing in Kim had done nothing about it, and for none in We liked none of them.\n\nThis dictionary treats nobody, nothing, nowhere, no one and no place as compounds of the word no, and none as another form of no. They aren't pronouns here. A sentence with one of them can be rephrased with a verb negated and a word like any, as in Kim didn't do anything about it.",
+      "summary": "Words like <i>nobody</i>, <i>nothing</i> and <i>none</i> can make a whole sentence negative without a separate <i>not</i>.",
+      "body": "In <i>Nobody knew where Kim was</i>, the word <i>nobody</i> does two jobs. It fills the place of the person who knew, and it makes the whole sentence negative. The same goes for <i>nothing</i> in <i>Kim had done nothing about it</i>, and for <i>none</i> in <i>We liked none of them</i>.\n\nThis dictionary treats <i>nobody</i>, <i>nothing</i>, <i>nowhere</i>, <i>no one</i> and <i>no place</i> as compounds of the word <i>no</i>, and <i>none</i> as another form of <i>no</i>. They aren't pronouns here. A sentence with one of them can be rephrased with a verb negated and a word like any, as in <i>Kim didn't do anything about it</i>.",
       "examples": [
         {
           "text": "[Nobody] knew where Kim was.",
@@ -110,12 +110,12 @@
           "from": "entry"
         }
       ],
-      "try": "Take a sentence with nothing in it and say it again with didn't and anything. Do the two versions give the same message?"
+      "try": "Take a sentence with <i>nothing</i> in it and say it again with <i>didn't</i> and <i>anything</i>. Do the two versions give the same message?"
     },
     "teacher": {
-      "summary": "Useful for showing that nobody, nothing and none carry the negation of the clause themselves.",
-      "explain": "No and none are the dependent and independent forms of the determinative no. Nobody, no one, nothing, nowhere and no place are single-word compounds of no. All of these are determinatives. Standing alone as noun phrases, they are in fused determiner-head function: one word is both determiner and head. Their negative meaning is carried up to the whole clause, so the clause counts as negative without a separate not. The same message can be expressed with verbal negation plus any, either or ever, as in didn't do anything.",
-      "terms": "Traditional grammars may call nobody and nothing negative pronouns. This grammar treats them as determinatives, with none as a form of the determinative no and the others as compounds of no.",
+      "summary": "Useful for showing that <i>nobody</i>, <i>nothing</i> and <i>none</i> carry the negation of the clause themselves.",
+      "explain": "<i>No</i> and <i>none</i> are the dependent and independent forms of the determinative <i>no</i>. <i>Nobody</i>, <i>no one</i>, <i>nothing</i>, <i>nowhere</i> and <i>no place</i> are single-word compounds of <i>no</i>. All of these are determinatives. Standing alone as noun phrases, they are in fused determiner-head function: one word is both determiner and head. Their negative meaning is carried up to the whole clause, so the clause counts as negative without a separate not. The same message can be expressed with verbal negation plus <i>any</i>, <i>either</i> or <i>ever</i>, as in <i>didn't do anything</i>.",
+      "terms": "Traditional grammars may call <i>nobody</i> and <i>nothing</i> negative pronouns. This grammar treats them as determinatives, with <i>none</i> as a form of the determinative <i>no</i> and the others as compounds of <i>no</i>.",
       "examples": [
         {
           "text": "[Nobody] knew where Kim was.",
@@ -139,18 +139,18 @@
         {
           "text": "Kim hadn't done anything about it.",
           "from": "constructed",
-          "note": "Verbal negation plus any gives a parallel way to be negative."
+          "note": "Verbal negation plus <i>any</i> gives a parallel way to be negative."
         }
       ],
       "watch_for": [
-        "A learner might look for a separate not in Nobody knew where Kim was, when nobody itself makes the clause negative.",
-        "A learner might treat none as unrelated to no, when it is the independent form of the same determinative."
+        "A learner might look for a separate <i>not</i> in <i>Nobody knew where Kim was</i>, when <i>nobody</i> itself makes the clause negative.",
+        "A learner might treat <i>none</i> as unrelated to <i>no</i>, when it is the independent form of the same determinative."
       ],
-      "activity": "Give pairs a set of sentences with nobody, nothing and none. Each pair rewrites each one with a negated verb and any, then says whether the message stays the same."
+      "activity": "Give pairs a set of sentences with <i>nobody</i>, <i>nothing</i> and <i>none</i>. Each pair rewrites each one with a negated verb and <i>any</i>, then says whether the message stays the same."
     },
     "child": {
-      "hook": "How can a sentence say no without the word not?",
-      "explain": "Words like nobody, nothing and none make a sentence mean no all by themselves. You don't need not. You can also say the idea another way, with didn't and anything.",
+      "hook": "How can a sentence say no without the word <i>not</i>?",
+      "explain": "Words like <i>nobody</i>, <i>nothing</i> and <i>none</i> make a sentence mean no all by themselves. You don't need <i>not</i>. You can also say the idea another way, with <i>didn't</i> and <i>anything</i>.",
       "examples": [
         {
           "text": "[Nobody] ate the last cookie.",
@@ -165,7 +165,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Say a sentence with nobody or nothing. Then say it again with didn't and anybody or anything. Take turns."
+      "play": "Say a sentence with <i>nobody</i> or <i>nothing</i>. Then say it again with <i>didn't</i> and <i>anybody</i> or <i>anything</i>. Take turns."
     }
   },
   "status": {
@@ -187,10 +187,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Absolute Negator Determinatives.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/absolute-negator-determinative-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Absolute Negator Determinatives.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/absolute-negator-determinative-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

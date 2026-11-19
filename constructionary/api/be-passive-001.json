@@ -1,6 +1,6 @@
 {
   "id": "be-passive-001",
-  "name": "Verbal Be-Passive",
+  "name": "Verbal <i>be</i>-Passive",
   "pattern": "Clause[Subject:NPᵢ + Head:VP[be + VP[past participle, complementᵢ externalized, optional internalized by-PP]]]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/be-passive-001/",
@@ -10,17 +10,17 @@
   },
   "entry": {
     "id": "be-passive-001",
-    "name": "Verbal Be-Passive",
+    "name": "Verbal <i>be</i>-Passive",
     "pattern": "Clause[Subject:NPᵢ + Head:VP[be + VP[past participle, complementᵢ externalized, optional internalized by-PP]]]",
     "type": "syntactic",
     "meanings": {
       "1": {
         "definition": "Realigns the verb’s arguments so an internal complement of the active can appear as subject.",
-        "details": "In my surfboard was stolen by Pat, the active object becomes subject, and a by-phrase realizes the participant that would be active subject. The short form usually leaves that participant unexpressed. The by-phrase can supply an experiencer when the active subject is an experiencer. The externalized complement can also come from a preposition, as in the paper was referred to. The participial VP may have complements and verbal modifications. This entry covers the auxiliary be construction.",
+        "details": "In <i>my surfboard was stolen by Pat</i>, the active object becomes subject, and a by-phrase realizes the participant that would be active subject. The short form usually leaves that participant unexpressed. The by-phrase can supply an experiencer when the active subject is an experiencer. The externalized complement can also come from a preposition, as in <i>the paper was referred to</i>. The participial VP may have complements and verbal modifications. This entry covers the auxiliary <i>be</i> construction.",
         "examples": [
           {
             "form": "[My surfboard was stolen by Pat.]",
-            "note": "Long passive with the active subject expressed as the complement of by.",
+            "note": "Long passive with the active subject expressed as the complement of <i>by</i>.",
             "grounds": [
               {
                 "source": "cgel-2002",
@@ -44,7 +44,7 @@
           },
           {
             "form": "[Her paper is referred to by everyone.]",
-            "note": "The active would express the paper as object of to.",
+            "note": "The active would express the paper as object of <i>to</i>.",
             "grounds": [
               {
                 "source": "cgel-2002",
@@ -82,7 +82,7 @@
         "locator": "record 138",
         "relation": "discusses",
         "bears-on": "projection",
-        "note": "Records auxiliary be followed by a past-participial form."
+        "note": "Records auxiliary <i>be</i> followed by a past-participial form."
       }
     ],
     "kind": {
@@ -97,8 +97,8 @@
   "editions": {
     "curious": {
       "title": "Putting the receiver first",
-      "summary": "In a passive sentence, the object of the matching active sentence becomes the subject, and the active sentence's subject can come later after by or be left out.",
-      "body": "In My surfboard was stolen by Pat, the surfboard comes first, though it's what Pat stole. The person who acted appears after by. In My surfboard was stolen, the doer is simply left out.\n\nThe first thing can come from other places too. In Her paper is referred to by everyone, the paper is what everyone refers to, and the active version has it after the word to. This dictionary covers the passives made with the helper verb be, followed by a word like stolen.",
+      "summary": "In a passive sentence, the object of the matching active sentence becomes the subject, and the active sentence's subject can come later after <i>by</i> or be left out.",
+      "body": "In <i>My surfboard was stolen by Pat</i>, the surfboard comes first, though it's what Pat stole. The person who acted appears after <i>by</i>. In <i>My surfboard was stolen</i>, the doer is simply left out.\n\nThe first thing can come from other places too. In <i>Her paper is referred to by everyone</i>, the paper is what everyone refers to, and the active version has it after the word <i>to</i>. This dictionary covers the passives made with the helper verb <i>be</i>, followed by a word like <i>stolen</i>.",
       "examples": [
         {
           "text": "[My surfboard was stolen by Pat.]",
@@ -113,12 +113,12 @@
           "from": "entry"
         }
       ],
-      "try": "Take an active sentence like Pat stole my surfboard and turn it around. What happens to Pat?"
+      "try": "Take an active sentence like <i>Pat stole my surfboard</i> and turn it around. What happens to Pat?"
     },
     "teacher": {
       "summary": "Explains the be-passive as a way of realigning a verb's arguments so an active complement becomes the subject.",
-      "explain": "In the verbal be-passive, an internal complement of the active verb appears as the subject, and the participial VP lacks that complement. A by-phrase can realize the participant that would be the active subject, and the short passive usually leaves that participant unexpressed. The externalized complement can be a direct object, an indirect object, or the object of a preposition, as in the paper was referred to. The by-phrase can supply an experiencer when the active subject is an experiencer. The participial VP may have complements and verbal modifications. Only the construction with auxiliary be is covered here.",
-      "terms": "Long passive has a by-phrase, and short passive has none. Such clauses are sometimes said to be in the passive voice; this dictionary calls the version with be the verbal be-passive.",
+      "explain": "In the verbal be-passive, an internal complement of the active verb appears as the subject, and the participial VP lacks that complement. A by-phrase can realize the participant that would be the active subject, and the short passive usually leaves that participant unexpressed. The externalized complement can be a direct object, an indirect object, or the object of a preposition, as in <i>the paper was referred to</i>. The by-phrase can supply an experiencer when the active subject is an experiencer. The participial VP may have complements and verbal modifications. Only the construction with auxiliary <i>be</i> is covered here.",
+      "terms": "Long passive has a by-phrase, and short passive has none. Such clauses are sometimes said to be in the passive voice; this dictionary calls the version with <i>be</i> the verbal be-passive.",
       "examples": [
         {
           "text": "[My surfboard was stolen by Pat.]",
@@ -142,7 +142,7 @@
         {
           "text": "My surfboard was stolen by Pat.",
           "from": "entry",
-          "note": "Long passive; the active subject is the complement of by."
+          "note": "Long passive; the active subject is the complement of <i>by</i>."
         },
         {
           "text": "My surfboard was stolen.",
@@ -152,13 +152,13 @@
       ],
       "watch_for": [
         "A learner might think the by-phrase is required, when a short passive can leave that participant out.",
-        "A learner might expect only a direct object to become the subject, when a prepositional object can too (Her paper is referred to)."
+        "A learner might expect only a direct object to become the subject, when a prepositional object can too (<i>Her paper is referred to</i>)."
       ],
       "activity": "Students turn active sentences into long passives and then short passives. They say which participant becomes the subject and where the original subject went."
     },
     "child": {
-      "hook": "In \"My surfboard was stolen\", who is missing from the sentence?",
-      "explain": "You can start a sentence with the thing something happened to. My surfboard was stolen by Pat. If we don't need to say who did it, we can leave out by Pat.",
+      "hook": "In \"<i>My surfboard was stolen</i>\", who is missing from the sentence?",
+      "explain": "You can start a sentence with the thing something happened to. <i>My surfboard was stolen by Pat</i>. If we don't need to say who did it, we can leave out <i>by Pat</i>.",
       "examples": [
         {
           "text": "[My surfboard was stolen by Pat.]",
@@ -169,7 +169,7 @@
           "from": "entry"
         }
       ],
-      "play": "Make up a sentence like Pat stole my surfboard. Turn it around so the thing comes first. Then try it without the doer."
+      "play": "Make up a sentence like <i>Pat stole my surfboard</i>. Turn it around so the thing comes first. Then try it without the doer."
     }
   },
   "status": {
@@ -191,10 +191,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Verbal Be-Passive.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/be-passive-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Verbal <i>be</i>-Passive.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/be-passive-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

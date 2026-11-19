@@ -16,7 +16,7 @@
     "meanings": {
       "1": {
         "definition": "Expresses a ratio by pairing a numerator with a unit denominator.",
-        "details": "Fifty miles an hour supplies a speed, even if the measured motion lasts only a minute. Fifty miles every hour can instead assert successive hourly totals. The same form supports price, salary, and frequency. A per-phrase can often express the same ratio and is more flexible with stacked or complex denominators.",
+        "details": "<i>Fifty miles an hour</i> supplies a speed, even if the measured motion lasts only a minute. <i>Fifty miles every hour</i> can instead assert successive hourly totals. The same form supports price, salary, and frequency. A <i>per</i>-phrase can often express the same ratio and is more flexible with stacked or complex denominators.",
         "examples": [
           {
             "form": "He was going at [50 miles an hour].",
@@ -67,23 +67,23 @@
         "locator": "§4.14 in author draft",
         "relation": "discusses",
         "bears-on": "projection",
-        "note": "Compares the indefinite denominator with an every-time adjunct and a per-phrase."
+        "note": "Compares the indefinite denominator with an <i>every</i>-time adjunct and a <i>per</i>-phrase."
       }
     ],
     "kind": {
       "provisional": true,
       "projection": {
         "target": "The second NP is interpreted as a unit denominator. The construction can describe a rate without asserting one complete occurrence of that unit.",
-        "evidence": "CGEL distinguishes the a- and per-forms. The FrameNet account controls the duration of motion in the comparison with every hour.",
+        "evidence": "CGEL distinguishes the <i>a</i>- and <i>per</i>-forms. The FrameNet account controls the duration of motion in the comparison with <i>every hour</i>.",
         "confidence": "high"
       }
     }
   },
   "editions": {
     "curious": {
-      "title": "Fifty miles an hour",
-      "summary": "Putting a or an before a unit, as in $20 a yard, turns an amount into a rate.",
-      "body": "In He was going at 50 miles an hour, the words an hour don't mean one particular hour. They say what the 50 miles is measured against, so the whole phrase gives a speed. The same pattern gives a price, as in $20 a yard, and a frequency, as in twice a day.\n\nThe speed holds even if the trip lasts only a minute. Fifty miles every hour is different: it can claim fifty miles in each successive hour. A phrase with per can often say the same thing, and it copes better with longer or stacked units.",
+      "title": "<i>Fifty miles an hour</i>",
+      "summary": "Putting <i>a</i> or <i>an</i> before a unit, as in <i>$20 a yard</i>, turns an amount into a rate.",
+      "body": "In <i>He was going at 50 miles an hour</i>, the words <i>an hour</i> don't mean one particular hour. They say what the <i>50 miles</i> is measured against, so the whole phrase gives a speed. The same pattern gives a price, as in <i>$20 a yard</i>, and a frequency, as in <i>twice a day</i>.\n\nThe speed holds even if the trip lasts only a minute. <i>Fifty miles every hour</i> is different: it can claim fifty miles in each successive hour. A phrase with <i>per</i> can often say the same thing, and it copes better with longer or stacked units.",
       "examples": [
         {
           "text": "He was going at [50 miles an hour].",
@@ -98,12 +98,12 @@
           "from": "entry"
         }
       ],
-      "try": "How would you say what a bicycle costs for each hour you rent it, using a and an hour or a day?"
+      "try": "How would you say what a bicycle costs for each hour you rent it, using <i>a</i> and <i>an hour</i> or <i>a day</i>?"
     },
     "teacher": {
-      "summary": "Covers rates like fifty miles an hour, where a or an plus a unit expresses a ratio.",
-      "explain": "The pattern pairs a quantity or frequency expression with a noun phrase made of a or an and a singular unit noun. It expresses a ratio: a numerator over a unit denominator. Fifty miles an hour gives a speed even if the motion lasts only a minute, whereas fifty miles every hour can assert successive hourly totals. The same form supports price, salary and frequency. The second noun phrase is interpreted as a unit denominator, and the construction describes a rate without asserting one complete occurrence of that unit. A per-phrase can often express the same ratio and is more flexible with stacked or complex denominators.",
-      "terms": "Sometimes called a distributive use of a/an. The a/an here is the indefinite article in traditional terms, a determinative in CGEL terms.",
+      "summary": "Covers rates like <i>fifty miles an hour</i>, where <i>a</i> or <i>an</i> plus a unit expresses a ratio.",
+      "explain": "The pattern pairs a quantity or frequency expression with a noun phrase made of <i>a</i> or <i>an</i> and a singular unit noun. It expresses a ratio: a numerator over a unit denominator. <i>Fifty miles an hour</i> gives a speed even if the motion lasts only a minute, whereas <i>fifty miles every hour</i> can assert successive hourly totals. The same form supports price, salary and frequency. The second noun phrase is interpreted as a unit denominator, and the construction describes a rate without asserting one complete occurrence of that unit. A <i>per</i>-phrase can often express the same ratio and is more flexible with stacked or complex denominators.",
+      "terms": "Sometimes called a distributive use of <i>a</i>/<i>an</i>. The <i>a</i>/<i>an</i> here is the indefinite article in traditional terms, a determinative in CGEL terms.",
       "examples": [
         {
           "text": "He was going at [50 miles an hour].",
@@ -131,14 +131,14 @@
         }
       ],
       "watch_for": [
-        "A learner might read an hour in fifty miles an hour as one particular hour.",
-        "A learner might assume the trip must last a whole hour for fifty miles an hour to be true."
+        "A learner might read <i>an hour</i> in <i>fifty miles an hour</i> as one particular hour.",
+        "A learner might assume the trip must last a whole hour for <i>fifty miles an hour</i> to be true."
       ],
-      "activity": "Students collect rates from signs, menus and timetables (price a kilo, trains an hour). They say each aloud with a or an, then restate it with per."
+      "activity": "Students collect rates from signs, menus and timetables (<i>price a kilo</i>, <i>trains an hour</i>). They say each aloud with <i>a</i> or <i>an</i>, then restate it with <i>per</i>."
     },
     "child": {
-      "hook": "How fast does a car go in \"fifty miles an hour\"?",
-      "explain": "Sometimes a means \"for each.\" Fifty miles an hour means fifty miles for each hour. A yard of ribbon at $20 a yard costs $20 for each yard.",
+      "hook": "How fast does a car go in \"<i>fifty miles an hour</i>\"?",
+      "explain": "Sometimes <i>a</i> means \"for each.\" <i>Fifty miles an hour</i> means fifty miles for each hour. A yard of ribbon at <i>$20 a yard</i> costs $20 for each yard.",
       "examples": [
         {
           "text": "The car went [50 miles an hour].",
@@ -153,7 +153,7 @@
           "from": "entry"
         }
       ],
-      "play": "Find prices and speeds on signs or packages. Say each one with a or an, such as three dollars a bag. Then say what it means with for each."
+      "play": "Find prices and speeds on signs or packages. Say each one with <i>a</i> or <i>an</i>, such as <i>three dollars a bag</i>. Then say what it means with for each."
     }
   },
   "status": {
@@ -174,10 +174,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Rate with an Indefinite Denominator.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/indefinite-rate-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Rate with an Indefinite Denominator.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/indefinite-rate-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

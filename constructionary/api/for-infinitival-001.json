@@ -1,6 +1,6 @@
 {
   "id": "for-infinitival-001",
-  "name": "For-Infinitival with an Overt Subject",
+  "name": "<i>for</i>-Infinitival with an Overt Subject",
   "pattern": "for + Subject:NP[accusative if personal pronoun] + to-infinitival VP",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/for-infinitival-001/",
@@ -9,7 +9,7 @@
   },
   "entry": {
     "id": "for-infinitival-001",
-    "name": "For-Infinitival with an Overt Subject",
+    "name": "<i>for</i>-Infinitival with an Overt Subject",
     "pattern": "for + Subject:NP[accusative if personal pronoun] + to-infinitival VP",
     "type": "syntactic",
     "meanings": {
@@ -44,7 +44,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Them is the subject of leave, not the object of a purpose preposition in this use. In subject position this infinitival normally requires for before its overt subject.",
+        "target": "<i>Them</i> is the subject of <i>leave</i>, not the object of a purpose preposition in this use. In subject position this infinitival normally requires <i>for</i> before its overt subject.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -52,9 +52,9 @@
   },
   "editions": {
     "curious": {
-      "title": "For, then who, then to",
-      "summary": "A phrase made of for, a person or thing, and to plus a verb can say who would do the action.",
-      "body": "In For them to leave now would be awkward, the words for them to leave now say what would be awkward, and them is the one who would leave. Here for isn't linking them to something as a preposition would. The person doing the leaving is them.\n\nWhen the whole phrase is the subject of a sentence, it normally needs for before the person or thing. A pronoun for a person takes its them-type form here.",
+      "title": "<i>For</i>, then who, then <i>to</i>",
+      "summary": "A phrase made of <i>for</i>, a person or thing, and <i>to</i> plus a verb can say who would do the action.",
+      "body": "In <i>For them to leave now would be awkward</i>, the words <i>for them to leave now</i> say what would be awkward, and <i>them</i> is the one who would leave. Here <i>for</i> isn't linking <i>them</i> to something as a preposition would. The person doing the leaving is <i>them</i>.\n\nWhen the whole phrase is the subject of a sentence, it normally needs <i>for</i> before the person or thing. A pronoun for a person takes its <i>them</i>-type form here.",
       "examples": [
         {
           "text": "[For them to leave now] would be awkward.",
@@ -65,12 +65,12 @@
           "from": "constructed"
         }
       ],
-      "try": "In For them to leave now would be awkward, who is leaving?"
+      "try": "In <i>For them to leave now would be awkward</i>, who is leaving?"
     },
     "teacher": {
-      "summary": "For advanced classes: the for NP to-VP pattern, where the NP is the subject of the infinitive.",
-      "explain": "The for-infinitival introduces an infinitival with a syntactically expressed subject: for, Subject NP, then a to-infinitival VP. A personal pronoun takes accusative form (for them to leave). In For them to leave now would be awkward, them is the subject of leave, not the object of a purpose preposition in this use. In subject position this infinitival normally requires for before its overt subject. This dictionary cites CGEL on infinitival clauses and is marked provisional, with medium confidence.",
-      "terms": "Accusative is also called objective case. This pattern is sometimes called a for-to infinitive.",
+      "summary": "For advanced classes: the <i>for NP to-VP</i> pattern, where the NP is the subject of the infinitive.",
+      "explain": "The <i>for</i>-infinitival introduces an infinitival with a syntactically expressed subject: <i>for</i>, Subject NP, then a <i>to</i>-infinitival VP. A personal pronoun takes accusative form (<i>for them to leave</i>). In <i>For them to leave now would be awkward</i>, <i>them</i> is the subject of <i>leave</i>, not the object of a purpose preposition in this use. In subject position this infinitival normally requires <i>for</i> before its overt subject. This dictionary cites CGEL on infinitival clauses and is marked provisional, with medium confidence.",
+      "terms": "Accusative is also called objective case. This pattern is sometimes called a <i>for-to</i> infinitive.",
       "examples": [
         {
           "text": "[For them to leave now] would be awkward.",
@@ -82,10 +82,10 @@
         }
       ],
       "watch_for": [
-        "A learner might analyze for them as a prepositional phrase with them as its object.",
-        "A learner might expect for to be optional in subject position, where it normally isn't."
+        "A learner might analyze <i>for them</i> as a prepositional phrase with <i>them</i> as its object.",
+        "A learner might expect <i>for</i> to be optional in subject position, where it normally isn't."
       ],
-      "activity": "Students write sentences beginning For ___ to ___ with different people and verbs. They underline the subject of the infinitive and say who does the action."
+      "activity": "Students write sentences beginning <i>For ___ to ___</i> with different people and verbs. They underline the subject of the infinitive and say who does the action."
     }
   },
   "status": {
@@ -106,10 +106,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"For-Infinitival with an Overt Subject.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/for-infinitival-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"<i>for</i>-Infinitival with an Overt Subject.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/for-infinitival-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

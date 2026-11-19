@@ -14,8 +14,8 @@
     "type": "mixed",
     "meanings": {
       "1": {
-        "definition": "Introduces a condition through auxiliary–subject order without if.",
-        "details": "Had you known corresponds to If you had known. Were and should license the same order in their own conditional uses. Other auxiliaries do not freely enter this frame. In the central standard pattern the negative is separate, as in Had you not called.",
+        "definition": "Introduces a condition through auxiliary–subject order without <i>if</i>.",
+        "details": "<i>Had you known</i> corresponds to <i>If you had known</i>. <i>Were</i> and <i>should</i> license the same order in their own conditional uses. Other auxiliaries do not freely enter this frame. In the central standard pattern the negative is separate, as in <i>Had you not called</i>.",
         "examples": [
           {
             "form": "[Had you called], we could have picked you up.",
@@ -36,7 +36,7 @@
       {
         "id": "if-conditional-001",
         "relationship": "related-to",
-        "notes": "An if-clause can supply an equivalent condition in ordinary order."
+        "notes": "An <i>if</i>-clause can supply an equivalent condition in ordinary order."
       },
       {
         "id": "closed-interrogative-clause-001",
@@ -47,7 +47,7 @@
         "id": "negative-initial-inversion-001",
         "relationship": "overlaps-with",
         "overlap-dimension": "formal",
-        "notes": "Had Jo known introduces a condition without if. Never had Jo seen it uses the same auxiliary–subject order in a clause with a preposed negative expression."
+        "notes": "<i>Had Jo known</i> introduces a condition without <i>if</i>. <i>Never had Jo seen it</i> uses the same auxiliary–subject order in a clause with a preposed negative expression."
       }
     ],
     "grounds": [
@@ -69,7 +69,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The inverted conditional is restricted to a small set of auxiliaries. Substituting an ordinary modal such as would fails to preserve the construction.",
+        "target": "The inverted conditional is restricted to a small set of auxiliaries. Substituting an ordinary modal such as <i>would</i> fails to preserve the construction.",
         "evidence": "FrameNet identifies the auxiliary restriction and compares conditional inversion with interrogative uses of the same order. CGEL records the core restriction and rare literary extensions.",
         "confidence": "high"
       }
@@ -77,9 +77,9 @@
   },
   "editions": {
     "curious": {
-      "title": "Conditions without if",
-      "summary": "Putting had, were or should before the subject can set up a condition without using if.",
-      "body": "Had you called, we could have picked you up corresponds to If you had called, we could have picked you up. The auxiliary comes before the subject, and if drops out.\n\nWere and should work the same way, as in Were I in charge, I would change it and Should you need help, call this number. Other auxiliaries don't freely enter this frame. In the central standard pattern the negative comes after the subject, as in Had you not called.",
+      "title": "Conditions without <i>if</i>",
+      "summary": "Putting <i>had</i>, <i>were</i> or <i>should</i> before the subject can set up a condition without using <i>if</i>.",
+      "body": "<i>Had you called, we could have picked you up</i> corresponds to <i>If you had called, we could have picked you up</i>. The auxiliary comes before the subject, and <i>if</i> drops out.\n\n<i>Were</i> and <i>should</i> work the same way, as in <i>Were I in charge, I would change it</i> and <i>Should you need help, call this number</i>. Other auxiliaries don't freely enter this frame. In the central standard pattern the negative comes after the subject, as in <i>Had you not called</i>.",
       "examples": [
         {
           "text": "[Had you called], we could have picked you up.",
@@ -94,11 +94,11 @@
           "from": "entry"
         }
       ],
-      "try": "Rewrite If you had known, I'd have told you without if. Which word moves, and where does it go?"
+      "try": "Rewrite <i>If you had known, I'd have told you</i> without <i>if</i>. Which word moves, and where does it go?"
     },
     "teacher": {
-      "summary": "Covers had/were/should plus subject conditionals such as Had you called, an alternative to if.",
-      "explain": "The pattern introduces a condition through auxiliary-subject order without if. Had you known corresponds to If you had known, and were and should license the same order in their own conditional uses. Other auxiliaries don't freely enter this frame, and substituting an ordinary modal such as would fails to preserve the construction. In the central standard pattern the negative is separate, as in Had you not called. The same order can express a question, with a wider range of auxiliaries. This dictionary marks the analysis as provisional.",
+      "summary": "Covers <i>had</i>/<i>were</i>/<i>should</i> plus subject conditionals such as <i>Had you called</i>, an alternative to <i>if</i>.",
+      "explain": "The pattern introduces a condition through auxiliary-subject order without <i>if</i>. <i>Had you known</i> corresponds to <i>If you had known</i>, and <i>were</i> and <i>should</i> license the same order in their own conditional uses. Other auxiliaries don't freely enter this frame, and substituting an ordinary modal such as <i>would</i> fails to preserve the construction. In the central standard pattern the negative is separate, as in <i>Had you not called</i>. The same order can express a question, with a wider range of auxiliaries. This dictionary marks the analysis as provisional.",
       "terms": "Sometimes called conditional inversion. This dictionary treats the order as the same auxiliary-subject order seen in closed interrogatives.",
       "examples": [
         {
@@ -118,19 +118,19 @@
         {
           "text": "If you had called, we could have picked you up.",
           "from": "constructed",
-          "note": "Ordinary order with if."
+          "note": "Ordinary order with <i>if</i>."
         },
         {
           "text": "Had you called, we could have picked you up.",
           "from": "entry",
-          "note": "Auxiliary before subject, no if."
+          "note": "Auxiliary before subject, no <i>if</i>."
         }
       ],
       "watch_for": [
         "A learner might think any auxiliary or modal can start such a clause.",
-        "A learner might confuse Had you called with a question, since the word order is the same."
+        "A learner might confuse <i>Had you called</i> with a question, since the word order is the same."
       ],
-      "activity": "Students rewrite if-conditionals with had, were and should, then try rewriting one with another auxiliary and discuss what the dictionary says about that."
+      "activity": "Students rewrite <i>if</i>-conditionals with <i>had</i>, <i>were</i> and <i>should</i>, then try rewriting one with another auxiliary and discuss what the dictionary says about that."
     }
   },
   "status": {
@@ -152,10 +152,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Inverted Conditional.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/inverted-conditional-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Inverted Conditional.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/inverted-conditional-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

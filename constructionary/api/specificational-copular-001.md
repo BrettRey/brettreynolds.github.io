@@ -4,7 +4,7 @@
 - pattern: Clause[variable NP + be + value XP]
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/specificational-copular-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
@@ -26,7 +26,7 @@ Identifies a value for a description made salient by the other copular expressio
 
 ## Projection
 
-The permit supplies a value rather than a general property. The reverse order can preserve the identification while changing the informational packaging.
+*The permit* supplies a value rather than a general property. The reverse order can preserve the identification while changing the informational packaging.
 
 ## Reader editions (draft, AI-assisted, unreviewed; the linguist entry is the reference)
 
@@ -34,12 +34,12 @@ The permit supplies a value rather than a general property. The reverse order ca
 
 Some sentences with is set up a description and then name what fits it.
 
-The main obstacle is the permit. The phrase the main obstacle sets up a description, and the permit fills it in. It names which thing fits. This is different from a sentence that just says what something is like.
+*The main obstacle is the permit*. The phrase *the main obstacle* sets up a description, and *the permit* fills it in. It names which thing fits. This is different from a sentence that just says what something is like.
 
-You can reverse the order: The permit is the main obstacle. It still identifies the same obstacle, though the information is packaged differently. This dictionary marks the analysis as provisional.
+You can reverse the order: *The permit is the main obstacle*. It still identifies the same obstacle, though the information is packaged differently. This dictionary marks the analysis as provisional.
 
 ### Teacher
 
-Helps explain be-clauses that identify a value for a description.
+Helps explain *be*-clauses that identify a value for a description.
 
-A specificational copular clause pairs a variable NP with a value expression and be: it identifies a value for a description made salient by the other copular expression. In The main obstacle is the permit, the permit supplies a value rather than a general property. The reverse order, The permit is the main obstacle, can preserve the identification while changing the informational packaging. This dictionary treats the pattern as a specialization of the clause and relates it to pseudo-clefts and to subject-ascriptive clauses. The analysis is marked provisional.
+A specificational copular clause pairs a variable NP with a value expression and be: it identifies a value for a description made salient by the other copular expression. In *The main obstacle is the permit*, *the permit* supplies a value rather than a general property. The reverse order, *The permit is the main obstacle*, can preserve the identification while changing the informational packaging. This dictionary treats the pattern as a specialization of the clause and relates it to pseudo-clefts and to subject-ascriptive clauses. The analysis is marked provisional.

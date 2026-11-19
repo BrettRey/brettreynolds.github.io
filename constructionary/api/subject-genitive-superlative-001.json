@@ -15,11 +15,11 @@
     "meanings": {
       "1": {
         "definition": "Presents the performance at an extreme on a scale associated with the subject.",
-        "details": "In worked our hardest, our refers to the people doing the work and hardest characterizes their effort. The postverbal expression has no overt noun and supplies a degree or standard. A linked at-pattern is available with some verbs. Its range differs, as in be at one’s best. The label objoid in the cited work notes the position and the unusual object profile. The present entry leaves the grammatical function of the bare phrase open.",
+        "details": "In <i>worked our hardest</i>, <i>our</i> refers to the people doing the work and <i>hardest</i> characterizes their effort. The postverbal expression has no overt noun and supplies a degree or standard. A linked at-pattern is available with some verbs. Its range differs, as in <i>be at one’s best</i>. The label objoid in the cited work notes the position and the unusual object profile. The present entry leaves the grammatical function of the bare phrase open.",
         "examples": [
           {
             "form": "Kate and I have [worked our hardest] to raise them that way.",
-            "note": "COCA example in CASA. Our is linked to the subject.",
+            "note": "COCA example in CASA. <i>Our</i> is linked to the subject.",
             "grounds": [
               {
                 "source": "casa-constructicon",
@@ -94,7 +94,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The genitive normally tracks the subject while the bare superlative supplies a high degree for the performance. A related phrase with at can broaden the interpretation to a condition.",
+        "target": "The genitive normally tracks the subject while the bare superlative supplies a high degree for the performance. A related phrase with <i>at</i> can broaden the interpretation to a condition.",
         "evidence": "Bouso’s corpus analysis and CASA’s contrasted records. The published priming study reports an asymmetry between the two forms.",
         "confidence": "medium"
       }
@@ -102,9 +102,9 @@
   },
   "editions": {
     "curious": {
-      "title": "Worked our hardest",
-      "summary": "A verb followed by a genitive and a superlative, as in worked our hardest, says the effort reached its highest point.",
-      "body": "In worked our hardest, the word our points back to the people doing the work, and hardest describes their effort. There's no noun after hardest. The phrase supplies a degree, a standard of how hard.\n\nA version with at is also possible with some verbs: They worked at their hardest. The two don't have exactly the same range. Be at one's best is another at-pattern.\n\nThis dictionary marks the analysis as provisional and leaves open what grammatical role the bare phrase has.",
+      "title": "<i>Worked our hardest</i>",
+      "summary": "A verb followed by a genitive and a superlative, as in <i>worked our hardest</i>, says the effort reached its highest point.",
+      "body": "In <i>worked our hardest</i>, the word <i>our</i> points back to the people doing the work, and <i>hardest</i> describes their effort. There's no noun after <i>hardest</i>. The phrase supplies a degree, a standard of how hard.\n\nA version with <i>at</i> is also possible with some verbs: <i>They worked at their hardest</i>. The two don't have exactly the same range. <i>Be at one's best</i> is another at-pattern.\n\nThis dictionary marks the analysis as provisional and leaves open what grammatical role the bare phrase has.",
       "examples": [
         {
           "text": "Kate and I have [worked our hardest] to raise them that way.",
@@ -119,11 +119,11 @@
           "from": "entry"
         }
       ],
-      "try": "Say They worked their hardest and They worked at their hardest. Do they feel the same to you?"
+      "try": "Say <i>They worked their hardest</i> and <i>They worked at their hardest</i>. Do they feel the same to you?"
     },
     "teacher": {
-      "summary": "Optional enrichment on worked their hardest and the related at-pattern.",
-      "explain": "The pattern is a clause with a subject and a verb followed by a phrase whose genitive is linked to the subject and whose superlative sets a high degree: our refers to those doing the work, and hardest characterizes their effort. The postverbal expression has no overt noun. A linked at-pattern is available with some verbs, with a different range (be at one's best). The cited work uses the label objoid for the position and unusual object profile. This dictionary leaves the grammatical function of the bare phrase open, and the head analysis is open, so avoid presenting one analysis as settled.",
+      "summary": "Optional enrichment on <i>worked their hardest</i> and the related at-pattern.",
+      "explain": "The pattern is a clause with a subject and a verb followed by a phrase whose genitive is linked to the subject and whose superlative sets a high degree: <i>our</i> refers to those doing the work, and <i>hardest</i> characterizes their effort. The postverbal expression has no overt noun. A linked at-pattern is available with some verbs, with a different range (<i>be at one's best</i>). The cited work uses the label objoid for the position and unusual object profile. This dictionary leaves the grammatical function of the bare phrase open, and the head analysis is open, so avoid presenting one analysis as settled.",
       "terms": "Objoid is the label in the cited work. This dictionary leaves the function of the bare phrase open.",
       "examples": [
         {
@@ -148,10 +148,10 @@
         }
       ],
       "watch_for": [
-        "A learner might look for a noun after hardest, when the phrase has no overt noun.",
-        "A learner might read our or their as owning something, when it tracks the subject."
+        "A learner might look for a noun after <i>hardest</i>, when the phrase has no overt noun.",
+        "A learner might read <i>our</i> or <i>their</i> as owning something, when it tracks the subject."
       ],
-      "activity": "Students complete They worked ___ hardest and We tried ___ hardest with the matching genitive for each subject. They check that the genitive refers to the people doing the work."
+      "activity": "Students complete <i>They worked ___ hardest</i> and <i>We tried ___ hardest</i> with the matching genitive for each subject. They check that the genitive refers to the people doing the work."
     }
   },
   "status": {
@@ -172,10 +172,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Subject-Linked Genitive Superlative.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/subject-genitive-superlative-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Subject-Linked Genitive Superlative.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/subject-genitive-superlative-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

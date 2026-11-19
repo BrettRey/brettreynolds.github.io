@@ -41,7 +41,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Each person pairs with a separate goal under one overt verb. Lee home is the object and goal sequence, and is not an ordinary nominal constituent.",
+        "target": "Each person pairs with a separate goal under one overt verb. <i>Lee home</i> is the object and goal sequence, and is not an ordinary nominal constituent.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -50,8 +50,8 @@
   "editions": {
     "curious": {
       "title": "Joining pairs of things after one verb",
-      "summary": "One verb can serve two pairs of things joined by and, even though each pair isn't an ordinary phrase.",
-      "body": "In I took Jo to the station and Lee home, the verb took appears once but works for two jobs. Jo goes with the station, and Lee goes with home. Each person pairs with a separate destination.\n\nWhat's joined by and isn't an ordinary phrase: Jo to the station and Lee home are bundles of two things that follow the verb. Lee home, for example, is a person plus a destination. This dictionary marks the analysis as provisional.",
+      "summary": "One verb can serve two pairs of things joined by <i>and</i>, even though each pair isn't an ordinary phrase.",
+      "body": "In <i>I took Jo to the station and Lee home</i>, the verb <i>took</i> appears once but works for two jobs. Jo goes with the station, and Lee goes with home. Each person pairs with a separate destination.\n\nWhat's joined by <i>and</i> isn't an ordinary phrase: <i>Jo to the station</i> and <i>Lee home</i> are bundles of two things that follow the verb. <i>Lee home</i>, for example, is a person plus a destination. This dictionary marks the analysis as provisional.",
       "examples": [
         {
           "text": "I took [Jo to the station and Lee home].",
@@ -66,7 +66,7 @@
     },
     "teacher": {
       "summary": "Helps explain coordination of postverbal bundles under a single verb.",
-      "explain": "In this coordination, corresponding sequences of postverbal arguments are coordinated, and the sequences need not be ordinary independent phrases. In I took Jo to the station and Lee home, each person pairs with a separate goal under one overt verb. Lee home is the object and goal sequence, and it isn't an ordinary nominal constituent. This dictionary treats the pattern as a specialization of coordination and marks the analysis as provisional. Present it as the same verb serving two parallel bundles.",
+      "explain": "In this coordination, corresponding sequences of postverbal arguments are coordinated, and the sequences need not be ordinary independent phrases. In <i>I took Jo to the station and Lee home</i>, each person pairs with a separate goal under one overt verb. <i>Lee home</i> is the object and goal sequence, and it isn't an ordinary nominal constituent. This dictionary treats the pattern as a specialization of coordination and marks the analysis as provisional. Present it as the same verb serving two parallel bundles.",
       "examples": [
         {
           "text": "I took [Jo to the station and Lee home].",
@@ -78,7 +78,7 @@
         }
       ],
       "watch_for": [
-        "A learner might read Lee home as an ordinary phrase, when it is a person plus a goal.",
+        "A learner might read <i>Lee home</i> as an ordinary phrase, when it is a person plus a goal.",
         "A learner might look for a second verb in the coordinated part, though one overt verb serves both bundles."
       ]
     }
@@ -101,10 +101,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Right Argument-Cluster Coordination.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/right-argument-cluster-coordination-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Right Argument-Cluster Coordination.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/right-argument-cluster-coordination-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

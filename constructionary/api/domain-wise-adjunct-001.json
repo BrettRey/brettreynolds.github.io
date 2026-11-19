@@ -1,6 +1,6 @@
 {
   "id": "domain-wise-adjunct-001",
-  "name": "Domain Adjunct with -Wise",
+  "name": "Domain Adjunct with <i>-wise</i>",
   "pattern": "initial domain expression in -wise + clause",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/domain-wise-adjunct-001/",
@@ -9,7 +9,7 @@
   },
   "entry": {
     "id": "domain-wise-adjunct-001",
-    "name": "Domain Adjunct with -Wise",
+    "name": "Domain Adjunct with <i>-wise</i>",
     "pattern": "initial domain expression in -wise + clause",
     "type": "mixed",
     "meanings": {
@@ -40,7 +40,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The same van can be worse in comfort without contradiction. The adjunct sets the assessment domain rather than describing how better is realized.",
+        "target": "The same van can be worse in comfort without contradiction. The adjunct sets the assessment domain rather than describing how <i>better</i> is realized.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -48,9 +48,9 @@
   },
   "editions": {
     "curious": {
-      "title": "Narrowing a claim with -wise",
-      "summary": "A word ending in -wise at the start of a sentence says which aspect the rest of the sentence is about.",
-      "body": "In Cost-wise, the smaller van is better, the opening word cost-wise limits the claim. The smaller van is better as far as cost goes, and the sentence doesn't say it is better in every way.\n\nThe opening expression sets the dimension within which the following claim is judged. It stands at the front of the sentence, apart from the main statement.",
+      "title": "Narrowing a claim with <i>-wise</i>",
+      "summary": "A word ending in <i>-wise</i> at the start of a sentence says which aspect the rest of the sentence is about.",
+      "body": "In <i>Cost-wise, the smaller van is better</i>, the opening word <i>cost-wise</i> limits the claim. The smaller van is better as far as cost goes, and the sentence doesn't say it is better in every way.\n\nThe opening expression sets the dimension within which the following claim is judged. It stands at the front of the sentence, apart from the main statement.",
       "examples": [
         {
           "text": "[Cost-wise], the smaller van is better.",
@@ -61,11 +61,11 @@
           "from": "constructed"
         }
       ],
-      "try": "Take a choice you've made recently. Can you say which aspect it was better in, starting with a word in -wise?"
+      "try": "Take a choice you've made recently. Can you say which aspect it was better in, starting with a word in <i>-wise</i>?"
     },
     "teacher": {
-      "summary": "Helps explain a front-placed -wise word that restricts the dimension of a claim.",
-      "explain": "A domain adjunct in -wise is an initial expression in -wise followed by a clause. It restricts the dimension within which the following claim is assessed. In Cost-wise, the smaller van is better, the claim holds for cost. This dictionary relates the pattern to gradation and cites CGEL's treatment of adverbial word formation.",
+      "summary": "Helps explain a front-placed <i>-wise</i> word that restricts the dimension of a claim.",
+      "explain": "A domain adjunct in <i>-wise</i> is an initial expression in <i>-wise</i> followed by a clause. It restricts the dimension within which the following claim is assessed. In <i>Cost-wise, the smaller van is better</i>, the claim holds for cost. This dictionary relates the pattern to gradation and cites CGEL's treatment of adverbial word formation.",
       "examples": [
         {
           "text": "[Cost-wise], the smaller van is better.",
@@ -77,10 +77,10 @@
         }
       ],
       "watch_for": [
-        "A learner might read the -wise word as describing the van, when it names the dimension of the comparison.",
-        "A learner might read the claim as holding in every respect, when the -wise word limits it."
+        "A learner might read the <i>-wise</i> word as describing the van, when it names the dimension of the comparison.",
+        "A learner might read the claim as holding in every respect, when the <i>-wise</i> word limits it."
       ],
-      "activity": "Students compare two options (two phones, two routes) and write two -wise sentences, each naming a different dimension where a different option wins."
+      "activity": "Students compare two options (two phones, two routes) and write two <i>-wise</i> sentences, each naming a different dimension where a different option wins."
     }
   },
   "status": {
@@ -101,10 +101,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Domain Adjunct with -Wise.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/domain-wise-adjunct-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Domain Adjunct with <i>-wise</i>.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/domain-wise-adjunct-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

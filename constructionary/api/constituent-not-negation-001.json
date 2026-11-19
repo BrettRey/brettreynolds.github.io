@@ -1,6 +1,6 @@
 {
   "id": "constituent-not-negation-001",
-  "name": "Constituent Negation with not",
+  "name": "Constituent Negation with <i>not</i>",
   "pattern": "not + XP (predicative)",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/constituent-not-negation-001/",
@@ -9,7 +9,7 @@
   },
   "entry": {
     "id": "constituent-not-negation-001",
-    "name": "Constituent Negation with not",
+    "name": "Constituent Negation with <i>not</i>",
     "pattern": "not + XP (predicative)",
     "type": "syntactic",
     "meanings": {
@@ -52,8 +52,8 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "In Lee came not on Tuesday but on Wednesday, the correction replaces a temporal expression while the coming remains asserted. The clause can take an ordinary negative tag expecting confirmation of that coming.",
-        "evidence": "CGEL documents local scope of not inside coordinates and distinguishes it from primary finite negation.",
+        "target": "In <i>Lee came not on Tuesday but on Wednesday</i>, the correction replaces a temporal expression while the coming remains asserted. The clause can take an ordinary negative tag expecting confirmation of that coming.",
+        "evidence": "CGEL documents local scope of <i>not</i> inside coordinates and distinguishes it from primary finite negation.",
         "confidence": "medium"
       }
     },
@@ -65,15 +65,15 @@
       {
         "id": "primary-auxiliary-negation-001",
         "relationship": "related-to",
-        "notes": "Jo ordered tea, not coffee targets a constituent. Jo didn’t order coffee puts the negation with the finite auxiliary."
+        "notes": "<i>Jo ordered tea, not coffee</i> targets a constituent. <i>Jo didn’t order coffee</i> puts the negation with the finite auxiliary."
       }
     ]
   },
   "editions": {
     "curious": {
-      "title": "Saying not about one part of a sentence",
-      "summary": "Not can deny one part of a sentence, such as a description or a time, instead of the whole action.",
-      "body": "In That is not a solution, not denies what is said about that: it isn't a solution. In She is not in the box, it denies a place. The description or relation is what gets negated.\n\nNot can also target one part while the rest stays asserted. In Lee came not on Tuesday but on Wednesday, the coming still happened. Only the time is corrected. Jo ordered tea, not coffee targets just the drink, unlike Jo didn't order coffee.",
+      "title": "Saying <i>not</i> about one part of a sentence",
+      "summary": "<i>Not</i> can deny one part of a sentence, such as a description or a time, instead of the whole action.",
+      "body": "In <i>That is not a solution</i>, <i>not</i> denies what is said about <i>that</i>: <i>it isn't a solution</i>. In <i>She is not in the box</i>, it denies a place. The description or relation is what gets negated.\n\n<i>Not</i> can also target one part while the rest stays asserted. In <i>Lee came not on Tuesday but on Wednesday</i>, the coming still happened. Only the time is corrected. <i>Jo ordered tea, not coffee</i> targets just the drink, unlike <i>Jo didn't order coffee</i>.",
       "examples": [
         {
           "text": "That is [not] a solution.",
@@ -88,12 +88,12 @@
           "from": "constructed"
         }
       ],
-      "try": "Say Jo ordered tea, not coffee. What does not apply to? Compare Jo didn't order coffee."
+      "try": "Say <i>Jo ordered tea, not coffee</i>. What does <i>not</i> apply to? Compare <i>Jo didn't order coffee</i>."
     },
     "teacher": {
-      "summary": "Helps students see not as negating a particular part of a clause, and tell it apart from negation attached to the auxiliary.",
-      "explain": "In constituent negation, not negates a non-verbal predicate or constituent within a clause. This dictionary’s examples have a predicative NP, AdjP or PP in a copular or similar frame (That is not a solution, She is not in the box), where not negates the property or relation the phrase expresses. Not can also have local scope inside coordinates: in Lee came not on Tuesday but on Wednesday, the correction replaces a time expression and the coming remains asserted. This differs from primary finite negation, as in Jo didn't order coffee, where the negation goes with the finite auxiliary.",
-      "terms": "Constituent negation: negation of one part of a clause. Primary (finite) negation: negation attached to the finite auxiliary, as in didn't.",
+      "summary": "Helps students see <i>not</i> as negating a particular part of a clause, and tell it apart from negation attached to the auxiliary.",
+      "explain": "In constituent negation, <i>not</i> negates a non-verbal predicate or constituent within a clause. This dictionary’s examples have a predicative NP, AdjP or PP in a copular or similar frame (<i>That is not a solution</i>, <i>She is not in the box</i>), where <i>not</i> negates the property or relation the phrase expresses. <i>Not</i> can also have local scope inside coordinates: in <i>Lee came not on Tuesday but on Wednesday</i>, the correction replaces a time expression and the coming remains asserted. This differs from primary finite negation, as in <i>Jo didn't order coffee</i>, where the negation goes with the finite auxiliary.",
+      "terms": "Constituent negation: negation of one part of a clause. Primary (finite) negation: negation attached to the finite auxiliary, as in <i>didn't</i>.",
       "examples": [
         {
           "text": "That is [not] a solution.",
@@ -108,7 +108,7 @@
         {
           "text": "Jo ordered tea, not coffee.",
           "from": "constructed",
-          "note": "Not targets one constituent."
+          "note": "<i>Not</i> targets one constituent."
         },
         {
           "text": "Jo didn't order coffee.",
@@ -117,10 +117,10 @@
         }
       ],
       "watch_for": [
-        "A learner might read Lee came not on Tuesday but on Wednesday as saying Lee didn't come, when the coming remains asserted.",
-        "A learner might treat not before a predicative phrase and not with the auxiliary as the same thing."
+        "A learner might read <i>Lee came not on Tuesday but on Wednesday</i> as saying <i>Lee didn't come</i>, when the coming remains asserted.",
+        "A learner might treat <i>not</i> before a predicative phrase and <i>not</i> with the auxiliary as the same thing."
       ],
-      "activity": "Give students pairs like Jo ordered tea, not coffee and Jo didn't order coffee. They say what is denied in each and what is still asserted."
+      "activity": "Give students pairs like <i>Jo ordered tea, not coffee</i> and <i>Jo didn't order coffee</i>. They say what is denied in each and what is still asserted."
     }
   },
   "status": {
@@ -141,10 +141,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Constituent Negation with not.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/constituent-not-negation-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Constituent Negation with <i>not</i>.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/constituent-not-negation-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

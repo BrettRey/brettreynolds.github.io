@@ -54,7 +54,7 @@
     "curious": {
       "title": "A second description added to a name",
       "summary": "A second noun phrase beside the first adds another way of identifying the same person or thing.",
-      "body": "In Lee, our treasurer, signed the form, our treasurer refers to the same person as Lee. It adds a second description to a person already named.\n\nThe added phrase can be set off in speech by its own rhythm, and it contributes its own identification or characterization. If you take it out, Lee signed the form still works with the same role in the sentence.\n\nThis dictionary marks the analysis as provisional and rests on one constructed illustration.",
+      "body": "In <i>Lee, our treasurer, signed the form</i>, <i>our treasurer</i> refers to the same person as <i>Lee</i>. It adds a second description to a person already named.\n\nThe added phrase can be set off in speech by its own rhythm, and it contributes its own identification or characterization. If you take it out, <i>Lee signed the form</i> still works with the same role in the sentence.\n\nThis dictionary marks the analysis as provisional and rests on one constructed illustration.",
       "examples": [
         {
           "text": "Lee, [our treasurer], signed the form.",
@@ -68,7 +68,7 @@
       "try": "Take a sentence naming someone, add a phrase between commas that tells who they are, then remove it. Does the rest still work?"
     },
     "teacher": {
-      "summary": "Useful for explaining added noun phrases set off by commas, such as Lee, our treasurer.",
+      "summary": "Useful for explaining added noun phrases set off by commas, such as <i>Lee, our treasurer</i>.",
       "explain": "The pattern is an anchor NP followed by a supplementary NP with a co-referential interpretation. It adds a second description or identification of a discourse referent. The second NP can be set off prosodically and contributes its own identification or characterization. Removing it leaves the anchor available for the same matrix role. This dictionary marks the analysis as provisional and has one constructed illustration. Related separate entries cover a restrictive appositive name and the supplementary relative clause.",
       "terms": "Traditional grammar sometimes calls this non-restrictive apposition. CGEL: supplementary apposition.",
       "examples": [
@@ -90,7 +90,7 @@
         }
       ],
       "watch_for": [
-        "A learner might treat Lee and our treasurer as two different people.",
+        "A learner might treat <i>Lee</i> and <i>our treasurer</i> as two different people.",
         "A learner might think the added phrase is needed to complete the sentence."
       ],
       "activity": "Students write sentences naming a person or place and adding a second description in a comma-set phrase. They test whether removing the phrase leaves a complete sentence and say what the phrase adds."
@@ -114,10 +114,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Supplementary Appositive NP.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/supplementary-appositive-np-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Supplementary Appositive NP.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/supplementary-appositive-np-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

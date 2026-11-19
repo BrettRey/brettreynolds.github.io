@@ -46,7 +46,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Ever can ask about any occurrence before the reference time. A finished, explicitly dated occasion normally favours the simple preterite over the present perfect in the standard contrast.",
+        "target": "<i>Ever</i> can ask about any occurrence before the reference time. A finished, explicitly dated occasion normally favours the simple preterite over the present perfect in the standard contrast.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -55,8 +55,8 @@
   "editions": {
     "curious": {
       "title": "Asking whether something has ever happened",
-      "summary": "A have plus past-participle sentence can place earlier happenings within a stretch of time that matters now.",
-      "body": "Have you ever driven a bus? asks whether at least one earlier occasion fits. The speaker isn't asking about a particular day. The word ever can ask about any occurrence before the time of speaking.\n\nCompare Did you drive the bus yesterday? Once the occasion is finished and has a definite date, the simple past is the natural choice. So have plus a verb like driven fits the experience question, and did drive fits the dated one.",
+      "summary": "A <i>have</i> plus past-participle sentence can place earlier happenings within a stretch of time that matters now.",
+      "body": "<i>Have you ever driven a bus?</i> asks whether at least one earlier occasion fits. The speaker isn't asking about a particular day. The word <i>ever</i> can ask about any occurrence before the time of speaking.\n\nCompare <i>Did you drive the bus yesterday?</i> Once the occasion is finished and has a definite date, the simple past is the natural choice. So <i>have</i> plus a verb like <i>driven</i> fits the experience question, and <i>did drive</i> fits the dated one.",
       "examples": [
         {
           "text": "[Have you ever driven] a bus?",
@@ -67,11 +67,11 @@
           "from": "entry"
         }
       ],
-      "try": "Ask a friend Have you ever ... about something they might have done. Then ask about one particular day. Which verb form fits each question?"
+      "try": "Ask a friend <i>Have you ever ...</i> about something they might have done. Then ask about one particular day. Which verb form fits each question?"
     },
     "teacher": {
       "summary": "Helps explain when the present perfect asks about experience and when the simple past is used for a dated occasion.",
-      "explain": "The experiential perfect (perfect have plus a past-participial VP) places one or more previous occurrences within a time span understood as relevant now. Ever can ask about any occurrence before the reference time. A finished, explicitly dated occasion normally favours the simple preterite over the present perfect in the standard contrast. This dictionary marks the analysis as provisional, with medium confidence, and cites CGEL on the perfect.",
+      "explain": "The experiential perfect (perfect <i>have</i> plus a past-participial VP) places one or more previous occurrences within a time span understood as relevant now. <i>Ever</i> can ask about any occurrence before the reference time. A finished, explicitly dated occasion normally favours the simple preterite over the present perfect in the standard contrast. This dictionary marks the analysis as provisional, with medium confidence, and cites CGEL on the perfect.",
       "terms": "Present perfect of experience is a common textbook label. The simple preterite is the simple past.",
       "examples": [
         {
@@ -92,14 +92,14 @@
         }
       ],
       "watch_for": [
-        "A learner might combine the present perfect with an explicit past date like yesterday, when the simple preterite is the natural choice.",
-        "A learner might read Have you ever driven a bus? as asking about right now rather than any earlier time."
+        "A learner might combine the present perfect with an explicit past date like <i>yesterday</i>, when the simple preterite is the natural choice.",
+        "A learner might read <i>Have you ever driven a bus?</i> as asking about right now rather than any earlier time."
       ],
-      "activity": "Students interview each other with Have you ever ...? questions. When a partner says yes, they ask a follow-up about one particular occasion, and note which verb form each question needs."
+      "activity": "Students interview each other with <i>Have you ever ...?</i> questions. When a partner says yes, they ask a follow-up about one particular occasion, and note which verb form each question needs."
     },
     "child": {
       "hook": "How do you ask if someone has done something at least once?",
-      "explain": "Have you ever driven a bus? asks if you did it at some time before now. It doesn't ask when. If you ask about yesterday, you say Did you drive the bus yesterday?",
+      "explain": "<i>Have you ever driven a bus?</i> asks if you did it at some time before now. It doesn't ask when. If you ask about yesterday, you say <i>Did you drive the bus yesterday?</i>",
       "examples": [
         {
           "text": "[Have you ever driven] a bus?",
@@ -114,7 +114,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Ask three friends Have you ever ... about animals, places or foods. Then ask one of them about a single day with Did you ... yesterday?"
+      "play": "Ask three friends <i>Have you ever ...</i> about animals, places or foods. Then ask one of them about a single day with <i>Did you ... yesterday?</i>"
     }
   },
   "status": {
@@ -135,10 +135,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Experiential Perfect.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/experiential-perfect-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Experiential Perfect.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/experiential-perfect-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

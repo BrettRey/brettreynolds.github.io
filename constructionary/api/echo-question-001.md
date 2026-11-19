@@ -4,13 +4,13 @@
 - pattern: Question[echo] applied to Host:Clause[clause type preserved] / Non-headed clausal-semantics construction + echo prosody (+ variable phrase in situ)
 - status: provisional analysis; evidence level: stable
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/echo-question-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
 Repeats all or part of a prior utterance to ask whether that is what the previous speaker said
 
-The echo question is not a sixth clause type. Question is a semantic category applied as a stimulus-dependent layer while a clausal host preserves its grammatical type and a non-headed host remains non-headed. Its implicit propositional content concerns the prior speech act: an echo of Is he resigning? asks approximately whether the previous speaker asked that question, not whether he is resigning (CGEL pp. 853–54, 886–90).
+The echo question is not a sixth clause type. Question is a semantic category applied as a stimulus-dependent layer while a clausal host preserves its grammatical type and a non-headed host remains non-headed. Its implicit propositional content concerns the prior speech act: an echo of *Is he resigning?* asks approximately whether the previous speaker asked that question, not whether he is resigning (CGEL pp. 853–54, 886–90).
 
 - *A: She is leaving on Saturday. B: [She is leaving on Saturday]?*: Repetition echo with declarative clause type preserved
 - *A: Is he going to resign? B: [Is he going to resign]?*: The echo remains a closed interrogative Clause
@@ -54,18 +54,18 @@ Recognizing an echo question predicts preservation of the host's syntactic class
 
 A speaker can repeat all or part of what was just said, in the form of a question, to check it or to ask for clarification.
 
-If someone says She is leaving on Saturday, you can reply She is leaving on Saturday? with a questioning tune. You're asking whether that is what they said. You aren't asking whether she is leaving.
+If someone says *She is leaving on Saturday*, you can reply *She is leaving on Saturday?* with a questioning tune. You're asking whether that is what they said. You aren't asking whether she is leaving.
 
-You can also swap a part you didn't hear or understand for a question word. After Give it to Angela, the reply Give it to who? keeps the original order and asks about the missing piece. The echo depends on what the other person just said.
+You can also swap a part you didn't hear or understand for a question word. After *Give it to Angela*, the reply *Give it to who?* keeps the original order and asks about the missing piece. The echo depends on what the other person just said.
 
 ### Teacher
 
 Helps explain echo questions as a layer over a prior utterance that keeps the clause type of what is echoed.
 
-An echo question repeats all or part of a prior utterance to ask whether that is what the previous speaker said. This dictionary says it isn't a sixth clause type: it's a semantic layer on a stimulus, and the clausal host keeps its grammatical type (declarative, closed interrogative, imperative). A non-headed host stays non-headed, as in Ed quite competent? Echoing Is he resigning? asks approximately whether the previous speaker asked that, not whether he's resigning. A variable echo replaces a poorly heard or understood part with an in-situ variable phrase and keeps the stimulus's word order and clause type, sometimes with reduction and deictic shift (Did I use a what?).
+An echo question repeats all or part of a prior utterance to ask whether that is what the previous speaker said. This dictionary says it isn't a sixth clause type: it's a semantic layer on a stimulus, and the clausal host keeps its grammatical type (declarative, closed interrogative, imperative). A non-headed host stays non-headed, as in *Ed quite competent?* Echoing *Is he resigning?* asks approximately whether the previous speaker asked that, not whether he's resigning. A variable echo replaces a poorly heard or understood part with an in-situ variable phrase and keeps the stimulus's word order and clause type, sometimes with reduction and deictic shift (*Did I use a what?*).
 
 ### Child
 
 What do you say when you didn't hear a word?
 
-You can say back what you heard as a question. You can swap the missing word for who or what. Someone says Give it to Angela. You say Give it to who?
+You can say back what you heard as a question. You can swap the missing word for *who* or *what*. Someone says *Give it to Angela*. You say *Give it to who?*

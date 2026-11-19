@@ -15,11 +15,11 @@
     "meanings": {
       "1": {
         "definition": "Picks out a stage or aspect of the person or group identified by a pronoun.",
-        "details": "In the five-year-old you, the pronoun anchors the reference to the addressee and the adjective specifies an age. In subject position the whole NP can take third-person verbal agreement. A coreferential reflexive can still carry the person of the pronoun. Some age-modified uses are bare. The category of the head and the explanation for the agreement split remain open.",
+        "details": "In <i>the five-year-old you</i>, the pronoun anchors the reference to the addressee and the adjective specifies an age. In subject position the whole NP can take third-person verbal agreement. A coreferential reflexive can still carry the person of the pronoun. Some age-modified uses are bare. The category of the head and the explanation for the agreement split remain open.",
         "examples": [
           {
             "form": "[The five-year-old you] was so cute!",
-            "note": "Was contrasts with ordinary second-person you were.",
+            "note": "<i>Was</i> contrasts with ordinary second-person <i>you were</i>.",
             "grounds": [
               {
                 "source": "halm-2022",
@@ -45,7 +45,7 @@
       },
       "2": {
         "definition": "Characterizes the person identified by the pronoun as being in a particular state.",
-        "details": "In an exhausted me, the speaker is still identified by me. The adjective adds the state in which the speaker experienced the situation. Halm compares this use with a visibly irritated Mr Andrews and distinguishes it from a reading that explicitly selects a stage or aspect.",
+        "details": "In <i>an exhausted me</i>, the speaker is still identified by <i>me</i>. The adjective adds the state in which the speaker experienced the situation. Halm compares this use with <i>a visibly irritated Mr Andrews</i> and distinguishes it from a reading that explicitly selects a stage or aspect.",
         "examples": [
           {
             "form": "[An exhausted me] has felt …",
@@ -73,22 +73,22 @@
         "id": "np-det-001",
         "relationship": "overlaps-with",
         "overlap-dimension": "formal",
-        "notes": "The younger me has overt determination. Halm also reports bare age-modified forms, including 12 year old me as the subject of a relative clause."
+        "notes": "<i>The younger me</i> has overt determination. Halm also reports bare age-modified forms, including <i>12 year old me</i> as the subject of a relative clause."
       },
       {
         "id": "indefinite-modified-name-001",
         "relationship": "related-to",
-        "notes": "An exhausted me and a visibly shaken Giuliani combine a/an with an adjective that characterizes a participant identified independently by the pronoun or name."
+        "notes": "<i>An exhausted me</i> and <i>a visibly shaken Giuliani</i> combine <i>a</i>/<i>an</i> with an adjective that characterizes a participant identified independently by the pronoun or name."
       },
       {
         "id": "proper-name-secondary-use-001",
         "relationship": "related-to",
-        "notes": "The young Isaac Newton and the five-year-old you can each pick out a life stage, anchored by a name in the first case and by the addressee pronoun in the second."
+        "notes": "<i>The young Isaac Newton</i> and <i>the five-year-old you</i> can each pick out a life stage, anchored by a name in the first case and by the addressee pronoun in the second."
       },
       {
         "id": "personal-determiner-001",
         "relationship": "related-to",
-        "notes": "In we linguists, we occupies the determiner slot and precedes a lexical head. In the younger us, the article occupies that slot and us follows the modifier."
+        "notes": "In <i>we linguists</i>, <i>we</i> occupies the determiner slot and precedes a lexical head. In <i>the younger us</i>, the article occupies that slot and <i>us</i> follows the modifier."
       }
     ],
     "grounds": [
@@ -110,23 +110,23 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The modified NP can take a singular verb form unavailable to ordinary you, while an antecedent containing me can support myself. A stage contrast can also support third-person anaphora.",
+        "target": "The modified NP can take a singular verb form unavailable to ordinary <i>you</i>, while an antecedent containing <i>me</i> can support <i>myself</i>. A stage contrast can also support third-person anaphora.",
         "evidence": "Halm’s contrasts separate finite agreement from the selection of coreferential forms. The article alone leaves the head’s lexical category open.",
         "confidence": "medium"
       },
       "boundaries": {
         "known_boundary_items": [
-          "Poor old me is CGEL’s bare evaluative pattern. The younger me can pick out a life stage and occurs in a pattern that also permits a younger me.",
-          "A he or a she can denote a person of a category and lacks the ordinary speaker or addressee anchoring tested here."
+          "<i>Poor old me</i> is CGEL’s bare evaluative pattern. <i>The younger me</i> can pick out a life stage and occurs in a pattern that also permits <i>a younger me</i>.",
+          "<i>A he</i> or <i>a she</i> can denote a person of a category and lacks the ordinary speaker or addressee anchoring tested here."
         ]
       }
     }
   },
   "editions": {
     "curious": {
-      "title": "Adjectives in front of me, you and us",
-      "summary": "A pronoun such as you or me can take an adjective in front of it to pick out a stage of a person's life or the state they were in.",
-      "body": "In The five-year-old you was so cute!, the word you still means the person being addressed. The adjective adds an age, so the phrase picks out one stage of that person. In An exhausted me has felt, the word me still means the speaker, and exhausted adds the state the speaker was in.\n\nThese phrases show a split. The verb in the first example is was, not the were that ordinary you goes with, yet a phrase containing me can still go with myself, as in Questions A Younger Me Would Ask Myself. This dictionary says that what kind of word the head is, and why the split happens, remain open.",
+      "title": "Adjectives in front of <i>me</i>, <i>you</i> and <i>us</i>",
+      "summary": "A pronoun such as <i>you</i> or <i>me</i> can take an adjective in front of it to pick out a stage of a person's life or the state they were in.",
+      "body": "In <i>The five-year-old you was so cute!</i>, the word <i>you</i> still means the person being addressed. The adjective adds an age, so the phrase picks out one stage of that person. In <i>An exhausted me has felt</i>, the word <i>me</i> still means the speaker, and <i>exhausted</i> adds the state the speaker was in.\n\nThese phrases show a split. The verb in the first example is <i>was</i>, not the <i>were</i> that ordinary <i>you</i> goes with, yet a phrase containing <i>me</i> can still go with <i>myself</i>, as in <i>Questions A Younger Me Would Ask Myself</i>. This dictionary says that what kind of word the head is, and why the split happens, remain open.",
       "examples": [
         {
           "text": "[The five-year-old you] was so cute!",
@@ -143,8 +143,8 @@
       ]
     },
     "teacher": {
-      "summary": "For advanced classes, personal pronouns modified by an adjective, as in the five-year-old you or an exhausted me.",
-      "explain": "An attributive adjective can combine with a form otherwise used as a personal pronoun. The pronoun anchors the reference (the addressee, the speaker); the adjective picks out a stage or aspect of that person (the five-year-old you), or characterizes the person's state (an exhausted me). In subject position the whole phrase can take third-person verb agreement, as in the five-year-old you was. A coreferential reflexive can keep the pronoun's person (A Younger Me ... Myself). This dictionary marks the analysis as provisional: the category of the head and the explanation for the split agreement remain open.",
+      "summary": "For advanced classes, personal pronouns modified by an adjective, as in <i>the five-year-old you</i> or <i>an exhausted me</i>.",
+      "explain": "An attributive adjective can combine with a form otherwise used as a personal pronoun. The pronoun anchors the reference (the addressee, the speaker); the adjective picks out a stage or aspect of that person (<i>the five-year-old you</i>), or characterizes the person's state (<i>an exhausted me</i>). In subject position the whole phrase can take third-person verb agreement, as in <i>the five-year-old you was</i>. A coreferential reflexive can keep the pronoun's person (<i>A Younger Me ... Myself</i>). This dictionary marks the analysis as provisional: the category of the head and the explanation for the split agreement remain open.",
       "examples": [
         {
           "text": "[The five-year-old you] was so cute!",
@@ -163,7 +163,7 @@
         {
           "text": "The five-year-old you was so cute!",
           "from": "entry",
-          "note": "The verb is was, which contrasts with ordinary second-person you were."
+          "note": "The verb is <i>was</i>, which contrasts with ordinary second-person <i>you were</i>."
         },
         {
           "text": "Questions A Younger Me Would Ask Myself",
@@ -172,11 +172,11 @@
         }
       ],
       "watch_for": [
-        "A learner might assume the verb must agree with you as an ordinary second-person pronoun, as in you were.",
-        "A learner might take Poor old me, which this dictionary lists as a separate bare evaluative pattern, to be the same construction as the younger me.",
-        "A learner might read an exhausted me as picking out a different person, when me still identifies the speaker."
+        "A learner might assume the verb must agree with you as an ordinary second-person pronoun, as in <i>you were</i>.",
+        "A learner might take <i>Poor old me</i>, which this dictionary lists as a separate bare evaluative pattern, to be the same construction as <i>the younger me</i>.",
+        "A learner might read <i>an exhausted me</i> as picking out a different person, when <i>me</i> still identifies the speaker."
       ],
-      "activity": "Students write a sentence about themselves at an earlier age, starting with The ... me or The ... you, and one about a state (tired, nervous). Compare how the verb and any reflexive look in each, without deciding which analysis is right."
+      "activity": "Students write a sentence about themselves at an earlier age, starting with <i>The ... me</i> or <i>The ... you</i>, and one about a state (tired, nervous). Compare how the verb and any reflexive look in each, without deciding which analysis is right."
     }
   },
   "status": {
@@ -197,10 +197,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Adjectivally Modified Personal Pronoun NP.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/modified-personal-pronoun-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Adjectivally Modified Personal Pronoun NP.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/modified-personal-pronoun-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

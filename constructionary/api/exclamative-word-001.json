@@ -13,15 +13,15 @@
     "pattern": "what:Adj / how:Adv (exclamative packaging)",
     "type": "semantic",
     "dimensions": {
-      "form": "Only what and how from the indeterminate series; exclamative what is an adjective, while exclamative how is adverbial",
+      "form": "Only <i>what</i> and <i>how</i> from the indeterminate series; exclamative <i>what</i> is an adjective, while exclamative <i>how</i> is adverbial",
       "meaning": "The open variable is packaged as evaluation against a contextual norm",
       "function": "Marks exclamative clause type and, in its core role, remarkable degree or quality",
-      "distribution": "Exclamative clauses (What children they are!, How fast she ran!) and exclamative NPs"
+      "distribution": "Exclamative clauses (<i>What children they are!</i>, <i>How fast she ran!</i>) and exclamative NPs"
     },
     "meanings": {
       "1": {
         "definition": "Expresses evaluation of the variable's value against a contextual standard or expectation",
-        "details": "Membership is the tightest of the three packagings: what and how only. Exclamative how is adverbial, modifying an adjective, degree determinative, adverb, or verb. Exclamative what is an adjective functioning as external or internal modifier in NP structure; this contrasts with interrogative what, which is a determinative in determiner use but a pronoun when it heads an NP (CGEL pp. 397–98, 918–20). Exclamative uses pattern non-deitally on the deitality inventory; such (a) and so many/much pattern with them in exclamatory NPs without being indeterminates.",
+        "details": "Membership is the tightest of the three packagings: <i>what</i> and <i>how</i> only. Exclamative <i>how</i> is adverbial, modifying an adjective, degree determinative, adverb, or verb. Exclamative <i>what</i> is an adjective functioning as external or internal modifier in NP structure; this contrasts with interrogative <i>what</i>, which is a determinative in determiner use but a pronoun when it heads an NP (CGEL pp. 397–98, 918–20). Exclamative uses pattern non-deitally on the deitality inventory; <i>such (a)</i> and <i>so many/much</i> pattern with them in exclamatory NPs without being indeterminates.",
         "examples": [
           {
             "form": "[what] children",
@@ -63,12 +63,12 @@
       {
         "id": "exclamative-clause-001",
         "relationship": "interfaces-with",
-        "notes": "Exclamative what/how marks headed exclamative Clauses"
+        "notes": "Exclamative <i>what</i>/<i>how</i> marks headed exclamative Clauses"
       },
       {
         "id": "clause-analogue-001",
         "relationship": "interfaces-with",
-        "notes": "Exclamative what/how also occurs in non-headed constructions with exclamative clausal semantics"
+        "notes": "Exclamative <i>what</i>/<i>how</i> also occurs in non-headed constructions with exclamative clausal semantics"
       },
       {
         "id": "what-np-exclamative-001",
@@ -85,7 +85,7 @@
         "locator": "pp. 918-20",
         "relation": "cites",
         "bears-on": "category-assignment",
-        "note": "Exclamative what is an adjective; interrogative what a determinative"
+        "note": "Exclamative <i>what</i> is an adjective; interrogative <i>what</i> a determinative"
       },
       {
         "source": "cgel-2002",
@@ -97,7 +97,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "An independent What a mess! uses a in the singular count case, while What awful weather! does not. How odd! can supply its own exclamatory force without an overt subject. An ordinary open interrogative uses related forms in a different clause construction.",
+        "target": "An independent <i>What a mess!</i> uses <i>a</i> in the singular count case, while <i>What awful weather!</i> does not. <i>How odd!</i> can supply its own exclamatory force without an overt subject. An ordinary open interrogative uses related forms in a different clause construction.",
         "evidence": "CGEL compares exclamatives with open interrogatives and gives the phrasal uses and internal NP restrictions.",
         "confidence": "medium"
       }
@@ -105,9 +105,9 @@
   },
   "editions": {
     "curious": {
-      "title": "What and how as words of amazement",
-      "summary": "Of the question words, only what and how are used in exclamations to present something as remarkable.",
-      "body": "In What a day it's been! and How fast she ran!, the words what and how aren't asking anything. They present the day or the speed as standing out against what we'd expect. Only these two words from the family of question words are used this way.\n\nHow goes with a describing word or an action, as in how fast. What comes before a noun, as in what children or what a day. In a question, the same words do a different job in a different kind of sentence.",
+      "title": "<i>What</i> and <i>how</i> as words of amazement",
+      "summary": "Of the question words, only <i>what</i> and <i>how</i> are used in exclamations to present something as remarkable.",
+      "body": "In <i>What a day it's been!</i> and <i>How fast she ran!</i>, the words <i>what</i> and <i>how</i> aren't asking anything. They present the day or the speed as standing out against what we'd expect. Only these two words from the family of question words are used this way.\n\n<i>How</i> goes with a describing word or an action, as in <i>how fast</i>. <i>What</i> comes before a noun, as in <i>what children</i> or <i>what a day</i>. In a question, the same words do a different job in a different kind of sentence.",
       "examples": [
         {
           "text": "[what] children",
@@ -126,12 +126,12 @@
           "from": "constructed"
         }
       ],
-      "try": "Compare How fast she ran! with How fast did she run? What is the speaker doing in each?"
+      "try": "Compare <i>How fast she ran!</i> with <i>How fast did she run?</i> <i>What</i> is the speaker doing in each?"
     },
     "teacher": {
-      "summary": "For advanced classes: exclamative what and how, and how exclamative what differs in word class from question what.",
-      "explain": "Exclamative use is the tightest packaging of the indeterminate series: only what and how, and the open variable is evaluated against a contextual norm. Exclamative what is an adjective functioning as an external or internal modifier in NP structure (what children, what a day). Exclamative how is adverbial and modifies an adjective, degree determinative, adverb or verb. Interrogative what is different: a determinative in determiner use and a pronoun when it heads an NP. In a singular count case, an independent What a mess! uses a, while What awful weather! does not. Such (a) and so many/much pattern with exclamative what in exclamatory NPs without belonging to the series.",
-      "terms": "Indeterminate series is this grammar's name for the what/who/how family, sometimes called wh-words.",
+      "summary": "For advanced classes: exclamative <i>what</i> and <i>how</i>, and how exclamative <i>what</i> differs in word class from question <i>what</i>.",
+      "explain": "Exclamative use is the tightest packaging of the indeterminate series: only <i>what</i> and <i>how</i>, and the open variable is evaluated against a contextual norm. Exclamative <i>what</i> is an adjective functioning as an external or internal modifier in NP structure (<i>what children</i>, <i>what a day</i>). Exclamative <i>how</i> is adverbial and modifies an adjective, degree determinative, adverb or verb. Interrogative <i>what</i> is different: a determinative in determiner use and a pronoun when it heads an NP. In a singular count case, an independent <i>What a mess!</i> uses <i>a</i>, while <i>What awful weather!</i> does not. <i>Such (a)</i> and <i>so many/much</i> pattern with exclamative <i>what</i> in exclamatory NPs without belonging to the series.",
+      "terms": "Indeterminate series is this grammar's name for the <i>what</i>/<i>who</i>/<i>how</i> family, sometimes called wh-words.",
       "examples": [
         {
           "text": "[what] children",
@@ -150,19 +150,19 @@
         {
           "text": "What a lovely day it is!",
           "from": "constructed",
-          "note": "Exclamative what, an adjective in modifier function within the noun phrase."
+          "note": "Exclamative <i>what</i>, an adjective in modifier function within the noun phrase."
         },
         {
           "text": "What do you want?",
           "from": "constructed",
-          "note": "Interrogative what, here a pronoun heading an NP."
+          "note": "Interrogative <i>what</i>, here a pronoun heading an NP."
         }
       ],
       "watch_for": [
-        "A learner might give what the same word class in What a day it's been! and What do you want?",
-        "A learner might treat how in How fast she ran! as a question word asking for a speed."
+        "A learner might give what the same word class in <i>What a day it's been!</i> and <i>What do you want?</i>",
+        "A learner might treat <i>how</i> in <i>How fast she ran!</i> as a question word asking for a speed."
       ],
-      "activity": "Students list five things that surprise them and write each as a what or how exclamation. They then underline what or how and say what it modifies."
+      "activity": "Students list five things that surprise them and write each as a <i>what</i> or <i>how</i> exclamation. They then underline <i>what</i> or <i>how</i> and say what it modifies."
     }
   },
   "status": {
@@ -184,10 +184,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Exclamative Use of Indeterminates.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/exclamative-word-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Exclamative Use of Indeterminates.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/exclamative-word-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

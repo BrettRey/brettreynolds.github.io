@@ -4,7 +4,7 @@
 - pattern: Nom[Mod:XP Head:N]
 - status: analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/nom-premod-000/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
@@ -23,14 +23,14 @@ Modification of nominal head through pre-head constituent
 
 ### Curious reader: Words that come before the noun
 
-A modifier can come before the head noun, as in old book or dog breeder.
+A modifier can come before the head noun, as in *old book* or *dog breeder*.
 
-In old book, the word old comes before the noun book and modifies it. In dog breeder, the noun dog comes before breeder and modifies it. Both are examples of a pre-head modifier: something placed before the head noun in the nominal.
+In *old book*, the word *old* comes before the noun *book* and modifies it. In *dog breeder*, the noun *dog* comes before *breeder* and modifies it. Both are examples of a pre-head modifier: something placed before the head noun in the nominal.
 
-This dictionary describes two kinds in these examples. In old book the modifier is an adjective. In dog breeder it is a noun. Each modifier is part of a nominal whose head is the noun after it.
+This dictionary describes two kinds in these examples. In *old book* the modifier is an adjective. In *dog breeder* it is a noun. Each modifier is part of a nominal whose head is the noun after it.
 
 ### Teacher
 
 The general pattern behind adjective-before-noun and noun-before-noun combinations.
 
-A nominal can contain a pre-head modifier: a constituent placed before the head noun. This dictionary's two examples show two types: an adjectival modifier (old book) and a nominal modifier (dog breeder). This dictionary treats this as the general pattern, and the adjective and nominal versions as more specific types. This dictionary gives only a definition and two examples for this pattern, so teach it as an umbrella over the two specific patterns.
+A nominal can contain a pre-head modifier: a constituent placed before the head noun. This dictionary's two examples show two types: an adjectival modifier (*old book*) and a nominal modifier (*dog breeder*). This dictionary treats this as the general pattern, and the adjective and nominal versions as more specific types. This dictionary gives only a definition and two examples for this pattern, so teach it as an umbrella over the two specific patterns.

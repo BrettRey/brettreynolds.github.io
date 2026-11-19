@@ -4,7 +4,7 @@
 - pattern: Clause[preterite of a request-related predicate + complement]
 - status: provisional analysis; evidence level: unassessed; early sketch (one example, evidence not yet written up)
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/preterite-politeness-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
@@ -14,7 +14,7 @@ Softens a present request by presenting it as an already entertained thought or 
 
 ## Related constructions
 
-- Compare: Past Tense -ed (`past-tense-ed-001`)
+- Compare: Past Tense *-ed* (`past-tense-ed-001`)
 - Compare: Backshift in Reported Content (`present-backshift-001`)
 
 ## Sources
@@ -31,7 +31,7 @@ The request can be made at the time of speaking. The morphology also has a liter
 
 A past-tense verb can soften a request being made right now.
 
-In I wanted to ask if a seat was available, the person is asking now. The past tense wanted presents the request as a thought or intention they've already had, which softens it.
+In *I wanted to ask if a seat was available*, the person is asking now. The past tense *wanted* presents the request as a thought or intention they've already had, which softens it.
 
 The same form can also have a literal past meaning, if the situation supplies a past intention. This dictionary marks the account as provisional.
 
@@ -39,4 +39,4 @@ The same form can also have a literal past meaning, if the situation supplies a 
 
 Explains why a past-tense verb can make a present request more polite.
 
-The preterite of a request-related predicate plus a complement can soften a present request by presenting it as an already entertained thought or intention. In I wanted to ask if a seat was available, the request is made at the time of speaking. The same morphology can also be literally past, in a context that supplies a past intention. This dictionary marks the analysis provisional, so present it as a description of this example, and point out that tense can express more than time.
+The preterite of a request-related predicate plus a complement can soften a present request by presenting it as an already entertained thought or intention. In *I wanted to ask if a seat was available*, the request is made at the time of speaking. The same morphology can also be literally past, in a context that supplies a past intention. This dictionary marks the analysis provisional, so present it as a description of this example, and point out that tense can express more than time.

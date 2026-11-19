@@ -4,13 +4,13 @@
 - pattern: Non-headed constituent[clause-like interpretation; no Head:VP]
 - status: provisional analysis; evidence level: stable
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/clause-analogue-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
 Conveys clause-like semantic or discourse content through a non-headed construction that is not a Clause
 
-This node houses the constructions that CGEL calls verbless clauses while rejecting their assignment to the Clause category. Some have an overt subject-like expression plus a predicative expression (their hands above their heads; Dinner over); others consist overtly of a single NP, AdjP, PP, or predicative phrase whose subject or copular relation is recovered from the licensing construction or discourse (What a disaster!; No entry). The overt daughter phrases retain their own internal Heads, but none is Head of the higher clausal-semantics construction. Recovering an implicit predication or speech act in interpretation does not posit a silent VP in syntax.
+This node houses the constructions that CGEL calls verbless clauses while rejecting their assignment to the Clause category. Some have an overt subject-like expression plus a predicative expression (*their hands above their heads*; *Dinner over*); others consist overtly of a single NP, AdjP, PP, or predicative phrase whose subject or copular relation is recovered from the licensing construction or discourse (*What a disaster!*; *No entry*). The overt daughter phrases retain their own internal Heads, but none is Head of the higher clausal-semantics construction. Recovering an implicit predication or speech act in interpretation does not posit a silent VP in syntax.
 
 - *They stood with [their hands above their heads].*: Subject-like NP plus locative predicative, licensed as complement of with
 - *[Dinner over], they resumed their game.*: Supplement with subject-like NP and predicative expression
@@ -36,14 +36,14 @@ This node houses the constructions that CGEL calls verbless clauses while reject
 - Can be how this appears: Exclamation (`exclamation-001`)
 - See also: Exclamative Clause (`exclamative-clause-001`)
 - Interacts with: Exclamative Use of Indeterminates (`exclamative-word-001`)
-- Compare: Phrasal Exclamation with How (`how-adjective-exclamative-001`)
+- Compare: Phrasal Exclamation with *how* (`how-adjective-exclamative-001`)
 - See also: Imperative Clause (`imperative-clause-001`)
 - Interacts with: Interrogative Use of Indeterminates (`interrogative-word-001`)
 - See also: Open Interrogative Clause (`open-interrogative-clause-001`)
 - Kinds of this: Paired-NP Introduction (`paired-np-introduction-001`)
 - Interacts with: Question (`question-001`)
 - See also: Tag Question (`tag-question-001`)
-- Compare: Phrasal Exclamation with What (`what-np-exclamative-001`)
+- Compare: Phrasal Exclamation with *what* (`what-np-exclamative-001`)
 
 ## Sources
 
@@ -61,12 +61,12 @@ Recognizing the clause-analogue construction predicts recovery of an implicit pr
 
 Some short phrases carry the meaning of a whole statement even though they contain no verb.
 
-A notice reading No entry means something like "you may not enter." What a disaster! means something like "that's a disaster." Neither has a verb, yet we understand a full message. Dinner over, they resumed their game works the same way: it tells us the dinner was over.
+A notice reading *No entry* means something like "you may not enter." *What a disaster!* means something like "that's a disaster." Neither has a verb, yet we understand a full message. *Dinner over, they resumed their game* works the same way: it tells us the dinner was over.
 
 This dictionary groups such phrases together. They get their clause-like meaning from the pattern they belong to and from the situation, not from a hidden verb. A clause here means a stretch of language built around a verb phrase, and these phrases aren't built that way. They also work only in particular frames, so an arbitrary scrap of words doesn't count.
 
 ### Teacher
 
-For advanced classes, verbless but clause-like utterances such as No entry and Dinner over.
+For advanced classes, verbless but clause-like utterances such as *No entry* and *Dinner over*.
 
-This dictionary groups together non-headed constructions with a clause-like interpretation but no VP in head function. CGEL calls these verbless clauses; this dictionary rejects that label, reserving Clause for structures with a VP head. Some have a subject-like expression plus a predicative expression (their hands above their heads; Dinner over). Others are a single NP, AdjP or PP whose subject or copular relation is recovered from the frame or the discourse (What a disaster!; No entry). This dictionary doesn't posit a silent verb: the implicit predication or speech act is recovered in interpretation, not supplied by an unpronounced VP. Membership is construction-specific, so an arbitrary non-verbal fragment isn't automatically included.
+This dictionary groups together non-headed constructions with a clause-like interpretation but no VP in head function. CGEL calls these verbless clauses; this dictionary rejects that label, reserving Clause for structures with a VP head. Some have a subject-like expression plus a predicative expression (*their hands above their heads*; *Dinner over*). Others are a single NP, AdjP or PP whose subject or copular relation is recovered from the frame or the discourse (*What a disaster!*; *No entry*). This dictionary doesn't posit a silent verb: the implicit predication or speech act is recovered in interpretation, not supplied by an unpronounced VP. Membership is construction-specific, so an arbitrary non-verbal fragment isn't automatically included.

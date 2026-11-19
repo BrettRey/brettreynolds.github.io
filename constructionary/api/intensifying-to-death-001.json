@@ -1,6 +1,6 @@
 {
   "id": "intensifying-to-death-001",
-  "name": "Intensifying To Death",
+  "name": "Intensifying <i>to death</i>",
   "pattern": "VP[Head:V + (Od:NP) + to death]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/intensifying-to-death-001/",
@@ -9,13 +9,13 @@
   },
   "entry": {
     "id": "intensifying-to-death-001",
-    "name": "Intensifying To Death",
+    "name": "Intensifying <i>to death</i>",
     "pattern": "VP[Head:V + (Od:NP) + to death]",
     "type": "mixed",
     "meanings": {
       "1": {
         "definition": "Intensifies an action or the experience it causes.",
-        "details": "In the dog scared me to death, to death conventionally expresses extreme fright. With a killing verb or an appropriate context, the same phrase instead identifies a literal result. A literal outcome and an intensified experience can thus differ without a change in surface order.",
+        "details": "In <i>the dog scared me to death</i>, <i>to death</i> conventionally expresses extreme fright. With a killing verb or an appropriate context, the same phrase instead identifies a literal result. A literal outcome and an intensified experience can thus differ without a change in surface order.",
         "examples": [
           {
             "form": "The alarm [scared me to death], but everyone was fine.",
@@ -61,8 +61,8 @@
   "editions": {
     "curious": {
       "title": "Scared to death, but fine",
-      "summary": "The words to death after a verb can mean extreme feeling, as in scared me to death, or a literal fatal outcome, depending on the verb and the context.",
-      "body": "In The alarm scared me to death, but everyone was fine, to death expresses extreme fright. Nobody died. The continuation about everyone being fine fits that reading.\n\nWith a killing verb, the same words identify a literal result, as in The fox bit the hare to death. The word order is the same in both. A later report of survival fits the extreme-feeling reading and contradicts the literal one.",
+      "summary": "The words <i>to death</i> after a verb can mean extreme feeling, as in <i>scared me to death</i>, or a literal fatal outcome, depending on the verb and the context.",
+      "body": "In <i>The alarm scared me to death, but everyone was fine</i>, <i>to death</i> expresses extreme fright. Nobody died. The continuation about everyone being fine fits that reading.\n\nWith a killing verb, the same words identify a literal result, as in <i>The fox bit the hare to death</i>. The word order is the same in both. A later report of survival fits the extreme-feeling reading and contradicts the literal one.",
       "examples": [
         {
           "text": "The alarm [scared me to death], but everyone was fine.",
@@ -73,11 +73,11 @@
           "from": "entry"
         }
       ],
-      "try": "Add but I'm fine to the end of The dog scared me to death. Does it still make sense? Now compare The fox bit the hare to death. What does that sentence say happened to the hare?"
+      "try": "Add <i>but I'm fine</i> to the end of <i>The dog scared me to death</i>. Does it still make sense? Now compare <i>The fox bit the hare to death</i>. What does that sentence say happened to the hare?"
     },
     "teacher": {
-      "summary": "Distinguishes figurative to death as an intensifier from literal to death as a fatal result.",
-      "explain": "The pattern is a verb, optionally an object, and to death. It intensifies an action or the experience it causes. In The dog scared me to death, to death conventionally expresses extreme fright. With a killing verb or an appropriate context, the same phrase identifies a literal result, as in The fox bit the hare to death. The two readings can differ without any change in surface order. A later report of survival is compatible with the emotional intensity reading and contradicts the literal outcome reading, which makes a useful classroom test. This dictionary relates the literal use to object resultatives and the figurative use to degree, and marks itself provisional.",
+      "summary": "Distinguishes figurative <i>to death</i> as an intensifier from literal <i>to death</i> as a fatal result.",
+      "explain": "The pattern is a verb, optionally an object, and <i>to death</i>. It intensifies an action or the experience it causes. In <i>The dog scared me to death</i>, <i>to death</i> conventionally expresses extreme fright. With a killing verb or an appropriate context, the same phrase identifies a literal result, as in <i>The fox bit the hare to death</i>. The two readings can differ without any change in surface order. A later report of survival is compatible with the emotional intensity reading and contradicts the literal outcome reading, which makes a useful classroom test. This dictionary relates the literal use to object resultatives and the figurative use to degree, and marks itself provisional.",
       "terms": "The figurative use is sometimes described as an intensifier. The literal use is related to the object resultative construction, which presents death as an achieved result.",
       "examples": [
         {
@@ -102,10 +102,10 @@
         }
       ],
       "watch_for": [
-        "A learner might read scared me to death as reporting that someone died.",
+        "A learner might read <i>scared me to death</i> as reporting that someone died.",
         "A learner might assume the figurative and literal uses differ in word order."
       ],
-      "activity": "Students sort sentences ending in to death into extreme feeling and literal outcome. They test each by adding a later report that the one said to have died was fine, and checking whether it fits."
+      "activity": "Students sort sentences ending in <i>to death</i> into extreme feeling and literal outcome. They test each by adding a later report that the one said to have died was fine, and checking whether it fits."
     }
   },
   "status": {
@@ -127,10 +127,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Intensifying To Death.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/intensifying-to-death-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Intensifying <i>to death</i>.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/intensifying-to-death-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

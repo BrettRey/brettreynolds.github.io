@@ -52,7 +52,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Solid describes the outcome of freezing, whereas a depictive predicate ordinarily holds during the event. No separate object licenses solid in this use.",
+        "target": "<i>Solid</i> describes the outcome of freezing, whereas a depictive predicate ordinarily holds during the event. No separate object licenses <i>solid</i> in this use.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -61,8 +61,8 @@
   "editions": {
     "curious": {
       "title": "Saying how the subject ends up",
-      "summary": "A word after the verb can tell you what state the subject reaches, as in froze solid.",
-      "body": "In The basin froze solid, the word solid says what state the basin ended up in. It describes the outcome of the freezing, and no other object is needed to make it work.\n\nThat makes it different from a word that describes how someone was while an action happened. This dictionary notes that this second kind ordinarily holds during the event, while the result word marks where the event ends up.\n\nThis dictionary marks the analysis as provisional and rests on one illustration.",
+      "summary": "A word after the verb can tell you what state the subject reaches, as in <i>froze solid</i>.",
+      "body": "In <i>The basin froze solid</i>, the word <i>solid</i> says what state the basin ended up in. It describes the outcome of the freezing, and no other object is needed to make it work.\n\nThat makes it different from a word that describes how someone was while an action happened. This dictionary notes that this second kind ordinarily holds during the event, while the result word marks where the event ends up.\n\nThis dictionary marks the analysis as provisional and rests on one illustration.",
       "examples": [
         {
           "text": "The basin [froze solid].",
@@ -73,11 +73,11 @@
           "from": "constructed"
         }
       ],
-      "try": "Take the basin froze and add a word that says what it became. What happens to the meaning?"
+      "try": "Take <i>the basin froze</i> and add a word that says what it became. What happens to the meaning?"
     },
     "teacher": {
       "summary": "Helps students distinguish a result state that the subject reaches from a description that holds during the action.",
-      "explain": "The pattern is a verb followed by a predicative complement that specifies the state the subject reaches. In The basin froze solid, solid describes the outcome of freezing. A depictive predicate, by contrast, ordinarily holds during the event, as in Jo arrived hungry. No separate object licenses solid here. This dictionary marks the analysis provisional, rests on one constructed example, and names a related object-oriented resultative as a separate entry.",
+      "explain": "The pattern is a verb followed by a predicative complement that specifies the state the subject reaches. In <i>The basin froze solid</i>, <i>solid</i> describes the outcome of freezing. A depictive predicate, by contrast, ordinarily holds during the event, as in <i>Jo arrived hungry</i>. No separate object licenses <i>solid</i> here. This dictionary marks the analysis provisional, rests on one constructed example, and names a related object-oriented resultative as a separate entry.",
       "terms": "Resultative is the usual textbook term. Depictive is the usual term for the description that holds during the event.",
       "examples": [
         {
@@ -89,23 +89,23 @@
         {
           "text": "The basin froze solid.",
           "from": "entry",
-          "note": "Solid is the outcome of the freezing; resultative."
+          "note": "<i>Solid</i> is the outcome of the freezing; resultative."
         },
         {
           "text": "Jo arrived hungry.",
           "from": "constructed",
-          "note": "Hungry describes Jo during the arriving; depictive."
+          "note": "<i>Hungry</i> describes Jo during the arriving; depictive."
         }
       ],
       "watch_for": [
-        "A learner might read solid as a description that holds during the freezing, when it names the outcome.",
-        "A learner might look for an object after froze, when the complement is predicated of the subject."
+        "A learner might read <i>solid</i> as a description that holds during the freezing, when it names the outcome.",
+        "A learner might look for an object after <i>froze</i>, when the complement is predicated of the subject."
       ],
-      "activity": "Give students verbs such as freeze, melt and dry. They add a word that says the end state, then check that it describes the subject at the end of the event, not during it."
+      "activity": "Give students verbs such as <i>freeze</i>, <i>melt</i> and <i>dry</i>. They add a word that says the end state, then check that it describes the subject at the end of the event, not during it."
     },
     "child": {
       "hook": "What word tells you how the water ended up after it froze?",
-      "explain": "Some words after a verb tell how something ended up. The pond froze solid. Solid is how the pond ended up after it froze.",
+      "explain": "Some words after a verb tell how something ended up. <i>The pond froze solid</i>. <i>Solid</i> is how the pond ended up after it froze.",
       "examples": [
         {
           "text": "The basin [froze solid].",
@@ -116,7 +116,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Pick a verb such as froze or melted. Add a word that says how the thing ended up. Read your sentence to a friend and see if they can say how it ended."
+      "play": "Pick a verb such as <i>froze</i> or <i>melted</i>. Add a word that says how the thing ended up. Read your sentence to a friend and see if they can say how it ended."
     }
   },
   "status": {
@@ -137,10 +137,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Subject-Oriented Resultative.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/subject-resultative-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Subject-Oriented Resultative.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/subject-resultative-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

@@ -16,7 +16,7 @@
     "meanings": {
       "1": {
         "definition": "Addresses the hearer directly, identifying them as the intended recipient",
-        "details": "Forms its own intonation phrase, typically with fall-rise or level contour; summons use may have high sustained \"calling\" contour. Not syntactically integrated as a clause argument. NP is either bare or determined by 1st/2nd person forms only (genitive my/our/your, or determinative you).",
+        "details": "Forms its own intonation phrase, typically with fall-rise or level contour; summons use may have high sustained \"calling\" contour. Not syntactically integrated as a clause argument. NP is either bare or determined by 1st/2nd person forms only (genitive <i>my</i>/<i>our</i>/<i>your</i>, or determinative <i>you</i>).",
         "examples": [
           {
             "form": "[Mom], can you help me?",
@@ -56,7 +56,7 @@
     "constraints": [
       {
         "type": "syntactic",
-        "description": "NP is bare or determined only by 1st/2nd person forms (my, our, your, you); 3rd-person and non-deictic determiners excluded"
+        "description": "NP is bare or determined only by 1st/2nd person forms (<i>my</i>, <i>our</i>, <i>your</i>, <i>you</i>); 3rd-person and non-deictic determiners excluded"
       },
       {
         "type": "pragmatic",
@@ -113,7 +113,7 @@
     ],
     "kind": {
       "projection": {
-        "target": "An overt imperative subject and a vocative can co-occur, as in Lee, you take the first shift. Moving Lee to the end can preserve the address reading while you continues to supply the subject. The name in the vocative is therefore not the only potential subject expression.",
+        "target": "An overt imperative subject and a vocative can co-occur, as in <i>Lee, you take the first shift</i>. Moving <i>Lee</i> to the end can preserve the address reading while <i>you</i> continues to supply the subject. The name in the vocative is therefore not the only potential subject expression.",
         "evidence": "CGEL contrasts vocatives and subjects in imperative clauses. The constructed position and co-occurrence test illustrates the proposed distribution without relying on corpus frequencies or kin-term acquisition claims.",
         "confidence": "medium"
       },
@@ -198,7 +198,7 @@
     "curious": {
       "title": "Calling someone by name",
       "summary": "A name or title said directly to the person you're speaking to, set apart from the rest of the sentence.",
-      "body": "In Mom, can you help me?, the word Mom isn't part of what is being asked. It addresses the hearer directly and picks them out as the person meant. This is a vocative.\n\nIt sits in its own stretch of speech, with its own tone, such as a fall-rise, a level tone, or a high held calling tone when summoning someone. It can come at the start, the middle or the end: I think, Brett, you're wrong. The noun phrase is either bare, as in Mom or Ladies and gentlemen, or begins with my, our, your or you, as in My friend, let me explain. A drawn-out, high Moooom! is the calling version.\n\nThis dictionary marks this account as provisional.",
+      "body": "In <i>Mom, can you help me?</i>, the word <i>Mom</i> isn't part of what is being asked. It addresses the hearer directly and picks them out as the person meant. This is a vocative.\n\nIt sits in its own stretch of speech, with its own tone, such as a fall-rise, a level tone, or a high held calling tone when summoning someone. It can come at the start, the middle or the end: <i>I think, Brett, you're wrong</i>. The noun phrase is either bare, as in <i>Mom</i> or <i>Ladies and gentlemen</i>, or begins with <i>my</i>, <i>our</i>, <i>your</i> or <i>you</i>, as in <i>My friend, let me explain</i>. A drawn-out, high <i>Moooom!</i> is the calling version.\n\nThis dictionary marks this account as provisional.",
       "examples": [
         {
           "text": "[Mom], can you help me?",
@@ -221,8 +221,8 @@
     },
     "teacher": {
       "summary": "Helps explain direct address, its separate intonation and the determiners it allows.",
-      "explain": "A vocative addresses the hearer directly. It forms its own intonation phrase, with a fall-rise or level contour, or a high sustained calling contour for a summons. It is not selected by the verb and is not syntactically integrated as a clause argument. The noun phrase is either bare or determined only by first- and second-person forms (the genitives my, our, your, or the determinative you). It can occur clause-initially, clause-medially or clause-finally, and it needs an addressee, real or imagined. In an imperative, an overt subject and a vocative can co-occur, as in Lee, you take the first shift. This dictionary marks its analysis provisional.",
-      "terms": "Genitive is used here for my, our and your, rather than possessive.",
+      "explain": "A vocative addresses the hearer directly. It forms its own intonation phrase, with a fall-rise or level contour, or a high sustained calling contour for a summons. It is not selected by the verb and is not syntactically integrated as a clause argument. The noun phrase is either bare or determined only by first- and second-person forms (the genitives <i>my</i>, <i>our</i>, <i>your</i>, or the determinative <i>you</i>). It can occur clause-initially, clause-medially or clause-finally, and it needs an addressee, real or imagined. In an imperative, an overt subject and a vocative can co-occur, as in <i>Lee, you take the first shift</i>. This dictionary marks its analysis provisional.",
+      "terms": "Genitive is used here for <i>my</i>, <i>our</i> and <i>your</i>, rather than possessive.",
       "examples": [
         {
           "text": "[Mom], can you help me?",
@@ -249,7 +249,7 @@
         {
           "text": "Lee, you take the first shift.",
           "from": "entry",
-          "note": "Vocative Lee, with you as the subject."
+          "note": "Vocative <i>Lee</i>, with <i>you</i> as the subject."
         }
       ],
       "watch_for": [
@@ -260,7 +260,7 @@
     },
     "child": {
       "hook": "When you call someone's name, what happens to your voice?",
-      "explain": "When we speak straight to someone, we can say their name. Mom, can you help me? The name stands apart from the rest of the sentence.",
+      "explain": "When we speak straight to someone, we can say their name. <i>Mom, can you help me?</i> The name stands apart from the rest of the sentence.",
       "examples": [
         {
           "text": "[Mom], can you help me?",
@@ -293,10 +293,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Vocative Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/vocative-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Vocative Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/vocative-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

@@ -53,20 +53,20 @@
   },
   "editions": {
     "curious": {
-      "title": "Being plus -ing for plans",
-      "summary": "A be plus -ing verb with a future time can describe something already planned.",
-      "body": "In We're meeting Jo on Tuesday, the verb form is the same one used for things happening right now, but the words on Tuesday point to the future. The sentence presents the meeting as already arranged, planned or settled.\n\nAn explicit future time selects that reading. For an ordinary natural event like sunset, this dictionary says the plain present is often preferred. This dictionary marks the account as provisional.",
+      "title": "<i>Being</i> plus <i>-ing</i> for plans",
+      "summary": "A <i>be</i> plus <i>-ing</i> verb with a future time can describe something already planned.",
+      "body": "In <i>We're meeting Jo on Tuesday</i>, the verb form is the same one used for things happening right now, but the words <i>on Tuesday</i> point to the future. The sentence presents the meeting as already arranged, planned or settled.\n\nAn explicit future time selects that reading. For an ordinary natural event like sunset, this dictionary says the plain present is often preferred. This dictionary marks the account as provisional.",
       "examples": [
         {
           "text": "[We’re meeting Jo on Tuesday].",
           "from": "entry"
         }
       ],
-      "try": "Think of something you've already planned for next week. Can you say it with am, is or are plus an -ing verb and a day?"
+      "try": "Think of something you've already planned for next week. Can you say it with <i>am</i>, <i>is</i> or <i>are</i> plus an <i>-ing</i> verb and a day?"
     },
     "teacher": {
-      "summary": "Explains the be plus -ing form with a future time word for arranged events.",
-      "explain": "A progressive clause with an explicit future anchor can present a future event as already arranged, planned or settled in the relevant circumstances: We're meeting Jo on Tuesday. The future anchor selects the arrangement interpretation. With an ordinary predicted natural event, such as the time of sunset, this dictionary says the plain present is often preferred. The analysis is provisional, with one constructed example.",
+      "summary": "Explains the <i>be</i> plus <i>-ing</i> form with a future time word for arranged events.",
+      "explain": "A progressive clause with an explicit future anchor can present a future event as already arranged, planned or settled in the relevant circumstances: <i>We're meeting Jo on Tuesday</i>. The future anchor selects the arrangement interpretation. With an ordinary predicted natural event, such as the time of sunset, this dictionary says the plain present is often preferred. The analysis is provisional, with one constructed example.",
       "terms": "Sometimes called 'present progressive for future'; this dictionary calls it the progressive futurate.",
       "examples": [
         {
@@ -82,10 +82,10 @@
         }
       ],
       "watch_for": [
-        "A learner might read We're meeting Jo as describing a meeting in progress.",
+        "A learner might read <i>We're meeting Jo</i> as describing a meeting in progress.",
         "A learner might use the progressive for a future event that has no arrangement behind it."
       ],
-      "activity": "Students write a plan for the week in be plus -ing sentences with a day each, then trade with a partner who says what has already been arranged."
+      "activity": "Students write a plan for the week in <i>be</i> plus <i>-ing</i> sentences with a day each, then trade with a partner who says what has already been arranged."
     }
   },
   "status": {
@@ -106,10 +106,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Progressive Futurate.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/progressive-futurate-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Progressive Futurate.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/progressive-futurate-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

@@ -20,7 +20,7 @@
         "examples": [
           {
             "form": "John arrived. [He] looked tired.",
-            "note": "'He' refers back to 'John'."
+            "note": "'<i>He</i>' refers back to '<i>John</i>'."
           }
         ]
       },
@@ -30,7 +30,7 @@
         "examples": [
           {
             "form": "Before [he] entered the room, John switched off his phone.",
-            "note": "'He' refers forward to 'John' in this reading."
+            "note": "'<i>He</i>' refers forward to '<i>John</i>' in this reading."
           }
         ]
       },
@@ -40,7 +40,7 @@
         "examples": [
           {
             "form": "[He]'s late again.",
-            "note": "Said about someone not present, referring to a shared understanding of who 'he' is."
+            "note": "Said about someone not present, referring to a shared understanding of who '<i>he</i>' is."
           }
         ]
       },
@@ -50,21 +50,21 @@
         "examples": [
           {
             "form": "Every student thinks [they] are smart.",
-            "note": "'they' refers to each student, and its referent varies with each student."
+            "note": "'<i>they</i>' refers to each student, and its referent varies with each student."
           }
         ]
       },
       "5": {
         "definition": "Dummy pronoun - has no referential meaning, serves a grammatical function",
-        "details": "Dummy it and there occupy grammatical positions without identifying entities.",
+        "details": "Dummy <i>it</i> and <i>there</i> occupy grammatical positions without identifying entities.",
         "examples": [
           {
             "form": "[It] is raining.",
-            "note": "'It' does not refer to anything; it's a grammatical placeholder."
+            "note": "'<i>It</i>' does not refer to anything; it's a grammatical placeholder."
           },
           {
             "form": "[There] is a problem.",
-            "note": "'There' does not refer to a place; it introduces the existence of something."
+            "note": "'<i>There</i>' does not refer to a place; it introduces the existence of something."
           }
         ]
       }
@@ -84,7 +84,7 @@
       {
         "id": "fused-determiner-head-001",
         "relationship": "see-also",
-        "notes": "Traditional 'indefinite pronouns' (everybody, something, nobody) are compound determinatives in fused determiner-head function, not pronouns"
+        "notes": "Traditional 'indefinite pronouns' (<i>everybody</i>, <i>something</i>, <i>nobody</i>) are compound determinatives in fused determiner-head function, not pronouns"
       },
       {
         "id": "interrogative-word-001",
@@ -119,7 +119,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "They and them can pick up a prior referent but change realization with subject versus object function. Dummy it can fill a subject slot with no antecedent, so antecedence is neither necessary for pronominal NP status nor sufficient to pick its case.",
+        "target": "<i>They</i> and <i>them</i> can pick up a prior referent but change realization with subject versus object function. Dummy <i>it</i> can fill a subject slot with no antecedent, so antecedence is neither necessary for pronominal NP status nor sufficient to pick its case.",
         "evidence": "CGEL separates pronominal form and syntax from anaphoric, deictic and dummy uses.",
         "confidence": "medium"
       }
@@ -128,8 +128,8 @@
   "editions": {
     "curious": {
       "title": "Words that stand in for a noun phrase",
-      "summary": "A pronoun like he, they or it can take the place of a whole noun phrase and still work as the subject or object.",
-      "body": "In John arrived. He looked tired, the word he points back to John. In Before he entered the room, John switched off his phone, he can point forward to John. Said about someone who isn't there, He's late again points to a person the speakers both know about.\n\nSome uses point to a different person for each case: in Every student thinks they are smart, they follows each student. And in It is raining, the word it doesn't point to anything. It just fills the spot a subject normally fills.",
+      "summary": "A pronoun like <i>he</i>, <i>they</i> or <i>it</i> can take the place of a whole noun phrase and still work as the subject or object.",
+      "body": "In <i>John arrived. He looked tired</i>, the word <i>he</i> points back to John. In <i>Before he entered the room, John switched off his phone</i>, <i>he</i> can point forward to John. Said about someone who isn't there, <i>He's late again</i> points to a person the speakers both know about.\n\nSome uses point to a different person for each case: in <i>Every student thinks they are smart</i>, <i>they</i> follows each student. And in <i>It is raining</i>, the word <i>it</i> doesn't point to anything. It just fills the spot a subject normally fills.",
       "examples": [
         {
           "text": "John arrived. [He] looked tired.",
@@ -148,12 +148,12 @@
           "from": "entry"
         }
       ],
-      "try": "Find a sentence with it and ask whether the word it points to anything. What does it stand for in It is raining?"
+      "try": "Find a sentence with <i>it</i> and ask whether the word <i>it</i> points to anything. What does <i>it</i> stand for in <i>It is raining</i>?"
     },
     "teacher": {
       "summary": "Covers the different ways a pronoun NP finds its meaning, from earlier and later mentions to the situation and dummy uses.",
-      "explain": "A pronominal NP consists of a pronoun as head. The dictionary distinguishes anaphoric uses (He looked tired, pointing back to John), cataphoric uses (Before he entered the room, John switched off his phone), exophoric uses (He's late again, with the referent supplied by the situation), bound variable uses (Every student thinks they are smart) and dummy uses (It is raining; There is a problem), where the pronoun doesn't identify an entity. Having an antecedent is neither necessary for pronominal NP status nor sufficient to pick its case: they and them can pick up a prior referent but change form with subject versus object function. In this grammar, everybody, something and nobody are compound determinatives, not pronouns. The dictionary marks this account as provisional.",
-      "terms": "Anaphora, cataphora and exophora are the usual names for pointing back, forward and out to the situation. Dummy it is sometimes called expletive it. Indefinite pronouns is the traditional name for everybody, something and nobody, which this grammar treats differently.",
+      "explain": "A pronominal NP consists of a pronoun as head. The dictionary distinguishes anaphoric uses (<i>He looked tired</i>, pointing back to John), cataphoric uses (<i>Before he entered the room, John switched off his phone</i>), exophoric uses (<i>He's late again</i>, with the referent supplied by the situation), bound variable uses (<i>Every student thinks they are smart</i>) and dummy uses (<i>It is raining</i>; <i>There is a problem</i>), where the pronoun doesn't identify an entity. Having an antecedent is neither necessary for pronominal NP status nor sufficient to pick its case: <i>they</i> and <i>them</i> can pick up a prior referent but change form with subject versus object function. In this grammar, <i>everybody</i>, <i>something</i> and <i>nobody</i> are compound determinatives, not pronouns. The dictionary marks this account as provisional.",
+      "terms": "Anaphora, cataphora and exophora are the usual names for pointing back, forward and out to the situation. Dummy <i>it</i> is sometimes called expletive <i>it</i>. Indefinite pronouns is the traditional name for <i>everybody</i>, <i>something</i> and <i>nobody</i>, which this grammar treats differently.",
       "examples": [
         {
           "text": "John arrived. [He] looked tired.",
@@ -181,14 +181,14 @@
         }
       ],
       "watch_for": [
-        "A learner might assume every it points to a thing, including the it in It is raining.",
+        "A learner might assume every <i>it</i> points to a thing, including the <i>it</i> in <i>It is raining</i>.",
         "A learner might think a pronoun has to follow the noun phrase it points to, when it can point forward."
       ],
       "activity": "Give students short texts with highlighted pronouns. They draw an arrow to what each one points to, or write \"nothing\" for dummy uses."
     },
     "child": {
-      "hook": "In \"It is raining\", what does \"it\" stand for?",
-      "explain": "Words like he can take the place of a name. In John arrived. He looked tired, he means John. In It is raining, it doesn't mean anything. It just fills the spot.",
+      "hook": "In \"<i>It is raining</i>\", what does \"<i>it</i>\" stand for?",
+      "explain": "Words like <i>he</i> can take the place of a name. In <i>John arrived. He looked tired</i>, <i>he</i> means John. In <i>It is raining</i>, <i>it</i> doesn't mean anything. It just fills the spot.",
       "examples": [
         {
           "text": "John arrived. [He] looked tired.",
@@ -203,7 +203,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Read a short story aloud. Every time you hear he or she, point to the person it means. Does every it point to something?"
+      "play": "Read a short story aloud. Every time you hear <i>he</i> or <i>she</i>, point to the person it means. Does every <i>it</i> point to something?"
     }
   },
   "status": {
@@ -225,10 +225,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Pronominal Noun Phrase.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/np-pron-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Pronominal Noun Phrase.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/np-pron-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

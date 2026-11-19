@@ -32,7 +32,7 @@
       {
         "id": "closed-interrogative-whether-001",
         "relationship": "related-to",
-        "notes": "I asked whether Jo stayed or left seeks the answer. Whether Jo stayed or left, the lights stayed on puts both alternatives in the adjunct and asserts the same consequence across them."
+        "notes": "<i>I asked whether Jo stayed or left</i> seeks the answer. <i>Whether Jo stayed or left, the lights stayed on</i> puts both alternatives in the adjunct and asserts the same consequence across them."
       }
     ],
     "grounds": [
@@ -55,8 +55,8 @@
   "editions": {
     "curious": {
       "title": "The same result whichever way it goes",
-      "summary": "A whether phrase with two alternatives says the result holds on either one.",
-      "body": "In Whether Lee comes or not, the meeting goes ahead, both possibilities are named: Lee comes, or Lee doesn't. The sentence says the meeting goes ahead on either one.\n\nThe speaker isn't asking a question. Compare I asked whether Jo stayed or left, where whether introduces a question the speaker wants answered. In Whether Jo stayed or left, the lights stayed on, both alternatives sit in the opening phrase, and the same result is asserted across them.",
+      "summary": "A <i>whether</i> phrase with two alternatives says the result holds on either one.",
+      "body": "In <i>Whether Lee comes or not, the meeting goes ahead</i>, both possibilities are named: Lee comes, or Lee doesn't. The sentence says the meeting goes ahead on either one.\n\nThe speaker isn't asking a question. Compare <i>I asked whether Jo stayed or left</i>, where <i>whether</i> introduces a question the speaker wants answered. In <i>Whether Jo stayed or left, the lights stayed on</i>, both alternatives sit in the opening phrase, and the same result is asserted across them.",
       "examples": [
         {
           "text": "[Whether Lee comes or not], the meeting goes ahead.",
@@ -71,11 +71,11 @@
           "from": "constructed"
         }
       ],
-      "try": "Finish this: Whether you win or lose, ... Does your ending depend on which one happens?"
+      "try": "Finish this: <i>Whether you win or lose, ...</i> Does your ending depend on which one happens?"
     },
     "teacher": {
-      "summary": "Helps explain whether...or adjuncts that assert one result across two alternatives, and how they differ from embedded questions.",
-      "explain": "An alternative exhaustive conditional is an adjunct built from whether plus alternatives linked by or. It states that the outcome holds whichever of the presented alternatives obtains. The adjunct neither asks nor reports an unresolved question; it asserts that the consequence holds on both alternatives. This dictionary marks the analysis provisional, with medium confidence, and relates it both to the if-conditional and to the closed interrogative whether. The contrast with the interrogative use is the main point to teach.",
+      "summary": "Helps explain <i>whether</i>...<i>or</i> adjuncts that assert one result across two alternatives, and how they differ from embedded questions.",
+      "explain": "An alternative exhaustive conditional is an adjunct built from <i>whether</i> plus alternatives linked by <i>or</i>. It states that the outcome holds whichever of the presented alternatives obtains. The adjunct neither asks nor reports an unresolved question; it asserts that the consequence holds on both alternatives. This dictionary marks the analysis provisional, with medium confidence, and relates it both to the <i>if</i>-conditional and to the closed interrogative <i>whether</i>. The contrast with the interrogative use is the main point to teach.",
       "examples": [
         {
           "text": "[Whether Lee comes or not], the meeting goes ahead.",
@@ -95,18 +95,18 @@
         {
           "text": "I asked whether Jo stayed or left.",
           "from": "entry",
-          "note": "Whether introduces a question that seeks the answer."
+          "note": "<i>Whether</i> introduces a question that seeks the answer."
         }
       ],
       "watch_for": [
-        "A learner might read the whether clause as a question the speaker is asking.",
-        "A learner might read the construction as an if sentence that holds for only one alternative, when both alternatives lead to the same result."
+        "A learner might read the <i>whether</i> clause as a question the speaker is asking.",
+        "A learner might read the construction as an <i>if</i> sentence that holds for only one alternative, when both alternatives lead to the same result."
       ],
-      "activity": "Give students a result (\"the party starts at eight\") and a pair of alternatives (rain or shine, guests early or late). They write whether...or sentences, then rewrite one as an embedded question with ask and compare."
+      "activity": "Give students a result (\"the party starts at eight\") and a pair of alternatives (<i>rain or shine</i>, <i>guests early or late</i>). They write <i>whether</i>...<i>or</i> sentences, then rewrite one as an embedded question with <i>ask</i> and compare."
     },
     "child": {
-      "hook": "What does Whether Lee comes or not tell you about the meeting?",
-      "explain": "Whether Lee comes or not names two things that could happen. The meeting goes ahead either way. The sentence isn't asking a question.",
+      "hook": "What does <i>Whether Lee comes or not</i> tell you about the meeting?",
+      "explain": "<i>Whether Lee comes or not</i> names two things that could happen. The meeting goes ahead either way. The sentence isn't asking a question.",
       "examples": [
         {
           "text": "[Whether Lee comes or not], the meeting goes ahead.",
@@ -117,7 +117,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Name two things that could happen, like sun or rain. Join them with whether and or. Then say what happens either way."
+      "play": "Name two things that could happen, like sun or rain. Join them with <i>whether</i> and <i>or</i>. Then say what happens either way."
     }
   },
   "status": {
@@ -139,10 +139,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Alternative Exhaustive Conditional.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/exhaustive-alternative-conditional-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Alternative Exhaustive Conditional.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/exhaustive-alternative-conditional-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

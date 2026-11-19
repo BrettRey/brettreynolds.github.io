@@ -45,7 +45,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "A form such as mine can occupy an NP slot without an overt noun, as in mine fell. The dependent counterpart my requires a nominal. His is formally shared across the two slots.",
+        "target": "A form such as <i>mine</i> can occupy an NP slot without an overt noun, as in <i>mine fell</i>. The dependent counterpart <i>my</i> requires a nominal. <i>His</i> is formally shared across the two slots.",
         "evidence": "CGEL lists independent and dependent forms and describes their different distributions.",
         "confidence": "medium"
       }
@@ -53,9 +53,9 @@
   },
   "editions": {
     "curious": {
-      "title": "Mine, yours, hers and the rest",
-      "summary": "The words mine, yours, his, hers, ours and theirs can stand alone as a full phrase, with no noun after them.",
-      "body": "In The red one is mine, the word mine says whose the red one is, and nothing follows it. Those seats are theirs works the same way. Each of these words fills a whole phrase's spot on its own.\n\nCompare my. It goes before a noun, as in my book. The word his is the same in both uses: his book and The book is his.",
+      "title": "<i>Mine</i>, <i>yours</i>, <i>hers</i> and the rest",
+      "summary": "The words <i>mine</i>, <i>yours</i>, <i>his</i>, <i>hers</i>, <i>ours</i> and <i>theirs</i> can stand alone as a full phrase, with no noun after them.",
+      "body": "In <i>The red one is mine</i>, the word <i>mine</i> says whose the red one is, and nothing follows it. <i>Those seats are theirs</i> works the same way. Each of these words fills a whole phrase's spot on its own.\n\nCompare <i>my</i>. It goes before a noun, as in <i>my book</i>. The word <i>his</i> is the same in both uses: <i>his book</i> and <i>The book is his</i>.",
       "examples": [
         {
           "text": "The red one is [mine].",
@@ -70,12 +70,12 @@
           "from": "constructed"
         }
       ],
-      "try": "Say my book. Now say whose book it is using just one word and no noun."
+      "try": "Say <i>my book</i>. Now say whose book it is using just one word and no noun."
     },
     "teacher": {
-      "summary": "Teaches the stand-alone forms mine, yours, his, hers, ours, theirs and how they differ from my, your and their before a noun.",
-      "explain": "An independent personal genitive pronoun is one of mine, yours, his, hers, ours or theirs, functioning as an NP. A form such as mine can occupy an NP slot without an overt noun, as in Mine fell. The dependent counterpart, such as my, requires a nominal. His is formally shared across the two slots. The dictionary lists independent and dependent forms and shows their different distributions. It marks this account as provisional.",
-      "terms": "Sometimes called absolute possessive pronouns or possessive pronouns. This grammar uses genitive, not possessive, and calls my, your and the like dependent genitive pronouns.",
+      "summary": "Teaches the stand-alone forms <i>mine</i>, <i>yours</i>, <i>his</i>, <i>hers</i>, <i>ours</i>, <i>theirs</i> and how they differ from <i>my</i>, <i>your</i> and <i>their</i> before a noun.",
+      "explain": "An independent personal genitive pronoun is one of <i>mine</i>, <i>yours</i>, <i>his</i>, <i>hers</i>, <i>ours</i> or <i>theirs</i>, functioning as an NP. A form such as <i>mine</i> can occupy an NP slot without an overt noun, as in <i>Mine fell</i>. The dependent counterpart, such as <i>my</i>, requires a nominal. <i>His</i> is formally shared across the two slots. The dictionary lists independent and dependent forms and shows their different distributions. It marks this account as provisional.",
+      "terms": "Sometimes called absolute possessive pronouns or possessive pronouns. This grammar uses genitive, not possessive, and calls <i>my</i>, <i>your</i> and the like dependent genitive pronouns.",
       "examples": [
         {
           "text": "The red one is [mine].",
@@ -108,14 +108,14 @@
         }
       ],
       "watch_for": [
-        "A learner might add a noun after mine, yours or theirs.",
-        "A learner might expect his to change form between the two uses, when it stays the same."
+        "A learner might add a noun after <i>mine</i>, <i>yours</i> or <i>theirs</i>.",
+        "A learner might expect <i>his</i> to change form between the two uses, when it stays the same."
       ],
-      "activity": "Give students pairs of sentences with my, your, her and their before a noun. They rewrite each with the stand-alone form and no noun."
+      "activity": "Give students pairs of sentences with <i>my</i>, <i>your</i>, <i>her</i> and <i>their</i> before a noun. They rewrite each with the stand-alone form and no noun."
     },
     "child": {
       "hook": "Can one little word say who owns the whole thing?",
-      "explain": "Words like mine, yours and theirs can stand alone. They say who owns something without naming it. The red one is mine.",
+      "explain": "Words like <i>mine</i>, <i>yours</i> and <i>theirs</i> can stand alone. They say who owns something without naming it. <i>The red one is mine.</i>",
       "examples": [
         {
           "text": "The red one is [mine].",
@@ -126,7 +126,7 @@
           "from": "entry"
         }
       ],
-      "play": "Point to things in the room. Say who owns each one using only mine, yours, his, hers, ours or theirs."
+      "play": "Point to things in the room. Say who owns each one using only <i>mine</i>, <i>yours</i>, <i>his</i>, <i>hers</i>, <i>ours</i> or <i>theirs</i>."
     }
   },
   "status": {
@@ -147,10 +147,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Independent Personal Genitive Pronoun NP.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/np-pron-personal-gen-indep-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Independent Personal Genitive Pronoun NP.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/np-pron-personal-gen-indep-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

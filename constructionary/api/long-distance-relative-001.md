@@ -4,7 +4,7 @@
 - pattern: antecedent nominal + relative with an antecedent-linked gap inside an embedded clause
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/long-distance-relative-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
@@ -26,7 +26,7 @@ Identifies a referent by a dependency that crosses into an embedded predication.
 
 ## Projection
 
-The tool fills the object role of borrowed. The relative and a corresponding question differ in their discourse functions, and the acceptability of both depends on the intervening construction.
+The tool fills the object role of *borrowed*. The relative and a corresponding question differ in their discourse functions, and the acceptability of both depends on the intervening construction.
 
 ## Reader editions (draft, AI-assisted, unreviewed; the linguist entry is the reference)
 
@@ -34,9 +34,9 @@ The tool fills the object role of borrowed. The relative and a corresponding que
 
 A phrase that describes a noun can link back to the noun from inside a later clause.
 
-In We need the tool which Lee said Jo had borrowed, the part starting with which tells us which tool is wanted. The tool is what Jo borrowed, not what Lee said, so the link reaches past say into the clause that follows.
+In *We need the tool which Lee said Jo had borrowed*, the part starting with *which* tells us which tool is wanted. The tool is what Jo borrowed, not what Lee said, so the link reaches past *say* into the clause that follows.
 
-Compare the shorter We need the tool which Jo borrowed. The same link is there, with no extra clause in between.
+Compare the shorter *We need the tool which Jo borrowed*. The same link is there, with no extra clause in between.
 
 A related question pattern and this relative pattern differ in their discourse functions, and how well each works depends on the construction in between.
 
@@ -44,4 +44,4 @@ A related question pattern and this relative pattern differ in their discourse f
 
 For advanced classes: how a relative clause links a noun to a position inside a lower clause.
 
-In a long-distance integrated relative, the relative contains an antecedent-linked gap inside an embedded clause. In We need the tool which Lee said Jo had borrowed, the tool fills the object role of borrowed. The local counterpart, We need the tool which Jo borrowed, has no intervening clause. The relative and a corresponding question differ in their discourse functions, and acceptability of both depends on the intervening construction. This dictionary marks the analysis as provisional, so avoid stating a simple rule for which embeddings are allowed. See also the related entry on long-distance open interrogatives.
+In a long-distance integrated relative, the relative contains an antecedent-linked gap inside an embedded clause. In *We need the tool which Lee said Jo had borrowed*, the tool fills the object role of *borrowed*. The local counterpart, *We need the tool which Jo borrowed*, has no intervening clause. The relative and a corresponding question differ in their discourse functions, and acceptability of both depends on the intervening construction. This dictionary marks the analysis as provisional, so avoid stating a simple rule for which embeddings are allowed. See also the related entry on long-distance open interrogatives.

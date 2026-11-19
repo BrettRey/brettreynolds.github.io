@@ -1,6 +1,6 @@
 {
   "id": "object-control-infinitival-001",
-  "name": "Object Control in a To-Infinitival Complement",
+  "name": "Object Control in a <i>to</i>-Infinitival Complement",
   "pattern": "VP[V + NPᵢ + to-infinitival with understood subjectᵢ]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/object-control-infinitival-001/",
@@ -10,7 +10,7 @@
   },
   "entry": {
     "id": "object-control-infinitival-001",
-    "name": "Object Control in a To-Infinitival Complement",
+    "name": "Object Control in a <i>to</i>-Infinitival Complement",
     "pattern": "VP[V + NPᵢ + to-infinitival with understood subjectᵢ]",
     "type": "syntactic",
     "meanings": {
@@ -37,7 +37,7 @@
       {
         "id": "object-raising-infinitival-001",
         "relationship": "related-to",
-        "notes": "Persuaded Kai to stay requires a persuadee. Expected there to be trouble permits dummy there in the corresponding position."
+        "notes": "<i>Persuaded Kai to stay</i> requires a persuadee. <i>Expected there to be trouble</i> permits dummy <i>there</i> in the corresponding position."
       }
     ],
     "grounds": [
@@ -51,7 +51,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Kai is both the person persuaded and the understood subject of stay. Dummy there cannot serve as a persuadee.",
+        "target": "Kai is both the person persuaded and the understood subject of <i>stay</i>. Dummy <i>there</i> cannot serve as a persuadee.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -60,8 +60,8 @@
   "editions": {
     "curious": {
       "title": "Persuading someone to do something",
-      "summary": "In Jo persuaded Kai to stay, Kai is both the person persuaded and the one who stays.",
-      "body": "In Jo persuaded Kai to stay, one person does two jobs. Kai is the person who was persuaded, and Kai is also the one who stays, even though stay has no subject of its own.\n\nThe same holds when the second part is negative: in They persuaded Kai not to wait, the not applies to waiting, and Kai is still the person persuaded. This dictionary calls the pattern object control, because the object of the first verb controls who does the second action.",
+      "summary": "In <i>Jo persuaded Kai to stay</i>, Kai is both the person persuaded and the one who stays.",
+      "body": "In <i>Jo persuaded Kai to stay</i>, one person does two jobs. Kai is the person who was persuaded, and Kai is also the one who stays, even though <i>stay</i> has no subject of its own.\n\nThe same holds when the second part is negative: in <i>They persuaded Kai not to wait</i>, the <i>not</i> applies to waiting, and Kai is still the person persuaded. This dictionary calls the pattern object control, because the object of the first verb controls who does the second action.",
       "examples": [
         {
           "text": "Jo [persuaded Kai to stay].",
@@ -72,11 +72,11 @@
           "from": "entry"
         }
       ],
-      "try": "Say Jo persuaded Kai to stay. Who was persuaded? Who stays?"
+      "try": "Say <i>Jo persuaded Kai to stay</i>. Who was persuaded? Who stays?"
     },
     "teacher": {
-      "summary": "Explains verbs like persuade, where the object is also the understood subject of the infinitive.",
-      "explain": "In object control, the NP after the verb is a selected object that is also interpreted as the subject of the to-infinitival. Kai is the person persuaded and the one who stays. Because the object is a participant in the main verb's situation, persuaded Kai to stay requires a persuadee, so dummy there can't fill the slot. Negation in the infinitival applies to the subordinate situation (persuaded Kai not to wait). It differs from object raising, as in expected there to be trouble, where the corresponding position permits dummy there. This dictionary marks the analysis as provisional.",
+      "summary": "Explains verbs like <i>persuade</i>, where the object is also the understood subject of the infinitive.",
+      "explain": "In object control, the NP after the verb is a selected object that is also interpreted as the subject of the <i>to</i>-infinitival. Kai is the person persuaded and the one who stays. Because the object is a participant in the main verb's situation, <i>persuaded Kai to stay</i> requires a persuadee, so dummy <i>there</i> can't fill the slot. Negation in the infinitival applies to the subordinate situation (<i>persuaded Kai not to wait</i>). It differs from object raising, as in <i>expected there to be trouble</i>, where the corresponding position permits dummy <i>there</i>. This dictionary marks the analysis as provisional.",
       "terms": "Object control is the term used here. Equi is another textbook name for this idea.",
       "examples": [
         {
@@ -97,17 +97,17 @@
         {
           "text": "They expected there to be trouble.",
           "from": "constructed",
-          "note": "Object raising. The corresponding position permits dummy there."
+          "note": "Object raising. The corresponding position permits dummy <i>there</i>."
         }
       ],
       "watch_for": [
-        "A learner might read Kai in persuaded Kai to stay as only the subject of stay, when Kai is also the person persuaded.",
-        "A learner might read the negation in persuaded Kai not to wait as applying to the persuading, when it applies to waiting."
+        "A learner might read Kai in <i>persuaded Kai to stay</i> as only the subject of <i>stay</i>, when Kai is also the person persuaded.",
+        "A learner might read the negation in <i>persuaded Kai not to wait</i> as applying to the persuading, when it applies to waiting."
       ],
-      "activity": "Students write sentences with persuade, a person and an infinitive. They then underline who was persuaded and who does the second action, and confirm these are the same person."
+      "activity": "Students write sentences with <i>persuade</i>, a person and an infinitive. They then underline who was persuaded and who does the second action, and confirm these are the same person."
     },
     "child": {
-      "hook": "In Jo persuaded Kai to stay, who is going to stay?",
+      "hook": "In <i>Jo persuaded Kai to stay</i>, who is going to stay?",
       "explain": "Kai is the one who gets persuaded. Kai is also the one who stays. One person does both jobs in the sentence.",
       "examples": [
         {
@@ -119,7 +119,7 @@
           "from": "entry"
         }
       ],
-      "play": "Make up a sentence with persuaded, a friend's name, to, and something to do. Then ask who gets persuaded and who does the thing."
+      "play": "Make up a sentence with <i>persuaded</i>, a friend's name, <i>to</i>, and something to do. Then ask who gets persuaded and who does the thing."
     }
   },
   "status": {
@@ -140,10 +140,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Object Control in a To-Infinitival Complement.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/object-control-infinitival-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Object Control in a <i>to</i>-Infinitival Complement.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/object-control-infinitival-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

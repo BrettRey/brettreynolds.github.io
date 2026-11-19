@@ -45,7 +45,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Both parts concern the same river. A name replacement changes the referent identified. An ordinary modifier like river water gives no comparable identification.",
+        "target": "Both parts concern the same river. A name replacement changes the referent identified. An ordinary modifier like <i>river water</i> gives no comparable identification.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -55,7 +55,7 @@
     "curious": {
       "title": "A name added right after a description",
       "summary": "A name can follow a descriptive noun with no pause, so the two together pick out one particular thing.",
-      "body": "In The river Wye flooded, river describes the thing and Wye names it. There's no comma or break between them, so the two sit together as one unit. Both parts are about the same river.\n\nSwapping the name changes which river you mean. That's what makes this different from an ordinary describing word: river water, for example, doesn't name the particular river in the same way. This dictionary marks the analysis as provisional.",
+      "body": "In <i>The river Wye flooded</i>, <i>river</i> describes the thing and <i>Wye</i> names it. There's no comma or break between them, so the two sit together as one unit. Both parts are about the same river.\n\nSwapping the name changes which river you mean. That's what makes this different from an ordinary describing word: <i>river water</i>, for example, doesn't name the particular river in the same way. This dictionary marks the analysis as provisional.",
       "examples": [
         {
           "text": "The [river Wye] flooded.",
@@ -66,7 +66,7 @@
     },
     "teacher": {
       "summary": "Helps explain a name attached to a descriptive noun without a supplementary break.",
-      "explain": "The pattern is a Nom made of a descriptive noun plus a proper-name expression that identifies the referent: the river Wye. Because there's no supplementary break, the name is integrated into the phrase. Both parts concern the same river, and replacing the name changes the referent identified. An ordinary modifier, such as river in river water, gives no comparable identification. This dictionary treats the pattern as a specialization of the Nom, and marks the analysis as provisional.",
+      "explain": "The pattern is a Nom made of a descriptive noun plus a proper-name expression that identifies the referent: <i>the river Wye</i>. Because there's no supplementary break, the name is integrated into the phrase. Both parts concern the same river, and replacing the name changes the referent identified. An ordinary modifier, such as <i>river</i> in <i>river water</i>, gives no comparable identification. This dictionary treats the pattern as a specialization of the Nom, and marks the analysis as provisional.",
       "terms": "Traditional grammar sometimes calls this restrictive apposition. In this dictionary: integrated appositive name.",
       "examples": [
         {
@@ -87,11 +87,11 @@
         {
           "text": "The river water was cold.",
           "from": "constructed",
-          "note": "River is an ordinary modifier of water and names no particular river."
+          "note": "<i>River</i> is an ordinary modifier of <i>water</i> and names no particular river."
         }
       ],
       "watch_for": [
-        "A learner might treat Wye in the river Wye as an ordinary describing word, like river in river water."
+        "A learner might treat <i>Wye</i> in <i>the river Wye</i> as an ordinary describing word, like <i>river</i> in <i>river water</i>."
       ]
     }
   },
@@ -113,10 +113,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Integrated Appositive Name.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/restrictive-appositive-name-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Integrated Appositive Name.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/restrictive-appositive-name-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

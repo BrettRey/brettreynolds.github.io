@@ -1,6 +1,6 @@
 {
   "id": "let-alone-001",
-  "name": "Let Alone",
+  "name": "<i>X, let alone Y</i>",
   "pattern": "utterance with contrasting focus A + let alone + corresponding focus B; shared material can follow both foci",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/let-alone-001/",
@@ -9,13 +9,13 @@
   },
   "entry": {
     "id": "let-alone-001",
-    "name": "Let Alone",
+    "name": "<i>X, let alone Y</i>",
     "pattern": "utterance with contrasting focus A + let alone + corresponding focus B; shared material can follow both foci",
     "type": "mixed",
     "meanings": {
       "1": {
         "definition": "Uses a contrast on a contextually supplied scale to justify dismissing a further alternative.",
-        "details": "On the usual negative pattern, the first alternative is easier, smaller, or otherwise more attainable. If even it fails, the harder one can be dismissed. The material after let alone can consist of a phrase whose interpretation uses the shared material of the first part. Negation and other downward-oriented environments are favoured. The original study also discusses positive uses and speaker variation.",
+        "details": "On the usual negative pattern, the first alternative is easier, smaller, or otherwise more attainable. If even it fails, the harder one can be dismissed. The material after <i>let alone</i> can consist of a phrase whose interpretation uses the shared material of the first part. Negation and other downward-oriented environments are favoured. The original study also discusses positive uses and speaker variation.",
         "examples": [
           {
             "form": "[Few people have seen the document, let alone know what’s in it.]",
@@ -31,7 +31,7 @@
           },
           {
             "form": "[We couldn’t fit a bicycle, let alone a whole sofa, through that doorway.]",
-            "note": "Constructed NP contrast. Through that doorway applies to both alternatives."
+            "note": "Constructed NP contrast. <i>Through that doorway</i> applies to both alternatives."
           }
         ]
       }
@@ -56,13 +56,13 @@
         "locator": "§4, n. 34 in author draft",
         "relation": "discusses",
         "bears-on": "projection",
-        "note": "Reports let alone among well-studied constructions omitted from the chapter’s worked survey."
+        "note": "Reports <i>let alone</i> among well-studied constructions omitted from the chapter’s worked survey."
       }
     ],
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "A short paired focus after let alone receives a fuller interpretation from the shared material, with the ordering of the alternatives constrained by the discourse scale and polarity context.",
+        "target": "A short paired focus after <i>let alone</i> receives a fuller interpretation from the shared material, with the ordering of the alternatives constrained by the discourse scale and polarity context.",
         "evidence": "Fillmore, Kay and O’Connor give paired-focus, shared-material, polarity and scale diagnostics. CGEL records the link between finite VPs.",
         "confidence": "high"
       }
@@ -70,9 +70,9 @@
   },
   "editions": {
     "curious": {
-      "title": "Setting aside a bigger claim with let alone",
-      "summary": "Let alone pairs a smaller claim with a bigger one on a scale. On the usual negative pattern, if even the smaller one fails, the bigger one can be set aside.",
-      "body": "In Few people have seen the document, let alone know what's in it, the speaker names something easier first (seeing the document) and then something harder (knowing what's in it). If even the easier thing is rare, the harder one can be set aside.\n\nThe two parts line up on a scale, such as how hard something is. On the usual negative pattern, the first is the easier, smaller or otherwise more attainable one, and the second is the harder one. Sentences with a negative, as in We couldn't fit a bicycle, let alone a whole sofa, through that doorway, are the favoured setting. What comes after the sofa, through that doorway, belongs to both parts.",
+      "title": "Setting aside a bigger claim with <i>let alone</i>",
+      "summary": "<i>Let alone</i> pairs a smaller claim with a bigger one on a scale. On the usual negative pattern, if even the smaller one fails, the bigger one can be set aside.",
+      "body": "In <i>Few people have seen the document, let alone know what's in it</i>, the speaker names something easier first (seeing the document) and then something harder (knowing what's in it). If even the easier thing is rare, the harder one can be set aside.\n\nThe two parts line up on a scale, such as how hard something is. On the usual negative pattern, the first is the easier, smaller or otherwise more attainable one, and the second is the harder one. Sentences with a negative, as in <i>We couldn't fit a bicycle, let alone a whole sofa, through that doorway</i>, are the favoured setting. What comes after the sofa, <i>through that doorway</i>, belongs to both parts.",
       "examples": [
         {
           "text": "[Few people have seen the document, let alone know what’s in it.]",
@@ -83,12 +83,12 @@
           "from": "entry"
         }
       ],
-      "try": "Think of something hard you haven't done, and something even harder. Can you join them with let alone?"
+      "try": "Think of something hard you haven't done, and something even harder. Can you join them with <i>let alone</i>?"
     },
     "teacher": {
-      "summary": "For advanced classes: how let alone joins an easier and a harder alternative and, on the usual negative pattern, dismisses the harder one.",
-      "explain": "Let alone pairs two contrasting foci, A and B, with shared material that can follow both. On the usual negative pattern, B is dismissed because A, which is easier, smaller or otherwise more attainable on a contextual scale, already fails. Negation and other downward-oriented environments favour the pattern. The material after let alone can be a short phrase whose interpretation draws on the shared material, so a whole sofa is read together with through that doorway. CGEL treats let alone as a candidate marginal coordinator. The original study also discusses positive uses and speaker variation, so don't present the negative pattern as the only one.",
-      "terms": "CGEL treats let alone as a candidate marginal coordinator, so it is related to coordination in this dictionary.",
+      "summary": "For advanced classes: how <i>let alone</i> joins an easier and a harder alternative and, on the usual negative pattern, dismisses the harder one.",
+      "explain": "<i>Let alone</i> pairs two contrasting foci, A and B, with shared material that can follow both. On the usual negative pattern, B is dismissed because A, which is easier, smaller or otherwise more attainable on a contextual scale, already fails. Negation and other downward-oriented environments favour the pattern. The material after <i>let alone</i> can be a short phrase whose interpretation draws on the shared material, so <i>a whole sofa</i> is read together with <i>through that doorway</i>. CGEL treats <i>let alone</i> as a candidate marginal coordinator. The original study also discusses positive uses and speaker variation, so don't present the negative pattern as the only one.",
+      "terms": "CGEL treats <i>let alone</i> as a candidate marginal coordinator, so it is related to coordination in this dictionary.",
       "examples": [
         {
           "text": "[Few people have seen the document, let alone know what’s in it.]",
@@ -103,14 +103,14 @@
         {
           "text": "We couldn't fit a bicycle, let alone a whole sofa, through that doorway.",
           "from": "entry",
-          "note": "A and B are both NPs; through that doorway applies to both."
+          "note": "A and B are both NPs; <i>through that doorway</i> applies to both."
         }
       ],
       "watch_for": [
-        "A learner might put the harder alternative before let alone, when on the negative pattern the first alternative is the easier one.",
-        "A learner might use let alone to join two alternatives with no contextual scale ordering them, when the two are ordered on a contextual scale."
+        "A learner might put the harder alternative before <i>let alone</i>, when on the negative pattern the first alternative is the easier one.",
+        "A learner might use <i>let alone</i> to join two alternatives with no contextual scale ordering them, when the two are ordered on a contextual scale."
       ],
-      "activity": "Give students a scale such as walking a block, a kilometre, a marathon. They write sentences with a negative and let alone, choosing the easier alternative first, and swap to check whether each pair is ordered correctly."
+      "activity": "Give students a scale such as walking a block, a kilometre, a marathon. They write sentences with a negative and <i>let alone</i>, choosing the easier alternative first, and swap to check whether each pair is ordered correctly."
     }
   },
   "status": {
@@ -132,10 +132,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Let Alone.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/let-alone-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"<i>X, let alone Y</i>.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/let-alone-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

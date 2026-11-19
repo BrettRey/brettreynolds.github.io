@@ -17,7 +17,7 @@
       "form": "Cardinal noun (typically four-digit); bare NP or in PP complement",
       "meaning": "Rigid designation of a specific calendar year",
       "function": "Temporal reference via proper naming rather than counting",
-      "distribution": "In PPs (in 1066), as appositive (the year 1066), subject position"
+      "distribution": "In PPs (<i>in 1066</i>), as appositive (<i>the year 1066</i>), subject position"
     },
     "meanings": {
       "1": {
@@ -45,7 +45,7 @@
       },
       {
         "type": "morphological",
-        "description": "Typically uses basic numeratives and 'oh' (ten sixty-six, not one thousand sixty-six)."
+        "description": "Typically uses basic numeratives and '<i>oh</i>' (<i>ten sixty-six</i>, not <i>one thousand sixty-six</i>)."
       },
       {
         "type": "semantic",
@@ -84,7 +84,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "In They met in 2002, the numerative identifies a calendar year without specifying an amount of elapsed time. In They waited two years, the cardinal instead quantifies a duration. Spelling with digits can obscure the distinction.",
+        "target": "In <i>They met in 2002</i>, the numerative identifies a calendar year without specifying an amount of elapsed time. In <i>They waited two years</i>, the cardinal instead quantifies a duration. Spelling with digits can obscure the distinction.",
         "evidence": "CGEL distinguishes temporal location from duration and Reynolds analyzes the label use of cardinal nouns.",
         "confidence": "medium"
       }
@@ -93,8 +93,8 @@
   "editions": {
     "curious": {
       "title": "Years as names",
-      "summary": "A number like 1994 can name a particular year, working like a name rather than a count.",
-      "body": "In born in 1994, the number doesn't count anything. It names one particular year. We can also say the year 1066 saw the Norman Conquest, or 2025 will be different, with the number standing on its own as the subject.\n\nCompare They met in 2002 with They waited two years. The first uses a number to identify a year, with no length of time. The second counts a stretch of time. Writing with digits can hide the difference.\n\nA year name resists words like the or an adjective in front of it. The dictionary marks this account as provisional.",
+      "summary": "A number like <i>1994</i> can name a particular year, working like a name rather than a count.",
+      "body": "In <i>born in 1994</i>, the number doesn't count anything. It names one particular year. We can also say <i>the year 1066 saw the Norman Conquest</i>, or <i>2025 will be different</i>, with the number standing on its own as the subject.\n\nCompare <i>They met in 2002</i> with <i>They waited two years</i>. The first uses a number to identify a year, with no length of time. The second counts a stretch of time. Writing with digits can hide the difference.\n\nA year name resists words like <i>the</i> or an adjective in front of it. The dictionary marks this account as provisional.",
       "examples": [
         {
           "text": "born in [1994]",
@@ -109,11 +109,11 @@
           "from": "entry"
         }
       ],
-      "try": "Say They met in 2002 and They waited two years. Which one tells you how long, and which one tells you when?"
+      "try": "Say <i>They met in 2002</i> and <i>They waited two years</i>. Which one tells you how long, and which one tells you when?"
     },
     "teacher": {
       "summary": "Helps explain years as name-like numbers, and how they differ from counting.",
-      "explain": "A year name is a cardinal noun that names a specific year through direct reference. It heads a bare noun phrase and resists determiners and attributive modifiers. It occurs as the complement of a preposition (in 1994), as an appositive (the year 1066) and as a subject (2025 will be different). This dictionary describes the spoken form as typically using the basic numeratives (and oh), as in ten sixty-six rather than one thousand sixty-six. In They met in 2002 the number identifies a calendar year without specifying elapsed time. In They waited two years the cardinal quantifies a duration. This dictionary marks its analysis provisional.",
+      "explain": "A year name is a cardinal noun that names a specific year through direct reference. It heads a bare noun phrase and resists determiners and attributive modifiers. It occurs as the complement of a preposition (<i>in 1994</i>), as an appositive (<i>the year 1066</i>) and as a subject (<i>2025 will be different</i>). This dictionary describes the spoken form as typically using the basic numeratives (and <i>oh</i>), as in <i>ten sixty-six</i> rather than <i>one thousand sixty-six</i>. In <i>They met in 2002</i> the number identifies a calendar year without specifying elapsed time. In <i>They waited two years</i> the cardinal quantifies a duration. This dictionary marks its analysis provisional.",
       "terms": "Calendrical label is the term in the source cited by this dictionary. This dictionary treats the year name as a proper-name-like use of a cardinal noun.",
       "examples": [
         {
@@ -142,14 +142,14 @@
         }
       ],
       "watch_for": [
-        "A learner might read in 2002 as a length of time, when it names a calendar year.",
+        "A learner might read <i>in 2002</i> as a length of time, when it names a calendar year.",
         "A learner might read the digits of a year as a quantity, since digits can obscure the distinction."
       ],
-      "activity": "Students sort sentences with numbers into year names and durations. They then read the year names aloud in the form this dictionary describes, such as ten sixty-six."
+      "activity": "Students sort sentences with numbers into year names and durations. They then read the year names aloud in the form this dictionary describes, such as <i>ten sixty-six</i>."
     },
     "child": {
-      "hook": "Does the number in \"born in 1994\" count something?",
-      "explain": "A year's number is its name. Born in 1994 tells us which year. Two years is different. It counts how long.",
+      "hook": "Does the number in \"<i>born in 1994</i>\" count something?",
+      "explain": "A year's number is its name. <i>Born in 1994</i> tells us which year. <i>Two years</i> is different. It counts how long.",
       "examples": [
         {
           "text": "born in [1994]",
@@ -182,10 +182,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Year Name Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/year-name-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Year Name Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/year-name-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

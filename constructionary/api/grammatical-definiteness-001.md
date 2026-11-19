@@ -4,7 +4,7 @@
 - pattern: Semantic feature implemented through nominal determination
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/grammatical-definiteness-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
@@ -36,7 +36,7 @@ Whether entity is established in discourse
 ## Related constructions
 
 - Interacts with: Deitality (`deitality-001`)
-- Interacts with: Deverbal Noun Of-Argument (`deverbal-noun-of-argument-001`)
+- Interacts with: Deverbal Noun *of*-Argument (`deverbal-noun-of-argument-001`)
 - Interacts with: Definite NP Construction (`np-def-001`): Bidirectional interface; definite interpretation cues deital form in production, deital form cues definite interpretation in comprehension
 - A kind of: Definite Construction (`definite-001`): Grammatical definiteness is realized through definite construction
 - Alternates with: Indefinite Construction (`indefinite-001`): Paradigmatic contrast in the definiteness system
@@ -52,20 +52,20 @@ Whether entity is established in discourse
 
 ## Projection
 
-Shared knowledge can make the only exit identifiable at first mention. Conversely, the in take the train can mark the lexicalized activity without distinguishing a specific train. Familiarity, unique reference, and structural diagnostics need separate predictions.
+Shared knowledge can make the only exit identifiable at first mention. Conversely, *the* in *take the train* can mark the lexicalized activity without distinguishing a specific train. Familiarity, unique reference, and structural diagnostics need separate predictions.
 
 ## Reader editions (draft, AI-assisted, unreviewed; the linguist entry is the reference)
 
 ### Curious reader: Pointing out which one you mean
 
-Words like the, this and that, or a name such as John, can show that the listener is able to work out which one is meant, in contrast with a or some.
+Words like *the*, *this* and *that*, or a name such as *John*, can show that the listener is able to work out which one is meant, in contrast with *a* or *some*.
 
-Saying the cat signals that the listener can work out which cat. A cat or some person does not. The same pairs show other contrasts: the students against some students is an established group against a subset, and the winner against a winner is unique against arbitrary.
+Saying *the cat* signals that the listener can work out which cat. *A cat* or *some person* does not. The same pairs show other contrasts: *the students* against *some students* is an established group against a subset, and *the winner* against *a winner* is unique against arbitrary.
 
-These contrasts aren't a simple switch tied to one word. Shared knowledge can make the only exit identifiable the first time it's mentioned. And in take the train, the word the can mark the activity itself without pointing to a specific train.
+These contrasts aren't a simple switch tied to one word. Shared knowledge can make the only exit identifiable the first time it's mentioned. And in *take the train*, the word *the* can mark the activity itself without pointing to a specific train.
 
 ### Teacher
 
 Frames definiteness as identifiability, reference scope and discourse status, with known mismatches.
 
-Grammatical definiteness is a semantic feature implemented through nominal determination. This dictionary distinguishes identifiability (the cat against a cat), reference scope (the students against some students; the winner against a winner) and discourse status (given against new). Form is typically realized by the, this, that, dependent genitive pronouns, genitive NPs or bare proper nouns. Familiarity, unique reference and structural diagnostics need separate predictions: shared knowledge can make the only exit identifiable at first mention, and the in take the train can mark a lexicalized activity without distinguishing a specific train. This dictionary marks this analysis as provisional.
+Grammatical definiteness is a semantic feature implemented through nominal determination. This dictionary distinguishes identifiability (*the cat* against *a cat*), reference scope (*the students* against *some students*; *the winner* against *a winner*) and discourse status (given against new). Form is typically realized by *the*, *this*, *that*, dependent genitive pronouns, genitive NPs or bare proper nouns. Familiarity, unique reference and structural diagnostics need separate predictions: shared knowledge can make the only exit identifiable at first mention, and *the* in *take the train* can mark a lexicalized activity without distinguishing a specific train. This dictionary marks this analysis as provisional.

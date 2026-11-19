@@ -1,6 +1,6 @@
 {
   "id": "god-knows-indeterminate-001",
-  "name": "God Knows with an Indeterminate Expression",
+  "name": "<i>God knows</i> with an Indeterminate Expression",
   "pattern": "fixed authority expression + knows + indeterminate XP, including inside an argument or modifier",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/god-knows-indeterminate-001/",
@@ -9,13 +9,13 @@
   },
   "entry": {
     "id": "god-knows-indeterminate-001",
-    "name": "God Knows with an Indeterminate Expression",
+    "name": "<i>God knows</i> with an Indeterminate Expression",
     "pattern": "fixed authority expression + knows + indeterminate XP, including inside an argument or modifier",
     "type": "mixed",
     "meanings": {
       "1": {
         "definition": "Marks a value as unknown or left unspecified, often with an emphatic stance.",
-        "details": "In He filed God knows how many pages, the expression supplies an indefinite quantity inside the object NP. In She put God knows what in the soup, it supplies the unknown item. The source lists variants with Heaven, the Lord and goodness. An independent sentence such as God knows how many pages he filed can also make a literal claim about knowledge.",
+        "details": "In <i>He filed God knows how many pages</i>, the expression supplies an indefinite quantity inside the object NP. In <i>She put God knows what in the soup</i>, it supplies the unknown item. The source lists variants with <i>Heaven</i>, <i>the Lord</i> and <i>goodness</i>. An independent sentence such as <i>God knows how many pages he filed</i> can also make a literal claim about knowledge.",
         "examples": [
           {
             "form": "They packed [God knows what] in these boxes.",
@@ -60,9 +60,9 @@
   },
   "editions": {
     "curious": {
-      "title": "God knows what",
-      "summary": "A phrase like God knows what, placed inside a larger phrase, marks something as unknown or left unspecified, often with feeling.",
-      "body": "In They packed God knows what in these boxes, the speaker doesn't say what the items were. In He filed goodness knows how many pages, the number of pages is the unknown value. Both put the phrase right inside the object and mark an open value with emphasis.\n\nThis dictionary lists variants with Heaven, the Lord and goodness in place of God. A separate sentence such as God knows how many pages he filed can also make a literal claim about who knows, so what the phrase does depends on where it sits.",
+      "title": "<i>God knows what</i>",
+      "summary": "A phrase like <i>God knows what</i>, placed inside a larger phrase, marks something as unknown or left unspecified, often with feeling.",
+      "body": "In <i>They packed God knows what in these boxes</i>, the speaker doesn't say what the items were. In <i>He filed goodness knows how many pages</i>, the number of pages is the unknown value. Both put the phrase right inside the object and mark an open value with emphasis.\n\nThis dictionary lists variants with <i>Heaven</i>, <i>the Lord</i> and <i>goodness</i> in place of <i>God</i>. A separate sentence such as <i>God knows how many pages he filed</i> can also make a literal claim about who knows, so what the phrase does depends on where it sits.",
       "examples": [
         {
           "text": "They packed [God knows what] in these boxes.",
@@ -77,12 +77,12 @@
           "from": "entry"
         }
       ],
-      "try": "Finish this sentence with your own version: She bought heaven knows ... Does the phrase stand in for a missing item or amount?"
+      "try": "Finish this sentence with your own version: <i>She bought heaven knows ...</i> Does the phrase stand in for a missing item or amount?"
     },
     "teacher": {
       "summary": "Mostly for advanced classes, an idiomatic stance formula that fills a slot for an unknown item or amount.",
-      "explain": "The pattern is a fixed authority expression plus knows plus an indeterminate expression such as what or how many, placed inside an argument or modifier: God knows what in They packed God knows what in these boxes. It marks a value as unknown or left unspecified, often with an emphatic stance. Variants use Heaven, the Lord and goodness. In an independent sentence such as God knows how many pages he filed, it can also be a literal claim about knowledge. This dictionary says that a literal knowledge clause does not generally have the embedded distribution, and that the internal constituency of the formula is open.",
-      "terms": "Indeterminate is this dictionary’s term for words like what and how many that identify an open value.",
+      "explain": "The pattern is a fixed authority expression plus <i>knows</i> plus an indeterminate expression such as <i>what</i> or <i>how many</i>, placed inside an argument or modifier: <i>God knows what</i> in <i>They packed God knows what in these boxes</i>. It marks a value as unknown or left unspecified, often with an emphatic stance. Variants use <i>Heaven</i>, <i>the Lord</i> and <i>goodness</i>. In an independent sentence such as <i>God knows how many pages he filed</i>, it can also be a literal claim about knowledge. This dictionary says that a literal knowledge clause does not generally have the embedded distribution, and that the internal constituency of the formula is open.",
+      "terms": "Indeterminate is this dictionary’s term for words like <i>what</i> and <i>how many</i> that identify an open value.",
       "examples": [
         {
           "text": "They packed [God knows what] in these boxes.",
@@ -105,10 +105,10 @@
         }
       ],
       "watch_for": [
-        "A learner might read God knows what in an object slot as a literal claim about divine knowledge.",
-        "A learner might expect the variant with goodness or Heaven to work only as an independent sentence."
+        "A learner might read <i>God knows what</i> in an object slot as a literal claim about divine knowledge.",
+        "A learner might expect the variant with <i>goodness</i> or <i>Heaven</i> to work only as an independent sentence."
       ],
-      "activity": "Give students three sentences with a blank in the object slot (He filed ..., She cooked ..., They bought ...). Students fill them with an authority word plus knows and an indeterminate, then say what is left unspecified."
+      "activity": "Give students three sentences with a blank in the object slot (<i>He filed ...</i>, <i>She cooked ...</i>, <i>They bought ...</i>). Students fill them with an authority word plus <i>knows</i> and an indeterminate, then say what is left unspecified."
     }
   },
   "status": {
@@ -129,10 +129,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"God Knows with an Indeterminate Expression.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/god-knows-indeterminate-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"<i>God knows</i> with an Indeterminate Expression.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/god-knows-indeterminate-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

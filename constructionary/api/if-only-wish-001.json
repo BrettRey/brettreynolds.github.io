@@ -1,6 +1,6 @@
 {
   "id": "if-only-wish-001",
-  "name": "Optative If Only",
+  "name": "Optative <i>if only</i>",
   "pattern": "standalone if only + finite clause, often modally remote",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/if-only-wish-001/",
@@ -10,7 +10,7 @@
   },
   "entry": {
     "id": "if-only-wish-001",
-    "name": "Optative If Only",
+    "name": "Optative <i>if only</i>",
     "pattern": "standalone if only + finite clause, often modally remote",
     "type": "mixed",
     "meanings": {
@@ -32,7 +32,7 @@
       {
         "id": "only-if-restriction-001",
         "relationship": "related-to",
-        "notes": "Only if imposes a condition, while if only can express a wish."
+        "notes": "<i>Only if</i> imposes a condition, while <i>if only</i> can express a wish."
       }
     ],
     "grounds": [
@@ -46,7 +46,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "A consequence can remain unexpressed, and the utterance conveys a wish. In We can enter only if we bring a torch, only if instead sets a necessary condition.",
+        "target": "A consequence can remain unexpressed, and the utterance conveys a wish. In <i>We can enter only if we bring a torch</i>, <i>only if</i> instead sets a necessary condition.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -54,9 +54,9 @@
   },
   "editions": {
     "curious": {
-      "title": "If only",
-      "summary": "If only, standing alone, expresses a wish about something that isn't the case or might not be.",
-      "body": "If only we had brought a torch! is a wish. A result can be left unsaid, and the sentence still conveys the wish.\n\nIf only is different from only if. We can enter only if we bring a torch sets a necessary condition. If only expresses a wish, and the clause that follows is often remote in its wording.",
+      "title": "<i>If only</i>",
+      "summary": "<i>If only</i>, standing alone, expresses a wish about something that isn't the case or might not be.",
+      "body": "<i>If only we had brought a torch!</i> is a wish. A result can be left unsaid, and the sentence still conveys the wish.\n\n<i>If only</i> is different from <i>only if</i>. <i>We can enter only if we bring a torch</i> sets a necessary condition. <i>If only</i> expresses a wish, and the clause that follows is often remote in its wording.",
       "examples": [
         {
           "text": "[If only we had brought a torch!]",
@@ -67,11 +67,11 @@
           "from": "entry"
         }
       ],
-      "try": "Think of something you wish had gone differently. Start the sentence with If only."
+      "try": "Think of something you wish had gone differently. Start the sentence with <i>If only</i>."
     },
     "teacher": {
-      "summary": "Teaches learners to express a wish with if only, and to tell it from only if.",
-      "explain": "Optative if only stands alone with a finite clause, often modally remote: If only we had brought a torch! It expresses a wish concerning a possibility or unrealized state. A consequence can remain unexpressed, and the utterance conveys a wish. Only if instead sets a necessary condition, as in We can enter only if we bring a torch. This dictionary relates the pattern to ordinary if-conditionals and marks the analysis as provisional.",
+      "summary": "Teaches learners to express a wish with <i>if only</i>, and to tell it from <i>only if</i>.",
+      "explain": "Optative <i>if only</i> stands alone with a finite clause, often modally remote: <i>If only we had brought a torch!</i> It expresses a wish concerning a possibility or unrealized state. A consequence can remain unexpressed, and the utterance conveys a wish. <i>Only if</i> instead sets a necessary condition, as in <i>We can enter only if we bring a torch</i>. This dictionary relates the pattern to ordinary <i>if</i>-conditionals and marks the analysis as provisional.",
       "terms": "Optative is this dictionary’s term for the wish use.",
       "examples": [
         {
@@ -96,21 +96,21 @@
         }
       ],
       "watch_for": [
-        "A learner might treat if only as the same as only if, when if only expresses a wish and only if imposes a condition.",
-        "A learner might look for a main clause after if only, when the consequence can remain unexpressed."
+        "A learner might treat <i>if only</i> as the same as <i>only if</i>, when <i>if only</i> expresses a wish and <i>only if</i> imposes a condition.",
+        "A learner might look for a main clause after <i>if only</i>, when the consequence can remain unexpressed."
       ],
-      "activity": "Give students situations where something went wrong. They write a wish with If only and a related condition with only if, and say how the two differ."
+      "activity": "Give students situations where something went wrong. They write a wish with <i>If only</i> and a related condition with <i>only if</i>, and say how the two differ."
     },
     "child": {
       "hook": "How do you say what you wish had happened?",
-      "explain": "If only can show a wish. If only we had brought a torch! means we wish we had one. It's a wish, so no other part is needed.",
+      "explain": "<i>If only</i> can show a wish. <i>If only we had brought a torch!</i> means we wish we had one. It's a wish, so no other part is needed.",
       "examples": [
         {
           "text": "[If only we had brought a torch!]",
           "from": "entry"
         }
       ],
-      "play": "Think of a wish about something that didn't happen. Begin with If only and say it with feeling."
+      "play": "Think of a wish about something that didn't happen. Begin with <i>If only</i> and say it with feeling."
     }
   },
   "status": {
@@ -131,10 +131,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Optative If Only.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/if-only-wish-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Optative <i>if only</i>.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/if-only-wish-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

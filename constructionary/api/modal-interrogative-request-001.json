@@ -54,8 +54,8 @@
   "editions": {
     "curious": {
       "title": "Questions that are really requests",
-      "summary": "A yes-or-no question with can, could, will or would and you can be a way to ask someone to do something.",
-      "body": "Could you lower the shade? has the form of a question, but the speaker wants the shade lowered. The listener can satisfy it by doing that, rather than by answering yes or no.\n\nThe pattern is a yes-or-no question with can, could, will or would and you as the subject. The same words can also be a real question. If the setting is a test of what someone is able to do, Could you lower the shade? can invite an answer about ability instead.",
+      "summary": "A yes-or-no question with <i>can</i>, <i>could</i>, <i>will</i> or <i>would</i> and <i>you</i> can be a way to ask someone to do something.",
+      "body": "<i>Could you lower the shade?</i> has the form of a question, but the speaker wants the shade lowered. The listener can satisfy it by doing that, rather than by answering yes or no.\n\nThe pattern is a yes-or-no question with <i>can</i>, <i>could</i>, <i>will</i> or <i>would</i> and <i>you</i> as the subject. The same words can also be a real question. If the setting is a test of what someone is able to do, <i>Could you lower the shade?</i> can invite an answer about ability instead.",
       "examples": [
         {
           "text": "[Could you lower the shade?]",
@@ -70,11 +70,11 @@
           "from": "constructed"
         }
       ],
-      "try": "Next time you ask someone for help with Can you ... or Could you ..., notice whether they answer in words or just do it."
+      "try": "Next time you ask someone for help with <i>Can you ...</i> or <i>Could you ...</i>, notice whether they answer in words or just do it."
     },
     "teacher": {
-      "summary": "Useful for teaching requests: the interrogative form with a modal and you asks for action.",
-      "explain": "The pattern is a polar interrogative with can, could, will or would and a second-person subject, used to request the addressee's action. The same form can also be a literal question; the use differs. Could you lower the shade? can be satisfied by lowering the shade. In a capacity-testing context the same form can invite an answer about ability. Teachers can contrast it with the imperative, which this dictionary lists as a related construction. This dictionary classes the pattern as pragmatic: it concerns how the form is used.",
+      "summary": "Useful for teaching requests: the interrogative form with a modal and <i>you</i> asks for action.",
+      "explain": "The pattern is a polar interrogative with <i>can</i>, <i>could</i>, <i>will</i> or <i>would</i> and a second-person subject, used to request the addressee's action. The same form can also be a literal question; the use differs. <i>Could you lower the shade?</i> can be satisfied by lowering the shade. In a capacity-testing context the same form can invite an answer about ability. Teachers can contrast it with the imperative, which this dictionary lists as a related construction. This dictionary classes the pattern as pragmatic: it concerns how the form is used.",
       "terms": "Indirect speech act or indirect request are textbook names for this kind of use.",
       "examples": [
         {
@@ -103,13 +103,13 @@
         }
       ],
       "watch_for": [
-        "A learner might answer Could you lower the shade? with only yes, taking it as a question about ability."
+        "A learner might answer <i>Could you lower the shade?</i> with only <i>yes</i>, taking it as a question about ability."
       ],
-      "activity": "Students write three requests with can, could or would and you for a classroom situation (a closed window, a lost pen). In pairs, one reads the request and the other responds with an action, not words. Discuss when a spoken answer would be expected instead."
+      "activity": "Students write three requests with <i>can</i>, <i>could</i> or <i>would</i> and <i>you</i> for a classroom situation (a closed window, a lost pen). In pairs, one reads the request and the other responds with an action, not words. Discuss when a spoken answer would be expected instead."
     },
     "child": {
-      "hook": "When someone asks \"Can you pass the salt?\", do they want just a yes?",
-      "explain": "Some questions are really ways of asking for something. Could you lower the shade? asks you to lower it. You can answer by doing it.",
+      "hook": "When someone asks \"<i>Can you pass the salt?</i>\", do they want just a yes?",
+      "explain": "Some questions are really ways of asking for something. <i>Could you lower the shade?</i> asks you to lower it. You can answer by doing it.",
       "examples": [
         {
           "text": "[Could you lower the shade?]",
@@ -120,7 +120,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Ask a friend to do something with Could you or Will you. They answer by doing it, not by speaking. Then swap."
+      "play": "Ask a friend to do something with <i>Could you</i> or <i>Will you</i>. They answer by doing it, not by speaking. Then swap."
     }
   },
   "status": {
@@ -142,10 +142,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Modal Interrogative Request.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/modal-interrogative-request-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Modal Interrogative Request.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/modal-interrogative-request-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

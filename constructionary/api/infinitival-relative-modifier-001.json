@@ -45,7 +45,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The bench supplies the complement of on. The relative often has a modal reading and can differ from a purpose adjunct describing why a matrix action occurred.",
+        "target": "The bench supplies the complement of <i>on</i>. The relative often has a modal reading and can differ from a purpose adjunct describing why a matrix action occurred.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -53,9 +53,9 @@
   },
   "editions": {
     "curious": {
-      "title": "A bench to sit on",
-      "summary": "A to plus a verb after a noun can describe the thing by what could be done with it, as in a bench to sit on.",
-      "body": "In We need a bench to sit on, the part to sit on describes the bench. It says what the bench is for or could be used for. The bench is the thing you'd sit on, so it fills the gap after on.\n\nThe to part can have a sense of possibility or fitness. It differs from a purpose phrase, which tells why someone did something. We need a bench to sit on is about the bench, not about the reason for an action.",
+      "title": "<i>A bench to sit on</i>",
+      "summary": "A <i>to</i> plus a verb after a noun can describe the thing by what could be done with it, as in <i>a bench to sit on</i>.",
+      "body": "In <i>We need a bench to sit on</i>, the part <i>to sit on</i> describes the bench. It says what the bench is for or could be used for. The bench is the thing you'd sit on, so it fills the gap after <i>on</i>.\n\nThe <i>to</i> part can have a sense of possibility or fitness. It differs from a purpose phrase, which tells why someone did something. <i>We need a bench to sit on</i> is about the bench, not about the reason for an action.",
       "examples": [
         {
           "text": "We need a bench [to sit on].",
@@ -66,11 +66,11 @@
           "from": "constructed"
         }
       ],
-      "try": "Finish this sentence: I need something to ... What does the thing do for you?"
+      "try": "Finish this sentence: <i>I need something to ...</i> What does the thing do for you?"
     },
     "teacher": {
-      "summary": "Covers noun phrases like a bench to sit on, where a to-infinitival modifies the noun.",
-      "explain": "The pattern is a nominal followed by a to-infinitival with a gap linked to the antecedent. It characterizes a referent by a possible or appropriate action involving it. In We need a bench to sit on, the bench supplies the complement of on. The relative can have a modal reading, and it can differ from a purpose adjunct describing why a main-clause action occurred. This dictionary relates it to the integrated relative modifier and to the infinitival purpose adjunct, and marks it provisional.",
+      "summary": "Covers noun phrases like <i>a bench to sit on</i>, where a <i>to</i>-infinitival modifies the noun.",
+      "explain": "The pattern is a nominal followed by a <i>to</i>-infinitival with a gap linked to the antecedent. It characterizes a referent by a possible or appropriate action involving it. In <i>We need a bench to sit on</i>, the bench supplies the complement of <i>on</i>. The relative can have a modal reading, and it can differ from a purpose adjunct describing why a main-clause action occurred. This dictionary relates it to the integrated relative modifier and to the infinitival purpose adjunct, and marks it provisional.",
       "terms": "Sometimes called an infinitival relative clause or a to-infinitive modifying a noun.",
       "examples": [
         {
@@ -95,14 +95,14 @@
         }
       ],
       "watch_for": [
-        "A learner might not notice that the bench is what fills the gap after on.",
-        "A learner might read to sit on as the reason for the needing rather than as a description of the bench."
+        "A learner might not notice that the bench is what fills the gap after <i>on</i>.",
+        "A learner might read <i>to sit on</i> as the reason for the needing rather than as a description of the bench."
       ],
-      "activity": "Students complete noun phrases such as a pen to ... and a box to ... and mark the gap where the noun would go in the verb phrase. They compare with a purpose sentence."
+      "activity": "Students complete noun phrases such as <i>a pen to ...</i> and <i>a box to ...</i> and mark the gap where the noun would go in the verb phrase. They compare with a purpose sentence."
     },
     "child": {
-      "hook": "What's a bench to sit on?",
-      "explain": "To plus a verb can describe a thing by what you could do with it. A bench to sit on is a bench you could sit on. You sit on the bench.",
+      "hook": "What's <i>a bench to sit on</i>?",
+      "explain": "<i>To</i> plus a verb can describe a thing by what you could do with it. <i>A bench to sit on</i> is a bench you could sit on. You sit on the bench.",
       "examples": [
         {
           "text": "We need a bench [to sit on].",
@@ -113,7 +113,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Pick something in the room. Describe it with to plus a verb, such as a chair to sit on. Can a partner guess it?"
+      "play": "Pick something in the room. Describe it with <i>to</i> plus a verb, such as <i>a chair to sit on</i>. Can a partner guess it?"
     }
   },
   "status": {
@@ -134,10 +134,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Infinitival Relative Modifier.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/infinitival-relative-modifier-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Infinitival Relative Modifier.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/infinitival-relative-modifier-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

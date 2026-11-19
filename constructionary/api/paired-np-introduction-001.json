@@ -80,7 +80,7 @@
     "curious": {
       "title": "Introducing someone with two names",
       "summary": "Saying someone's name, pausing, then naming or describing someone else can introduce that second person or thing to the first.",
-      "body": "A volunteer at an animal shelter says Alex, Teacup. Alex is the person being spoken to, and Teacup is the kitten being pointed out. A pause separates the two phrases, and pointing or looking helps show who's being introduced.\n\nThere's no verb, and none is needed. The second phrase can be a name, as in Elise, Casey, or a description, as in Alex, the new vet. This dictionary describes the first phrase as addressing someone and the second as identifying who is being introduced.",
+      "body": "A volunteer at an animal shelter says <i>Alex, Teacup</i>. Alex is the person being spoken to, and Teacup is the kitten being pointed out. A pause separates the two phrases, and pointing or looking helps show who's being introduced.\n\nThere's no verb, and none is needed. The second phrase can be a name, as in <i>Elise, Casey</i>, or a description, as in <i>Alex, the new vet</i>. This dictionary describes the first phrase as addressing someone and the second as identifying who is being introduced.",
       "examples": [
         {
           "text": "[Alex, Teacup.]",
@@ -156,10 +156,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Paired-NP Introduction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/paired-np-introduction-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Paired-NP Introduction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/paired-np-introduction-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

@@ -33,12 +33,12 @@
       {
         "id": "collective-agreement-001",
         "relationship": "related-to",
-        "notes": "Three litres is enough treats a measurement as one amount. A collective NP such as the committee can allow plural agreement on a member-oriented reading."
+        "notes": "<i>Three litres is enough</i> treats a measurement as one amount. A collective NP such as <i>the committee</i> can allow plural agreement on a member-oriented reading."
       },
       {
         "id": "measure-pseudopartitive-001",
         "relationship": "interfaces-with",
-        "notes": "A measure pseudopartitive can be the subject of singular amount agreement, as in Three litres of milk is enough."
+        "notes": "A measure pseudopartitive can be the subject of singular amount agreement, as in <i>Three litres of milk is enough</i>."
       }
     ],
     "grounds": [
@@ -60,9 +60,9 @@
   },
   "editions": {
     "curious": {
-      "title": "Three hours is enough",
+      "title": "<i>Three hours is enough</i>",
       "summary": "An amount that looks plural can take a singular verb when it's treated as one total.",
-      "body": "In Three hours is enough, the subject looks plural, but the verb is singular. The sentence treats three hours as a single amount of time. The same goes for Three litres is enough, where a measurement counts as one amount.\n\nOn this dictionary's analysis, the singular fits when the sentence judges the duration as a whole. If the hours are being thought of one at a time, the plural can be used instead. A group word like the committee is a separate case: it can take a plural verb when we think of its members.",
+      "body": "In <i>Three hours is enough</i>, the subject looks plural, but the verb is singular. The sentence treats three hours as a single amount of time. The same goes for <i>Three litres is enough</i>, where a measurement counts as one amount.\n\nOn this dictionary's analysis, the singular fits when the sentence judges the duration as a whole. If the hours are being thought of one at a time, the plural can be used instead. A group word like <i>the committee</i> is a separate case: it can take a plural verb when we think of its members.",
       "examples": [
         {
           "text": "Three hours [is enough].",
@@ -77,12 +77,12 @@
           "from": "entry"
         }
       ],
-      "try": "Say Three hours is enough. Are you thinking of the hours as one total, or one by one?"
+      "try": "Say <i>Three hours is enough</i>. Are you thinking of the hours as one total, or one by one?"
     },
     "teacher": {
-      "summary": "Explains why an amount expression such as three hours can take a singular verb.",
-      "explain": "A plural-shaped measure NP can be the subject of a clause with singular agreement, as in Three hours is enough. The expression is treated as a single amount. On this dictionary's provisional analysis, the singular is natural when the predicate evaluates a duration as a whole. If a series of hours is predicated of individually, plural agreement can be used instead. A measure pseudopartitive can also be the subject of singular amount agreement (Three litres of milk is enough). This dictionary keeps this apart from collective agreement, where a collective NP such as the committee can take plural agreement on a member-oriented reading.",
-      "terms": "Sometimes treated under notional concord (or notional agreement), a broader label for a verb agreeing with the meaning of its subject rather than its form, which also takes in collective nouns like the committee. This dictionary keeps the two apart and calls this pattern singular agreement with an amount expression.",
+      "summary": "Explains why an amount expression such as <i>three hours</i> can take a singular verb.",
+      "explain": "A plural-shaped measure NP can be the subject of a clause with singular agreement, as in <i>Three hours is enough</i>. The expression is treated as a single amount. On this dictionary's provisional analysis, the singular is natural when the predicate evaluates a duration as a whole. If a series of hours is predicated of individually, plural agreement can be used instead. A measure pseudopartitive can also be the subject of singular amount agreement (<i>Three litres of milk is enough</i>). This dictionary keeps this apart from collective agreement, where a collective NP such as <i>the committee</i> can take plural agreement on a member-oriented reading.",
+      "terms": "Sometimes treated under notional concord (or notional agreement), a broader label for a verb agreeing with the meaning of its subject rather than its form, which also takes in collective nouns like <i>the committee</i>. This dictionary keeps the two apart and calls this pattern singular agreement with an amount expression.",
       "examples": [
         {
           "text": "Three hours [is enough].",
@@ -101,14 +101,14 @@
         }
       ],
       "watch_for": [
-        "A learner might expect the plural form of the verb because hours ends in a plural -s, when the whole duration is treated as one amount.",
-        "A learner might apply the same reasoning to the committee, when a collective NP can take a plural verb on a member-oriented reading."
+        "A learner might expect the plural form of the verb because <i>hours</i> ends in a plural <i>-s</i>, when the whole duration is treated as one amount.",
+        "A learner might apply the same reasoning to <i>the committee</i>, when a collective NP can take a plural verb on a member-oriented reading."
       ],
-      "activity": "Students write sentences with measure expressions (litres, hours, kilometres) as the subject and say whether each treats the amount as a whole total or one at a time."
+      "activity": "Students write sentences with measure expressions (<i>litres</i>, <i>hours</i>, <i>kilometres</i>) as the subject and say whether each treats the amount as a whole total or one at a time."
     },
     "child": {
-      "hook": "Three hours is more than one hour. So why can we say \"three hours is enough\"?",
-      "explain": "Three hours is a plural-looking phrase, but we can treat it as one amount of time. Then we can say is. Three litres is enough works the same way.",
+      "hook": "Three hours is more than one hour. So why can we say \"<i>three hours is enough</i>\"?",
+      "explain": "Three hours is a plural-looking phrase, but we can treat it as one amount of time. Then we can say <i>is</i>. <i>Three litres is enough</i> works the same way.",
       "examples": [
         {
           "text": "Three hours [is enough].",
@@ -119,7 +119,7 @@
           "from": "entry"
         }
       ],
-      "play": "Think of amounts like two hours, five kilometres or four litres. Say each one with is enough. Do they sound like one amount?"
+      "play": "Think of amounts like <i>two hours</i>, <i>five kilometres</i> or <i>four litres</i>. Say each one with <i>is enough</i>. Do they sound like one amount?"
     }
   },
   "status": {
@@ -141,10 +141,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Singular Agreement with an Amount Expression.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/amount-singular-agreement-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Singular Agreement with an Amount Expression.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/amount-singular-agreement-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

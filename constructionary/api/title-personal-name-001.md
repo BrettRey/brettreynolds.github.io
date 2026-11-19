@@ -4,13 +4,13 @@
 - pattern: NP[pre-head title + conventional personal-name expression]
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/title-personal-name-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
 Uses a personal name and a convention for identifying the bearer’s office, qualification, or style.
 
-The title helps determine the form of the associated name. In the conventional British uses illustrated here, Sir precedes a given name, with a surname optionally following. Dr ordinarily precedes the surname or a full name in the standard formal style. Some professional conventions and familiar styles use a title with a given name.
+The title helps determine the form of the associated name. In the conventional British uses illustrated here, *Sir* precedes a given name, with a surname optionally following. *Dr* ordinarily precedes the surname or a full name in the standard formal style. Some professional conventions and familiar styles use a title with a given name.
 
 - *[Sir James] opened the ceremony.*: Constructed example showing the given-name form.
 - *[Dr Patel] wrote the report.*: Constructed example showing the surname form.
@@ -30,20 +30,20 @@ The title helps determine the form of the associated name. In the conventional B
 
 ## Projection
 
-Substituting a surname alone for the given name in the standard British Sir pattern loses the conventional name form. A professional title such as Dr can use the surname alone.
+Substituting a surname alone for the given name in the standard British *Sir* pattern loses the conventional name form. A professional title such as *Dr* can use the surname alone.
 
 ## Reader editions (draft, AI-assisted, unreviewed; the linguist entry is the reference)
 
 ### Curious reader: Titles that go with names
 
-A title such as Sir or Dr can sit in front of a person's name, and the title helps decide which form of the name follows.
+A title such as *Sir* or *Dr* can sit in front of a person's name, and the title helps decide which form of the name follows.
 
-In Sir James opened the ceremony, the title Sir goes with a given name. In Dr Patel wrote the report, the title Dr goes with a surname. The title tells us something about the person, such as an office or a qualification, and it also shapes the name that comes after it.
+In *Sir James opened the ceremony*, the title *Sir* goes with a given name. In *Dr Patel wrote the report*, the title *Dr* goes with a surname. The title tells us something about the person, such as an office or a qualification, and it also shapes the name that comes after it.
 
-The dictionary describes this as a convention, and marks its account as provisional. In the conventional British uses covered here, Sir precedes a given name, and a surname may follow it. Dr ordinarily precedes the surname or a full name in the standard formal style. Some professional conventions and familiar styles use a title with a given name.
+The dictionary describes this as a convention, and marks its account as provisional. In the conventional British uses covered here, *Sir* precedes a given name, and a surname may follow it. *Dr* ordinarily precedes the surname or a full name in the standard formal style. Some professional conventions and familiar styles use a title with a given name.
 
 ### Teacher
 
-Useful for explaining which part of a person's name follows a title such as Sir or Dr.
+Useful for explaining which part of a person's name follows a title such as *Sir* or *Dr*.
 
-A title is a pre-head element in a noun phrase whose head is a personal name, and the title is tied to a conventional name form. In the conventional British uses this dictionary illustrates, Sir precedes a given name, with a surname optionally following. Dr ordinarily precedes the surname or a full name in the standard formal style, though some professional conventions and familiar styles pair a title with a given name. This dictionary says that replacing the given name with a surname alone in the standard Sir pattern loses the conventional name form, while a professional title such as Dr can use the surname alone. This dictionary marks the analysis provisional, so present these as conventions, not rules for every variety.
+A title is a pre-head element in a noun phrase whose head is a personal name, and the title is tied to a conventional name form. In the conventional British uses this dictionary illustrates, *Sir* precedes a given name, with a surname optionally following. *Dr* ordinarily precedes the surname or a full name in the standard formal style, though some professional conventions and familiar styles pair a title with a given name. This dictionary says that replacing the given name with a surname alone in the standard *Sir* pattern loses the conventional name form, while a professional title such as *Dr* can use the surname alone. This dictionary marks the analysis provisional, so present these as conventions, not rules for every variety.

@@ -1,6 +1,6 @@
 {
   "id": "lets-inclusive-001",
-  "name": "Inclusive Let’s Imperative",
+  "name": "Inclusive <i>let’s</i> Imperative",
   "pattern": "let’s + plain-form VP",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/lets-inclusive-001/",
@@ -10,7 +10,7 @@
   },
   "entry": {
     "id": "lets-inclusive-001",
-    "name": "Inclusive Let’s Imperative",
+    "name": "Inclusive <i>let’s</i> Imperative",
     "pattern": "let’s + plain-form VP",
     "type": "mixed",
     "meanings": {
@@ -46,7 +46,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The preferred negative counterpart can be Let’s not take a break. The ’s form identifies the inclusive pattern and is unavailable in a literal command to release someone.",
+        "target": "The preferred negative counterpart can be <i>Let’s not take a break</i>. The <i>’s</i> form identifies the inclusive pattern and is unavailable in a literal command to release someone.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -55,8 +55,8 @@
   "editions": {
     "curious": {
       "title": "Suggesting something to do together",
-      "summary": "Let's followed by a plain verb proposes that the speaker and the listener, or a group, do something together.",
-      "body": "Let's take a break proposes an action for the speaker and the listener to do together. The group involved can also be a wider one that includes them. The 's after let identifies this joint pattern.\n\nThe preferred negative counterpart can be Let's not take a break. The 's form also can't be used for a literal command to release someone, which is a different use of let.",
+      "summary": "<i>Let's</i> followed by a plain verb proposes that the speaker and the listener, or a group, do something together.",
+      "body": "<i>Let's take a break</i> proposes an action for the speaker and the listener to do together. The group involved can also be a wider one that includes them. The <i>'s</i> after <i>let</i> identifies this joint pattern.\n\nThe preferred negative counterpart can be <i>Let's not take a break</i>. The <i>'s</i> form also can't be used for a literal command to release someone, which is a different use of <i>let</i>.",
       "examples": [
         {
           "text": "[Let’s take a break].",
@@ -67,12 +67,12 @@
           "from": "constructed"
         }
       ],
-      "try": "Think of something you'd like to do with a friend. Start with let's and suggest it. Who is included?"
+      "try": "Think of something you'd like to do with a friend. Start with <i>let's</i> and suggest it. Who is included?"
     },
     "teacher": {
-      "summary": "Helps explain let's as a joint proposal, and keeps it apart from let meaning allow.",
-      "explain": "Let's plus a plain-form VP proposes a course of action involving the speaker and addressee, or the relevant joint group. Teach it as a special kind of imperative: the proposal includes the speaker, so it isn't an order aimed only at the listener. The negative counterpart can be Let's not take a break. The 's form identifies the inclusive pattern and isn't available in a literal command to release someone. For the permission sense, see the related permissive let entry.",
-      "terms": "An imperative in this dictionary, with the inclusive 's marking joint action. Related to let permissive, which means allow.",
+      "summary": "Helps explain <i>let's</i> as a joint proposal, and keeps it apart from <i>let</i> meaning allow.",
+      "explain": "<i>Let's</i> plus a plain-form VP proposes a course of action involving the speaker and addressee, or the relevant joint group. Teach it as a special kind of imperative: the proposal includes the speaker, so it isn't an order aimed only at the listener. The negative counterpart can be <i>Let's not take a break</i>. The <i>'s</i> form identifies the inclusive pattern and isn't available in a literal command to release someone. For the permission sense, see the related permissive <i>let</i> entry.",
+      "terms": "An imperative in this dictionary, with the inclusive <i>'s</i> marking joint action. Related to let permissive, which means allow.",
       "examples": [
         {
           "text": "[Let’s take a break].",
@@ -88,7 +88,7 @@
         {
           "text": "They let Jo use the key.",
           "from": "constructed",
-          "note": "Permission: let allows someone else to act."
+          "note": "Permission: <i>let</i> allows someone else to act."
         },
         {
           "text": "Let’s not take a break.",
@@ -97,14 +97,14 @@
         }
       ],
       "watch_for": [
-        "A learner might read Let's take a break as a command aimed only at the listener, when the speaker is included.",
-        "A learner might confuse the 's in let's with the 's of a genitive or of is."
+        "A learner might read <i>Let's take a break</i> as a command aimed only at the listener, when the speaker is included.",
+        "A learner might confuse the <i>'s</i> in <i>let's</i> with the <i>'s</i> of a genitive or of <i>is</i>."
       ],
-      "activity": "Students suggest group activities with let's, then each suggestion is answered with Let's not and another idea. Discuss who is included in each proposal."
+      "activity": "Students suggest group activities with <i>let's</i>, then each suggestion is answered with <i>Let's not</i> and another idea. Discuss who is included in each proposal."
     },
     "child": {
-      "hook": "When you say let's, who is going to do it?",
-      "explain": "Let's means you and others, together. You suggest something to do as a group. Let's take a break means we rest together.",
+      "hook": "When you say <i>let's</i>, who is going to do it?",
+      "explain": "<i>Let's</i> means you and others, together. You suggest something to do as a group. <i>Let's take a break</i> means we rest together.",
       "examples": [
         {
           "text": "[Let’s take a break].",
@@ -115,7 +115,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Think of three things to suggest to a friend, each starting with let's. Then say one more with let's not. Does it still include you both?"
+      "play": "Think of three things to suggest to a friend, each starting with <i>let's</i>. Then say one more with <i>let's not</i>. Does it still include you both?"
     }
   },
   "status": {
@@ -137,10 +137,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Inclusive Let’s Imperative.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/lets-inclusive-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Inclusive <i>let’s</i> Imperative.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/lets-inclusive-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

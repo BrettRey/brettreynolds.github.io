@@ -1,6 +1,6 @@
 {
   "id": "same-as-comparison-001",
-  "name": "Identity Comparison with Same … As",
+  "name": "Identity Comparison with <i>same … as</i>",
   "pattern": "NP[the same + nominal] + as-standard",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/same-as-comparison-001/",
@@ -10,7 +10,7 @@
   },
   "entry": {
     "id": "same-as-comparison-001",
-    "name": "Identity Comparison with Same … As",
+    "name": "Identity Comparison with <i>same … as</i>",
     "pattern": "NP[the same + nominal] + as-standard",
     "type": "mixed",
     "meanings": {
@@ -41,7 +41,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The same model can identify a shared model without asserting that we bought one and the same physical object. As supplies the standard of comparison.",
+        "target": "<i>The same model</i> can identify a shared model without asserting that we bought one and the same physical object. <i>As</i> supplies the standard of comparison.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -50,8 +50,8 @@
   "editions": {
     "curious": {
       "title": "Being the same as something else",
-      "summary": "The same followed by as compares two things and says they match.",
-      "body": "In We chose the same model as Lee, the phrase after as is the standard we compare with. The two choices are the same model, but we needn't have bought one and the same physical object. It means the kind matches.\n\nSo the same can point to a shared kind of thing or to a single shared thing. The word as introduces what we compare against. This dictionary marks the analysis as provisional.",
+      "summary": "<i>The same</i> followed by <i>as</i> compares two things and says they match.",
+      "body": "In We chose the same model as Lee, the phrase after <i>as</i> is the standard we compare with. The two choices are the same model, but we needn't have bought one and the same physical object. It means the kind matches.\n\nSo <i>the same</i> can point to a shared kind of thing or to a single shared thing. The word <i>as</i> introduces what we compare against. This dictionary marks the analysis as provisional.",
       "examples": [
         {
           "text": "We chose [the same model as Lee].",
@@ -62,12 +62,12 @@
           "from": "constructed"
         }
       ],
-      "try": "Say what you have in common with a friend using the same ... as."
+      "try": "Say what you have in common with a friend using <i>the same ... as</i>."
     },
     "teacher": {
-      "summary": "Helps explain the same + noun + as for identity of referent or of type.",
-      "explain": "The same plus a noun, followed by an as-phrase, compares items for identity of referent or identity of relevant type. In We chose the same model as Lee, the same model can identify a shared model without asserting that we bought one and the same physical object. As supplies the standard of comparison. This dictionary relates the pattern to the equative as ... as construction, and marks the analysis as provisional.",
-      "terms": "Related in this dictionary to the equative as ... as comparison.",
+      "summary": "Helps explain <i>the same + noun + as</i> for identity of referent or of type.",
+      "explain": "<i>The same</i> plus a noun, followed by an <i>as</i>-phrase, compares items for identity of referent or identity of relevant type. In <i>We chose the same model as Lee</i>, <i>the same model</i> can identify a shared model without asserting that we bought one and the same physical object. <i>As</i> supplies the standard of comparison. This dictionary relates the pattern to the equative <i>as ... as</i> construction, and marks the analysis as provisional.",
+      "terms": "Related in this dictionary to the equative <i>as ... as</i> comparison.",
       "examples": [
         {
           "text": "We chose [the same model as Lee].",
@@ -79,14 +79,14 @@
         }
       ],
       "watch_for": [
-        "A learner might read the same model as meaning one single physical object, when it can mean the same type.",
-        "A learner might leave out as before the standard of comparison."
+        "A learner might read <i>the same model as</i> meaning one single physical object, when it can mean the same type.",
+        "A learner might leave out <i>as</i> before the standard of comparison."
       ],
-      "activity": "Students write sentences about what they share with a partner (the same colour, the same bus) using the same ... as. Then they decide whether each shows one shared object or a shared type."
+      "activity": "Students write sentences about what they share with a partner (<i>the same colour</i>, <i>the same bus</i>) using <i>the same ... as</i>. Then they decide whether each shows one shared object or a shared type."
     },
     "child": {
       "hook": "How can two people have the same lunch?",
-      "explain": "The same ... as tells you two things match. We chose the same model as Lee. We each chose that kind, so they match.",
+      "explain": "<i>The same ... as</i> tells you two things match. <i>We chose the same model as Lee</i>. We each chose that kind, so they match.",
       "examples": [
         {
           "text": "We chose [the same model as Lee].",
@@ -97,7 +97,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Look at a friend's bag, shoes or lunch. Say what's the same using the same ... as."
+      "play": "Look at a friend's bag, shoes or lunch. Say what's the same using <i>the same ... as</i>."
     }
   },
   "status": {
@@ -118,10 +118,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Identity Comparison with Same … As.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/same-as-comparison-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Identity Comparison with <i>same … as</i>.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/same-as-comparison-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

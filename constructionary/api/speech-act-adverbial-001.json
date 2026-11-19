@@ -44,7 +44,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Frankly characterizes the speaker’s statement, not the repair's manner of failing. A paraphrase can mention speaking frankly without changing the content asserted.",
+        "target": "<i>Frankly</i> characterizes the speaker’s statement, not the repair's manner of failing. A paraphrase can mention <i>speaking frankly</i> without changing the content asserted.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -53,8 +53,8 @@
   "editions": {
     "curious": {
       "title": "Words about how you're speaking",
-      "summary": "An adverb like frankly can describe how or why the speaker is making the statement, not what the statement is about.",
-      "body": "In Frankly, the repair won't last, the word frankly isn't about the repair. It describes the speaker's way of speaking: the speaker is being frank in saying this.\n\nYou can check by paraphrase. Something like I'm speaking frankly captures it, and the content asserted stays the same: the repair won't last. This dictionary marks the analysis as provisional.",
+      "summary": "An adverb like <i>frankly</i> can describe how or why the speaker is making the statement, not what the statement is about.",
+      "body": "In <i>Frankly, the repair won't last</i>, the word <i>frankly</i> isn't about the repair. It describes the speaker's way of speaking: the speaker is being frank in saying this.\n\nYou can check by paraphrase. Something like <i>I'm speaking frankly</i> captures it, and the content asserted stays the same: the repair won't last. This dictionary marks the analysis as provisional.",
       "examples": [
         {
           "text": "[Frankly], the repair won't last.",
@@ -65,11 +65,11 @@
           "from": "constructed"
         }
       ],
-      "try": "Add a word like honestly or briefly to the start of a statement. Is it about the thing you're describing, or about how you're saying it?"
+      "try": "Add a word like <i>honestly</i> or <i>briefly</i> to the start of a statement. Is it about the thing you're describing, or about how you're saying it?"
     },
     "teacher": {
       "summary": "Helps explain an adverbial that characterizes the speaker's manner or purpose in making the utterance.",
-      "explain": "A speech-act adverbial is a supplementary adverbial oriented to the utterance act: it characterizes the speaker's manner or purpose in making the utterance. In Frankly, the repair won't last, frankly characterizes the speaker's statement, not the repair's manner of failing. A paraphrase can mention speaking frankly without changing the content asserted. This dictionary relates it to evaluative sentence adverbs and to participial clause supplements. The analysis is marked provisional.",
+      "explain": "A speech-act adverbial is a supplementary adverbial oriented to the utterance act: it characterizes the speaker's manner or purpose in making the utterance. In <i>Frankly, the repair won't last</i>, <i>frankly</i> characterizes the speaker's statement, not the repair's manner of failing. A paraphrase can mention <i>speaking frankly</i> without changing the content asserted. This dictionary relates it to evaluative sentence adverbs and to participial clause supplements. The analysis is marked provisional.",
       "terms": "In this dictionary: speech-act adverbial.",
       "examples": [
         {
@@ -82,10 +82,10 @@
         }
       ],
       "watch_for": [
-        "A learner might read frankly as describing how the repair fails, when it describes the speaker's statement.",
-        "A learner might think the adverb changes the content asserted, when a paraphrase like I'm speaking frankly leaves it unchanged."
+        "A learner might read <i>frankly</i> as describing how the repair fails, when it describes the speaker's statement.",
+        "A learner might think the adverb changes the content asserted, when a paraphrase like <i>I'm speaking frankly</i> leaves it unchanged."
       ],
-      "activity": "Write statements with a speech-act adverb on cards. Students paraphrase each as I'm saying this ..., and check that the asserted content doesn't change."
+      "activity": "Write statements with a speech-act adverb on cards. Students paraphrase each as <i>I'm saying this ...</i>, and check that the asserted content doesn't change."
     }
   },
   "status": {
@@ -106,10 +106,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Speech-Act Adverbial.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/speech-act-adverbial-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Speech-Act Adverbial.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/speech-act-adverbial-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

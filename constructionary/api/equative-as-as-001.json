@@ -1,6 +1,6 @@
 {
   "id": "equative-as-as-001",
-  "name": "Scalar Equative As … As",
+  "name": "Scalar Equative <i>as … as</i>",
   "pattern": "as + gradable expression + as-phrase/clause",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/equative-as-as-001/",
@@ -10,7 +10,7 @@
   },
   "entry": {
     "id": "equative-as-as-001",
-    "name": "Scalar Equative As … As",
+    "name": "Scalar Equative <i>as … as</i>",
     "pattern": "as + gradable expression + as-phrase/clause",
     "type": "mixed",
     "meanings": {
@@ -45,7 +45,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The first as sets up a degree standard and the second introduces it. At least as wide explicitly allows a greater width and not as wide ordinarily implies a lower degree.",
+        "target": "The first <i>as</i> sets up a degree standard and the second introduces it. <i>At least as wide</i> explicitly allows a greater width and <i>not as wide</i> ordinarily implies a lower degree.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -53,9 +53,9 @@
   },
   "editions": {
     "curious": {
-      "title": "Comparing with as ... as",
-      "summary": "As ... as sets one thing's degree against another's without saying the first has more.",
-      "body": "In The new shelf is as wide as the old one, the pattern compares the new shelf's width with the old one's. The positive form doesn't say that the new shelf is wider.\n\nThe first as comes before the describing word, and the second as introduces what you're measuring against, here the old one.",
+      "title": "Comparing with <i>as ... as</i>",
+      "summary": "<i>As ... as</i> sets one thing's degree against another's without saying the first has more.",
+      "body": "In <i>The new shelf is as wide as the old one</i>, the pattern compares the new shelf's width with the old one's. The positive form doesn't say that the new shelf is wider.\n\nThe first <i>as</i> comes before the describing word, and the second <i>as</i> introduces what you're measuring against, here <i>the old one</i>.",
       "examples": [
         {
           "text": "The new shelf is [as wide as the old one].",
@@ -66,12 +66,12 @@
           "from": "constructed"
         }
       ],
-      "try": "Compare two things in the room with as ... as, such as two bags or two books."
+      "try": "Compare two things in the room with <i>as ... as</i>, such as two bags or two books."
     },
     "teacher": {
-      "summary": "Helps explain the as ... as equative that compares a degree with a standard without asserting a greater one.",
-      "explain": "The scalar equative has the form as + gradable expression + as-phrase or clause. In its positive form it compares a degree with a standard without asserting a greater degree. In The new shelf is as wide as the old one, the old shelf supplies the standard. This dictionary relates the pattern to gradation and to than-reduced clauses.",
-      "terms": "Traditionally called a comparison of equality; compare the comparative with than.",
+      "summary": "Helps explain the <i>as ... as</i> equative that compares a degree with a standard without asserting a greater one.",
+      "explain": "The scalar equative has the form <i>as</i> + gradable expression + <i>as</i>-phrase or clause. In its positive form it compares a degree with a standard without asserting a greater degree. In <i>The new shelf is as wide as the old one</i>, the old shelf supplies the standard. This dictionary relates the pattern to gradation and to than-reduced clauses.",
+      "terms": "Traditionally called a comparison of equality; compare the comparative with <i>than</i>.",
       "examples": [
         {
           "text": "The new shelf is [as wide as the old one].",
@@ -83,14 +83,14 @@
         }
       ],
       "watch_for": [
-        "A learner might think as wide as asserts that the new shelf is wider.",
-        "A learner might leave out the first as, though the pattern has two."
+        "A learner might think <i>as wide as</i> asserts that the new shelf is wider.",
+        "A learner might leave out the first <i>as</i>, though the pattern has two."
       ],
-      "activity": "Students pick pairs of objects and write sentences with as ... as, naming the standard each time."
+      "activity": "Students pick pairs of objects and write sentences with <i>as ... as</i>, naming the standard each time."
     },
     "child": {
       "hook": "How do you say two things match in size?",
-      "explain": "Put as before a describing word and as before the thing you're comparing with. The new shelf is as wide as the old one. It doesn't say the new shelf is wider.",
+      "explain": "Put <i>as</i> before a describing word and <i>as</i> before the thing you're comparing with. <i>The new shelf is as wide as the old one</i>. It doesn't say the new shelf is wider.",
       "examples": [
         {
           "text": "The new shelf is [as wide as the old one].",
@@ -101,7 +101,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Pick two things you can see. Say how they compare using as ... as, such as as long as or as tall as."
+      "play": "Pick two things you can see. Say how they compare using <i>as ... as</i>, such as <i>as long as</i> or <i>as tall as</i>."
     }
   },
   "status": {
@@ -122,10 +122,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Scalar Equative As … As.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/equative-as-as-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Scalar Equative <i>as … as</i>.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/equative-as-as-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

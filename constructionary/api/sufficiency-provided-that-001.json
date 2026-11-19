@@ -1,6 +1,6 @@
 {
   "id": "sufficiency-provided-that-001",
-  "name": "Conditional Provided That",
+  "name": "Conditional <i>provided that</i>",
   "pattern": "conditional PP[provided (that) + finite clause]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/sufficiency-provided-that-001/",
@@ -10,7 +10,7 @@
   },
   "entry": {
     "id": "sufficiency-provided-that-001",
-    "name": "Conditional Provided That",
+    "name": "Conditional <i>provided that</i>",
     "pattern": "conditional PP[provided (that) + finite clause]",
     "type": "mixed",
     "meanings": {
@@ -55,8 +55,8 @@
   "editions": {
     "curious": {
       "title": "Giving permission on one condition",
-      "summary": "Provided that adds a condition under which a promise or permission holds.",
-      "body": "In You can use the room provided that you lock up, the last part sets a condition. Locking up is the condition on permission to use the room.\n\nThe phrase doesn't say that locking up has already happened. It sets a condition on the permission. The word that can be left out: provided you lock up works the same way in the pattern.\n\nThis dictionary marks the analysis as provisional.",
+      "summary": "<i>Provided that</i> adds a condition under which a promise or permission holds.",
+      "body": "In <i>You can use the room provided that you lock up</i>, the last part sets a condition. Locking up is the condition on permission to use the room.\n\nThe phrase doesn't say that locking up has already happened. It sets a condition on the permission. The word <i>that</i> can be left out: <i>provided you lock up</i> works the same way in the pattern.\n\nThis dictionary marks the analysis as provisional.",
       "examples": [
         {
           "text": "You can use the room [provided that you lock up].",
@@ -67,11 +67,11 @@
           "from": "constructed"
         }
       ],
-      "try": "Give someone permission to do something, then add provided that and a condition. Does the condition sound like it has already happened?"
+      "try": "Give someone permission to do something, then add <i>provided that</i> and a condition. Does the condition sound like it has already happened?"
     },
     "teacher": {
-      "summary": "Useful for explaining provided that as a way to attach a condition to a permission or promise.",
-      "explain": "The pattern is a conditional PP formed from provided (that) and a finite clause. It states a proviso under which a proposal or promise holds. In a permission context the phrase gives a condition on permission: it does not report the locking as already true. This dictionary treats the whole phrase as a PP with a finite clause, one of the clause-taking prepositions. This analysis is provisional, and a separate entry covers the related unless pattern.",
+      "summary": "Useful for explaining <i>provided that</i> as a way to attach a condition to a permission or promise.",
+      "explain": "The pattern is a conditional PP formed from <i>provided (that)</i> and a finite clause. It states a proviso under which a proposal or promise holds. In a permission context the phrase gives a condition on permission: it does not report the locking as already true. This dictionary treats the whole phrase as a PP with a finite clause, one of the clause-taking prepositions. This analysis is provisional, and a separate entry covers the related <i>unless</i> pattern.",
       "terms": "Sometimes called a subordinating conjunction in traditional grammar. CGEL: a preposition taking a finite clause.",
       "examples": [
         {
@@ -80,14 +80,14 @@
         }
       ],
       "watch_for": [
-        "A learner might read provided that you lock up as saying you have already locked up.",
-        "A learner might think provided is only a verb, when here it introduces a condition."
+        "A learner might read <i>provided that you lock up</i> as saying you have already locked up.",
+        "A learner might think <i>provided</i> is only a verb, when here it introduces a condition."
       ],
-      "activity": "Students write permissions with provided that, for example about homework or the school library. A partner restates each as what you may do and what the condition is."
+      "activity": "Students write permissions with <i>provided that</i>, for example about homework or the school library. A partner restates each as what you may do and what the condition is."
     },
     "child": {
-      "hook": "In You can play outside provided that you wear a coat, what is the condition?",
-      "explain": "Provided that gives a rule for something you're allowed to do. You can do it if the rule is met.",
+      "hook": "In <i>You can play outside provided that you wear a coat</i>, what is the condition?",
+      "explain": "<i>Provided that</i> gives a rule for something you're allowed to do. You can do it if the rule is met.",
       "examples": [
         {
           "text": "You can use the room [provided that you lock up].",
@@ -98,7 +98,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Make up a rule using provided that. Say what you may do, then the condition. Your friend says which part is the condition."
+      "play": "Make up a rule using <i>provided that</i>. Say what you may do, then the condition. Your friend says which part is the condition."
     }
   },
   "status": {
@@ -120,10 +120,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Conditional Provided That.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/sufficiency-provided-that-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Conditional <i>provided that</i>.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/sufficiency-provided-that-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

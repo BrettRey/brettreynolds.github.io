@@ -13,19 +13,19 @@
     "pattern": "hell + yeah | shit + no | fuck + {yeah, yes, no} | fucking + {yes, no} | hell fucking no",
     "type": "pragmatic",
     "dimensions": {
-      "form": "Documented linear combinations of an emphatic expression with a polarity response; the expanded hell fucking no is included without a commitment about its internal bracketing",
-      "meaning": "Emotional emphasis on the response expressed through yeah, yes or no",
+      "form": "Documented linear combinations of an emphatic expression with a polarity response; the expanded <i>hell fucking no</i> is included without a commitment about its internal bracketing",
+      "meaning": "Emotional emphasis on the response expressed through <i>yeah</i>, <i>yes</i> or <i>no</i>",
       "function": "An emphatic response, sometimes followed by a longer turn; the conversational action depends on context",
       "distribution": "Independent response uses and documented turn-preface uses; excludes nominal answer expressions and questions presenting answer alternatives"
     },
     "meanings": {
       "1": {
-        "definition": "Adds emotional emphasis to an affirmative or negative response while preserving the response orientation of yeah, yes or no",
-        "details": "This is a family of related local patterns, not a claim that every emphatic form combines freely with every response word. Norrick (2009: 880) analyzes hell in hell yeah and shit in shit no as intensifiers; the whole hell yeah or fuck yeah expression can function as a pragmatic marker before a longer turn. Intensifier describes an internal contribution, while pragmatic marker describes a use of the whole. Neither label settles lexical category. Following CGEL (2002: 848), response polarity must be distinguished from agreement, refusal and other conversational actions. Emotional emphasis need not raise epistemic certainty or express approval of the event.",
+        "definition": "Adds emotional emphasis to an affirmative or negative response while preserving the response orientation of <i>yeah</i>, <i>yes</i> or <i>no</i>",
+        "details": "This is a family of related local patterns, not a claim that every emphatic form combines freely with every response word. Norrick (2009: 880) analyzes <i>hell</i> in <i>hell yeah</i> and <i>shit</i> in <i>shit no</i> as intensifiers; the whole <i>hell yeah</i> or <i>fuck yeah</i> expression can function as a pragmatic marker before a longer turn. Intensifier describes an internal contribution, while pragmatic marker describes a use of the whole. Neither label settles lexical category. Following CGEL (2002: 848), response polarity must be distinguished from agreement, refusal and other conversational actions. Emotional emphasis need not raise epistemic certainty or express approval of the event.",
         "examples": [
           {
             "form": "hell yeah.",
-            "note": "Published response token: Norrick (2009: 880), SCoSE Football; response to did you burn anything?",
+            "note": "Published response token: Norrick (2009: 880), SCoSE Football; response to <i>did you burn anything?</i>",
             "grounds": [
               {
                 "source": "norrick-2009",
@@ -80,7 +80,7 @@
           },
           {
             "form": "Fucking no.",
-            "note": "COCA supplied concordance, V/H/S Viral, year label 2014, MOV: response to Was he bleeding?; source/date metadata not independently checked",
+            "note": "COCA supplied concordance, V/H/S Viral, year label 2014, MOV: response to <i>Was he bleeding?</i>; source/date metadata not independently checked",
             "grounds": [
               {
                 "source": "coca",
@@ -110,7 +110,7 @@
       },
       {
         "type": "structural",
-        "description": "The reversed sequence no shit has a different idiomatic interpretation (Norrick 2009: 881) and is outside this family."
+        "description": "The reversed sequence <i>no shit</i> has a different idiomatic interpretation (Norrick 2009: 881) and is outside this family."
       },
       {
         "type": "structural",
@@ -118,19 +118,19 @@
       },
       {
         "type": "pragmatic",
-        "description": "Use is form-, context- and potentially variety-sensitive. Mackenzie (2019: 69, example 43) stars fucking yes/no; supplied COCA contexts attest both bare forms. Retain this source contrast without extending one judgment to all English speakers or claiming to know its cause."
+        "description": "Use is form-, context- and potentially variety-sensitive. Mackenzie (2019: 69, example 43) stars <i>fucking yes</i>/<i>no</i>; supplied COCA contexts attest both bare forms. Retain this source contrast without extending one judgment to all English speakers or claiming to know its cause."
       },
       {
         "type": "structural",
-        "description": "Norrick explicitly reports one intonation unit and primary stress on hell for the SCoSE hell yeah example. This does not establish a uniform stress rule for the other combinations. Commas do not determine intonation, Discourse Act boundaries or internal bracketing."
+        "description": "Norrick explicitly reports one intonation unit and primary stress on <i>hell</i> for the SCoSE <i>hell yeah</i> example. This does not establish a uniform stress rule for the other combinations. Commas do not determine intonation, Discourse Act boundaries or internal bracketing."
       },
       {
         "type": "syntactic",
-        "description": "Nominal answer expressions such as a big fucking yes/no are a separate environment. Their nominal packaging does not establish that bare response yes/no is nominal. Alternative questions such as yes or fucking no, no idea, no before a noun, and verbal fucking are also outside this entry."
+        "description": "Nominal answer expressions such as <i>a big fucking yes</i>/<i>no</i> are a separate environment. Their nominal packaging does not establish that bare response <i>yes</i>/<i>no</i> is nominal. Alternative questions such as <i>yes or fucking no</i>, <i>no idea</i>, <i>no</i> before a noun, and verbal <i>fucking</i> are also outside this entry."
       },
       {
         "type": "structural",
-        "description": "The internal analysis of hell fucking no remains open: the string alone does not decide nested modification, multiple emphatic dependents or a stored larger formula."
+        "description": "The internal analysis of <i>hell fucking no</i> remains open: the string alone does not decide nested modification, multiple emphatic dependents or a stored larger formula."
       }
     ],
     "relatedConstructions": [
@@ -158,21 +158,21 @@
         "source": "mackenzie-2019-expletive",
         "locator": "p. 69, example (43)",
         "relation": "discusses",
-        "note": "Permits fuck yes/no and stars fucking yes/no; the latter restriction does not cover the full supplied COCA range"
+        "note": "Permits <i>fuck yes</i>/<i>no</i> and stars <i>fucking yes</i>/<i>no</i>; the latter restriction does not cover the full supplied COCA range"
       },
       {
         "source": "moreau-2024-subtitling",
         "locator": "p. 8, Table 3",
         "relation": "attests",
-        "note": "Supplies fuck no with a following clause; the interjection label is the source's analysis, not an adopted lexical classification here"
+        "note": "Supplies <i>fuck no</i> with a following clause; the interjection label is the source's analysis, not an adopted lexical classification here"
       }
     ]
   },
   "editions": {
     "curious": {
-      "title": "Adding force to yes and no",
-      "summary": "Informal speakers put an emphatic word in front of yeah, yes or no to give the answer extra feeling.",
-      "body": "You can answer a question with a plain yeah or no. You can also put an emphatic word in front, as in hell yeah, to show you feel strongly about the answer. The word added doesn't change the answer: hell yeah still means yes, and hell fucking no still means no. It adds emotion.\n\nSome of these combinations use profane words. They're also a small, specific set, not a rule that lets any emphatic word go with any answer. Some are also used to start a longer reply, with the rest of the turn following.",
+      "title": "Adding force to <i>yes</i> and <i>no</i>",
+      "summary": "Informal speakers put an emphatic word in front of <i>yeah</i>, <i>yes</i> or <i>no</i> to give the answer extra feeling.",
+      "body": "You can answer a question with a plain <i>yeah</i> or <i>no</i>. You can also put an emphatic word in front, as in <i>hell yeah</i>, to show you feel strongly about the answer. The word added doesn't change the answer: <i>hell yeah</i> still means <i>yes</i>, and <i>hell fucking no</i> still means <i>no</i>. It adds emotion.\n\nSome of these combinations use profane words. They're also a small, specific set, not a rule that lets any emphatic word go with any answer. Some are also used to start a longer reply, with the rest of the turn following.",
       "examples": [
         {
           "text": "hell yeah.",
@@ -183,11 +183,11 @@
           "from": "constructed"
         }
       ],
-      "try": "Notice a time someone answered a question with extra force. Was the answer itself different from a plain yes or no, or only the feeling?"
+      "try": "Notice a time someone answered a question with extra force. Was the answer itself different from a plain <i>yes</i> or <i>no</i>, or only the feeling?"
     },
     "teacher": {
       "summary": "Likely relevant only for advanced or register-focused classes; this dictionary covers informal, profane emphatic responses.",
-      "explain": "This is a family of related local patterns where an emphatic expression precedes a polarity response (yeah, yes, no), adding emotional emphasis while keeping the response's orientation. It is not a free combination: this dictionary documents particular forms, such as hell yeah, shit no, fuck yes and hell fucking no. Norrick (2009: 880) treats hell in hell yeah and shit in shit no as intensifiers, and the whole expression can work as a pragmatic marker before a longer turn. The reverse order no shit has a different idiomatic meaning and falls outside the family. Emotional emphasis doesn't necessarily raise certainty or express approval of the event.",
+      "explain": "This is a family of related local patterns where an emphatic expression precedes a polarity response (<i>yeah</i>, <i>yes</i>, <i>no</i>), adding emotional emphasis while keeping the response's orientation. It is not a free combination: this dictionary documents particular forms, such as <i>hell yeah</i>, <i>shit no</i>, <i>fuck yes</i> and <i>hell fucking no</i>. Norrick (2009: 880) treats <i>hell</i> in <i>hell yeah</i> and <i>shit</i> in <i>shit no</i> as intensifiers, and the whole expression can work as a pragmatic marker before a longer turn. The reverse order <i>no shit</i> has a different idiomatic meaning and falls outside the family. Emotional emphasis doesn't necessarily raise certainty or express approval of the event.",
       "terms": "Intensifier describes the internal contribution of the emphatic word; pragmatic marker describes a use of the whole expression. This dictionary says neither label settles the word's lexical category.",
       "examples": [
         {
@@ -211,20 +211,20 @@
         {
           "text": "Fuck yes!",
           "from": "entry",
-          "note": "One published source gives fuck yes and fuck no but excludes fucking yes and fucking no."
+          "note": "One published source gives <i>fuck yes</i> and <i>fuck no</i> but excludes <i>fucking yes</i> and <i>fucking no</i>."
         },
         {
           "text": "Fucking yes!",
           "from": "entry",
-          "note": "A corpus concordance line supplied for this dictionary attests the bare fucking yes."
+          "note": "A corpus concordance line supplied for this dictionary attests the bare <i>fucking yes</i>."
         }
       ],
       "watch_for": [
         "A learner might treat an emphatic response as a free pattern in which any emphatic word can precede any answer word.",
-        "A learner might take emphatic hell yeah to express approval of the event, when this dictionary says emphasis need not mean approval.",
-        "A learner might read no shit as the same pattern reversed, although it has a different idiomatic meaning."
+        "A learner might take emphatic <i>hell yeah</i> to express approval of the event, when this dictionary says emphasis need not mean approval.",
+        "A learner might read <i>no shit</i> as the same pattern reversed, although it has a different idiomatic meaning."
       ],
-      "activity": "Students discuss, in pairs, when a plain yes or no would be heard as flat and when an emphatic response would be out of place in a class, workplace or home setting, then rewrite two emphatic replies into neutral ones."
+      "activity": "Students discuss, in pairs, when a plain <i>yes</i> or <i>no</i> would be heard as flat and when an emphatic response would be out of place in a class, workplace or home setting, then rewrite two emphatic replies into neutral ones."
     }
   },
   "status": {
@@ -245,10 +245,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Emphatic Polarity Response Family.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/emphatic-polarity-response-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Emphatic Polarity Response Family.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/emphatic-polarity-response-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

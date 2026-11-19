@@ -1,6 +1,6 @@
 {
   "id": "numerative-addition-asyndetic-001",
-  "name": "Numerative Addition Coordination (without and)",
+  "name": "Numerative Addition Coordination (without <i>and</i>)",
   "pattern": "[DP magnitude] + [DP/NP addition]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/numerative-addition-asyndetic-001/",
@@ -9,7 +9,7 @@
   },
   "entry": {
     "id": "numerative-addition-asyndetic-001",
-    "name": "Numerative Addition Coordination (without and)",
+    "name": "Numerative Addition Coordination (without <i>and</i>)",
     "pattern": "[DP magnitude] + [DP/NP addition]",
     "type": "syntactic",
     "dimensions": {
@@ -20,7 +20,7 @@
     },
     "meanings": {
       "1": {
-        "definition": "Additive numerative formed by juxtaposing magnitude and addition without and",
+        "definition": "Additive numerative formed by juxtaposing magnitude and addition without <i>and</i>",
         "examples": [
           {
             "form": "two hundred five",
@@ -36,7 +36,7 @@
     "constraints": [
       {
         "type": "structural",
-        "description": "Coordination targets numerative constituents; the coordinator and is omitted."
+        "description": "Coordination targets numerative constituents; the coordinator <i>and</i> is omitted."
       },
       {
         "type": "structural",
@@ -96,7 +96,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "In two hundred five, five is added to a complete magnitude phrase. It contributes the same remainder as five in two hundred and five even though there is no spoken coordinator. This differs from a factor selecting a magnitude, as in five hundred.",
+        "target": "In <i>two hundred five</i>, <i>five</i> is added to a complete magnitude phrase. It contributes the same remainder as <i>five</i> in <i>two hundred and five</i> even though there is no spoken coordinator. This differs from a factor selecting a magnitude, as in <i>five hundred</i>.",
         "evidence": "The paper compares asyndetic addition, marked addition, and multiplicative modification by word order and prosody.",
         "confidence": "medium"
       }
@@ -104,9 +104,9 @@
   },
   "editions": {
     "curious": {
-      "title": "Big numbers said without and",
-      "summary": "Some numbers are built by putting a small number straight after a large one, with no and between them.",
-      "body": "In two hundred five, the five is added to two hundred, even though nothing joins them. It means the same as two hundred and five. Two thousand seven works the same way.\n\nThis dictionary says the version without and is strongly preferred in American English and in faster or less formal speech. The five here is an addition to a complete amount. That differs from five hundred, where five says how many hundreds.",
+      "title": "Big numbers said without <i>and</i>",
+      "summary": "Some numbers are built by putting a small number straight after a large one, with no <i>and</i> between them.",
+      "body": "In <i>two hundred five</i>, the <i>five</i> is added to <i>two hundred</i>, even though nothing joins them. It means the same as <i>two hundred and five</i>. <i>Two thousand seven</i> works the same way.\n\nThis dictionary says the version without <i>and</i> is strongly preferred in American English and in faster or less formal speech. The <i>five</i> here is an addition to a complete amount. That differs from <i>five hundred</i>, where <i>five</i> says how many hundreds.",
       "examples": [
         {
           "text": "[two hundred five]",
@@ -117,11 +117,11 @@
           "from": "entry"
         }
       ],
-      "try": "Say two hundred five and two hundred and five. Do they mean the same number?"
+      "try": "Say <i>two hundred five</i> and <i>two hundred and five</i>. Do they mean the same number?"
     },
     "teacher": {
-      "summary": "Shows that two hundred five is addition with no spoken and, parallel to the version with and.",
-      "explain": "This construction adds a smaller number to a complete magnitude phrase by juxtaposition, with the coordinator and omitted: two hundred five means 200 + 5. The dictionary analyzes it as coordination without a spoken coordinator. The addition coordinate can itself be a basic numerative or a magnitude phrase, so the pattern is recursive. In two hundred five, five contributes the same remainder as in two hundred and five. This differs from five hundred, where a factor selects a magnitude. The dictionary notes that this form is strongly preferred in American English and in faster or less formal registers. It marks this account as provisional.",
+      "summary": "Shows that <i>two hundred five</i> is addition with no spoken <i>and</i>, parallel to the version with <i>and</i>.",
+      "explain": "This construction adds a smaller number to a complete magnitude phrase by juxtaposition, with the coordinator <i>and</i> omitted: <i>two hundred five</i> means 200 + 5. The dictionary analyzes it as coordination without a spoken coordinator. The addition coordinate can itself be a basic numerative or a magnitude phrase, so the pattern is recursive. In <i>two hundred five</i>, <i>five</i> contributes the same remainder as in <i>two hundred and five</i>. This differs from <i>five hundred</i>, where a factor selects a magnitude. The dictionary notes that this form is strongly preferred in American English and in faster or less formal registers. It marks this account as provisional.",
       "terms": "Numerative is this grammar's term for number words, where a textbook may say numeral. Asyndetic means joined without a coordinator.",
       "examples": [
         {
@@ -137,12 +137,12 @@
         {
           "text": "[two hundred five]",
           "from": "entry",
-          "note": "Addition with no and (200 + 5)."
+          "note": "Addition with no <i>and</i> (200 + 5)."
         },
         {
           "text": "[two hundred and five]",
           "from": "entry",
-          "note": "Addition with and (200 + 5)."
+          "note": "Addition with <i>and</i> (200 + 5)."
         },
         {
           "text": "[five hundred]",
@@ -151,10 +151,10 @@
         }
       ],
       "watch_for": [
-        "A learner might think a number without and is missing something.",
-        "A learner might read two hundred five as two hundred multiplied by five."
+        "A learner might think a number without <i>and</i> is missing something.",
+        "A learner might read <i>two hundred five</i> as two hundred multiplied by five."
       ],
-      "activity": "Dictate numbers such as 205, 2007 and 3006. Students write them in digits, then say each aloud in both styles, with and and without it."
+      "activity": "Dictate numbers such as 205, 2007 and 3006. Students write them in digits, then say each aloud in both styles, with <i>and</i> and without it."
     }
   },
   "status": {
@@ -175,10 +175,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Numerative Addition Coordination (without and).\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/numerative-addition-asyndetic-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Numerative Addition Coordination (without <i>and</i>).\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/numerative-addition-asyndetic-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

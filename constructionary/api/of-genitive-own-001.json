@@ -1,6 +1,6 @@
 {
   "id": "of-genitive-own-001",
-  "name": "Of with a Genitive Pronoun and Own",
+  "name": "<i>X of one’s own</i>",
   "pattern": "NP[... N + PP[of + NP[dependent genitive pronoun + own]]]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/of-genitive-own-001/",
@@ -10,17 +10,17 @@
   },
   "entry": {
     "id": "of-genitive-own-001",
-    "name": "Of with a Genitive Pronoun and Own",
+    "name": "<i>X of one’s own</i>",
     "pattern": "NP[... N + PP[of + NP[dependent genitive pronoun + own]]]",
     "type": "mixed",
     "meanings": {
       "1": {
         "definition": "Presents an entity as set aside for someone’s ownership or independent use.",
-        "details": "My own uses the dependent genitive form. CGEL contrasts a car of my own and a car of mine. Harjo’s motel-room example specifies independent use through rental. Comparing a room of her own with her own room and a room of hers in the same new rental context would help show which contribution belongs to the of pattern.",
+        "details": "<i>My own</i> uses the dependent genitive form. CGEL contrasts <i>a car of my own</i> and <i>a car of mine</i>. Harjo’s motel-room example specifies independent use through rental. Comparing <i>a room of her own</i> with <i>her own room</i> and <i>a room of hers</i> in the same new rental context would help show which contribution belongs to the of pattern.",
         "examples": [
           {
             "form": "I’ve got [a car of my own].",
-            "note": "CGEL's special use of own.",
+            "note": "CGEL's special use of <i>own</i>.",
             "grounds": [
               {
                 "source": "cgel-2002",
@@ -32,7 +32,7 @@
           },
           {
             "form": "[a room all of my own]",
-            "note": "All can emphasize the relation.",
+            "note": "<i>All</i> can emphasize the relation.",
             "grounds": [
               {
                 "source": "cgel-2002",
@@ -61,28 +61,28 @@
       {
         "id": "independent-genitive-pronoun-001",
         "relationship": "related-to",
-        "notes": "Of mine is the corresponding pronoun pattern without own."
+        "notes": "<i>Of mine</i> is the corresponding pronoun pattern without <i>own</i>."
       },
       {
         "id": "demonstrative-oblique-genitive-001",
         "relationship": "related-to",
-        "notes": "Both involve of and genitive forms. The own phrase uses the dependent form of the pronoun."
+        "notes": "Both involve <i>of</i> and genitive forms. The <i>own</i> phrase uses the dependent form of the pronoun."
       }
     ],
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The construction can describe independent use without legal ownership, and uses my own where the simple genitive would have mine.",
-        "evidence": "CGEL's form contrast and Harjo's rental example. The pre-head own comparison remains a proposed test.",
+        "target": "The construction can describe independent use without legal ownership, and uses <i>my own</i> where the simple genitive would have <i>mine</i>.",
+        "evidence": "CGEL's form contrast and Harjo's rental example. The pre-head <i>own</i> comparison remains a proposed test.",
         "confidence": "medium"
       }
     }
   },
   "editions": {
     "curious": {
-      "title": "A car of my own",
-      "summary": "A phrase like a car of my own presents something as set aside for your ownership or use.",
-      "body": "A car of my own presents the car as set aside for someone's ownership or independent use. The pattern is a noun, then of, then a genitive pronoun such as my, then own. The same idea without own uses a different pronoun form: a car of mine.\n\nIt needn't mean legal ownership. Someone imagining renting a room to sleep and paint in can still call it a room of my own. The word all can add emphasis, as in a room all of my own.",
+      "title": "<i>A car of my own</i>",
+      "summary": "A phrase like <i>a car of my own</i> presents something as set aside for your ownership or use.",
+      "body": "<i>A car of my own</i> presents the car as set aside for someone's ownership or independent use. The pattern is a noun, then <i>of</i>, then a genitive pronoun such as <i>my</i>, then <i>own</i>. The same idea without <i>own</i> uses a different pronoun form: <i>a car of mine</i>.\n\nIt needn't mean legal ownership. Someone imagining renting a room to sleep and paint in can still call it <i>a room of my own</i>. The word <i>all</i> can add emphasis, as in <i>a room all of my own</i>.",
       "examples": [
         {
           "text": "I've got [a car of my own].",
@@ -97,12 +97,12 @@
           "from": "entry"
         }
       ],
-      "try": "Finish the sentence: I'd like a ___ of my own. Does your phrase mean you own it, or only that you can use it?"
+      "try": "Finish the sentence: <i>I'd like a ___ of my own</i>. Does your phrase mean you own it, or only that you can use it?"
     },
     "teacher": {
-      "summary": "Explains the pattern a room of my own and how it contrasts with a room of mine.",
-      "explain": "The pattern is a noun followed by of plus a dependent genitive pronoun and own (a car of my own). It presents an entity as set aside for someone's ownership or independent use, and it can describe independent use without legal ownership. CGEL contrasts a car of my own with a car of mine: my own uses the dependent genitive form, where the simple pattern uses the independent form mine. All can emphasize the relation (a room all of my own). This dictionary proposes comparing a room of her own, her own room and a room of hers in a new rental context, but that remains a proposed test. It is provisional.",
-      "terms": "Traditional grammar calls my a possessive adjective or determiner and mine a possessive pronoun. This dictionary says dependent genitive and independent genitive.",
+      "summary": "Explains the pattern <i>a room of my own</i> and how it contrasts with <i>a room of mine</i>.",
+      "explain": "The pattern is a noun followed by <i>of</i> plus a dependent genitive pronoun and <i>own</i> (<i>a car of my own</i>). It presents an entity as set aside for someone's ownership or independent use, and it can describe independent use without legal ownership. CGEL contrasts <i>a car of my own</i> with <i>a car of mine</i>: <i>my own</i> uses the dependent genitive form, where the simple pattern uses the independent form <i>mine</i>. <i>All</i> can emphasize the relation (<i>a room all of my own</i>). This dictionary proposes comparing <i>a room of her own</i>, <i>her own room</i> and <i>a room of hers</i> in a new rental context, but that remains a proposed test. It is provisional.",
+      "terms": "Traditional grammar calls <i>my</i> a possessive adjective or determiner and <i>mine</i> a possessive pronoun. This dictionary says dependent genitive and independent genitive.",
       "examples": [
         {
           "text": "I've got [a car of my own].",
@@ -121,12 +121,12 @@
         {
           "text": "a car of my own",
           "from": "entry",
-          "note": "Dependent genitive plus own, after of."
+          "note": "Dependent genitive plus <i>own</i>, after <i>of</i>."
         },
         {
           "text": "a car of mine",
           "from": "entry",
-          "note": "Independent genitive, without own."
+          "note": "Independent genitive, without <i>own</i>."
         },
         {
           "text": "her own room",
@@ -135,14 +135,14 @@
         }
       ],
       "watch_for": [
-        "A learner might assume a car of my own requires legal ownership, when it can describe independent use.",
-        "A learner might blend the two patterns, when this dictionary pairs my own with of and mine with the pattern without own."
+        "A learner might assume <i>a car of my own</i> requires legal ownership, when it can describe independent use.",
+        "A learner might blend the two patterns, when this dictionary pairs <i>my own</i> with <i>of</i> and <i>mine</i> with the pattern without <i>own</i>."
       ],
-      "activity": "Students complete sentences such as I'd like a ___ of my own with a noun of their choice. They then rewrite each with of mine and discuss whether they still mean set aside for me."
+      "activity": "Students complete sentences such as <i>I'd like a ___ of my own</i> with a noun of their choice. They then rewrite each with <i>of mine</i> and discuss whether they still mean set aside for me."
     },
     "child": {
-      "hook": "What does a room of your own mean?",
-      "explain": "A room of my own is a room that's just for me. After of, we say my own. Without own, we say mine, as in a room of mine.",
+      "hook": "What does <i>a room of your own</i> mean?",
+      "explain": "<i>A room of my own</i> is a room that's just for me. After <i>of</i>, we say <i>my own</i>. Without <i>own</i>, we say <i>mine</i>, as in <i>a room of mine</i>.",
       "examples": [
         {
           "text": "I've got [a car of my own].",
@@ -153,7 +153,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Finish the sentence for yourself. I'd like a ___ of my own. Then ask a friend what they'd pick."
+      "play": "Finish the sentence for yourself. <i>I'd like a ___ of my own</i>. Then ask a friend what they'd pick."
     }
   },
   "status": {
@@ -174,10 +174,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Of with a Genitive Pronoun and Own.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/of-genitive-own-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"<i>X of one’s own</i>.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/of-genitive-own-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

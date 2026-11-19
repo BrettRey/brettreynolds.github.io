@@ -40,11 +40,11 @@
     "constraints": [
       {
         "type": "syntactic",
-        "description": "Cardinal noun heads a bare NP; resists determiners (*the seven is prime)."
+        "description": "Cardinal noun heads a bare NP; resists determiners (*<i>the seven is prime</i>)."
       },
       {
         "type": "syntactic",
-        "description": "Resists attributive modifiers (*prime seven is odd)."
+        "description": "Resists attributive modifiers (*<i>prime seven is odd</i>)."
       },
       {
         "type": "semantic",
@@ -91,7 +91,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "In Seven is prime, seven is an independent subject naming a number. In seven pages, seven supplies cardinal determination. Plural sevens can instead count instances of a written symbol or value.",
+        "target": "In <i>Seven is prime</i>, <i>seven</i> is an independent subject naming a number. In <i>seven pages</i>, <i>seven</i> supplies cardinal determination. Plural <i>sevens</i> can instead count instances of a written symbol or value.",
         "evidence": "Reynolds distinguishes abstract-name, token, and quantificational uses by their distributions.",
         "confidence": "medium"
       }
@@ -101,7 +101,7 @@
     "curious": {
       "title": "Numbers as things we talk about",
       "summary": "A bare number word can be the subject of a sentence about the number itself.",
-      "body": "In Seven is prime, seven isn't counting anything. It names a number, and the sentence says something about that number. The same goes for Twenty is even and Two plus two is four.\n\nCompare seven pages, where seven tells you how many pages there are. In the mathematical use, the number word stands alone, with no the or other describing word in front. It acts like a name for one particular number.",
+      "body": "In <i>Seven is prime</i>, <i>seven</i> isn't counting anything. It names a number, and the sentence says something about that number. The same goes for <i>Twenty is even</i> and <i>Two plus two is four</i>.\n\nCompare <i>seven pages</i>, where <i>seven</i> tells you how many pages there are. In the mathematical use, the number word stands alone, with no <i>the</i> or other describing word in front. It acts like a name for one particular number.",
       "examples": [
         {
           "text": "[Seven] is prime.",
@@ -116,11 +116,11 @@
           "from": "entry"
         }
       ],
-      "try": "Compare \"Seven is prime\" with \"I read seven pages.\" In which sentence is seven counting something, and in which is it the thing being described?"
+      "try": "Compare \"<i>Seven is prime</i>\" with \"<i>I read seven pages</i>.\" In which sentence is <i>seven</i> counting something, and in which is it the thing being described?"
     },
     "teacher": {
       "summary": "Shows number words used as names of numbers in mathematical statements, in contrast with number words that count.",
-      "explain": "In Seven is prime, seven is a cardinal noun heading a bare NP in subject position. It denotes an abstract mathematical object, not a count or quantity, and rigidly designates a particular number. This dictionary notes that it resists determiners and attributive modifiers. Compare seven pages, where seven supplies cardinal determination. The plural sevens can instead count instances of a written symbol or value. This dictionary bases the distinction between abstract-name, token and quantificational uses on their distributions.",
+      "explain": "In <i>Seven is prime</i>, <i>seven</i> is a cardinal noun heading a bare NP in subject position. It denotes an abstract mathematical object, not a count or quantity, and rigidly designates a particular number. This dictionary notes that it resists determiners and attributive modifiers. Compare <i>seven pages</i>, where <i>seven</i> supplies cardinal determination. The plural <i>sevens</i> can instead count instances of a written symbol or value. This dictionary bases the distinction between abstract-name, token and quantificational uses on their distributions.",
       "terms": "Cardinal noun: a number word used as a noun.",
       "examples": [
         {
@@ -140,12 +140,12 @@
         {
           "text": "Seven is prime.",
           "from": "entry",
-          "note": "Seven names a number."
+          "note": "<i>Seven</i> names a number."
         },
         {
           "text": "seven pages",
           "from": "constructed",
-          "note": "Seven counts pages."
+          "note": "<i>Seven</i> counts pages."
         },
         {
           "text": "the seven is prime",
@@ -159,10 +159,10 @@
         }
       ],
       "watch_for": [
-        "A learner might read Seven is prime as describing seven of something.",
-        "A learner might add the or an adjective in front of the number word, as in the seven is prime."
+        "A learner might read <i>Seven is prime</i> as describing seven of something.",
+        "A learner might add the or an adjective in front of the number word, as in <i>the seven is prime</i>."
       ],
-      "activity": "Students sort sentences into two piles, those where a number word names a number (Twenty is even) and those where it counts things (seven pages), then write one new sentence for each pile."
+      "activity": "Students sort sentences into two piles, those where a number word names a number (<i>Twenty is even</i>) and those where it counts things (<i>seven pages</i>), then write one new sentence for each pile."
     }
   },
   "status": {
@@ -184,10 +184,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Abstract Numeral Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/abstract-numeral-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Abstract Numeral Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/abstract-numeral-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

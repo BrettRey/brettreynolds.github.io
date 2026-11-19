@@ -15,7 +15,7 @@
     "meanings": {
       "1": {
         "definition": "Degree word and adjective precede the indefinite article, expressing degree or extent of the adjectival property",
-        "details": "A degree-marked adjective phrase, including certain comparatives, precedes the indefinite article, inverting the normal order (cf. \"a big mess\" → \"how big a mess\"). Only compatible with indefinite \"a(n)\", not definite \"the\" (*\"how big the mess\"). The \"how\" variant can function as an interrogative phrase, fronting to clause-initial position. Variants differ in register. An intervening of is especially familiar in North American varieties and is more available with some degree phrases than others.",
+        "details": "A degree-marked adjective phrase, including certain comparatives, precedes the indefinite article, inverting the normal order (cf. \"<i>a big mess</i>\" → \"<i>how big a mess</i>\"). Only compatible with indefinite \"<i>a(n)</i>\", not definite \"<i>the</i>\" (*\"<i>how big the mess</i>\"). The \"<i>how</i>\" variant can function as an interrogative phrase, fronting to clause-initial position. Variants differ in register. An intervening <i>of</i> is especially familiar in North American varieties and is more available with some degree phrases than others.",
         "examples": [
           {
             "form": "[How big a mess] was it?",
@@ -23,23 +23,23 @@
           },
           {
             "form": "He's not [that good a teacher].",
-            "note": "Degree word \\\"that\\\"; negative context common"
+            "note": "Degree word \\\"<i>that</i>\\\"; negative context common"
           },
           {
             "form": "It was [too big a problem] to ignore.",
-            "note": "Degree word \\\"too\\\" with infinitival complement"
+            "note": "Degree word \\\"<i>too</i>\\\" with infinitival complement"
           },
           {
             "form": "She's [so good a student] that she skipped a year.",
-            "note": "Degree word \\\"so\\\" with result clause"
+            "note": "Degree word \\\"<i>so</i>\\\" with result clause"
           },
           {
             "form": "It's not [as big a deal] as you think.",
-            "note": "Comparative \\\"as...as\\\" construction"
+            "note": "Comparative \\\"<i>as...as</i>\\\" construction"
           },
           {
             "form": "I've never seen [so big a crowd].",
-            "note": "\"So\" variant; more literary than other degree words"
+            "note": "\"<i>So</i>\" variant; more literary than other degree words"
           },
           {
             "form": "It's not [that big of a deal].",
@@ -63,26 +63,26 @@
     "constraints": [
       {
         "type": "syntactic",
-        "description": "Eligible phrases include those with how, so, too, that and as and certain comparatives. Ordinary very uses a different word order."
+        "description": "Eligible phrases include those with <i>how</i>, <i>so</i>, <i>too</i>, <i>that</i> and <i>as</i> and certain comparatives. Ordinary <i>very</i> uses a different word order."
       },
       {
         "type": "syntactic",
-        "description": "Article must be indefinite a(n); definite the is ungrammatical"
+        "description": "Article must be indefinite <i>a(n)</i>; definite <i>the</i> is ungrammatical"
       },
       {
         "type": "syntactic",
-        "description": "\"How\" variant can be interrogative, fronting to clause-initial position"
+        "description": "\"<i>How</i>\" variant can be interrogative, fronting to clause-initial position"
       },
       {
         "type": "pragmatic",
-        "description": "Acceptability and register depend on the degree phrase and the availability of the intervening of variant."
+        "description": "Acceptability and register depend on the degree phrase and the availability of the intervening <i>of</i> variant."
       }
     ],
     "dimensions": {
       "form": "Degree word + adjective + indefinite article + noun",
       "meaning": "Expresses degree/extent of adjectival property; scalar semantics",
       "function": "Degree modification with displaced adjective",
-      "distribution": "Common in speech and writing; competes with such a big N and a N that big"
+      "distribution": "Common in speech and writing; competes with <i>such a big N</i> and <i>a N that big</i>"
     },
     "relatedConstructions": [
       {
@@ -115,17 +115,17 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "An eligible degree phrase can precede a in too serious a problem. Ordinary very yields a very serious problem. Comparatives are also documented, and acceptability of of varies with the particular degree expression and variety.",
-        "evidence": "The FrameNet chapter gives the comparatives alongside so, as, how, that and too. It explicitly leaves the distribution of intervening of open.",
+        "target": "An eligible degree phrase can precede <i>a</i> in <i>too serious a problem</i>. Ordinary <i>very</i> yields <i>a very serious problem</i>. Comparatives are also documented, and acceptability of <i>of</i> varies with the particular degree expression and variety.",
+        "evidence": "The FrameNet chapter gives the comparatives alongside <i>so</i>, <i>as</i>, <i>how</i>, <i>that</i> and <i>too</i>. It explicitly leaves the distribution of intervening <i>of</i> open.",
         "confidence": "medium"
       }
     }
   },
   "editions": {
     "curious": {
-      "title": "How big a mess, too big a problem",
-      "summary": "With words like how, too, so, that and as, the adjective can move in front of a or an.",
-      "body": "In a big mess, the adjective sits between a and the noun. But after words such as how, so, too, that and as, the adjective moves forward and a follows it. So we say how big a mess, too big a problem, so good a student, not that good a teacher.\n\nThe word a or an has to stay: this pattern doesn't work with the. In some varieties you can also add of, as in that big of a deal, though whether of is acceptable depends on the degree word and the variety. The ordinary word very doesn't do this, and takes the usual order: a very serious problem.",
+      "title": "<i>How big a mess</i>, <i>too big a problem</i>",
+      "summary": "With words like <i>how</i>, <i>too</i>, <i>so</i>, <i>that</i> and <i>as</i>, the adjective can move in front of <i>a</i> or <i>an</i>.",
+      "body": "In <i>a big mess</i>, the adjective sits between <i>a</i> and the noun. But after words such as <i>how</i>, <i>so</i>, <i>too</i>, <i>that</i> and <i>as</i>, the adjective moves forward and <i>a</i> follows it. So we say <i>how big a mess</i>, <i>too big a problem</i>, <i>so good a student</i>, not <i>that good a teacher</i>.\n\nThe word <i>a</i> or <i>an</i> has to stay: this pattern doesn't work with <i>the</i>. In some varieties you can also add <i>of</i>, as in <i>that big of a deal</i>, though whether <i>of</i> is acceptable depends on the degree word and the variety. The ordinary word <i>very</i> doesn't do this, and takes the usual order: <i>a very serious problem</i>.",
       "examples": [
         {
           "text": "[How big a mess] was it?",
@@ -144,12 +144,12 @@
           "from": "entry"
         }
       ],
-      "try": "Start from a big mess and ask how big a mess. Then try the same with the, and see whether it still works."
+      "try": "Start from <i>a big mess</i> and ask <i>how big a mess</i>. Then try the same with <i>the</i>, and see whether it still works."
     },
     "teacher": {
-      "summary": "Explains inverted order after degree words (how big a mess) and the a(n)-only restriction.",
-      "explain": "A degree word plus an adjective can precede the indefinite article, reversing the usual order: a big mess becomes how big a mess. Eligible phrases include those with how, so, too, that and as, and certain comparatives (more interesting a job). The article must be indefinite a(n); the doesn't fit, as in how big the mess. The how version can be an interrogative phrase, fronted to the start of the clause. Ordinary very uses a different word order (a very serious problem). An intervening of (that big of a deal) is especially familiar in North American varieties and is more available with some degree words than others. Register differs among the variants.",
-      "terms": "Degree word: a word such as how, so, too or as that modifies the adjective. Indefinite article: a or an, the words CGEL classes as determinatives.",
+      "summary": "Explains inverted order after degree words (<i>how big a mess</i>) and the <i>a(n)</i>-only restriction.",
+      "explain": "A degree word plus an adjective can precede the indefinite article, reversing the usual order: <i>a big mess</i> becomes <i>how big a mess</i>. Eligible phrases include those with <i>how</i>, <i>so</i>, <i>too</i>, <i>that</i> and <i>as</i>, and certain comparatives (<i>more interesting a job</i>). The article must be indefinite <i>a(n)</i>; <i>the</i> doesn't fit, as in <i>how big the mess</i>. The <i>how</i> version can be an interrogative phrase, fronted to the start of the clause. Ordinary <i>very</i> uses a different word order (<i>a very serious problem</i>). An intervening <i>of</i> (<i>that big of a deal</i>) is especially familiar in North American varieties and is more available with some degree words than others. Register differs among the variants.",
+      "terms": "Degree word: a word such as <i>how</i>, <i>so</i>, <i>too</i> or <i>as</i> that modifies the adjective. Indefinite article: <i>a</i> or <i>an</i>, the words CGEL classes as determinatives.",
       "examples": [
         {
           "text": "[How big a mess] was it?",
@@ -176,26 +176,26 @@
         {
           "text": "a big mess",
           "from": "constructed",
-          "note": "Ordinary order, with the adjective after a."
+          "note": "Ordinary order, with the adjective after <i>a</i>."
         },
         {
           "text": "how big the mess",
           "from": "entry",
           "acceptable": false,
-          "note": "This dictionary stars this version with the."
+          "note": "This dictionary stars this version with <i>the</i>."
         },
         {
           "text": "a very serious problem",
           "from": "constructed",
-          "note": "Very keeps the usual order."
+          "note": "<i>Very</i> keeps the usual order."
         }
       ],
       "watch_for": [
-        "A learner might put the definite article into the pattern, as in how big the mess.",
-        "A learner might expect very to behave like how and so, and move the adjective in front of a.",
-        "A learner might assume that of is available with every degree word, though this dictionary notes this varies with the degree word and variety."
+        "A learner might put the definite article into the pattern, as in <i>how big the mess</i>.",
+        "A learner might expect <i>very</i> to behave like <i>how</i> and <i>so</i>, and move the adjective in front of <i>a</i>.",
+        "A learner might assume that <i>of</i> is available with every degree word, though this dictionary notes this varies with the degree word and variety."
       ],
-      "activity": "Give students a big mess, a good teacher and a serious problem. They build how, too, so and as versions, then check each with a different noun and say which degree words they can use."
+      "activity": "Give students <i>a big mess</i>, <i>a good teacher</i> and <i>a serious problem</i>. They build <i>how</i>, <i>too</i>, <i>so</i> and <i>as</i> versions, then check each with a different noun and say which degree words they can use."
     }
   },
   "status": {
@@ -217,10 +217,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Degree-Adjective-Indefinite (Big Mess Construction).\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/degree-adjective-indefinite-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Degree-Adjective-Indefinite (Big Mess Construction).\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/degree-adjective-indefinite-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

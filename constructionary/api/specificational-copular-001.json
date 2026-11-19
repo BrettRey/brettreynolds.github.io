@@ -53,7 +53,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The permit supplies a value rather than a general property. The reverse order can preserve the identification while changing the informational packaging.",
+        "target": "<i>The permit</i> supplies a value rather than a general property. The reverse order can preserve the identification while changing the informational packaging.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -63,7 +63,7 @@
     "curious": {
       "title": "Sentences that fill in an answer",
       "summary": "Some sentences with is set up a description and then name what fits it.",
-      "body": "The main obstacle is the permit. The phrase the main obstacle sets up a description, and the permit fills it in. It names which thing fits. This is different from a sentence that just says what something is like.\n\nYou can reverse the order: The permit is the main obstacle. It still identifies the same obstacle, though the information is packaged differently. This dictionary marks the analysis as provisional.",
+      "body": "<i>The main obstacle is the permit</i>. The phrase <i>the main obstacle</i> sets up a description, and <i>the permit</i> fills it in. It names which thing fits. This is different from a sentence that just says what something is like.\n\nYou can reverse the order: <i>The permit is the main obstacle</i>. It still identifies the same obstacle, though the information is packaged differently. This dictionary marks the analysis as provisional.",
       "examples": [
         {
           "text": "[The main obstacle is the permit].",
@@ -74,11 +74,11 @@
           "from": "entry"
         }
       ],
-      "try": "Complete The biggest problem is ... and then reverse it. What does each order put first?"
+      "try": "Complete <i>The biggest problem is ...</i> and then reverse it. What does each order put first?"
     },
     "teacher": {
-      "summary": "Helps explain be-clauses that identify a value for a description.",
-      "explain": "A specificational copular clause pairs a variable NP with a value expression and be: it identifies a value for a description made salient by the other copular expression. In The main obstacle is the permit, the permit supplies a value rather than a general property. The reverse order, The permit is the main obstacle, can preserve the identification while changing the informational packaging. This dictionary treats the pattern as a specialization of the clause and relates it to pseudo-clefts and to subject-ascriptive clauses. The analysis is marked provisional.",
+      "summary": "Helps explain <i>be</i>-clauses that identify a value for a description.",
+      "explain": "A specificational copular clause pairs a variable NP with a value expression and be: it identifies a value for a description made salient by the other copular expression. In <i>The main obstacle is the permit</i>, <i>the permit</i> supplies a value rather than a general property. The reverse order, <i>The permit is the main obstacle</i>, can preserve the identification while changing the informational packaging. This dictionary treats the pattern as a specialization of the clause and relates it to pseudo-clefts and to subject-ascriptive clauses. The analysis is marked provisional.",
       "terms": "Compare ascriptive clauses, which ascribe a property. In this dictionary the related pattern is subject-ascriptive.",
       "examples": [
         {
@@ -103,10 +103,10 @@
         }
       ],
       "watch_for": [
-        "A learner might read the permit as describing a property of the obstacle, when it supplies a value.",
+        "A learner might read <i>the permit</i> as describing a property of the obstacle, when it supplies a value.",
         "A learner might treat the reversed order as changing which obstacle is identified."
       ],
-      "activity": "Students write a description-then-value sentence (The winner is ...), reverse it, and say what each order puts first."
+      "activity": "Students write a description-then-value sentence (<i>The winner is ...</i>), reverse it, and say what each order puts first."
     }
   },
   "status": {
@@ -127,10 +127,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Specificational Copular Clause.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/specificational-copular-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Specificational Copular Clause.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/specificational-copular-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

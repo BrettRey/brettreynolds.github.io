@@ -34,7 +34,7 @@
         "id": "perfect-have-001",
         "relationship": "contains",
         "parthood": "formal",
-        "notes": "Perfect have locates the assessed event before the reference time."
+        "notes": "Perfect <i>have</i> locates the assessed event before the reference time."
       }
     ],
     "grounds": [
@@ -48,7 +48,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "On the inferential reading, must expresses the current conclusion and have places the rain earlier. A past requirement ordinarily calls for had to rather than this construction.",
+        "target": "On the inferential reading, <i>must</i> expresses the current conclusion and <i>have</i> places the rain earlier. A past requirement ordinarily calls for <i>had to</i> rather than this construction.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -56,9 +56,9 @@
   },
   "editions": {
     "curious": {
-      "title": "Judging the past with must have",
-      "summary": "A modal verb of judging, followed by have and a past participle, assesses an earlier situation from a later point of view.",
-      "body": "In It must have rained last night, the speaker is judging what happened earlier. The modal must brings the speaker's assessment, and have followed by the past participle (rained) places the event before the point of view the speaker is judging from.\n\nThe pattern assesses an earlier situation from a later point of view. It is built from a modal verb followed by perfect have.",
+      "title": "Judging the past with <i>must have</i>",
+      "summary": "A modal verb of judging, followed by <i>have</i> and a past participle, assesses an earlier situation from a later point of view.",
+      "body": "In <i>It must have rained last night</i>, the speaker is judging what happened earlier. The modal <i>must</i> brings the speaker's assessment, and <i>have</i> followed by the past participle (<i>rained</i>) places the event before the point of view the speaker is judging from.\n\nThe pattern assesses an earlier situation from a later point of view. It is built from a modal verb followed by perfect <i>have</i>.",
       "examples": [
         {
           "text": "It [must have rained] last night.",
@@ -69,12 +69,12 @@
           "from": "constructed"
         }
       ],
-      "try": "Look at a clue in the room, such as wet shoes. What could you say about what happened earlier, starting with must have?"
+      "try": "Look at a clue in the room, such as wet shoes. What could you say about what happened earlier, starting with <i>must have</i>?"
     },
     "teacher": {
-      "summary": "Helps explain an epistemic modal followed by perfect have as an assessment of an earlier situation.",
-      "explain": "The pattern is VP[epistemic modal + have + past participle]. It assesses an earlier situation from a later point of view: in It must have rained last night, the modal supplies the assessment and perfect have locates the assessed event before the reference time. This dictionary treats it as a specialization of the modal-plus-plain-complement pattern and as containing perfect have.",
-      "terms": "Epistemic modal; perfect (have + past participle).",
+      "summary": "Helps explain an epistemic modal followed by perfect <i>have</i> as an assessment of an earlier situation.",
+      "explain": "The pattern is VP[epistemic modal + have + past participle]. It assesses an earlier situation from a later point of view: in <i>It must have rained last night</i>, the modal supplies the assessment and perfect <i>have</i> locates the assessed event before the reference time. This dictionary treats it as a specialization of the modal-plus-plain-complement pattern and as containing perfect <i>have</i>.",
+      "terms": "Epistemic modal; perfect (<i>have</i> + past participle).",
       "examples": [
         {
           "text": "It [must have rained] last night.",
@@ -86,14 +86,14 @@
         }
       ],
       "watch_for": [
-        "A learner might read have in must have rained as showing possession.",
-        "A learner might read must as an obligation, when here it belongs to an assessment of an earlier situation."
+        "A learner might read <i>have</i> in <i>must have rained</i> as showing possession.",
+        "A learner might read <i>must</i> as an obligation, when here it belongs to an assessment of an earlier situation."
       ],
-      "activity": "Present clues (wet pavement, an empty plate). Students write a sentence for each, assessing what happened earlier with must have or may have."
+      "activity": "Present clues (wet pavement, an empty plate). Students write a sentence for each, assessing what happened earlier with <i>must have</i> or <i>may have</i>."
     },
     "child": {
       "hook": "You see wet grass. What can you say about the night?",
-      "explain": "You can use must have to say what you work out from a clue about something earlier. It must have rained last night.",
+      "explain": "You can use <i>must have</i> to say what you work out from a clue about something earlier. <i>It must have rained last night</i>.",
       "examples": [
         {
           "text": "It [must have rained] last night.",
@@ -126,10 +126,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Epistemic Modal over Perfect.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/epistemic-perfect-modal-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Epistemic Modal over Perfect.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/epistemic-perfect-modal-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

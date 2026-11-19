@@ -1,6 +1,6 @@
 {
   "id": "it-cleft-001",
-  "name": "It-Cleft",
+  "name": "<i>it</i>-Cleft",
   "pattern": "Clause[Subject:it + be + PredComp:XP + cleft relative Clause]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/it-cleft-001/",
@@ -9,17 +9,17 @@
   },
   "entry": {
     "id": "it-cleft-001",
-    "name": "It-Cleft",
+    "name": "<i>it</i>-Cleft",
     "pattern": "Clause[Subject:it + be + PredComp:XP + cleft relative Clause]",
     "type": "mixed",
     "meanings": {
       "1": {
         "definition": "Specifies the value of a variable whose descriptive content is supplied by the cleft relative.",
-        "details": "In it was Kim who was sacked, Kim supplies the value and the relative sets out the background proposition that somebody was sacked. This packaging can present new information as background. The position after be marks grammatical foregrounding. Main stress can fall inside the relative instead. CGEL distinguishes this structure from a referential it with an integrated relative inside an NP, using contexts where the surface wording is the same.",
+        "details": "In <i>it was Kim who was sacked</i>, <i>Kim</i> supplies the value and the relative sets out the background proposition that somebody was sacked. This packaging can present new information as background. The position after be marks grammatical foregrounding. Main stress can fall inside the relative instead. CGEL distinguishes this structure from a referential it with an integrated relative inside an NP, using contexts where the surface wording is the same.",
         "examples": [
           {
             "form": "[It was peace and quiet that he wanted most.]",
-            "note": "The value is peace and quiet.",
+            "note": "The value is <i>peace and quiet</i>.",
             "grounds": [
               {
                 "source": "cgel-2002",
@@ -43,7 +43,7 @@
           },
           {
             "form": "[It wasn’t Kim who took the keys.]",
-            "note": "Constructed. The denial normally targets Kim’s identification, with somebody’s taking the keys treated as background."
+            "note": "Constructed. The denial normally targets <i>Kim</i>’s identification, with somebody’s taking the keys treated as background."
           }
         ]
       }
@@ -57,12 +57,12 @@
       {
         "id": "relative-word-001",
         "relationship": "related-to",
-        "notes": "The cleft relative can be marked by a relative word; that and zero relatives also occur."
+        "notes": "The cleft relative can be marked by a relative word; <i>that</i> and zero relatives also occur."
       },
       {
         "id": "subject-extraposition-001",
         "relationship": "related-to",
-        "notes": "It was Jo who opened the window identifies the focused value. It was surprising that Jo opened the window places the content of the evaluation after the predicate."
+        "notes": "<i>It was Jo who opened the window</i> identifies the focused value. <i>It was surprising that Jo opened the window</i> places the content of the evaluation after the predicate."
       }
     ],
     "grounds": [
@@ -92,9 +92,9 @@
   },
   "editions": {
     "curious": {
-      "title": "Putting one phrase in the spotlight with it was",
-      "summary": "A sentence can start with it was and a phrase, then a clause that sets out the background.",
-      "body": "In It was Kim who was sacked, the sentence picks out Kim as the person who was sacked. The part after Kim, who was sacked, sets out the background: somebody was sacked. This way of packaging a sentence can present new information as if it were background.\n\nThe phrase in the spotlight comes right after was. It isn't limited to a person. It can be a noun phrase like peace and quiet, or a phrase such as to Boston. If you deny the sentence, as in It wasn't Kim who took the keys, you normally reject only the claim about Kim. In a context like this, the background, that somebody took the keys, can stay in place.",
+      "title": "Putting one phrase in the spotlight with <i>it was</i>",
+      "summary": "A sentence can start with <i>it was</i> and a phrase, then a clause that sets out the background.",
+      "body": "In <i>It was Kim who was sacked</i>, the sentence picks out Kim as the person who was sacked. The part after <i>Kim</i>, <i>who was sacked</i>, sets out the background: somebody was sacked. This way of packaging a sentence can present new information as if it were background.\n\nThe phrase in the spotlight comes right after was. It isn't limited to a person. It can be a noun phrase like <i>peace and quiet</i>, or a phrase such as <i>to Boston</i>. If you deny the sentence, as in <i>It wasn't Kim who took the keys</i>, you normally reject only the claim about Kim. In a context like this, the background, that somebody took the keys, can stay in place.",
       "examples": [
         {
           "text": "[It was peace and quiet that he wanted most.]",
@@ -109,12 +109,12 @@
           "from": "entry"
         }
       ],
-      "try": "Take a plain sentence such as Kim was sacked. Which word would you spotlight to start a sentence with it was?"
+      "try": "Take a plain sentence such as <i>Kim was sacked</i>. Which word would you spotlight to start a sentence with <i>it was</i>?"
     },
     "teacher": {
-      "summary": "Useful for advanced learners who need to see how it was lets a speaker foreground one phrase and treat the rest as background.",
-      "explain": "An it-cleft has it as subject, a form of be, a foregrounded phrase, and a cleft relative. The foregrounded phrase supplies a value; the relative supplies the descriptive content of a variable, so in It was Kim who was sacked, Kim is the value and somebody was sacked is the background. The phrase after be can be an NP or a PP, and the relative may be marked by who or another relative word, or by that or nothing. Negating the identification (It wasn’t Kim who took the keys) normally leaves the background in place. Compare subject extraposition, which doesn't foreground a value.",
-      "terms": "Sometimes taught as a cleft sentence. In this dictionary: the it-cleft, with the phrase after be as the foregrounded element and the following clause as the cleft relative.",
+      "summary": "Useful for advanced learners who need to see how <i>it was</i> lets a speaker foreground one phrase and treat the rest as background.",
+      "explain": "An it-cleft has <i>it</i> as subject, a form of be, a foregrounded phrase, and a cleft relative. The foregrounded phrase supplies a value; the relative supplies the descriptive content of a variable, so in <i>It was Kim who was sacked</i>, <i>Kim</i> is the value and <i>somebody was sacked</i> is the background. The phrase after be can be an NP or a PP, and the relative may be marked by <i>who</i> or another relative word, or by <i>that</i> or nothing. Negating the identification (<i>It wasn’t Kim who took the keys</i>) normally leaves the background in place. Compare subject extraposition, which doesn't foreground a value.",
+      "terms": "Sometimes taught as a cleft sentence. In this dictionary: the <i>it</i>-cleft, with the phrase after be as the foregrounded element and the following clause as the cleft relative.",
       "examples": [
         {
           "text": "[It was peace and quiet that he wanted most.]",
@@ -133,7 +133,7 @@
         {
           "text": "It was Jo who opened the window.",
           "from": "constructed",
-          "note": "Identifies the value, Jo, and treats the opening of the window as background."
+          "note": "Identifies the value, <i>Jo</i>, and treats the opening of the window as background."
         },
         {
           "text": "It was surprising that Jo opened the window.",
@@ -143,10 +143,10 @@
       ],
       "watch_for": [
         "A learner might read the clause after the foregrounded phrase as a separate sentence, when it is the background part of the same sentence.",
-        "A learner might take a negated cleft to deny the whole event, when the denial normally targets the identification, as in It wasn't Kim who took the keys.",
-        "A learner might think only noun phrases can follow was, though a prepositional phrase such as to Boston can too."
+        "A learner might take a negated cleft to deny the whole event, when the denial normally targets the identification, as in <i>It wasn't Kim who took the keys</i>.",
+        "A learner might think only noun phrases can follow <i>was</i>, though a prepositional phrase such as <i>to Boston</i> can too."
       ],
-      "activity": "Give students a plain sentence such as Jo opened the window. They write two it-clefts, spotlighting a different phrase each time, then say which phrase each one picks out."
+      "activity": "Give students a plain sentence such as <i>Jo opened the window</i>. They write two <i>it</i>-clefts, spotlighting a different phrase each time, then say which phrase each one picks out."
     }
   },
   "status": {
@@ -168,10 +168,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"It-Cleft.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/it-cleft-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"<i>it</i>-Cleft.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/it-cleft-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

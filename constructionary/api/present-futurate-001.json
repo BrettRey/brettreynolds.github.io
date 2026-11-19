@@ -45,7 +45,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The plain present can locate a scheduled departure in the future. Compare the heat will crack the pane tomorrow, where the ordinary simple present would suggest a more settled prediction or scenario.",
+        "target": "The plain present can locate a scheduled departure in the future. Compare <i>the heat will crack the pane tomorrow</i>, where the ordinary simple present would suggest a more settled prediction or scenario.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -55,7 +55,7 @@
     "curious": {
       "title": "The plain present talking about tomorrow",
       "summary": "A verb in the plain present tense can describe something that hasn't happened yet, when it's scheduled or fixed by an arrangement.",
-      "body": "In The ferry leaves at dawn tomorrow, the verb leaves is in the present tense, yet the event is in the future. The word tomorrow anchors it there, and the sentence presents the departure as scheduled, something arranged in advance.\n\nThe same goes for The Sun sets at five tomorrow, where the event isn't arranged by anyone but can be calculated. Compare The heat will crack the pane tomorrow, where will is used instead. This dictionary treats its account of the present-tense pattern as provisional.",
+      "body": "In <i>The ferry leaves at dawn tomorrow</i>, the verb <i>leaves</i> is in the present tense, yet the event is in the future. The word <i>tomorrow</i> anchors it there, and the sentence presents the departure as scheduled, something arranged in advance.\n\nThe same goes for <i>The Sun sets at five tomorrow</i>, where the event isn't arranged by anyone but can be calculated. Compare <i>The heat will crack the pane tomorrow</i>, where <i>will</i> is used instead. This dictionary treats its account of the present-tense pattern as provisional.",
       "examples": [
         {
           "text": "[The ferry leaves at dawn tomorrow].",
@@ -66,11 +66,11 @@
           "from": "entry"
         }
       ],
-      "try": "Think of something coming up this week that's on a schedule, such as a bus or a class. Can you describe it with a plain present-tense verb and a word like tomorrow?"
+      "try": "Think of something coming up this week that's on a schedule, such as a bus or a class. Can you describe it with a plain present-tense verb and a word like <i>tomorrow</i>?"
     },
     "teacher": {
       "summary": "Useful when learners ask why a present-tense verb can refer to a scheduled future event.",
-      "explain": "The plain present can locate an event in the future when a future time expression (tomorrow, at dawn tomorrow) anchors it. The reading is of an event scheduled or fixed by an arrangement, and a calculable event such as a sunset fits too. Compare will, as in The heat will crack the pane tomorrow. The dictionary's account is marked provisional, so present it as a description of these examples rather than a complete rule for when learners should choose the present over will.",
+      "explain": "The plain present can locate an event in the future when a future time expression (<i>tomorrow</i>, <i>at dawn tomorrow</i>) anchors it. The reading is of an event scheduled or fixed by an arrangement, and a calculable event such as a sunset fits too. Compare <i>will</i>, as in <i>The heat will crack the pane tomorrow</i>. The dictionary's account is marked provisional, so present it as a description of these examples rather than a complete rule for when learners should choose the present over <i>will</i>.",
       "terms": "Sometimes called the 'present for future' or 'simple present with future time reference'; this dictionary calls it the present futurate.",
       "examples": [
         {
@@ -86,12 +86,12 @@
         {
           "text": "The heat will crack the pane tomorrow.",
           "from": "constructed",
-          "note": "A will-version of a future event, for comparison."
+          "note": "A <i>will</i>-version of a future event, for comparison."
         }
       ],
       "watch_for": [
-        "A learner might read leaves as describing the present moment instead of a scheduled future departure.",
-        "A learner might think the present-tense pattern can replace will in any prediction about the future."
+        "A learner might read <i>leaves</i> as describing the present moment instead of a scheduled future departure.",
+        "A learner might think the present-tense pattern can replace <i>will</i> in any prediction about the future."
       ],
       "activity": "Students write three sentences about a school timetable or transit schedule using a plain present-tense verb and a future time word, then swap with a partner who says whether each event is scheduled."
     }
@@ -114,10 +114,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Present Futurate.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/present-futurate-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Present Futurate.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/present-futurate-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

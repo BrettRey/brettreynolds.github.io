@@ -1,6 +1,6 @@
 # English Constructionary
 
-> A dictionary of English constructions (form-meaning pairings, from word-level patterns to clause types), edited by Brett Reynolds. Categories and functions follow The Cambridge Grammar of the English Language (Huddleston and Pullum 2002). Each entry states what recognizing the construction lets you predict and how far the evidence secures that. 394 entries; snapshot 2026-11-19 (5c11b28).
+> A dictionary of English constructions (form-meaning pairings, from word-level patterns to clause types), edited by Brett Reynolds. Categories and functions follow The Cambridge Grammar of the English Language (Huddleston and Pullum 2002). Each entry states what recognizing the construction lets you predict and how far the evidence secures that. 394 entries; snapshot 2026-11-19 (ef810bb).
 
 ## How to use this data
 
@@ -10,6 +10,7 @@
 - `kind.secured` is the highest evidence level reached: stable, networked, maintained or controlled. Absent means not yet assessed.
 - `grounds` record what each claim rests on: the source, a locator, the relation (cites, attests, discusses, adjudicates, contradicts, derives-from) and what it bears on.
 - Examples in the reader editions marked `from: constructed` were written for the page; `from: entry` examples come from the linguist entry.
+- Text fields may contain <i>...</i> around mentioned forms (house style puts mentions in italics); the Markdown files render them as *...*.
 - Cite entries by their linguist-edition URL and the snapshot date.
 
 ## Data

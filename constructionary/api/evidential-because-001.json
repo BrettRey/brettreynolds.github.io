@@ -1,6 +1,6 @@
 {
   "id": "evidential-because-001",
-  "name": "Speech-Act or Evidential Because",
+  "name": "Speech-Act or Evidential <i>because</i>",
   "pattern": "clause + supplementary because-PP",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/evidential-because-001/",
@@ -10,7 +10,7 @@
   },
   "entry": {
     "id": "evidential-because-001",
-    "name": "Speech-Act or Evidential Because",
+    "name": "Speech-Act or Evidential <i>because</i>",
     "pattern": "clause + supplementary because-PP",
     "type": "mixed",
     "meanings": {
@@ -50,8 +50,8 @@
   "editions": {
     "curious": {
       "title": "Giving your reason for saying something",
-      "summary": "A because phrase can explain why the speaker says something, not why the thing happened.",
-      "body": "In Jo must be home, because her keys are on the table, the keys are the speaker's reason for concluding that Jo is home. They motivate the conclusion. Their being on the table need not be what caused Jo to be home.\n\nSo the because part is added after the main clause to give grounds for making the claim. It can do the same for a directive, an instruction or request. A because phrase can also give a cause in the world, and this dictionary keeps that use apart from the reason-for-speaking use.",
+      "summary": "A <i>because</i> phrase can explain why the speaker says something, not why the thing happened.",
+      "body": "In <i>Jo must be home, because her keys are on the table</i>, the keys are the speaker's reason for concluding that Jo is home. They motivate the conclusion. Their being on the table need not be what caused Jo to be home.\n\nSo the <i>because</i> part is added after the main clause to give grounds for making the claim. It can do the same for a directive, an instruction or request. A <i>because</i> phrase can also give a cause in the world, and this dictionary keeps that use apart from the reason-for-speaking use.",
       "examples": [
         {
           "text": "Jo must be home, [because her keys are on the table].",
@@ -66,12 +66,12 @@
           "from": "constructed"
         }
       ],
-      "try": "Finish this sentence two ways. She must be tired, because ... (a clue that makes you think so), then because ... (what made her tired)."
+      "try": "Finish this sentence two ways. <i>She must be tired, because ...</i> (a clue that makes you think so), then <i>because ...</i> (what made her tired)."
     },
     "teacher": {
-      "summary": "Helps students tell a because that explains an event from a because that explains why the speaker says something.",
-      "explain": "A supplementary because-PP follows a clause and gives grounds for making the preceding claim or directive. In Jo must be home, because her keys are on the table, the keys motivate the speaker's conclusion, and their being on the table need not be what caused Jo to be home. CGEL distinguishes act-related from content-related cause, and this construction is discussed in that connection. This dictionary treats the analysis as provisional (medium confidence) and lists a related construction, epistemic modals with perfect have.",
-      "terms": "Evidential or speech-act because are the labels used here. CGEL's contrast is act-related versus content-related cause.",
+      "summary": "Helps students tell a <i>because</i> that explains an event from a <i>because</i> that explains why the speaker says something.",
+      "explain": "A supplementary <i>because</i>-PP follows a clause and gives grounds for making the preceding claim or directive. In <i>Jo must be home, because her keys are on the table</i>, the keys motivate the speaker's conclusion, and their being on the table need not be what caused Jo to be home. CGEL distinguishes act-related from content-related cause, and this construction is discussed in that connection. This dictionary treats the analysis as provisional (medium confidence) and lists a related construction, epistemic modals with perfect <i>have</i>.",
+      "terms": "Evidential or speech-act <i>because</i> are the labels used here. CGEL's contrast is act-related versus content-related cause.",
       "examples": [
         {
           "text": "Jo must be home, [because her keys are on the table].",
@@ -91,18 +91,18 @@
         {
           "text": "Jo is late because the bus broke down.",
           "from": "constructed",
-          "note": "The because phrase gives a cause of the event itself."
+          "note": "The <i>because</i> phrase gives a cause of the event itself."
         }
       ],
       "watch_for": [
-        "A learner might read the because part as the cause of Jo's being home, when it gives the speaker's reason for saying so.",
-        "A learner might think because can follow only a statement, when this dictionary says it can also give grounds for a directive."
+        "A learner might read the <i>because</i> part as the cause of Jo's being home, when it gives the speaker's reason for saying so.",
+        "A learner might think <i>because</i> can follow only a statement, when this dictionary says it can also give grounds for a directive."
       ],
-      "activity": "Give students pairs such as \"The grass is wet, because it rained\" and \"It must have rained, because the grass is wet\". They say, for each, whether because explains the event or the speaker's conclusion."
+      "activity": "Give students pairs such as \"<i>The grass is wet, because it rained</i>\" and \"<i>It must have rained, because the grass is wet</i>\". They say, for each, whether <i>because</i> explains the event or the speaker's conclusion."
     },
     "child": {
       "hook": "Why does the speaker think Jo is home?",
-      "explain": "Sometimes because tells why something happened. Sometimes it tells why you think something. The keys are a clue that Jo is home. They help the speaker guess it.",
+      "explain": "Sometimes <i>because</i> tells why something happened. Sometimes it tells why you think something. The keys are a clue that Jo is home. They help the speaker guess it.",
       "examples": [
         {
           "text": "Jo must be home, [because her keys are on the table].",
@@ -113,7 +113,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Be a detective. Spot a clue, like wet boots by the door. Say what it makes you think, then add because and the clue."
+      "play": "Be a detective. Spot a clue, like wet boots by the door. Say what it makes you think, then add <i>because</i> and the clue."
     }
   },
   "status": {
@@ -135,10 +135,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Speech-Act or Evidential Because.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/evidential-because-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Speech-Act or Evidential <i>because</i>.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/evidential-because-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

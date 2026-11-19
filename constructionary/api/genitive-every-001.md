@@ -1,22 +1,22 @@
-# Genitive with Every
+# Genitive with *every*
 
 - id: `genitive-every-001`
 - pattern: NP[Det:NP[gen] + every + Nom[sg]]
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/genitive-every-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
 Quantifies over instances delimited by their relation to the genitive.
 
-Her every move ranges over her movements. CGEL contrasts each in the same position. Postma and Rooryck discuss body-part nouns alongside actions and contrast the form with every move of John’s. To test how the genitive sets the domain, keep bone fixed and compare bones of a person’s skeleton with bones that person owns as specimens.
+*Her every move* ranges over her movements. CGEL contrasts *each* in the same position. Postma and Rooryck discuss body-part nouns alongside actions and contrast the form with *every move of John’s*. To test how the genitive sets the domain, keep *bone* fixed and compare *bones of a person’s skeleton* with *bones that person owns as specimens*.
 
 - *They scrutinised [her every move].*: The genitive delimits the movements under consideration.
 
 ## Related constructions
 
-- Interacts with: Subject-determiner (Genitive NP) (`subject-determiner-001`): A genitive appears in determiner function before every.
+- Interacts with: Subject-determiner (Genitive NP) (`subject-determiner-001`): A genitive appears in determiner function before *every*.
 
 ## Sources
 
@@ -28,16 +28,16 @@ The kind of relation to the genitive can affect whether the pattern is available
 
 ## Reader editions (draft, AI-assisted, unreviewed; the linguist entry is the reference)
 
-### Curious reader: Her every move
+### Curious reader: *Her every move*
 
-A genitive before every picks out all the instances tied to a person or thing, as in her every move.
+A genitive before *every* picks out all the instances tied to a person or thing, as in *her every move*.
 
-In They scrutinised her every move, her sets the territory and every counts the instances inside it. Her every move means every one of her movements.
+In *They scrutinised her every move*, *her* sets the territory and *every* counts the instances inside it. *Her every move* means every one of her movements.
 
-The same words with each in that spot work differently, and this dictionary notes the contrast. The kind of relation between the person and the noun can affect whether the pattern is available, even when the noun stays the same. Think of bone: do the bones of a person's skeleton and the bones a person owns as specimens feel the same here?
+The same words with *each* in that spot work differently, and this dictionary notes the contrast. The kind of relation between the person and the noun can affect whether the pattern is available, even when the noun stays the same. Think of *bone*: do the *bones of a person's skeleton* and the *bones a person owns as specimens* feel the same here?
 
 ### Teacher
 
-For advanced classes: the genitive-plus-every pattern, as in her every move.
+For advanced classes: the genitive-plus-*every* pattern, as in *her every move*.
 
-In genitive every, a genitive NP in determiner function precedes every plus a singular nominal. It quantifies over instances delimited by their relation to the genitive: her every move ranges over her movements. CGEL contrasts each in the same position. A published discussion treats actions and body-part nouns together and contrasts the form with every move of John's. To test how the genitive sets the domain, keep bone fixed and compare bones of a person's skeleton with bones that person owns as specimens. This dictionary marks the analysis as provisional, with medium confidence.
+In genitive *every*, a genitive NP in determiner function precedes *every* plus a singular nominal. It quantifies over instances delimited by their relation to the genitive: *her every move* ranges over her movements. CGEL contrasts *each* in the same position. A published discussion treats actions and body-part nouns together and contrasts the form with *every move of John's*. To test how the genitive sets the domain, keep *bone* fixed and compare *bones of a person's skeleton* with *bones that person owns as specimens*. This dictionary marks the analysis as provisional, with medium confidence.

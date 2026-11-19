@@ -1,6 +1,6 @@
 {
   "id": "enough-degree-infinitival-001",
-  "name": "Sufficient Degree Enough with an Infinitival",
+  "name": "Sufficient Degree <i>enough</i> with an Infinitival",
   "pattern": "AdjP/AdvP[gradable head + enough + to-infinitival]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/enough-degree-infinitival-001/",
@@ -10,7 +10,7 @@
   },
   "entry": {
     "id": "enough-degree-infinitival-001",
-    "name": "Sufficient Degree Enough with an Infinitival",
+    "name": "Sufficient Degree <i>enough</i> with an Infinitival",
     "pattern": "AdjP/AdvP[gradable head + enough + to-infinitival]",
     "type": "mixed",
     "meanings": {
@@ -32,7 +32,7 @@
       {
         "id": "too-degree-infinitival-001",
         "relationship": "related-to",
-        "notes": "Ripe enough to eat places the degree at or above a lower threshold. Too ripe to eat places it above an upper threshold."
+        "notes": "<i>Ripe enough to eat</i> places the degree at or above a lower threshold. <i>Too ripe to eat</i> places it above an upper threshold."
       }
     ],
     "grounds": [
@@ -52,7 +52,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Meeting the threshold does not assert that the bins are currently behind the wall. In the ordinary adjectival pattern enough follows the gradable adjective.",
+        "target": "Meeting the threshold does not assert that the bins are currently behind the wall. In the ordinary adjectival pattern <i>enough</i> follows the gradable adjective.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -61,8 +61,8 @@
   "editions": {
     "curious": {
       "title": "Enough to do something",
-      "summary": "Enough after a describing word says that a quality reaches the level needed for a stated result.",
-      "body": "In The wall is high enough to hide the bins, high enough says the wall's height meets the threshold, and to hide the bins names the outcome that the height is measured against. The pattern presents a degree as meeting the threshold for the specified outcome.\n\nRipe enough to eat works the same way, with ripeness at or above a lower threshold. A neighbouring pattern, too ripe to eat, puts the degree above an upper threshold instead.",
+      "summary": "<i>Enough</i> after a describing word says that a quality reaches the level needed for a stated result.",
+      "body": "In <i>The wall is high enough to hide the bins</i>, <i>high enough</i> says the wall's height meets the threshold, and to hide the bins names the outcome that the height is measured against. The pattern presents a degree as meeting the threshold for the specified outcome.\n\n<i>Ripe enough to eat</i> works the same way, with ripeness at or above a lower threshold. A neighbouring pattern, <i>too ripe to eat</i>, puts the degree above an upper threshold instead.",
       "examples": [
         {
           "text": "The wall is [high enough to hide the bins].",
@@ -73,12 +73,12 @@
           "from": "constructed"
         }
       ],
-      "try": "Finish this with your own words: The box is big enough to ..."
+      "try": "Finish this with your own words: <i>The box is big enough to ...</i>"
     },
     "teacher": {
-      "summary": "Helps explain enough plus a to-infinitival as marking a degree sufficient for an outcome, in contrast with too.",
-      "explain": "The pattern is a gradable adjective or adverb followed by enough and a to-infinitival. It presents a degree as meeting the threshold for the specified outcome: high enough to hide the bins. Ripe enough to eat places the degree at or above a lower threshold, whereas too ripe to eat places it above an upper threshold. This dictionary relates the pattern to gradation and to the too-degree infinitival.",
-      "terms": "Compare the too pattern.",
+      "summary": "Helps explain <i>enough</i> plus a <i>to</i>-infinitival as marking a degree sufficient for an outcome, in contrast with <i>too</i>.",
+      "explain": "The pattern is a gradable adjective or adverb followed by <i>enough</i> and a <i>to</i>-infinitival. It presents a degree as meeting the threshold for the specified outcome: <i>high enough to hide the bins</i>. <i>Ripe enough to eat</i> places the degree at or above a lower threshold, whereas <i>too ripe to eat</i> places it above an upper threshold. This dictionary relates the pattern to gradation and to the too-degree infinitival.",
+      "terms": "Compare the <i>too</i> pattern.",
       "examples": [
         {
           "text": "The wall is [high enough to hide the bins].",
@@ -102,14 +102,14 @@
         }
       ],
       "watch_for": [
-        "A learner might think enough and too express the same meaning, when one marks a lower threshold and the other an upper one.",
-        "A learner might read the to-infinitival as a separate sentence, when it names the outcome the degree allows."
+        "A learner might think <i>enough</i> and <i>too</i> express the same meaning, when one marks a lower threshold and the other an upper one.",
+        "A learner might read the <i>to</i>-infinitival as a separate sentence, when it names the outcome the degree allows."
       ],
-      "activity": "Students complete sentence frames (The bag is big enough to ..., This soup is hot enough to ...) and then write a matching too sentence for the same adjective."
+      "activity": "Students complete sentence frames (<i>The bag is big enough to ...</i>, <i>This soup is hot enough to ...</i>) and then write a matching <i>too</i> sentence for the same adjective."
     },
     "child": {
       "hook": "How tall must a wall be to hide the bins?",
-      "explain": "Enough after a describing word means there is as much of it as you need. Then to and a verb say what it lets you do. The wall is high enough to hide the bins.",
+      "explain": "<i>Enough</i> after a describing word means there is as much of it as you need. Then <i>to</i> and a verb say what it lets you do. <i>The wall is high enough to hide the bins.</i>",
       "examples": [
         {
           "text": "The wall is [high enough to hide the bins].",
@@ -120,7 +120,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Look around the room. Make sentences like The table is big enough to ... Then say what is not big enough."
+      "play": "Look around the room. Make sentences like <i>The table is big enough to ...</i> Then say what is not big enough."
     }
   },
   "status": {
@@ -142,10 +142,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Sufficient Degree Enough with an Infinitival.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/enough-degree-infinitival-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Sufficient Degree <i>enough</i> with an Infinitival.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/enough-degree-infinitival-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

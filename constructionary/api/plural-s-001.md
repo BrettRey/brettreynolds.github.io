@@ -1,14 +1,14 @@
-# Plural -s
+# Plural *-s*
 
 - id: `plural-s-001`
 - pattern: Common noun + -s/-es
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/plural-s-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
-- *cats*: Marks 'cat' as non-singular
+- *cats*: Marks '*cat*' as non-singular
 
 ## Meaning 2
 
@@ -38,26 +38,26 @@
 
 ## Projection
 
-With transparent regular plural formation, the final sound of the stem predicts the suffix pronunciation. Compare the /s/ in cats, /z/ in dogs, and /ɪz/ in horses. A variety interpretation additionally depends on count use of the noun.
+With transparent regular plural formation, the final sound of the stem predicts the suffix pronunciation. Compare the /s/ in *cats*, /z/ in *dogs*, and /ɪz/ in *horses*. A variety interpretation additionally depends on count use of the noun.
 
 ## Reader editions (draft, AI-assisted, unreviewed; the linguist entry is the reference)
 
-### Curious reader: Adding -s to make a plural
+### Curious reader: Adding *-s* to make a plural
 
-Adding -s or -es to a common noun makes it plural, and the same ending can also count types, repeated events or members of a family.
+Adding *-s* or *-es* to a common noun makes it plural, and the same ending can also count types, repeated events or members of a family.
 
-The ending -s turns cat into cats, marking more than one. The ending is pronounced differently depending on the last sound of the word: an s sound in cats, a z sound in dogs, and an extra syllable, like iz, in horses.
+The ending *-s* turns *cat* into *cats*, marking more than one. The ending is pronounced differently depending on the last sound of the word: an *s* sound in *cats*, a *z* sound in *dogs*, and an extra syllable, like *iz*, in *horses*.
 
-The same ending does other jobs. Wines counts types of wine. I get headaches describes headaches that come back. And the Kennedys names the members of a family or dynasty, built from a name. Which job the ending does depends on how the noun is being used.
+The same ending does other jobs. *Wines* counts types of wine. *I get headaches* describes headaches that come back. And *the Kennedys* names the members of a family or dynasty, built from a name. Which job the ending does depends on how the noun is being used.
 
 ### Teacher
 
-Covers regular plural -s/-es, its pronunciation, and its extensions to types, recurring instances and family names.
+Covers regular plural *-s*/*-es*, its pronunciation, and its extensions to types, recurring instances and family names.
 
-Plural -s or -es attaches to a common-noun stem and realizes plural number. In regular formation the final sound of the stem predicts the pronunciation of the suffix: /s/ in cats, /z/ in dogs, /ɪz/ in horses. The same suffix realizes plural number in several uses: non-singular (cats), types or varieties of a substance (wines), recurring instances (I get headaches), and groups formed from proper names (the Kennedys, meaning Kennedy family or dynasty members). A variety reading depends on the noun being used as a count noun. This dictionary marks this as provisional, with medium confidence.
+Plural *-s* or *-es* attaches to a common-noun stem and realizes plural number. In regular formation the final sound of the stem predicts the pronunciation of the suffix: /s/ in *cats*, /z/ in *dogs*, /ɪz/ in *horses*. The same suffix realizes plural number in several uses: non-singular (*cats*), types or varieties of a substance (*wines*), recurring instances (*I get headaches*), and groups formed from proper names (*the Kennedys*, meaning Kennedy family or dynasty members). A variety reading depends on the noun being used as a count noun. This dictionary marks this as provisional, with medium confidence.
 
 ### Child
 
-Does the s on cats sound the same as the s on dogs?
+Does the *s* on *cats* sound the same as the *s* on *dogs*?
 
-Adding s to a word can mean more than one. Cats ends with an s sound. Dogs ends with a z sound. Horses ends with an extra bit, like iz.
+Adding *s* to a word can mean more than one. *Cats* ends with an *s* sound. *Dogs* ends with a *z* sound. *Horses* ends with an extra bit, like *iz*.

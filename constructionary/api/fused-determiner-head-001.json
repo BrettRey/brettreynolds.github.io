@@ -16,12 +16,12 @@
       "form": "DP with no following nominal head",
       "meaning": "Quantity, identity, or person reference with the head interpretation recovered anaphorically, from a partitive complement, or from the determinative's own content",
       "function": "Determiner and head functions fused in one constituent",
-      "distribution": "Any NP position; may license a partitive of-complement"
+      "distribution": "Any NP position; may license a partitive <i>of</i>-complement"
     },
     "meanings": {
       "1": {
         "definition": "A DP functions simultaneously as determiner and head of the NP, with no separate nominal head",
-        "details": "CGEL Ch. 5 §9. Covers anaphoric uses, partitives, the compound determinatives in -body/-one/-thing/-where (traditional 'indefinite pronouns'), and demonstratives standing alone. These are not pronouns; the category stays determinative while the head function is fused. This entry is a determiner-head subtype of the broader fused-head construction. Contested: Reynolds, Determinatives as nouns in English (LingBuzz 009939), analyzes determinatives as a fourth noun subclass, with simple independent uses (Some left) as ordinary Head rather than fused Det-Head, narrowing fusion to a residue. If adopted, this entry shrinks accordingly.",
+        "details": "CGEL Ch. 5 §9. Covers anaphoric uses, partitives, the compound determinatives in <i>-body</i>/<i>-one</i>/<i>-thing</i>/<i>-where</i> (traditional 'indefinite pronouns'), and demonstratives standing alone. These are not pronouns; the category stays determinative while the head function is fused. This entry is a determiner-head subtype of the broader fused-head construction. Contested: Reynolds, Determinatives as nouns in English (LingBuzz 009939), analyzes determinatives as a fourth noun subclass, with simple independent uses (<i>Some left</i>) as ordinary Head rather than fused Det-Head, narrowing fusion to a residue. If adopted, this entry shrinks accordingly.",
         "examples": [
           {
             "form": "She bought twenty books, but I bought [twenty-two].",
@@ -29,7 +29,7 @@
           },
           {
             "form": "We liked [none] of them.",
-            "note": "Partitive; independent form of the determinative no"
+            "note": "Partitive; independent form of the determinative <i>no</i>"
           },
           {
             "form": "[Everybody] left early.",
@@ -86,7 +86,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Several of these can serve as an argument without an overt nominal following several. Some of the fruit admits a non-count partitive domain. Several of the fruit does not admit that same reading. A determiner-like expression as an entire NP need not uniformly be anaphoric.",
+        "target": "Several of these can serve as an argument without an overt nominal following <i>several</i>. <i>Some of the fruit</i> admits a non-count partitive domain. <i>Several of the fruit</i> does not admit that same reading. A determiner-like expression as an entire NP need not uniformly be anaphoric.",
         "evidence": "CGEL tests partitive complements and non-anaphoric special readings. The head analysis is the one adopted in this record and alternatives are separately noted.",
         "confidence": "medium"
       }
@@ -94,9 +94,9 @@
   },
   "editions": {
     "curious": {
-      "title": "Words like twenty-two or everybody standing alone",
+      "title": "Words like <i>twenty-two</i> or <i>everybody</i> standing alone",
       "summary": "Some words that normally come before a noun can fill a whole noun phrase by themselves.",
-      "body": "In She bought twenty books, but I bought twenty-two, the word twenty-two stands alone: no noun follows it. Words like none, everybody and those do the same in We liked none of them, Everybody left early and Those are mine. What each one stands for comes from earlier in the sentence, from an of phrase after it, or from the word's own meaning.\n\nThese words belong to the class this dictionary calls determinatives, the class that includes the, some and those. They aren't treated as pronouns here. One competing analysis, noted in this dictionary, would treat some of these uses as ordinary nouns; if that were adopted, this pattern would shrink.",
+      "body": "In <i>She bought twenty books, but I bought twenty-two</i>, the word <i>twenty-two</i> stands alone: no noun follows it. Words like <i>none</i>, <i>everybody</i> and <i>those</i> do the same in <i>We liked none of them</i>, <i>Everybody left early</i> and <i>Those are mine</i>. What each one stands for comes from earlier in the sentence, from an <i>of</i> phrase after it, or from the word's own meaning.\n\nThese words belong to the class this dictionary calls determinatives, the class that includes <i>the</i>, <i>some</i> and <i>those</i>. They aren't treated as pronouns here. One competing analysis, noted in this dictionary, would treat some of these uses as ordinary nouns; if that were adopted, this pattern would shrink.",
       "examples": [
         {
           "text": "She bought twenty books, but I bought [twenty-two].",
@@ -115,12 +115,12 @@
           "from": "entry"
         }
       ],
-      "try": "In She bought twenty books, but I bought twenty-two, what are the twenty-two? Where in the sentence does that come from?"
+      "try": "In <i>She bought twenty books, but I bought twenty-two</i>, what are the twenty-two? Where in the sentence does that come from?"
     },
     "teacher": {
-      "summary": "For advanced classes: determinatives like twenty-two, none, everybody and those standing alone as a whole NP.",
-      "explain": "In a fused determiner-head NP, a determinative phrase serves as determiner and head at once, with no separate nominal head: bought twenty-two, liked none of them, Everybody left early, Those are mine. The head interpretation is recovered anaphorically, from a partitive complement, or from the determinative's own content. The word stays a determinative; these are not pronouns, and NPs headed by pronouns are a different construction. This dictionary covers anaphoric uses, partitives, the compound determinatives in -body/-one/-thing/-where and standalone demonstratives. It's contested: another analysis treats simple independent uses (Some left) as ordinary Head, which would narrow fusion to a residue.",
-      "terms": "Traditional grammar calls everybody an indefinite pronoun and those a demonstrative pronoun. This grammar calls both determinatives. Fused head is the CGEL analysis.",
+      "summary": "For advanced classes: determinatives like <i>twenty-two</i>, <i>none</i>, <i>everybody</i> and <i>those</i> standing alone as a whole NP.",
+      "explain": "In a fused determiner-head NP, a determinative phrase serves as determiner and head at once, with no separate nominal head: <i>bought twenty-two</i>, <i>liked none of them</i>, <i>Everybody left early</i>, <i>Those are mine</i>. The head interpretation is recovered anaphorically, from a partitive complement, or from the determinative's own content. The word stays a determinative; these are not pronouns, and NPs headed by pronouns are a different construction. This dictionary covers anaphoric uses, partitives, the compound determinatives in <i>-body</i>/<i>-one</i>/<i>-thing</i>/<i>-where</i> and standalone demonstratives. It's contested: another analysis treats simple independent uses (<i>Some left</i>) as ordinary Head, which would narrow fusion to a residue.",
+      "terms": "Traditional grammar calls <i>everybody</i> an indefinite pronoun and <i>those</i> a demonstrative pronoun. This grammar calls both determinatives. Fused head is the CGEL analysis.",
       "examples": [
         {
           "text": "She bought twenty books, but I bought [twenty-two].",
@@ -140,11 +140,11 @@
         }
       ],
       "watch_for": [
-        "A learner might label everybody or those a pronoun, when this dictionary keeps them as determinatives.",
-        "A learner might look for a missing noun after Everybody, though the meaning comes from the word itself.",
+        "A learner might label <i>everybody</i> or <i>those</i> a pronoun, when this dictionary keeps them as determinatives.",
+        "A learner might look for a missing noun after <i>Everybody</i>, though the meaning comes from the word itself.",
         "A learner might assume a determinative standing alone must recover its meaning from earlier text, when this dictionary says it need not be uniformly anaphoric."
       ],
-      "activity": "Students collect standalone determinatives from a short text (some, none, everybody, those, twenty-two). For each, they say where its meaning comes from: earlier text, an of phrase, or the word itself."
+      "activity": "Students collect standalone determinatives from a short text (<i>some</i>, <i>none</i>, <i>everybody</i>, <i>those</i>, <i>twenty-two</i>). For each, they say where its meaning comes from: earlier text, an <i>of</i> phrase, or the word itself."
     }
   },
   "status": {
@@ -165,10 +165,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Fused Determiner-Head Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/fused-determiner-head-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Fused Determiner-Head Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/fused-determiner-head-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

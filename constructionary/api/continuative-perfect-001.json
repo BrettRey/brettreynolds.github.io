@@ -36,12 +36,12 @@
       {
         "id": "experiential-perfect-001",
         "relationship": "related-to",
-        "notes": "I’ve lived here since 2019 allows an ongoing-state reading. I’ve visited three times since 2019 counts completed episodes within the same interval."
+        "notes": "<i>I’ve lived here since 2019</i> allows an ongoing-state reading. <i>I’ve visited three times since 2019</i> counts completed episodes within the same interval."
       },
       {
         "id": "since-time-anchor-001",
         "relationship": "interfaces-with",
-        "notes": "Since 2019 supplies the start time in I’ve lived here since 2019. Since also combines with experiential uses, so it does not force continuity."
+        "notes": "<i>Since 2019</i> supplies the start time in <i>I’ve lived here since 2019</i>. <i>Since</i> also combines with experiential uses, so it does not force continuity."
       }
     ],
     "grounds": [
@@ -64,8 +64,8 @@
   "editions": {
     "curious": {
       "title": "Having done something up to now",
-      "summary": "Some have-sentences say that a situation has been going on through a stretch of time that ends at the moment being talked about.",
-      "body": "In Jo has lived here since April, Jo still lives here: the living-here stretches from April up to now. The sentence presents a situation as holding through an interval that ends at the relevant time.\n\nThat time needn't be now. In Jo had lived there since April when we met, the stretch ends at the meeting. This reading goes with a suitable state, like living somewhere, and a phrase giving the starting point. A sentence like I've visited three times since 2019 is different: it counts separate occasions rather than describing something ongoing.",
+      "summary": "Some <i>have</i>-sentences say that a situation has been going on through a stretch of time that ends at the moment being talked about.",
+      "body": "In <i>Jo has lived here since April</i>, Jo still lives here: the living-here stretches from April up to now. The sentence presents a situation as holding through an interval that ends at the relevant time.\n\nThat time needn't be now. In <i>Jo had lived there since April when we met</i>, the stretch ends at the meeting. This reading goes with a suitable state, like living somewhere, and a phrase giving the starting point. A sentence like <i>I've visited three times since 2019</i> is different: it counts separate occasions rather than describing something ongoing.",
       "examples": [
         {
           "text": "Jo [has lived here since April].",
@@ -76,12 +76,12 @@
           "from": "entry"
         }
       ],
-      "try": "Say I've lived here since 2019, then I've visited three times since 2019. Which one describes something still going on?"
+      "try": "Say <i>I've lived here since 2019</i>, then <i>I've visited three times since 2019</i>. Which one describes something still going on?"
     },
     "teacher": {
-      "summary": "Helps explain the ongoing-state reading of the perfect, as in has lived here since April.",
-      "explain": "The continuative perfect combines perfect have, a past-participial VP and a duration reaching the reference time. With a suitable stative predicate and a since-anchor, the ordinary reading extends the situation to the present, or to another reference time supplied by context (when we met). Contrast the experiential perfect, which only locates an occurrence before the reference time: I've visited three times since 2019 counts completed episodes within the same interval. Since does not force continuity, because it also combines with experiential uses. The analysis is provisional.",
-      "terms": "Perfect have appears in what textbooks call the present perfect (has lived) and past perfect (had lived). Continuative and experiential name two readings of it.",
+      "summary": "Helps explain the ongoing-state reading of the perfect, as in <i>has lived here since April</i>.",
+      "explain": "The continuative perfect combines perfect have, a past-participial VP and a duration reaching the reference time. With a suitable stative predicate and a since-anchor, the ordinary reading extends the situation to the present, or to another reference time supplied by context (<i>when we met</i>). Contrast the experiential perfect, which only locates an occurrence before the reference time: <i>I've visited three times since 2019</i> counts completed episodes within the same interval. <i>Since</i> does not force continuity, because it also combines with experiential uses. The analysis is provisional.",
+      "terms": "Perfect have appears in what textbooks call the present perfect (<i>has lived</i>) and past perfect (<i>had lived</i>). Continuative and experiential name two readings of it.",
       "examples": [
         {
           "text": "Jo [has lived here since April].",
@@ -105,10 +105,10 @@
         }
       ],
       "watch_for": [
-        "A learner might read has lived here since April as a completed past event.",
-        "A learner might assume that since signals an ongoing state."
+        "A learner might read <i>has lived here since April</i> as a completed past event.",
+        "A learner might assume that <i>since</i> signals an ongoing state."
       ],
-      "activity": "Give students pairs of since-sentences, some with states (live, know, work at) and some with countable events (visit, call). They sort them into \"still going on\" and \"counted occasions\" and discuss the cues."
+      "activity": "Give students pairs of since-sentences, some with states (<i>live</i>, <i>know</i>, <i>work at</i>) and some with countable events (<i>visit</i>, <i>call</i>). They sort them into \"still going on\" and \"counted occasions\" and discuss the cues."
     }
   },
   "status": {
@@ -129,10 +129,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Continuative Perfect.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/continuative-perfect-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Continuative Perfect.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/continuative-perfect-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

@@ -38,7 +38,7 @@
           },
           {
             "form": "[Everybody has read it], [haven't they]?",
-            "note": "Tag auxiliary agrees with plural tag Subject they, not directly with singular anchor Subject everybody",
+            "note": "Tag auxiliary agrees with plural tag Subject <i>they</i>, not directly with singular anchor Subject <i>everybody</i>",
             "grounds": [
               {
                 "source": "cgel-2002",
@@ -104,19 +104,19 @@
       },
       {
         "type": "syntactic",
-        "description": "If the relevant anchor Predicator is auxiliary-headed, the tag normally selects the same auxiliary lexeme; otherwise it selects do. The tag auxiliary normally has the anchor's tense."
+        "description": "If the relevant anchor Predicator is auxiliary-headed, the tag normally selects the same auxiliary lexeme; otherwise it selects <i>do</i>. The tag auxiliary normally has the anchor's tense."
       },
       {
         "type": "syntactic",
-        "description": "The personal-pronoun tag Subject repeats a pronominal anchor Subject or is anaphorically selected for a non-pronominal one. Person–number agreement is controlled by the tag Subject, as Everybody has read it, haven't they? demonstrates."
+        "description": "The personal-pronoun tag Subject repeats a pronominal anchor Subject or is anaphorically selected for a non-pronominal one. Person–number agreement is controlled by the tag Subject, as <i>Everybody has read it, haven't they?</i> demonstrates."
       },
       {
         "type": "morphological",
-        "description": "A negative tag permits synthetic auxiliary negation in ordinary style or analytic final not in more formal style."
+        "description": "A negative tag permits synthetic auxiliary negation in ordinary style or analytic final <i>not</i> in more formal style."
       },
       {
         "type": "semantic",
-        "description": "The tag has polarity opposite to the anchor in the frequent reversed-polarity variant and the same polarity in the constant-polarity variant; semantically negative anchors such as Few of them liked it select a positive reversed tag."
+        "description": "The tag has polarity opposite to the anchor in the frequent reversed-polarity variant and the same polarity in the constant-polarity variant; semantically negative anchors such as <i>Few of them liked it</i> select a positive reversed tag."
       },
       {
         "type": "pragmatic",
@@ -126,7 +126,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Recognizing Tag Question membership predicts an anaphoric personal-pronoun Subject, same-auxiliary selection or do-support, preservation of relevant tense, agreement with the tag Subject, a systematic reversed-or-constant polarity relation, and prosody-sensitive verification, acknowledgement, or emotive force",
+        "target": "Recognizing Tag Question membership predicts an anaphoric personal-pronoun Subject, same-auxiliary selection or <i>do</i>-support, preservation of relevant tense, agreement with the tag Subject, a systematic reversed-or-constant polarity relation, and prosody-sensitive verification, acknowledgement, or emotive force",
         "evidence": "The predictions jointly distinguish direct tags from arbitrary interrogative supplements: anchor Subject and Predicator determine pronoun, auxiliary, tense, and agreement, while polarity relation and contour predict the characteristic interpretations",
         "confidence": "high",
         "grounds": [
@@ -163,7 +163,7 @@
               "personal-pronoun Subject",
               "auxiliary-headed VP",
               "surface subject–auxiliary inversion",
-              "do-support where required"
+              "<i>do</i>-support where required"
             ],
             "weight": "high"
           },
@@ -171,7 +171,7 @@
             "property": "Anchor-dependent feature selection",
             "diagnostics": [
               "anaphoric pronoun",
-              "same auxiliary lexeme or do",
+              "same auxiliary lexeme or <i>do</i>",
               "same tense",
               "agreement with tag Subject"
             ],
@@ -202,8 +202,8 @@
       "boundaries": {
         "known_boundary_items": [
           "CGEL also attests tags with closed-interrogative and imperative anchors; those lie outside this declarative-or-exclamative-anchor constructional node.",
-          "Lovely day, isn't it? has a non-clausal anchor under the strict VP-headed Clause ontology and therefore is not an instance of this Clause-anchored node.",
-          "Interrogative parentheticals such as don't you think? are larger interrogative supplements, not auxiliary-plus-pronoun tags."
+          "<i>Lovely day, isn't it?</i> has a non-clausal anchor under the strict VP-headed Clause ontology and therefore is not an instance of this Clause-anchored node.",
+          "Interrogative parentheticals such as <i>don't you think?</i> are larger interrogative supplements, not auxiliary-plus-pronoun tags."
         ]
       },
       "grain": {
@@ -243,7 +243,7 @@
       {
         "id": "verb-number-agreement-001",
         "relationship": "interfaces-with",
-        "notes": "The tag auxiliary agrees with the personal-pronoun tag Subject, including singular-anchor/plural-they cases"
+        "notes": "The tag auxiliary agrees with the personal-pronoun tag Subject, including singular-anchor/plural-<i>they</i> cases"
       },
       {
         "id": "vp-001",
@@ -258,7 +258,7 @@
       {
         "id": "clause-analogue-001",
         "relationship": "see-also",
-        "notes": "Non-clausal anchors in forms such as Lovely day, isn't it? require a separate host analysis"
+        "notes": "Non-clausal anchors in forms such as <i>Lovely day, isn't it?</i> require a separate host analysis"
       }
     ],
     "semanticRefs": [
@@ -284,8 +284,8 @@
   "editions": {
     "curious": {
       "title": "Questions tacked onto the end of a statement",
-      "summary": "A short question such as isn't he? can follow a statement to ask the listener to confirm it or react to it.",
-      "body": "In He is ill, isn't he?, a short question follows the statement. It's built from an auxiliary verb and a pronoun that refers back to the person in the statement: isn't he. In the frequent version the question has the opposite polarity from the statement, positive then negative. A rising voice asks for confirmation, and a falling one invites agreement or acknowledgement.\n\nA tag can also repeat the statement's polarity: He is ill, is he? This version can express surprise, disapproval or sarcasm, not doubt. The pronoun decides the verb's form, as in Everybody has read it, haven't they?\n\nThis dictionary marks the analysis as provisional.",
+      "summary": "A short question such as <i>isn't he?</i> can follow a statement to ask the listener to confirm it or react to it.",
+      "body": "In <i>He is ill, isn't he?</i>, a short question follows the statement. It's built from an auxiliary verb and a pronoun that refers back to the person in the statement: <i>isn't he</i>. In the frequent version the question has the opposite polarity from the statement, positive then negative. A rising voice asks for confirmation, and a falling one invites agreement or acknowledgement.\n\nA tag can also repeat the statement's polarity: <i>He is ill, is he?</i> This version can express surprise, disapproval or sarcasm, not doubt. The pronoun decides the verb's form, as in <i>Everybody has read it, haven't they?</i>\n\nThis dictionary marks the analysis as provisional.",
       "examples": [
         {
           "text": "[He is ill], [isn't he]?",
@@ -308,11 +308,11 @@
           "from": "entry"
         }
       ],
-      "try": "Say He is ill, isn't he? once with your voice rising at the end and once with it falling. Which version asks and which one invites agreement?"
+      "try": "Say <i>He is ill, isn't he?</i> once with your voice rising at the end and once with it falling. Which version asks and which one invites agreement?"
     },
     "teacher": {
       "summary": "Core material for tag questions: how the tag is formed and how polarity and intonation change its force.",
-      "explain": "A tag question pairs an anchor clause (a declarative or exclamative) with a short closed-interrogative tag clause. The tag has a personal-pronoun subject and an auxiliary-headed VP, with subject-auxiliary inversion. If the anchor's predicator is headed by an auxiliary, the tag normally selects the same auxiliary; otherwise it uses do. The tag normally keeps the anchor's tense, and the verb agrees with the tag's pronoun. In the frequent reversed-polarity variant, a rising tag asks for verification and a falling tag seeks acknowledgement. A constant-polarity tag characteristically has a slight rise and can convey surprise, disapproval, reproach or sarcasm. Prosody is part of the construction. This dictionary treats the analysis as provisional, though confidence in the pattern is marked high.",
+      "explain": "A tag question pairs an anchor clause (a declarative or exclamative) with a short closed-interrogative tag clause. The tag has a personal-pronoun subject and an auxiliary-headed VP, with subject-auxiliary inversion. If the anchor's predicator is headed by an auxiliary, the tag normally selects the same auxiliary; otherwise it uses <i>do</i>. The tag normally keeps the anchor's tense, and the verb agrees with the tag's pronoun. In the frequent reversed-polarity variant, a rising tag asks for verification and a falling tag seeks acknowledgement. A constant-polarity tag characteristically has a slight rise and can convey surprise, disapproval, reproach or sarcasm. Prosody is part of the construction. This dictionary treats the analysis as provisional, though confidence in the pattern is marked high.",
       "terms": "Question tag is a textbook name. CGEL: tag clause attached to an anchor clause. The polarity relation is reversed or constant.",
       "examples": [
         {
@@ -354,15 +354,15 @@
         }
       ],
       "watch_for": [
-        "A learner might choose the tag verb to agree with a singular anchor subject such as everybody, when the tag's pronoun, they, controls agreement.",
-        "A learner might repeat the full verb from the anchor instead of using do when the anchor has no auxiliary.",
+        "A learner might choose the tag verb to agree with a singular anchor subject such as <i>everybody</i>, when the tag's pronoun, <i>they</i>, controls agreement.",
+        "A learner might repeat the full verb from the anchor instead of using <i>do</i> when the anchor has no auxiliary.",
         "A learner might ignore the intonation and miss whether the speaker wants confirmation or only agreement."
       ],
-      "activity": "Pairs say the same anchor, such as It's cold today, with different tags and intonation. The listener decides whether each version asks for confirmation, invites agreement or sounds surprised. Then they swap roles with new anchors."
+      "activity": "Pairs say the same anchor, such as <i>It's cold today</i>, with different tags and intonation. The listener decides whether each version asks for confirmation, invites agreement or sounds surprised. Then they swap roles with new anchors."
     },
     "child": {
       "hook": "How do you ask a friend to agree with something you just said?",
-      "explain": "A tag question is a tiny question stuck on the end of a sentence. It uses a short helper word like is, has or does, and a pronoun like he or she. Your voice rising or falling changes what you mean.",
+      "explain": "A tag question is a tiny question stuck on the end of a sentence. It uses a short helper word like <i>is</i>, <i>has</i> or <i>does</i>, and a pronoun like <i>he</i> or <i>she</i>. Your voice rising or falling changes what you mean.",
       "examples": [
         {
           "text": "[He is ill], [isn't he]?",
@@ -399,10 +399,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Tag Question.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/tag-question-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Tag Question.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/tag-question-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

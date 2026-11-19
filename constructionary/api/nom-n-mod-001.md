@@ -4,7 +4,7 @@
 - pattern: Nom[Mod:Nom Head:N]
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/nom-n-mod-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
@@ -46,7 +46,7 @@ Constraints: semantic: The first nominal denotes a defining characteristic of th
 
 The first nominal has a relationship with the second nominal that is similar to that expressed by a genitive construction, indicating a relationship such as possession, association, or inalienable part.
 
-Constraints: semantic: The relationship between the two nominals can often be paraphrased using a genitive construction (e.g., using 'of' or ''s'). Related constructions: np-gen-dep-001 (semantically-related-to); np-gen-indep-001 (semantically-related-to); n-common-001 (can-fill-left); n-common-001 (can-fill-right)
+Constraints: semantic: The relationship between the two nominals can often be paraphrased using a genitive construction (e.g., using '*of*' or '*'s*'). Related constructions: np-gen-dep-001 (semantically-related-to); np-gen-indep-001 (semantically-related-to); n-common-001 (can-fill-left); n-common-001 (can-fill-right)
 
 - *[[student] representative]*: Equivalent to 'representative of the students'.
 - *[[government] land]*: Could be paraphrased as 'the government's land'.
@@ -71,7 +71,7 @@ Constraints: semantic: The relationship between the two nominals can often be pa
 
 ## Projection
 
-Dog breeders normally pluralizes the head breeders. In book review the first nominal can supply the topic or object of a reviewing event. In coffee cup it supplies a conventional purpose. The word order alone does not select the semantic relation.
+*Dog breeders* normally pluralizes the head *breeders*. In *book review* the first nominal can supply the topic or object of a reviewing event. In *coffee cup* it supplies a conventional purpose. The word order alone does not select the semantic relation.
 
 ## Reader editions (draft, AI-assisted, unreviewed; the linguist entry is the reference)
 
@@ -79,15 +79,15 @@ Dog breeders normally pluralizes the head breeders. In book review the first nom
 
 A noun can come before another noun to say what kind, what for or where from.
 
-In dog breeder, the first noun tells you what kind of breeder: one who breeds dogs. In coffee cup, it gives a purpose: a cup for holding coffee. In city council, it points to where the council belongs, and in baby food, it means food for babies.
+In *dog breeder*, the first noun tells you what kind of breeder: one who breeds dogs. In *coffee cup*, it gives a purpose: a cup for holding coffee. In *city council*, it points to where the council belongs, and in *baby food*, it means food for babies.
 
-Word order alone doesn't say which relation is meant. In dog breeders, the plural normally goes on the second noun. In book review, the first noun can supply the topic or object of a reviewing event.
+Word order alone doesn't say which relation is meant. In *dog breeders*, the plural normally goes on the second noun. In *book review*, the first noun can supply the topic or object of a reviewing event.
 
 ### Teacher
 
 Covers noun-noun modification in the nominal, with several relations that word order alone doesn't signal.
 
-A nominal can modify the head noun of a larger nominal. The relation between the two isn't signalled by word order, and this dictionary lists several: type (dog breeder), purpose (coffee cup), origin or location (city council, country music), a defining characteristic, and a relation like a genitive (student representative, government land, baby food). Plural normally goes on the head noun: dog breeders. In book review the first nominal can supply the topic or object of a reviewing event. This dictionary distinguishes this pre-head modifier from the noun-noun compound, which it lists as a related construction.
+A nominal can modify the head noun of a larger nominal. The relation between the two isn't signalled by word order, and this dictionary lists several: type (*dog breeder*), purpose (*coffee cup*), origin or location (*city council*, *country music*), a defining characteristic, and a relation like a genitive (*student representative*, *government land*, *baby food*). Plural normally goes on the head noun: *dog breeders*. In *book review* the first nominal can supply the topic or object of a reviewing event. This dictionary distinguishes this pre-head modifier from the noun-noun compound, which it lists as a related construction.
 
 ### Child
 

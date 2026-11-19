@@ -16,7 +16,7 @@
       "form": "Numerative DP without overt head noun",
       "meaning": "Quantity reference with recoverable noun from context",
       "function": "Fused determiner-head in NP structure",
-      "distribution": "Elliptical contexts; may license partitive of-complement"
+      "distribution": "Elliptical contexts; may license partitive <i>of</i>-complement"
     },
     "meanings": {
       "1": {
@@ -36,7 +36,7 @@
     "constraints": [
       {
         "type": "structural",
-        "description": "Functions as a fused determiner-head in NP structure; may license partitive of-complements."
+        "description": "Functions as a fused determiner-head in NP structure; may license partitive <i>of</i>-complements."
       }
     ],
     "formRefs": [
@@ -91,7 +91,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "In Lee bought thirty books and I bought forty, the second numerative fills the object NP and can recover the kind from context. In Forty is even, the bare form can instead name the number. Stand-alone shape does not fix the analysis.",
+        "target": "In <i>Lee bought thirty books and I bought forty</i>, the second numerative fills the object NP and can recover the kind from context. In <i>Forty is even</i>, the bare form can instead name the number. Stand-alone shape does not fix the analysis.",
         "evidence": "CGEL’s fused-head comparison and Reynolds’s cardinal-noun diagnostics separate the corresponding readings.",
         "confidence": "medium"
       }
@@ -101,7 +101,7 @@
     "curious": {
       "title": "Number words that stand in for a whole phrase",
       "summary": "A number word can stand alone when the thing counted is clear from the situation.",
-      "body": "In She bought twenty books, but I bought twenty-two, the second number does the work of a whole phrase. It means twenty-two books, and we recover books from the first half of the sentence.\n\nNot every bare number works this way. In Forty is even, the number names the number itself. And an answer like Two to the question How many thousand? fills in only the multiplier part of a number such as two thousand. This dictionary treats these as different readings of a similar-looking form.",
+      "body": "In <i>She bought twenty books, but I bought twenty-two</i>, the second number does the work of a whole phrase. It means <i>twenty-two books</i>, and we recover books from the first half of the sentence.\n\nNot every bare number works this way. In <i>Forty is even</i>, the number names the number itself. And an answer like <i>Two</i> to the question <i>How many thousand?</i> fills in only the multiplier part of a number such as <i>two thousand</i>. This dictionary treats these as different readings of a similar-looking form.",
       "examples": [
         {
           "text": "She bought twenty books, but I bought [twenty-two].",
@@ -120,7 +120,7 @@
     },
     "teacher": {
       "summary": "Shows number words standing alone for a whole noun phrase, and separates that use from bare numbers that name numbers.",
-      "explain": "A numerative can fill a whole NP by itself, with the noun recovered from context. This dictionary calls this a fused determiner-head: one word has both the determiner function and the head function. A partitive of-complement may follow. Stand-alone shape doesn't settle the analysis: in Lee bought thirty books and I bought forty, forty fills the object NP and recovers books, but in Forty is even the bare form can name the number. The fragment Two, answering How many thousand?, substitutes for the factor in two thousand and isn't a fused head. This dictionary marks the analysis as provisional.",
+      "explain": "A numerative can fill a whole NP by itself, with the noun recovered from context. This dictionary calls this a fused determiner-head: one word has both the determiner function and the head function. A partitive <i>of</i>-complement may follow. Stand-alone shape doesn't settle the analysis: in <i>Lee bought thirty books and I bought forty</i>, <i>forty</i> fills the object NP and recovers books, but in <i>Forty is even</i> the bare form can name the number. The fragment <i>Two</i>, answering <i>How many thousand?</i>, substitutes for the factor in <i>two thousand</i> and isn't a fused head. This dictionary marks the analysis as provisional.",
       "terms": "Fused determiner-head is the term used here. Traditional grammar might describe these as numerals used without a noun.",
       "examples": [
         {
@@ -149,8 +149,8 @@
         }
       ],
       "watch_for": [
-        "A learner might treat the fragment answer Two, given to a question about thousands, as a fused head, when it replaces only the factor.",
-        "A learner might read Forty in Forty is even as standing for forty things, when it can name the number."
+        "A learner might treat the fragment answer <i>Two</i>, given to a question about thousands, as a fused head, when it replaces only the factor.",
+        "A learner might read <i>Forty</i> in <i>Forty is even</i> as standing for forty things, when it can name the number."
       ],
       "activity": "Write short pairs of sentences where the second leaves out the counted noun. Students underline the number word and say what noun the reader recovers."
     }
@@ -173,10 +173,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Fused-head Numerative.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/numerative-fused-head-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Fused-head Numerative.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/numerative-fused-head-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

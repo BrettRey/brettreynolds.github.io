@@ -1,6 +1,6 @@
 {
   "id": "affected-have-participial-001",
-  "name": "Have with a Past-Participial Predication",
+  "name": "<i>have</i> with a Past-Participial Predication",
   "pattern": "VP[have + NP + past-participial predicate]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/affected-have-participial-001/",
@@ -9,7 +9,7 @@
   },
   "entry": {
     "id": "affected-have-participial-001",
-    "name": "Have with a Past-Participial Predication",
+    "name": "<i>have</i> with a Past-Participial Predication",
     "pattern": "VP[have + NP + past-participial predicate]",
     "type": "mixed",
     "meanings": {
@@ -45,7 +45,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The subject can be an arranger, but had her bag stolen can describe an unwanted event she experienced. The post-have NP is understood as the affected participant of the participial.",
+        "target": "The subject can be an arranger, but <i>had her bag stolen</i> can describe an unwanted event she experienced. The post-<i>have</i> NP is understood as the affected participant of the participial.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -54,8 +54,8 @@
   "editions": {
     "curious": {
       "title": "Having something done",
-      "summary": "Have plus a noun phrase and a past-participle word presents an outcome as arranged by, or happening to, the subject.",
-      "body": "In We had the roof replaced in June, the roof is understood as the thing that got replaced, and we are the ones who arranged it. The same pattern can describe something unwanted that happened to the subject: Maya had her bag stolen on the train.\n\nSo the subject can be an arranger, but it can also be the person affected. The noun phrase after have (the roof, her bag) is understood as the thing the action affected.",
+      "summary": "<i>Have</i> plus a noun phrase and a past-participle word presents an outcome as arranged by, or happening to, the subject.",
+      "body": "In <i>We had the roof replaced in June</i>, the roof is understood as the thing that got replaced, and we are the ones who arranged it. The same pattern can describe something unwanted that happened to the subject: <i>Maya had her bag stolen on the train</i>.\n\nSo the subject can be an arranger, but it can also be the person affected. The noun phrase after <i>have</i> (<i>the roof</i>, <i>her bag</i>) is understood as the thing the action affected.",
       "examples": [
         {
           "text": "We [had the roof replaced] in June.",
@@ -66,11 +66,11 @@
           "from": "constructed"
         }
       ],
-      "try": "Say We had the roof replaced. Then say Maya had her bag stolen. In which one did the subject arrange it?"
+      "try": "Say <i>We had the roof replaced</i>. Then say <i>Maya had her bag stolen</i>. In which one did the subject arrange it?"
     },
     "teacher": {
-      "summary": "Shows have plus an NP plus a past participle, which can mean arranged or experienced.",
-      "explain": "The pattern is have plus an NP plus a past-participial predicate (had the roof replaced). It presents an outcome as arranged by or affecting the subject. The subject can be an arranger, as in the roof example, but had her bag stolen can describe an unwanted event she experienced. The NP after have is understood as the affected participant of the participial. This dictionary treats the pattern as a specialization of the verb phrase and relates it to the be-passive. It is marked provisional.",
+      "summary": "Shows <i>have</i> plus an NP plus a past participle, which can mean arranged or experienced.",
+      "explain": "The pattern is <i>have</i> plus an NP plus a past-participial predicate (<i>had the roof replaced</i>). It presents an outcome as arranged by or affecting the subject. The subject can be an arranger, as in the roof example, but <i>had her bag stolen</i> can describe an unwanted event she experienced. The NP after <i>have</i> is understood as the affected participant of the participial. This dictionary treats the pattern as a specialization of the verb phrase and relates it to the <i>be</i>-passive. It is marked provisional.",
       "examples": [
         {
           "text": "We [had the roof replaced] in June.",
@@ -94,10 +94,10 @@
         }
       ],
       "watch_for": [
-        "A learner might read had her bag stolen as meaning she arranged the theft, when it can describe an unwanted event.",
-        "A learner might take the roof in had the roof replaced as the thing that does the replacing, when it is the affected participant."
+        "A learner might read <i>had her bag stolen</i> as meaning she arranged the theft, when it can describe an unwanted event.",
+        "A learner might take <i>the roof</i> in <i>had the roof replaced</i> as the thing that does the replacing, when it is the affected participant."
       ],
-      "activity": "Give students short sentences with have plus an NP plus a participle. They mark each as arranged or experienced and underline the affected noun phrase."
+      "activity": "Give students short sentences with <i>have</i> plus an NP plus a participle. They mark each as arranged or experienced and underline the affected noun phrase."
     }
   },
   "status": {
@@ -118,10 +118,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Have with a Past-Participial Predication.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/affected-have-participial-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"<i>have</i> with a Past-Participial Predication.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/affected-have-participial-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

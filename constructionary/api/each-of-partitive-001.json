@@ -1,6 +1,6 @@
 {
   "id": "each-of-partitive-001",
-  "name": "Each in a Partitive NP",
+  "name": "<i>each</i> in a Partitive NP",
   "pattern": "NP[each + PP[of + plural definite NP]]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/each-of-partitive-001/",
@@ -10,7 +10,7 @@
   },
   "entry": {
     "id": "each-of-partitive-001",
-    "name": "Each in a Partitive NP",
+    "name": "<i>each</i> in a Partitive NP",
     "pattern": "NP[each + PP[of + plural definite NP]]",
     "type": "mixed",
     "meanings": {
@@ -28,7 +28,7 @@
       {
         "id": "true-partitive-001",
         "relationship": "specialization-of",
-        "notes": "Each of the six drawers uses a partitive domain and distributes the predication over every drawer in it."
+        "notes": "<i>Each of the six drawers</i> uses a partitive domain and distributes the predication over every drawer in it."
       },
       {
         "id": "grammatical-number-001",
@@ -46,7 +46,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The of-phrase has a plural complement, while each favours singular verbal agreement. Every without a following one does not normally form the same construction.",
+        "target": "The <i>of</i>-phrase has a plural complement, while <i>each</i> favours singular verbal agreement. <i>Every</i> without a following <i>one</i> does not normally form the same construction.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -54,9 +54,9 @@
   },
   "editions": {
     "curious": {
-      "title": "Each of the group",
-      "summary": "Each followed by of and a known group says something about every member of that group.",
-      "body": "In Each of the six drawers has a lock, the six drawers are a group already in view. The sentence says that every one of them has a lock, one by one. The word each singles out the members, and the phrase after of names the group they belong to.\n\nThe group is expressed with a plural and a definite word such as the.",
+      "title": "<i>Each of</i> the group",
+      "summary": "<i>Each</i> followed by <i>of</i> and a known group says something about every member of that group.",
+      "body": "In <i>Each of the six drawers has a lock</i>, the six drawers are a group already in view. The sentence says that every one of them has a lock, one by one. The word <i>each</i> singles out the members, and the phrase after <i>of</i> names the group they belong to.\n\nThe group is expressed with a plural and a definite word such as <i>the</i>.",
       "examples": [
         {
           "text": "[Each of the six drawers] has a lock.",
@@ -67,11 +67,11 @@
           "from": "constructed"
         }
       ],
-      "try": "Pick a group you both know, such as the books on a table. Say something true of each one, starting with each of."
+      "try": "Pick a group you both know, such as the books on a table. Say something true of each one, starting with <i>each of</i>."
     },
     "teacher": {
-      "summary": "Helps explain each of plus a plural definite NP as a way to apply a statement to every member of a known group.",
-      "explain": "In each + PP[of + plural definite NP], each distributes the predication over every member of an established group, as in Each of the six drawers has a lock. This dictionary treats it as a specialization of the true partitive: the of-phrase gives a partitive domain, and the predication is distributed over every drawer in it. This dictionary also relates the pattern to grammatical number, since the group is plural and the distribution works member by member.",
+      "summary": "Helps explain <i>each of</i> plus a plural definite NP as a way to apply a statement to every member of a known group.",
+      "explain": "In <i>each</i> + PP[<i>of</i> + plural definite NP], <i>each</i> distributes the predication over every member of an established group, as in <i>Each of the six drawers has a lock</i>. This dictionary treats it as a specialization of the true partitive: the <i>of</i>-phrase gives a partitive domain, and the predication is distributed over every drawer in it. This dictionary also relates the pattern to grammatical number, since the group is plural and the distribution works member by member.",
       "examples": [
         {
           "text": "[Each of the six drawers] has a lock.",
@@ -83,14 +83,14 @@
         }
       ],
       "watch_for": [
-        "A learner might use each of with a group that hasn't been established, though the pattern distributes over a known group.",
-        "A learner might treat each of the six drawers as describing the drawers together, when it describes them one by one."
+        "A learner might use <i>each of</i> with a group that hasn't been established, though the pattern distributes over a known group.",
+        "A learner might treat <i>each of the six drawers</i> as describing the drawers together, when it describes them one by one."
       ],
-      "activity": "Students look at a picture of a group (six drawers, a team) and write a sentence saying something true of each member, beginning each of the."
+      "activity": "Students look at a picture of a group (six drawers, a team) and write a sentence saying something true of each member, beginning <i>each of the</i>."
     },
     "child": {
       "hook": "Can one word talk about every drawer in turn?",
-      "explain": "Each of the six drawers has a lock means every drawer has one. You count them one at a time. The group is one you already know about.",
+      "explain": "<i>Each of the six drawers has a lock</i> means every drawer has one. You count them one at a time. The group is one you already know about.",
       "examples": [
         {
           "text": "[Each of the six drawers] has a lock.",
@@ -101,7 +101,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Look at a group of things in the room. Say one true thing about each one, starting with each of the."
+      "play": "Look at a group of things in the room. Say one true thing about each one, starting with <i>each of the</i>."
     }
   },
   "status": {
@@ -122,10 +122,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Each in a Partitive NP.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/each-of-partitive-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"<i>each</i> in a Partitive NP.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/each-of-partitive-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

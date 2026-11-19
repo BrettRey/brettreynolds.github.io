@@ -1,10 +1,10 @@
-# Domain Adjunct with -Wise
+# Domain Adjunct with *-wise*
 
 - id: `domain-wise-adjunct-001`
 - pattern: initial domain expression in -wise + clause
 - status: provisional analysis; evidence level: unassessed; early sketch (one example, evidence not yet written up)
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/domain-wise-adjunct-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
@@ -22,20 +22,20 @@ Restricts the dimension within which the following claim is assessed.
 
 ## Projection
 
-The same van can be worse in comfort without contradiction. The adjunct sets the assessment domain rather than describing how better is realized.
+The same van can be worse in comfort without contradiction. The adjunct sets the assessment domain rather than describing how *better* is realized.
 
 ## Reader editions (draft, AI-assisted, unreviewed; the linguist entry is the reference)
 
-### Curious reader: Narrowing a claim with -wise
+### Curious reader: Narrowing a claim with *-wise*
 
-A word ending in -wise at the start of a sentence says which aspect the rest of the sentence is about.
+A word ending in *-wise* at the start of a sentence says which aspect the rest of the sentence is about.
 
-In Cost-wise, the smaller van is better, the opening word cost-wise limits the claim. The smaller van is better as far as cost goes, and the sentence doesn't say it is better in every way.
+In *Cost-wise, the smaller van is better*, the opening word *cost-wise* limits the claim. The smaller van is better as far as cost goes, and the sentence doesn't say it is better in every way.
 
 The opening expression sets the dimension within which the following claim is judged. It stands at the front of the sentence, apart from the main statement.
 
 ### Teacher
 
-Helps explain a front-placed -wise word that restricts the dimension of a claim.
+Helps explain a front-placed *-wise* word that restricts the dimension of a claim.
 
-A domain adjunct in -wise is an initial expression in -wise followed by a clause. It restricts the dimension within which the following claim is assessed. In Cost-wise, the smaller van is better, the claim holds for cost. This dictionary relates the pattern to gradation and cites CGEL's treatment of adverbial word formation.
+A domain adjunct in *-wise* is an initial expression in *-wise* followed by a clause. It restricts the dimension within which the following claim is assessed. In *Cost-wise, the smaller van is better*, the claim holds for cost. This dictionary relates the pattern to gradation and cites CGEL's treatment of adverbial word formation.

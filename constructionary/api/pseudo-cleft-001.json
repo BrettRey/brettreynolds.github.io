@@ -15,7 +15,7 @@
     "meanings": {
       "1": {
         "definition": "Specifies the value of a variable defined by a fused relative.",
-        "details": "The fused relative in What I need is a long cool drink defines what is to be identified. The value can precede be in the reversed version. Clausal values are common, including a bare or to-infinitival when the relative has do. A copular clause that evaluates what they did as a disgrace is ascriptive and does not specify the action.",
+        "details": "The fused relative in <i>What I need is a long cool drink</i> defines what is to be identified. The value can precede <i>be</i> in the reversed version. Clausal values are common, including a bare or to-infinitival when the relative has <i>do</i>. A copular clause that evaluates what they did as a disgrace is ascriptive and does not specify the action.",
         "examples": [
           {
             "form": "[What I need is a long cool drink.]",
@@ -43,7 +43,7 @@
           },
           {
             "form": "[What you must do is apply for special leave.]",
-            "note": "Bare infinitival value. To is also possible here.",
+            "note": "Bare infinitival value. <i>To</i> is also possible here.",
             "grounds": [
               {
                 "source": "cgel-2002",
@@ -85,7 +85,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "A do pseudo-cleft can take an infinitival value which the corresponding it-cleft generally excludes.",
+        "target": "A <i>do</i> pseudo-cleft can take an infinitival value which the corresponding it-cleft generally excludes.",
         "evidence": "CGEL compares the two clefts with matched clausal values and distinguishes specifying and ascriptive be. CASA catalogs the wh-cleft pattern.",
         "confidence": "high"
       }
@@ -93,9 +93,9 @@
   },
   "editions": {
     "curious": {
-      "title": "What I need is...",
-      "summary": "A sentence can start with a what clause, then a form of be, and finish with the thing being named.",
-      "body": "In What I need is a long cool drink, the first part sets up a gap: what is it that I need? The last part fills it in: a long cool drink. Putting the answer last gives it emphasis.\n\nThe order can be flipped, as in A long cool drink is what I need. The answer can also be an action, as in What you must do is apply for special leave. This dictionary marks the account as provisional.",
+      "title": "<i>What I need is...</i>",
+      "summary": "A sentence can start with a <i>what</i> clause, then a form of <i>be</i>, and finish with the thing being named.",
+      "body": "In <i>What I need is a long cool drink</i>, the first part sets up a gap: what is it that I need? The last part fills it in: a long cool drink. Putting the answer last gives it emphasis.\n\nThe order can be flipped, as in <i>A long cool drink is what I need</i>. The answer can also be an action, as in <i>What you must do is apply for special leave</i>. This dictionary marks the account as provisional.",
       "examples": [
         {
           "text": "[What I need is a long cool drink.]",
@@ -110,12 +110,12 @@
           "from": "entry"
         }
       ],
-      "try": "Start with what I want is, and finish with the thing you want. Then flip it around."
+      "try": "Start with <i>what I want is</i>, and finish with the thing you want. Then flip it around."
     },
     "teacher": {
-      "summary": "Covers sentences like What I need is a drink, where a what clause is paired with the value that completes it.",
-      "explain": "A pseudo-cleft specifies the value of a variable defined by a fused relative. In What I need is a long cool drink, what I need defines what is to be identified, and the drink supplies the value. The value can precede be in the reversed version (A long cool drink is what I need). Clausal values are common, including a bare or to-infinitival when the relative has do (What you must do is apply for special leave; to is also possible). This dictionary says the do pseudo-cleft can take an infinitival value which the corresponding it-cleft generally excludes. It's marked provisional.",
-      "terms": "Sometimes called a wh-cleft; the part beginning with what is a fused relative in this dictionary's terms.",
+      "summary": "Covers sentences like <i>What I need is a drink</i>, where a <i>what</i> clause is paired with the value that completes it.",
+      "explain": "A pseudo-cleft specifies the value of a variable defined by a fused relative. In <i>What I need is a long cool drink</i>, <i>what I need</i> defines what is to be identified, and the drink supplies the value. The value can precede <i>be</i> in the reversed version (<i>A long cool drink is what I need</i>). Clausal values are common, including a bare or <i>to</i>-infinitival when the relative has <i>do</i> (<i>What you must do is apply for special leave</i>; <i>to</i> is also possible). This dictionary says the <i>do</i> pseudo-cleft can take an infinitival value which the corresponding <i>it</i>-cleft generally excludes. It's marked provisional.",
+      "terms": "Sometimes called a wh-cleft; the part beginning with <i>what</i> is a fused relative in this dictionary's terms.",
       "examples": [
         {
           "text": "[What I need is a long cool drink.]",
@@ -138,10 +138,10 @@
         }
       ],
       "watch_for": [
-        "A learner might treat What they did was a disgrace as a pseudo-cleft, when it evaluates the action instead of naming it.",
-        "A learner might leave out the be that links the two parts."
+        "A learner might treat <i>What they did was a disgrace</i> as a pseudo-cleft, when it evaluates the action instead of naming it.",
+        "A learner might leave out the <i>be</i> that links the two parts."
       ],
-      "activity": "Students turn plain sentences such as I need a long cool drink into pseudo-clefts and then into the reversed version, and say which part is the value."
+      "activity": "Students turn plain sentences such as <i>I need a long cool drink</i> into pseudo-clefts and then into the reversed version, and say which part is the value."
     }
   },
   "status": {
@@ -162,10 +162,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Pseudo-Cleft.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/pseudo-cleft-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Pseudo-Cleft.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/pseudo-cleft-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

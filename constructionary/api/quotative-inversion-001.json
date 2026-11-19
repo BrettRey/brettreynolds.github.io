@@ -56,18 +56,18 @@
     "curious": {
       "title": "Said the clerk",
       "summary": "After a quotation, the verb of speaking can come before the speaker.",
-      "body": "In “I can explain,” said the clerk, the verb said comes first and the clerk, who is speaking, follows. It reports the words just quoted, and it can come after or within the quotation.\n\nThis dictionary says full noun phrases such as the clerk readily follow the verb. Plain personal pronouns usually come first in neutral modern prose, though literary variants with the verb first occur. This dictionary marks the account as provisional.",
+      "body": "In <i>“I can explain,” said the clerk</i>, the verb <i>said</i> comes first and <i>the clerk</i>, who is speaking, follows. It reports the words just quoted, and it can come after or within the quotation.\n\nThis dictionary says full noun phrases such as <i>the clerk</i> readily follow the verb. Plain personal pronouns usually come first in neutral modern prose, though literary variants with the verb first occur. This dictionary marks the account as provisional.",
       "examples": [
         {
           "text": "“I can explain,” [said the clerk].",
           "from": "entry"
         }
       ],
-      "try": "Look at some dialogue in a book you're reading. Find a quotation followed by said and a name or a noun. Does the verb come first?"
+      "try": "Look at some dialogue in a book you're reading. Find a quotation followed by <i>said</i> and a name or a noun. Does the verb come first?"
     },
     "teacher": {
       "summary": "Explains why a reporting verb can come before its subject after direct speech.",
-      "explain": "In quotative inversion the reporting verb comes before its subject after or within direct speech: “I can explain,” said the clerk. Full NP subjects readily follow the verb. Plain personal pronouns usually precede it in contemporary neutral prose, though literary inverted variants occur. This dictionary marks the analysis provisional and notes the link with the subject-dependent inversion family.",
+      "explain": "In quotative inversion the reporting verb comes before its subject after or within direct speech: <i>“I can explain,” said the clerk</i>. Full NP subjects readily follow the verb. Plain personal pronouns usually precede it in contemporary neutral prose, though literary inverted variants occur. This dictionary marks the analysis provisional and notes the link with the subject-dependent inversion family.",
       "terms": "Sometimes called 'speech-verb inversion'; this dictionary calls it quotative inversion.",
       "examples": [
         {
@@ -83,14 +83,14 @@
         }
       ],
       "watch_for": [
-        "A learner might think said the clerk is a question because the verb comes first.",
+        "A learner might think <i>said the clerk</i> is a question because the verb comes first.",
         "A learner might use the inverted order with a plain pronoun in everyday writing."
       ],
       "activity": "Students take dialogue from a story and rewrite each quotation tag with the verb first and then with the subject first, comparing how each reads."
     },
     "child": {
       "hook": "Why does the speaker come second in a story?",
-      "explain": "In stories, a person's words can be followed by a speaking word and then the speaker. In “I can explain,” said the clerk, the word said comes before the clerk.",
+      "explain": "In stories, a person's words can be followed by a speaking word and then the speaker. In <i>“I can explain,” said the clerk</i>, the word <i>said</i> comes before <i>the clerk</i>.",
       "examples": [
         {
           "text": "“I can explain,” [said the clerk].",
@@ -122,10 +122,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Quotative Inversion.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/quotative-inversion-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Quotative Inversion.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/quotative-inversion-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

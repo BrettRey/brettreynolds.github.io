@@ -1,6 +1,6 @@
 {
   "id": "finite-do-support-001",
-  "name": "Finite Do Support",
+  "name": "Finite <i>do</i> Support",
   "pattern": "Clause[finite do + plain-form VP] in inversion or clause negation",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/finite-do-support-001/",
@@ -10,7 +10,7 @@
   },
   "entry": {
     "id": "finite-do-support-001",
-    "name": "Finite Do Support",
+    "name": "Finite <i>do</i> Support",
     "pattern": "Clause[finite do + plain-form VP] in inversion or clause negation",
     "type": "syntactic",
     "meanings": {
@@ -37,17 +37,17 @@
       {
         "id": "imperative-negation-do-001",
         "relationship": "related-to",
-        "notes": "Imperative do also occurs before be."
+        "notes": "Imperative <i>do</i> also occurs before <i>be</i>."
       },
       {
         "id": "closed-interrogative-clause-001",
         "relationship": "interfaces-with",
-        "notes": "Did Jo leave? inserts finite do when the clause needs inversion and has no other auxiliary. Has Jo left? inverts the auxiliary already present."
+        "notes": "<i>Did Jo leave?</i> inserts finite <i>do</i> when the clause needs inversion and has no other auxiliary. <i>Has Jo left?</i> inverts the auxiliary already present."
       },
       {
         "id": "primary-auxiliary-negation-001",
         "relationship": "interfaces-with",
-        "notes": "Jo didn’t leave uses do to host negation. Jo hasn’t left uses the existing auxiliary."
+        "notes": "<i>Jo didn’t leave</i> uses <i>do</i> to host negation. <i>Jo hasn’t left</i> uses the existing auxiliary."
       }
     ],
     "grounds": [
@@ -61,7 +61,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The tense feature is expressed on do, and check is plain. An available modal in Can you check? occupies the finite auxiliary position directly.",
+        "target": "The tense feature is expressed on <i>do</i>, and <i>check</i> is plain. An available modal in <i>Can you check?</i> occupies the finite auxiliary position directly.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -69,9 +69,9 @@
   },
   "editions": {
     "curious": {
-      "title": "The helper word do",
-      "summary": "When a sentence needs a helper verb and has none, English supplies did, does or do.",
-      "body": "In Did you check the hinge?, the question starts with did, and check stays in its plain form. The did is the helper, and it carries the past tense. English supplies it when a question or a negative needs a helper and the sentence has only an ordinary verb.\n\nIf a helper such as can is already there, no do is needed: Can you check the hinge? The same goes for Has Jo left?, where the helper has is already present. For a negative, Jo didn't leave uses do to carry the not, while Jo hasn't left uses the helper that's already there.",
+      "title": "The helper word <i>do</i>",
+      "summary": "When a sentence needs a helper verb and has none, English supplies <i>did</i>, <i>does</i> or <i>do</i>.",
+      "body": "In <i>Did you check the hinge?</i>, the question starts with <i>did</i>, and <i>check</i> stays in its plain form. The <i>did</i> is the helper, and it carries the past tense. English supplies it when a question or a negative needs a helper and the sentence has only an ordinary verb.\n\nIf a helper such as <i>can</i> is already there, no <i>do</i> is needed: <i>Can you check the hinge?</i> The same goes for <i>Has Jo left?</i>, where the helper <i>has</i> is already present. For a negative, <i>Jo didn't leave</i> uses <i>do</i> to carry the <i>not</i>, while <i>Jo hasn't left</i> uses the helper that's already there.",
       "examples": [
         {
           "text": "[Did you check] the hinge?",
@@ -86,12 +86,12 @@
           "from": "constructed"
         }
       ],
-      "try": "Turn Jo left into a question. Which little word do you add, and what happens to left?"
+      "try": "Turn <i>Jo left</i> into a question. Which little word do you add, and what happens to left?"
     },
     "teacher": {
-      "summary": "Helps explain when English adds finite do, in questions and negatives, and when an existing auxiliary does the job.",
-      "explain": "Finite do support supplies a finite auxiliary when the construction (inversion or clause negation) requires one and the positive clause has a lexical verb. The tense is expressed on do and the verb is plain: Did you check the hinge? If a finite modal is available, it occupies the auxiliary position directly: Can you check the hinge? Likewise Has Jo left? inverts the auxiliary already present, and Jo hasn't left uses the existing auxiliary, whereas Did Jo leave? and Jo didn't leave insert do. Imperative do also occurs before be. This dictionary marks the analysis as provisional, with medium confidence.",
-      "terms": "Also called do-support. The finite auxiliary that inverts or hosts negation is sometimes called the operator.",
+      "summary": "Helps explain when English adds finite <i>do</i>, in questions and negatives, and when an existing auxiliary does the job.",
+      "explain": "Finite <i>do</i> support supplies a finite auxiliary when the construction (inversion or clause negation) requires one and the positive clause has a lexical verb. The tense is expressed on <i>do</i> and the verb is plain: <i>Did you check the hinge?</i> If a finite modal is available, it occupies the auxiliary position directly: <i>Can you check the hinge?</i> Likewise <i>Has Jo left?</i> inverts the auxiliary already present, and <i>Jo hasn't left</i> uses the existing auxiliary, whereas <i>Did Jo leave?</i> and <i>Jo didn't leave</i> insert <i>do</i>. Imperative <i>do</i> also occurs before <i>be</i>. This dictionary marks the analysis as provisional, with medium confidence.",
+      "terms": "Also called <i>do</i>-support. The finite auxiliary that inverts or hosts negation is sometimes called the operator.",
       "examples": [
         {
           "text": "[Did you check] the hinge?",
@@ -106,7 +106,7 @@
         {
           "text": "Did you check the hinge?",
           "from": "entry",
-          "note": "No other auxiliary, so do is supplied and check is plain."
+          "note": "No other auxiliary, so <i>do</i> is supplied and <i>check</i> is plain."
         },
         {
           "text": "Can you check the hinge?",
@@ -120,14 +120,14 @@
         }
       ],
       "watch_for": [
-        "A learner might put the tense on both did and check.",
-        "A learner might add did when a modal or another auxiliary is already present."
+        "A learner might put the tense on both <i>did</i> and <i>check</i>.",
+        "A learner might add <i>did</i> when a modal or another auxiliary is already present."
       ],
-      "activity": "Students get statements with plain verbs (Jo left, You checked) and with auxiliaries (Jo has left, You can check). They turn each into a question and a negative, and sort the results by whether do was added."
+      "activity": "Students get statements with plain verbs (<i>Jo left</i>, <i>You checked</i>) and with auxiliaries (<i>Jo has left</i>, <i>You can check</i>). They turn each into a question and a negative, and sort the results by whether <i>do</i> was added."
     },
     "child": {
-      "hook": "Which little word helps you ask Did you check the hinge?",
-      "explain": "In Did you check the hinge?, the question begins with did, and check stays plain. English adds did when the question needs a helper word and there isn't one. With can, you don't need did.",
+      "hook": "Which little word helps you ask <i>Did you check the hinge?</i>",
+      "explain": "In <i>Did you check the hinge?</i>, the question begins with <i>did</i>, and <i>check</i> stays plain. English adds <i>did</i> when the question needs a helper word and there isn't one. With <i>can</i>, you don't need <i>did</i>.",
       "examples": [
         {
           "text": "[Did you check] the hinge?",
@@ -142,7 +142,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Take a statement like Jo left and ask it as a question starting with did. What happens to left? Then ask Jo can swim as a question. Do you need did?"
+      "play": "Take a statement like <i>Jo left</i> and ask it as a question starting with <i>did</i>. What happens to <i>left</i>? Then ask <i>Jo can swim</i> as a question. Do you need <i>did</i>?"
     }
   },
   "status": {
@@ -164,10 +164,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Finite Do Support.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/finite-do-support-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Finite <i>do</i> Support.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/finite-do-support-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

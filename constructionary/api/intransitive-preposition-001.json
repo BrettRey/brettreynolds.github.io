@@ -21,11 +21,11 @@
     "meanings": {
       "1": {
         "definition": "A preposition used without an NP object, whether or not it has another kind of complement",
-        "details": "Intransitive means no object, not no complement. A complementless member such as outside heads a one-word PP, but an intransitive preposition may instead take a PP complement (owing to the rain), a predicative complement (as satisfactory), or a clause complement (because it rained). Ago is intransitive-only and occurs with an obligatory pre-head measure modifier (ten years ago; cf. ten years before Christ). The category remains preposition throughout (CGEL p. 272); the analysis of ago deliberately rejects CGEL p. 632.",
+        "details": "Intransitive means no object, not no complement. A complementless member such as <i>outside</i> heads a one-word PP, but an intransitive preposition may instead take a PP complement (<i>owing to the rain</i>), a predicative complement (<i>as satisfactory</i>), or a clause complement (<i>because it rained</i>). <i>Ago</i> is intransitive-only and occurs with an obligatory pre-head measure modifier (<i>ten years ago</i>; cf. <i>ten years before Christ</i>). The category remains preposition throughout (CGEL p. 272); the analysis of <i>ago</i> deliberately rejects CGEL p. 632.",
         "examples": [
           {
             "form": "She waited [outside].",
-            "note": "Complementless intransitive use; the same lexeme also has transitive outside the door"
+            "note": "Complementless intransitive use; the same lexeme also has transitive <i>outside the door</i>"
           },
           {
             "form": "This happened [owing [to the rain]].",
@@ -41,7 +41,7 @@
           },
           {
             "form": "ten years [ago]",
-            "note": "Intransitive-only, with an obligatory pre-head measure modifier (*I went ago); the measure phrase is a modifier, not a complement (cf. ten years before Christ)"
+            "note": "Intransitive-only, with an obligatory pre-head measure modifier (*<i>I went ago</i>); the measure phrase is a modifier, not a complement (cf. <i>ten years before Christ</i>)"
           },
           {
             "form": "Bill slept the afternoon [away].",
@@ -57,7 +57,7 @@
       },
       {
         "type": "syntactic",
-        "description": "Within the complementless locative subset, right/straight modification and from-embedding help distinguish PPs from AdvPs (right outside, straight home, from abroad)."
+        "description": "Within the complementless locative subset, <i>right</i>/<i>straight</i> modification and <i>from</i>-embedding help distinguish PPs from AdvPs (<i>right outside</i>, <i>straight home</i>, <i>from abroad</i>)."
       }
     ],
     "relatedConstructions": [
@@ -85,8 +85,8 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Outside can occur alone in We waited outside or with a complement in We waited outside the gate. The ability to say from outside supplies a test beyond merely counting overt NP complements.",
-        "evidence": "CGEL distinguishes intransitive uses and documents PP embedding by from and other prepositions.",
+        "target": "<i>Outside</i> can occur alone in <i>We waited outside</i> or with a complement in <i>We waited outside the gate</i>. The ability to say <i>from outside</i> supplies a test beyond merely counting overt NP complements.",
+        "evidence": "CGEL distinguishes intransitive uses and documents PP embedding by <i>from</i> and other prepositions.",
         "confidence": "medium"
       }
     }
@@ -94,8 +94,8 @@
   "editions": {
     "curious": {
       "title": "Prepositions with no object",
-      "summary": "Some prepositions can do their job without a noun phrase after them, as outside does in She waited outside.",
-      "body": "Take in the garden: the preposition in has an object, the garden. But in She waited outside, outside stands alone. It has no object, yet it's still the same kind of word, a preposition.\n\nNo object doesn't mean nothing follows. A preposition can take a phrase, as in owing to the rain, a description, as in as satisfactory, or a whole clause, as in because it rained. What it lacks is a noun phrase object.",
+      "summary": "Some prepositions can do their job without a noun phrase after them, as <i>outside</i> does in <i>She waited outside</i>.",
+      "body": "Take <i>in the garden</i>: the preposition <i>in</i> has an object, <i>the garden</i>. But in <i>She waited outside</i>, <i>outside</i> stands alone. It has no object, yet it's still the same kind of word, a preposition.\n\nNo object doesn't mean nothing follows. A preposition can take a phrase, as in <i>owing to the rain</i>, a description, as in <i>as satisfactory</i>, or a whole clause, as in <i>because it rained</i>. What it lacks is a noun phrase object.",
       "examples": [
         {
           "text": "She waited [outside].",
@@ -114,12 +114,12 @@
           "from": "entry"
         }
       ],
-      "try": "Say We waited outside and We waited outside the gate. What does the gate add?"
+      "try": "Say <i>We waited outside</i> and <i>We waited outside the gate</i>. What does <i>the gate</i> add?"
     },
     "teacher": {
       "summary": "Explains that prepositions can be intransitive, lacking an object, without lacking a complement.",
-      "explain": "Intransitive here means no object, not no complement. A preposition without an NP object can be complementless, as in outside, or can take a PP complement (owing to the rain), a predicative complement (as satisfactory), or a clause complement (because it rained). The category remains preposition throughout. The PP can function as complement, modifier, adjunct or predicative. For complementless locative members such as outside, right or straight modification and from-embedding help distinguish PPs from adverb phrases: right outside, straight home, from abroad. This dictionary gives ago as intransitive-only, with an obligatory pre-head measure modifier, as in ten years ago. This dictionary marks the analysis as provisional.",
-      "terms": "A word like outside in this use is sometimes called an adverb. CGEL, and this dictionary, treat them as prepositions heading PPs without an object.",
+      "explain": "Intransitive here means no object, not no complement. A preposition without an NP object can be complementless, as in <i>outside</i>, or can take a PP complement (<i>owing to the rain</i>), a predicative complement (<i>as satisfactory</i>), or a clause complement (<i>because it rained</i>). The category remains preposition throughout. The PP can function as complement, modifier, adjunct or predicative. For complementless locative members such as <i>outside</i>, <i>right</i> or <i>straight</i> modification and <i>from</i>-embedding help distinguish PPs from adverb phrases: <i>right outside</i>, <i>straight home</i>, <i>from abroad</i>. This dictionary gives <i>ago</i> as intransitive-only, with an obligatory pre-head measure modifier, as in <i>ten years ago</i>. This dictionary marks the analysis as provisional.",
+      "terms": "A word like <i>outside</i> in this use is sometimes called an adverb. CGEL, and this dictionary, treat them as prepositions heading PPs without an object.",
       "examples": [
         {
           "text": "She waited [outside].",
@@ -160,7 +160,7 @@
       ],
       "watch_for": [
         "A learner might think a preposition must be followed by a noun phrase.",
-        "A learner might read no object as meaning no complement, when to the rain (after owing) and it rained (after because) are complements."
+        "A learner might read no object as meaning no complement, when <i>to the rain</i> (after <i>owing</i>) and <i>it rained</i> (after <i>because</i>) are complements."
       ],
       "activity": "Students list prepositions from a text and sort each use by whether a noun phrase object follows. They then find uses with a PP, predicative or clause complement."
     }
@@ -184,10 +184,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Intransitive Preposition Use.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/intransitive-preposition-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Intransitive Preposition Use.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/intransitive-preposition-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

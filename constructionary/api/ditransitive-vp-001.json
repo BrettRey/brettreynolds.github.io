@@ -18,7 +18,7 @@
       "form": "VP headed by a verb with two internal core complements: indirect object followed by direct object",
       "meaning": "Role alignment is centred on recipient and theme, but extends to goods-beneficiary, prevention, source, loss, and other affected-participant interpretations",
       "function": "Packages two participants as indirect and direct object",
-      "distribution": "Licensed by particular verb senses; many, but not all, have a related monotransitive VP with a to- or for-PP"
+      "distribution": "Licensed by particular verb senses; many, but not all, have a related monotransitive VP with a <i>to</i>- or <i>for</i>-PP"
     },
     "meanings": {
       "1": {
@@ -45,13 +45,13 @@
           },
           {
             "form": "I'll [do you a quiche].",
-            "note": "Goods-beneficiary use; contrast service-beneficiary *I'll do you the washing-up"
+            "note": "Goods-beneficiary use; contrast service-beneficiary *<i>I'll do you the washing-up</i>"
           }
         ]
       },
       "3": {
         "definition": "The indirect object denotes a prevented recipient, source, loser, or other affected participant rather than an actual recipient",
-        "details": "These participants are still indirect objects on syntactic evidence. CGEL includes Oi-only permission and refusal verbs and source-role uses of charge, cost, and fine (pp. 309, 311–13); Goldberg analyzes prevented receipt and loss as extensions of the giving prototype.",
+        "details": "These participants are still indirect objects on syntactic evidence. CGEL includes Oi-only permission and refusal verbs and source-role uses of <i>charge</i>, <i>cost</i>, and <i>fine</i> (pp. 309, 311–13); Goldberg analyzes prevented receipt and loss as extensions of the giving prototype.",
         "examples": [
           {
             "form": "They [refused Kim permission].",
@@ -71,15 +71,15 @@
     "constraints": [
       {
         "type": "head",
-        "description": "Licensing is lexeme- and sense-specific: give allows Oi or to, explain is to-only, buy allows Oi or for, borrow is for-only, and spare has Oi-only senses."
+        "description": "Licensing is lexeme- and sense-specific: <i>give</i> allows Oi or <i>to</i>, <i>explain</i> is <i>to</i>-only, <i>buy</i> allows Oi or <i>for</i>, <i>borrow</i> is <i>for</i>-only, and <i>spare</i> has Oi-only senses."
       },
       {
         "type": "position",
-        "description": "In the canonical VP, Oi precedes Od. Some chiefly BrE varieties allow Od–Oi when both are personal pronouns, as in He gave it her."
+        "description": "In the canonical VP, Oi precedes Od. Some chiefly BrE varieties allow Od–Oi when both are personal pronouns, as in <i>He gave it her</i>."
       },
       {
         "type": "syntactic",
-        "description": "A to- or for-PP is not an indirect object. In sent a copy to Sue, the VP is monotransitive: a copy is Od, the to-PP is a complement, and Sue is oblique within that PP."
+        "description": "A <i>to</i>- or <i>for</i>-PP is not an indirect object. In <i>sent a copy to Sue</i>, the VP is monotransitive: <i>a copy</i> is Od, the <i>to</i>-PP is a complement, and <i>Sue</i> is oblique within that PP."
       },
       {
         "type": "syntactic",
@@ -134,7 +134,7 @@
           {
             "property": "Verb-sense-specific licensing",
             "diagnostics": [
-              "Oi-or-to, to-only, Oi-or-for, for-only, and Oi-only lexical classes"
+              "Oi-or-<i>to</i>, <i>to</i>-only, Oi-or-<i>for</i>, <i>for</i>-only, and Oi-only lexical classes"
             ],
             "weight": "high"
           }
@@ -150,7 +150,7 @@
           {
             "property": "Prepositional alternant",
             "diagnostics": [
-              "Od plus to-PP or for-PP for many, but not all, verb senses"
+              "Od plus <i>to</i>-PP or <i>for</i>-PP for many, but not all, verb senses"
             ],
             "weight": "medium"
           },
@@ -170,21 +170,21 @@
             "effect": "Od–Oi order may be licensed"
           },
           {
-            "context": "Oi corresponds to a for-beneficiary",
+            "context": "Oi corresponds to a <i>for</i>-beneficiary",
             "effect": "Passive acceptability is generally lower and more speaker-variable"
           }
         ],
-        "speaker_variation": "Judgements vary for second passives, for-beneficiary passives, and some service-beneficiary double-object VPs."
+        "speaker_variation": "Judgements vary for second passives, <i>for</i>-beneficiary passives, and some service-beneficiary double-object VPs."
       },
       "boundaries": {
         "overlaps_with": [
           "Goldberg-style caused-receipt semantic network"
         ],
         "known_boundary_items": [
-          "sent a copy to Sue: Od plus PP, hence monotransitive, not ditransitive",
-          "considered Ed a fool: Od plus NP predicative complement, not two objects",
-          "sent Kim to the back: Od plus locative-goal PP, hence monotransitive and not ditransitive",
-          "teaches the students: its sole object is Od despite matching the semantic role of a ditransitive Oi"
+          "<i>sent a copy to Sue</i>: Od plus PP, hence monotransitive, not ditransitive",
+          "<i>considered Ed a fool</i>: Od plus NP predicative complement, not two objects",
+          "<i>sent Kim to the back</i>: Od plus locative-goal PP, hence monotransitive and not ditransitive",
+          "<i>teaches the students</i>: its sole object is Od despite matching the semantic role of a ditransitive Oi"
         ]
       },
       "grain": {
@@ -233,7 +233,7 @@
     "curious": {
       "title": "Verbs that take two objects",
       "summary": "Some verbs can be followed by two noun phrases in a row, such as someone who receives and the thing received.",
-      "body": "In I sent Sue a copy, the verb sent is followed by two things: Sue, who gets the copy, and a copy, what is sent. The first is called the indirect object and the second the direct object. Each is a full noun phrase, and the verb allows both.\n\nThe pattern isn't only about handing things over. It also fits She baked Kim a cake, where the cake is meant for Kim, and It cost Mel his job, where Mel loses something. Which verbs allow it depends on the verb: some also allow a version with to or for, as in I sent a copy to Sue, and some don't.",
+      "body": "In <i>I sent Sue a copy</i>, the verb <i>sent</i> is followed by two things: <i>Sue</i>, who gets the copy, and <i>a copy</i>, what is sent. The first is called the indirect object and the second the direct object. Each is a full noun phrase, and the verb allows both.\n\nThe pattern isn't only about handing things over. It also fits <i>She baked Kim a cake</i>, where the cake is meant for Kim, and <i>It cost Mel his job</i>, where Mel loses something. Which verbs allow it depends on the verb: some also allow a version with <i>to</i> or <i>for</i>, as in <i>I sent a copy to Sue</i>, and some don't.",
       "examples": [
         {
           "text": "I [sent Sue a copy].",
@@ -256,11 +256,11 @@
           "from": "entry"
         }
       ],
-      "try": "Say I sent Sue a copy, then say I sent a copy to Sue. Does the meaning change? Now try the same with other verbs, such as baked or told."
+      "try": "Say <i>I sent Sue a copy</i>, then say <i>I sent a copy to Sue</i>. Does the meaning change? Now try the same with other verbs, such as <i>baked</i> or <i>told</i>."
     },
     "teacher": {
-      "summary": "Helps explain double-object verbs, what counts as an indirect object, and how they differ from verbs with a to- or for-phrase.",
-      "explain": "A ditransitive VP has a verb followed by two internal objects, the indirect object (Oi) and then the direct object (Od), as in sent Sue a copy. This dictionary treats this as a syntactic pattern, not a meaning class: the Oi tends to be a recipient or beneficiary of goods, but can also be a prevented recipient, a source or a loser (refused Kim permission, charged Ed ten dollars, cost Mel his job). Which verb senses allow it is lexically specific: give allows Oi or a to-phrase, explain takes only to, buy allows Oi or for, and borrow takes only for. A to- or for-phrase is not an indirect object: in sent a copy to Sue, a copy is the direct object and the verb is monotransitive.",
+      "summary": "Helps explain double-object verbs, what counts as an indirect object, and how they differ from verbs with a <i>to</i>- or <i>for</i>-phrase.",
+      "explain": "A ditransitive VP has a verb followed by two internal objects, the indirect object (Oi) and then the direct object (Od), as in <i>sent Sue a copy</i>. This dictionary treats this as a syntactic pattern, not a meaning class: the Oi tends to be a recipient or beneficiary of goods, but can also be a prevented recipient, a source or a loser (<i>refused Kim permission</i>, <i>charged Ed ten dollars</i>, <i>cost Mel his job</i>). Which verb senses allow it is lexically specific: <i>give</i> allows Oi or a <i>to</i>-phrase, <i>explain</i> takes only <i>to</i>, <i>buy</i> allows Oi or <i>for</i>, and <i>borrow</i> takes only <i>for</i>. A <i>to</i>- or <i>for</i>-phrase is not an indirect object: in <i>sent a copy to Sue</i>, <i>a copy</i> is the direct object and the verb is monotransitive.",
       "terms": "Indirect object and direct object are the usual terms. Double-object construction is another name for the same pattern.",
       "examples": [
         {
@@ -289,7 +289,7 @@
         {
           "text": "I sent a copy to Sue.",
           "from": "constructed",
-          "note": "One object plus a to-phrase; monotransitive."
+          "note": "One object plus a <i>to</i>-phrase; monotransitive."
         },
         {
           "text": "We considered Ed a fool.",
@@ -298,15 +298,15 @@
         }
       ],
       "watch_for": [
-        "A learner might treat the to-phrase in sent a copy to Sue as an indirect object.",
-        "A learner might assume any verb that can take a to-phrase can also take two objects, though licensing depends on the verb sense.",
-        "A learner might read the two NPs in considered Ed a fool as two objects, when a fool describes Ed."
+        "A learner might treat the <i>to</i>-phrase in <i>sent a copy to Sue</i> as an indirect object.",
+        "A learner might assume any verb that can take a <i>to</i>-phrase can also take two objects, though licensing depends on the verb sense.",
+        "A learner might read the two NPs in <i>considered Ed a fool</i> as two objects, when <i>a fool</i> describes Ed."
       ],
-      "activity": "Give students verb cards (give, send, bake, explain, buy). They try each in a double-object sentence and in a to- or for-phrase sentence, sort the results, and compare with a dictionary or the teacher."
+      "activity": "Give students verb cards (<i>give</i>, <i>send</i>, <i>bake</i>, <i>explain</i>, <i>buy</i>). They try each in a double-object sentence and in a <i>to</i>- or <i>for</i>-phrase sentence, sort the results, and compare with a dictionary or the teacher."
     },
     "child": {
-      "hook": "Can you give a friend a pencil without saying \"to\"?",
-      "explain": "Some verbs can be followed by who something is for and then the thing itself. Dad baked Kim a cake. The cake is meant for Kim. The words come in that order.",
+      "hook": "Can you give a friend a pencil without saying \"<i>to</i>\"?",
+      "explain": "Some verbs can be followed by who something is for and then the thing itself. <i>Dad baked Kim a cake</i>. The cake is meant for Kim. The words come in that order.",
       "examples": [
         {
           "text": "Dad [baked Kim a cake].",
@@ -321,7 +321,7 @@
           "from": "entry"
         }
       ],
-      "play": "Make up sentences with who gets something, then what they get. Try sent, told and baked. Then say each one again with to or for and a name at the end."
+      "play": "Make up sentences with who gets something, then what they get. Try <i>sent</i>, <i>told</i> and <i>baked</i>. Then say each one again with <i>to</i> or <i>for</i> and a name at the end."
     }
   },
   "status": {
@@ -343,10 +343,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Ditransitive VP (Double-object Construction).\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/ditransitive-vp-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Ditransitive VP (Double-object Construction).\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/ditransitive-vp-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

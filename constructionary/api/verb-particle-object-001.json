@@ -23,11 +23,11 @@
     "meanings": {
       "1": {
         "definition": "A one-word PP complement in particle use combines with a verb and a distinct NP direct object",
-        "details": "Particle is a syntactic use, not a lexical category. In the central case, the particle is a one-word PP headed by an intransitive preposition. In She took off the label, off is a complement of take and the label is a separate Od; this differs from She jumped off the wall, where off is a transitive preposition and off the wall is a single PP complement. The particle construction is diagnosed by order alternation, obligatory pre-particle placement of an unstressed pronoun, and the failure of particle + Od to behave as a constituent (CGEL Ch. 4 §6.2, pp. 280–83).",
+        "details": "Particle is a syntactic use, not a lexical category. In the central case, the particle is a one-word PP headed by an intransitive preposition. In <i>She took off the label</i>, <i>off</i> is a complement of <i>take</i> and the label is a separate Od; this differs from <i>She jumped off the wall</i>, where <i>off</i> is a transitive preposition and <i>off the wall</i> is a single PP complement. The particle construction is diagnosed by order alternation, obligatory pre-particle placement of an unstressed pronoun, and the failure of particle + Od to behave as a constituent (CGEL Ch. 4 §6.2, pp. 280–83).",
         "examples": [
           {
             "form": "She [brought down the bed].",
-            "note": "Head–particle–Od order with down as a one-word PP complement",
+            "note": "Head–particle–Od order with <i>down</i> as a one-word PP complement",
             "grounds": [
               {
                 "source": "cgel-2002",
@@ -51,7 +51,7 @@
           },
           {
             "form": "She [took the label off].",
-            "note": "Post-object particle; compare the impossible unstressed-pronoun order *took off it",
+            "note": "Post-object particle; compare the impossible unstressed-pronoun order *<i>took off it</i>",
             "grounds": [
               {
                 "source": "cgel-2002",
@@ -75,11 +75,11 @@
       },
       {
         "type": "position",
-        "description": "An ordinary non-pronominal Od generally permits Head–particle–Od and Head–Od–particle orders, but an unstressed personal-pronoun Od must immediately follow the verb: take it off, not *take off it."
+        "description": "An ordinary non-pronominal Od generally permits Head–particle–Od and Head–Od–particle orders, but an unstressed personal-pronoun Od must immediately follow the verb: <i>take it off</i>, not *<i>take off it</i>."
       },
       {
         "type": "syntactic",
-        "description": "Particle + Od cannot normally be fronted, foregrounded in an it-cleft, or repeated as a coordinated phrase; these failures distinguish the sequence from a transitive PP."
+        "description": "Particle + Od cannot normally be fronted, foregrounded in an <i>it</i>-cleft, or repeated as a coordinated phrase; these failures distinguish the sequence from a transitive PP."
       },
       {
         "type": "position",
@@ -138,7 +138,7 @@
             "property": "Particle plus Od is not a constituent",
             "diagnostics": [
               "fronting failure",
-              "it-cleft failure",
+              "<i>it</i>-cleft failure",
               "coordination failure"
             ],
             "weight": "high"
@@ -170,8 +170,8 @@
       },
       "boundaries": {
         "known_boundary_items": [
-          "jump off the wall: off heads a transitive PP containing its own Obj, rather than a particle PP followed by Od",
-          "read through the prospectus versus read the prospectus through: CGEL treats this as alternation between a transitive PP and NP plus non-particle intransitive PP",
+          "<i>jump off the wall</i>: <i>off</i> heads a transitive PP containing its own Obj, rather than a particle PP followed by Od",
+          "<i>read through the prospectus</i> versus <i>read the prospectus through</i>: CGEL treats this as alternation between a transitive PP and NP plus non-particle intransitive PP",
           "Adjectival and verbal particles occur in a small set of idioms, but the present entry records the central PP subtype"
         ]
       },
@@ -230,8 +230,8 @@
   "editions": {
     "curious": {
       "title": "Little words before or after an object",
-      "summary": "A short word like down or off can come before or after the object of a verb, as in brought down the bed and brought the bed down.",
-      "body": "In She brought down the bed, the small word down goes with the verb brought, and the bed is what she brought. The same thing can be said the other way: She brought the bed down.\n\nIn the dictionary's account, down isn't the start of a phrase down the bed. It stands on its own beside the verb, and the bed is a separate object.\n\nThe dictionary marks this account as provisional, and says no single test works in every case.",
+      "summary": "A short word like <i>down</i> or <i>off</i> can come before or after the object of a verb, as in <i>brought down the bed</i> and <i>brought the bed down</i>.",
+      "body": "In <i>She brought down the bed</i>, the small word <i>down</i> goes with the verb <i>brought</i>, and the bed is what she brought. The same thing can be said the other way: <i>She brought the bed down</i>.\n\nIn the dictionary's account, <i>down</i> isn't the start of a phrase <i>down the bed</i>. It stands on its own beside the verb, and the bed is a separate object.\n\nThe dictionary marks this account as provisional, and says no single test works in every case.",
       "examples": [
         {
           "text": "She [brought down the bed].",
@@ -246,11 +246,11 @@
           "from": "entry"
         }
       ],
-      "try": "Say took the label off, then try replacing the label with it. Where does it go?"
+      "try": "Say <i>took the label off</i>, then try replacing <i>the label</i> with <i>it</i>. Where does <i>it</i> go?"
     },
     "teacher": {
       "summary": "Helps explain verb-particle combinations with an object, including word-order flexibility and the pronoun restriction.",
-      "explain": "In this construction a verb takes a separate noun phrase as direct object and a one-word prepositional phrase complement in particle use. The particle is a syntactic use, not a word category. In She took off the label, off is a complement of take and the label is a separate direct object. This differs from She jumped off the wall, where off heads a prepositional phrase containing its own object. An ordinary object generally allows both orders, but an unstressed personal-pronoun object must immediately follow the verb: take it off. This dictionary marks its analysis provisional, and notes that heavy objects and fixed idioms can obscure the alternation.",
+      "explain": "In this construction a verb takes a separate noun phrase as direct object and a one-word prepositional phrase complement in particle use. The particle is a syntactic use, not a word category. In <i>She took off the label</i>, <i>off</i> is a complement of <i>take</i> and the label is a separate direct object. This differs from <i>She jumped off the wall</i>, where <i>off</i> heads a prepositional phrase containing its own object. An ordinary object generally allows both orders, but an unstressed personal-pronoun object must immediately follow the verb: <i>take it off</i>. This dictionary marks its analysis provisional, and notes that heavy objects and fixed idioms can obscure the alternation.",
       "terms": "Sometimes called a verb-particle combination or a phrasal verb; the second label also covers cases without an object. In this grammar the particle is a one-word prepositional phrase complement of the verb.",
       "examples": [
         {
@@ -281,18 +281,18 @@
           "text": "took off it",
           "from": "entry",
           "acceptable": false,
-          "note": "An unstressed pronoun object cannot follow the particle; this dictionary gives take it off."
+          "note": "An unstressed pronoun object cannot follow the particle; this dictionary gives <i>take it off</i>."
         }
       ],
       "watch_for": [
-        "A learner might read down the bed in brought down the bed as a single phrase, when this dictionary treats down and the bed as separate.",
-        "A learner might treat take off it like take off the label, though an unstressed pronoun must come before the particle."
+        "A learner might read <i>down the bed</i> in <i>brought down the bed</i> as a single phrase, when this dictionary treats <i>down</i> and <i>the bed</i> as separate.",
+        "A learner might treat <i>take off it</i> like <i>take off the label</i>, though an unstressed pronoun must come before the particle."
       ],
-      "activity": "Give students phrasal verbs on cards (take off, bring down, put on). They build sentences with a noun object in both orders, then replace the object with it and say where the particle must go."
+      "activity": "Give students phrasal verbs on cards (<i>take off</i>, <i>bring down</i>, <i>put on</i>). They build sentences with a noun object in both orders, then replace the object with <i>it</i> and say where the particle must go."
     },
     "child": {
-      "hook": "Can you say \"took the label off\" and \"took off the label\"?",
-      "explain": "Some small words like off and down can go before or after the object. She took the label off. She took off the label. With it, the little word goes after it.",
+      "hook": "Can you say \"<i>took the label off</i>\" and \"<i>took off the label</i>\"?",
+      "explain": "Some small words like <i>off</i> and <i>down</i> can go before or after the object. <i>She took the label off</i>. <i>She took off the label</i>. With <i>it</i>, the little word goes after <i>it</i>.",
       "examples": [
         {
           "text": "She [took the label off].",
@@ -303,7 +303,7 @@
           "from": "entry"
         }
       ],
-      "play": "Take a sticker off a page and say what you did two ways. Then say what you did with it, like \"I took it off.\""
+      "play": "Take a sticker off a page and say what you did two ways. Then say what you did with it, like \"<i>I took it off</i>.\""
     }
   },
   "status": {
@@ -325,10 +325,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Prepositional Verb-Particle-Object Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/verb-particle-object-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Prepositional Verb-Particle-Object Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/verb-particle-object-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

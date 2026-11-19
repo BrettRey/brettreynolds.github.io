@@ -4,7 +4,7 @@
 - pattern: who/whom/whose/what/which/where/when/why/how (interrogative packaging)
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/interrogative-word-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
@@ -38,26 +38,26 @@ All members of the indeterminate series participate in this packaging
 
 ## Projection
 
-In Whose coat did Jo borrow?, the whole phrase whose coat fronts while whose supplies the open variable for the possessor. With an interrogative subject, Who left? has no corresponding auxiliary inversion.
+In *Whose coat did Jo borrow?*, the whole phrase *whose coat* fronts while *whose* supplies the open variable for the possessor. With an interrogative subject, *Who left?* has no corresponding auxiliary inversion.
 
 ## Reader editions (draft, AI-assisted, unreviewed; the linguist entry is the reference)
 
 ### Curious reader: Question words
 
-Who, what, where, when, why, how and their relatives mark a question by asking for the missing piece of information.
+*Who*, *what*, *where*, *when*, *why*, *how* and their relatives mark a question by asking for the missing piece of information.
 
-A question word asks for the value of something left open. Whose book asks about the owner, and Who came asks about a person. Each word limits what kind of answer fits: a person, a place, a time.
+A question word asks for the value of something left open. *Whose book* asks about the owner, and *Who came* asks about a person. Each word limits what kind of answer fits: a person, a place, a time.
 
-Question words normally come first in the question, as in Whose coat did Jo borrow? When the question word is the subject, as in Who left?, it stays in its usual place and the verb needn't move. A question inside a longer sentence, such as I wonder where she went, keeps ordinary word order.
+Question words normally come first in the question, as in *Whose coat did Jo borrow?* When the question word is the subject, as in *Who left?*, it stays in its usual place and the verb needn't move. A question inside a longer sentence, such as *I wonder where she went*, keeps ordinary word order.
 
 ### Teacher
 
 Covers wh-words used to ask questions, including where they go and whether the verb moves.
 
-In this packaging, a member of the indeterminate series asks for the value of its open variable, constraining its sort. The interrogative property passes from the word to its phrase and clause. Non-subject phrases are normally fronted and trigger subject-auxiliary inversion in main clauses. Subjects are not fronted, so Who left? has no inversion, and subordinate interrogatives normally keep subject-verb order, as in I wonder where she went. In Whose coat did Jo borrow?, the whole phrase whose coat fronts while whose supplies the open variable for the possessor. Echo questions may leave the phrase in its original position. This dictionary marks the analysis as provisional.
+In this packaging, a member of the indeterminate series asks for the value of its open variable, constraining its sort. The interrogative property passes from the word to its phrase and clause. Non-subject phrases are normally fronted and trigger subject-auxiliary inversion in main clauses. Subjects are not fronted, so *Who left?* has no inversion, and subordinate interrogatives normally keep subject-verb order, as in *I wonder where she went*. In *Whose coat did Jo borrow?*, the whole phrase *whose coat* fronts while *whose* supplies the open variable for the possessor. Echo questions may leave the phrase in its original position. This dictionary marks the analysis as provisional.
 
 ### Child
 
 What do question words ask for?
 
-Question words ask for the missing piece. Who asks about a person. Where asks about a place. The question word normally comes first.
+Question words ask for the missing piece. *Who* asks about a person. *Where* asks about a place. The question word normally comes first.

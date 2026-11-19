@@ -1,6 +1,6 @@
 {
   "id": "so-nominal-predication-001",
-  "name": "Intensifying So with a Nominal",
+  "name": "Intensifying <i>so</i> with a Nominal",
   "pattern": "Clause[Subject:NP + be + PredComp:[stressed so + nominal expression]]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/so-nominal-predication-001/",
@@ -9,17 +9,17 @@
   },
   "entry": {
     "id": "so-nominal-predication-001",
-    "name": "Intensifying So with a Nominal",
+    "name": "Intensifying <i>so</i> with a Nominal",
     "pattern": "Clause[Subject:NP + be + PredComp:[stressed so + nominal expression]]",
     "type": "mixed",
     "meanings": {
       "1": {
         "definition": "Attributes a conspicuous degree of a quality associated with the nominal expression.",
-        "details": "In you’re so glass half full today, the final expression makes a description such as optimism available to be graded. A familiar name can work similarly when speakers associate the bearer with a style or quality. A name in this use can contribute associated qualities while retaining its independent use to identify its bearer in other contexts. The construction does not settle the lexical category of every filler.",
+        "details": "In <i>you’re so glass half full today</i>, the final expression makes a description such as optimism available to be graded. A familiar name can work similarly when speakers associate the bearer with a style or quality. A name in this use can contribute associated qualities while retaining its independent use to identify its bearer in other contexts. The construction does not settle the lexical category of every filler.",
         "examples": [
           {
             "form": "You’re [so glass half full] today.",
-            "note": "KABC spoken example, transcribed in the Research Constructicon. Stress is on so.",
+            "note": "KABC spoken example, transcribed in the Research Constructicon. Stress is on <i>so</i>.",
             "grounds": [
               {
                 "source": "fau-senger-so-np",
@@ -85,7 +85,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Stressed so in the predicative frame makes a degree interpretation available even with an expression that elsewhere names an individual or describes a situation.",
+        "target": "Stressed <i>so</i> in the predicative frame makes a degree interpretation available even with an expression that elsewhere names an individual or describes a situation.",
         "evidence": "Senger records two spoken examples. Bylinina studies the individual-denoting nominal and the inferred scale of comparison.",
         "confidence": "medium"
       }
@@ -93,9 +93,9 @@
   },
   "editions": {
     "curious": {
-      "title": "So plus a noun to mean a quality",
-      "summary": "With stress on so, a noun or name can work like a describing word that you can have a lot of.",
-      "body": "In It's so college, the word college isn't naming a place. It stands for a quality we associate with college, and so tells us there's a lot of it. In You're so glass half full today, the expression makes an optimistic attitude available to be graded.\n\nA familiar name can work this way too, as in This is so Obama!, when speakers link the person with a style or quality. The name still names its bearer in other settings. This dictionary marks the analysis as provisional.",
+      "title": "<i>So</i> plus a noun to mean a quality",
+      "summary": "With stress on <i>so</i>, a noun or name can work like a describing word that you can have a lot of.",
+      "body": "In <i>It's so college</i>, the word <i>college</i> isn't naming a place. It stands for a quality we associate with college, and <i>so</i> tells us there's a lot of it. In <i>You're so glass half full today</i>, the expression makes an optimistic attitude available to be graded.\n\nA familiar name can work this way too, as in <i>This is so Obama!</i>, when speakers link the person with a style or quality. The name still names its bearer in other settings. This dictionary marks the analysis as provisional.",
       "examples": [
         {
           "text": "You're [so glass half full] today.",
@@ -110,12 +110,12 @@
           "from": "entry"
         }
       ],
-      "try": "Think of a name or a place that stands for a style. Say That's so ... with stress on so. What quality do you mean?"
+      "try": "Think of a name or a place that stands for a style. Say <i>That's so ...</i> with stress on <i>so</i>. What quality do you mean?"
     },
     "teacher": {
-      "summary": "Helps explain stressed so before a noun or name to grade an associated quality.",
-      "explain": "In the frame Subject + be + stressed so + nominal expression, so invites a degree interpretation from a contextually retrieved property. The final expression makes a description, such as optimism, available to be graded. A familiar name can work similarly when speakers associate its bearer with a style or quality, while keeping its ordinary use to identify the bearer elsewhere. The pattern doesn't settle the lexical category of every filler. This dictionary marks the analysis as provisional and relates it to degree, to proper names and to stressed some exclamatives.",
-      "terms": "Intensifier so is traditional. Here it is stressed, and it grades a property associated with the nominal.",
+      "summary": "Helps explain stressed <i>so</i> before a noun or name to grade an associated quality.",
+      "explain": "In the frame Subject + be + stressed <i>so</i> + nominal expression, <i>so</i> invites a degree interpretation from a contextually retrieved property. The final expression makes a description, such as optimism, available to be graded. A familiar name can work similarly when speakers associate its bearer with a style or quality, while keeping its ordinary use to identify the bearer elsewhere. The pattern doesn't settle the lexical category of every filler. This dictionary marks the analysis as provisional and relates it to degree, to proper names and to stressed <i>some</i> exclamatives.",
+      "terms": "Intensifier <i>so</i> is traditional. Here it is stressed, and it grades a property associated with the nominal.",
       "examples": [
         {
           "text": "You're [so glass half full] today.",
@@ -131,8 +131,8 @@
         }
       ],
       "watch_for": [
-        "A learner might read so college as saying that something is a college, when it characterizes the situation by a feature associated with college.",
-        "A learner might read so Obama as referring to the person, when it grades an associated quality."
+        "A learner might read <i>so college</i> as saying that something is a college, when it characterizes the situation by a feature associated with college.",
+        "A learner might read <i>so Obama</i> as referring to the person, when it grades an associated quality."
       ]
     }
   },
@@ -154,10 +154,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Intensifying So with a Nominal.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/so-nominal-predication-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Intensifying <i>so</i> with a Nominal.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/so-nominal-predication-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

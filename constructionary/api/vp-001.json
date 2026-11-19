@@ -26,15 +26,15 @@
         "examples": [
           {
             "form": "Kim [left early].",
-            "note": "Head V left with modifier early; Kim is Subject of Clause, not part of the VP"
+            "note": "Head V <i>left</i> with modifier <i>early</i>; Kim is Subject of Clause, not part of the VP"
           },
           {
             "form": "I [sent Sue a copy].",
-            "note": "Head V sent with indirect and direct object complements"
+            "note": "Head V <i>sent</i> with indirect and direct object complements"
           },
           {
             "form": "They [slept the afternoon away].",
-            "note": "Head V slept with a construction-licensed object and PP complement"
+            "note": "Head V <i>slept</i> with a construction-licensed object and PP complement"
           }
         ]
       }
@@ -143,7 +143,7 @@
     "curious": {
       "title": "The verb and what goes with it",
       "summary": "A verb phrase is a verb together with the words that complete or modify it, not including the subject.",
-      "body": "In Kim left early, the verb is left and early adds to it. Together, left early is the verb phrase. Kim, who did the leaving, stands outside it.\n\nA verb phrase can be bigger. In I sent Sue a copy, the verb sent comes with two objects, Sue and a copy. In They slept the afternoon away, the verb comes with an object and another word that finishes it.\n\nThe verb's meaning and the pattern it appears in together decide which other words are required or allowed, and the subject is never inside the verb phrase. The dictionary marks this account as provisional.",
+      "body": "In <i>Kim left early</i>, the verb is <i>left</i> and <i>early</i> adds to it. Together, <i>left early</i> is the verb phrase. Kim, who did the leaving, stands outside it.\n\nA verb phrase can be bigger. In <i>I sent Sue a copy</i>, the verb <i>sent</i> comes with two objects, <i>Sue</i> and <i>a copy</i>. In <i>They slept the afternoon away</i>, the verb comes with an object and another word that finishes it.\n\nThe verb's meaning and the pattern it appears in together decide which other words are required or allowed, and the subject is never inside the verb phrase. The dictionary marks this account as provisional.",
       "examples": [
         {
           "text": "Kim [left early].",
@@ -158,7 +158,7 @@
           "from": "entry"
         }
       ],
-      "try": "Take Kim left early and cover up the subject, Kim. What's left, left early, is the verb phrase."
+      "try": "Take <i>Kim left early</i> and cover up the subject, <i>Kim</i>. What's left, <i>left early</i>, is the verb phrase."
     },
     "teacher": {
       "summary": "Core grammar category: the verb phrase, with its head verb and dependents, excluding the Subject.",
@@ -211,10 +211,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Verb Phrase.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/vp-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Verb Phrase.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/vp-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

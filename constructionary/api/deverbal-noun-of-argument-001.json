@@ -1,6 +1,6 @@
 {
   "id": "deverbal-noun-of-argument-001",
-  "name": "Deverbal Noun Of-Argument",
+  "name": "Deverbal Noun <i>of</i>-Argument",
   "pattern": "NP[(Det) + deverbal Nom + PP[of + argument NP]]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/deverbal-noun-of-argument-001/",
@@ -9,13 +9,13 @@
   },
   "entry": {
     "id": "deverbal-noun-of-argument-001",
-    "name": "Deverbal Noun Of-Argument",
+    "name": "Deverbal Noun <i>of</i>-Argument",
     "pattern": "NP[(Det) + deverbal Nom + PP[of + argument NP]]",
     "type": "mixed",
     "meanings": {
       "1": {
-        "definition": "An of-phrase expresses an argument of a deverbal noun",
-        "details": "The of-PP expresses a participant in the event denoted by the deverbal noun. Its role is selected by the noun and construction. With a transitive source, a preceding genitive can express the agent while of expresses the affected participant. The of-complement can help identify an event, and an indefinite determiner remains possible.",
+        "definition": "An <i>of</i>-phrase expresses an argument of a deverbal noun",
+        "details": "The <i>of</i>-PP expresses a participant in the event denoted by the deverbal noun. Its role is selected by the noun and construction. With a transitive source, a preceding genitive can express the agent while <i>of</i> expresses the affected participant. The <i>of</i>-complement can help identify an event, and an indefinite determiner remains possible.",
         "examples": [
           {
             "form": "[the failure of Washington Mutual]",
@@ -35,11 +35,11 @@
           },
           {
             "form": "[the enemy's destruction of the city]",
-            "note": "The genitive supplies the destroyer and the of-phrase the affected entity"
+            "note": "The genitive supplies the destroyer and the <i>of</i>-phrase the affected entity"
           },
           {
             "form": "[a repainting of the hall]",
-            "note": "Constructed comparison with an indefinite determiner and an of-argument"
+            "note": "Constructed comparison with an indefinite determiner and an <i>of</i>-argument"
           }
         ]
       }
@@ -51,20 +51,20 @@
       },
       {
         "type": "syntactic",
-        "description": "Of-PP is complement to the deverbal noun"
+        "description": "<i>Of</i>-PP is complement to the deverbal noun"
       },
       {
         "type": "semantic",
-        "description": "Of-NP expresses a semantic argument of the underlying verb, typically non-agentive"
+        "description": "<i>Of</i>-NP expresses a semantic argument of the underlying verb, typically non-agentive"
       },
       {
         "type": "semantic",
-        "description": "The of-complement can help identify the nominal referent. It also occurs with indefinite determination."
+        "description": "The <i>of</i>-complement can help identify the nominal referent. It also occurs with indefinite determination."
       }
     ],
     "dimensions": {
-      "form": "NP with deverbal head and of-PP complement",
-      "meaning": "Deverbal expression with a participant specified by an of-phrase",
+      "form": "NP with deverbal head and <i>of</i>-PP complement",
+      "meaning": "Deverbal expression with a participant specified by an <i>of</i>-phrase",
       "function": "Refers to events while maintaining argument structure of underlying verb",
       "distribution": "Common in formal and narrative registers; alternates with genitive construction"
     },
@@ -72,12 +72,12 @@
       {
         "id": "genitive-s-001",
         "relationship": "alternates-with",
-        "notes": "\"The failure of WM\" ~ \"WM's failure\"; genitive preferred for agents, of-PP for non-agentive arguments"
+        "notes": "\"<i>The failure of WM</i>\" ~ \"<i>WM's failure</i>\"; genitive preferred for agents, <i>of</i>-PP for non-agentive arguments"
       },
       {
         "id": "grammatical-definiteness-001",
         "relationship": "interfaces-with",
-        "notes": "An of-argument can contribute to identification. The determiner alternation tests the two properties separately."
+        "notes": "An <i>of</i>-argument can contribute to identification. The determiner alternation tests the two properties separately."
       },
       {
         "id": "deverbal-ing-nominal-001",
@@ -99,17 +99,17 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "In the repainting of the hall, of the hall can supply the participant repainted. A repainting of the hall also occurs under an indefinite determiner. Argument realization does not by itself select the definite article.",
-        "evidence": "CGEL documents complements with nominalized heads, and the constructed determiner alternation holds the head and of-dependent constant.",
+        "target": "In <i>the repainting of the hall</i>, <i>of the hall</i> can supply the participant repainted. <i>A repainting of the hall</i> also occurs under an indefinite determiner. Argument realization does not by itself select the definite article.",
+        "evidence": "CGEL documents complements with nominalized heads, and the constructed determiner alternation holds the head and <i>of</i>-dependent constant.",
         "confidence": "medium"
       }
     }
   },
   "editions": {
     "curious": {
-      "title": "Event nouns followed by of",
-      "summary": "A noun made from a verb can be followed by of and a phrase naming someone or something involved in the event.",
-      "body": "In the arrival of the guests, arrival names an event, and of the guests says who arrived. In the destruction of the city, the city is the thing destroyed. The of-phrase names a participant in the event, and the noun decides which role that participant has.\n\nWhen the event has someone who does it, that person can come first with 's, as in the enemy's destruction of the city: the enemy did the destroying, and the city was destroyed. The of-phrase can also help pin down which event is meant, as in the failure of Washington Mutual.",
+      "title": "Event nouns followed by <i>of</i>",
+      "summary": "A noun made from a verb can be followed by <i>of</i> and a phrase naming someone or something involved in the event.",
+      "body": "In <i>the arrival of the guests</i>, <i>arrival</i> names an event, and <i>of the guests</i> says who arrived. In <i>the destruction of the city</i>, the city is the thing destroyed. The <i>of</i>-phrase names a participant in the event, and the noun decides which role that participant has.\n\nWhen the event has someone who does it, that person can come first with <i>'s</i>, as in <i>the enemy's destruction of the city</i>: the enemy did the destroying, and the city was destroyed. The <i>of</i>-phrase can also help pin down which event is meant, as in <i>the failure of Washington Mutual</i>.",
       "examples": [
         {
           "text": "[the failure of Washington Mutual]",
@@ -132,11 +132,11 @@
           "from": "entry"
         }
       ],
-      "try": "Turn a verb you know into a noun (arrive, fail, destroy). Which words can follow it with of?"
+      "try": "Turn a verb you know into a noun (<i>arrive</i>, <i>fail</i>, <i>destroy</i>). Which words can follow it with <i>of</i>?"
     },
     "teacher": {
-      "summary": "Helps explain how an of-phrase after a deverbal noun carries a participant of the underlying verb.",
-      "explain": "In an NP with a deverbal noun head, the of-PP is a complement that expresses a semantic argument of the underlying verb, such as the entity that arrived or the entity destroyed. The noun and the construction select the role. With a transitive source, a genitive can express the agent and the of-phrase the affected participant (the enemy's destruction of the city). The of-complement can help identify the event, and an indefinite determiner remains possible (a repainting of the hall). This dictionary notes that the genitive form alternates with the of-form (the failure of WM and WM's failure), with the genitive preferred for agents and the of-PP for non-agentive arguments.",
+      "summary": "Helps explain how an <i>of</i>-phrase after a deverbal noun carries a participant of the underlying verb.",
+      "explain": "In an NP with a deverbal noun head, the <i>of</i>-PP is a complement that expresses a semantic argument of the underlying verb, such as the entity that arrived or the entity destroyed. The noun and the construction select the role. With a transitive source, a genitive can express the agent and the <i>of</i>-phrase the affected participant (<i>the enemy's destruction of the city</i>). The <i>of</i>-complement can help identify the event, and an indefinite determiner remains possible (<i>a repainting of the hall</i>). This dictionary notes that the genitive form alternates with the <i>of</i>-form (<i>the failure of WM</i> and <i>WM's failure</i>), with the genitive preferred for agents and the <i>of</i>-PP for non-agentive arguments.",
       "terms": "Traditional grammars may call such nouns nominalizations or verbal nouns.",
       "examples": [
         {
@@ -160,7 +160,7 @@
         {
           "text": "the failure of Washington Mutual",
           "from": "entry",
-          "note": "The of-phrase names the entity that failed."
+          "note": "The <i>of</i>-phrase names the entity that failed."
         },
         {
           "text": "Washington Mutual's failure",
@@ -169,10 +169,10 @@
         }
       ],
       "watch_for": [
-        "A learner might read the of-phrase in the destruction of the city as the one doing the destroying, when it is the thing destroyed.",
-        "A learner might think a noun with an of-argument must be definite, though a repainting of the hall has an indefinite determiner."
+        "A learner might read the <i>of</i>-phrase in <i>the destruction of the city</i> as the one doing the destroying, when it is the thing destroyed.",
+        "A learner might think a noun with an <i>of</i>-argument must be definite, though <i>a repainting of the hall</i> has an indefinite determiner."
       ],
-      "activity": "Give students event nouns (arrival, destruction, death, failure). They add an of-phrase to each and say who or what it names and what role that participant has in the event."
+      "activity": "Give students event nouns (<i>arrival</i>, <i>destruction</i>, <i>death</i>, <i>failure</i>). They add an <i>of</i>-phrase to each and say who or what it names and what role that participant has in the event."
     }
   },
   "status": {
@@ -193,10 +193,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Deverbal Noun Of-Argument.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/deverbal-noun-of-argument-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Deverbal Noun <i>of</i>-Argument.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/deverbal-noun-of-argument-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

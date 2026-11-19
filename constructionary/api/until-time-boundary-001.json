@@ -1,6 +1,6 @@
 {
   "id": "until-time-boundary-001",
-  "name": "Temporal Until with an Endpoint",
+  "name": "Temporal <i>until</i> with an Endpoint",
   "pattern": "PP[until + date/NP/finite clause]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/until-time-boundary-001/",
@@ -10,7 +10,7 @@
   },
   "entry": {
     "id": "until-time-boundary-001",
-    "name": "Temporal Until with an Endpoint",
+    "name": "Temporal <i>until</i> with an Endpoint",
     "pattern": "PP[until + date/NP/finite clause]",
     "type": "mixed",
     "meanings": {
@@ -46,7 +46,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The opening ends the wait on the ordinary reading. Under negation as in didn’t leave until noon, the earlier interval is associated with absence of the event.",
+        "target": "The opening ends the wait on the ordinary reading. Under negation as in <i>didn’t leave until noon</i>, the earlier interval is associated with absence of the event.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -54,9 +54,9 @@
   },
   "editions": {
     "curious": {
-      "title": "Until, the endpoint",
-      "summary": "Until names the point up to which something goes on, or before which something doesn't happen.",
-      "body": "In We waited until the shutters opened, the opening of the shutters ordinarily ends the wait. Until supplies the boundary: the waiting held up to that point.\n\nUntil can also work with a negative. In She didn't leave until noon, the time before noon is the period when leaving didn't happen. Until can be followed by a date, a noun phrase, or a whole clause.\n\nThis dictionary marks this account as provisional.",
+      "title": "<i>Until</i>, the endpoint",
+      "summary": "<i>Until</i> names the point up to which something goes on, or before which something doesn't happen.",
+      "body": "In <i>We waited until the shutters opened</i>, the opening of the shutters ordinarily ends the wait. <i>Until</i> supplies the boundary: the waiting held up to that point.\n\n<i>Until</i> can also work with a negative. In <i>She didn't leave until noon</i>, the time before noon is the period when leaving didn't happen. <i>Until</i> can be followed by a date, a noun phrase, or a whole clause.\n\nThis dictionary marks this account as provisional.",
       "examples": [
         {
           "text": "We waited [until the shutters opened].",
@@ -70,9 +70,9 @@
       "try": "Say what you did until a certain time today. Then say something you didn't do until that time."
     },
     "teacher": {
-      "summary": "Helps explain until as marking the endpoint of a situation or the delay of an event.",
-      "explain": "The pattern is a prepositional phrase headed by until, followed by a date, a noun phrase or a finite clause. It supplies the boundary up to which a situation holds, or up to which an occurrence is delayed. In We waited until the shutters opened, the opening ends the wait on the ordinary reading. Under negation, as in didn't leave until noon, the earlier interval is associated with absence of the event. This dictionary treats until phrases as prepositional phrases and relates the pattern to since. The analysis is marked provisional.",
-      "terms": "Until is a preposition here.",
+      "summary": "Helps explain <i>until</i> as marking the endpoint of a situation or the delay of an event.",
+      "explain": "The pattern is a prepositional phrase headed by <i>until</i>, followed by a date, a noun phrase or a finite clause. It supplies the boundary up to which a situation holds, or up to which an occurrence is delayed. In <i>We waited until the shutters opened</i>, the opening ends the wait on the ordinary reading. Under negation, as in <i>didn't leave until noon</i>, the earlier interval is associated with absence of the event. This dictionary treats <i>until</i> phrases as prepositional phrases and relates the pattern to <i>since</i>. The analysis is marked provisional.",
+      "terms": "<i>Until</i> is a preposition here.",
       "examples": [
         {
           "text": "We waited [until the shutters opened].",
@@ -96,14 +96,14 @@
         }
       ],
       "watch_for": [
-        "A learner might read didn't leave until noon as saying she left before noon, when the time before noon is the period without leaving.",
-        "A learner might read until as marking the start of something, when it supplies the boundary up to which a situation holds or an occurrence is delayed."
+        "A learner might read <i>didn't leave until noon</i> as saying she left before noon, when the time before noon is the period without leaving.",
+        "A learner might read <i>until</i> as marking the start of something, when it supplies the boundary up to which a situation holds or an occurrence is delayed."
       ],
-      "activity": "Students make a timeline of a school day. They write sentences with until for what holds up to each time, and sentences with didn't ... until for delayed events."
+      "activity": "Students make a timeline of a school day. They write sentences with <i>until</i> for what holds up to each time, and sentences with <i>didn't ... until</i> for delayed events."
     },
     "child": {
       "hook": "What do you do until the bell rings?",
-      "explain": "The word until tells us up to when something goes on. We waited until the shutters opened. Then the waiting was over.",
+      "explain": "The word <i>until</i> tells us up to when something goes on. <i>We waited until the shutters opened</i>. Then the waiting was over.",
       "examples": [
         {
           "text": "We waited [until the shutters opened].",
@@ -114,7 +114,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Say what you do until a time or event, like \"I play until dinner.\" Then let a friend say what happens next."
+      "play": "Say what you do until a time or event, like \"<i>I play until dinner</i>.\" Then let a friend say what happens next."
     }
   },
   "status": {
@@ -136,10 +136,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Temporal Until with an Endpoint.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/until-time-boundary-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Temporal <i>until</i> with an Endpoint.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/until-time-boundary-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

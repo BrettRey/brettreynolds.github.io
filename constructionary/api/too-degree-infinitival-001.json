@@ -1,6 +1,6 @@
 {
   "id": "too-degree-infinitival-001",
-  "name": "Excess Degree Too with an Infinitival",
+  "name": "Excess Degree <i>too</i> with an Infinitival",
   "pattern": "AdjP/AdvP[too + gradable head + to-infinitival]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/too-degree-infinitival-001/",
@@ -10,7 +10,7 @@
   },
   "entry": {
     "id": "too-degree-infinitival-001",
-    "name": "Excess Degree Too with an Infinitival",
+    "name": "Excess Degree <i>too</i> with an Infinitival",
     "pattern": "AdjP/AdvP[too + gradable head + to-infinitival]",
     "type": "mixed",
     "meanings": {
@@ -56,8 +56,8 @@
   "editions": {
     "curious": {
       "title": "Too much for an action",
-      "summary": "Too plus a describing word and an action can say that something goes past the limit that action sets.",
-      "body": "In The gap was too narrow for the crate to fit through, the word too doesn't just say the gap is very narrow. It says the gap is narrow past a certain point, and that point is set by what has to happen: the crate fitting through.\n\nSo the sentence says nothing general about how narrow the gap is. The same crate could count as large enough for other purposes. What matters is only whether it can fit through that gap.\n\nThe dictionary marks this account as provisional.",
+      "summary": "<i>Too</i> plus a describing word and an action can say that something goes past the limit that action sets.",
+      "body": "In <i>The gap was too narrow for the crate to fit through</i>, the word <i>too</i> doesn't just say the gap is very narrow. It says the gap is narrow past a certain point, and that point is set by what has to happen: the crate fitting through.\n\nSo the sentence says nothing general about how narrow the gap is. The same crate could count as large enough for other purposes. What matters is only whether it can fit through that gap.\n\nThe dictionary marks this account as provisional.",
       "examples": [
         {
           "text": "The gap was [too narrow for the crate to fit through].",
@@ -68,12 +68,12 @@
           "from": "constructed"
         }
       ],
-      "try": "Finish this sentence in your own words, then say what action sets the limit: The soup was too hot to ..."
+      "try": "Finish this sentence in your own words, then say what action sets the limit: <i>The soup was too hot to ...</i>"
     },
     "teacher": {
-      "summary": "Helps explain too used with an action to say that a degree passes a threshold.",
-      "explain": "The pattern is an adjective or adverb phrase with too, a gradable head and a to-infinitival. It presents a degree as exceeding a threshold set by an action or outcome. In this dictionary’s example, the threshold is whether the crate can fit through the gap, not a universal degree of narrowness: the same crate could count as large enough for other purposes. This dictionary marks its analysis provisional. Teach the pattern as a way of linking a degree word to a purpose or outcome, and compare it with plain degree modification.",
-      "terms": "Too is a degree modifier here. Textbooks sometimes call the whole pattern the too ... to construction.",
+      "summary": "Helps explain <i>too</i> used with an action to say that a degree passes a threshold.",
+      "explain": "The pattern is an adjective or adverb phrase with <i>too</i>, a gradable head and a <i>to</i>-infinitival. It presents a degree as exceeding a threshold set by an action or outcome. In this dictionary’s example, the threshold is whether the crate can fit through the gap, not a universal degree of narrowness: the same crate could count as large enough for other purposes. This dictionary marks its analysis provisional. Teach the pattern as a way of linking a degree word to a purpose or outcome, and compare it with plain degree modification.",
+      "terms": "<i>Too</i> is a degree modifier here. Textbooks sometimes call the whole pattern the <i>too ... to</i> construction.",
       "examples": [
         {
           "text": "The gap was [too narrow for the crate to fit through].",
@@ -97,14 +97,14 @@
         }
       ],
       "watch_for": [
-        "A learner might read too narrow as simply very narrow, with no limit set by the action.",
+        "A learner might read <i>too narrow</i> as simply <i>very narrow</i>, with no limit set by the action.",
         "A learner might take the sentence to claim the crate is small in every respect, though this dictionary notes the crate could count as large enough for other purposes."
       ],
-      "activity": "Show pictures of objects and tasks (a tall shelf, a short child). Students write one sentence per picture with too, an adjective and a to-infinitive, and name the action that sets the limit."
+      "activity": "Show pictures of objects and tasks (a tall shelf, a short child). Students write one sentence per picture with <i>too</i>, an adjective and a to-infinitive, and name the action that sets the limit."
     },
     "child": {
       "hook": "Why can't a big dog fit through a small cat flap?",
-      "explain": "Sometimes too means more than the limit for a job. The cat flap is too small for the dog to fit through. The job is fitting through.",
+      "explain": "Sometimes <i>too</i> means more than the limit for a job. <i>The cat flap is too small for the dog to fit through</i>. The job is fitting through.",
       "examples": [
         {
           "text": "The box was [too heavy to lift].",
@@ -115,7 +115,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Finish sentences that start \"This is too big to ...\" and \"That is too far to ...\". Say which job sets the limit each time."
+      "play": "Finish sentences that start \"<i>This is too big to ...</i>\" and \"<i>That is too far to ...</i>\". Say which job sets the limit each time."
     }
   },
   "status": {
@@ -136,10 +136,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Excess Degree Too with an Infinitival.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/too-degree-infinitival-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Excess Degree <i>too</i> with an Infinitival.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/too-degree-infinitival-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

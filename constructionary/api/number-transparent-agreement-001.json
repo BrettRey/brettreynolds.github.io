@@ -32,7 +32,7 @@
       {
         "id": "measure-pseudopartitive-001",
         "relationship": "related-to",
-        "notes": "The plural in A number of applicants were waiting follows the of-complement. Compare an amount reading with singular agreement in Three litres of milk was enough."
+        "notes": "The plural in <i>A number of applicants were waiting</i> follows the <i>of</i>-complement. Compare an amount reading with singular agreement in <i>Three litres of milk was enough</i>."
       }
     ],
     "grounds": [
@@ -46,7 +46,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The plural is licensed despite singular number. With the number of applicants, the nominal normally denotes the numerical quantity and takes singular agreement.",
+        "target": "The plural is licensed despite singular number. With <i>the number of applicants</i>, the nominal normally denotes the numerical quantity and takes singular agreement.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -55,8 +55,8 @@
   "editions": {
     "curious": {
       "title": "When the verb follows the noun after of",
-      "summary": "In a number of applicants, the verb agrees with applicants, not with the singular word number.",
-      "body": "In A number of applicants were waiting, the word number is singular, yet the verb is plural. The verb follows the plural applicants after of.\n\nCompare The number of applicants. There, number normally names a quantity, and the verb goes with it: singular. Three litres of milk was enough works the same way, with a singular verb for an amount.",
+      "summary": "In <i>a number of applicants</i>, the verb agrees with <i>applicants</i>, not with the singular word <i>number</i>.",
+      "body": "In <i>A number of applicants were waiting</i>, the word <i>number</i> is singular, yet the verb is plural. The verb follows the plural <i>applicants</i> after <i>of</i>.\n\nCompare <i>The number of applicants</i>. There, <i>number</i> normally names a quantity, and the verb goes with it: singular. <i>Three litres of milk was enough</i> works the same way, with a singular verb for an amount.",
       "examples": [
         {
           "text": "A number of applicants [were waiting].",
@@ -71,11 +71,11 @@
           "from": "entry"
         }
       ],
-      "try": "Say A number of applicants were waiting. Then say The number of applicants was small. Why does the verb change?"
+      "try": "Say <i>A number of applicants were waiting</i>. Then say <i>The number of applicants was small</i>. Why does the verb change?"
     },
     "teacher": {
-      "summary": "Explains why a plural verb can follow a singular noun like number when an of-phrase supplies the plural.",
-      "explain": "In a licensed frame, a number-transparent nominal lets the number of the embedded complement determine agreement. In A number of applicants were waiting, the plural is licensed despite the singular number, so the verb follows applicants. With the number of applicants, the nominal normally denotes a numerical quantity and takes singular agreement. Compare an amount reading with singular agreement, as in Three litres of milk was enough. This is a specialization of verb-number agreement. The dictionary marks this account as provisional.",
+      "summary": "Explains why a plural verb can follow a singular noun like <i>number</i> when an <i>of</i>-phrase supplies the plural.",
+      "explain": "In a licensed frame, a number-transparent nominal lets the number of the embedded complement determine agreement. In <i>A number of applicants were waiting</i>, the plural is licensed despite the singular <i>number</i>, so the verb follows <i>applicants</i>. With <i>the number of applicants</i>, the nominal normally denotes a numerical quantity and takes singular agreement. Compare an amount reading with singular agreement, as in <i>Three litres of milk was enough</i>. This is a specialization of verb-number agreement. The dictionary marks this account as provisional.",
       "examples": [
         {
           "text": "A number of applicants [were waiting].",
@@ -90,19 +90,19 @@
         {
           "text": "A number of applicants [were waiting].",
           "from": "entry",
-          "note": "Plural agreement follows the of-complement."
+          "note": "Plural agreement follows the <i>of</i>-complement."
         },
         {
           "text": "The number of applicants [was] small.",
           "from": "constructed",
-          "note": "Number names a quantity, so agreement is singular."
+          "note": "<i>Number</i> names a quantity, so agreement is singular."
         }
       ],
       "watch_for": [
-        "A learner might make the verb agree with the singular noun number in A number of applicants.",
-        "A learner might use a plural verb after the number of applicants."
+        "A learner might make the verb agree with the singular noun <i>number</i> in <i>A number of applicants</i>.",
+        "A learner might use a plural verb after <i>the number of applicants</i>."
       ],
-      "activity": "Give students sentence frames with a number of and the number of. They choose the verb form, then explain which word the verb agrees with."
+      "activity": "Give students sentence frames with <i>a number of</i> and <i>the number of</i>. They choose the verb form, then explain which word the verb agrees with."
     }
   },
   "status": {
@@ -123,10 +123,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Agreement through a Number-Transparent Nominal.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/number-transparent-agreement-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Agreement through a Number-Transparent Nominal.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/number-transparent-agreement-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

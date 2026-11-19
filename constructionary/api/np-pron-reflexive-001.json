@@ -16,7 +16,7 @@
     "meanings": {
       "1": {
         "definition": "Interprets a direct-object personal pronoun as having the same referent as the subject of the verb.",
-        "details": "Sue defended herself has a local antecedent for herself. In the ordinary transitive reading, Sue defended her is about Sue defending someone else. This entry covers the simple direct-object pattern. A reflexive used for emphasis or in a picture NP can have different licensing.",
+        "details": "<i>Sue defended herself</i> has a local antecedent for <i>herself</i>. In the ordinary transitive reading, <i>Sue defended her</i> is about Sue defending someone else. This entry covers the simple direct-object pattern. A reflexive used for emphasis or in a picture NP can have different licensing.",
         "examples": [
           {
             "form": "Sue defended [herself].",
@@ -76,9 +76,9 @@
   },
   "editions": {
     "curious": {
-      "title": "Words like herself and themselves",
-      "summary": "A word like herself, as the object of a verb, points back to the person doing the action.",
-      "body": "In Sue defended herself, the word herself means Sue. The one doing the defending and the one being defended are the same person. Change it to Sue defended her, and the ordinary reading is that Sue defended someone else.\n\nThe reflexive form matches the person it points back to in person and number, which is why we get The players congratulated themselves. This dictionary covers only the simple pattern with a verb and its object. Reflexives used for emphasis, or inside a phrase like a picture of herself, follow other rules.",
+      "title": "Words like <i>herself</i> and <i>themselves</i>",
+      "summary": "A word like <i>herself</i>, as the object of a verb, points back to the person doing the action.",
+      "body": "In <i>Sue defended herself</i>, the word <i>herself</i> means Sue. The one doing the defending and the one being defended are the same person. Change it to <i>Sue defended her</i>, and the ordinary reading is that Sue defended someone else.\n\nThe reflexive form matches the person it points back to in person and number, which is why we get <i>The players congratulated themselves</i>. This dictionary covers only the simple pattern with a verb and its object. Reflexives used for emphasis, or inside a phrase like <i>a picture of herself</i>, follow other rules.",
       "examples": [
         {
           "text": "Sue defended [herself].",
@@ -89,12 +89,12 @@
           "from": "entry"
         }
       ],
-      "try": "Say Sue defended herself and Sue defended her. Who is defended in each one?"
+      "try": "Say <i>Sue defended herself</i> and <i>Sue defended her</i>. Who is defended in each one?"
     },
     "teacher": {
       "summary": "Explains the basic direct-object reflexive and its contrast with an ordinary object pronoun.",
-      "explain": "In the simple pattern, a reflexive pronoun serves as direct object with a local subject antecedent: Sue defended herself. The personal pronoun in reflexive form has the same referent as the subject of the verb. In the ordinary transitive reading, Sue defended her is about Sue defending someone else. The reflexive form tracks the antecedent's person and number, so changing it to the plain accusative usually removes the local co-reference reading. The pattern here doesn't cover emphatic reflexives or those in picture noun phrases, which can have different licensing. The dictionary marks this account as provisional.",
-      "terms": "Reflexive pronoun is the traditional name. Her in Sue defended her is an ordinary personal pronoun in accusative form.",
+      "explain": "In the simple pattern, a reflexive pronoun serves as direct object with a local subject antecedent: <i>Sue defended herself</i>. The personal pronoun in reflexive form has the same referent as the subject of the verb. In the ordinary transitive reading, <i>Sue defended her</i> is about Sue defending someone else. The reflexive form tracks the antecedent's person and number, so changing it to the plain accusative usually removes the local co-reference reading. The pattern here doesn't cover emphatic reflexives or those in picture noun phrases, which can have different licensing. The dictionary marks this account as provisional.",
+      "terms": "Reflexive pronoun is the traditional name. <i>Her</i> in <i>Sue defended her</i> is an ordinary personal pronoun in accusative form.",
       "examples": [
         {
           "text": "Sue defended [herself].",
@@ -118,14 +118,14 @@
         }
       ],
       "watch_for": [
-        "A learner might use her for the subject's own referent, as in Sue defended her, meaning Sue.",
+        "A learner might use <i>her</i> for the subject's own referent, as in <i>Sue defended her</i>, meaning Sue.",
         "A learner might choose a reflexive that doesn't match its antecedent in person and number."
       ],
       "activity": "Give students a set of sentences with a blank after a transitive verb. They fill in either a reflexive or a plain pronoun and say who each one refers to."
     },
     "child": {
-      "hook": "When does \"herself\" mean the very same person?",
-      "explain": "Words like herself and themselves point back to the person doing the action. When Sue defended herself, Sue was defended. When Sue defended her, it's someone else.",
+      "hook": "When does \"<i>herself</i>\" mean the very same person?",
+      "explain": "Words like <i>herself</i> and <i>themselves</i> point back to the person doing the action. When <i>Sue defended herself</i>, Sue was defended. When <i>Sue defended her</i>, it's someone else.",
       "examples": [
         {
           "text": "Sue defended [herself].",
@@ -136,7 +136,7 @@
           "from": "entry"
         }
       ],
-      "play": "Think of two sentences with the same verb, one ending in herself or himself and one ending in her or him. Who is the object in each?"
+      "play": "Think of two sentences with the same verb, one ending in <i>herself</i> or <i>himself</i> and one ending in <i>her</i> or <i>him</i>. Who is the object in each?"
     }
   },
   "status": {
@@ -157,10 +157,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Direct-Object Reflexive Anaphor.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/np-pron-reflexive-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Direct-Object Reflexive Anaphor.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/np-pron-reflexive-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

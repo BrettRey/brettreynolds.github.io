@@ -4,7 +4,7 @@
 - pattern: (Subject +) Head:VP
 - status: provisional analysis; evidence level: stable
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/clause-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
@@ -12,9 +12,9 @@ A Phrase whose Head is a VP and whose Subject is optional
 
 Clause is defined here without exception as a headed Phrase. Its immediate Head is VP and its ultimate Head is V. An overt Subject, when present, is a Clause-level dependent rather than part of the VP. Subjectless imperative and non-finite Clauses therefore satisfy the same pattern as subject-bearing Clauses. Markers, prenuclear elements, and other Clause-level dependents do not alter the Head relation. A constituent without a VP in Head function is not a Clause in this Constructionary; non-headed structures with clause-like interpretations are assigned to clause-analogue-001.
 
-- *[Kim left early].*: Subject Kim plus Head VP left early
+- *[Kim left early].*: Subject *Kim* plus Head VP *left early*
 - *[Leave early!]*: Subjectless imperative Clause consisting overtly of its Head VP
-- *[Leaving early annoyed Pat].*: The matrix Clause has Subject Clause leaving early and Head VP annoyed Pat
+- *[Leaving early annoyed Pat].*: The matrix Clause has Subject Clause *leaving early* and Head VP *annoyed Pat*
 
 ## Constraints
 
@@ -27,9 +27,9 @@ Clause is defined here without exception as a headed Phrase. Its immediate Head 
 
 - Compare: Absolute Supplement (`absolute-supplement-001`)
 - Kinds of this: Raising with an Adjectival Predicative (`adjectival-raising-001`)
-- Kinds of this: Adjectival Tough Construction (`adjective-hollow-infinitival-001`)
+- Kinds of this: Adjectival *tough* Construction (`adjective-hollow-infinitival-001`)
 - Kinds of this: Auxiliary-Stranding VP Ellipsis (`auxiliary-vp-ellipsis-001`)
-- Kinds of this: Verbal Be-Passive (`be-passive-001`)
+- Kinds of this: Verbal *be*-Passive (`be-passive-001`)
 - A kind of: Phrase (`phrase-001`): Clause specializes Phrase with VP as its immediate Head
 - Contains: Verb Phrase (`vp-001`): The Clause's obligatory Head constituent is a VP
 - Overlaps with: Clause-Analogue Construction (`clause-analogue-001`): Both can convey clause-like content, but only Clause is formally headed by VP
@@ -42,24 +42,24 @@ Clause is defined here without exception as a headed Phrase. Its immediate Head 
 - Kinds of this: Dispositional Middle (`dispositional-middle-001`)
 - Interacts with: Echo Question (`echo-question-001`)
 - Kinds of this: Exclamative Clause (`exclamative-clause-001`)
-- Kinds of this: Existential There with Be (`existential-there-001`)
-- Kinds of this: Finite Do Support (`finite-do-support-001`)
-- Kinds of this: Open and Remote If-Conditionals (`if-conditional-001`)
+- Kinds of this: Existential *there* with *be* (`existential-there-001`)
+- Kinds of this: Finite *do* Support (`finite-do-support-001`)
+- Kinds of this: Open and Remote *if*-Conditionals (`if-conditional-001`)
 - Kinds of this: Imperative Clause (`imperative-clause-001`)
-- Kinds of this: It-Cleft (`it-cleft-001`)
+- Kinds of this: *it*-Cleft (`it-cleft-001`)
 - Kinds of this: Left Dislocation with a Pronoun (`left-dislocation-001`)
 - Kinds of this: Inversion after Preposed Negative or Restrictive Expression (`negative-initial-inversion-001`)
 - Kinds of this: Open Interrogative Clause (`open-interrogative-clause-001`)
 - Kinds of this: Locative and Temporal Subject–Dependent Inversion (`presentational-dependent-inversion-001`)
-- Kinds of this: Presentational There with a Lexical Verb (`presentational-there-001`)
-- Kinds of this: Finite Auxiliary with Not (`primary-auxiliary-negation-001`)
+- Kinds of this: Presentational *there* with a Lexical Verb (`presentational-there-001`)
+- Kinds of this: Finite Auxiliary with *not* (`primary-auxiliary-negation-001`)
 - Kinds of this: Pseudo-Cleft (`pseudo-cleft-001`)
 - Interacts with: Question (`question-001`)
 - Kinds of this: Right Dislocation with a Pronoun (`right-dislocation-001`)
 - Interacts with: Secondary Verbal Negation (`secondary-verbal-negation-001`)
 - Kinds of this: Specificational Copular Clause (`specificational-copular-001`)
 - Kinds of this: Subject-Oriented Ascriptive Predicative (`subject-ascriptive-001`)
-- Kinds of this: Subject Control in a To-Infinitival Complement (`subject-control-infinitival-001`)
+- Kinds of this: Subject Control in a *to*-Infinitival Complement (`subject-control-infinitival-001`)
 - Kinds of this: Subject Extraposition (`subject-extraposition-001`)
 - Kinds of this: Subject Raising with a Catenative Verb (`subject-raising-infinitival-001`)
 - Interacts with: Tag Question (`tag-question-001`)
@@ -80,12 +80,12 @@ Clause membership predicts availability of clause-level polarity, clause-type, s
 
 In this dictionary a clause is a group of words built around a verb and what goes with it, with or without a subject.
 
-A clause is built around a verb and whatever goes with it. Kim left early has someone doing something: Kim is who left, and left early is the verb part. Leave early! has only the verb part, and it's still a clause.
+A clause is built around a verb and whatever goes with it. *Kim left early* has someone doing something: *Kim* is who left, and *left early* is the verb part. *Leave early!* has only the verb part, and it's still a clause.
 
-Clauses can sit inside other clauses. In Leaving early annoyed Pat, the opening words Leaving early are a clause that acts as the subject of the whole sentence. Short phrases that carry a message but have no verb part aren't clauses here, though they can mean something clause-like.
+Clauses can sit inside other clauses. In *Leaving early annoyed Pat*, the opening words *Leaving early* are a clause that acts as the subject of the whole sentence. Short phrases that carry a message but have no verb part aren't clauses here, though they can mean something clause-like.
 
 ### Teacher
 
 Defines Clause strictly as a phrase headed by a VP, which separates it from verbless structures and from coordinations.
 
-A Clause is a phrase whose head is a VP, with an optional subject. In Kim left early, Kim is the subject and left early is the head VP. Leave early! is a subjectless imperative: the Clause is just its head VP. In Leaving early annoyed Pat, the matrix Clause has a subject that is itself a Clause. The subject is a dependent of the Clause, not part of the VP. Markers and other clause-level dependents don't replace the VP as head. A coordination of Clauses is non-headed and is not itself a Clause.
+A Clause is a phrase whose head is a VP, with an optional subject. In *Kim left early*, *Kim* is the subject and *left early* is the head VP. *Leave early!* is a subjectless imperative: the Clause is just its head VP. In *Leaving early annoyed Pat*, the matrix Clause has a subject that is itself a Clause. The subject is a dependent of the Clause, not part of the VP. Markers and other clause-level dependents don't replace the VP as head. A coordination of Clauses is non-headed and is not itself a Clause.

@@ -1,6 +1,6 @@
 {
   "id": "in-case-contingency-001",
-  "name": "Precautionary In Case",
+  "name": "Precautionary <i>in case</i>",
   "pattern": "PP[in case + finite clause]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/in-case-contingency-001/",
@@ -9,7 +9,7 @@
   },
   "entry": {
     "id": "in-case-contingency-001",
-    "name": "Precautionary In Case",
+    "name": "Precautionary <i>in case</i>",
     "pattern": "PP[in case + finite clause]",
     "type": "mixed",
     "meanings": {
@@ -45,7 +45,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The taking is appropriate before it is known whether the door will lock. An if-adjunct can instead make taking conditional on the door locking.",
+        "target": "The taking is appropriate before it is known whether the door will lock. An <i>if</i>-adjunct can instead make taking conditional on the door locking.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -54,8 +54,8 @@
   "editions": {
     "curious": {
       "title": "Doing something just in case",
-      "summary": "A phrase beginning with in case names a possibility that you're guarding against, so the main action is a precaution.",
-      "body": "In Take a key in case the door locks, the part after in case names a possibility. The taking happens as a precaution against it. You don't need to know yet whether the door will lock.\n\nThat makes it different from a version with if. Take a key if the door locks makes the taking depend on the door locking. With in case, the taking is appropriate before anyone knows how things will turn out.",
+      "summary": "A phrase beginning with <i>in case</i> names a possibility that you're guarding against, so the main action is a precaution.",
+      "body": "In <i>Take a key in case the door locks</i>, the part after <i>in case</i> names a possibility. The taking happens as a precaution against it. You don't need to know yet whether the door will lock.\n\nThat makes it different from a version with <i>if</i>. <i>Take a key if the door locks</i> makes the taking depend on the door locking. With <i>in case</i>, the taking is appropriate before anyone knows how things will turn out.",
       "examples": [
         {
           "text": "Take a key [in case the door locks].",
@@ -66,12 +66,12 @@
           "from": "constructed"
         }
       ],
-      "try": "Compare Take a key in case the door locks with Take a key if the door locks. When would you pick up the key in each one?"
+      "try": "Compare <i>Take a key in case the door locks</i> with <i>Take a key if the door locks</i>. When would you pick up the key in each one?"
     },
     "teacher": {
-      "summary": "Useful for learners who treat in case as interchangeable with if.",
-      "explain": "The pattern is a prepositional phrase made of in case plus a finite clause. It supplies the possibility against which the main action is a precaution. The main action is appropriate before it is known whether the possibility will come about. An if-adjunct can instead make the main action conditional on that possibility. So the two forms invite different readings of the same main clause, as in Take a key in case the door locks versus Take a key if the door locks. The dictionary marks this dictionary as provisional and relates it to the general prepositional phrase and to if-conditionals.",
-      "terms": "Sometimes described as a precautionary or contingency use of in case. The if version is a conditional adjunct.",
+      "summary": "Useful for learners who treat <i>in case</i> as interchangeable with <i>if</i>.",
+      "explain": "The pattern is a prepositional phrase made of <i>in case</i> plus a finite clause. It supplies the possibility against which the main action is a precaution. The main action is appropriate before it is known whether the possibility will come about. An <i>if</i>-adjunct can instead make the main action conditional on that possibility. So the two forms invite different readings of the same main clause, as in <i>Take a key in case the door locks</i> versus <i>Take a key if the door locks</i>. The dictionary marks this dictionary as provisional and relates it to the general prepositional phrase and to <i>if</i>-conditionals.",
+      "terms": "Sometimes described as a precautionary or contingency use of <i>in case</i>. The <i>if</i> version is a conditional adjunct.",
       "examples": [
         {
           "text": "Take a key [in case the door locks].",
@@ -95,10 +95,10 @@
         }
       ],
       "watch_for": [
-        "A learner might treat in case and if as having the same meaning in Take a key in case the door locks.",
-        "A learner might think the in case clause describes something that has already happened."
+        "A learner might treat <i>in case</i> and <i>if</i> as having the same meaning in <i>Take a key in case the door locks</i>.",
+        "A learner might think the <i>in case</i> clause describes something that has already happened."
       ],
-      "activity": "Give pairs of sentences that differ only in in case and if. Students say what you would do, and when, in each version, then write their own pair."
+      "activity": "Give pairs of sentences that differ only in <i>in case</i> and <i>if</i>. Students say what you would do, and when, in each version, then write their own pair."
     }
   },
   "status": {
@@ -119,10 +119,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Precautionary In Case.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/in-case-contingency-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Precautionary <i>in case</i>.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/in-case-contingency-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

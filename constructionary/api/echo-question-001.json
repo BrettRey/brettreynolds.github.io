@@ -22,7 +22,7 @@
     "meanings": {
       "1": {
         "definition": "Repeats all or part of a prior utterance to ask whether that is what the previous speaker said",
-        "details": "The echo question is not a sixth clause type. Question is a semantic category applied as a stimulus-dependent layer while a clausal host preserves its grammatical type and a non-headed host remains non-headed. Its implicit propositional content concerns the prior speech act: an echo of Is he resigning? asks approximately whether the previous speaker asked that question, not whether he is resigning (CGEL pp. 853–54, 886–90).",
+        "details": "The echo question is not a sixth clause type. Question is a semantic category applied as a stimulus-dependent layer while a clausal host preserves its grammatical type and a non-headed host remains non-headed. Its implicit propositional content concerns the prior speech act: an echo of <i>Is he resigning?</i> asks approximately whether the previous speaker asked that question, not whether he is resigning (CGEL pp. 853–54, 886–90).",
         "examples": [
           {
             "form": "A: She is leaving on Saturday. B: [She is leaving on Saturday]?",
@@ -113,7 +113,7 @@
           {
             "property": "Echo-specific variable placement",
             "diagnostics": [
-              "in-situ who/what phrase",
+              "in-situ <i>who</i>/<i>what</i> phrase",
               "reduction of recoverable material"
             ],
             "weight": "high"
@@ -122,7 +122,7 @@
       },
       "boundaries": {
         "known_boundary_items": [
-          "Declarative questions such as They've finished? seek confirmation of a proposition using declarative syntax but need not echo a linguistic stimulus.",
+          "Declarative questions such as <i>They've finished?</i> seek confirmation of a proposition using declarative syntax but need not echo a linguistic stimulus.",
           "Ordinary open interrogatives are typed by an interrogative phrase and normally front a non-subject phrase; variable echoes preserve stimulus order."
         ]
       },
@@ -178,7 +178,7 @@
     "curious": {
       "title": "Repeating what someone said as a question",
       "summary": "A speaker can repeat all or part of what was just said, in the form of a question, to check it or to ask for clarification.",
-      "body": "If someone says She is leaving on Saturday, you can reply She is leaving on Saturday? with a questioning tune. You're asking whether that is what they said. You aren't asking whether she is leaving.\n\nYou can also swap a part you didn't hear or understand for a question word. After Give it to Angela, the reply Give it to who? keeps the original order and asks about the missing piece. The echo depends on what the other person just said.",
+      "body": "If someone says <i>She is leaving on Saturday</i>, you can reply <i>She is leaving on Saturday?</i> with a questioning tune. You're asking whether that is what they said. You aren't asking whether she is leaving.\n\nYou can also swap a part you didn't hear or understand for a question word. After <i>Give it to Angela</i>, the reply <i>Give it to who?</i> keeps the original order and asks about the missing piece. The echo depends on what the other person just said.",
       "examples": [
         {
           "text": "A: She is leaving on Saturday. B: [She is leaving on Saturday]?",
@@ -197,11 +197,11 @@
           "from": "entry"
         }
       ],
-      "try": "Next time you didn't catch a word, say back what you heard and swap the missing part for who or what."
+      "try": "Next time you didn't catch a word, say back what you heard and swap the missing part for <i>who</i> or <i>what</i>."
     },
     "teacher": {
       "summary": "Helps explain echo questions as a layer over a prior utterance that keeps the clause type of what is echoed.",
-      "explain": "An echo question repeats all or part of a prior utterance to ask whether that is what the previous speaker said. This dictionary says it isn't a sixth clause type: it's a semantic layer on a stimulus, and the clausal host keeps its grammatical type (declarative, closed interrogative, imperative). A non-headed host stays non-headed, as in Ed quite competent? Echoing Is he resigning? asks approximately whether the previous speaker asked that, not whether he's resigning. A variable echo replaces a poorly heard or understood part with an in-situ variable phrase and keeps the stimulus's word order and clause type, sometimes with reduction and deictic shift (Did I use a what?).",
+      "explain": "An echo question repeats all or part of a prior utterance to ask whether that is what the previous speaker said. This dictionary says it isn't a sixth clause type: it's a semantic layer on a stimulus, and the clausal host keeps its grammatical type (declarative, closed interrogative, imperative). A non-headed host stays non-headed, as in <i>Ed quite competent?</i> Echoing <i>Is he resigning?</i> asks approximately whether the previous speaker asked that, not whether he's resigning. A variable echo replaces a poorly heard or understood part with an in-situ variable phrase and keeps the stimulus's word order and clause type, sometimes with reduction and deictic shift (<i>Did I use a what?</i>).",
       "terms": "This dictionary treats the echo question as a stimulus-dependent layer over a host, not as a clause type.",
       "examples": [
         {
@@ -234,18 +234,18 @@
         {
           "text": "A: Did you use a macro? B: [Did I use a what]?",
           "from": "entry",
-          "note": "Variable echo with deictic shift (you becomes I)."
+          "note": "Variable echo with deictic shift (<i>you</i> becomes <i>I</i>)."
         }
       ],
       "watch_for": [
-        "A learner might read the reply Is he going to resign? as asking about his resigning, when it checks what the previous speaker asked.",
+        "A learner might read the reply <i>Is he going to resign?</i> as asking about his resigning, when it checks what the previous speaker asked.",
         "A learner might expect a variable echo to take ordinary question-word order, though it keeps the stimulus's order."
       ],
-      "activity": "Pairs take turns saying a sentence with one word hard to hear. The listener echoes it back, swapping the missed word for who or what, and the speaker repeats the word."
+      "activity": "Pairs take turns saying a sentence with one word hard to hear. The listener echoes it back, swapping the missed word for <i>who</i> or <i>what</i>, and the speaker repeats the word."
     },
     "child": {
       "hook": "What do you say when you didn't hear a word?",
-      "explain": "You can say back what you heard as a question. You can swap the missing word for who or what. Someone says Give it to Angela. You say Give it to who?",
+      "explain": "You can say back what you heard as a question. You can swap the missing word for <i>who</i> or <i>what</i>. Someone says <i>Give it to Angela</i>. You say <i>Give it to who?</i>",
       "examples": [
         {
           "text": "A: Give it to Angela. B: [Give it to who]?",
@@ -256,7 +256,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Whisper a sentence to a friend and mumble one word. They say it back and swap the mumbled word for who or what."
+      "play": "Whisper a sentence to a friend and mumble one word. They say it back and swap the mumbled word for <i>who</i> or <i>what</i>."
     }
   },
   "status": {
@@ -277,10 +277,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Echo Question.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/echo-question-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Echo Question.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/echo-question-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

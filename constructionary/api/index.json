@@ -5,7 +5,7 @@
   "licence": "CC-BY-4.0",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   },
   "counts": {
@@ -43,7 +43,7 @@
     },
     {
       "id": "absolute-with-predication-001",
-      "name": "With Plus an Absolute Predication",
+      "name": "<i>with</i> Plus an Absolute Predication",
       "pattern": "PP[with + NP + participial or verbless predicate]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/absolute-with-predication-001/",
@@ -119,7 +119,7 @@
     },
     {
       "id": "adjective-hollow-infinitival-001",
-      "name": "Adjectival Tough Construction",
+      "name": "Adjectival <i>tough</i> Construction",
       "pattern": "Clause[Subject:NPᵢ + be + PredComp:AdjP[Adj + to-infinitival Clause with non-subject gapᵢ]]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/adjective-hollow-infinitival-001/",
@@ -131,7 +131,7 @@
     },
     {
       "id": "affected-have-participial-001",
-      "name": "Have with a Past-Participial Predication",
+      "name": "<i>have</i> with a Past-Participial Predication",
       "pattern": "VP[have + NP + past-participial predicate]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/affected-have-participial-001/",
@@ -143,7 +143,7 @@
     },
     {
       "id": "all-class-role-modifier-001",
-      "name": "All Modifier Restricting a Role",
+      "name": "<i>all</i> Modifier Restricting a Role",
       "pattern": "Nom[all + class-denoting nominal or adjective + N]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/all-class-role-modifier-001/",
@@ -155,7 +155,7 @@
     },
     {
       "id": "all-of-magnitude-001",
-      "name": "All of with a Stated Magnitude",
+      "name": "<i>all of</i> with a Stated Magnitude",
       "pattern": "all of + (approximator) + numeral expression, with no definite article after of",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/all-of-magnitude-001/",
@@ -167,7 +167,7 @@
     },
     {
       "id": "although-concessive-001",
-      "name": "Concessive Although Adjunct",
+      "name": "Concessive <i>although</i> Adjunct",
       "pattern": "PP[although + finite or licensed reduced predication]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/although-concessive-001/",
@@ -193,7 +193,7 @@
     },
     {
       "id": "anaphoric-propositional-not-001",
-      "name": "Anaphoric Not with an Attitude Predicate",
+      "name": "Anaphoric <i>not</i> with an Attitude Predicate",
       "pattern": "licensed predicate + not",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/anaphoric-propositional-not-001/",
@@ -206,7 +206,7 @@
     },
     {
       "id": "anaphoric-propositional-so-001",
-      "name": "Anaphoric So with an Attitude Predicate",
+      "name": "Anaphoric <i>so</i> with an Attitude Predicate",
       "pattern": "licensed predicate + so",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/anaphoric-propositional-so-001/",
@@ -219,7 +219,7 @@
     },
     {
       "id": "another-additive-measure-001",
-      "name": "Additive Another before a Measure or Cardinal",
+      "name": "Additive <i>another</i> before a Measure or Cardinal",
       "pattern": "NP[another + cardinal or measure expression + nominal]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/another-additive-measure-001/",
@@ -307,7 +307,7 @@
     },
     {
       "id": "be-passive-001",
-      "name": "Verbal Be-Passive",
+      "name": "Verbal <i>be</i>-Passive",
       "pattern": "Clause[Subject:NPᵢ + Head:VP[be + VP[past participle, complementᵢ externalized, optional internalized by-PP]]]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/be-passive-001/",
@@ -320,7 +320,7 @@
     },
     {
       "id": "both-and-coordination-001",
-      "name": "Correlative Both and And",
+      "name": "Correlative <i>both … and</i>",
       "pattern": "coordination[both + XP + and + XP]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/both-and-coordination-001/",
@@ -370,7 +370,7 @@
     },
     {
       "id": "causative-have-001",
-      "name": "Causative Have with a Bare Infinitival",
+      "name": "Causative <i>have</i> with a Bare Infinitival",
       "pattern": "VP[have + NP + bare infinitival]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/causative-have-001/",
@@ -445,7 +445,7 @@
     },
     {
       "id": "closed-interrogative-if-001",
-      "name": "Subordinate Closed Interrogative with If",
+      "name": "Subordinate Closed Interrogative with <i>if</i>",
       "pattern": "interrogative if + finite subordinate clause",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/closed-interrogative-if-001/",
@@ -457,7 +457,7 @@
     },
     {
       "id": "closed-interrogative-whether-001",
-      "name": "Subordinate Closed Interrogative with Whether",
+      "name": "Subordinate Closed Interrogative with <i>whether</i>",
       "pattern": "whether + subordinate declarative-order nucleus, or whether + to-infinitival",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/closed-interrogative-whether-001/",
@@ -506,7 +506,7 @@
     },
     {
       "id": "come-with-motion-participial-001",
-      "name": "Come with a Motion or Sound Participial",
+      "name": "<i>come</i> with a Motion or Sound Participial",
       "pattern": "VP[Head:come + V-ing expression + (path expression)]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/come-with-motion-participial-001/",
@@ -545,7 +545,7 @@
     },
     {
       "id": "comparative-er-001",
-      "name": "Comparative -er",
+      "name": "Comparative <i>-er</i>",
       "pattern": "XP[X + -er] where X < {tall, deep, soon, near, few, ...} >",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/comparative-er-001/",
@@ -571,7 +571,7 @@
     },
     {
       "id": "complement-it-extraposition-001",
-      "name": "Object It with an Extraposed Content Clause",
+      "name": "Object <i>it</i> with an Extraposed Content Clause",
       "pattern": "VP[V + it + predicative or other complement + content clause]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/complement-it-extraposition-001/",
@@ -595,7 +595,7 @@
     },
     {
       "id": "conative-at-001",
-      "name": "Conative At",
+      "name": "Conative <i>at</i>",
       "pattern": "VP[Head:V[action] + Comp:PP[at + NP[target]]]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/conative-at-001/",
@@ -608,7 +608,7 @@
     },
     {
       "id": "concealed-passive-ing-001",
-      "name": "Concealed Passive in an -ing Complement",
+      "name": "Concealed Passive in an <i>-ing</i> Complement",
       "pattern": "VP[need/want/require or other licensing V + gerund-participial]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/concealed-passive-ing-001/",
@@ -621,7 +621,7 @@
     },
     {
       "id": "constituent-not-negation-001",
-      "name": "Constituent Negation with not",
+      "name": "Constituent Negation with <i>not</i>",
       "pattern": "not + XP (predicative)",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/constituent-not-negation-001/",
@@ -633,7 +633,7 @@
     },
     {
       "id": "content-because-adjunct-001",
-      "name": "Content-Level Because Adjunct",
+      "name": "Content-Level <i>because</i> Adjunct",
       "pattern": "PP[because + finite clause] modifying predication",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/content-because-adjunct-001/",
@@ -670,7 +670,7 @@
     },
     {
       "id": "continuative-away-at-001",
-      "name": "Continuative Away At",
+      "name": "Continuative <i>away at</i>",
       "pattern": "VP[Head:V + away + PP[at + NP[target]]]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/continuative-away-at-001/",
@@ -695,7 +695,7 @@
     },
     {
       "id": "coordinate-degree-reduplication-001",
-      "name": "Comparative Reduplication with And",
+      "name": "Comparative Reduplication with <i>and</i>",
       "pattern": "AdjP/AdvP[comparative XP + and + identical comparative XP]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/coordinate-degree-reduplication-001/",
@@ -734,7 +734,7 @@
     },
     {
       "id": "corrective-but-coordination-001",
-      "name": "Corrective Not X But Y",
+      "name": "Corrective <i>not X but Y</i>",
       "pattern": "coordination[not XP + but XP]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/corrective-but-coordination-001/",
@@ -747,7 +747,7 @@
     },
     {
       "id": "deadjectival-ity-noun-001",
-      "name": "Deadjectival Noun in -ity",
+      "name": "Deadjectival Noun in <i>-ity</i>",
       "pattern": "N[adjectival base + -ity], sometimes with a stem alternation",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/deadjectival-ity-noun-001/",
@@ -759,7 +759,7 @@
     },
     {
       "id": "deadjectival-ize-001",
-      "name": "Change Verb in -Ize",
+      "name": "Change Verb in <i>-ize</i>",
       "pattern": "V[adjective base + -ize/-ise]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/deadjectival-ize-001/",
@@ -771,7 +771,7 @@
     },
     {
       "id": "deadjectival-ness-noun-001",
-      "name": "Deadjectival Noun in -ness",
+      "name": "Deadjectival Noun in <i>-ness</i>",
       "pattern": "N[adjective base + -ness]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/deadjectival-ness-noun-001/",
@@ -834,7 +834,7 @@
     },
     {
       "id": "definite-cardinal-of-pronoun-001",
-      "name": "The Two of Us",
+      "name": "<i>the two of us</i>",
       "pattern": "NP[the + cardinal + PP[of + personal pronoun]]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/definite-cardinal-of-pronoun-001/",
@@ -872,7 +872,7 @@
     },
     {
       "id": "deictic-here-there-inversion-001",
-      "name": "Deictic Here or There with Inversion",
+      "name": "Deictic <i>here</i> or <i>there</i> with Inversion",
       "pattern": "Clause[stressed locative here/there + V + full NP], or here/there + pronoun + V",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/deictic-here-there-inversion-001/",
@@ -996,7 +996,7 @@
     },
     {
       "id": "deverbal-able-adjective-001",
-      "name": "Deverbal Adjective in -able",
+      "name": "Deverbal Adjective in <i>-able</i>",
       "pattern": "Adj[verb base + -able], with related forms in -ible",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/deverbal-able-adjective-001/",
@@ -1008,7 +1008,7 @@
     },
     {
       "id": "deverbal-er-noun-001",
-      "name": "Deverbal Noun in -er",
+      "name": "Deverbal Noun in <i>-er</i>",
       "pattern": "N[verb base + -er]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/deverbal-er-noun-001/",
@@ -1021,7 +1021,7 @@
     },
     {
       "id": "deverbal-ing-nominal-001",
-      "name": "Deverbal Noun in -Ing",
+      "name": "Deverbal Noun in <i>-ing</i>",
       "pattern": "N[verb base + derivational -ing] with nominal dependents",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/deverbal-ing-nominal-001/",
@@ -1033,7 +1033,7 @@
     },
     {
       "id": "deverbal-noun-of-argument-001",
-      "name": "Deverbal Noun Of-Argument",
+      "name": "Deverbal Noun <i>of</i>-Argument",
       "pattern": "NP[(Det) + deverbal Nom + PP[of + argument NP]]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/deverbal-noun-of-argument-001/",
@@ -1045,7 +1045,7 @@
     },
     {
       "id": "difference-than-from-001",
-      "name": "Difference Complement after Different",
+      "name": "Difference Complement after <i>different</i>",
       "pattern": "AdjP[different + from/to/than-standard]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/difference-than-from-001/",
@@ -1082,7 +1082,7 @@
     },
     {
       "id": "directive-had-better-001",
-      "name": "Directive Had Better",
+      "name": "Directive <i>had better</i>",
       "pattern": "VP[fixed had + better + plain infinitival]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/directive-had-better-001/",
@@ -1120,7 +1120,7 @@
     },
     {
       "id": "distributive-rate-apiece-001",
-      "name": "Distributive Rate with Each or Apiece",
+      "name": "Distributive Rate with <i>each</i> or <i>apiece</i>",
       "pattern": "measure or counted NP + each/apiece, with a group supplied by context",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/distributive-rate-apiece-001/",
@@ -1146,7 +1146,7 @@
     },
     {
       "id": "domain-wise-adjunct-001",
-      "name": "Domain Adjunct with -Wise",
+      "name": "Domain Adjunct with <i>-wise</i>",
       "pattern": "initial domain expression in -wise + clause",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/domain-wise-adjunct-001/",
@@ -1158,7 +1158,7 @@
     },
     {
       "id": "durational-long-001",
-      "name": "Postverbal Durational Long",
+      "name": "Postverbal Durational <i>long</i>",
       "pattern": "VP[... + long in a non-affirmative duration frame]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/durational-long-001/",
@@ -1170,7 +1170,7 @@
     },
     {
       "id": "each-of-partitive-001",
-      "name": "Each in a Partitive NP",
+      "name": "<i>each</i> in a Partitive NP",
       "pattern": "NP[each + PP[of + plural definite NP]]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/each-of-partitive-001/",
@@ -1196,7 +1196,7 @@
     },
     {
       "id": "either-or-coordination-001",
-      "name": "Correlative Either and Or",
+      "name": "Correlative <i>either … or</i>",
       "pattern": "coordination[either + XP + or + XP]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/either-or-coordination-001/",
@@ -1221,7 +1221,7 @@
     },
     {
       "id": "endowed-ful-001",
-      "name": "Adjective in -Ful",
+      "name": "Adjective in <i>-ful</i>",
       "pattern": "Adj[typically nominal base + -ful]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/endowed-ful-001/",
@@ -1234,7 +1234,7 @@
     },
     {
       "id": "enough-degree-infinitival-001",
-      "name": "Sufficient Degree Enough with an Infinitival",
+      "name": "Sufficient Degree <i>enough</i> with an Infinitival",
       "pattern": "AdjP/AdvP[gradable head + enough + to-infinitival]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/enough-degree-infinitival-001/",
@@ -1260,7 +1260,7 @@
     },
     {
       "id": "equative-as-as-001",
-      "name": "Scalar Equative As … As",
+      "name": "Scalar Equative <i>as … as</i>",
       "pattern": "as + gradable expression + as-phrase/clause",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/equative-as-as-001/",
@@ -1273,7 +1273,7 @@
     },
     {
       "id": "evaluation-of-person-001",
-      "name": "Evaluative Adjective with Of and an Infinitival",
+      "name": "Evaluative Adjective with <i>of</i> and an Infinitival",
       "pattern": "Clause[dummy it + be + Adj + PP[of + NPᵢ] + to-infinitival with understood subjectᵢ]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/evaluation-of-person-001/",
@@ -1311,7 +1311,7 @@
     },
     {
       "id": "even-if-concessive-conditional-001",
-      "name": "Concessive Conditional Even If",
+      "name": "Concessive Conditional <i>even if</i>",
       "pattern": "adjunct[even if + finite clause]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/even-if-concessive-conditional-001/",
@@ -1324,7 +1324,7 @@
     },
     {
       "id": "every-inch-predicative-001",
-      "name": "Every Inch with a Nominal Predicative",
+      "name": "<i>every inch</i> with a Nominal Predicative",
       "pattern": "PredComp:NP[every inch + a(n) + Nom]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/every-inch-predicative-001/",
@@ -1336,7 +1336,7 @@
     },
     {
       "id": "evidential-because-001",
-      "name": "Speech-Act or Evidential Because",
+      "name": "Speech-Act or Evidential <i>because</i>",
       "pattern": "clause + supplementary because-PP",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/evidential-because-001/",
@@ -1400,7 +1400,7 @@
     },
     {
       "id": "existential-no-gerund-001",
-      "name": "Existential No with a Gerund-Participial",
+      "name": "Existential <i>no</i> with a Gerund-Participial",
       "pattern": "there + BE + no + VP[gerund-participial]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/existential-no-gerund-001/",
@@ -1412,7 +1412,7 @@
     },
     {
       "id": "existential-there-001",
-      "name": "Existential There with Be",
+      "name": "Existential <i>there</i> with <i>be</i>",
       "pattern": "Clause[dummy there + finite be + pivot NP]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/existential-there-001/",
@@ -1487,7 +1487,7 @@
     },
     {
       "id": "finite-do-support-001",
-      "name": "Finite Do Support",
+      "name": "Finite <i>do</i> Support",
       "pattern": "Clause[finite do + plain-form VP] in inversion or clause negation",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/finite-do-support-001/",
@@ -1500,7 +1500,7 @@
     },
     {
       "id": "floating-distributive-001",
-      "name": "Floating Each",
+      "name": "Floating <i>each</i>",
       "pattern": "Clause[plural participant NP + separately positioned each]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/floating-distributive-001/",
@@ -1512,7 +1512,7 @@
     },
     {
       "id": "for-duration-adjunct-001",
-      "name": "Duration with For",
+      "name": "Duration with <i>for</i>",
       "pattern": "clause with adjunct PP[for + measure NP of time]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/for-duration-adjunct-001/",
@@ -1525,7 +1525,7 @@
     },
     {
       "id": "for-infinitival-001",
-      "name": "For-Infinitival with an Overt Subject",
+      "name": "<i>for</i>-Infinitival with an Overt Subject",
       "pattern": "for + Subject:NP[accusative if personal pronoun] + to-infinitival VP",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/for-infinitival-001/",
@@ -1573,7 +1573,7 @@
     },
     {
       "id": "fused-relative-no-matter-001",
-      "name": "Free-Choice Fused Relative in -ever",
+      "name": "Free-Choice Fused Relative in <i>-ever</i>",
       "pattern": "NP[relative wh-ever + dependent clause]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/fused-relative-no-matter-001/",
@@ -1597,7 +1597,7 @@
     },
     {
       "id": "genitive-every-001",
-      "name": "Genitive with Every",
+      "name": "Genitive with <i>every</i>",
       "pattern": "NP[Det:NP[gen] + every + Nom[sg]]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/genitive-every-001/",
@@ -1621,7 +1621,7 @@
     },
     {
       "id": "genitive-s-001",
-      "name": "Genitive 's",
+      "name": "Genitive <i>'s</i>",
       "pattern": "Noun phrase + 's",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/genitive-s-001/",
@@ -1634,7 +1634,7 @@
     },
     {
       "id": "get-event-passive-001",
-      "name": "Get Passive",
+      "name": "<i>get</i> Passive",
       "pattern": "Clause[affected Subject + get + verbal past participle]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/get-event-passive-001/",
@@ -1659,7 +1659,7 @@
     },
     {
       "id": "god-knows-indeterminate-001",
-      "name": "God Knows with an Indeterminate Expression",
+      "name": "<i>God knows</i> with an Indeterminate Expression",
       "pattern": "fixed authority expression + knows + indeterminate XP, including inside an argument or modifier",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/god-knows-indeterminate-001/",
@@ -1671,7 +1671,7 @@
     },
     {
       "id": "going-to-future-001",
-      "name": "Prospective Be Going To",
+      "name": "Prospective <i>be going to</i>",
       "pattern": "VP[be + going + to-infinitival]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/going-to-future-001/",
@@ -1733,7 +1733,7 @@
     },
     {
       "id": "habitual-used-to-001",
-      "name": "Habitual Used To",
+      "name": "Habitual <i>used to</i>",
       "pattern": "VP[used to + plain form]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/habitual-used-to-001/",
@@ -1746,7 +1746,7 @@
     },
     {
       "id": "had-it-up-to-here-001",
-      "name": "Have Had It Up to Here",
+      "name": "<i>have had it up to here (with X)</i>",
       "pattern": "Clause[experiencer + perfect have had it up to here + (with + stimulus NP)]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/had-it-up-to-here-001/",
@@ -1771,7 +1771,7 @@
     },
     {
       "id": "how-about-proposal-001",
-      "name": "Proposal with How About",
+      "name": "Proposal with <i>how about</i>",
       "pattern": "how about + NP, gerund-participial or licensed clause",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/how-about-proposal-001/",
@@ -1784,7 +1784,7 @@
     },
     {
       "id": "how-adjective-exclamative-001",
-      "name": "Phrasal Exclamation with How",
+      "name": "Phrasal Exclamation with <i>how</i>",
       "pattern": "independent AdjP[exclamative how + gradable Adj]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/how-adjective-exclamative-001/",
@@ -1797,7 +1797,7 @@
     },
     {
       "id": "how-come-explanation-001",
-      "name": "Explanatory How Come",
+      "name": "Explanatory <i>how come</i>",
       "pattern": "how come + Subject + finite predicate",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/how-come-explanation-001/",
@@ -1810,7 +1810,7 @@
     },
     {
       "id": "if-conditional-001",
-      "name": "Open and Remote If-Conditionals",
+      "name": "Open and Remote <i>if</i>-Conditionals",
       "pattern": "Clause with an adjunct PP[if + finite declarative clause]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/if-conditional-001/",
@@ -1823,7 +1823,7 @@
     },
     {
       "id": "if-only-wish-001",
-      "name": "Optative If Only",
+      "name": "Optative <i>if only</i>",
       "pattern": "standalone if only + finite clause, often modally remote",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/if-only-wish-001/",
@@ -1836,7 +1836,7 @@
     },
     {
       "id": "immediate-following-no-sooner-001",
-      "name": "No Sooner … Than",
+      "name": "<i>no sooner X than Y</i>",
       "pattern": "No sooner + inverted primary clause + than + second clause",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/immediate-following-no-sooner-001/",
@@ -1848,7 +1848,7 @@
     },
     {
       "id": "imperative-and-conditional-001",
-      "name": "Imperative Plus And with Conditional Force",
+      "name": "Imperative Plus <i>and</i> with Conditional Force",
       "pattern": "Clause[imperative] + and + declarative consequence",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/imperative-and-conditional-001/",
@@ -1874,7 +1874,7 @@
     },
     {
       "id": "imperative-negation-do-001",
-      "name": "Imperative Negation with do-support",
+      "name": "Imperative Negation with <i>do</i>-support",
       "pattern": "Do not/Don't + VP (imperative)",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/imperative-negation-do-001/",
@@ -1887,7 +1887,7 @@
     },
     {
       "id": "imperative-or-warning-001",
-      "name": "Imperative Plus Or with a Warning",
+      "name": "Imperative Plus <i>or</i> with a Warning",
       "pattern": "Clause[imperative] + or + declarative consequence",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/imperative-or-warning-001/",
@@ -1913,7 +1913,7 @@
     },
     {
       "id": "in-case-contingency-001",
-      "name": "Precautionary In Case",
+      "name": "Precautionary <i>in case</i>",
       "pattern": "PP[in case + finite clause]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/in-case-contingency-001/",
@@ -1937,7 +1937,7 @@
     },
     {
       "id": "incongruity-whats-doing-001",
-      "name": "Incongruity What Is X Doing Y?",
+      "name": "Incongruity <i>what is X doing Y?</i>",
       "pattern": "interrogative[what + be + Subject + doing + location or V-ing expression]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/incongruity-whats-doing-001/",
@@ -2074,7 +2074,7 @@
     },
     {
       "id": "infinitival-to-stranding-001",
-      "name": "Infinitival To Stranding",
+      "name": "Infinitival <i>to</i> Stranding",
       "pattern": "to-infinitival[to + unexpressed VP]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/infinitival-to-stranding-001/",
@@ -2087,7 +2087,7 @@
     },
     {
       "id": "instrumental-with-np-001",
-      "name": "Instrumental With-PP",
+      "name": "Instrumental <i>with</i>-PP",
       "pattern": "PP[with + instrument NP] as an adjunct",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/instrumental-with-np-001/",
@@ -2112,7 +2112,7 @@
     },
     {
       "id": "intensifying-to-death-001",
-      "name": "Intensifying To Death",
+      "name": "Intensifying <i>to death</i>",
       "pattern": "VP[Head:V + (Od:NP) + to death]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/intensifying-to-death-001/",
@@ -2150,7 +2150,7 @@
     },
     {
       "id": "into-causative-001",
-      "name": "Into-Causative",
+      "name": "<i>into</i>-Causative",
       "pattern": "VP[Head:V + Od:NPᵢ + Comp:PP[into + gerund-participial Clause with understood subjectᵢ]]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/into-causative-001/",
@@ -2186,7 +2186,7 @@
     },
     {
       "id": "irrealis-were-001",
-      "name": "Irrealis Were",
+      "name": "Irrealis <i>were</i>",
       "pattern": "Clause[1sg/3sg Subject + were] in selected remote environments",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/irrealis-were-001/",
@@ -2225,7 +2225,7 @@
     },
     {
       "id": "it-auxiliary-clitic-001",
-      "name": "Clitic It’s in Auxiliary Uses",
+      "name": "Clitic <i>it’s</i> in Auxiliary Uses",
       "pattern": "it + contracted is or has",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/it-auxiliary-clitic-001/",
@@ -2238,7 +2238,7 @@
     },
     {
       "id": "it-cleft-001",
-      "name": "It-Cleft",
+      "name": "<i>it</i>-Cleft",
       "pattern": "Clause[Subject:it + be + PredComp:XP + cleft relative Clause]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/it-cleft-001/",
@@ -2275,7 +2275,7 @@
     },
     {
       "id": "let-alone-001",
-      "name": "Let Alone",
+      "name": "<i>X, let alone Y</i>",
       "pattern": "utterance with contrasting focus A + let alone + corresponding focus B; shared material can follow both foci",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/let-alone-001/",
@@ -2287,7 +2287,7 @@
     },
     {
       "id": "let-permissive-001",
-      "name": "Let Permissive with a Bare Infinitival",
+      "name": "<i>let</i> Permissive with a Bare Infinitival",
       "pattern": "VP[let + NP + bare infinitival]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/let-permissive-001/",
@@ -2300,7 +2300,7 @@
     },
     {
       "id": "lets-inclusive-001",
-      "name": "Inclusive Let’s Imperative",
+      "name": "Inclusive <i>let’s</i> Imperative",
       "pattern": "let’s + plain-form VP",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/lets-inclusive-001/",
@@ -2337,7 +2337,7 @@
     },
     {
       "id": "lexical-do-so-anaphor-001",
-      "name": "Anaphoric Do So",
+      "name": "Anaphoric <i>do so</i>",
       "pattern": "VP[do + so]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/lexical-do-so-anaphor-001/",
@@ -2423,7 +2423,7 @@
     },
     {
       "id": "mandative-should-001",
-      "name": "Mandative Should",
+      "name": "Mandative <i>should</i>",
       "pattern": "content clause[(that) + Subject + should + plain-form VP]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/mandative-should-001/",
@@ -2447,7 +2447,7 @@
     },
     {
       "id": "means-by-gerund-001",
-      "name": "Means By with a Gerund-Participial",
+      "name": "Means <i>by</i> with a Gerund-Participial",
       "pattern": "PP[by + gerund-participial Clause]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/means-by-gerund-001/",
@@ -2485,7 +2485,7 @@
     },
     {
       "id": "measure-pseudopartitive-001",
-      "name": "Measure Pseudopartitive with Of",
+      "name": "Measure Pseudopartitive with <i>of</i>",
       "pattern": "NP[quantified measure expression + of + substance or plural nominal expression]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/measure-pseudopartitive-001/",
@@ -2498,7 +2498,7 @@
     },
     {
       "id": "metalinguistic-more-than-001",
-      "name": "Metalinguistic More … Than",
+      "name": "Metalinguistic <i>more … than</i>",
       "pattern": "more XP than YP with competing descriptions of one item",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/metalinguistic-more-than-001/",
@@ -2709,7 +2709,7 @@
     },
     {
       "id": "negative-polarity-ever-001",
-      "name": "Polarity-Sensitive Temporal Ever",
+      "name": "Polarity-Sensitive Temporal <i>ever</i>",
       "pattern": "temporal ever in a licensing environment",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/negative-polarity-ever-001/",
@@ -2733,7 +2733,7 @@
     },
     {
       "id": "neither-nor-coordination-001",
-      "name": "Correlative Coordination with neither...nor",
+      "name": "Correlative Coordination with <i>neither … nor</i>",
       "pattern": "neither X nor Y",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/neither-nor-coordination-001/",
@@ -2746,7 +2746,7 @@
     },
     {
       "id": "never-adv-negation-001",
-      "name": "Adverbial Negation with never",
+      "name": "Adverbial Negation with <i>never</i>",
       "pattern": "never + VP",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/never-adv-negation-001/",
@@ -2759,7 +2759,7 @@
     },
     {
       "id": "no-determiner-001",
-      "name": "Negative determinative \"no\" in determiner function",
+      "name": "Negative determinative <i>no</i> in determiner function",
       "pattern": "no + N",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/no-determiner-001/",
@@ -2848,7 +2848,7 @@
     },
     {
       "id": "not-only-but-also-001",
-      "name": "Additive Not Only and But Also",
+      "name": "Additive <i>not only … but also</i>",
       "pattern": "coordination[not only XP + but (also) XP]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/not-only-but-also-001/",
@@ -3047,7 +3047,7 @@
     },
     {
       "id": "numerative-addition-asyndetic-001",
-      "name": "Numerative Addition Coordination (without and)",
+      "name": "Numerative Addition Coordination (without <i>and</i>)",
       "pattern": "[DP magnitude] + [DP/NP addition]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/numerative-addition-asyndetic-001/",
@@ -3059,7 +3059,7 @@
     },
     {
       "id": "numerative-addition-coordination-001",
-      "name": "Numerative Addition Coordination (with and)",
+      "name": "Numerative Addition Coordination (with <i>and</i>)",
       "pattern": "[DP magnitude] + and + [DP/NP addition]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/numerative-addition-coordination-001/",
@@ -3207,7 +3207,7 @@
     },
     {
       "id": "numerative-teen-001",
-      "name": "Regular Teen Numerative (-teen)",
+      "name": "Regular Teen Numerative (<i>-teen</i>)",
       "pattern": "Det[teen]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/numerative-teen-001/",
@@ -3220,7 +3220,7 @@
     },
     {
       "id": "numerative-teen-irregular-001",
-      "name": "Irregular Teen Numerative (eleven/twelve)",
+      "name": "Irregular Teen Numerative (<i>eleven</i>/<i>twelve</i>)",
       "pattern": "Irregular teen forms (11, 12)",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/numerative-teen-irregular-001/",
@@ -3233,7 +3233,7 @@
     },
     {
       "id": "numerative-ten-001",
-      "name": "Ten Numerative",
+      "name": "<i>ten</i> Numerative",
       "pattern": "Det[ten]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/numerative-ten-001/",
@@ -3270,7 +3270,7 @@
     },
     {
       "id": "object-control-infinitival-001",
-      "name": "Object Control in a To-Infinitival Complement",
+      "name": "Object Control in a <i>to</i>-Infinitival Complement",
       "pattern": "VP[V + NPᵢ + to-infinitival with understood subjectᵢ]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/object-control-infinitival-001/",
@@ -3283,7 +3283,7 @@
     },
     {
       "id": "object-raising-infinitival-001",
-      "name": "Object Raising with a To-Infinitival",
+      "name": "Object Raising with a <i>to</i>-Infinitival",
       "pattern": "VP[V + raised NPᵢ + to-infinitival with understood subjectᵢ]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/object-raising-infinitival-001/",
@@ -3320,7 +3320,7 @@
     },
     {
       "id": "of-genitive-own-001",
-      "name": "Of with a Genitive Pronoun and Own",
+      "name": "<i>X of one’s own</i>",
       "pattern": "NP[... N + PP[of + NP[dependent genitive pronoun + own]]]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/of-genitive-own-001/",
@@ -3333,7 +3333,7 @@
     },
     {
       "id": "only-if-restriction-001",
-      "name": "Necessary Condition Only If",
+      "name": "Necessary Condition <i>only if</i>",
       "pattern": "(main clause) + only if + finite clause",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/only-if-restriction-001/",
@@ -3359,7 +3359,7 @@
     },
     {
       "id": "open-let-imperative-001",
-      "name": "Open Let Imperative",
+      "name": "Open <i>let</i> Imperative",
       "pattern": "imperative let + non-inclusive NP + bare infinitival",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/open-let-imperative-001/",
@@ -3385,7 +3385,7 @@
     },
     {
       "id": "out-of-ing-causative-001",
-      "name": "Out-of Causative with an -ing Clause",
+      "name": "<i>out of</i> Causative with an <i>-ing</i> Clause",
       "pattern": "VP[Head:V + Od:NPᵢ + Comp:PP[out of + gerund-participial Clause with understood subjectᵢ]]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/out-of-ing-causative-001/",
@@ -3422,7 +3422,7 @@
     },
     {
       "id": "past-tense-ed-001",
-      "name": "Past Tense -ed",
+      "name": "Past Tense <i>-ed</i>",
       "pattern": "Verb stem + -ed/-d/-t (including allomorphs /d/, /t/, /ɪd/)",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/past-tense-ed-001/",
@@ -3473,7 +3473,7 @@
     },
     {
       "id": "perfect-have-001",
-      "name": "Perfect HAVE + V-en",
+      "name": "Perfect <i>have</i> + V-en",
       "pattern": "Aux HAVE + V-en",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/perfect-have-001/",
@@ -3486,7 +3486,7 @@
     },
     {
       "id": "personal-determiner-001",
-      "name": "Personal Determination with We or You",
+      "name": "Personal Determination with <i>we</i> or <i>you</i>",
       "pattern": "NP[we/us or you + plural nominal]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/personal-determiner-001/",
@@ -3510,7 +3510,7 @@
     },
     {
       "id": "plain-make-causative-001",
-      "name": "Make Causative with a Bare Infinitival",
+      "name": "<i>make</i> Causative with a Bare Infinitival",
       "pattern": "VP[make + NP + bare infinitival]; passive be made + to-infinitival",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/plain-make-causative-001/",
@@ -3536,7 +3536,7 @@
     },
     {
       "id": "plural-s-001",
-      "name": "Plural -s",
+      "name": "Plural <i>-s</i>",
       "pattern": "Common noun + -s/-es",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/plural-s-001/",
@@ -3574,7 +3574,7 @@
     },
     {
       "id": "positive-degree-partitive-more-001",
-      "name": "Comparative Quantification with More of",
+      "name": "Comparative Quantification with <i>more of</i>",
       "pattern": "NP[more + PP[of + domain expression]]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/positive-degree-partitive-more-001/",
@@ -3587,7 +3587,7 @@
     },
     {
       "id": "positive-paucal-a-001",
-      "name": "Positive Paucal A Few and A Little",
+      "name": "Positive Paucal <i>a few</i> and <i>a little</i>",
       "pattern": "NP[Det:a few + plural count nominal, or Det:a little + non-count nominal]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/positive-paucal-a-001/",
@@ -3600,7 +3600,7 @@
     },
     {
       "id": "possessive-relative-whose-001",
-      "name": "Genitive Whose Relative",
+      "name": "Genitive <i>whose</i> Relative",
       "pattern": "relative[NP[whose + Nom]ᵢ + clause with linked positionᵢ]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/possessive-relative-whose-001/",
@@ -3625,7 +3625,7 @@
     },
     {
       "id": "preference-would-rather-001",
-      "name": "Preference Would Rather",
+      "name": "Preference <i>would rather</i>",
       "pattern": "VP[would rather + plain infinitival or finite subordinate clause]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/preference-would-rather-001/",
@@ -3638,7 +3638,7 @@
     },
     {
       "id": "prenominal-all-the-001",
-      "name": "Predeterminer All before a Determined NP",
+      "name": "Predeterminer <i>all</i> before a Determined NP",
       "pattern": "NP[all + Det + Nom]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/prenominal-all-the-001/",
@@ -3761,7 +3761,7 @@
     },
     {
       "id": "presentational-there-001",
-      "name": "Presentational There with a Lexical Verb",
+      "name": "Presentational <i>there</i> with a Lexical Verb",
       "pattern": "Clause[dummy there + lexical V + postverbal NP]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/presentational-there-001/",
@@ -3785,7 +3785,7 @@
     },
     {
       "id": "primary-auxiliary-negation-001",
-      "name": "Finite Auxiliary with Not",
+      "name": "Finite Auxiliary with <i>not</i>",
       "pattern": "Clause[finite Aux + not + remaining predicate]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/primary-auxiliary-negation-001/",
@@ -3798,7 +3798,7 @@
     },
     {
       "id": "privative-less-001",
-      "name": "Privative Adjective in -Less",
+      "name": "Privative Adjective in <i>-less</i>",
       "pattern": "Adj[noun base + -less]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/privative-less-001/",
@@ -3811,7 +3811,7 @@
     },
     {
       "id": "pro-nominal-one-001",
-      "name": "Pro-Nominal One and Ones",
+      "name": "Pro-Nominal <i>one</i> and <i>ones</i>",
       "pattern": "Nom[one/ones as anaphoric head + optional nominal dependents]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/pro-nominal-one-001/",
@@ -3836,7 +3836,7 @@
     },
     {
       "id": "progressive-ing-001",
-      "name": "Progressive -ing",
+      "name": "Progressive <i>-ing</i>",
       "pattern": "Aux BE + V-ing",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/progressive-ing-001/",
@@ -3875,7 +3875,7 @@
     },
     {
       "id": "proposition-affirmation-001",
-      "name": "Proposition Affirmation with Fronted So",
+      "name": "Proposition Affirmation with Fronted <i>so</i>",
       "pattern": "Clause[so + Subject + finite auxiliary]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/proposition-affirmation-001/",
@@ -3911,7 +3911,7 @@
     },
     {
       "id": "quasi-modal-be-to-001",
-      "name": "Quasi-Modal Be To",
+      "name": "Quasi-Modal <i>be to</i>",
       "pattern": "VP[finite be + to-infinitival]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/quasi-modal-be-to-001/",
@@ -3949,7 +3949,7 @@
     },
     {
       "id": "re-iterative-prefix-001",
-      "name": "Iterative Re- on a Verb",
+      "name": "Iterative <i>re-</i> on a Verb",
       "pattern": "V[re- + suitable verbal base]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/re-iterative-prefix-001/",
@@ -3986,7 +3986,7 @@
     },
     {
       "id": "reciprocal-noun-with-001",
-      "name": "Reciprocal Predicative NP with a With-Phrase",
+      "name": "Reciprocal Predicative NP with a <i>with</i>-Phrase",
       "pattern": "PredComp:NP[N[pl] + PP[with + NP]], with the other participant supplied by the predicand",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/reciprocal-noun-with-001/",
@@ -3999,7 +3999,7 @@
     },
     {
       "id": "recurrent-progressive-always-001",
-      "name": "Recurrent Progressive with Always",
+      "name": "Recurrent Progressive with <i>always</i>",
       "pattern": "Clause[be + always + V-ing]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/recurrent-progressive-always-001/",
@@ -4037,7 +4037,7 @@
     },
     {
       "id": "relative-clausal-which-001",
-      "name": "Supplementary Which with a Clausal Anchor",
+      "name": "Supplementary <i>which</i> with a Clausal Anchor",
       "pattern": "Clause or larger discourse unit + supplement with relative which",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/relative-clausal-which-001/",
@@ -4074,7 +4074,7 @@
     },
     {
       "id": "response-obligation-ditransitive-001",
-      "name": "Double-Object Obligation with Owe",
+      "name": "Double-Object Obligation with <i>owe</i>",
       "pattern": "VP[owe + Oi:creditor/entitled participant + Od:outstanding thing]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/response-obligation-ditransitive-001/",
@@ -4137,7 +4137,7 @@
     },
     {
       "id": "same-as-comparison-001",
-      "name": "Identity Comparison with Same … As",
+      "name": "Identity Comparison with <i>same … as</i>",
       "pattern": "NP[the same + nominal] + as-standard",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/same-as-comparison-001/",
@@ -4150,7 +4150,7 @@
     },
     {
       "id": "scalar-challenge-call-001",
-      "name": "You Call That X Challenge",
+      "name": "<i>you call that X</i> Challenge",
       "pattern": "You call that (a) [N/PRED]?",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/scalar-challenge-call-001/",
@@ -4163,7 +4163,7 @@
     },
     {
       "id": "scalar-change-by-measure-001",
-      "name": "Differential By in Scalar Change",
+      "name": "Differential <i>by</i> in Scalar Change",
       "pattern": "VP[scalar-change V + PP[by + measure NP]]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/scalar-change-by-measure-001/",
@@ -4213,7 +4213,7 @@
     },
     {
       "id": "since-time-anchor-001",
-      "name": "Temporal Since with a Reference Anchor",
+      "name": "Temporal <i>since</i> with a Reference Anchor",
       "pattern": "PP[since + date/NP/finite clause] with a later reference time",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/since-time-anchor-001/",
@@ -4239,7 +4239,7 @@
     },
     {
       "id": "singular-anaphoric-they-001",
-      "name": "Singular Anaphoric They",
+      "name": "Singular Anaphoric <i>they</i>",
       "pattern": "anaphoric NP[they/them/their] with a singular referent or antecedent",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/singular-anaphoric-they-001/",
@@ -4252,7 +4252,7 @@
     },
     {
       "id": "so-degree-result-001",
-      "name": "Degree So with a Result Content Clause",
+      "name": "Degree <i>so</i> with a Result Content Clause",
       "pattern": "so + gradable expression + (that) content clause",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/so-degree-result-001/",
@@ -4265,7 +4265,7 @@
     },
     {
       "id": "so-neither-inversion-001",
-      "name": "Inverted Additive So and Neither",
+      "name": "Inverted Additive <i>so</i> and <i>neither</i>",
       "pattern": "Clause[so/neither/nor + finite Aux + Subject]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/so-neither-inversion-001/",
@@ -4278,7 +4278,7 @@
     },
     {
       "id": "so-nominal-predication-001",
-      "name": "Intensifying So with a Nominal",
+      "name": "Intensifying <i>so</i> with a Nominal",
       "pattern": "Clause[Subject:NP + be + PredComp:[stressed so + nominal expression]]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/so-nominal-predication-001/",
@@ -4290,7 +4290,7 @@
     },
     {
       "id": "some-n-or-other-001",
-      "name": "Some N or Other",
+      "name": "<i>some X or other</i>",
       "pattern": "NP[some + singular count Nom + or other]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/some-n-or-other-001/",
@@ -4339,7 +4339,7 @@
     },
     {
       "id": "still-yet-aspectual-001",
-      "name": "Aspectual Still and Negative Yet",
+      "name": "Aspectual <i>still</i> and Negative <i>yet</i>",
       "pattern": "clause with still or polarity-sensitive yet and a temporal reference point",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/still-yet-aspectual-001/",
@@ -4352,7 +4352,7 @@
     },
     {
       "id": "stressed-some-exclamative-001",
-      "name": "Exclamation with Stressed Some",
+      "name": "Exclamation with Stressed <i>some</i>",
       "pattern": "Exclamation with PredComp:NP[stressed SOME + Nom]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/stressed-some-exclamative-001/",
@@ -4389,7 +4389,7 @@
     },
     {
       "id": "subject-control-infinitival-001",
-      "name": "Subject Control in a To-Infinitival Complement",
+      "name": "Subject Control in a <i>to</i>-Infinitival Complement",
       "pattern": "Clause[Subject NPᵢ + V + to-infinitival with understood subjectᵢ]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/subject-control-infinitival-001/",
@@ -4474,7 +4474,7 @@
     },
     {
       "id": "such-as-exemplification-001",
-      "name": "Exemplifying Such As",
+      "name": "Exemplifying <i>such as</i>",
       "pattern": "Nom or NP + such as + example XP or coordination",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/such-as-exemplification-001/",
@@ -4487,7 +4487,7 @@
     },
     {
       "id": "such-nominal-result-001",
-      "name": "Degree Such with Nominal and Result Clause",
+      "name": "Degree <i>such</i> with Nominal and Result Clause",
       "pattern": "such + nominal expression + (that) content clause",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/such-nominal-result-001/",
@@ -4500,7 +4500,7 @@
     },
     {
       "id": "sufficiency-provided-that-001",
-      "name": "Conditional Provided That",
+      "name": "Conditional <i>provided that</i>",
       "pattern": "conditional PP[provided (that) + finite clause]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/sufficiency-provided-that-001/",
@@ -4589,7 +4589,7 @@
     },
     {
       "id": "than-reduced-clause-001",
-      "name": "Reduced Than Comparative Clause",
+      "name": "Reduced <i>than</i> Comparative Clause",
       "pattern": "comparative governor + than + finite clause with constructionally unexpressed element",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/than-reduced-clause-001/",
@@ -4601,7 +4601,7 @@
     },
     {
       "id": "the-adjective-np-001",
-      "name": "Special Fused-Head NP with The and an Adjective",
+      "name": "Special Fused-Head NP with <i>the</i> and an Adjective",
       "pattern": "NP[Det:the + fused Modifier–Head:AdjP]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/the-adjective-np-001/",
@@ -4613,7 +4613,7 @@
     },
     {
       "id": "time-away-001",
-      "name": "Time-Away Construction",
+      "name": "Time-<i>away</i> Construction",
       "pattern": "Head:V[activity construal] + Od:NP[time-period] + Comp:PP[particle, Head:P[away]]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/time-away-001/",
@@ -4626,7 +4626,7 @@
     },
     {
       "id": "time-measure-ago-001",
-      "name": "Measure before Ago",
+      "name": "Measure before <i>ago</i>",
       "pattern": "PP[measure NP + ago]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/time-measure-ago-001/",
@@ -4651,7 +4651,7 @@
     },
     {
       "id": "too-degree-infinitival-001",
-      "name": "Excess Degree Too with an Infinitival",
+      "name": "Excess Degree <i>too</i> with an Infinitival",
       "pattern": "AdjP/AdvP[too + gradable head + to-infinitival]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/too-degree-infinitival-001/",
@@ -4664,7 +4664,7 @@
     },
     {
       "id": "transitive-to-recipient-001",
-      "name": "Monotransitive Transfer with To",
+      "name": "Monotransitive Transfer with <i>to</i>",
       "pattern": "VP[Head:V + Theme NP + PP[to + recipient NP]]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/transitive-to-recipient-001/",
@@ -4677,7 +4677,7 @@
     },
     {
       "id": "true-partitive-001",
-      "name": "True Partitive with Of",
+      "name": "True Partitive with <i>of</i>",
       "pattern": "NP[quantificational head or fused head + PP[of + definite/domain-establishing NP]]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/true-partitive-001/",
@@ -4702,7 +4702,7 @@
     },
     {
       "id": "unless-exceptive-conditional-001",
-      "name": "Exceptive Conditional Unless",
+      "name": "Exceptive Conditional <i>unless</i>",
       "pattern": "PP[unless + finite clause]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/unless-exceptive-conditional-001/",
@@ -4727,7 +4727,7 @@
     },
     {
       "id": "until-time-boundary-001",
-      "name": "Temporal Until with an Endpoint",
+      "name": "Temporal <i>until</i> with an Endpoint",
       "pattern": "PP[until + date/NP/finite clause]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/until-time-boundary-001/",
@@ -4791,7 +4791,7 @@
     },
     {
       "id": "way-motion-001",
-      "name": "Way-Motion Construction",
+      "name": "<i>way</i>-Motion Construction",
       "pattern": "Head:V + Od:NP[x's way] + Comp:PP[locative, path/goal/direction]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/way-motion-001/",
@@ -4816,7 +4816,7 @@
     },
     {
       "id": "what-about-topic-001",
-      "name": "Topic Proposal with What About",
+      "name": "Topic Proposal with <i>what about</i>",
       "pattern": "what about + NP or gerund-participial expression",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/what-about-topic-001/",
@@ -4829,7 +4829,7 @@
     },
     {
       "id": "what-if-scenario-001",
-      "name": "Deliberative What If",
+      "name": "Deliberative <i>what if</i>",
       "pattern": "what if + finite clause",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/what-if-scenario-001/",
@@ -4842,7 +4842,7 @@
     },
     {
       "id": "what-np-exclamative-001",
-      "name": "Phrasal Exclamation with What",
+      "name": "Phrasal Exclamation with <i>what</i>",
       "pattern": "independent NP[exclamative what + optional a/an + Nom]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/what-np-exclamative-001/",
@@ -4855,7 +4855,7 @@
     },
     {
       "id": "what-with-circumstantial-001",
-      "name": "What With Circumstantial Adjunct",
+      "name": "<i>what with</i> Circumstantial Adjunct",
       "pattern": "adjunct[what with + NP, non-finite or verbless predication, or coordination]",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/what-with-circumstantial-001/",
@@ -4867,7 +4867,7 @@
     },
     {
       "id": "why-not-proposal-001",
-      "name": "Deliberative Why Not with a Bare Infinitival",
+      "name": "Deliberative <i>why not</i> with a Bare Infinitival",
       "pattern": "why not + plain verbal predicate",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/why-not-proposal-001/",
@@ -4880,7 +4880,7 @@
     },
     {
       "id": "with-a-capital-letter-001",
-      "name": "With a Capital Letter Construction",
+      "name": "<i>X with a capital Y</i> Construction",
       "pattern": "with + a + capital + Letter-name",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/with-a-capital-letter-001/",
@@ -4892,7 +4892,7 @@
     },
     {
       "id": "with-a-lowercase-letter-001",
-      "name": "With a Lowercase Letter Construction",
+      "name": "<i>X with a lowercase Y</i> Construction",
       "pattern": "with + a + lowercase + Letter-name",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/with-a-lowercase-letter-001/",
@@ -4904,7 +4904,7 @@
     },
     {
       "id": "with-a-small-letter-001",
-      "name": "With a Small Letter Construction",
+      "name": "<i>X with a small Y</i> Construction",
       "pattern": "with + a + small + Letter-name",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/with-a-small-letter-001/",
@@ -4917,7 +4917,7 @@
     },
     {
       "id": "with-an-uppercase-letter-001",
-      "name": "With an Uppercase Letter Construction",
+      "name": "<i>X with an uppercase Y</i> Construction",
       "pattern": "with + an + uppercase + Letter-name",
       "urls": {
         "curious": "https://brettreynolds.ca/constructionary/with-an-uppercase-letter-001/",

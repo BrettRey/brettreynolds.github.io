@@ -1,6 +1,6 @@
 {
   "id": "numerative-teen-001",
-  "name": "Regular Teen Numerative (-teen)",
+  "name": "Regular Teen Numerative (<i>-teen</i>)",
   "pattern": "Det[teen]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/numerative-teen-001/",
@@ -10,18 +10,18 @@
   },
   "entry": {
     "id": "numerative-teen-001",
-    "name": "Regular Teen Numerative (-teen)",
+    "name": "Regular Teen Numerative (<i>-teen</i>)",
     "pattern": "Det[teen]",
     "type": "morphological",
     "dimensions": {
-      "form": "Single-digit base + -teen suffix (thirteen through nineteen)",
+      "form": "Single-digit base + <i>-teen</i> suffix (<i>thirteen</i> through <i>nineteen</i>)",
       "meaning": "Specifies cardinality from thirteen to nineteen",
       "function": "Same distribution as single-digit numeratives",
       "distribution": "Determiner, factor, addition; lexically atomic"
     },
     "meanings": {
       "1": {
-        "definition": "Specifies a cardinality from thirteen to nineteen via -teen morphology",
+        "definition": "Specifies a cardinality from thirteen to nineteen via <i>-teen</i> morphology",
         "examples": [
           {
             "form": "thirteen",
@@ -72,7 +72,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The -teen word form gives a value ten greater than the base related to it. The same base element can give a different value with -ty, as thirteen versus thirty shows. The two endings do not have the same lexical or prosodic distribution.",
+        "target": "The <i>-teen</i> word form gives a value ten greater than the base related to it. The same base element can give a different value with <i>-ty</i>, as <i>thirteen</i> versus <i>thirty</i> shows. The two endings do not have the same lexical or prosodic distribution.",
         "evidence": "CGEL separates the teen and decade formations. Reynolds counts both among the basic lexemes.",
         "confidence": "medium"
       }
@@ -80,9 +80,9 @@
   },
   "editions": {
     "curious": {
-      "title": "Thirteen to nineteen",
-      "summary": "The numbers from thirteen to nineteen are built from a single-digit word plus -teen.",
-      "body": "Thirteen through nineteen are formed by adding -teen to a single-digit word. The -teen word has a value ten greater than the base it comes from, so thirteen is ten more than three.\n\nThe ending -ty works differently: the same base gives a different value, as thirteen and thirty show. The two endings also don't have the same distribution as words. Once built, a -teen word acts as one unit and can do the same jobs as a single-digit number.",
+      "title": "<i>Thirteen</i> to <i>nineteen</i>",
+      "summary": "The numbers from thirteen to nineteen are built from a single-digit word plus <i>-teen</i>.",
+      "body": "<i>Thirteen</i> through <i>nineteen</i> are formed by adding <i>-teen</i> to a single-digit word. The <i>-teen</i> word has a value ten greater than the base it comes from, so <i>thirteen</i> is ten more than three.\n\nThe ending <i>-ty</i> works differently: the same base gives a different value, as <i>thirteen</i> and <i>thirty</i> show. The two endings also don't have the same distribution as words. Once built, a <i>-teen</i> word acts as one unit and can do the same jobs as a single-digit number.",
       "examples": [
         {
           "text": "[thirteen]",
@@ -97,11 +97,11 @@
           "from": "constructed"
         }
       ],
-      "try": "Say thirteen and thirty. What differs in the sound, and what differs in the amount?"
+      "try": "Say <i>thirteen</i> and <i>thirty</i>. What differs in the sound, and what differs in the amount?"
     },
     "teacher": {
-      "summary": "Explains the -teen numbers from thirteen to nineteen and how they differ from the -ty numbers.",
-      "explain": "The regular teen numeratives are formed from a single-digit base plus -teen and specify cardinalities from thirteen to nineteen. They're lexically atomic and have the same distribution as single-digit numeratives: determiner, factor and addition. The -teen form is ten greater than its base, while -ty gives a different value from the same base, as thirteen versus thirty shows. CGEL separates the teen and decade formations, and the two endings differ in lexical and prosodic distribution. Eleven and twelve are treated in a separate entry. This dictionary marks the analysis as provisional.",
+      "summary": "Explains the <i>-teen</i> numbers from thirteen to nineteen and how they differ from the <i>-ty</i> numbers.",
+      "explain": "The regular teen numeratives are formed from a single-digit base plus <i>-teen</i> and specify cardinalities from thirteen to nineteen. They're lexically atomic and have the same distribution as single-digit numeratives: determiner, factor and addition. The <i>-teen</i> form is ten greater than its base, while <i>-ty</i> gives a different value from the same base, as <i>thirteen</i> versus <i>thirty</i> shows. CGEL separates the teen and decade formations, and the two endings differ in lexical and prosodic distribution. Eleven and twelve are treated in a separate entry. This dictionary marks the analysis as provisional.",
       "terms": "Teens is the traditional name for these numbers. This dictionary calls them teen numeratives and treats each as a single word.",
       "examples": [
         {
@@ -117,23 +117,23 @@
         {
           "text": "[thirteen] books",
           "from": "constructed",
-          "note": "-teen, ten greater than the base three."
+          "note": "<i>-teen</i>, ten greater than the base three."
         },
         {
           "text": "[thirty] books",
           "from": "constructed",
-          "note": "-ty, a different value from the same base."
+          "note": "<i>-ty</i>, a different value from the same base."
         }
       ],
       "watch_for": [
-        "A learner might confuse thirteen and thirty, which have different values.",
-        "A learner might treat thirteen as two separate words, when it works as one unit."
+        "A learner might confuse <i>thirteen</i> and <i>thirty</i>, which have different values.",
+        "A learner might treat <i>thirteen</i> as two separate words, when it works as one unit."
       ],
-      "activity": "Students pair -teen and -ty words (thirteen and thirty, for example) and say each in a short sentence about a quantity, noting how the endings differ in sound."
+      "activity": "Students pair <i>-teen</i> and <i>-ty</i> words (<i>thirteen</i> and <i>thirty</i>, for example) and say each in a short sentence about a quantity, noting how the endings differ in sound."
     },
     "child": {
-      "hook": "What is the difference between thirteen and thirty?",
-      "explain": "Thirteen ends in teen and is ten more than three. Thirty ends in ty and is a different amount. Both start from the same word.",
+      "hook": "What is the difference between <i>thirteen</i> and <i>thirty</i>?",
+      "explain": "<i>Thirteen</i> ends in <i>teen</i> and is ten more than three. <i>Thirty</i> ends in <i>ty</i> and is a different amount. Both start from the same word.",
       "examples": [
         {
           "text": "She has [thirteen] marbles.",
@@ -144,7 +144,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Say two number words that end in teen and two that end in ty. Can your friend hear the difference? Make a sentence with each."
+      "play": "Say two number words that end in <i>teen</i> and two that end in <i>ty</i>. Can your friend hear the difference? Make a sentence with each."
     }
   },
   "status": {
@@ -165,10 +165,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Regular Teen Numerative (-teen).\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/numerative-teen-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Regular Teen Numerative (<i>-teen</i>).\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/numerative-teen-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

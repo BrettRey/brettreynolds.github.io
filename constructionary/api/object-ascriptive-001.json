@@ -15,11 +15,11 @@
     "meanings": {
       "1": {
         "definition": "Ascribes a property or status to the object referent.",
-        "details": "In considered him a fool, the NP a fool describes him. The predicative does not add another participant or require a change of state. Passivizing can make the original object the subject while retaining its status as the referent described by the predicative.",
+        "details": "In <i>considered him a fool</i>, the NP <i>a fool</i> describes him. The predicative does not add another participant or require a change of state. Passivizing can make the original object the subject while retaining its status as the referent described by the predicative.",
         "examples": [
           {
             "form": "She [considered him a fool].",
-            "note": "The predicative NP describes the person referred to by him.",
+            "note": "The predicative NP describes the person referred to by <i>him</i>.",
             "grounds": [
               {
                 "source": "cgel-2002",
@@ -72,7 +72,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The predicative remains oriented to the original object under passivization. With consider, the sentence does not present the object as undergoing a change.",
+        "target": "The predicative remains oriented to the original object under passivization. With <i>consider</i>, the sentence does not present the object as undergoing a change.",
         "evidence": "CASA distinguishes NP and adjective realizations. CGEL treats them as predicative complements with the object as their predicand.",
         "confidence": "high"
       }
@@ -82,7 +82,7 @@
     "curious": {
       "title": "Describing the person or thing after the verb",
       "summary": "In some sentences the phrase after the object describes it, and isn't a second object.",
-      "body": "In She considered him a fool, the phrase a fool doesn't name another person. It describes him. The sentence ascribes a property or status to the person referred to by him.\n\nNothing has to change for this to work: considering someone a fool doesn't present them as becoming one. The description stays attached to him even when the sentence is turned around, as in He was considered unreliable. This dictionary separates this pattern from sentences with two objects, such as handing someone a gift.",
+      "body": "In <i>She considered him a fool</i>, the phrase <i>a fool</i> doesn't name another person. It describes him. The sentence ascribes a property or status to the person referred to by <i>him</i>.\n\nNothing has to change for this to work: considering someone a fool doesn't present them as becoming one. The description stays attached to him even when the sentence is turned around, as in <i>He was considered unreliable</i>. This dictionary separates this pattern from sentences with two objects, such as handing someone a gift.",
       "examples": [
         {
           "text": "She [considered him a fool].",
@@ -93,11 +93,11 @@
           "from": "entry"
         }
       ],
-      "try": "Say She considered him a fool. Who does a fool describe?"
+      "try": "Say <i>She considered him a fool</i>. Who does <i>a fool</i> describe?"
     },
     "teacher": {
       "summary": "Separates an object plus a describing phrase from two objects, and from a result.",
-      "explain": "The pattern is a verb, a direct object and a predicative complement (an NP or AdjP) that describes the object: in considered him a fool, a fool describes him. The predicative adds no participant and doesn't require a change of state. In the passive, the original object becomes the subject and the predicative still describes the same referent (He was considered unreliable). It contrasts with the double-object pattern, where two NPs are separate objects, and with the resultative, which presents the property as the result of the event. This dictionary marks the analysis as provisional.",
+      "explain": "The pattern is a verb, a direct object and a predicative complement (an NP or AdjP) that describes the object: in <i>considered him a fool</i>, <i>a fool</i> describes him. The predicative adds no participant and doesn't require a change of state. In the passive, the original object becomes the subject and the predicative still describes the same referent (<i>He was considered unreliable</i>). It contrasts with the double-object pattern, where two NPs are separate objects, and with the resultative, which presents the property as the result of the event. This dictionary marks the analysis as provisional.",
       "terms": "The predicative here is sometimes called an object complement. This dictionary's term is predicative complement, with the object as its predicand.",
       "examples": [
         {
@@ -113,7 +113,7 @@
         {
           "text": "She considered him a fool.",
           "from": "entry",
-          "note": "A fool describes him, so there's one object plus a predicative."
+          "note": "<i>A fool</i> describes him, so there's one object plus a predicative."
         },
         {
           "text": "She gave him a book.",
@@ -127,8 +127,8 @@
         }
       ],
       "watch_for": [
-        "A learner might read the two NPs in considered him a fool as two objects, when a fool describes him.",
-        "A learner might expect considered unreliable to mean the person changed, when the pattern doesn't require a change of state."
+        "A learner might read the two NPs in <i>considered him a fool</i> as two objects, when <i>a fool</i> describes him.",
+        "A learner might expect <i>considered unreliable</i> to mean the person changed, when the pattern doesn't require a change of state."
       ],
       "activity": "Give students sentences with two phrases after the verb. They decide whether the second phrase describes the first phrase or is a second object, and explain how they know."
     }
@@ -151,10 +151,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Object-Oriented Ascriptive Predicative.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/object-ascriptive-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Object-Oriented Ascriptive Predicative.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/object-ascriptive-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

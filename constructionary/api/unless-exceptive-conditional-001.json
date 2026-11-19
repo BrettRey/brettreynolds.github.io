@@ -1,6 +1,6 @@
 {
   "id": "unless-exceptive-conditional-001",
-  "name": "Exceptive Conditional Unless",
+  "name": "Exceptive Conditional <i>unless</i>",
   "pattern": "PP[unless + finite clause]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/unless-exceptive-conditional-001/",
@@ -10,7 +10,7 @@
   },
   "entry": {
     "id": "unless-exceptive-conditional-001",
-    "name": "Exceptive Conditional Unless",
+    "name": "Exceptive Conditional <i>unless</i>",
     "pattern": "PP[unless + finite clause]",
     "type": "mixed",
     "meanings": {
@@ -54,9 +54,9 @@
   },
   "editions": {
     "curious": {
-      "title": "Unless as an exception",
+      "title": "<i>Unless</i> as an exception",
       "summary": "A phrase starting with unless presents a condition as an exception to the main claim.",
-      "body": "In The door will stay locked unless Lee comes back, the part with unless presents a condition as the exception. Outside the cases in which Lee comes back, the door remains locked.\n\nThe sentence doesn't need to say what happens if Lee does return. It only tells us what to expect in the ordinary case, and flags the exception.\n\nThe dictionary marks this account as provisional.",
+      "body": "In <i>The door will stay locked unless Lee comes back</i>, the part with <i>unless</i> presents a condition as the exception. Outside the cases in which Lee comes back, the door remains locked.\n\nThe sentence doesn't need to say what happens if Lee does return. It only tells us what to expect in the ordinary case, and flags the exception.\n\nThe dictionary marks this account as provisional.",
       "examples": [
         {
           "text": "The door will stay locked [unless Lee comes back].",
@@ -67,12 +67,12 @@
           "from": "constructed"
         }
       ],
-      "try": "Say what you expect to happen on Saturday, then add an unless part naming an exception."
+      "try": "Say what you expect to happen on Saturday, then add an <i>unless</i> part naming an exception."
     },
     "teacher": {
-      "summary": "Helps explain unless as marking the exception to the main claim.",
-      "explain": "The pattern is a prepositional phrase headed by unless plus a finite clause. It presents the condition as an exception to the main claim. In The door will stay locked unless Lee comes back, the door remains locked outside cases in which Lee comes back, and the sentence need not determine what happens if Lee does return. This dictionary marks its analysis as provisional and relates it to the if-conditional. Teach it as an exception marker with its own meaning, and compare it with if.",
-      "terms": "Unless is a preposition here.",
+      "summary": "Helps explain <i>unless</i> as marking the exception to the main claim.",
+      "explain": "The pattern is a prepositional phrase headed by <i>unless</i> plus a finite clause. It presents the condition as an exception to the main claim. In <i>The door will stay locked unless Lee comes back</i>, the door remains locked outside cases in which Lee comes back, and the sentence need not determine what happens if Lee does return. This dictionary marks its analysis as provisional and relates it to the <i>if</i>-conditional. Teach it as an exception marker with its own meaning, and compare it with <i>if</i>.",
+      "terms": "<i>Unless</i> is a preposition here.",
       "examples": [
         {
           "text": "The door will stay locked [unless Lee comes back].",
@@ -92,13 +92,13 @@
       ],
       "watch_for": [
         "A learner might think the sentence says what happens when Lee does return, though this dictionary says it need not.",
-        "A learner might treat unless as a plain synonym of if not."
+        "A learner might treat <i>unless</i> as a plain synonym of <i>if not</i>."
       ],
-      "activity": "Students write a rule for the classroom with unless, then swap and identify the exception in each other's rule."
+      "activity": "Students write a rule for the classroom with <i>unless</i>, then swap and identify the exception in each other's rule."
     },
     "child": {
       "hook": "What could change your plan?",
-      "explain": "The word unless names an exception. We'll eat outside unless it rains. Rain is the exception.",
+      "explain": "The word <i>unless</i> names an exception. <i>We'll eat outside unless it rains</i>. Rain is the exception.",
       "examples": [
         {
           "text": "We'll eat outside [unless it rains].",
@@ -109,7 +109,7 @@
           "from": "entry"
         }
       ],
-      "play": "Say a plan, then add unless and an exception. Take turns, and make the exceptions silly but possible."
+      "play": "Say a plan, then add <i>unless</i> and an exception. Take turns, and make the exceptions silly but possible."
     }
   },
   "status": {
@@ -131,10 +131,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Exceptive Conditional Unless.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/unless-exceptive-conditional-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Exceptive Conditional <i>unless</i>.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/unless-exceptive-conditional-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

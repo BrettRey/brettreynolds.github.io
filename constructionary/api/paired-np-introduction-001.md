@@ -4,7 +4,7 @@
 - pattern: Vocative:NP + pause + NP[name or definite description]
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/paired-np-introduction-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
@@ -37,9 +37,9 @@ In an introduction context, the first NP sets the addressee and the second ident
 
 Saying someone's name, pausing, then naming or describing someone else can introduce that second person or thing to the first.
 
-A volunteer at an animal shelter says Alex, Teacup. Alex is the person being spoken to, and Teacup is the kitten being pointed out. A pause separates the two phrases, and pointing or looking helps show who's being introduced.
+A volunteer at an animal shelter says *Alex, Teacup*. Alex is the person being spoken to, and Teacup is the kitten being pointed out. A pause separates the two phrases, and pointing or looking helps show who's being introduced.
 
-There's no verb, and none is needed. The second phrase can be a name, as in Elise, Casey, or a description, as in Alex, the new vet. This dictionary describes the first phrase as addressing someone and the second as identifying who is being introduced.
+There's no verb, and none is needed. The second phrase can be a name, as in *Elise, Casey*, or a description, as in *Alex, the new vet*. This dictionary describes the first phrase as addressing someone and the second as identifying who is being introduced.
 
 ### Teacher
 

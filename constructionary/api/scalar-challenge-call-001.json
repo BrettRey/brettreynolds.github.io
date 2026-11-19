@@ -1,6 +1,6 @@
 {
   "id": "scalar-challenge-call-001",
-  "name": "You Call That X Challenge",
+  "name": "<i>you call that X</i> Challenge",
   "pattern": "You call that (a) [N/PRED]?",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/scalar-challenge-call-001/",
@@ -10,13 +10,13 @@
   },
   "entry": {
     "id": "scalar-challenge-call-001",
-    "name": "You Call That X Challenge",
+    "name": "<i>you call that X</i> Challenge",
     "pattern": "You call that (a) [N/PRED]?",
     "type": "mixed",
     "meanings": {
       "1": {
         "definition": "Challenges the appropriateness of a category label in a dismissive or corrective context",
-        "details": "Challenges category membership rather than scalar degree (though the two are related via prototype structure). Implies \"that doesn't deserve the label X\" or \"let me show you what X really is.\" A speaker can reject the label without offering a replacement exemplar. A literal inquiry about what to call an object is also possible.",
+        "details": "Challenges category membership rather than scalar degree (though the two are related via prototype structure). Implies \"that doesn't deserve the label <i>X</i>\" or \"let me show you what <i>X</i> really is.\" A speaker can reject the label without offering a replacement exemplar. A literal inquiry about what to call an object is also possible.",
         "examples": [
           {
             "form": "[You call that a sandwich]? It's just bread with lettuce.",
@@ -40,7 +40,7 @@
     "constraints": [
       {
         "type": "syntactic",
-        "description": "Declarative clause with 2nd person subject and \"call\" as main verb; typically layered with the declarative-question construction"
+        "description": "Declarative clause with 2nd person subject and \"<i>call</i>\" as main verb; typically layered with the declarative-question construction"
       },
       {
         "type": "semantic",
@@ -85,7 +85,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Keeping the wording You call that a repair? fixed, dismissive intonation and a visibly broken object invite a challenge to repair. In a cooperative question about terminology, the wording can instead check what label the addressee uses.",
+        "target": "Keeping the wording <i>You call that a repair?</i> fixed, dismissive intonation and a visibly broken object invite a challenge to repair. In a cooperative question about terminology, the wording can instead check what label the addressee uses.",
         "evidence": "The source describes the surrounding question architecture. The proposed challenge reading is illustrated by a constructed contextual contrast and its conventionality remains open.",
         "confidence": "medium"
       }
@@ -94,8 +94,8 @@
   "editions": {
     "curious": {
       "title": "Doubting that something deserves its name",
-      "summary": "You call that a sandwich? can say the thing doesn't deserve the label, rather than ask what to call it.",
-      "body": "When someone says You call that a sandwich? with a dismissive tone, they're saying the thing doesn't deserve the name. It's just bread with lettuce.\n\nThe same words can also be a plain question, if someone really wants to know what label you use. A dismissive tone and a visibly poor example point to the challenge. This dictionary marks the analysis as provisional and treats the challenge reading as a proposal whose status as a settled convention remains open.",
+      "summary": "<i>You call that a sandwich?</i> can say the thing doesn't deserve the label, rather than ask what to call it.",
+      "body": "When someone says <i>You call that a sandwich?</i> with a dismissive tone, they're saying the thing doesn't deserve the name. It's just bread with lettuce.\n\nThe same words can also be a plain question, if someone really wants to know what label you use. A dismissive tone and a visibly poor example point to the challenge. This dictionary marks the analysis as provisional and treats the challenge reading as a proposal whose status as a settled convention remains open.",
       "examples": [
         {
           "text": "[You call that a sandwich]? It's just bread with lettuce.",
@@ -114,11 +114,11 @@
           "from": "entry"
         }
       ],
-      "try": "Think of something that barely deserves its name. Challenge it with You call that ...? and say what's missing."
+      "try": "Think of something that barely deserves its name. Challenge it with <i>You call that ...?</i> and say what's missing."
     },
     "teacher": {
       "summary": "Helps explain a dismissive question that challenges whether a label fits.",
-      "explain": "The frame You call that (a) N/PRED? has a declarative clause with a second person subject and call as the main verb, and its complement is a category label (a noun or a predicative expression). It challenges whether the label is appropriate: that doesn't deserve the label X. It challenges category membership, not scalar degree, though the two are related. The speaker can reject the label without offering a replacement. A literal inquiry about what to call an object is also possible, so tone and context decide. Question prosody is typically layered onto the declarative frame. This dictionary marks the analysis as provisional.",
+      "explain": "The frame <i>You call that (a) N/PRED?</i> has a declarative clause with a second person subject and <i>call</i> as the main verb, and its complement is a category label (a noun or a predicative expression). It challenges whether the label is appropriate: that doesn't deserve the label <i>X</i>. It challenges category membership, not scalar degree, though the two are related. The speaker can reject the label without offering a replacement. A literal inquiry about what to call an object is also possible, so tone and context decide. Question prosody is typically layered onto the declarative frame. This dictionary marks the analysis as provisional.",
       "terms": "In this dictionary it overlaps in function with declarative scalar recalibration, which targets degree rather than category membership.",
       "examples": [
         {
@@ -135,14 +135,14 @@
         }
       ],
       "watch_for": [
-        "A learner might answer You call that a sandwich? as a vocabulary question, when it can be a challenge.",
+        "A learner might answer <i>You call that a sandwich?</i> as a vocabulary question, when it can be a challenge.",
         "A learner might miss the dismissive tone that signals a challenge rather than a cooperative question about words."
       ],
-      "activity": "Show pictures of poor examples (a plain piece of bread as a sandwich). Students say You call that a ...? in a dismissive voice, then in a curious voice, and the class says which reading each one gave."
+      "activity": "Show pictures of poor examples (a plain piece of bread as a sandwich). Students say <i>You call that a ...?</i> in a dismissive voice, then in a curious voice, and the class says which reading each one gave."
     },
     "child": {
       "hook": "What do you say when someone calls something by a grand name it doesn't deserve?",
-      "explain": "You call that a sandwich? can say the thing is not good enough to have that name, instead of asking about the word. The tone of voice helps.",
+      "explain": "<i>You call that a sandwich?</i> can say the thing is not good enough to have that name, instead of asking about the word. The tone of voice helps.",
       "examples": [
         {
           "text": "[You call that a sandwich]? It's just bread with lettuce.",
@@ -153,7 +153,7 @@
           "from": "entry"
         }
       ],
-      "play": "Pick something that's not a good example of its name. Say You call that ...? in a surprised voice and add one reason."
+      "play": "Pick something that's not a good example of its name. Say <i>You call that ...?</i> in a surprised voice and add one reason."
     }
   },
   "status": {
@@ -175,10 +175,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"You Call That X Challenge.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/scalar-challenge-call-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"<i>you call that X</i> Challenge.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/scalar-challenge-call-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

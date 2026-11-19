@@ -4,7 +4,7 @@
 - pattern: Determiner function in NP
 - status: provisional analysis; evidence level: stable
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/determination-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
@@ -40,9 +40,9 @@ Realized by basic determiners (determinatives), subject-determiners (genitive NP
 - Compare: Fractional Noun (`numerative-fractional-001`)
 - Compare: Magnitude Head Numerative (`numerative-magnitude-head-001`)
 - Compare: Single-digit Numerative (`numerative-single-digit-001`)
-- Compare: Regular Teen Numerative (-teen) (`numerative-teen-001`)
-- Compare: Irregular Teen Numerative (eleven/twelve) (`numerative-teen-irregular-001`)
-- Compare: Ten Numerative (`numerative-ten-001`)
+- Compare: Regular Teen Numerative (*-teen*) (`numerative-teen-001`)
+- Compare: Irregular Teen Numerative (*eleven*/*twelve*) (`numerative-teen-irregular-001`)
+- Compare: *ten* Numerative (`numerative-ten-001`)
 - Kinds of this: Subject-determiner (Genitive NP) (`subject-determiner-001`)
 
 ## Sources
@@ -51,7 +51,7 @@ Realized by basic determiners (determinatives), subject-determiners (genitive NP
 
 ## Projection
 
-The slot can be filled by the DP this or by a genitive NP such as Jo’s. The relation holds in this book and Jo’s book though the dependent belongs to a different category.
+The slot can be filled by the DP *this* or by a genitive NP such as *Jo’s*. The relation holds in *this book* and *Jo’s book* though the dependent belongs to a different category.
 
 ## Reader editions (draft, AI-assisted, unreviewed; the linguist entry is the reference)
 
@@ -59,9 +59,9 @@ The slot can be filled by the DP this or by a genitive NP such as Jo’s. The re
 
 A noun phrase can start with a small word or phrase that marks it as a complete phrase and signals whether we mean a particular thing or not.
 
-In the new car and one new car, the first word does a job: it marks the phrase as a full noun phrase and tells us whether the car is a definite one or an indefinite one. That job is called determiner.
+In *the new car* and *one new car*, the first word does a job: it marks the phrase as a full noun phrase and tells us whether the car is a definite one or an indefinite one. That job is called determiner.
 
-Several kinds of expression can do it. There are small words like the and one, a name with 's added, as in Ally's new car, and in a few frames a whole phrase, as in what size hat or over 20 times. The job is the same each time even though the expression filling it differs.
+Several kinds of expression can do it. There are small words like *the* and *one*, a name with *'s* added, as in *Ally's new car*, and in a few frames a whole phrase, as in *what size hat* or *over 20 times*. The job is the same each time even though the expression filling it differs.
 
 Plural and non-count nouns can go without one, but a singular count noun generally needs one.
 
@@ -69,4 +69,4 @@ Plural and non-count nouns can go without one, but a singular count noun general
 
 Helps explain that determiner is a function in the noun phrase, filled by several kinds of expression, not only by the and a.
 
-In this grammar determiner is a function, a function in the NP that licenses a nominal as an NP and marks it for definiteness or indefiniteness. Determinative is the word category. The slot is filled by determinatives (the, one), by genitive NPs (Ally's), and, in a limited set of cases, by plain-case NPs or PPs (what size, over 20). This dictionary says singular count nominals generally need determination, while bare plural and non-count nominals can be determinerless, and a small set of bare singular count frames is licensed. The analysis is marked provisional, and this dictionary notes that weak definites (go to the hospital) and proper names complicate the link between determiner marking and semantic definiteness.
+In this grammar determiner is a function, a function in the NP that licenses a nominal as an NP and marks it for definiteness or indefiniteness. Determinative is the word category. The slot is filled by determinatives (*the*, *one*), by genitive NPs (*Ally's*), and, in a limited set of cases, by plain-case NPs or PPs (*what size*, *over 20*). This dictionary says singular count nominals generally need determination, while bare plural and non-count nominals can be determinerless, and a small set of bare singular count frames is licensed. The analysis is marked provisional, and this dictionary notes that weak definites (*go to the hospital*) and proper names complicate the link between determiner marking and semantic definiteness.

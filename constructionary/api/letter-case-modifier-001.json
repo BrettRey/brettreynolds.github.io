@@ -21,7 +21,7 @@
     "meanings": {
       "1": {
         "implements": "letter-case-specification-001.1",
-        "specialization": "Encodes letter-case as a premodifier (small-c, big-D), specifying the intended interpretive status.",
+        "specialization": "Encodes letter-case as a premodifier (<i>small-c</i>, <i>big-D</i>), specifying the intended interpretive status.",
         "examples": [
           {
             "form": "He's a [small-c] catholic.",
@@ -66,17 +66,17 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The compact modifier big-D in a big-D Democrat can disambiguate the label before its head. The full PP with a capital D can follow the label and express an equivalent literal contrast.",
-        "evidence": "The lexical meanings of capital and small supply the comparison. The position and interpretation contrast uses constructed forms rather than claims about regional frequencies.",
+        "target": "The compact modifier <i>big-D</i> in <i>a big-D Democrat</i> can disambiguate the label before its head. The full PP <i>with a capital D</i> can follow the label and express an equivalent literal contrast.",
+        "evidence": "The lexical meanings of <i>capital</i> and <i>small</i> supply the comparison. The position and interpretation contrast uses constructed forms rather than claims about regional frequencies.",
         "confidence": "medium"
       }
     }
   },
   "editions": {
     "curious": {
-      "title": "Small-c and big-D labels",
-      "summary": "A word like small-c or big-D placed before a label tells the reader which kind of meaning the label has.",
-      "body": "Putting small-c before a word tells you to read it in its ordinary, descriptive sense, not as the name of an institution. Putting big-D before a word does the opposite. In She is a big-D Democrat, the label points to the party, while small-c catholic in He's a small-c catholic points to the ordinary sense.\n\nThe little modifier names a letter and whether it's capital or small. It works as a quick instruction about how to read the word that follows. The longer version puts a phrase with a capital D after the label.",
+      "title": "<i>Small-c</i> and <i>big-D</i> labels",
+      "summary": "A word like <i>small-c</i> or <i>big-D</i> placed before a label tells the reader which kind of meaning the label has.",
+      "body": "Putting <i>small-c</i> before a word tells you to read it in its ordinary, descriptive sense, not as the name of an institution. Putting <i>big-D</i> before a word does the opposite. In <i>She is a big-D Democrat</i>, the label points to the party, while <i>small-c catholic</i> in <i>He's a small-c catholic</i> points to the ordinary sense.\n\nThe little modifier names a letter and whether it's capital or small. It works as a quick instruction about how to read the word that follows. The longer version puts a phrase <i>with a capital D</i> after the label.",
       "examples": [
         {
           "text": "He's a [small-c] catholic.",
@@ -94,8 +94,8 @@
       "try": "Pick a word you could write with a capital or a small first letter. How could you tell a reader which meaning you intend?"
     },
     "teacher": {
-      "summary": "Explains compact modifiers like small-c and big-D that tell a reader how to interpret a label.",
-      "explain": "This is the compact form of letter-case specification. A premodifying adjective phrase, often hyphenated, names a letter and its case (small, big, little) and signals how to read the label that follows: ordinary or descriptive, versus institutional or party-affiliated. It sits before the head in the nominal, like other pre-head adjectival modifiers. The same contrast can be expressed with a full PP after the label, such as with a capital D. This dictionary marks the analysis as provisional; it rests on dictionary definitions of capital and small, so treat these as constructed illustrations.",
+      "summary": "Explains compact modifiers like <i>small-c</i> and <i>big-D</i> that tell a reader how to interpret a label.",
+      "explain": "This is the compact form of letter-case specification. A premodifying adjective phrase, often hyphenated, names a letter and its case (<i>small</i>, <i>big</i>, <i>little</i>) and signals how to read the label that follows: ordinary or descriptive, versus institutional or party-affiliated. It sits before the head in the nominal, like other pre-head adjectival modifiers. The same contrast can be expressed with a full PP after the label, such as <i>with a capital D</i>. This dictionary marks the analysis as provisional; it rests on dictionary definitions of <i>capital</i> and <i>small</i>, so treat these as constructed illustrations.",
       "terms": "This dictionary treats it as a metalinguistic modifier: a modifier about how a word is written, used to guide how it is read.",
       "examples": [
         {
@@ -124,7 +124,7 @@
         }
       ],
       "watch_for": [
-        "A learner might read small-c as describing size, when it names the case of the letter.",
+        "A learner might read <i>small-c</i> as describing size, when it names the case of the letter.",
         "A learner might expect the modifier to come after the label, when the compact form sits before it."
       ],
       "activity": "Write pairs of sentences that need a capital letter to show an institutional meaning and a small letter to show an ordinary one. Partners explain each sentence in their own words and then add the compact modifier before the label."
@@ -149,10 +149,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Letter-Case Modifier Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/letter-case-modifier-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Letter-Case Modifier Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/letter-case-modifier-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

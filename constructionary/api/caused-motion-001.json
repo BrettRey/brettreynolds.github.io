@@ -23,11 +23,11 @@
     "meanings": {
       "1": {
         "definition": "The subject participant causes the direct-object theme to undergo the change of location described by the locative complement",
-        "details": "The construction, not necessarily the verb's lexical valency, licenses the theme object and locative complement. In He sneezed his tooth right across town, sneeze supplies the causal event while the frame supplies the caused-motion relation. In CGEL terms, across town is an object-oriented locative complement with a path/goal construal, not an adjunct, a predicative complement, or a second object of the verb (CGEL pp. 257–59, 684–88; Goldberg 2006: 6, 33–35, 94, 98–100).",
+        "details": "The construction, not necessarily the verb's lexical valency, licenses the theme object and locative complement. In <i>He sneezed his tooth right across town</i>, <i>sneeze</i> supplies the causal event while the frame supplies the caused-motion relation. In CGEL terms, <i>across town</i> is an object-oriented locative complement with a path/goal construal, not an adjunct, a predicative complement, or a second object of the verb (CGEL pp. 257–59, 684–88; Goldberg 2006: 6, 33–35, 94, 98–100).",
         "examples": [
           {
             "form": "He sneezed [his tooth] [right across town].",
-            "note": "Attested Munsch/Goldberg example with a path/goal construal; sneeze does not independently have a three-argument sense",
+            "note": "Attested Munsch/Goldberg example with a path/goal construal; <i>sneeze</i> does not independently have a three-argument sense",
             "grounds": [
               {
                 "source": "goldberg-2006",
@@ -55,7 +55,7 @@
       },
       {
         "type": "semantic",
-        "description": "The external subject must be construable as the source of causal force; volition is not required, as sneeze and knock show."
+        "description": "The external subject must be construable as the source of causal force; volition is not required, as <i>sneeze</i> and <i>knock</i> show."
       },
       {
         "type": "semantic",
@@ -70,7 +70,7 @@
       "provisional": true,
       "projection": {
         "target": "Recognizing the Head–Od–locative-complement frame predicts a causer subject, a moving-theme object, an object-oriented change-of-location PP, and a caused-motion reading even when the verb does not lexically license those dependents",
-        "evidence": "Novel sneeze examples isolate constructional licensing (Goldberg 2006: 6, 94, 98–100); child-directed-speech results support predictive association between the form and caused-motion meaning (pp. 106–10); CGEL p. 684 treats change-of-location dependents as complements in motion frames",
+        "evidence": "Novel <i>sneeze</i> examples isolate constructional licensing (Goldberg 2006: 6, 94, 98–100); child-directed-speech results support predictive association between the form and caused-motion meaning (pp. 106–10); CGEL p. 684 treats change-of-location dependents as complements in motion frames",
         "confidence": "high",
         "grounds": [
           {
@@ -103,7 +103,7 @@
           {
             "property": "Locative PP complement",
             "diagnostics": [
-              "included in do-so scope",
+              "included in <i>do</i>-<i>so</i> scope",
               "source, path, goal, or direction interpretation"
             ],
             "weight": "high"
@@ -111,7 +111,7 @@
           {
             "property": "Constructional causation",
             "diagnostics": [
-              "licensed with intransitive sneeze",
+              "licensed with intransitive <i>sneeze</i>",
               "verb contributes manner or means rather than all valency"
             ],
             "weight": "high"
@@ -181,7 +181,7 @@
     "curious": {
       "title": "Making something move with a verb",
       "summary": "A verb can be followed by a thing and a place phrase, showing that someone caused the thing to move.",
-      "body": "In She sneezed the foam off the cappuccino, the sneeze makes the foam move. Sneeze doesn't have a sense with a moving thing and a path of its own, but the pattern supplies both.\n\nPat shoveled the hay into the wagon works the same way. The verb says how the causing happens, here shoveling, and the pattern adds the movement: someone makes something travel from a place, along a path, toward a direction or to a goal. The subject only has to be the source of the force. It doesn't have to act on purpose, as sneezing shows.",
+      "body": "In <i>She sneezed the foam off the cappuccino</i>, the sneeze makes the foam move. <i>Sneeze</i> doesn't have a sense with a moving thing and a path of its own, but the pattern supplies both.\n\n<i>Pat shoveled the hay into the wagon</i> works the same way. The verb says how the causing happens, here shoveling, and the pattern adds the movement: someone makes something travel from a place, along a path, toward a direction or to a goal. The subject only has to be the source of the force. It doesn't have to act on purpose, as sneezing shows.",
       "examples": [
         {
           "text": "He sneezed [his tooth] [right across town].",
@@ -200,7 +200,7 @@
     },
     "teacher": {
       "summary": "Helps students see that some verbs get an object and a place phrase from the pattern itself, not from the verb alone.",
-      "explain": "The pattern is a verb, a direct object noun phrase that is the moving theme, and a locative PP complement giving source, path, goal or direction. The subject causes the movement. The construction, not necessarily the verb, licenses the object and the PP: sneeze supplies the causing event, the frame supplies the caused motion. The PP is an object-oriented locative complement, not an adjunct, a predicative complement or a second object. The verb must be construable as the means or manner, and productivity is limited by semantic similarity.",
+      "explain": "The pattern is a verb, a direct object noun phrase that is the moving theme, and a locative PP complement giving source, path, goal or direction. The subject causes the movement. The construction, not necessarily the verb, licenses the object and the PP: <i>sneeze</i> supplies the causing event, the frame supplies the caused motion. The PP is an object-oriented locative complement, not an adjunct, a predicative complement or a second object. The verb must be construable as the means or manner, and productivity is limited by semantic similarity.",
       "terms": "Caused-motion construction is the constructional name for the pattern. CGEL: the PP is an object-oriented locative complement. Od is the direct object.",
       "examples": [
         {
@@ -229,15 +229,15 @@
         }
       ],
       "watch_for": [
-        "A learner might read into the wagon as a second object of the verb.",
+        "A learner might read <i>into the wagon</i> as a second object of the verb.",
         "A learner might read the place phrase as a setting adjunct, when it describes where the object moves.",
         "A learner might assume any verb can be used this way, when productivity depends on semantic similarity and on the verb's role as means or manner."
       ],
-      "activity": "Give students verbs such as sneeze, shovel and kick, plus a thing and a place. They build caused-motion sentences, then decide which show something moving from a source, along a path or to a goal."
+      "activity": "Give students verbs such as <i>kick</i>, <i>push</i> and <i>blow</i>, plus a thing and a place. They build caused-motion sentences, then decide which show something moving from a source, along a path or to a goal."
     },
     "child": {
       "hook": "Can a sneeze send a tooth across town?",
-      "explain": "Some sentences tell who made something move. Pat shoveled the hay into the wagon. Pat made the hay move, and the words into the wagon tell where the hay went.",
+      "explain": "Some sentences tell who made something move. <i>Pat shoveled the hay into the wagon</i>. Pat made the hay move, and the words <i>into the wagon</i> tell where the hay went.",
       "examples": [
         {
           "text": "He sneezed [his tooth] [right across town].",
@@ -252,7 +252,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Pick an action like kick, push or blow. Say what it moved and where it went. Can your friends guess the action?"
+      "play": "Pick an action like <i>kick</i>, <i>push</i> or <i>blow</i>. Say what it moved and where it went. Can your friends guess the action?"
     }
   },
   "status": {
@@ -269,15 +269,15 @@
         "date": "2026-11-19",
         "model": "claude-sonnet-5-5 (resolving checker flags)",
         "result": "fixed",
-        "note": "Fixed: child explain now names the hay and the words into the wagon instead of an unclear it. Also fixed (unflagged): child example bracketing now marks the object and the place phrase separately, as the entry's examples do."
+        "note": "Fixed: child explain now names the hay and the words into the wagon instead of an unclear it. Also fixed (unflagged): child example bracketing now marks the object and the place phrase separately, as the entry's examples do. Frequency pass: teacher.activity verbs sneeze and shovel (about 7,600th and 8,000th in SUBTLEX-UK, counting their other forms) replaced by push and blow, as in the child play; entry examples unchanged."
       }
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Caused-Motion Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/caused-motion-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Caused-Motion Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/caused-motion-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

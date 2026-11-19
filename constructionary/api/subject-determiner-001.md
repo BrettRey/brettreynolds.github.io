@@ -4,7 +4,7 @@
 - pattern: NP[genitive] + N
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/subject-determiner-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
@@ -20,11 +20,11 @@ Genitive NP realizes determiner function with a subject-like semantic relation t
 
 ## Related constructions
 
-- Compare: Floating Each (`floating-distributive-001`)
-- Interacts with: Genitive with Every (`genitive-every-001`)
+- Compare: Floating *each* (`floating-distributive-001`)
+- Interacts with: Genitive with *every* (`genitive-every-001`)
 - A kind of: Determination (`determination-001`)
-- Compare: Genitive 's (`genitive-s-001`)
-- Compare: Deverbal Noun Of-Argument (`deverbal-noun-of-argument-001`)
+- Compare: Genitive *'s* (`genitive-s-001`)
+- Compare: Deverbal Noun *of*-Argument (`deverbal-noun-of-argument-001`)
 
 ## Sources
 
@@ -32,22 +32,22 @@ Genitive NP realizes determiner function with a subject-like semantic relation t
 
 ## Projection
 
-In the committee’s approval of the plan, the committee can map to the subject of approved the plan. In the committee’s photograph, an ownership or other relation remains possible. Genitive position alone does not license an agent interpretation.
+In *the committee’s approval of the plan*, the committee can map to the subject of *approved the plan*. In *the committee’s photograph*, an ownership or other relation remains possible. Genitive position alone does not license an agent interpretation.
 
 ## Reader editions (draft, AI-assisted, unreviewed; the linguist entry is the reference)
 
 ### Curious reader: A genitive that acts like a subject
 
-Sometimes the word with 's before a noun tells you who did the action the noun names, not who owns something.
+Sometimes the word with *'s* before a noun tells you who did the action the noun names, not who owns something.
 
-In the committee's approval of the plan, the committee is the one who approved. The noun approval names an action, and the committee plays the part a subject would play in the matching sentence, the committee approved the plan.
+In *the committee's approval of the plan*, the committee is the one who approved. The noun *approval* names an action, and the committee plays the part a subject would play in the matching sentence, *the committee approved the plan*.
 
-Compare the committee's photograph. There the link can be ownership or some other relation. So the 's form alone doesn't tell you the committee is the doer; it depends on the noun.
+Compare *the committee's photograph*. There the link can be ownership or some other relation. So the *'s* form alone doesn't tell you the committee is the doer; it depends on the noun.
 
 This dictionary marks the analysis as provisional.
 
 ### Teacher
 
-Explains genitives that match a verb's subject, as in the committee's approval, against ordinary genitives that show ownership.
+Explains genitives that match a verb's subject, as in *the committee's approval*, against ordinary genitives that show ownership.
 
-The pattern is a genitive NP in determiner function whose relation to the head noun resembles that of a subject. In Brett's use of the microphone and the committee's approval of the plan, the genitive corresponds to the notional subject of the event noun's verb, an agent or experiencer. This is not mere possession. In the committee's photograph, an ownership or other relation remains possible, so genitive position alone does not license an agent interpretation. The distinction is argument-realizing versus the wider range of ordinary genitive relations. This dictionary marks the analysis as provisional.
+The pattern is a genitive NP in determiner function whose relation to the head noun resembles that of a subject. In *Brett's use of the microphone* and *the committee's approval of the plan*, the genitive corresponds to the notional subject of the event noun's verb, an agent or experiencer. This is not mere possession. In *the committee's photograph*, an ownership or other relation remains possible, so genitive position alone does not license an agent interpretation. The distinction is argument-realizing versus the wider range of ordinary genitive relations. This dictionary marks the analysis as provisional.

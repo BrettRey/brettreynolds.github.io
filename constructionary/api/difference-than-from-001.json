@@ -1,6 +1,6 @@
 {
   "id": "difference-than-from-001",
-  "name": "Difference Complement after Different",
+  "name": "Difference Complement after <i>different</i>",
   "pattern": "AdjP[different + from/to/than-standard]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/difference-than-from-001/",
@@ -9,7 +9,7 @@
   },
   "entry": {
     "id": "difference-than-from-001",
-    "name": "Difference Complement after Different",
+    "name": "Difference Complement after <i>different</i>",
     "pattern": "AdjP[different + from/to/than-standard]",
     "type": "mixed",
     "meanings": {
@@ -44,7 +44,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The choice of marker depends on variety and complement form. Than can introduce a finite comparison in uses where from requires a nominal or other licensed complement.",
+        "target": "The choice of marker depends on variety and complement form. <i>Than</i> can introduce a finite comparison in uses where <i>from</i> requires a nominal or other licensed complement.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -53,8 +53,8 @@
   "editions": {
     "curious": {
       "title": "What something is different from",
-      "summary": "The word different can be followed by a phrase that names what something differs from.",
-      "body": "In The result was different from what we expected, the phrase after different says what the result is compared with. This dictionary's pattern lists three small words that can introduce that phrase: from, to and than.\n\nThe phrase can name a thing or a whole situation. Here it is what we expected, a situation the result is measured against.",
+      "summary": "The word <i>different</i> can be followed by a phrase that names what something differs from.",
+      "body": "In <i>The result was different from what we expected</i>, the phrase after <i>different</i> says what the result is compared with. This dictionary's pattern lists three small words that can introduce that phrase: <i>from</i>, <i>to</i> and <i>than</i>.\n\nThe phrase can name a thing or a whole situation. Here it is <i>what we expected</i>, a situation the result is measured against.",
       "examples": [
         {
           "text": "The result was [different from what we expected].",
@@ -65,11 +65,11 @@
           "from": "constructed"
         }
       ],
-      "try": "Finish the sentence My day today was different from ... in your own words. What did you compare it with?"
+      "try": "Finish the sentence <i>My day today was different from ...</i> in your own words. What did you compare it with?"
     },
     "teacher": {
       "summary": "Gives the pattern for the standard of comparison after different.",
-      "explain": "Different heads an AdjP whose complement specifies the referent or situation from which something differs. The pattern in this dictionary lists from, to and than as introducers of that standard. The standard can be a plain NP or a clause-like expression, as in different from what we expected. This dictionary gives only one illustration and relates the pattern to same-as comparison and to than-reduced clauses.",
+      "explain": "<i>Different</i> heads an AdjP whose complement specifies the referent or situation from which something differs. The pattern in this dictionary lists <i>from</i>, <i>to</i> and <i>than</i> as introducers of that standard. The standard can be a plain NP or a clause-like expression, as in <i>different from what we expected</i>. This dictionary gives only one illustration and relates the pattern to same-as comparison and to than-reduced clauses.",
       "examples": [
         {
           "text": "The result was [different from what we expected].",
@@ -81,9 +81,9 @@
         }
       ],
       "watch_for": [
-        "A learner might not realize that the standard of comparison is what the phrase after different supplies."
+        "A learner might not realize that the standard of comparison is what the phrase after <i>different</i> supplies."
       ],
-      "activity": "Show two pictures. Students write one sentence about each difference using different from, naming the picture the first thing is compared with."
+      "activity": "Show two pictures. Students write one sentence about each difference using <i>different from</i>, naming the picture the first thing is compared with."
     }
   },
   "status": {
@@ -104,10 +104,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Difference Complement after Different.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/difference-than-from-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Difference Complement after <i>different</i>.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/difference-than-from-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

@@ -1,6 +1,6 @@
 {
   "id": "all-class-role-modifier-001",
-  "name": "All Modifier Restricting a Role",
+  "name": "<i>all</i> Modifier Restricting a Role",
   "pattern": "Nom[all + class-denoting nominal or adjective + N]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/all-class-role-modifier-001/",
@@ -9,13 +9,13 @@
   },
   "entry": {
     "id": "all-class-role-modifier-001",
-    "name": "All Modifier Restricting a Role",
+    "name": "<i>all</i> Modifier Restricting a Role",
     "pattern": "Nom[all + class-denoting nominal or adjective + N]",
     "type": "mixed",
     "meanings": {
       "1": {
         "definition": "Restricts the occupants of a salient role associated with the head noun to one class.",
-        "details": "With an all girls’ school the relevant role is eligibility to attend. The school can educate only some of the town’s girls and have men on staff. With an all-women team the team supplies the members. Genitive and plain-case nominal forms and adjectives support the interpretation. CGEL treats all girls’ as a genitive NP with peripheral all. The related patterns leave that token’s internal bracketing open.",
+        "details": "With <i>an all girls’ school</i> the relevant role is eligibility to attend. The school can educate only some of the town’s girls and have men on staff. With <i>an all-women team</i> the team supplies the members. Genitive and plain-case nominal forms and adjectives support the interpretation. CGEL treats <i>all girls’</i> as a genitive NP with peripheral <i>all</i>. The related patterns leave that token’s internal bracketing open.",
         "examples": [
           {
             "form": "an [all girls’ school]",
@@ -65,13 +65,13 @@
       {
         "id": "genitive-s-001",
         "relationship": "related-to",
-        "notes": "CGEL analyzes the spelling girls’ in its example as genitive."
+        "notes": "CGEL analyzes the spelling <i>girls’</i> in its example as genitive."
       }
     ],
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The head helps select the set to which all applies. The restriction applies to students in the school case and members in the team case.",
+        "target": "The head helps select the set to which <i>all</i> applies. The restriction applies to students in the school case and members in the team case.",
         "evidence": "CGEL's exclusivity gloss and the two expressions for the same Indian police contingent support the cross-form comparison.",
         "confidence": "medium"
       }
@@ -79,9 +79,9 @@
   },
   "editions": {
     "curious": {
-      "title": "All as a restriction, as in an all girls' school",
-      "summary": "Putting all before a class word can say that only members of that class fill a role connected to the noun.",
-      "body": "In an all girls' school, the role at issue is who can attend. The school educates only girls, but it can serve only some of the town's girls and it can have men on staff. In an all-women team, the role is team membership, and the team supplies the members.\n\nThe pattern works with several forms. There's a plural noun with an apostrophe (all girls'), a plain plural (all-women), and an adjective (all-female). The head noun helps decide which role all restricts.",
+      "title": "<i>All</i> as a restriction, as in <i>an all girls' school</i>",
+      "summary": "Putting <i>all</i> before a class word can say that only members of that class fill a role connected to the noun.",
+      "body": "In <i>an all girls' school</i>, the role at issue is who can attend. The school educates only girls, but it can serve only some of the town's girls and it can have men on staff. In <i>an all-women team</i>, the role is team membership, and the team supplies the members.\n\nThe pattern works with several forms. There's a plural noun with an apostrophe (<i>all girls'</i>), a plain plural (<i>all-women</i>), and an adjective (<i>all-female</i>). The head noun helps decide which role <i>all</i> restricts.",
       "examples": [
         {
           "text": "an [all girls’ school]",
@@ -96,12 +96,12 @@
           "from": "entry"
         }
       ],
-      "try": "Think of a team, club or school described with all. Who does all say may be in it?"
+      "try": "Think of a team, club or school described with <i>all</i>. Who does all say may be in it?"
     },
     "teacher": {
-      "summary": "Explains how all with a class word restricts a role, such as who attends or who belongs.",
-      "explain": "The pattern is a nominal consisting of all plus a class-denoting nominal or adjective plus a noun. It restricts the occupants of a salient role associated with the head noun to one class. With an all girls' school the role is eligibility to attend, so the school can educate only some of the town's girls and have men on staff. With an all-women team, the team supplies the members. Genitive and plain-case nominal forms and adjectives all support the interpretation. CGEL treats all girls' as a genitive NP with peripheral all, while the internal bracketing of the other forms is left open. This dictionary marks the analysis as provisional.",
-      "terms": "CGEL analyzes the apostrophe form girls' in its example as genitive.",
+      "summary": "Explains how <i>all</i> with a class word restricts a role, such as who attends or who belongs.",
+      "explain": "The pattern is a nominal consisting of <i>all</i> plus a class-denoting nominal or adjective plus a noun. It restricts the occupants of a salient role associated with the head noun to one class. With <i>an all girls' school</i> the role is eligibility to attend, so the school can educate only some of the town's girls and have men on staff. With <i>an all-women team</i>, the team supplies the members. Genitive and plain-case nominal forms and adjectives all support the interpretation. CGEL treats <i>all girls'</i> as a genitive NP with peripheral <i>all</i>, while the internal bracketing of the other forms is left open. This dictionary marks the analysis as provisional.",
+      "terms": "CGEL analyzes the apostrophe form <i>girls'</i> in its example as genitive.",
       "examples": [
         {
           "text": "an [all girls’ school]",
@@ -129,10 +129,10 @@
         }
       ],
       "watch_for": [
-        "A learner might read all girls' school as saying every girl in the town attends, when the restriction concerns who can attend.",
-        "A learner might assume all must restrict the same role in every phrase, when the head noun helps select the set."
+        "A learner might read <i>all girls' school</i> as saying every girl in the town attends, when the restriction concerns who can attend.",
+        "A learner might assume <i>all</i> must restrict the same role in every phrase, when the head noun helps select the set."
       ],
-      "activity": "Students collect phrases with all and a class word (all-girls, all-female). For each, they say which role is restricted (attending, belonging) and who may fill it."
+      "activity": "Students collect phrases with <i>all</i> and a class word (<i>all-girls</i>, <i>all-female</i>). For each, they say which role is restricted (attending, belonging) and who may fill it."
     }
   },
   "status": {
@@ -154,10 +154,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"All Modifier Restricting a Role.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/all-class-role-modifier-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"<i>all</i> Modifier Restricting a Role.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/all-class-role-modifier-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

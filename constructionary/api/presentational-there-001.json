@@ -1,6 +1,6 @@
 {
   "id": "presentational-there-001",
-  "name": "Presentational There with a Lexical Verb",
+  "name": "Presentational <i>there</i> with a Lexical Verb",
   "pattern": "Clause[dummy there + lexical V + postverbal NP]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/presentational-there-001/",
@@ -9,7 +9,7 @@
   },
   "entry": {
     "id": "presentational-there-001",
-    "name": "Presentational There with a Lexical Verb",
+    "name": "Presentational <i>there</i> with a Lexical Verb",
     "pattern": "Clause[dummy there + lexical V + postverbal NP]",
     "type": "mixed",
     "meanings": {
@@ -45,7 +45,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Only certain lexical predicates license dummy there in this frame. The opening there need not locate the crack, and ordinary event-transitive verbs are excluded.",
+        "target": "Only certain lexical predicates license dummy <i>there</i> in this frame. The opening <i>there</i> need not locate the crack, and ordinary event-transitive verbs are excluded.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -53,21 +53,21 @@
   },
   "editions": {
     "curious": {
-      "title": "There introducing something that appears",
-      "summary": "A sentence can begin with there, then a verb of appearing, then the thing that appears.",
-      "body": "In There appeared a crack in the plaster, the word there doesn't point to a place. It opens the sentence, the verb appeared follows, and then comes the thing being introduced, a crack.\n\nThe pattern introduces something through an event of appearance, presence or emergence. Only certain verbs fit this frame, and the opening there need not say where the crack is. This dictionary marks the account as provisional.",
+      "title": "<i>There</i> introducing something that appears",
+      "summary": "A sentence can begin with <i>there</i>, then a verb of appearing, then the thing that appears.",
+      "body": "In <i>There appeared a crack in the plaster</i>, the word <i>there</i> doesn't point to a place. It opens the sentence, the verb <i>appeared</i> follows, and then comes the thing being introduced, a crack.\n\nThe pattern introduces something through an event of appearance, presence or emergence. Only certain verbs fit this frame, and the opening <i>there</i> need not say where the crack is. This dictionary marks the account as provisional.",
       "examples": [
         {
           "text": "[There appeared a crack in the plaster].",
           "from": "entry"
         }
       ],
-      "try": "Can you think of other verbs about appearing or emerging that could follow there at the start of a sentence?"
+      "try": "Can you think of other verbs about appearing or emerging that could follow <i>there</i> at the start of a sentence?"
     },
     "teacher": {
-      "summary": "For advanced classes, there plus a lexical verb of appearance introducing a new entity.",
-      "explain": "Here dummy there is followed by a lexical verb and a postverbal NP, as in There appeared a crack in the plaster. The pattern introduces an entity through an event of appearance, presence or emergence. Only certain lexical predicates license dummy there in this frame, and the opening there needn't locate the crack. This dictionary says ordinary event-transitive verbs are excluded. The analysis is provisional, and this dictionary gives only one illustration, so check examples with a reference before teaching others as equivalents.",
-      "terms": "Sometimes called existential or presentational there; this dictionary calls this one presentational there with a lexical verb.",
+      "summary": "For advanced classes, <i>there</i> plus a lexical verb of appearance introducing a new entity.",
+      "explain": "Here dummy <i>there</i> is followed by a lexical verb and a postverbal NP, as in <i>There appeared a crack in the plaster</i>. The pattern introduces an entity through an event of appearance, presence or emergence. Only certain lexical predicates license dummy <i>there</i> in this frame, and the opening <i>there</i> needn't locate the crack. This dictionary says ordinary event-transitive verbs are excluded. The analysis is provisional, and this dictionary gives only one illustration, so check examples with a reference before teaching others as equivalents.",
+      "terms": "Sometimes called existential or presentational <i>there</i>; this dictionary calls this one presentational <i>there</i> with a lexical verb.",
       "examples": [
         {
           "text": "[There appeared a crack in the plaster].",
@@ -75,10 +75,10 @@
         }
       ],
       "watch_for": [
-        "A learner might read there as a place adverb meaning in that location.",
-        "A learner might assume any verb can follow dummy there."
+        "A learner might read <i>there</i> as a place adverb meaning in that location.",
+        "A learner might assume any verb can follow dummy <i>there</i>."
       ],
-      "activity": "Show the sentence and ask students to say where the crack is. Discuss that the information about location comes from the phrase in the plaster, not from there."
+      "activity": "Show the sentence and ask students to say where the crack is. Discuss that the information about location comes from the phrase <i>in the plaster</i>, not from <i>there</i>."
     }
   },
   "status": {
@@ -99,10 +99,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Presentational There with a Lexical Verb.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/presentational-there-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Presentational <i>there</i> with a Lexical Verb.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/presentational-there-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

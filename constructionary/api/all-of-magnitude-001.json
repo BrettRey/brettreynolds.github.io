@@ -1,6 +1,6 @@
 {
   "id": "all-of-magnitude-001",
-  "name": "All of with a Stated Magnitude",
+  "name": "<i>all of</i> with a Stated Magnitude",
   "pattern": "all of + (approximator) + numeral expression, with no definite article after of",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/all-of-magnitude-001/",
@@ -9,13 +9,13 @@
   },
   "entry": {
     "id": "all-of-magnitude-001",
-    "name": "All of with a Stated Magnitude",
+    "name": "<i>all of</i> with a Stated Magnitude",
     "pattern": "all of + (approximator) + numeral expression, with no definite article after of",
     "type": "mixed",
     "meanings": {
       "1": {
         "definition": "Calls attention to a stated magnitude relative to an expectation.",
-        "details": "The numeral gives the measured or counted magnitude. A distinct approximator can still make it inexact. All of the fifty volunteers instead quantifies over a separately identified group. The direction of the evaluation in the magnitude use remains open and can be tested by varying the expectation while holding the magnitude fixed.",
+        "details": "The numeral gives the measured or counted magnitude. A distinct approximator can still make it inexact. <i>All of the fifty volunteers</i> instead quantifies over a separately identified group. The direction of the evaluation in the magnitude use remains open and can be tested by varying the expectation while holding the magnitude fixed.",
         "examples": [
           {
             "form": "They had recruited [all of fifty] volunteers.",
@@ -60,18 +60,18 @@
       {
         "id": "numerative-complex-001",
         "relationship": "related-to",
-        "notes": "The numeral supplies the magnitude independently of the all of expression."
+        "notes": "The numeral supplies the magnitude independently of the <i>all of</i> expression."
       },
       {
         "id": "true-partitive-001",
         "relationship": "related-to",
-        "notes": "All of fifty volunteers emphasizes a magnitude. All of the fifty volunteers ranges over the established group."
+        "notes": "<i>All of fifty volunteers</i> emphasizes a magnitude. <i>All of the fifty volunteers</i> ranges over the established group."
       }
     ],
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The pattern can retain about and its approximation while inviting an assessment of whether the magnitude is noteworthy in context.",
+        "target": "The pattern can retain <i>about</i> and its approximation while inviting an assessment of whether the magnitude is noteworthy in context.",
         "evidence": "CGEL's example and the two oral histories establish the form. The role of expectations is a proposal to test.",
         "confidence": "low"
       }
@@ -79,9 +79,9 @@
   },
   "editions": {
     "curious": {
-      "title": "All of before a number",
-      "summary": "Putting all of before a stated amount draws attention to that amount, as if it were noteworthy.",
-      "body": "In They had recruited all of fifty volunteers, the number is the point. The phrase asks us to notice the amount, compared with what we expected. The direction of that comparison is left open in this dictionary.\n\nA word like about can still make the number inexact, as in all of about five minutes. This isn't the same as all of the fifty volunteers, which talks about a group that has already been identified, and covers all of them.",
+      "title": "<i>All of</i> before a number",
+      "summary": "Putting <i>all of</i> before a stated amount draws attention to that amount, as if it were noteworthy.",
+      "body": "In <i>They had recruited all of fifty volunteers</i>, the number is the point. The phrase asks us to notice the amount, compared with what we expected. The direction of that comparison is left open in this dictionary.\n\nA word like <i>about</i> can still make the number inexact, as in <i>all of about five minutes</i>. This isn't the same as <i>all of the fifty volunteers</i>, which talks about a group that has already been identified, and covers all of them.",
       "examples": [
         {
           "text": "They had recruited [all of fifty] volunteers.",
@@ -96,12 +96,12 @@
           "from": "entry"
         }
       ],
-      "try": "Compare all of fifty volunteers with all of the fifty volunteers. Which one talks about a group we already know?"
+      "try": "Compare <i>all of fifty volunteers</i> with <i>all of the fifty volunteers</i>. Which one talks about a group we already know?"
     },
     "teacher": {
-      "summary": "For advanced classes, all of before a numeral, which highlights a magnitude, versus all of the plus a known group.",
-      "explain": "The pattern is all of plus an optional approximator plus a numeral expression, with no definite article after of. The numeral gives the measured or counted magnitude, and a distinct approximator such as about can still make it inexact. The effect is to call attention to the stated magnitude relative to an expectation. This dictionary says the direction of the evaluation remains open and could be tested by varying the expectation while holding the magnitude fixed. All of the fifty volunteers is different: it quantifies over a separately identified group. This dictionary rates its own confidence low.",
-      "terms": "This dictionary treats the numeral as supplying the magnitude independently of the all of expression.",
+      "summary": "For advanced classes, <i>all of</i> before a numeral, which highlights a magnitude, versus <i>all of the</i> plus a known group.",
+      "explain": "The pattern is <i>all of</i> plus an optional approximator plus a numeral expression, with no definite article after <i>of</i>. The numeral gives the measured or counted magnitude, and a distinct approximator such as <i>about</i> can still make it inexact. The effect is to call attention to the stated magnitude relative to an expectation. This dictionary says the direction of the evaluation remains open and could be tested by varying the expectation while holding the magnitude fixed. <i>All of the fifty volunteers</i> is different: it quantifies over a separately identified group. This dictionary rates its own confidence low.",
+      "terms": "This dictionary treats the numeral as supplying the magnitude independently of the <i>all of</i> expression.",
       "examples": [
         {
           "text": "They had recruited [all of fifty] volunteers.",
@@ -116,7 +116,7 @@
         {
           "text": "They had recruited all of fifty volunteers.",
           "from": "entry",
-          "note": "A magnitude, with no article after of."
+          "note": "A magnitude, with no article after <i>of</i>."
         },
         {
           "text": "They had recruited all of the fifty volunteers.",
@@ -125,10 +125,10 @@
         }
       ],
       "watch_for": [
-        "A learner might read all of fifty volunteers as all of an already identified group, when the numeral gives the magnitude.",
-        "A learner might think about is incompatible with all of before a number, when all of about five minutes appears in this dictionary’s examples."
+        "A learner might read <i>all of fifty volunteers</i> as <i>all of</i> an already identified group, when the numeral gives the magnitude.",
+        "A learner might think <i>about</i> is incompatible with <i>all of</i> before a number, when <i>all of about five minutes</i> appears in this dictionary’s examples."
       ],
-      "activity": "Students write two sentences, one with all of plus a number and one with all of the plus a number and a group. They then say what each one is about, the amount or the group."
+      "activity": "Students write two sentences, one with <i>all of</i> plus a number and one with <i>all of the</i> plus a number and a group. They then say what each one is about, the amount or the group."
     }
   },
   "status": {
@@ -149,10 +149,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"All of with a Stated Magnitude.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/all-of-magnitude-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"<i>all of</i> with a Stated Magnitude.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/all-of-magnitude-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

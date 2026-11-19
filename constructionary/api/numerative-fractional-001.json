@@ -14,10 +14,10 @@
     "pattern": "Cardinal base → fractional noun (-th or suppletive)",
     "type": "morphological",
     "dimensions": {
-      "form": "Cardinal base + -th or suppletive (half, quarter); count noun",
+      "form": "Cardinal base + <i>-th</i> or suppletive (<i>half</i>, <i>quarter</i>); count noun",
       "meaning": "Denotes denominator in fraction; partitive semantics",
       "function": "Heads nominal in fraction NPs; numerator is determiner",
-      "distribution": "Inflects for number (one fifth, two fifths); licenses factors"
+      "distribution": "Inflects for number (<i>one fifth</i>, <i>two fifths</i>); licenses factors"
     },
     "meanings": {
       "1": {
@@ -37,11 +37,11 @@
     "constraints": [
       {
         "type": "structural",
-        "description": "Fractional noun heads a nominal; numerator functions as determiner in fraction NPs (e.g., one fifth)."
+        "description": "Fractional noun heads a nominal; numerator functions as determiner in fraction NPs (e.g., <i>one fifth</i>)."
       },
       {
         "type": "morphological",
-        "description": "Fractional noun inflects for number (one third vs two thirds); half/quarter are suppletive."
+        "description": "Fractional noun inflects for number (<i>one third</i> vs <i>two thirds</i>); <i>half</i>/<i>quarter</i> are suppletive."
       }
     ],
     "formRefs": [
@@ -95,7 +95,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Fifths in three fifths accepts plural marking and a cardinal determiner. Fifth in fifth place is adjectival and does not take plural marking there. The two distributions persist where the forms are partly identical.",
+        "target": "<i>Fifths</i> in <i>three fifths</i> accepts plural marking and a cardinal determiner. <i>Fifth</i> in <i>fifth place</i> is adjectival and does not take plural marking there. The two distributions persist where the forms are partly identical.",
         "evidence": "CGEL and Reynolds distinguish fractional nouns from ordinal adjectives despite the shared morphological material.",
         "confidence": "medium"
       }
@@ -104,8 +104,8 @@
   "editions": {
     "curious": {
       "title": "Fraction words as nouns",
-      "summary": "In a fraction like one fifth, the word fifth names the size of the pieces and behaves like a noun.",
-      "body": "In one fifth, the word fifth names the size of the pieces, and the number in front counts them. Because it's a noun, it takes a plural ending when there's more than one: one third, but two thirds.\n\nSome fraction words are made by adding -th to a number word, as in fifth. Others, such as half and quarter, are separate words that aren't built that way. This dictionary treats fifth in a fraction as different from fifth in fifth place, where it describes a position and takes no plural, even though the two look the same.",
+      "summary": "In a fraction like <i>one fifth</i>, the word <i>fifth</i> names the size of the pieces and behaves like a noun.",
+      "body": "In <i>one fifth</i>, the word <i>fifth</i> names the size of the pieces, and the number in front counts them. Because it's a noun, it takes a plural ending when there's more than one: <i>one third</i>, but <i>two thirds</i>.\n\nSome fraction words are made by adding <i>-th</i> to a number word, as in <i>fifth</i>. Others, such as <i>half</i> and <i>quarter</i>, are separate words that aren't built that way. This dictionary treats <i>fifth</i> in a fraction as different from <i>fifth</i> in <i>fifth place</i>, where it describes a position and takes no plural, even though the two look the same.",
       "examples": [
         {
           "text": "[fifth]",
@@ -120,11 +120,11 @@
           "from": "constructed"
         }
       ],
-      "try": "Say one fifth, then two fifths. What happens to the end of the word? Does fifth place change the same way?"
+      "try": "Say <i>one fifth</i>, then <i>two fifths</i>. What happens to the end of the word? Does <i>fifth place</i> change the same way?"
     },
     "teacher": {
-      "summary": "Separates fraction nouns (three fifths) from ordinal adjectives (fifth place), which share morphological material.",
-      "explain": "A fractional noun denotes a denominator and heads the nominal in a fraction NP, with the numerator in determiner function (one fifth). It's a count noun and inflects for number: one third, two thirds. Half and quarter are suppletive, not formed with -th. The same form can be an ordinal adjective in another use: fifth in fifth place is adjectival and takes no plural, while fifths in three fifths takes plural marking and a cardinal determiner. This dictionary, which is provisional, treats these as separate categories despite the shared form.",
+      "summary": "Separates fraction nouns (<i>three fifths</i>) from ordinal adjectives (<i>fifth place</i>), which share morphological material.",
+      "explain": "A fractional noun denotes a denominator and heads the nominal in a fraction NP, with the numerator in determiner function (<i>one fifth</i>). It's a count noun and inflects for number: <i>one third</i>, <i>two thirds</i>. <i>Half</i> and <i>quarter</i> are suppletive, not formed with <i>-th</i>. The same form can be an ordinal adjective in another use: <i>fifth</i> in <i>fifth place</i> is adjectival and takes no plural, while <i>fifths</i> in <i>three fifths</i> takes plural marking and a cardinal determiner. This dictionary, which is provisional, treats these as separate categories despite the shared form.",
       "terms": "Fraction word, with numerator and denominator, are the traditional terms. Ordinal number is the traditional name for what this dictionary calls an ordinal adjective.",
       "examples": [
         {
@@ -149,14 +149,14 @@
         }
       ],
       "watch_for": [
-        "A learner might add plural marking to fifth in fifth place, as if it were the fraction noun.",
-        "A learner might expect half and quarter to be formed with -th like fifth."
+        "A learner might add plural marking to <i>fifth</i> in <i>fifth place</i>, as if it were the fraction noun.",
+        "A learner might expect <i>half</i> and <i>quarter</i> to be formed with <i>-th</i> like <i>fifth</i>."
       ],
-      "activity": "Give students a pie drawn in fifths. They shade one, two and three pieces and write the fraction in words each time, then write a sentence using fifth to give a position in a race and compare the two uses."
+      "activity": "Give students a pie drawn in fifths. They shade one, two and three pieces and write the fraction in words each time, then write a sentence using <i>fifth</i> to give a position in a race and compare the two uses."
     },
     "child": {
-      "hook": "What happens to the word third when you have two pieces?",
-      "explain": "A fraction word names the size of the pieces. One third has one piece. With two pieces you say two thirds, adding an s. Half and quarter are special words.",
+      "hook": "What happens to the word <i>third</i> when you have two pieces?",
+      "explain": "A fraction word names the size of the pieces. <i>One third</i> has one piece. With two pieces you say <i>two thirds</i>, adding an <i>s</i>. <i>Half</i> and <i>quarter</i> are special words.",
       "examples": [
         {
           "text": "I coloured [two thirds] of the picture.",
@@ -167,7 +167,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Say one third, then two thirds. Now try one fifth and two fifths. Which part of the word changes when there's more than one piece?"
+      "play": "Say <i>one third</i>, then <i>two thirds</i>. Now try <i>one fifth</i> and <i>two fifths</i>. Which part of the word changes when there's more than one piece?"
     }
   },
   "status": {
@@ -188,10 +188,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Fractional Noun.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/numerative-fractional-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Fractional Noun.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/numerative-fractional-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

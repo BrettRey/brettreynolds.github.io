@@ -15,15 +15,15 @@
     "meanings": {
       "1": {
         "definition": "Adds a clause to the nominal description of a referent or set of referents.",
-        "details": "A nominal containing a relative can describe a subset, as with the books Kim bought. It can also add a property of a referent already uniquely identified. Wh-marking, that, and bare forms can package the link. Bare finite relatives generally permit an object gap but exclude a gap in the subject position of the relative clause itself.",
+        "details": "A nominal containing a relative can describe a subset, as with <i>the books Kim bought</i>. It can also add a property of a referent already uniquely identified. Wh-marking, <i>that</i>, and bare forms can package the link. Bare finite relatives generally permit an object gap but exclude a gap in the subject position of the relative clause itself.",
         "examples": [
           {
             "form": "The books [that Kim bought] are on the desk.",
-            "note": "Constructed object relative. The books Kim bought has a bare variant."
+            "note": "Constructed object relative. <i>The books Kim bought</i> has a bare variant."
           },
           {
             "form": "The books [that arrived today] are on the desk.",
-            "note": "Constructed subject relative. Omitting that here does not give the same integrated NP."
+            "note": "Constructed subject relative. Omitting <i>that</i> here does not give the same integrated NP."
           }
         ]
       }
@@ -47,7 +47,7 @@
       {
         "id": "supplementary-relative-001",
         "relationship": "related-to",
-        "notes": "In the books that arrived, the integrated clause helps identify the books. In The books, which arrived yesterday, are upstairs, the supplementary clause adds a separate comment on a referent already supplied."
+        "notes": "In <i>the books that arrived</i>, the integrated clause helps identify the books. In <i>The books, which arrived yesterday, are upstairs</i>, the supplementary clause adds a separate comment on a referent already supplied."
       }
     ],
     "grounds": [
@@ -77,9 +77,9 @@
   },
   "editions": {
     "curious": {
-      "title": "The books that Kim bought",
-      "summary": "A clause can be attached to a noun to help say which things you mean, as in the books that Kim bought.",
-      "body": "In The books that Kim bought are on the desk, the part that Kim bought is joined directly to books. It helps pick out which books: the ones Kim bought. The word that can be left out here, giving the books Kim bought.\n\nOther cases need the marker. In The books that arrived today are on the desk, the books themselves are what arrived, and omitting that doesn't give the same kind of phrase. A relative clause can also add a fact about something already identified, so it needn't narrow things down.",
+      "title": "<i>The books that Kim bought</i>",
+      "summary": "A clause can be attached to a noun to help say which things you mean, as in <i>the books that Kim bought</i>.",
+      "body": "In <i>The books that Kim bought are on the desk</i>, the part <i>that Kim bought</i> is joined directly to <i>books</i>. It helps pick out which books: the ones Kim bought. The word <i>that</i> can be left out here, giving <i>the books Kim bought</i>.\n\nOther cases need the marker. In <i>The books that arrived today are on the desk</i>, the books themselves are what arrived, and omitting <i>that</i> doesn't give the same kind of phrase. A relative clause can also add a fact about something already identified, so it needn't narrow things down.",
       "examples": [
         {
           "text": "The books [that Kim bought] are on the desk.",
@@ -90,11 +90,11 @@
           "from": "entry"
         }
       ],
-      "try": "Say The books Kim bought are on the desk. Now try leaving that out of The books that arrived today. What changes?"
+      "try": "Say <i>The books Kim bought are on the desk</i>. Now try leaving <i>that</i> out of <i>The books that arrived today</i>. What changes?"
     },
     "teacher": {
       "summary": "Explains relative clauses that are part of a noun phrase and help identify its referent.",
-      "explain": "The pattern is a nominal containing an antecedent plus a relative clause with a linked gap. It can describe a subset, as in the books Kim bought, or add a property of a referent already uniquely identified. Wh-marking, that and bare forms can package the link. Bare finite relatives generally permit an object gap but exclude a gap in the subject position of the relative clause itself. So an integrated relative can be bare with a close object gap but normally needs a marker when the gap is its immediate subject. Restriction of reference is a frequent interpretation. This contrasts with the supplementary relative, as in The books, which arrived yesterday, are upstairs. This dictionary marks the analysis as provisional.",
+      "explain": "The pattern is a nominal containing an antecedent plus a relative clause with a linked gap. It can describe a subset, as in <i>the books Kim bought</i>, or add a property of a referent already uniquely identified. Wh-marking, <i>that</i> and bare forms can package the link. Bare finite relatives generally permit an object gap but exclude a gap in the subject position of the relative clause itself. So an integrated relative can be bare with a close object gap but normally needs a marker when the gap is its immediate subject. Restriction of reference is a frequent interpretation. This contrasts with the supplementary relative, as in <i>The books, which arrived yesterday, are upstairs</i>. This dictionary marks the analysis as provisional.",
       "terms": "Traditionally called a restrictive relative clause. This dictionary says integrated, since integration is distinct from semantic restriction, and calls the other kind supplementary (traditionally non-restrictive).",
       "examples": [
         {
@@ -119,10 +119,10 @@
         }
       ],
       "watch_for": [
-        "A learner might think that must appear in every relative clause, though the books Kim bought is given as a variant.",
+        "A learner might think <i>that</i> must appear in every relative clause, though <i>the books Kim bought</i> is given as a variant.",
         "A learner might think every relative clause narrows down the referent, though this dictionary says one can also add a property of a referent already uniquely identified."
       ],
-      "activity": "Students rewrite pairs of sentences into one noun phrase with a relative clause, and test which can drop that. They then compare with a comma version using which."
+      "activity": "Students rewrite pairs of sentences into one noun phrase with a relative clause, and test which can drop <i>that</i>. They then compare with a comma version using <i>which</i>."
     }
   },
   "status": {
@@ -143,10 +143,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Integrated Relative Modifier.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/integrated-relative-modifier-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Integrated Relative Modifier.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/integrated-relative-modifier-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

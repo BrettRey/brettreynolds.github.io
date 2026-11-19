@@ -1,10 +1,10 @@
-# Inverted Additive So and Neither
+# Inverted Additive *so* and *neither*
 
 - id: `so-neither-inversion-001`
 - pattern: Clause[so/neither/nor + finite Aux + Subject]
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/so-neither-inversion-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
@@ -15,8 +15,8 @@ Affirms a parallel predication under matching polarity.
 
 ## Related constructions
 
-- Compare: Correlative Coordination with neither...nor (`neither-nor-coordination-001`)
-- Compare: Proposition Affirmation with Fronted So (`proposition-affirmation-001`)
+- Compare: Correlative Coordination with *neither … nor* (`neither-nor-coordination-001`)
+- Compare: Proposition Affirmation with Fronted *so* (`proposition-affirmation-001`)
 - Compare: Auxiliary-Stranding VP Ellipsis (`auxiliary-vp-ellipsis-001`)
 
 ## Sources
@@ -25,26 +25,26 @@ Affirms a parallel predication under matching polarity.
 
 ## Projection
 
-A positive antecedent licenses additive so, a negative one neither or nor. The new subject follows the auxiliary and the prior predicate is recoverable.
+A positive antecedent licenses additive *so*, a negative one *neither* or *nor*. The new subject follows the auxiliary and the prior predicate is recoverable.
 
 ## Reader editions (draft, AI-assisted, unreviewed; the linguist entry is the reference)
 
-### Curious reader: Saying me too with so and neither
+### Curious reader: Saying *me too* with *so* and *neither*
 
-So has Jo and neither has Jo add another person to what's just been said, with the helper verb coming before the new subject.
+*So has Jo* and *neither has Jo* add another person to what's just been said, with the helper verb coming before the new subject.
 
-After Lee has finished, you can add and so has Jo. This says Jo has finished too. For a negative statement, you use neither: Lee hasn't finished, and neither has Jo.
+After Lee has finished, you can add *and so has Jo*. This says Jo has finished too. For a negative statement, you use *neither*: *Lee hasn't finished, and neither has Jo*.
 
-In both, the helper verb (has) comes before the person (Jo), and the rest of the earlier statement is understood without being repeated. A positive statement before it calls for so, a negative one for neither or nor. This dictionary marks the analysis as provisional.
+In both, the helper verb (*has*) comes before the person (*Jo*), and the rest of the earlier statement is understood without being repeated. A positive statement before it calls for *so*, a negative one for *neither* or *nor*. This dictionary marks the analysis as provisional.
 
 ### Teacher
 
-Helps explain so, neither and nor with subject-auxiliary inversion for additive agreement.
+Helps explain *so*, *neither* and *nor* with subject-auxiliary inversion for additive agreement.
 
-In this additive pattern, so, neither or nor is followed by a finite auxiliary and then the subject. It affirms a parallel predication under matching polarity: a positive antecedent licenses so, and a negative one licenses neither or nor. The new subject follows the auxiliary, and the prior predicate is recoverable. This dictionary relates it to auxiliary VP ellipsis. CGEL discusses it under inversion after additive so and neither. The analysis is marked provisional.
+In this additive pattern, *so*, *neither* or *nor* is followed by a finite auxiliary and then the subject. It affirms a parallel predication under matching polarity: a positive antecedent licenses *so*, and a negative one licenses *neither* or *nor*. The new subject follows the auxiliary, and the prior predicate is recoverable. This dictionary relates it to auxiliary VP ellipsis. CGEL discusses it under inversion after additive so and neither. The analysis is marked provisional.
 
 ### Child
 
-How do you say "me too" in a longer way?
+How do you say "*me too*" in a longer way?
 
-You can add another person with so or neither. Lee has finished, and so has Jo. Say neither when the first part is negative.
+You can add another person with *so* or *neither*. *Lee has finished, and so has Jo*. Say *neither* when the first part is negative.

@@ -1,6 +1,6 @@
 {
   "id": "than-reduced-clause-001",
-  "name": "Reduced Than Comparative Clause",
+  "name": "Reduced <i>than</i> Comparative Clause",
   "pattern": "comparative governor + than + finite clause with constructionally unexpressed element",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/than-reduced-clause-001/",
@@ -9,7 +9,7 @@
   },
   "entry": {
     "id": "than-reduced-clause-001",
-    "name": "Reduced Than Comparative Clause",
+    "name": "Reduced <i>than</i> Comparative Clause",
     "pattern": "comparative governor + than + finite clause with constructionally unexpressed element",
     "type": "syntactic",
     "meanings": {
@@ -34,7 +34,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The duration slot corresponding to longer is understood without an overt degree expression. The gap can occur inside a nonfinite complement of the standard clause.",
+        "target": "The duration slot corresponding to <i>longer</i> is understood without an overt degree expression. The gap can occur inside a nonfinite complement of the standard clause.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -43,19 +43,19 @@
   "editions": {
     "curious": {
       "title": "Comparisons that leave a word out",
-      "summary": "In a than-clause, part of the clause can be missing but still understood.",
-      "body": "In It took longer than we had expected it to take, the clause after than gives the standard for the comparison. It is missing something. We understand how long we expected it to take, though that duration isn't spelled out.\n\nThat missing element corresponds to the word longer. The gap can even sit inside a to-phrase within the than-clause, as in expected it to take.\n\nThis dictionary marks the analysis as provisional and rests on one constructed illustration.",
+      "summary": "In a <i>than</i>-clause, part of the clause can be missing but still understood.",
+      "body": "In <i>It took longer than we had expected it to take</i>, the clause after <i>than</i> gives the standard for the comparison. It is missing something. We understand how long we expected it to take, though that duration isn't spelled out.\n\nThat missing element corresponds to the word <i>longer</i>. The gap can even sit inside a <i>to</i>-phrase within the <i>than</i>-clause, as in <i>expected it to take</i>.\n\nThis dictionary marks the analysis as provisional and rests on one constructed illustration.",
       "examples": [
         {
           "text": "It took longer [than we had expected it to take].",
           "from": "entry"
         }
       ],
-      "try": "Finish this sentence in your own words. The trip took longer than ..."
+      "try": "Finish this sentence in your own words. <i>The trip took longer than ...</i>"
     },
     "teacher": {
-      "summary": "Optional enrichment on than-clauses with an understood missing element.",
-      "explain": "The pattern is a comparative governor, than and a finite clause with a constructionally unexpressed element. The clause supplies a comparison standard and its reduction is predictable. In It took longer than we had expected it to take, the duration slot corresponding to longer is understood without an overt degree expression. The gap can occur inside a nonfinite complement of the standard clause, here the to-phrase. This dictionary marks the analysis as provisional and has one constructed illustration, so use it as a starting point rather than a full account of comparative clauses.",
+      "summary": "Optional enrichment on <i>than</i>-clauses with an understood missing element.",
+      "explain": "The pattern is a comparative governor, <i>than</i> and a finite clause with a constructionally unexpressed element. The clause supplies a comparison standard and its reduction is predictable. In <i>It took longer than we had expected it to take</i>, the duration slot corresponding to <i>longer</i> is understood without an overt degree expression. The gap can occur inside a nonfinite complement of the standard clause, here the <i>to</i>-phrase. This dictionary marks the analysis as provisional and has one constructed illustration, so use it as a starting point rather than a full account of comparative clauses.",
       "terms": "Comparative clause is the standard textbook term. This dictionary’s own label for the missing element is a constructionally unexpressed element.",
       "examples": [
         {
@@ -64,10 +64,10 @@
         }
       ],
       "watch_for": [
-        "A learner might look for an overt expression of how long after take and think something is missing by mistake.",
-        "A learner might not link the gap in the than-clause back to the comparative word longer."
+        "A learner might look for an overt expression of how long after <i>take</i> and think something is missing by mistake.",
+        "A learner might not link the gap in the <i>than</i>-clause back to the comparative word <i>longer</i>."
       ],
-      "activity": "Students write a sentence with a comparative word and than plus a clause, such as longer than we had expected. They then say what the missing amount is and which word in the first part it matches."
+      "activity": "Students write a sentence with a comparative word and <i>than</i> plus a clause, such as <i>longer than we had expected</i>. They then say what the missing amount is and which word in the first part it matches."
     }
   },
   "status": {
@@ -88,10 +88,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Reduced Than Comparative Clause.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/than-reduced-clause-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Reduced <i>than</i> Comparative Clause.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/than-reduced-clause-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

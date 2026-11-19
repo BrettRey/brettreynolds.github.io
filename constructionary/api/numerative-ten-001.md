@@ -1,10 +1,10 @@
-# Ten Numerative
+# *ten* Numerative
 
 - id: `numerative-ten-001`
 - pattern: Det[ten]
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/numerative-ten-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
@@ -25,20 +25,20 @@ Specifies a cardinality of ten
 
 ## Projection
 
-Ten chapters uses ten directly with a plural nominal. In two tens, the separate cardinal two quantifies two realizations of the value and tens inflects. An independent use of ten does not force either analysis across contexts.
+*Ten chapters* uses *ten* directly with a plural nominal. In *two tens*, the separate cardinal *two* quantifies two realizations of the value and *tens* inflects. An independent use of *ten* does not force either analysis across contexts.
 
 ## Reader editions (draft, AI-assisted, unreviewed; the linguist entry is the reference)
 
-### Curious reader: The word ten
+### Curious reader: The word *ten*
 
-Ten is a single word that other number words, such as -teen and -ty ones, are built from.
+*Ten* is a single word that other number words, such as *-teen* and *-ty* ones, are built from.
 
-Ten is a single word that specifies the amount ten. It can stand in front of a plural noun, as in ten chapters, and it's the base that the -teen and -ty numbers are formed from.
+*Ten* is a single word that specifies the amount ten. It can stand in front of a plural noun, as in *ten chapters*, and it's the base that the *-teen* and *-ty* numbers are formed from.
 
-Ten can also be counted. In two tens, the number two counts two portions of the value ten, and tens takes a plural ending. This dictionary says that ten used on its own doesn't force either analysis in every context.
+*Ten* can also be counted. In *two tens*, the number two counts two portions of the value ten, and *tens* takes a plural ending. This dictionary says that *ten* used on its own doesn't force either analysis in every context.
 
 ### Teacher
 
-Explains ten as a basic numerative and how it differs from the noun use in two tens.
+Explains *ten* as a basic numerative and how it differs from the noun use in *two tens*.
 
-Ten is a monomorphemic lexeme specifying a cardinality of ten. It occurs in all basic numerative positions, including determiner and factor, and is the morphological base for -teen and -ty. Ten chapters uses ten directly with a plural nominal. In two tens, the separate cardinal two quantifies two realizations of the value and tens inflects, as a noun would. This dictionary doesn't force either analysis for an independent use of ten across contexts. It is provisional.
+*Ten* is a monomorphemic lexeme specifying a cardinality of ten. It occurs in all basic numerative positions, including determiner and factor, and is the morphological base for *-teen* and *-ty*. *Ten chapters* uses *ten* directly with a plural nominal. In *two tens*, the separate cardinal *two* quantifies two realizations of the value and *tens* inflects, as a noun would. This dictionary doesn't force either analysis for an independent use of *ten* across contexts. It is provisional.

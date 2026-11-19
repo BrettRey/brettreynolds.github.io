@@ -22,7 +22,7 @@
           },
           {
             "form": "They requested [that the gate not be opened].",
-            "note": "Constructed comparison. The subjunctive uses plain be after not, without support from do."
+            "note": "Constructed comparison. The subjunctive uses plain <i>be</i> after <i>not</i>, without support from <i>do</i>."
           }
         ]
       }
@@ -49,7 +49,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Remain does not carry third-person singular marking. With negative not the plain form can occur without finite do, as in that it not remain closed.",
+        "target": "<i>Remain</i> does not carry third-person singular marking. With negative <i>not</i> the plain form can occur without finite <i>do</i>, as in <i>that it not remain closed</i>.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -58,8 +58,8 @@
   "editions": {
     "curious": {
       "title": "Clauses that state a requirement",
-      "summary": "After words like requested, a that-clause can use the plain form of the verb to say what is required or recommended.",
-      "body": "In They requested that the gate remain closed, the clause after that gives the content of a request. The verb remain is in its plain form: it doesn't take an -s even though the gate is singular.\n\nThe plain form also shows up with not. In that the gate not be opened, not comes before plain be, and no do is needed. The grammar books call this the subjunctive.\n\nThis dictionary marks the analysis as provisional and gives only constructed examples.",
+      "summary": "After words like <i>requested</i>, a <i>that</i>-clause can use the plain form of the verb to say what is required or recommended.",
+      "body": "In <i>They requested that the gate remain closed</i>, the clause after <i>that</i> gives the content of a request. The verb <i>remain</i> is in its plain form: it doesn't take an <i>-s</i> even though the gate is singular.\n\nThe plain form also shows up with <i>not</i>. In <i>that the gate not be opened</i>, <i>not</i> comes before plain <i>be</i>, and no <i>do</i> is needed. The grammar books call this the subjunctive.\n\nThis dictionary marks the analysis as provisional and gives only constructed examples.",
       "examples": [
         {
           "text": "They requested [that the gate remain closed].",
@@ -70,11 +70,11 @@
           "from": "entry"
         }
       ],
-      "try": "Say They requested that the gate remain closed. What would the verb be in an ordinary statement, The gate remains closed? How does remain differ?"
+      "try": "Say <i>They requested that the gate remain closed</i>. What would the verb be in an ordinary statement, <i>The gate remains closed</i>? How does <i>remain</i> differ?"
     },
     "teacher": {
-      "summary": "Explains why a that-clause after request-type words takes the plain verb form and does not mark person or tense.",
-      "explain": "The mandative subjunctive is a content clause with (that), a subject and a plain-form verb, presenting the content of a requirement, recommendation or request. Remain does not carry third-person singular marking. With negative not, the plain form can occur without finite do, as in that it not remain closed. In They requested that the gate not be opened, plain be follows not without support from do. This dictionary marks the analysis as provisional and a separate entry covers the related mandative should construction.",
+      "summary": "Explains why a <i>that</i>-clause after request-type words takes the plain verb form and does not mark person or tense.",
+      "explain": "The mandative subjunctive is a content clause with (<i>that</i>), a subject and a plain-form verb, presenting the content of a requirement, recommendation or request. <i>Remain</i> does not carry third-person singular marking. With negative <i>not</i>, the plain form can occur without finite <i>do</i>, as in <i>that it not remain closed</i>. In <i>They requested that the gate not be opened</i>, plain <i>be</i> follows <i>not</i> without support from <i>do</i>. This dictionary marks the analysis as provisional and a separate entry covers the related mandative <i>should</i> construction.",
       "terms": "Mandative subjunctive is a textbook name. In CGEL terms the verb is a plain form in a declarative content clause.",
       "examples": [
         {
@@ -95,14 +95,14 @@
         {
           "text": "They requested that the gate not be opened.",
           "from": "entry",
-          "note": "Plain be after not, without support from do."
+          "note": "Plain <i>be</i> after <i>not</i>, without support from <i>do</i>."
         }
       ],
       "watch_for": [
-        "A learner might expect -s on remain because the gate is third-person singular.",
-        "A learner might expect do to support not in the clause, when plain be follows not directly."
+        "A learner might expect <i>-s</i> on <i>remain</i> because the gate is third-person singular.",
+        "A learner might expect <i>do</i> to support <i>not</i> in the clause, when plain <i>be</i> follows <i>not</i> directly."
       ],
-      "activity": "Students complete sentences beginning with demand, insist, recommend and request followed by a that-clause. They circle the verb form and say whether it carries person or tense marking."
+      "activity": "Students complete sentences beginning with <i>demand</i>, <i>insist</i>, <i>recommend</i> and <i>request</i> followed by a <i>that</i>-clause. They circle the verb form and say whether it carries person or tense marking."
     }
   },
   "status": {
@@ -123,10 +123,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Mandative Subjunctive.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/subjunctive-mandative-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Mandative Subjunctive.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/subjunctive-mandative-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

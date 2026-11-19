@@ -80,9 +80,9 @@
           {
             "property": "Scale comparison morphology/periphrasis",
             "diagnostics": [
-              "-er/-est",
-              "more/most",
-              "as X as"
+              "<i>-er</i>/<i>-est</i>",
+              "<i>more</i>/<i>most</i>",
+              "<i>as X as</i>"
             ],
             "weight": "high"
           },
@@ -98,8 +98,8 @@
           {
             "property": "Measure phrase integration",
             "diagnostics": [
-              "two inches taller",
-              "three times as X"
+              "<i>two inches taller</i>",
+              "<i>three times as X</i>"
             ],
             "weight": "medium"
           }
@@ -124,7 +124,7 @@
         }
       ],
       "projection": {
-        "target": "The same dimension can have an explicit differential in two centimetres wider and a simple comparative in wider. An equality comparison can instead supply a standard with as wide as. The constructions test comparison structure separately from the particular scale chosen.",
+        "target": "The same dimension can have an explicit differential in <i>two centimetres wider</i> and a simple comparative in <i>wider</i>. An equality comparison can instead supply a standard with <i>as wide as</i>. The constructions test comparison structure separately from the particular scale chosen.",
         "evidence": "CGEL discusses equality and inequality and separates differential modification from the standard phrase.",
         "confidence": "medium"
       },
@@ -147,8 +147,8 @@
           "adjective-001"
         ],
         "known_boundary_items": [
-          "unique",
-          "dead"
+          "<i>unique</i>",
+          "<i>dead</i>"
         ]
       },
       "grain": {
@@ -184,8 +184,8 @@
   "editions": {
     "curious": {
       "title": "Comparing things on a scale",
-      "summary": "English has a few ways to say where something sits on a scale, such as taller than, the tallest and as tall as.",
-      "body": "Words like tall, expensive or short describe a scale, and English has patterns for placing things on it. Taller than and more expensive than compare two things. The tallest and the most expensive pick out the end of the scale. As tall as says two things are level.\n\nThe patterns can also say how big the difference is: much taller, two feet taller. And they can compare against a group or a standard, as in taller than average or most expensive of all. This dictionary treats the analysis as provisional.",
+      "summary": "English has a few ways to say where something sits on a scale, such as <i>taller than</i>, <i>the tallest</i> and <i>as tall as</i>.",
+      "body": "Words like <i>tall</i>, <i>expensive</i> or <i>short</i> describe a scale, and English has patterns for placing things on it. <i>Taller than</i> and <i>more expensive than</i> compare two things. <i>The tallest</i> and <i>the most expensive</i> pick out the end of the scale. <i>As tall as</i> says two things are level.\n\nThe patterns can also say how big the difference is: <i>much taller</i>, <i>two feet taller</i>. And they can compare against a group or a standard, as in <i>taller than average</i> or <i>most expensive of all</i>. This dictionary treats the analysis as provisional.",
       "examples": [
         {
           "text": "[as tall as]",
@@ -204,11 +204,11 @@
           "from": "constructed"
         }
       ],
-      "try": "Pick two objects in the room and compare them with taller than, then with as tall as. Now try the least expensive thing you can see."
+      "try": "Pick two objects in the room and compare them with <i>taller than</i>, then with <i>as tall as</i>. Now try the least expensive thing you can see."
     },
     "teacher": {
       "summary": "Helps explain comparatives, superlatives and equatives as ways of placing something on a scale.",
-      "explain": "Degree constructions denote relative scale position. The comparative (-er or more/less: taller, more expensive), the superlative (-est or most/least: tallest, most expensive) and the equative (as tall as) encode scale relations. Measure and differential phrases denote intervals (much taller, two feet taller), and comparison classes supply a reference set or standard (taller than average, most expensive of all). The patterns apply to gradable adjectives and adverbs. This dictionary notes that degree frames are degraded with absolute adjectives and lists unique and dead as boundary items. The analysis is provisional.",
+      "explain": "Degree constructions denote relative scale position. The comparative (<i>-er</i> or <i>more</i>/<i>less</i>: <i>taller</i>, <i>more expensive</i>), the superlative (<i>-est</i> or <i>most</i>/<i>least</i>: <i>tallest</i>, <i>most expensive</i>) and the equative (<i>as tall as</i>) encode scale relations. Measure and differential phrases denote intervals (<i>much taller</i>, <i>two feet taller</i>), and comparison classes supply a reference set or standard (<i>taller than average</i>, <i>most expensive of all</i>). The patterns apply to gradable adjectives and adverbs. This dictionary notes that degree frames are degraded with absolute adjectives and lists <i>unique</i> and <i>dead</i> as boundary items. The analysis is provisional.",
       "terms": "This dictionary's term for the broader scale meaning is degree.",
       "examples": [
         {
@@ -250,14 +250,14 @@
         }
       ],
       "watch_for": [
-        "A learner might expect degree frames to work with any adjective, when absolute adjectives such as unique and dead are boundary items.",
-        "A learner might treat much taller and two feet taller as the same kind of difference, when this dictionary treats much taller as a relative interval and two feet taller as a measured interval."
+        "A learner might expect degree frames to work with any adjective, when absolute adjectives such as <i>unique</i> and <i>dead</i> are boundary items.",
+        "A learner might treat <i>much taller</i> and <i>two feet taller</i> as the same kind of difference, when this dictionary treats <i>much taller</i> as a relative interval and <i>two feet taller</i> as a measured interval."
       ],
       "activity": "Students measure or rank classroom objects, then write sentences with a comparative, a superlative, an equative and a measure phrase. They swap and check that each sentence matches the facts."
     },
     "child": {
       "hook": "How do you say one thing is more than another?",
-      "explain": "We compare things with words like taller, tallest and as tall as. Taller than compares two things. The tallest in the class means no one in the class is taller. As tall as says they match.",
+      "explain": "We compare things with words like <i>taller</i>, <i>tallest</i> and <i>as tall as</i>. <i>Taller than</i> compares two things. <i>The tallest in the class</i> means no one in the class is taller. <i>As tall as</i> says they match.",
       "examples": [
         {
           "text": "Mia is [taller than] Sam.",
@@ -272,7 +272,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Compare three objects, like pencils or shoes. Make a sentence with taller, one with the tallest and one with as tall as. Can a friend tell which object you mean?"
+      "play": "Compare three objects, like pencils or shoes. Make a sentence with <i>taller</i>, one with <i>the tallest</i> and one with <i>as tall as</i>. Can a friend tell which object you mean?"
     }
   },
   "status": {
@@ -294,10 +294,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Degree.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/degree-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Degree.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/degree-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

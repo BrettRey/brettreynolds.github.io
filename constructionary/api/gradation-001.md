@@ -4,7 +4,7 @@
 - pattern: X < {tall, deep, quick, ...} >
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/gradation-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
@@ -37,15 +37,15 @@ Semantic features encoding comparison class
 
 - Interacts with: Adjective (`adjective-001`)
 - Compare: Degree (`degree-001`)
-- Interacts with: Domain Adjunct with -Wise (`domain-wise-adjunct-001`)
-- Interacts with: Sufficient Degree Enough with an Infinitival (`enough-degree-infinitival-001`)
-- Interacts with: Scalar Equative As … As (`equative-as-as-001`)
+- Interacts with: Domain Adjunct with *-wise* (`domain-wise-adjunct-001`)
+- Interacts with: Sufficient Degree *enough* with an Infinitival (`enough-degree-infinitival-001`)
+- Interacts with: Scalar Equative *as … as* (`equative-as-as-001`)
 - Compare: Measurement with a Scale Adjective (`measure-adjective-001`)
-- Compare: Scalar Equative As … As (`equative-as-as-001`)
-- Interacts with: Metalinguistic More … Than (`metalinguistic-more-than-001`)
+- Compare: Scalar Equative *as … as* (`equative-as-as-001`)
+- Interacts with: Metalinguistic *more … than* (`metalinguistic-more-than-001`)
 - Interacts with: Scalar Endpoint Adjective in a Resultative (`resultative-scalar-state-001`)
 - Interacts with: Scalar Superlative with a Comparison Set (`superlative-grade-001`)
-- Interacts with: Excess Degree Too with an Infinitival (`too-degree-infinitival-001`)
+- Interacts with: Excess Degree *too* with an Infinitival (`too-degree-infinitival-001`)
 
 ## Sources
 
@@ -53,22 +53,22 @@ Semantic features encoding comparison class
 
 ## Projection
 
-Positive tall relies on a contextually set standard. Six feet tall can place someone on the scale without settling whether they count as tall for a basketball player.
+Positive *tall* relies on a contextually set standard. *Six feet tall* can place someone on the scale without settling whether they count as tall for a basketball player.
 
 ## Reader editions (draft, AI-assisted, unreviewed; the linguist entry is the reference)
 
 ### Curious reader: Words for things that come in degrees
 
-Words like tall, deep and quick describe something you can measure on a scale, and what counts as tall depends on what you compare it with.
+Words like *tall*, *deep* and *quick* describe something you can measure on a scale, and what counts as tall depends on what you compare it with.
 
-Tall is about height, and quick is about speed. Each picks out a scale, and a person or thing sits somewhere along it.
+*Tall* is about height, and *quick* is about speed. Each picks out a scale, and a person or thing sits somewhere along it.
 
-Scales come in different shapes. Full and empty have a closed scale, while long and short have an open one. The standard matters too: tall for a child is judged against children, and perfectly clean sets an absolute standard.
+Scales come in different shapes. *Full* and *empty* have a closed scale, while *long* and *short* have an open one. The standard matters too: *tall for a child* is judged against children, and *perfectly clean* sets an absolute standard.
 
-Six feet tall places someone on the height scale without deciding whether that person counts as tall for a basketball player. That is a separate question, set by the context.
+*Six feet tall* places someone on the height scale without deciding whether that person counts as tall for a basketball player. That is a separate question, set by the context.
 
 ### Teacher
 
 Gives a vocabulary for talking about scales and standards when teaching gradable adjectives.
 
-Gradation is the semantic side of gradable properties. This dictionary separates three things: the scalar property itself (tall on a height scale, quick on a speed scale), the shape of the scale (full and empty, closed; long and short, open), and the standard of comparison (tall for a child, which is class-relative, and perfectly clean, which is absolute). Positive tall relies on a contextually set standard. Six feet tall places someone on the scale without settling whether they count as tall for a basketball player. This dictionary marks this analysis as provisional.
+Gradation is the semantic side of gradable properties. This dictionary separates three things: the scalar property itself (*tall* on a height scale, *quick* on a speed scale), the shape of the scale (*full* and *empty*, closed; *long* and *short*, open), and the standard of comparison (*tall for a child*, which is class-relative, and *perfectly clean*, which is absolute). Positive *tall* relies on a contextually set standard. *Six feet tall* places someone on the scale without settling whether they count as tall for a basketball player. This dictionary marks this analysis as provisional.

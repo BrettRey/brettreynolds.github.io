@@ -4,15 +4,15 @@
 - pattern: Head:V + Comp:PP[locative, goal]
 - status: provisional analysis; evidence level: stable
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/goal-complement-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
 A VP contains a locative complement bearing the goal role, yielding directed motion toward a final location
 
-Goal is a semantic role, while locative complement is the CGEL syntactic function. Realizations include to-PPs (go to the shop), compound goal PPs headed by into or onto (run into the garden), and unmarked goal PPs headed by complementless locative prepositions (go home, head abroad). Direction PPs headed by towards or compass terms form a distinct category. *Go to home is excluded by to's NP-object complementation, not by the goal construction (CGEL pp. 257–59, 686–88).
+Goal is a semantic role, while locative complement is the CGEL syntactic function. Realizations include *to*-PPs (*go to the shop*), compound goal PPs headed by *into* or *onto* (*run into the garden*), and unmarked goal PPs headed by complementless locative prepositions (*go home*, *head abroad*). Direction PPs headed by *towards* or compass terms form a distinct category. **Go to home* is excluded by *to*'s NP-object complementation, not by the goal construction (CGEL pp. 257–59, 686–88).
 
-- *go [to the shop]*: Goal-role locative complement headed by transitive to
+- *go [to the shop]*: Goal-role locative complement headed by transitive *to*
 - *go [to church]*: To-PP with a bare institutional NP object
 - *go [home]*: Goal-role locative complement realized by a one-word PP
 - *The sailors went [ashore].*: Complementless-P realization of the goal slot
@@ -35,15 +35,15 @@ This is the constructional residue: the verb contributes manner or emission whil
 ## Related constructions
 
 - Compare: Caused-Motion Construction (`caused-motion-001`)
-- Compare: Come with a Motion or Sound Participial (`come-with-motion-participial-001`)
-- Compare: Conative At (`conative-at-001`)
+- Compare: *come* with a Motion or Sound Participial (`come-with-motion-participial-001`)
+- Compare: Conative *at* (`conative-at-001`)
 - A kind of: Verb Phrase (`vp-001`): The goal-role locative complement is licensed within VP structure
 - Contains: Preposition Phrase (`pp-001`): The goal-role locative complement is a PP
 - Compare: Source Locative-Complement Construction (`source-complement-001`): Sister semantic roles within the locative-complement family
 - Compare: Matched Bare Endpoints (`matched-bare-endpoints-001`)
 - Compare: Object-Oriented Resultative Construction (`object-resultative-001`)
 - Compare: Path Locative-Complement Construction (`path-complement-001`)
-- Compare: Way-Motion Construction (`way-motion-001`)
+- Compare: *way*-Motion Construction (`way-motion-001`)
 
 ## Sources
 
@@ -52,20 +52,20 @@ This is the constructional residue: the verb contributes manner or emission whil
 
 ## Projection
 
-A manner or emission verb followed by an integrated locative PP predicts a coerced directed-motion reading even when the verb lacks lexical direction or goal semantics; established goal instances range across to-PPs, compound into/onto PPs, and unmarked locative PPs
+A manner or emission verb followed by an integrated locative PP predicts a coerced directed-motion reading even when the verb lacks lexical direction or goal semantics; established goal instances range across *to*-PPs, compound *into*/*onto* PPs, and unmarked locative PPs
 
 ## Reader editions (draft, AI-assisted, unreviewed; the linguist entry is the reference)
 
 ### Curious reader: Phrases that say where the movement ends
 
-With a verb of movement, a short phrase can say where the movement ends, as in go to the shop.
+With a verb of movement, a short phrase can say where the movement ends, as in *go to the shop*.
 
-In go to the shop, to the shop says where the going ends up. The same job is done by go home, where one word names the place, and by run into the garden.
+In *go to the shop*, *to the shop* says where the going ends up. The same job is done by *go home*, where one word names the place, and by *run into the garden*.
 
-The frame can also bring the movement itself. In The bottle floated into the cave, floated says how the bottle moved, and into the cave gives the direction and the end point. The same happens with The fly buzzed into the room and She danced into the hall, even though buzzed and danced don't themselves carry a direction or a goal.
+The frame can also bring the movement itself. In *The bottle floated into the cave*, *floated* says how the bottle moved, and *into the cave* gives the direction and the end point. The same happens with *The fly buzzed into the room* and *She danced into the hall*, even though *buzzed* and *danced* don't themselves carry a direction or a goal.
 
 ### Teacher
 
-Helps explain how a place phrase after a verb marks the end point of movement, including with manner verbs like float.
+Helps explain how a place phrase after a verb marks the end point of movement, including with manner verbs like *float*.
 
-The goal role is a semantic role; the syntactic function is locative complement. This dictionary lists three realizations: to-PPs (go to the shop), compound goal PPs headed by into or onto (run into the garden), and one-word PPs headed by a complementless preposition (go home, head abroad). Direction PPs headed by towards or compass terms are a distinct category. With manner or emission verbs the frame itself supplies the directed motion: floated into the cave. The PP is a complement integrated into the motion VP, not an adjunct.
+The goal role is a semantic role; the syntactic function is locative complement. This dictionary lists three realizations: *to*-PPs (*go to the shop*), compound goal PPs headed by *into* or *onto* (*run into the garden*), and one-word PPs headed by a complementless preposition (*go home*, *head abroad*). Direction PPs headed by *towards* or compass terms are a distinct category. With manner or emission verbs the frame itself supplies the directed motion: *floated into the cave*. The PP is a complement integrated into the motion VP, not an adjunct.

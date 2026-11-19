@@ -53,19 +53,19 @@
   "editions": {
     "curious": {
       "title": "Whatever happens, the same thing holds",
-      "summary": "A phrase beginning with a question word, or one with ever added, says the main claim holds across all the possible answers.",
-      "body": "In Whatever Jo suggests, we need a vote, the first part doesn't name one suggestion. It covers whatever suggestion Jo might make, and the main claim holds across all of them. We need a vote whichever suggestion it is.\n\nThis differs from a phrase that stands for the suggestion itself, as in We accepted whatever Jo suggested. There, whatever Jo suggested names the thing accepted. In the pattern here, the opening phrase doesn't fill a role like that. It sets the range of cases over which the main claim is true.\n\nThe dictionary marks this account as provisional.",
+      "summary": "A phrase beginning with a question word, or one with <i>ever</i> added, says the main claim holds across all the possible answers.",
+      "body": "In <i>Whatever Jo suggests, we need a vote</i>, the first part doesn't name one suggestion. It covers whatever suggestion Jo might make, and the main claim holds across all of them. We need a vote whichever suggestion it is.\n\nThis differs from a phrase that stands for the suggestion itself, as in <i>We accepted whatever Jo suggested</i>. There, <i>whatever Jo suggested</i> names the thing accepted. In the pattern here, the opening phrase doesn't fill a role like that. It sets the range of cases over which the main claim is true.\n\nThe dictionary marks this account as provisional.",
       "examples": [
         {
           "text": "[Whatever Jo suggests], we need a vote.",
           "from": "entry"
         }
       ],
-      "try": "Complete this: Whoever wins, ... Does what you wrote hold for every possible winner?"
+      "try": "Complete this: <i>Whoever wins, ...</i> Does what you wrote hold for every possible winner?"
     },
     "teacher": {
-      "summary": "For advanced classes, whatever- and wh-clauses that make a claim hold across all values.",
-      "explain": "The pattern is an adjunct built from an interrogative phrase or a wh-ever word plus a finite clause. It makes the main claim hold across values for an open variable. In Whatever Jo suggests, we need a vote, the adjunct does not fill a nominal argument role: the main claim holds across suggestions. This contrasts with an object fused relative, where the wh-phrase denotes the suggestion itself. This dictionary marks its analysis provisional and links related entries on exhaustive alternative conditionals and fused relative noun phrases.",
+      "summary": "For advanced classes, <i>whatever</i>- and wh-clauses that make a claim hold across all values.",
+      "explain": "The pattern is an adjunct built from an interrogative phrase or a wh-ever word plus a finite clause. It makes the main claim hold across values for an open variable. In <i>Whatever Jo suggests, we need a vote</i>, the adjunct does not fill a nominal argument role: the main claim holds across suggestions. This contrasts with an object fused relative, where the wh-phrase denotes the suggestion itself. This dictionary marks its analysis provisional and links related entries on exhaustive alternative conditionals and fused relative noun phrases.",
       "terms": "Sometimes called an unconditional clause or a free-choice conditional. This dictionary’s name is open exhaustive conditional.",
       "examples": [
         {
@@ -81,10 +81,10 @@
         }
       ],
       "watch_for": [
-        "A learner might read whatever Jo suggests as the thing needed, when it frames the claim.",
+        "A learner might read <i>whatever Jo suggests</i> as the thing needed, when it frames the claim.",
         "A learner might confuse the adjunct with a fused relative that names a thing."
       ],
-      "activity": "Students write three sentences beginning Whatever, Whoever or Wherever plus a clause, then a main claim that holds in every case. Pairs read them aloud and check whether the claim really holds for all cases."
+      "activity": "Students write three sentences beginning <i>Whatever</i>, <i>Whoever</i> or <i>Wherever</i> plus a clause, then a main claim that holds in every case. Pairs read them aloud and check whether the claim really holds for all cases."
     }
   },
   "status": {
@@ -105,10 +105,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Open Exhaustive Conditional.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/unconditional-wh-adjunct-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Open Exhaustive Conditional.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/unconditional-wh-adjunct-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

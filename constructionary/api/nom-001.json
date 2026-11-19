@@ -109,7 +109,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "An expansion of chair to old chair can fit inside the frame the __ without adding another determiner. The resulting old chair still normally requires a determiner as an independent singular count argument.",
+        "target": "An expansion of <i>chair</i> to <i>old chair</i> can fit inside the frame <i>the __</i> without adding another determiner. The resulting <i>old chair</i> still normally requires a determiner as an independent singular count argument.",
         "evidence": "CGEL distinguishes the noun-headed phrase that determination combines with from the resulting NP.",
         "confidence": "medium"
       }
@@ -118,8 +118,8 @@
   "editions": {
     "curious": {
       "title": "A noun with its describing words",
-      "summary": "The part of a noun phrase made of a noun and its modifiers, not counting the word like the in front.",
-      "body": "In wooden chair, the noun chair is described by wooden. In mother of three, of three adds more about the relation. In knowledge that it is true, the clause after knowledge tells you what the knowledge is about.\n\nThis dictionary calls such a unit a nominal: a head noun with optional modifiers before it and optional modifiers or complements after it. It supplies the core description in a noun phrase. A nominal such as old chair fits in a frame like the ___ without adding another determiner.",
+      "summary": "The part of a noun phrase made of a noun and its modifiers, not counting the word like <i>the</i> in front.",
+      "body": "In <i>wooden chair</i>, the noun <i>chair</i> is described by <i>wooden</i>. In <i>mother of three</i>, <i>of three</i> adds more about the relation. In <i>knowledge that it is true</i>, the clause after <i>knowledge</i> tells you what the knowledge is about.\n\nThis dictionary calls such a unit a nominal: a head noun with optional modifiers before it and optional modifiers or complements after it. It supplies the core description in a noun phrase. A nominal such as <i>old chair</i> fits in a frame like <i>the ___</i> without adding another determiner.",
       "examples": [
         {
           "text": "[wooden chair]",
@@ -138,11 +138,11 @@
           "from": "entry"
         }
       ],
-      "try": "Start with a plain noun, such as chair. How many describing words can you add before and after it?"
+      "try": "Start with a plain noun, such as <i>chair</i>. How many describing words can you add before and after it?"
     },
     "teacher": {
       "summary": "Explains the nominal as the head noun plus its modifiers and complements, apart from the determiner.",
-      "explain": "A nominal has a required head noun, optional pre-head modifiers and optional post-head modifiers or complements. Its descriptive content restricts or elaborates the head's denotation: wooden chair restricts material features and mother of three elaborates a relation. It is immediately dominated by the noun phrase and can be bare in certain contexts. An expansion of chair to old chair can fit inside the frame the ___ without adding another determiner, but the resulting old chair normally still requires a determiner as an independent singular count argument.",
+      "explain": "A nominal has a required head noun, optional pre-head modifiers and optional post-head modifiers or complements. Its descriptive content restricts or elaborates the head's denotation: <i>wooden chair</i> restricts material features and <i>mother of three</i> elaborates a relation. It is immediately dominated by the noun phrase and can be bare in certain contexts. An expansion of <i>chair</i> to <i>old chair</i> can fit inside the frame <i>the ___</i> without adding another determiner, but the resulting <i>old chair</i> normally still requires a determiner as an independent singular count argument.",
       "terms": "Nom is the CGEL label used here. Some generative textbooks call a comparable unit N-bar.",
       "examples": [
         {
@@ -162,7 +162,7 @@
         {
           "text": "the old chair",
           "from": "constructed",
-          "note": "The determiner the plus the nominal old chair."
+          "note": "The determiner <i>the</i> plus the nominal <i>old chair</i>."
         },
         {
           "text": "wooden chair",
@@ -172,9 +172,9 @@
       ],
       "watch_for": [
         "A learner might treat the determiner as part of the nominal.",
-        "A learner might assume the nominal can stand on its own as a full noun phrase, when old chair normally still needs a determiner as a singular count argument."
+        "A learner might assume the nominal can stand on its own as a full noun phrase, when <i>old chair</i> normally still needs a determiner as a singular count argument."
       ],
-      "activity": "Students take a plain noun, add a modifier before and a complement after (chair, old chair, mother of three), and say where a determiner would go."
+      "activity": "Students take a plain noun, add a modifier before and a complement after (<i>chair</i>, <i>old chair</i>, <i>mother of three</i>), and say where a determiner would go."
     }
   },
   "status": {
@@ -195,10 +195,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Nominal Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/nom-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Nominal Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/nom-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

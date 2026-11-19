@@ -4,13 +4,13 @@
 - pattern: NP[Determiner + Nominal based on a proper name, optionally plural or modified]
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/proper-name-secondary-use-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
 Counts or distinguishes bearers of the same name.
 
-In two Kims, two individuals satisfy the description ‘has the name Kim’. A modifier can select one Kim from that group. This use can be created even if Kim has never previously been used as an ordinary count noun in that community.
+In *two Kims*, two individuals satisfy the description ‘has the name Kim’. A modifier can select one Kim from that group. This use can be created even if *Kim* has never previously been used as an ordinary count noun in that community.
 
 - *There are [two Kims] on the committee.*: Constructed name-bearer example.
 
@@ -18,7 +18,7 @@ In two Kims, two individuals satisfy the description ‘has the name Kim’. A m
 
 Describes a person by resemblance to a salient bearer of the name.
 
-In another Einstein, the person evaluated need not have the name Einstein. A name can contribute properties of the bearer, selected by the context. With no Einstein the interpretation concerns the absence of those properties.
+In *another Einstein*, the person evaluated need not have the name *Einstein*. A name can contribute properties of the bearer, selected by the context. With *no Einstein* the interpretation concerns the absence of those properties.
 
 - *They were hoping to recruit [another Einstein].*: Constructed resemblance example.
 
@@ -26,7 +26,7 @@ In another Einstein, the person evaluated need not have the name Einstein. A nam
 
 Selects a manifestation, product, or copy associated with the named entity.
 
-The Paris of her youth identifies a period or version of Paris. A Rembrandt can refer to a painting. Some Beethoven can refer to music. A copy of a publication can be described by the title with a possessive determiner.
+*The Paris of her youth* identifies a period or version of Paris. *A Rembrandt* can refer to a painting. *Some Beethoven* can refer to music. A copy of a publication can be described by the title with a possessive determiner.
 
 - *They bought [a Rembrandt].*: Constructed example with count syntax and an artwork interpretation.
 
@@ -55,18 +55,18 @@ Numeral and plural marking can count bearers, and an indefinite NP can describe 
 
 A name can be counted, compared with, or used to mean something connected to the named person or place.
 
-In There are two Kims on the committee, Kim is used to count people who share a name. In They were hoping to recruit another Einstein, the person wanted needn't be called Einstein; what's meant is someone with the relevant qualities of Einstein.
+In *There are two Kims on the committee*, *Kim* is used to count people who share a name. In *They were hoping to recruit another Einstein*, the person wanted needn't be called *Einstein*; what's meant is someone with the relevant qualities of Einstein.
 
-A name can also pick out a version of something, a product or a copy: They bought a Rembrandt can mean they bought a painting, and some Beethoven can mean music. This dictionary keeps these readings visible without saying how many separate constructions they are, and marks the account as provisional.
+A name can also pick out a version of something, a product or a copy: *They bought a Rembrandt* can mean they bought a painting, and *some Beethoven* can mean music. This dictionary keeps these readings visible without saying how many separate constructions they are, and marks the account as provisional.
 
 ### Teacher
 
 Explains how names can behave like count nouns with number, determiners and modifiers.
 
-The pattern is a NP with a determiner and a nominal based on a proper name, optionally plural or modified. This dictionary distinguishes readings: counting or distinguishing bearers of the same name (two Kims, where a modifier can select one Kim), resemblance (another Einstein, where the person needn't have that name), and a manifestation, product or copy associated with the named entity (a Rembrandt, some Beethoven, the Paris of her youth). Numeral and plural marking can count bearers, and an indefinite NP can describe resemblance. Product uses admit count and non-count construals. This dictionary leaves open how many constructions there are. It's marked provisional.
+The pattern is a NP with a determiner and a nominal based on a proper name, optionally plural or modified. This dictionary distinguishes readings: counting or distinguishing bearers of the same name (*two Kims*, where a modifier can select one Kim), resemblance (*another Einstein*, where the person needn't have that name), and a manifestation, product or copy associated with the named entity (*a Rembrandt*, *some Beethoven*, *the Paris of her youth*). Numeral and plural marking can count bearers, and an indefinite NP can describe resemblance. Product uses admit count and non-count construals. This dictionary leaves open how many constructions there are. It's marked provisional.
 
 ### Child
 
-What do you call it when two kids are both named Kim?
+What do you call it when two kids are both named *Kim*?
 
-A name can be counted. If two people are named Kim, we can say two Kims.
+A name can be counted. If two people are named *Kim*, we can say *two Kims*.

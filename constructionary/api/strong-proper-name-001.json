@@ -14,15 +14,15 @@
     "pattern": "NP[Head:Nom[sg]; no Det] with naming semantics, in referential use",
     "type": "mixed",
     "dimensions": {
-      "form": "Singular NP with no determiner. Its head may be a proper noun (Kim, Ukraine) or a common noun in naming use (Mom, Grandma).",
+      "form": "Singular NP with no determiner. Its head may be a proper noun (<i>Kim</i>, <i>Ukraine</i>) or a common noun in naming use (<i>Mom</i>, <i>Grandma</i>).",
       "meaning": "Naming semantics: the NP identifies its referent as the bearer of a conventional name, and is inherently definite.",
       "function": "Referential use in argument functions: subject, object in a VP, object in a PP.",
-      "distribution": "Not names with the article (weak proper names: the Thames, the Philippines), not bare vocatives (Waiter!, Sally!), whose bareness comes from the vocative function."
+      "distribution": "Not names with the article (weak proper names: <i>the Thames</i>, <i>the Philippines</i>), not bare vocatives (<i>Waiter!</i>, <i>Sally!</i>), whose bareness comes from the vocative function."
     },
     "meanings": {
       "1": {
         "definition": "Identifies its referent as the bearer of a conventional name, with no determiner",
-        "details": "CGEL distinguishes strong proper names, with no determiner (Kim, New York), from weak ones, where the article marks definiteness redundantly (the Thames). The construction is the strong kind, stated as a form-meaning pairing: a determinerless singular NP with naming semantics in referential use. Proper name is a semantic classification; strong and weak describe the form of the NP; the head belongs to the NP, not to the name.",
+        "details": "CGEL distinguishes strong proper names, with no determiner (<i>Kim</i>, <i>New York</i>), from weak ones, where the article marks definiteness redundantly (<i>the Thames</i>). The construction is the strong kind, stated as a form-meaning pairing: a determinerless singular NP with naming semantics in referential use. Proper name is a semantic classification; strong and weak describe the form of the NP; the head belongs to the NP, not to the name.",
         "examples": [
           {
             "form": "[Kim] called.",
@@ -34,7 +34,7 @@
           },
           {
             "form": "[Mom] called.",
-            "note": "Common-noun head in naming use; the same noun takes a determiner in its relational use (my mom called)"
+            "note": "Common-noun head in naming use; the same noun takes a determiner in its relational use (<i>my mom called</i>)"
           },
           {
             "form": "You wanna roll the ball to [Mommy]?",
@@ -48,7 +48,7 @@
       },
       "2": {
         "definition": "Takes non-restrictive embellishments without a determiner",
-        "details": "A small set of emotive adjectives can embellish a strong name in a bare NP, without selecting among bearers. An ordinary singular count noun takes the same adjective only with a determiner (the poor dog needs a rest).",
+        "details": "A small set of emotive adjectives can embellish a strong name in a bare NP, without selecting among bearers. An ordinary singular count noun takes the same adjective only with a determiner (<i>the poor dog needs a rest</i>).",
         "examples": [
           {
             "form": "[Poor Henry] needs a rest.",
@@ -64,11 +64,11 @@
     "constraints": [
       {
         "type": "syntactic",
-        "description": "No determiner, and the NP is singular. Names plural in form (Naples, the surname Fields) are fine; syntactically plural names (the Alps) are always weak."
+        "description": "No determiner, and the NP is singular. Names plural in form (<i>Naples</i>, the surname <i>Fields</i>) are fine; syntactically plural names (<i>the Alps</i>) are always weak."
       },
       {
         "type": "semantic",
-        "description": "Requires a conventional naming relation between the form and its referent; identifiability alone is not enough (the doctor can identify one person without being a name)."
+        "description": "Requires a conventional naming relation between the form and its referent; identifiability alone is not enough (<i>the doctor</i> can identify one person without being a name)."
       },
       {
         "type": "head",
@@ -76,7 +76,7 @@
       },
       {
         "type": "pragmatic",
-        "description": "Referential use only. Bare vocatives are not instances: the vocative function allows bare common nouns too (Waiter!)."
+        "description": "Referential use only. Bare vocatives are not instances: the vocative function allows bare common nouns too (<i>Waiter!</i>)."
       }
     ],
     "relatedConstructions": [
@@ -94,7 +94,7 @@
         "id": "np-proper-001",
         "relationship": "overlaps-with",
         "overlap-dimension": "formal",
-        "notes": "Overlap is the strong proper-noun-headed NPs (London); weak names (the United Nations) are proper-noun NPs outside the construction, and common-noun heads in naming use (Mom) are inside it but not proper-noun NPs"
+        "notes": "Overlap is the strong proper-noun-headed NPs (<i>London</i>); weak names (<i>the United Nations</i>) are proper-noun NPs outside the construction, and common-noun heads in naming use (<i>Mom</i>) are inside it but not proper-noun NPs"
       },
       {
         "id": "n-proper-001",
@@ -132,7 +132,7 @@
         "locator": "Ch. 5 §20.3, pp. 519-520",
         "relation": "cites",
         "bears-on": "projection",
-        "note": "Emotive adjectives as embellishments in bare NPs (poor Henry)"
+        "note": "Emotive adjectives as embellishments in bare NPs (<i>poor Henry</i>)"
       },
       {
         "source": "goldberg-2006",
@@ -159,7 +159,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Knowing that a singular form is someone's conventional name predicts its bare use as an argument (Mom called, Ask Mom), its definite reading, and its bare emotive embellishment (poor Mom), where the same noun in relational use requires a determiner (my mom)",
+        "target": "Knowing that a singular form is someone's conventional name predicts its bare use as an argument (<i>Mom called</i>, <i>Ask Mom</i>), its definite reading, and its bare emotive embellishment (<i>poor Mom</i>), where the same noun in relational use requires a determiner (<i>my mom</i>)",
         "evidence": "CGEL's descriptions of strong names, kin-term names and emotive embellishment (pp. 517-520), and attested bare kin-term arguments in CHILDES caregiver speech",
         "confidence": "medium"
       },
@@ -178,7 +178,7 @@
             "property": "Naming semantics",
             "diagnostics": [
               "conventional name of its referent",
-              "not merely identifying (the doctor)"
+              "not merely identifying (<i>the doctor</i>)"
             ],
             "weight": "high"
           },
@@ -196,8 +196,8 @@
           {
             "property": "Bare emotive embellishment",
             "diagnostics": [
-              "poor Henry",
-              "dear old Mr Smithers"
+              "<i>poor Henry</i>",
+              "<i>dear old Mr Smithers</i>"
             ],
             "weight": "medium"
           }
@@ -209,8 +209,8 @@
           "np-bare-001"
         ],
         "known_boundary_items": [
-          "Gambia / the Gambia (optional article)",
-          "titles such as If on a winter's night a traveler (not NPs; CGEL excludes titles from the strong/weak account)"
+          "<i>Gambia</i> / <i>the Gambia</i> (optional article)",
+          "titles such as <i>If on a winter's night a traveler</i> (not NPs; CGEL excludes titles from the strong/weak account)"
         ]
       },
       "grain": {
@@ -225,8 +225,8 @@
   "editions": {
     "curious": {
       "title": "Names that stand alone",
-      "summary": "Names like Kim and New York need no the, a or my in front of them, and some family words can work the same way.",
-      "body": "A name like Kim or New York stands on its own in a sentence: Kim called. She lives in New York. A family word can do the same job when it works as a name. Mom called uses Mom as her name, while my mom called uses the same word to say what she is to me, and then it needs a determiner such as my in front.\n\nA few feeling words, such as poor, can also sit in front of a name with nothing else: Poor Henry needs a rest. Names that take the, such as the Thames, belong to a different kind. Calling out someone's name, as in Sally!, is also a separate matter.\n\nThis dictionary marks the analysis as provisional.",
+      "summary": "Names like <i>Kim</i> and <i>New York</i> need no <i>the</i>, <i>a</i> or <i>my</i> in front of them, and some family words can work the same way.",
+      "body": "A name like <i>Kim</i> or <i>New York</i> stands on its own in a sentence: <i>Kim called</i>. <i>She lives in New York</i>. A family word can do the same job when it works as a name. <i>Mom called</i> uses <i>Mom</i> as her name, while <i>my mom called</i> uses the same word to say what she is to me, and then it needs a determiner such as <i>my</i> in front.\n\nA few feeling words, such as <i>poor</i>, can also sit in front of a name with nothing else: <i>Poor Henry needs a rest</i>. Names that take <i>the</i>, such as <i>the Thames</i>, belong to a different kind. Calling out someone's name, as in <i>Sally!</i>, is also a separate matter.\n\nThis dictionary marks the analysis as provisional.",
       "examples": [
         {
           "text": "[Kim] called.",
@@ -245,12 +245,12 @@
           "from": "entry"
         }
       ],
-      "try": "Say Mom called and then my mom called. In which one is Mom what you call her?"
+      "try": "Say <i>Mom called</i> and then <i>my mom called</i>. In which one is <i>Mom</i> what you call her?"
     },
     "teacher": {
-      "summary": "Helps explain why names appear without a determiner, including a family word like Mom when it is used as a name.",
-      "explain": "The construction is a singular NP with no determiner, naming semantics, and referential use in an argument function (subject, object in a VP, object in a PP). Its head may be a proper noun (Kim, Ukraine) or a common noun in naming use (Mom, Grandma). Naming semantics means a conventional name, not mere identifiability: the doctor can identify someone without being a name. Names with the article (the Thames) are weak proper names and outside the construction. So are bare vocatives, whose bareness comes from the vocative function (Waiter!). A small set of emotive adjectives can embellish a strong name without a determiner. This dictionary marks the analysis as provisional and departs from CGEL's usage: it treats proper name as a semantic classification and the NP as the unit with a head.",
-      "terms": "CGEL: strong proper names (no determiner) and weak ones (with the, as in the Thames). Proper name is a semantic category; proper nouns are the word class specialized for heading such NPs. Kin terms used as names remain common nouns on CGEL's analysis.",
+      "summary": "Helps explain why names appear without a determiner, including a family word like <i>Mom</i> when it is used as a name.",
+      "explain": "The construction is a singular NP with no determiner, naming semantics, and referential use in an argument function (subject, object in a VP, object in a PP). Its head may be a proper noun (<i>Kim</i>, <i>Ukraine</i>) or a common noun in naming use (<i>Mom</i>, <i>Grandma</i>). Naming semantics means a conventional name, not mere identifiability: <i>the doctor</i> can identify someone without being a name. Names with the article (<i>the Thames</i>) are weak proper names and outside the construction. So are bare vocatives, whose bareness comes from the vocative function (<i>Waiter!</i>). A small set of emotive adjectives can embellish a strong name without a determiner. This dictionary marks the analysis as provisional and departs from CGEL's usage: it treats proper name as a semantic classification and the NP as the unit with a head.",
+      "terms": "CGEL: strong proper names (no determiner) and weak ones (with <i>the</i>, as in <i>the Thames</i>). Proper name is a semantic category; proper nouns are the word class specialized for heading such NPs. Kin terms used as names remain common nouns on CGEL's analysis.",
       "examples": [
         {
           "text": "[Kim] called.",
@@ -292,15 +292,15 @@
         }
       ],
       "watch_for": [
-        "A learner might assume Mom must take a determiner like any other singular count noun.",
-        "A learner might treat a bare vocative such as Waiter! as an instance, when its bareness comes from the vocative function.",
-        "A learner might treat the Thames as the same kind of name as Kim."
+        "A learner might assume <i>Mom</i> must take a determiner like any other singular count noun.",
+        "A learner might treat a bare vocative such as <i>Waiter!</i> as an instance, when its bareness comes from the vocative function.",
+        "A learner might treat <i>the Thames</i> as the same kind of name as <i>Kim</i>."
       ],
-      "activity": "Students list names from their lives (people, places, family words). They test each in a subject slot and in a relational version with my, then sort into names that stand alone and nouns that need a determiner."
+      "activity": "Students list names from their lives (people, places, family words). They test each in a subject slot and in a relational version with <i>my</i>, then sort into names that stand alone and nouns that need a determiner."
     },
     "child": {
-      "hook": "Why do we say Mom called but my mom called?",
-      "explain": "Names like Kim and New York stand on their own. Mom can be a name too, when it's what you call her. When you say my mom, you're saying who she is to you.",
+      "hook": "Why do we say <i>Mom called</i> but <i>my mom called</i>?",
+      "explain": "Names like <i>Kim</i> and <i>New York</i> stand on their own. <i>Mom</i> can be a name too, when it's what you call her. When you say <i>my mom</i>, you're saying who she is to you.",
       "examples": [
         {
           "text": "[Kim] called.",
@@ -315,7 +315,7 @@
           "from": "entry"
         }
       ],
-      "play": "Say Kim called. Then put Grandma in place of Kim. Then try my grandma called. Which ones can stand alone?"
+      "play": "Say <i>Kim called</i>. Then put <i>Grandma</i> in place of <i>Kim</i>. Then try <i>my grandma called</i>. Which ones can stand alone?"
     }
   },
   "status": {
@@ -337,10 +337,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Strong Proper Name Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/strong-proper-name-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Strong Proper Name Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/strong-proper-name-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

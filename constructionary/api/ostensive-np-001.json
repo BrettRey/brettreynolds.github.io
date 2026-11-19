@@ -22,7 +22,7 @@
     "meanings": {
       "1": {
         "definition": "An extra-clausal NP whose utterance directs attention to its referent, with packaging-specific NP-internal syntax preserved",
-        "details": "The structural parent of vocative-001 (addressee-directed: securing the channel) and directive-ostensive-001 (environment-directed: securing joint attention). Ordinary determination applies in the directive-ostensive packaging, while vocative function independently licenses bare common-noun NPs such as Mum, driver, officer, and buddy (CGEL pp. 522–23). The packagings shade into each other: Taxi! is ambiguous between hailing the driver and alerting companions, and reminders (Your keys!) sit between alerting and addressing. The construction cross-cuts exclamation-001: tag vocatives instantiate this profile without exclamatory force.",
+        "details": "The structural parent of vocative-001 (addressee-directed: securing the channel) and directive-ostensive-001 (environment-directed: securing joint attention). Ordinary determination applies in the directive-ostensive packaging, while vocative function independently licenses bare common-noun NPs such as <i>Mum</i>, <i>driver</i>, <i>officer</i>, and <i>buddy</i> (CGEL pp. 522–23). The packagings shade into each other: <i>Taxi!</i> is ambiguous between hailing the driver and alerting companions, and reminders (<i>Your keys!</i>) sit between alerting and addressing. The construction cross-cuts exclamation-001: tag vocatives instantiate this profile without exclamatory force.",
         "examples": [
           {
             "form": "[Mom]! (calling)",
@@ -42,7 +42,7 @@
     "constraints": [
       {
         "type": "syntactic",
-        "description": "Determination is packaging-sensitive: directive-ostensives preserve ordinary determination (a snake, the bus), while vocative function licenses restricted bare common-noun NPs (Mum, driver, buddy)."
+        "description": "Determination is packaging-sensitive: directive-ostensives preserve ordinary determination (<i>a snake</i>, <i>the bus</i>), while vocative function licenses restricted bare common-noun NPs (<i>Mum</i>, <i>driver</i>, <i>buddy</i>)."
       },
       {
         "type": "syntactic",
@@ -107,9 +107,9 @@
           "exclamation-001"
         ],
         "known_boundary_items": [
-          "Taxi! (vocative/directive-ostensive ambiguity)",
+          "<i>Taxi!</i> (vocative/directive-ostensive ambiguity)",
           "block language (form without prosody or determination)",
-          "clausal alerts (There's a fire!: function without the form)"
+          "clausal alerts (<i>There's a fire!</i>: function without the form)"
         ]
       },
       "grain": {
@@ -140,7 +140,7 @@
     "curious": {
       "title": "A single noun phrase that calls for attention",
       "summary": "A lone noun phrase, said with marked stress, can direct someone's attention to a person or thing.",
-      "body": "Sometimes a single noun phrase is a complete message. Calling Mom! gets the listener's attention. Pointing out A snake! gets everyone's attention for something in the surroundings. Both are said with marked stress and aren't part of a longer sentence.\n\nThis dictionary separates two uses: calling to the person addressed, and drawing attention to something in the environment. They shade into each other. Taxi! could hail the driver or alert a friend. The phrase resists being questioned, tagged or tucked inside another sentence.",
+      "body": "Sometimes a single noun phrase is a complete message. Calling <i>Mom!</i> gets the listener's attention. Pointing out <i>A snake!</i> gets everyone's attention for something in the surroundings. Both are said with marked stress and aren't part of a longer sentence.\n\nThis dictionary separates two uses: calling to the person addressed, and drawing attention to something in the environment. They shade into each other. <i>Taxi!</i> could hail the driver or alert a friend. The phrase resists being questioned, tagged or tucked inside another sentence.",
       "examples": [
         {
           "text": "[Mom]! (calling)",
@@ -159,7 +159,7 @@
     },
     "teacher": {
       "summary": "Shows how a single noun phrase can serve as an attention-directing utterance, with two packagings that differ in determination.",
-      "explain": "An ostensive NP is an extra-clausal NP that directs attention to its referent. It isn't an argument of any predicator, and it resists embedding, tags and question formation. It has two packagings: vocative (addressee-directed, securing the channel) and directive-ostensive (environment-directed, securing joint attention). Directive-ostensives keep ordinary determination (a snake, the bus), while vocative function licenses restricted bare common-noun NPs (Mum, driver, officer, buddy). Taxi! is ambiguous between the two, and reminders such as Your keys! sit between alerting and addressing. This dictionary marks the analysis as provisional.",
+      "explain": "An ostensive NP is an extra-clausal NP that directs attention to its referent. It isn't an argument of any predicator, and it resists embedding, tags and question formation. It has two packagings: vocative (addressee-directed, securing the channel) and directive-ostensive (environment-directed, securing joint attention). Directive-ostensives keep ordinary determination (<i>a snake</i>, <i>the bus</i>), while vocative function licenses restricted bare common-noun NPs (<i>Mum</i>, <i>driver</i>, <i>officer</i>, <i>buddy</i>). <i>Taxi!</i> is ambiguous between the two, and reminders such as <i>Your keys!</i> sit between alerting and addressing. This dictionary marks the analysis as provisional.",
       "terms": "The addressee-directed use is the vocative. Directive-ostensive is this dictionary's term for the environment-directed use.",
       "examples": [
         {
@@ -193,15 +193,15 @@
         }
       ],
       "watch_for": [
-        "A learner might think a vocative such as Mum needs a determiner like a or the.",
-        "A learner might take Taxi! as having one fixed use, when it is ambiguous between the two.",
+        "A learner might think a vocative such as <i>Mum</i> needs a determiner like <i>a</i> or <i>the</i>.",
+        "A learner might take <i>Taxi!</i> as having one fixed use, when it is ambiguous between the two.",
         "A learner might treat a lone noun phrase as an interjection, when it keeps its referential behaviour."
       ],
       "activity": "Students list short shouts from a playground or street scene. They decide for each whether it calls a person (vocative) or points something out (directive-ostensive), and mark the ambiguous ones."
     },
     "child": {
       "hook": "What do you shout when you see a snake?",
-      "explain": "Sometimes just a name or a thing is the whole message. A snake! tells everyone to look. Mom! calls someone over. You don't need a verb.",
+      "explain": "Sometimes just a name or a thing is the whole message. <i>A snake!</i> tells everyone to look. <i>Mom!</i> calls someone over. You don't need a verb.",
       "examples": [
         {
           "text": "[A snake]!",
@@ -238,10 +238,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Ostensive NP.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/ostensive-np-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Ostensive NP.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/ostensive-np-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

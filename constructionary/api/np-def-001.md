@@ -4,7 +4,7 @@
 - pattern: Definite determiner + Nominal | referential personal pronoun | NP used as a proper name
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/np-def-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
@@ -55,14 +55,14 @@ Refers to or predicates property taken as generally characteristic
 
 - Part of: Activity Weak Definite (`activity-weak-definite-001`)
 - Alternates with: Bare Role Construction (`bare-role-001`)
-- Kinds of this: The Two of Us (`definite-cardinal-of-pronoun-001`)
+- Kinds of this: *the two of us* (`definite-cardinal-of-pronoun-001`)
 - Compare: Deitality (`deitality-001`)
 - Kinds of this: Demonstrative with an Oblique Genitive (`demonstrative-oblique-genitive-001`)
 - Compare: Determination (`determination-001`)
 - Interacts with: Grammatical Definiteness (`grammatical-definiteness-001`)
 - A kind of: Noun Phrase (`np-001`)
 - Alternates with: Indefinite NP Construction (`np-indef-001`): Paradigmatic contrast in the definiteness system
-- Compare: True Partitive with Of (`true-partitive-001`)
+- Compare: True Partitive with *of* (`true-partitive-001`)
 - Compare: Activity Weak Definite (`activity-weak-definite-001`)
 - Implements: Grammatical Definiteness (`grammatical-definiteness-001`): Implements meaning 1
 - Compare: Definite Construction (`definite-001`): Original type: elaborates. Related to meaning 1.
@@ -76,20 +76,20 @@ Refers to or predicates property taken as generally characteristic
 
 ## Projection
 
-The keys normally identifies an accessible set and can supply a domain in two of the keys. The radio in Jo listened to the radio can still have a conventional activity reading without identifying one physical radio.
+*The keys* normally identifies an accessible set and can supply a domain in *two of the keys*. *The radio* in *Jo listened to the radio* can still have a conventional activity reading without identifying one physical radio.
 
 ## Reader editions (draft, AI-assisted, unreviewed; the linguist entry is the reference)
 
 ### Curious reader: Phrases that point to a particular thing
 
-Phrases like the dog, she or London can pick out something particular that the listener can work out.
+Phrases like *the dog*, *she* or *London* can pick out something particular that the listener can work out.
 
-In The dog barked, the phrase the dog points to one particular dog that the listener can identify from the situation. The same kind of phrase can stand for a whole group the context makes clear, as in The students passed, or for the one person holding a role, as in The CEO resigned.
+In *The dog barked*, the phrase *the dog* points to one particular dog that the listener can identify from the situation. The same kind of phrase can stand for a whole group the context makes clear, as in *The students passed*, or for the one person holding a role, as in *The CEO resigned*.
 
-It can also talk about a whole kind, as in The dodo is extinct. Not every use points to a single physical thing: in Jo listened to the radio, the phrase can have a conventional activity reading without picking out one particular radio.
+It can also talk about a whole kind, as in *The dodo is extinct*. Not every use points to a single physical thing: in *Jo listened to the radio*, the phrase can have a conventional activity reading without picking out one particular radio.
 
 ### Teacher
 
 Lays out the meanings of definite NPs, from an identifiable referent to a role or a kind, and shows where they can be weaker.
 
-A definite NP consists of a definite determiner (the, this, that, a dependent genitive pronoun, or a genitive NP) with a nominal, or a referential personal pronoun, or a bare proper-name NP. The dictionary lists readings: an identifiable instance (The dog barked), a maximal set delimited by context (The students passed), a unique role (The CEO resigned), a kind (The dodo is extinct) and a generally characteristic property (The lion is dangerous). The keys normally identifies an accessible set and can supply a domain in two of the keys, but in Jo listened to the radio a conventional activity reading doesn't identify one radio. The dictionary marks this account as provisional.
+A definite NP consists of a definite determiner (*the*, *this*, *that*, a dependent genitive pronoun, or a genitive NP) with a nominal, or a referential personal pronoun, or a bare proper-name NP. The dictionary lists readings: an identifiable instance (*The dog barked*), a maximal set delimited by context (*The students passed*), a unique role (*The CEO resigned*), a kind (*The dodo is extinct*) and a generally characteristic property (*The lion is dangerous*). *The keys* normally identifies an accessible set and can supply a domain in *two of the keys*, but in *Jo listened to the radio* a conventional activity reading doesn't identify one radio. The dictionary marks this account as provisional.

@@ -27,7 +27,7 @@
         "examples": [
           {
             "form": "He [washed it clean].",
-            "note": "Optional resultative PredComp clean is predicated of Od it",
+            "note": "Optional resultative PredComp <i>clean</i> is predicated of Od <i>it</i>",
             "grounds": [
               {
                 "source": "cgel-2002",
@@ -53,7 +53,7 @@
       },
       "2": {
         "definition": "An agentive activity verb licenses a reflexive Od as predicand for an obligatory resultative PredComp",
-        "details": "In He talked himself hoarse, talk does not require internal complementation on its own, but himself and hoarse are licensed together: dropping both yields He talked, while dropping only PredComp does not preserve the analysis because himself is then not Od. CGEL restricts this subtype to a reflexive predicand; an arbitrary affected NP is excluded (Ch. 4 §5.3, pp. 261–62).",
+        "details": "In <i>He talked himself hoarse</i>, <i>talk</i> does not require internal complementation on its own, but <i>himself</i> and <i>hoarse</i> are licensed together: dropping both yields <i>He talked</i>, while dropping only PredComp does not preserve the analysis because <i>himself</i> is then not Od. CGEL restricts this subtype to a reflexive predicand; an arbitrary affected NP is excluded (Ch. 4 §5.3, pp. 261–62).",
         "examples": [
           {
             "form": "He [talked himself hoarse].",
@@ -81,15 +81,15 @@
       },
       {
         "type": "syntactic",
-        "description": "An optional resultative is still a complement; an optional depictive such as almost raw in ate the steak almost raw is an adjunct in CGEL's analysis."
+        "description": "An optional resultative is still a complement; an optional depictive such as <i>almost raw</i> in <i>ate the steak almost raw</i> is an adjunct in CGEL's analysis."
       },
       {
         "type": "syntactic",
-        "description": "Marked state-goal PPs such as to sleep and into a stupor are locative complements rather than PredComp and therefore fall outside this pattern."
+        "description": "Marked state-goal PPs such as <i>to sleep</i> and <i>into a stupor</i> are locative complements rather than PredComp and therefore fall outside this pattern."
       },
       {
         "type": "structural",
-        "description": "With an agentive intransitive base such as talk, the resultative subtype requires a reflexive Od; the reflexive and PredComp are jointly licensed."
+        "description": "With an agentive intransitive base such as <i>talk</i>, the resultative subtype requires a reflexive Od; the reflexive and PredComp are jointly licensed."
       }
     ],
     "kind": {
@@ -146,7 +146,7 @@
           {
             "property": "Constructionally licensed reflexive object",
             "diagnostics": [
-              "talk oneself hoarse",
+              "<i>talk oneself hoarse</i>",
               "joint omission of reflexive and PredComp"
             ],
             "weight": "medium"
@@ -155,9 +155,9 @@
       },
       "boundaries": {
         "known_boundary_items": [
-          "ate the steak almost raw: optional depictive adjunct, not a resultative PredComp",
-          "cried himself to sleep or drank himself into a stupor: to/into PPs express marked state goals and are locative complements",
-          "considered Ed a fool: object-oriented PredComp but depictive rather than resultative",
+          "<i>ate the steak almost raw</i>: optional depictive adjunct, not a resultative PredComp",
+          "<i>cried himself to sleep</i> or <i>drank himself into a stupor</i>: <i>to</i>/<i>into</i> PPs express marked state goals and are locative complements",
+          "<i>considered Ed a fool</i>: object-oriented PredComp but depictive rather than resultative",
           "caused motion uses an object-oriented locative Comp:PP, not PredComp"
         ]
       },
@@ -195,7 +195,7 @@
       {
         "id": "goal-complement-001",
         "relationship": "related-to",
-        "notes": "Marked state goals such as to sleep are locative complements rather than PredComp"
+        "notes": "Marked state goals such as <i>to sleep</i> are locative complements rather than PredComp"
       },
       {
         "id": "time-away-001",
@@ -222,8 +222,8 @@
   "editions": {
     "curious": {
       "title": "Doing something until the object ends up a certain way",
-      "summary": "In He painted the fence blue, the last word says what state the fence ends up in.",
-      "body": "In He painted the fence blue, the fence comes to be blue as a result of the painting. The word blue describes the fence, and it describes the outcome. He washed it clean works the same way: it ends up clean.\n\nThere's a related pattern with a reflexive word. In He talked himself hoarse, the talking leaves him hoarse. This dictionary says it works only with a reflexive, not with any affected person. It's different from describing how something is while the action goes on, as in He ate the steak almost raw.",
+      "summary": "In <i>He painted the fence blue</i>, the last word says what state the fence ends up in.",
+      "body": "In <i>He painted the fence blue</i>, the fence comes to be blue as a result of the painting. The word <i>blue</i> describes the fence, and it describes the outcome. <i>He washed it clean</i> works the same way: it ends up clean.\n\nThere's a related pattern with a reflexive word. In <i>He talked himself hoarse</i>, the talking leaves him hoarse. This dictionary says it works only with a reflexive, not with any affected person. It's different from describing how something is while the action goes on, as in <i>He ate the steak almost raw</i>.",
       "examples": [
         {
           "text": "He [washed it clean].",
@@ -238,11 +238,11 @@
           "from": "entry"
         }
       ],
-      "try": "After someone paints a fence blue, what colour is the fence? Does the word blue describe the fence before or after the painting?"
+      "try": "After someone paints a fence blue, what colour is the fence? Does the word <i>blue</i> describe the fence before or after the painting?"
     },
     "teacher": {
       "summary": "Explains a result state attached to the direct object, and how it differs from depictives and from state-goal PPs.",
-      "explain": "The object-oriented resultative is a verb with a direct object (Od) followed by a predicative complement (an AdjP or NP) that is predicated of that object. The Od is in the state the predicative names at the end of the verbal process. Unlike a depictive, a resultative entails a change culminating in that state. An optional resultative still counts as a complement, while an optional depictive such as almost raw in ate the steak almost raw is an adjunct. Marked state goals such as to sleep are locative complements. This dictionary marks the analysis as provisional.",
+      "explain": "The object-oriented resultative is a verb with a direct object (Od) followed by a predicative complement (an AdjP or NP) that is predicated of that object. The Od is in the state the predicative names at the end of the verbal process. Unlike a depictive, a resultative entails a change culminating in that state. An optional resultative still counts as a complement, while an optional depictive such as <i>almost raw</i> in <i>ate the steak almost raw</i> is an adjunct. Marked state goals such as <i>to sleep</i> are locative complements. This dictionary marks the analysis as provisional.",
       "terms": "Resultative is the traditional name. The predicative is also sometimes called an object complement. Depictive is the name for a description that holds during the event.",
       "examples": [
         {
@@ -267,24 +267,24 @@
         {
           "text": "He ate the steak almost raw.",
           "from": "constructed",
-          "note": "Depictive. Almost raw describes the steak while he ate it, and it's an adjunct."
+          "note": "Depictive. <i>Almost raw</i> describes the steak while he ate it, and it's an adjunct."
         },
         {
           "text": "She cried herself to sleep.",
           "from": "constructed",
-          "note": "To sleep is a marked state goal, a locative complement, so it isn't a resultative predicative."
+          "note": "<i>To sleep</i> is a marked state goal, a locative complement, so it isn't a resultative predicative."
         }
       ],
       "watch_for": [
-        "A learner might read painted the fence blue as having two objects, when blue describes the fence.",
-        "A learner might treat cried herself to sleep as the same pattern as talked himself hoarse, when to sleep is a locative complement.",
-        "A learner might take almost raw in ate the steak almost raw as a result, when it describes the steak during the eating."
+        "A learner might read <i>painted the fence blue</i> as having two objects, when <i>blue</i> describes the fence.",
+        "A learner might treat <i>cried herself to sleep</i> as the same pattern as <i>talked himself hoarse</i>, when <i>to sleep</i> is a locative complement.",
+        "A learner might take <i>almost raw</i> in <i>ate the steak almost raw</i> as a result, when it describes the steak during the eating."
       ],
       "activity": "Give students sentences with a verb, an object and a descriptive word. They ask whether the object ends up in that state because of the action (resultative) or is simply that way while the action happens (depictive), and sort them."
     },
     "child": {
       "hook": "After someone paints a fence blue, what colour is it?",
-      "explain": "In He painted the fence blue, the last word tells how the fence ended up. The painting made it blue. The word comes after the thing and says what it became.",
+      "explain": "In <i>He painted the fence blue</i>, the last word tells how the fence ended up. The painting made it blue. The word comes after the thing and says what it became.",
       "examples": [
         {
           "text": "He [painted the fence blue].",
@@ -299,7 +299,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Pick a job, like wiping or painting. Say the thing, then a word for how it ends up. For example, wiped the table dry. Trade turns with a friend."
+      "play": "Pick a job, like wiping or painting. Say the thing, then a word for how it ends up. For example, <i>wiped the table dry</i>. Trade turns with a friend."
     }
   },
   "status": {
@@ -320,10 +320,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Object-Oriented Resultative Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/object-resultative-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Object-Oriented Resultative Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/object-resultative-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

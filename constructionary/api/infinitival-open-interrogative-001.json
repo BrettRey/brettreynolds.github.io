@@ -45,7 +45,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Which route supplies the missing object and the action is prospective or modal. The corresponding finite question can ask instead what was actually done.",
+        "target": "<i>Which route</i> supplies the missing object and the action is prospective or modal. The corresponding finite question can ask instead what was actually done.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -53,9 +53,9 @@
   },
   "editions": {
     "curious": {
-      "title": "Which route to take",
-      "summary": "A question word followed by to and a verb, as in which route to take, presents an open choice about something that could be done.",
-      "body": "In They discussed which route to take, the part after discussed is a question with to and a verb instead of a full clause. Which route fills in what's missing after take.\n\nThe question is about an action that's being considered, not one that has been carried out. A full finite question can ask instead what was actually done, so the two forms can ask different things.",
+      "title": "<i>Which route to take</i>",
+      "summary": "A question word followed by <i>to</i> and a verb, as in <i>which route to take</i>, presents an open choice about something that could be done.",
+      "body": "In <i>They discussed which route to take</i>, the part after <i>discussed</i> is a question with <i>to</i> and a verb instead of a full clause. <i>Which route</i> fills in what's missing after <i>take</i>.\n\nThe question is about an action that's being considered, not one that has been carried out. A full finite question can ask instead what was actually done, so the two forms can ask different things.",
       "examples": [
         {
           "text": "They discussed [which route to take].",
@@ -66,11 +66,11 @@
           "from": "constructed"
         }
       ],
-      "try": "Finish the sentence We can't decide... with a question word and to plus a verb."
+      "try": "Finish the sentence We can't decide... with a question word and <i>to</i> plus a verb."
     },
     "teacher": {
-      "summary": "Covers embedded questions such as which route to take, which have a question phrase and a to-infinitival.",
-      "explain": "The pattern is an interrogative phrase followed by a to-infinitival with a linked gap. It presents an unresolved choice about an envisaged action. In They discussed which route to take, which route supplies the missing object of take, and the action is prospective or modal. The corresponding finite question can ask instead what was actually done. This dictionary treats the pattern as a specialization of the open interrogative clause and relates it to for-infinitivals. It is provisional.",
+      "summary": "Covers embedded questions such as <i>which route to take</i>, which have a question phrase and a <i>to</i>-infinitival.",
+      "explain": "The pattern is an interrogative phrase followed by a <i>to</i>-infinitival with a linked gap. It presents an unresolved choice about an envisaged action. In <i>They discussed which route to take</i>, <i>which route</i> supplies the missing object of <i>take</i>, and the action is prospective or modal. The corresponding finite question can ask instead what was actually done. This dictionary treats the pattern as a specialization of the open interrogative clause and relates it to <i>for</i>-infinitivals. It is provisional.",
       "terms": "Sometimes called an infinitival wh-question or an embedded infinitival interrogative.",
       "examples": [
         {
@@ -95,10 +95,10 @@
         }
       ],
       "watch_for": [
-        "A learner might read which route to take as asking about a past action.",
-        "A learner might treat which route as separate from the verb take, when it supplies the missing object of take."
+        "A learner might read <i>which route to take</i> as asking about a past action.",
+        "A learner might treat <i>which route</i> as separate from the verb <i>take</i>, when it supplies the missing object of <i>take</i>."
       ],
-      "activity": "Students complete sentences that start with I don't know, using a question word plus to and a verb. They then rewrite each with a finite clause and compare the meanings."
+      "activity": "Students complete sentences that start with <i>I don't know</i>, using a question word plus to and a verb. They then rewrite each with a finite clause and compare the meanings."
     }
   },
   "status": {
@@ -119,10 +119,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Infinitival Open Interrogative.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/infinitival-open-interrogative-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Infinitival Open Interrogative.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/infinitival-open-interrogative-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

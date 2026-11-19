@@ -15,7 +15,7 @@
     "type": "syntactic",
     "semanticType": "predication",
     "dimensions": {
-      "form": "Clause headed by a plain-form VP; a second-person Subject is normally optional, and imperative do-support has properties distinct from declarative negation",
+      "form": "Clause headed by a plain-form VP; a second-person Subject is normally optional, and imperative <i>do</i>-support has properties distinct from declarative negation",
       "meaning": "Presents a potential situation for addressee-oriented realization, while also permitting wishes, conditionals, and other non-directive interpretations",
       "function": "Characteristically issues a directive",
       "distribution": "Normally a main clause; English lacks a general subordinate imperative construction"
@@ -23,11 +23,11 @@
     "meanings": {
       "1": {
         "definition": "A headed clause type with plain-form VP and optional second-person Subject, characteristically used as a directive",
-        "details": "Imperative is defined by its grammatical profile, not by directive force. The Subject is often absent and normally understood as second person, but overt you and third-person-like quantified Subjects are licensed. The verb is plain-form; supportive do is required for verbal negation, emphatic polarity, and code even with be. Sleep well illustrates a wish use rather than a directive. Non-finite and non-headed directives do not thereby become imperative clauses (CGEL pp. 853–57, 924–43).",
+        "details": "Imperative is defined by its grammatical profile, not by directive force. The Subject is often absent and normally understood as second person, but overt <i>you</i> and third-person-like quantified Subjects are licensed. The verb is plain-form; supportive do is required for verbal negation, emphatic polarity, and code even with <i>be</i>. <i>Sleep well</i> illustrates a wish use rather than a directive. Non-finite and non-headed directives do not thereby become imperative clauses (CGEL pp. 853–57, 924–43).",
         "examples": [
           {
             "form": "[Be generous.]",
-            "note": "Subjectless imperative with plain-form be"
+            "note": "Subjectless imperative with plain-form <i>be</i>"
           },
           {
             "form": "[You be careful.]",
@@ -43,7 +43,7 @@
           },
           {
             "form": "[Don't be late.]",
-            "note": "Imperative do-support with be"
+            "note": "Imperative <i>do</i>-support with <i>be</i>"
           }
         ]
       }
@@ -51,11 +51,11 @@
     "constraints": [
       {
         "type": "syntactic",
-        "description": "The construction is a Clause headed by a plain-form VP. A second-person Subject is omissible; an overt Subject precedes the positive VP but normally follows don't in a negative imperative."
+        "description": "The construction is a Clause headed by a plain-form VP. A second-person Subject is omissible; an overt Subject precedes the positive VP but normally follows <i>don't</i> in a negative imperative."
       },
       {
         "type": "syntactic",
-        "description": "Supportive do is required in verbal negation and emphatic polarity even with be; imperative clauses are normally restricted to main-clause distribution."
+        "description": "Supportive <i>do</i> is required in verbal negation and emphatic polarity even with <i>be</i>; imperative clauses are normally restricted to main-clause distribution."
       },
       {
         "type": "pragmatic",
@@ -65,7 +65,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Plain-form imperative VP syntax predicts optional second-person Subject, special do-support with be, and main-clause distribution; directive force is the default pragmatic inference but can be overridden by wish or conditional uses",
+        "target": "Plain-form imperative VP syntax predicts optional second-person Subject, special <i>do</i>-support with <i>be</i>, and main-clause distribution; directive force is the default pragmatic inference but can be overridden by wish or conditional uses",
         "evidence": "The linked cluster of plain-form inflection, Subject optionality, imperative negation, and main-clause restriction holds independently of whether a token is actually used to direct the addressee",
         "confidence": "high",
         "grounds": [
@@ -74,7 +74,7 @@
             "locator": "pp. 853-57, 924-43",
             "relation": "cites",
             "bears-on": "projection",
-            "note": "Plain-form imperative syntax projects Subject optionality, special do-support, and main-clause distribution"
+            "note": "Plain-form imperative syntax projects Subject optionality, special <i>do</i>-support, and main-clause distribution"
           },
           {
             "source": "cgel-2002",
@@ -91,7 +91,7 @@
           {
             "property": "Plain-form VP head",
             "diagnostics": [
-              "plain be",
+              "plain <i>be</i>",
               "plain form with quantified Subject"
             ],
             "weight": "high"
@@ -100,15 +100,15 @@
             "property": "Subject optionality",
             "diagnostics": [
               "understood second-person Subject",
-              "overt you or quantified Subject"
+              "overt <i>you</i> or quantified Subject"
             ],
             "weight": "high"
           },
           {
-            "property": "Imperative do-support",
+            "property": "Imperative <i>do</i>-support",
             "diagnostics": [
-              "don't be",
-              "emphatic do be"
+              "<i>don't be</i>",
+              "emphatic <i>do be</i>"
             ],
             "weight": "high"
           }
@@ -149,15 +149,15 @@
         "source": "cgel-2002",
         "locator": "pp. 853-57, 924-43",
         "relation": "cites",
-        "note": "Imperative syntax, Subject optionality, do-support, characteristic directive use, and absence of a general subordinate imperative"
+        "note": "Imperative syntax, Subject optionality, <i>do</i>-support, characteristic directive use, and absence of a general subordinate imperative"
       }
     ]
   },
   "editions": {
     "curious": {
       "title": "Commands, requests and wishes",
-      "summary": "An imperative is a sentence built around a plain-form verb, like Be generous, and it can express more than an order.",
-      "body": "Be generous, Everybody stand up and Don't be late all use the plain form of a verb (be, stand). When the subject is left out, as in Be generous, the person being spoken to is normally understood as the one who acts. You be careful shows that an overt you is possible too, and Everybody stand up has a different overt subject.\n\nGiving an order is the characteristic use, but not the only one. Sleep well is a wish, not an order. This dictionary defines the pattern by how the sentence is built, not by what it's used for.",
+      "summary": "An imperative is a sentence built around a plain-form verb, like <i>Be generous</i>, and it can express more than an order.",
+      "body": "<i>Be generous</i>, <i>Everybody stand up</i> and <i>Don't be late</i> all use the plain form of a verb (<i>be</i>, <i>stand</i>). When the subject is left out, as in <i>Be generous</i>, the person being spoken to is normally understood as the one who acts. <i>You be careful</i> shows that an overt <i>you</i> is possible too, and <i>Everybody stand up</i> has a different overt subject.\n\nGiving an order is the characteristic use, but not the only one. <i>Sleep well</i> is a wish, not an order. This dictionary defines the pattern by how the sentence is built, not by what it's used for.",
       "examples": [
         {
           "text": "[Be generous.]",
@@ -180,11 +180,11 @@
           "from": "entry"
         }
       ],
-      "try": "Think of a sentence that begins with a plain verb but isn't an order, like Sleep well. What is it doing instead?"
+      "try": "Think of a sentence that begins with a plain verb but isn't an order, like <i>Sleep well</i>. What is it doing instead?"
     },
     "teacher": {
-      "summary": "Defines the imperative by its grammar, with optional subject and special do-support, and separates it from directive force.",
-      "explain": "An imperative clause has a plain-form VP head and an optional second-person subject; the subject is normally understood as second person, but overt you and quantified subjects are licensed (You be careful; Everybody stand up). Supportive do is required for verbal negation and emphatic polarity, even with be (Don't be late). An overt subject precedes a positive VP but normally follows don't in a negative imperative. Imperatives are normally main clauses, and English lacks a general subordinate imperative construction. Directive force is characteristic, not necessary: Sleep well is a wish, while interrogative, declarative, non-finite and non-headed expressions can convey directives without becoming imperatives. This dictionary marks its analysis as provisional.",
+      "summary": "Defines the imperative by its grammar, with optional subject and special <i>do</i>-support, and separates it from directive force.",
+      "explain": "An imperative clause has a plain-form VP head and an optional second-person subject; the subject is normally understood as second person, but overt <i>you</i> and quantified subjects are licensed (<i>You be careful</i>; <i>Everybody stand up</i>). Supportive <i>do</i> is required for verbal negation and emphatic polarity, even with <i>be</i> (<i>Don't be late</i>). An overt subject precedes a positive VP but normally follows <i>don't</i> in a negative imperative. Imperatives are normally main clauses, and English lacks a general subordinate imperative construction. Directive force is characteristic, not necessary: <i>Sleep well</i> is a wish, while interrogative, declarative, non-finite and non-headed expressions can convey directives without becoming imperatives. This dictionary marks its analysis as provisional.",
       "terms": "Imperative is the clause type; directive is the use. Plain form is the CGEL name for what traditional grammars call the base form.",
       "examples": [
         {
@@ -226,15 +226,15 @@
         }
       ],
       "watch_for": [
-        "A learner might think every imperative gives an order, when Sleep well is a wish.",
-        "A learner might use isn't or aren't to negate be in an imperative, when this dictionary requires do-support in Don't be late.",
+        "A learner might think every imperative gives an order, when <i>Sleep well</i> is a wish.",
+        "A learner might use <i>isn't</i> or <i>aren't</i> to negate <i>be</i> in an imperative, when this dictionary requires <i>do</i>-support in <i>Don't be late</i>.",
         "A learner might treat any directive as an imperative clause, though other forms can convey directives."
       ],
       "activity": "Give students a mixed set of directives, wishes and requests. They mark which are imperatives, using this page's examples as models, and which are other forms that convey a directive."
     },
     "child": {
-      "hook": "Does every sentence like Be generous give an order?",
-      "explain": "Be generous tells someone what to do. The word you can be left out. Sleep well is a wish, not a command.",
+      "hook": "Does every sentence like <i>Be generous</i> give an order?",
+      "explain": "<i>Be generous</i> tells someone what to do. The word <i>you</i> can be left out. <i>Sleep well</i> is a wish, not a command.",
       "examples": [
         {
           "text": "[Be generous.]",
@@ -249,7 +249,7 @@
           "from": "entry"
         }
       ],
-      "play": "Say five sentences like Be generous or Sleep well. Which ones are orders and which are wishes?"
+      "play": "Say five sentences like <i>Be generous</i> or <i>Sleep well</i>. Which ones are orders and which are wishes?"
     }
   },
   "status": {
@@ -271,10 +271,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Imperative Clause.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/imperative-clause-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Imperative Clause.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/imperative-clause-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

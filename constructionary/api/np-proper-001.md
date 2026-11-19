@@ -4,7 +4,7 @@
 - pattern: NP[Head:N[proper]]
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/np-proper-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
@@ -31,26 +31,26 @@ NP whose nominal head is a proper noun; prototypically used as a proper name ide
 
 ## Projection
 
-London can occur without an article when it identifies the city. A construction such as two Kims uses a nomenclatural form with numeral determination and plural marking, so name form alone need not determine the NP’s referential status.
+*London* can occur without an article when it identifies the city. A construction such as *two Kims* uses a nomenclatural form with numeral determination and plural marking, so name form alone need not determine the NP’s referential status.
 
 ## Reader editions (draft, AI-assisted, unreviewed; the linguist entry is the reference)
 
 ### Curious reader: Phrases built on names
 
-A phrase built on a proper noun, such as London or the Thames, can identify one particular place, person or thing.
+A phrase built on a proper noun, such as *London* or *the Thames*, can identify one particular place, person or thing.
 
-London names a particular city, and it doesn't need a small word like the in front. The Thames is a name too, but it comes with the. Both kinds of phrase point to one particular thing.
+*London* names a particular city, and it doesn't need a small word like *the* in front. *The Thames* is a name too, but it comes with *the*. Both kinds of phrase point to one particular thing.
 
-A name's form doesn't settle how the phrase works. In two Kims, the name Kim takes a number and a plural ending.
+A name's form doesn't settle how the phrase works. In *two Kims*, the name *Kim* takes a number and a plural ending.
 
 ### Teacher
 
 Covers noun phrases headed by proper nouns, and shows that name form doesn't fix referential status.
 
-A proper noun phrase has a proper noun as its nominal head, and is prototypically used as a proper name identifying a unique entity. London can occur without an article when it identifies the city, while the Thames takes the. A construction such as two Kims uses a nomenclatural form with numeral determination and plural marking, so name form alone need not determine the NP's referential status. The dictionary also records secondary uses of proper names and complex names, and marks this account as provisional.
+A proper noun phrase has a proper noun as its nominal head, and is prototypically used as a proper name identifying a unique entity. *London* can occur without an article when it identifies the city, while *the Thames* takes *the*. A construction such as *two Kims* uses a nomenclatural form with numeral determination and plural marking, so name form alone need not determine the NP's referential status. The dictionary also records secondary uses of proper names and complex names, and marks this account as provisional.
 
 ### Child
 
 Can a name be plural?
 
-A name points to one particular person, place or thing. London is a name, and so is the Thames. Sometimes you can count names too. If two people are called Kim, you know two Kims.
+A name points to one particular person, place or thing. *London* is a name, and so is *the Thames*. Sometimes you can count names too. If two people are called *Kim*, you know *two Kims*.

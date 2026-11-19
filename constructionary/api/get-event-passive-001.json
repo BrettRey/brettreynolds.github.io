@@ -1,6 +1,6 @@
 {
   "id": "get-event-passive-001",
-  "name": "Get Passive",
+  "name": "<i>get</i> Passive",
   "pattern": "Clause[affected Subject + get + verbal past participle]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/get-event-passive-001/",
@@ -10,7 +10,7 @@
   },
   "entry": {
     "id": "get-event-passive-001",
-    "name": "Get Passive",
+    "name": "<i>get</i> Passive",
     "pattern": "Clause[affected Subject + get + verbal past participle]",
     "type": "mixed",
     "meanings": {
@@ -32,7 +32,7 @@
       {
         "id": "be-passive-001",
         "relationship": "alternates-with",
-        "notes": "Jo got promoted and Jo was promoted can describe the same event. Get foregrounds the change or its relevance to Jo. Be is also available in stative uses such as is widely believed."
+        "notes": "<i>Jo got promoted</i> and <i>Jo was promoted</i> can describe the same event. <i>Get</i> foregrounds the change or its relevance to Jo. <i>Be</i> is also available in stative uses such as <i>is widely believed</i>."
       }
     ],
     "grounds": [
@@ -46,7 +46,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "An apparent positive outcome can occur, so adverse consequence is unnecessary. The construction can admit an agent by-phrase and contrasts with get plus an ordinary adjective.",
+        "target": "An apparent positive outcome can occur, so adverse consequence is unnecessary. The construction can admit an agent <i>by</i>-phrase and contrasts with <i>get</i> plus an ordinary adjective.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -54,9 +54,9 @@
   },
   "editions": {
     "curious": {
-      "title": "Got promoted",
-      "summary": "Using got with a past-participle word, as in Jo got promoted, presents someone as undergoing something that happened to them.",
-      "body": "In Jo got promoted last week, something happened to Jo: someone promoted her. The sentence puts the spotlight on the change and on what it means for Jo.\n\nThe plain version, Jo was promoted, can describe the same event. This dictionary says that got foregrounds the change or its relevance to Jo, while was also covers cases that describe a state, such as is widely believed. A good outcome is possible too, so the pattern doesn't need to be about something bad.",
+      "title": "<i>Got promoted</i>",
+      "summary": "Using <i>got</i> with a past-participle word, as in <i>Jo got promoted</i>, presents someone as undergoing something that happened to them.",
+      "body": "In <i>Jo got promoted last week</i>, something happened to Jo: someone promoted her. The sentence puts the spotlight on the change and on what it means for Jo.\n\nThe plain version, <i>Jo was promoted</i>, can describe the same event. This dictionary says that <i>got</i> foregrounds the change or its relevance to Jo, while <i>was</i> also covers cases that describe a state, such as <i>is widely believed</i>. A good outcome is possible too, so the pattern doesn't need to be about something bad.",
       "examples": [
         {
           "text": "Jo [got promoted] last week.",
@@ -67,12 +67,12 @@
           "from": "constructed"
         }
       ],
-      "try": "Take a sentence like The window was broken and try it with got. Does the focus shift?"
+      "try": "Take a sentence like <i>The window was broken</i> and try it with <i>got</i>. Does the focus shift?"
     },
     "teacher": {
-      "summary": "Useful for showing learners the get-passive as an alternative to the be-passive, with a different focus.",
-      "explain": "The get-passive has an affected subject, get, and a verbal past participle: Jo got promoted. It alternates with the be-passive (Jo was promoted), and both can describe the same event. This dictionary says get foregrounds the change or its relevance to Jo, while be is also available in stative uses such as is widely believed. A get-passive can have a positive outcome, so adverse consequence is not required, and it can admit a by-phrase naming the agent. It contrasts with get plus an ordinary adjective. This dictionary marks this analysis as provisional.",
-      "terms": "Get-passive is the usual name. This dictionary treats it as a passive with the verb get in place of be.",
+      "summary": "Useful for showing learners the <i>get</i>-passive as an alternative to the <i>be</i>-passive, with a different focus.",
+      "explain": "The <i>get</i>-passive has an affected subject, <i>get</i>, and a verbal past participle: <i>Jo got promoted</i>. It alternates with the <i>be</i>-passive (<i>Jo was promoted</i>), and both can describe the same event. This dictionary says <i>get</i> foregrounds the change or its relevance to Jo, while <i>be</i> is also available in stative uses such as <i>is widely believed</i>. A <i>get</i>-passive can have a positive outcome, so adverse consequence is not required, and it can admit a <i>by</i>-phrase naming the agent. It contrasts with <i>get</i> plus an ordinary adjective. This dictionary marks this analysis as provisional.",
+      "terms": "Get-passive is the usual name. This dictionary treats it as a passive with the verb <i>get</i> in place of <i>be</i>.",
       "examples": [
         {
           "text": "Jo [got promoted] last week.",
@@ -87,7 +87,7 @@
         {
           "text": "Jo got promoted.",
           "from": "entry",
-          "note": "Get foregrounds the change or its relevance to Jo."
+          "note": "<i>Get</i> foregrounds the change or its relevance to Jo."
         },
         {
           "text": "Jo was promoted.",
@@ -96,14 +96,14 @@
         }
       ],
       "watch_for": [
-        "A learner might assume a get-passive must describe something bad for the subject, when this dictionary says a positive outcome is possible.",
-        "A learner might treat get plus a participle as get plus an ordinary adjective, when this dictionary distinguishes the two."
+        "A learner might assume a <i>get</i>-passive must describe something bad for the subject, when this dictionary says a positive outcome is possible.",
+        "A learner might treat <i>get</i> plus a participle as <i>get</i> plus an ordinary adjective, when this dictionary distinguishes the two."
       ],
-      "activity": "Give students short event sentences with be-passives. They rewrite each with get, then discuss whether the focus on the change or on the person affected shifts."
+      "activity": "Give students short event sentences with <i>be</i>-passives. They rewrite each with <i>get</i>, then discuss whether the focus on the change or on the person affected shifts."
     },
     "child": {
-      "hook": "What is the difference between Jo was picked and Jo got picked?",
-      "explain": "Got can show that something happened to someone. Jo got promoted means somebody promoted Jo. The sentence is about Jo and what happened to her.",
+      "hook": "What is the difference between <i>Jo was picked</i> and <i>Jo got picked</i>?",
+      "explain": "<i>Got</i> can show that something happened to someone. <i>Jo got promoted</i> means somebody promoted Jo. The sentence is about Jo and what happened to her.",
       "examples": [
         {
           "text": "Jo [got promoted] last week.",
@@ -114,7 +114,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Tell a partner something that happened to you using got, like I got invited. Then say the same thing with was and see whether it sounds different."
+      "play": "Tell a partner something that happened to you using <i>got</i>, like <i>I got invited</i>. Then say the same thing with <i>was</i> and see whether it sounds different."
     }
   },
   "status": {
@@ -135,10 +135,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Get Passive.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/get-event-passive-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"<i>get</i> Passive.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/get-event-passive-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

@@ -4,7 +4,7 @@
 - pattern: Typical hosts include a determined NP, a name used referentially, or a referential pronoun
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/definite-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
@@ -57,7 +57,7 @@ Established in discourse/knowledge
 
 ## Projection
 
-The plumber can identify an unmentioned person via an appointment already known to the hearer. On the usual weak reading of take the bus, the same article need not identify a particular vehicle. Familiarity and uniqueness are therefore subject to independent checks.
+*The plumber* can identify an unmentioned person via an appointment already known to the hearer. On the usual weak reading of *take the bus*, the same article need not identify a particular vehicle. Familiarity and uniqueness are therefore subject to independent checks.
 
 ## Reader editions (draft, AI-assisted, unreviewed; the linguist entry is the reference)
 
@@ -65,18 +65,18 @@ The plumber can identify an unmentioned person via an appointment already known 
 
 A definite expression picks out something the listener can identify, such as one particular dog or the whole relevant group.
 
-When someone says the dog, the listener is expected to know which dog is meant, because it was mentioned before or because it is the obvious one in the situation. A name like John works similarly, as a standing label that a community can use to identify the person.
+When someone says *the dog*, the listener is expected to know which dog is meant, because it was mentioned before or because it is the obvious one in the situation. A name like *John* works similarly, as a standing label that a community can use to identify the person.
 
-This dictionary describes several ways this can work. The tallest student picks out the one thing that fits the description. The books can mean the whole relevant group. The lion and The dodo is extinct talk about a kind, and the Pope is familiar from shared culture. This dictionary treats the analysis as provisional.
+This dictionary describes several ways this can work. *The tallest student* picks out the one thing that fits the description. *The books* can mean the whole relevant group. *The lion* and *The dodo is extinct* talk about a kind, and *the Pope* is familiar from shared culture. This dictionary treats the analysis as provisional.
 
 ### Teacher
 
-Helps explain definiteness as a matter of meaning (identifiable, unique, kind, familiar), separate from the form of the, this and similar words.
+Helps explain definiteness as a matter of meaning (identifiable, unique, kind, familiar), separate from the form of *the*, *this* and similar words.
 
-This dictionary describes definiteness as a semantic profile with four strands. Identifiable referent: the dog, or a name such as John, picks out something the hearer can identify through shared knowledge or previous mention. Unique or maximal entity: the tallest student, the books. Kind or type: the lion, The dodo is extinct. Familiar entity: the Pope, that same dog. It keeps the semantic profile apart from the structural profile (deitality). The strands are subject to independent checks: the plumber can identify an unmentioned person via a known appointment, and on the usual weak reading of take the bus the same article need not identify a particular vehicle. The analysis is provisional.
+This dictionary describes definiteness as a semantic profile with four strands. Identifiable referent: *the dog*, or a name such as *John*, picks out something the hearer can identify through shared knowledge or previous mention. Unique or maximal entity: *the tallest student*, *the books*. Kind or type: *the lion*, *The dodo is extinct*. Familiar entity: *the Pope*, *that same dog*. It keeps the semantic profile apart from the structural profile (deitality). The strands are subject to independent checks: *the plumber* can identify an unmentioned person via a known appointment, and on the usual weak reading of *take the bus* the same article need not identify a particular vehicle. The analysis is provisional.
 
 ### Child
 
-When do we say the dog instead of a dog?
+When do we say *the dog* instead of *a dog*?
 
-We say the dog when our listener knows which dog we mean. Maybe we talked about it before. Maybe it's the only dog around.
+We say *the dog* when our listener knows which dog we mean. Maybe we talked about it before. Maybe it's the only dog around.

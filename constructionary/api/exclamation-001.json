@@ -22,7 +22,7 @@
     "meanings": {
       "1": {
         "definition": "An utterance-level force category, expressing heightened speaker stance with exclamatory prosody",
-        "details": "Terminology: exclamative is the clause type (syntactic), exclamatory the property of uses, exclamation the utterance-level force category (pragmatic). This entry is a Constructionary pragmatic profile, not a claim that CGEL recognizes a unified grammatical class: CGEL p. 923 treats exclamation as structurally nebulous and samples several formally distinct realizations. Membership here is graded: interjections are the prototype; exclamative clauses are core; directive-ostensive NPs are prototypically members; vocatives enter only via the summons/call use; declaratives join by prosody alone (That's amazing!). The category cross-cuts ostensive-np-001 rather than containing it: tag vocatives are structural-yes/force-no, while exclamatory declaratives are force-yes/structural-no.",
+        "details": "Terminology: exclamative is the clause type (syntactic), exclamatory the property of uses, exclamation the utterance-level force category (pragmatic). This entry is a Constructionary pragmatic profile, not a claim that CGEL recognizes a unified grammatical class: CGEL p. 923 treats exclamation as structurally nebulous and samples several formally distinct realizations. Membership here is graded: interjections are the prototype; exclamative clauses are core; directive-ostensive NPs are prototypically members; vocatives enter only via the summons/call use; declaratives join by prosody alone (<i>That's amazing</i>!). The category cross-cuts ostensive-np-001 rather than containing it: tag vocatives are structural-yes/force-no, while exclamatory declaratives are force-yes/structural-no.",
         "examples": [
           {
             "form": "[Ouch]!",
@@ -30,7 +30,7 @@
           },
           {
             "form": "[What a lovely day]!",
-            "note": "Non-headed construction with exclamative clausal semantics; cf. the headed Clause What a lovely day it is!"
+            "note": "Non-headed construction with exclamative clausal semantics; cf. the headed Clause <i>What a lovely day it is</i>!"
           },
           {
             "form": "[A snake]!",
@@ -46,7 +46,7 @@
     "constraints": [
       {
         "type": "pragmatic",
-        "description": "Not at-issue; the force resists direct denial (That's false cannot target the exclamatory stance)."
+        "description": "Not at-issue; the force resists direct denial (<i>That's false</i> cannot target the exclamatory stance)."
       },
       {
         "type": "structural",
@@ -106,7 +106,7 @@
           "CGEL does not posit a well-defined grammatical class of non-exclamative exclamations; this entry proposes a cross-form pragmatic profile",
           "tag and address vocatives (structural profile without exclamatory force)",
           "exclamatory declaratives (force without the extra-clausal structure)",
-          "murmured reminders (Your keys, said flatly)"
+          "murmured reminders (<i>Your keys</i>, said flatly)"
         ]
       },
       "grain": {
@@ -126,7 +126,7 @@
       {
         "id": "exclamative-word-001",
         "relationship": "related-to",
-        "notes": "The exclamative packaging of the indeterminates feeds core members (what/how exclamatives)"
+        "notes": "The exclamative packaging of the indeterminates feeds core members (<i>what</i>/<i>how</i> exclamatives)"
       },
       {
         "id": "directive-ostensive-001",
@@ -166,7 +166,7 @@
     "curious": {
       "title": "Short bursts of strong feeling",
       "summary": "An exclamation is an utterance that expresses strong feeling, and the way it's said is part of what makes it one.",
-      "body": "Ouch! is the clearest exclamation. It's a complete utterance on its own and it just expresses feeling. But the category is wider than that. What a lovely day! and A snake! can be exclamations too, and so can an ordinary-looking statement like That's amazing!\n\nWhat these share is an exclamatory tone of voice and a heightened feeling. With Ouch! that is pure feeling; with the others it is directed at something. Take away the tone and the exclamation goes with it. The feeling also can't be argued with in the usual way: replying That's false doesn't target the feeling expressed. This dictionary treats exclamation as a pattern of use, and notes that the grammar book it draws on doesn't recognize it as one tidy class.",
+      "body": "<i>Ouch</i>! is the clearest exclamation. It's a complete utterance on its own and it just expresses feeling. But the category is wider than that. <i>What a lovely day</i>! and <i>A snake</i>! can be exclamations too, and so can an ordinary-looking statement like <i>That's amazing</i>!\n\nWhat these share is an exclamatory tone of voice and a heightened feeling. With <i>Ouch</i>! that is pure feeling; with the others it is directed at something. Take away the tone and the exclamation goes with it. The feeling also can't be argued with in the usual way: replying <i>That's false</i> doesn't target the feeling expressed. This dictionary treats exclamation as a pattern of use, and notes that the grammar book it draws on doesn't recognize it as one tidy class.",
       "examples": [
         {
           "text": "[Ouch]!",
@@ -185,12 +185,12 @@
           "from": "entry"
         }
       ],
-      "try": "Say That's amazing in a flat voice, then say it as if you've just seen something astonishing. Which one is an exclamation?"
+      "try": "Say <i>That's amazing</i> in a flat voice, then say it as if you've just seen something astonishing. Which one is an exclamation?"
     },
     "teacher": {
       "summary": "Helps separate exclamation (a use of language with a heightened-stance tone) from exclamative (a clause type).",
-      "explain": "This dictionary offers a pragmatic profile, not a claim that CGEL recognizes a unified grammatical class; CGEL treats exclamation as structurally nebulous. Exclamation is an utterance-level force: heightened speaker stance with exclamatory prosody, complete on its own. Realizations vary. Interjections are the prototype, exclamative clauses are core, directive-ostensive NPs are prototypical members, vocatives qualify only as summons or calls, and a declarative joins through prosody alone (That's amazing!). Keep three terms apart: exclamative is a clause type, exclamatory describes uses, exclamation is the force category. The stance isn't at-issue, so it resists direct denial.",
-      "terms": "Interjection is the traditional name for words like Ouch. Exclamative clause is the clause type.",
+      "explain": "This dictionary offers a pragmatic profile, not a claim that CGEL recognizes a unified grammatical class; CGEL treats exclamation as structurally nebulous. Exclamation is an utterance-level force: heightened speaker stance with exclamatory prosody, complete on its own. Realizations vary. Interjections are the prototype, exclamative clauses are core, directive-ostensive NPs are prototypical members, vocatives qualify only as summons or calls, and a declarative joins through prosody alone (<i>That's amazing</i>!). Keep three terms apart: exclamative is a clause type, exclamatory describes uses, exclamation is the force category. The stance isn't at-issue, so it resists direct denial.",
+      "terms": "Interjection is the traditional name for words like <i>Ouch</i>. Exclamative clause is the clause type.",
       "examples": [
         {
           "text": "[Ouch]!",
@@ -212,13 +212,13 @@
       "watch_for": [
         "A learner might treat the exclamation mark as the whole test, when the core properties in this dictionary include exclamatory prosody.",
         "A learner might use exclamation and exclamative as one word, though exclamative names a clause type and exclamation a use.",
-        "A learner might expect That's false to answer the stance in That's amazing!, though the force resists direct denial."
+        "A learner might expect <i>That's false</i> to answer the stance in <i>That's amazing</i>!, though the force resists direct denial."
       ],
-      "activity": "Students say That's amazing three ways (flat, bored, astonished) and vote on which are exclamations. Then they look at Ouch, What a lovely day and A snake, note that each is a complete utterance said with feeling, and note how differently they're built."
+      "activity": "Students say <i>That's amazing</i> three ways (flat, bored, astonished) and vote on which are exclamations. Then they look at <i>Ouch</i>, <i>What a lovely day</i> and <i>A snake</i>, note that each is a complete utterance said with feeling, and note how differently they're built."
     },
     "child": {
-      "hook": "How do you say That's amazing when you are really amazed?",
-      "explain": "An exclamation shows a big feeling. How you say it matters. Ouch! and A snake! are exclamations. So is That's amazing! if you say it with feeling.",
+      "hook": "How do you say <i>That's amazing</i> when you are really amazed?",
+      "explain": "An exclamation shows a big feeling. How you say it matters. <i>Ouch</i>! and <i>A snake</i>! are exclamations. So is <i>That's amazing</i>! if you say it with feeling.",
       "examples": [
         {
           "text": "[Ouch]!",
@@ -233,7 +233,7 @@
           "from": "entry"
         }
       ],
-      "play": "Say That's amazing like a sleepy robot. Now say it like you just saw a rocket. Only one is an exclamation. Which?"
+      "play": "Say <i>That's amazing</i> like a sleepy robot. Now say it like you just saw a rocket. Only one is an exclamation. Which?"
     }
   },
   "status": {
@@ -255,10 +255,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Exclamation.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/exclamation-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Exclamation.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/exclamation-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

@@ -68,7 +68,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "In the committee’s approval of the plan, the committee can map to the subject of approved the plan. In the committee’s photograph, an ownership or other relation remains possible. Genitive position alone does not license an agent interpretation.",
+        "target": "In <i>the committee’s approval of the plan</i>, the committee can map to the subject of <i>approved the plan</i>. In <i>the committee’s photograph</i>, an ownership or other relation remains possible. Genitive position alone does not license an agent interpretation.",
         "evidence": "CGEL contrasts argument-realizing genitives with the wider range of ordinary genitive relations.",
         "confidence": "medium"
       }
@@ -77,8 +77,8 @@
   "editions": {
     "curious": {
       "title": "A genitive that acts like a subject",
-      "summary": "Sometimes the word with 's before a noun tells you who did the action the noun names, not who owns something.",
-      "body": "In the committee's approval of the plan, the committee is the one who approved. The noun approval names an action, and the committee plays the part a subject would play in the matching sentence, the committee approved the plan.\n\nCompare the committee's photograph. There the link can be ownership or some other relation. So the 's form alone doesn't tell you the committee is the doer; it depends on the noun.\n\nThis dictionary marks the analysis as provisional.",
+      "summary": "Sometimes the word with <i>'s</i> before a noun tells you who did the action the noun names, not who owns something.",
+      "body": "In <i>the committee's approval of the plan</i>, the committee is the one who approved. The noun <i>approval</i> names an action, and the committee plays the part a subject would play in the matching sentence, <i>the committee approved the plan</i>.\n\nCompare <i>the committee's photograph</i>. There the link can be ownership or some other relation. So the <i>'s</i> form alone doesn't tell you the committee is the doer; it depends on the noun.\n\nThis dictionary marks the analysis as provisional.",
       "examples": [
         {
           "text": "[Brett's use] of the microphone",
@@ -89,11 +89,11 @@
           "from": "entry"
         }
       ],
-      "try": "Turn the committee's approval of the plan into a sentence with a verb. Who is the subject? Now do the same with the committee's photograph. What changes?"
+      "try": "Turn <i>the committee's approval of the plan</i> into a sentence with a verb. Who is the subject? Now do the same with <i>the committee's photograph</i>. What changes?"
     },
     "teacher": {
-      "summary": "Explains genitives that match a verb's subject, as in the committee's approval, against ordinary genitives that show ownership.",
-      "explain": "The pattern is a genitive NP in determiner function whose relation to the head noun resembles that of a subject. In Brett's use of the microphone and the committee's approval of the plan, the genitive corresponds to the notional subject of the event noun's verb, an agent or experiencer. This is not mere possession. In the committee's photograph, an ownership or other relation remains possible, so genitive position alone does not license an agent interpretation. The distinction is argument-realizing versus the wider range of ordinary genitive relations. This dictionary marks the analysis as provisional.",
+      "summary": "Explains genitives that match a verb's subject, as in <i>the committee's approval</i>, against ordinary genitives that show ownership.",
+      "explain": "The pattern is a genitive NP in determiner function whose relation to the head noun resembles that of a subject. In <i>Brett's use of the microphone</i> and <i>the committee's approval of the plan</i>, the genitive corresponds to the notional subject of the event noun's verb, an agent or experiencer. This is not mere possession. In <i>the committee's photograph</i>, an ownership or other relation remains possible, so genitive position alone does not license an agent interpretation. The distinction is argument-realizing versus the wider range of ordinary genitive relations. This dictionary marks the analysis as provisional.",
       "terms": "Sometimes called a subjective genitive. CGEL: genitive NP in determiner function. Avoid possessive as a label, since ownership is only one possible relation.",
       "examples": [
         {
@@ -109,7 +109,7 @@
         {
           "text": "the committee's approval of the plan",
           "from": "entry",
-          "note": "The committee maps to the subject of approved the plan."
+          "note": "The committee maps to the subject of <i>approved the plan</i>."
         },
         {
           "text": "the committee's photograph",
@@ -119,9 +119,9 @@
       ],
       "watch_for": [
         "A learner might read every genitive as showing ownership.",
-        "A learner might take the genitive in the committee's approval as the thing approved instead of the one who approved."
+        "A learner might take the genitive in <i>the committee's approval</i> as the thing approved instead of the one who approved."
       ],
-      "activity": "Give students noun phrases with a genitive and a noun such as approval, arrival or photograph. They try to turn each into a sentence with a verb and decide whether the genitive becomes the subject."
+      "activity": "Give students noun phrases with a genitive and a noun such as <i>approval</i>, <i>arrival</i> or <i>photograph</i>. They try to turn each into a sentence with a verb and decide whether the genitive becomes the subject."
     }
   },
   "status": {
@@ -142,10 +142,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Subject-determiner (Genitive NP).\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/subject-determiner-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Subject-determiner (Genitive NP).\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/subject-determiner-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

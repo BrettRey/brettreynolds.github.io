@@ -52,7 +52,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "On the completed-event reading, the rail reaches contextual smoothness. Replacing smooth with a property that does not readily supply an attainable endpoint can lower acceptability even when the verb and object are unchanged.",
+        "target": "On the completed-event reading, the rail reaches contextual smoothness. Replacing <i>smooth</i> with a property that does not readily supply an attainable endpoint can lower acceptability even when the verb and object are unchanged.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -62,7 +62,7 @@
     "curious": {
       "title": "Doing something until it reaches a state",
       "summary": "A describing word after the object can show the point on a scale that the action brought something to.",
-      "body": "In They polished the railing smooth, the word smooth tells you where the polishing ended up. The railing ended up smooth, and the sentence reports that it got there.\n\nThe describing word works like a point on a scale, such as how smooth something is. According to this dictionary, swapping smooth for a quality that doesn't readily supply an endpoint can make the sentence less acceptable, even when the verb and object stay the same. The analysis is marked provisional.",
+      "body": "In <i>They polished the railing smooth</i>, the word <i>smooth</i> tells you where the polishing ended up. The railing ended up smooth, and the sentence reports that it got there.\n\nThe describing word works like a point on a scale, such as how smooth something is. According to this dictionary, swapping <i>smooth</i> for a quality that doesn't readily supply an endpoint can make the sentence less acceptable, even when the verb and object stay the same. The analysis is marked provisional.",
       "examples": [
         {
           "text": "They [polished the railing smooth].",
@@ -77,7 +77,7 @@
     },
     "teacher": {
       "summary": "Helps explain resultatives whose adjective names an attainable endpoint on a scale.",
-      "explain": "In a resultative VP like polished the railing smooth, the adjective gives the result as an attained point or region on a scale. On the completed-event reading, the rail reaches contextual smoothness. This dictionary treats the pattern as a specialization of the object resultative, and notes that replacing smooth with a property that doesn't readily supply an attainable endpoint can lower acceptability, even with the same verb and object. Present the adjective as the state the action brings about.",
+      "explain": "In a resultative VP like <i>polished the railing smooth</i>, the adjective gives the result as an attained point or region on a scale. On the completed-event reading, the rail reaches contextual smoothness. This dictionary treats the pattern as a specialization of the object resultative, and notes that replacing <i>smooth</i> with a property that doesn't readily supply an attainable endpoint can lower acceptability, even with the same verb and object. Present the adjective as the state the action brings about.",
       "terms": "Traditional grammar sometimes speaks of a resultative predicate or result phrase. In this dictionary: scalar endpoint adjective in a resultative.",
       "examples": [
         {
@@ -93,17 +93,17 @@
         {
           "text": "They polished the railing.",
           "from": "constructed",
-          "note": "No result is stated; compare with polished the railing smooth."
+          "note": "No result is stated; compare with <i>polished the railing smooth</i>."
         }
       ],
       "watch_for": [
-        "A learner might read smooth in polished the railing smooth as describing how the polishing was done, when it names the state reached."
+        "A learner might read <i>smooth</i> in <i>polished the railing smooth</i> as describing how the polishing was done, when it names the state reached."
       ],
-      "activity": "Give students verb and object pairs (wipe the table, paint the fence, press the shirt). They add an adjective that names the state reached, then compare which adjectives name a clear endpoint."
+      "activity": "Give students verb and object pairs (<i>wipe the table</i>, <i>paint the fence</i>, <i>press the shirt</i>). They add an adjective that names the state reached, then compare which adjectives name a clear endpoint."
     },
     "child": {
       "hook": "What do you call a table after you wipe it until it's clean?",
-      "explain": "Some sentences end with a word that tells how things turned out. They polished the railing smooth. After the polishing, the railing was smooth.",
+      "explain": "Some sentences end with a word that tells how things turned out. <i>They polished the railing smooth</i>. After the polishing, the railing was smooth.",
       "examples": [
         {
           "text": "They [polished the railing smooth].",
@@ -114,7 +114,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Pick something to do, like wipe, wash or paint. Say what you did and add a word for how it ended up."
+      "play": "Pick something to do, like <i>wipe</i>, <i>wash</i> or <i>paint</i>. Say what you did and add a word for how it ended up."
     }
   },
   "status": {
@@ -136,10 +136,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Scalar Endpoint Adjective in a Resultative.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/resultative-scalar-state-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Scalar Endpoint Adjective in a Resultative.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/resultative-scalar-state-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

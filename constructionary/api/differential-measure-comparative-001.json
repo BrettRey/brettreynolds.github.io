@@ -44,7 +44,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Two centimetres measures the difference, not the total width. Explicitly naming the comparison standard can therefore fix the implied total independently.",
+        "target": "<i>Two centimetres</i> measures the difference, not the total width. Explicitly naming the comparison standard can therefore fix the implied total independently.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -53,8 +53,8 @@
   "editions": {
     "curious": {
       "title": "Saying how much bigger, in numbers",
-      "summary": "A measurement placed before a comparison word, such as wider, says by how much the two things differ.",
-      "body": "In The replacement is two centimetres wider than the old bracket, two centimetres is the gap between the two brackets. The two centimetres measures that difference, not the total width of the new bracket.\n\nCompare It was two centimetres wide. Here there's no comparison word, and the measure gives the total width. The same measurement phrase does two different jobs, depending on whether the adjective is in its comparative form.",
+      "summary": "A measurement placed before a comparison word, such as <i>wider</i>, says by how much the two things differ.",
+      "body": "In <i>The replacement is two centimetres wider than the old bracket</i>, <i>two centimetres</i> is the gap between the two brackets. The two centimetres measures that difference, not the total width of the new bracket.\n\nCompare <i>It was two centimetres wide</i>. Here there's no comparison word, and the measure gives the total width. The same measurement phrase does two different jobs, depending on whether the adjective is in its comparative form.",
       "examples": [
         {
           "text": "The replacement is [two centimetres wider] than the old bracket.",
@@ -65,11 +65,11 @@
           "from": "entry"
         }
       ],
-      "try": "Say how much taller you are than a friend or a chair, using a number and taller."
+      "try": "Say how much taller you are than a friend or a chair, using a number and <i>taller</i>."
     },
     "teacher": {
-      "summary": "Helps contrast a measure phrase giving a difference (two centimetres wider) with one giving a total (two centimetres wide).",
-      "explain": "A measure NP before a comparative AdjP or AdvP gives the numerical difference between a degree and its standard. In two centimetres wider than the old bracket, the measure is the difference between the two widths. In the plain-grade frame, as in two centimetres wide, the same kind of measure gives the total width. The contrast helps learners see that the comparative form changes what the measure means.",
+      "summary": "Helps contrast a measure phrase giving a difference (<i>two centimetres wider</i>) with one giving a total (<i>two centimetres wide</i>).",
+      "explain": "A measure NP before a comparative AdjP or AdvP gives the numerical difference between a degree and its standard. In <i>two centimetres wider than the old bracket</i>, the measure is the difference between the two widths. In the plain-grade frame, as in <i>two centimetres wide</i>, the same kind of measure gives the total width. The contrast helps learners see that the comparative form changes what the measure means.",
       "examples": [
         {
           "text": "The replacement is [two centimetres wider] than the old bracket.",
@@ -93,9 +93,9 @@
         }
       ],
       "watch_for": [
-        "A learner might read two centimetres wider as the total width of the new bracket."
+        "A learner might read <i>two centimetres wider</i> as the total width of the new bracket."
       ],
-      "activity": "Students measure two objects in the room and write two sentences about them, one with a measure plus a comparative (three centimetres longer than ...) and one with a measure plus the plain adjective (twenty centimetres long)."
+      "activity": "Students measure two objects in the room and write two sentences about them, one with a measure plus a comparative (<i>three centimetres longer than ...</i>) and one with a measure plus the plain adjective (<i>twenty centimetres long</i>)."
     }
   },
   "status": {
@@ -117,10 +117,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Measure Differential in a Comparative.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/differential-measure-comparative-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Measure Differential in a Comparative.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/differential-measure-comparative-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

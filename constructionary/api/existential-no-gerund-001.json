@@ -1,6 +1,6 @@
 {
   "id": "existential-no-gerund-001",
-  "name": "Existential No with a Gerund-Participial",
+  "name": "Existential <i>no</i> with a Gerund-Participial",
   "pattern": "there + BE + no + VP[gerund-participial]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/existential-no-gerund-001/",
@@ -9,13 +9,13 @@
   },
   "entry": {
     "id": "existential-no-gerund-001",
-    "name": "Existential No with a Gerund-Participial",
+    "name": "Existential <i>no</i> with a Gerund-Participial",
     "pattern": "there + BE + no + VP[gerund-participial]",
     "type": "mixed",
     "meanings": {
       "1": {
         "definition": "Presents an action as unavailable in the circumstances.",
-        "details": "There was no moving it normally suggests that moving it was impossible or impracticable. In a constructed context where moving the crate was easy and nobody chose to do it, nobody moved it fits directly and there was no moving it calls for further explanation. A rule can also be the obstacle, as in a prohibitive use. The availability and source of this modal force are open.",
+        "details": "<i>There was no moving it</i> normally suggests that moving it was impossible or impracticable. In a constructed context where moving the crate was easy and nobody chose to do it, <i>nobody moved it</i> fits directly and <i>there was no moving it</i> calls for further explanation. A rule can also be the obstacle, as in a prohibitive use. The availability and source of this modal force are open.",
         "examples": [
           {
             "form": "[There was no stopping her.]",
@@ -64,7 +64,7 @@
       {
         "id": "no-determiner-001",
         "relationship": "related-to",
-        "notes": "The fixed form no is shared with ordinary negative NPs."
+        "notes": "The fixed form <i>no</i> is shared with ordinary negative NPs."
       }
     ],
     "grounds": [
@@ -73,7 +73,7 @@
         "locator": "Ch. 14, p. 1189 [57ii]",
         "relation": "cites",
         "bears-on": "category-assignment",
-        "note": "Treats no plus a gerund-participial as hybrid and observes a strong restriction to existential there."
+        "note": "Treats <i>no</i> plus a gerund-participial as hybrid and observes a strong restriction to existential <i>there</i>."
       }
     ],
     "kind": {
@@ -87,9 +87,9 @@
   },
   "editions": {
     "curious": {
-      "title": "There was no stopping her",
-      "summary": "There plus be plus no plus an -ing verb presents an action as unavailable in the circumstances.",
-      "body": "There was no stopping her says that stopping her couldn't be done. The pattern is there, a form of be, the word no, and a verb ending in -ing. It presents an action as unavailable in the circumstances.\n\nThere was no moving it normally suggests that moving it was impossible or impracticable. If someone could easily have moved a crate and just chose not to, Nobody moved it fits directly, and There was no moving it would call for more explanation. A rule can be the obstacle too. Where this sense of \"can't\" comes from is left open in this dictionary.",
+      "title": "<i>There was no stopping her</i>",
+      "summary": "<i>There</i> plus <i>be</i> plus <i>no</i> plus an <i>-ing</i> verb presents an action as unavailable in the circumstances.",
+      "body": "<i>There was no stopping her</i> says that stopping her couldn't be done. The pattern is <i>there</i>, a form of <i>be</i>, the word <i>no</i>, and a verb ending in <i>-ing</i>. It presents an action as unavailable in the circumstances.\n\n<i>There was no moving it</i> normally suggests that moving it was impossible or impracticable. If someone could easily have moved a crate and just chose not to, <i>Nobody moved it</i> fits directly, and <i>There was no moving it</i> would call for more explanation. A rule can be the obstacle too. Where this sense of \"can't\" comes from is left open in this dictionary.",
       "examples": [
         {
           "text": "[There was no stopping her.]",
@@ -108,12 +108,12 @@
           "from": "entry"
         }
       ],
-      "try": "Picture two crates, one bolted to the floor and one that people simply left where it was. For which does There was no moving it fit better?"
+      "try": "Picture two crates, one bolted to the floor and one that people simply left where it was. For which does <i>There was no moving it</i> fit better?"
     },
     "teacher": {
-      "summary": "Helps explain the idiomatic There was no -ing pattern, which presents an action as unavailable.",
-      "explain": "The pattern is existential there, BE, no, and a gerund-participial VP. It presents an action as unavailable in the circumstances: There was no moving it normally suggests that moving it was impossible or impracticable, and a rule can also be the obstacle (a prohibitive use). A test: where a crate was easy to move and nobody did, Nobody moved it fits directly and There was no moving it calls for further explanation. CGEL treats no plus a gerund-participial as hybrid and observes a strong restriction to existential there. The source of the modal force is open, and this dictionary’s confidence is low.",
-      "terms": "Gerund-participial is CGEL's name for the -ing form, covering what traditional grammars split into gerund and present participle.",
+      "summary": "Helps explain the idiomatic <i>There was no -ing</i> pattern, which presents an action as unavailable.",
+      "explain": "The pattern is existential <i>there</i>, BE, <i>no</i>, and a gerund-participial VP. It presents an action as unavailable in the circumstances: <i>There was no moving it</i> normally suggests that moving it was impossible or impracticable, and a rule can also be the obstacle (a prohibitive use). A test: where a crate was easy to move and nobody did, <i>Nobody moved it</i> fits directly and <i>There was no moving it</i> calls for further explanation. CGEL treats <i>no</i> plus a gerund-participial as hybrid and observes a strong restriction to existential <i>there</i>. The source of the modal force is open, and this dictionary’s confidence is low.",
+      "terms": "Gerund-participial is CGEL's name for the <i>-ing</i> form, covering what traditional grammars split into gerund and present participle.",
       "examples": [
         {
           "text": "[There was no stopping her.]",
@@ -141,10 +141,10 @@
         }
       ],
       "watch_for": [
-        "A learner might read There was no moving it as a plain report that nobody moved it.",
-        "A learner might try the no plus -ing pattern with other kinds of subject, though this dictionary notes a strong restriction to existential there."
+        "A learner might read <i>There was no moving it</i> as a plain report that nobody moved it.",
+        "A learner might try the <i>no</i> plus <i>-ing</i> pattern with other kinds of subject, though this dictionary notes a strong restriction to existential <i>there</i>."
       ],
-      "activity": "Give students two scenarios for a stuck door, one where it's jammed and one where people just didn't bother. They decide which fits There was no opening it and which fits Nobody opened it, and explain why."
+      "activity": "Give students two scenarios for a stuck door, one where it's jammed and one where people just didn't bother. They decide which fits <i>There was no opening it</i> and which fits <i>Nobody opened it</i>, and explain why."
     }
   },
   "status": {
@@ -165,10 +165,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Existential No with a Gerund-Participial.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/existential-no-gerund-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Existential <i>no</i> with a Gerund-Participial.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/existential-no-gerund-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

@@ -1,6 +1,6 @@
 {
   "id": "with-a-capital-letter-001",
-  "name": "With a Capital Letter Construction",
+  "name": "<i>X with a capital Y</i> Construction",
   "pattern": "with + a + capital + Letter-name",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/with-a-capital-letter-001/",
@@ -9,11 +9,11 @@
   },
   "entry": {
     "id": "with-a-capital-letter-001",
-    "name": "With a Capital Letter Construction",
+    "name": "<i>X with a capital Y</i> Construction",
     "pattern": "with + a + capital + Letter-name",
     "type": "semantic",
     "dimensions": {
-      "form": "PP headed by with, followed by capital + letter name.",
+      "form": "PP headed by <i>with</i>, followed by <i>capital</i> + letter name.",
       "meaning": "Signals uppercase orthography and a proper/institutional sense for the label.",
       "function": "Disambiguates official or proper-name use from ordinary descriptive use.",
       "distribution": "Postposed adjunct or parenthetical after a label."
@@ -82,7 +82,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Democrat with a capital D specifies the writing of the label and can imply party affiliation. In chaos with a capital C, there need be neither an organization nor a name. The capital instruction can support emphatic construal.",
+        "target": "<i>Democrat with a capital D</i> specifies the writing of the label and can imply party affiliation. In <i>chaos with a capital C</i>, there need be neither an organization nor a name. The capital instruction can support emphatic construal.",
         "evidence": "The dictionary directly documents both the literal terminology and the emphatic idiom. The constructed comparison holds the frame constant.",
         "confidence": "medium"
       }
@@ -90,9 +90,9 @@
   },
   "editions": {
     "curious": {
-      "title": "With a capital letter",
-      "summary": "Adding with a capital D (or another letter) to a word says how it is written, and can point to an official or named meaning.",
-      "body": "Democrat with a capital D tells us how the word is written, and it can point to the party-affiliated sense. Church with a capital C does the same for the institutional sense.\n\nSo the phrase is a spelling instruction that can also point to the meaning. This dictionary notes that in chaos with a capital C, there need be neither an organization nor a name. The capital instruction can support an emphatic reading.\n\nThis dictionary marks this account as provisional.",
+      "title": "<i>With a capital letter</i>",
+      "summary": "Adding <i>with a capital D</i> (or another letter) to a word says how it is written, and can point to an official or named meaning.",
+      "body": "<i>Democrat with a capital D</i> tells us how the word is written, and it can point to the party-affiliated sense. <i>Church with a capital C</i> does the same for the institutional sense.\n\nSo the phrase is a spelling instruction that can also point to the meaning. This dictionary notes that in <i>chaos with a capital C</i>, there need be neither an organization nor a name. The capital instruction can support an emphatic reading.\n\nThis dictionary marks this account as provisional.",
       "examples": [
         {
           "text": "democrat [with a capital D]",
@@ -103,11 +103,11 @@
           "from": "entry"
         }
       ],
-      "try": "Say one word and add with a capital and its first letter. Does the word's meaning change?"
+      "try": "Say one word and add <i>with a capital</i> and its first letter. Does the word's meaning change?"
     },
     "teacher": {
-      "summary": "Helps explain with a capital letter as a way to specify spelling and signal a proper or institutional sense.",
-      "explain": "The pattern is a prepositional phrase headed by with, followed by a, capital and a letter name. It is a postposed adjunct or parenthetical after a label. It specifies uppercase orthography for the label, favouring an institutional or proper sense. It disambiguates official or proper-name use from ordinary descriptive use. In democrat with a capital D, the sense can be party-affiliated. In chaos with a capital C, there need be neither an organization nor a name, and the capital instruction can support an emphatic reading. This dictionary marks its analysis provisional. A sibling entry covers with an uppercase letter.",
+      "summary": "Helps explain <i>with a capital letter</i> as a way to specify spelling and signal a proper or institutional sense.",
+      "explain": "The pattern is a prepositional phrase headed by <i>with</i>, followed by <i>a</i>, <i>capital</i> and a letter name. It is a postposed adjunct or parenthetical after a label. It specifies uppercase orthography for the label, favouring an institutional or proper sense. It disambiguates official or proper-name use from ordinary descriptive use. In <i>democrat with a capital D</i>, the sense can be party-affiliated. In <i>chaos with a capital C</i>, there need be neither an organization nor a name, and the capital instruction can support an emphatic reading. This dictionary marks its analysis provisional. A sibling entry covers <i>with an uppercase letter</i>.",
       "terms": "This dictionary treats this as a spelling specification, with an uppercase variant.",
       "examples": [
         {
@@ -132,10 +132,10 @@
         }
       ],
       "watch_for": [
-        "A learner might think the phrase must name an organization, when this dictionary says chaos with a capital C needs neither an organization nor a name.",
+        "A learner might think the phrase must name an organization, when this dictionary says <i>chaos with a capital C</i> needs neither an organization nor a name.",
         "A learner might take it as only a spelling instruction, when it can also point to a proper sense."
       ],
-      "activity": "Write pairs of words on the board, such as democrat and church. Students say them with with a capital and a letter, then discuss what meaning each choice points to."
+      "activity": "Write pairs of words on the board, such as <i>democrat</i> and <i>church</i>. Students say them with <i>with a capital</i> and a letter, then discuss what meaning each choice points to."
     }
   },
   "status": {
@@ -157,10 +157,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"With a Capital Letter Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/with-a-capital-letter-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"<i>X with a capital Y</i> Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/with-a-capital-letter-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

@@ -1,6 +1,6 @@
 {
   "id": "either-or-coordination-001",
-  "name": "Correlative Either and Or",
+  "name": "Correlative <i>either … or</i>",
   "pattern": "coordination[either + XP + or + XP]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/either-or-coordination-001/",
@@ -10,7 +10,7 @@
   },
   "entry": {
     "id": "either-or-coordination-001",
-    "name": "Correlative Either and Or",
+    "name": "Correlative <i>either … or</i>",
     "pattern": "coordination[either + XP + or + XP]",
     "type": "mixed",
     "meanings": {
@@ -46,7 +46,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Either signals a forthcoming alternative. Exclusion of both can be imposed by context without being a universal truth-condition of or.",
+        "target": "<i>Either</i> signals a forthcoming alternative. Exclusion of both can be imposed by context without being a universal truth-condition of <i>or</i>.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -54,9 +54,9 @@
   },
   "editions": {
     "curious": {
-      "title": "Offering two choices with either and or",
-      "summary": "Either at the start and or between marks a pair of alternatives.",
-      "body": "In Pick either the blue folder or the red one, the word either warns at the left edge that two alternatives are coming, and or introduces the second. The two options are the blue folder and the red one.\n\nThe pattern puts the overt marker at the left edge. This dictionary relates it to a neighbouring pattern with neither and nor.",
+      "title": "Offering two choices with <i>either</i> and <i>or</i>",
+      "summary": "<i>Either</i> at the start and <i>or</i> between marks a pair of alternatives.",
+      "body": "In <i>Pick either the blue folder or the red one</i>, the word <i>either</i> warns at the left edge that two alternatives are coming, and <i>or</i> introduces the second. The two options are the blue folder and the red one.\n\nThe pattern puts the overt marker at the left edge. This dictionary relates it to a neighbouring pattern with <i>neither</i> and <i>nor</i>.",
       "examples": [
         {
           "text": "Pick [either the blue folder or the red one].",
@@ -67,12 +67,12 @@
           "from": "constructed"
         }
       ],
-      "try": "Offer a friend two choices for lunch, using either and or."
+      "try": "Offer a friend two choices for lunch, using <i>either</i> and <i>or</i>."
     },
     "teacher": {
-      "summary": "Helps explain correlative coordination with either and or, where either marks the alternatives at the left edge.",
-      "explain": "Either ... or is a correlative coordination: either, an overt marker at the left edge, introduces the alternatives, and or links them. The pattern is either + XP + or + XP, so the choices are two phrases, here two NPs. This dictionary treats it as a specialization of coordination and relates it to neither ... nor.",
-      "terms": "Traditionally, either and or are correlative conjunctions.",
+      "summary": "Helps explain correlative coordination with <i>either</i> and <i>or</i>, where <i>either</i> marks the alternatives at the left edge.",
+      "explain": "<i>Either ... or</i> is a correlative coordination: <i>either</i>, an overt marker at the left edge, introduces the alternatives, and <i>or</i> links them. The pattern is <i>either</i> + XP + <i>or</i> + XP, so the choices are two phrases, here two NPs. This dictionary treats it as a specialization of coordination and relates it to <i>neither ... nor</i>.",
+      "terms": "Traditionally, <i>either</i> and <i>or</i> are correlative conjunctions.",
       "examples": [
         {
           "text": "Pick [either the blue folder or the red one].",
@@ -84,14 +84,14 @@
         }
       ],
       "watch_for": [
-        "A learner might place either before the second option instead of at the left edge.",
-        "A learner might confuse either ... or with neither ... nor, which is a related but separate pattern."
+        "A learner might place <i>either</i> before the second option instead of at the left edge.",
+        "A learner might confuse <i>either ... or</i> with <i>neither ... nor</i>, which is a related but separate pattern."
       ],
-      "activity": "Students write choices for a menu using either ... or, then swap papers and mark the two alternatives in each."
+      "activity": "Students write choices for a menu using <i>either ... or</i>, then swap papers and mark the two alternatives in each."
     },
     "child": {
       "hook": "How do you offer someone two choices at once?",
-      "explain": "Either goes before the first choice. Or goes before the second. You can say Pick either the blue folder or the red one.",
+      "explain": "<i>Either</i> goes before the first choice. <i>Or</i> goes before the second. You can say <i>Pick either the blue folder or the red one</i>.",
       "examples": [
         {
           "text": "Pick [either the blue folder or the red one].",
@@ -102,7 +102,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Offer a friend two snacks using either and or. They pick one and say which they chose."
+      "play": "Offer a friend two snacks using <i>either</i> and <i>or</i>. They pick one and say which they chose."
     }
   },
   "status": {
@@ -123,10 +123,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Correlative Either and Or.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/either-or-coordination-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Correlative <i>either … or</i>.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/either-or-coordination-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

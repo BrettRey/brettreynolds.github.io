@@ -4,7 +4,7 @@
 - pattern: NPᵢ + Clause[... overt personal pronounᵢ ...]
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/left-dislocation-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
@@ -12,7 +12,7 @@ Presents a referent before making a predication about it within the clause.
 
 A pronoun in the clause takes the referent of the initial NP. The pronoun may be a subject, an object, or a genitive determiner. In complement preposing the relevant position has a gap. The left-dislocated NP can introduce a new referent.
 
-- *[Her parents, I don’t like them at all.]*: The object them is overt.
+- *[Her parents, I don’t like them at all.]*: The object *them* is overt.
 - *[Some guys, they just show up without even calling first.]*: The initial NP can introduce a class of people to the discourse.
 
 ## Related constructions
@@ -35,9 +35,9 @@ An overt pronoun can appear inside an NP as a genitive determiner while the init
 
 A speaker names a person or thing at the start, then makes a statement about it using a pronoun.
 
-In Her parents, I don't like them at all, the speaker first puts Her parents out there and then says something about them with the pronoun them. The opening phrase and the pronoun point to the same people.
+In *Her parents, I don't like them at all*, the speaker first puts *Her parents* out there and then says something about them with the pronoun *them*. The opening phrase and the pronoun point to the same people.
 
-The pronoun can be the subject or the object of what follows, or a word like her or their that goes before a noun. The opening phrase can also bring someone new into the conversation: in Some guys, they just show up without even calling first, the speaker introduces a group of people, then talks about them.
+The pronoun can be the subject or the object of what follows, or a word like *her* or *their* that goes before a noun. The opening phrase can also bring someone new into the conversation: in *Some guys, they just show up without even calling first*, the speaker introduces a group of people, then talks about them.
 
 ### Teacher
 

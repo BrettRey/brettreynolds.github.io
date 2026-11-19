@@ -1,6 +1,6 @@
 {
   "id": "into-causative-001",
-  "name": "Into-Causative",
+  "name": "<i>into</i>-Causative",
   "pattern": "VP[Head:V + Od:NPᵢ + Comp:PP[into + gerund-participial Clause with understood subjectᵢ]]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/into-causative-001/",
@@ -9,17 +9,17 @@
   },
   "entry": {
     "id": "into-causative-001",
-    "name": "Into-Causative",
+    "name": "<i>into</i>-Causative",
     "pattern": "VP[Head:V + Od:NPᵢ + Comp:PP[into + gerund-participial Clause with understood subjectᵢ]]",
     "type": "mixed",
     "meanings": {
       "1": {
         "definition": "Presents the object’s action or change of mental state as a result of what the matrix verb describes.",
-        "details": "In talk someone into leaving, talk supplies a means and the object supplies the understood subject of leaving. The pattern can give an otherwise intransitive use of a verb an object. The result inference concerns an affirmative, completed instance. A conditional, an attempt or negation can suspend it. Into followed by a locative NP can have the distinct caused-motion interpretation.",
+        "details": "In <i>talk someone into leaving</i>, <i>talk</i> supplies a means and the object supplies the understood subject of <i>leaving</i>. The pattern can give an otherwise intransitive use of a verb an object. The result inference concerns an affirmative, completed instance. A conditional, an attempt or negation can suspend it. <i>Into</i> followed by a locative NP can have the distinct caused-motion interpretation.",
         "examples": [
           {
             "form": "[talked him into going to London]",
-            "note": "BNC example. He is both the affected participant and the understood subject of going.",
+            "note": "BNC example. He is both the affected participant and the understood subject of <i>going</i>.",
             "grounds": [
               {
                 "source": "hunston-transitivity-networks",
@@ -40,7 +40,7 @@
       {
         "id": "vp-001",
         "relationship": "specialization-of",
-        "notes": "Causation is expressed through the object and into-phrase inside the VP."
+        "notes": "Causation is expressed through the object and <i>into</i>-phrase inside the VP."
       },
       {
         "id": "caused-motion-001",
@@ -59,7 +59,7 @@
         "locator": "record 35",
         "relation": "discusses",
         "bears-on": "projection",
-        "note": "Describes the object and into-phrase in one pattern."
+        "note": "Describes the object and <i>into</i>-phrase in one pattern."
       },
       {
         "source": "kim-davies-2016-into",
@@ -72,7 +72,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The postverbal NP supplies the participant who carries out or experiences the result expressed after into, even with verbs that do not ordinarily take that object.",
+        "target": "The postverbal NP supplies the participant who carries out or experiences the result expressed after <i>into</i>, even with verbs that do not ordinarily take that object.",
         "evidence": "The CASA and Hunston inventories document diverse verbs. Kim and Davies use corpus evidence to distinguish this form from literal caused motion and related frames.",
         "confidence": "high"
       }
@@ -81,8 +81,8 @@
   "editions": {
     "curious": {
       "title": "Talking someone into going",
-      "summary": "A verb, a person and into plus an -ing verb can say how someone was brought to do something.",
-      "body": "In talked him into going to London, talking is the means, and him is the person who ends up going. He's both the one affected and the one doing the going.\n\nThe same pattern works with other verbs. In They laughed him into joining in, the laughter is understood as the means by which he was induced to join. The result is claimed only for an actual completed case. A conditional, an attempt or a negation can suspend it. Into followed by a place, by contrast, describes movement.",
+      "summary": "A verb, a person and <i>into</i> plus an <i>-ing</i> verb can say how someone was brought to do something.",
+      "body": "In <i>talked him into going to London</i>, <i>talking</i> is the means, and <i>him</i> is the person who ends up going. He's both the one affected and the one doing the going.\n\nThe same pattern works with other verbs. In <i>They laughed him into joining in</i>, the laughter is understood as the means by which he was induced to join. The result is claimed only for an actual completed case. A conditional, an attempt or a negation can suspend it. <i>Into</i> followed by a place, by contrast, describes movement.",
       "examples": [
         {
           "text": "[talked him into going to London]",
@@ -93,11 +93,11 @@
           "from": "entry"
         }
       ],
-      "try": "Say She talked him into going. Who goes? Now say She tried to talk him into going. Did he go?"
+      "try": "Say <i>She talked him into going</i>. Who goes? Now say <i>She tried to talk him into going</i>. Did he go?"
     },
     "teacher": {
       "summary": "Covers verb plus object plus into plus a gerund-participial clause, as in talked him into going.",
-      "explain": "The pattern is a verb, an object, and a prepositional phrase with into plus a gerund-participial clause whose understood subject is the object. It presents the object's action or change of mental state as a result of what the matrix verb describes. In talked him into going to London, talk supplies a means and him supplies the understood subject of going. The pattern can give an otherwise intransitive use of a verb an object. The result inference concerns an affirmative, completed instance; a conditional, an attempt or negation can suspend it. Into followed by a locative noun phrase can have the distinct caused-motion interpretation. This dictionary marks the analysis as provisional.",
+      "explain": "The pattern is a verb, an object, and a prepositional phrase with <i>into</i> plus a gerund-participial clause whose understood subject is the object. It presents the object's action or change of mental state as a result of what the matrix verb describes. In <i>talked him into going to London</i>, <i>talk</i> supplies a means and <i>him</i> supplies the understood subject of <i>going</i>. The pattern can give an otherwise intransitive use of a verb an object. The result inference concerns an affirmative, completed instance; a conditional, an attempt or negation can suspend it. <i>Into</i> followed by a locative noun phrase can have the distinct caused-motion interpretation. This dictionary marks the analysis as provisional.",
       "terms": "No widely used traditional name is given in this dictionary. It is related to caused-motion and object resultative constructions.",
       "examples": [
         {
@@ -113,19 +113,19 @@
         {
           "text": "talked him into going to London",
           "from": "entry",
-          "note": "Into plus a gerund-participial clause; him is the understood subject of going."
+          "note": "<i>Into</i> plus a gerund-participial clause; <i>him</i> is the understood subject of <i>going</i>."
         },
         {
           "text": "They pushed the cart into the barn.",
           "from": "constructed",
-          "note": "Into plus a place; caused motion."
+          "note": "<i>Into</i> plus a place; caused motion."
         }
       ],
       "watch_for": [
-        "A learner might read talked him into going as saying that he talked.",
-        "A learner might take She tried to talk him into going to mean that he went."
+        "A learner might read <i>talked him into going</i> as saying that he talked.",
+        "A learner might take <i>She tried to talk him into going</i> to mean that he went."
       ],
-      "activity": "Students write sentences with a verb, a person and into plus -ing. They then add a conditional, an attempt or a negative and discuss whether the result still follows."
+      "activity": "Students write sentences with a verb, a person and <i>into</i> plus <i>-ing</i>. They then add a conditional, an attempt or a negative and discuss whether the result still follows."
     }
   },
   "status": {
@@ -146,10 +146,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Into-Causative.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/into-causative-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"<i>into</i>-Causative.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/into-causative-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

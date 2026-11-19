@@ -45,7 +45,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Ringing predicates an activity of the alarms. A free event adjunct can instead modify the whole existential assertion without predicating a property of the pivot.",
+        "target": "<i>Ringing</i> predicates an activity of the alarms. A free event adjunct can instead modify the whole existential assertion without predicating a property of the pivot.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -53,9 +53,9 @@
   },
   "editions": {
     "curious": {
-      "title": "There were two alarms ringing",
-      "summary": "A there sentence can introduce something and then say where it is or what it's doing.",
-      "body": "In There were two alarms ringing, the sentence introduces two alarms and then says what they were doing: ringing. The word ringing tells us about the alarms themselves.\n\nA different kind of added phrase works another way. It can comment on the whole situation without describing the thing introduced. So the same sentence shape can hold either a description of the alarms or a comment on the whole event, and this dictionary keeps the two apart.",
+      "title": "<i>There were two alarms ringing</i>",
+      "summary": "A <i>there</i> sentence can introduce something and then say where it is or what it's doing.",
+      "body": "In <i>There were two alarms ringing</i>, the sentence introduces two alarms and then says what they were doing: <i>ringing</i>. The word <i>ringing</i> tells us about the alarms themselves.\n\nA different kind of added phrase works another way. It can comment on the whole situation without describing the thing introduced. So the same sentence shape can hold either a description of the alarms or a comment on the whole event, and this dictionary keeps the two apart.",
       "examples": [
         {
           "text": "[There were two alarms ringing].",
@@ -66,11 +66,11 @@
           "from": "constructed"
         }
       ],
-      "try": "In There were two alarms ringing, who or what is doing the ringing?"
+      "try": "In <i>There were two alarms ringing</i>, who or what is doing the ringing?"
     },
     "teacher": {
-      "summary": "For advanced classes: there sentences that add a location or a predicate about the introduced NP.",
-      "explain": "An extended existential has dummy there, be, a pivot NP, and an integrated location or secondary predication: There were two alarms ringing. It introduces a referent and characterizes its position or current situation. Ringing predicates an activity of the alarms. A free event adjunct can instead modify the whole existential assertion without predicating a property of the pivot. This dictionary is a specialization of existential there, marked provisional, with medium confidence.",
+      "summary": "For advanced classes: <i>there</i> sentences that add a location or a predicate about the introduced NP.",
+      "explain": "An extended existential has dummy <i>there</i>, be, a pivot NP, and an integrated location or secondary predication: <i>There were two alarms ringing</i>. It introduces a referent and characterizes its position or current situation. <i>Ringing</i> predicates an activity of the alarms. A free event adjunct can instead modify the whole existential assertion without predicating a property of the pivot. This dictionary is a specialization of existential <i>there</i>, marked provisional, with medium confidence.",
       "terms": "Pivot NP is the NP after be. Secondary predication is a predicate that describes the pivot.",
       "examples": [
         {
@@ -84,9 +84,9 @@
       ],
       "watch_for": [
         "A learner might treat every phrase after the pivot as describing the pivot, when a free event adjunct can modify the whole assertion.",
-        "A learner might take ringing as a separate clause, when it predicates an activity of the alarms."
+        "A learner might take <i>ringing</i> as a separate clause, when it predicates an activity of the alarms."
       ],
-      "activity": "Students write There was/were sentences about a picture, adding what each thing is doing. Pairs then check that each added phrase describes the thing just introduced."
+      "activity": "Students write <i>There was/were</i> sentences about a picture, adding what each thing is doing. Pairs then check that each added phrase describes the thing just introduced."
     }
   },
   "status": {
@@ -107,10 +107,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Extended Existential with a Predicate.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/extended-existential-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Extended Existential with a Predicate.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/extended-existential-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

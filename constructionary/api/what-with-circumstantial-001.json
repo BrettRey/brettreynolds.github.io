@@ -1,6 +1,6 @@
 {
   "id": "what-with-circumstantial-001",
-  "name": "What With Circumstantial Adjunct",
+  "name": "<i>what with</i> Circumstantial Adjunct",
   "pattern": "adjunct[what with + NP, non-finite or verbless predication, or coordination]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/what-with-circumstantial-001/",
@@ -9,13 +9,13 @@
   },
   "entry": {
     "id": "what-with-circumstantial-001",
-    "name": "What With Circumstantial Adjunct",
+    "name": "<i>what with</i> Circumstantial Adjunct",
     "pattern": "adjunct[what with + NP, non-finite or verbless predication, or coordination]",
     "type": "mixed",
     "meanings": {
       "1": {
         "definition": "Presents one or more circumstances as explaining the main situation.",
-        "details": "What with the trains being late describes a reason for the delay. A plain with phrase can also depict an accompanying circumstance with no explanatory force, as in She waited with her arms folded. Adding what invites a reason reading. A simple NP such as the weather can fill the same slot.",
+        "details": "<i>What with the trains being late</i> describes a reason for the delay. A plain <i>with</i> phrase can also depict an accompanying circumstance with no explanatory force, as in <i>She waited with her arms folded</i>. Adding <i>what</i> invites a reason reading. A simple NP such as <i>the weather</i> can fill the same slot.",
         "examples": [
           {
             "form": "[What with the trains being late and the roads blocked], we stayed put.",
@@ -37,7 +37,7 @@
       {
         "id": "pp-001",
         "relationship": "related-to",
-        "notes": "The form includes fixed with and can contain an NP."
+        "notes": "The form includes fixed <i>with</i> and can contain an NP."
       }
     ],
     "grounds": [
@@ -46,7 +46,7 @@
         "locator": "author draft, §4.3.1 (25–26)",
         "relation": "discusses",
         "bears-on": "projection",
-        "note": "Tests addition of what in the depictive use."
+        "note": "Tests addition of <i>what</i> in the depictive use."
       },
       {
         "source": "cgel-2002",
@@ -59,17 +59,17 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Adding what to the relevant with frame imposes an explanatory interpretation. Its complement can also be a simple circumstance-denoting NP.",
-        "evidence": "FrameNet tests explanatory versus depictive interpretations. CGEL records what with as an idiom introducing a reason adjunct.",
+        "target": "Adding <i>what</i> to the relevant <i>with</i> frame imposes an explanatory interpretation. Its complement can also be a simple circumstance-denoting NP.",
+        "evidence": "FrameNet tests explanatory versus depictive interpretations. CGEL records <i>what with</i> as an idiom introducing a reason adjunct.",
         "confidence": "high"
       }
     }
   },
   "editions": {
     "curious": {
-      "title": "What with, giving reasons",
-      "summary": "What with and one or more circumstances offers them as the reason for what happened.",
-      "body": "What with the trains being late and the roads blocked, we stayed put. The part before the comma lists the circumstances, and they explain why we stayed.\n\nA simple noun phrase can fill the same slot: What with the weather, we never left the house. A plain with phrase can show an accompanying circumstance with no explanation, as in She waited with her arms folded. Adding what invites a reason reading.\n\nThe dictionary marks this account as provisional.",
+      "title": "<i>What with</i>, giving reasons",
+      "summary": "<i>What with</i> and one or more circumstances offers them as the reason for what happened.",
+      "body": "<i>What with the trains being late and the roads blocked, we stayed put</i>. The part before the comma lists the circumstances, and they explain why we stayed.\n\nA simple noun phrase can fill the same slot: <i>What with the weather, we never left the house</i>. A plain <i>with</i> phrase can show an accompanying circumstance with no explanation, as in <i>She waited with her arms folded</i>. Adding <i>what</i> invites a reason reading.\n\nThe dictionary marks this account as provisional.",
       "examples": [
         {
           "text": "[What with the trains being late and the roads blocked], we stayed put.",
@@ -84,12 +84,12 @@
           "from": "entry"
         }
       ],
-      "try": "Explain why you were late using What with and two reasons. Does it sound like an excuse?"
+      "try": "Explain why you were late using <i>What with</i> and two reasons. Does it sound like an excuse?"
     },
     "teacher": {
-      "summary": "For advanced classes, what with as a way to present circumstances as the reason for a situation.",
-      "explain": "The pattern is an adjunct beginning with what with, followed by a noun phrase, a non-finite or verbless predication, or a coordination. It presents one or more circumstances as explaining the main situation. A plain with phrase can depict an accompanying circumstance with no explanatory force, as in She waited with her arms folded. Adding what invites a reason reading. A simple noun phrase such as the weather can fill the same slot. This dictionary marks its analysis provisional.",
-      "terms": "This dictionary treats what with as an idiom introducing a reason adjunct, and relates it to absolute supplements, which can also express circumstances with their own predication.",
+      "summary": "For advanced classes, <i>what with</i> as a way to present circumstances as the reason for a situation.",
+      "explain": "The pattern is an adjunct beginning with <i>what with</i>, followed by a noun phrase, a non-finite or verbless predication, or a coordination. It presents one or more circumstances as explaining the main situation. A plain <i>with</i> phrase can depict an accompanying circumstance with no explanatory force, as in <i>She waited with her arms folded</i>. Adding <i>what</i> invites a reason reading. A simple noun phrase such as <i>the weather</i> can fill the same slot. This dictionary marks its analysis provisional.",
+      "terms": "This dictionary treats <i>what with</i> as an idiom introducing a reason adjunct, and relates it to absolute supplements, which can also express circumstances with their own predication.",
       "examples": [
         {
           "text": "[What with the trains being late and the roads blocked], we stayed put.",
@@ -113,10 +113,10 @@
         }
       ],
       "watch_for": [
-        "A learner might read what with as a question about what, when it introduces a reason.",
-        "A learner might take a plain with phrase to explain the main situation, when it can depict an accompanying circumstance."
+        "A learner might read <i>what with</i> as a question about <i>what</i>, when it introduces a reason.",
+        "A learner might take a plain <i>with</i> phrase to explain the main situation, when it can depict an accompanying circumstance."
       ],
-      "activity": "Students write sentences with with in two uses, one a depiction and one with what added as a reason, and say which is which."
+      "activity": "Students write sentences with <i>with</i> in two uses, one a depiction and one with <i>what</i> added as a reason, and say which is which."
     }
   },
   "status": {
@@ -138,10 +138,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"What With Circumstantial Adjunct.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/what-with-circumstantial-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"<i>what with</i> Circumstantial Adjunct.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/what-with-circumstantial-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

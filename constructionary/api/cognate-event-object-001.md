@@ -4,13 +4,13 @@
 - pattern: VP[Head:V[event] + Od:NP[event nominal cognate with V]]
 - status: provisional analysis; evidence level: unassessed
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/cognate-event-object-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
 Elaborates the event already described by the verb.
 
-An otherwise intransitive verb such as die can occur with a cognate event noun and its modifiers. The object in died a long and agonising death adds duration and manner without introducing a second dying event. Modification is commonly needed to make the object informative. This entry targets the event-reading construction, including otherwise intransitive verbs.
+An otherwise intransitive verb such as *die* can occur with a cognate event noun and its modifiers. The object in *died a long and agonising death* adds duration and manner without introducing a second dying event. Modification is commonly needed to make the object informative. This entry targets the event-reading construction, including otherwise intransitive verbs.
 
 - *He [died a long and agonising death].*: The NP supplies information about how he died.
 - *She [fought a heroic fight].*: The event nominal elaborates the fight.
@@ -36,12 +36,12 @@ An intransitive verb can take an event NP when its head and the verb describe th
 
 Some verbs can be followed by a noun naming the same event, which then lets you describe how it happened.
 
-In He died a long and agonising death, the verb already says what happened. The phrase after it doesn't add a second dying. It adds details about the one event: how long it lasted and what it was like.
+In *He died a long and agonising death*, the verb already says what happened. The phrase after it doesn't add a second dying. It adds details about the one event: how long it lasted and what it was like.
 
-She fought a heroic fight works the same way. The noun fight repeats the idea in the verb, and the describing words give the extra information. Die is otherwise a verb with no object after it, yet it can take one here.
+*She fought a heroic fight* works the same way. The noun *fight* repeats the idea in the verb, and the describing words give the extra information. *Die* is otherwise a verb with no object after it, yet it can take one here.
 
 ### Teacher
 
 Useful for explaining objects that repeat the verb's event noun and add manner or duration.
 
-In a cognate event object, an object noun phrase whose head is an event nominal related to the verb elaborates the event the verb already describes. It can occur with otherwise intransitive verbs such as die. In died a long and agonising death, the object adds duration and manner without introducing a second dying event, and in fought a heroic fight the nominal elaborates the fight. The object is internal to the verb phrase. A reaction object differs: it identifies what is expressed rather than describing the verbal event.
+In a cognate event object, an object noun phrase whose head is an event nominal related to the verb elaborates the event the verb already describes. It can occur with otherwise intransitive verbs such as *die*. In *died a long and agonising death*, the object adds duration and manner without introducing a second dying event, and in *fought a heroic fight* the nominal elaborates the fight. The object is internal to the verb phrase. A reaction object differs: it identifies what is expressed rather than describing the verbal event.

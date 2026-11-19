@@ -1,6 +1,6 @@
 {
   "id": "with-a-lowercase-letter-001",
-  "name": "With a Lowercase Letter Construction",
+  "name": "<i>X with a lowercase Y</i> Construction",
   "pattern": "with + a + lowercase + Letter-name",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/with-a-lowercase-letter-001/",
@@ -9,7 +9,7 @@
   },
   "entry": {
     "id": "with-a-lowercase-letter-001",
-    "name": "With a Lowercase Letter Construction",
+    "name": "<i>X with a lowercase Y</i> Construction",
     "pattern": "with + a + lowercase + Letter-name",
     "type": "semantic",
     "dimensions": {
@@ -48,7 +48,7 @@
       {
         "id": "with-a-small-letter-001",
         "relationship": "alternates-with",
-        "notes": "Lexical variant using small."
+        "notes": "Lexical variant using <i>small</i>."
       },
       {
         "id": "n-common-001",
@@ -67,8 +67,8 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "With a lowercase r and with a small r can direct a reader to the same written form in a literal clarification. The named letter generally matches the relevant initial or contrasted position in the label.",
-        "evidence": "The case contrast is documented for small and capital. The lowercase substitution illustrates the independently meaningful case terminology in the same slot.",
+        "target": "<i>With a lowercase r</i> and <i>with a small r</i> can direct a reader to the same written form in a literal clarification. The named letter generally matches the relevant initial or contrasted position in the label.",
+        "evidence": "The case contrast is documented for <i>small</i> and <i>capital</i>. The lowercase substitution illustrates the independently meaningful case terminology in the same slot.",
         "confidence": "medium"
       }
     }
@@ -76,8 +76,8 @@
   "editions": {
     "curious": {
       "title": "With a lowercase letter",
-      "summary": "Adding with a lowercase r (or another letter) says how a word is written, and can point to an ordinary meaning.",
-      "body": "Republican with a lowercase r points to the ordinary descriptive sense of the word, not an institutional one. Romantic with a lowercase r works the same way.\n\nThe phrase is a spelling instruction. It can say which written form is meant, as small does in with a small r. The letter named generally matches the initial of the label.\n\nThe dictionary marks this account as provisional.",
+      "summary": "Adding <i>with a lowercase r</i> (or another letter) says how a word is written, and can point to an ordinary meaning.",
+      "body": "<i>Republican with a lowercase r</i> points to the ordinary descriptive sense of the word, not an institutional one. <i>Romantic with a lowercase r</i> works the same way.\n\nThe phrase is a spelling instruction. It can say which written form is meant, as <i>small</i> does in <i>with a small r</i>. The letter named generally matches the initial of the label.\n\nThe dictionary marks this account as provisional.",
       "examples": [
         {
           "text": "republican [with a lowercase r]",
@@ -88,12 +88,12 @@
           "from": "entry"
         }
       ],
-      "try": "Say a word and add with a lowercase and its first letter. What written form are you pointing to?"
+      "try": "Say a word and add <i>with a lowercase</i> and its first letter. What written form are you pointing to?"
     },
     "teacher": {
-      "summary": "Helps explain with a lowercase letter as a spelling clarification pointing to an ordinary sense.",
-      "explain": "The pattern is a prepositional phrase headed by with, followed by a, lowercase and a letter name. It is postposed after a label or used parenthetically. It specifies lowercase orthography and signals an ordinary or common sense, disambiguating descriptive use from institutional or proper use. With a lowercase r and with a small r can direct a reader to the same written form in a literal clarification. The named letter generally matches the relevant initial or contrasted position in the label. This dictionary marks its analysis provisional. A sibling entry covers with a small letter.",
-      "terms": "Lowercase letter is the everyday term. This dictionary lists with a small letter as a variant.",
+      "summary": "Helps explain <i>with a lowercase letter</i> as a spelling clarification pointing to an ordinary sense.",
+      "explain": "The pattern is a prepositional phrase headed by <i>with</i>, followed by <i>a</i>, <i>lowercase</i> and a letter name. It is postposed after a label or used parenthetically. It specifies lowercase orthography and signals an ordinary or common sense, disambiguating descriptive use from institutional or proper use. <i>With a lowercase r</i> and <i>with a small r</i> can direct a reader to the same written form in a literal clarification. The named letter generally matches the relevant initial or contrasted position in the label. This dictionary marks its analysis provisional. A sibling entry covers <i>with a small letter</i>.",
+      "terms": "<i>Lowercase letter</i> is the everyday term. This dictionary lists <i>with a small letter</i> as a variant.",
       "examples": [
         {
           "text": "republican [with a lowercase r]",
@@ -113,9 +113,9 @@
       ],
       "watch_for": [
         "A learner might name a letter that doesn't match the initial being discussed, though this dictionary says the letter generally matches it.",
-        "A learner might treat with a lowercase r and with a small r as different instructions, when they can point to the same written form."
+        "A learner might treat <i>with a lowercase r</i> and <i>with a small r</i> as different instructions, when they can point to the same written form."
       ],
-      "activity": "Students pair words such as republican and romantic with the phrase with a lowercase and the initial. They then restate each using with a small and the initial, and confirm the written form is the same."
+      "activity": "Students pair words such as <i>republican</i> and <i>romantic</i> with the phrase <i>with a lowercase</i> and the initial. They then restate each using <i>with a small</i> and the initial, and confirm the written form is the same."
     }
   },
   "status": {
@@ -136,10 +136,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"With a Lowercase Letter Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/with-a-lowercase-letter-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"<i>X with a lowercase Y</i> Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/with-a-lowercase-letter-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

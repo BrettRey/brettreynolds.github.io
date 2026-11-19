@@ -21,7 +21,7 @@
     "meanings": {
       "1": {
         "definition": "A structural (morphosyntactic) profile of English determination, distinct from semantic definiteness, for which English grammar previously had no agreed name",
-        "details": "Reynolds, Definiteness and Deitality in English (LingBuzz 009369). Prototype: the demonstratives (deictic, and the historical source of the). Core diagnostics, ranked: resistance to neutral existential there pivots; domain establishment in true partitives; ready hosting of identificational material. A narrow bare-one substitution pattern supplies corroborating residue, not a core diagnostic. Definiteness and deitality usually coincide, which is why they get run together; weak definites, generic definites, narrative this, and proper names each mark a point where they separate. See data/indices/deitality-status.yaml for the provisional membership inventory.",
+        "details": "Reynolds, Definiteness and Deitality in English (LingBuzz 009369). Prototype: the demonstratives (deictic, and the historical source of <i>the</i>). Core diagnostics, ranked: resistance to neutral existential there pivots; domain establishment in true partitives; ready hosting of identificational material. A narrow bare-one substitution pattern supplies corroborating residue, not a core diagnostic. Definiteness and deitality usually coincide, which is why they get run together; weak definites, generic definites, narrative this, and proper names each mark a point where they separate. See data/indices/deitality-status.yaml for the provisional membership inventory.",
         "examples": [
           {
             "form": "*There was [the] dog in the yard.",
@@ -97,7 +97,7 @@
       "stabilisers": [
         {
           "type": "transmission",
-          "evidence": "Demonstrative > article grammaticalization; demonstratives are the profile's prototype and the historical source of the"
+          "evidence": "Demonstrative > article grammaticalization; demonstratives are the profile's prototype and the historical source of <i>the</i>"
         },
         {
           "type": "acquisition",
@@ -160,9 +160,9 @@
   },
   "editions": {
     "curious": {
-      "title": "Words that behave like this and that",
-      "summary": "This dictionary uses deitality for a pattern of grammatical behaviour shared by the, this, that and similar words, separate from what they mean.",
-      "body": "Words like this, that, these, those and the behave alike in ways that have nothing to do with pointing. They resist the neutral there was pattern: There was the dog in the yard doesn't work in the ordinary, neutral way. They can name the group a partitive is drawn from, as in two of the dogs. And they readily host extra identifying material, as in that idiot Larry.\n\nThis dictionary calls that bundle of behaviour deitality. It is related to definiteness, which is about meaning, but the two don't line up perfectly. Membership in the pattern is a matter of degree, and the analysis is provisional.",
+      "title": "Words that behave like <i>this</i> and <i>that</i>",
+      "summary": "This dictionary uses deitality for a pattern of grammatical behaviour shared by <i>the</i>, <i>this</i>, <i>that</i> and similar words, separate from what they mean.",
+      "body": "Words like <i>this</i>, <i>that</i>, <i>these</i>, <i>those</i> and <i>the</i> behave alike in ways that have nothing to do with pointing. They resist the neutral <i>there was</i> pattern: <i>There was the dog in the yard</i> doesn't work in the ordinary, neutral way. They can name the group a partitive is drawn from, as in <i>two of the dogs</i>. And they readily host extra identifying material, as in <i>that idiot Larry</i>.\n\nThis dictionary calls that bundle of behaviour deitality. It is related to definiteness, which is about meaning, but the two don't line up perfectly. Membership in the pattern is a matter of degree, and the analysis is provisional.",
       "examples": [
         {
           "text": "two of [the] dogs",
@@ -173,12 +173,12 @@
           "from": "entry"
         }
       ],
-      "try": "Compare two of the dogs with two of some dogs. Which one works? What does that tell you about the?"
+      "try": "Compare <i>two of the dogs</i> with <i>two of some dogs</i>. Which one works? What does that tell you about <i>the</i>?"
     },
     "teacher": {
       "summary": "For advanced classes: a grammatical profile (there-resistance, partitive domain, identificational hosting) that goes with, but isn't the same as, definiteness.",
-      "explain": "Deitality is a structural (morphosyntactic) profile of English determination, distinct from semantic definiteness. The prototype is the demonstratives (this, that, these, those). Core members include the, personal genitives and genitive NPs in determiner function. Three diagnostics are ranked: resistance to neutral existential there pivots; domain establishment in true partitives; ready hosting of identificational material. Definiteness and deitality usually coincide, which is why they get run together; weak definites, generic definites, narrative this and proper names each mark a point where they separate. Membership is graded, with status labels deital, non-deital, mixed and provisional. The analysis is provisional.",
-      "terms": "The, this, that, these and those are determinatives; Determiner is their function. The there-resistance is labelled the definiteness effect in this dictionary. Here it counts as one diagnostic of a structural profile, not as definiteness itself.",
+      "explain": "Deitality is a structural (morphosyntactic) profile of English determination, distinct from semantic definiteness. The prototype is the demonstratives (<i>this</i>, <i>that</i>, <i>these</i>, <i>those</i>). Core members include <i>the</i>, personal genitives and genitive NPs in determiner function. Three diagnostics are ranked: resistance to neutral existential there pivots; domain establishment in true partitives; ready hosting of identificational material. Definiteness and deitality usually coincide, which is why they get run together; weak definites, generic definites, narrative this and proper names each mark a point where they separate. Membership is graded, with status labels deital, non-deital, mixed and provisional. The analysis is provisional.",
+      "terms": "<i>The</i>, <i>this</i>, <i>that</i>, <i>these</i> and <i>those</i> are determinatives; Determiner is their function. The there-resistance is labelled the definiteness effect in this dictionary. Here it counts as one diagnostic of a structural profile, not as definiteness itself.",
       "examples": [
         {
           "text": "two of [the] dogs",
@@ -212,7 +212,7 @@
         "A learner might treat deitality and definiteness as the same thing, when weak definites, generic definites, narrative this and proper names show where they separate.",
         "A learner might expect a form to be either deital or not, when membership is graded."
       ],
-      "activity": "Students test the, this, that, a and some in the frames there was ___ dog in the yard, two of ___ dogs and ___ idiot Larry, tallying which words fit each frame and discussing why the results line up with, but don't exactly match, meaning."
+      "activity": "Students test <i>the</i>, <i>this</i>, <i>that</i>, <i>a</i> and <i>some</i> in the frames <i>there was ___ dog in the yard</i>, <i>two of ___ dogs</i> and <i>___ idiot Larry</i>, tallying which words fit each frame and discussing why the results line up with, but don't exactly match, meaning."
     }
   },
   "status": {
@@ -233,10 +233,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Deitality.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/deitality-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Deitality.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/deitality-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

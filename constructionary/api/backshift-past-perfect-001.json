@@ -54,9 +54,9 @@
   },
   "editions": {
     "curious": {
-      "title": "Had plus a verb for what came earlier",
-      "summary": "Had with a past-participle verb puts an event before another moment in the past.",
-      "body": "In When I arrived, Jo had already left, the leaving comes before the arrival on the ordinary reading. Had plus left puts the departure earlier than the past moment we're already talking about.\n\nThe past moment we're looking back from doesn't have to be named by a phrase like when I arrived. The surrounding story can supply it, so no separate time phrase is needed.",
+      "title": "<i>Had</i> plus a verb for what came earlier",
+      "summary": "<i>Had</i> with a past-participle verb puts an event before another moment in the past.",
+      "body": "In <i>When I arrived, Jo had already left</i>, the leaving comes before the arrival on the ordinary reading. <i>Had</i> plus <i>left</i> puts the departure earlier than the past moment we're already talking about.\n\nThe past moment we're looking back from doesn't have to be named by a phrase like <i>when I arrived</i>. The surrounding story can supply it, so no separate time phrase is needed.",
       "examples": [
         {
           "text": "When I arrived, Jo [had already left].",
@@ -67,12 +67,12 @@
           "from": "constructed"
         }
       ],
-      "try": "Say When I arrived, Jo had already left. Which happened first, the arriving or the leaving?"
+      "try": "Say <i>When I arrived, Jo had already left</i>. Which happened first, the arriving or the leaving?"
     },
     "teacher": {
       "summary": "Shows how the past perfect places an event before a distinct past reference point.",
-      "explain": "The past perfect is a clause with preterite had plus a past-participial VP and a past temporal anchor. It places the event or state before a distinct past reference point. In When I arrived, Jo had already left, the departure precedes the arrival on the ordinary reading. The reference point can be supplied by the surrounding narrative without a separate time adjunct. This dictionary treats the pattern as a specialization of perfect have and relates it to the backshift of present forms. It is marked provisional.",
-      "terms": "Sometimes called the past perfect. This dictionary describes it as preterite had plus a past participle.",
+      "explain": "The past perfect is a clause with preterite <i>had</i> plus a past-participial VP and a past temporal anchor. It places the event or state before a distinct past reference point. In <i>When I arrived, Jo had already left</i>, the departure precedes the arrival on the ordinary reading. The reference point can be supplied by the surrounding narrative without a separate time adjunct. This dictionary treats the pattern as a specialization of perfect have and relates it to the backshift of present forms. It is marked provisional.",
+      "terms": "Sometimes called the past perfect. This dictionary describes it as preterite <i>had</i> plus a past participle.",
       "examples": [
         {
           "text": "When I arrived, Jo [had already left].",
@@ -87,14 +87,14 @@
         }
       ],
       "watch_for": [
-        "A learner might read had left as simply past, when it places the leaving before another past point.",
+        "A learner might read <i>had left</i> as simply past, when it places the leaving before another past point.",
         "A learner might think a time phrase is required, when the narrative can supply the reference point."
       ],
-      "activity": "Students put two past events in a timeline, then write a sentence in which the earlier event uses had plus a participle and the later one uses the simple past."
+      "activity": "Students put two past events in a timeline, then write a sentence in which the earlier event uses <i>had</i> plus a participle and the later one uses the simple past."
     },
     "child": {
       "hook": "Which happened first, Jo leaving or the speaker arriving?",
-      "explain": "When I arrived, Jo had already left. Here, Jo's leaving came first. Had plus a verb like left tells us that something happened earlier than another past moment.",
+      "explain": "<i>When I arrived, Jo had already left</i>. Here, Jo's leaving came first. <i>Had</i> plus a verb like <i>left</i> tells us that something happened earlier than another past moment.",
       "examples": [
         {
           "text": "When I arrived, Jo [had already left].",
@@ -105,7 +105,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Draw a timeline with two past events. Say which came first, using had for the earlier one. Swap with a partner."
+      "play": "Draw a timeline with two past events. Say which came first, using <i>had</i> for the earlier one. Swap with a partner."
     }
   },
   "status": {
@@ -127,10 +127,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Past Perfect Anteriority.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/backshift-past-perfect-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Past Perfect Anteriority.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/backshift-past-perfect-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

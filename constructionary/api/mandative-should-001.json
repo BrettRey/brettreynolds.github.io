@@ -1,6 +1,6 @@
 {
   "id": "mandative-should-001",
-  "name": "Mandative Should",
+  "name": "Mandative <i>should</i>",
   "pattern": "content clause[(that) + Subject + should + plain-form VP]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/mandative-should-001/",
@@ -9,7 +9,7 @@
   },
   "entry": {
     "id": "mandative-should-001",
-    "name": "Mandative Should",
+    "name": "Mandative <i>should</i>",
     "pattern": "content clause[(that) + Subject + should + plain-form VP]",
     "type": "mixed",
     "meanings": {
@@ -45,7 +45,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "Should is possible with strongly requiring predicates such as essential. This modal need not weaken the strength of the matrix requirement.",
+        "target": "<i>Should</i> is possible with strongly requiring predicates such as <i>essential</i>. This modal need not weaken the strength of the matrix requirement.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -53,21 +53,21 @@
   },
   "editions": {
     "curious": {
-      "title": "Should after a strong requirement",
-      "summary": "After a word that states a strong requirement, a that-clause can use should to say what is required.",
-      "body": "In It is essential that the gate should remain closed, the should is part of the requirement. The clause after that tells us what has to happen to the gate.\n\nA word like essential strongly requires something, and should can follow it in this way. The should doesn't weaken the requirement. It doesn't turn the sentence into a mild piece of advice.\n\nThis dictionary also has a related entry for a version without should, which can replace it in the same kind of sentence.",
+      "title": "<i>Should</i> after a strong requirement",
+      "summary": "After a word that states a strong requirement, a <i>that</i>-clause can use <i>should</i> to say what is required.",
+      "body": "In <i>It is essential that the gate should remain closed</i>, the <i>should</i> is part of the requirement. The clause after <i>that</i> tells us what has to happen to the gate.\n\nA word like <i>essential</i> strongly requires something, and <i>should</i> can follow it in this way. The <i>should</i> doesn't weaken the requirement. It doesn't turn the sentence into a mild piece of advice.\n\nThis dictionary also has a related entry for a version without <i>should</i>, which can replace it in the same kind of sentence.",
       "examples": [
         {
           "text": "It is essential [that the gate should remain closed].",
           "from": "entry"
         }
       ],
-      "try": "Say It is essential that the gate should remain closed. Is the requirement strong or weak?"
+      "try": "Say <i>It is essential that the gate should remain closed</i>. Is the requirement strong or weak?"
     },
     "teacher": {
-      "summary": "Helps explain should in that-clauses after strongly requiring words like essential, and why it doesn't soften the requirement.",
-      "explain": "In a mandative content clause, should can follow the subject and take a plain-form VP: that the gate should remain closed. The pattern realizes a requirement or recommendation. Should is possible with strongly requiring predicates such as essential, and the modal need not weaken the strength of the matrix requirement. This dictionary has a separate entry for the alternating form without should. This dictionary marks the analysis as provisional and short.",
-      "terms": "Mandative construction is the usual name. The related form without should is called the subjunctive mandative in this dictionary.",
+      "summary": "Helps explain <i>should</i> in <i>that</i>-clauses after strongly requiring words like <i>essential</i>, and why it doesn't soften the requirement.",
+      "explain": "In a mandative content clause, <i>should</i> can follow the subject and take a plain-form VP: <i>that the gate should remain closed</i>. The pattern realizes a requirement or recommendation. <i>Should</i> is possible with strongly requiring predicates such as <i>essential</i>, and the modal need not weaken the strength of the matrix requirement. This dictionary has a separate entry for the alternating form without <i>should</i>. This dictionary marks the analysis as provisional and short.",
+      "terms": "Mandative construction is the usual name. The related form without <i>should</i> is called the subjunctive mandative in this dictionary.",
       "examples": [
         {
           "text": "It is essential [that the gate should remain closed].",
@@ -82,10 +82,10 @@
         }
       ],
       "watch_for": [
-        "A learner might hear should as mild advice, when here it need not weaken the strength of the requirement.",
-        "A learner might read should as a prediction about the gate, when it states what is required."
+        "A learner might hear <i>should</i> as mild advice, when here it need not weaken the strength of the requirement.",
+        "A learner might read <i>should</i> as a prediction about the gate, when it states what is required."
       ],
-      "activity": "Students complete sentences beginning It is essential that ... with a subject and should plus a plain verb, then discuss how strong each requirement feels."
+      "activity": "Students complete sentences beginning <i>It is essential that ...</i> with a subject and <i>should</i> plus a plain verb, then discuss how strong each requirement feels."
     }
   },
   "status": {
@@ -106,10 +106,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Mandative Should.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/mandative-should-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Mandative <i>should</i>.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/mandative-should-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

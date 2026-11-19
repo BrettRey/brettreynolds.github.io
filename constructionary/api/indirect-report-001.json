@@ -37,7 +37,7 @@
       {
         "id": "declarative-content-clause-001",
         "relationship": "interfaces-with",
-        "notes": "The that-clause in Jo said that she was ready supplies the content of the speech report."
+        "notes": "The <i>that</i>-clause in <i>Jo said that she was ready</i> supplies the content of the speech report."
       }
     ],
     "grounds": [
@@ -61,7 +61,7 @@
     "curious": {
       "title": "Reporting what someone said",
       "summary": "An indirect report gives the content of what someone said from the reporter's point of view, without repeating their exact words.",
-      "body": "In Jo said that she would call the next day, the reporter tells us what Jo said. The reporter doesn't quote Jo. The person, the tense and the way the day is named can be adjusted to fit the reporter's situation.\n\nSo the reported part need not repeat the words Jo used. It reports the content, and it can report a statement or a question.",
+      "body": "In <i>Jo said that she would call the next day</i>, the reporter tells us what Jo said. The reporter doesn't quote Jo. The person, the tense and the way the day is named can be adjusted to fit the reporter's situation.\n\nSo the reported part need not repeat the words Jo used. It reports the content, and it can report a statement or a question.",
       "examples": [
         {
           "text": "Jo said [that she would call the next day].",
@@ -72,7 +72,7 @@
     },
     "teacher": {
       "summary": "Introduces reported speech as a reporting predicate plus a content clause.",
-      "explain": "The pattern is a reporting predicate followed by a content clause. It reports propositional or interrogative content from the reporter's perspective, as in Jo said that she would call the next day. Person, tense and calendar anchoring can adapt to the reporting context, and the reported clause need not reproduce the words of the earlier utterance. The that-clause supplies the content of the report. This dictionary relates this pattern to the declarative content clause and to present backshift, and marks it provisional.",
+      "explain": "The pattern is a reporting predicate followed by a content clause. It reports propositional or interrogative content from the reporter's perspective, as in <i>Jo said that she would call the next day</i>. Person, tense and calendar anchoring can adapt to the reporting context, and the reported clause need not reproduce the words of the earlier utterance. The <i>that</i>-clause supplies the content of the report. This dictionary relates this pattern to the declarative content clause and to present backshift, and marks it provisional.",
       "terms": "Traditionally called indirect speech or reported speech. The matching quotation of the speaker's exact words is traditionally called direct speech; this dictionary doesn't cover it.",
       "examples": [
         {
@@ -86,13 +86,13 @@
       ],
       "watch_for": [
         "A learner might assume the reported clause must repeat the speaker's exact words.",
-        "A learner might keep the speaker's original person and calendar words, such as tomorrow, when the reporting context calls for adjusting them."
+        "A learner might keep the speaker's original person and calendar words, such as <i>tomorrow</i>, when the reporting context calls for adjusting them."
       ],
       "activity": "Students write down one short statement each. Partners report it to the class without repeating the exact words, then check which parts changed."
     },
     "child": {
       "hook": "Can you tell someone what a friend said without copying the exact words?",
-      "explain": "You can tell what someone said without using their exact words. Jo said that she would call the next day. The words can change to fit who is telling it.",
+      "explain": "You can tell what someone said without using their exact words. <i>Jo said that she would call the next day.</i> The words can change to fit who is telling it.",
       "examples": [
         {
           "text": "Jo said [that she would call the next day].",
@@ -103,7 +103,7 @@
           "from": "constructed"
         }
       ],
-      "play": "Say one sentence to a partner. They tell the class what you said, starting with \"said that.\" Did the words change?"
+      "play": "Say one sentence to a partner. They tell the class what you said, starting with \"<i>said that</i>.\" Did the words change?"
     }
   },
   "status": {
@@ -124,10 +124,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Indirect Speech Report.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/indirect-report-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Indirect Speech Report.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/indirect-report-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

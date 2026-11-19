@@ -4,7 +4,7 @@
 - pattern: Clause[Subject headed by singular collective N + singular or plural finite agreement]
 - status: provisional analysis; evidence level: unassessed; early sketch (one example, evidence not yet written up)
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/collective-agreement-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
@@ -24,15 +24,15 @@ Allows agreement to track a collective unit or its members in appropriate variet
 
 ## Projection
 
-Singular committee can control plural agreement where the members are foregrounded. Availability depends on variety and the particular predicate, and the noun itself stays singular.
+Singular *committee* can control plural agreement where the members are foregrounded. Availability depends on variety and the particular predicate, and the noun itself stays singular.
 
 ## Reader editions (draft, AI-assisted, unreviewed; the linguist entry is the reference)
 
 ### Curious reader: Singular group nouns with plural verbs
 
-A singular noun for a group, such as committee, can sometimes take a plural verb when the members are in mind.
+A singular noun for a group, such as *committee*, can sometimes take a plural verb when the members are in mind.
 
-In The committee have all signed the report, committee is a singular noun, but the verb is plural. The plural verb follows the members of the committee, who each signed, rather than the group as one unit.
+In *The committee have all signed the report*, *committee* is a singular noun, but the verb is plural. The plural verb follows the members of the committee, who each signed, rather than the group as one unit.
 
 The noun itself stays singular. Whether a plural verb is available depends on the variety of English and on the particular predicate. Agreement is the matching of the verb to the subject, and here it can follow the meaning.
 
@@ -40,4 +40,4 @@ The noun itself stays singular. Whether a plural verb is available depends on th
 
 Useful for explaining notional agreement with collective nouns, and why plural agreement isn't available in every case.
 
-With a subject headed by a singular collective noun, agreement can be singular or plural. Singular committee can control plural agreement where the members are foregrounded, as in The committee have all signed the report. The noun stays singular; the verb tracks the members. Whether plural agreement is available depends on the variety and on the particular predicate. This is notional agreement, with the verb following the meaning rather than only the form of the subject.
+With a subject headed by a singular collective noun, agreement can be singular or plural. Singular *committee* can control plural agreement where the members are foregrounded, as in *The committee have all signed the report*. The noun stays singular; the verb tracks the members. Whether plural agreement is available depends on the variety and on the particular predicate. This is notional agreement, with the verb following the meaning rather than only the form of the subject.

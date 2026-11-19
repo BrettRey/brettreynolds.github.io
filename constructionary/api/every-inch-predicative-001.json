@@ -1,6 +1,6 @@
 {
   "id": "every-inch-predicative-001",
-  "name": "Every Inch with a Nominal Predicative",
+  "name": "<i>every inch</i> with a Nominal Predicative",
   "pattern": "PredComp:NP[every inch + a(n) + Nom]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/every-inch-predicative-001/",
@@ -9,17 +9,17 @@
   },
   "entry": {
     "id": "every-inch-predicative-001",
-    "name": "Every Inch with a Nominal Predicative",
+    "name": "<i>every inch</i> with a Nominal Predicative",
     "pattern": "PredComp:NP[every inch + a(n) + Nom]",
     "type": "mixed",
     "meanings": {
       "1": {
         "definition": "Emphasizes that someone exemplifies a role or type in the relevant respects.",
-        "details": "Every inch marks completeness in the characterization. CGEL identifies this use as idiomatic and contrasts the predicative with an unacceptable use as a by-agent. The relation to every bit as good remains open.",
+        "details": "<i>Every inch</i> marks completeness in the characterization. CGEL identifies this use as idiomatic and contrasts the predicative with an unacceptable use as a by-agent. The relation to <i>every bit as good</i> remains open.",
         "examples": [
           {
             "form": "She is [every inch a philosopher].",
-            "note": "The relevant respects come from the description philosopher.",
+            "note": "The relevant respects come from the description <i>philosopher</i>.",
             "grounds": [
               {
                 "source": "cgel-2002",
@@ -36,12 +36,12 @@
       {
         "id": "degree-001",
         "relationship": "related-to",
-        "notes": "Every inch strengthens the characterization."
+        "notes": "<i>Every inch</i> strengthens the characterization."
       },
       {
         "id": "bare-role-001",
         "relationship": "related-to",
-        "notes": "Both concern nominal predication. The every inch pattern shown here contains an article."
+        "notes": "Both concern nominal predication. The <i>every inch</i> pattern shown here contains an article."
       }
     ],
     "grounds": [
@@ -50,14 +50,14 @@
         "locator": "Ch. 5 §7.4, p. 379 n. 22; §13(d), p. 438",
         "relation": "cites",
         "bears-on": "projection",
-        "note": "Identifies idiomatic every inch and compares its predicative and nonpredicative distribution."
+        "note": "Identifies idiomatic <i>every inch</i> and compares its predicative and nonpredicative distribution."
       }
     ],
     "kind": {
       "provisional": true,
       "projection": {
         "target": "The idiomatic frame favours predicative use and an interpretation over respects in which the description applies.",
-        "evidence": "CGEL's predicative versus by-agent comparison and its note on idiomatic every inch. A constructed test replaces inch with centimetre.",
+        "evidence": "CGEL's predicative versus by-agent comparison and its note on idiomatic <i>every inch</i>. A constructed test replaces <i>inch</i> with <i>centimetre</i>.",
         "confidence": "medium"
       }
     }
@@ -65,8 +65,8 @@
   "editions": {
     "curious": {
       "title": "Being a philosopher in every way",
-      "summary": "Every inch a philosopher says that someone fully fits a role or type, in the respects that matter for it.",
-      "body": "In She is every inch a philosopher, the words every inch add emphasis. They suggest nothing is missing from the description: she is a philosopher completely.\n\nThe respects that count come from the description itself. Here the word philosopher tells us what to look at, so the phrase is about her qualities as a philosopher, not about her height. The phrase is an idiom, and in this example it describes the person after a form of be.",
+      "summary": "<i>Every inch a philosopher</i> says that someone fully fits a role or type, in the respects that matter for it.",
+      "body": "In <i>She is every inch a philosopher</i>, the words <i>every inch</i> add emphasis. They suggest nothing is missing from the description: she is a philosopher completely.\n\nThe respects that count come from the description itself. Here the word <i>philosopher</i> tells us what to look at, so the phrase is about her qualities as a philosopher, not about her height. The phrase is an idiom, and in this example it describes the person after a form of be.",
       "examples": [
         {
           "text": "She is [every inch a philosopher].",
@@ -81,11 +81,11 @@
           "from": "constructed"
         }
       ],
-      "try": "Swap philosopher for another role, such as leader. Which qualities does every inch now cover?"
+      "try": "Swap <i>philosopher</i> for another role, such as <i>leader</i>. Which qualities does <i>every inch</i> now cover?"
     },
     "teacher": {
-      "summary": "Helps with the idiom every inch a ..., which emphasizes that someone fully fits a role or type.",
-      "explain": "Every inch plus a or an plus a nominal works as a predicative complement and marks completeness in the characterization: the subject exemplifies the role or type in the relevant respects. The respects come from the noun (philosopher), not from any measurement. CGEL identifies this use as idiomatic and contrasts the predicative use with an unacceptable use as a by-agent. This dictionary’s relation to every bit as good remains open, and this dictionary marks the analysis as provisional.",
+      "summary": "Low priority for most classes: <i>inch</i> is relatively infrequent (about 4,200th among word forms in the SUBTLEX-UK subtitle counts), so treat this idiom if it comes up rather than teaching it. Helps with the idiom <i>every inch a ...</i>, which emphasizes that someone fully fits a role or type.",
+      "explain": "<i>Every inch</i> plus <i>a</i> or <i>an</i> plus a nominal works as a predicative complement and marks completeness in the characterization: the subject exemplifies the role or type in the relevant respects. The respects come from the noun (<i>philosopher</i>), not from any measurement. CGEL identifies this use as idiomatic and contrasts the predicative use with an unacceptable use as a by-agent. This dictionary’s relation to <i>every bit as good</i> remains open, and this dictionary marks the analysis as provisional.",
       "terms": "Predicative complement is this grammar's term. Textbooks sometimes call it a subject complement or predicate nominative.",
       "examples": [
         {
@@ -110,10 +110,10 @@
         }
       ],
       "watch_for": [
-        "A learner might read inch literally, as a measure of height or size.",
-        "A learner might not see that the noun after a decides which respects every inch covers."
+        "A learner might read <i>inch</i> literally, as a measure of height or size.",
+        "A learner might not see that the noun after <i>a</i> decides which respects <i>every inch</i> covers."
       ],
-      "activity": "Give students role nouns (teacher, host, rebel, athlete). They write a sentence about someone they know using every inch a plus the noun, then say which qualities they meant."
+      "activity": "If the idiom comes up in a reading, write <i>She is every inch a philosopher</i> and <i>She is a philosopher</i> on the board. Students say what the first sentence adds and which qualities of a philosopher it covers."
     }
   },
   "status": {
@@ -129,15 +129,16 @@
       "checked": {
         "date": "2026-11-19",
         "model": "codex (gpt-6.2-sol)",
-        "result": "pass"
+        "result": "pass",
+        "note": "Frequency pass: teacher.summary now opens by marking the idiom low priority (inch about 4,200th in SUBTLEX-UK); activity no longer has students write every inch a sentences and is now a recognition task on the entry example and its constructed contrast."
       }
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Every Inch with a Nominal Predicative.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/every-inch-predicative-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"<i>every inch</i> with a Nominal Predicative.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/every-inch-predicative-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

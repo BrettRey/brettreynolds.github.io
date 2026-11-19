@@ -1,14 +1,14 @@
-# Singular Anaphoric They
+# Singular Anaphoric *they*
 
 - id: `singular-anaphoric-they-001`
 - pattern: anaphoric NP[they/them/their] with a singular referent or antecedent
 - status: provisional analysis; evidence level: unassessed; early sketch (one example, evidence not yet written up)
 - linguist edition: https://brettreynolds.ca/constructionary/linguist/singular-anaphoric-they-001/
-- licence: CC BY 4.0; snapshot 2026-11-19 (5c11b28)
+- licence: CC BY 4.0; snapshot 2026-11-19 (ef810bb)
 
 ## Meaning 1
 
-Uses the they paradigm for a single antecedent, including a bound variable or a known person.
+Uses the *they* paradigm for a single antecedent, including a bound variable or a known person.
 
 - *Every applicant said [they were] ready.*: Constructed illustration.
 
@@ -23,26 +23,26 @@ Uses the they paradigm for a single antecedent, including a bound variable or a 
 
 ## Projection
 
-The antecedent can be singular while they takes ordinary they-agreement, such as were. The construction is compatible with bound readings and with specific references in suitable contexts.
+The antecedent can be singular while *they* takes ordinary *they*-agreement, such as *were*. The construction is compatible with bound readings and with specific references in suitable contexts.
 
 ## Reader editions (draft, AI-assisted, unreviewed; the linguist entry is the reference)
 
-### Curious reader: They for one person
+### Curious reader: *They* for one person
 
-They, them and their can point back to a single person, and the verb still agrees as it does with they.
+*They*, *them* and *their* can point back to a single person, and the verb still agrees as it does with *they*.
 
-In Every applicant said they were ready, the word they refers back to every applicant, taken one at a time. The verb is were, the same form used when they means several people.
+In *Every applicant said they were ready*, the word *they* refers back to every applicant, taken one at a time. The verb is *were*, the same form used when *they* means several people.
 
-The pattern is also compatible with they for a specific person in a suitable context. The word that they refers back to is singular, while the pronoun still takes its usual they forms. This dictionary marks the analysis as provisional.
+The pattern is also compatible with they for a specific person in a suitable context. The word that *they* refers back to is singular, while the pronoun still takes its usual *they* forms. This dictionary marks the analysis as provisional.
 
 ### Teacher
 
-Helps explain they, them and their with a singular antecedent.
+Helps explain *they*, *them* and *their* with a singular antecedent.
 
-The they paradigm (they, them, their) can have a singular antecedent, including a bound-variable reading (as with every applicant) or a known person. In Every applicant said they were ready, the antecedent is singular, yet they takes ordinary they-agreement, such as were. The pattern is compatible with bound readings and with specific references in suitable contexts. This dictionary treats it as a specialization of the personal pronoun NP and relates it to verb number agreement. The analysis is marked provisional.
+The *they* paradigm (*they*, *them*, *their*) can have a singular antecedent, including a bound-variable reading (as with every applicant) or a known person. In *Every applicant said they were ready*, the antecedent is singular, yet *they* takes ordinary *they*-agreement, such as *were*. The pattern is compatible with bound readings and with specific references in suitable contexts. This dictionary treats it as a specialization of the personal pronoun NP and relates it to verb number agreement. The analysis is marked provisional.
 
 ### Child
 
-Can they ever mean just one person?
+Can *they* ever mean just one person?
 
-Sometimes they points back to one person at a time. Every applicant said they were ready. The verb is were, just like when they means a group.
+Sometimes *they* points back to one person at a time. *Every applicant said they were ready.* The verb is *were*, just like when *they* means a group.

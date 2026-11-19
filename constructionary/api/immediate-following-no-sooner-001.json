@@ -1,6 +1,6 @@
 {
   "id": "immediate-following-no-sooner-001",
-  "name": "No Sooner … Than",
+  "name": "<i>no sooner X than Y</i>",
   "pattern": "No sooner + inverted primary clause + than + second clause",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/immediate-following-no-sooner-001/",
@@ -9,7 +9,7 @@
   },
   "entry": {
     "id": "immediate-following-no-sooner-001",
-    "name": "No Sooner … Than",
+    "name": "<i>no sooner X than Y</i>",
     "pattern": "No sooner + inverted primary clause + than + second clause",
     "type": "mixed",
     "meanings": {
@@ -44,7 +44,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The comparative-shaped than-clause supplies the subsequent event. Fronted no sooner licenses inversion in the initial clause.",
+        "target": "The comparative-shaped <i>than</i>-clause supplies the subsequent event. Fronted <i>no sooner</i> licenses inversion in the initial clause.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -52,20 +52,20 @@
   },
   "editions": {
     "curious": {
-      "title": "No sooner ... than",
-      "summary": "No sooner ... than presents one event as following almost at once after another.",
-      "body": "In No sooner had we parked than the rain started, the rain starts almost as soon as the parking is done. The sentence starts with no sooner, and the helper word had comes before we.\n\nThe second part begins with than, which brings in the later event. Placing no sooner first is what brings in the changed word order in the first part.",
+      "title": "<i>No sooner ... than</i>",
+      "summary": "<i>No sooner ... than</i> presents one event as following almost at once after another.",
+      "body": "In <i>No sooner had we parked than the rain started</i>, the rain starts almost as soon as the parking is done. The sentence starts with <i>no sooner</i>, and the helper word <i>had</i> comes before <i>we</i>.\n\nThe second part begins with <i>than</i>, which brings in the later event. Placing <i>no sooner</i> first is what brings in the changed word order in the first part.",
       "examples": [
         {
           "text": "[No sooner had we parked than the rain started].",
           "from": "entry"
         }
       ],
-      "try": "Say something that happened right after something else, beginning with No sooner had ..."
+      "try": "Say something that happened right after something else, beginning with <i>No sooner had ...</i>"
     },
     "teacher": {
-      "summary": "For advanced classes, a fronted negative expression with inverted order, and a than-clause for the later event.",
-      "explain": "The pattern is No sooner plus an inverted primary clause, then than plus a second clause: No sooner had we parked than the rain started. It presents one event as occurring almost immediately after another. The comparative-shaped than-clause supplies the subsequent event. Fronted no sooner licenses inversion in the initial clause. This dictionary relates the pattern to negative-initial inversion and marks it as provisional.",
+      "summary": "For advanced classes, a fronted negative expression with inverted order, and a <i>than</i>-clause for the later event.",
+      "explain": "The pattern is <i>No sooner</i> plus an inverted primary clause, then <i>than</i> plus a second clause: <i>No sooner had we parked than the rain started</i>. It presents one event as occurring almost immediately after another. The comparative-shaped <i>than</i>-clause supplies the subsequent event. Fronted <i>no sooner</i> licenses inversion in the initial clause. This dictionary relates the pattern to negative-initial inversion and marks it as provisional.",
       "terms": "Subject-auxiliary inversion is the usual textbook name for the word order in the first part.",
       "examples": [
         {
@@ -74,10 +74,10 @@
         }
       ],
       "watch_for": [
-        "A learner might leave the first clause in ordinary order after no sooner, instead of inverting it as had we parked.",
-        "A learner might replace than with another word in the second part."
+        "A learner might leave the first clause in ordinary order after <i>no sooner</i>, instead of inverting it as <i>had we parked</i>.",
+        "A learner might replace <i>than</i> with another word in the second part."
       ],
-      "activity": "Give students pairs of events in time order. They combine each with No sooner ... than, then say aloud which event came first."
+      "activity": "Give students pairs of events in time order. They combine each with <i>No sooner ... than</i>, then say aloud which event came first."
     }
   },
   "status": {
@@ -98,10 +98,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"No Sooner … Than.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/immediate-following-no-sooner-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"<i>no sooner X than Y</i>.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/immediate-following-no-sooner-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

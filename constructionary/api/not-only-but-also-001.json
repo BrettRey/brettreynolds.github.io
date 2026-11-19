@@ -1,6 +1,6 @@
 {
   "id": "not-only-but-also-001",
-  "name": "Additive Not Only and But Also",
+  "name": "Additive <i>not only … but also</i>",
   "pattern": "coordination[not only XP + but (also) XP]",
   "urls": {
     "curious": "https://brettreynolds.ca/constructionary/not-only-but-also-001/",
@@ -9,7 +9,7 @@
   },
   "entry": {
     "id": "not-only-but-also-001",
-    "name": "Additive Not Only and But Also",
+    "name": "Additive <i>not only … but also</i>",
     "pattern": "coordination[not only XP + but (also) XP]",
     "type": "mixed",
     "meanings": {
@@ -45,7 +45,7 @@
     "kind": {
       "provisional": true,
       "projection": {
-        "target": "The first contribution is included despite the overt not. Preposing not only plus a constituent can trigger inversion when the first coordinate is a clause.",
+        "target": "The first contribution is included despite the overt <i>not</i>. Preposing <i>not only</i> plus a constituent can trigger inversion when the first coordinate is a clause.",
         "evidence": "See the cited discussion and the constructed illustration.",
         "confidence": "medium"
       }
@@ -53,20 +53,20 @@
   },
   "editions": {
     "curious": {
-      "title": "Not only this, but that too",
-      "summary": "A pair of words, not only and but also, joins two things and presents the second as an extra.",
-      "body": "In She not only signed it but also delivered it, both things happened. The words not only might make you expect a denial, but the first part is still included: she did sign it.\n\nThe second part is presented as something added, or something worth noticing. When the first part is a whole clause and not only comes first, the sentence can change its word order.",
+      "title": "<i>Not only this, but that too</i>",
+      "summary": "A pair of words, <i>not only</i> and <i>but also</i>, joins two things and presents the second as an extra.",
+      "body": "In <i>She not only signed it but also delivered it</i>, both things happened. The words <i>not only</i> might make you expect a denial, but the first part is still included: she did sign it.\n\nThe second part is presented as something added, or something worth noticing. When the first part is a whole clause and <i>not only</i> comes first, the sentence can change its word order.",
       "examples": [
         {
           "text": "She [not only signed it but also delivered it].",
           "from": "entry"
         }
       ],
-      "try": "Take two things someone did and join them with not only and but also. Do both things still count as true?"
+      "try": "Take two things someone did and join them with <i>not only</i> and <i>but also</i>. Do both things still count as true?"
     },
     "teacher": {
-      "summary": "Explains not only ... but also as a way of joining two items that both hold, with the second as an addition.",
-      "explain": "Not only X but (also) Y is a coordination construction that asserts both contributions, with the second presented as additional or noteworthy. Despite the overt not, the first contribution is included. The dictionary treats it as a specialization of ordinary coordination. When not only plus a constituent is preposed and the first coordinate is a clause, inversion can follow. The dictionary marks this account as provisional.",
+      "summary": "Explains <i>not only ... but also</i> as a way of joining two items that both hold, with the second as an addition.",
+      "explain": "<i>Not only X but (also) Y</i> is a coordination construction that asserts both contributions, with the second presented as additional or noteworthy. Despite the overt <i>not</i>, the first contribution is included. The dictionary treats it as a specialization of ordinary coordination. When <i>not only</i> plus a constituent is preposed and the first coordinate is a clause, inversion can follow. The dictionary marks this account as provisional.",
       "terms": "Sometimes called a correlative conjunction, or a correlative pair. Here it's treated as a kind of coordination.",
       "examples": [
         {
@@ -75,10 +75,10 @@
         }
       ],
       "watch_for": [
-        "A learner might read not only as negating the first part, when the first contribution is still included.",
-        "A learner might drop but when building the second part."
+        "A learner might read <i>not only</i> as negating the first part, when the first contribution is still included.",
+        "A learner might drop <i>but</i> when building the second part."
       ],
-      "activity": "Give students pairs of simple facts about one person. They join each pair with not only and but also, then say whether both facts are true."
+      "activity": "Give students pairs of simple facts about one person. They join each pair with <i>not only</i> and <i>but also</i>, then say whether both facts are true."
     }
   },
   "status": {
@@ -100,10 +100,10 @@
     }
   },
   "licence": "CC-BY-4.0",
-  "cite": "Reynolds, Brett, ed. 2026. \"Additive Not Only and But Also.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/not-only-but-also-001/ (snapshot 2026-11-19, 5c11b28).",
+  "cite": "Reynolds, Brett, ed. 2026. \"Additive <i>not only … but also</i>.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/not-only-but-also-001/ (snapshot 2026-11-19, ef810bb).",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "5c11b28",
+    "commit": "ef810bb",
     "dirty_data": false
   }
 }

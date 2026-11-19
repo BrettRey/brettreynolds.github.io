@@ -1,0 +1,150 @@
+{
+  "id": "prenominal-modifier-001",
+  "name": "Bare Plural with Prenominal Modifier",
+  "pattern": "NP[Head:Nom[Modifier:AdjP + Head:N[plural]]]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/prenominal-modifier-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/prenominal-modifier-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/prenominal-modifier-001/"
+  },
+  "entry": {
+    "id": "prenominal-modifier-001",
+    "name": "Bare Plural with Prenominal Modifier",
+    "pattern": "NP[Head:Nom[Modifier:AdjP + Head:N[plural]]]",
+    "type": "syntactic",
+    "meanings": {
+      "1": {
+        "definition": "Category/kind modification with property attribution",
+        "examples": [
+          {
+            "form": "old men",
+            "note": "Prototypical property-denoting usage; Direct property modification (age attribute)"
+          },
+          {
+            "form": "other men",
+            "note": "Requires contextual reference set; Complementary set relation"
+          }
+        ]
+      }
+    },
+    "constraints": [
+      {
+        "type": "syntactic",
+        "description": "The modifier function must be realized by an AdjP; the lexical head is the plural noun"
+      },
+      {
+        "type": "morphological",
+        "description": "Head must be plural"
+      }
+    ],
+    "semanticType": "reference",
+    "relatedConstructions": [
+      {
+        "id": "np-def-001",
+        "relationship": "related-to",
+        "notes": "The old men shows the same modification inside an article-marked NP."
+      },
+      {
+        "id": "nom-adjp-mod-001",
+        "relationship": "related-to"
+      },
+      {
+        "id": "nom-prehead-mod-001",
+        "relationship": "related-to"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 5 §§14.2, 15; Ch. 6, attributive adjectives",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "In a clause such as Old men were waiting, the modified bare plural can be an ordinary subject without an article. In the same episodic use an old man needs the article. The difference in bare licensing follows the head’s count and number profile and survives expansion to very old.",
+        "evidence": "CGEL gives the range of attributive AdjPs and the ordinary order within the nominal.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Plural nouns with an adjective in front",
+      "summary": "A plural noun with an adjective before it, such as old men, can stand as a subject without a word like the or a.",
+      "body": "In old men, the adjective old tells us a property of the men, here their age. In other men, the adjective needs a surrounding set of men to make sense, because other points to the rest of a set.\n\nA plural noun like this can be a sentence subject without a small word in front: Old men were waiting. A single man isn't the same: in the same kind of sentence, an old man needs the article a. Adding words such as very to the adjective, as in very old men, doesn't change that.",
+      "examples": [
+        {
+          "text": "[old men]",
+          "from": "entry"
+        },
+        {
+          "text": "[other men]",
+          "from": "entry"
+        },
+        {
+          "text": "[Old men] were waiting.",
+          "from": "constructed"
+        }
+      ],
+      "try": "Say Old men were waiting. Then try it with one man. What word do you need to add?"
+    },
+    "teacher": {
+      "summary": "Covers plural nouns modified by a prenominal adjective, which can serve as subjects with no article.",
+      "explain": "The pattern is a plural noun as lexical head of a nominal, with an AdjP modifier before it: old men. It expresses category or kind modification with property attribution. Old men is direct property modification (an age attribute); other men requires a contextual reference set and expresses a complementary-set relation. The modifier must be an AdjP and the head must be plural. In an episodic clause such as Old men were waiting, the modified bare plural can be an ordinary subject without an article, while an old man needs the article. The licensing follows the head's count and number profile and survives expansion to very old. This dictionary marks this as provisional, with medium confidence.",
+      "terms": "Textbooks sometimes call the modifying adjective an attributive adjective. This dictionary also calls old men a bare plural with a prenominal modifier.",
+      "examples": [
+        {
+          "text": "[old men]",
+          "from": "entry"
+        },
+        {
+          "text": "[other men]",
+          "from": "entry"
+        },
+        {
+          "text": "[Old men] were waiting.",
+          "from": "constructed"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "The old men were waiting.",
+          "from": "constructed",
+          "note": "The same modification inside an NP marked with the."
+        }
+      ],
+      "watch_for": [
+        "A learner might think a subject needs the or a, when a plural noun with a modifier can stand alone as a subject.",
+        "A learner might read other men as simply more men, when other needs a contextual reference set."
+      ],
+      "activity": "Students list plural noun phrases with an adjective (old men, tall trees) and use each as a bare subject, then mark in each one whether the adjective attributes a property or points to a set."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Bare Plural with Prenominal Modifier.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/prenominal-modifier-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

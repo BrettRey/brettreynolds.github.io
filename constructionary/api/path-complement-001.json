@@ -1,0 +1,293 @@
+{
+  "id": "path-complement-001",
+  "name": "Path Locative-Complement Construction",
+  "pattern": "Head:V + Comp:PP[locative, path]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/path-complement-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/path-complement-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/path-complement-001/"
+  },
+  "entry": {
+    "id": "path-complement-001",
+    "name": "Path Locative-Complement Construction",
+    "pattern": "Head:V + Comp:PP[locative, path]",
+    "type": "syntactic",
+    "semanticType": "predication",
+    "dimensions": {
+      "form": "Verb head with a path-denoting PP in locative-complement function",
+      "meaning": "Intermediate location or route traversed during motion, without itself necessarily specifying either terminal point",
+      "function": "Locative complement of the verb, bearing the semantic role path",
+      "distribution": "VP-internal with motion verbs and motion construals; compatible with separate source- and goal-role complements"
+    },
+    "meanings": {
+      "1": {
+        "definition": "A VP contains a locative PP complement that identifies the route or intermediate location traversed by the moving theme",
+        "details": "Path is a semantic role, while locative complement is the CGEL syntactic function. Via uniquely marks path in its central spatial use, and along is strongly path-associated. PPs headed by across, through, up, and similar prepositions can instead express location, source, or goal; a path construal identifies an intermediate portion of a larger trajectory. Path complements are integrated into the motion VP and fall within do so scope (CGEL Ch. 8 §4.3, pp. 684–88).",
+        "examples": [
+          {
+            "form": "She [came via the bridge].",
+            "note": "Via-PP with an unambiguous spatial-path role",
+            "grounds": [
+              {
+                "source": "cgel-2002",
+                "locator": "Ch. 8, §4.3, p. 687",
+                "relation": "attests",
+                "bears-on": "attestation"
+              }
+            ]
+          },
+          {
+            "form": "They [strolled along the castle wall].",
+            "note": "Along-PP identifying a route without a terminal point",
+            "grounds": [
+              {
+                "source": "cgel-2002",
+                "locator": "Ch. 8, §4.3, p. 687",
+                "relation": "attests",
+                "bears-on": "attestation"
+              }
+            ]
+          },
+          {
+            "form": "They [walked from the station up the hill to the new Civic Centre].",
+            "note": "Path up the hill occurs between separate source and goal complements",
+            "grounds": [
+              {
+                "source": "cgel-2002",
+                "locator": "Ch. 8, §4.3, pp. 687–88",
+                "relation": "attests",
+                "bears-on": "attestation"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "constraints": [
+      {
+        "type": "syntactic",
+        "description": "The path PP is an integrated locative complement in a motion VP, not a clause-level location adjunct."
+      },
+      {
+        "type": "semantic",
+        "description": "The PP identifies the route or an intermediate location; it need not identify the initial or final location."
+      },
+      {
+        "type": "semantic",
+        "description": "A path complement normally leaves the motion unbounded and therefore permits a for-duration phrase; a syncretic path-goal reading can instead bound the event and license an in-duration phrase."
+      },
+      {
+        "type": "structural",
+        "description": "Source, path, and goal may be separately realized in one VP; their co-occurrence does not impose an invariant surface order."
+      },
+      {
+        "type": "syntactic",
+        "description": "This entry establishes V-hosted path complementation only; it makes no claim that a path PP is selected inside a larger PP without independent attachment evidence."
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "Identifying an integrated PP as a path complement predicts an intermediate-location interpretation, compatibility with separate source and goal complements, and absence of event bounding unless the PP simultaneously receives a goal construal",
+        "evidence": "CGEL contrasts path and goal readings by terminal-point entailments and in/for duration, identifies via and along as central path markers, and shows paths co-occurring between source and goal (Ch. 8 §4.3, pp. 684–88).",
+        "confidence": "high",
+        "grounds": [
+          {
+            "source": "cgel-2002",
+            "locator": "Ch. 8, §4.3, pp. 684–88",
+            "relation": "cites",
+            "bears-on": "projection"
+          },
+          {
+            "source": "cgel-2002",
+            "locator": "Ch. 8, §4.3, pp. 684–88",
+            "relation": "cites",
+            "bears-on": "stability"
+          }
+        ]
+      },
+      "secured": "stable",
+      "profile": {
+        "core": [
+          {
+            "property": "Path role borne by a locative PP complement",
+            "diagnostics": [
+              "intermediate-location interpretation",
+              "integration in a motion frame"
+            ],
+            "weight": "high"
+          },
+          {
+            "property": "Non-terminal route construal",
+            "diagnostics": [
+              "no endpoint entailment",
+              "compatibility with an overt following goal"
+            ],
+            "weight": "high"
+          },
+          {
+            "property": "Normally non-bounding",
+            "diagnostics": [
+              "for-duration compatibility",
+              "contrast with bounded goal reading"
+            ],
+            "weight": "high"
+          }
+        ],
+        "peripheral": [
+          {
+            "property": "Dedicated path marking",
+            "diagnostics": [
+              "via",
+              "along"
+            ],
+            "weight": "medium"
+          }
+        ]
+      },
+      "boundaries": {
+        "known_boundary_items": [
+          "ran across the bridge: across the bridge can be goal when it supplies the final location, or path when a later goal is expressed",
+          "walked through the forest in eight hours: the in-duration phrase selects a goal construal in which the end of the forest is reached",
+          "A location adjunct describes where the situation occurs; a path complement describes the trajectory of the moving theme and is included in do so scope",
+          "No PP-internal path-complement attachment is asserted by this VP-level entry"
+        ]
+      },
+      "grain": {
+        "level": "meso",
+        "parent_families": [
+          "argument-structure"
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "vp-001",
+        "relationship": "specialization-of",
+        "parthood": "formal",
+        "notes": "The path-role locative complement is licensed within VP structure"
+      },
+      {
+        "id": "pp-001",
+        "relationship": "contains",
+        "parthood": "formal",
+        "notes": "The path-role dependent is a PP in locative-complement function"
+      },
+      {
+        "id": "goal-complement-001",
+        "relationship": "related-to",
+        "notes": "Sister locative role; a goal supplies the final location and typically bounds a motion event"
+      },
+      {
+        "id": "source-complement-001",
+        "relationship": "related-to",
+        "notes": "Sister locative role; source, path, and goal can co-occur in a single motion VP"
+      },
+      {
+        "id": "caused-motion-001",
+        "relationship": "related-to",
+        "notes": "The object-oriented locative complement in caused motion can bear the path role"
+      }
+    ],
+    "lexiconRefs": [
+      "gold/prepositions"
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 8, §4.3, pp. 684–88",
+        "relation": "cites",
+        "bears-on": "category-assignment",
+        "note": "Path dependents in motion VPs are locative complements, with path distinct from source, goal, and direction"
+      },
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 8, §4.3, pp. 684–88",
+        "relation": "cites",
+        "note": "Role, realization, co-occurrence, and aspectual diagnostics converge on the path profile"
+      }
+    ]
+  },
+  "editions": {
+    "curious": {
+      "title": "Naming the route of a journey",
+      "summary": "Some verbs of moving are followed by a phrase that says which way the traveller went, without saying where the journey started or ended.",
+      "body": "In She came via the bridge, the phrase via the bridge tells us the route. It names a place along the way, not the starting point or the destination. In They strolled along the castle wall, the same thing happens: we learn the route and nothing about where the stroll ended.\n\nThis dictionary calls that role the path. A route phrase can sit in the same sentence as a starting point and a destination, as in They walked from the station up the hill to the new Civic Centre, where up the hill is the middle stretch. Via and along are strongly tied to routes, but a phrase starting with across, through or up can name a place, a starting point or a destination instead, depending on the sentence.",
+      "examples": [
+        {
+          "text": "She [came via the bridge].",
+          "from": "entry"
+        },
+        {
+          "text": "They [strolled along the castle wall].",
+          "from": "entry"
+        },
+        {
+          "text": "They [walked from the station up the hill to the new Civic Centre].",
+          "from": "entry"
+        }
+      ],
+      "try": "Think of a trip you made. Which words in your sentence name the route, and which name where you started or finished?"
+    },
+    "teacher": {
+      "summary": "Helps students tell route phrases (path) from starting-point and destination phrases after verbs of motion.",
+      "explain": "In a motion VP, a PP in locative-complement function can bear the semantic role path: the route or intermediate location the moving thing traverses. Path is a role; locative complement is the syntactic function. Via marks path in its central spatial use, and along is strongly path-associated. PPs with across, through or up can instead express location, source or goal. A path complement normally leaves the motion unbounded, so it permits a for-duration phrase; a reading that also bounds the event can license an in-duration phrase. Source, path and goal can all appear in one VP, with no fixed surface order. A path complement is part of the VP, unlike a location adjunct, and it falls within do so scope.",
+      "terms": "Textbooks sometimes group these with adverbials of place or direction. In this grammar, path is a semantic role and locative complement is the syntactic function.",
+      "examples": [
+        {
+          "text": "She [came via the bridge].",
+          "from": "entry"
+        },
+        {
+          "text": "They [strolled along the castle wall].",
+          "from": "entry"
+        },
+        {
+          "text": "They [walked from the station up the hill to the new Civic Centre].",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "They walked through the forest for hours.",
+          "from": "constructed",
+          "note": "A for-duration phrase fits when the PP names a route and the motion has no endpoint."
+        },
+        {
+          "text": "They walked through the forest in eight hours.",
+          "from": "constructed",
+          "note": "An in-duration phrase selects a reading where the end of the forest is reached, so the PP also supplies a goal."
+        }
+      ],
+      "watch_for": [
+        "A learner might read every PP after a motion verb as the destination, when up the hill in the station-to-Civic-Centre example names the middle of the journey.",
+        "A learner might assume across or through marks a route every time, though they can also express location, source or goal."
+      ],
+      "activity": "Give pairs a short map with a start, a destination and two landmarks. Each pair writes one sentence naming the route only, then one adding the start and the destination. They underline the phrase that names the route."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "stable",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Path Locative-Complement Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/path-complement-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

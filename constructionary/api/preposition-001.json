@@ -1,0 +1,167 @@
+{
+  "id": "preposition-001",
+  "name": "Preposition",
+  "pattern": "P",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/preposition-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/preposition-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/preposition-001/"
+  },
+  "entry": {
+    "id": "preposition-001",
+    "name": "Preposition",
+    "pattern": "P",
+    "type": "syntactic",
+    "dimensions": {
+      "form": "Mostly short, closed-class lexemes; no inflection",
+      "meaning": "Relates an entity or situation to another in space, time, or abstract structure",
+      "function": "Head of PP; PPs serve as complements, modifiers, and adjuncts",
+      "distribution": "NP objects and other complements are optional for much of the class; a few exceptional heads follow their complement"
+    },
+    "meanings": {
+      "1": {
+        "definition": "Lexical category heading preposition phrases, with optional complements for much of the class",
+        "details": "The CGEL category is much larger than the traditional one: it includes the traditional prepositions (in, on, of), objectless members traditionally called adverbs (home, abroad, ashore, upstairs; ago, with its obligatory pre-head measure modifier), the rare complement-head members (notwithstanding), and clause-taking members traditionally called subordinating conjunctions (because, although, while). See data/lexicon/gold/prepositions.yaml for the curated inventory.",
+        "examples": [
+          {
+            "form": "[in] the garden",
+            "note": "Transitive: the garden bears the object function within the PP"
+          },
+          {
+            "form": "She waited [outside].",
+            "note": "Intransitive use (no object)"
+          },
+          {
+            "form": "ten years [ago]",
+            "note": "Intransitive, with an obligatory pre-head measure modifier (cf. ten years before Christ); the Constructionary rejects CGEL's complement analysis on p. 632"
+          },
+          {
+            "form": "[because] it rained",
+            "note": "Clause complement (traditional subordinating conjunction)"
+          }
+        ]
+      }
+    },
+    "constraints": [
+      {
+        "type": "syntactic",
+        "description": "Heads a PP; accepts right/straight modification in locative uses (right outside, straight home)."
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "Category membership predicts PP distribution (goal and locative complement positions, from-embedding for locative members, modifier positions), right/straight modifiability for locatives, and non-inflection",
+        "evidence": "Distributional convergence across the traditional prepositions, the intransitive members, and the clause-taking members (CGEL Ch. 7)",
+        "confidence": "medium",
+        "grounds": [
+          {
+            "source": "cgel-2002",
+            "locator": "Ch. 7 §§2-4",
+            "relation": "cites",
+            "bears-on": "projection",
+            "note": "The expanded category projects PP-head distribution across traditional, objectless, and clause-taking members"
+          },
+          {
+            "source": "cgel-2002",
+            "locator": "Ch. 7 §§2-4",
+            "relation": "cites",
+            "bears-on": "stability",
+            "note": "Shared distributional behavior supports the stable expanded preposition profile"
+          }
+        ]
+      },
+      "secured": "stable"
+    },
+    "lexiconRefs": [
+      "gold/prepositions"
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 2 §7, p. 58; Ch. 7 §§2-4",
+        "relation": "cites",
+        "bears-on": "category-assignment",
+        "note": "Prepositions head PPs and include objectless and clause-taking members beyond the traditional class"
+      }
+    ]
+  },
+  "editions": {
+    "curious": {
+      "title": "Words like in, outside and because",
+      "summary": "In this dictionary, a preposition is a word that heads a preposition phrase, and the group is wider than you may expect.",
+      "body": "Words like in, on and of are prepositions. So are some words that traditional grammar puts elsewhere: outside, home and ago, which need no noun after them, and because, which takes a whole clause.\n\nPrepositions relate one thing or event to another in space, time or other ways. They don't change form. In the garden, she waited outside and ten years ago all contain a preposition, and so does because it rained. In place uses, you can add right or straight: right outside, straight home.",
+      "examples": [
+        {
+          "text": "[in] the garden",
+          "from": "entry"
+        },
+        {
+          "text": "She waited [outside].",
+          "from": "entry"
+        },
+        {
+          "text": "ten years [ago]",
+          "from": "entry"
+        },
+        {
+          "text": "[because] it rained",
+          "from": "entry"
+        }
+      ],
+      "try": "Find a sign or a book page and look for small words like in, on or because. Which ones are followed by a noun, and which by a clause or nothing?"
+    },
+    "teacher": {
+      "summary": "Defines the wider category of preposition, including words that traditional grammar calls adverbs or subordinating conjunctions.",
+      "explain": "A preposition is a lexical category heading PPs, with optional complements for much of the class. The CGEL category is much larger than the traditional one. It includes traditional prepositions (in, on, of), objectless members traditionally called adverbs (home, abroad, ashore, upstairs; ago, with an obligatory pre-head measure modifier), the rare complement-head member notwithstanding, and clause-taking members traditionally called subordinating conjunctions (because, although, while). Prepositions are closed-class and don't inflect. In locative uses they accept right and straight. The Constructionary departs from CGEL on the analysis of ago.",
+      "terms": "Traditional grammar calls home, outside and upstairs adverbs, and because, although and while subordinating conjunctions. This grammar calls them prepositions.",
+      "examples": [
+        {
+          "text": "[in] the garden",
+          "from": "entry"
+        },
+        {
+          "text": "She waited [outside].",
+          "from": "entry"
+        },
+        {
+          "text": "ten years [ago]",
+          "from": "entry"
+        },
+        {
+          "text": "[because] it rained",
+          "from": "entry"
+        }
+      ],
+      "watch_for": [
+        "A learner might think a preposition must be followed by a noun phrase, when this dictionary gives intransitive members such as outside.",
+        "A learner might treat because as a different kind of word from in, when this dictionary places both in one category."
+      ],
+      "activity": "Give students a list (in, outside, home, ago, because, although). They try each in a sentence, then say whether anything follows it, and what."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "stable",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Preposition.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/preposition-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

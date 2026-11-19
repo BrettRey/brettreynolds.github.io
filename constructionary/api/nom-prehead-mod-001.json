@@ -1,0 +1,152 @@
+{
+  "id": "nom-prehead-mod-001",
+  "name": "Nominal Pre-head Modifier",
+  "pattern": "Nom[Mod:XP Head:N]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/nom-prehead-mod-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/nom-prehead-mod-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/nom-prehead-mod-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/nom-prehead-mod-001/"
+  },
+  "entry": {
+    "id": "nom-prehead-mod-001",
+    "name": "Nominal Pre-head Modifier",
+    "pattern": "Nom[Mod:XP Head:N]",
+    "type": "syntactic",
+    "meanings": {
+      "1": {
+        "definition": "A nominal that includes a pre-head modifier",
+        "examples": [
+          {
+            "form": "old book",
+            "note": "Adjectival pre-head modifier"
+          },
+          {
+            "form": "dog breeder",
+            "note": "Nominal pre-head modifier"
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "nom-premod-000",
+        "relationship": "see-also"
+      },
+      {
+        "id": "nom-adjp-mod-001",
+        "relationship": "related-to"
+      },
+      {
+        "id": "nom-n-mod-001",
+        "relationship": "related-to"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 5 §§14.2, 14.4, 15",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "The head remains the source of the nominal’s ordinary number possibilities. Compare dog breeders, where breeders pluralizes, with old books, where books pluralizes. Premodifier category can be tested independently.",
+        "evidence": "CGEL’s account of nominal heads and internal modifiers separates the function from how an adjunct realizes it.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Words placed before a noun to describe it",
+      "summary": "A noun can have a describing word in front of it, and that word can be an adjective or another noun.",
+      "body": "In old book, the word old sits in front of book and says what kind of book it is. In dog breeder, the word dog sits in front of breeder, and it's a noun doing a describing job. So the word in front can be a different kind of word each time.\n\nThe word at the end keeps its ordinary number possibilities. It's the one that is made plural in dog breeders and old books.",
+      "examples": [
+        {
+          "text": "an [old book]",
+          "from": "constructed"
+        },
+        {
+          "text": "a [dog breeder]",
+          "from": "constructed"
+        },
+        {
+          "text": "two [old books]",
+          "from": "constructed"
+        }
+      ],
+      "try": "Put a describing word in front of a noun, then make the phrase plural. Which word changes?"
+    },
+    "teacher": {
+      "summary": "Useful for showing that a word before a noun can be an adjective or a noun, while the final noun keeps its own plural.",
+      "explain": "This dictionary treats a nominal with a pre-head modifier as a pattern defined by the modifier's position, not its category. In old book the modifier is an adjectival one; in dog breeder it's a nominal one. The head noun keeps its ordinary number possibilities: dog breeders and old books both pluralize at the head. The category of the premodifier can therefore be tested separately from the function. The dictionary marks this account as provisional.",
+      "terms": "Premodifier is another name for a pre-head modifier. Attributive adjective is sometimes used for old in old book, and noun modifier for dog in dog breeder.",
+      "examples": [
+        {
+          "text": "[old book]",
+          "from": "entry"
+        },
+        {
+          "text": "[dog breeder]",
+          "from": "entry"
+        },
+        {
+          "text": "[dog breeders]",
+          "from": "constructed"
+        },
+        {
+          "text": "[old books]",
+          "from": "constructed"
+        }
+      ],
+      "watch_for": [
+        "A learner might look to the first word to mark the plural, when dog breeders and old books pluralize the head noun.",
+        "A learner might think the word before a noun must be an adjective."
+      ],
+      "activity": "Give pairs of students a list of head nouns (breeder, book, lamp). They add one adjective and one noun in front, then write the plural of each phrase and underline the word that changed."
+    },
+    "child": {
+      "hook": "In dog breeder, which word tells you about the other one?",
+      "explain": "A word can go in front of a noun to say more about it. In old book, old is describing the book. In dog breeder, dog is a noun, but it describes the breeder.",
+      "examples": [
+        {
+          "text": "I found an [old book].",
+          "from": "constructed"
+        },
+        {
+          "text": "Her aunt is a [dog breeder].",
+          "from": "constructed"
+        }
+      ],
+      "play": "Pick a noun like book. Add three different words in front of it. Then make it plural. Which word changes?"
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags)",
+        "result": "fixed",
+        "note": "Fixed: teacher.watch_for no longer presents dogs breeder as a learner error (the entry does not assess it) and now says the head noun pluralizes in dog breeders and old books; curious.body limited to the head noun's ordinary number possibilities."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Nominal Pre-head Modifier.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/nom-prehead-mod-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

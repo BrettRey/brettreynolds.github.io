@@ -1,0 +1,262 @@
+{
+  "id": "goal-complement-001",
+  "name": "Goal Locative-Complement Construction",
+  "pattern": "Head:V + Comp:PP[locative, goal]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/goal-complement-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/goal-complement-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/goal-complement-001/"
+  },
+  "entry": {
+    "id": "goal-complement-001",
+    "name": "Goal Locative-Complement Construction",
+    "pattern": "Head:V + Comp:PP[locative, goal]",
+    "type": "syntactic",
+    "semanticType": "predication",
+    "dimensions": {
+      "form": "Verb head with a goal-denoting PP in locative-complement function; the PP may be transitive or complementless",
+      "meaning": "Directed motion toward a final location; the frame can impose the motion reading",
+      "function": "Locative complement of the verb, bearing the semantic role goal",
+      "distribution": "VP-internal with motion verbs and constructionally coerced manner or emission verbs"
+    },
+    "meanings": {
+      "1": {
+        "definition": "A VP contains a locative complement bearing the goal role, yielding directed motion toward a final location",
+        "details": "Goal is a semantic role, while locative complement is the CGEL syntactic function. Realizations include to-PPs (go to the shop), compound goal PPs headed by into or onto (run into the garden), and unmarked goal PPs headed by complementless locative prepositions (go home, head abroad). Direction PPs headed by towards or compass terms form a distinct category. *Go to home is excluded by to's NP-object complementation, not by the goal construction (CGEL pp. 257–59, 686–88).",
+        "examples": [
+          {
+            "form": "go [to the shop]",
+            "note": "Goal-role locative complement headed by transitive to"
+          },
+          {
+            "form": "go [to church]",
+            "note": "To-PP with a bare institutional NP object"
+          },
+          {
+            "form": "go [home]",
+            "note": "Goal-role locative complement realized by a one-word PP"
+          },
+          {
+            "form": "The sailors went [ashore].",
+            "note": "Complementless-P realization of the goal slot"
+          }
+        ]
+      },
+      "2": {
+        "definition": "The frame coerces a directed-motion reading onto a verb without lexical direction or goal semantics",
+        "details": "This is the constructional residue: the verb contributes manner or emission while the frame supplies motion and the goal (Goldberg 1995, intransitive-motion construction).",
+        "examples": [
+          {
+            "form": "The bottle floated [into the cave].",
+            "note": "The frame supplies directed motion toward the goal"
+          },
+          {
+            "form": "The fly buzzed [into the room].",
+            "note": "Sound-emission verb coerced into motion"
+          },
+          {
+            "form": "She danced [into the hall].",
+            "note": "Activity verb with frame-supplied goal"
+          }
+        ]
+      }
+    },
+    "constraints": [
+      {
+        "type": "syntactic",
+        "description": "The PP is integrated as a locative complement in the directed-motion VP, not added as a locative adjunct."
+      },
+      {
+        "type": "semantic",
+        "description": "When the verb does not lexically encode direction or a goal, the frame supplies the directed-motion relation while the verb contributes manner or emission."
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "A manner or emission verb followed by an integrated locative PP predicts a coerced directed-motion reading even when the verb lacks lexical direction or goal semantics; established goal instances range across to-PPs, compound into/onto PPs, and unmarked locative PPs",
+        "evidence": "Manner and emission verbs acquire directed-motion readings in this frame (Goldberg 1995), while CGEL distinguishes goal realizations from direction on pp. 686–88",
+        "confidence": "medium",
+        "grounds": [
+          {
+            "source": "goldberg-1995",
+            "relation": "cites",
+            "bears-on": "projection",
+            "note": "Manner and emission verbs acquire constructionally licensed directed-motion readings"
+          },
+          {
+            "source": "goldberg-1995",
+            "relation": "cites",
+            "bears-on": "stability",
+            "note": "Productive coercion supports a recurrent form-meaning profile"
+          }
+        ]
+      },
+      "secured": "stable",
+      "profile": {
+        "core": [
+          {
+            "property": "Goal-role PP in locative-complement function",
+            "diagnostics": [
+              "final-location interpretation",
+              "integration in the motion frame"
+            ],
+            "weight": "high"
+          },
+          {
+            "property": "Constructional coercion",
+            "diagnostics": [
+              "manner or emission verbs acquire directed-motion readings"
+            ],
+            "weight": "high"
+          }
+        ]
+      },
+      "boundaries": {
+        "known_boundary_items": [
+          "off, back, or down followed by a to-PP: the sequence may contain two separate PP complements because each first P also has a complementless use",
+          "from under the bed proves only that from can take a PP complement; it does not establish PP-internal goal complementation",
+          "the way construction: related but distinct frame",
+          "caused motion: transitive sister frame with an Od theme"
+        ]
+      },
+      "grain": {
+        "level": "meso",
+        "parent_families": [
+          "argument-structure"
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "vp-001",
+        "relationship": "specialization-of",
+        "parthood": "formal",
+        "notes": "The goal-role locative complement is licensed within VP structure"
+      },
+      {
+        "id": "pp-001",
+        "relationship": "contains",
+        "parthood": "formal",
+        "notes": "The goal-role locative complement is a PP"
+      },
+      {
+        "id": "source-complement-001",
+        "relationship": "related-to",
+        "notes": "Sister semantic roles within the locative-complement family"
+      }
+    ],
+    "lexiconRefs": [
+      "gold/prepositions"
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 4 §5.2, pp. 257-59; Ch. 8 §4.3, pp. 686-88",
+        "relation": "cites",
+        "bears-on": "category-assignment",
+        "note": "Goal is a semantic role borne by a PP in locative-complement function"
+      },
+      {
+        "source": "goldberg-1995",
+        "relation": "cites",
+        "note": "Intransitive motion construction; coercion of manner verbs"
+      }
+    ]
+  },
+  "editions": {
+    "curious": {
+      "title": "Phrases that say where the movement ends",
+      "summary": "With a verb of movement, a short phrase can say where the movement ends, as in go to the shop.",
+      "body": "In go to the shop, to the shop says where the going ends up. The same job is done by go home, where one word names the place, and by run into the garden.\n\nThe frame can also bring the movement itself. In The bottle floated into the cave, floated says how the bottle moved, and into the cave gives the direction and the end point. The same happens with The fly buzzed into the room and She danced into the hall, even though buzzed and danced don't themselves carry a direction or a goal.",
+      "examples": [
+        {
+          "text": "go [to the shop]",
+          "from": "entry"
+        },
+        {
+          "text": "go [home]",
+          "from": "entry"
+        },
+        {
+          "text": "The sailors went [ashore].",
+          "from": "entry"
+        },
+        {
+          "text": "The bottle floated [into the cave].",
+          "from": "entry"
+        },
+        {
+          "text": "The fly buzzed [into the room].",
+          "from": "entry"
+        },
+        {
+          "text": "She danced [into the hall].",
+          "from": "entry"
+        }
+      ],
+      "try": "Compare The fly buzzed with The fly buzzed into the room. What does the second one add?"
+    },
+    "teacher": {
+      "summary": "Helps explain how a place phrase after a verb marks the end point of movement, including with manner verbs like float.",
+      "explain": "The goal role is a semantic role; the syntactic function is locative complement. This dictionary lists three realizations: to-PPs (go to the shop), compound goal PPs headed by into or onto (run into the garden), and one-word PPs headed by a complementless preposition (go home, head abroad). Direction PPs headed by towards or compass terms are a distinct category. With manner or emission verbs the frame itself supplies the directed motion: floated into the cave. The PP is a complement integrated into the motion VP, not an adjunct.",
+      "terms": "Goal is the semantic role. Locative complement is the CGEL function. This dictionary cites Goldberg for the intransitive-motion construction that supplies the motion reading with manner verbs.",
+      "examples": [
+        {
+          "text": "go [to the shop]",
+          "from": "entry"
+        },
+        {
+          "text": "go [to church]",
+          "from": "entry"
+        },
+        {
+          "text": "go [home]",
+          "from": "entry"
+        },
+        {
+          "text": "The sailors went [ashore].",
+          "from": "entry"
+        },
+        {
+          "text": "The bottle floated [into the cave].",
+          "from": "entry"
+        },
+        {
+          "text": "She danced [into the hall].",
+          "from": "entry"
+        }
+      ],
+      "watch_for": [
+        "A learner might put to before home, when this dictionary treats go home as a goal PP of one word, with to-PPs a separate realization.",
+        "A learner might read danced into the hall as two actions, dancing and entering, when the frame supplies the movement."
+      ],
+      "activity": "Give students a list of verbs (float, buzz, dance, go, run). They pair each with a goal phrase (into the cave, home, ashore) and say which verbs already carry a direction or goal and which get it from the frame."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "stable",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags)",
+        "result": "fixed",
+        "note": "Fixed: curious.body now says buzzed and danced lack lexical direction or a goal (not that they can't describe movement); title and teacher.activity now speak of where movement ends and of direction or goal rather than movement itself; replaced the try prompt with a pair the entry exemplifies; replaced 'the entry' with this dictionary."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Goal Locative-Complement Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/goal-complement-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "subjunctive-mandative-001",
+  "name": "Mandative Subjunctive",
+  "pattern": "content clause[(that) + Subject + plain-form V]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/subjunctive-mandative-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/subjunctive-mandative-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/subjunctive-mandative-001/"
+  },
+  "entry": {
+    "id": "subjunctive-mandative-001",
+    "name": "Mandative Subjunctive",
+    "pattern": "content clause[(that) + Subject + plain-form V]",
+    "type": "mixed",
+    "meanings": {
+      "1": {
+        "definition": "Presents the content of a requirement, recommendation, or request.",
+        "examples": [
+          {
+            "form": "They requested [that the gate remain closed].",
+            "note": "Constructed illustration."
+          },
+          {
+            "form": "They requested [that the gate not be opened].",
+            "note": "Constructed comparison. The subjunctive uses plain be after not, without support from do."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "declarative-content-clause-001",
+        "relationship": "specialization-of",
+        "parthood": "formal"
+      },
+      {
+        "id": "mandative-should-001",
+        "relationship": "related-to"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 11 §§7.1–7.1.1",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "Remain does not carry third-person singular marking. With negative not the plain form can occur without finite do, as in that it not remain closed.",
+        "evidence": "See the cited discussion and the constructed illustration.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Clauses that state a requirement",
+      "summary": "After words like requested, a that-clause can use the plain form of the verb to say what is required or recommended.",
+      "body": "In They requested that the gate remain closed, the clause after that gives the content of a request. The verb remain is in its plain form: it doesn't take an -s even though the gate is singular.\n\nThe plain form also shows up with not. In that the gate not be opened, not comes before plain be, and no do is needed. The grammar books call this the subjunctive.\n\nThis dictionary marks the analysis as provisional and gives only constructed examples.",
+      "examples": [
+        {
+          "text": "They requested [that the gate remain closed].",
+          "from": "entry"
+        },
+        {
+          "text": "They requested [that the gate not be opened].",
+          "from": "entry"
+        }
+      ],
+      "try": "Say They requested that the gate remain closed. What would the verb be in an ordinary statement, The gate remains closed? How does remain differ?"
+    },
+    "teacher": {
+      "summary": "Explains why a that-clause after request-type words takes the plain verb form and does not mark person or tense.",
+      "explain": "The mandative subjunctive is a content clause with (that), a subject and a plain-form verb, presenting the content of a requirement, recommendation or request. Remain does not carry third-person singular marking. With negative not, the plain form can occur without finite do, as in that it not remain closed. In They requested that the gate not be opened, plain be follows not without support from do. This dictionary marks the analysis as provisional and a separate entry covers the related mandative should construction.",
+      "terms": "Mandative subjunctive is a textbook name. In CGEL terms the verb is a plain form in a declarative content clause.",
+      "examples": [
+        {
+          "text": "They requested [that the gate remain closed].",
+          "from": "entry"
+        },
+        {
+          "text": "They requested [that the gate not be opened].",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "They requested that the gate remain closed.",
+          "from": "entry",
+          "note": "Plain form; no third-person singular marking."
+        },
+        {
+          "text": "They requested that the gate not be opened.",
+          "from": "entry",
+          "note": "Plain be after not, without support from do."
+        }
+      ],
+      "watch_for": [
+        "A learner might expect -s on remain because the gate is third-person singular.",
+        "A learner might expect do to support not in the clause, when plain be follows not directly."
+      ],
+      "activity": "Students complete sentences beginning with demand, insist, recommend and request followed by a that-clause. They circle the verb form and say whether it carries person or tense marking."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Mandative Subjunctive.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/subjunctive-mandative-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

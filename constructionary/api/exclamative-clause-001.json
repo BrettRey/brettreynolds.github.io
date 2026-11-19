@@ -1,0 +1,260 @@
+{
+  "id": "exclamative-clause-001",
+  "name": "Exclamative Clause",
+  "pattern": "Clause: Exclamative:XP[what/how] + (Subject:XP +) Head:VP",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/exclamative-clause-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/exclamative-clause-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/exclamative-clause-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/exclamative-clause-001/"
+  },
+  "entry": {
+    "id": "exclamative-clause-001",
+    "name": "Exclamative Clause",
+    "pattern": "Clause: Exclamative:XP[what/how] + (Subject:XP +) Head:VP",
+    "type": "syntactic",
+    "semanticType": "predication",
+    "dimensions": {
+      "form": "Tensed Clause headed by a VP and marked by an exclamative phrase based on what or how; normally the exclamative phrase is initial and Subject precedes the Predicator",
+      "meaning": "Presents a proposition as holding to a remarkable degree or in a remarkable way relative to a contextual norm",
+      "function": "Characteristically makes an exclamatory statement, without being identical to the broader pragmatic category of exclamation",
+      "distribution": "Main clauses and subordinate exclamative content clauses"
+    },
+    "meanings": {
+      "1": {
+        "definition": "A headed clause type marked by an exclamative what/how phrase and characteristically used for an exclamatory statement",
+        "details": "Exclamative what and how mark clause type while also performing a core role inside the exclamative phrase. Headed exclamatives are normally tensed and usually have Subject–Predicator order, although subject postposing and subject–auxiliary inversion are possible. Clause type must be kept distinct from force: exclamative is one syntactic source of exclamatory statements, while the wider exclamation profile also includes interjections, NPs, and recruited declaratives. Phrase-only What a disaster! is not a headed Clause in this project and belongs with clause-analogue semantics (CGEL pp. 853–57, 918–23).",
+        "examples": [
+          {
+            "form": "[What a fine player she is!]",
+            "note": "What-exclamative with Subject–Predicator order"
+          },
+          {
+            "form": "[How generous you are!]",
+            "note": "How-exclamative expressing remarkable degree"
+          },
+          {
+            "form": "I realised [what a bargain it was].",
+            "note": "Subordinate exclamative content clause"
+          },
+          {
+            "form": "[How happy would he be if he could see her once more!]",
+            "note": "Marked but licensed subject–auxiliary inversion in a headed exclamative"
+          }
+        ]
+      }
+    },
+    "constraints": [
+      {
+        "type": "syntactic",
+        "description": "The construction is a Clause headed by VP and contains an exclamative phrase based on what or how; Subject–Predicator order is usual but not invariant."
+      },
+      {
+        "type": "structural",
+        "description": "A phrase-only expression such as What a disaster! is not an instance of this headed construction; its clausal interpretation belongs under clause-analogue-001."
+      },
+      {
+        "type": "pragmatic",
+        "description": "Exclamatory statement is the characteristic use, but exclamative clause type is not coextensive with exclamation or with exclamatory prosody."
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "An exclamative what/how phrase inside a headed Clause predicts remarkable-degree interpretation, a strong preference for Subject–Predicator order, and availability in both main and subordinate exclamative environments",
+        "evidence": "What/how marking covaries with evaluative degree semantics across main and subordinate headed clauses, while the order possibilities distinguish this construction from open interrogatives without defining it by punctuation or force",
+        "confidence": "high",
+        "grounds": [
+          {
+            "source": "cgel-2002",
+            "locator": "pp. 853-57, 918-23",
+            "relation": "cites",
+            "bears-on": "projection",
+            "note": "Exclamative marking projects remarkable-degree interpretation and main/subordinate distribution"
+          },
+          {
+            "source": "cgel-2002",
+            "locator": "pp. 853-57, 918-23",
+            "relation": "cites",
+            "bears-on": "stability",
+            "note": "The form-meaning-order profile recurs across headed exclamatives"
+          }
+        ]
+      },
+      "secured": "stable",
+      "profile": {
+        "core": [
+          {
+            "property": "Exclamative what/how marking",
+            "diagnostics": [
+              "what with exclamative NP",
+              "how with gradable phrase"
+            ],
+            "weight": "high"
+          },
+          {
+            "property": "Remarkable-degree interpretation",
+            "diagnostics": [
+              "evaluation against contextual norm",
+              "exclamatory statement as characteristic use"
+            ],
+            "weight": "high"
+          },
+          {
+            "property": "Headed clausal structure",
+            "diagnostics": [
+              "overt VP head",
+              "normally tensed",
+              "main and subordinate distribution"
+            ],
+            "weight": "high"
+          }
+        ]
+      },
+      "grain": {
+        "level": "meso",
+        "parent_families": [
+          "clause-type"
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "clause-001",
+        "relationship": "specialization-of",
+        "parthood": "formal"
+      },
+      {
+        "id": "exclamative-word-001",
+        "relationship": "interfaces-with",
+        "notes": "Exclamative what/how supplies both a core phrasal role and the feature marking the Clause as exclamative"
+      },
+      {
+        "id": "exclamation-001",
+        "relationship": "interfaces-with",
+        "notes": "Exclamative clauses characteristically realize exclamatory force, but the pragmatic exclamation profile is broader than this clause type"
+      },
+      {
+        "id": "open-interrogative-clause-001",
+        "relationship": "see-also",
+        "notes": "What and how can mark either type, but role, order, meaning, and context distinguish them"
+      },
+      {
+        "id": "clause-analogue-001",
+        "relationship": "see-also",
+        "notes": "Phrase-only exclamatory expressions receive clausal interpretations without being headed Clauses"
+      }
+    ],
+    "semanticRefs": [
+      "evaluation",
+      "scale"
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "pp. 853-57, 918-23",
+        "relation": "cites",
+        "note": "Exclamative clause marking, syntax, characteristic meaning, and distinction from the wider class of exclamations"
+      }
+    ]
+  },
+  "editions": {
+    "curious": {
+      "title": "What and how sentences of surprise",
+      "summary": "Some sentences start with what or how to present something as remarkable.",
+      "body": "What a fine player she is! and How generous you are! both present something as remarkable, as measured against what we'd expect. Each starts with a what or how phrase, then normally the person or thing, then the verb.\n\nThese are clauses, meaning groups of words built around a verb. They can stand alone, as above, or sit inside a bigger sentence: I realised what a bargain it was. The usual order can change, as in How happy would he be if he could see her once more!, which is a marked but allowed pattern. A phrase with no verb, such as What a disaster!, isn't counted here.",
+      "examples": [
+        {
+          "text": "[What a fine player she is!]",
+          "from": "entry"
+        },
+        {
+          "text": "[How generous you are!]",
+          "from": "entry"
+        },
+        {
+          "text": "I realised [what a bargain it was].",
+          "from": "entry"
+        },
+        {
+          "text": "[How happy would he be if he could see her once more!]",
+          "from": "entry"
+        }
+      ],
+      "try": "Make your own sentence that starts with What a or How. Where does the verb come, before or after the person or thing?"
+    },
+    "teacher": {
+      "summary": "Helps students recognize what and how exclamatives as verb-headed clauses, and tell them from questions and from phrase-only exclamations.",
+      "explain": "An exclamative clause is a clause headed by a VP (normally tensed) and marked by an exclamative phrase based on what or how. It presents a proposition as holding to a remarkable degree or in a remarkable way, and characteristically makes an exclamatory statement. The exclamative phrase is normally initial and the Subject precedes the Predicator, though subject postposing and subject-auxiliary inversion are possible. It occurs in main clauses and as a subordinate content clause. Clause type isn't the same as force: exclamation is a wider pattern of use. Phrase-only What a disaster! isn't a headed clause in this dictionary; see the clause-analogue entry. What and how can also mark open interrogatives, and role, order, meaning and context separate the two.",
+      "terms": "Exclamative clause is CGEL's term. Sentences like these are sometimes called exclamatory sentences.",
+      "examples": [
+        {
+          "text": "[What a fine player she is!]",
+          "from": "entry"
+        },
+        {
+          "text": "[How generous you are!]",
+          "from": "entry"
+        },
+        {
+          "text": "I realised [what a bargain it was].",
+          "from": "entry"
+        },
+        {
+          "text": "[How happy would he be if he could see her once more!]",
+          "from": "entry"
+        }
+      ],
+      "watch_for": [
+        "A learner might treat any sentence beginning with what or how as an exclamative, when the same words can start an open interrogative.",
+        "A learner might take Subject-Predicator order as required, though the how-happy example shows a licensed inversion.",
+        "A learner might count What a disaster! as a verb-headed clause, when this dictionary treats it as phrase-only."
+      ],
+      "activity": "Students get strips with what/how sentences, some exclamatives and some questions (What did she play? alongside What a fine player she is!). They sort them and mark where the verb and subject fall."
+    },
+    "child": {
+      "hook": "Which sentence shows surprise, What a fine player she is or What did she play?",
+      "explain": "Some sentences start with What a or How to show something is remarkable. What a fine player she is!",
+      "examples": [
+        {
+          "text": "[What a fine player she is!]",
+          "from": "entry"
+        },
+        {
+          "text": "[How generous you are!]",
+          "from": "entry"
+        },
+        {
+          "text": "[What a big dog he is!]",
+          "from": "constructed"
+        }
+      ],
+      "play": "Look at a picture. Say something amazing about it that starts with What a or How."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "stable",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags)",
+        "result": "fixed",
+        "note": "Fixed: curious.body and teacher.explain no longer make tense part of what a clause is or require it (the entry says headed exclamatives are normally tensed); child.explain no longer states subject-before-verb order as a rule (the entry allows subject postposing and inversion); curious.body says normally for the order."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Exclamative Clause.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/exclamative-clause-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

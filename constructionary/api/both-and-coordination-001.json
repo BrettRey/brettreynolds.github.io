@@ -1,0 +1,144 @@
+{
+  "id": "both-and-coordination-001",
+  "name": "Correlative Both and And",
+  "pattern": "coordination[both + XP + and + XP]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/both-and-coordination-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/both-and-coordination-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/both-and-coordination-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/both-and-coordination-001/"
+  },
+  "entry": {
+    "id": "both-and-coordination-001",
+    "name": "Correlative Both and And",
+    "pattern": "coordination[both + XP + and + XP]",
+    "type": "mixed",
+    "meanings": {
+      "1": {
+        "definition": "Explicitly presents the first two coordinates as jointly included.",
+        "examples": [
+          {
+            "form": "We need [both a permit and an inspection].",
+            "note": "Constructed illustration."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "coordination-001",
+        "relationship": "specialization-of",
+        "parthood": "formal"
+      },
+      {
+        "id": "either-or-coordination-001",
+        "relationship": "related-to"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 15 §2.3",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "Both signals the first coordinate and and marks the second. Both alone can be an NP quantifier, a use with a different structural relation to the following material.",
+        "evidence": "See the cited discussion and the constructed illustration.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Both a and b",
+      "summary": "Both before the first item and and before the second say outright that two things are included.",
+      "body": "In We need both a permit and an inspection, both comes before the first item and and comes before the second. Together they show clearly that we need the permit and the inspection.\n\nBoth marks the first item, and and marks the second. Both can also appear alone before a noun phrase, but that's a different use, with a different relation to the words that follow.",
+      "examples": [
+        {
+          "text": "We need [both a permit and an inspection].",
+          "from": "entry"
+        },
+        {
+          "text": "I like [both cats and dogs].",
+          "from": "constructed"
+        }
+      ],
+      "try": "Say We need a permit and an inspection. Then add both. What does both add?"
+    },
+    "teacher": {
+      "summary": "Shows both and and as paired markers on two coordinates.",
+      "explain": "The pattern is coordination of two items with both before the first and and before the second. It explicitly presents the first two coordinates as jointly included. Both signals the first coordinate and and marks the second. Both on its own can be an NP quantifier, which has a different structural relation to the following material. This dictionary treats the pattern as a specialization of coordination and relates it to either ... or. It is marked provisional.",
+      "terms": "Both and and form a correlative pair, as this dictionary’s name says.",
+      "examples": [
+        {
+          "text": "We need [both a permit and an inspection].",
+          "from": "entry"
+        },
+        {
+          "text": "I like [both cats and dogs].",
+          "from": "constructed"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "We need both a permit and an inspection.",
+          "from": "entry",
+          "note": "Both marks the first coordinate and and marks the second."
+        },
+        {
+          "text": "We need a permit and an inspection.",
+          "from": "constructed",
+          "note": "Without both, the joint inclusion is not marked explicitly."
+        }
+      ],
+      "watch_for": [
+        "A learner might read both as the same word in both of them and both a permit and an inspection, when the two uses have different structural relations.",
+        "A learner might leave out the second marker and, when both signals the first coordinate and and marks the second."
+      ],
+      "activity": "Students complete sentences starting We need both ... and ... with two items of their own. They then compare with the same sentence without both."
+    },
+    "child": {
+      "hook": "What does \"both\" tell us in \"both a permit and an inspection\"?",
+      "explain": "Both and and work together. Both comes first and and comes before the second thing. They tell us that we need the two things.",
+      "examples": [
+        {
+          "text": "We need [both a permit and an inspection].",
+          "from": "entry"
+        },
+        {
+          "text": "I like [both cats and dogs].",
+          "from": "constructed"
+        }
+      ],
+      "play": "Say what you like using both and and, like both apples and pears. Take turns with a partner and name two things each time."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "sketch",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Correlative Both and And.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/both-and-coordination-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

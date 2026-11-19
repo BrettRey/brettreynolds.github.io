@@ -1,0 +1,353 @@
+{
+  "cgel-2002": {
+    "type": "reference-grammar",
+    "citation": "Huddleston, Rodney & Geoffrey K. Pullum (2002), The Cambridge Grammar of the English Language. Cambridge: CUP"
+  },
+  "reynolds-2026-numerals": {
+    "type": "paper",
+    "citation": "Reynolds, Brett (2026), The lexicon-syntax boundary in English numerals: cardinals, ordinals, and fractionals. English Language & Linguistics",
+    "doi": "10.1017/S1360674325100518"
+  },
+  "reynolds-deitality": {
+    "type": "paper",
+    "citation": "Reynolds, Brett, Definiteness and Deitality in English: A Projectibility-First Account (under review, Journal of Linguistics)",
+    "url": "https://ling.auf.net/lingbuzz/009369",
+    "status": "under-review"
+  },
+  "reynolds-kinship": {
+    "type": "paper",
+    "citation": "Reynolds, Brett, English kinship terms (submitted, Journal of English Linguistics)",
+    "url": "https://ling.auf.net/lingbuzz/009751",
+    "status": "under-review"
+  },
+  "reynolds-stable-cluster": {
+    "type": "paper",
+    "citation": "Reynolds, Brett (2026), Not every stable cluster is homeostatic: stability, network order, and control in projectible kinds (ms.)"
+  },
+  "goldberg-1995": {
+    "type": "book",
+    "citation": "Goldberg, Adele (1995), Constructions: A Construction Grammar Approach to Argument Structure. Chicago: University of Chicago Press"
+  },
+  "goldberg-2006": {
+    "type": "book",
+    "citation": "Goldberg, Adele E. (2006), Constructions at Work: The Nature of Generalization in Language. Oxford: Oxford University Press"
+  },
+  "jackendoff-1997": {
+    "type": "paper",
+    "citation": "Jackendoff, Ray (1997), Twistin' the Night Away. Language 73(3): 534-559",
+    "doi": "10.2307/415883"
+  },
+  "kuroda-1965": {
+    "type": "paper",
+    "citation": "Kuroda, S.-Y. (1965), Generative Grammatical Studies in the Japanese Language. MIT dissertation"
+  },
+  "wiktionary-simple": {
+    "type": "dictionary",
+    "citation": "Simple English Wiktionary, wiktextract extraction via kaikki.org",
+    "url": "https://kaikki.org/dictionary/downloads/simple/simple-extract.jsonl.gz",
+    "version": "retrieved 2026-07-16"
+  },
+  "wiktionary-en": {
+    "type": "dictionary",
+    "citation": "English Wiktionary, wiktextract extraction via kaikki.org",
+    "url": "https://kaikki.org/dictionary/English/",
+    "version": "enwiktionary dump 2026-07-06"
+  },
+  "coca": {
+    "type": "corpus",
+    "citation": "Davies, Mark (2008-), The Corpus of Contemporary American English",
+    "access-note": "agent wrapper blocked (Cloudflare, 2026-07-12); Brett supplies queries and counts by hand"
+  },
+  "cgelbank": {
+    "type": "treebank",
+    "citation": "Reynolds, Arora & Schneider (2023), CGELBank",
+    "url": "https://github.com/nert-nlp/cgel"
+  },
+  "childes": {
+    "type": "corpus",
+    "citation": "MacWhinney, Brian, The CHILDES Project"
+  },
+  "brett-judgment": {
+    "type": "author-judgment",
+    "citation": "Dated analytical rulings by Brett Reynolds, recorded in DECISIONS.md and override records"
+  },
+  "norrick-2009": {
+    "type": "paper",
+    "citation": "Norrick, Neal R. (2009), Interjections as pragmatic markers. Journal of Pragmatics 41: 866-891",
+    "doi": "10.1016/j.pragma.2008.08.005"
+  },
+  "mackenzie-2019-expletive": {
+    "type": "paper",
+    "citation": "Mackenzie, J. Lachlan (2019), The syntax of an emotional expletive in English. Emotion in Discourse: 55-86",
+    "doi": "10.1075/pbns.302.03mac"
+  },
+  "moreau-2024-subtitling": {
+    "type": "paper",
+    "citation": "Moreau, Eponine (2024), The Subtitling Strategies Adopted to Render the Four-Letter Words Fuck, Shit and Their Variants in the French Version of Orange Is the New Black: A Corpus-Based Study. Anglo Saxonica 22(1), article 11: 1-15",
+    "doi": "10.5334/as.195"
+  },
+  "kim-sells-2015": {
+    "type": "paper",
+    "citation": "Kim, Jong-Bok & Peter Sells (2015), English Binominal NPs: A Construction-based Perspective. Journal of Linguistics 51(1): 41–73",
+    "doi": "10.1017/S002222671400005X"
+  },
+  "lee-goldman-petruck-2018": {
+    "type": "paper",
+    "citation": "Lee-Goldman, Russell & Miriam R. L. Petruck (2018), The FrameNet constructicon in action. In Constructicography, 19–40. John Benjamins",
+    "doi": "10.1075/cal.22.02lee"
+  },
+  "jackendoff-2008-npn": {
+    "type": "paper",
+    "citation": "Jackendoff, Ray (2008), Construction After Construction and Its Theoretical Challenges. Language 84(1): 8–28",
+    "doi": "10.1353/lan.2008.0058"
+  },
+  "klein-et-al-2013-weak-definites": {
+    "type": "paper",
+    "citation": "Klein, Natalie M., Whitney M. Gegg-Harrison, Greg N. Carlson & Michael K. Tanenhaus (2013), Experimental investigations of weak definite and weak indefinite noun phrases. Cognition 128(2): 187–213",
+    "doi": "10.1016/j.cognition.2013.03.007"
+  },
+  "zwarts-2013-from-n-to-n": {
+    "type": "paper",
+    "citation": "Zwarts, Joost (2013), From N to N: The Anatomy of a Construction. Linguistics and Philosophy",
+    "doi": "10.1007/s10988-013-9131-7"
+  },
+  "battle-unesco-craft": {
+    "type": "document",
+    "citation": "Battle, Stephen, UNESCO conference abstract on craft transmission, printed p. 31",
+    "url": "https://whc.unesco.org/document/141024"
+  },
+  "le-bruyn-de-swart-2014": {
+    "type": "paper",
+    "citation": "Le Bruyn, Bert & Henriëtte de Swart (2014), Bare coordination: the semantic shift. Natural Language & Linguistic Theory 32: 1205–1246",
+    "doi": "10.1007/s11049-014-9237-9"
+  },
+  "wv-building-code-2009": {
+    "type": "transcript",
+    "citation": "West Virginia building-code hearing transcript, 16 June 2009",
+    "url": "https://apps.sos.wv.gov/adlaw/csr/readfile.aspx?DocId=7554&Format=PDF"
+  },
+  "rosenthal-1973-smithsonian": {
+    "type": "transcript",
+    "citation": "Rosenthal oral history, 16 May 1973. National Museum of American History, Smithsonian Institution",
+    "url": "https://mads.si.edu/mads/id/NMAH-AC0196_rose730516"
+  },
+  "rabin-illinois-oral-history": {
+    "type": "transcript",
+    "citation": "A. Mark Rabin oral history. Illinois Supreme Court Historic Preservation Commission",
+    "url": "https://www.illinoiscourthistory.org/Resources/295e7108-98ee-4e33-ae0a-b5f6e98f2829/a-mark-rabin-abstract-bio-and-complete-transcript-final.pdf"
+  },
+  "postma-rooryck-1996": {
+    "type": "paper",
+    "citation": "Postma, Gertjan & Johan Rooryck (1996), Modality and Possession in NPs. Proceedings of NELS 26: 273–287",
+    "url": "https://www.rooryck.org/_files/ugd/d58ca7_29c6d3f6972c411181e1c3ce3c490f3c.pdf"
+  },
+  "abenina-adar-2020": {
+    "type": "dissertation",
+    "citation": "Abenina-Adar, Maayan (2020), Expressing ignorance with determiner phrases. UCLA dissertation",
+    "url": "https://escholarship.org/uc/item/8964606g"
+  },
+  "klossek-johansson-nogues-2021": {
+    "type": "paper",
+    "citation": "Klossek, Lara & Elisabeth Johansson-Nogués (2021), The Female ‘Boot on the Ground’: Indian Ambivalence Over Gender Mainstreaming in UN Peacekeeping Operations. International Peacekeeping",
+    "doi": "10.1080/13533312.2021.1880899",
+    "url": "https://repositori-api.upf.edu/api/core/bitstreams/46884c4d-afa1-4714-8f28-69b7ac9b1889/content"
+  },
+  "barker-1998": {
+    "type": "paper",
+    "citation": "Barker, Chris (1998), Partitives, Double Genitives, and Anti-Uniqueness. Natural Language & Linguistic Theory",
+    "doi": "10.1023/A:1005917421076"
+  },
+  "anderson-some-exclamatives": {
+    "type": "paper",
+    "citation": "Anderson, Curt, Kinds, epistemic indefinites, and some-exclamatives. Proceedings of Sinn und Bedeutung 21(1): 35–52",
+    "doi": "10.18148/sub/2018.v21i1.123"
+  },
+  "harjo-crazy-brave-spl": {
+    "type": "transcript",
+    "citation": "Harjo, Joy, reading from Crazy Brave. Seattle Public Library transcript",
+    "url": "https://www.spl.org/Seattle-Public-Library/documents/transcriptions/2012/12-07-11_Joy-Harjo.pdf"
+  },
+  "goldberg-perek-2019": {
+    "type": "paper",
+    "citation": "Goldberg, Adele E. & Florent Perek (2019), Ellipsis in Construction Grammar. The Oxford Handbook of Ellipsis, 188–204. Oxford University Press",
+    "doi": "10.1093/oxfordhb/9780198712398.013.8",
+    "url": "https://fperek.net/pdfs/GoldbergPerekTA-ellipsis-CxG.pdf"
+  },
+  "casa-constructicon": {
+    "type": "database",
+    "citation": "Herbst, Thomas R., Thomas Hoffmann, Peter Uhrig & contributors, CASA|Con: The CASA-ConstructiCon of the English Language",
+    "url": "https://constructicon.de/constructions/"
+  },
+  "hoffmann-comparative-correlatives": {
+    "type": "book",
+    "citation": "Hoffmann, Thomas (2019), English Comparative Correlatives. Cambridge University Press",
+    "doi": "10.1017/9781108569859"
+  },
+  "fillmore-lee-goldman-rhomieux-2012": {
+    "type": "paper",
+    "citation": "Fillmore, Charles J., Russell R. Lee-Goldman & Russell Rhomieux (2012), The FrameNet Constructicon. In Sign-Based Construction Grammar, 309–372. CSLI",
+    "url": "https://paperzz.com/doc/9428811/the-framenet-constructicon"
+  },
+  "fillmore-kay-oconnor-1988": {
+    "type": "paper",
+    "citation": "Fillmore, Charles J., Paul Kay & Mary Catherine O’Connor (1988), Regularity and Idiomaticity in Grammatical Constructions: The Case of Let Alone. Language 64(3): 501–538",
+    "doi": "10.2307/414531"
+  },
+  "birmingham-english-constructicon": {
+    "type": "database",
+    "citation": "Perek, Florent & Amanda Patten, English Constructicon. University of Birmingham",
+    "url": "https://englishconstructicon.bham.ac.uk/database/api/constructions"
+  },
+  "perek-2014-conative": {
+    "type": "paper",
+    "citation": "Perek, Florent (2014), The case of the English conative construction: Rethinking constructional polysemy. John Benjamins",
+    "doi": "10.1075/hcp.43.03per"
+  },
+  "hunston-transitivity-networks": {
+    "type": "database",
+    "citation": "Hunston, Susan, Conceptualising Transitivity Networks Through Pattern Based Constructions. University of Birmingham",
+    "url": "https://transitivity-net.bham.ac.uk/patterns/pattern/v-n-into-ing/"
+  },
+  "kim-davies-2016-into": {
+    "type": "paper",
+    "citation": "Kim, Jong-Bok & Mark A. Davies (2016), The into-causative construction in English: a construction-based perspective. English Language & Linguistics 20(1): 55–83",
+    "doi": "10.1017/S1360674315000271"
+  },
+  "bouso-2024-superlative": {
+    "type": "paper",
+    "citation": "Bouso, Tamara (2024), Towards a usage-based characterisation of the English Superlative Object Construction. Constructions and Frames 16(1): 100–129",
+    "doi": "10.1075/cf.22020.bou"
+  },
+  "bouso-hundt-van-driessche-2024": {
+    "type": "paper",
+    "citation": "Bouso, Tamara, Marianne Hundt & Laetitia Van Driessche (2024), A sisterhood of constructions? Cognitive Linguistics 35(3): 313–344",
+    "doi": "10.1515/cog-2023-0103"
+  },
+  "fau-senger-so-np": {
+    "type": "database",
+    "citation": "Senger, X is so NP. Research Constructicon, FAU Erlangen-Nürnberg, record engUsSpo_XissoNP (CC BY 4.0, examples reproduced with source attribution)",
+    "url": "https://github.com/ElodieWinckel/RCxn/blob/3fc710532d5be7819482d82f0e01ef0f4a28952c/Abox/cx.ttl#L3791-L3857"
+  },
+  "bylinina-this-is-so-np": {
+    "type": "paper",
+    "citation": "Bylinina, Elizaveta, This Is So NP! Baltic International Yearbook of Cognition, Logic and Communication 6",
+    "doi": "10.4148/biyclc.v6i0.1571"
+  },
+  "kim-sim-2024-out-of": {
+    "type": "paper",
+    "citation": "Kim, Jungsoo & Rok Sim (2024), A Collostructional and Constructional Approach to the Transitive out of -ing Construction. English Studies 105(2), 263–289",
+    "doi": "10.1080/0013838X.2023.2275458",
+    "url": "https://www.tandfonline.com/doi/full/10.1080/0013838X.2023.2275458"
+  },
+  "hunston-v-n-out-of-n": {
+    "type": "database",
+    "citation": "Hunston, Susan, V n out of n. Conceptualising Transitivity Networks Through Pattern Based Constructions. University of Birmingham",
+    "url": "https://transitivity-net.bham.ac.uk/patterns/pattern/v-n-out-of-n/"
+  },
+  "bouso-2022-reaction-object": {
+    "type": "paper",
+    "citation": "Bouso Rivas, Tamara (2022), The English Reaction Object Construction: A Case of Syntactic Constructional Contamination. Miscelánea 65, 13–36",
+    "doi": "10.26754/ojs_misc/mj.20226826",
+    "url": "https://papiro.unizar.es/ojs/index.php/misc/en/article/view/6826"
+  },
+  "fau-patel-come-ing": {
+    "type": "database",
+    "citation": "Patel, Come plus Noise or Manner of Movement V-ing. Research Constructicon, FAU Erlangen-Nürnberg, record comePLUSnoisemannerofmovementVing (CC BY 4.0, examples excerpted with attribution)",
+    "url": "https://github.com/ElodieWinckel/RCxn/blob/3fc710532d5be7819482d82f0e01ef0f4a28952c/Abox/cx.ttl#L871-L896"
+  },
+  "fanego-motion-participial": {
+    "type": "paper",
+    "citation": "Fanego, Teresa (2020), On the History of the English Progressive Construction Jane came whistling down the street. Journal of English Linguistics 48(4), 319–354",
+    "doi": "10.1177/0075424220945008",
+    "url": "https://journals.sagepub.com/doi/full/10.1177/0075424220945008"
+  },
+  "fau-iabdounane-up-to-here": {
+    "type": "database",
+    "citation": "Iabdounane, Had it up to here with. Research Constructicon, FAU Erlangen-Nürnberg, English verbal and gesture-linked records (CC BY 4.0, example excerpted with attribution)",
+    "url": "https://github.com/ElodieWinckel/RCxn/blob/3fc710532d5be7819482d82f0e01ef0f4a28952c/Abox/cx.ttl#L3692-L3771"
+  },
+  "fau-tzimas-inversion": {
+    "type": "database",
+    "citation": "Tzimas, Locative Full-Verb Inversion and Temporal Full-Verb Inversion. Research Constructicon, FAU Erlangen-Nürnberg",
+    "url": "https://github.com/ElodieWinckel/RCxn/blob/3fc710532d5be7819482d82f0e01ef0f4a28952c/Abox/cx.ttl#L4218-L4308"
+  },
+  "kay-fillmore-1999": {
+    "type": "paper",
+    "citation": "Kay, Paul & Charles J. Fillmore (1999), Grammatical Constructions and Linguistic Generalizations: The What's X Doing Y? Construction. Language 75(1), 1–33",
+    "doi": "10.2307/417472"
+  },
+  "goldberg-jackendoff-2004": {
+    "type": "paper",
+    "citation": "Goldberg, Adele E. & Ray Jackendoff (2004), The English Resultative as a Family of Constructions. Language 80(3), 532–568",
+    "doi": "10.1353/lan.2004.0129"
+  },
+  "cuneo-goldberg-2023": {
+    "type": "paper",
+    "citation": "Cuneo, Nicole & Adele E. Goldberg (2023), The discourse functions of grammatical constructions explain an enduring syntactic puzzle. Cognition 240, 105563",
+    "doi": "10.1016/j.cognition.2023.105563",
+    "url": "https://www.sciencedirect.com/science/article/pii/S001002772300197X"
+  },
+  "goldberg-2011-preemption": {
+    "type": "paper",
+    "citation": "Goldberg, Adele E. (2011), Corpus evidence of the viability of statistical preemption. Cognitive Linguistics 22(1), 131–153",
+    "doi": "10.1515/cogl.2011.006",
+    "url": "https://www.degruyterbrill.com/document/doi/10.1515/cogl.2011.006/html"
+  },
+  "asu-faatulu-co-captain": {
+    "type": "document",
+    "citation": "Arizona State University Athletics, Jolynn Faatulu Overcomes Injuries to Shine",
+    "url": "https://thesundevils.com/jolynn-faatulu-overcomes-injuries-to-shine"
+  },
+  "cambridge-dictionary-capital": {
+    "type": "dictionary",
+    "citation": "Cambridge Dictionary, capital, adjective and noun entries",
+    "url": "https://dictionary.cambridge.org/dictionary/english/capital"
+  },
+  "cambridge-dictionary-with-a-capital": {
+    "type": "dictionary",
+    "citation": "Cambridge Dictionary, with a capital A, B, etc.",
+    "url": "https://dictionary.cambridge.org/dictionary/english/with-a-capital-etc"
+  },
+  "schneider-homans-1955": {
+    "type": "paper",
+    "citation": "Schneider, David M. & George C. Homans (1955), Kinship terminology and the American kinship system. American Anthropologist 57(6), 1194–1208",
+    "url": "https://www.jstor.org/stable/665964"
+  },
+  "halm-2022": {
+    "type": "paper",
+    "citation": "Halm, Tamás (2022), Modified pronouns and split agreement: the syntax of virtual performatives. NELS 52, vol. 1, 319–329. Amherst, MA: GLSA",
+    "url": "https://www.researchgate.net/publication/360162060_Modified_pronouns_and_split_agreement_the_syntax_of_virtual_performatives"
+  },
+  "berezowski-2021": {
+    "type": "paper",
+    "citation": "Berezowski, Leszek (2021), Strange bedfellows: Non-metonymic English proper names and the indefinite article. Finnish Journal of Linguistics 34, 7–37",
+    "url": "https://journal.fi/finjol/article/download/107674/67971"
+  },
+  "vandelanotte-willemse-2002": {
+    "type": "paper",
+    "citation": "Vandelanotte, Lieven & Peter Willemse (2002), Restrictive and non-restrictive modification of proprial lemmas. Word 53(1), 9–36",
+    "doi": "10.1080/00437956.2002.11432522",
+    "url": "https://www.tandfonline.com/doi/pdf/10.1080/00437956.2002.11432522"
+  },
+  "kemp-hengeveld-2022": {
+    "type": "paper",
+    "citation": "Kemp, Lois & Kees Hengeveld (2022), English evidential -ly adverbs in the noun phrase from a functional perspective. Open Linguistics 8(1), 573–592",
+    "doi": "10.1515/opli-2022-0208",
+    "url": "https://www.degruyterbrill.com/document/doi/10.1515/opli-2022-0208/html"
+  },
+  "cbs-2001-giuliani": {
+    "type": "document",
+    "citation": "CBS News (18 June 2001), No Answers In NYC Fire",
+    "url": "https://www.cbsnews.com/news/no-answers-in-nyc-fire/"
+  },
+  "cornell-meeting-locations": {
+    "type": "document",
+    "citation": "Cornell University Academic and Event Scheduling, Meeting or Info Session",
+    "url": "https://scheduling.cornell.edu/planning-guide-and-policies/event-planning-guide/meeting-or-info-session"
+  },
+  "dimock-2023-generational-labels": {
+    "type": "document",
+    "citation": "Dimock, Michael (22 May 2023), 5 things to keep in mind when you hear about Gen Z, Millennials, Boomers and other generations. Pew Research Center",
+    "url": "https://www.pewresearch.org/short-reads/2023/05/22/5-things-to-keep-in-mind-when-you-hear-about-gen-z-millennials-boomers-and-other-generations/"
+  }
+}

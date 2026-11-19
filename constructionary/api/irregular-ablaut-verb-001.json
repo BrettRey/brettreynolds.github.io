@@ -1,0 +1,137 @@
+{
+  "id": "irregular-ablaut-verb-001",
+  "name": "Vowel Alternation in Irregular Verb Inflection",
+  "pattern": "selected verb stems with present, preterite and participial vowel alternants",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/irregular-ablaut-verb-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/irregular-ablaut-verb-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/irregular-ablaut-verb-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/irregular-ablaut-verb-001/"
+  },
+  "entry": {
+    "id": "irregular-ablaut-verb-001",
+    "name": "Vowel Alternation in Irregular Verb Inflection",
+    "pattern": "selected verb stems with present, preterite and participial vowel alternants",
+    "type": "morphological",
+    "meanings": {
+      "1": {
+        "definition": "Distinguishes verbal inflectional forms through lexicalized changes in the stem vowel.",
+        "examples": [
+          {
+            "form": "Jo [sang] yesterday and has [sung] twice today.",
+            "note": "Constructed illustration."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "past-tense-ed-001",
+        "relationship": "related-to"
+      },
+      {
+        "id": "perfect-have-001",
+        "relationship": "related-to",
+        "notes": "The perfect selects the past participle, here sung."
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 18 §5.3.2",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "Sang and sung correspond to different slots for this verb. Other verbs can share one form across those slots, so the exact mapping is lexical.",
+        "evidence": "See the cited discussion and the constructed illustration.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Sing, sang, sung",
+      "summary": "Some verbs show different forms by changing the vowel inside the word, and the changes belong to each verb.",
+      "body": "In Jo sang yesterday and has sung twice today, the vowel in the middle of the word changes: sing, sang, sung. Each form fills a different slot. Sang is the past form, and sung is the form that goes after has.\n\nOther verbs can use one form for more than one slot, so the exact pattern belongs to each verb individually.",
+      "examples": [
+        {
+          "text": "Jo [sang] yesterday and has [sung] twice today.",
+          "from": "entry"
+        }
+      ],
+      "try": "Say Jo sings today, Jo sang yesterday, Jo has sung. Which vowel changes at each step?"
+    },
+    "teacher": {
+      "summary": "Covers verbs whose past and participle forms are marked by a stem vowel change, as in sing, sang, sung.",
+      "explain": "This dictionary describes selected verb stems with present, preterite and participial vowel alternants. The changes are lexicalized and distinguish verbal inflectional forms. For sing, sang and sung correspond to different slots. The perfect selects the past participle, here sung. Other verbs can share one form across those slots, so the exact mapping is lexical, and each verb has to be learned. This dictionary relates the pattern to regular -ed past tense and to the perfect with have. It is provisional.",
+      "terms": "Traditional grammars sometimes call these strong verbs, a label that may be broader than this pattern, and ablaut is a textbook word for stem-vowel change of this kind. This dictionary calls the pattern vowel alternation in irregular verb inflection.",
+      "examples": [
+        {
+          "text": "Jo [sang] yesterday and has [sung] twice today.",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "Jo sang yesterday.",
+          "from": "constructed",
+          "note": "The preterite form."
+        },
+        {
+          "text": "Jo has sung twice today.",
+          "from": "constructed",
+          "note": "The past participle after has."
+        }
+      ],
+      "watch_for": [
+        "A learner might mix up which of sang and sung fills which slot.",
+        "A learner might expect every verb to add -ed for its past."
+      ],
+      "activity": "Students list verbs with a vowel change and write each in a pair of sentences, one with the past form and one with has and the participle. They note any verb that uses one form for both."
+    },
+    "child": {
+      "hook": "What changes in the word sing when you say yesterday?",
+      "explain": "Some words change their middle sound. Today I sing. Yesterday I sang. Today I have sung. Each word has its own pattern.",
+      "examples": [
+        {
+          "text": "Jo [sang] yesterday and has [sung] twice today.",
+          "from": "entry"
+        },
+        {
+          "text": "Today I sing, yesterday I [sang].",
+          "from": "constructed"
+        }
+      ],
+      "play": "Say sing, sang and sung with a partner. Find other words whose middle sound changes, and test each one."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "sketch",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)",
+        "result": "fixed",
+        "note": "Fixed: teacher terms no longer claim the dictionary's title contains 'ablaut' (the title is 'Vowel Alternation in Irregular Verb Inflection'); strong verbs hedged as possibly broader; 'the entry' replaced by 'this dictionary'; curious summary no longer says the vowel shows 'tense' alone (the entry says inflectional forms). Second round: fixed curious.body by cutting 'you can't predict the pattern from a rule' (this dictionary says only that the exact mapping is lexical)."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Vowel Alternation in Irregular Verb Inflection.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/irregular-ablaut-verb-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

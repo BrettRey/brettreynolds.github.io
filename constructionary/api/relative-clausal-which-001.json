@@ -1,0 +1,111 @@
+{
+  "id": "relative-clausal-which-001",
+  "name": "Supplementary Which with a Clausal Anchor",
+  "pattern": "Clause or larger discourse unit + supplement with relative which",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/relative-clausal-which-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/relative-clausal-which-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/relative-clausal-which-001/"
+  },
+  "entry": {
+    "id": "relative-clausal-which-001",
+    "name": "Supplementary Which with a Clausal Anchor",
+    "pattern": "Clause or larger discourse unit + supplement with relative which",
+    "type": "mixed",
+    "meanings": {
+      "1": {
+        "definition": "Refers back to a situation or proposition conveyed by an anchor.",
+        "examples": [
+          {
+            "form": "The train had already left, [which was unfortunate].",
+            "note": "Constructed illustration."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "supplementary-relative-001",
+        "relationship": "specialization-of",
+        "parthood": "formal"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 12 §4, category of the antecedent",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "Which can refer to the departure situation as a whole. Number from an incidental NP inside the anchor does not determine the reference of which.",
+        "evidence": "See the cited discussion and the constructed illustration.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Which pointing back at a whole situation",
+      "summary": "A which can follow a statement and refer back to the whole situation it describes, not to a single thing in it.",
+      "body": "In The train had already left, which was unfortunate, the word which doesn't point at the train. It points at the whole situation: the fact that the train had already left. That's what was unfortunate.\n\nThe pattern is a comment tacked onto the end of a statement. It's a special case of a larger family of add-on remarks that begin with which. This dictionary marks the analysis as provisional, so treat the details as a working proposal.",
+      "examples": [
+        {
+          "text": "The train had already left, [which was unfortunate].",
+          "from": "entry"
+        },
+        {
+          "text": "The shop was closed, [which surprised us].",
+          "from": "constructed"
+        }
+      ],
+      "try": "Add a which remark to the end of a sentence you just said. What exactly is the which referring to?"
+    },
+    "teacher": {
+      "summary": "Helps explain why which can refer to a whole preceding statement, not just a noun.",
+      "explain": "A supplementary relative clause beginning with which can take as its anchor a clause (or a longer stretch of discourse), not only a noun phrase. In The train had already left, which was unfortunate, which refers to the departure situation as a whole. Number on a noun phrase inside the anchor, such as the singular noun train, doesn't determine what which refers to. This dictionary treats the pattern as a specialization of the ordinary supplementary relative, and marks the analysis as provisional.",
+      "terms": "Sometimes called a sentential relative. In this dictionary: supplementary relative with a clausal anchor.",
+      "examples": [
+        {
+          "text": "The train had already left, [which was unfortunate].",
+          "from": "entry"
+        },
+        {
+          "text": "The shop was closed, [which surprised us].",
+          "from": "constructed"
+        }
+      ],
+      "watch_for": [
+        "A learner might take which to refer only to the nearest noun, such as the train, when it refers to the whole situation."
+      ],
+      "activity": "Give pairs a short statement on a card. Each student adds a which comment, then partners say aloud what which stands for. Collect a few and discuss which ones refer to the whole situation."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "sketch",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Supplementary Which with a Clausal Anchor.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/relative-clausal-which-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

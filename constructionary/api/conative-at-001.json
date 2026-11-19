@@ -1,0 +1,193 @@
+{
+  "id": "conative-at-001",
+  "name": "Conative At",
+  "pattern": "VP[Head:V[action] + Comp:PP[at + NP[target]]]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/conative-at-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/conative-at-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/conative-at-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/conative-at-001/"
+  },
+  "entry": {
+    "id": "conative-at-001",
+    "name": "Conative At",
+    "pattern": "VP[Head:V[action] + Comp:PP[at + NP[target]]]",
+    "type": "mixed",
+    "meanings": {
+      "1": {
+        "definition": "Presents an action directed towards a target without committing to the usual result of the transitive use.",
+        "details": "With kick, the direct object normally entails contact. The at-phrase identifies what the action was directed towards and permits either contact or a miss. With eat or nibble, related uses can instead involve small amounts or repetition. The entry concerns the directed-action reading with verbs that support the contrast, leaving ordinary uses such as look at to their own accounts.",
+        "examples": [
+          {
+            "form": "The horse [kicked at me].",
+            "note": "The action is directed at the speaker, who may have been missed.",
+            "grounds": [
+              {
+                "source": "cgel-2002",
+                "locator": "Ch. 4 §8.1.1(a), p. 298 [6ib]",
+                "relation": "attests",
+                "bears-on": "attestation"
+              }
+            ]
+          },
+          {
+            "form": "The horse [kicked me].",
+            "note": "Transitive control. Contact occurred.",
+            "grounds": [
+              {
+                "source": "cgel-2002",
+                "locator": "Ch. 4 §8.1.1(a), p. 298 [6ia]",
+                "relation": "attests",
+                "bears-on": "attestation"
+              }
+            ]
+          },
+          {
+            "form": "The striker [kicked at the ball] and caught it with the outside of her foot.",
+            "note": "Constructed. Success remains compatible with the at-form."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "vp-001",
+        "relationship": "specialization-of",
+        "notes": "The target is internal to the VP, as the object of at."
+      },
+      {
+        "id": "goal-complement-001",
+        "relationship": "related-to",
+        "notes": "The target supplies a direction for the action, without an arrival or contact entailment."
+      }
+    ],
+    "grounds": [
+      {
+        "source": "birmingham-english-constructicon",
+        "locator": "V at n, records 33–36, especially 34",
+        "relation": "discusses",
+        "bears-on": "projection",
+        "note": "Distinguishes attempted contact from repeated contact and partial ingestion."
+      },
+      {
+        "source": "perek-2014-conative",
+        "locator": "ch. 3, verb-class analysis",
+        "relation": "discusses",
+        "bears-on": "projection",
+        "note": "Examines the contribution of the pattern by verb class."
+      },
+      {
+        "source": "casa-constructicon",
+        "locator": "record 41",
+        "relation": "discusses",
+        "bears-on": "projection",
+        "note": "Records the target-oriented action pattern."
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "For contact verbs such as kick, at plus the target permits a continuation with a miss. A transitive object with the same verb normally rules that continuation out.",
+        "evidence": "CGEL’s alternation, Birmingham’s attempted-contact record and Perek’s evidence for different conative verb classes.",
+        "confidence": "high"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Aiming an action at something",
+      "summary": "An at-phrase can show that an action was aimed at something, without saying it connected.",
+      "body": "The horse kicked at me and The horse kicked me differ in a useful way. The second says the kick landed. The first says the kick was aimed at me, and it may have connected or missed.\n\nThe at-phrase names the target. It doesn't rule out success: The striker kicked at the ball and caught it with the outside of her foot. With a verb like kick, a direct object normally means contact happened, and at removes that commitment. Related uses with eat or nibble can involve small amounts or repetition.",
+      "examples": [
+        {
+          "text": "The horse [kicked at me].",
+          "from": "entry"
+        },
+        {
+          "text": "The horse [kicked me].",
+          "from": "entry"
+        },
+        {
+          "text": "The striker [kicked at the ball] and caught it with the outside of her foot.",
+          "from": "constructed"
+        }
+      ],
+      "try": "Compare The horse kicked at me with The horse kicked me. In which one do you know for sure that the kick connected?"
+    },
+    "teacher": {
+      "summary": "Useful for explaining at-phrases that present an action as directed at a target without the usual result of the transitive use.",
+      "explain": "In the conative, a verb of action is followed by a PP headed by at, whose complement is the target. Kicked at me presents the action as directed towards the speaker without committing to the usual result. With kick, the direct object in The horse kicked me normally entails contact, while the at-phrase permits either contact or a miss. The target supplies a direction for the action, with no entailment of arrival or contact. Ordinary uses such as look at are left to their own accounts.",
+      "terms": "Conative: the traditional name for this pattern. Comp is a complement; the target is the object of at.",
+      "examples": [
+        {
+          "text": "The horse [kicked at me].",
+          "from": "entry"
+        },
+        {
+          "text": "The striker [kicked at the ball] and caught it with the outside of her foot.",
+          "from": "constructed"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "The horse kicked at me.",
+          "from": "entry",
+          "note": "Directed at the speaker. Contact or a miss."
+        },
+        {
+          "text": "The horse kicked me.",
+          "from": "entry",
+          "note": "Transitive control. Contact occurred."
+        }
+      ],
+      "watch_for": [
+        "A learner might read kicked at as meaning the kick missed, when it permits either contact or a miss.",
+        "A learner might treat the at-phrase as a place adjunct, when it names what the action was directed towards."
+      ],
+      "activity": "Students act out two versions of kicking a ball, once with contact and once with a miss. They describe each with kicked the ball and kicked at the ball, then discuss which description fits."
+    },
+    "child": {
+      "hook": "Is kicking at a ball the same as kicking a ball?",
+      "explain": "Kicked the ball means your foot hit it. Kicked at the ball means you aimed a kick at it. You might have missed.",
+      "examples": [
+        {
+          "text": "The horse [kicked at me].",
+          "from": "entry"
+        },
+        {
+          "text": "Mia [kicked at the ball] and missed.",
+          "from": "constructed"
+        },
+        {
+          "text": "Mia [kicked the ball] to Sam.",
+          "from": "constructed"
+        }
+      ],
+      "play": "Kick a soft ball or pretend to. Say what happened with kicked the ball or kicked at the ball."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Conative At.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/conative-at-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

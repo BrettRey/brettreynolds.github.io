@@ -1,0 +1,106 @@
+{
+  "id": "oblique-ing-subject-001",
+  "name": "Accusative Subject in a Gerund-Participial",
+  "pattern": "gerund-participial[Subject:NP in accusative if a personal pronoun + V-ing VP]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/oblique-ing-subject-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/oblique-ing-subject-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/oblique-ing-subject-001/"
+  },
+  "entry": {
+    "id": "oblique-ing-subject-001",
+    "name": "Accusative Subject in a Gerund-Participial",
+    "pattern": "gerund-participial[Subject:NP in accusative if a personal pronoun + V-ing VP]",
+    "type": "syntactic",
+    "meanings": {
+      "1": {
+        "definition": "Expresses the subject of an -ing clause without genitive marking where the environment allows it.",
+        "examples": [
+          {
+            "form": "We objected to [them blocking the exit].",
+            "note": "Constructed illustration."
+          }
+        ]
+      }
+    },
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 14 §1.6",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "The prepositional context can license them as the embedded subject, and blocking still takes a direct object. Alternatives with a genitive vary with syntactic environment and style.",
+        "evidence": "See the cited discussion and the constructed illustration.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Them blocking the exit",
+      "summary": "An -ing phrase can have its own subject, and a pronoun there can take its object form, as in them blocking the exit.",
+      "body": "In We objected to them blocking the exit, the -ing phrase them blocking the exit has its own subject, them. The pronoun has the form used for objects, not a genitive form such as their.\n\nThe word them is the doer of the blocking, not the thing objected to. And blocking still has its own object, the exit. This dictionary says that where a genitive form is an alternative, the choice varies with the surrounding grammar and with style, and that this pattern is the one with no genitive marking.",
+      "examples": [
+        {
+          "text": "We objected to [them blocking the exit].",
+          "from": "entry"
+        },
+        {
+          "text": "She was annoyed at [him leaving early].",
+          "from": "constructed"
+        }
+      ],
+      "try": "Say We objected to them blocking the exit. Who is doing the blocking?"
+    },
+    "teacher": {
+      "summary": "Explains an -ing clause whose subject is a pronoun in its object form, as in objected to them blocking the exit.",
+      "explain": "A gerund-participial clause can have a subject NP that, if it's a personal pronoun, is accusative: them blocking the exit. This dictionary says the prepositional context (objected to) can license them as the embedded subject, while blocking still takes a direct object. The alternative with a genitive subject varies with the syntactic environment and with style. The pattern expresses the subject of an -ing clause without genitive marking where the environment allows it. This dictionary marks the analysis as provisional.",
+      "terms": "This dictionary treats the clause as gerund-participial.",
+      "examples": [
+        {
+          "text": "We objected to [them blocking the exit].",
+          "from": "entry"
+        },
+        {
+          "text": "She was annoyed at [him leaving early].",
+          "from": "constructed"
+        }
+      ],
+      "watch_for": [
+        "A learner might take them as the object of the preposition to, when it is the subject of the -ing clause.",
+        "A learner might read the exit as the object of the preposition to, when it is the direct object of blocking."
+      ],
+      "activity": "Students underline the subject and the verb of the -ing clause in sentences like We objected to them blocking the exit, then identify which words are the clause's subject and its object."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "sketch",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)",
+        "result": "fixed",
+        "note": "Fixed: replaced the watch_for item that treated omitting the object as a learner error with a confusion the entry supports (blocking still takes the exit as direct object). Dismissed: none. Second round: fixed teacher.terms by cutting the claim about how traditional grammar frames the choice between them blocking and their blocking (this dictionary makes no such claim)."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Accusative Subject in a Gerund-Participial.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/oblique-ing-subject-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

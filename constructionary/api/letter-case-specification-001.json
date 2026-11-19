@@ -1,0 +1,166 @@
+{
+  "id": "letter-case-specification-001",
+  "name": "Letter-Case Specification Construction",
+  "pattern": "Case-specifying phrase or modifier attached to a label (e.g., with a small X, with a lowercase X, small-X)",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/letter-case-specification-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/letter-case-specification-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/letter-case-specification-001/"
+  },
+  "entry": {
+    "id": "letter-case-specification-001",
+    "name": "Letter-Case Specification Construction",
+    "pattern": "Case-specifying phrase or modifier attached to a label (e.g., with a small X, with a lowercase X, small-X)",
+    "type": "semantic",
+    "dimensions": {
+      "form": "PP or adjectival modifier naming a letter and its case (small/big/capital/uppercase/lowercase).",
+      "meaning": "Specifies orthographic case to disambiguate the sense or status of a label.",
+      "function": "Metalinguistic instruction about how a label should be written and interpreted.",
+      "distribution": "Adjunct to category labels; often parenthetical after the label."
+    },
+    "meanings": {
+      "1": {
+        "definition": "Specifies the capitalization of a letter in a label.",
+        "details": "Capitalization can distinguish institutional and descriptive uses. Name conventions and ordinary spelling supply other uses. The capital-letter format can also emphatically present an example as fully deserving its label.",
+        "examples": [
+          {
+            "form": "Catholic [with a small c].",
+            "note": "Non-institutional, descriptive sense."
+          },
+          {
+            "form": "She is a [Big-D] Democrat.",
+            "note": "Institutional or party-affiliated sense."
+          }
+        ]
+      }
+    },
+    "semanticRefs": [
+      "metalinguistic",
+      "orthographic-case",
+      "category",
+      "reference"
+    ],
+    "relatedConstructions": [
+      {
+        "id": "n-common-001",
+        "relationship": "related-to",
+        "notes": "Lowercase specifications align with common-noun readings."
+      },
+      {
+        "id": "proper-name-001",
+        "relationship": "related-to",
+        "notes": "Case specification often disambiguates proper-name readings."
+      },
+      {
+        "id": "n-proper-001",
+        "relationship": "related-to",
+        "notes": "Letter-case cues interact with proper-noun orthography."
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cambridge-dictionary-capital",
+        "locator": "Entries for capital letter and its contrast with small letter",
+        "relation": "discusses",
+        "bears-on": "projection"
+      },
+      {
+        "source": "cambridge-dictionary-with-a-capital",
+        "locator": "Idiom entry, attributing a strong degree",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "With a capital R can distinguish the Romantic movement from a descriptive adjective. A quality with a capital letter can also express emphatic exemplarity. Neither the letter case nor the verbal specification determines noun subclass independently.",
+        "evidence": "The dictionary contrasts labels by written case and lists the emphatic idiom separately.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Saying which letter case you mean",
+      "summary": "A phrase like with a small c tells the reader how a label is spelled and, with it, what it means.",
+      "body": "Sometimes the letter at the start of a word changes what the word means. Catholic with a small c points to a non-institutional, descriptive sense. A big-D Democrat points to the party. The phrase naming the letter is a quick instruction about how to read the label.\n\nAnother use presents something as fully deserving a label. Saying a person is generous with a capital G suggests that the person fully deserves the label. The case of the letter doesn't decide by itself what kind of word the label is.",
+      "examples": [
+        {
+          "text": "Catholic [with a small c].",
+          "from": "entry"
+        },
+        {
+          "text": "She is a [Big-D] Democrat.",
+          "from": "entry"
+        },
+        {
+          "text": "She's generous [with a capital G].",
+          "from": "constructed"
+        }
+      ],
+      "try": "Say the same label twice, once with a small first letter and once with a capital. Does the meaning change?"
+    },
+    "teacher": {
+      "summary": "Helps explain phrases like with a small c that tell the reader which sense of a label is meant.",
+      "explain": "A PP or adjectival modifier names a letter and its case and attaches to a label. This dictionary treats it as a metalinguistic instruction: it tells the reader how to write or interpret the label, such as institutional versus descriptive. Name conventions and ordinary spelling supply other uses. The capital-letter format can also present an example as fully deserving its label, so a quality with a capital letter is emphatic. Neither letter case nor the specification fixes noun subclass by itself. This dictionary marks the analysis as provisional and rests on dictionary entries.",
+      "terms": "Related entries in this dictionary: common noun, proper name, proper noun.",
+      "examples": [
+        {
+          "text": "Catholic [with a small c].",
+          "from": "entry"
+        },
+        {
+          "text": "She is a [Big-D] Democrat.",
+          "from": "entry"
+        },
+        {
+          "text": "She's generous [with a capital G].",
+          "from": "constructed"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "Catholic with a small c.",
+          "from": "entry",
+          "note": "Non-institutional, descriptive sense."
+        },
+        {
+          "text": "She's generous with a capital G.",
+          "from": "constructed",
+          "note": "Emphatic, presenting her as fully deserving the label generous."
+        }
+      ],
+      "watch_for": [
+        "A learner might take with a capital G as an instruction about spelling only, when it can also mean that the quality fully applies.",
+        "A learner might assume the capital letter by itself shows whether a word is a proper noun, when neither case nor the specification settles the noun subclass."
+      ],
+      "activity": "Give students labels that have both an institutional and a descriptive sense. They write two sentences for each, using a phrase naming the letter case to show which sense they mean."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags)",
+        "result": "fixed",
+        "note": "Fixed: cut 'Not a standard textbook category' (teacher.terms, unsupported); 'perfect example' changed to 'fully deserving the label' (curious.body, teacher.contrasts); cut 'not a corpus'; 'the entry' replaced by 'this dictionary'."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Letter-Case Specification Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/letter-case-specification-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

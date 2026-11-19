@@ -1,0 +1,129 @@
+{
+  "id": "lexical-do-so-anaphor-001",
+  "name": "Anaphoric Do So",
+  "pattern": "VP[do + so]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/lexical-do-so-anaphor-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/lexical-do-so-anaphor-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/lexical-do-so-anaphor-001/"
+  },
+  "entry": {
+    "id": "lexical-do-so-anaphor-001",
+    "name": "Anaphoric Do So",
+    "pattern": "VP[do + so]",
+    "type": "mixed",
+    "meanings": {
+      "1": {
+        "definition": "Uses an anaphoric expression as a VP in its own right.",
+        "examples": [
+          {
+            "form": "Kai tied the bundle, and [did so] again the next day.",
+            "note": "Constructed illustration."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "vp-001",
+        "relationship": "specialization-of",
+        "parthood": "formal"
+      },
+      {
+        "id": "auxiliary-vp-ellipsis-001",
+        "relationship": "related-to"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 17 §§7.5–7.6, do so versus do it/that; Ch. 3 §2.1.4",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "Do so can be infinitival in promised to do so, and in its ordinary use favours an action antecedent. Stranded auxiliary do has a wider range of antecedents.",
+        "evidence": "See the cited discussion and the constructed illustration.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Do so standing in for an action",
+      "summary": "Do so can replace a phrase that has already named an action, so the speaker doesn't have to repeat it.",
+      "body": "In Kai tied the bundle, and did so again the next day, did so stands in for tied the bundle. Instead of repeating the action, the speaker points back to it.\n\nThis works as a phrase in its own right, so it can appear in different forms. In She promised to do so, it follows to. In its ordinary use, do so looks back to an action that was named earlier. This dictionary has a separate entry on a related pattern, where the helper word do is left standing with the rest unsaid, as in Jo did too, and that one allows a wider range of earlier phrases.",
+      "examples": [
+        {
+          "text": "Kai tied the bundle, and [did so] again the next day.",
+          "from": "entry"
+        },
+        {
+          "text": "She promised to [do so].",
+          "from": "constructed"
+        }
+      ],
+      "try": "Say a sentence about something you did, then add and did so again. What does did so replace?"
+    },
+    "teacher": {
+      "summary": "Helps explain do so as a stand-in for an earlier action phrase, and how it differs from stranded auxiliary do.",
+      "explain": "Do so is an anaphoric expression that functions as a VP in its own right. It refers back to an earlier action, so in Kai tied the bundle, and did so again the next day, did so picks up tied the bundle. Because it's a VP, it can be infinitival, as in promised to do so. Its ordinary use favours an action antecedent. Stranded auxiliary do, the pattern in Jo did too, has a wider range of antecedents. This analysis is provisional.",
+      "terms": "Do so can be described as a pro-form for a verb phrase. In this dictionary: anaphoric do so, with stranded auxiliary do as a separate, related entry.",
+      "examples": [
+        {
+          "text": "Kai tied the bundle, and [did so] again the next day.",
+          "from": "entry"
+        },
+        {
+          "text": "She promised to [do so].",
+          "from": "constructed"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "Kai tied the bundle, and did so again the next day.",
+          "from": "entry",
+          "note": "Do so is a VP in its own right and looks back to an action."
+        },
+        {
+          "text": "Kai tied the bundle, and Jo did too.",
+          "from": "constructed",
+          "note": "Stranded auxiliary do, a related pattern with a wider range of antecedents."
+        }
+      ],
+      "watch_for": [
+        "A learner might think do so is only a finite form, when this dictionary shows it can be infinitival, as in promised to do so.",
+        "A learner might use do so to refer back to something that isn't an action, when its ordinary use favours an action antecedent."
+      ],
+      "activity": "Students write sentences naming an action and then rewrite the second mention with do so. They then compare with a version that uses did too and say what each form refers back to."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "sketch",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags)",
+        "result": "fixed",
+        "note": "Fixed: curious body no longer describes stranded do as following another helper word (do is itself the auxiliary there); 'the entry' replaced by 'this dictionary' and the provisional status stated."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Anaphoric Do So.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/lexical-do-so-anaphor-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

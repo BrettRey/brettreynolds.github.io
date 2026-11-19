@@ -1,0 +1,270 @@
+{
+  "id": "open-interrogative-clause-001",
+  "name": "Open Interrogative Clause",
+  "pattern": "Clause: Interrogative:XP[non-subject] + (Subject:XP +) Head:VP / Subject:XP[interrogative] + Head:VP",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/open-interrogative-clause-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/open-interrogative-clause-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/open-interrogative-clause-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/open-interrogative-clause-001/"
+  },
+  "entry": {
+    "id": "open-interrogative-clause-001",
+    "name": "Open Interrogative Clause",
+    "pattern": "Clause: Interrogative:XP[non-subject] + (Subject:XP +) Head:VP / Subject:XP[interrogative] + Head:VP",
+    "type": "syntactic",
+    "semanticType": "predication",
+    "dimensions": {
+      "form": "Clause headed by a VP and marked by an interrogative phrase; a non-subject interrogative phrase is normally fronted and triggers inversion in a main clause, while an interrogative Subject retains basic position",
+      "meaning": "Characteristically presents an open proposition whose variable is assigned a value by an answer",
+      "function": "Characteristically asks an open question, while also supporting rhetorical, directive, and other indirect uses",
+      "distribution": "Tensed and infinitival main clauses and subordinate open-interrogative content clauses"
+    },
+    "meanings": {
+      "1": {
+        "definition": "A headed clause type marked by an interrogative phrase and characteristically used to ask for a variable's value",
+        "details": "The interrogative phrase is based on who, whom, whose, which, what, when, where, why, how, or a phrase containing one of these. If it is Subject, it occupies the same basic position as a declarative Subject and does not trigger inversion. A non-subject interrogative phrase is normally fronted and triggers subject–auxiliary inversion in a main clause, but subordinate clauses normally retain Subject–Predicator order. Reduced interrogative phrases are outside this headed-clause entry and belong with clause-analogue semantics (CGEL pp. 853–57, 872–76, 902–18).",
+        "examples": [
+          {
+            "form": "[Who broke the window?]",
+            "note": "Interrogative phrase as Subject; basic order and no subject–auxiliary inversion"
+          },
+          {
+            "form": "[Which report did Kim finish?]",
+            "note": "Fronted non-subject interrogative phrase triggering inversion"
+          },
+          {
+            "form": "I know [which report Kim finished].",
+            "note": "Subordinate open interrogative with basic Subject–Predicator order"
+          },
+          {
+            "form": "[Why are you making such a fuss?]",
+            "note": "Open interrogative whose actual force may be rhetorical rather than information-seeking"
+          }
+        ]
+      }
+    },
+    "constraints": [
+      {
+        "type": "syntactic",
+        "description": "The construction is a Clause headed by VP and contains an interrogative phrase. Main-clause inversion follows normal fronting of a non-subject interrogative phrase, not interrogativity alone."
+      },
+      {
+        "type": "syntactic",
+        "description": "An interrogative Subject remains in basic Subject position; subordinate open interrogatives normally lack subject–auxiliary inversion."
+      },
+      {
+        "type": "structural",
+        "description": "A phrase-only reduction such as Which one? is not an instance of this headed construction; its clausal interpretation belongs under clause-analogue-001."
+      },
+      {
+        "type": "pragmatic",
+        "description": "A request for information is characteristic but not necessary; open interrogatives can be rhetorical or convey indirect directives and evaluations."
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "The grammatical role of the interrogative phrase predicts whether main-clause fronting and inversion occur, while its variable predicts answer congruence; subordinate status independently predicts retention of basic Subject–Predicator order",
+        "evidence": "Subject, non-subject main-clause, and subordinate interrogative phrases show the predicted three-way order contrast, while all contribute a variable to the characteristic question interpretation",
+        "confidence": "high",
+        "grounds": [
+          {
+            "source": "cgel-2002",
+            "locator": "pp. 853-57, 872-76, 902-18",
+            "relation": "cites",
+            "bears-on": "projection",
+            "note": "The interrogative phrase's role projects order, inversion, answer congruence, and subordinate behavior"
+          },
+          {
+            "source": "cgel-2002",
+            "locator": "pp. 853-57, 872-76, 902-18",
+            "relation": "cites",
+            "bears-on": "stability",
+            "note": "The role-sensitive profile recurs across main and subordinate open interrogatives"
+          }
+        ]
+      },
+      "secured": "stable",
+      "profile": {
+        "core": [
+          {
+            "property": "Interrogative phrase marking",
+            "diagnostics": [
+              "who/whom/whose/which/what/when/where/why/how base",
+              "variable in open proposition"
+            ],
+            "weight": "high"
+          },
+          {
+            "property": "Role-sensitive order",
+            "diagnostics": [
+              "basic order for interrogative Subject",
+              "fronting plus inversion for a non-subject in a main clause",
+              "normally no inversion in a subordinate clause"
+            ],
+            "weight": "high"
+          }
+        ]
+      },
+      "grain": {
+        "level": "meso",
+        "parent_families": [
+          "clause-type",
+          "question-constructions"
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "clause-001",
+        "relationship": "specialization-of",
+        "parthood": "formal"
+      },
+      {
+        "id": "interrogative-word-001",
+        "relationship": "interfaces-with",
+        "notes": "The interrogative property percolates from the word through its phrase to mark the open-interrogative Clause"
+      },
+      {
+        "id": "closed-interrogative-clause-001",
+        "relationship": "see-also",
+        "notes": "Open and closed interrogatives are distinct primary clause types with different syntactic marking"
+      },
+      {
+        "id": "echo-question-001",
+        "relationship": "see-also",
+        "notes": "Echo marking is independent of clause type and can preserve the stimulus order instead of showing open-interrogative order"
+      },
+      {
+        "id": "clause-analogue-001",
+        "relationship": "see-also",
+        "notes": "Phrase-only open-question expressions are interpreted clausally without being headed Clauses"
+      }
+    ],
+    "semanticRefs": [
+      "question",
+      "variable"
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "pp. 853-57, 872-76, 902-18",
+        "relation": "cites",
+        "note": "Open-interrogative marking, role-sensitive order, variable questions, and interrogative-phrase percolation"
+      }
+    ]
+  },
+  "editions": {
+    "curious": {
+      "title": "Questions built around a question word",
+      "summary": "Questions starting with a word like who, what or why ask for a missing piece of information, and word order depends on what the question word does.",
+      "body": "A question such as Who broke the window? asks for a missing piece, and the answer supplies it. The question word comes from the set who, whom, whose, which, what, when, where, why and how.\n\nWhen the question word is the subject, as in Who broke the window?, the order stays as in a statement. When it's something else, as in Which report did Kim finish?, it is normally moved to the front, and in a main question like this one a helping verb comes before the subject. A question tucked inside a sentence, as in I know which report Kim finished, normally keeps the statement order. Not every such question is a real request: Why are you making such a fuss? can be a complaint.",
+      "examples": [
+        {
+          "text": "[Who broke the window?]",
+          "from": "entry"
+        },
+        {
+          "text": "[Which report did Kim finish?]",
+          "from": "entry"
+        },
+        {
+          "text": "I know [which report Kim finished].",
+          "from": "entry"
+        },
+        {
+          "text": "[Why are you making such a fuss?]",
+          "from": "entry"
+        }
+      ],
+      "try": "Turn Kim finished the report into a question with which. Where does the helping verb go? Then put the question inside I know ... and see what changes."
+    },
+    "teacher": {
+      "summary": "Covers wh-questions, and how the role of the question word affects word order in main clauses, with subordinate clauses normally keeping subject-predicator order.",
+      "explain": "An open interrogative is a headed clause marked by an interrogative phrase, characteristically asking for the value of a variable. If the interrogative phrase is the Subject, it keeps basic position and there's no inversion (Who broke the window?). A non-subject interrogative phrase is normally fronted and triggers subject-auxiliary inversion in a main clause (Which report did Kim finish?). Subordinate open interrogatives normally keep Subject-Predicator order (I know which report Kim finished). A request for information is characteristic but not necessary: these clauses can also be rhetorical or convey indirect directives and evaluations. Reduced phrases such as Which one? aren't instances of this clause type.",
+      "terms": "Wh-question is the traditional name; this dictionary's term is open interrogative. Subject-auxiliary inversion is the traditional name for the change in order.",
+      "examples": [
+        {
+          "text": "[Who broke the window?]",
+          "from": "entry"
+        },
+        {
+          "text": "[Which report did Kim finish?]",
+          "from": "entry"
+        },
+        {
+          "text": "I know [which report Kim finished].",
+          "from": "entry"
+        },
+        {
+          "text": "[Why are you making such a fuss?]",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "Who broke the window?",
+          "from": "entry",
+          "note": "Interrogative Subject. Basic order, no inversion."
+        },
+        {
+          "text": "Which report did Kim finish?",
+          "from": "entry",
+          "note": "Fronted non-subject, so inversion in the main clause."
+        },
+        {
+          "text": "I know which report Kim finished.",
+          "from": "entry",
+          "note": "Subordinate clause, basic order retained."
+        }
+      ],
+      "watch_for": [
+        "A learner might carry the main-clause inverted order into a subordinate question, when subordinate clauses normally retain Subject-Predicator order.",
+        "A learner might invert the subject and a helping verb in a question whose question word is the subject, when an interrogative subject keeps its basic position.",
+        "A learner might take every such question as a request for information, when it can be rhetorical."
+      ],
+      "activity": "Students turn statements such as Kim finished the report into questions with who, which and why. They sort the results by whether the question word is the subject, then embed each one after I know and compare the order."
+    },
+    "child": {
+      "hook": "Which words start a question, like who, what, where and why?",
+      "explain": "Some questions start with a word like who, what, where or why. They ask for a missing piece, and the answer fills it in. Who broke the window? asks who did it.",
+      "examples": [
+        {
+          "text": "[Who broke the window?]",
+          "from": "entry"
+        },
+        {
+          "text": "[Where did you put my shoes?]",
+          "from": "constructed"
+        }
+      ],
+      "play": "Ask a friend a question with each of who, what, where, when and why. They answer with just the missing piece, like under the bed."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "stable",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)",
+        "result": "fixed",
+        "note": "Fixed: curious body now limits the helping-verb-before-subject order to main-clause questions with a fronted non-subject and says subordinate questions normally keep statement order; teacher summary says the role of the question word affects order in main clauses and that subordinate clauses normally keep subject-predicator order; teacher watch_for now concerns inversion with an interrogative subject rather than the presence of a helping verb. Second round: fixed teacher.terms, cutting the mapping of yes/no question onto closed interrogative (the entry does not equate them) and the label information question (the entry defines the clause type by form and includes rhetorical uses)."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Open Interrogative Clause.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/open-interrogative-clause-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

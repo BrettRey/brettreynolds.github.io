@@ -1,0 +1,296 @@
+{
+  "id": "directive-ostensive-001",
+  "name": "Directive-Ostensive Construction",
+  "pattern": "NP[directive-ostensive]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/directive-ostensive-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/directive-ostensive-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/directive-ostensive-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/directive-ostensive-001/"
+  },
+  "entry": {
+    "id": "directive-ostensive-001",
+    "name": "Directive-Ostensive Construction",
+    "pattern": "NP[directive-ostensive]",
+    "type": "syntactic",
+    "meanings": {
+      "1": {
+        "definition": "Alerts addressee to attend to referent in shared environment",
+        "details": "Directs addressee's attention to something present or imminent. Ostensive in the Sperber & Wilson sense - showing rather than describing. Typically exclamatory intonation with fall or rise-fall. Not syntactically integrated as a clause argument. Normal NP determination applies.",
+        "examples": [
+          {
+            "form": "[The robbers]!",
+            "note": "Definite, alerting to threat"
+          },
+          {
+            "form": "[Robbers]!",
+            "note": "Bare plural"
+          },
+          {
+            "form": "[A snake]!",
+            "note": "Indefinite singular count (determiner required)"
+          },
+          {
+            "form": "[That man]!",
+            "note": "Demonstrative, pointing out"
+          },
+          {
+            "form": "[Your keys]!",
+            "note": "2nd-person genitive, reminding"
+          },
+          {
+            "form": "[Fire]!",
+            "note": "Bare non-count noun"
+          },
+          {
+            "form": "[The bus]!",
+            "note": "Definite, alerting to imminent departure"
+          }
+        ]
+      }
+    },
+    "constraints": [
+      {
+        "type": "syntactic",
+        "description": "Normal NP determination (singular count nouns require a determiner; non-count and plural can be bare)"
+      },
+      {
+        "type": "pragmatic",
+        "description": "Referent must be present or imminent in shared environment"
+      },
+      {
+        "type": "structural",
+        "description": "Exclamatory intonation, typically fall or rise-fall"
+      },
+      {
+        "type": "semantic",
+        "description": "Referent is NOT the addressee (distinguishes from vocative)"
+      }
+    ],
+    "relations": {
+      "1": {
+        "construction": "vocative-001",
+        "type": "related-to",
+        "notes": "Both are non-argumental NPs with directive function; vocative addresses hearer, directive-ostensive alerts hearer to something else"
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "ostensive-np-001",
+        "relationship": "specialization-of",
+        "parthood": "functional",
+        "notes": "Environment-directed packaging of the ostensive NP"
+      },
+      {
+        "id": "vocative-001",
+        "relationship": "alternates-with",
+        "notes": "Both direct attention but differ in target (addressee vs. environment)"
+      },
+      {
+        "id": "exclamation-001",
+        "relationship": "overlaps-with",
+        "overlap-dimension": "functional",
+        "notes": "Prototypically exclamatory, but murmured reminders show the profiles can come apart"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "Membership predicts full NP-internal determination despite extra-clausal status (contrast block language: A snake! vs headline Snake found in library), introduction of a discourse referent available to anaphora (contrast interjections: A snake! It's moving vs Ouch! *It...), orientation-type rather than verbal response (contrast interrogatives), and immediacy construal (referent present or imminent)",
+        "evidence": "The determination and anaphora contrasts separate the construction from its nearest neighbours (block language, interjections); acquisitional continuity with joint-attention pointing is a testable CHILDES prediction",
+        "confidence": "medium"
+      },
+      "secured": "stable",
+      "profile": {
+        "core": [
+          {
+            "property": "Alerting function",
+            "diagnostics": [
+              "directs attention to referent",
+              "implies urgency or relevance"
+            ],
+            "weight": "high"
+          },
+          {
+            "property": "Exclamatory prosody",
+            "diagnostics": [
+              "fall or rise-fall contour",
+              "heightened pitch"
+            ],
+            "weight": "high"
+          },
+          {
+            "property": "Non-argument status",
+            "diagnostics": [
+              "not selected by verb",
+              "syntactically independent"
+            ],
+            "weight": "high"
+          },
+          {
+            "property": "Environmental reference",
+            "diagnostics": [
+              "referent present or imminent",
+              "not the addressee"
+            ],
+            "weight": "high"
+          }
+        ],
+        "peripheral": [
+          {
+            "property": "Normal NP determination",
+            "diagnostics": [
+              "singular count requires determiner",
+              "non-count and plural can be bare"
+            ],
+            "weight": "medium"
+          }
+        ]
+      },
+      "stabilisers": [
+        {
+          "type": "functional-pressure",
+          "evidence": "Need to rapidly alert others to threats or opportunities"
+        },
+        {
+          "type": "entrenchment",
+          "evidence": "High-frequency alerting expressions (Fire!, Watch out!)"
+        }
+      ]
+    },
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 10 §§8.3, 9.6.3; Ch. 2, non-clausal utterances",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ]
+  },
+  "editions": {
+    "curious": {
+      "title": "Shouting a noun phrase to point something out",
+      "summary": "A speaker can call attention to something present or about to happen by saying just a noun phrase, such as The bus!",
+      "body": "Sometimes one noun phrase is the whole message. Someone shouts A snake! or The bus!, and the listener looks, because the thing is right there or about to happen. The speaker is showing something rather than describing it.\n\nIt is typically spoken as an exclamation, with a falling or rising-then-falling tune, though a murmured reminder can lack that tone. The thing named isn't the listener, which separates this from calling someone's name. The noun phrase follows the ordinary rules: a singular count noun like snake comes with a word such as a, while a plural (Robbers!) or a non-count noun (Fire!) can stand bare.",
+      "examples": [
+        {
+          "text": "[The robbers]!",
+          "from": "entry"
+        },
+        {
+          "text": "[Robbers]!",
+          "from": "entry"
+        },
+        {
+          "text": "[A snake]!",
+          "from": "entry"
+        },
+        {
+          "text": "[That man]!",
+          "from": "entry"
+        },
+        {
+          "text": "[Your keys]!",
+          "from": "entry"
+        },
+        {
+          "text": "[Fire]!",
+          "from": "entry"
+        },
+        {
+          "text": "[The bus]!",
+          "from": "entry"
+        }
+      ],
+      "try": "Imagine something about to happen that you want a friend to notice. What would you say in just a few words, and is the thing you name the friend?"
+    },
+    "teacher": {
+      "summary": "Helps explain single noun phrases used as attention-getting exclamations, and how they differ from vocatives.",
+      "explain": "The directive-ostensive is a non-argumental NP that alerts the addressee to a referent in the shared environment. The referent must be present or imminent, and it is not the addressee, which separates the pattern from a vocative. It is typically exclamatory, with a fall or rise-fall, though murmured reminders show that the exclamatory profile can come apart from the function. The NP follows ordinary determination: singular count nouns require a determiner (A snake!), while plural and non-count nouns can be bare (Robbers!, Fire!). It isn't an argument of any clause.",
+      "terms": "This dictionary relates the pattern to exclamations and contrasts it with the vocative.",
+      "examples": [
+        {
+          "text": "[The robbers]!",
+          "from": "entry"
+        },
+        {
+          "text": "[A snake]!",
+          "from": "entry"
+        },
+        {
+          "text": "[That man]!",
+          "from": "entry"
+        },
+        {
+          "text": "[Your keys]!",
+          "from": "entry"
+        },
+        {
+          "text": "[Fire]!",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "[The bus]!",
+          "from": "entry",
+          "note": "Alerts the addressee to something imminent; the bus is not the person addressed."
+        },
+        {
+          "text": "Ed!",
+          "from": "constructed",
+          "note": "A vocative, which names the person addressed."
+        }
+      ],
+      "watch_for": [
+        "A learner might take The bus! to address a listener called the bus, when it points the listener at the bus.",
+        "A learner might assume a determiner is required, though plural Robbers! and non-count Fire! are bare."
+      ],
+      "activity": "Students act out scenes (a bus leaving, a snake, lost keys). A partner says one noun phrase to alert another, who says what the speaker pointed out. Then they change one to a vocative, such as a name."
+    },
+    "child": {
+      "hook": "What do you shout when you see the bus leaving?",
+      "explain": "Sometimes a few words are all you need to make someone look. You say the name of the thing that is there or about to happen. You aren't talking about the person you shout to.",
+      "examples": [
+        {
+          "text": "[The bus]!",
+          "from": "entry"
+        },
+        {
+          "text": "[A snake]!",
+          "from": "entry"
+        },
+        {
+          "text": "[Your keys]!",
+          "from": "entry"
+        }
+      ],
+      "play": "Pick a scene, such as a bus, a snake or lost keys. Say just a few words to make a friend look. Can they guess what you mean?"
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "stable",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags)",
+        "result": "fixed",
+        "note": "Fixed: curious.body now says the exclamatory delivery is typical rather than invariant, as the entry does (it notes murmured reminders can lack it)."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Directive-Ostensive Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/directive-ostensive-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

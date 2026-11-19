@@ -1,0 +1,119 @@
+{
+  "id": "imperative-and-conditional-001",
+  "name": "Imperative Plus And with Conditional Force",
+  "pattern": "Clause[imperative] + and + declarative consequence",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/imperative-and-conditional-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/imperative-and-conditional-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/imperative-and-conditional-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/imperative-and-conditional-001/"
+  },
+  "entry": {
+    "id": "imperative-and-conditional-001",
+    "name": "Imperative Plus And with Conditional Force",
+    "pattern": "Clause[imperative] + and + declarative consequence",
+    "type": "mixed",
+    "meanings": {
+      "1": {
+        "definition": "Interprets an imperative-shaped first coordinate as a sufficient condition in context.",
+        "examples": [
+          {
+            "form": "[Touch that wire and the alarm will ring].",
+            "note": "Constructed illustration."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "imperative-clause-001",
+        "relationship": "related-to"
+      },
+      {
+        "id": "if-conditional-001",
+        "relationship": "related-to"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 10 §9.5; Ch. 15 §2.2.3",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "The first coordinate can warn against touching, with no instruction to do it. The consequent interpretation depends on performing the mentioned act.",
+        "evidence": "See the cited discussion and the constructed illustration.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "A command that works like an if",
+      "summary": "A command followed by and can work like an if-sentence, saying what will happen if you do the thing.",
+      "body": "Touch that wire and the alarm will ring has the shape of a command, but it isn't telling anyone to touch the wire. It can warn against touching. The second part says what will happen if you do.\n\nThe result depends on the act in the first part being performed. So the sentence reads much like If you touch that wire, the alarm will ring.",
+      "examples": [
+        {
+          "text": "[Touch that wire and the alarm will ring].",
+          "from": "entry"
+        }
+      ],
+      "try": "Say a sentence that starts like a command but warns of a result, such as Open that door and ..."
+    },
+    "teacher": {
+      "summary": "Helps learners read an imperative joined by and to a consequence as an if-condition.",
+      "explain": "An imperative-shaped first coordinate is interpreted as a sufficient condition in context, followed by and and a declarative consequence: Touch that wire and the alarm will ring. The first coordinate can warn against touching, with no instruction to do it. The consequent interpretation depends on performing the mentioned act. This dictionary relates the pattern to imperative clauses and to if-conditionals, and marks the analysis as provisional.",
+      "examples": [
+        {
+          "text": "[Touch that wire and the alarm will ring].",
+          "from": "entry"
+        }
+      ],
+      "watch_for": [
+        "A learner might read the first part as an order to touch the wire.",
+        "A learner might expect the alarm to ring whether or not the wire is touched."
+      ],
+      "activity": "Give students warning signs written as imperative plus and. They paraphrase each as an if-sentence and say whether the writer wants the act performed."
+    },
+    "child": {
+      "hook": "Does Touch that wire and the alarm will ring tell you to touch it?",
+      "explain": "It sounds like a command, but it works as a warning. It tells you what will happen if you touch the wire.",
+      "examples": [
+        {
+          "text": "[Touch that wire and the alarm will ring].",
+          "from": "entry"
+        }
+      ],
+      "play": "Make up warnings that start with a command and say what will happen next. Then say each one again with if."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "sketch",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags)",
+        "result": "fixed",
+        "note": "Fixed: curious body no longer says the result 'only' follows if the act is performed (the entry treats the first part as a sufficient condition and says the consequent interpretation depends on performing the act); 'can warn' as in the entry. Also fixed (unflagged): 'the entry' replaced by 'this dictionary' in teacher text."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Imperative Plus And with Conditional Force.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/imperative-and-conditional-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

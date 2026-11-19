@@ -1,0 +1,177 @@
+{
+  "id": "it-cleft-001",
+  "name": "It-Cleft",
+  "pattern": "Clause[Subject:it + be + PredComp:XP + cleft relative Clause]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/it-cleft-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/it-cleft-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/it-cleft-001/"
+  },
+  "entry": {
+    "id": "it-cleft-001",
+    "name": "It-Cleft",
+    "pattern": "Clause[Subject:it + be + PredComp:XP + cleft relative Clause]",
+    "type": "mixed",
+    "meanings": {
+      "1": {
+        "definition": "Specifies the value of a variable whose descriptive content is supplied by the cleft relative.",
+        "details": "In it was Kim who was sacked, Kim supplies the value and the relative sets out the background proposition that somebody was sacked. This packaging can present new information as background. The position after be marks grammatical foregrounding. Main stress can fall inside the relative instead. CGEL distinguishes this structure from a referential it with an integrated relative inside an NP, using contexts where the surface wording is the same.",
+        "examples": [
+          {
+            "form": "[It was peace and quiet that he wanted most.]",
+            "note": "The value is peace and quiet.",
+            "grounds": [
+              {
+                "source": "cgel-2002",
+                "locator": "Ch. 4 §5.5.1, p. 267 [47i]",
+                "relation": "attests",
+                "bears-on": "attestation"
+              }
+            ]
+          },
+          {
+            "form": "[It was to Boston that I flew.]",
+            "note": "A PP can occupy the foregrounded slot.",
+            "grounds": [
+              {
+                "source": "cgel-2002",
+                "locator": "Ch. 4 §6.1.1, p. 275 [5iii]",
+                "relation": "attests",
+                "bears-on": "attestation"
+              }
+            ]
+          },
+          {
+            "form": "[It wasn’t Kim who took the keys.]",
+            "note": "Constructed. The denial normally targets Kim’s identification, with somebody’s taking the keys treated as background."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "clause-001",
+        "relationship": "specialization-of",
+        "notes": "The construction is headed by a VP in a matrix clause."
+      },
+      {
+        "id": "relative-word-001",
+        "relationship": "related-to",
+        "notes": "The cleft relative can be marked by a relative word; that and zero relatives also occur."
+      },
+      {
+        "id": "subject-extraposition-001",
+        "relationship": "related-to",
+        "notes": "It was Jo who opened the window identifies the focused value. It was surprising that Jo opened the window places the content of the evaluation after the predicate."
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 16 §§9.1–9.2, 9.4.1, pp. 1415–1425",
+        "relation": "discusses",
+        "bears-on": "projection",
+        "note": "Distinguishes foregrounded syntax, discourse availability of the presupposition, and accent."
+      },
+      {
+        "source": "casa-constructicon",
+        "locator": "record 140",
+        "relation": "discusses",
+        "bears-on": "projection",
+        "note": "Documents the cleft frame across foregrounded phrase types."
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "The relative supplies a background proposition and the post-be phrase provides a value. In an ordinary identifying context, negating the identification can leave that background proposition in place.",
+        "evidence": "CGEL’s integrated-relative contrast and two kinds of presupposition. CASA documents different foregrounded phrase types.",
+        "confidence": "high"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Putting one phrase in the spotlight with it was",
+      "summary": "A sentence can start with it was and a phrase, then a clause that sets out the background.",
+      "body": "In It was Kim who was sacked, the sentence picks out Kim as the person who was sacked. The part after Kim, who was sacked, sets out the background: somebody was sacked. This way of packaging a sentence can present new information as if it were background.\n\nThe phrase in the spotlight comes right after was. It isn't limited to a person. It can be a noun phrase like peace and quiet, or a phrase such as to Boston. If you deny the sentence, as in It wasn't Kim who took the keys, you normally reject only the claim about Kim. In a context like this, the background, that somebody took the keys, can stay in place.",
+      "examples": [
+        {
+          "text": "[It was peace and quiet that he wanted most.]",
+          "from": "entry"
+        },
+        {
+          "text": "[It was to Boston that I flew.]",
+          "from": "entry"
+        },
+        {
+          "text": "[It wasn’t Kim who took the keys.]",
+          "from": "entry"
+        }
+      ],
+      "try": "Take a plain sentence such as Kim was sacked. Which word would you spotlight to start a sentence with it was?"
+    },
+    "teacher": {
+      "summary": "Useful for advanced learners who need to see how it was lets a speaker foreground one phrase and treat the rest as background.",
+      "explain": "An it-cleft has it as subject, a form of be, a foregrounded phrase, and a cleft relative. The foregrounded phrase supplies a value; the relative supplies the descriptive content of a variable, so in It was Kim who was sacked, Kim is the value and somebody was sacked is the background. The phrase after be can be an NP or a PP, and the relative may be marked by who or another relative word, or by that or nothing. Negating the identification (It wasn’t Kim who took the keys) normally leaves the background in place. Compare subject extraposition, which doesn't foreground a value.",
+      "terms": "Sometimes taught as a cleft sentence. In this dictionary: the it-cleft, with the phrase after be as the foregrounded element and the following clause as the cleft relative.",
+      "examples": [
+        {
+          "text": "[It was peace and quiet that he wanted most.]",
+          "from": "entry"
+        },
+        {
+          "text": "[It was to Boston that I flew.]",
+          "from": "entry"
+        },
+        {
+          "text": "[It wasn’t Kim who took the keys.]",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "It was Jo who opened the window.",
+          "from": "constructed",
+          "note": "Identifies the value, Jo, and treats the opening of the window as background."
+        },
+        {
+          "text": "It was surprising that Jo opened the window.",
+          "from": "constructed",
+          "note": "Subject extraposition, not a cleft. The content of the evaluation comes after the predicate."
+        }
+      ],
+      "watch_for": [
+        "A learner might read the clause after the foregrounded phrase as a separate sentence, when it is the background part of the same sentence.",
+        "A learner might take a negated cleft to deny the whole event, when the denial normally targets the identification, as in It wasn't Kim who took the keys.",
+        "A learner might think only noun phrases can follow was, though a prepositional phrase such as to Boston can too."
+      ],
+      "activity": "Give students a plain sentence such as Jo opened the window. They write two it-clefts, spotlighting a different phrase each time, then say which phrase each one picks out."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)",
+        "result": "fixed",
+        "note": "Fixed: curious.summary no longer says the clause sets out what everyone already takes as background (the dictionary says the packaging can present new information as background); softened the negation sentence to say the background can stay in place in an ordinary identifying context; reworded 'answer to a question' / 'what question each one answers' as picking out the value. Second round: fixed teacher.activity, three it-clefts changed to two (Jo opened the window offers two phrases to foreground, Jo and the window). Dismissed the low flag on the curious spotlight sentence (the entry places the foregrounded phrase after be)."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"It-Cleft.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/it-cleft-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

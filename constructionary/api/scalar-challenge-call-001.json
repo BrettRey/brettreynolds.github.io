@@ -1,0 +1,184 @@
+{
+  "id": "scalar-challenge-call-001",
+  "name": "You Call That X Challenge",
+  "pattern": "You call that (a) [N/PRED]?",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/scalar-challenge-call-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/scalar-challenge-call-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/scalar-challenge-call-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/scalar-challenge-call-001/"
+  },
+  "entry": {
+    "id": "scalar-challenge-call-001",
+    "name": "You Call That X Challenge",
+    "pattern": "You call that (a) [N/PRED]?",
+    "type": "mixed",
+    "meanings": {
+      "1": {
+        "definition": "Challenges the appropriateness of a category label in a dismissive or corrective context",
+        "details": "Challenges category membership rather than scalar degree (though the two are related via prototype structure). Implies \"that doesn't deserve the label X\" or \"let me show you what X really is.\" A speaker can reject the label without offering a replacement exemplar. A literal inquiry about what to call an object is also possible.",
+        "examples": [
+          {
+            "form": "[You call that a sandwich]? It's just bread with lettuce.",
+            "note": "Challenges category membership; implying it fails to meet criteria"
+          },
+          {
+            "form": "[You call that clean]? There's dust everywhere.",
+            "note": "With predicative adjective; challenges threshold for category"
+          },
+          {
+            "form": "[You call that music]?",
+            "note": "Dismissive; implies speaker has higher standards"
+          },
+          {
+            "form": "[You call that an apology]? You didn't even say sorry.",
+            "note": "Challenges whether token meets criteria for type"
+          }
+        ]
+      }
+    },
+    "constraints": [
+      {
+        "type": "syntactic",
+        "description": "Declarative clause with 2nd person subject and \"call\" as main verb; typically layered with the declarative-question construction"
+      },
+      {
+        "type": "semantic",
+        "description": "Complement is a category label (N or predicative expression)"
+      },
+      {
+        "type": "pragmatic",
+        "description": "Challenges appropriateness of categorization"
+      }
+    ],
+    "relatedConstructions": [
+      {
+        "id": "declarative-clause-001",
+        "relationship": "specialization-of",
+        "parthood": "formal",
+        "notes": "The challenge frame retains declarative clause type"
+      },
+      {
+        "id": "declarative-question-001",
+        "relationship": "interfaces-with",
+        "notes": "Question prosody conventionally layers onto the declarative challenge frame"
+      },
+      {
+        "id": "scalar-recalibration-declarative-001",
+        "relationship": "overlaps-with",
+        "overlap-dimension": "functional",
+        "notes": "Shares addressee-directed challenge function; targets category membership rather than scalar degree"
+      },
+      {
+        "id": "metalinguistic-negation-001",
+        "relationship": "related-to"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 10 §§4.7.2, 6.4, declarative questions and challenges to question presuppositions, for comparison",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "Keeping the wording You call that a repair? fixed, dismissive intonation and a visibly broken object invite a challenge to repair. In a cooperative question about terminology, the wording can instead check what label the addressee uses.",
+        "evidence": "The source describes the surrounding question architecture. The proposed challenge reading is illustrated by a constructed contextual contrast and its conventionality remains open.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Doubting that something deserves its name",
+      "summary": "You call that a sandwich? can say the thing doesn't deserve the label, rather than ask what to call it.",
+      "body": "When someone says You call that a sandwich? with a dismissive tone, they're saying the thing doesn't deserve the name. It's just bread with lettuce.\n\nThe same words can also be a plain question, if someone really wants to know what label you use. A dismissive tone and a visibly poor example point to the challenge. This dictionary marks the analysis as provisional and treats the challenge reading as a proposal whose status as a settled convention remains open.",
+      "examples": [
+        {
+          "text": "[You call that a sandwich]? It's just bread with lettuce.",
+          "from": "entry"
+        },
+        {
+          "text": "[You call that clean]? There's dust everywhere.",
+          "from": "entry"
+        },
+        {
+          "text": "[You call that music]?",
+          "from": "entry"
+        },
+        {
+          "text": "[You call that an apology]? You didn't even say sorry.",
+          "from": "entry"
+        }
+      ],
+      "try": "Think of something that barely deserves its name. Challenge it with You call that ...? and say what's missing."
+    },
+    "teacher": {
+      "summary": "Helps explain a dismissive question that challenges whether a label fits.",
+      "explain": "The frame You call that (a) N/PRED? has a declarative clause with a second person subject and call as the main verb, and its complement is a category label (a noun or a predicative expression). It challenges whether the label is appropriate: that doesn't deserve the label X. It challenges category membership, not scalar degree, though the two are related. The speaker can reject the label without offering a replacement. A literal inquiry about what to call an object is also possible, so tone and context decide. Question prosody is typically layered onto the declarative frame. This dictionary marks the analysis as provisional.",
+      "terms": "In this dictionary it overlaps in function with declarative scalar recalibration, which targets degree rather than category membership.",
+      "examples": [
+        {
+          "text": "[You call that a sandwich]? It's just bread with lettuce.",
+          "from": "entry"
+        },
+        {
+          "text": "[You call that clean]? There's dust everywhere.",
+          "from": "entry"
+        },
+        {
+          "text": "[You call that an apology]? You didn't even say sorry.",
+          "from": "entry"
+        }
+      ],
+      "watch_for": [
+        "A learner might answer You call that a sandwich? as a vocabulary question, when it can be a challenge.",
+        "A learner might miss the dismissive tone that signals a challenge rather than a cooperative question about words."
+      ],
+      "activity": "Show pictures of poor examples (a plain piece of bread as a sandwich). Students say You call that a ...? in a dismissive voice, then in a curious voice, and the class says which reading each one gave."
+    },
+    "child": {
+      "hook": "What do you say when someone calls something by a grand name it doesn't deserve?",
+      "explain": "You call that a sandwich? can say the thing is not good enough to have that name, instead of asking about the word. The tone of voice helps.",
+      "examples": [
+        {
+          "text": "[You call that a sandwich]? It's just bread with lettuce.",
+          "from": "entry"
+        },
+        {
+          "text": "[You call that music]?",
+          "from": "entry"
+        }
+      ],
+      "play": "Pick something that's not a good example of its name. Say You call that ...? in a surprised voice and add one reason."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags)",
+        "result": "fixed",
+        "note": "Fixed: curious.summary and child.explain now say the sentence can be a challenge rather than that it always is (the entry also allows a literal question about what label to use); curious.body no longer rules out the question reading; teacher.explain says question prosody is typically layered, as in the entry; removed a scalar-recalibration example not given in this entry; reworded one watch_for."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"You Call That X Challenge.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/scalar-challenge-call-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

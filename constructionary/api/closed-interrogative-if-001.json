@@ -1,0 +1,130 @@
+{
+  "id": "closed-interrogative-if-001",
+  "name": "Subordinate Closed Interrogative with If",
+  "pattern": "interrogative if + finite subordinate clause",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/closed-interrogative-if-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/closed-interrogative-if-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/closed-interrogative-if-001/"
+  },
+  "entry": {
+    "id": "closed-interrogative-if-001",
+    "name": "Subordinate Closed Interrogative with If",
+    "pattern": "interrogative if + finite subordinate clause",
+    "type": "syntactic",
+    "meanings": {
+      "1": {
+        "definition": "Introduces a closed question in licensed complement positions.",
+        "examples": [
+          {
+            "form": "I wondered [if Lee had arrived].",
+            "note": "Constructed illustration."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "closed-interrogative-clause-001",
+        "relationship": "specialization-of",
+        "parthood": "formal"
+      },
+      {
+        "id": "closed-interrogative-whether-001",
+        "relationship": "related-to"
+      },
+      {
+        "id": "if-conditional-001",
+        "relationship": "related-to",
+        "notes": "Asked if Jo was ready embeds a question. If Jo was ready, we could leave makes readiness a condition on the main clause."
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 11 §§5.1–5.2",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "The clause has embedded question interpretation and ordinary subject–verb order. In this use if cannot introduce a whether-to infinitival.",
+        "evidence": "See the cited discussion and the constructed illustration.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Questions inside sentences with if",
+      "summary": "After a verb like wonder or ask, if can introduce a question that the sentence reports.",
+      "body": "In I wondered if Lee had arrived, the question is whether Lee had arrived, but it's tucked inside the sentence. The sentence reports a question rather than asking one. The words inside keep an ordinary order, with the subject before the verb.\n\nThis if is different from the if of a condition. Asked if Jo was ready reports a question. In If Jo was ready, we could leave, readiness is a condition on the main clause.",
+      "examples": [
+        {
+          "text": "I wondered [if Lee had arrived].",
+          "from": "entry"
+        },
+        {
+          "text": "They asked [if Jo was ready].",
+          "from": "constructed"
+        }
+      ],
+      "try": "Say I wondered if Lee had arrived. Now say If Lee had arrived, we could start. In which sentence does the if introduce a question?"
+    },
+    "teacher": {
+      "summary": "Useful for separating if that introduces an embedded question from conditional if, and for contrasting if with whether.",
+      "explain": "Interrogative if introduces a finite subordinate closed interrogative clause in licensed complement positions. The embedded clause has embedded-question interpretation and ordinary subject-verb order. Conditional if is different: in If Jo was ready, we could leave, the if-clause makes readiness a condition on the main clause. Interrogative if cannot introduce a whether-to infinitival.",
+      "terms": "Subordinate closed interrogative: an embedded yes/no question. Compare whether, which is related; see this dictionary's entry on whether.",
+      "examples": [
+        {
+          "text": "I wondered [if Lee had arrived].",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "They asked if Jo was ready.",
+          "from": "constructed",
+          "note": "Embedded question."
+        },
+        {
+          "text": "If Jo was ready, we could leave.",
+          "from": "constructed",
+          "note": "Condition on the main clause."
+        }
+      ],
+      "watch_for": [
+        "A learner might read the if in asked if Jo was ready as a condition.",
+        "A learner might expect if to introduce a to-infinitival the way whether can."
+      ],
+      "activity": "Give students sentences with if. They sort them into embedded question (asked if Jo was ready) and condition (If Jo was ready, we could leave) and say how they decided."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "sketch",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags)",
+        "result": "fixed",
+        "note": "Fixed: removed 'only on that condition' (stronger than the entry's 'a condition on the main clause'); try question now says the if introduces a question; the whether-to infinitival restriction is stated of interrogative if explicitly. Dismissed: none."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Subordinate Closed Interrogative with If.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/closed-interrogative-if-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

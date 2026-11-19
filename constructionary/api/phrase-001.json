@@ -1,0 +1,207 @@
+{
+  "id": "phrase-001",
+  "name": "Phrase",
+  "pattern": "Phrase: Head + dependents; Clause: (Subject +) Head:VP",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/phrase-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/phrase-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/phrase-001/"
+  },
+  "entry": {
+    "id": "phrase-001",
+    "name": "Phrase",
+    "pattern": "Phrase: Head + dependents; Clause: (Subject +) Head:VP",
+    "type": "syntactic",
+    "dimensions": {
+      "form": "Headed constituent; the immediate head may be a word or phrase, and the ultimate head is a word of a lexical category",
+      "meaning": "The head's semantic contribution, elaborated by its dependents",
+      "function": "Whatever functions the head's category makes available (argument, modifier, predicate, ...)",
+      "distribution": "Determined principally by the head: an NP distributes as its nominal head allows, a PP as its preposition head allows, and a Clause as its VP head allows"
+    },
+    "meanings": {
+      "1": {
+        "definition": "A constituent organized around a head, which licenses its dependents and principally determines its distribution",
+        "details": "Phrases contrast with coordinations and other non-headed constituents (see coordination-001 and clause-analogue-001). Clause, VP, NP, Nom, AdjP, AdvP, PP, and DP are phrasal categories. A Clause is headed immediately by a VP and may also contain a Subject; the VP is ultimately headed by V. Constituents that CGEL calls verbless clauses are not Clauses in this Constructionary: they instantiate a separate clause-analogue construction. Other phrases likewise may have a phrasal immediate head, such as Nom in NP. A phrase may consist of its head alone (outside as a complete PP, Kim as a complete NP).",
+        "examples": [
+          {
+            "form": "[in the garden]",
+            "note": "PP; head in"
+          },
+          {
+            "form": "[the old house]",
+            "note": "NP; head house"
+          },
+          {
+            "form": "[very old]",
+            "note": "AdjP; head old"
+          },
+          {
+            "form": "[Kim [left early]]",
+            "note": "Clause; Subject Kim plus Head VP left early, whose head is V"
+          },
+          {
+            "form": "[Leave early!]",
+            "note": "Subjectless imperative Clause; Head is the VP leave early"
+          }
+        ]
+      }
+    },
+    "constraints": [
+      {
+        "type": "syntactic",
+        "description": "Exactly one immediate head; dependents are licensed by that head and its ultimate lexical head. In a Clause the Head is VP and Subject is optional. A constituent without a head is not a Phrase, and one without a VP head is not a Clause."
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "Identifying a constituent's immediate and ultimate heads predicts its external distribution and internal function structure, including the optional Subject plus Head:VP organization of Clauses and the exclusion of clause-analogue constructions from the Clause category",
+        "evidence": "Distribution inheritance and head-dependent licensing hold across the phrasal categories; CGEL Ch. 1, pp. 22–25 explicitly includes Clause and analyses Predicate/VP as its head",
+        "confidence": "high",
+        "grounds": [
+          {
+            "source": "cgel-2002",
+            "locator": "Ch. 1 §4.2, pp. 22-25",
+            "relation": "cites",
+            "bears-on": "projection",
+            "note": "Head category predicts external distribution and internal dependent functions"
+          },
+          {
+            "source": "cgel-2002",
+            "locator": "Ch. 1 §4.2, pp. 22-25",
+            "relation": "cites",
+            "bears-on": "stability",
+            "note": "The head-dependent profile recurs across the phrasal categories"
+          }
+        ]
+      },
+      "secured": "stable",
+      "grain": {
+        "level": "macro",
+        "parent_families": [
+          "constituent-structure"
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "coordination-001",
+        "relationship": "see-also",
+        "notes": "The non-headed constituent type; the contrast is definitional"
+      },
+      {
+        "id": "clause-analogue-001",
+        "relationship": "see-also",
+        "notes": "A non-headed constituent may have clausal semantics, but it is neither a Phrase nor a Clause"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "pp. 22-25",
+        "relation": "cites",
+        "note": "Clause included among headed constituents; Predicate/VP as clause head"
+      },
+      {
+        "source": "brett-judgment",
+        "locator": "2026-07-16",
+        "relation": "adjudicates",
+        "note": "Clause is defined as a Phrase headed by VP with an optional Subject; CGEL's 'verbless clauses' are assigned to a separate clause-analogue construction"
+      }
+    ]
+  },
+  "editions": {
+    "curious": {
+      "title": "Groups of words built around a key word",
+      "summary": "A phrase is a group of words organized around one main word, which decides what else can come with it and where it can go.",
+      "body": "In the old house, the word house is the main word, called the head. The words around it elaborate it. In in the garden, the head is in, and in very old, it's old.\n\nThe head decides which other words can join it and where the whole phrase can go in a sentence. A phrase can also be just its head: outside can be a complete phrase, and so can Kim. A short sentence such as Kim left early counts as a phrase too, built around the verb phrase left early.",
+      "examples": [
+        {
+          "text": "[in the garden]",
+          "from": "entry"
+        },
+        {
+          "text": "[the old house]",
+          "from": "entry"
+        },
+        {
+          "text": "[very old]",
+          "from": "entry"
+        },
+        {
+          "text": "[Kim left early]",
+          "from": "constructed"
+        }
+      ],
+      "try": "Pick any phrase from a sign or book. Which word in it could you not remove without losing the phrase's point?"
+    },
+    "teacher": {
+      "summary": "Defines headed constituents (phrases and clauses) and what counts as a head.",
+      "explain": "A phrase is a constituent organized around a head, which licenses its dependents and principally determines its distribution. An NP distributes as its nominal head allows, a PP as its preposition head allows, and a clause as its VP head allows. A phrase may consist of its head alone (outside as a PP, Kim as an NP). Clause, VP, NP, Nom, AdjP, AdvP, PP and DP are phrasal categories here. A Clause is headed immediately by a VP and may also contain a Subject. This dictionary does not treat CGEL's verbless clauses as Clauses; they fall under a separate clause-analogue construction. Coordinations are also non-headed.",
+      "terms": "Traditional grammars sometimes speak of the main word of a phrase. Here the head is the word or phrase that licenses the dependents, and the ultimate head is a word of a lexical category. This dictionary calls constituents without a head non-headed rather than phrases.",
+      "examples": [
+        {
+          "text": "[in the garden]",
+          "from": "entry"
+        },
+        {
+          "text": "[the old house]",
+          "from": "entry"
+        },
+        {
+          "text": "[very old]",
+          "from": "entry"
+        },
+        {
+          "text": "[Kim [left early]]",
+          "from": "entry"
+        },
+        {
+          "text": "[Leave early!]",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "Kim left early.",
+          "from": "entry",
+          "note": "A Clause with a Subject (Kim) and a VP head (left early)."
+        },
+        {
+          "text": "Leave early!",
+          "from": "entry",
+          "note": "A subjectless imperative Clause, still headed by the VP leave early."
+        }
+      ],
+      "watch_for": [
+        "A learner might treat the first word in a phrase as its head, though in the old house the head is house.",
+        "A learner might think a phrase must have two or more words, when a single word such as Kim or outside can be a complete phrase."
+      ],
+      "activity": "Give students a list of phrases (in the garden, the old house, very old). They circle the head of each and say what category the head belongs to."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "stable",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Phrase.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/phrase-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

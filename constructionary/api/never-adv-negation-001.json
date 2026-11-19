@@ -1,0 +1,154 @@
+{
+  "id": "never-adv-negation-001",
+  "name": "Adverbial Negation with never",
+  "pattern": "never + VP",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/never-adv-negation-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/never-adv-negation-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/never-adv-negation-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/never-adv-negation-001/"
+  },
+  "entry": {
+    "id": "never-adv-negation-001",
+    "name": "Adverbial Negation with never",
+    "pattern": "never + VP",
+    "type": "syntactic",
+    "meanings": {
+      "1": {
+        "definition": "Negates occurrence over time (no instances at any time)",
+        "examples": [
+          {
+            "form": "She [never] called.",
+            "note": "No calling events occurred"
+          },
+          {
+            "form": "I have [never] been there.",
+            "note": "No prior occurrences in experience"
+          }
+        ]
+      }
+    },
+    "constraints": [
+      {
+        "type": "syntactic",
+        "description": "Adverbial negator modifying VP."
+      },
+      {
+        "type": "semantic",
+        "description": "Negates the occurrence across the relevant time span."
+      }
+    ],
+    "syntacticRefs": [
+      "clause-polarity-diagnostics"
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 9 §3.2.1 [20ii], §3.2.2; Ch. 8 §9",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "They never replied can take the positive tag did they? No auxiliary do is needed to host never in the declarative. Its temporal quantification and clausal polarity are independently testable.",
+        "evidence": "CGEL supplies the confirmation tag and compares never with negation plus ever.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "A word that means at no time",
+      "summary": "The adverb never says that something did not happen at any time.",
+      "body": "In She never called, the word never denies calling across the whole relevant stretch of time. It means that no calling events occurred. In I have never been there, it means that there are no prior occasions in the speaker's experience.\n\nNever doesn't need a helper verb: She never called has no did before it. It also changes the sentence's polarity. After They never replied, a confirmation tag such as did they? fits. This dictionary treats the time meaning and the negative sentence as two things that can be tested separately.",
+      "examples": [
+        {
+          "text": "She [never] called.",
+          "from": "entry"
+        },
+        {
+          "text": "I have [never] been there.",
+          "from": "entry"
+        },
+        {
+          "text": "They [never] replied, did they?",
+          "from": "constructed"
+        }
+      ],
+      "try": "Say something you've never done. Does the sentence need a helper such as did?"
+    },
+    "teacher": {
+      "summary": "Covers never as an adverb of negation, with a confirmation tag as a polarity test.",
+      "explain": "Never is an adverbial negator modifying the verb phrase. It negates occurrence across the relevant time span, meaning no instances at any time. No auxiliary do is needed to host it in the declarative. A clause such as They never replied can take the positive confirmation tag did they?, which shows the clause is negative. Its temporal quantification and its clausal polarity are independently testable. This dictionary compares never with negation plus ever.",
+      "terms": "This dictionary calls it an adverbial negator, a negative adverb that modifies the verb phrase.",
+      "examples": [
+        {
+          "text": "She [never] called.",
+          "from": "entry"
+        },
+        {
+          "text": "I have [never] been there.",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "They never replied, did they?",
+          "from": "constructed",
+          "note": "The positive tag confirms that the clause is negative."
+        },
+        {
+          "text": "She didn't ever call.",
+          "from": "constructed",
+          "note": "Negation plus ever, which this dictionary compares with the adverb."
+        }
+      ],
+      "watch_for": [
+        "A learner might assume a helper do is needed to carry the adverb, though this dictionary says no auxiliary do is needed in the declarative.",
+        "A learner might think a negative adverb means the clause is not negative."
+      ],
+      "activity": "Students write three sentences with the adverb, one in the simple past and two in the perfect. They add a positive confirmation tag to each and say whether it fits."
+    },
+    "child": {
+      "hook": "What does never tell you about when something happens?",
+      "explain": "Never means at no time. She never called means she didn't call even once. I have never been there means I have not been there before.",
+      "examples": [
+        {
+          "text": "She [never] called.",
+          "from": "entry"
+        },
+        {
+          "text": "I have [never] been there.",
+          "from": "entry"
+        }
+      ],
+      "play": "Say three things you have never done. Start each one with I have never."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Adverbial Negation with never.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/never-adv-negation-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

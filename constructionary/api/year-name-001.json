@@ -1,0 +1,191 @@
+{
+  "id": "year-name-001",
+  "name": "Year Name Construction",
+  "pattern": "N[cardinal proper] (as temporal reference)",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/year-name-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/year-name-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/year-name-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/year-name-001/"
+  },
+  "entry": {
+    "id": "year-name-001",
+    "name": "Year Name Construction",
+    "pattern": "N[cardinal proper] (as temporal reference)",
+    "type": "syntactic",
+    "dimensions": {
+      "form": "Cardinal noun (typically four-digit); bare NP or in PP complement",
+      "meaning": "Rigid designation of a specific calendar year",
+      "function": "Temporal reference via proper naming rather than counting",
+      "distribution": "In PPs (in 1066), as appositive (the year 1066), subject position"
+    },
+    "meanings": {
+      "1": {
+        "definition": "Cardinal noun names a specific year through direct reference",
+        "examples": [
+          {
+            "form": "born in [1994]",
+            "note": "Year as PP complement"
+          },
+          {
+            "form": "The year [1066] saw the Norman Conquest.",
+            "note": "Year as appositive to embellishment noun"
+          },
+          {
+            "form": "[2025] will be different.",
+            "note": "Year as bare NP subject"
+          }
+        ]
+      }
+    },
+    "constraints": [
+      {
+        "type": "syntactic",
+        "description": "Heads a bare NP; resists determiners and attributive modifiers."
+      },
+      {
+        "type": "morphological",
+        "description": "Typically uses basic numeratives and 'oh' (ten sixty-six, not one thousand sixty-six)."
+      },
+      {
+        "type": "semantic",
+        "description": "Rigidly designates a unique temporal point."
+      }
+    ],
+    "semanticRefs": [
+      "identity",
+      "temporal-relation",
+      "reference"
+    ],
+    "relatedConstructions": [
+      {
+        "id": "cardinal-noun-001",
+        "relationship": "specialization-of"
+      },
+      {
+        "id": "proper-name-001",
+        "relationship": "related-to"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "reynolds-2026-numerals",
+        "locator": "§5, calendrical labels",
+        "relation": "discusses",
+        "bears-on": "projection"
+      },
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 8 §6.3",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "In They met in 2002, the numerative identifies a calendar year without specifying an amount of elapsed time. In They waited two years, the cardinal instead quantifies a duration. Spelling with digits can obscure the distinction.",
+        "evidence": "CGEL distinguishes temporal location from duration and Reynolds analyzes the label use of cardinal nouns.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Years as names",
+      "summary": "A number like 1994 can name a particular year, working like a name rather than a count.",
+      "body": "In born in 1994, the number doesn't count anything. It names one particular year. We can also say the year 1066 saw the Norman Conquest, or 2025 will be different, with the number standing on its own as the subject.\n\nCompare They met in 2002 with They waited two years. The first uses a number to identify a year, with no length of time. The second counts a stretch of time. Writing with digits can hide the difference.\n\nA year name resists words like the or an adjective in front of it. The dictionary marks this account as provisional.",
+      "examples": [
+        {
+          "text": "born in [1994]",
+          "from": "entry"
+        },
+        {
+          "text": "The year [1066] saw the Norman Conquest.",
+          "from": "entry"
+        },
+        {
+          "text": "[2025] will be different.",
+          "from": "entry"
+        }
+      ],
+      "try": "Say They met in 2002 and They waited two years. Which one tells you how long, and which one tells you when?"
+    },
+    "teacher": {
+      "summary": "Helps explain years as name-like numbers, and how they differ from counting.",
+      "explain": "A year name is a cardinal noun that names a specific year through direct reference. It heads a bare noun phrase and resists determiners and attributive modifiers. It occurs as the complement of a preposition (in 1994), as an appositive (the year 1066) and as a subject (2025 will be different). This dictionary describes the spoken form as typically using the basic numeratives (and oh), as in ten sixty-six rather than one thousand sixty-six. In They met in 2002 the number identifies a calendar year without specifying elapsed time. In They waited two years the cardinal quantifies a duration. This dictionary marks its analysis provisional.",
+      "terms": "Calendrical label is the term in the source cited by this dictionary. This dictionary treats the year name as a proper-name-like use of a cardinal noun.",
+      "examples": [
+        {
+          "text": "born in [1994]",
+          "from": "entry"
+        },
+        {
+          "text": "The year [1066] saw the Norman Conquest.",
+          "from": "entry"
+        },
+        {
+          "text": "[2025] will be different.",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "They met in 2002.",
+          "from": "entry",
+          "note": "Names a year, with no amount of time."
+        },
+        {
+          "text": "They waited two years.",
+          "from": "entry",
+          "note": "Counts a duration."
+        }
+      ],
+      "watch_for": [
+        "A learner might read in 2002 as a length of time, when it names a calendar year.",
+        "A learner might read the digits of a year as a quantity, since digits can obscure the distinction."
+      ],
+      "activity": "Students sort sentences with numbers into year names and durations. They then read the year names aloud in the form this dictionary describes, such as ten sixty-six."
+    },
+    "child": {
+      "hook": "Does the number in \"born in 1994\" count something?",
+      "explain": "A year's number is its name. Born in 1994 tells us which year. Two years is different. It counts how long.",
+      "examples": [
+        {
+          "text": "born in [1994]",
+          "from": "entry"
+        },
+        {
+          "text": "They waited [two years].",
+          "from": "entry"
+        }
+      ],
+      "play": "Say a year, like the year you were born. Then say how many years something took. Which one is a name and which one counts?"
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags)",
+        "result": "fixed",
+        "note": "Fixed: curious.body now says year names resist (rather than never take) determiners and adjectives, as in the entry; teacher.explain now gives the spoken-form pattern as typical (ten sixty-six) with oh mentioned separately; replaced 'the entry' with 'this dictionary'."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Year Name Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/year-name-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

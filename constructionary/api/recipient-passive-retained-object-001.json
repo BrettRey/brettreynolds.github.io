@@ -1,0 +1,134 @@
+{
+  "id": "recipient-passive-retained-object-001",
+  "name": "Recipient Passive with a Retained Object",
+  "pattern": "Clause[Subject:recipient NP + passive be + V-en + retained theme NP]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/recipient-passive-retained-object-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/recipient-passive-retained-object-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/recipient-passive-retained-object-001/"
+  },
+  "entry": {
+    "id": "recipient-passive-retained-object-001",
+    "name": "Recipient Passive with a Retained Object",
+    "pattern": "Clause[Subject:recipient NP + passive be + V-en + retained theme NP]",
+    "type": "mixed",
+    "meanings": {
+      "1": {
+        "definition": "Makes the recipient the passive subject while keeping the theme in object position.",
+        "examples": [
+          {
+            "form": "Lee [was sent a replacement key].",
+            "note": "Constructed illustration."
+          },
+          {
+            "form": "[A replacement key was sent to Lee].",
+            "note": "Constructed comparison. Theme subject with an oblique recipient."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "be-passive-001",
+        "relationship": "specialization-of",
+        "parthood": "formal"
+      },
+      {
+        "id": "ditransitive-vp-001",
+        "relationship": "interfaces-with",
+        "notes": "The recipient corresponds to the indirect object of the active frame."
+      },
+      {
+        "id": "transitive-to-recipient-001",
+        "relationship": "related-to"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 4 §4.3, passive asymmetries; Ch. 16 §10",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "The replacement key remains an ordinary NP complement of sent. In A replacement key was sent to Lee, the theme instead controls agreement and the recipient is an oblique.",
+        "evidence": "See the cited discussion and the constructed illustration.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Being sent something",
+      "summary": "A passive sentence can make the person who receives something the subject while the thing received stays after the verb.",
+      "body": "In Lee was sent a replacement key, Lee is the recipient and the subject of the sentence. The replacement key still sits after the verb, as an ordinary part of it.\n\nCompare A replacement key was sent to Lee, where the key is the subject and Lee comes in a phrase with to. The two sentences describe the same sending but arrange the people and things differently. This dictionary marks the account as provisional.",
+      "examples": [
+        {
+          "text": "Lee [was sent a replacement key].",
+          "from": "entry"
+        },
+        {
+          "text": "[A replacement key was sent to Lee].",
+          "from": "entry"
+        }
+      ],
+      "try": "Turn Someone sent Lee a key into a sentence beginning with Lee, and then into one beginning with the key. How do the endings differ?"
+    },
+    "teacher": {
+      "summary": "Connects the passive of double-object verbs to the two ways of choosing the subject.",
+      "explain": "The recipient becomes the passive subject while the theme stays in object position: Lee was sent a replacement key. The recipient corresponds to the indirect object of the active frame. The replacement key remains an ordinary NP complement of sent. In A replacement key was sent to Lee, the theme controls agreement and the recipient is an oblique. This dictionary marks the analysis provisional, and its examples are constructed.",
+      "terms": "The remaining NP is sometimes called a retained object; this dictionary uses that term. See also the double-object (ditransitive) pattern.",
+      "examples": [
+        {
+          "text": "Lee [was sent a replacement key].",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "Lee was sent a replacement key.",
+          "from": "entry",
+          "note": "Recipient as subject; the theme is a retained object."
+        },
+        {
+          "text": "A replacement key was sent to Lee.",
+          "from": "entry",
+          "note": "Theme as subject; recipient in a to-phrase."
+        }
+      ],
+      "watch_for": [
+        "A learner might think the replacement key must be the subject because it is the thing sent.",
+        "A learner might look for a missing object after sent in the first sentence."
+      ],
+      "activity": "Students start from Someone sent Lee a replacement key and write both passives, underlining the subject in each and saying what the other participant becomes."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags)",
+        "result": "fixed",
+        "note": "Fixed: curious.body no longer says Lee received the key (the entry names Lee the recipient of the sending) and now says 'sending' rather than 'giving'; 'the entry' replaced by 'this dictionary'."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Recipient Passive with a Retained Object.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/recipient-passive-retained-object-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

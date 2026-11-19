@@ -1,0 +1,110 @@
+{
+  "id": "domain-wise-adjunct-001",
+  "name": "Domain Adjunct with -Wise",
+  "pattern": "initial domain expression in -wise + clause",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/domain-wise-adjunct-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/domain-wise-adjunct-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/domain-wise-adjunct-001/"
+  },
+  "entry": {
+    "id": "domain-wise-adjunct-001",
+    "name": "Domain Adjunct with -Wise",
+    "pattern": "initial domain expression in -wise + clause",
+    "type": "mixed",
+    "meanings": {
+      "1": {
+        "definition": "Restricts the dimension within which the following claim is assessed.",
+        "examples": [
+          {
+            "form": "[Cost-wise], the smaller van is better.",
+            "note": "Constructed illustration."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "gradation-001",
+        "relationship": "interfaces-with"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 8 §15; Ch. 19, adverbial word formation",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "The same van can be worse in comfort without contradiction. The adjunct sets the assessment domain rather than describing how better is realized.",
+        "evidence": "See the cited discussion and the constructed illustration.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Narrowing a claim with -wise",
+      "summary": "A word ending in -wise at the start of a sentence says which aspect the rest of the sentence is about.",
+      "body": "In Cost-wise, the smaller van is better, the opening word cost-wise limits the claim. The smaller van is better as far as cost goes, and the sentence doesn't say it is better in every way.\n\nThe opening expression sets the dimension within which the following claim is judged. It stands at the front of the sentence, apart from the main statement.",
+      "examples": [
+        {
+          "text": "[Cost-wise], the smaller van is better.",
+          "from": "entry"
+        },
+        {
+          "text": "[Price-wise], the first offer is better.",
+          "from": "constructed"
+        }
+      ],
+      "try": "Take a choice you've made recently. Can you say which aspect it was better in, starting with a word in -wise?"
+    },
+    "teacher": {
+      "summary": "Helps explain a front-placed -wise word that restricts the dimension of a claim.",
+      "explain": "A domain adjunct in -wise is an initial expression in -wise followed by a clause. It restricts the dimension within which the following claim is assessed. In Cost-wise, the smaller van is better, the claim holds for cost. This dictionary relates the pattern to gradation and cites CGEL's treatment of adverbial word formation.",
+      "examples": [
+        {
+          "text": "[Cost-wise], the smaller van is better.",
+          "from": "entry"
+        },
+        {
+          "text": "[Price-wise], the first offer is better.",
+          "from": "constructed"
+        }
+      ],
+      "watch_for": [
+        "A learner might read the -wise word as describing the van, when it names the dimension of the comparison.",
+        "A learner might read the claim as holding in every respect, when the -wise word limits it."
+      ],
+      "activity": "Students compare two options (two phones, two routes) and write two -wise sentences, each naming a different dimension where a different option wins."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "sketch",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Domain Adjunct with -Wise.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/domain-wise-adjunct-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "id": "incongruity-whats-doing-001",
+  "name": "Incongruity What Is X Doing Y?",
+  "pattern": "interrogative[what + be + Subject + doing + location or V-ing expression]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/incongruity-whats-doing-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/incongruity-whats-doing-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/incongruity-whats-doing-001/"
+  },
+  "entry": {
+    "id": "incongruity-whats-doing-001",
+    "name": "Incongruity What Is X Doing Y?",
+    "pattern": "interrogative[what + be + Subject + doing + location or V-ing expression]",
+    "type": "mixed",
+    "meanings": {
+      "1": {
+        "definition": "Asks for an explanation of a state, presence or action presented as anomalous.",
+        "examples": [
+          {
+            "form": "[What’s that ladder doing in the hall?]",
+            "note": "Constructed illustration."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "open-interrogative-clause-001",
+        "relationship": "specialization-of",
+        "parthood": "formal"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 10 §7.10 n. 14",
+        "relation": "discusses",
+        "bears-on": "projection"
+      },
+      {
+        "source": "kay-fillmore-1999",
+        "locator": "§§2–3, explanation and grammatical contrasts",
+        "relation": "discusses",
+        "bears-on": "projection"
+      },
+      {
+        "source": "goldberg-2006",
+        "locator": "Ch. 1, inventory and inheritance",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "A ladder in a hall need not be performing an action. The same string shape with a human subject and an activity can also support an ordinary literal what-question.",
+        "evidence": "See the cited discussion and the constructed illustration.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "What is that ladder doing in the hall?",
+      "summary": "A question shaped like What is X doing there? can ask for an explanation of something that seems out of place.",
+      "body": "Take What's that ladder doing in the hall? A ladder needn't be performing any action. The question asks why the ladder is there, and it presents its being there as strange.\n\nThe same shape of words can also be an ordinary question. With a person and an activity, such as asking what someone is doing in the hall, it can simply ask what that person is up to. The shape of the words alone doesn't settle which reading is meant.",
+      "examples": [
+        {
+          "text": "[What’s that ladder doing in the hall?]",
+          "from": "entry"
+        },
+        {
+          "text": "What's that muddy boot doing on the table?",
+          "from": "constructed"
+        }
+      ],
+      "try": "Think of something you found in an odd spot. How would you ask why it was there, using this pattern?"
+    },
+    "teacher": {
+      "summary": "Covers the idiomatic What is X doing Y? question that asks for an explanation of something presented as odd.",
+      "explain": "The pattern is an interrogative built from what, a form of be, a subject, doing and then a location or an -ing expression. Its meaning is to ask for an explanation of a state, presence or action presented as anomalous. A ladder in a hall need not be performing an action, so the doing isn't literal. The same string shape with a human subject and an activity can also support an ordinary literal what-question, so the shape alone doesn't settle which reading is meant. This dictionary treats it as a specialization of the open interrogative clause and marks it provisional. It cites discussion in CGEL, in Kay and Fillmore, and in Goldberg.",
+      "terms": "Sometimes called the What's X doing Y? construction.",
+      "examples": [
+        {
+          "text": "[What’s that ladder doing in the hall?]",
+          "from": "entry"
+        },
+        {
+          "text": "What's your bike doing on the lawn?",
+          "from": "constructed"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "What's that ladder doing in the hall?",
+          "from": "entry",
+          "note": "Asks why it's there, presented as odd."
+        },
+        {
+          "text": "What's Dad doing in the hall?",
+          "from": "constructed",
+          "note": "Can be an ordinary question about an activity."
+        }
+      ],
+      "watch_for": [
+        "A learner might answer What's that ladder doing in the hall? by describing an action the ladder performs.",
+        "A learner might not realize the speaker is presenting the situation as strange."
+      ],
+      "activity": "Place a few out-of-place objects around the room. Students ask What's the X doing Y? about each, and a partner supplies an explanation."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "sketch",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags)",
+        "result": "fixed",
+        "note": "Fixed: curious.summary now says the pattern can ask for an explanation (the same shape can be an ordinary literal question); cut the claim that a subject's ability to act tells the readings apart; cut the unsupported origin of the name in teacher.terms."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Incongruity What Is X Doing Y?.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/incongruity-whats-doing-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

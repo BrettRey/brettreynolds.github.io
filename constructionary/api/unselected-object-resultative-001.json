@@ -1,0 +1,135 @@
+{
+  "id": "unselected-object-resultative-001",
+  "name": "Resultative with a Nonselected Object",
+  "pattern": "VP[V + NP[not the ordinary object of V] + result predicate]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/unselected-object-resultative-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/unselected-object-resultative-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/unselected-object-resultative-001/"
+  },
+  "entry": {
+    "id": "unselected-object-resultative-001",
+    "name": "Resultative with a Nonselected Object",
+    "pattern": "VP[V + NP[not the ordinary object of V] + result predicate]",
+    "type": "mixed",
+    "meanings": {
+      "1": {
+        "definition": "Licenses an affected participant through a result predicate, including when the base verb normally takes no such object.",
+        "examples": [
+          {
+            "form": "The neighbours [shouted the baby awake].",
+            "note": "Constructed illustration."
+          },
+          {
+            "form": "The neighbours [shouted at the baby].",
+            "note": "Constructed comparison. An addressee reading is possible without attributing a change of state to the baby."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "object-resultative-001",
+        "relationship": "overlaps-with",
+        "overlap-dimension": "formal",
+        "notes": "This family includes unselected non-reflexive objects. CGEL’s narrower agentive intransitive pattern is recorded in the linked entry."
+      },
+      {
+        "id": "reflexive-state-goal-001",
+        "relationship": "related-to"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "goldberg-1995",
+        "locator": "Ch. 8 §§8.5–8.6",
+        "relation": "discusses",
+        "bears-on": "projection"
+      },
+      {
+        "source": "goldberg-jackendoff-2004",
+        "locator": "§§2–3, unselected object resultatives",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "The baby need not be an addressee of shouting. The result requires an affected participant, and dropping awake removes that reading. This goes beyond the reflexive-only subtype in the CGEL comparison.",
+        "evidence": "See the cited discussion and the constructed illustration.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Verbs that get an object they wouldn't normally take",
+      "summary": "A result word can let a verb take an object that the verb alone wouldn't take, so the object is changed by the action.",
+      "body": "In The neighbours shouted the baby awake, the verb shouted is used with an object, the baby. The baby need not be the one being shouted at. What matters is the result: the baby ends up awake.\n\nCompare The neighbours shouted at the baby. Here the baby can be the one addressed, and nothing says the baby changes. Drop awake from the first sentence and the affected-baby reading goes with it. The result word is what gives the baby its role.\n\nThe dictionary marks this account as provisional.",
+      "examples": [
+        {
+          "text": "The neighbours [shouted the baby awake].",
+          "from": "entry"
+        },
+        {
+          "text": "The neighbours [shouted at the baby].",
+          "from": "entry"
+        }
+      ],
+      "try": "Compare shouted the baby awake with shouted at the baby. In which one is the baby changed by the shouting?"
+    },
+    "teacher": {
+      "summary": "For advanced classes, resultatives where the object is not the verb's ordinary object.",
+      "explain": "The pattern is a VP with a verb, a noun phrase that is not the ordinary object of that verb, and a result predicate. It licenses an affected participant through the result predicate, including when the base verb normally takes no such object. In shouted the baby awake, the baby need not be an addressee, and the result requires an affected participant. Dropping awake removes that reading. This dictionary says this family goes beyond the reflexive-only subtype in the CGEL comparison, and records CGEL's narrower agentive intransitive pattern in a linked entry. The analysis is marked provisional.",
+      "terms": "Resultative is the traditional name. The noun phrase is sometimes called a nonselected or unselected object.",
+      "examples": [
+        {
+          "text": "The neighbours [shouted the baby awake].",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "The neighbours shouted the baby awake.",
+          "from": "entry",
+          "note": "The baby is an affected participant; awake gives the result."
+        },
+        {
+          "text": "The neighbours shouted at the baby.",
+          "from": "entry",
+          "note": "An addressee reading is possible, with no change of state attributed to the baby."
+        }
+      ],
+      "watch_for": [
+        "A learner might read shouted the baby awake as meaning the baby was spoken to, when the result word supplies the affected-participant reading.",
+        "A learner might think awake can be dropped without changing the meaning."
+      ],
+      "activity": "Give students intransitive verbs such as laugh, sing and whisper. In groups they try to add an object and a result phrase, then discuss what each object has become."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Resultative with a Nonselected Object.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/unselected-object-resultative-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

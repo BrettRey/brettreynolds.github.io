@@ -1,0 +1,133 @@
+{
+  "id": "singular-anaphoric-they-001",
+  "name": "Singular Anaphoric They",
+  "pattern": "anaphoric NP[they/them/their] with a singular referent or antecedent",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/singular-anaphoric-they-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/singular-anaphoric-they-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/singular-anaphoric-they-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/singular-anaphoric-they-001/"
+  },
+  "entry": {
+    "id": "singular-anaphoric-they-001",
+    "name": "Singular Anaphoric They",
+    "pattern": "anaphoric NP[they/them/their] with a singular referent or antecedent",
+    "type": "syntactic",
+    "meanings": {
+      "1": {
+        "definition": "Uses the they paradigm for a single antecedent, including a bound variable or a known person.",
+        "examples": [
+          {
+            "form": "Every applicant said [they were] ready.",
+            "note": "Constructed illustration."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "np-pron-001",
+        "relationship": "specialization-of",
+        "parthood": "formal"
+      },
+      {
+        "id": "verb-number-agreement-001",
+        "relationship": "interfaces-with"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 5 §17.2.5; Ch. 17 §2.3",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "The antecedent can be singular while they takes ordinary they-agreement, such as were. The construction is compatible with bound readings and with specific references in suitable contexts.",
+        "evidence": "See the cited discussion and the constructed illustration.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "They for one person",
+      "summary": "They, them and their can point back to a single person, and the verb still agrees as it does with they.",
+      "body": "In Every applicant said they were ready, the word they refers back to every applicant, taken one at a time. The verb is were, the same form used when they means several people.\n\nThe pattern is also compatible with they for a specific person in a suitable context. The word that they refers back to is singular, while the pronoun still takes its usual they forms. This dictionary marks the analysis as provisional.",
+      "examples": [
+        {
+          "text": "Every applicant said [they were] ready.",
+          "from": "entry"
+        },
+        {
+          "text": "Each guest said [they were] hungry.",
+          "from": "constructed"
+        }
+      ],
+      "try": "Say a sentence beginning Everyone said ... and finish it with they. Which verb form follows?"
+    },
+    "teacher": {
+      "summary": "Helps explain they, them and their with a singular antecedent.",
+      "explain": "The they paradigm (they, them, their) can have a singular antecedent, including a bound-variable reading (as with every applicant) or a known person. In Every applicant said they were ready, the antecedent is singular, yet they takes ordinary they-agreement, such as were. The pattern is compatible with bound readings and with specific references in suitable contexts. This dictionary treats it as a specialization of the personal pronoun NP and relates it to verb number agreement. The analysis is marked provisional.",
+      "terms": "Sometimes called singular they. In this dictionary: singular anaphoric they.",
+      "examples": [
+        {
+          "text": "Every applicant said [they were] ready.",
+          "from": "entry"
+        },
+        {
+          "text": "Each guest said [they were] hungry.",
+          "from": "constructed"
+        }
+      ],
+      "watch_for": [
+        "A learner might expect the verb to agree with the singular antecedent (every applicant), when they takes ordinary they-agreement, such as were.",
+        "A learner might assume they can only refer to more than one person."
+      ],
+      "activity": "Students complete sentences starting Each student said ... and Every player thought ... using they, then circle the verb and discuss its form."
+    },
+    "child": {
+      "hook": "Can they ever mean just one person?",
+      "explain": "Sometimes they points back to one person at a time. Every applicant said they were ready. The verb is were, just like when they means a group.",
+      "examples": [
+        {
+          "text": "Every applicant said [they were] ready.",
+          "from": "entry"
+        },
+        {
+          "text": "Each guest said [they were] hungry.",
+          "from": "constructed"
+        }
+      ],
+      "play": "Start a sentence with Every kid said or Each player said. Finish it using they and a verb."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "sketch",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags)",
+        "result": "fixed",
+        "note": "Fixed: teacher explanation no longer calls every applicant the 'bound variable' (it is the antecedent; they gets the bound-variable reading); reworded an unflagged watch_for item that implied was is wrong, which the entry does not state."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Singular Anaphoric They.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/singular-anaphoric-they-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

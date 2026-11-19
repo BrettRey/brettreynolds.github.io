@@ -1,0 +1,271 @@
+{
+  "id": "determination-001",
+  "name": "Determination",
+  "pattern": "Determiner function in NP",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/determination-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/determination-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/determination-001/"
+  },
+  "entry": {
+    "id": "determination-001",
+    "name": "Determination",
+    "pattern": "Determiner function in NP",
+    "type": "syntactic",
+    "meanings": {
+      "1": {
+        "definition": "Licenses a nominal as an NP and marks it for definiteness or indefiniteness",
+        "details": "Realized by basic determiners (determinatives), subject-determiners (genitive NPs), and a limited set of minor determiners (plain-case NPs or PPs).",
+        "examples": [
+          {
+            "form": "the new car",
+            "note": "Determinative realization; definite"
+          },
+          {
+            "form": "one new car",
+            "note": "Determinative realization; indefinite"
+          },
+          {
+            "form": "Ally's new car",
+            "note": "Genitive NP realizing determiner function"
+          },
+          {
+            "form": "what size hat",
+            "note": "Plain NP determiner in interrogatives"
+          },
+          {
+            "form": "over 20 times",
+            "note": "PP determiner in a measure NP"
+          }
+        ]
+      }
+    },
+    "constraints": [
+      {
+        "type": "syntactic",
+        "description": "Determiner is a dependent within NP structure."
+      },
+      {
+        "type": "structural",
+        "description": "Singular count nominals generally require determination; bare plural and non-count nominals can be determinerless, and a small set of bare singular count frames are licensed (institutional/time/iteration)."
+      }
+    ],
+    "semanticRefs": [
+      "definiteness",
+      "indefiniteness"
+    ],
+    "syntacticRefs": [
+      "determiner-obligatoriness-singular-count",
+      "deitality-diagnostics",
+      "bare-singular-exceptions"
+    ],
+    "relatedConstructions": [
+      {
+        "id": "np-def-001",
+        "relationship": "related-to"
+      },
+      {
+        "id": "np-indef-001",
+        "relationship": "related-to"
+      },
+      {
+        "id": "group-genitive-001",
+        "relationship": "related-to"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "secured": "stable",
+      "profile": {
+        "core": [
+          {
+            "property": "Determiner slot realization licensing NP",
+            "diagnostics": [
+              "determiner-obligatoriness-singular-count"
+            ],
+            "weight": "high"
+          },
+          {
+            "property": "Deital distributional profile",
+            "diagnostics": [
+              "existential-there-pivot",
+              "partitive-of-complement",
+              "identificational-hosting",
+              "one-substitution"
+            ],
+            "weight": "medium"
+          }
+        ],
+        "peripheral": [
+          {
+            "property": "Tendency to align with semantic definiteness",
+            "diagnostics": [
+              "identifiability",
+              "uniqueness",
+              "anaphoric-recoverability"
+            ],
+            "weight": "low"
+          }
+        ]
+      },
+      "stabilisers": [
+        {
+          "type": "transmission",
+          "evidence": "Demonstrative > article grammaticalization stabilizes determiner distribution across generations."
+        },
+        {
+          "type": "acquisition",
+          "evidence": "Learners acquire determiner distribution before full definiteness semantics."
+        },
+        {
+          "type": "alignment",
+          "evidence": "Interactive alignment reinforces determiner placement in NP."
+        },
+        {
+          "type": "social-indexing",
+          "evidence": "Prestige selection shapes which determiner variants persist in a community."
+        }
+      ],
+      "projection": {
+        "target": "The slot can be filled by the DP this or by a genitive NP such as Jo’s. The relation holds in this book and Jo’s book though the dependent belongs to a different category.",
+        "evidence": "CGEL separates determiner function from determinative category and documents multiple realizations.",
+        "confidence": "medium"
+      },
+      "maintenance": {
+        "perturbations": [
+          "Weak definites (go to the hospital) weaken semantic definiteness while preserving deital marking.",
+          "Generic definites (The tiger is endangered) shift to kind reference.",
+          "Proper names are semantically definite without deital marking."
+        ]
+      },
+      "variation": {
+        "activation_states": [
+          {
+            "context": "institutional weak definite frames",
+            "effect": "deital marking with non-unique reference"
+          },
+          {
+            "context": "generic/kind statements",
+            "effect": "deital marking with kind reference"
+          }
+        ],
+        "speaker_variation": "Dialectal bare-noun patterns (in hospital, at university) shift deitality distribution."
+      },
+      "boundaries": {
+        "overlaps_with": [
+          "np-def-001",
+          "np-bare-001"
+        ],
+        "known_boundary_items": [
+          "weak definites",
+          "generic definites",
+          "proper names"
+        ]
+      },
+      "grain": {
+        "level": "meso",
+        "parent_families": [
+          "np"
+        ]
+      },
+      "coupling": {
+        "linked_cluster": "semantic definiteness",
+        "mechanism": "historical grammaticalization + discourse-pragmatic alignment"
+      }
+    },
+    "lexiconRefs": [
+      "gold/determinatives"
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 5 §4, determiner and its realizations",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ]
+  },
+  "editions": {
+    "curious": {
+      "title": "Words that open a noun phrase",
+      "summary": "A noun phrase can start with a small word or phrase that marks it as a complete phrase and signals whether we mean a particular thing or not.",
+      "body": "In the new car and one new car, the first word does a job: it marks the phrase as a full noun phrase and tells us whether the car is a definite one or an indefinite one. That job is called determiner.\n\nSeveral kinds of expression can do it. There are small words like the and one, a name with 's added, as in Ally's new car, and in a few frames a whole phrase, as in what size hat or over 20 times. The job is the same each time even though the expression filling it differs.\n\nPlural and non-count nouns can go without one, but a singular count noun generally needs one.",
+      "examples": [
+        {
+          "text": "[the] new car",
+          "from": "entry"
+        },
+        {
+          "text": "[one] new car",
+          "from": "entry"
+        },
+        {
+          "text": "[Ally's] new car",
+          "from": "entry"
+        },
+        {
+          "text": "[what size] hat",
+          "from": "entry"
+        },
+        {
+          "text": "[over 20] times",
+          "from": "entry"
+        }
+      ],
+      "try": "Look at a noun phrase in a sentence near you and see whether you can find a word or phrase that does this job, like the or Ally's. If you do, is it a small word, a name with 's, or something longer?"
+    },
+    "teacher": {
+      "summary": "Helps explain that determiner is a function in the noun phrase, filled by several kinds of expression, not only by the and a.",
+      "explain": "In this grammar determiner is a function, a function in the NP that licenses a nominal as an NP and marks it for definiteness or indefiniteness. Determinative is the word category. The slot is filled by determinatives (the, one), by genitive NPs (Ally's), and, in a limited set of cases, by plain-case NPs or PPs (what size, over 20). This dictionary says singular count nominals generally need determination, while bare plural and non-count nominals can be determinerless, and a small set of bare singular count frames is licensed. The analysis is marked provisional, and this dictionary notes that weak definites (go to the hospital) and proper names complicate the link between determiner marking and semantic definiteness.",
+      "terms": "Traditionally, the and a are called articles; here they are determinatives in determiner function.",
+      "examples": [
+        {
+          "text": "[the] new car",
+          "from": "entry"
+        },
+        {
+          "text": "[Ally's] new car",
+          "from": "entry"
+        },
+        {
+          "text": "[what size] hat",
+          "from": "entry"
+        },
+        {
+          "text": "[over 20] times",
+          "from": "entry"
+        }
+      ],
+      "watch_for": [
+        "A learner might take determiner to mean only the words the and a, when Ally's and what size fill the same slot.",
+        "A learner might treat determiner and determinative as one term, though one names a function and the other a word category."
+      ],
+      "activity": "Give pairs a set of noun phrases (the new car, one new car, Ally's new car, what size hat, over 20 times). They underline the determiner in each, then sort the phrases by what kind of expression fills the slot."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "stable",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags)",
+        "result": "fixed",
+        "note": "Fixed: determiner no longer defined as the slot at the front of an NP (function within the NP); try prompt allows for noun phrases without a determiner; removed 'possessives' term (CGEL says genitive). Dismissed: none."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Determination.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/determination-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

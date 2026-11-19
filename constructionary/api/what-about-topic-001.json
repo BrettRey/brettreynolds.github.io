@@ -1,0 +1,140 @@
+{
+  "id": "what-about-topic-001",
+  "name": "Topic Proposal with What About",
+  "pattern": "what about + NP or gerund-participial expression",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/what-about-topic-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/what-about-topic-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/what-about-topic-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/what-about-topic-001/"
+  },
+  "entry": {
+    "id": "what-about-topic-001",
+    "name": "Topic Proposal with What About",
+    "pattern": "what about + NP or gerund-participial expression",
+    "type": "pragmatic",
+    "meanings": {
+      "1": {
+        "definition": "Introduces something for consideration, often as a related topic or proposed activity.",
+        "examples": [
+          {
+            "form": "[What about asking Lee first?]",
+            "note": "Constructed illustration."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "question-001",
+        "relationship": "related-to"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 10 §7.8 [26i–iv]",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "An activity can be proposed without asking for the identity of an object. With a referent such as the spare key, the intended issue is supplied by the conversation.",
+        "evidence": "See the cited discussion and the constructed illustration.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "What about this idea?",
+      "summary": "What about, followed by a thing or an action, puts something forward for the other person to think about.",
+      "body": "What about asking Lee first? isn't really a request for information. It proposes an action, asking Lee, for the listener to consider.\n\nThe words after what about can name an action, as here, or a thing. With something like the spare key, the conversation supplies what the issue is. The speaker doesn't need to ask what the object is.\n\nThe dictionary marks this account as provisional.",
+      "examples": [
+        {
+          "text": "[What about asking Lee first?]",
+          "from": "entry"
+        },
+        {
+          "text": "What about the spare key?",
+          "from": "constructed"
+        }
+      ],
+      "try": "Suggest something to a friend using What about. Does the friend answer with information or with a decision?"
+    },
+    "teacher": {
+      "summary": "Helps explain what about as a way to propose an activity or raise a related topic.",
+      "explain": "The pattern is what about followed by a noun phrase or a gerund-participial expression. It introduces something for consideration, often as a related topic or proposed activity. An activity can be proposed without asking for the identity of an object. With a referent such as the spare key, the intended issue is supplied by the conversation. This dictionary classes it as pragmatic and relates it to questions. It marks its analysis provisional, so present a proposed activity and a related topic as two uses, and note that context supplies what is at issue.",
+      "terms": "Gerund-participial is this dictionary's term for an -ing expression such as asking Lee first. Textbooks may call the -ing form a gerund.",
+      "examples": [
+        {
+          "text": "[What about asking Lee first?]",
+          "from": "entry"
+        },
+        {
+          "text": "What about the spare key?",
+          "from": "constructed"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "What about asking Lee first?",
+          "from": "entry",
+          "note": "Proposes an action; no object is asked for."
+        },
+        {
+          "text": "What about the spare key?",
+          "from": "constructed",
+          "note": "The conversation supplies the issue."
+        }
+      ],
+      "watch_for": [
+        "A learner might answer What about asking Lee first? by naming an object, when it proposes an action.",
+        "A learner might look for a missing noun phrase after about, when the proposal is complete."
+      ],
+      "activity": "Pairs plan a weekend. One suggests with What about and an -ing phrase, the other accepts, rejects or changes the plan."
+    },
+    "child": {
+      "hook": "How do you suggest a game to a friend?",
+      "explain": "Sometimes What about is a way to suggest an idea. What about asking Lee first? It isn't a question about a thing.",
+      "examples": [
+        {
+          "text": "[What about asking Lee first?]",
+          "from": "entry"
+        },
+        {
+          "text": "What about playing outside?",
+          "from": "constructed"
+        }
+      ],
+      "play": "Take turns suggesting an activity with What about. The next player says yes or suggests another."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "sketch",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags)",
+        "result": "fixed",
+        "note": "Fixed: teacher.explain no longer ranks the proposal use above the related-topic use; teacher.terms now says gerund-participial applies to an -ing expression such as asking Lee first; removed the unsupported list of possible issues for the spare key; replaced 'the entry' with this dictionary."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Topic Proposal with What About.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/what-about-topic-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

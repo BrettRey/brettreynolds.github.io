@@ -1,0 +1,189 @@
+{
+  "id": "numerative-basic-lexeme-001",
+  "name": "Basic Numerative Lexeme (0–99)",
+  "pattern": "Det[basic numerative]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/numerative-basic-lexeme-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/numerative-basic-lexeme-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/numerative-basic-lexeme-001/"
+  },
+  "entry": {
+    "id": "numerative-basic-lexeme-001",
+    "name": "Basic Numerative Lexeme (0–99)",
+    "pattern": "Det[basic numerative]",
+    "type": "syntactic",
+    "dimensions": {
+      "form": "Lexical unit (simple, derived, or compound); no internal syntax",
+      "meaning": "Specifies cardinality from zero to ninety-nine",
+      "function": "Can serve as factor or addition in complex numeratives",
+      "distribution": "Determiner, factor, addition; resists internal modification/coordination"
+    },
+    "meanings": {
+      "1": {
+        "definition": "Lexical numeratives from zero to ninety-nine",
+        "examples": [
+          {
+            "form": "five",
+            "note": "Single-digit"
+          },
+          {
+            "form": "ten",
+            "note": "Ten"
+          },
+          {
+            "form": "twelve",
+            "note": "Irregular teen"
+          },
+          {
+            "form": "nineteen",
+            "note": "Regular -teen"
+          },
+          {
+            "form": "forty",
+            "note": "Decade"
+          },
+          {
+            "form": "twenty-six",
+            "note": "Compound basic numerative"
+          }
+        ]
+      }
+    },
+    "constraints": [
+      {
+        "type": "morphological",
+        "description": "Behaves as a lexical unit for syntax (no internal coordination or modification)."
+      }
+    ],
+    "syntacticRefs": [
+      "basic-numerative-atomicity"
+    ],
+    "semanticRefs": [
+      "cardinality"
+    ],
+    "relatedConstructions": [
+      {
+        "id": "cardinal-determinative-001",
+        "relationship": "specialization-of"
+      },
+      {
+        "id": "determination-001",
+        "relationship": "related-to"
+      },
+      {
+        "id": "numerative-complex-001",
+        "relationship": "related-to"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "reynolds-2026-numerals",
+        "locator": "§§2–3, lexical scope and prosodic diagnostics",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "Twenty-four can supply the single lexical unit that ordinal morphology targets in twenty-fourth. A construction such as three hundred twenty-four has additional phrasal structure, which is recoverable in reduced alternatives in an appropriate context.",
+        "evidence": "Reynolds combines prosody, ordinal morphology and ellipsis evidence for the lexical versus syntactic analysis.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Number words from zero to ninety-nine",
+      "summary": "The number words from zero to ninety-nine each work as a single unit, with no internal parts that can be joined or described.",
+      "body": "Five, ten, twelve, nineteen, forty and twenty-six all count as one word each. Even twenty-six is a single unit, not a phrase.\n\nThe evidence points to the same thing. Twenty-four gives twenty-fourth, which changes the whole unit. A number like three hundred twenty-four is different: it has extra structure, and in the right context a shorter version can recover the missing parts.",
+      "examples": [
+        {
+          "text": "[five]",
+          "from": "entry"
+        },
+        {
+          "text": "[twelve]",
+          "from": "entry"
+        },
+        {
+          "text": "[forty]",
+          "from": "entry"
+        },
+        {
+          "text": "[twenty-six]",
+          "from": "entry"
+        }
+      ],
+      "try": "Make twenty-four into its ordinal form. Where does the change land?"
+    },
+    "teacher": {
+      "summary": "Explains why 0 to 99 are treated as lexical units, and where phrasal structure begins.",
+      "explain": "The basic numerative lexemes are the number words from zero to ninety-nine. They include simple words (five, ten), irregular and regular teens (twelve, nineteen), decade words (forty) and compounds (twenty-six). They behave as lexical units for syntax, with no internal coordination or modification, and can serve as determiner, factor or addition in larger numbers. Twenty-four supplies the single lexical unit that ordinal morphology targets in twenty-fourth. Three hundred twenty-four has additional phrasal structure. The dictionary marks this account as provisional.",
+      "terms": "Numerative is this grammar's term for number words, where a textbook may say numeral. Cardinal numeral is the traditional name for these counting words.",
+      "examples": [
+        {
+          "text": "[five]",
+          "from": "entry"
+        },
+        {
+          "text": "[twelve]",
+          "from": "entry"
+        },
+        {
+          "text": "[nineteen]",
+          "from": "entry"
+        },
+        {
+          "text": "[forty]",
+          "from": "entry"
+        },
+        {
+          "text": "[twenty-six]",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "[twenty-four]",
+          "from": "constructed",
+          "note": "One lexical unit; ordinal twenty-fourth."
+        },
+        {
+          "text": "[three hundred twenty-four]",
+          "from": "constructed",
+          "note": "Phrasal, with internal structure."
+        }
+      ],
+      "watch_for": [
+        "A learner might think twenty-six is a phrase with two separate words.",
+        "A learner might treat three hundred twenty-four as one word."
+      ],
+      "activity": "Students list number words they can build ordinals from (five, twelve, twenty-four) and say each ordinal aloud. Then they try one for a larger number and see which part changes."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Basic Numerative Lexeme (0–99).\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/numerative-basic-lexeme-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "id": "demonstrative-determinative-fused-head-001",
+  "name": "Demonstrative Determinative in Fused Determiner-Head Function",
+  "pattern": "NP[demonstrative determinative as fused determiner-head]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/demonstrative-determinative-fused-head-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/demonstrative-determinative-fused-head-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/demonstrative-determinative-fused-head-001/"
+  },
+  "entry": {
+    "id": "demonstrative-determinative-fused-head-001",
+    "name": "Demonstrative Determinative in Fused Determiner-Head Function",
+    "pattern": "NP[demonstrative determinative as fused determiner-head]",
+    "type": "syntactic",
+    "meanings": {
+      "1": {
+        "definition": "A demonstrative determinative realizes fused determiner-head function in an NP and refers deictically to a salient entity or situation",
+        "details": "CGEL treats this, that, these, and those as determinatives; independent NP use does not reclassify them as pronouns.",
+        "examples": [
+          {
+            "form": "[That] is incredible!",
+            "note": "That is a demonstrative determinative in fused determiner-head function, referring to the current situation."
+          }
+        ]
+      }
+    },
+    "constraints": [
+      {
+        "type": "syntactic",
+        "description": "The fused determiner-head must be realized by this, that, these, or those."
+      }
+    ],
+    "semanticType": "reference",
+    "relatedConstructions": [
+      {
+        "id": "fused-determiner-head-001",
+        "relationship": "specialization-of",
+        "parthood": "formal"
+      },
+      {
+        "id": "deitality-001",
+        "relationship": "related-to",
+        "notes": "The demonstratives are the prototype of the deital profile"
+      },
+      {
+        "id": "demonstrative-distance-001",
+        "relationship": "related-to"
+      }
+    ],
+    "lexiconRefs": [
+      "gold/determinatives"
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 5 §§7.1, 9.2; Ch. 17 §§5.1–5.3",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "That can be an entire NP subject in That is strange. In That plan is strange, it instead determines a nominal. A prior proposition can supply the deictic target even with no physical object indicated.",
+        "evidence": "CGEL treats the two syntactic realizations separately and documents discourse-deictic demonstratives.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "This and that standing on their own",
+      "summary": "Words like this and that can stand alone as a whole phrase, pointing to something in the situation.",
+      "body": "In That is incredible!, that isn't attached to a noun. It stands on its own and points to something in the situation, such as what has just happened or been said. A prior statement can supply the target even when no physical object is pointed at.\n\nThis dictionary counts this, that, these and those as a kind of word called determinatives, and it keeps them in that category even when they stand on their own. In That plan is strange, by contrast, that goes with a noun. This dictionary treats the analysis as provisional.",
+      "examples": [
+        {
+          "text": "[That] is incredible!",
+          "from": "entry"
+        },
+        {
+          "text": "[That] plan is strange.",
+          "from": "constructed"
+        }
+      ],
+      "try": "Hear someone say That is incredible! What could that be pointing to? Now say That plan is incredible. What changes?"
+    },
+    "teacher": {
+      "summary": "Helps explain this, that, these and those used alone, and why this grammar keeps them as determinatives.",
+      "explain": "The pattern is an NP where a demonstrative determinative realizes fused determiner-head function: one word does the jobs of determiner and head. In That is incredible!, that is an entire NP referring to the current situation. In That plan is strange, it instead determines a nominal. The fused head must be this, that, these or those. A prior proposition can supply the deictic target even with no physical object indicated. This grammar treats these words as determinatives, and independent NP use doesn't reclassify them as pronouns. The analysis is provisional.",
+      "terms": "Traditional grammars call this use a demonstrative pronoun. This grammar keeps this, that, these and those as determinatives (a word category) in fused determiner-head function.",
+      "examples": [
+        {
+          "text": "[That] is incredible!",
+          "from": "entry"
+        },
+        {
+          "text": "That is strange.",
+          "from": "constructed"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "That is incredible!",
+          "from": "entry",
+          "note": "That alone is the whole NP, referring to the situation."
+        },
+        {
+          "text": "That plan is strange.",
+          "from": "entry",
+          "note": "That determines a nominal, plan."
+        }
+      ],
+      "watch_for": [
+        "A learner might reclassify that as a pronoun when it stands alone, when this grammar keeps it a determinative.",
+        "A learner might look for a physical object that that points to, when a prior proposition can supply the target."
+      ],
+      "activity": "Students collect sentences with this, that, these and those, sort them into stand-alone and followed-by-a-noun, and say what each one points to in the situation or in the previous sentence."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Demonstrative Determinative in Fused Determiner-Head Function.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/demonstrative-determinative-fused-head-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

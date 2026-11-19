@@ -1,0 +1,155 @@
+{
+  "id": "into-causative-001",
+  "name": "Into-Causative",
+  "pattern": "VP[Head:V + Od:NPᵢ + Comp:PP[into + gerund-participial Clause with understood subjectᵢ]]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/into-causative-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/into-causative-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/into-causative-001/"
+  },
+  "entry": {
+    "id": "into-causative-001",
+    "name": "Into-Causative",
+    "pattern": "VP[Head:V + Od:NPᵢ + Comp:PP[into + gerund-participial Clause with understood subjectᵢ]]",
+    "type": "mixed",
+    "meanings": {
+      "1": {
+        "definition": "Presents the object’s action or change of mental state as a result of what the matrix verb describes.",
+        "details": "In talk someone into leaving, talk supplies a means and the object supplies the understood subject of leaving. The pattern can give an otherwise intransitive use of a verb an object. The result inference concerns an affirmative, completed instance. A conditional, an attempt or negation can suspend it. Into followed by a locative NP can have the distinct caused-motion interpretation.",
+        "examples": [
+          {
+            "form": "[talked him into going to London]",
+            "note": "BNC example. He is both the affected participant and the understood subject of going.",
+            "grounds": [
+              {
+                "source": "hunston-transitivity-networks",
+                "locator": "V n into -ing, example with talk",
+                "relation": "attests",
+                "bears-on": "attestation"
+              }
+            ]
+          },
+          {
+            "form": "They [laughed him into joining in].",
+            "note": "Constructed extension. The laughter can be understood as the means by which he was induced to join."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "vp-001",
+        "relationship": "specialization-of",
+        "notes": "Causation is expressed through the object and into-phrase inside the VP."
+      },
+      {
+        "id": "caused-motion-001",
+        "relationship": "related-to",
+        "notes": "Both pair an object with an endpoint. Here the endpoint is a situation expressed by a gerund-participial clause."
+      },
+      {
+        "id": "object-resultative-001",
+        "relationship": "related-to",
+        "notes": "Both can license an object to which the result applies."
+      }
+    ],
+    "grounds": [
+      {
+        "source": "casa-constructicon",
+        "locator": "record 35",
+        "relation": "discusses",
+        "bears-on": "projection",
+        "note": "Describes the object and into-phrase in one pattern."
+      },
+      {
+        "source": "kim-davies-2016-into",
+        "locator": "corpus and constructional analyses",
+        "relation": "discusses",
+        "bears-on": "projection",
+        "note": "Investigates verb choice, innovative uses and the relation to caused-motion and resultative constructions."
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "The postverbal NP supplies the participant who carries out or experiences the result expressed after into, even with verbs that do not ordinarily take that object.",
+        "evidence": "The CASA and Hunston inventories document diverse verbs. Kim and Davies use corpus evidence to distinguish this form from literal caused motion and related frames.",
+        "confidence": "high"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Talking someone into going",
+      "summary": "A verb, a person and into plus an -ing verb can say how someone was brought to do something.",
+      "body": "In talked him into going to London, talking is the means, and him is the person who ends up going. He's both the one affected and the one doing the going.\n\nThe same pattern works with other verbs. In They laughed him into joining in, the laughter is understood as the means by which he was induced to join. The result is claimed only for an actual completed case. A conditional, an attempt or a negation can suspend it. Into followed by a place, by contrast, describes movement.",
+      "examples": [
+        {
+          "text": "[talked him into going to London]",
+          "from": "entry"
+        },
+        {
+          "text": "They [laughed him into joining in].",
+          "from": "entry"
+        }
+      ],
+      "try": "Say She talked him into going. Who goes? Now say She tried to talk him into going. Did he go?"
+    },
+    "teacher": {
+      "summary": "Covers verb plus object plus into plus a gerund-participial clause, as in talked him into going.",
+      "explain": "The pattern is a verb, an object, and a prepositional phrase with into plus a gerund-participial clause whose understood subject is the object. It presents the object's action or change of mental state as a result of what the matrix verb describes. In talked him into going to London, talk supplies a means and him supplies the understood subject of going. The pattern can give an otherwise intransitive use of a verb an object. The result inference concerns an affirmative, completed instance; a conditional, an attempt or negation can suspend it. Into followed by a locative noun phrase can have the distinct caused-motion interpretation. This dictionary marks the analysis as provisional.",
+      "terms": "No widely used traditional name is given in this dictionary. It is related to caused-motion and object resultative constructions.",
+      "examples": [
+        {
+          "text": "[talked him into going to London]",
+          "from": "entry"
+        },
+        {
+          "text": "They [laughed him into joining in].",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "talked him into going to London",
+          "from": "entry",
+          "note": "Into plus a gerund-participial clause; him is the understood subject of going."
+        },
+        {
+          "text": "They pushed the cart into the barn.",
+          "from": "constructed",
+          "note": "Into plus a place; caused motion."
+        }
+      ],
+      "watch_for": [
+        "A learner might read talked him into going as saying that he talked.",
+        "A learner might take She tried to talk him into going to mean that he went."
+      ],
+      "activity": "Students write sentences with a verb, a person and into plus -ing. They then add a conditional, an attempt or a negative and discuss whether the result still follows."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Into-Causative.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/into-causative-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

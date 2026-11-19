@@ -1,0 +1,273 @@
+{
+  "id": "plural-001",
+  "name": "Plural Construction",
+  "pattern": "Applies to common and proper nouns, pronouns, and determinatives",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/plural-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/plural-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/plural-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/plural-001/"
+  },
+  "entry": {
+    "id": "plural-001",
+    "name": "Plural Construction",
+    "pattern": "Applies to common and proper nouns, pronouns, and determinatives",
+    "type": "morphological",
+    "dimensions": {
+      "form": "Plural morphology (-s, -es, irregular, zero); agreement marking",
+      "meaning": "Non-singular reference; more than one or construed as aggregate",
+      "function": "Signals non-singular construal; triggers agreement",
+      "distribution": "Nouns, pronouns, determinatives; agreement targets in clause"
+    },
+    "meanings": {
+      "1": {
+        "implements": "grammatical-number-001.1",
+        "specialization": "Specifies non-singular quantities",
+        "examples": [
+          {
+            "form": "cats",
+            "note": "Non-singular entities"
+          },
+          {
+            "form": "they",
+            "note": "Non-singular entities"
+          },
+          {
+            "form": "these",
+            "note": "Non-singular entities"
+          }
+        ],
+        "relations": [
+          1,
+          2
+        ]
+      },
+      "2": {
+        "implements": "grammatical-number-001.2",
+        "specialization": "Marks countable aggregates/collections",
+        "examples": [
+          {
+            "form": "Kennedys",
+            "note": "Group entity"
+          },
+          {
+            "form": "many",
+            "note": "Group entity"
+          }
+        ],
+        "relations": [
+          1,
+          3
+        ]
+      },
+      "3": {
+        "implements": "grammatical-number-001.2",
+        "specialization": "Marks countable taxonomic categories",
+        "examples": [
+          {
+            "form": "wines",
+            "note": "Types rather than non-count"
+          }
+        ],
+        "relations": [
+          1,
+          2
+        ]
+      },
+      "4": {
+        "implements": "grammatical-number-001.1",
+        "specialization": "Marks recurring instances",
+        "examples": [
+          {
+            "form": "headaches",
+            "note": "Recurring instances"
+          }
+        ],
+        "relations": [
+          1
+        ]
+      }
+    },
+    "relations": {
+      "1": {
+        "construction": "grammatical-number-001",
+        "type": "interfaces-with",
+        "notes": "Bidirectional; plural form cues non-singular construal, non-singular construal licenses plural form"
+      },
+      "2": {
+        "construction": "n-common-001",
+        "type": "related-to",
+        "parthood": "formal",
+        "notes": "Standard domain (common nouns)"
+      },
+      "3": {
+        "construction": "n-proper-001",
+        "type": "related-to",
+        "parthood": "formal",
+        "notes": "Extension to proper nouns"
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "grammatical-number-001",
+        "relationship": "interfaces-with",
+        "notes": "Bidirectional syntax-semantics interface for number"
+      },
+      {
+        "id": "singular-001",
+        "relationship": "alternates-with",
+        "notes": "Paradigmatic contrast in the number system"
+      },
+      {
+        "id": "plural-s-001",
+        "relationship": "specialization-of",
+        "parthood": "formal",
+        "notes": "Regular plural suffix is specialization of plural construction"
+      },
+      {
+        "id": "n-pl-001",
+        "relationship": "related-to"
+      },
+      {
+        "id": "verb-number-agreement-001",
+        "relationship": "interfaces-with"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 5 §§3.2–3.4, 18",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "The form controls ordinary plural agreement in the scissors are blunt. The lexical description can nevertheless be about one instrument.",
+        "evidence": "CGEL’s discussion of plural-only nouns separates grammatical number from the number of objects described.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Words that mean more than one",
+      "summary": "Plural forms mark more than one thing, or a group of things taken together, and they trigger matching forms elsewhere in a sentence.",
+      "body": "Plural forms appear in nouns, pronouns and some other small words, not just nouns: cats, they and these all point to more than one. Some plurals name a group, as in Kennedys, or types rather than a mass, as in wines. Others mark recurring instances, as in headaches.\n\nThe plural form controls ordinary plural agreement, as in The scissors are blunt. Yet the description can be about one instrument. So the plural form tells us how the grammar treats the word, not strictly how many objects there are.",
+      "examples": [
+        {
+          "text": "[cats]",
+          "from": "entry"
+        },
+        {
+          "text": "[they]",
+          "from": "entry"
+        },
+        {
+          "text": "[these]",
+          "from": "entry"
+        },
+        {
+          "text": "[Kennedys]",
+          "from": "entry"
+        },
+        {
+          "text": "[wines]",
+          "from": "entry"
+        },
+        {
+          "text": "The [scissors] are blunt.",
+          "from": "constructed"
+        }
+      ],
+      "try": "Name something you use that is described with a plural word but is a single object. What verb goes with it?"
+    },
+    "teacher": {
+      "summary": "Overview of plural forms across nouns, pronouns and determinatives, and what they signal.",
+      "explain": "Plural morphology (-s, -es, irregular, zero) applies to common and proper nouns, pronouns and determinatives. It signals non-singular construal and triggers agreement. This dictionary lists four uses: non-singular entities (cats, they, these), countable aggregates (Kennedys, many), countable taxonomic categories, that is, types rather than non-count (wines), and recurring instances (headaches). Form and number of referents can come apart: the scissors are blunt has plural agreement but can describe one instrument, because grammatical number is separate from the number of objects described. This dictionary marks this as provisional, with medium confidence.",
+      "terms": "Words like scissors are sometimes called plural-only nouns. This dictionary contrasts plural with singular.",
+      "examples": [
+        {
+          "text": "[cats]",
+          "from": "entry"
+        },
+        {
+          "text": "[they]",
+          "from": "entry"
+        },
+        {
+          "text": "[these]",
+          "from": "entry"
+        },
+        {
+          "text": "[Kennedys]",
+          "from": "entry"
+        },
+        {
+          "text": "[many]",
+          "from": "entry"
+        },
+        {
+          "text": "[wines]",
+          "from": "entry"
+        },
+        {
+          "text": "[headaches]",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "The scissors are blunt.",
+          "from": "constructed",
+          "note": "Plural agreement, though the description can be about one instrument."
+        }
+      ],
+      "watch_for": [
+        "A learner might assume a plural form must mean more than one object.",
+        "A learner might read wines as several bottles only, when it can mean types of wine."
+      ],
+      "activity": "Students sort words (cats, they, these, Kennedys, wines, headaches) by which use of the plural they show, then add one example of their own for each use."
+    },
+    "child": {
+      "hook": "Why do we say the scissors are, when you hold only one pair?",
+      "explain": "Plural words like cats and they mean more than one. Some words, like scissors, look plural even when you mean one tool. We say The scissors are blunt.",
+      "examples": [
+        {
+          "text": "The cats are asleep.",
+          "from": "constructed"
+        },
+        {
+          "text": "The scissors are blunt.",
+          "from": "constructed"
+        }
+      ],
+      "play": "Make a list of plural words. Which ones go with are? Find something you use that is one thing but has a plural word."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Plural Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/plural-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

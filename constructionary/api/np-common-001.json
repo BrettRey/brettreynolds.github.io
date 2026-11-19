@@ -1,0 +1,156 @@
+{
+  "id": "np-common-001",
+  "name": "Common Noun Phrase",
+  "pattern": "NP[N-Type: Common]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/np-common-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/np-common-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/np-common-001/"
+  },
+  "entry": {
+    "id": "np-common-001",
+    "name": "Common Noun Phrase",
+    "pattern": "NP[N-Type: Common]",
+    "type": "syntactic",
+    "meanings": {
+      "1": {
+        "definition": "NP whose nominal head is a common noun; compatible with definite or indefinite, and unique or non-unique, reference",
+        "examples": [
+          {
+            "form": "dog",
+            "note": "General reference to the kind"
+          },
+          {
+            "form": "the books",
+            "note": "Specific reference to a set of books"
+          }
+        ]
+      }
+    },
+    "constraints": [
+      {
+        "type": "syntactic",
+        "description": "The nominal head must be a common noun"
+      }
+    ],
+    "semanticType": "reference",
+    "relatedConstructions": [
+      {
+        "id": "np-001",
+        "relationship": "inherits-from"
+      },
+      {
+        "id": "strong-proper-name-001",
+        "relationship": "related-to"
+      },
+      {
+        "id": "np-bare-001",
+        "relationship": "overlaps-with",
+        "overlap-dimension": "formal",
+        "notes": "Dogs can be both bare and headed by a common noun. The dogs has the same head category with an overt determiner."
+      },
+      {
+        "id": "np-det-001",
+        "relationship": "overlaps-with",
+        "overlap-dimension": "formal",
+        "notes": "The dogs is both determined and headed by a common noun. Dogs has the same head category without an overt determiner."
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 5 §§1–3, 20",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "A common noun such as river heads either the river or a river. A particular identifiable referent need not therefore be named through a proper noun.",
+        "evidence": "CGEL contrasts the lexical noun classes and distinguishes referential status from noun class.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Phrases built on everyday nouns",
+      "summary": "A common noun phrase is built around an ordinary noun like river or book, not a name.",
+      "body": "Ordinary nouns such as dog, river and book head phrases like the books or a river. A phrase like this can point to something definite or something indefinite, and to one particular thing or to something less specific.\n\nSo a particular, identifiable thing doesn't have to be named with a name. The river can point to one particular river, and the books to a set of books.",
+      "examples": [
+        {
+          "text": "[dog]",
+          "from": "entry"
+        },
+        {
+          "text": "[the books]",
+          "from": "entry"
+        },
+        {
+          "text": "We walked along [the river].",
+          "from": "constructed"
+        }
+      ],
+      "try": "Think of something you can point to in the room. Can you refer to it without using a name?"
+    },
+    "teacher": {
+      "summary": "Separates the kind of noun heading a phrase from whether the phrase is definite or identifies one referent.",
+      "explain": "A common noun phrase has a common noun as its nominal head. It's compatible with definite or indefinite reference and with unique or non-unique reference. The noun class and the referential status are different matters: a noun such as river heads either the river or a river, so a particular identifiable referent need not be named with a proper noun. Dogs and the dogs share the same head category; the first has no overt determiner and the second has one.",
+      "examples": [
+        {
+          "text": "[dog]",
+          "from": "entry"
+        },
+        {
+          "text": "[the books]",
+          "from": "entry"
+        },
+        {
+          "text": "[a river]",
+          "from": "constructed"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "I like [dogs].",
+          "from": "constructed",
+          "note": "No overt determiner."
+        },
+        {
+          "text": "I like [the dogs].",
+          "from": "constructed",
+          "note": "Overt determiner, same head."
+        }
+      ],
+      "watch_for": [
+        "A learner might think a definite NP has to contain a proper noun.",
+        "A learner might think a common noun phrase must contain a determiner."
+      ]
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Common Noun Phrase.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/np-common-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

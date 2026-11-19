@@ -1,0 +1,127 @@
+{
+  "id": "recurrent-progressive-always-001",
+  "name": "Recurrent Progressive with Always",
+  "pattern": "Clause[be + always + V-ing]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/recurrent-progressive-always-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/recurrent-progressive-always-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/recurrent-progressive-always-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/recurrent-progressive-always-001/"
+  },
+  "entry": {
+    "id": "recurrent-progressive-always-001",
+    "name": "Recurrent Progressive with Always",
+    "pattern": "Clause[be + always + V-ing]",
+    "type": "mixed",
+    "meanings": {
+      "1": {
+        "definition": "Presents a habit as a recurring series of occurrences, often with a speaker evaluation.",
+        "examples": [
+          {
+            "form": "You’re [always leaving] the gate open.",
+            "note": "Constructed illustration."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "progressive-ing-001",
+        "relationship": "specialization-of",
+        "parthood": "formal"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 3 §8.1, occurrence series; Ch. 8 §§8–9",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "The frame can describe repeated gate-leaving even if the gate is closed now. Irritation suits this example but an evaluatively positive action can support praise in the same frame.",
+        "evidence": "See the cited discussion and the constructed illustration.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "You're always doing that",
+      "summary": "Be plus always plus an -ing verb describes a habit as a series of repeated occurrences, often with the speaker's opinion in it.",
+      "body": "In You're always leaving the gate open, the speaker is talking about a repeating pattern, a series of times the gate was left open. The gate doesn't have to be open right now.\n\nThe speaker's feelings often come through, and irritation suits this example. But the same frame can carry praise when the action is a good one. This dictionary marks the account as provisional.",
+      "examples": [
+        {
+          "text": "You’re [always leaving] the gate open.",
+          "from": "entry"
+        }
+      ],
+      "try": "Say something you notice someone doing again and again, using are or is plus always and an -ing verb. Does it sound like a complaint or praise?"
+    },
+    "teacher": {
+      "summary": "Explains be plus always plus -ing for habits seen as recurring events, often with an evaluation.",
+      "explain": "The frame is be plus always plus a V-ing form. It presents a habit as a recurring series of occurrences, often with a speaker evaluation: You're always leaving the gate open. The frame can describe repeated gate-leaving even if the gate is closed now. Irritation suits this example, but an evaluatively positive action can support praise in the same frame. This pattern is a specialization of the progressive. This dictionary marks the analysis provisional and the example is constructed.",
+      "terms": "Sometimes called the 'emphatic' or 'habitual' use of the progressive; this dictionary calls it the recurrent progressive with always.",
+      "examples": [
+        {
+          "text": "You’re [always leaving] the gate open.",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "She's always helping her neighbours.",
+          "from": "constructed",
+          "note": "A positive action in the same frame, which can express praise."
+        }
+      ],
+      "watch_for": [
+        "A learner might read the sentence as describing something happening right now.",
+        "A learner might assume the frame can only express a complaint."
+      ],
+      "activity": "Students make pairs of sentences with be plus always plus -ing, one that could be said with irritation and one with praise, and read them aloud with matching tone."
+    },
+    "child": {
+      "hook": "When do people say you're always doing something?",
+      "explain": "You're always leaving the gate open means it keeps happening, again and again. It might be something annoying. It might be something good.",
+      "examples": [
+        {
+          "text": "You’re [always leaving] the gate open.",
+          "from": "entry"
+        },
+        {
+          "text": "She's [always helping] her neighbours.",
+          "from": "constructed"
+        }
+      ],
+      "play": "Think of something a friend or family member does again and again. Say it with are or is plus always and an -ing word."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "sketch",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Recurrent Progressive with Always.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/recurrent-progressive-always-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

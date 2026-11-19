@@ -1,0 +1,144 @@
+{
+  "id": "measure-pseudopartitive-001",
+  "name": "Measure Pseudopartitive with Of",
+  "pattern": "NP[quantified measure expression + of + substance or plural nominal expression]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/measure-pseudopartitive-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/measure-pseudopartitive-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/measure-pseudopartitive-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/measure-pseudopartitive-001/"
+  },
+  "entry": {
+    "id": "measure-pseudopartitive-001",
+    "name": "Measure Pseudopartitive with Of",
+    "pattern": "NP[quantified measure expression + of + substance or plural nominal expression]",
+    "type": "mixed",
+    "meanings": {
+      "1": {
+        "definition": "Uses a unit or container expression to specify quantity.",
+        "examples": [
+          {
+            "form": "They bought [three litres of milk].",
+            "note": "Constructed illustration."
+          },
+          {
+            "form": "They bought [three litres of the milk from yesterday].",
+            "note": "Constructed comparison. The construction can instead pick a quantity out of an established stock."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "np-001",
+        "relationship": "specialization-of",
+        "parthood": "formal"
+      },
+      {
+        "id": "measure-adjective-001",
+        "relationship": "related-to"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 5 §3.1, measure nouns and partitives; §14.1",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "Milk supplies the substance measured without referring to a definite stock of which the purchase was a subset. Compare three litres of the milk, which can select from such a stock.",
+        "evidence": "See the cited discussion and the constructed illustration.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Amounts and containers followed by of",
+      "summary": "A unit or container word followed by of says how much of a substance or how many things were involved.",
+      "body": "In They bought three litres of milk, three litres says how much milk. The milk isn't a particular stock of milk the shopper chose from. It's just the substance being measured.\n\nCompare They bought three litres of the milk from yesterday. Here the speaker picks a quantity out of an established stock: the milk from yesterday. Adding the changes the meaning from measuring a substance to selecting from one already known.",
+      "examples": [
+        {
+          "text": "They bought [three litres of milk].",
+          "from": "entry"
+        },
+        {
+          "text": "They bought [three litres of the milk from yesterday].",
+          "from": "entry"
+        }
+      ],
+      "try": "Say three litres of milk, then three litres of the milk. Which one points to milk you've already been talking about?"
+    },
+    "teacher": {
+      "summary": "Helps explain three litres of milk, where a unit or container word measures a substance, and how it differs from picking out part of a known stock.",
+      "explain": "A measure pseudopartitive uses a unit or container expression plus of to specify quantity: three litres of milk. The milk supplies the substance measured and doesn't refer to a definite stock of which the purchase was a subset. Compare three litres of the milk from yesterday, which can select from such a stock. The pattern takes a substance or a plural nominal after of. This dictionary treats it as a kind of noun phrase and relates it to the measurement adjective pattern (six feet long).",
+      "terms": "Pseudopartitive is the textbook name. A true partitive, as in two of the cats, selects from an established stock, and the measure pseudopartitive does not.",
+      "examples": [
+        {
+          "text": "They bought [three litres of milk].",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "They bought three litres of milk.",
+          "from": "entry",
+          "note": "Milk is the substance measured."
+        },
+        {
+          "text": "They bought three litres of the milk from yesterday.",
+          "from": "entry",
+          "note": "Can instead pick a quantity out of an established stock."
+        }
+      ],
+      "watch_for": [
+        "A learner might read three litres of milk as a portion of milk already mentioned, when it measures the substance.",
+        "A learner might think adding the changes only the wording, when it can shift the sense from measuring to selecting."
+      ],
+      "activity": "Give students unit and container words, such as litres, bags and cups, with substances and plural nouns. They build sentences with of, then add the plus a definite phrase to one of them and explain what changed."
+    },
+    "child": {
+      "hook": "How do you say how much milk you want?",
+      "explain": "You can name an amount or a container, then say of, then say what it holds. Three litres of milk. The word of links the amount to the stuff.",
+      "examples": [
+        {
+          "text": "They bought [three litres of milk].",
+          "from": "entry"
+        },
+        {
+          "text": "She poured [two cups of water].",
+          "from": "constructed"
+        }
+      ],
+      "play": "Look in the kitchen. Name a container or a measure, then say of and what is inside. Make three sentences, like a bag of apples or a cup of tea."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Measure Pseudopartitive with Of.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/measure-pseudopartitive-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

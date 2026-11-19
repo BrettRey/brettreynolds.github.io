@@ -1,0 +1,33 @@
+# English Constructionary
+
+> A dictionary of English constructions (form-meaning pairings, from word-level patterns to clause types), edited by Brett Reynolds. Categories and functions follow The Cambridge Grammar of the English Language (Huddleston and Pullum 2002). Each entry states what recognizing the construction lets you predict and how far the evidence secures that. 394 entries; snapshot 2026-11-19 (fa37529).
+
+## How to use this data
+
+- The linguist edition is the reference. The curious-reader, teacher and child editions are drafts derived from it (written with Claude, checked against the entry by Codex, corrected, not yet reviewed by the editor); prefer the linguist entry when they differ. Each record's `status.editions` gives the drafting and checking models.
+- `kind.provisional: true` means the analysis is a working proposal. Don't report it as settled grammar.
+- `status.depth: "sketch"` marks an early sketch: one example so far and no written-up evidence. Treat its analysis, and every reader edition built on it, as a starting point.
+- `kind.secured` is the highest evidence level reached: stable, networked, maintained or controlled. Absent means not yet assessed.
+- `grounds` record what each claim rests on: the source, a locator, the relation (cites, attests, discusses, adjudicates, contradicts, derives-from) and what it bears on.
+- Examples in the reader editions marked `from: constructed` were written for the page; `from: entry` examples come from the linguist entry.
+- Cite entries by their linguist-edition URL and the snapshot date.
+
+## Data
+
+- [Entry index](https://brettreynolds.ca/constructionary/api/index.json): every entry with its URLs and data files.
+- [All entries](https://brettreynolds.ca/constructionary/api/constructions.jsonl): one JSON object per line (entry, reader editions, status, citation).
+- Per entry: `https://brettreynolds.ca/constructionary/api/<id>.json` and `https://brettreynolds.ca/constructionary/api/<id>.md`, for example [numerical-label-001](https://brettreynolds.ca/constructionary/api/numerical-label-001.json).
+- [Construction schema](https://brettreynolds.ca/constructionary/api/schema/construction.json) and [edition schema](https://brettreynolds.ca/constructionary/api/schema/edition.json).
+- [Relation graph](https://brettreynolds.ca/constructionary/api/graph.json): constructions, sources, lexemes and their typed links.
+- [Sources](https://brettreynolds.ca/constructionary/api/sources.json) and [families](https://brettreynolds.ca/constructionary/api/families.json).
+- [Snapshot](https://brettreynolds.ca/constructionary/api/snapshot.json): date, commit and counts.
+- [Source repository](https://github.com/BrettRey/English-Constructionary): YAML source, validation and history.
+
+## Human editions
+
+- [Curious reader](https://brettreynolds.ca/constructionary/) (394 entries), [Teacher](https://brettreynolds.ca/constructionary/teacher/) (394), [Linguist](https://brettreynolds.ca/constructionary/linguist/) (394), [Child](https://brettreynolds.ca/constructionary/child/) (209).
+- [About, citation and licences](https://brettreynolds.ca/constructionary/about/)
+
+## Licence
+
+Text and data: CC BY 4.0. Code: MIT. Word lists and glosses derived from Simple English Wiktionary: CC BY-SA 4.0.

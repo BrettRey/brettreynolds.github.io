@@ -1,0 +1,674 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Construction Entry (revised)",
+  "description": "A grammatical construction in Construction Grammar (CxG)",
+  "type": "object",
+  "required": [
+    "id",
+    "pattern",
+    "name",
+    "meanings"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the construction",
+      "pattern": "^[a-z-]+[0-9]{3}$",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable name for the construction",
+      "minLength": 1
+    },
+    "pattern": {
+      "type": "string",
+      "description": "Formal syntactic/morphological pattern",
+      "minLength": 1
+    },
+    "type": {
+      "type": "string",
+      "description": "Domain providing maximal projectability for this cluster \u2013 where knowing category membership supports the most reliable predictions. Not an ontological claim about what the entry 'is made of.'",
+      "enum": [
+        "syntactic",
+        "semantic",
+        "morphological",
+        "phonological",
+        "pragmatic",
+        "mixed"
+      ]
+    },
+    "meanings": {
+      "type": "object",
+      "description": "Numbered meanings, keyed by integer strings",
+      "minProperties": 1,
+      "patternProperties": {
+        "^[0-9]+$": {
+          "type": "object",
+          "oneOf": [
+            {
+              "required": [
+                "definition",
+                "examples"
+              ],
+              "properties": {
+                "definition": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "details": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "examples": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "form"
+                    ],
+                    "properties": {
+                      "form": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "note": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "grounds": {
+                        "$ref": "#/definitions/grounds"
+                      }
+                    }
+                  }
+                },
+                "relations": {
+                  "type": "array",
+                  "description": "Indices referencing items in top-level 'relations'",
+                  "items": {
+                    "type": "integer"
+                  }
+                }
+              },
+              "additionalProperties": false
+            },
+            {
+              "required": [
+                "implements",
+                "specialization",
+                "examples"
+              ],
+              "properties": {
+                "implements": {
+                  "type": "string",
+                  "description": "Reference to meaning in another construction (format: construction-id.meaning-number)",
+                  "pattern": "^[a-z-]+[0-9]{3}\\.[0-9]+$",
+                  "minLength": 1
+                },
+                "specialization": {
+                  "type": "string",
+                  "description": "How this construction implements the referenced meaning",
+                  "minLength": 1
+                },
+                "examples": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "form"
+                    ],
+                    "properties": {
+                      "form": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "note": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "grounds": {
+                        "$ref": "#/definitions/grounds"
+                      }
+                    }
+                  }
+                },
+                "relations": {
+                  "type": "array",
+                  "description": "Indices referencing items in top-level 'relations'",
+                  "items": {
+                    "type": "integer"
+                  }
+                }
+              },
+              "additionalProperties": false
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "relations": {
+      "type": "object",
+      "description": "Numbered relations, keyed by integer strings",
+      "patternProperties": {
+        "^[0-9]+$": {
+          "type": "object",
+          "required": [
+            "construction",
+            "type"
+          ],
+          "properties": {
+            "construction": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string",
+              "description": "Relationship type",
+              "enum": [
+                "can-manifest-as",
+                "often-contains",
+                "overlaps-with",
+                "can-contain",
+                "inherits-from",
+                "similar-to",
+                "related-to",
+                "transformed-from",
+                "specialization-of",
+                "implements",
+                "interfaces-with",
+                "see-also"
+              ]
+            },
+            "parthood": {
+              "type": "string",
+              "description": "Which dimension this parthood relation applies to (typed mereology)",
+              "enum": [
+                "formal",
+                "semantic",
+                "functional"
+              ]
+            },
+            "notes": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "type",
+          "description"
+        ],
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [
+              "syntactic",
+              "morphological",
+              "semantic",
+              "pragmatic",
+              "structural",
+              "head",
+              "position"
+            ]
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "semanticType": {
+      "type": "string",
+      "enum": [
+        "reference",
+        "predication",
+        "modification",
+        "quantification"
+      ]
+    },
+    "dimensions": {
+      "type": "object",
+      "description": "Bundle structure: what this construction contributes across mereological dimensions",
+      "properties": {
+        "form": {
+          "type": "string",
+          "description": "Phonological, morphological, or syntactic pattern"
+        },
+        "meaning": {
+          "type": "string",
+          "description": "Semantic content, interpretive properties"
+        },
+        "function": {
+          "type": "string",
+          "description": "Discourse role, pragmatic contribution"
+        },
+        "distribution": {
+          "type": "string",
+          "description": "Where the construction can appear, syntactic contexts"
+        }
+      },
+      "additionalProperties": false
+    },
+    "relatedConstructions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "relationship"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "relationship": {
+            "type": "string",
+            "enum": [
+              "alternates-with",
+              "can-manifest-as",
+              "contains",
+              "inherits-from",
+              "similar-to",
+              "related-to",
+              "transformed-from",
+              "specialization-of",
+              "implements",
+              "interfaces-with",
+              "overlaps-with",
+              "see-also"
+            ]
+          },
+          "parthood": {
+            "type": "string",
+            "description": "Which dimension this parthood relation applies to (typed mereology)",
+            "enum": [
+              "formal",
+              "semantic",
+              "functional"
+            ]
+          },
+          "overlap-dimension": {
+            "type": "string",
+            "description": "For overlaps-with relations, which dimension overlaps",
+            "enum": [
+              "formal",
+              "semantic",
+              "functional",
+              "distributional"
+            ]
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "semanticRefs": {
+      "type": "array",
+      "description": "References to entries in data/indices/semantic-features.yaml",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "formRefs": {
+      "type": "array",
+      "description": "References to entries in data/indices/form-features.yaml",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "syntacticRefs": {
+      "type": "array",
+      "description": "References to entries in data/indices/syntactic-diagnostics.yaml",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "lexiconRefs": {
+      "type": "array",
+      "description": "References into data/lexicon/ (gold-list files or override records) giving the lexical membership relevant to this construction, e.g. 'gold/determinatives'",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "kind": {
+      "type": "object",
+      "description": "Projectibility-first kind metadata: what the category licenses us to project, and which securing tier the recorded evidence reaches. Replaces the legacy 'hpc' block (2026-07-16).",
+      "properties": {
+        "projection": {
+          "type": "object",
+          "description": "The point of the kind claim: a field-relative inference the category supports, declared before mechanisms",
+          "properties": {
+            "target": {
+              "type": "string"
+            },
+            "evidence": {
+              "type": "string"
+            },
+            "confidence": {
+              "type": "string",
+              "enum": [
+                "high",
+                "medium",
+                "low"
+              ]
+            },
+            "grounds": {
+              "$ref": "#/definitions/grounds"
+            }
+          },
+          "additionalProperties": false
+        },
+        "secured": {
+          "type": "string",
+          "description": "Highest securing tier the recorded evidence reaches; each tier needs its own evidence (no free upgrades)",
+          "enum": [
+            "stable",
+            "networked",
+            "maintained",
+            "controlled"
+          ]
+        },
+        "failure-mode": {
+          "type": "string",
+          "description": "Demotion flag: thin (too little content), fat (heterogeneous lump to split), negative (defined by absence)",
+          "enum": [
+            "thin",
+            "fat",
+            "negative"
+          ]
+        },
+        "profile": {
+          "type": "object",
+          "properties": {
+            "core": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "property"
+                ],
+                "properties": {
+                  "property": {
+                    "type": "string"
+                  },
+                  "diagnostics": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "weight": {
+                    "type": "string",
+                    "enum": [
+                      "high",
+                      "medium",
+                      "low"
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "peripheral": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "property"
+                ],
+                "properties": {
+                  "property": {
+                    "type": "string"
+                  },
+                  "diagnostics": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "weight": {
+                    "type": "string",
+                    "enum": [
+                      "high",
+                      "medium",
+                      "low"
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "network": {
+          "type": "object",
+          "description": "Ordering relation that explains which projections are licensed; required for secured: networked",
+          "properties": {
+            "ordering": {
+              "type": "string"
+            },
+            "evidence": {
+              "type": "string"
+            },
+            "grounds": {
+              "$ref": "#/definitions/grounds"
+            }
+          },
+          "additionalProperties": false
+        },
+        "stabilisers": {
+          "type": "array",
+          "description": "Named maintainers with evidence bearing on the removal counterfactual; required for secured: maintained",
+          "items": {
+            "type": "object",
+            "required": [
+              "type",
+              "evidence"
+            ],
+            "properties": {
+              "type": {
+                "type": "string",
+                "minLength": 1
+              },
+              "evidence": {
+                "type": "string"
+              },
+              "grounds": {
+                "$ref": "#/definitions/grounds"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "provisional": {
+          "type": "boolean",
+          "description": "Marks exploratory metadata or migration-assigned tiers pending rung-by-rung review"
+        },
+        "maintenance": {
+          "type": "object",
+          "description": "Removal counterfactuals: expected fragmentation or drift if a stabiliser weakens. Maintenance is not control.",
+          "properties": {
+            "perturbations": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "grounds": {
+              "$ref": "#/definitions/grounds"
+            }
+          },
+          "additionalProperties": false
+        },
+        "control": {
+          "type": "object",
+          "description": "Strict corrective control, the only tier that earns 'homeostatic'; all four marks required for secured: controlled",
+          "properties": {
+            "perturbation": {
+              "type": "string"
+            },
+            "coupled-relation": {
+              "type": "string"
+            },
+            "response": {
+              "type": "string"
+            },
+            "preserved-relation": {
+              "type": "string"
+            },
+            "grounds": {
+              "$ref": "#/definitions/grounds"
+            }
+          },
+          "additionalProperties": false
+        },
+        "variation": {
+          "type": "object",
+          "properties": {
+            "activation_states": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "context",
+                  "effect"
+                ],
+                "properties": {
+                  "context": {
+                    "type": "string"
+                  },
+                  "effect": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "speaker_variation": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        },
+        "boundaries": {
+          "type": "object",
+          "properties": {
+            "overlaps_with": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "known_boundary_items": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "grain": {
+          "type": "object",
+          "properties": {
+            "level": {
+              "type": "string",
+              "enum": [
+                "micro",
+                "meso",
+                "macro"
+              ]
+            },
+            "parent_families": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "coupling": {
+          "type": "object",
+          "properties": {
+            "linked_cluster": {
+              "type": "string"
+            },
+            "mechanism": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "grounds": {
+      "$ref": "#/definitions/grounds"
+    }
+  },
+  "definitions": {
+    "grounds": {
+      "type": "array",
+      "description": "Typed links to ground sources (data/sources.yaml); see docs/evidence-grounding.md",
+      "items": {
+        "type": "object",
+        "required": [
+          "source",
+          "relation"
+        ],
+        "properties": {
+          "source": {
+            "type": "string",
+            "minLength": 1
+          },
+          "locator": {
+            "type": "string"
+          },
+          "relation": {
+            "type": "string",
+            "enum": [
+              "cites",
+              "attests",
+              "adjudicates",
+              "derives-from",
+              "contradicts",
+              "discusses"
+            ]
+          },
+          "bears-on": {
+            "type": "string",
+            "enum": [
+              "category-assignment",
+              "attestation",
+              "projection",
+              "stability",
+              "network",
+              "maintenance",
+              "control"
+            ]
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

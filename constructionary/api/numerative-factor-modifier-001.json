@@ -1,0 +1,159 @@
+{
+  "id": "numerative-factor-modifier-001",
+  "name": "Factor + Magnitude Numerative",
+  "pattern": "DP[factor] + D[magnitude]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/numerative-factor-modifier-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/numerative-factor-modifier-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/numerative-factor-modifier-001/"
+  },
+  "entry": {
+    "id": "numerative-factor-modifier-001",
+    "name": "Factor + Magnitude Numerative",
+    "pattern": "DP[factor] + D[magnitude]",
+    "type": "syntactic",
+    "dimensions": {
+      "form": "Basic numerative (0-99) + magnitude; factor is modifier, not determiner",
+      "meaning": "Multiplicative composition (factor × magnitude)",
+      "function": "Factor scales magnitude head; near-obligatory in most contexts",
+      "distribution": "Factor precedes magnitude head; prosodic break after magnitude"
+    },
+    "meanings": {
+      "1": {
+        "definition": "Multiplicative numerative built by combining a factor with a magnitude head",
+        "examples": [
+          {
+            "form": "two hundred",
+            "note": "2 × 100"
+          },
+          {
+            "form": "forty-two million",
+            "note": "42 × 1,000,000"
+          }
+        ]
+      }
+    },
+    "constraints": [
+      {
+        "type": "structural",
+        "description": "Factor is a modifier of the magnitude head, not a determiner of the NP."
+      },
+      {
+        "type": "structural",
+        "description": "Factor is drawn from the basic numeratives (0–99)."
+      }
+    ],
+    "formRefs": [
+      "numerative-factor",
+      "numerative-magnitude"
+    ],
+    "semanticRefs": [
+      "cardinality"
+    ],
+    "relatedConstructions": [
+      {
+        "id": "numerative-magnitude-head-001",
+        "relationship": "contains"
+      },
+      {
+        "id": "numerative-basic-lexeme-001",
+        "relationship": "contains"
+      },
+      {
+        "id": "numerative-complex-001",
+        "relationship": "related-to"
+      },
+      {
+        "id": "determination-001",
+        "relationship": "related-to"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "reynolds-2026-numerals",
+        "relation": "cites",
+        "bears-on": "category-assignment"
+      },
+      {
+        "source": "reynolds-2026-numerals",
+        "locator": "§4, obligatory factors and their grammatical function",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "Two multiplies hundred in two hundred. It can be embedded under a separate determiner in a count noun use such as two two hundreds. A second determiner analysis would obscure why both numerals occur and contribute differently.",
+        "evidence": "Reynolds tests factor modification against the co-occurrence of actual external determiners and against argument-selection tests.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Number words built by multiplying",
+      "summary": "In phrases like two hundred and forty-two million, a smaller number multiplies a big round one.",
+      "body": "In two hundred, the word two says how many hundreds there are: two times a hundred. In forty-two million, forty-two says how many millions. The smaller number is called the factor, and the big round word (hundred, thousand, million) is the one it multiplies.\n\nThis dictionary takes the factor to be one of the basic number words, from zero to ninety-nine. It describes the factor as scaling the round word, not as a separate word that introduces the whole phrase, though that analysis is marked provisional.",
+      "examples": [
+        {
+          "text": "[two hundred]",
+          "from": "entry"
+        },
+        {
+          "text": "[forty-two million]",
+          "from": "entry"
+        },
+        {
+          "text": "They sold [three hundred] tickets.",
+          "from": "constructed"
+        }
+      ],
+      "try": "Pick a number like five hundred. Can you find the smaller number that multiplies the big round one?"
+    },
+    "teacher": {
+      "summary": "Explains why, in two hundred, the first number word is a multiplier of the second rather than a determiner of the noun phrase.",
+      "explain": "A multiplicative numerative combines a factor with a magnitude head: two hundred is 2 × 100, and forty-two million is 42 × 1,000,000. The factor comes from the basic numeratives (0 to 99) and is a modifier of the magnitude head. It isn't a determiner of the NP. This dictionary's reasoning is that a separate determiner can still appear in a count-noun use (it cites two two hundreds), so treating the factor as the determiner would hide why both numerals are there and why each contributes differently. The analysis is provisional.",
+      "terms": "Numeral is the traditional word for number words in general. This dictionary says numerative, and calls the multiplier a factor and the big round word a magnitude head.",
+      "examples": [
+        {
+          "text": "[two hundred]",
+          "from": "entry"
+        },
+        {
+          "text": "[forty-two million]",
+          "from": "entry"
+        }
+      ],
+      "watch_for": [
+        "A learner might take two in two hundred as a determiner of the whole noun phrase, when this dictionary treats it as scaling hundred.",
+        "A learner might read forty-two million as forty-two plus a million, when it is forty-two times a million."
+      ],
+      "activity": "Make cards with factors (two, seven, forty-two) and magnitude words (hundred, thousand, million). Pairs draw one of each, say the number aloud, and state the multiplication it stands for."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Factor + Magnitude Numerative.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/numerative-factor-modifier-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

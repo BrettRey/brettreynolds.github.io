@@ -1,0 +1,184 @@
+{
+  "id": "matched-bare-endpoints-001",
+  "name": "Matched Bare Endpoints",
+  "pattern": "from + NP[bare] + to + NP[bare]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/matched-bare-endpoints-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/matched-bare-endpoints-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/matched-bare-endpoints-001/"
+  },
+  "entry": {
+    "id": "matched-bare-endpoints-001",
+    "name": "Matched Bare Endpoints",
+    "pattern": "from + NP[bare] + to + NP[bare]",
+    "type": "mixed",
+    "meanings": {
+      "1": {
+        "definition": "Uses two bare nouns to set the endpoints of a path, transfer, or transition.",
+        "details": "The predicate and context determine what traverses the path and what the bare nouns describe. With from student to teacher, an object can pass from one person to another, or a person can move between two roles. A context can supply particular endpoints. The availability of either form alone is an independent test.",
+        "examples": [
+          {
+            "form": "[from father to son]",
+            "note": "A pair of related roles in the Chapter 5 list.",
+            "grounds": [
+              {
+                "source": "cgel-2002",
+                "locator": "Ch. 5 §8.5(b), pp. 409–410 [20vii]",
+                "relation": "attests",
+                "bears-on": "attestation"
+              }
+            ]
+          },
+          {
+            "form": "[from teacher to pupil]",
+            "note": "Source and goal in a transfer.",
+            "grounds": [
+              {
+                "source": "cgel-2002",
+                "locator": "Ch. 8 §4.4, p. 689 [33vi]",
+                "relation": "attests",
+                "bears-on": "attestation"
+              }
+            ]
+          },
+          {
+            "form": "[from craftsperson to apprentice]",
+            "note": "The conference abstract uses the phrase of the handing down of techniques.",
+            "grounds": [
+              {
+                "source": "battle-unesco-craft",
+                "locator": "printed p. 31",
+                "relation": "attests",
+                "bears-on": "attestation"
+              }
+            ]
+          },
+          {
+            "form": "Lee went [from student to teacher].",
+            "note": "Constructed change-of-role use. Compare The manuscript went from student to teacher."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "bare-noun-coordination-001",
+        "relationship": "related-to",
+        "notes": "A different configuration makes two bare nouns available as a pair."
+      },
+      {
+        "id": "source-complement-001",
+        "relationship": "related-to",
+        "notes": "A source use can participate in the paired frame."
+      },
+      {
+        "id": "goal-complement-001",
+        "relationship": "related-to",
+        "notes": "A goal use can participate in the paired frame."
+      }
+    ],
+    "grounds": [
+      {
+        "source": "zwarts-2013-from-n-to-n",
+        "locator": "article",
+        "relation": "discusses",
+        "bears-on": "projection",
+        "note": "Proposes a pair-level construction for the meanings of these bare-noun sequences."
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "The same bare-noun pair can specify transfer between people, a role transition, or another route, depending on the host.",
+        "evidence": "Zwarts analyzes the construction over a pair. CGEL and the UNESCO abstract give distinct role pairings, and the audit records matched transfer and change-of-role contexts.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "From one role to another, with no the or a",
+      "summary": "Two nouns with no the or a, joined by from and to, mark the two ends of a path, a handing-over or a change.",
+      "body": "In from father to son and from teacher to pupil, each noun stands alone, with no the or a. The pair marks the two ends: where something starts and where it ends up.\n\nWhat moves between the ends depends on the rest of the sentence. With from student to teacher, an object can pass from one person to another. It can also be a person who moves between two roles. Compare The manuscript went from student to teacher with Lee went from student to teacher. A context can also supply particular people to fill the two ends.",
+      "examples": [
+        {
+          "text": "[from father to son]",
+          "from": "entry"
+        },
+        {
+          "text": "[from teacher to pupil]",
+          "from": "entry"
+        },
+        {
+          "text": "[from craftsperson to apprentice]",
+          "from": "entry"
+        },
+        {
+          "text": "Lee went [from student to teacher].",
+          "from": "entry"
+        }
+      ],
+      "try": "Think of two roles, such as teacher and pupil. What kinds of things could pass from one to the other?"
+    },
+    "teacher": {
+      "summary": "Helps explain from N to N phrases that mark the two ends of a transfer or change of role, with no articles.",
+      "explain": "In from NP to NP with bare nouns, the two nouns set the endpoints of a path, a transfer or a transition. The same pair can specify transfer between people (from teacher to pupil), a role transition (Lee went from student to teacher) or another route, depending on the host. The predicate and context decide what traverses the path and what the bare nouns describe. This dictionary follows an analysis that treats the pair as a construction in its own right, and lists the source and goal uses as related entries.",
+      "terms": "A bare noun is one with no determiner. This dictionary treats the whole from N to N pair as one pattern, related to separate source and goal complements.",
+      "examples": [
+        {
+          "text": "[from father to son]",
+          "from": "entry"
+        },
+        {
+          "text": "[from teacher to pupil]",
+          "from": "entry"
+        },
+        {
+          "text": "Lee went [from student to teacher].",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "Lee went from student to teacher.",
+          "from": "entry",
+          "note": "Change of role."
+        },
+        {
+          "text": "The manuscript went from student to teacher.",
+          "from": "constructed",
+          "note": "Transfer between people."
+        }
+      ],
+      "watch_for": [
+        "A learner might add the or a before each noun, when the pattern sets the endpoints with bare nouns.",
+        "A learner might read from student to teacher as a transfer of something, when with a person it can be a change of role."
+      ],
+      "activity": "Give students pairs of roles such as parent and child, coach and player. They write one sentence about something passing between the two and one about a person changing from one role to the other, then compare."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Matched Bare Endpoints.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/matched-bare-endpoints-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

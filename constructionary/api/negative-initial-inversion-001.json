@@ -1,0 +1,143 @@
+{
+  "id": "negative-initial-inversion-001",
+  "name": "Inversion after Preposed Negative or Restrictive Expression",
+  "pattern": "Clause[preposed negative/restrictive dependent + finite Aux + Subject + VP]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/negative-initial-inversion-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/negative-initial-inversion-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/negative-initial-inversion-001/"
+  },
+  "entry": {
+    "id": "negative-initial-inversion-001",
+    "name": "Inversion after Preposed Negative or Restrictive Expression",
+    "pattern": "Clause[preposed negative/restrictive dependent + finite Aux + Subject + VP]",
+    "type": "mixed",
+    "meanings": {
+      "1": {
+        "definition": "Uses auxiliary-first order within the nucleus after certain negative or restrictive expressions.",
+        "examples": [
+          {
+            "form": "[Only after the meeting did I find out].",
+            "note": "Constructed illustration."
+          },
+          {
+            "form": "[After the meeting I found out].",
+            "note": "Constructed comparison. The non-restrictive fronted adjunct does not trigger inversion."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "clause-001",
+        "relationship": "specialization-of",
+        "parthood": "formal"
+      },
+      {
+        "id": "finite-do-support-001",
+        "relationship": "related-to"
+      },
+      {
+        "id": "complement-preposing-001",
+        "relationship": "related-to"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 3 §2.1.2; Ch. 9, scope and inversion",
+        "relation": "discusses",
+        "bears-on": "projection"
+      },
+      {
+        "source": "goldberg-2006",
+        "locator": "Ch. 8, the subject–auxiliary inversion family",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "Only after the meeting triggers inversion in this use. After the meeting I found out differs in auxiliary placement, and only modifying the subject does not trigger it.",
+        "evidence": "See the cited discussion and the constructed illustration.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Flipping the helper verb after a restricting opening",
+      "summary": "After an opening phrase such as only after the meeting, the helper verb comes before the subject.",
+      "body": "In Only after the meeting did I find out, the helper verb did comes before the subject I. The opening phrase narrows the claim, and that is what triggers the flip.\n\nCompare After the meeting I found out. Here the opening phrase doesn't narrow the claim, the subject stays first, and no helper verb is needed. This dictionary describes the flip as tied to certain negative or restrictive opening phrases, not to opening phrases in general.",
+      "examples": [
+        {
+          "text": "[Only after the meeting did I find out].",
+          "from": "entry"
+        },
+        {
+          "text": "[After the meeting I found out].",
+          "from": "entry"
+        }
+      ],
+      "try": "Start a sentence with only after and finish it. Where does the helper verb go?"
+    },
+    "teacher": {
+      "summary": "For advanced classes, auxiliary-first order after a preposed negative or restrictive expression.",
+      "explain": "After certain preposed negative or restrictive expressions, a clause uses auxiliary-first order: finite auxiliary, then subject, then verb phrase. Only after the meeting did I find out shows it. In After the meeting I found out, the non-restrictive fronted adjunct doesn't trigger inversion. Only modifying the subject doesn't trigger it either. In the example the finite auxiliary is did. This dictionary lists finite do-support and complement preposing as related patterns, and marks the analysis provisional with medium confidence.",
+      "terms": "Sometimes called subject-auxiliary inversion, a broader label than this dictionary's pattern, which covers inversion after preposed negative or restrictive expressions.",
+      "examples": [
+        {
+          "text": "[Only after the meeting did I find out].",
+          "from": "entry"
+        },
+        {
+          "text": "[After the meeting I found out].",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "Only after the meeting did I find out.",
+          "from": "entry",
+          "note": "A restrictive fronted phrase triggers auxiliary-first order."
+        },
+        {
+          "text": "After the meeting I found out.",
+          "from": "entry",
+          "note": "A non-restrictive fronted adjunct leaves the subject first."
+        }
+      ],
+      "watch_for": [
+        "A learner might invert the subject and auxiliary after any fronted phrase.",
+        "A learner might expect the subject to come right after the opening phrase, as it does in After the meeting I found out."
+      ],
+      "activity": "Students front only after the meeting, only then or similar phrases and rewrite each sentence with auxiliary-first order. Then they front a non-restrictive phrase and compare the word order."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags)",
+        "result": "fixed",
+        "note": "Fixed: removed the general rule about supplying do (the entry only illustrates did and lists finite do-support as related); replaced the matching watch_for item; qualified the subject-auxiliary inversion term as broader. Dismissed: none."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Inversion after Preposed Negative or Restrictive Expression.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/negative-initial-inversion-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

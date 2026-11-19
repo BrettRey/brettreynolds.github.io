@@ -1,0 +1,193 @@
+{
+  "id": "abstract-numeral-001",
+  "name": "Abstract Numeral Construction",
+  "pattern": "N[cardinal proper] + VP[predication]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/abstract-numeral-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/abstract-numeral-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/abstract-numeral-001/"
+  },
+  "entry": {
+    "id": "abstract-numeral-001",
+    "name": "Abstract Numeral Construction",
+    "pattern": "N[cardinal proper] + VP[predication]",
+    "type": "syntactic",
+    "dimensions": {
+      "form": "Cardinal noun as bare NP subject; no determiner or modifier",
+      "meaning": "Denotes abstract mathematical entity as subject of predication",
+      "function": "Names a number-as-object for mathematical or metalinguistic statements",
+      "distribution": "Subject position in clauses predicating properties of numbers"
+    },
+    "meanings": {
+      "1": {
+        "definition": "Cardinal noun denotes an abstract mathematical object rather than a count or quantity",
+        "examples": [
+          {
+            "form": "[Seven] is prime.",
+            "note": "Predicating a mathematical property"
+          },
+          {
+            "form": "[Twenty] is even.",
+            "note": "Mathematical classification"
+          },
+          {
+            "form": "[Two] plus [two] is [four].",
+            "note": "Arithmetic identity statement"
+          }
+        ]
+      }
+    },
+    "constraints": [
+      {
+        "type": "syntactic",
+        "description": "Cardinal noun heads a bare NP; resists determiners (*the seven is prime)."
+      },
+      {
+        "type": "syntactic",
+        "description": "Resists attributive modifiers (*prime seven is odd)."
+      },
+      {
+        "type": "semantic",
+        "description": "Rigidly designates a particular abstract quantity via nominal number assignment."
+      }
+    ],
+    "semanticRefs": [
+      "identity",
+      "abstract",
+      "reference"
+    ],
+    "relatedConstructions": [
+      {
+        "id": "cardinal-noun-001",
+        "relationship": "specialization-of"
+      },
+      {
+        "id": "proper-name-001",
+        "relationship": "related-to"
+      },
+      {
+        "id": "n-proper-001",
+        "relationship": "related-to"
+      },
+      {
+        "id": "denominator-numeral-001",
+        "relationship": "related-to"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "reynolds-2026-numerals",
+        "locator": "§5, cardinal nouns as mathematical names",
+        "relation": "discusses",
+        "bears-on": "projection"
+      },
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 5 §7.6",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "In Seven is prime, seven is an independent subject naming a number. In seven pages, seven supplies cardinal determination. Plural sevens can instead count instances of a written symbol or value.",
+        "evidence": "Reynolds distinguishes abstract-name, token, and quantificational uses by their distributions.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Numbers as things we talk about",
+      "summary": "A bare number word can be the subject of a sentence about the number itself.",
+      "body": "In Seven is prime, seven isn't counting anything. It names a number, and the sentence says something about that number. The same goes for Twenty is even and Two plus two is four.\n\nCompare seven pages, where seven tells you how many pages there are. In the mathematical use, the number word stands alone, with no the or other describing word in front. It acts like a name for one particular number.",
+      "examples": [
+        {
+          "text": "[Seven] is prime.",
+          "from": "entry"
+        },
+        {
+          "text": "[Twenty] is even.",
+          "from": "entry"
+        },
+        {
+          "text": "[Two] plus [two] is [four].",
+          "from": "entry"
+        }
+      ],
+      "try": "Compare \"Seven is prime\" with \"I read seven pages.\" In which sentence is seven counting something, and in which is it the thing being described?"
+    },
+    "teacher": {
+      "summary": "Shows number words used as names of numbers in mathematical statements, in contrast with number words that count.",
+      "explain": "In Seven is prime, seven is a cardinal noun heading a bare NP in subject position. It denotes an abstract mathematical object, not a count or quantity, and rigidly designates a particular number. This dictionary notes that it resists determiners and attributive modifiers. Compare seven pages, where seven supplies cardinal determination. The plural sevens can instead count instances of a written symbol or value. This dictionary bases the distinction between abstract-name, token and quantificational uses on their distributions.",
+      "terms": "Cardinal noun: a number word used as a noun.",
+      "examples": [
+        {
+          "text": "[Seven] is prime.",
+          "from": "entry"
+        },
+        {
+          "text": "[Twenty] is even.",
+          "from": "entry"
+        },
+        {
+          "text": "[Two] plus [two] is [four].",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "Seven is prime.",
+          "from": "entry",
+          "note": "Seven names a number."
+        },
+        {
+          "text": "seven pages",
+          "from": "constructed",
+          "note": "Seven counts pages."
+        },
+        {
+          "text": "the seven is prime",
+          "from": "entry",
+          "acceptable": false
+        },
+        {
+          "text": "prime seven is odd",
+          "from": "entry",
+          "acceptable": false
+        }
+      ],
+      "watch_for": [
+        "A learner might read Seven is prime as describing seven of something.",
+        "A learner might add the or an adjective in front of the number word, as in the seven is prime."
+      ],
+      "activity": "Students sort sentences into two piles, those where a number word names a number (Twenty is even) and those where it counts things (seven pages), then write one new sentence for each pile."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags)",
+        "result": "fixed",
+        "note": "Fixed: removed the cardinal determinative gloss from teacher.terms (the entry leaves the category of seven in seven pages unstated); replaced 'the entry' with 'this dictionary'."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Abstract Numeral Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/abstract-numeral-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "id": "past-tense-ed-001",
+  "name": "Past Tense -ed",
+  "pattern": "Verb stem + -ed/-d/-t (including allomorphs /d/, /t/, /ɪd/)",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/past-tense-ed-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/past-tense-ed-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/past-tense-ed-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/past-tense-ed-001/"
+  },
+  "entry": {
+    "id": "past-tense-ed-001",
+    "name": "Past Tense -ed",
+    "pattern": "Verb stem + -ed/-d/-t (including allomorphs /d/, /t/, /ɪd/)",
+    "type": "morphological",
+    "meanings": {
+      "1": {
+        "definition": "Marks temporal/modal/social distance",
+        "details": "Core meaning potentially involving displacement from a reference point (temporal, modal, or interpersonal) - though this unification remains debatable",
+        "examples": [
+          {
+            "form": "She walked home",
+            "note": "Temporal displacement"
+          },
+          {
+            "form": "If I owned a car",
+            "note": "Modal displacement"
+          },
+          {
+            "form": "I wanted to ask you",
+            "note": "Social displacement"
+          }
+        ]
+      },
+      "2": {
+        "definition": "Temporal anteriority",
+        "details": "Marks situation as occurring before reference time (but see cases like sports commentary where this breaks down)",
+        "examples": [
+          {
+            "form": "They finished yesterday",
+            "note": "Clear anterior time"
+          },
+          {
+            "form": "Jones passed to Smith!",
+            "note": "Immediate past challenging pure anteriority"
+          }
+        ]
+      },
+      "3": {
+        "definition": "Non-actual/hypothetical marking",
+        "details": "Indicates displacement from actual/current reality",
+        "examples": [
+          {
+            "form": "If she studied more",
+            "note": "Counterfactual condition"
+          },
+          {
+            "form": "I wish I lived there",
+            "note": "Contrary-to-fact desire"
+          }
+        ]
+      },
+      "4": {
+        "definition": "Social distancing marker",
+        "details": "Creates interpersonal distance, often for politeness",
+        "examples": [
+          {
+            "form": "Did you want coffee?",
+            "note": "Polite offer"
+          },
+          {
+            "form": "I hoped we could talk",
+            "note": "Tentative approach"
+          }
+        ]
+      }
+    },
+    "semanticRefs": [
+      "tense",
+      "temporal-relation",
+      "irrealis",
+      "politeness"
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 3 §§1.7, 4.3.2, 6.1–6.2; Ch. 18 §§2.1.2, 5.1",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "Regular -ed can mark a preterite or past participle. In Jo checked the key it marks finite preterite, while in Jo has checked the key it realizes the participle selected by have. Remote and backshifted preterites need not locate the event before speech time.",
+        "evidence": "CGEL documents the syncretism and the independent distribution of the temporal and remote interpretations.",
+        "confidence": "medium"
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "perfect-have-001",
+        "relationship": "interfaces-with"
+      },
+      {
+        "id": "present-backshift-001",
+        "relationship": "related-to"
+      }
+    ]
+  },
+  "editions": {
+    "curious": {
+      "title": "The -ed ending on verbs",
+      "summary": "Adding -ed to a verb can place something in the past, but it can also mark something imagined or add politeness.",
+      "body": "The -ed ending (or -d or -t, with more than one pronunciation) places something in time, as in She walked home and They finished yesterday. But it does more. In If I owned a car, it marks something that isn't actual. In I wanted to ask you, it adds social distance, which can make a request or offer more polite. This dictionary also gives Did you want coffee? as a polite offer, with the past form did.\n\nThis dictionary lists these as separate meanings and notes that whether one idea, displacement from a reference point, unites them remains debatable. Past time doesn't fit every use: Jones passed to Smith! in a sports commentary describes an immediate past.",
+      "examples": [
+        {
+          "text": "She [walked] home.",
+          "from": "entry"
+        },
+        {
+          "text": "If I [owned] a car",
+          "from": "entry"
+        },
+        {
+          "text": "I [wanted] to ask you.",
+          "from": "entry"
+        }
+      ],
+      "try": "Compare They finished yesterday with Did you want coffee? Is the second one about the past, or about being polite?"
+    },
+    "teacher": {
+      "summary": "Explains the -ed ending as more than past time, covering hypothetical and politeness uses, and how its preterite use differs from its participle use.",
+      "explain": "Regular -ed (with the allomorphs -d, -t, /d/, /t/ and /ɪd/) marks the preterite. This dictionary lists four meanings: displacement from a reference point (temporal, modal or interpersonal), temporal anteriority (They finished yesterday), non-actual or hypothetical marking (If she studied more; I wish I lived there), and social distancing (Did you want coffee?; I hoped we could talk). The first, unifying meaning remains debatable. Temporal anteriority has exceptions such as sports commentary (Jones passed to Smith!). Remote and backshifted preterites need not locate the event before speech time. Regular -ed also marks the past participle, as in Jo has checked the key. This dictionary marks the analysis as provisional.",
+      "terms": "Past tense is the traditional name; CGEL says preterite. The -ed form after have is the past participle.",
+      "examples": [
+        {
+          "text": "She [walked] home.",
+          "from": "entry"
+        },
+        {
+          "text": "They [finished] yesterday.",
+          "from": "entry"
+        },
+        {
+          "text": "If she [studied] more",
+          "from": "entry"
+        },
+        {
+          "text": "I [hoped] we could talk.",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "Jo checked the key.",
+          "from": "constructed",
+          "note": "Finite preterite."
+        },
+        {
+          "text": "Jo has checked the key.",
+          "from": "constructed",
+          "note": "Participle selected by have."
+        },
+        {
+          "text": "I wish I lived there.",
+          "from": "entry",
+          "note": "Contrary-to-fact desire, not past time."
+        }
+      ],
+      "watch_for": [
+        "A learner might assume every -ed form locates the event in the past, when this dictionary lists hypothetical and politeness uses.",
+        "A learner might read Did you want coffee? only as asking about a past wanting, when it can be a polite offer.",
+        "A learner might treat the -ed in has checked as a preterite, when it is the participle selected by have."
+      ],
+      "activity": "Students sort -ed sentences into past time, imagined situations and polite requests or offers, using examples such as They finished yesterday, If she studied more and I wanted to ask you. They then explain what each use has in common with the others, if anything."
+    },
+    "child": {
+      "hook": "What happens to a verb when you add ed?",
+      "explain": "Adding ed can make a verb tell about the past, as in She walked home. It can also talk about something that isn't real, as in If I owned a car. It can also make something sound more polite, as in I wanted to ask you.",
+      "examples": [
+        {
+          "text": "She [walked] home.",
+          "from": "entry"
+        },
+        {
+          "text": "They [finished] yesterday.",
+          "from": "entry"
+        },
+        {
+          "text": "If I [owned] a car",
+          "from": "entry"
+        },
+        {
+          "text": "I [wanted] to ask you.",
+          "from": "entry"
+        }
+      ],
+      "play": "Say three sentences with ed words, one about yesterday, one about something you wish for, and one polite one, like I wanted to ask you. Which job does the ed do in each?"
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)",
+        "result": "fixed",
+        "note": "Fixed: child explain and the teacher activity used Did you want coffee? as an -ed example, but it has the irregular preterite did and plain want; they now use I wanted to ask you (this dictionary's social-distance example with -ed), and the child play matches. The curious body now ties the -ed ending to I wanted to ask you and presents Did you want coffee? as a separate polite offer. Second round: removed the bracketed example Did you want coffee? from the curious and teacher example lists (its did is irregular and want is plain, so neither shows -ed) and gave the teacher list I hoped we could talk instead; teacher.watch_for[1] now says the question can be a polite offer, without ruling out a question about past wanting. Curious.body says the polite offer uses the past form did instead of saying it works 'in the same way'; teacher.summary now contrasts the preterite and participle uses of the ending."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Past Tense -ed.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/past-tense-ed-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

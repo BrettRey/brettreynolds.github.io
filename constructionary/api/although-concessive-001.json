@@ -1,0 +1,148 @@
+{
+  "id": "although-concessive-001",
+  "name": "Concessive Although Adjunct",
+  "pattern": "PP[although + finite or licensed reduced predication]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/although-concessive-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/although-concessive-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/although-concessive-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/although-concessive-001/"
+  },
+  "entry": {
+    "id": "although-concessive-001",
+    "name": "Concessive Although Adjunct",
+    "pattern": "PP[although + finite or licensed reduced predication]",
+    "type": "mixed",
+    "meanings": {
+      "1": {
+        "definition": "Acknowledges a circumstance that might have counted against the main claim.",
+        "examples": [
+          {
+            "form": "[Although the steps were icy], we reached the door.",
+            "note": "Constructed illustration."
+          },
+          {
+            "form": "[Even if the steps are icy], we’ll reach the door.",
+            "note": "Constructed comparison. Conditional concession leaves the ice uncertain."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "pp-001",
+        "relationship": "specialization-of",
+        "parthood": "formal"
+      },
+      {
+        "id": "even-if-concessive-conditional-001",
+        "relationship": "related-to"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 8 §13; Ch. 14 §10(b)",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "Both the ice and the arrival are presented as actual. The contrast comes from an expectation about what the ice might impede.",
+        "evidence": "See the cited discussion and the constructed illustration.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Admitting a drawback with although",
+      "summary": "An although phrase acknowledges something that might have counted against the main claim.",
+      "body": "In Although the steps were icy, we reached the door, both things are presented as true. The steps were icy, and we reached the door. The contrast comes from an expectation about what the ice might have stopped.\n\nEven if works differently. In Even if the steps are icy, we'll reach the door, the ice is uncertain, so the sentence concedes a possibility rather than a fact.",
+      "examples": [
+        {
+          "text": "[Although the steps were icy], we reached the door.",
+          "from": "entry"
+        },
+        {
+          "text": "[Even if the steps are icy], we’ll reach the door.",
+          "from": "entry"
+        }
+      ],
+      "try": "Finish this sentence: Although it was late, ... Does your ending go against what late might lead us to expect?"
+    },
+    "teacher": {
+      "summary": "Shows although as a way to concede a circumstance that might have counted against the main claim.",
+      "explain": "An although phrase is a PP with a finite clause or a licensed reduced predication. It acknowledges a circumstance that might have counted against the main claim. Both the ice and the arrival are presented as actual, and the contrast comes from an expectation about what the ice might impede. Compare even if, which gives a conditional concession and leaves the ice uncertain. This dictionary treats the although phrase as a specialization of PP and marks the analysis provisional.",
+      "terms": "Textbooks may call although a subordinating conjunction. This dictionary treats although as the head of a PP.",
+      "examples": [
+        {
+          "text": "[Although the steps were icy], we reached the door.",
+          "from": "entry"
+        },
+        {
+          "text": "[Even if the steps are icy], we’ll reach the door.",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "Although the steps were icy, we reached the door.",
+          "from": "entry",
+          "note": "The ice is presented as actual."
+        },
+        {
+          "text": "Even if the steps are icy, we'll reach the door.",
+          "from": "entry",
+          "note": "The ice is left uncertain."
+        }
+      ],
+      "watch_for": [
+        "A learner might treat the although clause as uncertain, when both the ice and the arrival are presented as actual.",
+        "A learner might read the contrast as being between the two clauses alone, when it comes from an expectation about what the ice might impede."
+      ],
+      "activity": "Students complete although sentences, then say what expectation each one goes against. They compare with the same ideas expressed with even if."
+    },
+    "child": {
+      "hook": "What does \"although\" tell us might have stopped us?",
+      "explain": "Although shows something that might have stopped us, but didn't. Although the steps were icy, we reached the door. The steps really were icy.",
+      "examples": [
+        {
+          "text": "[Although the steps were icy], we reached the door.",
+          "from": "entry"
+        },
+        {
+          "text": "[Although it was raining], we played outside.",
+          "from": "constructed"
+        }
+      ],
+      "play": "Start with although and a problem, like being tired or cold. Then say what happened anyway. Take turns with a partner."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Concessive Although Adjunct.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/although-concessive-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

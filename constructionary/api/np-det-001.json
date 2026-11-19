@@ -1,0 +1,172 @@
+{
+  "id": "np-det-001",
+  "name": "Determined Noun Phrase",
+  "pattern": "NP[Det Nom]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/np-det-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/np-det-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/np-det-001/"
+  },
+  "entry": {
+    "id": "np-det-001",
+    "name": "Determined Noun Phrase",
+    "pattern": "NP[Det Nom]",
+    "type": "syntactic",
+    "meanings": {
+      "1": {
+        "definition": "Nominal with a determiner function, forming an NP marked as definite or indefinite",
+        "examples": [
+          {
+            "form": "the new car",
+            "note": "Definite determinative realization"
+          },
+          {
+            "form": "one new car",
+            "note": "Indefinite determinative realization"
+          },
+          {
+            "form": "Ally's new car",
+            "note": "Genitive NP realizing determiner function"
+          },
+          {
+            "form": "what size hat",
+            "note": "Plain NP determiner in interrogatives"
+          }
+        ]
+      }
+    },
+    "constraints": [
+      {
+        "type": "syntactic",
+        "description": "Determiner function is a dependent in NP structure."
+      },
+      {
+        "type": "structural",
+        "description": "Singular count nominals generally require determination; bare plural and non-count nominals can be determinerless in some contexts."
+      }
+    ],
+    "relatedConstructions": [
+      {
+        "id": "determination-001",
+        "relationship": "implements",
+        "notes": "The overt determiner in the new car, a new car, and Jo’s new car realizes the determiner function."
+      },
+      {
+        "id": "np-property-value-001",
+        "relationship": "related-to"
+      },
+      {
+        "id": "np-001",
+        "relationship": "specialization-of",
+        "parthood": "formal",
+        "notes": "An overt determiner combines with the nominal."
+      },
+      {
+        "id": "np-def-001",
+        "relationship": "overlaps-with",
+        "overlap-dimension": "formal",
+        "notes": "The book satisfies both patterns. A book has a determiner and is indefinite. A referential bare name such as London can be definite."
+      },
+      {
+        "id": "np-indef-001",
+        "relationship": "overlaps-with",
+        "overlap-dimension": "formal",
+        "notes": "A book satisfies both patterns. The book has a determiner and is definite. The bare NP dogs in We saw dogs can be indefinite."
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 5 §4, determiner function and non-DP realizations",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "Holding the target size fixed, that size shoes and shoes that size can share a property specification. Only the first puts the property NP before the head in determiner function in CGEL’s analysis.",
+        "evidence": "CGEL provides the matching property-value forms and treats non-determinative realizations as restricted.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Noun phrases that start with a pointing or counting word",
+      "summary": "Some noun phrases begin with a small word or phrase that tells us which one or how much.",
+      "body": "In the new car, the word the points to a car we can pick out. In one new car, the word one counts it. In Ally's new car, Ally's does the same job, and in what size hat, the words what size ask about the hat.\n\nThe words that do this are all in the same slot in front of the rest of the phrase. Singular nouns like car generally need something there. Plural nouns and non-count nouns can sometimes go without it.",
+      "examples": [
+        {
+          "text": "[the new car]",
+          "from": "entry"
+        },
+        {
+          "text": "[one new car]",
+          "from": "entry"
+        },
+        {
+          "text": "[Ally's new car]",
+          "from": "entry"
+        },
+        {
+          "text": "[what size hat]",
+          "from": "entry"
+        }
+      ],
+      "try": "Take the phrase new car and add different words at the front. How does the meaning change?"
+    },
+    "teacher": {
+      "summary": "Shows that the determiner slot can be filled by different kinds of words and phrases, not only the and a.",
+      "explain": "In a determined NP, a determiner function is filled in front of a nominal, and the NP is marked as definite or indefinite. The determiner can be realized by a determinative (the, one), by a genitive NP (Ally's), or by a plain NP in interrogatives (what size hat). Singular count nominals generally require determination; bare plural and non-count nominals can be determinerless in some contexts. Following CGEL, determinative is a word category and determiner is a function. The dictionary marks this account as provisional.",
+      "terms": "The and a are determinatives, often called articles. Ally's is a genitive NP, sometimes called a possessive. Determiner function is sometimes called determination.",
+      "examples": [
+        {
+          "text": "[the new car]",
+          "from": "entry"
+        },
+        {
+          "text": "[one new car]",
+          "from": "entry"
+        },
+        {
+          "text": "[Ally's new car]",
+          "from": "entry"
+        },
+        {
+          "text": "[what size hat]",
+          "from": "entry"
+        }
+      ],
+      "watch_for": [
+        "A learner might think the only words that can fill this slot are the and a.",
+        "A learner might treat the position as a word class, when it's a function that different words and phrases can fill."
+      ],
+      "activity": "Give students a nominal such as new car. They add as many different front-slot words as they can (the, one, Ally's, my), then sort them by kind."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Determined Noun Phrase.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/np-det-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

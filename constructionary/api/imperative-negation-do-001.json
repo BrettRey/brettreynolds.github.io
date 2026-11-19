@@ -1,0 +1,193 @@
+{
+  "id": "imperative-negation-do-001",
+  "name": "Imperative Negation with do-support",
+  "pattern": "Do not/Don't + VP (imperative)",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/imperative-negation-do-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/imperative-negation-do-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/imperative-negation-do-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/imperative-negation-do-001/"
+  },
+  "entry": {
+    "id": "imperative-negation-do-001",
+    "name": "Imperative Negation with do-support",
+    "pattern": "Do not/Don't + VP (imperative)",
+    "type": "syntactic",
+    "meanings": {
+      "1": {
+        "definition": "Issues a negative directive (prohibitive imperative)",
+        "details": "Uses do-support for negation in imperatives, even when an auxiliary could negate in declaratives.",
+        "examples": [
+          {
+            "form": "[Don't] look at me.",
+            "note": "Prohibitive directive"
+          },
+          {
+            "form": "[Don't] be afraid.",
+            "note": "do-support despite auxiliary be"
+          },
+          {
+            "form": "[Don't] you look at me!",
+            "note": "Emphatic negative imperative with subject"
+          },
+          {
+            "form": "[Don't] everyone shout it out.",
+            "note": "Negative imperative with quantified subject"
+          }
+        ]
+      }
+    },
+    "constraints": [
+      {
+        "type": "syntactic",
+        "description": "Imperative clause with base-form VP."
+      },
+      {
+        "type": "structural",
+        "description": "Negation is expressed with do-support (do not/don't) in imperatives."
+      }
+    ],
+    "relatedConstructions": [
+      {
+        "id": "imperative-clause-001",
+        "relationship": "specialization-of",
+        "parthood": "formal",
+        "notes": "Negative imperative retains imperative clause type and its special do-support requirement"
+      },
+      {
+        "id": "secondary-verbal-negation-001",
+        "relationship": "related-to"
+      },
+      {
+        "id": "lets-inclusive-001",
+        "relationship": "related-to"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 9 §2.2; Ch. 10 §§9.2–9.3",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "A prohibitive imperative can use don’t with be, as in Don’t be late, while an ordinary finite declarative uses She isn’t late. The negative inclusive Let’s not leave instantiates a different imperative subtype.",
+        "evidence": "CGEL documents the distinctive imperative do distribution and the order alternatives in negatives with let’s.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Telling someone not to",
+      "summary": "To tell someone not to do something, English uses don't or do not, even with be.",
+      "body": "Don't look at me and Don't be afraid are negative commands. Don't comes first, and the rest follows.\n\nThe pattern uses don't even where a plain statement wouldn't. A statement uses She isn't late, but a negative command uses Don't be late. A speaker can add you for emphasis, as in Don't you look at me!, or use a word like everyone, as in Don't everyone shout it out.",
+      "examples": [
+        {
+          "text": "[Don't] look at me.",
+          "from": "entry"
+        },
+        {
+          "text": "[Don't] be afraid.",
+          "from": "entry"
+        },
+        {
+          "text": "[Don't] you look at me!",
+          "from": "entry"
+        },
+        {
+          "text": "[Don't] everyone shout it out.",
+          "from": "entry"
+        },
+        {
+          "text": "She isn't late.",
+          "from": "constructed"
+        }
+      ],
+      "try": "Tell a friend not to be late, then not to be noisy. Do you say don't each time?"
+    },
+    "teacher": {
+      "summary": "Teaches negative commands with don't, including the contrast with be in declaratives.",
+      "explain": "A prohibitive imperative uses do-support for negation: Don't look at me. This dictionary notes this holds even with be, where an auxiliary could negate in a declarative: Don't be afraid, against She isn't late. An overt subject can follow don't, as in the emphatic Don't you look at me! and in a quantified subject such as Don't everyone shout it out. The negative inclusive Let's not leave is a different imperative subtype. This dictionary marks its analysis as provisional.",
+      "terms": "Do-support is the usual name. Prohibitive imperative is this dictionary’s term for a negative command.",
+      "examples": [
+        {
+          "text": "[Don't] look at me.",
+          "from": "entry"
+        },
+        {
+          "text": "[Don't] be afraid.",
+          "from": "entry"
+        },
+        {
+          "text": "[Don't] you look at me!",
+          "from": "entry"
+        },
+        {
+          "text": "[Don't] everyone shout it out.",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "Don't be late.",
+          "from": "constructed",
+          "note": "Imperative with do-support despite be."
+        },
+        {
+          "text": "She isn't late.",
+          "from": "constructed",
+          "note": "Declarative negation without do."
+        }
+      ],
+      "watch_for": [
+        "A learner might negate be in an imperative as in a declarative, when this dictionary requires do-support.",
+        "A learner might treat Let's not leave as the same subtype as Don't be late.",
+        "A learner might place an overt subject before don't instead of after it."
+      ],
+      "activity": "Give students positive commands including some with be. They turn each into a negative command, then contrast with a statement such as She isn't late."
+    },
+    "child": {
+      "hook": "How do you tell someone not to do something?",
+      "explain": "You can start with Don't. Don't look at me is a negative command. Don't be afraid uses Don't too, even with be.",
+      "examples": [
+        {
+          "text": "[Don't] look at me.",
+          "from": "entry"
+        },
+        {
+          "text": "[Don't] be afraid.",
+          "from": "entry"
+        }
+      ],
+      "play": "Tell your partner five things not to do, starting with Don't. Include one with be, like Don't be late."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Imperative Negation with do-support.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/imperative-negation-do-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

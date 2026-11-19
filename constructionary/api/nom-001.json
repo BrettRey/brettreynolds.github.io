@@ -1,0 +1,204 @@
+{
+  "id": "nom-001",
+  "name": "Nominal Construction",
+  "pattern": "Optional modifiers + Required head (n-common-001 + {singular-001 | plural-001}) + Optional post modifiers/complements",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/nom-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/nom-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/nom-001/"
+  },
+  "entry": {
+    "id": "nom-001",
+    "name": "Nominal Construction",
+    "pattern": "Optional modifiers + Required head (n-common-001 + {singular-001 | plural-001}) + Optional post modifiers/complements",
+    "type": "syntactic",
+    "dimensions": {
+      "form": "Head noun with optional pre- and post-modifiers; number marking",
+      "meaning": "Descriptive content that restricts or elaborates the head's denotation",
+      "function": "Provides the core descriptive content of NP; hosts modification",
+      "distribution": "Immediately dominated by NP; can be bare in certain contexts"
+    },
+    "meanings": {
+      "1": {
+        "definition": "Specifies/restricts feature bundles",
+        "details": "Modifies/narrows the feature bundle denoted by the head",
+        "examples": [
+          {
+            "form": "wooden chair",
+            "note": "Restricts material features"
+          },
+          {
+            "form": "helpful neighbors",
+            "note": "Specifies relational features"
+          }
+        ],
+        "relations": [
+          1
+        ]
+      },
+      "2": {
+        "definition": "Elaborates relational features",
+        "details": "Extends relational aspects of feature bundle through complements",
+        "examples": [
+          {
+            "form": "mother of three",
+            "note": "Elaborates parental relation"
+          },
+          {
+            "form": "knowledge that it is true",
+            "note": "Elaborates contents of the knowledge"
+          }
+        ],
+        "relations": [
+          2
+        ]
+      }
+    },
+    "relations": {
+      "1": {
+        "construction": "nom-premod-000",
+        "type": "can-contain",
+        "parthood": "formal",
+        "notes": "Pre-head modifiers"
+      },
+      "2": {
+        "construction": "n-common-001",
+        "type": "can-contain",
+        "parthood": "formal",
+        "notes": "Head noun"
+      },
+      "3": {
+        "construction": "singular-001",
+        "type": "can-contain",
+        "parthood": "formal",
+        "notes": "Number marking"
+      },
+      "4": {
+        "construction": "plural-001",
+        "type": "can-contain",
+        "parthood": "formal",
+        "notes": "Number marking"
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "phrase-001",
+        "relationship": "specialization-of",
+        "parthood": "formal"
+      },
+      {
+        "id": "n-common-001",
+        "relationship": "contains",
+        "parthood": "formal",
+        "notes": "Nom formally contains N as head"
+      },
+      {
+        "id": "np-det-001",
+        "relationship": "interfaces-with",
+        "notes": "Nominal structure supplies the complement of the determiner function."
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 5 §§1–2, 14",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "An expansion of chair to old chair can fit inside the frame the __ without adding another determiner. The resulting old chair still normally requires a determiner as an independent singular count argument.",
+        "evidence": "CGEL distinguishes the noun-headed phrase that determination combines with from the resulting NP.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "A noun with its describing words",
+      "summary": "The part of a noun phrase made of a noun and its modifiers, not counting the word like the in front.",
+      "body": "In wooden chair, the noun chair is described by wooden. In mother of three, of three adds more about the relation. In knowledge that it is true, the clause after knowledge tells you what the knowledge is about.\n\nThis dictionary calls such a unit a nominal: a head noun with optional modifiers before it and optional modifiers or complements after it. It supplies the core description in a noun phrase. A nominal such as old chair fits in a frame like the ___ without adding another determiner.",
+      "examples": [
+        {
+          "text": "[wooden chair]",
+          "from": "entry"
+        },
+        {
+          "text": "[helpful neighbors]",
+          "from": "entry"
+        },
+        {
+          "text": "[mother of three]",
+          "from": "entry"
+        },
+        {
+          "text": "[knowledge that it is true]",
+          "from": "entry"
+        }
+      ],
+      "try": "Start with a plain noun, such as chair. How many describing words can you add before and after it?"
+    },
+    "teacher": {
+      "summary": "Explains the nominal as the head noun plus its modifiers and complements, apart from the determiner.",
+      "explain": "A nominal has a required head noun, optional pre-head modifiers and optional post-head modifiers or complements. Its descriptive content restricts or elaborates the head's denotation: wooden chair restricts material features and mother of three elaborates a relation. It is immediately dominated by the noun phrase and can be bare in certain contexts. An expansion of chair to old chair can fit inside the frame the ___ without adding another determiner, but the resulting old chair normally still requires a determiner as an independent singular count argument.",
+      "terms": "Nom is the CGEL label used here. Some generative textbooks call a comparable unit N-bar.",
+      "examples": [
+        {
+          "text": "[wooden chair]",
+          "from": "entry"
+        },
+        {
+          "text": "[mother of three]",
+          "from": "entry"
+        },
+        {
+          "text": "[knowledge that it is true]",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "the old chair",
+          "from": "constructed",
+          "note": "The determiner the plus the nominal old chair."
+        },
+        {
+          "text": "wooden chair",
+          "from": "entry",
+          "note": "A nominal with a pre-head modifier."
+        }
+      ],
+      "watch_for": [
+        "A learner might treat the determiner as part of the nominal.",
+        "A learner might assume the nominal can stand on its own as a full noun phrase, when old chair normally still needs a determiner as a singular count argument."
+      ],
+      "activity": "Students take a plain noun, add a modifier before and a complement after (chair, old chair, mother of three), and say where a determiner would go."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Nominal Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/nom-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

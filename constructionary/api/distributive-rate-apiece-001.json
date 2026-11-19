@@ -1,0 +1,150 @@
+{
+  "id": "distributive-rate-apiece-001",
+  "name": "Distributive Rate with Each or Apiece",
+  "pattern": "measure or counted NP + each/apiece, with a group supplied by context",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/distributive-rate-apiece-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/distributive-rate-apiece-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/distributive-rate-apiece-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/distributive-rate-apiece-001/"
+  },
+  "entry": {
+    "id": "distributive-rate-apiece-001",
+    "name": "Distributive Rate with Each or Apiece",
+    "pattern": "measure or counted NP + each/apiece, with a group supplied by context",
+    "type": "mixed",
+    "meanings": {
+      "1": {
+        "definition": "Assigns the stated amount to each unit or participant.",
+        "examples": [
+          {
+            "form": "The tickets cost [six dollars apiece].",
+            "note": "Constructed illustration."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "indefinite-rate-001",
+        "relationship": "related-to"
+      },
+      {
+        "id": "floating-distributive-001",
+        "relationship": "related-to"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 5 §7.4",
+        "relation": "discusses",
+        "bears-on": "projection"
+      },
+      {
+        "source": "fillmore-lee-goldman-rhomieux-2012",
+        "locator": "§4.14, rate and denominator variants",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "The six dollars is the price of an individual ticket. With six dollars altogether, the same amount instead applies to the whole set.",
+        "evidence": "See the cited discussion and the constructed illustration.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Prices and amounts per item",
+      "summary": "Words like apiece and each after an amount say the amount applies to every item or person in a group.",
+      "body": "In The tickets cost six dollars apiece, six dollars is the price of one ticket, not the price of all of them together. Apiece gives the amount to each ticket in the group.\n\nThe group isn't named in the amount phrase itself. The context supplies it, here the tickets. Each can do the same job.",
+      "examples": [
+        {
+          "text": "The tickets cost [six dollars apiece].",
+          "from": "entry"
+        },
+        {
+          "text": "The pens cost [two dollars each].",
+          "from": "constructed"
+        }
+      ],
+      "try": "Say the price of three things you know, using each or apiece after the amount."
+    },
+    "teacher": {
+      "summary": "Helps explain apiece and each after an amount as a rate assigned to each member of a group.",
+      "explain": "A measure or counted NP followed by each or apiece assigns the stated amount to each unit or participant, with the group supplied by context. In The tickets cost six dollars apiece, six dollars is the rate per ticket. The pattern is related to indefinite rates and to floating distributives.",
+      "terms": "This dictionary labels the pattern a distributive rate.",
+      "examples": [
+        {
+          "text": "The tickets cost [six dollars apiece].",
+          "from": "entry"
+        },
+        {
+          "text": "The pens cost [two dollars each].",
+          "from": "constructed"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "The tickets cost [six dollars apiece].",
+          "from": "entry",
+          "note": "The amount applies to each ticket."
+        },
+        {
+          "text": "The tickets cost six dollars altogether.",
+          "from": "constructed",
+          "note": "A total for the group, for contrast."
+        }
+      ],
+      "watch_for": [
+        "A learner might read six dollars apiece as the total for all the tickets.",
+        "A learner might look for the group in the amount phrase, when context supplies it."
+      ],
+      "activity": "Students write price tags for a class shop using each or apiece, then a partner states the total for three items."
+    },
+    "child": {
+      "hook": "If pens are two dollars each, how much is one pen?",
+      "explain": "Each and apiece tell the price of one thing. The tickets cost six dollars apiece means one ticket costs six dollars. The talk around it tells you which things.",
+      "examples": [
+        {
+          "text": "The tickets cost [six dollars apiece].",
+          "from": "entry"
+        },
+        {
+          "text": "The pens cost [two dollars each].",
+          "from": "constructed"
+        }
+      ],
+      "play": "Set up a pretend shop. Give each thing a price using each or apiece. Then tell a friend what three of them would cost."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "sketch",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags)",
+        "result": "fixed",
+        "note": "Fixed: child.explain no longer implies the group comes from an earlier sentence (the group can be named in the same sentence); cut the description of floating distributives, which the entry does not give."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Distributive Rate with Each or Apiece.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/distributive-rate-apiece-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

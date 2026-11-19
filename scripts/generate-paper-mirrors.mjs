@@ -807,7 +807,7 @@ ${entries}
 
 ## Project Pages
 
-${companionEntries ? `${companionEntries}\n` : ""}- [English Constructionary](https://brettrey.github.io/English-Constructionary/): A dictionary of English constructions in a projectibility-first Construction Grammar framework, with a curated lexicon layer of closed-class lexemes. Browsable site with per-entry formal patterns, meanings, constraints, and examples; YAML source data at https://github.com/BrettRey/English-Constructionary (MIT licence).
+${companionEntries ? `${companionEntries}\n` : ""}- [English Constructionary](https://brettreynolds.ca/constructionary/): A dictionary of English constructions in a projectibility-first Construction Grammar framework, following the categories and functions of The Cambridge Grammar of the English Language, in four editions (curious reader, teacher, linguist, child). Usage notes for machines: https://brettreynolds.ca/constructionary/llms.txt. Every entry is available as JSON and Markdown, and the whole dataset as JSONL; YAML source at https://github.com/BrettRey/English-Constructionary (text CC BY 4.0, code MIT).
 
 ## Human-Facing Pages
 

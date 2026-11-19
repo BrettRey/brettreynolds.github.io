@@ -1,0 +1,241 @@
+{
+  "id": "quasi-count-noun-001",
+  "name": "Quasi-count Plural Noun",
+  "pattern": "N[plural-only quasi-count]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/quasi-count-noun-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/quasi-count-noun-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/quasi-count-noun-001/"
+  },
+  "entry": {
+    "id": "quasi-count-noun-001",
+    "name": "Quasi-count Plural Noun",
+    "pattern": "N[plural-only quasi-count]",
+    "type": "semantic",
+    "meanings": {
+      "1": {
+        "definition": "Denotes aggregates of discrete individuals with weakened individuation, yielding a mixed countability profile",
+        "examples": [
+          {
+            "form": "many cattle",
+            "note": "Loose count property"
+          },
+          {
+            "form": "*a cattle",
+            "note": "Tight property rejected"
+          },
+          {
+            "form": "three head of cattle",
+            "note": "Specialized singulative counting frame"
+          }
+        ]
+      }
+    },
+    "constraints": [
+      {
+        "type": "syntactic",
+        "description": "Plural-only morphology with plural agreement; resists singular and a/an."
+      },
+      {
+        "type": "semantic",
+        "description": "Individuation is weakened; tight count properties (low cardinals, distributives) are degraded."
+      },
+      {
+        "type": "pragmatic",
+        "description": "Tight cardinality uses surface mainly in specialized registers."
+      }
+    ],
+    "formRefs": [
+      "quasi-count-nouns"
+    ],
+    "semanticRefs": [
+      "countability",
+      "individuation",
+      "individuation-precision"
+    ],
+    "syntacticRefs": [
+      "countability-diagnostics",
+      "countability-hierarchy"
+    ],
+    "relatedConstructions": [
+      {
+        "id": "non-count-material-construal-001",
+        "relationship": "related-to",
+        "notes": "Many cattle has a lexically restricted plural count profile. Some rabbit uses a noun productively in non-count syntax to refer to material."
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "secured": "stable",
+      "profile": {
+        "core": [
+          {
+            "property": "Plural-only morphology with loose count diagnostics",
+            "diagnostics": [
+              "many/few N",
+              "plural agreement",
+              "high round numerals"
+            ],
+            "weight": "high"
+          },
+          {
+            "property": "Rejection of tight count diagnostics",
+            "diagnostics": [
+              "a/an",
+              "low cardinals",
+              "distributives"
+            ],
+            "weight": "high"
+          }
+        ],
+        "peripheral": [
+          {
+            "property": "Functional singulative anchoring",
+            "diagnostics": [
+              "cow/officer for cattle/police",
+              "head of N"
+            ],
+            "weight": "medium"
+          }
+        ]
+      },
+      "stabilisers": [
+        {
+          "type": "entrenchment",
+          "evidence": "High-frequency quasi-count lexemes stabilize the profile."
+        },
+        {
+          "type": "functional-pressure",
+          "evidence": "Singulative reference is offloaded to functional alternatives (cow, officer)."
+        },
+        {
+          "type": "transmission",
+          "evidence": "Iterated transmission preserves the ordered dissociation pattern."
+        }
+      ],
+      "projection": {
+        "target": "Cattle admits many and plural agreement, while an individual count normally uses a classifier or counting expression such as three head of cattle. No claim about novel forms follows automatically from those facts.",
+        "evidence": "CGEL documents the restricted cardinal patterns and plural agreement of plural-only nouns.",
+        "confidence": "medium"
+      },
+      "maintenance": {
+        "perturbations": [
+          "Loss of functional singulatives pushes toward full count or non-count profiles."
+        ]
+      },
+      "variation": {
+        "activation_states": [
+          {
+            "context": "specialized counting registers",
+            "effect": "Occasional low-cardinal tokens are tolerated."
+          }
+        ],
+        "speaker_variation": "Boundary items (e.g., folks) show instability."
+      },
+      "boundaries": {
+        "overlaps_with": [
+          "grammatical-number-001",
+          "n-non-count-001"
+        ],
+        "known_boundary_items": [
+          "folks",
+          "people"
+        ]
+      },
+      "grain": {
+        "level": "meso",
+        "parent_families": [
+          "countability"
+        ]
+      },
+      "coupling": {
+        "linked_cluster": "individuation construal",
+        "mechanism": "bidirectional inference between construal and count morphosyntax"
+      }
+    },
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 5 §§3.2, 3.4, plural-only nouns",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ]
+  },
+  "editions": {
+    "curious": {
+      "title": "Plural words with no single form",
+      "summary": "Some nouns, such as cattle, are plural in form with no singular, and only partly behave like ordinary count nouns.",
+      "body": "Cattle works with many and takes plural verbs: many cattle. But it has no singular, and a cattle isn't something you say. These nouns refer to groups of separate individuals, yet they don't let us pick out one at a time in the usual way.\n\nTo count individuals, English uses a counting expression such as three head of cattle, or a different word altogether, like cow. This dictionary marks the account as provisional, though it treats the pattern as stable.",
+      "examples": [
+        {
+          "text": "[many cattle]",
+          "from": "entry"
+        },
+        {
+          "text": "[three head of cattle]",
+          "from": "entry"
+        }
+      ],
+      "try": "Try saying a cattle and then a cow. Which one lets you talk about a single animal? What would you say for several?"
+    },
+    "teacher": {
+      "summary": "Explains plural-only nouns like cattle that take many but resist a, one and low numbers.",
+      "explain": "Quasi-count plural nouns are plural-only, with plural agreement, and resist singular forms and a/an. They allow loose count diagnostics (many, few, high round numerals) but tight ones (a/an, low cardinals, distributives) are degraded. Individuals are counted with specialized frames such as three head of cattle, or by a different word (cow, officer). Tight cardinality uses surface mainly in specialized registers. This dictionary marks the account provisional and says no claim about novel forms follows automatically. Folks is a boundary item showing instability.",
+      "terms": "Related to plural-only or collective nouns in traditional grammars; this dictionary calls these quasi-count nouns, with a mixed countability profile.",
+      "examples": [
+        {
+          "text": "[many cattle]",
+          "from": "entry"
+        },
+        {
+          "text": "[three head of cattle]",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "many cattle",
+          "from": "entry",
+          "note": "Loose count property is fine."
+        },
+        {
+          "text": "a cattle",
+          "from": "entry",
+          "acceptable": false,
+          "note": "Tight count property rejected."
+        }
+      ],
+      "watch_for": [
+        "A learner might think three cattle is the standard way to count three animals, when this dictionary gives three head of cattle.",
+        "A learner might use a with cattle to refer to a single animal.",
+        "A learner might treat all plural-only nouns as having the same profile."
+      ],
+      "activity": "Students list plural-only nouns they know and test each with many, a and three, recording which tests fit."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "stable",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Quasi-count Plural Noun.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/quasi-count-noun-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "number-transparent-agreement-001",
+  "name": "Agreement through a Number-Transparent Nominal",
+  "pattern": "Clause[Subject with number-transparent N + of-PP + finite agreement]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/number-transparent-agreement-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/number-transparent-agreement-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/number-transparent-agreement-001/"
+  },
+  "entry": {
+    "id": "number-transparent-agreement-001",
+    "name": "Agreement through a Number-Transparent Nominal",
+    "pattern": "Clause[Subject with number-transparent N + of-PP + finite agreement]",
+    "type": "syntactic",
+    "meanings": {
+      "1": {
+        "definition": "Allows the number of an embedded complement to determine agreement in a licensed nominal frame.",
+        "examples": [
+          {
+            "form": "A number of applicants [were waiting].",
+            "note": "Constructed illustration."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "verb-number-agreement-001",
+        "relationship": "specialization-of",
+        "parthood": "formal"
+      },
+      {
+        "id": "measure-pseudopartitive-001",
+        "relationship": "related-to",
+        "notes": "The plural in A number of applicants were waiting follows the of-complement. Compare an amount reading with singular agreement in Three litres of milk was enough."
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 5 §18.2",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "The plural is licensed despite singular number. With the number of applicants, the nominal normally denotes the numerical quantity and takes singular agreement.",
+        "evidence": "See the cited discussion and the constructed illustration.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "When the verb follows the noun after of",
+      "summary": "In a number of applicants, the verb agrees with applicants, not with the singular word number.",
+      "body": "In A number of applicants were waiting, the word number is singular, yet the verb is plural. The verb follows the plural applicants after of.\n\nCompare The number of applicants. There, number normally names a quantity, and the verb goes with it: singular. Three litres of milk was enough works the same way, with a singular verb for an amount.",
+      "examples": [
+        {
+          "text": "A number of applicants [were waiting].",
+          "from": "entry"
+        },
+        {
+          "text": "The number of applicants was small.",
+          "from": "constructed"
+        },
+        {
+          "text": "Three litres of milk was enough.",
+          "from": "entry"
+        }
+      ],
+      "try": "Say A number of applicants were waiting. Then say The number of applicants was small. Why does the verb change?"
+    },
+    "teacher": {
+      "summary": "Explains why a plural verb can follow a singular noun like number when an of-phrase supplies the plural.",
+      "explain": "In a licensed frame, a number-transparent nominal lets the number of the embedded complement determine agreement. In A number of applicants were waiting, the plural is licensed despite the singular number, so the verb follows applicants. With the number of applicants, the nominal normally denotes a numerical quantity and takes singular agreement. Compare an amount reading with singular agreement, as in Three litres of milk was enough. This is a specialization of verb-number agreement. The dictionary marks this account as provisional.",
+      "examples": [
+        {
+          "text": "A number of applicants [were waiting].",
+          "from": "entry"
+        },
+        {
+          "text": "Three litres of milk [was] enough.",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "A number of applicants [were waiting].",
+          "from": "entry",
+          "note": "Plural agreement follows the of-complement."
+        },
+        {
+          "text": "The number of applicants [was] small.",
+          "from": "constructed",
+          "note": "Number names a quantity, so agreement is singular."
+        }
+      ],
+      "watch_for": [
+        "A learner might make the verb agree with the singular noun number in A number of applicants.",
+        "A learner might use a plural verb after the number of applicants."
+      ],
+      "activity": "Give students sentence frames with a number of and the number of. They choose the verb form, then explain which word the verb agrees with."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "sketch",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Agreement through a Number-Transparent Nominal.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/number-transparent-agreement-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

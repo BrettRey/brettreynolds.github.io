@@ -1,0 +1,144 @@
+{
+  "id": "instrumental-with-np-001",
+  "name": "Instrumental With-PP",
+  "pattern": "PP[with + instrument NP] as an adjunct",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/instrumental-with-np-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/instrumental-with-np-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/instrumental-with-np-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/instrumental-with-np-001/"
+  },
+  "entry": {
+    "id": "instrumental-with-np-001",
+    "name": "Instrumental With-PP",
+    "pattern": "PP[with + instrument NP] as an adjunct",
+    "type": "mixed",
+    "meanings": {
+      "1": {
+        "definition": "Identifies an object that mediates or enables an action.",
+        "examples": [
+          {
+            "form": "Lee opened the case [with a small screwdriver].",
+            "note": "Constructed illustration."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "pp-001",
+        "relationship": "specialization-of",
+        "parthood": "formal"
+      },
+      {
+        "id": "means-by-gerund-001",
+        "relationship": "related-to"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 8 §2.2; Ch. 7, functions of PPs",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "A screwdriver has a means role here. With the watchman can instead identify an accompanying participant under a distinct interpretation.",
+        "evidence": "See the cited discussion and the constructed illustration.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Doing something with a tool",
+      "summary": "A phrase with with and a thing can name what was used to do something.",
+      "body": "In Lee opened the case with a small screwdriver, the phrase with a small screwdriver names what Lee used. The screwdriver helped the action happen.\n\nThe same words with can introduce someone who came along, as in with the watchman. That's a different meaning, so the sentence around it matters.",
+      "examples": [
+        {
+          "text": "Lee opened the case [with a small screwdriver].",
+          "from": "entry"
+        },
+        {
+          "text": "She stirred the soup [with a wooden spoon].",
+          "from": "constructed"
+        }
+      ],
+      "try": "Say Lee opened the case with a screwdriver, then Lee opened the case with the watchman. How does the meaning of with change?"
+    },
+    "teacher": {
+      "summary": "Covers with plus a noun phrase naming the instrument used in an action.",
+      "explain": "The pattern is a prepositional phrase of with plus an instrument noun phrase, used as an adjunct. It identifies an object that mediates or enables an action: in Lee opened the case with a small screwdriver, the screwdriver has a means role. With the watchman can instead identify an accompanying participant, which is a distinct interpretation. This dictionary treats the phrase as a specialization of the prepositional phrase and relates it to by plus gerund means phrases. It is provisional.",
+      "terms": "Traditionally called an adverbial of instrument. This dictionary treats it as an adjunct prepositional phrase.",
+      "examples": [
+        {
+          "text": "Lee opened the case [with a small screwdriver].",
+          "from": "entry"
+        },
+        {
+          "text": "She stirred the soup [with a wooden spoon].",
+          "from": "constructed"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "Lee opened the case with a small screwdriver.",
+          "from": "entry",
+          "note": "The with-phrase names the means."
+        },
+        {
+          "text": "Lee opened the case with the watchman.",
+          "from": "constructed",
+          "note": "Can identify an accompanying participant."
+        }
+      ],
+      "watch_for": [
+        "A learner might read with the watchman as naming a tool.",
+        "A learner might think every with-phrase names an accompanying person."
+      ],
+      "activity": "Students ask How did you do it? about classroom actions and answer with with plus a tool. They then replace the tool with a person and discuss how the meaning shifts."
+    },
+    "child": {
+      "hook": "What do you use to do things, and how do you say it?",
+      "explain": "With can name a tool you used. Lee opened the case with a small screwdriver. The screwdriver is what helped him do it.",
+      "examples": [
+        {
+          "text": "Lee opened the case [with a small screwdriver].",
+          "from": "entry"
+        },
+        {
+          "text": "I drew the picture [with a blue pen].",
+          "from": "constructed"
+        }
+      ],
+      "play": "Act out a job without saying the tool. A partner says what you did, ending with the tool, such as \"with a spoon.\""
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "sketch",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Instrumental With-PP.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/instrumental-with-np-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "id": "fused-determiner-head-001",
+  "name": "Fused Determiner-Head Construction",
+  "pattern": "NP[DP in fused-head function]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/fused-determiner-head-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/fused-determiner-head-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/fused-determiner-head-001/"
+  },
+  "entry": {
+    "id": "fused-determiner-head-001",
+    "name": "Fused Determiner-Head Construction",
+    "pattern": "NP[DP in fused-head function]",
+    "type": "syntactic",
+    "dimensions": {
+      "form": "DP with no following nominal head",
+      "meaning": "Quantity, identity, or person reference with the head interpretation recovered anaphorically, from a partitive complement, or from the determinative's own content",
+      "function": "Determiner and head functions fused in one constituent",
+      "distribution": "Any NP position; may license a partitive of-complement"
+    },
+    "meanings": {
+      "1": {
+        "definition": "A DP functions simultaneously as determiner and head of the NP, with no separate nominal head",
+        "details": "CGEL Ch. 5 §9. Covers anaphoric uses, partitives, the compound determinatives in -body/-one/-thing/-where (traditional 'indefinite pronouns'), and demonstratives standing alone. These are not pronouns; the category stays determinative while the head function is fused. This entry is a determiner-head subtype of the broader fused-head construction. Contested: Reynolds, Determinatives as nouns in English (under review at ELL; LingBuzz 009939), analyzes determinatives as a fourth noun subclass, with simple independent uses (Some left) as ordinary Head rather than fused Det-Head, narrowing fusion to a residue. If adopted, this entry shrinks accordingly.",
+        "examples": [
+          {
+            "form": "She bought twenty books, but I bought [twenty-two].",
+            "note": "Anaphoric fused head (numerative)"
+          },
+          {
+            "form": "We liked [none] of them.",
+            "note": "Partitive; independent form of the determinative no"
+          },
+          {
+            "form": "[Everybody] left early.",
+            "note": "Compound determinative, not an indefinite pronoun"
+          },
+          {
+            "form": "[Those] are mine.",
+            "note": "Demonstrative determinative standing alone, not a demonstrative pronoun"
+          }
+        ]
+      }
+    },
+    "constraints": [
+      {
+        "type": "syntactic",
+        "description": "The fused element is a DP; NPs headed by pronouns are a different construction (np-pron-001)."
+      }
+    ],
+    "syntacticRefs": [
+      "one-substitution"
+    ],
+    "relatedConstructions": [
+      {
+        "id": "fused-head-001",
+        "relationship": "specialization-of",
+        "parthood": "formal",
+        "notes": "Determinative-head subtype of the broader fused-head family"
+      },
+      {
+        "id": "absolute-negator-determinative-001",
+        "relationship": "related-to",
+        "notes": "Absolute negators standing alone as NPs instantiate this construction"
+      },
+      {
+        "id": "true-partitive-001",
+        "relationship": "related-to"
+      },
+      {
+        "id": "pro-nominal-one-001",
+        "relationship": "related-to"
+      }
+    ],
+    "lexiconRefs": [
+      "gold/determinatives"
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 5 §§9.2, 9.5; Ch. 17 §6.1",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "Several of these can serve as an argument without an overt nominal following several. Some of the fruit admits a non-count partitive domain. Several of the fruit does not admit that same reading. A determiner-like expression as an entire NP need not uniformly be anaphoric.",
+        "evidence": "CGEL tests partitive complements and non-anaphoric special readings. The head analysis is the one adopted in this record and alternatives are separately noted.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Words like twenty-two or everybody standing alone",
+      "summary": "Some words that normally come before a noun can fill a whole noun phrase by themselves.",
+      "body": "In She bought twenty books, but I bought twenty-two, the word twenty-two stands alone: no noun follows it. Words like none, everybody and those do the same in We liked none of them, Everybody left early and Those are mine. What each one stands for comes from earlier in the sentence, from an of phrase after it, or from the word's own meaning.\n\nThese words belong to the class this dictionary calls determinatives, the class that includes the, some and those. They aren't treated as pronouns here. One competing analysis, noted in this dictionary, would treat some of these uses as ordinary nouns; if that were adopted, this pattern would shrink.",
+      "examples": [
+        {
+          "text": "She bought twenty books, but I bought [twenty-two].",
+          "from": "entry"
+        },
+        {
+          "text": "We liked [none] of them.",
+          "from": "entry"
+        },
+        {
+          "text": "[Everybody] left early.",
+          "from": "entry"
+        },
+        {
+          "text": "[Those] are mine.",
+          "from": "entry"
+        }
+      ],
+      "try": "In She bought twenty books, but I bought twenty-two, what are the twenty-two? Where in the sentence does that come from?"
+    },
+    "teacher": {
+      "summary": "For advanced classes: determinatives like twenty-two, none, everybody and those standing alone as a whole NP.",
+      "explain": "In a fused determiner-head NP, a determinative phrase serves as determiner and head at once, with no separate nominal head: bought twenty-two, liked none of them, Everybody left early, Those are mine. The head interpretation is recovered anaphorically, from a partitive complement, or from the determinative's own content. The word stays a determinative; these are not pronouns, and NPs headed by pronouns are a different construction. This dictionary covers anaphoric uses, partitives, the compound determinatives in -body/-one/-thing/-where and standalone demonstratives. It's contested: another analysis treats simple independent uses (Some left) as ordinary Head, which would narrow fusion to a residue.",
+      "terms": "Traditional grammar calls everybody an indefinite pronoun and those a demonstrative pronoun. This grammar calls both determinatives. Fused head is the CGEL analysis.",
+      "examples": [
+        {
+          "text": "She bought twenty books, but I bought [twenty-two].",
+          "from": "entry"
+        },
+        {
+          "text": "We liked [none] of them.",
+          "from": "entry"
+        },
+        {
+          "text": "[Everybody] left early.",
+          "from": "entry"
+        },
+        {
+          "text": "[Those] are mine.",
+          "from": "entry"
+        }
+      ],
+      "watch_for": [
+        "A learner might label everybody or those a pronoun, when this dictionary keeps them as determinatives.",
+        "A learner might look for a missing noun after Everybody, though the meaning comes from the word itself.",
+        "A learner might assume a determinative standing alone must recover its meaning from earlier text, when this dictionary says it need not be uniformly anaphoric."
+      ],
+      "activity": "Students collect standalone determinatives from a short text (some, none, everybody, those, twenty-two). For each, they say where its meaning comes from: earlier text, an of phrase, or the word itself."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Fused Determiner-Head Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/fused-determiner-head-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

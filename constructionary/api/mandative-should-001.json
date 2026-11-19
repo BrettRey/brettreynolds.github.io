@@ -1,0 +1,115 @@
+{
+  "id": "mandative-should-001",
+  "name": "Mandative Should",
+  "pattern": "content clause[(that) + Subject + should + plain-form VP]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/mandative-should-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/mandative-should-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/mandative-should-001/"
+  },
+  "entry": {
+    "id": "mandative-should-001",
+    "name": "Mandative Should",
+    "pattern": "content clause[(that) + Subject + should + plain-form VP]",
+    "type": "mixed",
+    "meanings": {
+      "1": {
+        "definition": "Realizes a requirement or recommendation with a specialized modal.",
+        "examples": [
+          {
+            "form": "It is essential [that the gate should remain closed].",
+            "note": "Constructed illustration."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "declarative-content-clause-001",
+        "relationship": "specialization-of",
+        "parthood": "formal"
+      },
+      {
+        "id": "subjunctive-mandative-001",
+        "relationship": "alternates-with"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 11 §7.1.1",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "Should is possible with strongly requiring predicates such as essential. This modal need not weaken the strength of the matrix requirement.",
+        "evidence": "See the cited discussion and the constructed illustration.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Should after a strong requirement",
+      "summary": "After a word that states a strong requirement, a that-clause can use should to say what is required.",
+      "body": "In It is essential that the gate should remain closed, the should is part of the requirement. The clause after that tells us what has to happen to the gate.\n\nA word like essential strongly requires something, and should can follow it in this way. The should doesn't weaken the requirement. It doesn't turn the sentence into a mild piece of advice.\n\nThis dictionary also has a related entry for a version without should, which can replace it in the same kind of sentence.",
+      "examples": [
+        {
+          "text": "It is essential [that the gate should remain closed].",
+          "from": "entry"
+        }
+      ],
+      "try": "Say It is essential that the gate should remain closed. Is the requirement strong or weak?"
+    },
+    "teacher": {
+      "summary": "Helps explain should in that-clauses after strongly requiring words like essential, and why it doesn't soften the requirement.",
+      "explain": "In a mandative content clause, should can follow the subject and take a plain-form VP: that the gate should remain closed. The pattern realizes a requirement or recommendation. Should is possible with strongly requiring predicates such as essential, and the modal need not weaken the strength of the matrix requirement. This dictionary has a separate entry for the alternating form without should. This dictionary marks the analysis as provisional and short.",
+      "terms": "Mandative construction is the usual name. The related form without should is called the subjunctive mandative in this dictionary.",
+      "examples": [
+        {
+          "text": "It is essential [that the gate should remain closed].",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "It is essential that the gate should remain closed.",
+          "from": "entry",
+          "note": "Strongly requiring predicate with should; the requirement isn't weakened."
+        }
+      ],
+      "watch_for": [
+        "A learner might hear should as mild advice, when here it need not weaken the strength of the requirement.",
+        "A learner might read should as a prediction about the gate, when it states what is required."
+      ],
+      "activity": "Students complete sentences beginning It is essential that ... with a subject and should plus a plain verb, then discuss how strong each requirement feels."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "sketch",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Mandative Should.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/mandative-should-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

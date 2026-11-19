@@ -1,0 +1,132 @@
+{
+  "id": "auxiliary-chain-001",
+  "name": "Ordered Auxiliary Chain",
+  "pattern": "VP[(modal) + (perfect have + past participle) + (progressive be + gerund-participle) + (passive be + past participle)]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/auxiliary-chain-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/auxiliary-chain-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/auxiliary-chain-001/"
+  },
+  "entry": {
+    "id": "auxiliary-chain-001",
+    "name": "Ordered Auxiliary Chain",
+    "pattern": "VP[(modal) + (perfect have + past participle) + (progressive be + gerund-participle) + (passive be + past participle)]",
+    "type": "syntactic",
+    "meanings": {
+      "1": {
+        "definition": "Composes several auxiliaries with locally selected verb forms and restricted relative order.",
+        "examples": [
+          {
+            "form": "It [might have been being repaired].",
+            "note": "Constructed illustration."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "vp-001",
+        "relationship": "specialization-of",
+        "parthood": "formal"
+      },
+      {
+        "id": "modal-plain-complement-001",
+        "relationship": "contains",
+        "parthood": "formal"
+      },
+      {
+        "id": "perfect-have-001",
+        "relationship": "interfaces-with",
+        "notes": "In may have been waiting, perfect have follows the modal and selects the past-participial form been."
+      },
+      {
+        "id": "progressive-ing-001",
+        "relationship": "interfaces-with",
+        "notes": "In has been waiting, progressive be follows perfect have and takes a gerund-participle."
+      },
+      {
+        "id": "be-passive-001",
+        "relationship": "interfaces-with",
+        "notes": "In is being repaired, passive be follows progressive be and selects a past participle. The form being is selected by the progressive."
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 3 §2.3",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "Each auxiliary determines the immediately following form. The components normally retain the modal–perfect–progressive–passive order even when intermediate components are omitted.",
+        "evidence": "See the cited discussion and the constructed illustration.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Helper verbs in a fixed order",
+      "summary": "When several helper verbs come before a main verb, each shapes the next, and they keep a set order.",
+      "body": "In It might have been being repaired, four helper-style words come before the main verb: might, have, been and being. Each one decides the form of the word right after it. After have comes been, and after the progressive be comes being.\n\nThe helpers keep a fixed order: first a modal like might, then perfect have, then progressive be, then passive be. Some can be left out, but the ones that remain keep that order.",
+      "examples": [
+        {
+          "text": "It [might have been being repaired].",
+          "from": "entry"
+        },
+        {
+          "text": "[may have been waiting]",
+          "from": "entry"
+        }
+      ],
+      "try": "Build a sentence with just two helpers, such as may have waited. Then try adding a third helper in the same order."
+    },
+    "teacher": {
+      "summary": "For advanced classes, the chain of auxiliaries and the verb form each one selects.",
+      "explain": "The auxiliary chain is a VP in which up to four components appear in a fixed order: a modal, perfect have with a past participle, progressive be with a gerund-participle, and passive be with a past participle. Each auxiliary determines the form immediately following it. In may have been waiting, perfect have follows the modal and selects been. In has been waiting, progressive be follows perfect have and takes a gerund-participle. In is being repaired, passive be follows progressive be, and the progressive selects the form being. The order is kept when intermediate components are omitted.",
+      "terms": "This dictionary’s four components are modal, perfect have, progressive be and passive be. Gerund-participle is the -ing form.",
+      "examples": [
+        {
+          "text": "It [might have been being repaired].",
+          "from": "entry"
+        },
+        {
+          "text": "[may have been waiting]",
+          "from": "entry"
+        }
+      ],
+      "watch_for": [
+        "A learner might expect each auxiliary to take the same verb form, when each selects the form that follows it.",
+        "A learner might think being and been are the same, when the perfect selects the past participle and the progressive selects the gerund-participle."
+      ],
+      "activity": "Give students word cards (might, have, been, being, repaired). They arrange them into the longest acceptable chain, then drop one auxiliary and check that the order still holds."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "sketch",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Ordered Auxiliary Chain.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/auxiliary-chain-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "id": "evaluative-sentence-adverb-001",
+  "name": "Clause-Orientated Evaluative Adjunct",
+  "pattern": "evaluative AdvP + clause, often separated prosodically",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/evaluative-sentence-adverb-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/evaluative-sentence-adverb-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/evaluative-sentence-adverb-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/evaluative-sentence-adverb-001/"
+  },
+  "entry": {
+    "id": "evaluative-sentence-adverb-001",
+    "name": "Clause-Orientated Evaluative Adjunct",
+    "pattern": "evaluative AdvP + clause, often separated prosodically",
+    "type": "mixed",
+    "meanings": {
+      "1": {
+        "definition": "Expresses the speaker’s evaluation of the reported situation.",
+        "examples": [
+          {
+            "form": "[Fortunately], the backup worked.",
+            "note": "Constructed illustration."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "evidential-because-001",
+        "relationship": "related-to"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 8 §17",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "Fortunately evaluates the situation as a whole. It does not describe a fortunate manner in which the backup operated.",
+        "evidence": "See the cited discussion and the constructed illustration.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Showing how you feel about what happened",
+      "summary": "An adverb such as fortunately can open a sentence and express the speaker's evaluation of what is reported.",
+      "body": "In Fortunately, the backup worked, the word fortunately doesn't describe how the backup worked. It shows how the speaker feels about the fact that it worked. The evaluation is attached to the whole reported situation.\n\nThese adverbs are often separated from the rest of the sentence by a pause in speech.",
+      "examples": [
+        {
+          "text": "[Fortunately], the backup worked.",
+          "from": "entry"
+        },
+        {
+          "text": "[Sadly], the party ended early.",
+          "from": "constructed"
+        }
+      ],
+      "try": "Start a sentence about something that happened today with a word that shows how you feel about it."
+    },
+    "teacher": {
+      "summary": "Helps explain a clause-initial adverb that gives the speaker's evaluation of the situation.",
+      "explain": "An evaluative adverb phrase before a clause expresses the speaker's evaluation of the reported situation. In Fortunately, the backup worked, the adverb is the speaker's assessment of the whole situation. This dictionary says it is often separated prosodically from the clause, and relates the pattern to evidential because.",
+      "terms": "This dictionary calls it a clause-orientated evaluative adjunct.",
+      "examples": [
+        {
+          "text": "[Fortunately], the backup worked.",
+          "from": "entry"
+        },
+        {
+          "text": "[Sadly], the party ended early.",
+          "from": "constructed"
+        }
+      ],
+      "watch_for": [
+        "A learner might read fortunately as describing how the backup worked, when it gives the speaker's view of the situation."
+      ],
+      "activity": "Give students short events (the bus came, the test was cancelled). They add an evaluative adverb at the start and say what the speaker thinks."
+    },
+    "child": {
+      "hook": "What word shows how you feel about something that happened?",
+      "explain": "A word like fortunately can start a sentence. It shows how the speaker feels about what happened. Fortunately, the backup worked.",
+      "examples": [
+        {
+          "text": "[Fortunately], the backup worked.",
+          "from": "entry"
+        },
+        {
+          "text": "[Luckily], the rain stopped.",
+          "from": "constructed"
+        }
+      ],
+      "play": "Say something that happened today. Start it with a word that shows how you feel about it."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "sketch",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Clause-Orientated Evaluative Adjunct.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/evaluative-sentence-adverb-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

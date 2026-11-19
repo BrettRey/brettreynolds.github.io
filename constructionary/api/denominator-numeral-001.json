@@ -1,0 +1,184 @@
+{
+  "id": "denominator-numeral-001",
+  "name": "Denominator Numeral Construction",
+  "pattern": "Det + N[cardinal]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/denominator-numeral-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/denominator-numeral-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/denominator-numeral-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/denominator-numeral-001/"
+  },
+  "entry": {
+    "id": "denominator-numeral-001",
+    "name": "Denominator Numeral Construction",
+    "pattern": "Det + N[cardinal]",
+    "type": "syntactic",
+    "dimensions": {
+      "form": "Cardinal noun with determiner; may take plural morphology",
+      "meaning": "Denotes a token of a numerical type (score, label, symbol)",
+      "function": "Refers to instances of numerals as objects",
+      "distribution": "Object position; count noun syntax"
+    },
+    "meanings": {
+      "1": {
+        "definition": "Cardinal noun denotes a token numeral (score, written symbol, etc.)",
+        "examples": [
+          {
+            "form": "I rolled [a ten].",
+            "note": "Numeral as game score"
+          },
+          {
+            "form": "She drew [three tens].",
+            "note": "Plural cardinal noun for multiple tokens"
+          },
+          {
+            "form": "That's [a perfect ten].",
+            "note": "Rating/score use"
+          }
+        ]
+      }
+    },
+    "constraints": [
+      {
+        "type": "syntactic",
+        "description": "Behaves as count noun; takes determiners and plural morphology."
+      },
+      {
+        "type": "semantic",
+        "description": "Denotes a token or instance of a numeral, not an abstract number."
+      }
+    ],
+    "semanticRefs": [
+      "cardinality",
+      "reference"
+    ],
+    "relatedConstructions": [
+      {
+        "id": "cardinal-noun-001",
+        "relationship": "specialization-of"
+      },
+      {
+        "id": "n-common-001",
+        "relationship": "related-to"
+      },
+      {
+        "id": "cardinal-determinative-001",
+        "relationship": "related-to"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "reynolds-2026-numerals",
+        "locator": "§5, Tables 1–2, denominator use",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "I rolled three tens describes three tokens of the value ten, rather than a count of ten objects. The lexical noun takes its own plural marking and appears under a separate cardinal determiner.",
+        "evidence": "The numeral paper distinguishes the count noun for a token or score from arithmetic name and quantificational uses.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "A ten, three tens",
+      "summary": "A number word can work like an ordinary noun, naming an instance of a number such as a score.",
+      "body": "In I rolled a ten, the word ten isn't counting anything. It names a score of ten. It behaves like an ordinary noun: it has a determiner, a, and it can be plural, as in She drew three tens.\n\nThree tens means three instances of the value ten, not ten objects. The same works for ratings, as in That's a perfect ten. This dictionary treats the analysis as provisional.",
+      "examples": [
+        {
+          "text": "I rolled [a ten].",
+          "from": "entry"
+        },
+        {
+          "text": "She drew [three tens].",
+          "from": "entry"
+        },
+        {
+          "text": "That's [a perfect ten].",
+          "from": "entry"
+        }
+      ],
+      "try": "Think of a game or contest with scores. How would you name a score of seven as an item, with a before it?"
+    },
+    "teacher": {
+      "summary": "Helps explain number words used as count nouns, such as a ten and three tens.",
+      "explain": "In this use, a cardinal functions as a noun denoting a token or instance of a numeral (a score, a label, a written symbol), not an abstract number. It behaves as a count noun: it takes determiners and plural morphology. I rolled three tens describes three tokens of the value ten, not a count of ten objects. The noun takes its own plural marking and appears under a separate cardinal determinative, as in three tens. The analysis is provisional.",
+      "terms": "Cardinal here is a noun, not the determinative use of a number as in three dogs.",
+      "examples": [
+        {
+          "text": "I rolled [a ten].",
+          "from": "entry"
+        },
+        {
+          "text": "She drew [three tens].",
+          "from": "entry"
+        },
+        {
+          "text": "That's [a perfect ten].",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "I rolled three tens.",
+          "from": "entry",
+          "note": "Three tokens of the value ten."
+        },
+        {
+          "text": "I rolled ten dice.",
+          "from": "constructed",
+          "note": "Ten is a determinative counting objects."
+        }
+      ],
+      "watch_for": [
+        "A learner might read three tens as ten objects counted three times, when it means three tokens of the value ten.",
+        "A learner might think a cardinal cannot take a plural ending when it is used as a noun."
+      ],
+      "activity": "Students play a dice or card game and describe their results with a number noun (I rolled a six, I drew two fives). They then say whether the number counts objects or names a score."
+    },
+    "child": {
+      "hook": "Can a number word have a plural, like tens?",
+      "explain": "A number can name a score or a card. I rolled a ten. You can even add an s, as in three tens. That means three of them, each one a ten.",
+      "examples": [
+        {
+          "text": "I rolled [a ten].",
+          "from": "entry"
+        },
+        {
+          "text": "She drew [three tens].",
+          "from": "entry"
+        }
+      ],
+      "play": "Roll two dice or draw cards a few times. Describe each result with a number word, like a six. If you get the same number twice, give it an s."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags)",
+        "result": "fixed",
+        "note": "Fixed: child.explain no longer says the three tens are rolls (the entry's example is a card draw); curious.body now says 'a score of ten'; cut the unsupported traditional-names sentence in teacher.terms."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Denominator Numeral Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/denominator-numeral-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

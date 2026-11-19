@@ -1,0 +1,145 @@
+{
+  "id": "had-it-up-to-here-001",
+  "name": "Have Had It Up to Here",
+  "pattern": "Clause[experiencer + perfect have had it up to here + (with + stimulus NP)]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/had-it-up-to-here-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/had-it-up-to-here-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/had-it-up-to-here-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/had-it-up-to-here-001/"
+  },
+  "entry": {
+    "id": "had-it-up-to-here-001",
+    "name": "Have Had It Up to Here",
+    "pattern": "Clause[experiencer + perfect have had it up to here + (with + stimulus NP)]",
+    "type": "mixed",
+    "meanings": {
+      "1": {
+        "definition": "Presents the speaker or reported experiencer as having reached a limit of tolerance.",
+        "details": "Here locates a figurative threshold. A gesture can give it a physical locus, and the idiom is also available in writing. The with-phrase can identify what has become intolerable. A literal liquid-level description lacks the experiencer and tolerance interpretation.",
+        "examples": [
+          {
+            "form": "We have [had it up to here with typical politicians].",
+            "note": "Excerpt from the annotated FAU example with an explicit stimulus.",
+            "grounds": [
+              {
+                "source": "fau-iabdounane-up-to-here",
+                "locator": "verbal pattern, example A",
+                "relation": "attests",
+                "bears-on": "attestation"
+              }
+            ]
+          },
+          {
+            "form": "[I’ve had it up to here].",
+            "note": "Constructed example where the stimulus is clear in context."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "vp-001",
+        "relationship": "related-to",
+        "notes": "The core verbal expression has a largely fixed lexical form."
+      },
+      {
+        "id": "perfect-have-001",
+        "relationship": "related-to",
+        "notes": "The canonical form of this idiom has perfect have."
+      }
+    ],
+    "grounds": [
+      {
+        "source": "fau-iabdounane-up-to-here",
+        "locator": "verbal pattern and inherited gesture variants",
+        "relation": "discusses",
+        "bears-on": "projection",
+        "note": "Records the negative-stimulus role and the threshold reading."
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "The with-phrase identifies the source of frustration. An optional height gesture can highlight the threshold, while a distance phrase does not freely substitute for here with the same idiomatic reading.",
+        "evidence": "The FAU records distinguish the verbal idiom from two established gesture combinations and give an example with an explicit with-phrase.",
+        "confidence": "high"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "I've had it up to here",
+      "summary": "Have had it up to here says someone has reached the limit of what they can put up with, and with names the cause.",
+      "body": "I've had it up to here doesn't describe a liquid level. It says the speaker has reached a limit of tolerance, with here marking a figurative line. A gesture can show where that line is.\n\nA with-phrase can say what has become too much: We have had it up to here with typical politicians. The expression is also available in writing, and a literal description of liquid height lacks the tolerance meaning.",
+      "examples": [
+        {
+          "text": "We have [had it up to here with typical politicians].",
+          "from": "entry"
+        },
+        {
+          "text": "[I've had it up to here].",
+          "from": "entry"
+        }
+      ],
+      "try": "Say I've had it up to here with ... and hold a hand at a height. Does the gesture change how strong it sounds?"
+    },
+    "teacher": {
+      "summary": "An idiom for reaching the limit of tolerance, with an optional with-phrase naming the cause.",
+      "explain": "The idiom is perfect have plus had it up to here, optionally followed by a with-phrase: We have had it up to here with typical politicians. It presents the speaker or a reported experiencer as having reached a limit of tolerance. Here locates a figurative threshold, which a gesture can give a physical locus. The with-phrase identifies the source of frustration. A distance phrase does not freely substitute for here with the same idiomatic reading, and a literal liquid-level description lacks the experiencer and tolerance interpretation. This dictionary says the core expression has a largely fixed lexical form.",
+      "terms": "Idiom is the usual word. This dictionary calls the with-phrase's referent the stimulus.",
+      "examples": [
+        {
+          "text": "We have [had it up to here with typical politicians].",
+          "from": "entry"
+        },
+        {
+          "text": "[I've had it up to here].",
+          "from": "entry"
+        }
+      ],
+      "watch_for": [
+        "A learner might read it as a literal measurement of where something reaches.",
+        "A learner might replace here with a distance phrase and expect the same idiomatic reading.",
+        "A learner might leave out the perfect have, though this dictionary gives that as the canonical form."
+      ],
+      "activity": "Give students a list of annoyances (a noisy neighbour, a late bus). They write I've had it up to here with ... for each, then compare a literal sentence about water height to the idiom."
+    },
+    "child": {
+      "hook": "What does it mean to have had it up to here?",
+      "explain": "This means you can't put up with something any more. A hand held up high can show where your limit is. I've had it up to here with the noise.",
+      "examples": [
+        {
+          "text": "[I've had it up to here with the noise].",
+          "from": "constructed"
+        }
+      ],
+      "play": "Hold your hand up high and say you've had it up to here with something silly, like broken pencils."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags)",
+        "result": "fixed",
+        "note": "Fixed: child explanation now says a raised hand shows where your limit is, not how full you are (which could suggest food); 'the entry' replaced by 'this dictionary'."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Have Had It Up to Here.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/had-it-up-to-here-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

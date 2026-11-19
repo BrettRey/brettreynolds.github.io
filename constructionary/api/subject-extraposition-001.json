@@ -1,0 +1,182 @@
+{
+  "id": "subject-extraposition-001",
+  "name": "Subject Extraposition",
+  "pattern": "Clause[Subject:dummy it + VP[... + extraposed content clause or infinitival]]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/subject-extraposition-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/subject-extraposition-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/subject-extraposition-001/"
+  },
+  "entry": {
+    "id": "subject-extraposition-001",
+    "name": "Subject Extraposition",
+    "pattern": "Clause[Subject:dummy it + VP[... + extraposed content clause or infinitival]]",
+    "type": "mixed",
+    "meanings": {
+      "1": {
+        "definition": "Puts the situation under discussion after the predicate, leaving dummy it in subject position.",
+        "details": "A that-clause, an interrogative clause, or an infinitival may occur in the later position. The basic initial-clause version is often less natural when the information is presented as new. A referential NP does not ordinarily alternate in this way. In a right dislocation like It’s fascinating, this book, it refers to the book.",
+        "examples": [
+          {
+            "form": "[It worries me that he hasn’t phoned.]",
+            "note": "Compare the basic That he hasn’t phoned worries me.",
+            "grounds": [
+              {
+                "source": "cgel-2002",
+                "locator": "Ch. 16 §7.1 [1i]",
+                "relation": "attests",
+                "bears-on": "attestation"
+              }
+            ]
+          },
+          {
+            "form": "[It is unclear why she told him.]",
+            "note": "Interrogative in the later position.",
+            "grounds": [
+              {
+                "source": "cgel-2002",
+                "locator": "Ch. 16 §7.1 [1ii]",
+                "relation": "attests",
+                "bears-on": "attestation"
+              }
+            ]
+          },
+          {
+            "form": "[It would be pointless to resist.]",
+            "note": "Infinitival in the later position.",
+            "grounds": [
+              {
+                "source": "cgel-2002",
+                "locator": "Ch. 16 §7.1 [1iii]",
+                "relation": "attests",
+                "bears-on": "attestation"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "clause-001",
+        "relationship": "specialization-of",
+        "notes": "The matrix clause has its own subject and predicate."
+      },
+      {
+        "id": "right-dislocation-001",
+        "relationship": "related-to",
+        "notes": "The pronoun is referential in the dislocated NP construction."
+      },
+      {
+        "id": "complement-it-extraposition-001",
+        "relationship": "related-to",
+        "notes": "In It surprised me that Jo left, dummy it is subject. In I find it surprising that Jo left, it is object and the content clause follows the predicative."
+      }
+    ],
+    "grounds": [
+      {
+        "source": "casa-constructicon",
+        "locator": "records 51–52",
+        "relation": "discusses",
+        "bears-on": "projection",
+        "note": "Lists finite and infinitival patterns with dummy it."
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "A clause can appear after the predicate with dummy it. The same predicate need not allow an ordinary NP in that position. Extraposition is especially useful with newly introduced information.",
+        "evidence": "CGEL gives matched clauses, an excluded ordinary NP, and an attested text opening. CASA lists finite and infinitival forms separately.",
+        "confidence": "high"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Saving the clause for the end",
+      "summary": "A sentence can start with it and put a clause after the verb to say what the situation is.",
+      "body": "Instead of saying That he hasn't phoned worries me, we can say It worries me that he hasn't phoned. The clause that tells what the worry is about moves to the end, and the small word it fills the subject spot as a stand-in with nothing of its own to refer to.\n\nThe later part can be a that-clause, a question clause or a to-phrase. This dictionary points out that the version with the clause up front is often less natural when the information is new.\n\nThis dictionary marks the analysis as provisional.",
+      "examples": [
+        {
+          "text": "[It worries me that he hasn't phoned.]",
+          "from": "entry"
+        },
+        {
+          "text": "[It is unclear why she told him.]",
+          "from": "entry"
+        },
+        {
+          "text": "[It would be pointless to resist.]",
+          "from": "entry"
+        }
+      ],
+      "try": "Take It would be pointless to resist and try putting the to-phrase at the start. Which version fits better when you tell someone a piece of news?"
+    },
+    "teacher": {
+      "summary": "Teaches the it ... that/to pattern and how to tell dummy it from a pronoun that refers.",
+      "explain": "The matrix subject is dummy it, and the situation under discussion comes after the predicate as an extraposed content clause or infinitival. A that-clause, an interrogative clause or a to-infinitival may occur in the later position. The basic initial-clause version is often less natural when the information is presented as new. A referential NP doesn't ordinarily alternate in this way. Dummy it has no referent. This differs from right dislocation, where the pronoun does refer to the dislocated noun phrase. This dictionary marks the analysis as provisional, with high confidence.",
+      "terms": "CGEL: extraposition with dummy it. Textbooks sometimes call this anticipatory or expletive it.",
+      "examples": [
+        {
+          "text": "[It worries me that he hasn't phoned.]",
+          "from": "entry"
+        },
+        {
+          "text": "[It is unclear why she told him.]",
+          "from": "entry"
+        },
+        {
+          "text": "[It would be pointless to resist.]",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "That he hasn't phoned worries me.",
+          "from": "entry",
+          "note": "The basic version, with the clause in subject position."
+        },
+        {
+          "text": "It surprised me that Jo left.",
+          "from": "entry",
+          "note": "Dummy it is the subject of the matrix clause."
+        },
+        {
+          "text": "I find it surprising that Jo left.",
+          "from": "entry",
+          "note": "Here it is an object and the clause follows the predicative; a separate pattern."
+        }
+      ],
+      "watch_for": [
+        "A learner might look for a noun that it stands for, when dummy it refers to nothing.",
+        "A learner might mix up It surprised me that Jo left with I find it surprising that Jo left, where it is an object."
+      ],
+      "activity": "Students are given sentences with a clause at the start and rewrite them with it and the clause at the end. They then decide which version sounds better when the news is new."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags)",
+        "result": "fixed",
+        "note": "Fixed: curious summary no longer calls the later clause the real subject (this dictionary keeps dummy it as the subject); teacher summary no longer calls the pattern common (no frequency claim in this dictionary). Also fixed (unflagged): 'the entry' wording."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Subject Extraposition.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/subject-extraposition-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

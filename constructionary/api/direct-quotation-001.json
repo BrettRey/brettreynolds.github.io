@@ -1,0 +1,143 @@
+{
+  "id": "direct-quotation-001",
+  "name": "Direct Quotation with Reporting Predicate",
+  "pattern": "quotation + reporting predicate or reporting predicate + quotation",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/direct-quotation-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/direct-quotation-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/direct-quotation-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/direct-quotation-001/"
+  },
+  "entry": {
+    "id": "direct-quotation-001",
+    "name": "Direct Quotation with Reporting Predicate",
+    "pattern": "quotation + reporting predicate or reporting predicate + quotation",
+    "type": "mixed",
+    "meanings": {
+      "1": {
+        "definition": "Presents words as directly voiced or displayed against a reporting frame.",
+        "examples": [
+          {
+            "form": "[“I’ll call tomorrow,” Jo said].",
+            "note": "Constructed illustration."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "closed-interrogative-clause-001",
+        "relationship": "related-to"
+      },
+      {
+        "id": "indirect-report-001",
+        "relationship": "related-to",
+        "notes": "Jo said, “I’m ready” presents a quotation in the original speaker’s terms. Jo said that she was ready reports content from the reporting context."
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 11 §9.2",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "I and tomorrow are anchored to the quoted speech. A verbal question can retain root inversion inside the quote, unlike the ordinary indirect question complement.",
+        "evidence": "See the cited discussion and the constructed illustration.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Quoting someone's exact words",
+      "summary": "A direct quotation presents words as the speaker voiced them, set against a frame saying who spoke.",
+      "body": "In \"I'll call tomorrow,\" Jo said, the quoted words come first and the frame Jo said follows. The frame can also come first. Either way, the quotation presents the words in the original speaker's terms.\n\nReporting the same message differently changes the wording. Jo said, \"I'm ready\" quotes her words, and Jo said that she was ready reports what she meant from the point of view of the person doing the reporting.",
+      "examples": [
+        {
+          "text": "[“I’ll call tomorrow,” Jo said].",
+          "from": "entry"
+        },
+        {
+          "text": "[Jo said, “I’m ready”].",
+          "from": "constructed"
+        },
+        {
+          "text": "Jo said that she was ready.",
+          "from": "constructed"
+        }
+      ],
+      "try": "Tell a friend what you said earlier in the day, first in your exact words and then in a report that starts with that."
+    },
+    "teacher": {
+      "summary": "Helps contrast a direct quotation with an indirect report of the same message.",
+      "explain": "A direct quotation presents words as directly voiced or displayed against a reporting frame, either quotation plus reporting predicate or the reverse. The quotation keeps the original speaker's terms. An indirect report, by contrast, reports content from the reporting context, which is why the pronoun and verb form in Jo said that she was ready differ from those in Jo said, \"I'm ready\". This dictionary relates direct quotation to indirect reports and to closed interrogative clauses.",
+      "terms": "Traditionally, direct speech versus indirect (reported) speech.",
+      "examples": [
+        {
+          "text": "[“I’ll call tomorrow,” Jo said].",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "[Jo said, “I’m ready”].",
+          "from": "constructed",
+          "note": "Direct quotation, in the original speaker's terms."
+        },
+        {
+          "text": "Jo said that she was ready.",
+          "from": "constructed",
+          "note": "Indirect report, with content from the reporting context."
+        }
+      ],
+      "watch_for": [
+        "A learner might treat Jo said, \"I'm ready\" and Jo said that she was ready as identical in how they present the words."
+      ],
+      "activity": "Students write down a short remark from a partner as a direct quotation, then rewrite it as an indirect report, and mark which words changed."
+    },
+    "child": {
+      "hook": "How do you tell someone exactly what a friend said?",
+      "explain": "You can say a person's exact words and then say who spoke. Or you can say who spoke first. Jo said, \"I'm ready\" repeats her words. Jo said that she was ready tells what she meant.",
+      "examples": [
+        {
+          "text": "[“I’ll call tomorrow,” Jo said].",
+          "from": "entry"
+        },
+        {
+          "text": "[Max said, “I’m hungry”].",
+          "from": "constructed"
+        }
+      ],
+      "play": "Ask a friend to say one sentence. Write it down in quotation marks and add who said it. Then tell it again without the exact words."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "sketch",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Direct Quotation with Reporting Predicate.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/direct-quotation-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

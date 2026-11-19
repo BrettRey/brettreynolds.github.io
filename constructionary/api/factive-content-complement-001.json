@@ -1,0 +1,103 @@
+{
+  "id": "factive-content-complement-001",
+  "name": "Factive Predication with a Content Clause",
+  "pattern": "matrix factive predicate + subordinate declarative content",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/factive-content-complement-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/factive-content-complement-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/factive-content-complement-001/"
+  },
+  "entry": {
+    "id": "factive-content-complement-001",
+    "name": "Factive Predication with a Content Clause",
+    "pattern": "matrix factive predicate + subordinate declarative content",
+    "type": "mixed",
+    "meanings": {
+      "1": {
+        "definition": "Treats the content as already true or taken for granted in ordinary uses.",
+        "examples": [
+          {
+            "form": "Jo didn’t [regret that the shop closed].",
+            "note": "Constructed illustration."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "declarative-content-clause-001",
+        "relationship": "interfaces-with"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 11 §7.4",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "The closure normally remains taken for granted under matrix negation. Context and predicate choice can alter projection, so factivity must be checked per use.",
+        "evidence": "See the cited discussion and the constructed illustration.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Taking something as already true",
+      "summary": "Some verbs treat what follows them as a fact, and the sentence keeps treating it that way even when it's negative.",
+      "body": "In Jo didn't regret that the shop closed, the shop closing is taken for granted. The speaker doesn't say Jo failed to regret something that didn't happen. The closure stands as a fact, and the negative is only about Jo's feelings.\n\nThat is the normal behaviour for this pattern, but context and the choice of word can change it. So whether a particular sentence treats its content as already true has to be checked each time.",
+      "examples": [
+        {
+          "text": "Jo didn't [regret that the shop closed].",
+          "from": "entry"
+        }
+      ],
+      "try": "Say Jo didn't regret that the shop closed. Did the shop close?"
+    },
+    "teacher": {
+      "summary": "For advanced classes: predicates that take a that-clause as already true, even under negation.",
+      "explain": "A factive predication pairs a matrix factive predicate with a subordinate declarative content clause, and in ordinary uses treats the content as already true or taken for granted. In Jo didn't regret that the shop closed, the closure normally remains taken for granted under matrix negation. Context and predicate choice can alter this projection, so factivity must be checked per use. This dictionary marks the analysis as provisional, with medium confidence, and relates the pattern to the declarative content clause.",
+      "terms": "Factive predicate is the usual name. The taken-for-granted content is also described as presupposed.",
+      "examples": [
+        {
+          "text": "Jo didn't [regret that the shop closed].",
+          "from": "entry"
+        }
+      ],
+      "watch_for": [
+        "A learner might think negating the main verb cancels the content clause, so that Jo didn't regret that the shop closed leaves open whether it closed.",
+        "A learner might assume any verb followed by a that-clause treats its content as true, when factivity must be checked for each use."
+      ],
+      "activity": "Give students the example sentence and ask three questions about it (Did Jo regret something? Did the shop close? Who thinks the shop closed?). Discuss which answers survive the negation."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "sketch",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Factive Predication with a Content Clause.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/factive-content-complement-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

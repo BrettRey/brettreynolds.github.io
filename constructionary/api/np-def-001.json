@@ -1,0 +1,270 @@
+{
+  "id": "np-def-001",
+  "name": "Definite NP Construction",
+  "pattern": "Definite determiner + Nominal | referential personal pronoun | NP used as a proper name",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/np-def-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/np-def-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/np-def-001/"
+  },
+  "entry": {
+    "id": "np-def-001",
+    "name": "Definite NP Construction",
+    "pattern": "Definite determiner + Nominal | referential personal pronoun | NP used as a proper name",
+    "type": "syntactic",
+    "dimensions": {
+      "form": "Deital determiner (the, this, that, dependent genitive pronoun, or genitive NP) + Nom, or personal pronoun, or bare proper-noun NP",
+      "meaning": "Identifiable, unique, or familiar referent; anchors discourse-established entity",
+      "function": "Topic-worthy argument; hosts identificational predication",
+      "distribution": "Argument positions; existential there-resistance; partitive licensing"
+    },
+    "meanings": {
+      "1": {
+        "definition": "Refers to/predicates identifiable instance",
+        "details": "Refers to or predicates property of instance of nominal's type as uniquely identifiable in context",
+        "examples": [
+          {
+            "form": "The dog barked",
+            "note": "Refers to specific dog"
+          },
+          {
+            "form": "She is the winner",
+            "note": "Predicates unique role"
+          }
+        ],
+        "relations": [
+          1,
+          2
+        ]
+      },
+      "2": {
+        "definition": "Refers to/predicates maximal set",
+        "details": "Refers to or predicates property of all contextually relevant instances of nominal's type",
+        "examples": [
+          {
+            "form": "The students passed",
+            "note": "The group is delimited by the context"
+          },
+          {
+            "form": "They are the top performers",
+            "note": "Predicates maximal group property"
+          }
+        ],
+        "relations": [
+          1,
+          2
+        ]
+      },
+      "3": {
+        "definition": "Refers to/predicates unique role",
+        "details": "Refers to or predicates property of unique occupant/instance of role described by nominal",
+        "examples": [
+          {
+            "form": "The CEO resigned",
+            "note": "Refers to role-holder"
+          },
+          {
+            "form": "That became the main issue",
+            "note": "Predicates unique status"
+          }
+        ],
+        "relations": [
+          1,
+          2
+        ]
+      },
+      "4": {
+        "definition": "Refers to/predicates kind",
+        "details": "Refers to or predicates property of entire species/type",
+        "examples": [
+          {
+            "form": "The dodo is extinct",
+            "note": "Refers to species"
+          },
+          {
+            "form": "The wolf has returned to the region",
+            "note": "Kind-level statement in a context about species distribution"
+          }
+        ],
+        "relations": [
+          1
+        ]
+      },
+      "5": {
+        "definition": "Refers to/predicates generic property",
+        "details": "Refers to or predicates property taken as generally characteristic",
+        "examples": [
+          {
+            "form": "The lion is dangerous",
+            "note": "Refers to typical properties"
+          },
+          {
+            "form": "He became the typical bureaucrat",
+            "note": "Predicates typical properties"
+          }
+        ],
+        "relations": [
+          1
+        ]
+      }
+    },
+    "relations": {
+      "1": {
+        "construction": "grammatical-definiteness-001",
+        "type": "implements",
+        "notes": "Implements meaning 1"
+      },
+      "2": {
+        "construction": "definite-001",
+        "type": "related-to",
+        "notes": "Original type: elaborates. Related to meaning 1."
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "grammatical-definiteness-001",
+        "relationship": "interfaces-with",
+        "notes": "The structural and interpretive profiles often co-occur. Weak definites and context-dependent identifications qualify the association."
+      },
+      {
+        "id": "np-001",
+        "relationship": "specialization-of",
+        "parthood": "formal"
+      },
+      {
+        "id": "np-indef-001",
+        "relationship": "alternates-with",
+        "notes": "Paradigmatic contrast in the definiteness system"
+      },
+      {
+        "id": "true-partitive-001",
+        "relationship": "related-to"
+      },
+      {
+        "id": "activity-weak-definite-001",
+        "relationship": "related-to"
+      }
+    ],
+    "semanticRefs": [
+      "quantifier",
+      "predication",
+      "kind"
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 5 §§6.1, 8.4; Ch. 16 §6.2.2",
+        "relation": "discusses",
+        "bears-on": "projection"
+      },
+      {
+        "source": "reynolds-deitality",
+        "locator": "Diagnostics and the weak-definite boundary cases",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "The keys normally identifies an accessible set and can supply a domain in two of the keys. The radio in Jo listened to the radio can still have a conventional activity reading without identifying one physical radio.",
+        "evidence": "CGEL documents both ordinary definites and restricted non-referential readings. Reynolds uses partitive domain establishment as a structural test rather than relying on identifiability alone.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Phrases that point to a particular thing",
+      "summary": "Phrases like the dog, she or London can pick out something particular that the listener can work out.",
+      "body": "In The dog barked, the phrase the dog points to one particular dog that the listener can identify from the situation. The same kind of phrase can stand for a whole group the context makes clear, as in The students passed, or for the one person holding a role, as in The CEO resigned.\n\nIt can also talk about a whole kind, as in The dodo is extinct. Not every use points to a single physical thing: in Jo listened to the radio, the phrase can have a conventional activity reading without picking out one particular radio.",
+      "examples": [
+        {
+          "text": "[The dog] barked.",
+          "from": "entry"
+        },
+        {
+          "text": "[The students] passed.",
+          "from": "entry"
+        },
+        {
+          "text": "[The CEO] resigned.",
+          "from": "entry"
+        },
+        {
+          "text": "[The dodo] is extinct.",
+          "from": "entry"
+        }
+      ],
+      "try": "Say The dog barked to someone who doesn't know about any dog. What do they ask you?"
+    },
+    "teacher": {
+      "summary": "Lays out the meanings of definite NPs, from an identifiable referent to a role or a kind, and shows where they can be weaker.",
+      "explain": "A definite NP consists of a definite determiner (the, this, that, a dependent genitive pronoun, or a genitive NP) with a nominal, or a referential personal pronoun, or a bare proper-name NP. The dictionary lists readings: an identifiable instance (The dog barked), a maximal set delimited by context (The students passed), a unique role (The CEO resigned), a kind (The dodo is extinct) and a generally characteristic property (The lion is dangerous). The keys normally identifies an accessible set and can supply a domain in two of the keys, but in Jo listened to the radio a conventional activity reading doesn't identify one radio. The dictionary marks this account as provisional.",
+      "terms": "The is a determinative, often called the definite article. Weak definite is a name used for cases like the radio in Jo listened to the radio, which can have a conventional activity reading without identifying one physical radio.",
+      "examples": [
+        {
+          "text": "[The dog] barked.",
+          "from": "entry"
+        },
+        {
+          "text": "She is [the winner].",
+          "from": "entry"
+        },
+        {
+          "text": "[The students] passed.",
+          "from": "entry"
+        },
+        {
+          "text": "[The CEO] resigned.",
+          "from": "entry"
+        },
+        {
+          "text": "[The dodo] is extinct.",
+          "from": "entry"
+        },
+        {
+          "text": "[The lion] is dangerous.",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "[A dog] barked.",
+          "from": "constructed",
+          "note": "The indefinite alternative; the dog's identity is left unstated."
+        }
+      ],
+      "watch_for": [
+        "A learner might think the has to point to one specific physical thing.",
+        "A learner might treat the dodo and the lion as naming one animal when they name a kind."
+      ],
+      "activity": "Give students short story openings. They underline each definite NP and say what the listener is expected to identify (a thing, a group, a role or a kind)."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags)",
+        "result": "fixed",
+        "note": "Fixed: curious.body no longer says the listening is a habit (the entry gives a conventional activity reading); teacher.terms now ties 'weak definite' to the entry's radio example instead of every case where the does not identify one thing."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Definite NP Construction.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/np-def-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

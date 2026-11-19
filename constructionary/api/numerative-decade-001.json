@@ -1,0 +1,166 @@
+{
+  "id": "numerative-decade-001",
+  "name": "Decade Numerative",
+  "pattern": "Base (2-9) + -ty",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/numerative-decade-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/numerative-decade-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/numerative-decade-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/numerative-decade-001/"
+  },
+  "entry": {
+    "id": "numerative-decade-001",
+    "name": "Decade Numerative",
+    "pattern": "Base (2-9) + -ty",
+    "type": "morphological",
+    "dimensions": {
+      "form": "Single-digit base + -ty suffix (twenty through ninety)",
+      "meaning": "Specifies cardinality in tens (20, 30, ..., 90)",
+      "function": "Base for compound formation; determiner, factor",
+      "distribution": "Combines with single-digits to form compounds (twenty-one)"
+    },
+    "meanings": {
+      "1": {
+        "definition": "Specifies a cardinality in tens (20, 30, …, 90)",
+        "examples": [
+          {
+            "form": "twenty",
+            "note": "Cardinality 20"
+          },
+          {
+            "form": "seventy",
+            "note": "Cardinality 70"
+          }
+        ]
+      }
+    },
+    "formRefs": [
+      "numerative-decade",
+      "suffixation"
+    ],
+    "semanticRefs": [
+      "cardinality"
+    ],
+    "relatedConstructions": [
+      {
+        "id": "numerative-basic-lexeme-001",
+        "relationship": "specialization-of"
+      },
+      {
+        "id": "determination-001",
+        "relationship": "related-to"
+      },
+      {
+        "id": "numerative-compound-basic-001",
+        "relationship": "related-to"
+      }
+    ],
+    "grounds": [
+      {
+        "source": "reynolds-2026-numerals",
+        "locator": "§3, extended basic numeratives",
+        "relation": "discusses",
+        "bears-on": "projection"
+      },
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 19 §5.10",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "Sixty can stand by itself and can supply the first component of sixty-four. The relation to six is transparent, but a new decade form cannot automatically be generated from any numerical expression by adding -ty.",
+        "evidence": "CGEL treats the decade endings as lexical word formation. Reynolds uses decade-based compounds as evidence for the basic lexicon.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Number words for whole tens",
+      "summary": "The words twenty to ninety each name a number of tens.",
+      "body": "Twenty means 20, and seventy means 70. These words name whole tens, from twenty up to ninety, and each is built from a single-digit base with the ending -ty.\n\nSixty stands by itself as a word, and it also supplies the first part of sixty-four. Its link to six is easy to see. But you can't make a new tens word by adding -ty to just any number expression.",
+      "examples": [
+        {
+          "text": "[twenty]",
+          "from": "entry"
+        },
+        {
+          "text": "[seventy]",
+          "from": "entry"
+        },
+        {
+          "text": "[sixty]-four",
+          "from": "constructed"
+        }
+      ],
+      "try": "Say all the tens words from twenty to ninety. Which one reminds you of its single-digit number?"
+    },
+    "teacher": {
+      "summary": "Covers the tens words twenty to ninety, built with -ty, as the base for numbers like sixty-four.",
+      "explain": "A decade numerative specifies a cardinality in tens (20, 30, ..., 90), formed from a single-digit base and the suffix -ty. It's a basic numerative, so it can serve as determiner or factor, and it combines with single digits to form compounds such as twenty-one. Sixty can stand alone and can supply the first component of sixty-four. The relation to six is transparent, but a new decade form can't automatically be generated from any numerical expression by adding -ty. The dictionary treats the decade endings as lexical word formation, and marks this account as provisional.",
+      "terms": "Numerative is this grammar's term for number words, where a textbook may say numeral. Decade numerals or tens words are common informal names.",
+      "examples": [
+        {
+          "text": "[twenty]",
+          "from": "entry"
+        },
+        {
+          "text": "[seventy]",
+          "from": "entry"
+        },
+        {
+          "text": "[sixty]-four",
+          "from": "constructed"
+        }
+      ],
+      "watch_for": [
+        "A learner might think any number word can take -ty to make a tens word.",
+        "A learner might miss that sixty relates to six, though the link is transparent."
+      ],
+      "activity": "Students write the tens words from twenty to ninety, circle each ending, and match each with its single-digit base. Then they build three compound numbers from them."
+    },
+    "child": {
+      "hook": "What do twenty, thirty and forty all end with?",
+      "explain": "Words like twenty, seventy and ninety name whole tens. They end in -ty. Seventy means 70. You can count by tens with them.",
+      "examples": [
+        {
+          "text": "I counted [twenty] stones.",
+          "from": "constructed"
+        },
+        {
+          "text": "He is [seventy] years old.",
+          "from": "constructed"
+        }
+      ],
+      "play": "Count by tens out loud, from twenty up to ninety. Stop at each -ty word, and clap on each one."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Decade Numerative.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/numerative-decade-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

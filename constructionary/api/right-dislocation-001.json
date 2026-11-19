@@ -1,0 +1,172 @@
+{
+  "id": "right-dislocation-001",
+  "name": "Right Dislocation with a Pronoun",
+  "pattern": "Clause[... overt personal pronounᵢ ...] + NPᵢ",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/right-dislocation-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/right-dislocation-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/right-dislocation-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/right-dislocation-001/"
+  },
+  "entry": {
+    "id": "right-dislocation-001",
+    "name": "Right Dislocation with a Pronoun",
+    "pattern": "Clause[... overt personal pronounᵢ ...] + NPᵢ",
+    "type": "mixed",
+    "meanings": {
+      "1": {
+        "definition": "Clarifies or reiterates a referent expressed by a pronoun in the preceding clause nucleus.",
+        "details": "The following NP can disambiguate a pronoun or restate a referent that is already clear. CGEL contrasts a topic that is already evoked or accessible through the prior context with an attorney introduced for the first time, for which right dislocation is infelicitous. The observation concerns this pronoun-linked NP subtype.",
+        "examples": [
+          {
+            "form": "[I really like him, your dad.]",
+            "note": "The final NP specifies the intended referent of him.",
+            "grounds": [
+              {
+                "source": "cgel-2002",
+                "locator": "Ch. 16 §8.2 [11i]",
+                "relation": "attests",
+                "bears-on": "attestation"
+              }
+            ]
+          },
+          {
+            "form": "[It’s fascinating, this book.]",
+            "note": "From a passage in which the book is already identified.",
+            "grounds": [
+              {
+                "source": "cgel-2002",
+                "locator": "Ch. 16 §8.2 [13ii]",
+                "relation": "attests",
+                "bears-on": "attestation"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "clause-001",
+        "relationship": "specialization-of",
+        "notes": "The clause nucleus supplies Head:VP."
+      },
+      {
+        "id": "left-dislocation-001",
+        "relationship": "related-to",
+        "notes": "The left pattern can introduce a new referent."
+      },
+      {
+        "id": "subject-extraposition-001",
+        "relationship": "related-to",
+        "notes": "Extraposition has a different status for the pronoun and the final expression."
+      }
+    ],
+    "grounds": [
+      {
+        "source": "casa-constructicon",
+        "locator": "record 144",
+        "relation": "discusses",
+        "bears-on": "projection",
+        "note": "Gives a clause-first sequence with the co-referential final NP."
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "Right dislocation favours an accessible referent. It can clarify a choice between already available referents, including when the pronoun is embedded.",
+        "evidence": "CGEL contrasts clarification, reiteration and discourse-new contexts. CASA notes the role of an active topic.",
+        "confidence": "high"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Saying who you mean at the end",
+      "summary": "A speaker can use a pronoun and then add a noun phrase after the clause to say exactly who or what it was.",
+      "body": "In I really like him, your dad, the word him already refers to someone. Then your dad is added at the end to make clear who. It can also simply restate a person or thing that's already clear, as in It's fascinating, this book.\n\nThe added phrase works best for something already in the conversation. A new person who hasn't been mentioned doesn't fit well in this slot: this dictionary notes that an attorney introduced for the first time is a poor fit here.",
+      "examples": [
+        {
+          "text": "[I really like him, your dad.]",
+          "from": "entry"
+        },
+        {
+          "text": "[It's fascinating, this book.]",
+          "from": "entry"
+        }
+      ],
+      "try": "Say something about a person or thing using only him, her or it, then add the name or noun at the end."
+    },
+    "teacher": {
+      "summary": "Helps explain a tag-like noun phrase after a clause that repeats a pronoun's referent.",
+      "explain": "In right dislocation, a clause with an overt personal pronoun is followed by an NP referring to the same thing: I really like him, your dad. The final NP can disambiguate the pronoun or restate a referent that is already clear. CGEL contrasts a topic that has been evoked or is accessible from the context with an attorney introduced for the first time, for which right dislocation is infelicitous. The observation concerns this pronoun-linked subtype. The pronoun can be embedded in the clause, and the pattern favours an accessible referent.",
+      "terms": "Sometimes called an antitopic or a tag NP. This dictionary also contrasts it with left dislocation, which can introduce a new referent.",
+      "examples": [
+        {
+          "text": "[I really like him, your dad.]",
+          "from": "entry"
+        },
+        {
+          "text": "[It's fascinating, this book.]",
+          "from": "entry"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "I really like him.",
+          "from": "constructed",
+          "note": "The pronoun alone; the listener must work out who him is."
+        },
+        {
+          "text": "I really like him, your dad.",
+          "from": "entry",
+          "note": "The final NP specifies the intended referent."
+        }
+      ],
+      "watch_for": [
+        "A learner might use the final NP to introduce someone new to the conversation, when the pattern fits an accessible referent.",
+        "A learner might drop the pronoun and keep only the final noun phrase."
+      ],
+      "activity": "Give students two people in a picture. They say a sentence using him or her, and a partner adds a final noun phrase that says exactly who is meant."
+    },
+    "child": {
+      "hook": "When you say \"him\", how does a friend know who you mean?",
+      "explain": "You can say it first, then say the name at the end. I really like him, your dad. The end part tells who \"him\" is.",
+      "examples": [
+        {
+          "text": "[I really like him, your dad.]",
+          "from": "entry"
+        },
+        {
+          "text": "[It's fascinating, this book.]",
+          "from": "entry"
+        }
+      ],
+      "play": "Say a sentence with him, her or it. Then add the person or thing at the end, after a little pause."
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "entry",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "codex (gpt-6.2-sol)",
+        "result": "pass"
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Right Dislocation with a Pronoun.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/right-dislocation-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

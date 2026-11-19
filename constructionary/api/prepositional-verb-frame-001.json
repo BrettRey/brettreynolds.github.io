@@ -1,0 +1,146 @@
+{
+  "id": "prepositional-verb-frame-001",
+  "name": "Selected Prepositional Complement",
+  "pattern": "VP[Head:V + PP with lexically selected P]",
+  "urls": {
+    "curious": "https://brettreynolds.ca/constructionary/prepositional-verb-frame-001/",
+    "teacher": "https://brettreynolds.ca/constructionary/teacher/prepositional-verb-frame-001/",
+    "linguist": "https://brettreynolds.ca/constructionary/linguist/prepositional-verb-frame-001/",
+    "child": "https://brettreynolds.ca/constructionary/child/prepositional-verb-frame-001/"
+  },
+  "entry": {
+    "id": "prepositional-verb-frame-001",
+    "name": "Selected Prepositional Complement",
+    "pattern": "VP[Head:V + PP with lexically selected P]",
+    "type": "syntactic",
+    "meanings": {
+      "1": {
+        "definition": "Links a verbal argument through a preposition selected by the lexical sense.",
+        "examples": [
+          {
+            "form": "We [relied on Jo].",
+            "note": "Constructed illustration."
+          }
+        ]
+      }
+    },
+    "relatedConstructions": [
+      {
+        "id": "vp-001",
+        "relationship": "specialization-of",
+        "parthood": "formal"
+      },
+      {
+        "id": "verb-particle-object-001",
+        "relationship": "related-to",
+        "notes": "Compare relied on Jo with picked the book up. Jo is the object of selected on. The book is an object of the verb and can precede the particle up."
+      }
+    ],
+    "grounds": [
+      {
+        "source": "cgel-2002",
+        "locator": "Ch. 4 §§6.1–6.2",
+        "relation": "discusses",
+        "bears-on": "projection"
+      }
+    ],
+    "kind": {
+      "provisional": true,
+      "projection": {
+        "target": "The preposition in this sense can be stranded in Who did you rely on? It remains adjacent to its NP in the ordinary order and does not undergo particle shift.",
+        "evidence": "See the cited discussion and the constructed illustration.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "editions": {
+    "curious": {
+      "title": "Verbs that go with a particular small word",
+      "summary": "Some verbs link an argument through one particular preposition that belongs with that sense of the verb.",
+      "body": "In We relied on Jo, the preposition on isn't a free choice. The verb sense chooses it. Jo is the object of on, and the on-phrase is tied to the verb relied.\n\nCompare picked the book up. There, the book is the object of the verb, and it can go before the little word up. Relied on Jo doesn't work that way. In the ordinary order the preposition stays next to Jo, but it can be left at the end in a question like Who did you rely on?",
+      "examples": [
+        {
+          "text": "We [relied on Jo].",
+          "from": "entry"
+        },
+        {
+          "text": "Who did you rely on?",
+          "from": "constructed"
+        }
+      ],
+      "try": "Which small word goes with rely in We relied on Jo? Say a new sentence with rely and that word."
+    },
+    "teacher": {
+      "summary": "Shows verbs that select a specific preposition for a complement, such as rely on.",
+      "explain": "In this pattern a verb head takes a PP with a lexically selected preposition: relied on Jo. The lexical sense links the argument through that preposition. Jo is the object of selected on. Compare picked the book up, where the book is an object of the verb and can precede the particle up. The selected preposition can be stranded in Who did you rely on?, remains adjacent to its NP in the ordinary order, and does not undergo particle shift. This dictionary relates the pattern to verb-particle-object constructions, and marks it provisional, with medium confidence.",
+      "terms": "Textbooks sometimes call these prepositional verbs. This dictionary contrasts them with the verb-particle-object pattern of picked the book up.",
+      "examples": [
+        {
+          "text": "We [relied on Jo].",
+          "from": "entry"
+        },
+        {
+          "text": "Who did you rely on?",
+          "from": "constructed"
+        }
+      ],
+      "contrasts": [
+        {
+          "text": "We relied on Jo.",
+          "from": "entry",
+          "note": "Jo is the object of the selected preposition on."
+        },
+        {
+          "text": "We picked the book up.",
+          "from": "constructed",
+          "note": "The book is an object of the verb and can precede the particle up."
+        }
+      ],
+      "watch_for": [
+        "A learner might think the preposition after rely can be changed freely, when it is selected by the verb sense.",
+        "A learner might try to move on away from its NP the way up moves in picked the book up."
+      ],
+      "activity": "Students make a card list of verbs with their selected prepositions (rely on). They write a statement and a question for each, with the preposition at the end of the question."
+    },
+    "child": {
+      "hook": "Which little word goes with the verb rely?",
+      "explain": "Some verbs go with a certain small word. We relied on Jo. The word on belongs with rely here. In this sentence it sits right next to Jo.",
+      "examples": [
+        {
+          "text": "We relied on Jo.",
+          "from": "entry"
+        },
+        {
+          "text": "Who did you rely on?",
+          "from": "constructed"
+        }
+      ],
+      "play": "Make up sentences with rely on. Then turn them into questions, like Who did you rely on?"
+    }
+  },
+  "status": {
+    "entry": "provisional analysis",
+    "secured": "unassessed",
+    "depth": "sketch",
+    "editions": {
+      "status": "draft",
+      "drafted": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5"
+      },
+      "checked": {
+        "date": "2026-11-19",
+        "model": "claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)",
+        "result": "fixed",
+        "note": "Fixed: curious.summary says the verb links an argument through a selected preposition (Jo is the object of on, not of the verb); teacher.terms now ties the contrast to the verb-particle-object pattern in the entry; replaced 'The entry' with this dictionary. Second round: fixed curious.body and child.explain, which stated adjacency to Jo without the entry's restriction to the ordinary order (the preposition can be stranded in Who did you rely on?)."
+      }
+    }
+  },
+  "licence": "CC-BY-4.0",
+  "cite": "Reynolds, Brett, ed. 2026. \"Selected Prepositional Complement.\" English Constructionary. https://brettreynolds.ca/constructionary/linguist/prepositional-verb-frame-001/ (snapshot 2026-11-19, fa37529).",
+  "snapshot": {
+    "date": "2026-11-19",
+    "commit": "fa37529",
+    "dirty_data": false
+  }
+}

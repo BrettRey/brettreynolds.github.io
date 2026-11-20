@@ -8,14 +8,14 @@
     "section": "various",
     "page": "971–1205"
   },
-  "claim": "Two misprints outside Chapter 8 not in the authors’ errata, confirmed on the page images.",
-  "evidence_summary": "Ch. 11, p. 971 [56iia] “<i>I’ll come along, [provided (that) I can leave early.</i>” has no closing bracket. Ch. 14, p. 1205 prints the display number as “[17” with no closing bracket.",
+  "claim": "Three misprints outside Chapter 8 not in the authors’ errata, confirmed on the page images.",
+  "evidence_summary": "Ch. 11, p. 971 [56iia] “<i>I’ll come along, [provided (that) I can leave early.</i>” has no closing bracket, and [56ib] “<i>We’ll invite them both [though I don’t think he’ll come]</i>” has no full stop. Ch. 14, p. 1205 prints the display number as “[17” with no closing bracket.",
   "finding": "Candidates for the authors’ errata page.",
   "semantic_inference": false,
   "condition": "None",
   "internal_tension": false,
   "related": "971, 1205",
-  "proposed_wording": "<i>I’ll come along, [provided (that) I can leave early].</i>; [17]",
+  "proposed_wording": "<i>I’ll come along, [provided (that) I can leave early].</i>; <i>We’ll invite them both [though I don’t think he’ll come].</i>; [17]",
   "inference": "Which printed forms need correction?",
   "family": "Prepositions, subordinators and connectives",
   "evidence": [

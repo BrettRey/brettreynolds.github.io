@@ -10,7 +10,7 @@
   },
   "claim": "<i>Some</i> and <i>anyn</i> occur with count singular heads “as in [30]” and may therefore contrast with the indefinite article.",
   "evidence_summary": "[30] is the exclamatory use (<i>Those are SOME elephants!</i>), non-quantitative and plural in [30a]. [29] is “Vague count singular use”, where <i>some</i> “is in competition with the indefinite article <i>a</i>”.",
-  "finding": "Change [30] to [29]. As printed, the reference also conflicts with the paragraph’s second reason, the restriction to quantitative uses.",
+  "finding": "Change [30] to [29], with medium confidence. [30b] <i>SOME hotel that was!</i> is count singular, so [30] partly fits. But [30] is the exclamatory use, which the paragraph’s second reason, the restriction to quantitative uses, excludes, while [29] is the use described as competing with <i>a</i>.",
   "semantic_inference": false,
   "condition": "None",
   "internal_tension": true,

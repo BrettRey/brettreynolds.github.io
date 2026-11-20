@@ -9,13 +9,14 @@
     "page": 1683
   },
   "claim": "“We have seen (Ch. 8, §7.1) that prepositions can often be used to indicate position in both space and time: <i>at the gate</i> or <i>at noon</i>”.",
-  "evidence_summary": "Ch. 8, §7.1 (p. 702) is “Similarities and differences between the temporal and spatial domains”, but it begins “When we turn to extent in time, duration”, and its parallels are starting-point, endpoint and overall extent. Temporal position is §6: p. 694 says “Temporal location is the analogue of spatial location”, and §6.3 (p. 696) lists <i>at</i>, <i>in</i> and <i>on</i> among the prepositions of temporal location.",
-  "finding": "Low confidence, checked in the text layer only. §7.1’s title partly fits the reference, but the point cited, position in space and time, is the subject of §6, and §6.3 has the prepositions.",
+  "evidence_summary": "Ch. 8, §7.1 (p. 702) is “Similarities and differences between the temporal and spatial domains”, but it begins “When we turn to extent in time, duration”, and its parallels are starting-point, endpoint and overall extent. The point cited is made at the opening of Ch. 8, §4 (p. 679), which refers to this very section: “This extension is motivated by the clear parallels in the use of prepositions in the two domains (see Ch. 19, §5.4”. Temporal <i>at</i>, <i>in</i> and <i>on</i> are listed in §6.3 (p. 696).",
+  "finding": "Change §7.1 to §4. The two passages cite each other once the reference is corrected. Ch. 8, §§4, 6 would also do, since §6 has the temporal prepositions. Checked on the page image while the errata list for the authors was being prepared.",
   "semantic_inference": false,
   "condition": "None",
   "internal_tension": true,
-  "related": "1683. 694. 696 [10]. 702",
-  "inference": "Does Ch. 8, §7.1 treat prepositions of temporal position?",
+  "related": "1683. 679. 694. 696 [10]. 702",
+  "proposed_wording": "We have seen (Ch. 8, §4)",
+  "inference": "Does Ch. 8, §7.1 treat prepositions of position in space and time?",
   "family": "Time, aspect and duration",
   "evidence": [
     {
@@ -23,8 +24,8 @@
       "source": "Chapter 8 audit, 20 November 2026",
       "url": null,
       "passage": "§5.4, p. 1683. “We have seen (Ch. 8, §7.1) that prepositions can often be used to indicate position in both space and time”",
-      "example": "Ch. 8, p. 694; p. 696 [10]; p. 702.",
-      "establishes": "Temporal position is treated in Ch. 8, §6; §7.1 treats duration.",
+      "example": "Ch. 8, p. 679, opening of §4; p. 696 [10]; p. 702.",
+      "establishes": "The point is made in Ch. 8, §4, which cross-refers to Ch. 19, §5.4.",
       "locator": "Section B, Ch. 19 p. 1683 row.",
       "note": "Local source (working note, unpublished draft or local copy); not online."
     }

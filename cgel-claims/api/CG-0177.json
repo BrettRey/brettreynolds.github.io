@@ -1,0 +1,43 @@
+{
+  "id": "CG-0177",
+  "topic": "Example reference for correlative <i>both</i> and <i>either</i>",
+  "assessment": "Author erratum",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 15,
+    "section": "2.3",
+    "page": 1305
+  },
+  "claim": "After [38], “In the coordinations [iia/iib] they function as marker of the first coordinate in correlative” coordination.",
+  "evidence_summary": "[38] has [ia] <i>both players</i>, [ib] <i>both Kim and Pat</i>, [iia] <i>either player</i> and [iib] <i>either Kim or Pat</i>. The preceding sentence cites the NPs as “[ia/iia]”. [iia] is an NP, not a coordination; the coordinations are [ib] and [iib].",
+  "finding": "The authors’ errata already correct [iia/iib] to [ib/iib]. The entry isn’t marked as fixed in a later printing, and the 9th printing (2016) still has [iia/iib]. The audit’s image check found it independently, beside the separate reference error in CG-0104.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "1305 [38]",
+  "proposed_wording": "In the coordinations [ib/iib]",
+  "inference": "Does the reference pick out the coordinations in [38]?",
+  "family": "Quantification and alternatives",
+  "evidence": [
+    {
+      "role": "Published erratum",
+      "source": "CGEL authors. The Cambridge Grammar of the English Language: Typographical and Other Errors.",
+      "url": "https://pullum.ppls.ed.ac.uk/cgelerrata.html",
+      "passage": "Ch. 15 §2.3, p. 1305. “In the coordinations [iia/iib] they function as marker of the first coordinate”",
+      "example": "Entry for p. 1305, “2nd line below [38]”, [iia/iib] corrected to [ib/iib].",
+      "establishes": "Records an author correction already made.",
+      "locator": "Entry for printed p. 1305."
+    },
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "Ch. 15 §2.3, p. 1305. “In the coordinations [iia/iib] they function as marker of the first coordinate”",
+      "example": "Page 1305 [38].",
+      "establishes": "The error is still printed in the 9th printing.",
+      "locator": "Errata check, row marked NEW. Checked on the page image at 300 dpi.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0177/"
+}

@@ -4,7 +4,7 @@
   "url": "https://brettreynolds.ca/cgel-claims/",
   "snapshot": {
     "date": "2026-11-20",
-    "commit": "de459fd",
+    "commit": "d14137c",
     "dirty_data": false
   },
   "reference": "Huddleston, Rodney & Geoffrey K. Pullum (2002), The Cambridge Grammar of the English Language. Cambridge: CUP (corrected printing used for the audit)",
@@ -26,7 +26,7 @@
     },
     {
       "heading": "Selection and scope",
-      "text": "The first audit reviewed all 20 numbered sections of Chapter 5. Three cross-chapter follow-ups (CG-0058–0060) test claims from Chapters 14 and 19 against other passages and usage data. The catalogue includes positive controls and known errata. Its proportions cannot estimate a chapter-wide error rate. CG-0063–0105 come from a section-by-section error sweep on 19 November 2026. CG-0103–0104 correct references to Chapter 5 printed in Chapters 6 and 15. CG-0106–0111 test lexical claims against the Oxford English Dictionary. CG-0112–0176 come from a section-by-section audit of Chapter 8, The clause: adjuncts, on 20 November 2026. Leads that no source yet supports were left out. CG-0170–0176 record errors in other chapters found during that audit: four references into Chapter 8, a misnumbered example, a wrong reference and two misprints."
+      "text": "The first audit reviewed all 20 numbered sections of Chapter 5. Three cross-chapter follow-ups (CG-0058–0060) test claims from Chapters 14 and 19 against other passages and usage data. The catalogue includes positive controls and known errata. Its proportions cannot estimate a chapter-wide error rate. CG-0063–0105 come from a section-by-section error sweep on 19 November 2026. CG-0103–0104 correct references to Chapter 5 printed in Chapters 6 and 15. CG-0106–0111 test lexical claims against the Oxford English Dictionary. CG-0112–0176 come from a section-by-section audit of Chapter 8, The clause: adjuncts, on 20 November 2026. Leads that no source yet supports were left out. CG-0170–0176 record errors in other chapters found during that audit: four references into Chapter 8, a misnumbered example, a wrong reference and two misprints. CG-0177, found while the list of errata for the authors was being checked, turned out to be in the authors’ errata already."
     },
     {
       "heading": "Editorial assessments",
@@ -2924,7 +2924,7 @@
       },
       "claim": "<i>Some</i> and <i>anyn</i> occur with count singular heads “as in [30]” and may therefore contrast with the indefinite article.",
       "evidence_summary": "[30] is the exclamatory use (<i>Those are SOME elephants!</i>), non-quantitative and plural in [30a]. [29] is “Vague count singular use”, where <i>some</i> “is in competition with the indefinite article <i>a</i>”.",
-      "finding": "Change [30] to [29]. As printed, the reference also conflicts with the paragraph’s second reason, the restriction to quantitative uses.",
+      "finding": "Change [30] to [29], with medium confidence. [30b] <i>SOME hotel that was!</i> is count singular, so [30] partly fits. But [30] is the exclamatory use, which the paragraph’s second reason, the restriction to quantitative uses, excludes, while [29] is the use described as competing with <i>a</i>.",
       "semantic_inference": false,
       "condition": "None",
       "internal_tension": true,
@@ -3161,12 +3161,12 @@
         "page": 422
       },
       "claim": "Singular examples like [17] and [9ii–iii] match corresponding plural forms.",
-      "evidence_summary": "[9] (p. 412) has rows i (a–c) and ii only. [9ii] is <i>lend me [one]</i>. The intended examples are [9ib–c], as cited on p. 415.",
+      "evidence_summary": "[9] (p. 412) has rows i (a–c) and ii only. [9ii] is <i>lend me [one]</i>. The intended examples are [9ib–c], as cited on p. 414.",
       "finding": "Change [9ii–iii] to [9ib–c].",
       "semantic_inference": false,
       "condition": "None",
       "internal_tension": true,
-      "related": "412 [9]. 415. 422",
+      "related": "412 [9]. 414. 422",
       "proposed_wording": "[17] and [9ib–c]",
       "inference": "Does the reference point to the intended examples?",
       "family": "NP structure and headedness",
@@ -3176,7 +3176,7 @@
           "source": "Chapter 5 error sweep, 19 November 2026",
           "url": null,
           "passage": "§9.5(c), p. 422.",
-          "example": "Page 412 [9]. Page 415 cites [9ib–c].",
+          "example": "Page 412 [9]. Page 414 cites [9ib–c].",
           "establishes": "A reference to a row that does not exist.",
           "locator": "Section C.",
           "note": "Local source (working note, unpublished draft or local copy); not online."
@@ -6377,7 +6377,7 @@
         "page": "665–774"
       },
       "claim": "Misprints not in the authors’ errata, each confirmed by a reader on the page images of the corrected printing.",
-      "evidence_summary": "p. 665 [1vi–viii] “[source: §4–5]” and the like, against [1v] “§§4–5”; p. 667 [3iib], an alternative question, “∗<i>Did he return fortunately or surprisingly.</i>”; p. 674 “In <i>he wrote it by hand</i>”, with the example in lower case; p. 679 [12ii] “<i>Enterococcus faicium</i>”; p. 686 “<i>in(to)the room</i>” and “<i>on(to)the platform</i>”, with no space after the bracket; p. 701 [31i] <i>I left home before my parents divorced</i> with no final stop; p. 701 “see Ch. 17, §10.2” with no final stop; p. 731 [26iv] with no final stop; p. 736 “a participial and verbless clause”, where <i>or</i> is meant; p. 737 “concessional adjuncts”, the book’s only use of <i>concessional</i>, where it elsewhere has <i>concessive</i>; p. 760 “<i>a personal TV</i>” for [70]’s “<i>a personal TV set</i>”; p. 774 “nervous break-down” for [3iv] <i>breakdown</i>.",
+      "evidence_summary": "p. 665 [1vi–viii] “[source: §4–5]” and the like, against [1v] “§§4–5”; p. 667 [3iib], an alternative question, “∗<i>Did he return fortunately or surprisingly.</i>”; p. 674 “In <i>he wrote it by hand</i>”, with the example in lower case; p. 679 [12ii] “<i>Enterococcus faicium</i>”; p. 686 “<i>in(to)the room</i>” and “<i>on(to)the platform</i>”, with no space after the bracket; p. 701 [31i] <i>I left home before my parents divorced</i> with no final stop; p. 701 “see Ch. 17, §10.2” with no final stop; p. 731 [26ii] “activities,]they” with no space after the bracket, and [26iv] with no final stop; p. 736 “a participial and verbless clause”, where <i>or</i> is meant; p. 737 “concessional adjuncts”, the book’s only use of <i>concessional</i>, where it elsewhere has <i>concessive</i>; p. 760 “<i>a personal TV</i>” for [70]’s “<i>a personal TV set</i>”; p. 774 “nervous break-down” for [3iv] <i>breakdown</i>.",
       "finding": "Candidates for the authors’ errata page. <i>Faicium</i> is inside quotation marks in the example and may reproduce its source, so a [sic] may be the better fix there.",
       "semantic_inference": false,
       "condition": "None",
@@ -6513,13 +6513,14 @@
         "page": 1683
       },
       "claim": "“We have seen (Ch. 8, §7.1) that prepositions can often be used to indicate position in both space and time: <i>at the gate</i> or <i>at noon</i>”.",
-      "evidence_summary": "Ch. 8, §7.1 (p. 702) is “Similarities and differences between the temporal and spatial domains”, but it begins “When we turn to extent in time, duration”, and its parallels are starting-point, endpoint and overall extent. Temporal position is §6: p. 694 says “Temporal location is the analogue of spatial location”, and §6.3 (p. 696) lists <i>at</i>, <i>in</i> and <i>on</i> among the prepositions of temporal location.",
-      "finding": "Low confidence, checked in the text layer only. §7.1’s title partly fits the reference, but the point cited, position in space and time, is the subject of §6, and §6.3 has the prepositions.",
+      "evidence_summary": "Ch. 8, §7.1 (p. 702) is “Similarities and differences between the temporal and spatial domains”, but it begins “When we turn to extent in time, duration”, and its parallels are starting-point, endpoint and overall extent. The point cited is made at the opening of Ch. 8, §4 (p. 679), which refers to this very section: “This extension is motivated by the clear parallels in the use of prepositions in the two domains (see Ch. 19, §5.4”. Temporal <i>at</i>, <i>in</i> and <i>on</i> are listed in §6.3 (p. 696).",
+      "finding": "Change §7.1 to §4. The two passages cite each other once the reference is corrected. Ch. 8, §§4, 6 would also do, since §6 has the temporal prepositions. Checked on the page image while the errata list for the authors was being prepared.",
       "semantic_inference": false,
       "condition": "None",
       "internal_tension": true,
-      "related": "1683. 694. 696 [10]. 702",
-      "inference": "Does Ch. 8, §7.1 treat prepositions of temporal position?",
+      "related": "1683. 679. 694. 696 [10]. 702",
+      "proposed_wording": "We have seen (Ch. 8, §4)",
+      "inference": "Does Ch. 8, §7.1 treat prepositions of position in space and time?",
       "family": "Time, aspect and duration",
       "evidence": [
         {
@@ -6527,8 +6528,8 @@
           "source": "Chapter 8 audit, 20 November 2026",
           "url": null,
           "passage": "§5.4, p. 1683. “We have seen (Ch. 8, §7.1) that prepositions can often be used to indicate position in both space and time”",
-          "example": "Ch. 8, p. 694; p. 696 [10]; p. 702.",
-          "establishes": "Temporal position is treated in Ch. 8, §6; §7.1 treats duration.",
+          "example": "Ch. 8, p. 679, opening of §4; p. 696 [10]; p. 702.",
+          "establishes": "The point is made in Ch. 8, §4, which cross-refers to Ch. 19, §5.4.",
           "locator": "Section B, Ch. 19 p. 1683 row.",
           "note": "Local source (working note, unpublished draft or local copy); not online."
         }
@@ -6613,14 +6614,14 @@
         "section": "various",
         "page": "971–1205"
       },
-      "claim": "Two misprints outside Chapter 8 not in the authors’ errata, confirmed on the page images.",
-      "evidence_summary": "Ch. 11, p. 971 [56iia] “<i>I’ll come along, [provided (that) I can leave early.</i>” has no closing bracket. Ch. 14, p. 1205 prints the display number as “[17” with no closing bracket.",
+      "claim": "Three misprints outside Chapter 8 not in the authors’ errata, confirmed on the page images.",
+      "evidence_summary": "Ch. 11, p. 971 [56iia] “<i>I’ll come along, [provided (that) I can leave early.</i>” has no closing bracket, and [56ib] “<i>We’ll invite them both [though I don’t think he’ll come]</i>” has no full stop. Ch. 14, p. 1205 prints the display number as “[17” with no closing bracket.",
       "finding": "Candidates for the authors’ errata page.",
       "semantic_inference": false,
       "condition": "None",
       "internal_tension": false,
       "related": "971, 1205",
-      "proposed_wording": "<i>I’ll come along, [provided (that) I can leave early].</i>; [17]",
+      "proposed_wording": "<i>I’ll come along, [provided (that) I can leave early].</i>; <i>We’ll invite them both [though I don’t think he’ll come].</i>; [17]",
       "inference": "Which printed forms need correction?",
       "family": "Prepositions, subordinators and connectives",
       "evidence": [
@@ -6636,6 +6637,49 @@
         }
       ],
       "url": "https://brettreynolds.ca/cgel-claims/CG-0176/"
+    },
+    {
+      "id": "CG-0177",
+      "topic": "Example reference for correlative <i>both</i> and <i>either</i>",
+      "assessment": "Author erratum",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 15,
+        "section": "2.3",
+        "page": 1305
+      },
+      "claim": "After [38], “In the coordinations [iia/iib] they function as marker of the first coordinate in correlative” coordination.",
+      "evidence_summary": "[38] has [ia] <i>both players</i>, [ib] <i>both Kim and Pat</i>, [iia] <i>either player</i> and [iib] <i>either Kim or Pat</i>. The preceding sentence cites the NPs as “[ia/iia]”. [iia] is an NP, not a coordination; the coordinations are [ib] and [iib].",
+      "finding": "The authors’ errata already correct [iia/iib] to [ib/iib]. The entry isn’t marked as fixed in a later printing, and the 9th printing (2016) still has [iia/iib]. The audit’s image check found it independently, beside the separate reference error in CG-0104.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "1305 [38]",
+      "proposed_wording": "In the coordinations [ib/iib]",
+      "inference": "Does the reference pick out the coordinations in [38]?",
+      "family": "Quantification and alternatives",
+      "evidence": [
+        {
+          "role": "Published erratum",
+          "source": "CGEL authors. The Cambridge Grammar of the English Language: Typographical and Other Errors.",
+          "url": "https://pullum.ppls.ed.ac.uk/cgelerrata.html",
+          "passage": "Ch. 15 §2.3, p. 1305. “In the coordinations [iia/iib] they function as marker of the first coordinate”",
+          "example": "Entry for p. 1305, “2nd line below [38]”, [iia/iib] corrected to [ib/iib].",
+          "establishes": "Records an author correction already made.",
+          "locator": "Entry for printed p. 1305."
+        },
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "Ch. 15 §2.3, p. 1305. “In the coordinations [iia/iib] they function as marker of the first coordinate”",
+          "example": "Page 1305 [38].",
+          "establishes": "The error is still printed in the 9th printing.",
+          "locator": "Errata check, row marked NEW. Checked on the page image at 300 dpi.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0177/"
     }
   ]
 }

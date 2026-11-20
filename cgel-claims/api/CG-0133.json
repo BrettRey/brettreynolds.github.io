@@ -1,0 +1,33 @@
+{
+  "id": "CG-0133",
+  "topic": "Activities called imperfective",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "7.2",
+    "page": "703–709"
+  },
+  "claim": "Chapter 8 treats activities as imperfective, and duration elements as making them perfective. Page 703: “The situations in [ia/iia], considered in abstraction from the duration adjunct, are imperfective: studying law is an activity, and living in College is a state.” Page 705: “Mary’s driving along country lanes is an imperfective situation”. Page 709: “clauses denoting imperfective situations (activities and states)”.",
+  "evidence_summary": "Page 668 says the chapter “will draw on the aspectual categories of perfective vs imperfective and the situation types states, activities, accomplishments, and achievements presented in Ch. 3, §3.2”. There, the non-progressive is “perfective with occurrences, i.e. dynamic situations, but imperfective with states, whether ordinary or serial” (p. 124), with [23i] <i>He played golf on Wednesday</i> labelled perfective; p. 125 says [23i] “expresses a single activity; it is considered as a whole”. Ch. 3 agrees with Chapter 8 that a state with a duration adjunct is perfective ([22i] <i>He reigned for a year</i>, p. 124) and that serial states are imperfective.",
+  "finding": "Medium confidence. For activities the chapters conflict: Chapter 8 uses “imperfective” for what its own §1 label calls “[unbounded: activity]” (p. 668), while Ch. 3 makes a non-progressive activity normally perfective, and Ch. 3’s “see also §5.2” (p. 124) concerns continuative perfects, not this case. For multiple situations they largely agree, since Ch. 3 treats serial multiplicity as a state. No claim in Chapter 8 fails because of the terminology, and <i>unbounded</i> and <i>bounded</i> at these sites would remove the clash.",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "124 [22]–[23]. 125. 668 [6]. 703 [3]. 705. 709. 713. 714",
+  "inference": "Is a non-progressive activity imperfective?",
+  "family": "Time, aspect and duration",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§7.2, p. 703. “Adding the adjunct has the effect of bounding the situation, making it perfective.”",
+      "example": "Ch. 3, p. 124 [23i] <i>He played golf on Wednesday.</i> [perfective]",
+      "establishes": "The two chapters assign different aspect to a non-progressive activity.",
+      "locator": "Section A4, item A4l.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0133/"
+}

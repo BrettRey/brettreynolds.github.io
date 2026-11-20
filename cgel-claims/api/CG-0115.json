@@ -1,0 +1,33 @@
+{
+  "id": "CG-0115",
+  "topic": "Manner dependent of <i>behave</i>",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "2.1",
+    "page": 671
+  },
+  "claim": "“With some verbs a manner dependent has the syntactic status of a complement”, as in [4a] <i>She behaved outrageously</i>. In this sense <i>behave</i> requires one, since <i>She behaved</i> on its own is understood as behaving well.",
+  "evidence_summary": "Ch. 13, p. 1155, agrees: under “(b) Manner complement” it gives [48i] <i>Liz is behaving like a prima donna</i>. But Ch. 4, p. 302 n. 57, on <i>behave</i> among the verbs with an unexpressed reflexive object ([18v]), says that ‘well’ or the like is understood in <i>Behave!</i>, “where no manner adjunct is expressed”.",
+  "finding": "Medium confidence. The same dependent of <i>behave</i>, with ‘well’ understood when nothing is expressed, is a complement in Chapters 8 and 13 and an adjunct in Ch. 4. The footnote may be loose wording. Or it may follow Ch. 4’s own criteria, since the dependent can be omitted, and then the chapters’ analyses differ. Either way one place needs changing.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "302 [18v], n. 57. 671 [4]. 1155 [48]",
+  "inference": "Is the manner dependent of <i>behave</i> a complement?",
+  "family": "Complements and adjuncts",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§2.1, p. 671. “With some verbs a manner dependent has the syntactic status of a complement”.",
+      "example": "Ch. 4, p. 302 n. 57; Ch. 13, p. 1155 [48i].",
+      "establishes": "Two chapters call the dependent a complement and a third calls it an adjunct.",
+      "locator": "Section A3, item A3e.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0115/"
+}

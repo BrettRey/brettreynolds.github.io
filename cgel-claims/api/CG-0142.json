@@ -1,0 +1,33 @@
+{
+  "id": "CG-0142",
+  "topic": "<i>So as</i> as a preposition",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "12.2",
+    "page": 727
+  },
+  "claim": "Page 727 lists <i>so as</i> among the prepositions heading purpose PPs: “The prepositions found here are <i>in order</i> (finite or infinitival), <i>so</i> (finite), <i>so as</i> (infinitival)”. Page 728 has “In subjectless clauses governed by <i>in order</i> or <i>so as</i>”.",
+  "evidence_summary": "Ch. 14 p. 1262: “The only prepositional expressions that take <i>to</i>-infinitivals other than interrogatives as direct complement are purposive <i>in order</i>, and <i>as if</i>/<i>though</i>”. Ch. 14 p. 1264: “The <i>as</i> here is itself licensed by <i>so</i> or <i>such</i>.” Ch. 17 p. 1540 makes <i>so</i> the preposition and says its complement “can have the form of <i>as</i> + infinitival”, citing Ch. 8, §12.2.",
+  "finding": "Medium confidence: Ch. 8 lists <i>so as</i> as a preposition taking an infinitival, which Ch. 14 p. 1262 rules out, while Chs. 14 and 17 make <i>so</i> the head and <i>as</i> + infinitival its complement. Page 728’s “Infinitivals governed by <i>so</i> + <i>as</i>” recognizes two words, but it still makes the infinitival a dependent of the pair.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "727 [7]. 728 [12]. 729. 1262 [22]. 1264 [28]. 1540 [72]",
+  "inference": "Is <i>so as</i> a preposition taking an infinitival complement?",
+  "family": "Prepositions, subordinators and connectives",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§12.2, p. 727. “The prepositions found here are <i>in order</i> (finite or infinitival), <i>so</i> (finite), <i>so as</i> (infinitival)”",
+      "example": "Ch. 14 pp. 1262 [22] and 1264 [28]; Ch. 17 p. 1540 [72].",
+      "establishes": "The chapters assign the head of the purpose PP differently.",
+      "locator": "Section A3, item A3c.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0142/"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "CG-0141",
+  "topic": "Example reference for the result adjunct in §12 [1]",
+  "assessment": "Production error",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "12",
+    "page": 726
+  },
+  "claim": "“In [ii] the airline’s overbooking is treated as subordinate and expressed within an adjunct of cause (more specifically, of reason), whereas in [ii] it is the other situation, our not being able to get on the plane, that is expressed as a subordinate clause, this time within an adjunct of result.”",
+  "evidence_summary": "[1ii] (p. 725) is the reason example. [1iii] is the result example: <i>The airline had overbooked, so that two of us couldn’t get on the plane</i>, labelled “[result]”.",
+  "finding": "Change the second [ii] to [iii].",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "725 [1]. 726",
+  "proposed_wording": "whereas in [iii] it is the other situation",
+  "inference": "Does the second reference point to the result example?",
+  "family": "Purpose, reason, concession and condition",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§12, p. 726. “whereas in [ii] it is the other situation, our not being able to get on the plane”",
+      "example": "Page 725 [1iii].",
+      "establishes": "The intended example is [1iii].",
+      "locator": "Section B, p. 726 row.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0141/"
+}

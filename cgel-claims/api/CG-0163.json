@@ -1,0 +1,34 @@
+{
+  "id": "CG-0163",
+  "topic": "<i>Possibly</i> with request <i>could</i>",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "16",
+    "page": 768
+  },
+  "claim": "“<i>possibly</i> can be used in modal harmony with deontic <i>can</i> in requests for permission or action”, with [4i] <i>Could I possibly borrow your bicycle for half an hour?</i> and [4ii] <i>Could you possibly come a little earlier next week?</i>",
+  "evidence_summary": "Ch. 3, p. 200 [56ii] has <i>Can you pass the salt, please</i> and <i>Could you pass the salt, please</i>: “questions about your ability are conventionally used as requests”. There [57ii] <i>Might/Could I have a little more sugar?</i> is labelled [deontic]. Ch. 10, p. 939 [42] separates [ability] <i>Can you open the door</i> from “the deontic necessity for you to do something”, and p. 940 [43] lists <i>can you</i> and <i>could you</i> as openers of ability questions.",
+  "finding": "Medium confidence. The permission request in [4i] is deontic in Ch. 3 as well, but the request for action in [4ii] is an ability question there and in Ch. 10. The defence that <i>deontic</i> here loosely means directive force fails, since Ch. 10 [42] keeps ability and deontic necessity apart. The modal-harmony point itself stands.",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "768 [4]. 200 [56ii], [57ii]. 939 [42]. 940 [43]",
+  "proposed_wording": "<i>possibly</i> can be used in modal harmony with deontic <i>can</i> in requests for permission, and with ability <i>can</i> in requests for action",
+  "inference": "Is <i>could</i> in a request for action deontic?",
+  "family": "Modality, evaluation and speech acts",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§16, p. 768. “<i>possibly</i> can be used in modal harmony with deontic <i>can</i> in requests for permission or action”",
+      "example": "Ch. 3, p. 200 [56ii]. Ch. 10, pp. 939–940 [42i], [43].",
+      "establishes": "Two other chapters treat requests for action with <i>can</i> or <i>could</i> as ability questions.",
+      "locator": "Section A3, item A3f.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0163/"
+}

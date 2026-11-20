@@ -1,0 +1,43 @@
+{
+  "id": "CG-0125",
+  "topic": "Stop-start movement in the <i>way</i> construction",
+  "assessment": "Open",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "4.3",
+    "page": 685
+  },
+  "claim": "“The movement denoted by the <i>way</i> construction has to be one that consists of a series of stops and starts, rather than being continuous movement.”",
+  "evidence_summary": "Adele E. Goldberg (1995: 204) states the constraint as motion along a self-created path, either against some external difficulty or deliberate, careful, methodical or winding. Her example (19), from the <i>Wall Street Journal</i>, describes continuous jogging: <i>weaving their way along a street of fractured and fallen houses</i>. CGEL’s own [35v] (p. 689), <i>The track winds its way along the banks of the river</i>, describes continuous, static extension.",
+  "finding": "A lead, not yet a finding. Attestations of continuous movement (<i>weaving their way along</i>, <i>snaked its way</i>, <i>glided its way</i>) in edited prose would show whether “has to be” overstates the constraint.",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "685 [23]. 689 [35v]",
+  "inference": "Must the movement in the <i>way</i> construction be stop-start?",
+  "family": "Location, motion and extent",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§4.3, p. 685. “has to be one that consists of a series of stops and starts”.",
+      "example": "Goldberg (1995), p. 204, example (19); CGEL p. 689 [35v].",
+      "establishes": "A lead only. Corpus strings have not been searched.",
+      "locator": "Section E, p. 685.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    },
+    {
+      "role": "Research source",
+      "source": "Adele E. Goldberg, Constructions: A Construction Grammar Approach to Argument Structure (University of Chicago Press, 1995).",
+      "url": null,
+      "passage": "§4.3, p. 685.",
+      "example": "(19), cited from the <i>Wall Street Journal</i>: “weaving their way along a street of fractured and fallen houses”. Verbs such as <i>thread</i>, <i>wend</i> and <i>weave</i> “involve deliberate, careful, methodical, or winding motion”.",
+      "establishes": "An analysis that states the constraint as a self-created path. The audit reader reads example (19) as continuous movement.",
+      "locator": "Chapter 9, The way construction, p. 204, examples (18)–(19). Page checked on the image by the audit reader.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0125/"
+}

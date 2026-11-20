@@ -1,0 +1,34 @@
+{
+  "id": "CG-0117",
+  "topic": "Lettering of the cognate object examples",
+  "assessment": "Production error",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "2.1",
+    "page": 673
+  },
+  "claim": "The prose cites the cognate object examples as [i] and [ii]. “Thus [i] means essentially the same as <i>She fought heroically</i>”, and [ii] “likewise describes the manner of his dying”.",
+  "evidence_summary": "Example [11] is lettered a and b: [11a] <i>She fought a heroic fight.</i>, [11b] <i>He died a long and agonising death.</i>",
+  "finding": "Change [i] and [ii] to [a] and [b].",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "673 [11]",
+  "proposed_wording": "Thus [a] means essentially the same as <i>She fought heroically</i>; [b] likewise describes the manner of his dying",
+  "inference": "Do the prose references match the example’s lettering?",
+  "family": "Complements and adjuncts",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§2.1, p. 673. “Thus [i] means essentially the same as <i>She fought heroically</i>”.",
+      "example": "Page 673 [11a–b].",
+      "establishes": "The example has no rows i and ii.",
+      "locator": "Section B, p. 673.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0117/"
+}

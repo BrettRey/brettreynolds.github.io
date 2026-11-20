@@ -1,0 +1,33 @@
+{
+  "id": "CG-0118",
+  "topic": "Status mark for <i>He died a death</i>",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "2.1",
+    "page": 673
+  },
+  "claim": "A cognate object’s head noun “is already implied by the verb” and so “does not normally occur on its own”, with the example marked #: #<i>He died a death</i>.",
+  "evidence_summary": "Ch. 4, p. 305, marks the same string ? and gives a different kind of reason: “Modification of the noun is just about obligatory”, with ?<i>He died a death</i> and ?<i>He grinned a grin</i>. In CGEL’s notation (p. xii), # marks a semantic or pragmatic anomaly and ? questionable grammaticality.",
+  "finding": "The two chapters disagree on the kind of deviance, semantic redundancy against a near-obligatory modifier, for one example. Both are hedged (“not normally” on p. 673, “just about” on p. 305) and both marks are weaker than ∗, so the clash is in the kind of deviance, not its strength.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "305 [33]. 673 [11]",
+  "inference": "Is <i>He died a death</i> semantically anomalous or of questionable grammaticality?",
+  "family": "Grammaticality marks",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§2.1, p. 673. “As the head noun itself is already implied by the verb it does not normally occur on its own”.",
+      "example": "Ch. 4, p. 305: ?<i>He died a death</i>; ?<i>He grinned a grin</i>.",
+      "establishes": "Two chapters give one example different status marks. The reader checked both marks on page images.",
+      "locator": "Section A2, p. 673.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0118/"
+}

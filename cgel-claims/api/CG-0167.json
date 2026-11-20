@@ -1,0 +1,33 @@
+{
+  "id": "CG-0167",
+  "topic": "Leftward movement as a test for matrix adjuncts",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "20.2",
+    "page": 783
+  },
+  "claim": "An adjunct after an auxiliary “can be moved to the left of the auxiliary if it belongs in the matrix, but not if it belongs in the subordinate clause”, as in [12ia] ∗<i>He deeply had offended her</i>. Then: “The best test is to see whether the adjunct can be moved to the left of the auxiliary: if so, this is strong evidence that it belongs in the matrix.”",
+  "evidence_summary": "Ch. 6, p. 575 cites this section (“As noted in Ch. 8, §20.2”) and gives [4iib] ?<i>They contentedly would watch TV for hours</i>, where <i>contentedly</i> has its “basic position” in the <i>watch</i> clause. Page 578 [11iib] is ?<i>Chris expertly had repaired it</i>, the frame of [12ia], and “it should not be assumed that such sentences will never be encountered”.",
+  "finding": "Medium confidence. By the p. 783 test, Ch. 6’s ?-marked examples would put the manner adjunct in the matrix, against Ch. 6’s own analysis. The defence that the starred adverbs in [12] aren’t manner adverbs (<i>deeply</i> is a degree adverb, and Ch. 6, p. 579 restricts degree adverbs in central position) saves the stars but not the rule, which is stated for adjuncts in general.",
+  "semantic_inference": false,
+  "condition": "Diagnostic only",
+  "internal_tension": true,
+  "related": "783 [12], [13]. 784. 575 [4ii]. 578 [11]",
+  "inference": "Does placement before the auxiliary show that an adjunct belongs in the matrix?",
+  "family": "Position of adjuncts",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§20.2, p. 783. “The best test is to see whether the adjunct can be moved to the left of the auxiliary: if so, this is strong evidence that it belongs in the matrix.”",
+      "example": "Ch. 6, p. 575 [4iib] ?<i>They contentedly would watch TV for hours.</i> Page 578 [11iib] ?<i>Chris expertly had repaired it.</i>",
+      "establishes": "Ch. 6 grades placement of a subordinate-clause manner adjunct before the auxiliary as marginal, not excluded.",
+      "locator": "Section A4, item A4h.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0167/"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "CG-0166",
+  "topic": "<i>Neither</i> as a coordinator",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "19",
+    "page": 778
+  },
+  "claim": "“<i>Neither</i> and <i>nor</i> belong to both the class of coordinators and that of connective adverbs (again, see Ch. 15, §2.4, for discussion).”",
+  "evidence_summary": "Ch. 15, §2.4, p. 1308, the section cited: “The determinative <i>neither</i>, like <i>both</i> and <i>either</i>, functions as a determiner in NP structure or as a marker in correlative coordination”, and “In addition, it is an adverb functioning as connective adjunct”. Page 1307: <i>both</i> and <i>either</i> “are clearly distinct from the coordinators”. Ch. 5, p. 389: “<i>Neither</i> functions likewise as determiner (<i>neither parent</i>) or marker of an initial coordinate”. The inventory of coordinators on p. 1293 doesn’t include <i>neither</i>.",
+  "finding": "High confidence for <i>neither</i>, which Chs. 5 and 15 treat as a determinative and an adverb. The defence that p. 778’s “class of coordinators” loosely means items that mark coordination fails, since p. 1307 sets these determinatives apart from the coordinators. For <i>nor</i> the wording is partly right: pp. 1309–1310 make it a connective adverb for speakers who accept <i>and nor</i>, and a coordinator for many others.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "778. 1293. 1307. 1308 [46]–[47]. 1309–1310 [51]. 389",
+  "proposed_wording": "<i>Neither</i> is both a determinative and a connective adverb, and <i>nor</i> a coordinator and, for some speakers, also a connective adverb (again, see Ch. 15, §2.4, for discussion).",
+  "inference": "Is <i>neither</i> a coordinator?",
+  "family": "Prepositions, subordinators and connectives",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§19, p. 778. “<i>Neither</i> and <i>nor</i> belong to both the class of coordinators and that of connective adverbs”",
+      "example": "Ch. 15, p. 1308 [46] <i>neither player</i>, <i>neither Kim nor Pat</i>. Ch. 5, p. 389.",
+      "establishes": "The section cited puts <i>neither</i> in the determinative and adverb categories, not among the coordinators.",
+      "locator": "Section A3, item A3a.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0166/"
+}

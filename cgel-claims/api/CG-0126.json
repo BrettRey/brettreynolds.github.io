@@ -1,0 +1,33 @@
+{
+  "id": "CG-0126",
+  "topic": "Status mark for <i>to here</i>",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "4.3",
+    "page": 686
+  },
+  "claim": "“The <i>to</i> is generally impossible with <i>here</i> and <i>there</i>”, illustrated by ?<i>She’s travelling to here by car</i>. Footnote 5 says it might be acceptable when <i>here</i>, with a gesture, refers to a location on a map, and gives %<i>She’s coming back to here</i>.",
+  "evidence_summary": "The prose says “impossible” but the example is marked ?, which CGEL uses for questionable grammaticality (p. xii), not ∗. Ch. 17, p. 1550, lists the combination without qualification: “<i>Here</i> and <i>there</i> can occur as complement to a preposition: <i>in here</i>, <i>from/to there</i>, and so on.”",
+  "finding": "Low to medium confidence. The prose and the mark disagree about strength, and Ch. 17 treats <i>to there</i> as an ordinary combination. The hedge “generally” and footnote 5 soften the claim, which limits the conflict.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "686, n. 5. 1550",
+  "inference": "Is <i>to</i> impossible before <i>here</i> and <i>there</i>?",
+  "family": "Grammaticality marks",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§4.3, p. 686. “The <i>to</i> is generally impossible with <i>here</i> and <i>there</i>”.",
+      "example": "Ch. 17, p. 1550, <i>from/to there</i>.",
+      "establishes": "The prose, the status mark and Ch. 17 give three strengths for one restriction. The reader checked the mark on the page image.",
+      "locator": "Section A2, p. 686.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0126/"
+}

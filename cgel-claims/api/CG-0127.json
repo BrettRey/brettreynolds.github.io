@@ -1,0 +1,33 @@
+{
+  "id": "CG-0127",
+  "topic": "<i>Out</i> as goal with <i>put</i>",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "4.3",
+    "page": 687
+  },
+  "claim": "<i>Out</i> “with verbs of motion is restricted to source”, so <i>She went out of the room</i> is “(source, not goal)”.",
+  "evidence_summary": "Ch. 4, p. 284 [35iib], has <i>I must put the cat out (of the house)</i>. <i>Put</i> takes an obligatory goal: Ch. 7, p. 605, cites “the goal complement of certain transitive verbs such as <i>put</i> or <i>place</i>”, with ∗<i>I put it</i>, and Ch. 8, p. 685, counts <i>put</i> among the “causative verbs of movement”. In [35iib] <i>out</i> is the only element that could fill that goal.",
+  "finding": "Medium-low confidence. If <i>out</i> in [35iib] is <i>put</i>’s goal, the restriction needs an exception for causative verbs of movement. Reading <i>out (of the house)</i> as a source with an implicit goal is hard to square with <i>put</i>’s obligatory goal. Page 687 itself admits other source and direction prepositions as goals “under restricted conditions” (<i>Place it well away from the fire</i>).",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "284 [35iib]. 605 [6]. 685. 687",
+  "inference": "Is <i>out</i> restricted to source with verbs of motion?",
+  "family": "Location, motion and extent",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§4.3, p. 687. “A different kind of exception is <i>out</i>, which with verbs of motion is restricted to source”.",
+      "example": "Ch. 4, p. 284 [35iib] <i>I must put the cat out (of the house)</i>; Ch. 7, p. 605 [6i].",
+      "establishes": "The book’s own example appears to have <i>out</i> filling <i>put</i>’s obligatory goal.",
+      "locator": "Section A4, item A4k.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0127/"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "CG-0164",
+  "topic": "∗ and # for presupposed information",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "17",
+    "page": 772
+  },
+  "claim": "Evaluative adjuncts “do not, therefore, occur in interrogatives, imperatives, or pragmatically presupposed subordinate clauses”, with [5iii] ∗<i>Since Deidre fortunately recovered from her illness, she has lived in California</i>, where <i>since</i> is temporal.",
+  "evidence_summary": "§19, p. 778 explains a restriction on connective adjuncts in the same terms but marks it #: “The felicitous use of these connectives requires that the similarity be between propositions that are informationally in the foreground, not presupposed”, with [12ii] #<i>Kim has stopped smoking and Pat used to smoke too</i>. On p. 702 a #-marked example “certainly does not violate any rule of grammar”.",
+  "finding": "Low confidence. Both restrictions rest on the difference between asserted and presupposed information, and p. 772 explains its restriction in pragmatic terms, so by CGEL’s own conventions [5iii] fits # better than ∗. The defence that CGEL treats the evaluative restriction as grammaticalised, since it is stated alongside interrogative and imperative clause types, partly works.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "772 [5]. 778 [12]. 702",
+  "inference": "Is the restriction on evaluative adjuncts in presupposed clauses grammatical or pragmatic?",
+  "family": "Grammaticality marks",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§17, p. 772. “∗<i>Since Deidre fortunately recovered from her illness, she has lived in California.</i>”",
+      "example": "Page 778 [12ii] #<i>Kim has stopped smoking and Pat used to smoke too.</i>",
+      "establishes": "The chapter gives one information-status explanation two different marks.",
+      "locator": "Section A2, pp. 772/778 row.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0164/"
+}

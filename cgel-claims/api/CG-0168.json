@@ -1,0 +1,33 @@
+{
+  "id": "CG-0168",
+  "topic": "Leftward incongruent adjuncts",
+  "assessment": "Open",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "20.2",
+    "page": 784
+  },
+  "claim": "Adjuncts placed to the left of their expected position, as in [14iib] <i>The party will long be remembered</i>, “are found with a very restricted range of adjuncts: compare, for example, <i>The supply will be drastically reduced</i> with ∗<i>The supply will drastically be reduced</i>.”",
+  "evidence_summary": "CGEL’s own prose puts a range of <i>·ly</i> adverbs before passive <i>be</i>: <i>some can readily be used</i> (p. 366), <i>bare NPs can optionally be used</i> (p. 410), <i>can usefully be subdivided</i> (p. 425), <i>would traditionally be treated</i> (p. 600), <i>has subsequently been changed</i> (p. 701). Ch. 6’s ?-marked manner adjuncts before an auxiliary (pp. 575, 578) point the same way.",
+  "finding": "Unresolved. These examples count against the claim only if the adverb belongs semantically with the participle, which is the reader’s analysis, not CGEL’s, and most have a reading with scope over the <i>be</i> clause. <i>Readily</i> and <i>optionally</i> are the likeliest cases, and a corpus search for manner adverbs in this slot (<i>will carefully be</i> + past participle) would decide.",
+  "semantic_inference": true,
+  "condition": "Distributional restriction",
+  "internal_tension": true,
+  "related": "783 [14ii]. 784. 366. 410. 425. 575 [4ii]. 578 [11]",
+  "inference": "Is leftward incongruent placement limited to a very restricted range of adjuncts?",
+  "family": "Position of adjuncts",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§20.2, p. 784. “found with a very restricted range of adjuncts”",
+      "example": "Page 366, <i>some can readily be used</i>. Page 410, <i>bare NPs can optionally be used</i>.",
+      "establishes": "A lead only. The book’s own usage is evidence against the claim only on the incongruent reading.",
+      "locator": "Section E, p. 784 row.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0168/"
+}

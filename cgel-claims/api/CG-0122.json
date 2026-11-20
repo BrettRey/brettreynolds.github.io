@@ -1,0 +1,42 @@
+{
+  "id": "CG-0122",
+  "topic": "Means adverb <i>pharmaceutically</i>",
+  "assessment": "Open",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "2.2",
+    "page": 674
+  },
+  "claim": "Realisation of means and instrument by adverbs is “extremely limited”. While <i>treat surgically</i> and <i>communicate electronically</i> are possible, “we could not replace the adverbs here with <i>pharmaceutically</i> or <i>postally</i>”.",
+  "evidence_summary": "The audit reader found 23 PubMed title or abstract hits for <i>pharmaceutically treated</i>, including a verbal participle with a means reading: <i>1 200 769 patients pharmaceutically treated for their first occurrence of depression</i> (Reps, Ryan and Rijnbeek 2021). The same search found no hits for the quoted phrases <i>treated pharmaceutically</i> and <i>treat pharmaceutically</i>. <i>Postally</i> wasn’t searched.",
+  "finding": "A lead, not yet a finding. Preverbal <i>pharmaceutically treated</i> is attested in medical prose, but the postverbal order CGEL tests wasn’t found, so the claim may hold for <i>treat pharmaceutically</i>. A search of a general corpus for both orders would settle whether it needs qualifying.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "674",
+  "inference": "Can <i>pharmaceutically</i> replace <i>surgically</i> in <i>treat surgically</i>?",
+  "family": "Category diagnostics and word formation",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§2.2, p. 674. “we could not replace the adverbs here with <i>pharmaceutically</i> or <i>postally</i>”.",
+      "example": "PubMed title and abstract searches for <i>pharmaceutically treated</i>, <i>treated pharmaceutically</i> and <i>treat pharmaceutically</i>.",
+      "establishes": "A lead only. Preverbal uses occur; the postverbal order wasn’t found.",
+      "locator": "Section E, p. 674.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    },
+    {
+      "role": "Attestation",
+      "source": "J. M. Reps, P. Ryan and P. R. Rijnbeek, “Investigating the impact of development and internal validation design when training prognostic models using a retrospective cohort in big US observational healthcare data”, BMJ Open 11(12): e050146 (2021).",
+      "url": "https://doi.org/10.1136/bmjopen-2021-050146",
+      "passage": "§2.2, p. 674.",
+      "example": "“1 200 769 patients pharmaceutically treated for their first occurrence of depression.”",
+      "establishes": "Preverbal <i>pharmaceutically</i> as a means modifier of <i>treated</i> in edited medical prose.",
+      "locator": "Abstract, Participants. PubMed 34952871."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0122/"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "CG-0119",
+  "topic": "Instrumental <i>with the master-key</i>",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "2.2",
+    "page": 673
+  },
+  "claim": "“Means and instrument adjuncts are characteristically realised by PPs headed by <i>by</i> (or <i>by means</i>) and <i>with</i> (or <i>without</i>) respectively”, with [12iia] <i>She opened my door with the master-key</i>. On p. 665, [1ii] <i>They opened it with a tin-opener</i> is labelled “[instrument: §2.2]”.",
+  "evidence_summary": "Ch. 4, §8.3.4 (p. 319), gives [76ia] <i>We opened the door with the master-key</i> as a construction with “object + non-core complement within the VP”, and p. 320 says: “The non-core complements in the [a] examples of [76] have a range of roles. <i>With the master-key</i> in [ia] is an instrument.” Chapter 8 sends the reader to that passage (p. 674, CG-0121).",
+  "finding": "Medium confidence. The same verb, object and PP are an adjunct in Ch. 8 and a complement in Ch. 4, and Ch. 8 doesn’t flag instrumental complements as §2.1 flags manner complements. Ch. 4 may count the PP as a complement because it alternates with the subject in [76ib], and Ch. 4, p. 219, admits “some uncertainty, and disagreement among grammarians, as to how much should be subsumed under the function complement”. That explains the analysis but not the silence between the chapters.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "219. 319 [76i]. 320. 665 [1ii]. 673 [12ii]. 674 [13]",
+  "inference": "Is instrumental <i>with the master-key</i> an adjunct?",
+  "family": "Complements and adjuncts",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§2.2, p. 673. “Means and instrument adjuncts are characteristically realised by PPs”.",
+      "example": "Ch. 4, p. 320, on [76ia] <i>We opened the door with the master-key</i>.",
+      "establishes": "Two chapters assign the instrumental PP different functions without comment.",
+      "locator": "Section A3, item A3d.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0119/"
+}

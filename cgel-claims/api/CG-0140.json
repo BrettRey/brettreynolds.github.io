@@ -1,0 +1,34 @@
+{
+  "id": "CG-0140",
+  "topic": "Wide and narrow scope negation with degree adjuncts",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "11",
+    "page": 725
+  },
+  "claim": "After setting aside metalinguistic negation, the text says “In what follows we ignore cases of this kind and consider below only narrow scope ordinary negation.”",
+  "evidence_summary": "The cases discussed next all have the adjunct inside the scope of the negative; the first is [22] (p. 724), labelled “[adjunct in scope of negation]”. Page 724 uses the term for the opposite configuration: “Nevertheless, narrow scope negation is not entirely excluded”, with [24] labelled “[negation in scope of adjunct]”. Ch. 9 p. 793 fixes the convention: “in [23ii] the negative has narrow scope relative to the adjunct, whereas in [23iii] it has wide scope”, and [23iii] is labelled “[negative has scope over adjunct]”.",
+  "finding": "The text means wide scope negation: the discussion that follows concerns negation with scope over the adjunct, which p. 724 and Ch. 9 call wide scope. Reading the phrase as ordinary negation in which the adjunct has narrow scope doesn’t work, since p. 724 uses the same collocation for the opposite reading.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "724 [22]–[25]. 725. 792–793 [23]",
+  "proposed_wording": "consider below only wide scope ordinary negation",
+  "inference": "Does the discussion that follows concern narrow scope negation?",
+  "family": "Scope, negation and polarity",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§11, p. 725. “consider below only narrow scope ordinary negation”",
+      "example": "Page 724 [22] and [24]; Ch. 9 p. 793 [23].",
+      "establishes": "The term names the opposite of the configuration discussed.",
+      "locator": "Section A4, item A4b.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0140/"
+}

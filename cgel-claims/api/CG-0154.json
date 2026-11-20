@@ -1,0 +1,33 @@
+{
+  "id": "CG-0154",
+  "topic": "Modal forms in remote apodoses: the reference to Ch. 3",
+  "assessment": "Production error",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "14.2.2",
+    "page": 751
+  },
+  "claim": "“The most common modal auxiliaries occurring in the apodosis are <i>would</i>, <i>should</i>, <i>could</i>, and <i>might</i>”, and “for other modal forms, see Ch. 3, §§5, 9.8.4”.",
+  "evidence_summary": "Ch. 3 §5 (p. 139) is “Perfect tense”, and a search of pp. 139–147 for remote, conditional, apodosis and each modal auxiliary finds no discussion of modals in remote apodoses. §9.8.4 is a fitting target: on p. 202 <i>must</i> and <i>ought</i> “occur readily in construction [60ib], if only marginally in [iib]”, where [60ib] is a backshifted report and [60iib] the remote conditional. §2.5 (p. 108), “The auxiliaries considered in turn”, tests each auxiliary for “[L] Can occur in remote apodosis”; p. 109 has %<i>If he had stayed in the army he must surely have become a colonel</i>.",
+  "finding": "Ch. 3 §5 is the wrong target (high confidence). §2.5 is the likely intended one, but that is an inference (medium confidence).",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "108–115. 139. 202. 751",
+  "inference": "Does the reference to Ch. 3 lead to the discussion of other modals in remote apodoses?",
+  "family": "Modality, evaluation and speech acts",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§14.2.2, p. 751. “for other modal forms, see Ch. 3, §§5, 9.8.4”",
+      "example": "Ch. 3 p. 108, property [L]; p. 202.",
+      "establishes": "Ch. 3 §5 is the wrong target; §2.5 covers the point.",
+      "locator": "Section B, p. 751 row.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0154/"
+}

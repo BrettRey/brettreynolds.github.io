@@ -1,0 +1,42 @@
+{
+  "id": "CG-0116",
+  "topic": "∗<i>Modernly</i>",
+  "assessment": "Open",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "2.1",
+    "page": 671
+  },
+  "claim": "[6iii] <i>We’re furnishing the house in a modern style / the Italian fashion</i> “illustrates the case where there is no adverb at all derived from the adjective (∗<i>modernly</i>, ∗<i>Italianly</i>)”.",
+  "evidence_summary": "Wiktionary has <i>modernly</i>, ‘in a modern manner or style’, quoting Anthony Byars, <i>Texas, in Fact</i> (2004): <i>The living room was huge and modernly furnished.</i> That is the manner sense, with the verb of [6iii]. The book itself hasn’t been seen. Wiktionary also lists <i>Italianly</i>, ‘in an Italian manner’, with no quotation.",
+  "finding": "A lead, not yet a finding. If edited prose attests manner <i>modernly</i>, the claim needs qualifying: the paragraph speaks of “natural counterparts”, so the point may be that the adverb is unavailable in ordinary use, but the ∗ says more than that.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "671 [6iii]",
+  "inference": "Is there no adverb <i>modernly</i>?",
+  "family": "Category diagnostics and word formation",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§2.1, p. 671. “there is no adverb at all derived from the adjective (∗<i>modernly</i>, ∗<i>Italianly</i>)”.",
+      "example": "Wiktionary entry for <i>modernly</i>, read as wikitext.",
+      "establishes": "A lead only. Merriam-Webster returned HTTP 403 to the audit tools.",
+      "locator": "Section E, p. 671.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    },
+    {
+      "role": "Research source",
+      "source": "Wiktionary, “modernly” (revision 93708141), quoting Anthony Byars, Texas, in Fact (2004).",
+      "url": "https://en.wiktionary.org/w/index.php?title=modernly&oldid=93708141",
+      "passage": "§2.1, p. 671 [6iii].",
+      "example": "“The living room was huge and modernly furnished.”",
+      "establishes": "A quoted use of manner <i>modernly</i> with <i>furnish</i>, at second hand. The book hasn’t been checked.",
+      "locator": "Adverb, sense 1. Wikitext fetched 20 November 2026."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0116/"
+}

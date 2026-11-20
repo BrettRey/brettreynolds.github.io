@@ -1,0 +1,34 @@
+{
+  "id": "CG-0170",
+  "topic": "Ch. 4’s reference to spatial location in Ch. 8",
+  "assessment": "Production error",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 4,
+    "section": "5.2",
+    "page": 258
+  },
+  "claim": "“for further discussion of spatial location and extension of the roles to the dimension of time, see Ch. 8, §§5–6”.",
+  "evidence_summary": "Ch. 8, §4 (p. 679) is “Location and change of location in space”, §5 (p. 690) is “Spatial extent and scalar change”, and §6 (p. 694) is “Temporal location”.",
+  "finding": "Change §§5–6 to §§4–6. References into Ch. 8, §4 also point one place too high at Ch. 4 p. 305 (CG-0171) and Ch. 8 p. 665 [1ix]. That fits a late renumbering of §4, but doesn’t establish one.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "258. 679. 690. 694",
+  "proposed_wording": "see Ch. 8, §§4–6",
+  "inference": "Does the cited range include spatial location?",
+  "family": "Location, motion and extent",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§5.2, p. 258. “see Ch. 8, §§5–6”",
+      "example": "Ch. 8 section headings, pp. 679, 690, 694.",
+      "establishes": "Spatial location is Ch. 8, §4.",
+      "locator": "Section B, Ch. 4 p. 258 row.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0170/"
+}

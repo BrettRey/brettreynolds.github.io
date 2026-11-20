@@ -1,0 +1,34 @@
+{
+  "id": "CG-0153",
+  "topic": "Example [42] printed as [12]",
+  "assessment": "Production error",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "14.2.1",
+    "page": 751
+  },
+  "claim": "The <i>if only</i> display is numbered [12]: [12i] <i>He would get a distinction if only he would buckle down to some hard work</i>; [12ii] <i>I could have solved the problem myself if only I’d had a little more time</i>.",
+  "evidence_summary": "It comes between [41] (p. 750) and [43] (p. 751). The example numbers on pp. 748–764 run [33] to [41], [12], [43] to [81], and nothing cites [42] or this [12].",
+  "finding": "Renumber [12] as [42].",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "750 [41]. 751 [43]",
+  "proposed_wording": "[42]",
+  "inference": "Are the examples in §14.2 numbered in sequence?",
+  "family": "Purpose, reason, concession and condition",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§14.2.1, p. 751, under the heading “<i>If only</i>”.",
+      "example": "Page 750 [41]; p. 751 [43].",
+      "establishes": "A misnumbered example.",
+      "locator": "Section B, example numbering, p. 751.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0153/"
+}

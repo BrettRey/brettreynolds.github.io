@@ -1,0 +1,33 @@
+{
+  "id": "CG-0135",
+  "topic": "Status marks for durational <i>in</i> with activities",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "7.4",
+    "page": 709
+  },
+  "claim": "Non-bounding duration adjuncts “cannot appear with clauses denoting imperfective situations (activities and states)”, marked as anomalous: #<i>I wrote letters in an hour</i>. Under the heading “Shortness implicature” the same page says “it is infelicitous to modify with <i>at least</i>” and marks it ungrammatical: <i>The doctor will arrive in at most an hour</i> / ∗<i>at least an hour</i>.",
+  "evidence_summary": "Page 668 stars the same clash of <i>in</i> with an activity: <i>She ran for ten minutes</i> / ∗<i>in ten minutes</i>. So does Ch. 3 p. 122 [18ic], <i>He played tennis for an hour</i> / ∗<i>in an hour</i>, labelled “[activity]”. Ch. 3 p. 122 also ties implicature to cancellation: “We have spoken here of an implicature because of the possibility of cancellation”. The notational conventions (p. xii) use ∗ for ungrammatical and # for semantically or pragmatically anomalous.",
+  "finding": "The same aspectual clash is marked # here but ∗ on p. 668 and in Ch. 3, and the ∗ on <i>at least</i> marks an effect the prose attributes to an implicature. Clashes between aspect and adjunct lie near the border of grammar and meaning, which partly excuses the variation, but the book doesn’t say which status it intends.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "xii. 122 [18]. 668 [6]. 709 [23]",
+  "inference": "Is durational <i>in</i> with an activity ungrammatical or anomalous?",
+  "family": "Grammaticality marks",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§7.4, p. 709. “cannot appear with clauses denoting imperfective situations (activities and states)”",
+      "example": "Page 668, <i>She ran for ten minutes</i> / ∗<i>in ten minutes</i>; Ch. 3 p. 122 [18ic].",
+      "establishes": "The same clash carries different status marks.",
+      "locator": "Section A2, p. 709 row.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0135/"
+}

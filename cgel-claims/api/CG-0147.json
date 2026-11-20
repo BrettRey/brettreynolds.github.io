@@ -1,0 +1,34 @@
+{
+  "id": "CG-0147",
+  "topic": "Example [13] missing in §13.3",
+  "assessment": "Production error",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "13.3",
+    "page": 737
+  },
+  "claim": "The displays on p. 737 are numbered [11], [12], [14], [14], [15]: the <i>sit and mope</i> pair ([14i] <i>She doesn’t sit and mope but (rather) makes the best of the situation</i>) and the <i>even if</i> / <i>even though</i> pair ([14i] <i>I’m going out, even if it rains</i>) both carry [14].",
+  "evidence_summary": "§13.3 has no [13]. The audit found no reference elsewhere to §13’s [13] or [14], so nothing downstream is misdirected.",
+  "finding": "Renumber the first [14] as [13].",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": false,
+  "related": "737 [11]–[15]",
+  "proposed_wording": "[13]",
+  "inference": "Are the examples in §13.3 numbered in sequence?",
+  "family": "Purpose, reason, concession and condition",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§13.3, p. 737, the display before “(c) Conditionals”.",
+      "example": "Page 737 [12], [14], [14], [15].",
+      "establishes": "A misnumbered example.",
+      "locator": "Section B, example numbering, p. 737.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0147/"
+}

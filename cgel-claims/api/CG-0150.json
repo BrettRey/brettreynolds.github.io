@@ -1,0 +1,33 @@
+{
+  "id": "CG-0150",
+  "topic": "<i>Only if</i> and the entailment of <i>only</i>",
+  "assessment": "Argument gap",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "14.1.3",
+    "page": "746–747"
+  },
+  "claim": "Page 746: “it is clear that <i>Q only if P</i> does not actually entail <i>Q if P</i>”, which is treated as an implicature. Page 747: <i>only if</i> “is in fact predictable from the meanings of <i>if</i> and <i>only</i>”, and “there is no need to regard <i>only if</i> as an idiom”, with a cross-reference to Ch. 6, §7.3.",
+  "evidence_summary": "In the account cited, Ch. 6 p. 592 [62] lists “Kim resigned” as a component of <i>Only Kim resigned</i>, and p. 593 says “Both [ia] and [ib] entail that Kim resigned”. Built up as p. 747 proposes, <i>Q only if P</i> should then entail <i>Q if P</i>, which p. 746 denies. Page 747’s derivation covers only the excluded scenario. It doesn’t say why the positive component becomes a cancellable implicature, which p. 746 calls the “Sufficient condition implicature”.",
+  "finding": "Medium confidence: the derivation needs a step it doesn’t give. One rescue is available in p. 747’s own analogue, whose generic prejacent (<i>permanent residents qualify</i>) doesn’t entail that every permanent resident qualifies, as p. 746 notes for the parallel pension example [27ii]; read the same way, <i>Q if P</i> would be weaker than a universal conditional. CGEL doesn’t say this. Ch. 6 n. 20 (p. 588) refers <i>only</i> + <i>if</i> to Ch. 8, which suggests the authors saw it as a special case.",
+  "semantic_inference": true,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "588 n. 20. 592 [62]. 593. 746 [26]–[27]. 747 [28]",
+  "inference": "Does the meaning of <i>only</i> predict that <i>Q only if P</i> lacks the entailment <i>Q if P</i>?",
+  "family": "Purpose, reason, concession and condition",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§14.1.3, p. 747. “is in fact predictable from the meanings of <i>if</i> and <i>only</i>”",
+      "example": "Ch. 6 pp. 592–593 [62].",
+      "establishes": "The cited account of <i>only</i> entails the component that p. 746 treats as an implicature.",
+      "locator": "Section A4, item A4m.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0150/"
+}

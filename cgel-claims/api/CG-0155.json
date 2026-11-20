@@ -1,0 +1,34 @@
+{
+  "id": "CG-0155",
+  "topic": "Inverted conditionals and remote conditionals",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "14.2.2",
+    "page": "753–754"
+  },
+  "claim": "Of subject–auxiliary inversion in the protasis (as in [47i] <i>Had I had any inkling of this, I would have acted differently</i>), p. 753 says “It is restricted to remote conditionals”, and p. 754 continues “except that the special conditional <i>should</i> allows inversion in both open and remote constructions”.",
+  "evidence_summary": "Ch. 11 p. 970 [55iii] is an open conditional with inversion and no status mark: <i>Dare a woman have a child, she’s putting her job at risk</i>. The commentary says “Example [iii] is unusual in that we have here an open conditional: these inverted conditional adjuncts normally occur in remote conditionals”. Page 753 cites Ch. 11, §4.7 two sentences earlier.",
+  "finding": "Medium confidence: Ch. 8 states as categorical what Ch. 11 states as the norm, and Ch. 11 gives an open example. Ch. 11 p. 970 calls the example “unusual”, which supports Ch. 8 only if p. 753 is read as hedged; adding <i>normally</i> would reconcile the two.",
+  "semantic_inference": false,
+  "condition": "Distributional restriction",
+  "internal_tension": true,
+  "related": "753 [47]. 754. 970 [55iii]",
+  "proposed_wording": "It is normally restricted to remote conditionals",
+  "inference": "Is subject–auxiliary inversion in a conditional protasis restricted to remote conditionals?",
+  "family": "Purpose, reason, concession and condition",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§14.2.2, p. 753. “It is restricted to remote conditionals”",
+      "example": "Ch. 11 p. 970 [55iii], <i>Dare a woman have a child, she’s putting her job at risk</i>.",
+      "establishes": "The book’s own example of an open inverted conditional, with a hedged statement of the norm.",
+      "locator": "Section A4, item A4e.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0155/"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "CG-0128",
+  "topic": "Static source, goal and path called adjuncts",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "4.4",
+    "page": 689
+  },
+  "claim": "Of [35] (<i>The house faces towards the forest</i>; <i>The road runs from the village to the castle</i>; <i>The track winds its way along the banks of the river</i>): “These do not involve any change of location, but express static situations. The adjuncts are therefore not bounding.”",
+  "evidence_summary": "Page 692 (§5.3) says spatial extent elements “have the properties of complements”, and that “Extent complements do not have this effect with stative clauses: examples like [4] are unbounded”. [4ii] (p. 691) is <i>The road runs along the river for 20 miles</i>, with the same static <i>run</i> as [35iii], and p. 690 says the endpoints in [35iii] “define an extent of space”. Page 684 says change-of-location dependents “are normally complements”, and p. 685 says the <i>x’s way</i> idiom licenses them, which covers [35v].",
+  "finding": "Medium-high confidence. The same kind of element is an adjunct on p. 689 and a complement on p. 692, and p. 665 defines “adjunct” so as to exclude complements. A defence that static <i>face</i> or <i>broaden out</i> doesn’t license its PP fails for [35iii], with the <i>run</i> of [4ii], and for [35v]. Compare CG-0113 and CG-0134.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "665. 684. 685 [23]. 689 [35]. 690. 691 [4ii]. 692",
+  "proposed_wording": "These elements are therefore not bounding.",
+  "inference": "Are the static source, goal and path elements in [35] adjuncts?",
+  "family": "Complements and adjuncts",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§4.4, p. 689. “The adjuncts are therefore not bounding.”",
+      "example": "Page 691 [4ii] <i>The road runs along the river for 20 miles</i>; p. 692, “Extent complements”.",
+      "establishes": "The chapter calls the same kind of static element an adjunct and a complement.",
+      "locator": "Section A1, p. 689.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0128/"
+}

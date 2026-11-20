@@ -3,8 +3,8 @@
   "author": "Brett Reynolds",
   "url": "https://brettreynolds.ca/cgel-claims/",
   "snapshot": {
-    "date": "2026-11-19",
-    "commit": "5adc513",
+    "date": "2026-11-20",
+    "commit": "de459fd",
     "dirty_data": false
   },
   "reference": "Huddleston, Rodney & Geoffrey K. Pullum (2002), The Cambridge Grammar of the English Language. Cambridge: CUP (corrected printing used for the audit)",
@@ -26,7 +26,7 @@
     },
     {
       "heading": "Selection and scope",
-      "text": "The audit reviewed all 20 numbered sections of Chapter 5. Three cross-chapter follow-ups (CG-0058–0060) test claims from Chapters 14 and 19 against other passages and usage data. The catalogue includes positive controls and known errata. Its proportions cannot estimate a chapter-wide error rate. CG-0063–0105 come from a section-by-section error sweep on 19 November 2026. CG-0103–0104 correct references to Chapter 5 printed in Chapters 6 and 15. CG-0106–0111 test lexical claims against the Oxford English Dictionary."
+      "text": "The first audit reviewed all 20 numbered sections of Chapter 5. Three cross-chapter follow-ups (CG-0058–0060) test claims from Chapters 14 and 19 against other passages and usage data. The catalogue includes positive controls and known errata. Its proportions cannot estimate a chapter-wide error rate. CG-0063–0105 come from a section-by-section error sweep on 19 November 2026. CG-0103–0104 correct references to Chapter 5 printed in Chapters 6 and 15. CG-0106–0111 test lexical claims against the Oxford English Dictionary. CG-0112–0176 come from a section-by-section audit of Chapter 8, The clause: adjuncts, on 20 November 2026. Leads that no source yet supports were left out. CG-0170–0176 record errors in other chapters found during that audit: four references into Chapter 8, a misnumbered example, a wrong reference and two misprints."
     },
     {
       "heading": "Editorial assessments",
@@ -4428,6 +4428,2214 @@
         }
       ],
       "url": "https://brettreynolds.ca/cgel-claims/CG-0111/"
+    },
+    {
+      "id": "CG-0112",
+      "topic": "Section label for direction in [1ix]",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "1",
+        "page": 665
+      },
+      "claim": "The overview example [1ix] <i>I crawled towards the door</i> is labelled “[direction: §4.4]”.",
+      "evidence_summary": "The contents (p. 663) title §4.3 “Change of location: goal, source, path, and direction” and §4.4 “Metaphorical extension of the locative categories to other domains”. Direction of motion is treated in §4.3 under “Realisation of direction” (p. 688): “While <i>to</i> alone marks goal, <i>towards</i> marks direction”. §4.4 has direction only in static uses, as in [35i] <i>The house faces towards the forest</i> (p. 689).",
+      "finding": "Change §4.4 to §4.3. Medium confidence: §4.4 does include direction examples, but only static ones, and [1ix] is literal motion. Ch. 4, p. 305, cites §4.4 for the <i>way</i> construction, which is also in §4.3 (CG-0171).",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "663. 665 [1ix]. 688. 689 [35i]",
+      "proposed_wording": "[direction: §4.3]",
+      "inference": "Does the label point to the section that treats direction of motion?",
+      "family": "Location, motion and extent",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§1, p. 665 [1ix]. “[direction: §4.4]”.",
+          "example": "Page 688, “Realisation of direction”; p. 689 [35i].",
+          "establishes": "The literal direction case is treated in §4.3.",
+          "locator": "Section B, p. 665 [1ix].",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0112/"
+    },
+    {
+      "id": "CG-0113",
+      "topic": "<i>Two miles</i> called an extent adjunct",
+      "assessment": "Textual mismatch",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "1",
+        "page": 668
+      },
+      "claim": "Of [6ii] <i>She ran to the station / two miles</i>, “adding a goal such as <i>to the station</i> or an extent adjunct such as <i>two miles</i> makes the clause bounded”.",
+      "evidence_summary": "Under “Complement status of non-temporal extent elements”, §5.3 (p. 692) says: “While elements expressing extent in the temporal domain (duration) are generally adjuncts, those in the spatial and scalar change domains have the properties of complements.” It argues this from licensing by the verb (<i>cycle</i>) and <i>do so</i> anaphora, then speaks of “Extent complements”. Page 665 says “the term ‘adjunct’ covers modifiers in the VP or clause together with related supplements”, so the word can’t include complements.",
+      "finding": "<i>Ran</i> is a motion verb like the <i>cycle</i> of §5.3’s licensing argument, so <i>two miles</i> is a complement by the chapter’s own criteria. The same slip occurs on p. 689 (CG-0128) and p. 706 (CG-0134).",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "665. 668 [6]. 692 [5], [8]",
+      "proposed_wording": "adding a goal such as <i>to the station</i> or an extent element such as <i>two miles</i> makes the clause bounded",
+      "inference": "Is <i>two miles</i> in <i>She ran two miles</i> an adjunct?",
+      "family": "Complements and adjuncts",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§1, p. 668. “or an extent adjunct such as <i>two miles</i> makes the clause bounded”.",
+          "example": "Page 692, §5.3, “Complement status of non-temporal extent elements”.",
+          "establishes": "The chapter treats spatial extent elements as complements.",
+          "locator": "Section A1, p. 668.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0113/"
+    },
+    {
+      "id": "CG-0114",
+      "topic": "Cross-reference for manner <i>as</i> and <i>like</i>",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "2.1",
+        "page": 671
+      },
+      "claim": "A manner PP with comparative <i>as</i> or <i>like</i> as head is “discussed in more detail in Ch. 13, §§5–6”.",
+      "evidence_summary": "The Ch. 13 contents (p. 1097) list “5.5 As”, “5.6 Like” and “6 Scalar set comparison”. Manner <i>as</i> is treated on p. 1149 (“Here the <i>as</i> phrase functions as manner element in the matrix”), and manner <i>like</i> on pp. 1155–1156 (“(b) Manner complement”; “Likeness of manner”). §6, on plain, comparative and superlative grade, has nothing on manner <i>as</i> or <i>like</i>.",
+      "finding": "§6 is wrong. The intended reference is probably §§5.5–5.6, but that’s the reader’s inference. The authors’ erratum for p. 733, which corrects Ch. 15, §§10–11 to §§2.10–2.11, is the same kind of slip.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "671. 1097. 1149 [34]. 1155 [48]. 1156 [54]. 1161",
+      "proposed_wording": "Ch. 13, §§5.5–5.6",
+      "inference": "Does §6 of Ch. 13 discuss manner <i>as</i> and <i>like</i>?",
+      "family": "Complements and adjuncts",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§2.1, p. 671. “discussed in more detail in Ch. 13, §§5–6”.",
+          "example": "Ch. 13 contents (p. 1097); p. 1149; p. 1155.",
+          "establishes": "The material is in §§5.5–5.6. §6 is scalar set comparison.",
+          "locator": "Section B, p. 671.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0114/"
+    },
+    {
+      "id": "CG-0115",
+      "topic": "Manner dependent of <i>behave</i>",
+      "assessment": "Textual mismatch",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "2.1",
+        "page": 671
+      },
+      "claim": "“With some verbs a manner dependent has the syntactic status of a complement”, as in [4a] <i>She behaved outrageously</i>. In this sense <i>behave</i> requires one, since <i>She behaved</i> on its own is understood as behaving well.",
+      "evidence_summary": "Ch. 13, p. 1155, agrees: under “(b) Manner complement” it gives [48i] <i>Liz is behaving like a prima donna</i>. But Ch. 4, p. 302 n. 57, on <i>behave</i> among the verbs with an unexpressed reflexive object ([18v]), says that ‘well’ or the like is understood in <i>Behave!</i>, “where no manner adjunct is expressed”.",
+      "finding": "Medium confidence. The same dependent of <i>behave</i>, with ‘well’ understood when nothing is expressed, is a complement in Chapters 8 and 13 and an adjunct in Ch. 4. The footnote may be loose wording. Or it may follow Ch. 4’s own criteria, since the dependent can be omitted, and then the chapters’ analyses differ. Either way one place needs changing.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "302 [18v], n. 57. 671 [4]. 1155 [48]",
+      "inference": "Is the manner dependent of <i>behave</i> a complement?",
+      "family": "Complements and adjuncts",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§2.1, p. 671. “With some verbs a manner dependent has the syntactic status of a complement”.",
+          "example": "Ch. 4, p. 302 n. 57; Ch. 13, p. 1155 [48i].",
+          "establishes": "Two chapters call the dependent a complement and a third calls it an adjunct.",
+          "locator": "Section A3, item A3e.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0115/"
+    },
+    {
+      "id": "CG-0116",
+      "topic": "∗<i>Modernly</i>",
+      "assessment": "Open",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "2.1",
+        "page": 671
+      },
+      "claim": "[6iii] <i>We’re furnishing the house in a modern style / the Italian fashion</i> “illustrates the case where there is no adverb at all derived from the adjective (∗<i>modernly</i>, ∗<i>Italianly</i>)”.",
+      "evidence_summary": "Wiktionary has <i>modernly</i>, ‘in a modern manner or style’, quoting Anthony Byars, <i>Texas, in Fact</i> (2004): <i>The living room was huge and modernly furnished.</i> That is the manner sense, with the verb of [6iii]. The book itself hasn’t been seen. Wiktionary also lists <i>Italianly</i>, ‘in an Italian manner’, with no quotation.",
+      "finding": "A lead, not yet a finding. If edited prose attests manner <i>modernly</i>, the claim needs qualifying: the paragraph speaks of “natural counterparts”, so the point may be that the adverb is unavailable in ordinary use, but the ∗ says more than that.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": false,
+      "related": "671 [6iii]",
+      "inference": "Is there no adverb <i>modernly</i>?",
+      "family": "Category diagnostics and word formation",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§2.1, p. 671. “there is no adverb at all derived from the adjective (∗<i>modernly</i>, ∗<i>Italianly</i>)”.",
+          "example": "Wiktionary entry for <i>modernly</i>, read as wikitext.",
+          "establishes": "A lead only. Merriam-Webster returned HTTP 403 to the audit tools.",
+          "locator": "Section E, p. 671.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        },
+        {
+          "role": "Research source",
+          "source": "Wiktionary, “modernly” (revision 93708141), quoting Anthony Byars, Texas, in Fact (2004).",
+          "url": "https://en.wiktionary.org/w/index.php?title=modernly&oldid=93708141",
+          "passage": "§2.1, p. 671 [6iii].",
+          "example": "“The living room was huge and modernly furnished.”",
+          "establishes": "A quoted use of manner <i>modernly</i> with <i>furnish</i>, at second hand. The book hasn’t been checked.",
+          "locator": "Adverb, sense 1. Wikitext fetched 20 November 2026."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0116/"
+    },
+    {
+      "id": "CG-0117",
+      "topic": "Lettering of the cognate object examples",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "2.1",
+        "page": 673
+      },
+      "claim": "The prose cites the cognate object examples as [i] and [ii]. “Thus [i] means essentially the same as <i>She fought heroically</i>”, and [ii] “likewise describes the manner of his dying”.",
+      "evidence_summary": "Example [11] is lettered a and b: [11a] <i>She fought a heroic fight.</i>, [11b] <i>He died a long and agonising death.</i>",
+      "finding": "Change [i] and [ii] to [a] and [b].",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "673 [11]",
+      "proposed_wording": "Thus [a] means essentially the same as <i>She fought heroically</i>; [b] likewise describes the manner of his dying",
+      "inference": "Do the prose references match the example’s lettering?",
+      "family": "Complements and adjuncts",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§2.1, p. 673. “Thus [i] means essentially the same as <i>She fought heroically</i>”.",
+          "example": "Page 673 [11a–b].",
+          "establishes": "The example has no rows i and ii.",
+          "locator": "Section B, p. 673.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0117/"
+    },
+    {
+      "id": "CG-0118",
+      "topic": "Status mark for <i>He died a death</i>",
+      "assessment": "Textual mismatch",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "2.1",
+        "page": 673
+      },
+      "claim": "A cognate object’s head noun “is already implied by the verb” and so “does not normally occur on its own”, with the example marked #: #<i>He died a death</i>.",
+      "evidence_summary": "Ch. 4, p. 305, marks the same string ? and gives a different kind of reason: “Modification of the noun is just about obligatory”, with ?<i>He died a death</i> and ?<i>He grinned a grin</i>. In CGEL’s notation (p. xii), # marks a semantic or pragmatic anomaly and ? questionable grammaticality.",
+      "finding": "The two chapters disagree on the kind of deviance, semantic redundancy against a near-obligatory modifier, for one example. Both are hedged (“not normally” on p. 673, “just about” on p. 305) and both marks are weaker than ∗, so the clash is in the kind of deviance, not its strength.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "305 [33]. 673 [11]",
+      "inference": "Is <i>He died a death</i> semantically anomalous or of questionable grammaticality?",
+      "family": "Grammaticality marks",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§2.1, p. 673. “As the head noun itself is already implied by the verb it does not normally occur on its own”.",
+          "example": "Ch. 4, p. 305: ?<i>He died a death</i>; ?<i>He grinned a grin</i>.",
+          "establishes": "Two chapters give one example different status marks. The reader checked both marks on page images.",
+          "locator": "Section A2, p. 673.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0118/"
+    },
+    {
+      "id": "CG-0119",
+      "topic": "Instrumental <i>with the master-key</i>",
+      "assessment": "Textual mismatch",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "2.2",
+        "page": 673
+      },
+      "claim": "“Means and instrument adjuncts are characteristically realised by PPs headed by <i>by</i> (or <i>by means</i>) and <i>with</i> (or <i>without</i>) respectively”, with [12iia] <i>She opened my door with the master-key</i>. On p. 665, [1ii] <i>They opened it with a tin-opener</i> is labelled “[instrument: §2.2]”.",
+      "evidence_summary": "Ch. 4, §8.3.4 (p. 319), gives [76ia] <i>We opened the door with the master-key</i> as a construction with “object + non-core complement within the VP”, and p. 320 says: “The non-core complements in the [a] examples of [76] have a range of roles. <i>With the master-key</i> in [ia] is an instrument.” Chapter 8 sends the reader to that passage (p. 674, CG-0121).",
+      "finding": "Medium confidence. The same verb, object and PP are an adjunct in Ch. 8 and a complement in Ch. 4, and Ch. 8 doesn’t flag instrumental complements as §2.1 flags manner complements. Ch. 4 may count the PP as a complement because it alternates with the subject in [76ib], and Ch. 4, p. 219, admits “some uncertainty, and disagreement among grammarians, as to how much should be subsumed under the function complement”. That explains the analysis but not the silence between the chapters.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "219. 319 [76i]. 320. 665 [1ii]. 673 [12ii]. 674 [13]",
+      "inference": "Is instrumental <i>with the master-key</i> an adjunct?",
+      "family": "Complements and adjuncts",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§2.2, p. 673. “Means and instrument adjuncts are characteristically realised by PPs”.",
+          "example": "Ch. 4, p. 320, on [76ia] <i>We opened the door with the master-key</i>.",
+          "establishes": "Two chapters assign the instrumental PP different functions without comment.",
+          "locator": "Section A3, item A3d.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0119/"
+    },
+    {
+      "id": "CG-0120",
+      "topic": "Example reference for instruments with agentive subjects",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "2.2",
+        "page": 674
+      },
+      "claim": "“Instruments normally occur in clauses where the subject (in the case of active clauses) has an agent role, as in [ia–d].”",
+      "evidence_summary": "[12ia–d] (p. 673) are the means examples: <i>She travels to work by bus</i>, <i>Sometimes you have to translate a noun in one language by a verb in another</i>, <i>He had gained access to the board by highly dubious means</i>, <i>They communicate by means of sign language</i>. The instruments are [12iia–e], beginning <i>She opened my door with the master-key</i>. The next sentence (p. 674) turns to “the instrumental in [iie]”.",
+      "finding": "Change [ia–d] to [iia–d]. The following paragraph gives the parallel point for means, “as in [12ie]”.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "673 [12]. 674",
+      "proposed_wording": "as in [iia–d]",
+      "inference": "Does the cited example contain instruments?",
+      "family": "Complements and adjuncts",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§2.2, p. 674. “has an agent role, as in [ia–d]”.",
+          "example": "Page 673 [12i] (means) and [12ii] (instruments).",
+          "establishes": "The intended reference is [iia–d].",
+          "locator": "Section B, p. 674.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0120/"
+    },
+    {
+      "id": "CG-0121",
+      "topic": "Cross-reference for the master-key constructions",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "2.2",
+        "page": 674
+      },
+      "claim": "Of [13a] <i>The master-key opened the door</i> and [13b] <i>The door opened with the master-key</i>, “for further discussion of these constructions see Ch. 4, §8.3.3”.",
+      "evidence_summary": "Ch. 4, §8.3.3 (p. 319), is “Type III: <i>I wiped the marks off the wall</i> vs <i>I wiped the wall</i>”, with <i>wash</i> in [74] and <i>brush</i>, <i>dust</i> and others in [75]. The master-key pair is [76i] in §8.3.4, “Type IV: <i>We filled the bucket with water</i> vs <i>Water filled the bucket</i>”: <i>We opened the door with the master-key</i> / <i>The master-key opened the door</i>. Page 320 covers [13b]: “Only [i] and [iv] allow a third construction”.",
+      "finding": "Change §8.3.3 to §8.3.4. Both subsections begin on p. 319.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "319 [74]–[76]. 320. 674 [13]",
+      "proposed_wording": "see Ch. 4, §8.3.4",
+      "inference": "Does the cited section discuss the master-key constructions?",
+      "family": "Complements and adjuncts",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§2.2, p. 674. “for further discussion of these constructions see Ch. 4, §8.3.3”.",
+          "example": "Ch. 4, p. 319 [76i]; p. 320.",
+          "establishes": "The constructions are discussed in §8.3.4.",
+          "locator": "Section B, p. 674.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0121/"
+    },
+    {
+      "id": "CG-0122",
+      "topic": "Means adverb <i>pharmaceutically</i>",
+      "assessment": "Open",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "2.2",
+        "page": 674
+      },
+      "claim": "Realisation of means and instrument by adverbs is “extremely limited”. While <i>treat surgically</i> and <i>communicate electronically</i> are possible, “we could not replace the adverbs here with <i>pharmaceutically</i> or <i>postally</i>”.",
+      "evidence_summary": "The audit reader found 23 PubMed title or abstract hits for <i>pharmaceutically treated</i>, including a verbal participle with a means reading: <i>1 200 769 patients pharmaceutically treated for their first occurrence of depression</i> (Reps, Ryan and Rijnbeek 2021). The same search found no hits for the quoted phrases <i>treated pharmaceutically</i> and <i>treat pharmaceutically</i>. <i>Postally</i> wasn’t searched.",
+      "finding": "A lead, not yet a finding. Preverbal <i>pharmaceutically treated</i> is attested in medical prose, but the postverbal order CGEL tests wasn’t found, so the claim may hold for <i>treat pharmaceutically</i>. A search of a general corpus for both orders would settle whether it needs qualifying.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": false,
+      "related": "674",
+      "inference": "Can <i>pharmaceutically</i> replace <i>surgically</i> in <i>treat surgically</i>?",
+      "family": "Category diagnostics and word formation",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§2.2, p. 674. “we could not replace the adverbs here with <i>pharmaceutically</i> or <i>postally</i>”.",
+          "example": "PubMed title and abstract searches for <i>pharmaceutically treated</i>, <i>treated pharmaceutically</i> and <i>treat pharmaceutically</i>.",
+          "establishes": "A lead only. Preverbal uses occur; the postverbal order wasn’t found.",
+          "locator": "Section E, p. 674.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        },
+        {
+          "role": "Attestation",
+          "source": "J. M. Reps, P. Ryan and P. R. Rijnbeek, “Investigating the impact of development and internal validation design when training prognostic models using a retrospective cohort in big US observational healthcare data”, BMJ Open 11(12): e050146 (2021).",
+          "url": "https://doi.org/10.1136/bmjopen-2021-050146",
+          "passage": "§2.2, p. 674.",
+          "example": "“1 200 769 patients pharmaceutically treated for their first occurrence of depression.”",
+          "establishes": "Preverbal <i>pharmaceutically</i> as a means modifier of <i>treated</i> in edited medical prose.",
+          "locator": "Abstract, Participants. PubMed 34952871."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0122/"
+    },
+    {
+      "id": "CG-0123",
+      "topic": "<i>David</i> for <i>Donald</i>",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "3",
+        "page": 679
+      },
+      "claim": "“The two acts are both explicitly expressed in structures like <i>Dick wisely got himself taught the tricks of the trade by David</i> or <i>Ed reluctantly allowed his stepfather to send him to boarding-school</i>.”",
+      "evidence_summary": "[10iii] (p. 678) is <i>Dick was wisely taught the tricks of the trade by Donald.</i> Footnote 3 (p. 678) and the preceding sentence on p. 679 (“Donald’s teaching him the tricks of the trade”) keep <i>Donald</i>. The companion paraphrase keeps the participants of [10iv], <i>Ed</i> and <i>his stepfather</i>.",
+      "finding": "Change <i>David</i> to <i>Donald</i>.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "678 [10iii], n. 3. 679",
+      "proposed_wording": "<i>Dick wisely got himself taught the tricks of the trade by Donald</i>",
+      "inference": "Does the paraphrase keep the example’s participants?",
+      "family": "Complements and adjuncts",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§3, p. 679. “<i>Dick wisely got himself taught the tricks of the trade by David</i>”.",
+          "example": "Page 678 [10iii] and n. 3.",
+          "establishes": "A slip in the paraphrase.",
+          "locator": "Section C, p. 679.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0123/"
+    },
+    {
+      "id": "CG-0124",
+      "topic": "Cross-reference for the body-part alternation",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "4.2",
+        "page": 681
+      },
+      "claim": "Of the contact-with-body-part examples in [9] (<i>She poked him in the ribs</i> / <i>She poked his ribs</i>): “see Ch. 4, §7.4, for further discussion of the alternation in [9]”.",
+      "evidence_summary": "Ch. 4, §7, “Light verbs”, has only §§7.1–7.2 (contents, p. 214). The alternation is treated in §8.4, “Contrasts between separate complements and a single combined complement” (p. 320): [78i] <i>She kissed him on the cheek</i> / <i>She kissed his cheek</i>, with <i>poke</i> and <i>hit</i> in the verb list [79i] (p. 321).",
+      "finding": "Change §7.4 to §8.4. Ch. 4 has no §7.4. CG-0068 concerns the passive pair [9iii].",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "214. 320 [78]. 321 [79i]. 681 [9]",
+      "proposed_wording": "see Ch. 4, §8.4",
+      "inference": "Does the cited section exist?",
+      "family": "Location, motion and extent",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§4.2, p. 681. “see Ch. 4, §7.4, for further discussion of the alternation in [9]”.",
+          "example": "Ch. 4 contents (p. 214); p. 320 [78].",
+          "establishes": "The intended section is §8.4.",
+          "locator": "Section B, p. 681.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0124/"
+    },
+    {
+      "id": "CG-0125",
+      "topic": "Stop-start movement in the <i>way</i> construction",
+      "assessment": "Open",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "4.3",
+        "page": 685
+      },
+      "claim": "“The movement denoted by the <i>way</i> construction has to be one that consists of a series of stops and starts, rather than being continuous movement.”",
+      "evidence_summary": "Adele E. Goldberg (1995: 204) states the constraint as motion along a self-created path, either against some external difficulty or deliberate, careful, methodical or winding. Her example (19), from the <i>Wall Street Journal</i>, describes continuous jogging: <i>weaving their way along a street of fractured and fallen houses</i>. CGEL’s own [35v] (p. 689), <i>The track winds its way along the banks of the river</i>, describes continuous, static extension.",
+      "finding": "A lead, not yet a finding. Attestations of continuous movement (<i>weaving their way along</i>, <i>snaked its way</i>, <i>glided its way</i>) in edited prose would show whether “has to be” overstates the constraint.",
+      "semantic_inference": true,
+      "condition": "None",
+      "internal_tension": false,
+      "related": "685 [23]. 689 [35v]",
+      "inference": "Must the movement in the <i>way</i> construction be stop-start?",
+      "family": "Location, motion and extent",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§4.3, p. 685. “has to be one that consists of a series of stops and starts”.",
+          "example": "Goldberg (1995), p. 204, example (19); CGEL p. 689 [35v].",
+          "establishes": "A lead only. Corpus strings have not been searched.",
+          "locator": "Section E, p. 685.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        },
+        {
+          "role": "Research source",
+          "source": "Adele E. Goldberg, Constructions: A Construction Grammar Approach to Argument Structure (University of Chicago Press, 1995).",
+          "url": null,
+          "passage": "§4.3, p. 685.",
+          "example": "(19), cited from the <i>Wall Street Journal</i>: “weaving their way along a street of fractured and fallen houses”. Verbs such as <i>thread</i>, <i>wend</i> and <i>weave</i> “involve deliberate, careful, methodical, or winding motion”.",
+          "establishes": "An analysis that states the constraint as a self-created path. The audit reader reads example (19) as continuous movement.",
+          "locator": "Chapter 9, The way construction, p. 204, examples (18)–(19). Page checked on the image by the audit reader.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0125/"
+    },
+    {
+      "id": "CG-0126",
+      "topic": "Status mark for <i>to here</i>",
+      "assessment": "Textual mismatch",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "4.3",
+        "page": 686
+      },
+      "claim": "“The <i>to</i> is generally impossible with <i>here</i> and <i>there</i>”, illustrated by ?<i>She’s travelling to here by car</i>. Footnote 5 says it might be acceptable when <i>here</i>, with a gesture, refers to a location on a map, and gives %<i>She’s coming back to here</i>.",
+      "evidence_summary": "The prose says “impossible” but the example is marked ?, which CGEL uses for questionable grammaticality (p. xii), not ∗. Ch. 17, p. 1550, lists the combination without qualification: “<i>Here</i> and <i>there</i> can occur as complement to a preposition: <i>in here</i>, <i>from/to there</i>, and so on.”",
+      "finding": "Low to medium confidence. The prose and the mark disagree about strength, and Ch. 17 treats <i>to there</i> as an ordinary combination. The hedge “generally” and footnote 5 soften the claim, which limits the conflict.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "686, n. 5. 1550",
+      "inference": "Is <i>to</i> impossible before <i>here</i> and <i>there</i>?",
+      "family": "Grammaticality marks",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§4.3, p. 686. “The <i>to</i> is generally impossible with <i>here</i> and <i>there</i>”.",
+          "example": "Ch. 17, p. 1550, <i>from/to there</i>.",
+          "establishes": "The prose, the status mark and Ch. 17 give three strengths for one restriction. The reader checked the mark on the page image.",
+          "locator": "Section A2, p. 686.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0126/"
+    },
+    {
+      "id": "CG-0127",
+      "topic": "<i>Out</i> as goal with <i>put</i>",
+      "assessment": "Textual mismatch",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "4.3",
+        "page": 687
+      },
+      "claim": "<i>Out</i> “with verbs of motion is restricted to source”, so <i>She went out of the room</i> is “(source, not goal)”.",
+      "evidence_summary": "Ch. 4, p. 284 [35iib], has <i>I must put the cat out (of the house)</i>. <i>Put</i> takes an obligatory goal: Ch. 7, p. 605, cites “the goal complement of certain transitive verbs such as <i>put</i> or <i>place</i>”, with ∗<i>I put it</i>, and Ch. 8, p. 685, counts <i>put</i> among the “causative verbs of movement”. In [35iib] <i>out</i> is the only element that could fill that goal.",
+      "finding": "Medium-low confidence. If <i>out</i> in [35iib] is <i>put</i>’s goal, the restriction needs an exception for causative verbs of movement. Reading <i>out (of the house)</i> as a source with an implicit goal is hard to square with <i>put</i>’s obligatory goal. Page 687 itself admits other source and direction prepositions as goals “under restricted conditions” (<i>Place it well away from the fire</i>).",
+      "semantic_inference": true,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "284 [35iib]. 605 [6]. 685. 687",
+      "inference": "Is <i>out</i> restricted to source with verbs of motion?",
+      "family": "Location, motion and extent",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§4.3, p. 687. “A different kind of exception is <i>out</i>, which with verbs of motion is restricted to source”.",
+          "example": "Ch. 4, p. 284 [35iib] <i>I must put the cat out (of the house)</i>; Ch. 7, p. 605 [6i].",
+          "establishes": "The book’s own example appears to have <i>out</i> filling <i>put</i>’s obligatory goal.",
+          "locator": "Section A4, item A4k.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0127/"
+    },
+    {
+      "id": "CG-0128",
+      "topic": "Static source, goal and path called adjuncts",
+      "assessment": "Textual mismatch",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "4.4",
+        "page": 689
+      },
+      "claim": "Of [35] (<i>The house faces towards the forest</i>; <i>The road runs from the village to the castle</i>; <i>The track winds its way along the banks of the river</i>): “These do not involve any change of location, but express static situations. The adjuncts are therefore not bounding.”",
+      "evidence_summary": "Page 692 (§5.3) says spatial extent elements “have the properties of complements”, and that “Extent complements do not have this effect with stative clauses: examples like [4] are unbounded”. [4ii] (p. 691) is <i>The road runs along the river for 20 miles</i>, with the same static <i>run</i> as [35iii], and p. 690 says the endpoints in [35iii] “define an extent of space”. Page 684 says change-of-location dependents “are normally complements”, and p. 685 says the <i>x’s way</i> idiom licenses them, which covers [35v].",
+      "finding": "Medium-high confidence. The same kind of element is an adjunct on p. 689 and a complement on p. 692, and p. 665 defines “adjunct” so as to exclude complements. A defence that static <i>face</i> or <i>broaden out</i> doesn’t license its PP fails for [35iii], with the <i>run</i> of [4ii], and for [35v]. Compare CG-0113 and CG-0134.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "665. 684. 685 [23]. 689 [35]. 690. 691 [4ii]. 692",
+      "proposed_wording": "These elements are therefore not bounding.",
+      "inference": "Are the static source, goal and path elements in [35] adjuncts?",
+      "family": "Complements and adjuncts",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§4.4, p. 689. “The adjuncts are therefore not bounding.”",
+          "example": "Page 691 [4ii] <i>The road runs along the river for 20 miles</i>; p. 692, “Extent complements”.",
+          "establishes": "The chapter calls the same kind of static element an adjunct and a complement.",
+          "locator": "Section A1, p. 689.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0128/"
+    },
+    {
+      "id": "CG-0129",
+      "topic": "<i>Extended the grounds by 5 acres</i> under spatial extent",
+      "assessment": "Textual mismatch",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "5.2",
+        "page": 691
+      },
+      "claim": "[5vi] <i>They extended the grounds by 5 acres / to a total of 55 acres</i> is among the examples that “illustrate various dimensions of spatial extent. The differences are purely lexical, the range of grammatical constructions being the same throughout.”",
+      "evidence_summary": "Page 692: “the preposition for scalar change is <i>by</i>, while that for spatial movement is <i>for</i>”. Spatial measures with <i>by</i> (<i>They have widened the road by two metres</i>) “clearly belong in the scalar change construction”. The overall extent phrases within [5] differ too: <i>(for) half a mile</i> in [iv], <i>by 5 acres</i> in [vi].",
+      "finding": "Medium-high confidence. By p. 692’s criterion, <i>extended the grounds by 5 acres</i> is scalar change, like <i>widened the road by two metres</i>, and its <i>by</i> phrase contradicts “the same throughout”. Move [5vi] to the scalar change examples in [6], or qualify the remark.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "691 [5], [6]. 692 [7]",
+      "inference": "Does [5vi] belong to spatial extent or to scalar change?",
+      "family": "Location, motion and extent",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§5.2, p. 691 [5vi]. “the range of grammatical constructions being the same throughout”.",
+          "example": "Page 692, <i>They have widened the road by two metres</i>.",
+          "establishes": "The chapter’s own criterion puts [5vi] in scalar change.",
+          "locator": "Section A4, item A4c.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0129/"
+    },
+    {
+      "id": "CG-0130",
+      "topic": "Status of future <i>will</i> after <i>before</i>",
+      "assessment": "Textual mismatch",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "6.3",
+        "page": 697
+      },
+      "claim": "When a clause after a temporal preposition such as <i>before</i> refers to future time, “we usually have a non-modal present tense (compare #<i>I want to leave before it will get dark</i>)”.",
+      "evidence_summary": "Ch. 3, p. 191: “<i>When</i> adjuncts and the complements of temporal prepositions such as <i>after</i>, <i>before</i>, <i>as soon as</i>, etc., take the simple present, not the <i>will</i> construction, when the reference is to future time”, as in [34i] <i>I’ll buy one when the price comes / ∗will come down</i>, and “the grammar requires the unmodalised forms”. CGEL uses ∗ for ungrammatical and # for semantic or pragmatic anomaly (p. xii). On p. 702, Ch. 8 says of a #-marked example that it “certainly does not violate any rule of grammar”.",
+      "finding": "The two chapters disagree on the hedge (“usually” against a requirement) and on the kind of deviance (# against ∗) for one construction. Ch. 3 states a rule of grammar; Ch. 8 a usual pattern whose violation is semantic or pragmatic. One of them needs to change.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "191 [34]. 697 [13ii]. 702",
+      "inference": "Is <i>will</i> after temporal <i>before</i> ungrammatical or anomalous?",
+      "family": "Grammaticality marks",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§6.3, p. 697. “we usually have a non-modal present tense (compare #<i>I want to leave before it will get dark</i>)”.",
+          "example": "Ch. 3, p. 191 [34], with ∗<i>will come down</i> and ∗<i>will stop raining</i>.",
+          "establishes": "The same constraint gets # and “usually” in Ch. 8 (p. 697), ∗ and “requires” in Ch. 3 (p. 191).",
+          "locator": "Section A2, p. 697.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0130/"
+    },
+    {
+      "id": "CG-0131",
+      "topic": "Present perfect with a referential past time adjunct",
+      "assessment": "Qualification",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "6.4",
+        "page": 699
+      },
+      "claim": "The present perfect “is incompatible with referential temporal location in the past (see Ch. 3, §5.3): ∗<i>I haven’t been to a party last Sunday</i>.” The same page counts <i>yesterday</i> among the expressions that “always refer to a particular time”.",
+      "evidence_summary": "The cited section states a default. Ch. 3, p. 143: “Except under conditions outlined below, time adjuncts like <i>last week</i>, <i>two minutes ago</i>, etc., which refer to times wholly before now, are incompatible with the present perfect”. Page 144 allows a past time adjunct “under restrictive conditions”, with the unmarked [13iia] <i>We’ve already discussed it yesterday</i>, and p. 145 says <i>already</i> “cancels the normally excluding effect of <i>yesterday</i>”.",
+      "finding": "Chapter 8 states as categorical what its source states as a default, and the source’s exception uses <i>yesterday</i>, which Chapter 8 classes as always referential. The pointer to Ch. 3 carries the exception for a reader who follows it, but the sentence as printed is false by the book’s own example.",
+      "semantic_inference": false,
+      "condition": "Distributional restriction",
+      "internal_tension": true,
+      "related": "143 [10]. 144 [13ii]. 145. 699",
+      "proposed_wording": "This compound tense is normally incompatible with referential temporal location in the past",
+      "inference": "Is the present perfect incompatible with a referential past time adjunct?",
+      "family": "Time, aspect and duration",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§6.4, p. 699. “This compound tense is incompatible with referential temporal location in the past”.",
+          "example": "Ch. 3, p. 144 [13iia] <i>We’ve already discussed it yesterday</i>, unmarked on the page image.",
+          "establishes": "The cited section admits the combination under restrictive conditions.",
+          "locator": "Section A4, item A4a.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0131/"
+    },
+    {
+      "id": "CG-0132",
+      "topic": "Paraphrase of [3ib] changes the duration",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "7.2",
+        "page": 703
+      },
+      "claim": "Under the remark “There are in many cases approximate paraphrases in which duration is expressed by an NP in object function”, [3ib] <i>I reached the summit in two hours</i> is paired with [4ib] <i>It took me an hour to reach the summit</i>.",
+      "evidence_summary": "The other three pairs keep their measure: <i>six years</i> ([3ia], [4ia]), <i>all year</i> ([3iia], [4iia]) and <i>two days</i> ([3iib], [4iib]). Ch. 3, p. 122, pairs [18iia] <i>It took him an hour to reach the summit / die</i> with [18iiia] <i>He reached the summit in an hour</i>.",
+      "finding": "Low to medium confidence: “approximate” may excuse a loose paraphrase. Align the durations; the text doesn’t show which number was intended.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "122 [18ii]–[18iii]. 703 [3]–[4]",
+      "inference": "Does [4ib] paraphrase [3ib]?",
+      "family": "Time, aspect and duration",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§7.2, p. 703 [3ib], [4ib]. “There are in many cases approximate paraphrases”.",
+          "example": "Page 703 [3]–[4]; Ch. 3, p. 122 [18].",
+          "establishes": "The paraphrase changes two hours to one.",
+          "locator": "Section C, p. 703.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0132/"
+    },
+    {
+      "id": "CG-0133",
+      "topic": "Activities called imperfective",
+      "assessment": "Textual mismatch",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "7.2",
+        "page": "703–709"
+      },
+      "claim": "Chapter 8 treats activities as imperfective, and duration elements as making them perfective. Page 703: “The situations in [ia/iia], considered in abstraction from the duration adjunct, are imperfective: studying law is an activity, and living in College is a state.” Page 705: “Mary’s driving along country lanes is an imperfective situation”. Page 709: “clauses denoting imperfective situations (activities and states)”.",
+      "evidence_summary": "Page 668 says the chapter “will draw on the aspectual categories of perfective vs imperfective and the situation types states, activities, accomplishments, and achievements presented in Ch. 3, §3.2”. There, the non-progressive is “perfective with occurrences, i.e. dynamic situations, but imperfective with states, whether ordinary or serial” (p. 124), with [23i] <i>He played golf on Wednesday</i> labelled perfective; p. 125 says [23i] “expresses a single activity; it is considered as a whole”. Ch. 3 agrees with Chapter 8 that a state with a duration adjunct is perfective ([22i] <i>He reigned for a year</i>, p. 124) and that serial states are imperfective.",
+      "finding": "Medium confidence. For activities the chapters conflict: Chapter 8 uses “imperfective” for what its own §1 label calls “[unbounded: activity]” (p. 668), while Ch. 3 makes a non-progressive activity normally perfective, and Ch. 3’s “see also §5.2” (p. 124) concerns continuative perfects, not this case. For multiple situations they largely agree, since Ch. 3 treats serial multiplicity as a state. No claim in Chapter 8 fails because of the terminology, and <i>unbounded</i> and <i>bounded</i> at these sites would remove the clash.",
+      "semantic_inference": true,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "124 [22]–[23]. 125. 668 [6]. 703 [3]. 705. 709. 713. 714",
+      "inference": "Is a non-progressive activity imperfective?",
+      "family": "Time, aspect and duration",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§7.2, p. 703. “Adding the adjunct has the effect of bounding the situation, making it perfective.”",
+          "example": "Ch. 3, p. 124 [23i] <i>He played golf on Wednesday.</i> [perfective]",
+          "establishes": "The two chapters assign different aspect to a non-progressive activity.",
+          "locator": "Section A4, item A4l.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0133/"
+    },
+    {
+      "id": "CG-0134",
+      "topic": "Scope label for the duration complement of <i>last</i>",
+      "assessment": "Textual mismatch",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "7.3",
+        "page": 706
+      },
+      "claim": "In [13ib], <i>The strike didn’t last two days</i>, the duration phrase is labelled an adjunct: “[negative has scope over adjunct]”.",
+      "evidence_summary": "The prose below the display on p. 706 says “In [i] <i>two days</i> is part of the complementation of <i>last</i>”, and calls it the “duration dependent”. Page 703 [2ii] labels <i>The staff meeting lasted (for) five hours</i> “[complement: S orientation]”. Page 665 defines the term: “the term ‘adjunct’ covers modifiers in the VP or clause together with related supplements”.",
+      "finding": "The label contradicts §7.1 and the prose beneath it on p. 706, which calls the phrase the “duration dependent”. Page 665’s definition excludes complements, so the label can’t be read as a cover term. Read “complement”, as in p. 703 [2ii].",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "665. 692. 703 [2ii]. 706 [13]",
+      "proposed_wording": "[negative has scope over complement]",
+      "inference": "Is the duration phrase with <i>last</i> a complement or an adjunct?",
+      "family": "Complements and adjuncts",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§7.3, p. 706 [13ib]. “[negative has scope over adjunct]”",
+          "example": "The sentence after [13] on p. 706, and p. 703 [2ii].",
+          "establishes": "The display label conflicts with the chapter’s own analysis of <i>last</i>.",
+          "locator": "Section A1, p. 706 row.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0134/"
+    },
+    {
+      "id": "CG-0135",
+      "topic": "Status marks for durational <i>in</i> with activities",
+      "assessment": "Textual mismatch",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "7.4",
+        "page": 709
+      },
+      "claim": "Non-bounding duration adjuncts “cannot appear with clauses denoting imperfective situations (activities and states)”, marked as anomalous: #<i>I wrote letters in an hour</i>. Under the heading “Shortness implicature” the same page says “it is infelicitous to modify with <i>at least</i>” and marks it ungrammatical: <i>The doctor will arrive in at most an hour</i> / ∗<i>at least an hour</i>.",
+      "evidence_summary": "Page 668 stars the same clash of <i>in</i> with an activity: <i>She ran for ten minutes</i> / ∗<i>in ten minutes</i>. So does Ch. 3 p. 122 [18ic], <i>He played tennis for an hour</i> / ∗<i>in an hour</i>, labelled “[activity]”. Ch. 3 p. 122 also ties implicature to cancellation: “We have spoken here of an implicature because of the possibility of cancellation”. The notational conventions (p. xii) use ∗ for ungrammatical and # for semantically or pragmatically anomalous.",
+      "finding": "The same aspectual clash is marked # here but ∗ on p. 668 and in Ch. 3, and the ∗ on <i>at least</i> marks an effect the prose attributes to an implicature. Clashes between aspect and adjunct lie near the border of grammar and meaning, which partly excuses the variation, but the book doesn’t say which status it intends.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "xii. 122 [18]. 668 [6]. 709 [23]",
+      "inference": "Is durational <i>in</i> with an activity ungrammatical or anomalous?",
+      "family": "Grammaticality marks",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§7.4, p. 709. “cannot appear with clauses denoting imperfective situations (activities and states)”",
+          "example": "Page 668, <i>She ran for ten minutes</i> / ∗<i>in ten minutes</i>; Ch. 3 p. 122 [18ic].",
+          "establishes": "The same clash carries different status marks.",
+          "locator": "Section A2, p. 709 row.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0135/"
+    },
+    {
+      "id": "CG-0136",
+      "topic": "# and ∗ for <i>already</i> over a negative",
+      "assessment": "Textual mismatch",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "8",
+        "page": "711–712"
+      },
+      "claim": "Page 711 marks [4ib] #<i>She already isn’t here</i> as anomalous: “In the primary sense we are concerned with here, <i>already</i> can’t have scope over a negative, as seen in [ib].”",
+      "evidence_summary": "Page 712 [8iib] stars ∗<i>He has already not read the report</i> and explains it by the same constraint: “But [iib] is again excluded: as noted above, <i>already</i> in its primary sense does not take scope over a negative.” The notational conventions (p. xii) use ∗ for ungrammatical and # for semantically or pragmatically anomalous, and p. 702 says a #-marked example “certainly does not violate any rule of grammar”.",
+      "finding": "One constraint gets # on p. 711 and ∗ on p. 712, and the p. 712 prose presents it as the point already made. Either one mark or the explanation needs to change.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "xii. 702. 711 [4]. 712 [8]",
+      "inference": "Is <i>already</i> with scope over a negative ungrammatical or anomalous?",
+      "family": "Grammaticality marks",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§8, p. 711 [4ib]. “In the primary sense we are concerned with here, <i>already</i> can’t have scope over a negative”",
+          "example": "Page 712 [8iib], ∗<i>He has already not read the report</i>, explained “as noted above”.",
+          "establishes": "The two pages give one constraint two status marks.",
+          "locator": "Section A2, pp. 711–712 row.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0136/"
+    },
+    {
+      "id": "CG-0137",
+      "topic": "<i>Never</i> among bounding frequency adjuncts",
+      "assessment": "Textual mismatch",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "9",
+        "page": 715
+      },
+      "claim": "The non-bounding expressions in [9iii] “consist of those that function as bounding frequency adjuncts (other than <i>never</i>) together with a postmodifier that cancels the bounding effect”.",
+      "evidence_summary": "The same page lists <i>never</i> in [9i] under “The form of non-bounding frequency adjuncts”, and its inventory of bounding forms leaves it out: “The class of bounding frequency expressions contains the adverbs <i>once</i> and <i>twice</i> (and archaic <i>thrice</i>), NPs with <i>times</i> as head, PPs consisting of <i>on</i> + NP with <i>occasion</i> as head”. It glosses frequency <i>never</i> as universal, “always doesn’t”.",
+      "finding": "Medium confidence: the parenthesis puts <i>never</i> among the bounding adjuncts, against [9i] and the inventory on the same page. Page 714’s “except in the special case of one or zero quantity” may explain the motive (<i>never</i> as zero times), but doesn’t remove the conflict.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "714. 715 [8], [9]",
+      "inference": "Is <i>never</i> a bounding frequency adjunct?",
+      "family": "Time, aspect and duration",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§9, p. 715. “bounding frequency adjuncts (other than <i>never</i>)”",
+          "example": "Page 715 [9i], and the inventory of bounding forms before [8].",
+          "establishes": "The parenthesis classes <i>never</i> against the page’s own lists.",
+          "locator": "Section A4, item A4d.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0137/"
+    },
+    {
+      "id": "CG-0138",
+      "topic": "Scope readings of <i>for the third time</i>",
+      "assessment": "Textual mismatch",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "10",
+        "page": "719–720"
+      },
+      "claim": "For [2i] <i>Mary Smith performed the sonata for the third time last year</i> (p. 719), p. 720 says that with the subject inside the scope of the adjunct “it was Mary Smith herself who performed on all three occasions, whereas when the subject is outside the scope of the adjunct there is no indication of who performed before”.",
+      "evidence_summary": "For [2iii] <i>People are dying of TB again</i>, p. 720 says “the adjunct has wider scope than the subject: we can assume that people do not die twice”, which makes adjunct over subject the reading with different individuals. §9 maps scope the same way. In [16i] (p. 717) the same person is sacked repeatedly, and p. 718 says “the quantified NP has scope over the adjunct”; under [17], where the adjunct has wider scope, “it is not the same person who is sacked”.",
+      "finding": "Medium confidence: [2i] maps the subject’s wide scope onto the reading where the performer may differ, while [2iii] and §9 map it onto the reading with the same individual. Because <i>Mary Smith</i> is referential, the inside reading can be defended, but not the outside one; and if relative scope makes no truth-conditional difference for a referential subject, the [2i] ambiguity isn’t one of scope in the sense used for [2iii]. Either way, the two mappings conflict.",
+      "semantic_inference": true,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "717 [16]. 718 [17]. 719 [2]. 720",
+      "inference": "Does a subject outside the scope of a repetition adjunct give the reading with different individuals?",
+      "family": "Scope, negation and polarity",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§10, p. 720. “when the subject is outside the scope of the adjunct there is no indication of who performed before”",
+          "example": "Page 720 on [2iii]; pp. 717–718 [16]–[17].",
+          "establishes": "The section maps scope onto readings in opposite ways for [2i] and [2iii].",
+          "locator": "Section A4, item A4j.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0138/"
+    },
+    {
+      "id": "CG-0139",
+      "topic": "? and # for paucal adjuncts with high-degree verbs",
+      "assessment": "Textual mismatch",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "11",
+        "page": 723
+      },
+      "claim": "“Paucal adjuncts tend not to occur with verbs which inherently involve a high degree”, illustrated with <i>He liked</i> / ?<i>adored her a little</i> and <i>It had slightly damaged</i> / #<i>ruined her prospects</i>.",
+      "evidence_summary": "One reason covers both examples, but they carry different marks. The notational conventions (p. xii) use ? for questionable grammaticality and # for semantically or pragmatically anomalous.",
+      "finding": "Low to medium confidence: one stated restriction, two status categories. The defence that <i>ruin</i> is lexically maximal, so that <i>slightly ruined</i> is a contradiction while <i>adored her a little</i> is a milder clash, partly works, but the text doesn’t say the two cases differ in kind.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "xii. 723 [14]–[15]",
+      "inference": "Does one degree restriction call for one status mark?",
+      "family": "Grammaticality marks",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§11, p. 723. “Paucal adjuncts tend not to occur with verbs which inherently involve a high degree”",
+          "example": "<i>He liked</i> / ?<i>adored her a little</i>; <i>It had slightly damaged</i> / #<i>ruined her prospects</i>.",
+          "establishes": "Two status marks for one stated restriction.",
+          "locator": "Section A2, p. 723 row.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0139/"
+    },
+    {
+      "id": "CG-0140",
+      "topic": "Wide and narrow scope negation with degree adjuncts",
+      "assessment": "Textual mismatch",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "11",
+        "page": 725
+      },
+      "claim": "After setting aside metalinguistic negation, the text says “In what follows we ignore cases of this kind and consider below only narrow scope ordinary negation.”",
+      "evidence_summary": "The cases discussed next all have the adjunct inside the scope of the negative; the first is [22] (p. 724), labelled “[adjunct in scope of negation]”. Page 724 uses the term for the opposite configuration: “Nevertheless, narrow scope negation is not entirely excluded”, with [24] labelled “[negation in scope of adjunct]”. Ch. 9 p. 793 fixes the convention: “in [23ii] the negative has narrow scope relative to the adjunct, whereas in [23iii] it has wide scope”, and [23iii] is labelled “[negative has scope over adjunct]”.",
+      "finding": "The text means wide scope negation: the discussion that follows concerns negation with scope over the adjunct, which p. 724 and Ch. 9 call wide scope. Reading the phrase as ordinary negation in which the adjunct has narrow scope doesn’t work, since p. 724 uses the same collocation for the opposite reading.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "724 [22]–[25]. 725. 792–793 [23]",
+      "proposed_wording": "consider below only wide scope ordinary negation",
+      "inference": "Does the discussion that follows concern narrow scope negation?",
+      "family": "Scope, negation and polarity",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§11, p. 725. “consider below only narrow scope ordinary negation”",
+          "example": "Page 724 [22] and [24]; Ch. 9 p. 793 [23].",
+          "establishes": "The term names the opposite of the configuration discussed.",
+          "locator": "Section A4, item A4b.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0140/"
+    },
+    {
+      "id": "CG-0141",
+      "topic": "Example reference for the result adjunct in §12 [1]",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "12",
+        "page": 726
+      },
+      "claim": "“In [ii] the airline’s overbooking is treated as subordinate and expressed within an adjunct of cause (more specifically, of reason), whereas in [ii] it is the other situation, our not being able to get on the plane, that is expressed as a subordinate clause, this time within an adjunct of result.”",
+      "evidence_summary": "[1ii] (p. 725) is the reason example. [1iii] is the result example: <i>The airline had overbooked, so that two of us couldn’t get on the plane</i>, labelled “[result]”.",
+      "finding": "Change the second [ii] to [iii].",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "725 [1]. 726",
+      "proposed_wording": "whereas in [iii] it is the other situation",
+      "inference": "Does the second reference point to the result example?",
+      "family": "Purpose, reason, concession and condition",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§12, p. 726. “whereas in [ii] it is the other situation, our not being able to get on the plane”",
+          "example": "Page 725 [1iii].",
+          "establishes": "The intended example is [1iii].",
+          "locator": "Section B, p. 726 row.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0141/"
+    },
+    {
+      "id": "CG-0142",
+      "topic": "<i>So as</i> as a preposition",
+      "assessment": "Textual mismatch",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "12.2",
+        "page": 727
+      },
+      "claim": "Page 727 lists <i>so as</i> among the prepositions heading purpose PPs: “The prepositions found here are <i>in order</i> (finite or infinitival), <i>so</i> (finite), <i>so as</i> (infinitival)”. Page 728 has “In subjectless clauses governed by <i>in order</i> or <i>so as</i>”.",
+      "evidence_summary": "Ch. 14 p. 1262: “The only prepositional expressions that take <i>to</i>-infinitivals other than interrogatives as direct complement are purposive <i>in order</i>, and <i>as if</i>/<i>though</i>”. Ch. 14 p. 1264: “The <i>as</i> here is itself licensed by <i>so</i> or <i>such</i>.” Ch. 17 p. 1540 makes <i>so</i> the preposition and says its complement “can have the form of <i>as</i> + infinitival”, citing Ch. 8, §12.2.",
+      "finding": "Medium confidence: Ch. 8 lists <i>so as</i> as a preposition taking an infinitival, which Ch. 14 p. 1262 rules out, while Chs. 14 and 17 make <i>so</i> the head and <i>as</i> + infinitival its complement. Page 728’s “Infinitivals governed by <i>so</i> + <i>as</i>” recognizes two words, but it still makes the infinitival a dependent of the pair.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "727 [7]. 728 [12]. 729. 1262 [22]. 1264 [28]. 1540 [72]",
+      "inference": "Is <i>so as</i> a preposition taking an infinitival complement?",
+      "family": "Prepositions, subordinators and connectives",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§12.2, p. 727. “The prepositions found here are <i>in order</i> (finite or infinitival), <i>so</i> (finite), <i>so as</i> (infinitival)”",
+          "example": "Ch. 14 pp. 1262 [22] and 1264 [28]; Ch. 17 p. 1540 [72].",
+          "establishes": "The chapters assign the head of the purpose PP differently.",
+          "locator": "Section A3, item A3c.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0142/"
+    },
+    {
+      "id": "CG-0143",
+      "topic": "Antecedent of the missing subject in governed purpose infinitivals",
+      "assessment": "Qualification",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "12.2",
+        "page": 728
+      },
+      "claim": "“In subjectless clauses governed by <i>in order</i> or <i>so as</i>, the antecedent for the missing subject is the subject of the matrix clause”, as in [12] <i>He resigned in order</i> / <i>so as to avoid any conflict of interest</i>. Page 729 contrasts ungoverned clauses, where “there are other possibilities”.",
+      "evidence_summary": "CGEL’s own prose has governed <i>in order</i> after a passive matrix whose subject can’t be the antecedent. Ch. 15 p. 1333: “it can also be a single polar question, asked for example in order to find out whether the writer’s record of your address needs changing”. Ch. 6 p. 582: “adjuncts are often consciously placed in pre-marker (or end) position in order to avoid infringing the traditional rule”. In both, the understood subject is the implied agent. Page 726 says purpose implies intention “usually on the part of the agent of the matrix clause”.",
+      "finding": "Medium confidence: the rule needs a hedge or an exception for passive matrices, where the implied agent can be the antecedent. The authors’ prose isn’t a grammaticality judgment, but it is edited usage, and p. 729 offers the alternative of taking “the whole matrix situation” as antecedent only for ungoverned clauses.",
+      "semantic_inference": true,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "582. 726. 728 [12]. 729 [13]. 1333",
+      "inference": "Must the antecedent of the missing subject in a governed purpose infinitival be the matrix subject?",
+      "family": "Purpose, reason, concession and condition",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§12.2, p. 728. “the antecedent for the missing subject is the subject of the matrix clause”",
+          "example": "Ch. 15 p. 1333, <i>asked for example in order to find out</i>; Ch. 6 p. 582, <i>consciously placed in pre-marker (or end) position in order to avoid infringing the traditional rule</i>.",
+          "establishes": "The book’s own prose has governed purpose clauses whose understood subject is an implied agent.",
+          "locator": "Section A4, item A4i.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0143/"
+    },
+    {
+      "id": "CG-0144",
+      "topic": "<i>Windows</i> and <i>walls</i> in [13v]",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "12.2",
+        "page": 729
+      },
+      "claim": "“In [v] the matrix is active: it’s the design or building of the prison with no outside walls that was intended to make it more secure.”",
+      "evidence_summary": "[13v] is <i>The new prison has no outside windows to make it more secure</i>.",
+      "finding": "Change <i>walls</i> to <i>windows</i>. A prison with no outside walls wouldn’t be more secure.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "729 [13v]",
+      "proposed_wording": "the prison with no outside windows",
+      "inference": "Does the commentary name the feature in the example?",
+      "family": "Purpose, reason, concession and condition",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§12.2, p. 729. “the prison with no outside walls”",
+          "example": "Page 729 [13v].",
+          "establishes": "A slip in the commentary.",
+          "locator": "Section C, p. 729 row.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0144/"
+    },
+    {
+      "id": "CG-0145",
+      "topic": "Fronted purpose <i>so</i> PPs",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "12.4",
+        "page": 733
+      },
+      "claim": "“We have noted that purpose <i>so</i> PPs are occasionally fronted, but this is not possible with result.”",
+      "evidence_summary": "No earlier passage says so. Searches of pp. 665–733 for fronting and preposing terms find fronting notes on pp. 673, 676, 713, 717, 731 and 733, none about <i>so</i>, and the fronted purpose PPs in §12 are headed by <i>in order</i> ([11], p. 728; [17ii], p. 730). Fronted purpose <i>so</i> appears only later: Ch. 11 p. 969 [50ii], <i>So that his customers should not soil their hands, Brecht issued white gloves</i>, where “this time <i>so</i> + content clause can be preposed”; and Ch. 15 p. 1322, “purposive <i>So that he would miss the rush-hour traffic he left early</i>”.",
+      "finding": "Medium confidence: the back-reference has nothing to point to in the chapter. It should point forward to Ch. 11, or the point should be made here. This is separate from the authors’ erratum for the Ch. 15 reference in [35v] on the same page.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "728 [11]. 730 [17ii]. 733 [35]. 969 [50ii]. 1322",
+      "inference": "Has the book already noted that purpose <i>so</i> PPs can be fronted?",
+      "family": "Purpose, reason, concession and condition",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§12.4, p. 733. “We have noted that purpose <i>so</i> PPs are occasionally fronted”",
+          "example": "Ch. 11 p. 969 [50ii]; Ch. 15 p. 1322.",
+          "establishes": "The point is made only later in the book.",
+          "locator": "Section B, p. 733 row.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0145/"
+    },
+    {
+      "id": "CG-0146",
+      "topic": "Concessive <i>for</i> and <i>for all that</i>",
+      "assessment": "Qualification",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "13.2",
+        "page": 736
+      },
+      "claim": "“In its concessive use, <i>for</i> takes an NP complement beginning with <i>all</i>”, as in [9iv] <i>For all our good intentions, the meeting soon broke up in acrimony</i>.",
+      "evidence_summary": "Ch. 7 p. 624 [18i] has a content clause instead: <i>For all that I’m not guilty, I’ll still be a suspect in the eyes of history</i>. There “the content clause is clearly licensed by <i>for all</i>”, which is analysed as head, like <i>for fear</i> and <i>on condition</i>.",
+      "finding": "Medium confidence: §13.2 allows concessive <i>for</i> only an NP complement and makes <i>for</i> the head, while Ch. 7 makes <i>for all</i> the head of a content clause. These are different constructions, so neither statement is strictly false, but §13.2 needs widening and a cross-reference to Ch. 7, §3.2.",
+      "semantic_inference": false,
+      "condition": "Distributional restriction",
+      "internal_tension": true,
+      "related": "624 [18i]. 736 [9iv]",
+      "inference": "Does concessive <i>for</i> take only an NP complement beginning with <i>all</i>?",
+      "family": "Purpose, reason, concession and condition",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§13.2, p. 736. “In its concessive use, <i>for</i> takes an NP complement beginning with <i>all</i>.”",
+          "example": "Ch. 7 p. 624 [18i].",
+          "establishes": "A concessive use with a clausal complement, analysed with a different head.",
+          "locator": "Section A4, item A4n.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0146/"
+    },
+    {
+      "id": "CG-0147",
+      "topic": "Example [13] missing in §13.3",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "13.3",
+        "page": 737
+      },
+      "claim": "The displays on p. 737 are numbered [11], [12], [14], [14], [15]: the <i>sit and mope</i> pair ([14i] <i>She doesn’t sit and mope but (rather) makes the best of the situation</i>) and the <i>even if</i> / <i>even though</i> pair ([14i] <i>I’m going out, even if it rains</i>) both carry [14].",
+      "evidence_summary": "§13.3 has no [13]. The audit found no reference elsewhere to §13’s [13] or [14], so nothing downstream is misdirected.",
+      "finding": "Renumber the first [14] as [13].",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": false,
+      "related": "737 [11]–[15]",
+      "proposed_wording": "[13]",
+      "inference": "Are the examples in §13.3 numbered in sequence?",
+      "family": "Purpose, reason, concession and condition",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§13.3, p. 737, the display before “(c) Conditionals”.",
+          "example": "Page 737 [12], [14], [14], [15].",
+          "establishes": "A misnumbered example.",
+          "locator": "Section B, example numbering, p. 737.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0147/"
+    },
+    {
+      "id": "CG-0148",
+      "topic": "Example [12] missing in §14.1.1",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "14.1.1",
+        "page": 742
+      },
+      "claim": "The displays on p. 742 are numbered [10], [11], [11], [13]: [11] <i>If he proposes – and he will – she’ll probably turn him down</i>, then [11ia] #<i>If I am you I will accept the offer</i>, then [13] <i>If that is Princess Anne, I’m a Dutchman</i>.",
+      "evidence_summary": "Page 740’s “the don’t-know implicature seen in [11]” means the first [11], and p. 749’s “[13] above” is right, so no reference is misdirected. The duplicate makes p. 740’s “[11]” ambiguous on the printed page.",
+      "finding": "Renumber the second [11] as [12].",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": false,
+      "related": "740. 742 [10]–[13]. 749",
+      "proposed_wording": "[12]",
+      "inference": "Are the examples in §14.1.1 numbered in sequence?",
+      "family": "Purpose, reason, concession and condition",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§14.1.1, p. 742, the second [11].",
+          "example": "Page 742 [10], [11], [11], [13].",
+          "establishes": "A misnumbered example.",
+          "locator": "Section B, example numbering, p. 742.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0148/"
+    },
+    {
+      "id": "CG-0149",
+      "topic": "Footnote 24 and the modal category",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "14.1.1",
+        "page": 743
+      },
+      "claim": "Footnote 24: “It is possible for a conditional adjunct to have scope over a multiple situation, as in <i>She cycled to work if I remember correctly</i>. The adjunct here, however, belongs to the modal category discussed in §18.”",
+      "evidence_summary": "§18 (p. 773) is “Speech act-related adjuncts”; modal adjuncts are §16 (p. 767). In §16, p. 771 says “conditional adjuncts too can function in this way”, with [14iia] <i>If I’m not mistaken, that’s a kookaburra over there</i>, and p. 666 [2ib] labels <i>He’s going to buy the house if I’m not mistaken</i> “[modal conditional]”. §18’s conditional <i>if you remember</i>/<i>recall</i> (p. 774) “gives the utterance the force of a reminder”.",
+      "finding": "Change §18 to §16. The category word and the section number disagree; <i>if I remember correctly</i> hedges the speaker’s certainty like <i>if I’m not mistaken</i>, so §16 is the likelier target. Three readers found this independently.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "666 [2ib]. 743 n. 24. 767. 771 [14ii]. 773. 774",
+      "proposed_wording": "belongs to the modal category discussed in §16",
+      "inference": "Does footnote 24 point to the section on modal adjuncts?",
+      "family": "Modality, evaluation and speech acts",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§14.1.1, p. 743 n. 24. “belongs to the modal category discussed in §18”",
+          "example": "Page 771 [14iia] and p. 666 [2ib].",
+          "establishes": "Modal conditionals are treated in §16.",
+          "locator": "Section B, p. 743 n. 24 row.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0149/"
+    },
+    {
+      "id": "CG-0150",
+      "topic": "<i>Only if</i> and the entailment of <i>only</i>",
+      "assessment": "Argument gap",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "14.1.3",
+        "page": "746–747"
+      },
+      "claim": "Page 746: “it is clear that <i>Q only if P</i> does not actually entail <i>Q if P</i>”, which is treated as an implicature. Page 747: <i>only if</i> “is in fact predictable from the meanings of <i>if</i> and <i>only</i>”, and “there is no need to regard <i>only if</i> as an idiom”, with a cross-reference to Ch. 6, §7.3.",
+      "evidence_summary": "In the account cited, Ch. 6 p. 592 [62] lists “Kim resigned” as a component of <i>Only Kim resigned</i>, and p. 593 says “Both [ia] and [ib] entail that Kim resigned”. Built up as p. 747 proposes, <i>Q only if P</i> should then entail <i>Q if P</i>, which p. 746 denies. Page 747’s derivation covers only the excluded scenario. It doesn’t say why the positive component becomes a cancellable implicature, which p. 746 calls the “Sufficient condition implicature”.",
+      "finding": "Medium confidence: the derivation needs a step it doesn’t give. One rescue is available in p. 747’s own analogue, whose generic prejacent (<i>permanent residents qualify</i>) doesn’t entail that every permanent resident qualifies, as p. 746 notes for the parallel pension example [27ii]; read the same way, <i>Q if P</i> would be weaker than a universal conditional. CGEL doesn’t say this. Ch. 6 n. 20 (p. 588) refers <i>only</i> + <i>if</i> to Ch. 8, which suggests the authors saw it as a special case.",
+      "semantic_inference": true,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "588 n. 20. 592 [62]. 593. 746 [26]–[27]. 747 [28]",
+      "inference": "Does the meaning of <i>only</i> predict that <i>Q only if P</i> lacks the entailment <i>Q if P</i>?",
+      "family": "Purpose, reason, concession and condition",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§14.1.3, p. 747. “is in fact predictable from the meanings of <i>if</i> and <i>only</i>”",
+          "example": "Ch. 6 pp. 592–593 [62].",
+          "establishes": "The cited account of <i>only</i> entails the component that p. 746 treats as an implicature.",
+          "locator": "Section A4, item A4m.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0150/"
+    },
+    {
+      "id": "CG-0151",
+      "topic": "<i>Even if</i> with true P: the reference to §14.1.1",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "14.1.3",
+        "page": 748
+      },
+      "claim": "“As noted in §14.1.1, <i>even if</i> P may be used in a context where the truth of P is not in question”, with <i>Even if you are my elder brother, you haven’t the right to tell me what to do</i>.",
+      "evidence_summary": "The point is made in §13.3, p. 737: “<i>Even if</i> may be used, however, in a context where the complement of <i>if</i> is known to be true”, with [15i] <i>You don’t have to defend everything Ed does, even if he is your brother</i>. In §14.1.1 (pp. 739–743) <i>even if</i> occurs only in [8i] (p. 741), on cancelling the only-if implicature. Page 749 repeats the pointer for “those cases considered in §14.1.1 where the truth of P is contextually given”, which then include the elder-brother example as [38ii] (p. 750).",
+      "finding": "Medium confidence: the reference should be to §13.3. §14.1.1 does discuss conditionals whose P is established or self-evident (p. 742 [10]), and the p. 749 pointer is right for [38i] and [38iii], so the authors may have meant that general point. But the specific point about <i>even if</i> and its concessive reading is made in §13.3.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "737 [15i]. 741 [8i]. 742 [10]. 748. 749. 750 [38]",
+      "proposed_wording": "As noted in §13.3",
+      "inference": "Does §14.1.1 note that <i>even if</i> can be used when P is known to be true?",
+      "family": "Purpose, reason, concession and condition",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§14.1.3, p. 748. “As noted in §14.1.1, <i>even if</i> P may be used in a context where the truth of P is not in question”",
+          "example": "Page 737 [15i].",
+          "establishes": "The point is made in §13.3.",
+          "locator": "Section B, p. 748 row.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0151/"
+    },
+    {
+      "id": "CG-0152",
+      "topic": "<i>Only</i> and <i>even</i> in remote conditionals",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "14.2.1",
+        "page": 750
+      },
+      "claim": "Under the heading “<i>Only if</i> and <i>even if</i>”: “The remote vs open contrast is the same in combination with <i>only</i> and <i>if</i> as in the examples given in [33].”",
+      "evidence_summary": "[41] has <i>only if</i> in [i] and <i>even if</i> in [ii–iii]. Page 751 goes on: “<i>Even</i> likewise has the same interpretation in the remote versions as in the open ones.”",
+      "finding": "Read <i>only</i> and <i>even</i>. Every example contains <i>if</i>, and the sentence as printed leaves out <i>even</i>.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "748 [33]. 750 [41]. 751",
+      "proposed_wording": "in combination with <i>only</i> and <i>even</i>",
+      "inference": "Which items does the remote vs open comparison combine with <i>if</i>?",
+      "family": "Purpose, reason, concession and condition",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§14.2.1, p. 750. “in combination with <i>only</i> and <i>if</i>”",
+          "example": "Page 750 [41] and the heading above it.",
+          "establishes": "The intended pair is <i>only</i> and <i>even</i>.",
+          "locator": "Section C, p. 750 row.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0152/"
+    },
+    {
+      "id": "CG-0153",
+      "topic": "Example [42] printed as [12]",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "14.2.1",
+        "page": 751
+      },
+      "claim": "The <i>if only</i> display is numbered [12]: [12i] <i>He would get a distinction if only he would buckle down to some hard work</i>; [12ii] <i>I could have solved the problem myself if only I’d had a little more time</i>.",
+      "evidence_summary": "It comes between [41] (p. 750) and [43] (p. 751). The example numbers on pp. 748–764 run [33] to [41], [12], [43] to [81], and nothing cites [42] or this [12].",
+      "finding": "Renumber [12] as [42].",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": false,
+      "related": "750 [41]. 751 [43]",
+      "proposed_wording": "[42]",
+      "inference": "Are the examples in §14.2 numbered in sequence?",
+      "family": "Purpose, reason, concession and condition",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§14.2.1, p. 751, under the heading “<i>If only</i>”.",
+          "example": "Page 750 [41]; p. 751 [43].",
+          "establishes": "A misnumbered example.",
+          "locator": "Section B, example numbering, p. 751.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0153/"
+    },
+    {
+      "id": "CG-0154",
+      "topic": "Modal forms in remote apodoses: the reference to Ch. 3",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "14.2.2",
+        "page": 751
+      },
+      "claim": "“The most common modal auxiliaries occurring in the apodosis are <i>would</i>, <i>should</i>, <i>could</i>, and <i>might</i>”, and “for other modal forms, see Ch. 3, §§5, 9.8.4”.",
+      "evidence_summary": "Ch. 3 §5 (p. 139) is “Perfect tense”, and a search of pp. 139–147 for remote, conditional, apodosis and each modal auxiliary finds no discussion of modals in remote apodoses. §9.8.4 is a fitting target: on p. 202 <i>must</i> and <i>ought</i> “occur readily in construction [60ib], if only marginally in [iib]”, where [60ib] is a backshifted report and [60iib] the remote conditional. §2.5 (p. 108), “The auxiliaries considered in turn”, tests each auxiliary for “[L] Can occur in remote apodosis”; p. 109 has %<i>If he had stayed in the army he must surely have become a colonel</i>.",
+      "finding": "Ch. 3 §5 is the wrong target (high confidence). §2.5 is the likely intended one, but that is an inference (medium confidence).",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "108–115. 139. 202. 751",
+      "inference": "Does the reference to Ch. 3 lead to the discussion of other modals in remote apodoses?",
+      "family": "Modality, evaluation and speech acts",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§14.2.2, p. 751. “for other modal forms, see Ch. 3, §§5, 9.8.4”",
+          "example": "Ch. 3 p. 108, property [L]; p. 202.",
+          "establishes": "Ch. 3 §5 is the wrong target; §2.5 covers the point.",
+          "locator": "Section B, p. 751 row.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0154/"
+    },
+    {
+      "id": "CG-0155",
+      "topic": "Inverted conditionals and remote conditionals",
+      "assessment": "Textual mismatch",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "14.2.2",
+        "page": "753–754"
+      },
+      "claim": "Of subject–auxiliary inversion in the protasis (as in [47i] <i>Had I had any inkling of this, I would have acted differently</i>), p. 753 says “It is restricted to remote conditionals”, and p. 754 continues “except that the special conditional <i>should</i> allows inversion in both open and remote constructions”.",
+      "evidence_summary": "Ch. 11 p. 970 [55iii] is an open conditional with inversion and no status mark: <i>Dare a woman have a child, she’s putting her job at risk</i>. The commentary says “Example [iii] is unusual in that we have here an open conditional: these inverted conditional adjuncts normally occur in remote conditionals”. Page 753 cites Ch. 11, §4.7 two sentences earlier.",
+      "finding": "Medium confidence: Ch. 8 states as categorical what Ch. 11 states as the norm, and Ch. 11 gives an open example. Ch. 11 p. 970 calls the example “unusual”, which supports Ch. 8 only if p. 753 is read as hedged; adding <i>normally</i> would reconcile the two.",
+      "semantic_inference": false,
+      "condition": "Distributional restriction",
+      "internal_tension": true,
+      "related": "753 [47]. 754. 970 [55iii]",
+      "proposed_wording": "It is normally restricted to remote conditionals",
+      "inference": "Is subject–auxiliary inversion in a conditional protasis restricted to remote conditionals?",
+      "family": "Purpose, reason, concession and condition",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§14.2.2, p. 753. “It is restricted to remote conditionals”",
+          "example": "Ch. 11 p. 970 [55iii], <i>Dare a woman have a child, she’s putting her job at risk</i>.",
+          "establishes": "The book’s own example of an open inverted conditional, with a hedged statement of the norm.",
+          "locator": "Section A4, item A4e.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0155/"
+    },
+    {
+      "id": "CG-0156",
+      "topic": "Irrealis protasis and the open reading",
+      "assessment": "Qualification",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "14.2.2",
+        "page": 754
+      },
+      "claim": "Of [49] <i>If we weren’t home by ten o’clock the landlady would lock us out</i>, CGEL says that “an irrealis protasis such as <i>if I weren’t home by ten o’clock</i> permits only the remote reading.”",
+      "evidence_summary": "Ch. 3, p. 87 [33iii] is %<i>If he were surprised, he didn’t show it</i> [past time]: “Example [iii] is a conditional, but of the open type, not the remote”. The same page restricts the use to some speakers (“For some speakers, irrealis <i>were</i> is not restricted to the modal remoteness constructions”) and says that <i>was</i> is “for most speakers probably the only possibility”.",
+      "finding": "Medium confidence. For speakers who accept [33iii], an irrealis protasis allows the open past-time reading that p. 754 excludes. The defence that p. 754 describes the majority grammar is true, but the unhedged <i>only</i> needs a hedge such as Ch. 3’s <i>for most speakers</i>.",
+      "semantic_inference": true,
+      "condition": "Sufficient",
+      "internal_tension": true,
+      "related": "754 [49]. 87 [33iii]",
+      "proposed_wording": "for most speakers an irrealis protasis such as <i>if I weren’t home by ten o’clock</i> permits only the remote reading (cf. Ch. 3, §1.7)",
+      "inference": "Does an irrealis protasis exclude the open reading?",
+      "family": "Purpose, reason, concession and condition",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§14.2.2, p. 754. “an irrealis protasis such as <i>if I weren’t home by ten o’clock</i> permits only the remote reading”",
+          "example": "Ch. 3, p. 87 [33iii] %<i>If he were surprised, he didn’t show it.</i> The % was confirmed on the page image.",
+          "establishes": "The book itself records an open conditional with an irrealis protasis, for some speakers.",
+          "locator": "Section A4, item A4f.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0156/"
+    },
+    {
+      "id": "CG-0157",
+      "topic": "Status of <i>yet</i> in a positive protasis",
+      "assessment": "Textual mismatch",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "14.3",
+        "page": 756
+      },
+      "claim": "Explaining why <i>unless</i> can’t replace <i>if not</i> in [55iii] <i>I’m cancelling the order if the goods aren’t ready yet</i>, CGEL says that <i>yet</i> “is not compatible with the other component” of an <i>unless</i> conditional, and stars the positive version: “∗<i>If the goods are ready yet I’m not cancelling the order</i>.”",
+      "evidence_summary": "Page 745 accepts <i>yet</i> in a positive <i>if</i> protasis without a mark: [23ib] <i>I’ll be surprised if they are here yet</i>. It marks comparable clashes of orientation with ?, not ∗: [24ii] ?<i>If you were at all worried about the project, why didn’t you let me know?</i>, where <i>at all</i> “is here infelicitous”, and [24iii] ?<i>If you improve your performance at all, we give you a bonus</i>. Ch. 9, p. 838: “A clause embedded as complement of <i>if</i> generally allows NPIs”.",
+      "finding": "Medium-low confidence. Either mark the p. 756 example ? or say why <i>yet</i> is worse here than <i>at all</i> in [24]. The defence that <i>yet</i> is a stronger negative polarity item than <i>at all</i> (Ch. 9, p. 823, “Varying strength of the restrictions”) partly works.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "756 [55iii]. 745 [23ib], [24]. 823. 838",
+      "inference": "Is <i>yet</i> in a positive protasis ungrammatical or infelicitous?",
+      "family": "Grammaticality marks",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§14.3, p. 756. “∗<i>If the goods are ready yet I’m not cancelling the order</i>”",
+          "example": "Page 745 [23ib] and [24ii–iii].",
+          "establishes": "The chapter marks comparable polarity clashes in conditional protases with ? or with no mark.",
+          "locator": "Section A2, p. 756 row.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0157/"
+    },
+    {
+      "id": "CG-0158",
+      "topic": "<i>If only</i> and the reference to §14.1.3",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "14.4",
+        "page": 757
+      },
+      "claim": "Introducing [59] <i>I’ll go with them, if only to get some exercise</i>: “There is a use of <i>if only</i> distinct from that considered in §14.1.3 above”.",
+      "evidence_summary": "§14.1.3 (p. 746, “If in combination with <i>only</i> and <i>even</i>”) treats <i>only if</i> and <i>even if</i>, and doesn’t discuss the sequence <i>if only</i>. The wish use is in §14.2.1, p. 751, under the heading <i>If only</i>: “Quite distinct from <i>only if</i> is the construction where <i>only</i> occurs in the protasis indicating something like a wish”. Ch. 10, p. 945 cites “see Ch. 8, §14.2.1” for <i>if only</i> with a modal preterite.",
+      "finding": "Medium confidence. Change §14.1.3 to §14.2.1. The defence that §14.1.3 is where an <i>if</i> phrase is the scopal focus of <i>only</i> (p. 746) fits the contrast in focus, but p. 757 contrasts two uses of the sequence <i>if only</i>, and p. 751 introduces that sequence.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "757 [59]. 746 [25]. 751. 945",
+      "proposed_wording": "There is a use of <i>if only</i> distinct from that considered in §14.2.1 above",
+      "inference": "Which section treats the <i>if only</i> that p. 757 sets its new use against?",
+      "family": "Purpose, reason, concession and condition",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§14.4, p. 757. “There is a use of <i>if only</i> distinct from that considered in §14.1.3 above”",
+          "example": "Page 751, heading <i>If only</i>. Ch. 10, p. 945, “see Ch. 8, §14.2.1”.",
+          "establishes": "The wish use of <i>if only</i> is in §14.2.1.",
+          "locator": "Section B, p. 757 row.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0158/"
+    },
+    {
+      "id": "CG-0159",
+      "topic": "<i>Supposing</i> as verb and preposition",
+      "assessment": "Textual mismatch",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "14.4",
+        "page": 758
+      },
+      "claim": "Of the items in [61] that can replace <i>if</i>: “<i>Assuming</i> and <i>supposing</i> are verbs heading gerund-participial clauses.” The example is [62v], <i>supposing (that) one were to waste money in that way</i>.",
+      "evidence_summary": "Ch. 11, p. 971 [58] lists <i>supposing</i> among the “Prepositions governing content clauses of this kind”, the expandable type that allows <i>that</i>, which is the construction of [62v]. Ch. 7, p. 611’s list of deverbal prepositions taking content clause complements (“<i>given</i>, <i>granted</i>, <i>provided</i>, <i>providing</i>, <i>seeing</i>”) omits <i>supposing</i> and <i>considering</i>.",
+      "finding": "Medium-high confidence, for <i>supposing</i> only: Ch. 11 doesn’t list <i>assuming</i>. Ch. 7’s treatment of subjectless verbal adjuncts whose understood subject is the speaker ([23], p. 611) could support the verb analysis of <i>assuming</i>, but it doesn’t reconcile Ch. 8 with Ch. 11’s listing of <i>supposing</i>. Ch. 7’s list also omits two items that Ch. 11 lists.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "758 [61ii], [62iv–v]. 971 [58]. 611 [23]",
+      "inference": "Is <i>supposing</i> a verb or a preposition when it takes a content clause?",
+      "family": "Prepositions, subordinators and connectives",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§14.4, p. 758. “<i>Assuming</i> and <i>supposing</i> are verbs heading gerund-participial clauses.”",
+          "example": "Ch. 11, p. 971 [58]. Ch. 7, p. 611.",
+          "establishes": "Chapters 8 and 11 assign <i>supposing</i> to different categories in the same construction.",
+          "locator": "Section A3, item A3b.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0159/"
+    },
+    {
+      "id": "CG-0160",
+      "topic": "<i>Disappointed</i> paraphrased as <i>mistaken</i>",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "14.4",
+        "page": 759
+      },
+      "claim": "[65ii] is <i>Anyone who thought they could take advantage of us would be disappointed</i>, which “corresponds to the remote conditional <i>If anyone thought they could take advantage of us they would be mistaken</i>.”",
+      "evidence_summary": "On the same page the open paraphrase of [65i] keeps the predicate: “<i>If anyone thinks they can take advantage of us, they will be disappointed</i>”.",
+      "finding": "Change <i>mistaken</i> to <i>disappointed</i>. The paraphrase is meant to differ from [65ii] only in form.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "759 [65]",
+      "proposed_wording": "<i>If anyone thought they could take advantage of us they would be disappointed</i>",
+      "inference": "Does the remote paraphrase keep the predicate of [65ii]?",
+      "family": "Purpose, reason, concession and condition",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§14.4, p. 759. “<i>If anyone thought they could take advantage of us they would be mistaken</i>”",
+          "example": "Page 759 [65ii].",
+          "establishes": "A slip in the paraphrase.",
+          "locator": "Section C, p. 759 row.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0160/"
+    },
+    {
+      "id": "CG-0161",
+      "topic": "Footnote 29’s pointer to footnote 20",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "14.5",
+        "page": 760
+      },
+      "claim": "Footnote 29: “This then is one of the cases alluded to in footnote 20, where the grammatical apodosis doesn’t match the logical consequent”.",
+      "evidence_summary": "Footnote 20 (p. 723) concerns scalar implicature: “The implicature is of the scalar type discussed in Ch. 5, §5.2.” Footnote 23 (p. 738) introduces the logical terms antecedent and consequent for protasis and apodosis, and adds “but we will see that the correspondence is not complete”.",
+      "finding": "Change footnote 20 to footnote 23.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "760 n. 29. 723 n. 20. 738 n. 23",
+      "proposed_wording": "This then is one of the cases alluded to in footnote 23",
+      "inference": "Does the footnote cited discuss the mismatch between apodosis and consequent?",
+      "family": "Purpose, reason, concession and condition",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§14.5, p. 760 n. 29. “This then is one of the cases alluded to in footnote 20”",
+          "example": "Page 723 n. 20. Page 738 n. 23.",
+          "establishes": "The intended footnote is 23.",
+          "locator": "Section B, p. 760 n. 29 row.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0161/"
+    },
+    {
+      "id": "CG-0162",
+      "topic": "Polar and alternative questions: Ch. 10, §§4.3–5",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "14.6.2",
+        "page": 762
+      },
+      "claim": "Closed interrogatives “characteristically express questions that can be distinguished as polar or alternative on the basis of how they define the set of answers (cf. Ch. 10, §§4.3–5).”",
+      "evidence_summary": "Ch. 10, §4.3 (p. 868) is “Polar questions” and §4.4 (p. 868) “Alternative questions”. §4.5 (p. 872) is “Variable questions”, which isn’t about closed interrogatives. Ch. 11, p. 989 makes the same point with “see Ch. 10, §§4.3–4”.",
+      "finding": "Low confidence. The reference runs one section too far: change §§4.3–5 to §§4.3–4, as in Ch. 11.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "762 [75]. 868. 872. 989",
+      "proposed_wording": "(cf. Ch. 10, §§4.3–4)",
+      "inference": "Does Ch. 10, §4.5 bear on polar and alternative questions?",
+      "family": "Purpose, reason, concession and condition",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§14.6.2, p. 762. “(cf. Ch. 10, §§4.3–5)”",
+          "example": "Ch. 11, p. 989, “see Ch. 10, §§4.3–4”.",
+          "establishes": "The other chapter that cites the same distinction stops at §4.4.",
+          "locator": "Section B, p. 762 row.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0162/"
+    },
+    {
+      "id": "CG-0163",
+      "topic": "<i>Possibly</i> with request <i>could</i>",
+      "assessment": "Textual mismatch",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "16",
+        "page": 768
+      },
+      "claim": "“<i>possibly</i> can be used in modal harmony with deontic <i>can</i> in requests for permission or action”, with [4i] <i>Could I possibly borrow your bicycle for half an hour?</i> and [4ii] <i>Could you possibly come a little earlier next week?</i>",
+      "evidence_summary": "Ch. 3, p. 200 [56ii] has <i>Can you pass the salt, please</i> and <i>Could you pass the salt, please</i>: “questions about your ability are conventionally used as requests”. There [57ii] <i>Might/Could I have a little more sugar?</i> is labelled [deontic]. Ch. 10, p. 939 [42] separates [ability] <i>Can you open the door</i> from “the deontic necessity for you to do something”, and p. 940 [43] lists <i>can you</i> and <i>could you</i> as openers of ability questions.",
+      "finding": "Medium confidence. The permission request in [4i] is deontic in Ch. 3 as well, but the request for action in [4ii] is an ability question there and in Ch. 10. The defence that <i>deontic</i> here loosely means directive force fails, since Ch. 10 [42] keeps ability and deontic necessity apart. The modal-harmony point itself stands.",
+      "semantic_inference": true,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "768 [4]. 200 [56ii], [57ii]. 939 [42]. 940 [43]",
+      "proposed_wording": "<i>possibly</i> can be used in modal harmony with deontic <i>can</i> in requests for permission, and with ability <i>can</i> in requests for action",
+      "inference": "Is <i>could</i> in a request for action deontic?",
+      "family": "Modality, evaluation and speech acts",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§16, p. 768. “<i>possibly</i> can be used in modal harmony with deontic <i>can</i> in requests for permission or action”",
+          "example": "Ch. 3, p. 200 [56ii]. Ch. 10, pp. 939–940 [42i], [43].",
+          "establishes": "Two other chapters treat requests for action with <i>can</i> or <i>could</i> as ability questions.",
+          "locator": "Section A3, item A3f.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0163/"
+    },
+    {
+      "id": "CG-0164",
+      "topic": "∗ and # for presupposed information",
+      "assessment": "Textual mismatch",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "17",
+        "page": 772
+      },
+      "claim": "Evaluative adjuncts “do not, therefore, occur in interrogatives, imperatives, or pragmatically presupposed subordinate clauses”, with [5iii] ∗<i>Since Deidre fortunately recovered from her illness, she has lived in California</i>, where <i>since</i> is temporal.",
+      "evidence_summary": "§19, p. 778 explains a restriction on connective adjuncts in the same terms but marks it #: “The felicitous use of these connectives requires that the similarity be between propositions that are informationally in the foreground, not presupposed”, with [12ii] #<i>Kim has stopped smoking and Pat used to smoke too</i>. On p. 702 a #-marked example “certainly does not violate any rule of grammar”.",
+      "finding": "Low confidence. Both restrictions rest on the difference between asserted and presupposed information, and p. 772 explains its restriction in pragmatic terms, so by CGEL’s own conventions [5iii] fits # better than ∗. The defence that CGEL treats the evaluative restriction as grammaticalised, since it is stated alongside interrogative and imperative clause types, partly works.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "772 [5]. 778 [12]. 702",
+      "inference": "Is the restriction on evaluative adjuncts in presupposed clauses grammatical or pragmatic?",
+      "family": "Grammaticality marks",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§17, p. 772. “∗<i>Since Deidre fortunately recovered from her illness, she has lived in California.</i>”",
+          "example": "Page 778 [12ii] #<i>Kim has stopped smoking and Pat used to smoke too.</i>",
+          "establishes": "The chapter gives one information-status explanation two different marks.",
+          "locator": "Section A2, pp. 772/778 row.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0164/"
+    },
+    {
+      "id": "CG-0165",
+      "topic": "Modal adjuncts in questions",
+      "assessment": "Textual mismatch",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "18",
+        "page": 775
+      },
+      "claim": "“adjuncts relating to felicity conditions occur readily in questions, which modal adjuncts do not.”",
+      "evidence_summary": "§16, p. 771: “<i>Will he probably die?</i> seems quite reasonable, and <i>Won’t he probably die?</i> is fully acceptable”, and examples with modal adjuncts like [11] “can readily be questioned”. Page 770 [12iib] <i>Was he perhaps poisoned?</i> is unmarked, with <i>perhaps</i> “likely to be construed as outside the scope of the question”. Ch. 3, p. 208: “The subjectivity of <i>perhaps</i> is reflected in its occurrence in interrogatives outside the scope of the question”.",
+      "finding": "Medium confidence. The defence that p. 775 means modal adjuncts seldom fall inside a question’s scope (p. 770, “modality is more readily questioned by a predication than a modification construction”) partly works. But the felicity adjuncts of [5ii–iii] are outside the question’s scope too, and p. 771 still says such examples “can readily be questioned”.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "775. 774 [5ii–iii]. 770 [12]. 771. 208",
+      "inference": "Do modal adjuncts occur readily in questions?",
+      "family": "Modality, evaluation and speech acts",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§18, p. 775. “adjuncts relating to felicity conditions occur readily in questions, which modal adjuncts do not”",
+          "example": "Page 771, <i>Will he probably die?</i> Page 770 [12iib] <i>Was he perhaps poisoned?</i> Ch. 3, p. 208, <i>Has he perhaps missed his train?</i>",
+          "establishes": "§16 and Ch. 3 give modal adjuncts in questions as acceptable.",
+          "locator": "Section A4, item A4g.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0165/"
+    },
+    {
+      "id": "CG-0166",
+      "topic": "<i>Neither</i> as a coordinator",
+      "assessment": "Textual mismatch",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "19",
+        "page": 778
+      },
+      "claim": "“<i>Neither</i> and <i>nor</i> belong to both the class of coordinators and that of connective adverbs (again, see Ch. 15, §2.4, for discussion).”",
+      "evidence_summary": "Ch. 15, §2.4, p. 1308, the section cited: “The determinative <i>neither</i>, like <i>both</i> and <i>either</i>, functions as a determiner in NP structure or as a marker in correlative coordination”, and “In addition, it is an adverb functioning as connective adjunct”. Page 1307: <i>both</i> and <i>either</i> “are clearly distinct from the coordinators”. Ch. 5, p. 389: “<i>Neither</i> functions likewise as determiner (<i>neither parent</i>) or marker of an initial coordinate”. The inventory of coordinators on p. 1293 doesn’t include <i>neither</i>.",
+      "finding": "High confidence for <i>neither</i>, which Chs. 5 and 15 treat as a determinative and an adverb. The defence that p. 778’s “class of coordinators” loosely means items that mark coordination fails, since p. 1307 sets these determinatives apart from the coordinators. For <i>nor</i> the wording is partly right: pp. 1309–1310 make it a connective adverb for speakers who accept <i>and nor</i>, and a coordinator for many others.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "778. 1293. 1307. 1308 [46]–[47]. 1309–1310 [51]. 389",
+      "proposed_wording": "<i>Neither</i> is both a determinative and a connective adverb, and <i>nor</i> a coordinator and, for some speakers, also a connective adverb (again, see Ch. 15, §2.4, for discussion).",
+      "inference": "Is <i>neither</i> a coordinator?",
+      "family": "Prepositions, subordinators and connectives",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§19, p. 778. “<i>Neither</i> and <i>nor</i> belong to both the class of coordinators and that of connective adverbs”",
+          "example": "Ch. 15, p. 1308 [46] <i>neither player</i>, <i>neither Kim nor Pat</i>. Ch. 5, p. 389.",
+          "establishes": "The section cited puts <i>neither</i> in the determinative and adverb categories, not among the coordinators.",
+          "locator": "Section A3, item A3a.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0166/"
+    },
+    {
+      "id": "CG-0167",
+      "topic": "Leftward movement as a test for matrix adjuncts",
+      "assessment": "Textual mismatch",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "20.2",
+        "page": 783
+      },
+      "claim": "An adjunct after an auxiliary “can be moved to the left of the auxiliary if it belongs in the matrix, but not if it belongs in the subordinate clause”, as in [12ia] ∗<i>He deeply had offended her</i>. Then: “The best test is to see whether the adjunct can be moved to the left of the auxiliary: if so, this is strong evidence that it belongs in the matrix.”",
+      "evidence_summary": "Ch. 6, p. 575 cites this section (“As noted in Ch. 8, §20.2”) and gives [4iib] ?<i>They contentedly would watch TV for hours</i>, where <i>contentedly</i> has its “basic position” in the <i>watch</i> clause. Page 578 [11iib] is ?<i>Chris expertly had repaired it</i>, the frame of [12ia], and “it should not be assumed that such sentences will never be encountered”.",
+      "finding": "Medium confidence. By the p. 783 test, Ch. 6’s ?-marked examples would put the manner adjunct in the matrix, against Ch. 6’s own analysis. The defence that the starred adverbs in [12] aren’t manner adverbs (<i>deeply</i> is a degree adverb, and Ch. 6, p. 579 restricts degree adverbs in central position) saves the stars but not the rule, which is stated for adjuncts in general.",
+      "semantic_inference": false,
+      "condition": "Diagnostic only",
+      "internal_tension": true,
+      "related": "783 [12], [13]. 784. 575 [4ii]. 578 [11]",
+      "inference": "Does placement before the auxiliary show that an adjunct belongs in the matrix?",
+      "family": "Position of adjuncts",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§20.2, p. 783. “The best test is to see whether the adjunct can be moved to the left of the auxiliary: if so, this is strong evidence that it belongs in the matrix.”",
+          "example": "Ch. 6, p. 575 [4iib] ?<i>They contentedly would watch TV for hours.</i> Page 578 [11iib] ?<i>Chris expertly had repaired it.</i>",
+          "establishes": "Ch. 6 grades placement of a subordinate-clause manner adjunct before the auxiliary as marginal, not excluded.",
+          "locator": "Section A4, item A4h.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0167/"
+    },
+    {
+      "id": "CG-0168",
+      "topic": "Leftward incongruent adjuncts",
+      "assessment": "Open",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "20.2",
+        "page": 784
+      },
+      "claim": "Adjuncts placed to the left of their expected position, as in [14iib] <i>The party will long be remembered</i>, “are found with a very restricted range of adjuncts: compare, for example, <i>The supply will be drastically reduced</i> with ∗<i>The supply will drastically be reduced</i>.”",
+      "evidence_summary": "CGEL’s own prose puts a range of <i>·ly</i> adverbs before passive <i>be</i>: <i>some can readily be used</i> (p. 366), <i>bare NPs can optionally be used</i> (p. 410), <i>can usefully be subdivided</i> (p. 425), <i>would traditionally be treated</i> (p. 600), <i>has subsequently been changed</i> (p. 701). Ch. 6’s ?-marked manner adjuncts before an auxiliary (pp. 575, 578) point the same way.",
+      "finding": "Unresolved. These examples count against the claim only if the adverb belongs semantically with the participle, which is the reader’s analysis, not CGEL’s, and most have a reading with scope over the <i>be</i> clause. <i>Readily</i> and <i>optionally</i> are the likeliest cases, and a corpus search for manner adverbs in this slot (<i>will carefully be</i> + past participle) would decide.",
+      "semantic_inference": true,
+      "condition": "Distributional restriction",
+      "internal_tension": true,
+      "related": "783 [14ii]. 784. 366. 410. 425. 575 [4ii]. 578 [11]",
+      "inference": "Is leftward incongruent placement limited to a very restricted range of adjuncts?",
+      "family": "Position of adjuncts",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§20.2, p. 784. “found with a very restricted range of adjuncts”",
+          "example": "Page 366, <i>some can readily be used</i>. Page 410, <i>bare NPs can optionally be used</i>.",
+          "establishes": "A lead only. The book’s own usage is evidence against the claim only on the incongruent reading.",
+          "locator": "Section E, p. 784 row.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0168/"
+    },
+    {
+      "id": "CG-0169",
+      "topic": "Misprints in Chapter 8",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 8,
+        "section": "various",
+        "page": "665–774"
+      },
+      "claim": "Misprints not in the authors’ errata, each confirmed by a reader on the page images of the corrected printing.",
+      "evidence_summary": "p. 665 [1vi–viii] “[source: §4–5]” and the like, against [1v] “§§4–5”; p. 667 [3iib], an alternative question, “∗<i>Did he return fortunately or surprisingly.</i>”; p. 674 “In <i>he wrote it by hand</i>”, with the example in lower case; p. 679 [12ii] “<i>Enterococcus faicium</i>”; p. 686 “<i>in(to)the room</i>” and “<i>on(to)the platform</i>”, with no space after the bracket; p. 701 [31i] <i>I left home before my parents divorced</i> with no final stop; p. 701 “see Ch. 17, §10.2” with no final stop; p. 731 [26iv] with no final stop; p. 736 “a participial and verbless clause”, where <i>or</i> is meant; p. 737 “concessional adjuncts”, the book’s only use of <i>concessional</i>, where it elsewhere has <i>concessive</i>; p. 760 “<i>a personal TV</i>” for [70]’s “<i>a personal TV set</i>”; p. 774 “nervous break-down” for [3iv] <i>breakdown</i>.",
+      "finding": "Candidates for the authors’ errata page. <i>Faicium</i> is inside quotation marks in the example and may reproduce its source, so a [sic] may be the better fix there.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": false,
+      "related": "665, 667, 674, 679, 686, 701, 731, 736, 737, 760, 774",
+      "proposed_wording": "§§4–5; <i>Did he return fortunately or surprisingly?</i>; <i>He wrote it by hand</i>; <i>faecium</i> or [sic]; <i>in(to) the</i>, <i>on(to) the</i>; add full stops on p. 701 and to [26iv]; <i>participial or verbless</i>; <i>concessive</i>; <i>personal TV set</i>; <i>breakdown</i>",
+      "inference": "Which printed forms need correction?",
+      "family": "Complements and adjuncts",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "Chapter 8, various pages.",
+          "example": "Readers’ page-image checks for each item.",
+          "establishes": "A list for the authors.",
+          "locator": "Section C, wording slips and punctuation.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0169/"
+    },
+    {
+      "id": "CG-0170",
+      "topic": "Ch. 4’s reference to spatial location in Ch. 8",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 4,
+        "section": "5.2",
+        "page": 258
+      },
+      "claim": "“for further discussion of spatial location and extension of the roles to the dimension of time, see Ch. 8, §§5–6”.",
+      "evidence_summary": "Ch. 8, §4 (p. 679) is “Location and change of location in space”, §5 (p. 690) is “Spatial extent and scalar change”, and §6 (p. 694) is “Temporal location”.",
+      "finding": "Change §§5–6 to §§4–6. References into Ch. 8, §4 also point one place too high at Ch. 4 p. 305 (CG-0171) and Ch. 8 p. 665 [1ix]. That fits a late renumbering of §4, but doesn’t establish one.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "258. 679. 690. 694",
+      "proposed_wording": "see Ch. 8, §§4–6",
+      "inference": "Does the cited range include spatial location?",
+      "family": "Location, motion and extent",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§5.2, p. 258. “see Ch. 8, §§5–6”",
+          "example": "Ch. 8 section headings, pp. 679, 690, 694.",
+          "establishes": "Spatial location is Ch. 8, §4.",
+          "locator": "Section B, Ch. 4 p. 258 row.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0170/"
+    },
+    {
+      "id": "CG-0171",
+      "topic": "The <i>way</i> construction: Ch. 8, §4.4",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 4,
+        "section": "8.1.3",
+        "page": 305
+      },
+      "claim": "<i>Push</i>, <i>shove</i> and similar verbs “allow a <i>way</i> object before a goal complement”, and the example is followed by “(cf. Ch. 8, §4.4)”.",
+      "evidence_summary": "The <i>way</i> construction is in §4.3, p. 685, under its own heading: [23] <i>We made our way to the station</i>, <i>Jill had to elbow her way to the exit</i>. §4.4 (p. 689) is “Metaphorical extension of the locative categories to other domains”.",
+      "finding": "Change §4.4 to §4.3. Like Ch. 4 p. 258 (CG-0170) and Ch. 8 p. 665 [1ix], this reference into Ch. 8, §4 points one place too high.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "305. 685 [23]. 689",
+      "proposed_wording": "(cf. Ch. 8, §4.3)",
+      "inference": "Does the cited section treat the <i>way</i> construction?",
+      "family": "Location, motion and extent",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§8.1.3, p. 305. “(cf. Ch. 8, §4.4)”",
+          "example": "Ch. 8, p. 685 [23].",
+          "establishes": "The <i>way</i> construction is in Ch. 8, §4.3.",
+          "locator": "Section B, Ch. 4 p. 305 row.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0171/"
+    },
+    {
+      "id": "CG-0172",
+      "topic": "<i>Even though</i> and the reference to Ch. 8, §14.1.3",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 6,
+        "section": "7.3.2",
+        "page": 594
+      },
+      "claim": "After [64iv], where <i>even</i> modifies the pro-form <i>so</i>: “For discussion of <i>even though</i> and <i>even if</i>, see Ch. 8, §14.1.3.”",
+      "evidence_summary": "Ch. 8, §14.1.3 treats <i>even if</i> (p. 747). <i>Even though</i> is treated in §13.2, p. 736 ([8] <i>He knew they were there even though he couldn’t see them</i>), and §13.3, p. 737, which contrasts <i>I’m going out, even if it rains</i> with <i>I’m going out, even though it’s going to rain</i>.",
+      "finding": "Low confidence. The reference is right for <i>even if</i>, but <i>even though</i> is treated in Ch. 8, §13, which the reference should add.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "594 [64iv]. 736 [8]. 737. 746–748",
+      "proposed_wording": "For discussion of <i>even though</i> and <i>even if</i>, see Ch. 8, §§13.2–13.3 and 14.1.3.",
+      "inference": "Does Ch. 8, §14.1.3 discuss <i>even though</i>?",
+      "family": "Purpose, reason, concession and condition",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§7.3.2, p. 594. “For discussion of <i>even though</i> and <i>even if</i>, see Ch. 8, §14.1.3.”",
+          "example": "Ch. 8, p. 736 [8]. Page 737.",
+          "establishes": "<i>Even though</i> is discussed in Ch. 8, §13.",
+          "locator": "Section B, Ch. 6 p. 594 row.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0172/"
+    },
+    {
+      "id": "CG-0173",
+      "topic": "Ch. 19’s reference to Ch. 8, §7.1",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 19,
+        "section": "5.4",
+        "page": 1683
+      },
+      "claim": "“We have seen (Ch. 8, §7.1) that prepositions can often be used to indicate position in both space and time: <i>at the gate</i> or <i>at noon</i>”.",
+      "evidence_summary": "Ch. 8, §7.1 (p. 702) is “Similarities and differences between the temporal and spatial domains”, but it begins “When we turn to extent in time, duration”, and its parallels are starting-point, endpoint and overall extent. Temporal position is §6: p. 694 says “Temporal location is the analogue of spatial location”, and §6.3 (p. 696) lists <i>at</i>, <i>in</i> and <i>on</i> among the prepositions of temporal location.",
+      "finding": "Low confidence, checked in the text layer only. §7.1’s title partly fits the reference, but the point cited, position in space and time, is the subject of §6, and §6.3 has the prepositions.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "1683. 694. 696 [10]. 702",
+      "inference": "Does Ch. 8, §7.1 treat prepositions of temporal position?",
+      "family": "Time, aspect and duration",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§5.4, p. 1683. “We have seen (Ch. 8, §7.1) that prepositions can often be used to indicate position in both space and time”",
+          "example": "Ch. 8, p. 694; p. 696 [10]; p. 702.",
+          "establishes": "Temporal position is treated in Ch. 8, §6; §7.1 treats duration.",
+          "locator": "Section B, Ch. 19 p. 1683 row.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0173/"
+    },
+    {
+      "id": "CG-0174",
+      "topic": "Example [9] at the start of Ch. 7, §2.1",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 7,
+        "section": "2.1",
+        "page": 603
+      },
+      "claim": "The first display in §2, the list of properties that distinguish prepositions (“The most central prepositions can take NP complements”), is numbered [9]. That repeats the number of the definition of <i>preposition</i> that ends §1 on the same page.",
+      "evidence_summary": "The next display, on p. 604, is [2], so numbering restarts in §2 and the list should be [1].",
+      "finding": "Change [9] to [1]. Confirmed on the page image; not in the authors’ errata.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": false,
+      "related": "603 [9]. 604 [2]",
+      "proposed_wording": "[1]",
+      "inference": "Does the first display in §2 begin the section’s numbering?",
+      "family": "Prepositions, subordinators and connectives",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§2.1, p. 603.",
+          "example": "Page 604 [2].",
+          "establishes": "The display should be [1].",
+          "locator": "Section D, Ch. 7 p. 603.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0174/"
+    },
+    {
+      "id": "CG-0175",
+      "topic": "Ch. 14’s reference to exhaustive conditionals",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 14,
+        "section": "9",
+        "page": 1266
+      },
+      "claim": "Of [4iii] <i>Whether working or relaxing, he always has a scowl on his face</i>: “Example [iii] belongs to the exhaustive conditional construction discussed in Ch. 11, §5.3.5.”",
+      "evidence_summary": "Ch. 11, §5.3.5 (p. 985) is “Infinitival interrogatives”. §5.3.6, on the same page, is “Interrogatives as adjunct: the ungoverned exhaustive conditional construction”.",
+      "finding": "Change §5.3.5 to §5.3.6.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": true,
+      "related": "1265 [4iii]. 1266. 985",
+      "proposed_wording": "discussed in Ch. 11, §5.3.6",
+      "inference": "Does the cited section treat exhaustive conditionals?",
+      "family": "Purpose, reason, concession and condition",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "§9, p. 1266. “discussed in Ch. 11, §5.3.5”",
+          "example": "Ch. 11, p. 985, section headings.",
+          "establishes": "Exhaustive conditionals are in Ch. 11, §5.3.6.",
+          "locator": "Section D, Ch. 14 p. 1266.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0175/"
+    },
+    {
+      "id": "CG-0176",
+      "topic": "Missing brackets in Chapters 11 and 14",
+      "assessment": "Production error",
+      "reviewed": false,
+      "cgel": {
+        "chapter": 11,
+        "section": "various",
+        "page": "971–1205"
+      },
+      "claim": "Two misprints outside Chapter 8 not in the authors’ errata, confirmed on the page images.",
+      "evidence_summary": "Ch. 11, p. 971 [56iia] “<i>I’ll come along, [provided (that) I can leave early.</i>” has no closing bracket. Ch. 14, p. 1205 prints the display number as “[17” with no closing bracket.",
+      "finding": "Candidates for the authors’ errata page.",
+      "semantic_inference": false,
+      "condition": "None",
+      "internal_tension": false,
+      "related": "971, 1205",
+      "proposed_wording": "<i>I’ll come along, [provided (that) I can leave early].</i>; [17]",
+      "inference": "Which printed forms need correction?",
+      "family": "Prepositions, subordinators and connectives",
+      "evidence": [
+        {
+          "role": "Audit note",
+          "source": "Chapter 8 audit, 20 November 2026",
+          "url": null,
+          "passage": "Ch. 11, p. 971. Ch. 14, p. 1205.",
+          "example": "Page images of both pages.",
+          "establishes": "A list for the authors.",
+          "locator": "Section D.",
+          "note": "Local source (working note, unpublished draft or local copy); not online."
+        }
+      ],
+      "url": "https://brettreynolds.ca/cgel-claims/CG-0176/"
     }
   ]
 }

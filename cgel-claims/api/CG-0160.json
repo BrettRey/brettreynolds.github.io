@@ -1,0 +1,34 @@
+{
+  "id": "CG-0160",
+  "topic": "<i>Disappointed</i> paraphrased as <i>mistaken</i>",
+  "assessment": "Production error",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "14.4",
+    "page": 759
+  },
+  "claim": "[65ii] is <i>Anyone who thought they could take advantage of us would be disappointed</i>, which “corresponds to the remote conditional <i>If anyone thought they could take advantage of us they would be mistaken</i>.”",
+  "evidence_summary": "On the same page the open paraphrase of [65i] keeps the predicate: “<i>If anyone thinks they can take advantage of us, they will be disappointed</i>”.",
+  "finding": "Change <i>mistaken</i> to <i>disappointed</i>. The paraphrase is meant to differ from [65ii] only in form.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "759 [65]",
+  "proposed_wording": "<i>If anyone thought they could take advantage of us they would be disappointed</i>",
+  "inference": "Does the remote paraphrase keep the predicate of [65ii]?",
+  "family": "Purpose, reason, concession and condition",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§14.4, p. 759. “<i>If anyone thought they could take advantage of us they would be mistaken</i>”",
+      "example": "Page 759 [65ii].",
+      "establishes": "A slip in the paraphrase.",
+      "locator": "Section C, p. 759 row.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0160/"
+}

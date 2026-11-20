@@ -1,0 +1,33 @@
+{
+  "id": "CG-0132",
+  "topic": "Paraphrase of [3ib] changes the duration",
+  "assessment": "Production error",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "7.2",
+    "page": 703
+  },
+  "claim": "Under the remark “There are in many cases approximate paraphrases in which duration is expressed by an NP in object function”, [3ib] <i>I reached the summit in two hours</i> is paired with [4ib] <i>It took me an hour to reach the summit</i>.",
+  "evidence_summary": "The other three pairs keep their measure: <i>six years</i> ([3ia], [4ia]), <i>all year</i> ([3iia], [4iia]) and <i>two days</i> ([3iib], [4iib]). Ch. 3, p. 122, pairs [18iia] <i>It took him an hour to reach the summit / die</i> with [18iiia] <i>He reached the summit in an hour</i>.",
+  "finding": "Low to medium confidence: “approximate” may excuse a loose paraphrase. Align the durations; the text doesn’t show which number was intended.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "122 [18ii]–[18iii]. 703 [3]–[4]",
+  "inference": "Does [4ib] paraphrase [3ib]?",
+  "family": "Time, aspect and duration",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§7.2, p. 703 [3ib], [4ib]. “There are in many cases approximate paraphrases”.",
+      "example": "Page 703 [3]–[4]; Ch. 3, p. 122 [18].",
+      "establishes": "The paraphrase changes two hours to one.",
+      "locator": "Section C, p. 703.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0132/"
+}

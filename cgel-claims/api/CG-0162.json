@@ -1,0 +1,34 @@
+{
+  "id": "CG-0162",
+  "topic": "Polar and alternative questions: Ch. 10, §§4.3–5",
+  "assessment": "Production error",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "14.6.2",
+    "page": 762
+  },
+  "claim": "Closed interrogatives “characteristically express questions that can be distinguished as polar or alternative on the basis of how they define the set of answers (cf. Ch. 10, §§4.3–5).”",
+  "evidence_summary": "Ch. 10, §4.3 (p. 868) is “Polar questions” and §4.4 (p. 868) “Alternative questions”. §4.5 (p. 872) is “Variable questions”, which isn’t about closed interrogatives. Ch. 11, p. 989 makes the same point with “see Ch. 10, §§4.3–4”.",
+  "finding": "Low confidence. The reference runs one section too far: change §§4.3–5 to §§4.3–4, as in Ch. 11.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "762 [75]. 868. 872. 989",
+  "proposed_wording": "(cf. Ch. 10, §§4.3–4)",
+  "inference": "Does Ch. 10, §4.5 bear on polar and alternative questions?",
+  "family": "Purpose, reason, concession and condition",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§14.6.2, p. 762. “(cf. Ch. 10, §§4.3–5)”",
+      "example": "Ch. 11, p. 989, “see Ch. 10, §§4.3–4”.",
+      "establishes": "The other chapter that cites the same distinction stops at §4.4.",
+      "locator": "Section B, p. 762 row.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0162/"
+}

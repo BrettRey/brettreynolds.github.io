@@ -1,0 +1,33 @@
+{
+  "id": "CG-0139",
+  "topic": "? and # for paucal adjuncts with high-degree verbs",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "11",
+    "page": 723
+  },
+  "claim": "“Paucal adjuncts tend not to occur with verbs which inherently involve a high degree”, illustrated with <i>He liked</i> / ?<i>adored her a little</i> and <i>It had slightly damaged</i> / #<i>ruined her prospects</i>.",
+  "evidence_summary": "One reason covers both examples, but they carry different marks. The notational conventions (p. xii) use ? for questionable grammaticality and # for semantically or pragmatically anomalous.",
+  "finding": "Low to medium confidence: one stated restriction, two status categories. The defence that <i>ruin</i> is lexically maximal, so that <i>slightly ruined</i> is a contradiction while <i>adored her a little</i> is a milder clash, partly works, but the text doesn’t say the two cases differ in kind.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "xii. 723 [14]–[15]",
+  "inference": "Does one degree restriction call for one status mark?",
+  "family": "Grammaticality marks",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§11, p. 723. “Paucal adjuncts tend not to occur with verbs which inherently involve a high degree”",
+      "example": "<i>He liked</i> / ?<i>adored her a little</i>; <i>It had slightly damaged</i> / #<i>ruined her prospects</i>.",
+      "establishes": "Two status marks for one stated restriction.",
+      "locator": "Section A2, p. 723 row.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0139/"
+}

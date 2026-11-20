@@ -1,0 +1,33 @@
+{
+  "id": "CG-0136",
+  "topic": "# and ∗ for <i>already</i> over a negative",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "8",
+    "page": "711–712"
+  },
+  "claim": "Page 711 marks [4ib] #<i>She already isn’t here</i> as anomalous: “In the primary sense we are concerned with here, <i>already</i> can’t have scope over a negative, as seen in [ib].”",
+  "evidence_summary": "Page 712 [8iib] stars ∗<i>He has already not read the report</i> and explains it by the same constraint: “But [iib] is again excluded: as noted above, <i>already</i> in its primary sense does not take scope over a negative.” The notational conventions (p. xii) use ∗ for ungrammatical and # for semantically or pragmatically anomalous, and p. 702 says a #-marked example “certainly does not violate any rule of grammar”.",
+  "finding": "One constraint gets # on p. 711 and ∗ on p. 712, and the p. 712 prose presents it as the point already made. Either one mark or the explanation needs to change.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "xii. 702. 711 [4]. 712 [8]",
+  "inference": "Is <i>already</i> with scope over a negative ungrammatical or anomalous?",
+  "family": "Grammaticality marks",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§8, p. 711 [4ib]. “In the primary sense we are concerned with here, <i>already</i> can’t have scope over a negative”",
+      "example": "Page 712 [8iib], ∗<i>He has already not read the report</i>, explained “as noted above”.",
+      "establishes": "The two pages give one constraint two status marks.",
+      "locator": "Section A2, pp. 711–712 row.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0136/"
+}

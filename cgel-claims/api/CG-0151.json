@@ -1,0 +1,34 @@
+{
+  "id": "CG-0151",
+  "topic": "<i>Even if</i> with true P: the reference to §14.1.1",
+  "assessment": "Production error",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "14.1.3",
+    "page": 748
+  },
+  "claim": "“As noted in §14.1.1, <i>even if</i> P may be used in a context where the truth of P is not in question”, with <i>Even if you are my elder brother, you haven’t the right to tell me what to do</i>.",
+  "evidence_summary": "The point is made in §13.3, p. 737: “<i>Even if</i> may be used, however, in a context where the complement of <i>if</i> is known to be true”, with [15i] <i>You don’t have to defend everything Ed does, even if he is your brother</i>. In §14.1.1 (pp. 739–743) <i>even if</i> occurs only in [8i] (p. 741), on cancelling the only-if implicature. Page 749 repeats the pointer for “those cases considered in §14.1.1 where the truth of P is contextually given”, which then include the elder-brother example as [38ii] (p. 750).",
+  "finding": "Medium confidence: the reference should be to §13.3. §14.1.1 does discuss conditionals whose P is established or self-evident (p. 742 [10]), and the p. 749 pointer is right for [38i] and [38iii], so the authors may have meant that general point. But the specific point about <i>even if</i> and its concessive reading is made in §13.3.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "737 [15i]. 741 [8i]. 742 [10]. 748. 749. 750 [38]",
+  "proposed_wording": "As noted in §13.3",
+  "inference": "Does §14.1.1 note that <i>even if</i> can be used when P is known to be true?",
+  "family": "Purpose, reason, concession and condition",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§14.1.3, p. 748. “As noted in §14.1.1, <i>even if</i> P may be used in a context where the truth of P is not in question”",
+      "example": "Page 737 [15i].",
+      "establishes": "The point is made in §13.3.",
+      "locator": "Section B, p. 748 row.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0151/"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "CG-0129",
+  "topic": "<i>Extended the grounds by 5 acres</i> under spatial extent",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "5.2",
+    "page": 691
+  },
+  "claim": "[5vi] <i>They extended the grounds by 5 acres / to a total of 55 acres</i> is among the examples that “illustrate various dimensions of spatial extent. The differences are purely lexical, the range of grammatical constructions being the same throughout.”",
+  "evidence_summary": "Page 692: “the preposition for scalar change is <i>by</i>, while that for spatial movement is <i>for</i>”. Spatial measures with <i>by</i> (<i>They have widened the road by two metres</i>) “clearly belong in the scalar change construction”. The overall extent phrases within [5] differ too: <i>(for) half a mile</i> in [iv], <i>by 5 acres</i> in [vi].",
+  "finding": "Medium-high confidence. By p. 692’s criterion, <i>extended the grounds by 5 acres</i> is scalar change, like <i>widened the road by two metres</i>, and its <i>by</i> phrase contradicts “the same throughout”. Move [5vi] to the scalar change examples in [6], or qualify the remark.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "691 [5], [6]. 692 [7]",
+  "inference": "Does [5vi] belong to spatial extent or to scalar change?",
+  "family": "Location, motion and extent",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§5.2, p. 691 [5vi]. “the range of grammatical constructions being the same throughout”.",
+      "example": "Page 692, <i>They have widened the road by two metres</i>.",
+      "establishes": "The chapter’s own criterion puts [5vi] in scalar change.",
+      "locator": "Section A4, item A4c.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0129/"
+}

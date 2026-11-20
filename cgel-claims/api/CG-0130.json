@@ -1,0 +1,33 @@
+{
+  "id": "CG-0130",
+  "topic": "Status of future <i>will</i> after <i>before</i>",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "6.3",
+    "page": 697
+  },
+  "claim": "When a clause after a temporal preposition such as <i>before</i> refers to future time, “we usually have a non-modal present tense (compare #<i>I want to leave before it will get dark</i>)”.",
+  "evidence_summary": "Ch. 3, p. 191: “<i>When</i> adjuncts and the complements of temporal prepositions such as <i>after</i>, <i>before</i>, <i>as soon as</i>, etc., take the simple present, not the <i>will</i> construction, when the reference is to future time”, as in [34i] <i>I’ll buy one when the price comes / ∗will come down</i>, and “the grammar requires the unmodalised forms”. CGEL uses ∗ for ungrammatical and # for semantic or pragmatic anomaly (p. xii). On p. 702, Ch. 8 says of a #-marked example that it “certainly does not violate any rule of grammar”.",
+  "finding": "The two chapters disagree on the hedge (“usually” against a requirement) and on the kind of deviance (# against ∗) for one construction. Ch. 3 states a rule of grammar; Ch. 8 a usual pattern whose violation is semantic or pragmatic. One of them needs to change.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "191 [34]. 697 [13ii]. 702",
+  "inference": "Is <i>will</i> after temporal <i>before</i> ungrammatical or anomalous?",
+  "family": "Grammaticality marks",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§6.3, p. 697. “we usually have a non-modal present tense (compare #<i>I want to leave before it will get dark</i>)”.",
+      "example": "Ch. 3, p. 191 [34], with ∗<i>will come down</i> and ∗<i>will stop raining</i>.",
+      "establishes": "The same constraint gets # and “usually” in Ch. 8 (p. 697), ∗ and “requires” in Ch. 3 (p. 191).",
+      "locator": "Section A2, p. 697.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0130/"
+}

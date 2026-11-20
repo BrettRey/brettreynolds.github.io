@@ -1,0 +1,34 @@
+{
+  "id": "CG-0124",
+  "topic": "Cross-reference for the body-part alternation",
+  "assessment": "Production error",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "4.2",
+    "page": 681
+  },
+  "claim": "Of the contact-with-body-part examples in [9] (<i>She poked him in the ribs</i> / <i>She poked his ribs</i>): “see Ch. 4, §7.4, for further discussion of the alternation in [9]”.",
+  "evidence_summary": "Ch. 4, §7, “Light verbs”, has only §§7.1–7.2 (contents, p. 214). The alternation is treated in §8.4, “Contrasts between separate complements and a single combined complement” (p. 320): [78i] <i>She kissed him on the cheek</i> / <i>She kissed his cheek</i>, with <i>poke</i> and <i>hit</i> in the verb list [79i] (p. 321).",
+  "finding": "Change §7.4 to §8.4. Ch. 4 has no §7.4. CG-0068 concerns the passive pair [9iii].",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "214. 320 [78]. 321 [79i]. 681 [9]",
+  "proposed_wording": "see Ch. 4, §8.4",
+  "inference": "Does the cited section exist?",
+  "family": "Location, motion and extent",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§4.2, p. 681. “see Ch. 4, §7.4, for further discussion of the alternation in [9]”.",
+      "example": "Ch. 4 contents (p. 214); p. 320 [78].",
+      "establishes": "The intended section is §8.4.",
+      "locator": "Section B, p. 681.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0124/"
+}

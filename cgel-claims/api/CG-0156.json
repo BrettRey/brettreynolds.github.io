@@ -1,0 +1,34 @@
+{
+  "id": "CG-0156",
+  "topic": "Irrealis protasis and the open reading",
+  "assessment": "Qualification",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "14.2.2",
+    "page": 754
+  },
+  "claim": "Of [49] <i>If we weren’t home by ten o’clock the landlady would lock us out</i>, CGEL says that “an irrealis protasis such as <i>if I weren’t home by ten o’clock</i> permits only the remote reading.”",
+  "evidence_summary": "Ch. 3, p. 87 [33iii] is %<i>If he were surprised, he didn’t show it</i> [past time]: “Example [iii] is a conditional, but of the open type, not the remote”. The same page restricts the use to some speakers (“For some speakers, irrealis <i>were</i> is not restricted to the modal remoteness constructions”) and says that <i>was</i> is “for most speakers probably the only possibility”.",
+  "finding": "Medium confidence. For speakers who accept [33iii], an irrealis protasis allows the open past-time reading that p. 754 excludes. The defence that p. 754 describes the majority grammar is true, but the unhedged <i>only</i> needs a hedge such as Ch. 3’s <i>for most speakers</i>.",
+  "semantic_inference": true,
+  "condition": "Sufficient",
+  "internal_tension": true,
+  "related": "754 [49]. 87 [33iii]",
+  "proposed_wording": "for most speakers an irrealis protasis such as <i>if I weren’t home by ten o’clock</i> permits only the remote reading (cf. Ch. 3, §1.7)",
+  "inference": "Does an irrealis protasis exclude the open reading?",
+  "family": "Purpose, reason, concession and condition",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§14.2.2, p. 754. “an irrealis protasis such as <i>if I weren’t home by ten o’clock</i> permits only the remote reading”",
+      "example": "Ch. 3, p. 87 [33iii] %<i>If he were surprised, he didn’t show it.</i> The % was confirmed on the page image.",
+      "establishes": "The book itself records an open conditional with an irrealis protasis, for some speakers.",
+      "locator": "Section A4, item A4f.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0156/"
+}

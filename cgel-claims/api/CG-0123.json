@@ -1,0 +1,34 @@
+{
+  "id": "CG-0123",
+  "topic": "<i>David</i> for <i>Donald</i>",
+  "assessment": "Production error",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "3",
+    "page": 679
+  },
+  "claim": "“The two acts are both explicitly expressed in structures like <i>Dick wisely got himself taught the tricks of the trade by David</i> or <i>Ed reluctantly allowed his stepfather to send him to boarding-school</i>.”",
+  "evidence_summary": "[10iii] (p. 678) is <i>Dick was wisely taught the tricks of the trade by Donald.</i> Footnote 3 (p. 678) and the preceding sentence on p. 679 (“Donald’s teaching him the tricks of the trade”) keep <i>Donald</i>. The companion paraphrase keeps the participants of [10iv], <i>Ed</i> and <i>his stepfather</i>.",
+  "finding": "Change <i>David</i> to <i>Donald</i>.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "678 [10iii], n. 3. 679",
+  "proposed_wording": "<i>Dick wisely got himself taught the tricks of the trade by Donald</i>",
+  "inference": "Does the paraphrase keep the example’s participants?",
+  "family": "Complements and adjuncts",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§3, p. 679. “<i>Dick wisely got himself taught the tricks of the trade by David</i>”.",
+      "example": "Page 678 [10iii] and n. 3.",
+      "establishes": "A slip in the paraphrase.",
+      "locator": "Section C, p. 679.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0123/"
+}

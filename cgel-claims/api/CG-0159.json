@@ -1,0 +1,33 @@
+{
+  "id": "CG-0159",
+  "topic": "<i>Supposing</i> as verb and preposition",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "14.4",
+    "page": 758
+  },
+  "claim": "Of the items in [61] that can replace <i>if</i>: “<i>Assuming</i> and <i>supposing</i> are verbs heading gerund-participial clauses.” The example is [62v], <i>supposing (that) one were to waste money in that way</i>.",
+  "evidence_summary": "Ch. 11, p. 971 [58] lists <i>supposing</i> among the “Prepositions governing content clauses of this kind”, the expandable type that allows <i>that</i>, which is the construction of [62v]. Ch. 7, p. 611’s list of deverbal prepositions taking content clause complements (“<i>given</i>, <i>granted</i>, <i>provided</i>, <i>providing</i>, <i>seeing</i>”) omits <i>supposing</i> and <i>considering</i>.",
+  "finding": "Medium-high confidence, for <i>supposing</i> only: Ch. 11 doesn’t list <i>assuming</i>. Ch. 7’s treatment of subjectless verbal adjuncts whose understood subject is the speaker ([23], p. 611) could support the verb analysis of <i>assuming</i>, but it doesn’t reconcile Ch. 8 with Ch. 11’s listing of <i>supposing</i>. Ch. 7’s list also omits two items that Ch. 11 lists.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "758 [61ii], [62iv–v]. 971 [58]. 611 [23]",
+  "inference": "Is <i>supposing</i> a verb or a preposition when it takes a content clause?",
+  "family": "Prepositions, subordinators and connectives",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§14.4, p. 758. “<i>Assuming</i> and <i>supposing</i> are verbs heading gerund-participial clauses.”",
+      "example": "Ch. 11, p. 971 [58]. Ch. 7, p. 611.",
+      "establishes": "Chapters 8 and 11 assign <i>supposing</i> to different categories in the same construction.",
+      "locator": "Section A3, item A3b.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0159/"
+}

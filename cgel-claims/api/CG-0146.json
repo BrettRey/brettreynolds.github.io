@@ -1,0 +1,33 @@
+{
+  "id": "CG-0146",
+  "topic": "Concessive <i>for</i> and <i>for all that</i>",
+  "assessment": "Qualification",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "13.2",
+    "page": 736
+  },
+  "claim": "“In its concessive use, <i>for</i> takes an NP complement beginning with <i>all</i>”, as in [9iv] <i>For all our good intentions, the meeting soon broke up in acrimony</i>.",
+  "evidence_summary": "Ch. 7 p. 624 [18i] has a content clause instead: <i>For all that I’m not guilty, I’ll still be a suspect in the eyes of history</i>. There “the content clause is clearly licensed by <i>for all</i>”, which is analysed as head, like <i>for fear</i> and <i>on condition</i>.",
+  "finding": "Medium confidence: §13.2 allows concessive <i>for</i> only an NP complement and makes <i>for</i> the head, while Ch. 7 makes <i>for all</i> the head of a content clause. These are different constructions, so neither statement is strictly false, but §13.2 needs widening and a cross-reference to Ch. 7, §3.2.",
+  "semantic_inference": false,
+  "condition": "Distributional restriction",
+  "internal_tension": true,
+  "related": "624 [18i]. 736 [9iv]",
+  "inference": "Does concessive <i>for</i> take only an NP complement beginning with <i>all</i>?",
+  "family": "Purpose, reason, concession and condition",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§13.2, p. 736. “In its concessive use, <i>for</i> takes an NP complement beginning with <i>all</i>.”",
+      "example": "Ch. 7 p. 624 [18i].",
+      "establishes": "A concessive use with a clausal complement, analysed with a different head.",
+      "locator": "Section A4, item A4n.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0146/"
+}

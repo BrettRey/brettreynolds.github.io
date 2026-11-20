@@ -1,0 +1,33 @@
+{
+  "id": "CG-0145",
+  "topic": "Fronted purpose <i>so</i> PPs",
+  "assessment": "Production error",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "12.4",
+    "page": 733
+  },
+  "claim": "“We have noted that purpose <i>so</i> PPs are occasionally fronted, but this is not possible with result.”",
+  "evidence_summary": "No earlier passage says so. Searches of pp. 665–733 for fronting and preposing terms find fronting notes on pp. 673, 676, 713, 717, 731 and 733, none about <i>so</i>, and the fronted purpose PPs in §12 are headed by <i>in order</i> ([11], p. 728; [17ii], p. 730). Fronted purpose <i>so</i> appears only later: Ch. 11 p. 969 [50ii], <i>So that his customers should not soil their hands, Brecht issued white gloves</i>, where “this time <i>so</i> + content clause can be preposed”; and Ch. 15 p. 1322, “purposive <i>So that he would miss the rush-hour traffic he left early</i>”.",
+  "finding": "Medium confidence: the back-reference has nothing to point to in the chapter. It should point forward to Ch. 11, or the point should be made here. This is separate from the authors’ erratum for the Ch. 15 reference in [35v] on the same page.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "728 [11]. 730 [17ii]. 733 [35]. 969 [50ii]. 1322",
+  "inference": "Has the book already noted that purpose <i>so</i> PPs can be fronted?",
+  "family": "Purpose, reason, concession and condition",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§12.4, p. 733. “We have noted that purpose <i>so</i> PPs are occasionally fronted”",
+      "example": "Ch. 11 p. 969 [50ii]; Ch. 15 p. 1322.",
+      "establishes": "The point is made only later in the book.",
+      "locator": "Section B, p. 733 row.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0145/"
+}

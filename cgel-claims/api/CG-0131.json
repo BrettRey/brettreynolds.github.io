@@ -1,0 +1,34 @@
+{
+  "id": "CG-0131",
+  "topic": "Present perfect with a referential past time adjunct",
+  "assessment": "Qualification",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "6.4",
+    "page": 699
+  },
+  "claim": "The present perfect “is incompatible with referential temporal location in the past (see Ch. 3, §5.3): ∗<i>I haven’t been to a party last Sunday</i>.” The same page counts <i>yesterday</i> among the expressions that “always refer to a particular time”.",
+  "evidence_summary": "The cited section states a default. Ch. 3, p. 143: “Except under conditions outlined below, time adjuncts like <i>last week</i>, <i>two minutes ago</i>, etc., which refer to times wholly before now, are incompatible with the present perfect”. Page 144 allows a past time adjunct “under restrictive conditions”, with the unmarked [13iia] <i>We’ve already discussed it yesterday</i>, and p. 145 says <i>already</i> “cancels the normally excluding effect of <i>yesterday</i>”.",
+  "finding": "Chapter 8 states as categorical what its source states as a default, and the source’s exception uses <i>yesterday</i>, which Chapter 8 classes as always referential. The pointer to Ch. 3 carries the exception for a reader who follows it, but the sentence as printed is false by the book’s own example.",
+  "semantic_inference": false,
+  "condition": "Distributional restriction",
+  "internal_tension": true,
+  "related": "143 [10]. 144 [13ii]. 145. 699",
+  "proposed_wording": "This compound tense is normally incompatible with referential temporal location in the past",
+  "inference": "Is the present perfect incompatible with a referential past time adjunct?",
+  "family": "Time, aspect and duration",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§6.4, p. 699. “This compound tense is incompatible with referential temporal location in the past”.",
+      "example": "Ch. 3, p. 144 [13iia] <i>We’ve already discussed it yesterday</i>, unmarked on the page image.",
+      "establishes": "The cited section admits the combination under restrictive conditions.",
+      "locator": "Section A4, item A4a.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0131/"
+}

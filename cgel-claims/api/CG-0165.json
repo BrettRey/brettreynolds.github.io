@@ -1,0 +1,33 @@
+{
+  "id": "CG-0165",
+  "topic": "Modal adjuncts in questions",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "18",
+    "page": 775
+  },
+  "claim": "“adjuncts relating to felicity conditions occur readily in questions, which modal adjuncts do not.”",
+  "evidence_summary": "§16, p. 771: “<i>Will he probably die?</i> seems quite reasonable, and <i>Won’t he probably die?</i> is fully acceptable”, and examples with modal adjuncts like [11] “can readily be questioned”. Page 770 [12iib] <i>Was he perhaps poisoned?</i> is unmarked, with <i>perhaps</i> “likely to be construed as outside the scope of the question”. Ch. 3, p. 208: “The subjectivity of <i>perhaps</i> is reflected in its occurrence in interrogatives outside the scope of the question”.",
+  "finding": "Medium confidence. The defence that p. 775 means modal adjuncts seldom fall inside a question’s scope (p. 770, “modality is more readily questioned by a predication than a modification construction”) partly works. But the felicity adjuncts of [5ii–iii] are outside the question’s scope too, and p. 771 still says such examples “can readily be questioned”.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "775. 774 [5ii–iii]. 770 [12]. 771. 208",
+  "inference": "Do modal adjuncts occur readily in questions?",
+  "family": "Modality, evaluation and speech acts",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§18, p. 775. “adjuncts relating to felicity conditions occur readily in questions, which modal adjuncts do not”",
+      "example": "Page 771, <i>Will he probably die?</i> Page 770 [12iib] <i>Was he perhaps poisoned?</i> Ch. 3, p. 208, <i>Has he perhaps missed his train?</i>",
+      "establishes": "§16 and Ch. 3 give modal adjuncts in questions as acceptable.",
+      "locator": "Section A4, item A4g.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0165/"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "CG-0157",
+  "topic": "Status of <i>yet</i> in a positive protasis",
+  "assessment": "Textual mismatch",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 8,
+    "section": "14.3",
+    "page": 756
+  },
+  "claim": "Explaining why <i>unless</i> can’t replace <i>if not</i> in [55iii] <i>I’m cancelling the order if the goods aren’t ready yet</i>, CGEL says that <i>yet</i> “is not compatible with the other component” of an <i>unless</i> conditional, and stars the positive version: “∗<i>If the goods are ready yet I’m not cancelling the order</i>.”",
+  "evidence_summary": "Page 745 accepts <i>yet</i> in a positive <i>if</i> protasis without a mark: [23ib] <i>I’ll be surprised if they are here yet</i>. It marks comparable clashes of orientation with ?, not ∗: [24ii] ?<i>If you were at all worried about the project, why didn’t you let me know?</i>, where <i>at all</i> “is here infelicitous”, and [24iii] ?<i>If you improve your performance at all, we give you a bonus</i>. Ch. 9, p. 838: “A clause embedded as complement of <i>if</i> generally allows NPIs”.",
+  "finding": "Medium-low confidence. Either mark the p. 756 example ? or say why <i>yet</i> is worse here than <i>at all</i> in [24]. The defence that <i>yet</i> is a stronger negative polarity item than <i>at all</i> (Ch. 9, p. 823, “Varying strength of the restrictions”) partly works.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "756 [55iii]. 745 [23ib], [24]. 823. 838",
+  "inference": "Is <i>yet</i> in a positive protasis ungrammatical or infelicitous?",
+  "family": "Grammaticality marks",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§14.3, p. 756. “∗<i>If the goods are ready yet I’m not cancelling the order</i>”",
+      "example": "Page 745 [23ib] and [24ii–iii].",
+      "establishes": "The chapter marks comparable polarity clashes in conditional protases with ? or with no mark.",
+      "locator": "Section A2, p. 756 row.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0157/"
+}

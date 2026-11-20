@@ -1,0 +1,34 @@
+{
+  "id": "CG-0171",
+  "topic": "The <i>way</i> construction: Ch. 8, §4.4",
+  "assessment": "Production error",
+  "reviewed": false,
+  "cgel": {
+    "chapter": 4,
+    "section": "8.1.3",
+    "page": 305
+  },
+  "claim": "<i>Push</i>, <i>shove</i> and similar verbs “allow a <i>way</i> object before a goal complement”, and the example is followed by “(cf. Ch. 8, §4.4)”.",
+  "evidence_summary": "The <i>way</i> construction is in §4.3, p. 685, under its own heading: [23] <i>We made our way to the station</i>, <i>Jill had to elbow her way to the exit</i>. §4.4 (p. 689) is “Metaphorical extension of the locative categories to other domains”.",
+  "finding": "Change §4.4 to §4.3. Like Ch. 4 p. 258 (CG-0170) and Ch. 8 p. 665 [1ix], this reference into Ch. 8, §4 points one place too high.",
+  "semantic_inference": false,
+  "condition": "None",
+  "internal_tension": true,
+  "related": "305. 685 [23]. 689",
+  "proposed_wording": "(cf. Ch. 8, §4.3)",
+  "inference": "Does the cited section treat the <i>way</i> construction?",
+  "family": "Location, motion and extent",
+  "evidence": [
+    {
+      "role": "Audit note",
+      "source": "Chapter 8 audit, 20 November 2026",
+      "url": null,
+      "passage": "§8.1.3, p. 305. “(cf. Ch. 8, §4.4)”",
+      "example": "Ch. 8, p. 685 [23].",
+      "establishes": "The <i>way</i> construction is in Ch. 8, §4.3.",
+      "locator": "Section B, Ch. 4 p. 305 row.",
+      "note": "Local source (working note, unpublished draft or local copy); not online."
+    }
+  ],
+  "url": "https://brettreynolds.ca/cgel-claims/CG-0171/"
+}

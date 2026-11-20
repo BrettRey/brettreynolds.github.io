@@ -8,7 +8,7 @@
     "page": 336
   },
   "claim": "The chapter distinguishes heterogeneous aggregates from homogeneous substances.",
-  "evidence_summary": "People can compare quantities of furniture by counting individual items, although <i>furniture</i> has mass syntax.",
+  "evidence_summary": "People can compare quantities of furniture by counting individual items, although <i>furniture</i> has non-count syntax.",
   "finding": "Units used for judgment need not be count nouns. This limits the converse of the atomicity argument.",
   "semantic_inference": true,
   "condition": "None",
@@ -22,17 +22,17 @@
       "source": "Susan Rothstein (2010). Counting and the mass/count distinction. Journal of Semantics 27(3), 343–397.",
       "url": "https://doi.org/10.1093/jos/ffq007",
       "passage": "§3.1, p. 336. The chapter distinguishes heterogeneous aggregates from homogeneous substances.",
-      "example": "The discussion asks what counts as one fence in a context and compares other count nouns with same-kind parts.",
-      "establishes": "Published precedent for context-sensitive counting units. <i>Interval</i> is the catalogue’s extension of the argument.",
-      "locator": "§3.3, pp. 354–356."
+      "example": "Rothstein contrasts <i>furniture</i>, which denotes individual units and is “naturally atomic and nonhomogeneous” but non-count, with <i>fence</i>, which is count but homogeneous and not naturally atomic.",
+      "establishes": "Published precedent for a non-count noun whose denotation consists of individual units, the converse limit recorded here. It agrees with CGEL’s separation of heterogeneous aggregates from homogeneous substances.",
+      "locator": "§3.3, p. 356."
     },
     {
       "role": "Research source",
       "source": "David Barner & Jesse Snedeker (2005). Quantity judgments and individuation: Evidence that mass nouns count. Cognition 97(1), 41–66.",
       "url": "https://doi.org/10.1016/j.cognition.2004.06.009",
       "passage": "§3.1, p. 336. The chapter distinguishes heterogeneous aggregates from homogeneous substances.",
-      "example": "Participants could judge the quantity of an object-mass noun such as <i>furniture</i> by the number of objects, even when the competing set contained larger objects.",
-      "establishes": "Number-based judgments can accompany mass syntax. This bears directly on the converse of the proposed count-noun condition.",
+      "example": "Participants could judge the quantity of a non-count noun for discrete objects, such as <i>furniture</i>, by the number of objects, even when the competing set contained larger objects.",
+      "establishes": "Number-based judgments can accompany non-count syntax. This bears directly on the converse of the proposed count-noun condition.",
       "locator": "Experiments comparing quantity judgments for object-mass, count and substance nouns."
     },
     {
@@ -50,7 +50,7 @@
       "source": "Chapter 5 systematic audit",
       "url": null,
       "passage": "§3.1, p. 336. The chapter distinguishes heterogeneous aggregates from homogeneous substances.",
-      "example": "People can compare quantities of furniture by counting individual items, although <i>furniture</i> has mass syntax.",
+      "example": "People can compare quantities of furniture by counting individual items, although <i>furniture</i> has non-count syntax.",
       "establishes": "Units used for judgment need not be count nouns. This limits the converse of the atomicity argument.",
       "locator": "Counting an interval",
       "note": "Local source (working note, unpublished draft or local copy); not online."

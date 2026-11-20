@@ -4,7 +4,7 @@
   "url": "https://brettreynolds.ca/cgel-claims/",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "cb9619e",
+    "commit": "7735e99",
     "dirty_data": false
   },
   "reference": "Huddleston, Rodney & Geoffrey K. Pullum (2002), The Cambridge Grammar of the English Language. Cambridge: CUP (corrected printing used for the audit)",
@@ -223,8 +223,8 @@
           "source": "David Barner & Jesse Snedeker (2005). Quantity judgments and individuation: Evidence that mass nouns count. Cognition 97(1), 41–66.",
           "url": "https://doi.org/10.1016/j.cognition.2004.06.009",
           "passage": "§3.1, p. 335, paragraph after [5]. Having defined a count use through individuals and illustrated <i>boy</i>, CGEL says they “cannot be divided into smaller parts of the same kind as the whole”.",
-          "example": "Participants could judge the quantity of an object-mass noun such as <i>furniture</i> by the number of objects, even when the competing set contained larger objects.",
-          "establishes": "Number-based judgments can accompany mass syntax. This bears directly on the converse of the proposed count-noun condition.",
+          "example": "Participants could judge the quantity of a non-count noun for discrete objects, such as <i>furniture</i>, by the number of objects, even when the competing set contained larger objects.",
+          "establishes": "Number-based judgments can accompany non-count syntax. This bears directly on the converse of the proposed count-noun condition.",
           "locator": "Experiments comparing quantity judgments for object-mass, count and substance nouns."
         },
         {
@@ -472,7 +472,7 @@
         "page": 336
       },
       "claim": "The chapter distinguishes heterogeneous aggregates from homogeneous substances.",
-      "evidence_summary": "People can compare quantities of furniture by counting individual items, although <i>furniture</i> has mass syntax.",
+      "evidence_summary": "People can compare quantities of furniture by counting individual items, although <i>furniture</i> has non-count syntax.",
       "finding": "Units used for judgment need not be count nouns. This limits the converse of the atomicity argument.",
       "semantic_inference": true,
       "condition": "None",
@@ -486,17 +486,17 @@
           "source": "Susan Rothstein (2010). Counting and the mass/count distinction. Journal of Semantics 27(3), 343–397.",
           "url": "https://doi.org/10.1093/jos/ffq007",
           "passage": "§3.1, p. 336. The chapter distinguishes heterogeneous aggregates from homogeneous substances.",
-          "example": "The discussion asks what counts as one fence in a context and compares other count nouns with same-kind parts.",
-          "establishes": "Published precedent for context-sensitive counting units. <i>Interval</i> is the catalogue’s extension of the argument.",
-          "locator": "§3.3, pp. 354–356."
+          "example": "Rothstein contrasts <i>furniture</i>, which denotes individual units and is “naturally atomic and nonhomogeneous” but non-count, with <i>fence</i>, which is count but homogeneous and not naturally atomic.",
+          "establishes": "Published precedent for a non-count noun whose denotation consists of individual units, the converse limit recorded here. It agrees with CGEL’s separation of heterogeneous aggregates from homogeneous substances.",
+          "locator": "§3.3, p. 356."
         },
         {
           "role": "Research source",
           "source": "David Barner & Jesse Snedeker (2005). Quantity judgments and individuation: Evidence that mass nouns count. Cognition 97(1), 41–66.",
           "url": "https://doi.org/10.1016/j.cognition.2004.06.009",
           "passage": "§3.1, p. 336. The chapter distinguishes heterogeneous aggregates from homogeneous substances.",
-          "example": "Participants could judge the quantity of an object-mass noun such as <i>furniture</i> by the number of objects, even when the competing set contained larger objects.",
-          "establishes": "Number-based judgments can accompany mass syntax. This bears directly on the converse of the proposed count-noun condition.",
+          "example": "Participants could judge the quantity of a non-count noun for discrete objects, such as <i>furniture</i>, by the number of objects, even when the competing set contained larger objects.",
+          "establishes": "Number-based judgments can accompany non-count syntax. This bears directly on the converse of the proposed count-noun condition.",
           "locator": "Experiments comparing quantity judgments for object-mass, count and substance nouns."
         },
         {
@@ -514,7 +514,7 @@
           "source": "Chapter 5 systematic audit",
           "url": null,
           "passage": "§3.1, p. 336. The chapter distinguishes heterogeneous aggregates from homogeneous substances.",
-          "example": "People can compare quantities of furniture by counting individual items, although <i>furniture</i> has mass syntax.",
+          "example": "People can compare quantities of furniture by counting individual items, although <i>furniture</i> has non-count syntax.",
           "establishes": "Units used for judgment need not be count nouns. This limits the converse of the atomicity argument.",
           "locator": "Counting an interval",
           "note": "Local source (working note, unpublished draft or local copy); not online."
@@ -630,7 +630,7 @@
           "url": "https://www.cambridge.org/core/journals/english-language-and-linguistics/article/pseudopartitives-in-english-an-hpsg-analysis/91D1DCA1960475D6766E4A084CAB0127",
           "passage": "§3.3, p. 350. The oblique in the quantificational use of <i>a great deal of</i> is restricted in number.",
           "example": "The article develops a second-noun-headed account and gives <i>a great deal of people</i> in (60), from a 2012 blog in COCA.",
-          "establishes": "A lexical restriction can fail regardless of which head analysis wins. The published corpus example bears specifically on CG-0008.",
+          "establishes": "A lexical restriction can fail regardless of which head analysis wins. The published corpus example bears directly on this claim.",
           "locator": "Alternative headedness analysis. For the narrower oblique-number issue, p. 294 (60)."
         },
         {
@@ -2266,9 +2266,9 @@
         "section": "19.3",
         "page": 515
       },
-      "claim": "<i>Both</i> is used to explain the equivalence of predicative <i>a nuisance</i> and <i>nuisances</i> with a plural subject.",
+      "claim": "<i>Both</i> is used to explain the equivalence of predicative <i>a nuisance</i> and <i>nuisances</i> with a plural subject, as in <i>Both Ed’s daughters are nuisances</i> / <i>a nuisance</i> [19ii].",
       "evidence_summary": "Fix two semicircular tiles arranged edge to edge. “<i>Both tiles together are a complete disk</i>” is true of the pair. “<i>Each tile is a complete disk</i>” is false in that very arrangement. CGEL itself allows a joint reading with <i>both</i> in the piano example on p. 377.",
-      "finding": "<i>Both</i> can occur with joint attribution. The overt <i>together</i> and the predicate <i>disk</i> make this a control on the proposed explanation. Neither this control nor the daughters’ behaviour together versus alone decides the equivalence of <i>a nuisance</i> and <i>nuisances</i> in [19ii].",
+      "finding": "<i>Both</i> can occur with joint attribution. The overt <i>together</i> and the predicate <i>disk</i> make this a control on the proposed explanation. Neither this control nor the behaviour of Ed’s daughters together versus alone decides the equivalence of <i>a nuisance</i> and <i>nuisances</i> in [19ii].",
       "semantic_inference": true,
       "condition": "None",
       "internal_tension": true,
@@ -2282,7 +2282,7 @@
           "url": null,
           "passage": "§19.3, p. 515, [19ii] and following paragraph. With <i>both</i>, CGEL says the singular and plural <i>nuisance</i> versions “are equivalent”, attributing this to distributivity. Compare §7.3, p. 377, [17i].",
           "example": "Fix two semicircular tiles arranged edge to edge. “<i>Both tiles together are a complete disk</i>” is true of the pair. “<i>Each tile is a complete disk</i>” is false in that very arrangement. CGEL itself allows a joint reading with <i>both</i> in the piano example on p. 377.",
-          "establishes": "<i>Both</i> can occur with joint attribution. The overt <i>together</i> and the predicate <i>disk</i> make this a control on the proposed explanation. Neither this control nor the daughters’ behaviour together versus alone decides the equivalence of <i>a nuisance</i> and <i>nuisances</i> in [19ii].",
+          "establishes": "<i>Both</i> can occur with joint attribution. The overt <i>together</i> and the predicate <i>disk</i> make this a control on the proposed explanation. Neither this control nor the behaviour of Ed’s daughters together versus alone decides the equivalence of <i>a nuisance</i> and <i>nuisances</i> in [19ii].",
           "locator": "Counting properties and counting their bearers",
           "note": "Local source (working note, unpublished draft or local copy); not online."
         }
@@ -2313,7 +2313,7 @@
           "source": "BMG (12 March 2026). BMG Acquires Publishing & Recording Catalog of A Flock of Seagulls.",
           "url": "https://www.bmg.com/news/bmg-acquires-publishing-and-recording-catalog-of-a-flock-of-seagulls",
           "passage": "§20.2.1, p. 517. Definite reference is taken to exclude an indefinite determiner in a proper name.",
-          "example": "BMG uses the full band name <i>A Flock of Seagulls</i> in subject position before broke through internationally.",
+          "example": "BMG uses the full band name <i>A Flock of Seagulls</i> in subject position, referring to the one band.",
           "establishes": "An indefinite article is fixed inside this conventional name. This leaves open what external determination it allows.",
           "locator": "Fifth body paragraph, beginning Formed in Liverpool in 1979."
         },

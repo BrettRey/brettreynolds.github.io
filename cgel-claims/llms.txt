@@ -1,6 +1,6 @@
 # CGEL claim catalogue
 
-> Claims from The Cambridge Grammar of the English Language (Huddleston and Pullum 2002), tested against the book itself and against usage, by Brett Reynolds. 111 claims; snapshot 2026-11-19 (7735e99).
+> Claims from The Cambridge Grammar of the English Language (Huddleston and Pullum 2002), tested against the book itself and against usage, by Brett Reynolds. 111 claims; snapshot 2026-11-19 (5adc513).
 
 ## How to use this data
 

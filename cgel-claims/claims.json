@@ -4,7 +4,7 @@
   "url": "https://brettreynolds.ca/cgel-claims/",
   "snapshot": {
     "date": "2026-11-19",
-    "commit": "7735e99",
+    "commit": "5adc513",
     "dirty_data": false
   },
   "reference": "Huddleston, Rodney & Geoffrey K. Pullum (2002), The Cambridge Grammar of the English Language. Cambridge: CUP (corrected printing used for the audit)",
@@ -571,7 +571,7 @@
       "cgel": {
         "chapter": 5,
         "section": "3.3",
-        "page": 349
+        "page": "349–350"
       },
       "claim": "The first noun heads <i>a number of protesters</i>, with number transparency where appropriate.",
       "evidence_summary": "Movement of <i>of whom</i> comes from a true partitive. <i>This number of people come</i> also challenges a simple second-noun analysis.",
@@ -1743,7 +1743,7 @@
         "section": "14.1",
         "page": 442
       },
-      "claim": "<i>The owner of a car</i> is analysed as a complement partly because owners are involved with possessions.",
+      "claim": "An <i>of</i>-phrase expressing the owner after <i>car</i>, as in [7vii] <i>the most expensive car of the man who lives next door</i>, is analysed as a complement partly because owners are involved with possessions.",
       "evidence_summary": "Cars can have mechanics and insurers as well as owners. CGEL appeals to subject-determiner status here and to oblique parallels in the subject argument.",
       "finding": "Compare relational and object nouns while holding the form of the personal oblique constant. Some of the supporting arguments depend on one another.",
       "semantic_inference": true,
@@ -1757,7 +1757,7 @@
           "role": "Audit note",
           "source": "Chapter 5 systematic audit",
           "url": null,
-          "passage": "§14.1, p. 442. <i>The owner of a car</i> is analysed as a complement partly because owners are involved with possessions.",
+          "passage": "§14.1, p. 442. An <i>of</i>-phrase expressing the owner after <i>car</i>, as in [7vii] <i>the most expensive car of the man who lives next door</i>, is analysed as a complement partly because owners are involved with possessions.",
           "example": "A car may have an owner, a mechanic and an insurer. Its having no owner at all is coherent. <i>Sister</i>, in its ordinary kinship use, requires a relation to somebody. The plausibility of association with <i>car</i> does not select ownership from the other relations.",
           "establishes": "Genitive subjecthood and oblique complementation partly support one another across pp. 442 and 472. A test for lexical selection must also control the independent constraints on personal <i>of</i>-phrases at p. 477.",
           "locator": "Structural analyses with a genuine rival",
@@ -2497,7 +2497,7 @@
           "source": "ABC Good Morning America (2007), supplied COCA concordance. Link to the memoir for the event context.",
           "url": "https://www.everand.com/book/584309297/The-Girl-on-the-Belvedere-Finding-Meaning-Through-Travel-Friendship-and-French-A-Memoir-Finding-Meaning-Through-Travel-Friendship-and-French-A",
           "passage": "Ch. 14 §5.4, p. 1237 [43] and n. 42, and Ch. 16 §10.1.4, p. 1442 [53ii]. CGEL accepts <i>get</i> or a bare participial and stars passive <i>be</i> within the complement of active perception <i>see</i>.",
-          "example": "<i>Returned a half century later to see the car be unearthed.</i>",
+          "example": "‘This five-year-old was part of the celebration and <i>returned a half century later to see the car be unearthed</i>.’ (COCA, 2007, SPOK, ABC_GMA)",
           "establishes": "The purpose clause describes intended witnessing of a physical event. Forrest’s memoir corroborates the excavation context. The wording is from the supplied concordance.",
           "locator": "Supplied concordance, row 44, ABC_GMA, SPOK. Memoir link corroborates the event."
         },

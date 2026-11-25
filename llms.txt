@@ -28,6 +28,8 @@
 
 ## Project Pages
 
+- [Damn him to hell, fuck me for giving a shit, thank you for coming: How Far Generalizations Reach in English](https://brettreynolds.ca/papers/english-imprecatives/paper.md): A corpus comparison of English subjectless expressions and the limits of generalizing across their heads. Status: Under review at English Language and Linguistics; submitted 24 November 2026. Source and analysis: https://github.com/BrettRey/english-imprecatives
+
 - [How the choice of sleep endpoint changes estimates of individual variation in primates](https://github.com/BrettRey/primate-chronotypes): A paired comparison of sleep endpoint procedures and their implications for estimated individual variation. Status: Submitted to Primates on 24 November 2026.
 - [Individual variation and forecast accuracy in titi monkey activity onset and olive baboon sleep timing](https://github.com/BrettRey/primate-chronotypes): A methodological case study of estimated individual variation and later-date prediction. Status: Sent to Animal Behavior and Cognition on 24 November 2026; acknowledgment pending.
 

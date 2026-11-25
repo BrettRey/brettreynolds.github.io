@@ -28,6 +28,9 @@
 
 ## Project Pages
 
+- [How the choice of sleep endpoint changes estimates of individual variation in primates](https://github.com/BrettRey/primate-chronotypes): A paired comparison of sleep endpoint procedures and their implications for estimated individual variation. Status: Submitted to Primates on 24 November 2026.
+- [Individual variation and forecast accuracy in titi monkey activity onset and olive baboon sleep timing](https://github.com/BrettRey/primate-chronotypes): A methodological case study of estimated individual variation and later-date prediction. Status: Sent to Animal Behavior and Cognition on 24 November 2026; acknowledgment pending.
+
 - [Humboldt: Outlines of the General Type of Language](https://brettreynolds.ca/humboldt/): A developing English research translation of Grundzüge des allgemeinen Sprachtypus, with aligned German, attributed notes, section-specific terminology and linked source/decision records. The 1906 printed base remains provisional; each section states its English-reading review status. Structured text and note records, Markdown downloads and a versioned snapshot accompany the reader.
 
 - [What Generalizes in Reliability Generalization?](https://osf.io/preprints/psyarxiv/zw4tq_v1): A methods response connecting reliability benchmarks to the consequences of measurement error for specified inferences. Status: Submitted to Research Methods in Applied Linguistics on 6 November 2026. Preprint and public source remain available: https://github.com/BrettRey/reliability-generalization-response
